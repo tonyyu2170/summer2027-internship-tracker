@@ -58,6 +58,7 @@ _US_STATES = {
 _STATE_ABBREVS = set(_US_STATES.values())
 _NON_US = ("emea", "apac", "uk", "europe", "canada", "india", "london",
            "singapore", "toronto", "ontario", "on")
+_NON_US_RE = re.compile(r"\b(?:" + "|".join(_NON_US) + r")\b")
 
 
 def canonicalize_location(loc: str) -> str | None:
@@ -68,7 +69,7 @@ def canonicalize_location(loc: str) -> str | None:
         return None
     low = s.lower()
     if "remote" in low:
-        return None if any(t in low for t in _NON_US) else "Remote (US)"
+        return None if _NON_US_RE.search(low) else "Remote (US)"
     parts = [p.strip() for p in s.split(",")]
     if len(parts) < 2:
         return None

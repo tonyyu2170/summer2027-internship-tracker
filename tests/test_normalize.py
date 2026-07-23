@@ -32,3 +32,12 @@ def test_canonicalize_location_rejects_non_us():
 def test_is_us_location():
     assert is_us_location("Chicago, IL") is True
     assert is_us_location("Toronto, ON") is False
+
+
+def test_canonicalize_location_remote_us_city_substring_not_false_positive():
+    assert canonicalize_location("Remote - Milwaukee") == "Remote (US)"
+    assert canonicalize_location("Remote - Fremont") == "Remote (US)"
+    assert canonicalize_location("Remote (US) - Dayton") == "Remote (US)"
+    assert canonicalize_location("Remote - Canton, OH") == "Remote (US)"
+    assert canonicalize_location("Remote - UK") is None
+    assert canonicalize_location("Remote - ON") is None
