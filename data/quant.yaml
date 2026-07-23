@@ -1617,3 +1617,603 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   track: Development
+- id: citadel-machine-learning-researcher-phd-intern-us-6b1743
+  company: Citadel
+  role: Machine Learning Researcher - PhD Intern - US
+  location: Houston, TX
+  link: https://www.citadel.com/careers/details/machine-learning-researcher-phd-intern-us/
+  date_posted: '2026-07-15'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: citadel-quantitative-trader-equity-quantitative-research-intern-us-66e6ef
+  company: Citadel
+  role: 'Quantitative Trader: Equity Quantitative Research - Intern - US'
+  location: Miami, FL
+  link: https://www.citadel.com/careers/details/quantitative-trader-equity-quantitative-research-intern-us/
+  date_posted: '2026-07-15'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Trading
+- id: citadel-quantitative-research-engineer-phd-intern-us-f00ebe
+  company: Citadel
+  role: Quantitative Research Engineer - PhD Intern - US
+  location: Houston, TX
+  link: https://www.citadel.com/careers/details/quantitative-research-engineer-phd-intern-us/
+  date_posted: '2026-07-15'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: citadel-quantitative-research-analyst-intern-us-cee269
+  company: Citadel
+  role: Quantitative Research Analyst - Intern - US
+  location: Miami, FL
+  link: https://www.citadel.com/careers/details/quantitative-research-analyst-intern-us/
+  date_posted: '2026-07-15'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: jump-trading-campus-quantitative-researcher-ug-ms-intern-6ad98b
+  company: Jump Trading
+  role: Campus Quantitative Researcher - UG/MS - Intern
+  location: Chicago, IL
+  link: https://www.jumptrading.com/hr/job?gh_jid=7982648
+  date_posted: '2026-07-09'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: jump-trading-campus-quantitative-trader-intern-91b1c3
+  company: Jump Trading
+  role: Campus Quantitative Trader - Intern
+  location: Chicago, IL
+  link: https://www.jumptrading.com/hr/job?gh_jid=7848371
+  date_posted: '2026-07-09'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Trading
+- id: jump-trading-campus-quantitative-researcher-phd-intern-a0b344
+  company: Jump Trading
+  role: Campus Quantitative Researcher - PhD - Intern
+  location: Chicago, IL
+  link: https://www.jumptrading.com/hr/job?gh_jid=8049938
+  date_posted: '2026-07-09'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: optiver-quantitative-research-intern-phd-summer-2027-2274af
+  company: Optiver
+  role: Quantitative Research Intern - PhD - Summer 2027
+  location: Austin, TX
+  link: https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002
+  date_posted: '2026-07-02'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: optiver-quantitative-research-intern-phd-summer-2027-c35d0f
+  company: Optiver
+  role: Quantitative Research Intern - PhD - Summer 2027
+  location: Austin, TX
+  link: https://www.optiver.com/join-us/jobs/8451781002/?gh_jid=8451781002
+  date_posted: '2026-07-02'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: optiver-quantitative-intern-summer-2027-620b2f
+  company: Optiver
+  role: Quantitative Intern - Summer 2027
+  location: Chicago, IL
+  link: https://www.optiver.com/join-us/jobs/8402215002/?gh_jid=8402215002
+  date_posted: '2026-07-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: d-e-shaw-co-quantitative-analyst-intern-new-york-summer-2027-adb63a
+  company: D. E. Shaw & Co.
+  role: Quantitative Analyst Intern - New York - Summer 2027
+  location: New York City, NY
+  link: https://www.deshaw.com/careers/5890
+  date_posted: '2026-04-29'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: d-e-shaw-co-quantitative-analyst-ph-d-intern-new-york-summer-2027-64e448
+  company: D. E. Shaw & Co.
+  role: Quantitative Analyst - Ph.D. Intern - New York - Summer 2027
+  location: New York City, NY
+  link: https://www.deshaw.com/careers/5891
+  date_posted: '2026-04-29'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: t-rowe-price-2027-quantitative-equity-investing-internship-program-2e9847
+  company: T. Rowe Price
+  role: 2027 Quantitative Equity Investing Internship Program
+  location: Baltimore, MD
+  link: https://troweprice.wd5.myworkdayjobs.com/en-US/troweprice/job/Baltimore-MD/XMLNAME-2027-Quantitative-Equity-Investing-Internship-Program_82699
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: virtu-financial-2027-internship-quantitative-researcher-phd-9c8ad0
+  company: Virtu Financial
+  role: 2027 Internship - Quantitative Researcher - PhD
+  location: New York City, NY
+  link: https://job-boards.greenhouse.io/virtu/jobs/8624424002
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: virtu-financial-internship-quantitative-trading-29dd2a
+  company: Virtu Financial
+  role: Internship - Quantitative Trading
+  location: Austin, TX
+  link: https://job-boards.greenhouse.io/virtu/jobs/8624408002
+  date_posted: '2026-07-22'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Trading
+- id: drw-quantitative-research-intern-3ef50f
+  company: DRW
+  role: Quantitative Research Intern
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/drweng/jobs/7818540
+  date_posted: '2026-07-14'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: drw-quantitative-trading-analyst-intern-968162
+  company: DRW
+  role: Quantitative Trading Analyst Intern
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/drweng/jobs/7668776
+  date_posted: '2026-07-14'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Trading
+- id: tower-research-capital-quantitative-trader-intern-summer-2027-3f1648
+  company: Tower Research Capital
+  role: Quantitative Trader Intern - Summer 2027
+  location: Chicago, IL
+  link: https://www.tower-research.com/open-positions/?gh_jid=8024128
+  date_posted: '2026-07-06'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Trading
+- id: tower-research-capital-quantitative-trader-intern-phd-9e55c4
+  company: Tower Research Capital
+  role: Quantitative Trader Intern - PhD
+  location: New York City, NY
+  link: https://www.tower-research.com/open-positions/?gh_jid=8024138
+  date_posted: '2026-07-06'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Trading
+- id: stevens-capital-management-quantitative-research-analyst-internship-29a025
+  company: Stevens Capital Management
+  role: Quantitative Research Analyst Internship
+  location: Radnor, PA
+  link: https://job-boards.greenhouse.io/scm/jobs/721895
+  date_posted: '2026-05-24'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: cme-group-quant-risk-management-intern-year-round-b0121a
+  company: CME Group
+  role: Quant Risk Management Intern - Year Round
+  location: New York City, NY
+  link: https://cmegroup.wd1.myworkdayjobs.com/en-US/cme_careers/job/New-York---300-Vesey-Street/Quant-Risk-Management-Intern---Year-Round_34278
+  date_posted: '2026-04-13'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: radix-trading-quantitative-technologist-c-intern-ada60c
+  company: Radix Trading
+  role: Quantitative Technologist - C++ Intern
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/radixuniversity/jobs/8500265002
+  date_posted: '2026-04-10'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jump-trading-campus-systems-engineer-intern-5098e3
+  company: Jump Trading
+  role: Campus Systems Engineer Intern
+  location: Chicago, IL
+  link: https://www.jumptrading.com/hr/job?gh_jid=8007788
+  date_posted: '2026-07-09'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tower-research-quantitative-developer-intern-d2babf
+  company: Tower Research
+  role: Quantitative Developer Intern
+  location: Chicago, IL
+  link: https://tower-research.com/open-positions/?gh_jid=8044334
+  date_posted: '2026-07-07'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: susquehanna-investment-group-quantitative-strategy-developer-intern-a33568
+  company: Susquehanna Investment Group
+  role: Quantitative Strategy Developer Intern
+  location: Bala Cynwyd, PA
+  link: https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us
+  date_posted: '2026-07-07'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: voloridge-investment-management-quantitative-developer-intern-9d8be0
+  company: Voloridge Investment Management
+  role: Quantitative Developer Intern
+  location: Jupiter, FL
+  link: https://voloridge-investment-management.hiringthing.com/job/1013126/quantitative-developer-intern-2027?s=lif
+  date_posted: '2026-05-22'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: aquatic-capital-software-engineer-intern-efdc36
+  company: Aquatic Capital
+  role: Software Engineer Intern
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/embed/job_app?for=aquaticcapitalmanagement&token=8489233002
+  date_posted: '2026-05-22'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: point72-investment-analyst-intern-point72-academy-67aede
+  company: Point72
+  role: Investment Analyst Intern, Point72 Academy
+  location: New York, NY
+  link: https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081
+  date_posted: '2026-04-19'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: point72-quantitative-researcher-intern-a97c77
+  company: Point72
+  role: Quantitative Researcher Intern
+  location: New York, NY
+  link: https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-researcher-internship&jobCode=CSS-0012295
+  date_posted: '2026-04-19'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: point72-quantitative-developer-intern-251025
+  company: Point72
+  role: Quantitative Developer Intern
+  location: New York, NY
+  link: https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-developer-internship&jobCode=CSS-0012293
+  date_posted: '2026-04-19'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: d-e-shaw-software-developer-ph-d-intern-new-15cbfa
+  company: D. E. Shaw
+  role: Software Developer, Ph.D. Intern (New...
+  location: New York, NY
+  link: https://www.deshaw.com/careers/software-developer-ph-d-intern-new-york-summer-2027-5893
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: d-e-shaw-systems-administrator-intern-new-york-5a9179
+  company: D. E. Shaw
+  role: Systems Administrator Intern (New York)
+  location: New York, NY
+  link: https://www.deshaw.com/careers/systems-administrator-intern-new-york-5921
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: imc-trading-quantitative-research-intern-phd-450eb7
+  company: IMC Trading
+  role: Quantitative Research Intern (PhD) - ...
+  location: Chicago, IL
+  link: https://job-boards.eu.greenhouse.io/imc/jobs/4907400101
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: point72-quantitative-research-intern-nlp-cc3d14
+  company: Point72
+  role: Quantitative Research Intern (NLP)
+  location: New York, NY
+  link: https://boards.greenhouse.io/point72/jobs/8018862002?gh_jid=8018862002
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: point72-summer-2027-quantitative-research-int-1e1785
+  company: Point72
+  role: Summer 2027 Quantitative Research Int...
+  location: New York, NY
+  link: https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: point72-quantitative-research-intern-b1a72c
+  company: Point72
+  role: Quantitative Research Intern
+  location: New York, NY
+  link: https://boards.greenhouse.io/point72/jobs/7297667002?gh_jid=7297667002
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: optiver-institutional-trader-intern-2027-sta-31d32d
+  company: Optiver
+  role: Institutional Trader Intern (2027 Sta...
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/optiverprivate/jobs/8402208002
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Trading
+- id: walleye-capital-volatility-trading-developer-intern-summer-2027-89b05c
+  company: Walleye Capital
+  role: Volatility Trading Developer Intern (Summer 2027)
+  location: New York, NY
+  link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006
+  date_posted: '2026-06-01'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development

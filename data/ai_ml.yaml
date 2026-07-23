@@ -280,6 +280,1586 @@
   status: open
   sources:
   - greenhouse
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: microsoft-applied-science-phd-microsoft-ai-internship-opportunities-redmond-b3f5d6
+  company: Microsoft
+  role: 'Applied Science: PhD Microsoft AI Internship Opportunities - Redmond'
+  location: Washington, DC
+  link: https://apply.careers.microsoft.com/careers/job/1970393556868271
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: meta-research-scientist-intern-monetization-computer-vision-phd-41a185
+  company: Meta
+  role: Research Scientist Intern - Monetization Computer Vision - PhD
+  location: Menlo Park, CA
+  link: https://www.metacareers.com/jobs/2281218542616482
+  date_posted: '2026-07-10'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: meta-research-scientist-intern-state-estimation-for-dexterous-manipulation-phd-54dceb
+  company: Meta
+  role: Research Scientist Intern - State Estimation for Dexterous Manipulation -
+    PhD
+  location: Redmond, WA
+  link: https://www.metacareers.com/jobs/2774289902955470
+  date_posted: '2026-06-13'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: microsoft-research-intern-self-improving-ai-f94c66
+  company: Microsoft
+  role: Research Intern - Self-Improving AI
+  location: Cambridge, MA
+  link: https://apply.careers.microsoft.com/careers/job/1970393556867858
+  date_posted: '2026-05-19'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-applied-scientist-intern-trust-and-safety-multimodal-foundation-model-global-frontier-tech-recruitment-program-2027-start-phd-d31b44
+  company: TikTok
+  role: Applied Scientist Intern - Trust and Safety - Multimodal Foundation Model
+    - Global Frontier Tech Recruitment Program - 2027 Start - PhD
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7633670871815670069
+  date_posted: '2026-04-28'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-research-scientist-intern-tiktok-search-generative-ai-llm-global-frontier-tech-recruitment-program-2027-start-phd-5b77be
+  company: TikTok
+  role: Research Scientist Intern - TikTok Search / Generative AI - LLM - Global Frontier
+    Tech Recruitment Program - 2027 Start - PhD
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7629250876813642037
+  date_posted: '2026-04-16'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-research-scientist-intern-e-commerce-recommendation-llm-applications-global-frontier-tech-recruitment-program-2027-start-phd-1be6cd
+  company: TikTok
+  role: Research Scientist Intern- E-commerce Recommendation- LLM Applications - Global
+    Frontier Tech Recruitment Program - 2027 Start - PhD
+  location: Seattle, WA
+  link: https://lifeattiktok.com/search/7629188397976586501
+  date_posted: '2026-04-16'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: jump-trading-campus-ai-research-engineer-intern-72896a
+  company: Jump Trading
+  role: Campus AI Research Engineer - Intern
+  location: Chicago, IL
+  link: https://www.jumptrading.com/hr/job?gh_jid=8052281
+  date_posted: '2026-07-09'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: jump-trading-campus-ai-research-engineer-deep-learning-intern-78f1fe
+  company: Jump Trading
+  role: Campus AI Research Engineer - Deep Learning - Intern
+  location: Chicago, IL
+  link: https://www.jumptrading.com/hr/job?gh_jid=8052338
+  date_posted: '2026-07-09'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: jump-trading-campus-ai-research-engineer-research-automation-intern-5ce7cd
+  company: Jump Trading
+  role: Campus AI Research Engineer - Research Automation - Intern
+  location: Chicago, IL
+  link: https://www.jumptrading.com/hr/job?gh_jid=8052351
+  date_posted: '2026-07-09'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: jane-street-machine-learning-engineer-summer-internship-970fae
+  company: Jane Street
+  role: Machine Learning Engineer Summer Internship
+  location: New York City, NY
+  link: https://www.janestreet.com/join-jane-street/position/8611307002
+  date_posted: '2026-07-07'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: jane-street-machine-learning-researcher-summer-internship-1f186b
+  company: Jane Street
+  role: Machine Learning Researcher Summer Internship
+  location: New York City, NY
+  link: https://www.janestreet.com/join-jane-street/position/8384490002
+  date_posted: '2026-07-07'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: opusclip-ai-research-intern-a51a0a
+  company: OpusClip
+  role: AI Research Intern
+  location: Remote (US)
+  link: https://jobs.ashbyhq.com/opusclip/1966160d-8b4a-40f8-96c5-39a6d81122c2
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: cadent-enterprise-ai-intern-89f80d
+  company: Cadent
+  role: Enterprise AI Intern
+  location: New York City, NY
+  link: https://careers-cadent.icims.com/jobs/1406/enterprise-ai-intern/job
+  date_posted: '2026-07-22'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: ss-c-healthcare-ai-automation-intern-ef967b
+  company: SS&C
+  role: Healthcare AI & Automation Intern
+  location: Remote (US)
+  link: https://ssctech.wd1.myworkdayjobs.com/en-US/ssctechnologies/job/Remote---Florida-US/Healthcare-AI---Automation-Intern_R45126
+  date_posted: '2026-07-22'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: arkansas-center-for-data-sciences-ai-operations-intern-caddell-reynolds-9d10ff
+  company: Arkansas Center for Data Sciences
+  role: AI Operations Intern-Caddell Reynolds
+  location: Fort Smith, AR
+  link: https://jobs.lever.co/acds/01fdf41b-a835-4e00-8d01-0275677a8f08
+  date_posted: '2026-07-21'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: output-biosciences-research-intern-phd-machine-learning-e3770a
+  company: Output Biosciences
+  role: Research Intern - PhD - Machine Learning
+  location: Remote (US)
+  link: https://jobs.ashbyhq.com/output/da2723ca-a418-49f1-b7da-a4f383dd8239
+  date_posted: '2026-07-20'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: ing-ai-finance-transformation-intern-5f51cf
+  company: ING
+  role: AI & Finance Transformation Intern
+  location: Waco, TX
+  link: https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/AI---Finance-Transformation-Intern_REQ-10118227
+  date_posted: '2026-07-16'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: datarobot-agentic-ai-intern-fd3419
+  company: DataRobot
+  role: Agentic AI Intern
+  location: Remote (US)
+  link: https://datarobot.wd1.myworkdayjobs.com/en-US/datarobot_external_careers/job/Boston-Massachusetts-US/Agentic-AI-Intern_R-102729
+  date_posted: '2026-07-15'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tencent-research-intern-video-world-models-research-ml-systems-a01b5f
+  company: Tencent
+  role: Research Intern - Video World Models - Research & ML Systems
+  location: Palo Alto, CA
+  link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1
+  date_posted: '2026-07-15'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: adaptive-ai-product-operations-intern-f047ad
+  company: Adaptive
+  role: AI Product Operations Intern
+  location: New York City, NY
+  link: https://jobs.ashbyhq.com/adaptivesecurity/a941849b-bc2b-421d-b58c-bd76cfa31b1b
+  date_posted: '2026-07-14'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: arkansas-center-for-data-sciences-ai-operations-intern-naukr-ai-a39cc4
+  company: Arkansas Center for Data Sciences
+  role: AI Operations Intern - Naukr AI
+  location: Bentonville, AR
+  link: https://jobs.lever.co/acds/41bee5e2-6477-428f-b359-34b4071d545f
+  date_posted: '2026-07-14'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: cpi-card-group-intern-ai-automation-process-analyst-354a2f
+  company: CPI Card Group
+  role: Intern-AI Automation & Process Analyst
+  location: Littleton, CO
+  link: https://careers-cpicardgroup.icims.com/jobs/11215/intern-ai-automation-%26-process-analyst/job
+  date_posted: '2026-07-14'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: xsolla-ai-first-engineering-intern-4404e4
+  company: Xsolla
+  role: AI-First Engineering Intern
+  location: Los Angeles, CA
+  link: https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6
+  date_posted: '2026-07-11'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: xsolla-ai-first-engineering-intern-6c3c72
+  company: Xsolla
+  role: AI-First Engineering Intern
+  location: Raleigh, NC
+  link: https://jobs.lever.co/xsolla/5d5fd6b3-d82f-437a-b251-abf4674ac874
+  date_posted: '2026-07-11'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: faraday-future-finance-ai-automation-intern-150d72
+  company: Faraday Future
+  role: Finance & AI Automation Intern
+  location: El Segundo, CA
+  link: https://job-boards.greenhouse.io/faradayfuture/jobs/7799326003
+  date_posted: '2026-07-10'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: firework-ai-content-intern-6d255d
+  company: Firework
+  role: AI Content Intern
+  location: San Mateo, CA
+  link: https://jobs.lever.co/fireworkhq/30defeef-fd18-4a43-aa77-3462cca3a859
+  date_posted: '2026-07-10'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: cotiviti-intern-ai-engineer-800380
+  company: Cotiviti
+  role: Intern - AI Engineer
+  location: Remote (US)
+  link: https://careers-cotiviti.icims.com/jobs/19531/intern---ai-engineer/job
+  date_posted: '2026-07-09'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: centific-research-intern-applied-reinforcement-learning-0fc919
+  company: Centific
+  role: Research Intern — Applied Reinforcement Learning
+  location: Remote (US)
+  link: https://centific.wd1.myworkdayjobs.com/en-US/centific_global/job/Remote-Work-USA/Research-Intern---Applied-Reinforcement-Learning_JR106882
+  date_posted: '2026-07-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tencent-hunyuan-multimodal-algorithm-researcher-intern-omni-modal-bfb175
+  company: Tencent
+  role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal​​
+  location: Palo Alto, CA
+  link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-Intern-Omni-Modal---_R107051
+  date_posted: '2026-07-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tencent-hunyuan-multimodal-reinforcement-learning-research-intern-f653ee
+  company: Tencent
+  role: Hunyuan Multimodal Reinforcement Learning Research Intern
+  location: Palo Alto, CA
+  link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Reinforcement-Learning-Research-Intern_R107084-1
+  date_posted: '2026-07-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tencent-hunyuan-multimodal-algorithm-researcher-intern-omni-modal-ad40cf
+  company: Tencent
+  role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal​​
+  location: Palo Alto, CA
+  link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-intern-Omni-Modal---_R106650
+  date_posted: '2026-07-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tencent-research-internship-reinforcement-learning-for-large-foundation-models-374c19
+  company: Tencent
+  role: Research Internship - Reinforcement Learning for Large Foundation Models
+  location: Bellevue, WA
+  link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-Washington-Bellevue/Research-Internship---Reinforcement-Learning-for-Large-Foundation-Models_R106337-1
+  date_posted: '2026-07-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: nelnet-intern-ai-engineer-110df6
+  company: Nelnet
+  role: Intern - AI Engineer
+  location: Lincoln, NE
+  link: https://nelnet.wd1.myworkdayjobs.com/en-US/mynelnet/job/Lincoln-NE/Intern---AI-Engineer_R22763
+  date_posted: '2026-07-01'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: sony-research-intern-on-generative-and-protective-ai-for-content-creation-9507a3
+  company: Sony
+  role: Research Intern on Generative and Protective AI for Content Creation
+  location: Remote (US)
+  link: https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335
+  date_posted: '2026-06-30'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: cotiviti-intern-generative-ai-research-engineer-e2606f
+  company: Cotiviti
+  role: Intern - Generative AI Research Engineer
+  location: Remote (US)
+  link: https://careers-cotiviti.icims.com/jobs/19341/intern---generative-ai-research-engineer/job
+  date_posted: '2026-06-15'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: cotiviti-intern-agentic-ai-research-d3daa3
+  company: Cotiviti
+  role: Intern - Agentic AI Research
+  location: Remote (US)
+  link: https://careers-cotiviti.icims.com/jobs/19416/intern---agentic-ai-research/job
+  date_posted: '2026-06-15'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: institute-of-foundation-models-ai-research-internship-wm-10f1eb
+  company: Institute of Foundation Models
+  role: AI Research Internship - WM
+  location: Sunnyvale, CA
+  link: https://jobs.lever.co/ifm-us/3eec355c-6dde-4a3e-8cdf-b2a8930d5678
+  date_posted: '2026-06-13'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: scale-ai-ai-builder-intern-e12b31
+  company: Scale AI
+  role: AI Builder Intern
+  location: San Francisco, CA
+  link: https://job-boards.greenhouse.io/scaleai/jobs/4703343005
+  date_posted: '2026-06-06'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: eragon-applied-ai-intern-705205
+  company: Eragon
+  role: Applied AI Intern
+  location: San Francisco, CA
+  link: https://jobs.ashbyhq.com/eragon/0b90ea4a-8684-4ae1-a7cc-c998db6e862e
+  date_posted: '2026-06-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: pony-ai-research-intern-deep-learning-4304fd
+  company: Pony.ai
+  role: Research Intern - Deep Learning
+  location: Fremont, CA
+  link: https://apply.workable.com/pony-dot-ai/j/4C1F53EF5D/
+  date_posted: '2026-05-28'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: egra-ai-researcher-engineer-intern-1e79e0
+  company: Egra
+  role: AI Researcher / Engineer / Intern
+  location: New York City, NY
+  link: https://jobs.ashbyhq.com/egra/6f295102-6330-4a9e-9fc4-9b414e620003
+  date_posted: '2026-05-24'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plus-deep-learning-research-intern-2b207c
+  company: Plus
+  role: Deep Learning Research Intern
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/2f2c1cd9-f099-483a-9717-0da83a391333
+  date_posted: '2026-05-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plus-deep-learning-intern-291562
+  company: Plus
+  role: Deep Learning Intern
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/58d77886-bf3a-4707-8af8-e1af47162e2e
+  date_posted: '2026-05-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plus-reinforcement-learning-planning-research-intern-a302db
+  company: Plus
+  role: Reinforcement Learning Planning Research Intern
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/7565aed4-41b0-44e9-8608-3ccd07e18262
+  date_posted: '2026-05-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plus-computer-vision-engineer-intern-d89cfc
+  company: Plus
+  role: Computer Vision Engineer Intern
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/c143df6e-66c2-4498-b19b-8323f9954ca9
+  date_posted: '2026-05-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: quadric-ai-inference-engineer-intern-model-pruning-bc24ec
+  company: Quadric
+  role: AI Inference Engineer Intern - Model Pruning
+  location: Burlingame, CA
+  link: https://apply.workable.com/quadric-dot-i-o-inc/j/870833317E/
+  date_posted: '2026-05-22'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plus-machine-learning-engineer-intern-529394
+  company: Plus
+  role: Machine Learning Engineer Intern
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/5d71c173-fef1-409f-b3f0-750e3b828266
+  date_posted: '2026-05-21'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: eluvio-last-minute-ai-machine-learning-summer-internship-gen-ai-multimodal-7efd7d
+  company: Eluvio
+  role: Last Minute AI-Machine Learning Summer Internship - Gen AI - Multimodal
+  location: Berkeley, CA
+  link: https://apply.workable.com/eluvio/j/F70F3473E7/
+  date_posted: '2026-05-09'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: xpeng-ai-intern-vla-deployment-65a44f
+  company: XPENG
+  role: AI Intern - VLA Deployment
+  location: Santa Clara, CA
+  link: https://job-boards.greenhouse.io/xpengmotors/jobs/8535409002
+  date_posted: '2026-05-05'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: marvell-applied-machine-learning-scientist-intern-phd-9a19e5
+  company: Marvell
+  role: Applied Machine Learning Scientist Intern - PhD
+  location: Santa Clara, CA
+  link: https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Santa-Clara-CA/Applied-Machine-Learning-Scientist-Intern---PhD_2502662
+  date_posted: '2026-04-27'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: constellation-space-graduate-phd-research-intern-machine-learning-1617bd
+  company: Constellation Space
+  role: Graduate/PhD Research Intern - Machine Learning
+  location: Seattle, WA
+  link: https://jobs.ashbyhq.com/constellationspace/b763d4ba-7b77-479b-89a0-f632d9d02f4a
+  date_posted: '2026-04-25'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tifin-ai-engineering-intern-0fd9b2
+  company: TIFIN
+  role: AI Engineering Intern
+  location: Tiffin, OH
+  link: https://tifin.com/careers/apply/?gh_jid=5981740004
+  date_posted: '2026-04-25'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: kion-group-ai-internships-8adcda
+  company: Kion Group
+  role: AI Internships
+  location: Wauwatosa, WI
+  link: https://kiongroup.wd3.myworkdayjobs.com/en-US/kion_scs/job/Wauwatosa-WI-United-States/AI-Internships_JR-0088855
+  date_posted: '2026-04-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: asm-global-automation-ai-technology-experience-intern-07541e
+  company: ASM Global
+  role: Automation & AI Technology Experience Intern
+  location: West Conshohocken, PA
+  link: https://asmglobal.wd1.myworkdayjobs.com/en-US/careers/job/West-Conshohocken-PA/Automation---AI-Technology-Experience-Intern_R100122152
+  date_posted: '2026-04-17'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: cotiviti-intern-generative-ai-agentic-ai-research-ad8464
+  company: Cotiviti
+  role: Intern - Generative AI/Agentic AI/Research
+  location: Remote (US)
+  link: https://careers-cotiviti.icims.com/jobs/18929/intern---generative-ai-agentic-ai-research/job
+  date_posted: '2026-04-15'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: xterra-ai-research-scientist-intern-f2109b
+  company: Xterra AI
+  role: Research Scientist - Intern
+  location: San Francisco, CA
+  link: https://jobs.ashbyhq.com/xterra%20ai/bc481f5a-3365-4048-8533-0c7728db512b
+  date_posted: '2026-04-15'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: workato-intern-ai-engineering-3d23aa
+  company: Workato
+  role: Intern - AI Engineering
+  location: San Francisco, CA
+  link: https://www.workato.com/careers?gh_jid=8492935002#open-roles
+  date_posted: '2026-04-10'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: interdigital-generative-ai-implementation-intern-5f6e5f
+  company: InterDigital
+  role: Generative AI Implementation Intern
+  location: Conshohocken, PA
+  link: https://interdigital.wd5.myworkdayjobs.com/en-US/interdigital_intern/job/Conshohocken-PA/Generative-AI-Implementation-Intern_REQ26-1093
+  date_posted: '2026-04-03'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: penn-state-ai-ml-research-and-development-intern-412d07
+  company: Penn State
+  role: AI/ML Research and Development Intern
+  location: Reston, VA
+  link: https://psu.wd1.myworkdayjobs.com/en-US/psu_staff/job/Penn-State-University-Park/AI-ML-Research-and-Development-Intern_REQ_0000077083-1
+  date_posted: '2026-04-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: etched-infrastructure-intern-86fd8e
+  company: Etched
+  role: Infrastructure Intern
+  location: San Jose, CA
+  link: https://jobs.ashbyhq.com/Etched/80926a71-0a62-4bf8-a877-b6d96df279b7
+  date_posted: '2026-05-22'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: etched-supercomputing-intern-76c629
+  company: Etched
+  role: Supercomputing Intern
+  location: San Jose, CA
+  link: https://jobs.ashbyhq.com/Etched/2d7039e2-190e-4039-b5a9-fff9efa7cc8e
+  date_posted: '2026-05-22'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: trata-research-scientist-intern-fa3614
+  company: Trata
+  role: Research Scientist Intern 🇺🇸
+  location: San Francisco, CA
+  link: https://www.workatastartup.com/jobs/94620
+  date_posted: '2026-05-14'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: terranox-ai-summer-intern-ai-ml-engineering-a6eab1
+  company: Terranox AI
+  role: Summer Intern - AI/ML Engineering 🇺🇸
+  location: San Francisco, CA
+  link: https://www.workatastartup.com/jobs/94631
+  date_posted: '2026-05-14'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-llm-post-training-engineer-intern-research-product-a36fc9
+  company: TikTok
+  role: LLM Post-training Engineer Intern, Research & Product
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7631599293708126517
+  date_posted: '2026-04-24'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: intercontinental-exchange-inc-artificial-intelligence-data-machine-learning-intern-f935cf
+  company: Intercontinental Exchange, Inc.
+  role: Artificial Intelligence, Data & Machine Learning Intern
+  location: New York, NY
+  link: https://careers.ice.com/jobs/12830?lang=en-us&iis=LinkedIn&iisn=Linkedin&mode=apply
+  date_posted: '2026-04-20'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bytedance-software-engineer-intern-applied-mac-c95b8b
+  company: ByteDance
+  role: Software Engineer Intern (Applied Mac...
+  location: San Jose, CA
+  link: https://joinbytedance.com/search/7533045355162044690
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: fortinet-software-development-intern-genai-c00b76
+  company: Fortinet
+  role: Software Development Intern - GenAI
+  location: Santa Clara, CA
+  link: https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22401
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bytedance-machine-learning-engineer-intern-glo-620c2a
+  company: ByteDance
+  role: Machine Learning Engineer Intern (Glo...
+  location: Seattle, WA
+  link: https://joinbytedance.com/search/7535951608832657682
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bytedance-machine-learning-engineer-intern-glo-2d8070
+  company: ByteDance
+  role: Machine Learning Engineer Intern (Glo...
+  location: Seattle, WA
+  link: https://joinbytedance.com/search/7535953226975054098
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bytedance-machine-learning-engineer-intern-e-c-c72c34
+  company: ByteDance
+  role: Machine Learning Engineer Intern (E-C...
+  location: Seattle, WA
+  link: https://joinbytedance.com/search/7543005612200970503
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: boys-town-artificial-intelligence-machine-lea-e442c0
+  company: Boys Town
+  role: Artificial Intelligence & Machine Lea...
+  location: Omaha, NE
+  link: https://boystown.wd1.myworkdayjobs.com/boystowncareers/job/Omaha-NE/Artificial-Intelligence---Machine-Learning-Intern_REQ-2026-8543-1
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: institute-for-foundation-models-ai-research-internship-wm-6a4971
+  company: Institute for Foundation Models
+  role: AI Research Internship - WM
+  location: Sunnyvale, CA
+  link: https://jobs.lever.co/ifm-us/3eec355c-6dde-4a3e-8cdf-b2a8930d5678/apply
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plusai-deep-learning-intern-e6aaa5
+  company: PlusAI
+  role: Deep Learning Intern
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/58d77886-bf3a-4707-8af8-e1af47162e2e/apply
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plusai-machine-learning-engineer-intern-cb8863
+  company: PlusAI
+  role: Machine Learning Engineer Intern
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/5d71c173-fef1-409f-b3f0-750e3b828266/apply
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plusai-machine-learning-engineer-intern-pl-529a36
+  company: PlusAI
+  role: Machine Learning Engineer Intern - Pl...
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/91a07eb1-2244-48bf-a65b-dc166a327ddc/apply
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: fortinet-ai-intern-d9de77
+  company: Fortinet
+  role: AI Intern
+  location: Sunnyvale, CA
+  link: https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22741
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: truveta-ml-phd-intern-llms-generative-ai-4e5d78
+  company: Truveta
+  role: ML PhD Intern - LLMs & Generative AI
+  location: Seattle, WA
+  link: https://job-boards.greenhouse.io/truveta/jobs/5712997004
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: neuralink-machine-learning-engineer-intern-3205d9
+  company: Neuralink
+  role: Machine Learning Engineer Intern
+  location: South San Francisco, CA
+  link: https://boards.greenhouse.io/neuralink/jobs/6594261003?gh_jid=6594261003
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: samaya-ai-ml-research-intern-2a424e
+  company: Samaya AI
+  role: ML Research Intern
+  location: Mountain View, CA
+  link: https://job-boards.greenhouse.io/samayaai/jobs/4652765007
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: intuitive-computer-vision-engineering-intern-c3873f
+  company: Intuitive
+  role: Computer Vision Engineering Intern - ...
+  location: Sunnyvale, CA
+  link: https://jobs.smartrecruiters.com/Intuitive/744000133458290
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bytedance-applied-research-intern-ai-safety-s-3a3777
+  company: ByteDance
+  role: Applied Research Intern - AI Safety S...
+  location: San Jose, CA
+  link: https://joinbytedance.com/search/7645070235035044101
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bytedance-research-scientist-intern-seed-respo-1ec408
+  company: ByteDance
+  role: Research Scientist Intern (Seed Respo...
+  location: San Jose, CA
+  link: https://joinbytedance.com/search/7642762054696896773
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tencent-research-intern-video-world-models-22f921
+  company: Tencent
+  role: Research Intern – Video World Models ...
+  location: Palo Alto, CA
+  link: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-applied-scientist-intern-trust-and-b4cc95
+  company: TikTok
+  role: Applied Scientist Intern - Trust and ...
+  location: Seattle, WA
+  link: https://lifeattiktok.com/position/7633668456744503557
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bosch-group-research-intern-world-action-model-cb0362
+  company: Bosch Group
+  role: Research Intern – World-Action Model ...
+  location: Sunnyvale, CA
+  link: https://jobs.smartrecruiters.com/BoschGroup/744000136313549
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tencent-hunyuan-multimodal-reinforcement-lear-f69dd7
+  company: Tencent
+  role: Hunyuan Multimodal Reinforcement Lear...
+  location: Palo Alto, CA
+  link: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Reinforcement-Learning-Research-Intern_R107084-1
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tencent-research-internship-reinforcement-l-587c8b
+  company: Tencent
+  role: Research Internship – Reinforcement L...
+  location: Bellevue, WA
+  link: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-Washington-Bellevue/Research-Internship---Reinforcement-Learning-for-Large-Foundation-Models_R106337-1
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: imc-trading-machine-learning-research-intern-su-f75a99
+  company: IMC Trading
+  role: Machine Learning Research Intern - Su...
+  location: Chicago, IL
+  link: https://job-boards.eu.greenhouse.io/imc/jobs/4907430101
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: sony-research-intern-on-generative-and-pro-ccc426
+  company: Sony
+  role: Research Intern on Generative and Pro...
+  location: New York, NY
+  link: https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: netflix-ai-ml-scientist-intern-aims-ai-found-b52dbc
+  company: Netflix
+  role: AI/ML Scientist Intern, AIMS AI Found...
+  location: Los Gatos, CA
+  link: https://explore.jobs.netflix.net/careers/job/790316547536
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: sony-research-intern-on-generative-and-pro-b08a86
+  company: Sony
+  role: Research Intern on Generative and Pro...
+  location: Remote (US)
+  link: https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---Michigan/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-118961
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: nissan-autonomous-driving-applications-resea-7521e8
+  company: Nissan
+  role: Autonomous Driving Applications Resea...
+  location: Santa Clara, CA
+  link: https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/Autonomous-Driving-Applications-Research-Intern_R00209383
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: together-ai-systems-research-engineer-intern-gp-9de310
+  company: Together AI
+  role: Systems Research Engineer Intern - GP...
+  location: San Francisco, CA
+  link: https://job-boards.greenhouse.io/togetherai/jobs/5157559007
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: newsbreak-research-intern-agent-rl-training-bf51c7
+  company: NewsBreak
+  role: Research Intern, Agent RL Training
+  location: Mountain View, CA
+  link: https://job-boards.greenhouse.io/newsbreak/jobs/4684555006
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plusai-reinforcement-learning-planning-resea-789a78
+  company: PlusAI
+  role: Reinforcement Learning Planning Resea...
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/7565aed4-41b0-44e9-8608-3ccd07e18262/apply
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plusai-deep-learning-research-intern-29f3d9
+  company: PlusAI
+  role: Deep Learning Research Intern
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/2f2c1cd9-f099-483a-9717-0da83a391333/apply
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: plusai-research-engineer-intern-mapping-75fcbf
+  company: PlusAI
+  role: Research Engineer Intern - Mapping & ...
+  location: Santa Clara, CA
+  link: https://jobs.lever.co/plus-2/efbb82d3-1c4a-4fc9-8b40-ee1545085061/apply
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: axiomatic-ai-internship-research-uncertainty-q-0cd516
+  company: Axiomatic AI
+  role: Internship - Research  (Uncertainty Q...
+  location: Boston, MA
+  link: https://job-boards.eu.greenhouse.io/axiomaticai/jobs/4845020101
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: haize-labs-research-intern-972de8
+  company: Haize Labs
+  role: Research Intern
+  location: New York, NY
+  link: https://job-boards.greenhouse.io/haizelabs/jobs/4070377008
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bot-auto-intern-deep-learning-engineer-944a25
+  company: Bot Auto
+  role: Intern, Deep Learning Engineer
+  location: Houston, TX
+  link: https://job-boards.greenhouse.io/botauto/jobs/5289440008
+  date_posted: '2026-07-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: sony-research-intern-on-generative-and-protective-ai-for-content-creation-3b4399
+  company: Sony
+  role: Research Intern on Generative and Protective AI for Content Creation
+  location: New York, NY
+  link: https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335
+  date_posted: '2026-06-30'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: nio-ai-robotics-researcher-intern-dexterous-manipulation-1914ad
+  company: Nio
+  role: AI Robotics Researcher Intern (Dexterous Manipulation)
+  location: San Jose, CA
+  link: https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144
+  date_posted: '2026-06-19'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tenstorrent-cpu-ai-workload-analysis-intern-8f6a10
+  company: Tenstorrent
+  role: CPU/AI Workload Analysis Intern
+  location: Santa Clara, CA
+  link: https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5158533007
+  date_posted: '2026-06-08'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: xpeng-motors-ai-infra-onboard-performance-intern-3fcc43
+  company: XPENG Motors
+  role: AI Infra Onboard Performance Intern
+  location: Santa Clara, CA
+  link: https://job-boards.greenhouse.io/xpengmotors/jobs/8581353002
+  date_posted: '2026-06-05'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null

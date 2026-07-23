@@ -28,3 +28,483 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+- id: meta-research-scientist-intern-nmr-analysis-automation-7506d4
+  company: Meta
+  role: Research Scientist Intern - NMR Analysis Automation
+  location: Redmond, WA
+  link: https://www.metacareers.com/jobs/1418337243438665
+  date_posted: '2026-07-03'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: jane-street-data-engineer-summer-internship-b91e6b
+  company: Jane Street
+  role: Data Engineer Summer Internship
+  location: New York City, NY
+  link: https://www.janestreet.com/join-jane-street/position/8631973002
+  date_posted: '2026-07-14'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: jump-trading-campus-data-engineer-intern-bfb324
+  company: Jump Trading
+  role: Campus Data Engineer - Intern
+  location: Chicago, IL
+  link: https://www.jumptrading.com/hr/job?gh_jid=8002998
+  date_posted: '2026-07-09'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: decisions-data-analyst-intern-c93eb7
+  company: Decisions
+  role: Data Analyst Intern
+  location: Remote (US)
+  link: https://decisions.com/jobs-listing/5192047007?gh_jid=5192047007
+  date_posted: '2026-07-22'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: solar-turbines-2027-internship-gas-compressor-data-analyst-9df566
+  company: Solar Turbines
+  role: '2027 Internship: Gas Compressor Data Analyst'
+  location: San Diego, CA
+  link: https://cat.wd5.myworkdayjobs.com/en-US/solarturbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786
+  date_posted: '2026-07-22'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: capital-one-current-master-s-data-science-internship-summer-2027-c8c307
+  company: Capital One
+  role: Current Master's - Data Science Internship - Summer 2027
+  location: McLean, VA
+  link: https://capitalone.wd12.myworkdayjobs.com/en-US/capital_one/job/McLean-VA/Current-Master-s---Data-Science-Internship---Summer-2027_R244285-1
+  date_posted: '2026-07-20'
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: capital-one-current-phd-data-science-internship-summer-2027-b09df0
+  company: Capital One
+  role: Current PhD - Data Science Internship - Summer 2027
+  location: McLean, VA
+  link: https://capitalone.wd12.myworkdayjobs.com/en-US/capital_one/job/McLean-VA/Current-PhD---Data-Science-Internship---Summer-2027_R244287-1
+  date_posted: '2026-07-20'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: ensemble-health-partners-data-scientist-intern-fa4cd5
+  company: Ensemble Health Partners
+  role: Data Scientist Intern
+  location: Remote (US)
+  link: https://ensemblehp.wd5.myworkdayjobs.com/en-US/ensemblehealthpartnerscareers/job/Remote---Nationwide/Data-Scientist--AI_R048077
+  date_posted: '2026-07-17'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: moog-intern-it-computer-science-data-analytics-91ac75
+  company: Moog
+  role: Intern - IT Computer Science - Data Analytics
+  location: Buffalo, NY
+  link: https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145
+  date_posted: '2026-07-16'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: connectprep-data-analyst-internship-d8af88
+  company: ConnectPrep
+  role: Data Analyst Internship
+  location: Washington, DC
+  link: https://apply.workable.com/connectprep/j/C0CA13664F/
+  date_posted: '2026-07-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: deuna-data-science-intern-377707
+  company: DEUNA
+  role: Data Science intern
+  location: San Francisco, CA
+  link: https://jobs.lever.co/deuna/060457fb-42c4-4150-a8fa-e2c312a88e6a
+  date_posted: '2026-06-30'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: centerfield-data-science-intern-d02167
+  company: Centerfield
+  role: Data Science Intern
+  location: Los Angeles, CA
+  link: https://jobs.ashbyhq.com/centerfield/916dcf42-d69a-4f00-875a-f8fe630e0f33
+  date_posted: '2026-06-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: medecins-sans-frontieres-doctors-without-borders-united-states-data-science-intern-92ccf2
+  company: Medecins Sans Frontieres (Doctors Without Borders) - United States
+  role: Data Science Intern
+  location: New York City, NY
+  link: https://job-boards.greenhouse.io/msfcareers/jobs/5271141008
+  date_posted: '2026-06-19'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: magnera-corporation-it-data-analyst-intern-41a8c3
+  company: Magnera Corporation
+  role: IT Data Analyst Intern
+  location: Evansville, IN
+  link: https://careers-magnera.icims.com/jobs/27241/it-data-analyst-intern/job
+  date_posted: '2026-06-10'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: ev-realty-intern-data-analytics-99f549
+  company: EV Realty
+  role: Intern - Data Analytics
+  location: San Francisco, CA
+  link: https://jobs.lever.co/evrealty-us/0274f48f-9b19-4bed-bf6a-5e02a2b1e865
+  date_posted: '2026-05-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bank-of-china-limited-new-york-branch-internal-audit-department-data-analytics-audit-intern-20fa15
+  company: Bank of China Limited, New York Branch
+  role: Internal Audit Department - Data Analytics Audit Intern
+  location: New York City, NY
+  link: https://careers-bocusa.icims.com/jobs/4260/internal-audit-department---data-analytics-audit-intern/job
+  date_posted: '2026-05-13'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: cresta-data-science-intern-customer-success-57148e
+  company: Cresta
+  role: Data Science Intern - Customer Success
+  location: Remote (US)
+  link: https://job-boards.greenhouse.io/cresta/jobs/5213417008
+  date_posted: '2026-05-08'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bank-of-china-limited-new-york-branch-internal-audit-department-data-analytics-audit-intern-f76a97
+  company: Bank of China Limited, New York Branch
+  role: Internal Audit Department Data Analytics Audit Intern
+  location: New York City, NY
+  link: https://careers-bocusa.icims.com/jobs/4114/internal-audit-department-data-analytics-audit-intern/job
+  date_posted: '2026-03-31'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: capital-one-data-analyst-intern-fd11e0
+  company: Capital One
+  role: Data Analyst Intern
+  location: Mclean, VA
+  link: https://www.capitalonecareers.com/job/mclean/data-analyst-intern-summer-2027/31238/97421687472
+  date_posted: '2026-07-07'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-data-scientist-project-intern-tiktok-f1a3d0
+  company: TikTok
+  role: Data Scientist Project Intern (TikTok...
+  location: San Jose, CA
+  link: https://lifeattiktok.com/position/7610543185362372917
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: moog-intern-it-computer-science-data-an-224620
+  company: Moog
+  role: Intern, IT Computer Science - Data An...
+  location: Buffalo, NY
+  link: https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: equifax-data-analytics-intern-6be1cd
+  company: Equifax
+  role: Data & Analytics Intern
+  location: Alpharetta, GA
+  link: https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/Data---Analytics-Intern_J00171081
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: ardian-data-scientist-intern-a125af
+  company: Ardian
+  role: Data Scientist Intern
+  location: New York, NY
+  link: https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/New-York/Data-Scientist-Intern_JR1001434
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: nrel-graduate-year-round-intern-geospat-4b701b
+  company: NREL
+  role: 'Graduate (Year-Round) Intern: Geospat...'
+  location: Golden, CO
+  link: https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern--Geospatial-Data-Science-Modeling-and-Analysis_R14338
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: eurofins-business-intelligence-intern-a92c1f
+  company: Eurofins
+  role: Business Intelligence Intern
+  location: Lancaster, PA
+  link: https://jobs.smartrecruiters.com/Eurofins/744000131132249
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: rivian-and-volkswagen-group-technologies-data-engineering-intern-ai-analyt-0a725d
+  company: Rivian and Volkswagen Group Technologies
+  role: Data Engineering Intern - AI & Analyt...
+  location: Palo Alto, CA
+  link: https://jobs.ashbyhq.com/rivianvw.tech/3864f83a-7b29-4c96-b00e-436d60c0508a/application
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: walleye-capital-investment-data-science-intern-summe-db1055
+  company: Walleye Capital
+  role: Investment Data Science Intern (Summe...
+  location: New York, NY
+  link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: evolver-applied-data-science-intern-b3beed
+  company: Evolver
+  role: Applied Data Science Intern
+  location: Palo Alto, CA
+  link: https://job-boards.greenhouse.io/evolver/jobs/4254540009
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: faire-data-science-intern-307131
+  company: Faire
+  role: Data Science Intern
+  location: San Francisco, CA
+  link: https://boards.greenhouse.io/faire/jobs/8376377002?gh_jid=8376377002
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: docugami-data-science-phd-intern-5f8265
+  company: Docugami
+  role: Data Science PhD Intern
+  location: Kirkland, WA
+  link: https://job-boards.greenhouse.io/docugami/jobs/4192122003
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: hirevue-data-science-intern-fully-remote-us-9edf01
+  company: HireVue
+  role: Data Science Intern / Fully Remote US
+  location: Sandy, UT
+  link: https://jobs.smartrecruiters.com/HireVue/744000138728139
+  date_posted: '2026-07-20'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: rfcuny-data-analyst-intern-ff0187
+  company: RFCUNY
+  role: Data Analyst Intern
+  location: New York, NY
+  link: https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/Data-Analyst-Intern_JR2987
+  date_posted: '2026-06-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
