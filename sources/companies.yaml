@@ -12,6 +12,9 @@ swe:
 data_science: []
 ai_ml: []
 hardware: []
-actuarial: []
+actuarial:
+  - {company: Genworth Financial, ats: workday, url: https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential}
+  - {company: Marsh McLennan, ats: workday, url: https://mmc.wd1.myworkdayjobs.com/MMC}
+  - {company: The Hartford, ats: workday, url: https://thehartford.wd5.myworkdayjobs.com/Careers_Restricted}
 consulting: []
 ib: []

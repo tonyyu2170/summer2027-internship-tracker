@@ -597,7 +597,11 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 
 ## Actuarial
 
-_No roles tracked yet._
+| Company | Role | Location | Link | Date Posted | Term | Degree | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Genworth Financial | Genworth Actuarial Development Program Intern - Summer 2027 | Richmond, VA | [Apply](<https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential/job/Richmond-Virginia/Genworth-Actuarial-Development-Program-Intern---Summer-2027_REQ-260272>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Marsh McLennan | Oliver Wyman Actuarial - Internship - Summer 2027 | New York, NY | [Apply](<https://mmc.wd1.myworkdayjobs.com/MMC/job/New-York---1166/Oliver-Wyman-Actuarial---Internship---Summer-2027_R_356561>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| The Hartford | Intern, Actuarial Student Program (Summer 2027) | Hartford, CT | [Apply](<https://thehartford.wd5.myworkdayjobs.com/Careers_Restricted/job/Hartford-CT/Intern--Actuarial-Student-Program--Summer-2027-_R2624619>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 
 ## Consulting
 
