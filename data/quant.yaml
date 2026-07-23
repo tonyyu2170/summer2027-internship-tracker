@@ -298,6 +298,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -314,6 +315,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -442,6 +444,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -459,6 +462,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -475,6 +479,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -491,6 +496,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -507,6 +513,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -523,6 +530,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -539,6 +547,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -555,6 +564,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -587,6 +597,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -603,6 +614,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -619,6 +631,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -635,6 +648,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -651,6 +665,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -1881,6 +1896,7 @@
   status: open
   sources:
   - github_tracker
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -2213,6 +2229,402 @@
   status: open
   sources:
   - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: drw-fpga-intern-1147ab
+  company: DRW
+  role: FPGA Intern
+  location: Chicago, IL
+  link: https://www.drw.com/work-at-drw/listings/fpga-intern-3484423
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: drw-leadership-rotation-network-intern-2a08da
+  company: DRW
+  role: Leadership Rotation Network Intern
+  location: Chicago, IL
+  link: https://www.drw.com/work-at-drw/listings/leadership-rotation-network-intern-3467431
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: drw-strategy-intern-0a1b8b
+  company: DRW
+  role: Strategy Intern
+  location: Chicago, IL
+  link: https://www.drw.com/work-at-drw/listings/strategy-intern-3467230
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: drw-trade-support-intern-b910ba
+  company: DRW
+  role: Trade Support Intern
+  location: Chicago, IL
+  link: https://www.drw.com/work-at-drw/listings/trade-support-intern-3467551
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: drw-venture-capital-analyst-intern-a6ce18
+  company: DRW
+  role: Venture Capital Analyst Intern
+  location: Chicago, IL
+  link: https://www.drw.com/work-at-drw/listings/venture-capital-analyst-intern-3467348
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: imc-trading-machine-learning-research-intern-summer-2027-chicago-41bc99
+  company: IMC Trading
+  role: Machine Learning Research Intern - Summer 2027 - Chicago
+  location: Chicago, IL
+  link: https://www.imc.com/us/careers/jobs/4907430101
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: imc-trading-machine-learning-research-intern-summer-2027-amsterdam-93cc10
+  company: IMC Trading
+  role: Machine Learning Research Intern - Summer 2027 - Amsterdam
+  location: Chicago, IL
+  link: https://www.imc.com/us/careers/jobs/4912874101
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: imc-trading-hardware-engineer-intern-summer-2027-fd5c49
+  company: IMC Trading
+  role: Hardware Engineer Intern - Summer 2027
+  location: Chicago, IL
+  link: https://www.imc.com/us/careers/jobs/4823945101
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-machine-learning-engineer-970fae
+  company: Jane Street
+  role: Machine Learning Engineer
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8611307002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-cybersecurity-analyst-a6e6ba
+  company: Jane Street
+  role: Cybersecurity Analyst
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8632723002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-data-engineer-b91e6b
+  company: Jane Street
+  role: Data Engineer
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8631973002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-fundamental-research-analyst-7c44d9
+  company: Jane Street
+  role: Fundamental Research Analyst
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8347286002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Research
+- id: jane-street-hardware-engineer-fpga-asic-7bf9ea
+  company: Jane Street
+  role: Hardware Engineer (FPGA/ASIC)
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8624440002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-linux-engineer-57b54f
+  company: Jane Street
+  role: Linux Engineer
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8626260002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-network-engineer-0425e2
+  company: Jane Street
+  role: Network Engineer
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8620793002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-sales-and-trading-80a5b3
+  company: Jane Street
+  role: Sales and Trading
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8347385002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Trading
+- id: jane-street-strategy-and-product-4ab7f9
+  company: Jane Street
+  role: Strategy and Product
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8621552002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: jane-street-trading-desk-operations-engineer-8ba5e3
+  company: Jane Street
+  role: Trading Desk Operations Engineer
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8621450002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-windows-engineer-bf08d7
+  company: Jane Street
+  role: Windows Engineer
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8628843002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-it-operations-engineer-b927a2
+  company: Jane Street
+  role: IT Operations Engineer
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-may-august-nyc/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-mechanical-engineer-6112d7
+  company: Jane Street
+  role: Mechanical Engineer
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/closed-internship/mechanical-engineer-may-august-nyc/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: jane-street-procurement-specialist-513156
+  company: Jane Street
+  role: Procurement Specialist
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/closed-internship/procurement-specialist-may-august-nyc/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: optiver-fpga-engineer-intern-summer-2027-austin-58a017
+  company: Optiver
+  role: FPGA Engineer Intern (Summer 2027 - Austin)
+  location: Austin, TX
+  link: https://www.optiver.com/join-us/jobs/technology/austin/fpga-engineer-intern-summer-2027-austin/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Development
+- id: optiver-trading-automation-and-operations-intern-summer-2027-ee76e4
+  company: Optiver
+  role: Trading Automation and Operations Intern (Summer 2027)
+  location: Chicago, IL
+  link: https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/trading-automation-and-operations-intern-summer-2027/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+  track: Trading
+- id: optiver-fpga-engineer-intern-summer-2027-chicago-b3a3b7
+  company: Optiver
+  role: FPGA Engineer Intern (Summer 2027 - Chicago)
+  location: Chicago, IL
+  link: https://www.optiver.com/join-us/jobs/technology/chicago/fpga-engineer-intern-summer-2027-chicago/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null

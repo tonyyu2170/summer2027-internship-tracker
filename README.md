@@ -248,6 +248,31 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Point72 | Summer 2027 Quantitative Research Int... | Research | New York, NY | [Apply](<https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Point72 | Quantitative Research Intern | Research | New York, NY | [Apply](<https://boards.greenhouse.io/point72/jobs/7297667002?gh_jid=7297667002>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Optiver | Institutional Trader Intern (2027 Sta... | Trading | Chicago, IL | [Apply](<https://job-boards.greenhouse.io/optiverprivate/jobs/8402208002>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| DRW | FPGA Intern | Development | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/fpga-intern-3484423>) | 2026-07-23 | Summer 2027 | BS/MS/PhD | 🟢 Open |
+| DRW | Leadership Rotation Network Intern |  | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/leadership-rotation-network-intern-3467431>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| DRW | Strategy Intern |  | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/strategy-intern-3467230>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| DRW | Trade Support Intern |  | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/trade-support-intern-3467551>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| DRW | Venture Capital Analyst Intern |  | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/venture-capital-analyst-intern-3467348>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| IMC Trading | Machine Learning Research Intern - Summer 2027 - Chicago | Research | Chicago, IL | [Apply](<https://www.imc.com/us/careers/jobs/4907430101>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| IMC Trading | Machine Learning Research Intern - Summer 2027 - Amsterdam | Research | Chicago, IL | [Apply](<https://www.imc.com/us/careers/jobs/4912874101>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| IMC Trading | Hardware Engineer Intern - Summer 2027 | Development | Chicago, IL | [Apply](<https://www.imc.com/us/careers/jobs/4823945101>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Machine Learning Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8611307002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Cybersecurity Analyst | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8632723002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Data Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8631973002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Fundamental Research Analyst | Research | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8347286002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Hardware Engineer (FPGA/ASIC) | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8624440002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Linux Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8626260002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Network Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8620793002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Sales and Trading | Trading | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8347385002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Strategy and Product |  | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8621552002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Trading Desk Operations Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8621450002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Windows Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8628843002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | IT Operations Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-may-august-nyc/>) | 2026-07-23 | Summer 2027 | BS | 🔒 Closed |
+| Jane Street | Mechanical Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/closed-internship/mechanical-engineer-may-august-nyc/>) | 2026-07-23 | Summer 2027 | BS | 🔒 Closed |
+| Jane Street | Procurement Specialist |  | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/closed-internship/procurement-specialist-may-august-nyc/>) | 2026-07-23 | Summer 2027 | BS | 🔒 Closed |
+| Optiver | FPGA Engineer Intern (Summer 2027 - Austin) | Development | Austin, TX | [Apply](<https://www.optiver.com/join-us/jobs/technology/austin/fpga-engineer-intern-summer-2027-austin/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Optiver | Trading Automation and Operations Intern (Summer 2027) | Trading | Chicago, IL | [Apply](<https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/trading-automation-and-operations-intern-summer-2027/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Optiver | FPGA Engineer Intern (Summer 2027 - Chicago) | Development | Chicago, IL | [Apply](<https://www.optiver.com/join-us/jobs/technology/chicago/fpga-engineer-intern-summer-2027-chicago/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Virtu Financial | Internship - Software Engineer |  | Austin, TX | [Apply](<https://job-boards.greenhouse.io/virtu/jobs/8624410002>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
 | Virtu Financial | Internship - Quantitative Trading | Trading | Austin, TX | [Apply](<https://job-boards.greenhouse.io/virtu/jobs/8624408002>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
 | Susquehanna | Quantitative Systematic Trading Intern (PhD, Summer 2027) | Trading | New York, NY | [Apply](<https://careers.sig.com/jobs/10822>) | 2026-07-21 | Summer 2027 | PhD | 🟢 Open |
