@@ -1,0 +1,79 @@
+from merge import merge_category
+
+TODAY = "2026-07-22"
+
+
+def _posting(**kw):
+    base = {
+        "company": "Jane Street", "role": "Quant Trading Intern",
+        "location": "New York, NY",
+        "link": "https://boards.greenhouse.io/js/jobs/1",
+        "term": "Summer 2027", "degree": ["BS"], "source": "greenhouse",
+    }
+    base.update(kw)
+    return base
+
+
+def _report(postings, category="quant", entity="greenhouse:js"):
+    return {"category": category, "source_entity": entity, "postings": postings}
+
+
+def test_new_posting_becomes_open_row():
+    rows, summary = merge_category([], [_report([_posting()])], TODAY)
+    assert len(rows) == 1
+    assert rows[0]["status"] == "open"
+    assert rows[0]["date_added"] == TODAY
+    assert rows[0]["sources"] == ["greenhouse"]
+    assert summary["new"] == [rows[0]["id"]]
+
+
+def test_missing_date_posted_falls_back_to_today():
+    rows, _ = merge_category([], [_report([_posting()])], TODAY)
+    assert rows[0]["date_posted"] == TODAY
+
+
+def test_non_us_posting_is_dropped():
+    rows, summary = merge_category(
+        [], [_report([_posting(location="London, UK")])], TODAY)
+    assert rows == [] and summary["new"] == []
+
+
+def test_same_link_across_sources_merges_and_accumulates_sources():
+    rows, _ = merge_category([], [_report([_posting()])], TODAY)
+    # Second run: same job, different source, tracking param on the link.
+    rows2, summary = merge_category(
+        rows,
+        [_report([_posting(source="github_tracker",
+                           link="https://boards.greenhouse.io/js/jobs/1?utm_source=x")])],
+        "2026-07-25")
+    assert len(rows2) == 1
+    assert set(rows2[0]["sources"]) == {"greenhouse", "github_tracker"}
+    assert rows2[0]["last_verified"] == "2026-07-25"
+    assert summary["new"] == []
+
+
+def test_inline_closed_marker_sets_closed():
+    rows, _ = merge_category([], [_report([_posting()])], TODAY)
+    rows2, summary = merge_category(
+        rows, [_report([_posting(closed_marker=True)])], "2026-07-25")
+    assert rows2[0]["status"] == "closed"
+    assert summary["closed"] == [rows2[0]["id"]]
+
+
+def test_same_triple_different_link_is_flagged_not_merged():
+    rows, _ = merge_category([], [_report([_posting()])], TODAY)
+    rows2, summary = merge_category(
+        rows,
+        [_report([_posting(link="https://jobs.lever.co/js/other", source="lever")])],
+        "2026-07-25")
+    assert len(rows2) == 2
+    new_id = summary["new"][0]
+    assert (new_id, rows[0]["id"]) in summary["possible_duplicates"]
+    assert next(r for r in rows2 if r["id"] == new_id)["possible_duplicate_of"] == rows[0]["id"]
+
+
+def test_input_rows_not_mutated():
+    rows, _ = merge_category([], [_report([_posting()])], TODAY)
+    snapshot = [dict(r) for r in rows]
+    merge_category(rows, [_report([_posting(closed_marker=True)])], "2026-07-25")
+    assert rows == snapshot
