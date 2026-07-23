@@ -28,16 +28,22 @@ def _status_cell(row: dict) -> str:
     return cell
 
 
+def _escape_cell(s: str) -> str:
+    """Escape free text for a Markdown table cell: an unescaped pipe splits
+    into an extra column, and a raw newline breaks the single-line row."""
+    return str(s).replace("|", "\\|").replace("\r", "").replace("\n", " ")
+
+
 def _row_cells(row: dict, is_quant: bool) -> str:
-    cells = [row["company"], row["role"]]
+    cells = [_escape_cell(row["company"]), _escape_cell(row["role"])]
     if is_quant:
-        cells.append(row.get("track", ""))
+        cells.append(_escape_cell(row.get("track", "")))
     cells += [
-        row["location"],
-        f"[Apply]({row['link']})",
-        row["date_posted"],
-        row["term"],
-        "/".join(row["degree"]),
+        _escape_cell(row["location"]),
+        f"[Apply](<{row['link']}>)",
+        _escape_cell(row["date_posted"]),
+        _escape_cell(row["term"]),
+        _escape_cell("/".join(row["degree"])),
         _status_cell(row),
     ]
     return "| " + " | ".join(cells) + " |"

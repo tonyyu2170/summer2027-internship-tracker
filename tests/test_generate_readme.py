@@ -1,3 +1,4 @@
+import re
 import yaml
 from pathlib import Path
 from generate_readme import render
@@ -46,7 +47,7 @@ def test_quant_table_has_track_column_and_row(tmp_path):
     text = out.read_text()
     assert "| Track |" in text
     assert "Trading" in text
-    assert "[Apply](https://x.com/j)" in text
+    assert "[Apply](<https://x.com/j>)" in text
 
 
 def test_closed_row_renders_lock(tmp_path):
@@ -65,3 +66,24 @@ def test_rows_sorted_newest_first(tmp_path):
     render(data_dir, tmp_path / "README.md")
     text = (tmp_path / "README.md").read_text()
     assert text.index("Newer") < text.index("Older")
+
+
+def test_pipe_newline_and_paren_in_free_text_dont_corrupt_table(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write(data_dir, "swe", [_row(
+        role="Software Engineer | Backend",
+        company="Weird\nCo",
+        link="https://example.com/apply?ref=(promo)",
+    )])
+    out = tmp_path / "README.md"
+    render(data_dir, out)
+    text = out.read_text()
+    row_lines = [l for l in text.splitlines() if l.startswith("| Weird")]
+    assert len(row_lines) == 1
+    row_line = row_lines[0]
+    assert "\n" not in row_line
+    assert "Software Engineer \\| Backend" in row_line
+    # split on unescaped pipes only: an escaped "\|" must not create a new column
+    cells = [c for c in re.split(r"(?<!\\)\|", row_line) if c.strip()]
+    assert len(cells) == 8
+    assert "[Apply](<https://example.com/apply?ref=(promo)>)" in text
