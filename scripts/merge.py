@@ -50,11 +50,12 @@ def merge_category(existing_rows, fetch_reports, today):
                     row["sources"].append(src)
                 if p.get("closed_marker") and row["status"] != "closed":
                     row["status"] = "closed"
-                    summary["closed"].append(row["id"])
+                    if row.get("id"):
+                        summary["closed"].append(row["id"])
                 continue
 
             trip = _triple({**p, "location": canon_loc})
-            dup_of = by_triple[trip]["id"] if trip in by_triple else None
+            dup_of = by_triple[trip].get("id") if trip in by_triple else None
             row = {
                 "id": _slug(p["company"], p["role"], nlink),
                 "company": p["company"],

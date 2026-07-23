@@ -77,3 +77,38 @@ def test_input_rows_not_mutated():
     snapshot = [dict(r) for r in rows]
     merge_category(rows, [_report([_posting(closed_marker=True)])], "2026-07-25")
     assert rows == snapshot
+
+
+def _existing_row_missing_id(**kw):
+    row = {
+        "company": "Jane Street", "role": "Quant Trading Intern",
+        "location": "New York, NY",
+        "link": "https://boards.greenhouse.io/js/jobs/1",
+        "term": "Summer 2027", "degree": ["BS"], "status": "open",
+        "sources": ["greenhouse"], "date_added": TODAY, "last_verified": TODAY,
+        "possible_duplicate_of": None,
+        # no "id" key: simulates manual YAML corruption
+    }
+    row.update(kw)
+    return row
+
+
+def test_missing_id_on_existing_row_found_by_triple_does_not_crash():
+    existing = [_existing_row_missing_id()]
+    rows, summary = merge_category(
+        existing,
+        [_report([_posting(link="https://jobs.lever.co/js/other", source="lever")])],
+        "2026-07-25")
+    assert len(rows) == 2
+    new_row = next(r for r in rows if r["link"] != existing[0]["link"])
+    assert new_row["possible_duplicate_of"] is None
+    assert summary["possible_duplicates"] == []
+
+
+def test_missing_id_on_existing_row_found_by_link_does_not_crash():
+    existing = [_existing_row_missing_id()]
+    rows, summary = merge_category(
+        existing, [_report([_posting(closed_marker=True)])], "2026-07-25")
+    assert len(rows) == 1
+    assert rows[0]["status"] == "closed"
+    assert summary["closed"] == []

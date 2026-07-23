@@ -135,6 +135,41 @@ def test_run_never_touches_malformed_existing_rows(tmp_path, capsys):
     assert any(r["company"] == "Zeta Inc" for r in swe)
 
 
+def test_run_warns_but_keeps_malformed_existing_row(tmp_path, capsys):
+    # Same setup as test_run_never_touches_malformed_existing_rows, but this
+    # asserts the run also prints a warning about the malformed existing row
+    # instead of validating it silently.
+    root = tmp_path
+    data_dir = root / "data"
+    data_dir.mkdir()
+    (data_dir / "swe.yaml").write_text(yaml.safe_dump([{
+        "id": "legacy-corp-swe-intern-000000",
+        "company": "Legacy Corp", "role": "SWE Intern",
+        "location": "Chicago, IL", "link": "https://legacy.example.com/jobs/1",
+        "date_posted": "2026-06-01", "term": "Summer 2027",
+        "degree": "BS",  # malformed: should be a list
+        "status": "open", "sources": ["greenhouse"],
+        "date_added": "2026-06-01", "last_verified": "2026-06-01",
+        "possible_duplicate_of": None,
+    }]))
+    reports_dir = root / "reports"
+    reports_dir.mkdir()
+    (reports_dir / "r1.json").write_text(json.dumps({
+        "category": "swe", "source_entity": "greenhouse:zeta", "postings": [],
+    }))
+    readme = root / "README.md"
+
+    summaries = run(reports_dir, data_dir, readme)
+
+    swe = yaml.safe_load((data_dir / "swe.yaml").read_text())
+    assert len(swe) == 1
+    assert swe[0]["degree"] == "BS"  # unchanged, not dropped
+
+    out = capsys.readouterr().out
+    assert "legacy-corp-swe-intern-000000" in out
+    assert "degree" in out
+
+
 def test_run_clears_dangling_possible_duplicate_of_when_target_dropped(tmp_path, capsys):
     # First posting seeds the (company, role, location) triple but has a
     # malformed date_posted, so its row gets dropped post-merge. The second

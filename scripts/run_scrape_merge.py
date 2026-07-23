@@ -57,17 +57,23 @@ def _drop_invalid_rows(rows: list, summary: dict) -> list:
     Drops failing new rows (with a warning), scrubs their ids out of
     summary['new'] / summary['closed'] / summary['possible_duplicates'], and
     clears possible_duplicate_of on any surviving row that pointed at a
-    dropped id, so nothing persisted ever references a row that wasn't."""
+    dropped id, so nothing persisted ever references a row that wasn't.
+
+    Existing rows that fail validation are kept as-is but get a warning
+    printed, so a hand-edit typo is visible in run output instead of
+    silently rendering wrong (e.g. via generate_readme.py)."""
     new_ids = set(summary["new"])
     kept, dropped = [], set()
     for row in rows:
         rid = row.get("id")
+        errors = validate_row(row)
         if rid in new_ids:
-            errors = validate_row(row)
             if errors:
                 dropped.add(rid)
                 print(f"    warn: dropped invalid row {rid!r}: {errors}")
                 continue
+        elif errors:
+            print(f"    warn: existing row {rid!r} fails schema (kept as-is): {errors}")
         kept.append(row)
 
     if dropped:
