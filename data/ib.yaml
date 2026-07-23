@@ -1,1 +1,45 @@
-[]
+- id: jpmorganchase-markets-summer-analyst-sales-trading-structuring-digital-markets-614a7e
+  company: JPMorganChase
+  role: Markets Summer Analyst (Sales / Trading / Structuring / Digital Markets)
+  location: New York, NY
+  link: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690325
+  date_posted: '2026-06-21'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: baird-equity-research-analyst-intern-7fb14f
+  company: Baird
+  role: Equity Research Analyst Intern
+  location: Milwaukee, WI
+  link: https://www.bairdcareers.com/jobs/r20251244/internship-equity-research-analyst-summer-2027/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bnp-paribas-summer-analyst-global-markets-sales-865679
+  company: BNP Paribas
+  role: Summer Analyst, Global Markets Sales
+  location: Boston, MA
+  link: https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-global-markets-sales-boston-ma
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null

@@ -2,9 +2,9 @@
 # `url` is the board/careers URL or ATS board token. Grows over time.
 quant:
   - {company: Jane Street, ats: custom, url: https://www.janestreet.com/join-jane-street/open-roles/}
-  - {company: Citadel Securities, ats: greenhouse, url: citadelsecurities}
+  - {company: Citadel Securities, ats: custom, url: https://www.citadelsecurities.com/careers/details/}
   - {company: Optiver, ats: custom, url: https://optiver.com/working-at-optiver/career-opportunities/}
-  - {company: DRW, ats: greenhouse, url: drwholdingsllc}
+  - {company: DRW, ats: custom, url: https://www.drw.com/work-at-drw/}
   - {company: IMC Trading, ats: custom, url: https://careers.imc.com/us/en}
 swe:
   - {company: Stripe, ats: greenhouse, url: stripe}

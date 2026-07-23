@@ -1,1 +1,210 @@
-[]
+- id: akuna-capital-hardware-engineer-68d0c9
+  company: Akuna Capital
+  role: Hardware Engineer
+  location: Chicago, IL
+  link: https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: citadel-securities-hardware-engineer-fpga-2c9948
+  company: Citadel Securities
+  role: Hardware Engineer (FPGA)
+  location: Chicago, IL
+  link: https://www.citadelsecurities.com/careers/details/fpga-engineer-intern-us/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: drw-fpga-engineer-1147ab
+  company: DRW
+  role: FPGA Engineer
+  location: Chicago, IL
+  link: https://www.drw.com/work-at-drw/listings/fpga-intern-3484423
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: imc-trading-hardware-engineer-fd5c49
+  company: IMC Trading
+  role: Hardware Engineer
+  location: Chicago, IL
+  link: https://www.imc.com/us/careers/jobs/4823945101
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: jane-street-fpga-engineer-7bf9ea
+  company: Jane Street
+  role: FPGA Engineer
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8624440002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: second-order-effects-electrical-engineering-intern-summer-2027-13520f
+  company: Second Order Effects
+  role: Electrical Engineering Intern (Summer 2027)
+  location: El Segundo, CA
+  link: https://jobs.gem.com/soeffects/am9icG9zdDqLIuZagE8SU-HqhGf7TGYo
+  date_posted: '2026-07-19'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: imc-trading-hardware-engineer-intern-36c34e
+  company: IMC Trading
+  role: Hardware Engineer Intern
+  location: Chicago, IL
+  link: https://job-boards.eu.greenhouse.io/imc/jobs/4823945101
+  date_posted: '2026-06-28'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: nightwing-software-hardware-engineering-intern-5060d4
+  company: Nightwing
+  role: Software / Hardware Engineering - Intern
+  location: Annapolis Junction, MD
+  link: https://nwis.wd12.myworkdayjobs.com/en-US/nw/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733
+  date_posted: '2026-06-03'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: fluxergy-firmware-engineer-intern-275a35
+  company: Fluxergy
+  role: Firmware Engineer Intern
+  location: Irvine, CA
+  link: https://jobs.lever.co/fluxergy-2/c592763e-56ba-4d20-b751-3a4574470eec
+  date_posted: '2026-06-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: base-power-company-firmware-engineering-intern-70783e
+  company: Base Power Company
+  role: Firmware Engineering Intern
+  location: Austin, TX
+  link: https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7
+  date_posted: '2026-05-27'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: etched-chip-simulation-software-intern-f6d801
+  company: Etched
+  role: Chip Simulation Software Intern
+  location: San Jose, CA
+  link: https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8
+  date_posted: '2026-05-20'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: terranova-embedded-systems-intern-360285
+  company: Terranova
+  role: Embedded Systems Intern
+  location: Berkeley, CA
+  link: https://jobs.ashbyhq.com/terranova/8fdce1f7-a1df-4e64-8f10-c78771a399da
+  date_posted: '2026-05-20'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: neuralink-electrical-engineer-intern-implant-embedded-systems-9ad358
+  company: Neuralink
+  role: Electrical Engineer Intern - Implant Embedded Systems
+  location: Austin, TX
+  link: https://boards.greenhouse.io/neuralink/jobs/7702527003?gh_jid=7702527003
+  date_posted: '2026-04-16'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: odys-aviation-robotics-embedded-systems-intern-7dfd83
+  company: Odys Aviation
+  role: Robotics & Embedded Systems Intern
+  location: Long Beach, CA
+  link: https://jobs.ashbyhq.com/odys-aviation/d15b1f56-d160-403e-8d12-90f531eb490f
+  date_posted: '2026-03-27'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null

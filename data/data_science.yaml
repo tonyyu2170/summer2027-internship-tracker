@@ -1,1 +1,30 @@
-[]
+- id: affinius-capital-data-scientist-intern-85361c
+  company: Affinius Capital
+  role: Data Scientist Intern
+  location: San Antonio, TX
+  link: https://careers-affiniuscapital.icims.com/jobs/2284/summer-2027-data-scientist-intern/job
+  date_posted: '2026-06-18'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: solar-turbines-caterpillar-gas-compressor-data-analyst-intern-a3efd6
+  company: Solar Turbines (Caterpillar)
+  role: Gas Compressor Data Analyst Intern
+  location: San Diego, CA
+  link: https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786
+  date_posted: '2026-06-12'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null

@@ -1,1 +1,285 @@
-[]
+- id: bytedance-student-researcher-multimodal-interaction-world-model-seed-67c396
+  company: ByteDance
+  role: Student Researcher, Multimodal Interaction & World Model (Seed)
+  location: San Jose, CA
+  link: https://joinbytedance.com/search/7623548747208739077
+  date_posted: '2026-06-28'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bytedance-student-researcher-vision-foundation-model-seed-e6b7ad
+  company: ByteDance
+  role: Student Researcher, Vision Foundation Model (Seed)
+  location: San Jose, CA
+  link: https://joinbytedance.com/search/7623544831999346997
+  date_posted: '2026-06-28'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: ctgt-software-engineering-intern-research-intern-interpretability-summer-2027-18386f
+  company: CTGT
+  role: Software Engineering Intern / Research Intern, Interpretability (Summer 2027)
+  location: San Francisco, CA
+  link: https://www.ycombinator.com/companies/ctgt/jobs/b3hTkK4-software-engineering-intern-summer-2027
+  date_posted: '2026-06-27'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-research-scientist-intern-tiktok-recommendation-nextgen-llm-phd-5eb06c
+  company: TikTok
+  role: Research Scientist Intern, TikTok Recommendation NextGen LLM (PhD)
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7633668061979543813
+  date_posted: '2026-04-28'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-applied-scientist-intern-trust-safety-multimodal-foundation-model-phd-21abee
+  company: TikTok
+  role: Applied Scientist Intern, Trust & Safety Multimodal Foundation Model (PhD)
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7633668456744503557
+  date_posted: '2026-04-28'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-applied-scientist-intern-business-integrity-phd-9bfbc8
+  company: TikTok
+  role: Applied Scientist Intern, Business Integrity (PhD)
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7631063087262419205
+  date_posted: '2026-04-21'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-applied-scientist-intern-monetization-genai-phd-71fde1
+  company: TikTok
+  role: Applied Scientist Intern, Monetization GenAI (PhD)
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7631062649025857797
+  date_posted: '2026-04-21'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-applied-scientist-intern-monetization-technology-phd-0f1cb8
+  company: TikTok
+  role: Applied Scientist Intern, Monetization Technology (PhD)
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7629248119245261061
+  date_posted: '2026-04-16'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: tiktok-research-scientist-intern-e-commerce-recommendation-llm-phd-98002d
+  company: TikTok
+  role: Research Scientist Intern, E-commerce Recommendation LLM (PhD)
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7629187524074342709
+  date_posted: '2026-04-16'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: meta-research-scientist-intern-embedded-contextual-ai-on-wearables-phd-302603
+  company: Meta
+  role: Research Scientist Intern - Embedded Contextual AI on Wearables - PhD
+  location: Sunnyvale, CA
+  link: https://www.metacareers.com/jobs/2160167211413098
+  date_posted: '2026-05-16'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bild-ai-ai-swe-intern-779c99
+  company: Bild AI
+  role: AI/SWE Intern
+  location: San Francisco, CA
+  link: https://jobs.ashbyhq.com/bild-ai/b333f0f7-0ca6-4509-8697-9303396b5364
+  date_posted: '2026-07-21'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: gritt-robotics-ml-cloud-infrastructure-engineer-intern-25ffc7
+  company: Gritt Robotics
+  role: ML & Cloud Infrastructure Engineer Intern
+  location: South San Francisco, CA
+  link: https://jobs.ashbyhq.com/gritt/46af6e69-40fc-4e53-940e-a99757137523
+  date_posted: '2026-07-21'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: intel-ai-software-engineering-intern-922c6b
+  company: Intel
+  role: AI Software Engineering Intern
+  location: Phoenix, AZ
+  link: https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641
+  date_posted: '2026-07-17'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: intel-ai-software-engineering-intern-4a977c
+  company: Intel
+  role: AI Software Engineering Intern
+  location: Hillsboro, OR
+  link: https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639
+  date_posted: '2026-07-17'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: exowatt-software-engineering-intern-agent-platform-ai-695290
+  company: Exowatt
+  role: Software Engineering Intern - Agent Platform - AI
+  location: Miami, FL
+  link: https://jobs.lever.co/exowatt/2623555d-8b81-4f95-8bca-de9fafd2381c
+  date_posted: '2026-07-11'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: ing-graduate-internship-nfr-ai-agent-developer-edfcdb
+  company: ING
+  role: Graduate Internship - NFR AI Agent Developer
+  location: Waco, TX
+  link: https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Graduate-Internship---NFR-AI-Agent-Developer-1_REQ-10117758
+  date_posted: '2026-07-10'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: halo-industries-software-engineer-intern-machine-learning-workflow-25a035
+  company: Halo Industries
+  role: Software Engineer Intern - Machine Learning Workflow
+  location: Santa Clara, CA
+  link: https://apply.workable.com/halo-industries/j/29728B1DAF/
+  date_posted: '2026-06-29'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: human-computer-lab-intern-software-ml-engineering-de7152
+  company: Human Computer Lab
+  role: Intern - Software/ML Engineering
+  location: San Francisco, CA
+  link: https://jobs.ashbyhq.com/human-computer-lab/7d13ae27-1f02-4d9b-8d39-e3d9d67df705
+  date_posted: '2026-04-04'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: databricks-phd-genai-research-scientist-intern-43d2da
+  company: Databricks
+  role: PhD GenAI Research Scientist Intern
+  location: San Francisco, CA
+  link: https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002
+  date_posted: '2026-07-17'
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - greenhouse
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null

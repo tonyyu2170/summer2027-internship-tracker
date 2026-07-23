@@ -1,1 +1,15 @@
-[]
+- id: wipfli-erp-tech-consulting-intern-c71fcf
+  company: Wipfli
+  role: ERP Tech Consulting Intern
+  location: Milwaukee, WI
+  link: https://careers-wipfli.icims.com/jobs/7972/erp-tech-consulting-internship--summer-2027/job
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
