@@ -25,7 +25,12 @@ REQUIRED_POSTING_FIELDS = ["company", "role", "location", "link", "term", "degre
 
 def _filter_postings(report: dict) -> dict:
     """Return a copy of report with postings missing a required field
-    dropped. Prints a warning per skipped posting; never raises."""
+    dropped. Prints a warning per skipped posting; never raises.
+
+    Note: even a posting with every required field present can still
+    produce a row that fails schema validation downstream (see
+    _drop_invalid_rows) — this gate only catches missing/falsy fields,
+    not malformed values."""
     entity = report.get("source_entity", "unknown")
     kept = []
     for p in report.get("postings", []):
@@ -44,7 +49,9 @@ def _filter_postings(report: dict) -> dict:
 
 def _drop_invalid_rows(rows: list, summary: dict) -> list:
     """Run validate_row over rows; drop failures (with a warning), and scrub
-    dropped ids out of summary['new'] / summary['possible_duplicates']."""
+    dropped ids out of summary['new'] / summary['closed'] /
+    summary['possible_duplicates'] so the summary never references a row
+    that wasn't actually persisted."""
     kept, dropped = [], set()
     for row in rows:
         errors = validate_row(row)
@@ -56,6 +63,7 @@ def _drop_invalid_rows(rows: list, summary: dict) -> list:
 
     if dropped:
         summary["new"] = [i for i in summary["new"] if i not in dropped]
+        summary["closed"] = [i for i in summary["closed"] if i not in dropped]
         summary["possible_duplicates"] = [
             (new_id, dup_of) for new_id, dup_of in summary["possible_duplicates"]
             if new_id not in dropped and dup_of not in dropped
