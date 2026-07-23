@@ -48,18 +48,27 @@ def _filter_postings(report: dict) -> dict:
 
 
 def _drop_invalid_rows(rows: list, summary: dict) -> list:
-    """Run validate_row over rows; drop failures (with a warning), and scrub
-    dropped ids out of summary['new'] / summary['closed'] /
-    summary['possible_duplicates'] so the summary never references a row
-    that wasn't actually persisted."""
+    """Validate only rows created new this run (summary['new'] — the ones
+    built from untrusted incoming posting data). Rows loaded from existing
+    data/*.yaml are left untouched even if malformed: they may be Tony's own
+    hand edits, and silently deleting previously-tracked listings over a
+    schema slip is worse than tolerating one until it's fixed by hand.
+
+    Drops failing new rows (with a warning), scrubs their ids out of
+    summary['new'] / summary['closed'] / summary['possible_duplicates'], and
+    clears possible_duplicate_of on any surviving row that pointed at a
+    dropped id, so nothing persisted ever references a row that wasn't."""
+    new_ids = set(summary["new"])
     kept, dropped = [], set()
     for row in rows:
-        errors = validate_row(row)
-        if errors:
-            dropped.add(row["id"])
-            print(f"    warn: dropped invalid row {row['id']!r}: {errors}")
-        else:
-            kept.append(row)
+        rid = row.get("id")
+        if rid in new_ids:
+            errors = validate_row(row)
+            if errors:
+                dropped.add(rid)
+                print(f"    warn: dropped invalid row {rid!r}: {errors}")
+                continue
+        kept.append(row)
 
     if dropped:
         summary["new"] = [i for i in summary["new"] if i not in dropped]
@@ -68,6 +77,9 @@ def _drop_invalid_rows(rows: list, summary: dict) -> list:
             (new_id, dup_of) for new_id, dup_of in summary["possible_duplicates"]
             if new_id not in dropped and dup_of not in dropped
         ]
+        for row in kept:
+            if row.get("possible_duplicate_of") in dropped:
+                row["possible_duplicate_of"] = None
     return kept
 
 
