@@ -12,7 +12,7 @@ A comprehensive, US-only listing of Summer 2027 internships across eight role ca
 - Not a personal application-status tracker (no "Applied" column, no CRM-style fields).
 - Not guaranteed exhaustive on day one. "Comprehensive" is a direction to grow into per category, not a day-one claim — see "Realistic Coverage Expectations" below.
 - Not scraping anything automatically on a schedule. Scraping only happens when explicitly requested ("scrape" or "scrape \<category>").
-- Not auto-pushed. Committing locally after a scrape is automatic; pushing to GitHub is exclusively Tony's action — the assistant never runs `git push`, on any cadence, for any reason, without an explicit in-the-moment request.
+- Not auto-pushed, and not assistant-pushed at all. Committing locally after a scrape is automatic; pushing to GitHub is exclusively Tony's action, run by Tony himself — the assistant never runs `git push` in this repo, under any circumstance.
 
 ## Repo layout
 
@@ -45,19 +45,19 @@ Each entry in a category's yaml file (illustrative example, not real data):
 ```yaml
 - id: jane-street-quant-trading-nyc-a1b2c3    # slug: company + role + first 6 chars of a stable hash (see Dedup key)
   company: Jane Street
-  source_ref: https://boards.greenhouse.io/janestreet/jobs/1234567  # the source's own canonical link/ID for this exact posting — primary identity
   role: Quantitative Trading Intern
   track: Trading                        # quant.yaml only; omitted elsewhere
   location: New York, NY                # single location, UNLESS the source itself presents one posting spanning multiple offices (see below)
-  link: https://boards.greenhouse.io/janestreet/jobs/1234567
+  link: https://boards.greenhouse.io/janestreet/jobs/1234567   # normalized application URL — this IS the primary dedup identity, see Dedup key
   date_posted: 2026-07-15               # true posting date if the source exposes one; otherwise equals date_added, and the README legend notes this may be a discovery-date proxy
   term: Summer 2027                     # Summer 2027 | Fall 2026 | Off-Cycle | etc.
   degree: [BS, MS]                      # subset of [BS, MS, PhD]
   status: open                          # open | closed — closed rows are kept, never deleted
-  source: greenhouse                    # audit trail: where first discovered
+  sources: [github_tracker, greenhouse] # every source that has independently confirmed this exact posting; grows over time, never overwritten
   date_added: 2026-07-22
   last_verified: 2026-07-22
-  miss_count: 0                         # consecutive scrapes where this posting was checked and NOT found; see closed-detection below
+  miss_count: 0                         # consecutive *complete* scrapes where this posting was checked and NOT found; see closed-detection below
+  possible_duplicate_of: null           # set to another row's `id` only when matched via the low-confidence fallback key — see Dedup key
 ```
 
 ### Multi-location postings
@@ -66,11 +66,13 @@ A single row lists multiple locations (e.g. `New York, NY / Chicago, IL`) **only
 
 ### Dedup key
 
-**Primary:** `source_ref` — the source's own stable identifier for a posting (a Greenhouse/Lever job ID or URL, a specific line in a GitHub tracker table, etc.). Two scrape results with the same `source_ref` are the same posting, full stop; a re-find updates `last_verified` in place.
+**Primary: the normalized application link.** This is deliberately source-agnostic, because it's what actually reconciles the same real posting when it's found through two different sources — e.g. one of the 4 GitHub tracker repos and a direct Greenhouse fetch both pointing at the same job. Per-source identifiers (a GitHub tracker row, a Greenhouse job ID) are NOT used as the primary key on their own, because a key scoped to "whichever source we happened to see it through first" never reconciles across sources — the same job could otherwise sit in the data as two rows with two different `status` values (open per one source, closed per another), which is a worse outcome than a plain duplicate. Normalization: strip tracking/query parameters (`utm_*`, `ref`, `gh_src`, `lever-source`, etc.), lowercase scheme+host, and resolve known redirect/tracking wrappers (e.g. a simplify.jobs outbound link) to their final destination where feasible. Two results whose normalized links match are the same posting — merge them, and add whichever source found it this time to that row's `sources` list (which only grows, never gets overwritten) rather than replacing it.
 
-**Fallback**, only for sources with no stable per-posting identifier (e.g. a markdown table row with nothing but visible text): normalized `(company, role title, location)` triple — exact single-location match, not a set. Normalization: lowercase, strip whitespace, strip common legal suffixes from company names (Inc., LLC, Corp., Corporation, Ltd.), canonicalize location to `City, ST` using two-letter state abbreviations. This fallback deliberately does **not** attempt cross-location merging — see "Multi-location postings" above.
+For GitHub-tracker sources specifically, the link used for matching is **the row's own embedded application URL**, never the row's position or line number in the table — these tables get resorted/reordered on nearly every update, so position is never a valid identity, only the href is.
 
-`id` is a slug generated from `company + role + a short hash of source_ref (or the fallback triple)`, used only for human-readable file/anchor purposes — it is never itself the dedup key.
+**Fallback**, only for the rare source with no extractable application link at all (e.g. a listing described purely in text with no href): normalized `(company, role title, location)` triple. Normalization: lowercase, strip whitespace, strip common legal suffixes from company names (Inc., LLC, Corp., Corporation, Ltd.), canonicalize location to `City, ST` using two-letter state abbreviations. This fallback deliberately does **not** attempt cross-location merging — see "Multi-location postings" above. Because a bare triple carries real false-merge risk (two genuinely different reqs can share a generic title, company, and city — the same hazard flagged for multi-location handling), a fallback-triple match is **never auto-merged** into an existing row. Instead it's added as its own new row with `possible_duplicate_of` set to the closest-matching existing row's `id`, and listed in the scrape's end-of-run summary for Tony to manually confirm or reject.
+
+`id` is a slug generated from `company + role + a short hash of the normalized link (or the fallback triple)`, used only for human-readable file/anchor purposes — it is never itself the dedup key.
 
 ## Categories & tables
 
@@ -113,9 +115,10 @@ The 4 linked repos and most other findable Summer 2027 trackers are SWE/quant-he
 These rules exist because a scrape run is not guaranteed to succeed cleanly on every source every time, and the cost of trusting bad data silently (auto-committed, no review gate) is higher than the cost of being conservative about what counts as "closed."
 
 - **Fetch-failed vs. confirmed-absent.** A source that times out, rate-limits, or errors during a scrape is left untouched for this run — it does *not* count as evidence the role is gone. Only a source that was **successfully fetched and parsed**, and in which a previously-open role is genuinely not present, counts as a "miss."
-- **N-consecutive-misses threshold.** A role is only marked `closed` after **2 consecutive misses** (i.e., the source was successfully checked twice in a row with the role absent both times) — not on a single miss. This absorbs one-off flakiness (a Firecrawl timeout, a thin browser read, pagination that didn't fully load) without wrongly closing roles that are actually still open. `miss_count` in the schema tracks this per role; it resets to 0 the moment the role is found again.
+- **Fetch-completeness gate.** "Successfully fetched" isn't just "didn't error" — a paginated fetch that silently stops after page 1 (no error thrown) is not evidence of absence for anything that would have been on page 2+. A fetch only counts as complete, and therefore only counts toward misses or the row-count check below, when its method confirms it saw everything: no unconsumed next-page cursor on a Firecrawl `crawl`/`map` or a paginated Greenhouse/Lever call, or (for the single-document GitHub markdown fetches) simply having the whole file. A fetch that can't confirm completeness is treated the same as a fetch failure — left untouched, no miss recorded, excluded from the row-count comparison.
+- **N-consecutive-misses threshold.** A role is only marked `closed` after **2 consecutive misses** (i.e., the source was fetched *completely* twice in a row with the role absent both times) — not on a single miss. This absorbs one-off flakiness (a Firecrawl timeout, a thin browser read, pagination that didn't fully load) without wrongly closing roles that are actually still open. `miss_count` in the schema tracks this per role; it resets to 0 the moment the role is found again.
 - **In-line closed markers take priority.** For GitHub-style sources (including SimplifyJobs-style repos, confirmed by inspecting their actual format), roles are often kept in the table but marked closed in place (e.g. a 🔒 emoji) rather than removed outright, sometimes only later archived to a separate file. When a source's own listing marks a role closed in-line, treat that as an immediate, confident `closed` signal — it does not need to go through the miss-count threshold, since it's an explicit statement from the source rather than an inference from absence.
-- **Row-count sanity check.** If a source that previously yielded N roles returns dramatically fewer in one run (e.g., under 20% of the prior count), treat that as a likely fetch/parse failure for this run — surface it to Tony rather than silently applying it as "most of these roles closed."
+- **Row-count sanity check, applied per source entity.** Comparison is scoped to one distinct entity at a time — one specific company's Greenhouse board, one specific target URL — never aggregated across an entire source type, so one company zeroing its program isn't masked by (or mistaken for) unrelated volume elsewhere. When a given entity's fetch is confirmed complete (per the gate above) but yields under 20% of its own prior successful count, that entity's results for this run are discarded wholesale: no new rows added, no existing rows' `last_verified`/`miss_count` touched, and it's listed in the scrape's end-of-run summary as "skipped — suspected bad fetch" for Tony to check manually. Stale-but-safe beats corrupted.
 - **US-only filter is an enforced pipeline step, not just a stated goal.** After parsing and before dedup/merge, any posting whose location doesn't resolve to a US city/state or "Remote (US)" is dropped.
 
 ## Per-scrape mechanics
@@ -125,7 +128,7 @@ Trigger: user says "scrape" (all sources) or "scrape \<category>" (targeted to o
 1. Fetch/scrape each in-scope source per the tool mapping above (dispatched as parallel subagents per source where useful).
 2. Parse results into the schema; apply the US-only filter.
 3. Each subagent returns its parsed results to the parent session — it does **not** write to `data/*.yaml` or `sources/companies.yaml` itself.
-4. The parent session performs one serialized dedupe-and-merge pass per category file: match against `source_ref` (or the fallback triple), add genuinely new rows, and apply the "Data integrity safeguards" rules above to update `status`/`last_verified`/`miss_count` on existing rows. This single-writer-per-file step is what actually prevents write races — splitting data by category only helps if writes are also serialized; concurrent subagents writing the same file directly would not be safe on their own. The same serialization applies to any append to the shared `sources/companies.yaml`.
+4. The parent session performs one serialized dedupe-and-merge pass per category file: match against the normalized application link (or the fallback triple, flagged via `possible_duplicate_of` rather than merged — see Dedup key), add genuinely new rows, and apply the "Data integrity safeguards" rules above to update `status`/`last_verified`/`miss_count` on existing rows. This single-writer-per-file step is what actually prevents write races — splitting data by category only helps if writes are also serialized; concurrent subagents writing the same file directly would not be safe on their own. The same serialization applies to any append to the shared `sources/companies.yaml`.
 5. Regenerate `README.md` via `generate_readme.py`.
 6. Commit locally: `git commit -m "scrape: update roles as of <date>"`.
 
