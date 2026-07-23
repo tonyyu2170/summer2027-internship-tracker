@@ -1,0 +1,17 @@
+# Per-category watch-list. `ats` is one of: greenhouse | lever | workday | custom.
+# `url` is the board/careers URL or ATS board token. Grows over time.
+quant:
+  - {company: Jane Street, ats: custom, url: https://www.janestreet.com/join-jane-street/open-roles/}
+  - {company: Citadel Securities, ats: greenhouse, url: citadelsecurities}
+  - {company: Optiver, ats: custom, url: https://optiver.com/working-at-optiver/career-opportunities/}
+  - {company: DRW, ats: greenhouse, url: drwholdingsllc}
+  - {company: IMC Trading, ats: custom, url: https://careers.imc.com/us/en}
+swe:
+  - {company: Stripe, ats: greenhouse, url: stripe}
+  - {company: Databricks, ats: greenhouse, url: databricks}
+data_science: []
+ai_ml: []
+hardware: []
+actuarial: []
+consulting: []
+ib: []
