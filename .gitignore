@@ -5,3 +5,4 @@ __pycache__/
 .pytest_cache/
 scratch/
 .DS_Store
+CLAUDE.md
