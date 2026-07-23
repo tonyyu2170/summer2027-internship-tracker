@@ -99,8 +99,9 @@ def test_run_never_touches_malformed_existing_rows(tmp_path, capsys):
     # A pre-existing row with degree stored as a bare string instead of a
     # list (e.g. a hand-edit typo) fails ROW_SCHEMA, but it's already
     # persisted, previously-tracked data -- the validation gate must not
-    # silently delete it, and a missing "id" on such a row must not crash
-    # the run either.
+    # silently delete it. (A missing "id" key on an existing row is a
+    # separate, deferred gap upstream in merge.py's own dict indexing --
+    # not covered by this test.)
     root = tmp_path
     data_dir = root / "data"
     data_dir.mkdir()
