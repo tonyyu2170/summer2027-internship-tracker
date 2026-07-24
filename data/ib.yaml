@@ -10,8 +10,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: baird-equity-research-analyst-intern-7fb14f
   company: Baird
@@ -27,7 +28,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: bnp-paribas-summer-analyst-global-markets-sales-865679
   company: BNP Paribas
@@ -43,7 +44,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: evercore-2027-strategic-advisory-mergers-acquisitions-summer-analyst-program-31a3fa
   company: Evercore
@@ -437,4 +438,110 @@
   - simplify_jobs
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: jpmorganchase-corporate-analyst-development-program-summer-analyst-e41a3b
+  company: JPMorganChase
+  role: Corporate Analyst Development Program Summer Analyst
+  location: New York, NY
+  link: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765749
+  date_posted: '2026-07-08'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: jpmorganchase-commercial-investment-bank-innovation-development-summer-analyst-product-track-a319a1
+  company: JPMorganChase
+  role: Commercial & Investment Bank Innovation Development Summer Analyst, Product
+    Track
+  location: Chicago, IL
+  link: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690743
+  date_posted: '2026-06-19'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: stepstone-group-private-equity-infrastructure-real-assets-summer-analyst-f4665e
+  company: StepStone Group
+  role: Private Equity Infrastructure & Real Assets Summer Analyst
+  location: New York, NY
+  link: https://www.stepstonegroup.com/current-opportunities/?gh_jid=7872890
+  date_posted: '2026-06-15'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: citi-services-summer-analyst-536538
+  company: Citi
+  role: Services Summer Analyst
+  location: New York, NY
+  link: https://jobs.citi.com/job/-/-/287/93724104768
+  date_posted: '2026-07-24'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: blackrock-summer-internship-program-amers-all-tracks-b1e8d2
+  company: BlackRock
+  role: Summer Internship Program, AMERS (all tracks)
+  location: New York, NY
+  link: https://careers.blackrock.com/job/new-york/2027-summer-internship-program-amers/45831/90628276544
+  date_posted: '2026-01-15'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: jpmorganchase-asset-wealth-management-risk-summer-analyst-ace2b5
+  company: JPMorganChase
+  role: Asset & Wealth Management Risk Summer Analyst
+  location: Columbus, OH
+  link: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210691905
+  date_posted: '2026-01-08'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: bnp-paribas-summer-analyst-corporate-functions-operations-0d0366
+  company: BNP Paribas
+  role: Summer Analyst, Corporate Functions Operations
+  location: Jersey City, NJ
+  link: https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-corporate-functions-operations
+  date_posted: '2026-07-24'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null

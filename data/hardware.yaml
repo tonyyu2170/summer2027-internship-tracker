@@ -11,8 +11,9 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: citadel-securities-hardware-engineer-fpga-2c9948
   company: Citadel Securities
@@ -26,8 +27,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: drw-fpga-engineer-1147ab
   company: DRW
@@ -41,8 +43,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: imc-trading-hardware-engineer-fd5c49
   company: IMC Trading
@@ -56,8 +59,10 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:northwesternfintech
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: jane-street-fpga-engineer-7bf9ea
   company: Jane Street
@@ -71,8 +76,10 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:northwesternfintech
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: second-order-effects-electrical-engineering-intern-summer-2027-13520f
   company: Second Order Effects
@@ -88,7 +95,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: imc-trading-hardware-engineer-intern-36c34e
   company: IMC Trading
@@ -102,8 +109,10 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:sndsh404
+  - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: nightwing-software-hardware-engineering-intern-5060d4
   company: Nightwing
@@ -117,8 +126,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: fluxergy-firmware-engineer-intern-275a35
   company: Fluxergy
@@ -132,8 +142,10 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:speedyapply
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: base-power-company-firmware-engineering-intern-70783e
   company: Base Power Company
@@ -147,8 +159,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: etched-chip-simulation-software-intern-f6d801
   company: Etched
@@ -162,8 +175,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: terranova-embedded-systems-intern-360285
   company: Terranova
@@ -177,8 +191,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: neuralink-electrical-engineer-intern-implant-embedded-systems-9ad358
   company: Neuralink
@@ -192,8 +207,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: odys-aviation-robotics-embedded-systems-intern-7dfd83
   company: Odys Aviation
@@ -207,8 +223,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: magna-intern-infrared-imaging-algorithms-5f8afd
   company: Magna
@@ -216,21 +233,6 @@
   location: Goleta, CA
   link: https://magna.wd3.myworkdayjobs.com/en-US/magna/job/Goleta-California-US/Intern---Infrared-Imaging---Algorithms_R00247602
   date_posted: '2026-06-16'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
-- id: xpeng-ai-infra-onboard-performance-intern-3fcc43
-  company: XPENG
-  role: AI Infra Onboard Performance Intern
-  location: Santa Clara, CA
-  link: https://job-boards.greenhouse.io/xpengmotors/jobs/8581353002
-  date_posted: '2026-06-06'
   term: Summer 2027
   degree:
   - BS
@@ -297,8 +299,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: etched-firmware-intern-34f1f8
   company: Etched
@@ -312,8 +315,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: apex-technology-inc-software-engineering-intern-embedded-systems-ae38f0
   company: Apex Technology, Inc.
@@ -327,8 +331,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: general-astronautics-engineering-intern-5a95b5
   company: General Astronautics
@@ -343,6 +348,7 @@
   sources:
   - github_tracker
   - link_checker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-07-24'
   possible_duplicate_of: null
@@ -358,8 +364,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: moog-intern-test-engineering-8c8483
   company: Moog
@@ -524,8 +531,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: ge-aerospace-unison-engineering-intern-summer-2027-44d6fa
   company: GE Aerospace
@@ -1233,22 +1241,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
-- id: exowatt-software-engineering-intern-inventory-automation-iot-robotics-5f05b2
-  company: Exowatt
-  role: Software Engineering Intern - Inventory Automation & IoT/Robotics
-  location: Austin, TX
-  link: https://jobs.lever.co/exowatt/46c8f4fd-f059-4ad6-a5f4-4fcd55d84f9c
-  date_posted: '2026-07-10'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - link_checker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-24'
-  possible_duplicate_of: null
 - id: unison-ge-aerospace-engineering-intern-summer-2027-943d1e
   company: Unison (GE Aerospace)
   role: Engineering Intern (Summer 2027)
@@ -1277,6 +1269,158 @@
   status: open
   sources:
   - github_tracker:sndsh404
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: spectrum-control-engineering-intern-8f527f
+  company: Spectrum Control
+  role: Engineering Intern
+  location: Fairview, PA
+  link: https://spectrumcontrol.wd1.myworkdayjobs.com/spectrumcontrol/job/Fairview-PA/Engineering-Intern_JR101449
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: ge-healthcare-engineering-development-program-intern-hardware-bb392e
+  company: GE Healthcare
+  role: Engineering Development Program Intern - Hardware
+  location: Waukesha, WI
+  link: https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Waukesha/Edison-Engineering-Development-Program-Internship---Hardware_R4043923-1
+  date_posted: '2026-07-20'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: solar-turbines-gas-turbine-products-engineering-intern-06c469
+  company: Solar Turbines
+  role: Gas Turbine Products Engineering Intern
+  location: San Diego, CA
+  link: https://cat.wd5.myworkdayjobs.com/en-US/solarturbines/job/San-Diego-California/XMLNAME-2027--Gas-Turbine-Product-Engineering-Internship_R0000382293
+  date_posted: '2026-07-16'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: microchip-technology-equipment-engineering-technician-intern-metrology-8e84c1
+  company: Microchip Technology
+  role: Equipment Engineering Technician Intern - Metrology
+  location: Gresham, OR
+  link: https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/OR---Gresham/Intern-Equipment-Engineering-Technician--Metrology-_R3077-26
+  date_posted: '2026-07-13'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: teledyne-computer-engineer-intern-49e329
+  company: Teledyne
+  role: Computer Engineer Intern
+  location: Lincoln, NE
+  link: https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Lincoln-NE/Computer-Engineering-Intern_REQ29119
+  date_posted: '2026-06-20'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: pennsylvania-state-university-research-and-development-engineer-intern-bd1764
+  company: Pennsylvania State University
+  role: Research and Development Engineer Intern
+  location: Freeport, PA
+  link: https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Freeport-PA/Research-and-Development-Engineering-Intern_REQ_0000064925-1
+  date_posted: '2026-06-13'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: magna-systems-engineer-intern-526992
+  company: Magna
+  role: Systems Engineer Intern
+  location: Southfield, MI
+  link: https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Southfield-Michigan-US/Intern---Engineering_R00235413
+  date_posted: '2026-06-12'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: motorola-solutions-intern-embedded-software-system-and-test-engineer-2026-3b6e0b
+  company: Motorola Solutions
+  role: Intern - Embedded Software - System - and Test Engineer - 2026
+  location: Irvine, CA
+  link: https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372
+  date_posted: '2026-03-31'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: optiver-fpga-engineer-intern-d78281
+  company: Optiver
+  role: FPGA Engineer Intern
+  location: Austin, TX
+  link: https://www.optiver.com/join-us/jobs/8641352002/?gh_jid=8641352002
+  date_posted: '2026-07-21'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: akuna-capital-hardware-engineer-intern-162e4f
+  company: Akuna Capital
+  role: Hardware Engineer Intern
+  location: Chicago, IL
+  link: https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah
+  date_posted: '2026-07-24'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:vanshb03
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null

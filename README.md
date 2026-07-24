@@ -21,7 +21,17 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 
 | Company | Role | Location | Link | Date Posted | Term | Degree | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TransMarketGroup | DevOps/SRE Engineer | Chicago, IL | [Apply](<https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Solar Turbines | Solutions Platforms Engineered Intern | San Diego, CA | [Apply](<https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-Internship----Solutions-Platforms-Engineered_R0000381657>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| CloudFit Software | Summer Intern, Early Interest (Software / AI/ML / Cyber) | Lynchburg, VA | [Apply](<https://cloudfitsoftware.applytojob.com/apply/oaG5GcybAo>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Palantir Technologies | Software Engineer Intern | New York, NY | [Apply](<https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Jane Street | Tools and Compilers Research and Development Intern | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/5869205002/?utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Google | Software Engineering Intern | Mountain View, CA | [Apply](<https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027?utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Akuna Capital | Software Engineer Intern, C# .NET Desktop | Chicago, IL | [Apply](<https://akunacapital.com/careers/job/8018886/?gh_jid=8018886&utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Akuna Capital | Software Engineer Intern, Full Stack Web | Chicago, IL | [Apply](<https://akunacapital.com/careers/job/8018893/?gh_jid=8018893&utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Akuna Capital | Python Software Engineer Intern | Chicago, IL | [Apply](<https://akunacapital.com/careers/job/8018853/?gh_jid=8018853&utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Akuna Capital | Platform Engineer Intern | Chicago, IL | [Apply](<https://akunacapital.com/careers/job/8018856/?gh_jid=8018856&utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Akuna Capital | Software Engineer Intern, C++ | Chicago, IL | [Apply](<https://akunacapital.com/careers/job/8018847/?gh_jid=8018847&utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Quadrillion | Software Engineering Intern (Summer 2027) | New York City, NY | [Apply](<https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
 | LufCo | Summer Intern (CS / Software / Engineering) | Aberdeen, MD | [Apply](<https://lufco.breezy.hr/p/3d3ec6639256-summer-intern-2027>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Epic | Software Developer Intern | Verona, WI | [Apply](<https://careers.epic.com/jobs/intern/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Salesforce | Software Engineer Intern (Futureforce) | San Francisco, CA | [Apply](<https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1>) | 2026-07-23 | Summer 2027 | BS | 🔒 Closed |
@@ -74,6 +84,7 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Copart | Database Engineering Intern | Dallas, TX | [Apply](<https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Dedalus Labs | Systems Engineer / Product Manager Intern (Summer 2027) | San Francisco, CA | [Apply](<https://www.ycombinator.com/companies/dedalus-labs/jobs/YtbvXM8-systems-engineer-summer-2027-intern>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Deepgram | Software Engineering- Internship (Fall 2026/Summer 2027) | Remote (US) | [Apply](<https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Sentara Health | Cyber Security Compliance Intern | Virginia Beach, VA | [Apply](<https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Cyber-Security-Compliance-Intern_JR-97927-1>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | HP | Software Engineering Intern - Device Experiences | San Francisco, CA | [Apply](<https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
 | Mathtech | Web Application Developer Intern | Falls Church, VA | [Apply](<https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=cf1a92f4-16eb-4267-86ca-bc956024f426&jobId=565843>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
 | Moog | Intern - Software Engineering | Buffalo, NY | [Apply](<https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
@@ -84,20 +95,32 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Google | Software Engineering Intern - BS - Summer 2027 | Mountain View, CA | [Apply](<https://www.google.com/about/careers/applications/jobs/results/85564713261245126>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
 | Copart | Software Engineering Intern | Dallas, TX | [Apply](<https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110011>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
 | SEL | Software Engineer Intern | Boise, ID | [Apply](<https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Idaho---Boise/Software-Engineer-Intern_2026-22321>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
+| Schweitzer Engineering Laboratories | Software Engineer Intern | Boise, ID | [Apply](<https://selinc.wd1.myworkdayjobs.com/SEL/job/Idaho---Boise/Software-Engineer-Intern_2026-22321>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
 | Google | Software Engineering Intern, BS (Summer 2027) | Mountain View, CA | [Apply](<https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern/>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
 | Uber | Software Engineering Intern (Summer 2027, Uber Career Prep) | San Francisco, CA | [Apply](<https://jobs.uber.com/en/jobs/300697/>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
 | Western Digital | Software Engineering Intern (Summer 2027) | San Jose, CA | [Apply](<https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
 | Copart | Software Engineering Intern | Dallas, TX | [Apply](<https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
 | GE HealthCare | Edison Engineering Development Program Intern - Software | Waukesha, WI | [Apply](<https://gehc.wd5.myworkdayjobs.com/en-US/gehc_externalsite/job/Waukesha/Edison-Engineering-Development-Program-Intern---Software_R4043933-2>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
 | HyperLight | Software Engineer Intern | Cambridge, MA | [Apply](<https://apply.workable.com/hyperlight/j/5581EA0668/>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
+| GE Healthcare | Engineering Development Program Intern - Software | Waukesha, WI | [Apply](<https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Waukesha/Edison-Engineering-Development-Program-Intern---Software_R4043933-2>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
+| AVEVA | Software Developer Intern - Drexel Co-op (US) | Philadelphia, PA | [Apply](<https://aveva.wd3.myworkdayjobs.com/AVEVA_careers/job/Philadelphia-Pennsylvania-United-States-of-America/Software-Developer-Intern--Drexel-Co-op-US_R014478>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
 | Composio | Full-stack Intern | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/composio/4d819015-0b9a-466f-9b41-8e1cc1e5b6d9>) | 2026-07-17 | Summer 2027 | BS | 🟢 Open |
+| Chevron | 2026-2027 Information Technology - Software Engineer - Intern | Houston, TX | [Apply](<https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1>) | 2026-07-17 | Summer 2027 | BS | 🟢 Open |
+| Netic | Full-Stack Software Engineer - Product - Intern - 2026-2027 | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/netic/f291394a-f3c5-4f46-9b87-77aea3d487ef>) | 2026-07-17 | Summer 2027 | BS | 🟢 Open |
+| Netic | Software Engineer - Agent Platform - Intern - 2026-2027 | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7>) | 2026-07-17 | Summer 2027 | BS | 🟢 Open |
 | The Trade Desk | Software Engineering Intern (North America, Summer 2027) | Denver, CO | [Apply](<https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
 | Neuralink | Software Engineer Intern, BCI Applications | Fremont, CA | [Apply](<https://job-boards.greenhouse.io/neuralink/jobs/6594422003>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
+| Solar Turbines (Caterpillar) | IT Intern (2027) | San Diego, CA | [Apply](<https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-IT-Intern_R0000381898>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
+| Cybernetic Labs | Software Engineer Intern - Agent Platform | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7/application?embed=true>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
+| Cybernetic Labs | Full-Stack Software Engineer Intern - Product | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/netic/f291394a-f3c5-4f46-9b87-77aea3d487ef/application?embed=true>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
+| Cybernetic Labs | Forward Deployed Engineer Intern | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/netic/ffd6af1a-cebb-41f5-ac1d-e695adfd067c/application?embed=true>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
 | Copart | Software Engineering Intern | Dallas, TX | [Apply](<https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689>) | 2026-07-15 | Summer 2027 | BS | 🟢 Open |
 | Copart | Software Engineering Intern | Dallas, TX | [Apply](<https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673>) | 2026-07-15 | Summer 2027 | BS | 🟢 Open |
 | Copart | Software Engineering Intern | Dallas, TX | [Apply](<https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109897>) | 2026-07-15 | Summer 2027 | BS | 🟢 Open |
 | SEL | Software Engineer Intern | Washington, DC | [Apply](<https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Washington---Pullman/Software-Engineer-Intern_2026-21720>) | 2026-07-15 | Summer 2027 | BS | 🟢 Open |
 | Tencent | Cloud Media Services Intern | Bellevue, WA | [Apply](<https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-Washington-Bellevue/Cloud-Media-Services-Intern_R107794>) | 2026-07-15 | Summer 2027 | BS | 🟢 Open |
+| RFCUNY | IT & Data Systems Intern - Archibus & Applications Development | New York, NY | [Apply](<https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/IT---Data-Systems-Intern--Archibus---Applications-Development-_JR3276>) | 2026-07-15 | Summer 2027 | BS | 🟢 Open |
+| Circleback | Software Engineer Intern | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/circleback/2bb6be67-d1a8-42f7-bb1b-64ee36bf613f/application?embed=true>) | 2026-07-15 | Summer 2027 | BS | 🟢 Open |
 | BAE Systems | Software Engineering Intern I (Summer 2027) | Nashua, NH | [Apply](<https://jobs.baesystems.com/global/en/job/BAE1US127293BREXTERNAL/Software-Engineering-Intern-I-Summer-2027>) | 2026-07-14 | Summer 2027 | BS | 🟢 Open |
 | Joby Aviation | Software Engineer Intern - Air Taxi | San Carlos, CA | [Apply](<https://careers-jobyaviation.icims.com/jobs/5168/software-engineer-intern----air-taxi/job>) | 2026-07-14 | Summer 2027 | BS | 🟢 Open |
 | Persona AI | Teleoperation Software Engineering Internship | Pensacola, FL | [Apply](<https://jobs.ashbyhq.com/persona.ai/6078fafd-ba34-4c89-b260-7eb15be3cb9c>) | 2026-07-14 | Summer 2027 | BS | 🟢 Open |
@@ -106,6 +129,8 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Exowatt | Software Engineering Intern - Inventory Automation & IoT/Robotics | Austin, TX | [Apply](<https://jobs.lever.co/exowatt/46c8f4fd-f059-4ad6-a5f4-4fcd55d84f9c>) | 2026-07-11 | Summer 2027 | BS | 🔒 Closed |
 | Pylon | Software Engineer - Intern | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/pylon-labs/fcea8b52-81f1-4b0c-b575-d7b180faec4d>) | 2026-07-11 | Summer 2027 | BS | 🟢 Open |
 | Palantir | Forward Deployed Infrastructure Engineer, Internship - US Government | Washington, DC | [Apply](<https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9>) | 2026-07-10 | Summer 2027 | BS | 🟢 Open |
+| Datasite | Forward Deployed Engineer Intern | New York, NY | [Apply](<https://datasite.wd1.myworkdayjobs.com/en-GB/datasite/job/USA---NY---New-York-City/AI-Transformation---Forward-Deployed-Engineer--FDE--Intern_R36255>) | 2026-07-10 | Summer 2027 | BS | 🟢 Open |
+| Manhattan Associates | A.I. Developer Co-Op (Boston, MA) | Remote (US) | [Apply](<https://manh.wd5.myworkdayjobs.com/campus/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_16931>) | 2026-07-10 | Summer 2027 | BS | 🟢 Open |
 | Palantir | Software Engineer Intern | New York, NY | [Apply](<https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c>) | 2026-07-09 | Summer 2027 | BS | 🟢 Open |
 | Palantir | Software Engineer Intern, Infrastructure | New York, NY | [Apply](<https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3>) | 2026-07-09 | Summer 2027 | BS | 🟢 Open |
 | Palantir | Software Engineer Intern, Production Infrastructure | New York, NY | [Apply](<https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1>) | 2026-07-09 | Summer 2027 | BS | 🟢 Open |
@@ -114,23 +139,37 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Palantir | Year at Palantir, Forward Deployed Software Engineer Intern | New York, NY | [Apply](<https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3>) | 2026-07-09 | Summer 2027 | BS | 🟢 Open |
 | Rakuten International | Software Engineer Intern | San Mateo, CA | [Apply](<https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenAmericas/job/San-Mateo-California/Intern---Software-Engineer--AI-User-Experience_1033171>) | 2026-07-09 | Summer 2027 | BS | 🟢 Open |
 | Copart | DevOps Engineering Intern | Dallas, TX | [Apply](<https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/DevOps-Engineering-Intern_JR109490>) | 2026-07-08 | Summer 2027 | BS | 🟢 Open |
+| National Laboratory of the Rockies | Software and Data Infrastructure Intern | Golden, CO | [Apply](<https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Undergraduate-graduate-intern---software-and-data-infrastructure-for-autonomous-thin-film-experimentation--Year-Round-_R14394>) | 2026-07-08 | Summer 2027 | BS | 🟢 Open |
+| DTCC | Information Technology Intern (2027 Summer) | Jersey City, NJ | [Apply](<https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214158>) | 2026-07-08 | Summer 2027 | BS | 🟢 Open |
 | Capital One | Product Development Internship Program | Mclean, VA | [Apply](<https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Product-Development-Internship-Program---Summer-2027_R246020-1>) | 2026-07-07 | Summer 2027 | BS | 🟢 Open |
 | Anduril | Software Engineer Intern | Atlanta, GA | [Apply](<https://job-boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007>) | 2026-07-07 | Summer 2027 | BS | 🟢 Open |
 | VetsEZ | Full Stack Developer Intern (Remote Opportunity) | Dallas, TX | [Apply](<https://vetsez.breezy.hr/p/d18961a7a7e701-full-stack-developer-intern-remote-opportunity>) | 2026-07-06 | Summer 2027 | BS | 🟢 Open |
+| Marshall Wace | Technology Intern | New York, NY | [Apply](<https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002>) | 2026-07-06 | Summer 2027 | BS | 🟢 Open |
+| CTGT | Software Engineer Intern | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/ctgt/f657c2f5-125e-42b6-a68a-646bbea3d155/application>) | 2026-07-04 | Summer 2027 | BS | 🟢 Open |
 | Eulerity | Website Developer & Content Marketing Intern - AI & Automation | New York City, NY | [Apply](<https://job-boards.greenhouse.io/eulerity/jobs/4694300006>) | 2026-07-03 | Summer 2027 | BS | 🟢 Open |
 | Tencent | Cloud Media Services Intern | Palo Alto, CA | [Apply](<https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R106872>) | 2026-07-03 | Summer 2027 | BS | 🟢 Open |
 | Palantir | Forward Deployed Software Engineer - Internship - Intel | Washington, DC | [Apply](<https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89>) | 2026-07-02 | Summer 2027 | BS | 🟢 Open |
 | Sony | Software Engineer Intern | San Diego, CA | [Apply](<https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282>) | 2026-07-01 | Summer 2027 | BS | 🟢 Open |
+| Palantir | Forward Deployed Software Engineer Intern - Commercial | Chicago, IL | [Apply](<https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2/apply>) | 2026-06-30 | Summer 2027 | BS | 🟢 Open |
+| Palantir | Privacy and Civil Liberties Software Engineer Intern | New York, NY | [Apply](<https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply>) | 2026-06-29 | Summer 2027 | BS | 🟢 Open |
 | Quadrillion | Software Engineering Intern | New York, NY | [Apply](<https://jobs.ashbyhq.com/quadrillion-labs/601e105d-2f0f-4482-9bae-3a825a1b97fd>) | 2026-06-28 | Summer 2027 | BS | 🟢 Open |
 | CTGT | Software Engineering Intern - Summer 2027 | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/ctgt/f657c2f5-125e-42b6-a68a-646bbea3d155>) | 2026-06-27 | Summer 2027 | BS | 🟢 Open |
 | Copart | Software Engineering Intern | Dallas, TX | [Apply](<https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109672>) | 2026-06-26 | Summer 2027 | BS | 🟢 Open |
 | Altasciences | Process Innovation - Software Engineering Intern | Overland Park, KS | [Apply](<https://altasciences.wd1.myworkdayjobs.com/en-US/careers/job/Overland-Park-Kansas/Process-Innovation---Software-Engineering-Intern_R102750>) | 2026-06-24 | Summer 2027 | BS | 🟢 Open |
+| Altasciences | Software Engineer Intern | Overland Park, KS | [Apply](<https://altasciences.wd1.myworkdayjobs.com/Careers/job/Overland-Park-Kansas/Process-Innovation---Software-Engineering-Intern_R102750>) | 2026-06-24 | Summer 2027 | BS | 🟢 Open |
+| Copart | Database Engineer Intern | Dallas, TX | [Apply](<https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636>) | 2026-06-24 | Summer 2027 | BS | 🟢 Open |
+| SimonComputing | Software Development Internship | Alexandria, VA | [Apply](<https://simoncomputing.applicantpro.com/jobs/4115690>) | 2026-06-23 | Summer 2027 | BS | 🟢 Open |
 | iHerb | Software Development Intern | Remote (US) | [Apply](<https://job-boards.greenhouse.io/iherb/jobs/7776154003>) | 2026-06-18 | Summer 2027 | BS | 🟢 Open |
+| Lila Sciences | Co-Op - Software Product Management | Cambridge, MA | [Apply](<https://job-boards.greenhouse.io/lilasciences/jobs/4286512009>) | 2026-06-17 | Summer 2027 | BS | 🟢 Open |
 | Circleback | Software Engineering Intern (Summer 2027) | San Francisco, CA | [Apply](<https://www.ycombinator.com/companies/circleback/jobs/QMpriul-software-engineering-intern-summer-2027>) | 2026-06-16 | Summer 2027 | BS | 🔒 Closed |
 | Anduril | 2027 Software Engineer Intern | Atlanta, GA | [Apply](<https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007>) | 2026-06-11 | Summer 2027 | BS | 🟢 Open |
 | Circleback | Software Engineering Intern - Summer 2027 | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/circleback/2bb6be67-d1a8-42f7-bb1b-64ee36bf613f>) | 2026-06-11 | Summer 2027 | BS | 🟢 Open |
+| Anduril | Software Engineer Intern (apps reviewed from Aug 2026) | Costa Mesa, CA | [Apply](<https://job-boards.greenhouse.io/andurilindustries/jobs/5148079007>) | 2026-06-11 | Summer 2027 | BS | 🟢 Open |
+| Anduril | Software Engineer Intern | Boston, MA | [Apply](<https://boards.greenhouse.io/andurilindustries/jobs/5148079007>) | 2026-06-11 | Summer 2027 | BS | 🟢 Open |
 | Centerfield | Software Engineer Intern | Los Angeles, CA | [Apply](<https://jobs.ashbyhq.com/centerfield/3279e803-56ab-4e12-8168-c2fd60bc8e60>) | 2026-06-10 | Summer 2027 | BS | 🟢 Open |
+| Nidec | Software Engineer Co-Op | WPE, MO | [Apply](<https://nidec.wd1.myworkdayjobs.com/en-US/nidec/job/North-AmericaUSAMissouriSt-Louis---WPE-MO/Software-Engineer-Co-Op_R0015871>) | 2026-06-10 | Summer 2027 | BS | 🟢 Open |
 | GE Vernova | Grid Automation & Software Intern | Remote (US) | [Apply](<https://gevernova.wd5.myworkdayjobs.com/en-US/only_confidential_executive_recruiting/job/Remote/Grid-Automation---Software-Intern_R5041706-3>) | 2026-06-09 | Summer 2027 | BS | 🟢 Open |
+| Kinaxis | Co-op/Intern Software Development - C++ | Remote (US) | [Apply](<https://careers-kinaxis.icims.com/jobs/34764/co-op-intern-software-development---c%2b%2b/job>) | 2026-06-09 | Summer 2027 | BS | 🟢 Open |
 | GE Vernova | Grid Automation & Software Intern | Remote (US) | [Apply](<https://gevernova.wd5.myworkdayjobs.com/en-US/only_confidential_executive_recruiting/job/Remote/Grid-Automation---Software-Intern_R5041709>) | 2026-06-08 | Summer 2027 | BS | 🟢 Open |
 | Beacon Software | Software Engineering Intern | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1>) | 2026-06-02 | Summer 2027 | BS | 🟢 Open |
 | Clerkie | Software Engineer Internship | Remote (US) | [Apply](<http://getfiber.ai/careers?gh_jid=5152467007>) | 2026-06-02 | Summer 2027 | BS | 🟢 Open |
@@ -151,6 +190,7 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Veeam Software | Software Engineering Intern, Policy Engineering | San Jose, CA | [Apply](<https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857828101>) | 2026-05-09 | Summer 2027 | BS | 🔒 Closed |
 | Veeam Software | Software Engineering Intern, Platform, Security & AI | San Jose, CA | [Apply](<https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857832101>) | 2026-05-09 | Summer 2027 | BS | 🔒 Closed |
 | Dedalus Labs | Forward Deployed Engineer Intern 🇺🇸 | San Francisco, CA | [Apply](<https://www.workatastartup.com/jobs/94400>) | 2026-05-09 | Summer 2027 | BS | 🔒 Closed |
+| Amazon | Robotics - Software Development Engineer Intern/Co-op | Sunnyvale, CA | [Apply](<https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1&utm_source=github-vansh-ouckah>) | 2026-05-09 | Summer 2027 | BS | 🟢 Open |
 | kos.ai | Software Engineer Intern | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/kos.ai/efab6ffb-9658-47f7-8b5f-a295c55957d3>) | 2026-05-08 | Summer 2027 | BS | 🟢 Open |
 | Stoke Space | Software Engineer Intern | Kent, WA | [Apply](<https://www.stokespace.com/careers/current-openings/?gh_jid=5987663004>) | 2026-05-05 | Summer 2027 | BS | 🟢 Open |
 | Apptronik | Robotics Software Intern - Real-Time Controls | Austin, TX | [Apply](<https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004>) | 2026-04-30 | Summer 2027 | BS | 🟢 Open |
@@ -159,22 +199,30 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Palantir | Year at Palantir - Forward Deployed Software Engineer - Internship - USG | Washington, DC | [Apply](<https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019>) | 2026-04-24 | Summer 2027 | BS | 🟢 Open |
 | Al Warren Oil Company | Software Developer Intern | Bensenville, IL | [Apply](<https://apply.workable.com/al-warren-oil-company-inc/j/A4487B349D/>) | 2026-04-24 | Summer 2027 | BS | 🟢 Open |
 | H&CO | Software Development Intern | Coral Gables, FL | [Apply](<https://career41.sapsf.com/career?career_ns=job_listing&company=hcollp&career_job_req_id=3507>) | 2026-04-22 | Summer 2027 | BS | 🟢 Open |
+| Ether.fi | GTM Engineer Intern | Denver, CO | [Apply](<https://jobs.ashbyhq.com/ether.fi/6dcb712c-8fe5-4725-ad6a-0e9771af22cb?utm_source=github-vansh-ouckah>) | 2026-04-22 | Summer 2027 | BS | 🟢 Open |
 | Poshmark | Cloud Platform Engineer Intern, Growth 🛂 | Redwood City, CA | [Apply](<https://jobs.ashbyhq.com/poshmark/062b84e6-1633-43ae-870b-83cb62893caa>) | 2026-04-20 | Summer 2027 | BS | 🟢 Open |
 | Fiserv | Application Development Intern 🛂 | Alpharetta, GA | [Apply](<https://careers.fiserv.com/us/en/job/FFFYJUSR10390264EXTERNALENUS/Application-Development-Summer-Intern>) | 2026-04-20 | Summer 2027 | BS | 🔒 Closed |
 | Fiserv | Technology Intern 🛂 | Columbus, OH | [Apply](<https://careers.fiserv.com/us/en/job/FFFYJUSR10390344EXTERNALENUS/Technology-Summer-Intern>) | 2026-04-20 | Summer 2027 | BS | 🔒 Closed |
 | Avanade | Software Engineering Intern | Los Angeles, CA | [Apply](<https://accenture.wd103.myworkdayjobs.com/en-GB/AvanadeCareers/job/Los-Angeles-6181-W-Centinela-Ave-Corp/Intern--Software-Engineering---June-2026_R00319370>) | 2026-04-20 | Summer 2027 | BS | 🟢 Open |
 | ABC News | Product Management and Engineering Intern | New York, NY | [Apply](<https://jobs.disneycareers.com/job/new-york/abc-news-product-management-and-engineering-intern-summer-fall-2026/391/93958488896>) | 2026-04-20 | Summer 2027 | BS | 🔒 Closed |
+| Fiserv | Application Development Intern | Alpharetta, GA | [Apply](<https://careers.fiserv.com/us/en/job/FFFYJUSR10390264EXTERNALENUS/Application-Development-Summer-Intern?jr_id=69e6ab177820c036924d1dc6&utm_source=github-vansh-ouckah>) | 2026-04-20 | Summer 2027 | BS | 🟢 Open |
+| Fiserv | Technology Intern | Columbus, OH | [Apply](<https://careers.fiserv.com/us/en/job/FFFYJUSR10390344EXTERNALENUS/Technology-Summer-Intern?jr_id=69e6ab5e3aa0c4796439589b&utm_source=github-vansh-ouckah>) | 2026-04-20 | Summer 2027 | BS | 🟢 Open |
 | Cadence | Software Intern | San Jose, CA | [Apply](<https://cadence.wd1.myworkdayjobs.com/en-US/external_careers/job/SAN-JOSE/Software-Intern_R53282-1>) | 2026-04-16 | Summer 2027 | BS | 🟢 Open |
 | Latent Defense | Software Engineer Intern | New York City, NY | [Apply](<https://jobs.ashbyhq.com/latent%20defense/54841e7d-d80a-4c2f-8c44-d492fe8eb487>) | 2026-04-16 | Summer 2027 | BS | 🟢 Open |
 | Auctor | Software Engineering Intern | New York City, NY | [Apply](<https://jobs.ashbyhq.com/auctor/9d67c881-3ca7-4616-a059-e94c03e19607>) | 2026-04-14 | Summer 2027 | BS | 🟢 Open |
 | Eulerity | Android Developer Intern | New York City, NY | [Apply](<https://job-boards.greenhouse.io/eulerity/jobs/4671031006>) | 2026-04-08 | Summer 2027 | BS | 🟢 Open |
 | Eulerity | Mobile iOS Developer Intern | New York City, NY | [Apply](<https://job-boards.greenhouse.io/eulerity/jobs/4671025006>) | 2026-04-08 | Summer 2027 | BS | 🟢 Open |
-| Ellipsis Labs | Software Engineer Intern | New York, NY | [Apply](<https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849>) | 2026-03-27 | Summer 2027 | BS | 🟢 Open |
+| Ellipsis Labs | Software Engineer | New York, NY | [Apply](<https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849/application>) | 2026-03-26 | Summer 2027 | BS | 🟢 Open |
+| Palantir | Forward Deployed Software Engineer – Internship - US Government | Honolulu, HI | [Apply](<https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e/apply>) | 2025-12-12 | Summer 2027 | BS | 🟢 Open |
 
 ## Quantitative Finance
 
 | Company | Role | Track | Location | Link | Date Posted | Term | Degree | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| TransMarketGroup | DevOps/SRE Engineer | Development | Chicago, IL | [Apply](<https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Hudson River Trading | Algorithm Development & Quantitative Research Intern |  | New York, NY | [Apply](<https://www.hudsonrivertrading.com/hrt-job/algorithm-development-quant-research-internship-summer-2027/?gh_src=&utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Akuna Capital | Quantitative Research Intern |  | Chicago, IL | [Apply](<https://akunacapital.com/careers/job/8036614/?gh_jid=8036614&utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| Akuna Capital | Quantitative Development & Strategy Intern |  | Chicago, IL | [Apply](<https://akunacapital.com/careers/job/8021481/?gh_jid=8021481&utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
 | Akuna Capital | Quantitative Developer | Development | Chicago, IL | [Apply](<https://www.akunacapital.com/careers/job/8021481/?gh_jid=8021481>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Akuna Capital | Quantitative Researcher | Research | Chicago, IL | [Apply](<https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Akuna Capital | Software Engineer (C++) | Development | Chicago, IL | [Apply](<https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
@@ -250,19 +298,16 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Point72 | Summer 2027 Quantitative Research Int... | Research | New York, NY | [Apply](<https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Point72 | Quantitative Research Intern | Research | New York, NY | [Apply](<https://boards.greenhouse.io/point72/jobs/7297667002?gh_jid=7297667002>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Optiver | Institutional Trader Intern (2027 Sta... | Trading | Chicago, IL | [Apply](<https://job-boards.greenhouse.io/optiverprivate/jobs/8402208002>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
-| DRW | FPGA Intern | Development | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/fpga-intern-3484423>) | 2026-07-23 | Summer 2027 | BS/MS/PhD | 🟢 Open |
 | DRW | Leadership Rotation Network Intern |  | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/leadership-rotation-network-intern-3467431>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | DRW | Strategy Intern |  | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/strategy-intern-3467230>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | DRW | Trade Support Intern |  | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/trade-support-intern-3467551>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | DRW | Venture Capital Analyst Intern |  | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/venture-capital-analyst-intern-3467348>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | IMC Trading | Machine Learning Research Intern - Summer 2027 - Chicago | Research | Chicago, IL | [Apply](<https://www.imc.com/us/careers/jobs/4907430101>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | IMC Trading | Machine Learning Research Intern - Summer 2027 - Amsterdam | Research | Chicago, IL | [Apply](<https://www.imc.com/us/careers/jobs/4912874101>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
-| IMC Trading | Hardware Engineer Intern - Summer 2027 | Development | Chicago, IL | [Apply](<https://www.imc.com/us/careers/jobs/4823945101>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Jane Street | Machine Learning Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8611307002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Jane Street | Cybersecurity Analyst | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8632723002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Jane Street | Data Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8631973002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Jane Street | Fundamental Research Analyst | Research | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8347286002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
-| Jane Street | Hardware Engineer (FPGA/ASIC) | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8624440002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Jane Street | Linux Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8626260002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Jane Street | Network Engineer | Development | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8620793002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Jane Street | Sales and Trading | Trading | New York, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8347385002/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
@@ -276,11 +321,17 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Optiver | Trading Automation and Operations Intern (Summer 2027) | Trading | Chicago, IL | [Apply](<https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/trading-automation-and-operations-intern-summer-2027/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Optiver | FPGA Engineer Intern (Summer 2027 - Chicago) | Development | Chicago, IL | [Apply](<https://www.optiver.com/join-us/jobs/technology/chicago/fpga-engineer-intern-summer-2027-chicago/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Walleye Capital | Business Operations Intern (Summer 2027) |  | New York, NY | [Apply](<https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4678723006>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Anthelion Capital | Quant Developer / Quant Research Intern |  | New York, NY | [Apply](<https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96/application?embed=true>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 |  | New York City, NY | [Apply](<https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Virtu Financial | Internship - Software Engineer |  | Austin, TX | [Apply](<https://job-boards.greenhouse.io/virtu/jobs/8624410002>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
 | Virtu Financial | Internship - Quantitative Trading | Trading | Austin, TX | [Apply](<https://job-boards.greenhouse.io/virtu/jobs/8624408002>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
 | Susquehanna | Quantitative Systematic Trading Intern (PhD, Summer 2027) | Trading | New York, NY | [Apply](<https://careers.sig.com/jobs/10822>) | 2026-07-21 | Summer 2027 | PhD | 🟢 Open |
 | Susquehanna | Quantitative Systematic Trading Intern (Master's, Summer 2027) | Trading | New York, NY | [Apply](<https://careers.sig.com/jobs/10823>) | 2026-07-21 | Summer 2027 | MS | 🟢 Open |
 | Chicago Trading Company | Software Engineering Internship - Summer 2027 |  | Chicago, IL | [Apply](<https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
+| Castleton Commodities International | Data Science Machine Learning Intern |  | Stamford, CT | [Apply](<https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Science-Machine-Learning-Internship--Summer-2027-_R1344>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
+| Castleton Commodities International | Full-Stack Software Engineer Intern |  | Stamford, CT | [Apply](<https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Full-Stack-Software-Engineer-Internship--Summer-2027-_R1350>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
+| AQR Capital Management | Trading Analyst Intern |  | Greenwich, CT | [Apply](<https://careers.aqr.com/jobs?gh_jid=8077110&gh_jid=8077110>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
+| Castleton Commodities International | Commodities Trading Analyst Internship |  | Houston, TX | [Apply](<https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Houston-TX/Commodities-Trading-Summer-Analyst-Internship-Program--Summer-2027-Internship-_R1333-1>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
 | Chicago Trading Company | Quant Trading Intern (Summer 2027) | Trading | Chicago, IL | [Apply](<https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
 | Point72 | Quantitative Research Intern (Summer 2027) | Research | New York, NY | [Apply](<https://job-boards.greenhouse.io/point72/jobs/7297642002>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
 | Old Mission | Software Engineer Intern (Summer 2027, June Start) |  | Chicago, IL | [Apply](<https://job-boards.greenhouse.io/oldmissioncapital/jobs/7796180003>) | 2026-07-15 | Summer 2027 | BS | 🟢 Open |
@@ -303,6 +354,7 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Jump Trading | Campus Quantitative Researcher - PhD - Intern | Research | Chicago, IL | [Apply](<https://www.jumptrading.com/hr/job?gh_jid=8049938>) | 2026-07-09 | Summer 2027 | PhD | 🟢 Open |
 | Jump Trading | Campus Systems Engineer Intern |  | Chicago, IL | [Apply](<https://www.jumptrading.com/hr/job?gh_jid=8007788>) | 2026-07-09 | Summer 2027 | BS | 🟢 Open |
 | Two Sigma | AI Research Scientist Intern (MS / PhD) | Research | New York, NY | [Apply](<https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-AI-Research-Scientist-Internship-2027-Summer/14022>) | 2026-07-08 | Summer 2027 | MS/PhD | 🔒 Closed |
+| Jump Trading | Campus Quantitative Researcher Intern - PhD |  | Chicago, IL | [Apply](<https://boards.greenhouse.io/embed/job_app?token=8049938>) | 2026-07-08 | Summer 2027 | PhD | 🟢 Open |
 | Tower Research | Quantitative Developer Intern | Development | Chicago, IL | [Apply](<https://tower-research.com/open-positions/?gh_jid=8044334>) | 2026-07-07 | Summer 2027 | BS | 🟢 Open |
 | Susquehanna Investment Group | Quantitative Strategy Developer Intern | Development | Bala Cynwyd, PA | [Apply](<https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us>) | 2026-07-07 | Summer 2027 | BS | 🟢 Open |
 | Tower Research Capital | Quantitative Trader Intern | Trading | New York, NY | [Apply](<https://job-boards.greenhouse.io/towerresearchcapital/jobs/8024128>) | 2026-07-06 | Summer 2027 | BS | 🟢 Open |
@@ -310,11 +362,16 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Tower Research Capital | Quantitative Developer Intern - Summer 2027 | Development | Chicago, IL | [Apply](<https://www.tower-research.com/open-positions/?gh_jid=8044334>) | 2026-07-06 | Summer 2027 | BS | 🟢 Open |
 | Tower Research Capital | Quantitative Trader Intern - Summer 2027 | Trading | Chicago, IL | [Apply](<https://www.tower-research.com/open-positions/?gh_jid=8024128>) | 2026-07-06 | Summer 2027 | BS | 🟢 Open |
 | Tower Research Capital | Quantitative Trader Intern - PhD | Trading | New York City, NY | [Apply](<https://www.tower-research.com/open-positions/?gh_jid=8024138>) | 2026-07-06 | Summer 2027 | PhD | 🟢 Open |
+| Susquehanna International Group (SIG) | Quantitative Strategy Developer Intern |  | Philadelphia, PA | [Apply](<https://careers-sig.icims.com/jobs/11170/job?mobile=true&needsRedirect=false>) | 2026-07-06 | Summer 2027 | BS | 🟢 Open |
 | Optiver | Software Engineer Intern - Summer 2027 - Chicago |  | Chicago, IL | [Apply](<https://www.optiver.com/join-us/jobs/8604760002/?gh_jid=8604760002>) | 2026-07-02 | Summer 2027 | BS | 🟢 Open |
 | Optiver | Software Engineer Intern - Summer 2027 - Austin |  | Austin, TX | [Apply](<https://www.optiver.com/join-us/jobs/8401052002/?gh_jid=8401052002>) | 2026-07-02 | Summer 2027 | BS | 🟢 Open |
 | Optiver | Quantitative Research Intern - PhD - Summer 2027 | Research | Austin, TX | [Apply](<https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002>) | 2026-07-02 | Summer 2027 | PhD | 🟢 Open |
 | Optiver | Quantitative Research Intern - PhD - Summer 2027 | Research | Austin, TX | [Apply](<https://www.optiver.com/join-us/jobs/8451781002/?gh_jid=8451781002>) | 2026-07-02 | Summer 2027 | PhD | 🟢 Open |
 | Optiver | Quantitative Intern - Summer 2027 |  | Chicago, IL | [Apply](<https://www.optiver.com/join-us/jobs/8402215002/?gh_jid=8402215002>) | 2026-07-02 | Summer 2027 | BS | 🟢 Open |
+| Susquehanna International Group (SIG) | Quantitative Trader Intern |  | New York, NY | [Apply](<https://careers-sig.icims.com/jobs/10718/job?mobile=true&needsRedirect=false>) | 2026-06-30 | Summer 2027 | BS | 🟢 Open |
+| Susquehanna International Group (SIG) | Quantitative Trader Intern |  | Chicago, IL | [Apply](<https://careers-sig.icims.com/jobs/10849/job?mobile=true&needsRedirect=false>) | 2026-06-30 | Summer 2027 | BS | 🟢 Open |
+| Susquehanna International Group (SIG) | Quantitative Systematic Trading Intern |  | Philadelphia, PA | [Apply](<https://careers-sig.icims.com/jobs/10824/job?mobile=true&needsRedirect=false>) | 2026-06-29 | Summer 2027 | BS | 🟢 Open |
+| Susquehanna International Group (SIG) | Quantitative Research Intern |  | Philadelphia, PA | [Apply](<https://careers-sig.icims.com/jobs/10818/job?mobile=true&needsRedirect=false>) | 2026-06-29 | Summer 2027 | BS | 🟢 Open |
 | Two Sigma | Quantitative Researcher Intern | Research | New York, NY | [Apply](<https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship-2027-Summer/13945>) | 2026-06-28 | Summer 2027 | BS | 🟢 Open |
 | IMC Trading | Software Engineer Intern |  | Chicago, IL | [Apply](<https://job-boards.eu.greenhouse.io/imc/jobs/4823924101>) | 2026-06-28 | Summer 2027 | BS | 🟢 Open |
 | IMC Trading | Quantitative Research Intern (BS / MS) | Research | Chicago, IL | [Apply](<https://job-boards.eu.greenhouse.io/imc/jobs/4907399101>) | 2026-06-28 | Summer 2027 | BS/MS | 🟢 Open |
@@ -323,7 +380,11 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Virtu Financial | Quant Research Intern (Undergrad) | Research | New York, NY | [Apply](<https://job-boards.greenhouse.io/virtu/jobs/8142539002>) | 2026-06-27 | Summer 2027 | BS | 🟢 Open |
 | Voloridge Investment Management | Quantitative Developer Intern | Development | Jupiter, FL | [Apply](<https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009>) | 2026-06-15 | Summer 2027 | BS | 🟢 Open |
 | Voloridge Investment Management | Quantitative Research Intern | Research | Jupiter, FL | [Apply](<https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4226247009>) | 2026-06-15 | Summer 2027 | BS | 🟢 Open |
+| Walleye Capital | PhD Quantitative Researcher Intern |  | Boston, MA | [Apply](<https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679184006>) | 2026-06-10 | Summer 2027 | PhD | 🟢 Open |
+| Walleye Capital | Central Equity Quant Research Intern - Ceqr |  | New York, NY | [Apply](<https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676069006>) | 2026-06-10 | Summer 2027 | BS | 🟢 Open |
+| TransMarket Group | Quantitative Trader Intern |  | Chicago, IL | [Apply](<https://job-boards.greenhouse.io/transmarketgroup/jobs/5151569007?gh_jid=5151569007>) | 2026-06-02 | Summer 2027 | BS | 🟢 Open |
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Development | New York, NY | [Apply](<https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006>) | 2026-06-01 | Summer 2027 | BS | 🟢 Open |
+| InfiniteQuant | Quantitative Researcher Intern |  | New York, NY | [Apply](<https://jobs.smartrecruiters.com/InfiniteQuant/744000129235439>) | 2026-05-29 | Summer 2027 | BS | 🟢 Open |
 | Stevens Capital Management | Developer Internship | Development | Radnor, PA | [Apply](<https://job-boards.greenhouse.io/scm/jobs/721888>) | 2026-05-24 | Summer 2027 | BS | 🟢 Open |
 | Stevens Capital Management | Quantitative Research Analyst Internship | Research | Radnor, PA | [Apply](<https://job-boards.greenhouse.io/scm/jobs/721895>) | 2026-05-24 | Summer 2027 | BS | 🟢 Open |
 | Voloridge Investment Management | Quantitative Developer Intern | Development | Jupiter, FL | [Apply](<https://voloridge-investment-management.hiringthing.com/job/1013126/quantitative-developer-intern-2027?s=lif>) | 2026-05-22 | Summer 2027 | BS | 🔒 Closed |
@@ -336,11 +397,19 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | D. E. Shaw & Co. | Software Developer - Ph.D. Intern - New York - Summer 2027 | Development | New York City, NY | [Apply](<https://www.deshaw.com/careers/5893>) | 2026-04-29 | Summer 2027 | PhD | 🟢 Open |
 | D. E. Shaw & Co. | Quantitative Analyst Intern - New York - Summer 2027 |  | New York City, NY | [Apply](<https://www.deshaw.com/careers/5890>) | 2026-04-29 | Summer 2027 | BS | 🟢 Open |
 | D. E. Shaw & Co. | Quantitative Analyst - Ph.D. Intern - New York - Summer 2027 |  | New York City, NY | [Apply](<https://www.deshaw.com/careers/5891>) | 2026-04-29 | Summer 2027 | PhD | 🟢 Open |
+| Susquehanna International Group (SIG) | Quantitative Strategy Developer Intern |  | Ardmore, PA | [Apply](<https://careers-sig.icims.com/jobs/10838/job?mobile=true&needsRedirect=false>) | 2026-04-23 | Summer 2027 | BS | 🟢 Open |
+| Susquehanna International Group (SIG) | Trading System Engineering Intern |  | Ardmore, PA | [Apply](<https://careers-sig.icims.com/jobs/10837/job?mobile=true&needsRedirect=false>) | 2026-04-23 | Summer 2027 | BS | 🟢 Open |
+| Susquehanna International Group (SIG) | Quantitative Systematic Trading Intern |  | Ardmore, PA | [Apply](<https://careers-sig.icims.com/jobs/10821/job?mobile=true&needsRedirect=false>) | 2026-04-21 | Summer 2027 | BS | 🟢 Open |
+| Susquehanna International Group (SIG) | Quantitative Research Intern - PhD: Summer 2027 |  | Ardmore, PA | [Apply](<https://careers-sig.icims.com/jobs/10817/job?mobile=true&needsRedirect=false>) | 2026-04-21 | Summer 2027 | PhD | 🟢 Open |
+| Susquehanna International Group (SIG) | Quantitative Systematic Trading Intern - Master's: Summer 2027 |  | Ardmore, PA | [Apply](<https://careers-sig.icims.com/jobs/10823/job?mobile=true&needsRedirect=false>) | 2026-04-21 | Summer 2027 | MS | 🟢 Open |
 | Point72 | Investment Analyst Intern, Point72 Academy |  | New York, NY | [Apply](<https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081>) | 2026-04-19 | Summer 2027 | BS | 🟢 Open |
 | Point72 | Quantitative Researcher Intern | Research | New York, NY | [Apply](<https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-researcher-internship&jobCode=CSS-0012295>) | 2026-04-19 | Summer 2027 | BS | 🟢 Open |
 | Point72 | Quantitative Developer Intern | Development | New York, NY | [Apply](<https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-developer-internship&jobCode=CSS-0012293>) | 2026-04-19 | Summer 2027 | BS | 🟢 Open |
+| Susquehanna International Group (SIG) | Quantitative Trader Intern |  | Ardmore, PA | [Apply](<https://careers-sig.icims.com/jobs/10717/job?mobile=true&needsRedirect=false>) | 2026-04-17 | Summer 2027 | BS | 🟢 Open |
 | CME Group | Quant Risk Management Intern - Year Round |  | New York City, NY | [Apply](<https://cmegroup.wd1.myworkdayjobs.com/en-US/cme_careers/job/New-York---300-Vesey-Street/Quant-Risk-Management-Intern---Year-Round_34278>) | 2026-04-13 | Summer 2027 | BS | 🟢 Open |
 | Radix Trading | Quantitative Technologist - C++ Intern | Development | Chicago, IL | [Apply](<https://job-boards.greenhouse.io/radixuniversity/jobs/8500265002>) | 2026-04-10 | Summer 2027 | BS | 🟢 Open |
+| Ellipsis Labs | Software Engineer - 2027 Interns | Development | New York City, NY | [Apply](<https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849>) | 2026-03-28 | Summer 2027 | BS | 🟢 Open |
+| Barclays | Markets Quantitative Analyst Summer Internship 2027 New York |  | New York, NY | [Apply](<https://barclays.wd3.myworkdayjobs.com/en-US/external_career_site_barclays/job/745-7th-Avenue-New-York/Markets-Quantitative-Analyst-Summer-Internship-2027-New-York_JR-0000083408>) | 2025-12-02 | Summer 2027 | BS | 🟢 Open |
 
 ## Data Science
 
@@ -353,20 +422,25 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | NREL | Graduate (Year-Round) Intern: Geospat... | Golden, CO | [Apply](<https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern--Geospatial-Data-Science-Modeling-and-Analysis_R14338>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Eurofins | Business Intelligence Intern | Lancaster, PA | [Apply](<https://jobs.smartrecruiters.com/Eurofins/744000131132249>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Rivian and Volkswagen Group Technologies | Data Engineering Intern - AI & Analyt... | Palo Alto, CA | [Apply](<https://jobs.ashbyhq.com/rivianvw.tech/3864f83a-7b29-4c96-b00e-436d60c0508a/application>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
-| Walleye Capital | Investment Data Science Intern (Summe... | New York, NY | [Apply](<https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Evolver | Applied Data Science Intern | Palo Alto, CA | [Apply](<https://job-boards.greenhouse.io/evolver/jobs/4254540009>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Faire | Data Science Intern | San Francisco, CA | [Apply](<https://boards.greenhouse.io/faire/jobs/8376377002?gh_jid=8376377002>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Docugami | Data Science PhD Intern | Kirkland, WA | [Apply](<https://job-boards.greenhouse.io/docugami/jobs/4192122003>) | 2026-07-23 | Summer 2027 | PhD | 🟢 Open |
+| Primetals Technologies | Data Science Internship - Governance | Lake Mary, FL | [Apply](<https://mhicareers.com/job/Lake-Mary-Data-Science-Internship-(Governance)-FL-32746/1401009733/?ats=successfactors>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Decisions | Data Analyst Intern | Remote (US) | [Apply](<https://decisions.com/jobs-listing/5192047007?gh_jid=5192047007>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
 | Solar Turbines | 2027 Internship: Gas Compressor Data Analyst | San Diego, CA | [Apply](<https://cat.wd5.myworkdayjobs.com/en-US/solarturbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
+| Castleton Commodities International | Data Engineering Intern | Houston, TX | [Apply](<https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Engineering-Internship--Summer-2027-_R1346>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
 | Capital One | Current Master's - Data Science Internship - Summer 2027 | McLean, VA | [Apply](<https://capitalone.wd12.myworkdayjobs.com/en-US/capital_one/job/McLean-VA/Current-Master-s---Data-Science-Internship---Summer-2027_R244285-1>) | 2026-07-20 | Summer 2027 | MS | 🟢 Open |
 | Capital One | Current PhD - Data Science Internship - Summer 2027 | McLean, VA | [Apply](<https://capitalone.wd12.myworkdayjobs.com/en-US/capital_one/job/McLean-VA/Current-PhD---Data-Science-Internship---Summer-2027_R244287-1>) | 2026-07-20 | Summer 2027 | PhD | 🟢 Open |
 | HireVue | Data Science Intern / Fully Remote US | Sandy, UT | [Apply](<https://jobs.smartrecruiters.com/HireVue/744000138728139>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
 | Ensemble Health Partners | Data Scientist Intern | Remote (US) | [Apply](<https://ensemblehp.wd5.myworkdayjobs.com/en-US/ensemblehealthpartnerscareers/job/Remote---Nationwide/Data-Scientist--AI_R048077>) | 2026-07-17 | Summer 2027 | BS | 🟢 Open |
 | Moog | Intern - IT Computer Science - Data Analytics | Buffalo, NY | [Apply](<https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
-| Jane Street | Data Engineer Summer Internship | New York City, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8631973002>) | 2026-07-14 | Summer 2027 | BS | 🟢 Open |
+| Caterpillar | Corporate Intern, Digital and Analytics (Summer 2027) | Peoria, IL | [Apply](<https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Peoria-Illinois/XMLNAME-2026-Summer-Corporate-Intern---Digital-and-Analytics_R0000379955>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
+| National Laboratory of the Rockies | Energy Data Analysis Intern | Remote (US) | [Apply](<https://nrel.wd5.myworkdayjobs.com/NLR/job/Remote/Energy-Data-Analysis----Year-Round--Graduate-Internship_R14400>) | 2026-07-13 | Summer 2027 | BS | 🟢 Open |
+| LexisNexis Risk Solutions | Editorial Data Reporting Intern | Washington, DC | [Apply](<https://relx.wd3.myworkdayjobs.com/LexisNexisLegal/job/Home-based-Washington-DC/Editorial-Data-Reporting-Intern_R112971-1>) | 2026-07-10 | Summer 2027 | BS | 🟢 Open |
 | Jump Trading | Campus Data Engineer - Intern | Chicago, IL | [Apply](<https://www.jumptrading.com/hr/job?gh_jid=8002998>) | 2026-07-09 | Summer 2027 | BS | 🟢 Open |
 | Capital One | Data Analyst Intern | Mclean, VA | [Apply](<https://www.capitalonecareers.com/job/mclean/data-analyst-intern-summer-2027/31238/97421687472>) | 2026-07-07 | Summer 2027 | BS | 🔒 Closed |
+| AlixPartners | Data Scientist Intern | New York, NY | [Apply](<https://www.alixpartners.com/careers/7725335003?gh_jid=7725335003>) | 2026-07-06 | Summer 2027 | BS | 🟢 Open |
+| Wells Fargo | Corporate Risk Development Program Intern - Core Risk - Early Careers | Charlotte, NC | [Apply](<https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Corporate-Risk-Development-Program-Summer-Internship--Core-Risk----Early-Careers_R-556123>) | 2026-07-06 | Summer 2027 | BS | 🟢 Open |
 | Meta | Research Scientist Intern - NMR Analysis Automation | Redmond, WA | [Apply](<https://www.metacareers.com/jobs/1418337243438665>) | 2026-07-03 | Summer 2027 | BS | 🟢 Open |
 | ConnectPrep | Data Analyst Internship | Washington, DC | [Apply](<https://apply.workable.com/connectprep/j/C0CA13664F/>) | 2026-07-02 | Summer 2027 | BS | 🟢 Open |
 | DEUNA | Data Science intern | San Francisco, CA | [Apply](<https://jobs.lever.co/deuna/060457fb-42c4-4150-a8fa-e2c312a88e6a>) | 2026-06-30 | Summer 2027 | BS | 🟢 Open |
@@ -374,17 +448,22 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | RFCUNY | Data Analyst Intern | New York, NY | [Apply](<https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/Data-Analyst-Intern_JR2987>) | 2026-06-23 | Summer 2027 | BS | 🟢 Open |
 | Medecins Sans Frontieres (Doctors Without Borders) - United States | Data Science Intern | New York City, NY | [Apply](<https://job-boards.greenhouse.io/msfcareers/jobs/5271141008>) | 2026-06-19 | Summer 2027 | BS | 🟢 Open |
 | Affinius Capital | Data Scientist Intern | San Antonio, TX | [Apply](<https://careers-affiniuscapital.icims.com/jobs/2284/summer-2027-data-scientist-intern/job>) | 2026-06-18 | Summer 2027 | BS | 🔒 Closed |
+| Synchrony Financial | Data Analytics Intern | Stamford, CT | [Apply](<https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Hub/BLP-Intern---Data-Analytics_2601688>) | 2026-06-16 | Summer 2027 | BS | 🟢 Open |
 | Solar Turbines (Caterpillar) | Gas Compressor Data Analyst Intern | San Diego, CA | [Apply](<https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786>) | 2026-06-12 | Summer 2027 | BS | 🟢 Open |
 | Magnera Corporation | IT Data Analyst Intern | Evansville, IN | [Apply](<https://careers-magnera.icims.com/jobs/27241/it-data-analyst-intern/job>) | 2026-06-10 | Summer 2027 | BS | 🟢 Open |
+| Susquehanna International Group (SIG) | Electricity + Natural Gas Analyst Intern | Ardmore, PA | [Apply](<https://careers-sig.icims.com/jobs/10945/job?mobile=true&needsRedirect=false>) | 2026-06-04 | Summer 2027 | BS | 🟢 Open |
 | EV Realty | Intern - Data Analytics | San Francisco, CA | [Apply](<https://jobs.lever.co/evrealty-us/0274f48f-9b19-4bed-bf6a-5e02a2b1e865>) | 2026-05-23 | Summer 2027 | BS | 🟢 Open |
+| Marmon Holdings | Data Engineering Intern Co-op | Milwaukee, WI | [Apply](<https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453-1>) | 2026-05-16 | Summer 2027 | BS | 🟢 Open |
 | Bank of China Limited, New York Branch | Internal Audit Department - Data Analytics Audit Intern | New York City, NY | [Apply](<https://careers-bocusa.icims.com/jobs/4260/internal-audit-department---data-analytics-audit-intern/job>) | 2026-05-13 | Summer 2027 | BS | 🔒 Closed |
 | Cresta | Data Science Intern - Customer Success | Remote (US) | [Apply](<https://job-boards.greenhouse.io/cresta/jobs/5213417008>) | 2026-05-08 | Summer 2027 | BS | 🟢 Open |
 | Bank of China Limited, New York Branch | Internal Audit Department Data Analytics Audit Intern | New York City, NY | [Apply](<https://careers-bocusa.icims.com/jobs/4114/internal-audit-department-data-analytics-audit-intern/job>) | 2026-03-31 | Summer 2027 | BS | 🟢 Open |
+| Marmon Holdings | Data Engineering Intern/Co-op | Milwaukee, WI | [Apply](<https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453>) | 2026-03-04 | Summer 2027 | BS | 🟢 Open |
 
 ## AI/ML
 
 | Company | Role | Location | Link | Date Posted | Term | Degree | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Los Alamos National Laboratory | Computing & AI Division Undergraduate Student (CS / Math / Stats) | Los Alamos, NM | [Apply](<https://lanl.jobs/search/jobdetails/computing-and-artificial-intelligence-cai-division-ugs/ce152ba6-2ab8-4ef8-827d-f9ca75a54e6e>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
 | Microsoft | Applied Science: PhD Microsoft AI Internship Opportunities - Redmond | Washington, DC | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556868271>) | 2026-07-23 | Summer 2027 | PhD | 🟢 Open |
 | OpusClip | AI Research Intern | Remote (US) | [Apply](<https://jobs.ashbyhq.com/opusclip/1966160d-8b4a-40f8-96c5-39a6d81122c2>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | ByteDance | Software Engineer Intern (Applied Mac... | San Jose, CA | [Apply](<https://joinbytedance.com/search/7533045355162044690>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
@@ -409,7 +488,6 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Bosch Group | Research Intern – World-Action Model ... | Sunnyvale, CA | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000136313549>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Tencent | Hunyuan Multimodal Reinforcement Lear... | Palo Alto, CA | [Apply](<https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Reinforcement-Learning-Research-Intern_R107084-1>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Tencent | Research Internship – Reinforcement L... | Bellevue, WA | [Apply](<https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-Washington-Bellevue/Research-Internship---Reinforcement-Learning-for-Large-Foundation-Models_R106337-1>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
-| IMC Trading | Machine Learning Research Intern - Su... | Chicago, IL | [Apply](<https://job-boards.eu.greenhouse.io/imc/jobs/4907430101>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Sony | Research Intern on Generative and Pro... | New York, NY | [Apply](<https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Netflix | AI/ML Scientist Intern, AIMS AI Found... | Los Gatos, CA | [Apply](<https://explore.jobs.netflix.net/careers/job/790316547536>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Sony | Research Intern on Generative and Pro... | Remote (US) | [Apply](<https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---Michigan/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-118961>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
@@ -421,6 +499,7 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | PlusAI | Research Engineer Intern - Mapping & ... | Santa Clara, CA | [Apply](<https://jobs.lever.co/plus-2/efbb82d3-1c4a-4fc9-8b40-ee1545085061/apply>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Axiomatic AI | Internship - Research  (Uncertainty Q... | Boston, MA | [Apply](<https://job-boards.eu.greenhouse.io/axiomaticai/jobs/4845020101>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Haize Labs | Research Intern | New York, NY | [Apply](<https://job-boards.greenhouse.io/haizelabs/jobs/4070377008>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Tenstorrent | Software Engineering Intern, Power Modeling & AI Tools | Santa Clara, CA | [Apply](<https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Cadent | Enterprise AI Intern | New York City, NY | [Apply](<https://careers-cadent.icims.com/jobs/1406/enterprise-ai-intern/job>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
 | SS&C | Healthcare AI & Automation Intern | Remote (US) | [Apply](<https://ssctech.wd1.myworkdayjobs.com/en-US/ssctechnologies/job/Remote---Florida-US/Healthcare-AI---Automation-Intern_R45126>) | 2026-07-22 | Summer 2027 | BS | 🟢 Open |
 | Bild AI | AI/SWE Intern | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/bild-ai/b333f0f7-0ca6-4509-8697-9303396b5364>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
@@ -439,6 +518,7 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Exowatt | Software Engineering Intern - Agent Platform - AI | Miami, FL | [Apply](<https://jobs.lever.co/exowatt/2623555d-8b81-4f95-8bca-de9fafd2381c>) | 2026-07-11 | Summer 2027 | BS | 🔒 Closed |
 | Xsolla | AI-First Engineering Intern | Los Angeles, CA | [Apply](<https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6>) | 2026-07-11 | Summer 2027 | BS | 🟢 Open |
 | Xsolla | AI-First Engineering Intern | Raleigh, NC | [Apply](<https://jobs.lever.co/xsolla/5d5fd6b3-d82f-437a-b251-abf4674ac874>) | 2026-07-11 | Summer 2027 | BS | 🟢 Open |
+| Manhattan Associates | A.I. Developer Co-Op - Boston - MA | Boston, MA | [Apply](<https://manh.wd5.myworkdayjobs.com/en-US/campus/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_16931>) | 2026-07-11 | Summer 2027 | BS | 🟢 Open |
 | ING | Graduate Internship - NFR AI Agent Developer | Waco, TX | [Apply](<https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Graduate-Internship---NFR-AI-Agent-Developer-1_REQ-10117758>) | 2026-07-10 | Summer 2027 | BS | 🟢 Open |
 | Meta | Research Scientist Intern - Monetization Computer Vision - PhD | Menlo Park, CA | [Apply](<https://www.metacareers.com/jobs/2281218542616482>) | 2026-07-10 | Summer 2027 | PhD | 🟢 Open |
 | Faraday Future | Finance & AI Automation Intern | El Segundo, CA | [Apply](<https://job-boards.greenhouse.io/faradayfuture/jobs/7799326003>) | 2026-07-10 | Summer 2027 | BS | 🟢 Open |
@@ -447,8 +527,6 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Jump Trading | Campus AI Research Engineer - Deep Learning - Intern | Chicago, IL | [Apply](<https://www.jumptrading.com/hr/job?gh_jid=8052338>) | 2026-07-09 | Summer 2027 | BS | 🟢 Open |
 | Jump Trading | Campus AI Research Engineer - Research Automation - Intern | Chicago, IL | [Apply](<https://www.jumptrading.com/hr/job?gh_jid=8052351>) | 2026-07-09 | Summer 2027 | BS | 🟢 Open |
 | Cotiviti | Intern - AI Engineer | Remote (US) | [Apply](<https://careers-cotiviti.icims.com/jobs/19531/intern---ai-engineer/job>) | 2026-07-09 | Summer 2027 | BS | 🟢 Open |
-| Jane Street | Machine Learning Engineer Summer Internship | New York City, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8611307002>) | 2026-07-07 | Summer 2027 | BS | 🟢 Open |
-| Jane Street | Machine Learning Researcher Summer Internship | New York City, NY | [Apply](<https://www.janestreet.com/join-jane-street/position/8384490002>) | 2026-07-07 | Summer 2027 | BS | 🟢 Open |
 | Centific | Research Intern — Applied Reinforcement Learning | Remote (US) | [Apply](<https://centific.wd1.myworkdayjobs.com/en-US/centific_global/job/Remote-Work-USA/Research-Intern---Applied-Reinforcement-Learning_JR106882>) | 2026-07-02 | Summer 2027 | BS | 🟢 Open |
 | Tencent | Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal​​ | Palo Alto, CA | [Apply](<https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-Intern-Omni-Modal---_R107051>) | 2026-07-02 | Summer 2027 | BS | 🟢 Open |
 | Tencent | Hunyuan Multimodal Reinforcement Learning Research Intern | Palo Alto, CA | [Apply](<https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Reinforcement-Learning-Research-Intern_R107084-1>) | 2026-07-02 | Summer 2027 | BS | 🟢 Open |
@@ -459,14 +537,17 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Sony | Research Intern on Generative and Protective AI for Content Creation | Remote (US) | [Apply](<https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335>) | 2026-06-30 | Summer 2027 | BS | 🟢 Open |
 | Sony | Research Intern on Generative and Protective AI for Content Creation | New York, NY | [Apply](<https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335>) | 2026-06-30 | Summer 2027 | BS | 🟢 Open |
 | Halo Industries | Software Engineer Intern - Machine Learning Workflow | Santa Clara, CA | [Apply](<https://apply.workable.com/halo-industries/j/29728B1DAF/>) | 2026-06-29 | Summer 2027 | BS | 🟢 Open |
+| Lila Sciences | Co-Op, LS AI, ML Scientist for Protein Engineering | San Francisco, CA | [Apply](<https://job-boards.greenhouse.io/lilasciences/jobs/4289387009>) | 2026-06-29 | Summer 2027 | BS | 🟢 Open |
 | ByteDance | Student Researcher, Multimodal Interaction & World Model (Seed) | San Jose, CA | [Apply](<https://joinbytedance.com/search/7623548747208739077>) | 2026-06-28 | Summer 2027 | BS | 🟢 Open |
 | ByteDance | Student Researcher, Vision Foundation Model (Seed) | San Jose, CA | [Apply](<https://joinbytedance.com/search/7623544831999346997>) | 2026-06-28 | Summer 2027 | BS | 🟢 Open |
 | CTGT | Software Engineering Intern / Research Intern, Interpretability (Summer 2027) | San Francisco, CA | [Apply](<https://www.ycombinator.com/companies/ctgt/jobs/b3hTkK4-software-engineering-intern-summer-2027>) | 2026-06-27 | Summer 2027 | BS | 🟢 Open |
 | Nio | AI Robotics Researcher Intern (Dexterous Manipulation) | San Jose, CA | [Apply](<https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144>) | 2026-06-19 | Summer 2027 | BS | 🟢 Open |
+| Nelnet | AI Engineer Intern | Lincoln, NE | [Apply](<https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---AI-Engineer_R22763>) | 2026-06-18 | Summer 2027 | BS | 🟢 Open |
 | Cotiviti | Intern - Generative AI Research Engineer | Remote (US) | [Apply](<https://careers-cotiviti.icims.com/jobs/19341/intern---generative-ai-research-engineer/job>) | 2026-06-15 | Summer 2027 | BS | 🟢 Open |
 | Cotiviti | Intern - Agentic AI Research | Remote (US) | [Apply](<https://careers-cotiviti.icims.com/jobs/19416/intern---agentic-ai-research/job>) | 2026-06-15 | Summer 2027 | BS | 🟢 Open |
 | Meta | Research Scientist Intern - State Estimation for Dexterous Manipulation - PhD | Redmond, WA | [Apply](<https://www.metacareers.com/jobs/2774289902955470>) | 2026-06-13 | Summer 2027 | PhD | 🟢 Open |
 | Institute of Foundation Models | AI Research Internship - WM | Sunnyvale, CA | [Apply](<https://jobs.lever.co/ifm-us/3eec355c-6dde-4a3e-8cdf-b2a8930d5678>) | 2026-06-13 | Summer 2027 | BS | 🟢 Open |
+| Lila Sciences | Co-op, Machine Learning for Digital Twins | Cambridge, MA | [Apply](<https://job-boards.greenhouse.io/lilasciences/jobs/4280809009>) | 2026-06-11 | Summer 2027 | BS | 🟢 Open |
 | Tenstorrent | CPU/AI Workload Analysis Intern | Santa Clara, CA | [Apply](<https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5158533007>) | 2026-06-08 | Summer 2027 | BS | 🟢 Open |
 | Scale AI | AI Builder Intern | San Francisco, CA | [Apply](<https://job-boards.greenhouse.io/scaleai/jobs/4703343005>) | 2026-06-06 | Summer 2027 | BS | 🟢 Open |
 | XPENG Motors | AI Infra Onboard Performance Intern | Santa Clara, CA | [Apply](<https://job-boards.greenhouse.io/xpengmotors/jobs/8581353002>) | 2026-06-05 | Summer 2027 | BS | 🟢 Open |
@@ -514,6 +595,7 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 
 | Company | Role | Location | Link | Date Posted | Term | Degree | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Akuna Capital | Hardware Engineer Intern | Chicago, IL | [Apply](<https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
 | Akuna Capital | Hardware Engineer | Chicago, IL | [Apply](<https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Citadel Securities | Hardware Engineer (FPGA) | Chicago, IL | [Apply](<https://www.citadelsecurities.com/careers/details/fpga-engineer-intern-us/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | DRW | FPGA Engineer | Chicago, IL | [Apply](<https://www.drw.com/work-at-drw/listings/fpga-intern-3484423>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
@@ -579,11 +661,17 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | DRW | FPGA Intern | Chicago, IL | [Apply](<https://job-boards.greenhouse.io/drweng/jobs/8038923>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Unison (GE Aerospace) | Engineering Intern (Summer 2027) | Jacksonville, FL | [Apply](<https://careers.geaerospace.com/global/en/job/GAOGAYGLOBALR5037097EXTERNALENGLOBAL/Unison-Engineering-Intern-Summer-2027>) | 2026-07-23 | Summer 2027 | BS | 🔒 Closed |
 | TSMC Arizona | Engineering Intern (12 roles: process, equipment, CIM / software) | Phoenix, AZ | [Apply](<https://ro.careers.tsmc.com/job/Phoenix-Summer-2027-TSMC-AZ-Internship-Opportunities-Engineering-Roles-AZ-85001/1361003166/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Spectrum Control | Engineering Intern | Fairview, PA | [Apply](<https://spectrumcontrol.wd1.myworkdayjobs.com/spectrumcontrol/job/Fairview-PA/Engineering-Intern_JR101449>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Optiver | FPGA Engineer Intern | Austin, TX | [Apply](<https://www.optiver.com/join-us/jobs/8641352002/?gh_jid=8641352002>) | 2026-07-21 | Summer 2027 | BS | 🟢 Open |
+| GE Healthcare | Engineering Development Program Intern - Hardware | Waukesha, WI | [Apply](<https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Waukesha/Edison-Engineering-Development-Program-Internship---Hardware_R4043923-1>) | 2026-07-20 | Summer 2027 | BS | 🟢 Open |
 | Second Order Effects | Electrical Engineering Intern (Summer 2027) | El Segundo, CA | [Apply](<https://jobs.gem.com/soeffects/am9icG9zdDqLIuZagE8SU-HqhGf7TGYo>) | 2026-07-19 | Summer 2027 | BS | 🟢 Open |
-| Exowatt | Software Engineering Intern - Inventory Automation & IoT/Robotics | Austin, TX | [Apply](<https://jobs.lever.co/exowatt/46c8f4fd-f059-4ad6-a5f4-4fcd55d84f9c>) | 2026-07-10 | Summer 2027 | BS | 🔒 Closed |
+| Solar Turbines | Gas Turbine Products Engineering Intern | San Diego, CA | [Apply](<https://cat.wd5.myworkdayjobs.com/en-US/solarturbines/job/San-Diego-California/XMLNAME-2027--Gas-Turbine-Product-Engineering-Internship_R0000382293>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
+| Microchip Technology | Equipment Engineering Technician Intern - Metrology | Gresham, OR | [Apply](<https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/OR---Gresham/Intern-Equipment-Engineering-Technician--Metrology-_R3077-26>) | 2026-07-13 | Summer 2027 | BS | 🟢 Open |
 | IMC Trading | Hardware Engineer Intern | Chicago, IL | [Apply](<https://job-boards.eu.greenhouse.io/imc/jobs/4823945101>) | 2026-06-28 | Summer 2027 | BS | 🟢 Open |
+| Teledyne | Computer Engineer Intern | Lincoln, NE | [Apply](<https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Lincoln-NE/Computer-Engineering-Intern_REQ29119>) | 2026-06-20 | Summer 2027 | BS | 🟢 Open |
 | Magna | Intern - Infrared Imaging & Algorithms | Goleta, CA | [Apply](<https://magna.wd3.myworkdayjobs.com/en-US/magna/job/Goleta-California-US/Intern---Infrared-Imaging---Algorithms_R00247602>) | 2026-06-16 | Summer 2027 | BS | 🟢 Open |
-| XPENG | AI Infra Onboard Performance Intern | Santa Clara, CA | [Apply](<https://job-boards.greenhouse.io/xpengmotors/jobs/8581353002>) | 2026-06-06 | Summer 2027 | BS | 🟢 Open |
+| Pennsylvania State University | Research and Development Engineer Intern | Freeport, PA | [Apply](<https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Freeport-PA/Research-and-Development-Engineering-Intern_REQ_0000064925-1>) | 2026-06-13 | Summer 2027 | BS | 🟢 Open |
+| Magna | Systems Engineer Intern | Southfield, MI | [Apply](<https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Southfield-Michigan-US/Intern---Engineering_R00235413>) | 2026-06-12 | Summer 2027 | BS | 🟢 Open |
 | Nightwing | Software / Hardware Engineering - Intern | Annapolis Junction, MD | [Apply](<https://nwis.wd12.myworkdayjobs.com/en-US/nw/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733>) | 2026-06-03 | Summer 2027 | BS | 🟢 Open |
 | Fluxergy | Firmware Engineer Intern | Irvine, CA | [Apply](<https://jobs.lever.co/fluxergy-2/c592763e-56ba-4d20-b751-3a4574470eec>) | 2026-06-02 | Summer 2027 | BS | 🟢 Open |
 | Base Power Company | Firmware Engineering Intern | Austin, TX | [Apply](<https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7>) | 2026-05-27 | Summer 2027 | BS | 🟢 Open |
@@ -598,6 +686,7 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | General Astronautics | Engineering Intern 🇺🇸 | San Francisco, CA | [Apply](<https://www.workatastartup.com/jobs/94206>) | 2026-05-09 | Summer 2027 | BS | 🔒 Closed |
 | TETRAMEM | Software Engineer Intern, Embedded | San Jose, CA | [Apply](<https://tetramem.hrmdirect.com/employment/job-opening.php?req=3491042#job&utm_source=github-vansh-ouckah>) | 2026-04-20 | Summer 2027 | BS | 🟢 Open |
 | Neuralink | Electrical Engineer Intern - Implant Embedded Systems | Austin, TX | [Apply](<https://boards.greenhouse.io/neuralink/jobs/7702527003?gh_jid=7702527003>) | 2026-04-16 | Summer 2027 | BS | 🟢 Open |
+| Motorola Solutions | Intern - Embedded Software - System - and Test Engineer - 2026 | Irvine, CA | [Apply](<https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372>) | 2026-03-31 | Summer 2027 | BS | 🟢 Open |
 | Odys Aviation | Robotics & Embedded Systems Intern | Long Beach, CA | [Apply](<https://jobs.ashbyhq.com/odys-aviation/d15b1f56-d160-403e-8d12-90f531eb490f>) | 2026-03-27 | Summer 2027 | BS | 🟢 Open |
 
 ## Actuarial
@@ -612,6 +701,7 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 
 | Company | Role | Location | Link | Date Posted | Term | Degree | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Cargill | Operations Management Intern | Minneapolis, MN | [Apply](<https://careers.cargill.com/en/job/minneapolis/operations-management-intern-summer-2027-food-multiple-u-s-locations/23251/93659612048>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
 | Wipfli | ERP Tech Consulting Intern | Milwaukee, WI | [Apply](<https://careers-wipfli.icims.com/jobs/7972/erp-tech-consulting-internship--summer-2027/job>) | 2026-07-23 | Summer 2027 | BS | 🔒 Closed |
 | Ernst & Young | Assurance Intern | San Antonio, TX | [Apply](<https://eyglobal.yello.co/jobs/YIteGk3arW8BJwB04MbtbA>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | PricewaterhouseCoopers (PwC) | Tax JD Associate | Norridge, IL | [Apply](<https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Tax-JD-Associate---Summer---Fall-2026_657575WD>) | 2026-07-23 | Summer 2027 | MS | 🟢 Open |
@@ -620,12 +710,15 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Capital One | Product Development Internship Program (Summer 2027) | McLean, TX | [Apply](<https://www.capitalonecareers.com/job/-/-/234/97421687312>) | 2026-07-23 | Summer 2027 | BS | 🔒 Closed |
 | Salesforce | Associate Product Manager Intern (APM) | San Francisco, CA | [Apply](<https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Associate-Product-Manager--APM-_JR348039-1>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Amazon | Operations Finance Rotational Program Intern | Seattle, VA | [Apply](<https://www.amazon.jobs/en/jobs/10435673/2027-amazon-operations-finance-rotational-program-summer-internship>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
-| BNP Paribas | Summer Analyst, Corporate Functions Operations | Jersey City, NJ | [Apply](<https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-corporate-functions-operations>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| Solar Turbines (Caterpillar) | Business Analyst Intern (2027) | San Diego, CA | [Apply](<https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-Business-Analyst-Intern_R0000381902>) | 2026-07-16 | Summer 2027 | BS | 🟢 Open |
+| Susquehanna | Operations Intern | Bala Cynwyd, PA | [Apply](<https://careers.sig.com/jobs/10916>) | 2026-06-28 | Summer 2027 | BS | 🟢 Open |
 
 ## Investment Banking
 
 | Company | Role | Location | Link | Date Posted | Term | Degree | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Citi | Services Summer Analyst | New York, NY | [Apply](<https://jobs.citi.com/job/-/-/287/93724104768>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
+| BNP Paribas | Summer Analyst, Corporate Functions Operations | Jersey City, NJ | [Apply](<https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-corporate-functions-operations>) | 2026-07-24 | Summer 2027 | BS | 🟢 Open |
 | Baird | Equity Research Analyst Intern | Milwaukee, WI | [Apply](<https://www.bairdcareers.com/jobs/r20251244/internship-equity-research-analyst-summer-2027/>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | BNP Paribas | Summer Analyst, Global Markets Sales | Boston, MA | [Apply](<https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-global-markets-sales-boston-ma>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Evercore | 2027 Strategic Advisory: Mergers & Acquisitions Summer Analyst Program | New York, NY | [Apply](<https://evercore.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/2907-2027-Strategic-Advisory-Mergers-Acquisitions-Summer-Analyst-Program-New-York-Generalist/en-GB>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
@@ -654,5 +747,10 @@ US-based Summer 2027 internships across eight role categories. A market listing 
 | Morgan Stanley | Wealth Management Intern | Long Beach, CA | [Apply](<https://ms.wd5.myworkdayjobs.com/private/job/Long-Beach-California-United-States-of-America/Intern_JR039777>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Morgan Stanley | Private Wealth Management Intern | Dallas, TX | [Apply](<https://ms.wd5.myworkdayjobs.com/private/job/Dallas-Texas-United-States-of-America/PWM-Intern_JR034957>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
 | Morgan Stanley | Wealth Management VEA Training Program | Tempe, AZ | [Apply](<https://ms.wd5.myworkdayjobs.com/private/job/58-South-River-Drive/Wealth-Management-VEA-Training-Program--Tempe--AZ-and-Alpharetta--GA-_JR013511>) | 2026-07-23 | Summer 2027 | BS | 🟢 Open |
+| JPMorganChase | Corporate Analyst Development Program Summer Analyst | New York, NY | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765749>) | 2026-07-08 | Summer 2027 | BS | 🟢 Open |
 | JPMorganChase | Markets Summer Analyst (Sales / Trading / Structuring / Digital Markets) | New York, NY | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690325>) | 2026-06-21 | Summer 2027 | BS | 🟢 Open |
+| JPMorganChase | Commercial & Investment Bank Innovation Development Summer Analyst, Product Track | Chicago, IL | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690743>) | 2026-06-19 | Summer 2027 | BS | 🟢 Open |
+| StepStone Group | Private Equity Infrastructure & Real Assets Summer Analyst | New York, NY | [Apply](<https://www.stepstonegroup.com/current-opportunities/?gh_jid=7872890>) | 2026-06-15 | Summer 2027 | BS | 🟢 Open |
+| BlackRock | Summer Internship Program, AMERS (all tracks) | New York, NY | [Apply](<https://careers.blackrock.com/job/new-york/2027-summer-internship-program-amers/45831/90628276544>) | 2026-01-15 | Summer 2027 | BS | 🟢 Open |
+| JPMorganChase | Asset & Wealth Management Risk Summer Analyst | Columbus, OH | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210691905>) | 2026-01-08 | Summer 2027 | BS | 🟢 Open |
 

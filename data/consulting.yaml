@@ -11,6 +11,7 @@
   sources:
   - github_tracker
   - link_checker
+  - github_tracker:sndsh404
   date_added: '2026-07-23'
   last_verified: '2026-07-24'
   possible_duplicate_of: null
@@ -57,7 +58,7 @@
   sources:
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: databricks-product-management-intern-summer-2027-3d07a5
   company: Databricks
@@ -72,7 +73,7 @@
   sources:
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: capital-one-product-development-internship-program-summer-2027-5876e4
   company: Capital One
@@ -103,7 +104,7 @@
   sources:
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: amazon-operations-finance-rotational-program-intern-ccff5f
   company: Amazon
@@ -118,20 +119,50 @@
   sources:
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
-- id: bnp-paribas-summer-analyst-corporate-functions-operations-0d0366
-  company: BNP Paribas
-  role: Summer Analyst, Corporate Functions Operations
-  location: Jersey City, NJ
-  link: https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-corporate-functions-operations
-  date_posted: '2026-07-23'
+- id: solar-turbines-caterpillar-business-analyst-intern-2027-fb3f9b
+  company: Solar Turbines (Caterpillar)
+  role: Business Analyst Intern (2027)
+  location: San Diego, CA
+  link: https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-Business-Analyst-Intern_R0000381902
+  date_posted: '2026-07-16'
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
   - github_tracker:sndsh404
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: susquehanna-operations-intern-614777
+  company: Susquehanna
+  role: Operations Intern
+  location: Bala Cynwyd, PA
+  link: https://careers.sig.com/jobs/10916
+  date_posted: '2026-06-28'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: cargill-operations-management-intern-851649
+  company: Cargill
+  role: Operations Management Intern
+  location: Minneapolis, MN
+  link: https://careers.cargill.com/en/job/minneapolis/operations-management-intern-summer-2027-food-multiple-u-s-locations/23251/93659612048
+  date_posted: '2026-07-24'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null

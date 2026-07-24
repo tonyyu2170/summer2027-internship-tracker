@@ -27,8 +27,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: meta-research-scientist-intern-nmr-analysis-automation-7506d4
   company: Meta
@@ -36,21 +37,6 @@
   location: Redmond, WA
   link: https://www.metacareers.com/jobs/1418337243438665
   date_posted: '2026-07-03'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
-- id: jane-street-data-engineer-summer-internship-b91e6b
-  company: Jane Street
-  role: Data Engineer Summer Internship
-  location: New York City, NY
-  link: https://www.janestreet.com/join-jane-street/position/8631973002
-  date_posted: '2026-07-14'
   term: Summer 2027
   degree:
   - BS
@@ -102,8 +88,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: capital-one-current-master-s-data-science-internship-summer-2027-c8c307
   company: Capital One
@@ -179,8 +166,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: deuna-data-science-intern-377707
   company: DEUNA
@@ -209,8 +197,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: medecins-sans-frontieres-doctors-without-borders-united-states-data-science-intern-92ccf2
   company: Medecins Sans Frontieres (Doctors Without Borders) - United States
@@ -317,6 +306,7 @@
   - github_tracker
   - github_tracker:vanshb03
   - link_checker
+  - github_tracker:chieler
   date_added: '2026-07-23'
   last_verified: '2026-07-24'
   possible_duplicate_of: null
@@ -425,21 +415,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
-- id: walleye-capital-investment-data-science-intern-summe-db1055
-  company: Walleye Capital
-  role: Investment Data Science Intern (Summe...
-  location: New York, NY
-  link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
 - id: evolver-applied-data-science-intern-b3beed
   company: Evolver
   role: Applied Data Science Intern
@@ -497,8 +472,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: rfcuny-data-analyst-intern-ff0187
   company: RFCUNY
@@ -512,6 +488,173 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: primetals-technologies-data-science-internship-governance-f0ec0b
+  company: Primetals Technologies
+  role: Data Science Internship - Governance
+  location: Lake Mary, FL
+  link: https://mhicareers.com/job/Lake-Mary-Data-Science-Internship-(Governance)-FL-32746/1401009733/?ats=successfactors
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: national-laboratory-of-the-rockies-energy-data-analysis-intern-567cd8
+  company: National Laboratory of the Rockies
+  role: Energy Data Analysis Intern
+  location: Remote (US)
+  link: https://nrel.wd5.myworkdayjobs.com/NLR/job/Remote/Energy-Data-Analysis----Year-Round--Graduate-Internship_R14400
+  date_posted: '2026-07-13'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: lexisnexis-risk-solutions-editorial-data-reporting-intern-c28e90
+  company: LexisNexis Risk Solutions
+  role: Editorial Data Reporting Intern
+  location: Washington, DC
+  link: https://relx.wd3.myworkdayjobs.com/LexisNexisLegal/job/Home-based-Washington-DC/Editorial-Data-Reporting-Intern_R112971-1
+  date_posted: '2026-07-10'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: synchrony-financial-data-analytics-intern-75125d
+  company: Synchrony Financial
+  role: Data Analytics Intern
+  location: Stamford, CT
+  link: https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Hub/BLP-Intern---Data-Analytics_2601688
+  date_posted: '2026-06-16'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:chieler
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: caterpillar-corporate-intern-digital-and-analytics-summer-2027-80d243
+  company: Caterpillar
+  role: Corporate Intern, Digital and Analytics (Summer 2027)
+  location: Peoria, IL
+  link: https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Peoria-Illinois/XMLNAME-2026-Summer-Corporate-Intern---Digital-and-Analytics_R0000379955
+  date_posted: '2026-07-16'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: castleton-commodities-international-data-engineering-intern-98e166
+  company: Castleton Commodities International
+  role: Data Engineering Intern
+  location: Houston, TX
+  link: https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Engineering-Internship--Summer-2027-_R1346
+  date_posted: '2026-07-21'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: alixpartners-data-scientist-intern-124339
+  company: AlixPartners
+  role: Data Scientist Intern
+  location: New York, NY
+  link: https://www.alixpartners.com/careers/7725335003?gh_jid=7725335003
+  date_posted: '2026-07-06'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: wells-fargo-corporate-risk-development-program-intern-core-risk-early-careers-175e8a
+  company: Wells Fargo
+  role: Corporate Risk Development Program Intern - Core Risk - Early Careers
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Corporate-Risk-Development-Program-Summer-Internship--Core-Risk----Early-Careers_R-556123
+  date_posted: '2026-07-06'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: susquehanna-international-group-sig-electricity-natural-gas-analyst-intern-fa588e
+  company: Susquehanna International Group (SIG)
+  role: Electricity + Natural Gas Analyst Intern
+  location: Ardmore, PA
+  link: https://careers-sig.icims.com/jobs/10945/job?mobile=true&needsRedirect=false
+  date_posted: '2026-06-04'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: marmon-holdings-data-engineering-intern-co-op-255c42
+  company: Marmon Holdings
+  role: Data Engineering Intern Co-op
+  location: Milwaukee, WI
+  link: https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453-1
+  date_posted: '2026-05-16'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
+  possible_duplicate_of: null
+- id: marmon-holdings-data-engineering-intern-co-op-9401f4
+  company: Marmon Holdings
+  role: Data Engineering Intern/Co-op
+  location: Milwaukee, WI
+  link: https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453
+  date_posted: '2026-03-04'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-07-24'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
