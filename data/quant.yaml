@@ -2684,21 +2684,6 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   track: Development
-- id: akuna-capital-hardware-engineer-intern-summer-2027-68d0c9
-  company: Akuna Capital
-  role: Hardware Engineer Intern, Summer 2027
-  location: Chicago, IL
-  link: https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
 - id: walleye-capital-business-operations-intern-summer-2027-6d347e
   company: Walleye Capital
   role: Business Operations Intern (Summer 2027)

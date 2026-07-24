@@ -10,6 +10,7 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
