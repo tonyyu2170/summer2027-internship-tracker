@@ -40,6 +40,7 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:sndsh404
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -55,6 +56,7 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:sndsh404
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -100,6 +102,7 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:sndsh404
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -205,6 +208,7 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:sndsh404
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -265,6 +269,7 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:sndsh404
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -295,6 +300,8 @@
   status: closed
   sources:
   - github_tracker
+  - github_tracker:sndsh404
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -1270,6 +1277,7 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -1555,6 +1563,7 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -2200,6 +2209,36 @@
   status: open
   sources:
   - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: dedalus-labs-systems-engineer-product-manager-intern-summer-2027-6f806a
+  company: Dedalus Labs
+  role: Systems Engineer / Product Manager Intern (Summer 2027)
+  location: San Francisco, CA
+  link: https://www.ycombinator.com/companies/dedalus-labs/jobs/YtbvXM8-systems-engineer-summer-2027-intern
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: deepgram-software-engineering-internship-fall-2026-summer-2027-d9a1ed
+  company: Deepgram
+  role: Software Engineering- Internship (Fall 2026/Summer 2027)
+  location: Remote (US)
+  link: https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
