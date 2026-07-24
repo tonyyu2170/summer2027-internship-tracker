@@ -6,8 +6,17 @@ per-source procedure that emits **fetch reports** — JSON files the tested
 
 ## Trigger
 
-- "scrape" -> all sources, all categories.
-- "scrape <category>" -> only that category's sources.
+- "scrape" -> the GitHub tracker repos only, all categories. This is the
+  default source: cheap (raw markdown fetch, no per-company fan-out) and
+  fast.
+- "scrape <category>" -> only that category's rows from the GitHub tracker
+  repos.
+- Any other source (`sources/companies.yaml`-driven Greenhouse/Lever/Workday
+  direct scraping, simplify.jobs, Indeed, LinkedIn/Handshake) only runs when
+  Tony names it explicitly (e.g. "scrape companies.yaml" or "scrape
+  simplify.jobs"). Full fan-out across every source got too slow and
+  token-heavy, so as of 2026-07-24 those are opt-in, not part of a plain
+  "scrape".
 Scraping is never scheduled; it runs only on an explicit request.
 
 ## Fetch-report contract
@@ -46,17 +55,54 @@ need to pre-filter, but prefer emitting `City, ST`.
 
 | Source | Tool | How |
 |---|---|---|
-| The 4 GitHub tracker repos + any others found | Raw markdown fetch | Fetch the raw README, parse the table rows; carry each row's own application href as `link`; if a row is marked closed in-line, set `closed_marker: true` |
-| Company on Greenhouse | `boards-api.greenhouse.io/v1/boards/<token>/jobs?content=true` | JSON per job; `link` = `absolute_url`; parse degree from the description text; `date_posted` from the best available field, else omit |
-| Company on Lever | `api.lever.co/v0/postings/<company>?mode=json` | JSON per posting; `link` = `hostedUrl`; parse degree from `description`/`lists` |
-| Company on Workday / custom site | Firecrawl `scrape`/`crawl` (primary), Playwright (local fallback) | Extract postings from rendered content |
-| simplify.jobs | Firecrawl `scrape`/`crawl` | Public, JS-rendered |
-| Indeed | Firecrawl first (`proxy: auto`); logged-in browser tool if blocked | — |
-| LinkedIn, Handshake | claude-in-chrome against Tony's logged-in session | Keep reads light and infrequent — automated activity can flag the account |
+| **The GitHub tracker repos (default source, see Trigger)** | Raw markdown fetch | Fetch the raw README, parse the table rows; carry each row's own application href as `link`; if a row is marked closed in-line, set `closed_marker: true`. If the tracker has its own date/age column (e.g. "Date Posted", "Age"), convert it to an absolute `date_posted` (`YYYY-MM-DD`) relative to the scrape date — don't leave it blank when the tracker has one. |
+| *(opt-in only)* Company on Greenhouse | `boards-api.greenhouse.io/v1/boards/<token>/jobs?content=true` | JSON per job; `link` = `absolute_url`; parse degree from the description text; `date_posted` from the best available field, else omit |
+| *(opt-in only)* Company on Lever | `api.lever.co/v0/postings/<company>?mode=json` | JSON per posting; `link` = `hostedUrl`; parse degree from `description`/`lists` |
+| *(opt-in only)* Company on Workday / custom site | Firecrawl `scrape`/`crawl` (primary), Playwright (local fallback) | Extract postings from rendered content |
+| *(opt-in only)* simplify.jobs | Firecrawl `scrape`/`crawl` | Public, JS-rendered |
+| *(opt-in only)* Indeed | Firecrawl first (`proxy: auto`); logged-in browser tool if blocked | — |
+| *(opt-in only)* LinkedIn, Handshake | claude-in-chrome against Tony's logged-in session | Keep reads light and infrequent — automated activity can flag the account |
 
-`sources/companies.yaml` is the watch-list of which company uses which ATS.
-Add newly-discovered companies there (serialized through the parent, like the
-data files).
+`sources/companies.yaml` is the watch-list of which company uses which ATS,
+used only by the opt-in Greenhouse/Lever/Workday-direct rows above. As of
+2026-07-24 it's dormant by default (kept for reference/future re-enable, not
+deleted) since plain "scrape" no longer drives per-company ATS fan-out — see
+Trigger. Only add to it or scrape from it when Tony explicitly asks for
+direct-company scraping.
+
+## Link liveness check
+
+Added 2026-07-24 after Tony hit several dead links (Workday postings that
+had closed, a Greenhouse job removed) that still showed `status: open`.
+Nothing re-checks a link after it's first scraped, so closed postings
+accumulate silently.
+
+`python3 scripts/check_links.py` probes every `status: open` row's link
+across `data/*.yaml` and writes `scratch/fetch_reports/link_check_<category>.json`
+for any row it's confident is dead (`closed_marker: true`, `source:
+"link_checker"`). It does **not** write `data/*.yaml` itself — run
+`scripts/run_scrape_merge.py scratch/fetch_reports` afterward (same as any
+other scrape) to actually close them.
+
+Classification logic (`scripts/link_check.py`, unit-tested in
+`tests/test_link_check.py`) only calls a link "dead" on an unambiguous
+signal, never a plain non-200:
+- Workday (`*.myworkdayjobs.com`): the HTML page is a client-rendered SPA
+  that always returns 200, even for a gone posting — the check instead hits
+  the underlying `wday/cxs/.../job/...` JSON API, which returns a real 404.
+- Greenhouse: a dead job id redirects client-side from `/<token>/jobs/<id>`
+  to the board root `/<token>?error=true` — that redirect is the signal.
+- Everything else: only a real `404`/`410` counts as dead. Ambiguous codes
+  (403, 406, 429, 5xx, timeouts) classify as "unknown" and are left alone —
+  those are usually bot-blocking, not a closed posting, and this checker is
+  not meant to be a source of false closures.
+
+This is a separate concern from the "no disappearance-based auto-closing"
+rule elsewhere in this doc: that rule is about *not* inferring closure just
+because a role stopped appearing in a fresh scrape of a source listing. This
+checker instead actively re-verifies a link *this repo already stores* —
+closer in spirit to the existing `closed_marker` path than to guessing from
+absence.
 
 ## Run procedure
 
