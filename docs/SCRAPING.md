@@ -55,7 +55,7 @@ need to pre-filter, but prefer emitting `City, ST`.
 
 | Source | Tool | How |
 |---|---|---|
-| **The GitHub tracker repos (default source, see Trigger)** | Raw markdown fetch | Fetch the raw README, parse the table rows; carry each row's own application href as `link`; if a row is marked closed in-line, set `closed_marker: true`. If the tracker has its own date/age column (e.g. "Date Posted", "Age"), convert it to an absolute `date_posted` (`YYYY-MM-DD`) relative to the scrape date — don't leave it blank when the tracker has one. |
+| **The GitHub tracker repos in `sources/github_trackers.yaml` (default source, see Trigger)** | Raw markdown fetch | Fetch the raw README, parse the table rows; carry each row's own application href as `link`; if a row is marked closed in-line, set `closed_marker: true`. If the tracker has its own date/age column (e.g. "Date Posted", "Age"), convert it to an absolute `date_posted` (`YYYY-MM-DD`) relative to the scrape date — don't leave it blank when the tracker has one. |
 | *(opt-in only)* Company on Greenhouse | `boards-api.greenhouse.io/v1/boards/<token>/jobs?content=true` | JSON per job; `link` = `absolute_url`; parse degree from the description text; `date_posted` from the best available field, else omit |
 | *(opt-in only)* Company on Lever | `api.lever.co/v0/postings/<company>?mode=json` | JSON per posting; `link` = `hostedUrl`; parse degree from `description`/`lists` |
 | *(opt-in only)* Company on Workday / custom site | Firecrawl `scrape`/`crawl` (primary), Playwright (local fallback) | Extract postings from rendered content |
