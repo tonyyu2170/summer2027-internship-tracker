@@ -1174,12 +1174,13 @@
   degree:
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
   track: Research
 - id: tower-research-capital-quantitative-trader-intern-04531f
@@ -2085,11 +2086,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
   track: Development
 - id: aquatic-capital-software-engineer-intern-efdc36

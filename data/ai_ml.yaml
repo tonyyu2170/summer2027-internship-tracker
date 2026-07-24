@@ -218,11 +218,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: ing-graduate-internship-nfr-ai-agent-developer-edfcdb
   company: ING
@@ -1243,11 +1244,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: tiktok-llm-post-training-engineer-intern-research-product-a36fc9
   company: TikTok
@@ -1273,11 +1275,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-applied-mac-c95b8b
   company: ByteDance

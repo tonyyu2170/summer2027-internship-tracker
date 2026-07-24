@@ -205,12 +205,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: liveramp-software-engineer-intern-pixel-serving-d4be07
   company: LiveRamp
@@ -314,11 +315,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: kudu-dynamics-software-engineer-intern-1-59088d
   company: Kudu Dynamics
@@ -329,11 +331,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: kudu-dynamics-software-engineer-intern-2-eeb983
   company: Kudu Dynamics
@@ -344,11 +347,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: kudu-dynamics-software-engineer-intern-3-07c1f0
   company: Kudu Dynamics
@@ -359,11 +363,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: nash-full-stack-engineering-intern-36f4a5
   company: Nash
@@ -374,11 +379,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: naive-software-engineer-intern-8cecef
   company: Naive
@@ -404,11 +410,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: dimehealth-ai-forward-deployed-engineering-intern-7b7340
   company: DimeHealth AI
@@ -734,11 +741,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: pylon-software-engineer-intern-33e7cd
   company: Pylon
@@ -1305,11 +1313,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: abundant-software-engineering-intern-research-focused-a27502
   company: Abundant
@@ -1320,11 +1329,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: wsp-software-developer-intern-75d70a
   company: WSP
@@ -1350,11 +1360,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: veeam-software-software-engineering-intern-platform-security-ai-5702e6
   company: Veeam Software
@@ -1365,11 +1376,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: dedalus-labs-forward-deployed-engineer-intern-b424b7
   company: Dedalus Labs
@@ -1380,11 +1392,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: homebase-forward-deployed-engineering-intern-ai-native-2f30c5
   company: Homebase
@@ -1455,11 +1468,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: fiserv-technology-intern-b8eebb
   company: Fiserv
@@ -1470,11 +1484,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: avanade-software-engineering-intern-ef8ce4
   company: Avanade
@@ -1500,11 +1515,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: appian-software-engineering-intern-172919
   company: Appian

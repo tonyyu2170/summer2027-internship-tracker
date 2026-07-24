@@ -339,11 +339,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: tetramem-software-engineer-intern-embedded-4009fa
   company: TETRAMEM
@@ -369,11 +370,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: the-exploration-company-crew-systems-engineering-intern-mec-a35ad9
   company: The Exploration Company
@@ -534,11 +536,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: teledyne-mechanical-engineering-intern-36b5c0
   company: Teledyne
@@ -1239,11 +1242,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: unison-ge-aerospace-engineering-intern-summer-2027-943d1e
   company: Unison (GE Aerospace)
@@ -1254,11 +1258,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:sndsh404
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: tsmc-arizona-engineering-intern-12-roles-process-equipment-cim-software-78811d
   company: TSMC Arizona

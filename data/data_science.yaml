@@ -7,12 +7,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: solar-turbines-caterpillar-gas-compressor-data-analyst-intern-a3efd6
   company: Solar Turbines (Caterpillar)
@@ -265,11 +266,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: cresta-data-science-intern-customer-success-57148e
   company: Cresta
@@ -310,12 +312,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:vanshb03
+  - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: tiktok-data-scientist-project-intern-tiktok-f1a3d0
   company: TikTok
