@@ -1,0 +1,10 @@
+# Per-tracker record of the commit SHA last parsed, written by
+# scripts/fetch_trackers.py. A tracker whose SHA is unchanged is skipped
+# entirely — no fetch, no parse. A missing entry means "never scraped" and
+# falls through to a full parse.
+#
+# Committed (not gitignored) so the skip survives across machines.
+# row_count is the last successful posting count, used as the sanity
+# baseline: a run yielding under half of it is treated as an upstream
+# format change rather than as truth.
+{}

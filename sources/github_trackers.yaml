@@ -1,18 +1,62 @@
 # GitHub tracker repos scraped by a plain "scrape" / "scrape <category>"
-# (see docs/SCRAPING.md "Trigger" and "Link liveness check" for context on
-# why this is the default source as of 2026-07-24). `handle` is the short
-# name that shows up in data/*.yaml's `sources` field as
-# `github_tracker:<handle>`. Existence of each `repo` verified 2026-07-24
-# via `api.github.com/repos/<repo>` (200).
-- {handle: zshah101, repo: zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships}
-- {handle: suryaharikrishnan, repo: SuryaHarikrishnan/internship-tracker}
-- {handle: chieler, repo: Chieler/Summer-2027-SWE-Internships}
-- {handle: speedyapply, repo: speedyapply/2027-SWE-College-Jobs}
-- {handle: sndsh404, repo: sndsh404/summer-2027-internships}
-# quant-only by name/scope, unlike the others which span multiple categories
-- {handle: northwesternfintech, repo: northwesternfintech/2027QuantInternships}
-- {handle: vanshb03, repo: vanshb03/Summer2027-Internships}
-- {handle: zapplyjobs, repo: zapplyjobs/Internships-2027}
-# named "Summer2026" but historically has covered the following cycle too;
-# verify at scrape time whether it still carries Summer 2027 rows
-- {handle: simplifyjobs, repo: SimplifyJobs/Summer2026-Internships}
+# (see docs/SCRAPING.md). `handle` is the short name that shows up in
+# data/*.yaml's `sources` field as `github_tracker:<handle>`.
+#
+# `path` is the file (or directory) actually parsed — five trackers publish
+# structured exports, which are both cheaper and more reliable than their
+# rendered README. `fmt` selects the parser in scripts/parse_tracker.py.
+# See docs/superpowers/specs/2026-07-24-cheap-tracker-scraping-design.md.
+- handle: simplifyjobs
+  repo: SimplifyJobs/Summer2026-Internships
+  branch: dev
+  path: .github/scripts/listings.json
+  fmt: cvrve_json
+  term_field: terms
+  term_value: Summer 2027
+  # The rendered README is the Summer 2026 list — only this JSON carries 2027.
+- handle: suryaharikrishnan
+  repo: SuryaHarikrishnan/internship-tracker
+  branch: master
+  path: data/listings.json
+  fmt: cvrve_json
+  term_field: terms
+  term_value: Summer 2027
+- handle: vanshb03
+  repo: vanshb03/Summer2027-Internships
+  branch: dev
+  path: .github/scripts/listings.json
+  fmt: cvrve_json
+  term_field: season
+  term_value: Summer
+  term_out: Summer 2027
+- handle: zshah101
+  repo: zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships
+  branch: main
+  path: data/jobs.json
+  fmt: zshah_json
+  term_value: Summer 2027
+- handle: northwesternfintech
+  repo: northwesternfintech/2027QuantInternships
+  branch: main
+  path: data
+  fmt: nufintech_yaml
+- handle: speedyapply
+  repo: speedyapply/2027-SWE-College-Jobs
+  branch: main
+  path: README.md
+  fmt: pipe_table
+- handle: sndsh404
+  repo: sndsh404/summer-2027-internships
+  branch: main
+  path: README.md
+  fmt: pipe_table
+- handle: zapplyjobs
+  repo: zapplyjobs/Internships-2027
+  branch: main
+  path: README.md
+  fmt: pipe_table
+- handle: chieler
+  repo: Chieler/Summer-2027-SWE-Internships
+  branch: main
+  path: README.md
+  fmt: pipe_table
