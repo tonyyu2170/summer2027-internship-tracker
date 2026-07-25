@@ -449,3 +449,16 @@ def test_parse_pipe_table_resolves_bare_city_via_alias():
 | Acme | SWE Intern | NYC | <a href="https://e.com/1">Apply</a> |
 """
     assert parse_pipe_table(text)[0]["location"] == "New York, NY"
+
+
+def test_parse_pipe_table_unresolvable_location_becomes_none_not_raw_text():
+    # A truthy-but-unplaceable location ("USA") must become None, not pass
+    # through raw — None is what makes run_scrape_merge.py's pre-merge gate
+    # print a visible warning, instead of merge.py's US-only filter dropping
+    # the row later with zero trace.
+    text = """
+| Company | Role | Location | Link |
+| --- | --- | --- | --- |
+| Acme | SWE Intern | USA | <a href="https://e.com/1">Apply</a> |
+"""
+    assert parse_pipe_table(text)[0]["location"] is None

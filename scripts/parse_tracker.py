@@ -316,7 +316,12 @@ def parse_pipe_table(text):
                 if "location" in header else None
             )
             if location:
-                location = _resolve_us_location(location) or location
+                # Let unresolved garbage ("USA", "multiple US") become None
+                # rather than passing the raw text through — a None here is
+                # what makes run_scrape_merge.py's pre-merge gate print a
+                # visible warning instead of merge.py's US-only filter
+                # dropping it later with no trace at all.
+                location = _resolve_us_location(location)
             if not (company and role):
                 continue
             postings.append({
