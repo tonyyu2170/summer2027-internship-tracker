@@ -12,8 +12,9 @@
   - github_tracker
   - github_tracker:sndsh404
   - link_checker
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: solar-turbines-caterpillar-gas-compressor-data-analyst-intern-a3efd6
   company: Solar Turbines (Caterpillar)
@@ -29,7 +30,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: meta-research-scientist-intern-nmr-analysis-automation-7506d4
   company: Meta
@@ -58,8 +59,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: decisions-data-analyst-intern-c93eb7
   company: Decisions
@@ -90,7 +92,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: capital-one-current-master-s-data-science-internship-summer-2027-c8c307
   company: Capital One
@@ -168,7 +170,7 @@
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: deuna-data-science-intern-377707
   company: DEUNA
@@ -199,7 +201,7 @@
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: medecins-sans-frontieres-doctors-without-borders-united-states-data-science-intern-92ccf2
   company: Medecins Sans Frontieres (Doctors Without Borders) - United States
@@ -213,8 +215,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: magnera-corporation-it-data-analyst-intern-41a8c3
   company: Magnera Corporation
@@ -274,8 +277,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: bank-of-china-limited-new-york-branch-internal-audit-department-data-analytics-audit-intern-f76a97
   company: Bank of China Limited, New York Branch
@@ -308,7 +312,7 @@
   - link_checker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: tiktok-data-scientist-project-intern-tiktok-f1a3d0
   company: TikTok
@@ -322,8 +326,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: moog-intern-it-computer-science-data-an-224620
   company: Moog
@@ -337,8 +342,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: equifax-data-analytics-intern-6be1cd
   company: Equifax
@@ -352,8 +358,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: ardian-data-scientist-intern-a125af
   company: Ardian
@@ -367,8 +374,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: nrel-graduate-year-round-intern-geospat-4b701b
   company: NREL
@@ -382,8 +390,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: eurofins-business-intelligence-intern-a92c1f
   company: Eurofins
@@ -397,8 +406,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: rivian-and-volkswagen-group-technologies-data-engineering-intern-ai-analyt-0a725d
   company: Rivian and Volkswagen Group Technologies
@@ -412,8 +422,10 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: evolver-applied-data-science-intern-b3beed
   company: Evolver
@@ -427,8 +439,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: faire-data-science-intern-307131
   company: Faire
@@ -442,8 +455,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: docugami-data-science-phd-intern-5f8265
   company: Docugami
@@ -457,8 +471,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: hirevue-data-science-intern-fully-remote-us-9edf01
   company: HireVue
@@ -473,8 +488,9 @@
   sources:
   - github_tracker
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: rfcuny-data-analyst-intern-ff0187
   company: RFCUNY
@@ -491,7 +507,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: primetals-technologies-data-science-internship-governance-f0ec0b
   company: Primetals Technologies
@@ -551,7 +567,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: caterpillar-corporate-intern-digital-and-analytics-summer-2027-80d243
   company: Caterpillar
@@ -566,7 +582,7 @@
   sources:
   - github_tracker:sndsh404
   date_added: '2026-07-24'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: castleton-commodities-international-data-engineering-intern-98e166
   company: Castleton Commodities International
@@ -580,8 +596,9 @@
   status: open
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: alixpartners-data-scientist-intern-124339
   company: AlixPartners
@@ -595,8 +612,10 @@
   status: open
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: wells-fargo-corporate-risk-development-program-intern-core-risk-early-careers-175e8a
   company: Wells Fargo
@@ -610,8 +629,9 @@
   status: open
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-electricity-natural-gas-analyst-intern-fa588e
   company: Susquehanna International Group (SIG)
@@ -625,8 +645,9 @@
   status: open
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: marmon-holdings-data-engineering-intern-co-op-255c42
   company: Marmon Holdings
@@ -640,8 +661,9 @@
   status: open
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: marmon-holdings-data-engineering-intern-co-op-9401f4
   company: Marmon Holdings
@@ -655,6 +677,83 @@
   status: open
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-25'
+  possible_duplicate_of: null
+- id: red-bull-2026-internship-fall-data-science-1d597d
+  company: Red Bull
+  role: 2026 Internship, Fall - Data Science
+  location: Morristown, NJ
+  link: https://jobs.smartrecruiters.com/RedBull/744000139168339
+  date_posted: '2026-07-25'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-07-25'
+  last_verified: '2026-07-25'
+  possible_duplicate_of: null
+- id: national-interstate-insurance-catastrophe-modeling-data-analytics-29b939
+  company: National Interstate Insurance
+  role: Catastrophe Modeling & Data Analytics...
+  location: Cincinnati, OH
+  link: https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Catastrophe-Modeling---Data-Analytics-Intern--Fall-2026-_R9102
+  date_posted: '2026-07-25'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-07-25'
+  last_verified: '2026-07-25'
+  possible_duplicate_of: null
+- id: integra-fec-fall-data-scientist-intern-phd-c89985
+  company: Integra FEC
+  role: (FALL) Data Scientist Intern - PhD
+  location: Austin, TX
+  link: https://job-boards.greenhouse.io/integra/jobs/5134592008
+  date_posted: '2026-07-25'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-07-25'
+  last_verified: '2026-07-25'
+  possible_duplicate_of: null
+- id: integra-fec-fall-data-analyst-intern-4d6ba0
+  company: Integra FEC
+  role: (FALL) Data Analyst Intern
+  location: Austin, TX
+  link: https://job-boards.greenhouse.io/integra/jobs/5134522008
+  date_posted: '2026-07-25'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-07-25'
+  last_verified: '2026-07-25'
+  possible_duplicate_of: null
+- id: baker-hughes-intern-systems-data-analysis-ce-0bdc55
+  company: Baker Hughes
+  role: Intern – Systems & Data Analysis – Ce...
+  location: Celle, DE
+  link: https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/DE-CELLE-BAKER-HUGHES-STRASSE-1/Werkstudent-fr-System--und-Datenanalyse-2026--Celle-_R158064
+  date_posted: '2026-07-25'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-07-25'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null

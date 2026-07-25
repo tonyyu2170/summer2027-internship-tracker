@@ -1,10 +1,45 @@
-# Per-tracker record of the commit SHA last parsed, written by
-# scripts/fetch_trackers.py. A tracker whose SHA is unchanged is skipped
-# entirely — no fetch, no parse. A missing entry means "never scraped" and
-# falls through to a full parse.
-#
-# Committed (not gitignored) so the skip survives across machines.
-# row_count is the last successful posting count, used as the sanity
-# baseline: a run yielding under half of it is treated as an upstream
-# format change rather than as truth.
-{}
+chieler:
+  path: README.md
+  row_count: 468
+  scraped_at: '2026-07-25'
+  sha: c28543adab915d31e8bab220ffe6790251b74531
+northwesternfintech:
+  path: data
+  row_count: 62
+  scraped_at: '2026-07-25'
+  sha: 6c2ca00e866dfcff2741f45c554634603df0c546
+simplifyjobs:
+  path: .github/scripts/listings.json
+  row_count: 327
+  scraped_at: '2026-07-25'
+  sha: 14643ef5dee79ca70b5dab71f8a925f3761b5566
+sndsh404:
+  path: README.md
+  row_count: 114
+  scraped_at: '2026-07-25'
+  sha: 6fbabfbe642fb98da4d99ac486cebed0891180f1
+speedyapply:
+  path: README.md
+  row_count: 116
+  scraped_at: '2026-07-25'
+  sha: e1f6a1dcaa896009ef2156239c0f67a062240932
+suryaharikrishnan:
+  path: data/listings.json
+  row_count: 293
+  scraped_at: '2026-07-25'
+  sha: 0f38b0a2cc9a3b70c99af3c98684b34818f7cbb9
+vanshb03:
+  path: .github/scripts/listings.json
+  row_count: 134
+  scraped_at: '2026-07-25'
+  sha: 3b6ec4a7aa7660b2ee5ca7db7670fb584c8de6d3
+zapplyjobs:
+  path: README.md
+  row_count: 463
+  scraped_at: '2026-07-25'
+  sha: 8bf0968d19ab928ec86d44b5fd6034f2b85d9278
+zshah101:
+  path: data/jobs.json
+  row_count: 106
+  scraped_at: '2026-07-25'
+  sha: 1eebb667a4cff9fbfb05e10835378e465c77109b
