@@ -4,6 +4,7 @@ Pure and network-free, so it lives on the tested side of the boundary
 docs/SCRAPING.md draws. scripts/fetch_trackers.py does the fetching and
 calls in here. Four format families cover all nine trackers."""
 import json
+import re
 import yaml
 from datetime import datetime, timezone
 
@@ -209,5 +210,100 @@ def parse_nufintech_yaml(text):
                 "degree": ["BS"],
                 "closed_marker": False,
                 "category": category,
+            })
+    return postings
+
+
+_COLUMN_ALIASES = {
+    "company": "company", "company name": "company",
+    "role": "role", "position": "role", "job": "role", "title": "role",
+    "location": "location", "locations": "location",
+    "link": "link", "application": "link", "application/link": "link",
+    "apply": "link", "application link": "link", "posting": "link",
+}
+_HREF = re.compile(r'href="([^"]+)"')
+_MD_LINK = re.compile(r"\[[^\]]*\]\((<?)([^)>\s]+)")
+_TAG = re.compile(r"<[^>]+>")
+
+
+def _cells(line):
+    return [c.strip() for c in line.strip().strip("|").split("|")]
+
+
+def _first_location(cell):
+    """Collapse a location cell to its first entry. Handles </br>-joined
+    lists and <details> blocks wrapping many locations."""
+    text = re.sub(r"<summary>.*?</summary>", "", cell, flags=re.DOTALL)
+    text = re.split(r"</br>|<br\s*/?>", text)[0]
+    return _TAG.sub("", text).strip()
+
+
+def _extract_link(cell):
+    m = _HREF.search(cell)
+    if m:
+        return m.group(1)
+    m = _MD_LINK.search(cell)
+    if m:
+        return m.group(2)
+    return None
+
+
+def parse_pipe_table(text):
+    """Parse every Markdown pipe table in a README that looks like a job
+    table, i.e. whose header maps to at least company, role and link.
+
+    Column order differs across trackers, so columns are located by header
+    name. Tables that don't match (resource lists, prep links) are skipped."""
+    postings = []
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if not line.strip().startswith("|"):
+            i += 1
+            continue
+        header = {}
+        for idx, name in enumerate(_cells(line)):
+            key = _COLUMN_ALIASES.get(_TAG.sub("", name).strip("* ").lower())
+            if key and key not in header:
+                header[key] = idx
+        if not {"company", "role", "link"} <= set(header):
+            i += 1
+            continue
+        i += 1
+        if i < len(lines) and re.match(r"^\|[\s\-:|]+\|?$", lines[i].strip()):
+            i += 1
+        last_company = None
+        while i < len(lines) and lines[i].strip().startswith("|"):
+            cells = _cells(lines[i])
+            i += 1
+            if max(header.values()) >= len(cells):
+                continue
+            link = _extract_link(cells[header["link"]])
+            if not link:
+                continue
+            company = _TAG.sub("", cells[header["company"]]).strip().strip("*")
+            if company in ("↳", "|↳", ""):
+                company = last_company
+            else:
+                last_company = company
+            role = _TAG.sub("", cells[header["role"]]).strip()
+            closed = "🔒" in role
+            role = role.replace("🔒", "").replace("🛂", "").replace("🇺🇸", "")
+            role = role.replace("🔥", "").replace("🎓", "").strip()
+            location = (
+                _first_location(cells[header["location"]])
+                if "location" in header else None
+            )
+            if not (company and role):
+                continue
+            postings.append({
+                "company": company,
+                "role": role,
+                "location": location,
+                "link": link,
+                "term": "Summer 2027",
+                "degree": ["BS"],
+                "closed_marker": closed,
             })
     return postings

@@ -5,6 +5,7 @@ from parse_tracker import (
     parse_cvrve_json,
     parse_zshah_json,
     parse_nufintech_yaml,
+    parse_pipe_table,
     _resolve_nufintech_location,
     _resolve_us_location,
 )
@@ -300,3 +301,96 @@ def test_parse_cvrve_json_real_fixture_nyc_entries_resolve_to_new_york():
         by_link = {p["link"]: p for p in postings}
         for link in nyc_links:
             assert by_link[link]["location"] == "New York, NY", by_link[link]
+
+
+def test_parse_pipe_table_reads_columns_by_header_name():
+    text = """
+| Company | Role | Location | Application/Link | Date Posted |
+| --- | --- | --- | --- | --- |
+| Acme | Software Engineer Intern | New York, NY | <a href="https://e.com/1">Apply</a> | Jul 24 |
+"""
+    postings = parse_pipe_table(text)
+    assert len(postings) == 1
+    p = postings[0]
+    assert p["company"] == "Acme"
+    assert p["role"] == "Software Engineer Intern"
+    assert p["location"] == "New York, NY"
+    assert p["link"] == "https://e.com/1"
+
+
+def test_parse_pipe_table_handles_alternate_column_order():
+    text = """
+| Company | Role | Posted | Applied | Link |
+| --- | --- | --- | --- | --- |
+| Acme | SWE Intern | 2026-07-24 | — | [Apply](https://e.com/2) |
+"""
+    postings = parse_pipe_table(text)
+    assert postings[0]["link"] == "https://e.com/2"
+    assert postings[0]["company"] == "Acme"
+
+
+def test_parse_pipe_table_resolves_carry_forward_arrow():
+    # A leading ↳ means "same company as the row above".
+    text = """
+| Company | Role | Location | Link |
+| --- | --- | --- | --- |
+| Jane Street | Software Engineer Intern | New York, NY | <a href="https://e.com/1">Apply</a> |
+| ↳ | Hardware Engineer Intern | New York, NY | <a href="https://e.com/2">Apply</a> |
+"""
+    postings = parse_pipe_table(text)
+    assert [p["company"] for p in postings] == ["Jane Street", "Jane Street"]
+
+
+def test_parse_pipe_table_collapses_multi_location_to_first():
+    text = """
+| Company | Role | Location | Link |
+| --- | --- | --- | --- |
+| HRT | SWE Intern | Austin, TX</br>Chicago, IL | <a href="https://e.com/1">Apply</a> |
+"""
+    assert parse_pipe_table(text)[0]["location"] == "Austin, TX"
+
+
+def test_parse_pipe_table_collapses_details_block_to_first_location():
+    text = """
+| Company | Role | Location | Link |
+| --- | --- | --- | --- |
+| Google | SWE Intern | <details><summary>**30 locations**</summary>Mountain View, CA</br>Atlanta, GA</details> | <a href="https://e.com/1">Apply</a> |
+"""
+    assert parse_pipe_table(text)[0]["location"] == "Mountain View, CA"
+
+
+def test_parse_pipe_table_sets_closed_marker_from_lock_emoji():
+    text = """
+| Company | Role | Location | Link |
+| --- | --- | --- | --- |
+| Acme | SWE Intern 🔒 | NY, NY | <a href="https://e.com/1">Apply</a> |
+"""
+    p = parse_pipe_table(text)[0]
+    assert p["closed_marker"] is True
+    assert "🔒" not in p["role"]
+
+
+def test_parse_pipe_table_skips_rows_without_a_link():
+    text = """
+| Company | Role | Location | Link |
+| --- | --- | --- | --- |
+| Acme | SWE Intern | NY, NY | Closed |
+"""
+    assert parse_pipe_table(text) == []
+
+
+def test_parse_pipe_table_ignores_non_job_tables():
+    # sndsh404's README carries resource/interview-prep tables after the list.
+    text = """
+| Resource | Link |
+| --- | --- |
+| Book | <a href="https://e.com/b">Buy</a> |
+"""
+    assert parse_pipe_table(text) == []
+
+
+def test_parse_pipe_table_on_real_fixture_yields_postings():
+    postings = parse_pipe_table(_fixture("speedyapply.md"))
+    assert postings, "expected postings from the speedyapply fixture"
+    for p in postings:
+        assert p["company"] and p["role"] and p["link"]
