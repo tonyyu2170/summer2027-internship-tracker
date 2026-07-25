@@ -137,7 +137,15 @@ def run(out_dir=None):
                 # simplifyjobs carry years of inactive listings alongside
                 # active ones — most closed_marker rows are exactly this.
                 continue
-            category = p.pop("category", None) or assign_category(p, known)
+            # An already-tracked link keeps its existing category, always —
+            # even when the parser itself sets one (northwesternfintech's
+            # role-type map always does). Checking the known-link map first
+            # is what makes category assignment stable across sources; a
+            # parser's own opinion only matters for a link seen for the
+            # first time.
+            explicit_category = p.pop("category", None)
+            existing_category = known.get(normalize_link(link)) if link else None
+            category = existing_category or explicit_category or assign_category(p, known)
             if category == DROP:
                 continue
             if not category:
