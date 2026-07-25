@@ -33,6 +33,33 @@ def _from_unix(ts):
     return datetime.fromtimestamp(int(ts), tz=timezone.utc).date().isoformat()
 
 
+# canonicalize_location() only accepts "City, ST"/"City, State" — it
+# correctly drops non-US locations, but also drops legitimate US postings
+# spelled as a bare city nickname (e.g. "NYC"). This is a small, deliberately
+# non-exhaustive list of unambiguous major-hub aliases, not an attempt at
+# full city coverage.
+_KNOWN_CITY_ALIASES = {
+    "nyc": "New York, NY",
+    "new york": "New York, NY",
+    "new york city": "New York, NY",
+    "sf": "San Francisco, CA",
+    "bay area": "San Francisco, CA",
+    "denver": "Denver, CO",
+}
+
+
+def _resolve_us_location(raw):
+    """Resolve a source's location string to 'City, ST' if possible, trying
+    the strict canonicalize_location() shape first, then a small alias map
+    for well-known US city nicknames it doesn't recognize. Returns None
+    when neither resolves — the caller (merge.py's US-only filter) treats
+    that as non-US or unplaceable."""
+    canon = canonicalize_location(raw)
+    if canon:
+        return canon
+    return _KNOWN_CITY_ALIASES.get((raw or "").strip().lower())
+
+
 def parse_cvrve_json(text, term_field, term_value, term_out=None):
     """Parse the cvrve-family export shared by simplifyjobs,
     suryaharikrishnan and vanshb03.
@@ -53,7 +80,7 @@ def parse_cvrve_json(text, term_field, term_value, term_out=None):
         posting = {
             "company": e.get("company_name"),
             "role": e.get("title"),
-            "location": locations[0] if locations else None,
+            "location": _resolve_us_location(locations[0]) if locations else None,
             "link": e.get("url"),
             "term": term_out,
             "degree": _degrees(e.get("degrees")),
@@ -86,7 +113,7 @@ def parse_zshah_json(text, season):
         posting = {
             "company": e.get("company"),
             "role": e.get("title"),
-            "location": e.get("location"),
+            "location": _resolve_us_location(e.get("location")),
             "link": e.get("url"),
             "term": season,
             "degree": ["BS"],

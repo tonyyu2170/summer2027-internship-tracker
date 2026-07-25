@@ -6,6 +6,7 @@ from parse_tracker import (
     parse_zshah_json,
     parse_nufintech_yaml,
     _resolve_nufintech_location,
+    _resolve_us_location,
 )
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -26,12 +27,19 @@ def test_parse_cvrve_json_filters_to_the_requested_term():
 
 
 def test_parse_cvrve_json_emits_required_fetch_report_fields():
+    # location is exempted from the blanket truthiness check: since
+    # _resolve_us_location() now resolves non-US first-locations (e.g. this
+    # fixture's Aquatic Capital Management entry, "London, UK") to None
+    # rather than passing them through raw, a posting can legitimately have
+    # location=None. When present, though, it must be a real US location.
+    from normalize import canonicalize_location
     postings = parse_cvrve_json(
         _fixture("simplifyjobs.json"), term_field="terms", term_value="Summer 2027"
     )
     for p in postings:
-        for field in ("company", "role", "location", "link", "term", "degree"):
+        for field in ("company", "role", "link", "term", "degree"):
             assert p.get(field), f"missing {field} in {p}"
+        assert p["location"] is None or canonicalize_location(p["location"]), p
         assert isinstance(p["degree"], list) and p["degree"]
         assert set(p["degree"]) <= {"BS", "MS", "PhD"}
 
@@ -217,3 +225,51 @@ def test_parse_nufintech_yaml_emits_a_location_that_survives_canonicalize_locati
     assert postings
     for p in postings:
         assert canonicalize_location(p["location"]) is not None, p
+
+
+def test_resolve_us_location_maps_known_city_nicknames():
+    assert _resolve_us_location("NYC") == "New York, NY"
+    assert _resolve_us_location("New York") == "New York, NY"
+    assert _resolve_us_location("New York City") == "New York, NY"
+    assert _resolve_us_location("SF") == "San Francisco, CA"
+    assert _resolve_us_location("Denver") == "Denver, CO"
+
+
+def test_resolve_us_location_passes_through_already_valid_city_state():
+    assert _resolve_us_location("Chicago, IL") == "Chicago, IL"
+
+
+def test_resolve_us_location_drops_non_us_and_unrecognized():
+    assert _resolve_us_location("London, UK") is None
+    assert _resolve_us_location("Some Random Town") is None
+    assert _resolve_us_location(None) is None
+
+
+def test_parse_cvrve_json_resolves_nyc_alias():
+    postings = parse_cvrve_json(
+        '[{"company_name":"C","title":"R","url":"https://e.com/1",'
+        '"locations":["NYC"],"active":true,"terms":["Summer 2027"],"degrees":[]}]',
+        term_field="terms", term_value="Summer 2027",
+    )
+    assert postings[0]["location"] == "New York, NY"
+
+
+def test_parse_zshah_json_resolves_nyc_alias():
+    text = ('{"a": {"company":"A","title":"R","url":"https://e.com/1",'
+            '"location":"NYC","is_open":true,"season":"Summer 2027",'
+            '"category":"Software"}}')
+    assert parse_zshah_json(text, season="Summer 2027")[0]["location"] == "New York, NY"
+
+
+def test_parse_cvrve_json_real_fixture_locations_all_resolve_or_are_correctly_dropped():
+    # Regression guard: every simplifyjobs/suryaharikrishnan posting with a
+    # resolvable US location (including "NYC") must now survive
+    # canonicalize_location; only genuinely non-US/unplaceable ones (e.g.
+    # "London, UK", bare "United States") should still resolve to None.
+    from normalize import canonicalize_location
+    for fixture_name in ("simplifyjobs.json", "suryaharikrishnan.json"):
+        postings = parse_cvrve_json(
+            _fixture(fixture_name), term_field="terms", term_value="Summer 2027"
+        )
+        resolved = sum(1 for p in postings if canonicalize_location(p["location"]) is not None)
+        assert resolved > 0, f"{fixture_name}: expected at least some resolvable US postings"
