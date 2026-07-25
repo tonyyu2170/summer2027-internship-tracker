@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from parse_tracker import parse_cvrve_json, parse_zshah_json
+from parse_tracker import parse_cvrve_json, parse_zshah_json, parse_nufintech_yaml
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -126,3 +126,48 @@ def test_parse_zshah_json_sets_closed_marker_from_is_open_false():
             '"location":"NY, NY","is_open":false,"season":"Summer 2027",'
             '"category":"Software"}}')
     assert parse_zshah_json(text, season="Summer 2027")[0]["closed_marker"] is True
+
+
+def test_parse_nufintech_yaml_maps_role_codes_to_categories():
+    postings = parse_nufintech_yaml(_fixture("northwesternfintech.yaml"))
+    by_cat = {}
+    for p in postings:
+        by_cat.setdefault(p["category"], []).append(p)
+    # Akuna's fixture has QD, QR, SWE and HW entries. HW must route to
+    # hardware even though this is a quant-only repo (0fdf5dd).
+    assert "hardware" in by_cat
+    assert "quant" in by_cat
+    assert "swe" in by_cat
+
+
+def test_parse_nufintech_yaml_never_emits_a_closed_marker():
+    # The repo publishes no status: its checkmark is decorative (66 checks,
+    # 0 crosses) and closure is expressed by deleting the entry, which is
+    # disappearance — this repo refuses to auto-close on that.
+    postings = parse_nufintech_yaml(_fixture("northwesternfintech.yaml"))
+    assert postings
+    assert all(p.get("closed_marker") is False for p in postings)
+
+
+def test_parse_nufintech_yaml_uses_label_in_role_when_present():
+    text = """
+name: "Test Capital"
+website: "https://e.com"
+locations: "Chicago"
+notes: ""
+roles:
+  - role_type: "SWE"
+    links:
+      - url: "https://e.com/1"
+        label: "C++"
+      - url: "https://e.com/2"
+"""
+    postings = parse_nufintech_yaml(text)
+    roles = {p["link"]: p["role"] for p in postings}
+    assert roles["https://e.com/1"] == "Software Engineer Intern, C++"
+    assert roles["https://e.com/2"] == "Software Engineer Intern"
+
+
+def test_parse_nufintech_yaml_handles_company_with_no_roles():
+    text = 'name: "Empty Co"\nwebsite: "https://e.com"\nlocations: "NYC"\nnotes: ""\nroles: []\n'
+    assert parse_nufintech_yaml(text) == []

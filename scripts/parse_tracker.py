@@ -4,6 +4,7 @@ Pure and network-free, so it lives on the tested side of the boundary
 docs/SCRAPING.md draws. scripts/fetch_trackers.py does the fetching and
 calls in here. Four format families cover all nine trackers."""
 import json
+import yaml
 from datetime import datetime, timezone
 
 _DEGREE_MAP = {
@@ -95,4 +96,49 @@ def parse_zshah_json(text, season):
         if e.get("category"):
             posting["upstream_category"] = e["category"]
         postings.append(posting)
+    return postings
+
+
+# HW routes to hardware even though this is a quant-only repo — the
+# established convention, and the bug fixed by hand in 0fdf5dd.
+_NUFINTECH_ROLES = {
+    "QR": ("quant", "Quantitative Researcher Intern"),
+    "QD": ("quant", "Quantitative Developer Intern"),
+    "QT": ("quant", "Quantitative Trader Intern"),
+    "SWE": ("swe", "Software Engineer Intern"),
+    "HW": ("hardware", "Hardware Engineer Intern"),
+}
+
+
+def parse_nufintech_yaml(text):
+    """Parse one northwesternfintech data/<company>.yaml file.
+
+    Emits `category` directly from the role_type code rather than leaving it
+    to the classifier. Never sets closed_marker: the source has no status
+    field, so a vanished role is disappearance, which this repo does not
+    auto-close on."""
+    doc = yaml.safe_load(text) or {}
+    company = doc.get("name")
+    location = doc.get("locations")
+    postings = []
+    for role in doc.get("roles") or []:
+        mapped = _NUFINTECH_ROLES.get(role.get("role_type"))
+        if not mapped:
+            continue
+        category, base_role = mapped
+        for link in role.get("links") or []:
+            url = link.get("url")
+            if not url:
+                continue
+            label = (link.get("label") or "").strip()
+            postings.append({
+                "company": company,
+                "role": f"{base_role}, {label}" if label else base_role,
+                "location": location,
+                "link": url,
+                "term": "Summer 2027",
+                "degree": ["BS"],
+                "closed_marker": False,
+                "category": category,
+            })
     return postings
