@@ -417,8 +417,21 @@ def test_parse_pipe_table_real_fixtures_have_no_off_cycle_rows():
     for name in ["speedyapply", "sndsh404", "zapplyjobs", "chieler"]:
         postings = parse_pipe_table(_fixture(f"{name}.md"))
         for p in postings:
-            m = pat.search(p["role"])
-            assert not m or m.group(0).lower().replace(" ", "") == "summer2027", (name, p)
+            matches = [m.group(0).lower().replace(" ", "") for m in pat.finditer(p["role"])]
+            assert not matches or "summer2027" in matches, (name, p)
+
+
+def test_parse_pipe_table_keeps_row_naming_both_summer_2027_and_another_cycle():
+    # A role can legitimately list multiple eligible cycles. The verdict
+    # must not depend on which cycle name appears first in the string.
+    text = """
+| Company | Role | Location | Link |
+| --- | --- | --- | --- |
+| Acme | SWE Intern - Fall 2026/Summer 2027 | NY, NY | <a href="https://e.com/1">Apply</a> |
+| Acme | SWE Intern - Summer 2027/Fall 2026 | NY, NY | <a href="https://e.com/2">Apply</a> |
+"""
+    links = {p["link"] for p in parse_pipe_table(text)}
+    assert links == {"https://e.com/1", "https://e.com/2"}
 
 
 def test_first_location_strips_plus_n_suffix():

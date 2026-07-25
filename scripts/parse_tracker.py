@@ -228,12 +228,15 @@ _OFF_CYCLE = re.compile(r"\b(summer|fall|winter|spring)\s*20\d\d\b", re.I)
 
 
 def _is_off_cycle(role):
-    """True if role text carries an explicit season+year marker that isn't
-    Summer 2027. This repo only tracks Summer 2027 (see CLAUDE.md); an
-    explicit off-cycle marker means the row must be dropped, not relabeled,
-    since parse_pipe_table stamps every row's term as Summer 2027."""
-    m = _OFF_CYCLE.search(role)
-    return bool(m) and m.group(0).lower().replace(" ", "") != "summer2027"
+    """True if role text carries explicit season+year marker(s) and none of
+    them is Summer 2027. This repo only tracks Summer 2027 (see CLAUDE.md);
+    an off-cycle marker means the row must be dropped, not relabeled, since
+    parse_pipe_table stamps every row's term as Summer 2027. Checks every
+    match, not just the first — a role can legitimately name multiple
+    eligible cycles (e.g. "Fall 2026/Summer 2027"), and the verdict must not
+    depend on which cycle name happens to appear first in the string."""
+    matches = [m.group(0).lower().replace(" ", "") for m in _OFF_CYCLE.finditer(role)]
+    return bool(matches) and "summer2027" not in matches
 
 
 def _cells(line):
