@@ -27,8 +27,9 @@ should have earned it.
 | 2 | LLM category classification, new links only | a few rows/run |
 
 Today every row lands in a tier far above 2. After this change the common
-case is tier 0 or 1, and tier 2 sees only genuinely-new postings from the
-four trackers that publish no category field.
+case is tier 0 or 1. Tier 2 sees only new links whose category no
+deterministic rule could assign — in practice a handful per run, and zero on
+runs where every new posting matches a keyword rule.
 
 ## What was considered and cut
 
@@ -79,6 +80,11 @@ full parse.
 
 `row_count` is stored for the sanity check in *Failure modes* below.
 
+`northwesternfintech` is the one tracker whose `path` is a **directory**
+(`path: data`), not a file. The same commits-by-path check works on a
+directory, and when it does change, read the 59 files via one recursive tree
+or contents listing — not 59 separate fetches.
+
 ### 2. Prefer structured exports over rendered tables
 
 Five of nine trackers publish machine-readable data. Parsing those is both
@@ -121,6 +127,11 @@ assigned once, at first sight, and is stable thereafter.
 | 1 | `simplifyjobs` | `.github/scripts/listings.json` | JSON | `category` field | **required:** `terms[]` ∋ `Summer 2027` | `active:false` |
 | 2 | `suryaharikrishnan` | `data/listings.json` | JSON | `category` field | **required:** `terms[]` ∋ `Summer 2027` | `active:false` |
 | 3 | `zshah101` | `data/jobs.json` | JSON | `category` field | **required:** `season == "Summer 2027"` | `is_open:false` |
+
+Expected yields for the filtered trackers, measured 2026-07-24 — these are
+the baselines the row-count sanity check compares against on first run:
+`simplifyjobs` 107 active Summer 2027 (of 14,798), `suryaharikrishnan` 95
+(of 13,211), `zshah101` 73 open Summer 2027 (of 212).
 | 4 | `vanshb03` | `.github/scripts/listings.json` | JSON | classifier | `season == "Summer"` (repo is 2027-scoped) | `active:false` |
 | 5 | `northwesternfintech` | `data/*.yaml` | YAML | `role_type` map | repo scope | none — see below |
 | 6 | `speedyapply` | README table | MD pipe | `### Quant` section, else classifier | repo scope | 🔒 |
@@ -157,9 +168,17 @@ Three sources of truth, in precedence order:
 
 1. **Explicit field** (trackers 1–3). Map upstream category strings onto the
    eight local categories: `Software`/`Software Engineering` → `swe`,
-   `Quant`/`Quantitative Finance` → `quant`, `AI/ML/Data` → split by role
-   text into `ai_ml` or `data_science`, `Hardware` → `hardware`,
-   `Product` → dropped (no local category).
+   `Quant`/`Quantitative Finance` → `quant`, `Hardware` → `hardware`,
+   `Product` → dropped (no local category). The AI/data bucket is spelled
+   differently per tracker — `AI/ML/Data` (trackers 1–2) and `Data & ML/AI`
+   (tracker 3) — and is split deterministically by role text: a title
+   matching `Data Scien`/`Data Analy`/`Analytics` → `data_science`,
+   otherwise → `ai_ml`.
+
+   **Any upstream value not in this map falls through to the classifier, and
+   is never dropped.** Upstream repos add and rename categories without
+   notice — `Data & ML/AI` was already one such surprise, found only by
+   inspecting tracker 3 directly.
 2. **Static map** (tracker 5). `role_type` codes: `QR`/`QD` → `quant`,
    `SWE` → `swe`, `HW` → `hardware`. Note that `HW` routes to `hardware`
    even though this is a quant-only repo — this is the established
@@ -177,6 +196,23 @@ Three sources of truth, in precedence order:
 
 The hardware-at-quant-firm rule must be checked *before* the quant rule so
 "Hardware Engineer Intern" at Jane Street/Akuna/IMC routes to `hardware`.
+
+### Who runs the classifier
+
+The scripts stay LLM-free. `fetch_trackers.py` writes any row it could not
+classify deterministically to `scratch/unclassified.json`; the session
+classifies that batch and writes the categories back; `run_scrape_merge.py`
+then proceeds as the single serialized writer, exactly as today.
+
+This keeps the existing boundary intact — no LLM client dependency, no
+second API key in a repo whose hard rule already keeps `FIRECRAWL_API_KEY`
+outside it, and the tested core stays network- and LLM-free. It also mirrors
+the existing fetch-report handoff rather than inventing a second pattern.
+
+If `scratch/unclassified.json` is non-empty and has not been filled in, the
+merge step must refuse to run rather than guessing a category — an
+unclassified row silently defaulting to `swe` is how cross-category
+duplicates get created.
 
 ### Closure
 
@@ -237,6 +273,16 @@ tables, `<details>` multi-location collapse, and the classifier's
 hardware-before-quant ordering.
 
 The network shim is not unit-tested, consistent with the existing boundary.
+
+## Documentation to update
+
+`docs/SCRAPING.md` is the authoritative runbook and will be wrong once this
+lands — its source table currently prescribes "Fetch the raw README, parse
+the table rows" for all 9 trackers. It must be updated to describe the
+structured-export-first procedure, the `scrape_state.yaml` skip, the
+`scratch/unclassified.json` handoff, and — importantly — to *retain* the
+LLM-subagent README parse as the documented per-tracker fallback, since the
+failure-mode path above depends on it still existing.
 
 ## Out of scope
 
