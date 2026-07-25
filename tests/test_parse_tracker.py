@@ -261,15 +261,42 @@ def test_parse_zshah_json_resolves_nyc_alias():
     assert parse_zshah_json(text, season="Summer 2027")[0]["location"] == "New York, NY"
 
 
-def test_parse_cvrve_json_real_fixture_locations_all_resolve_or_are_correctly_dropped():
-    # Regression guard: every simplifyjobs/suryaharikrishnan posting with a
-    # resolvable US location (including "NYC") must now survive
-    # canonicalize_location; only genuinely non-US/unplaceable ones (e.g.
-    # "London, UK", bare "United States") should still resolve to None.
-    from normalize import canonicalize_location
-    for fixture_name in ("simplifyjobs.json", "suryaharikrishnan.json"):
-        postings = parse_cvrve_json(
-            _fixture(fixture_name), term_field="terms", term_value="Summer 2027"
+def test_parse_cvrve_json_real_fixture_nyc_entries_resolve_to_new_york():
+    # Regression guard for the NYC-alias fix: these real fixture entries
+    # have "NYC" as their first location, which canonicalize_location()
+    # alone rejects (no state). Confirm _resolve_us_location's alias
+    # fallback actually kicks in on real data, not just synthetic strings.
+    #
+    # Identifies the NYC-first-location entries by their url (a few other
+    # entries, e.g. simplifyjobs' Barclays, already say "New York, NY"
+    # verbatim and would also match a plain `location == "New York, NY"`
+    # count, which is not what this test is checking) and asserts each one's
+    # parsed posting resolves via the alias, not just that *some* posting
+    # in the fixture happens to say "New York, NY".
+    #
+    # Counts verified directly against the fixture files: simplifyjobs.json
+    # has 3 Summer-2027 entries with locations[0] == "NYC" (Ellipsis Labs,
+    # Walleye Capital x2); suryaharikrishnan.json has 3 (Quadrillion,
+    # Anthelion Capital, Virtu Financial).
+    for fixture_name, expected_nyc_count in (
+        ("simplifyjobs.json", 3),
+        ("suryaharikrishnan.json", 3),
+    ):
+        text = _fixture(fixture_name)
+        raw_entries = json.loads(text)
+        nyc_links = {
+            e.get("url")
+            for e in raw_entries
+            if "Summer 2027" in (e.get("terms") or [])
+            and (e.get("locations") or [None])[0] == "NYC"
+        }
+        assert len(nyc_links) == expected_nyc_count, (
+            f"{fixture_name}: expected {expected_nyc_count} raw entries with "
+            f"locations[0] == 'NYC', found {len(nyc_links)}"
         )
-        resolved = sum(1 for p in postings if canonicalize_location(p["location"]) is not None)
-        assert resolved > 0, f"{fixture_name}: expected at least some resolvable US postings"
+        postings = parse_cvrve_json(
+            text, term_field="terms", term_value="Summer 2027"
+        )
+        by_link = {p["link"]: p for p in postings}
+        for link in nyc_links:
+            assert by_link[link]["location"] == "New York, NY", by_link[link]
