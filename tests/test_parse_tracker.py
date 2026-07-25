@@ -1,7 +1,12 @@
 import json
 from pathlib import Path
 
-from parse_tracker import parse_cvrve_json, parse_zshah_json, parse_nufintech_yaml
+from parse_tracker import (
+    parse_cvrve_json,
+    parse_zshah_json,
+    parse_nufintech_yaml,
+    _resolve_nufintech_location,
+)
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -171,3 +176,44 @@ roles:
 def test_parse_nufintech_yaml_handles_company_with_no_roles():
     text = 'name: "Empty Co"\nwebsite: "https://e.com"\nlocations: "NYC"\nnotes: ""\nroles: []\n'
     assert parse_nufintech_yaml(text) == []
+
+
+def test_resolve_nufintech_location_maps_bare_city_names():
+    assert _resolve_nufintech_location("Chicago") == "Chicago, IL"
+    assert _resolve_nufintech_location("NYC") == "New York, NY"
+    assert _resolve_nufintech_location("Boston") == "Boston, MA"
+
+
+def test_resolve_nufintech_location_passes_through_already_valid_city_state():
+    assert _resolve_nufintech_location("Greenwich, CT") == "Greenwich, CT"
+    assert _resolve_nufintech_location("Jupiter, Florida") == "Jupiter, FL"
+
+
+def test_resolve_nufintech_location_drops_non_us_city():
+    assert _resolve_nufintech_location("London") is None
+
+
+def test_resolve_nufintech_location_takes_first_of_semicolon_separated_list():
+    assert _resolve_nufintech_location("New York, NY; Boston, MA; Miami, FL") == "New York, NY"
+
+
+def test_resolve_nufintech_location_takes_first_of_ambiguous_comma_list():
+    # "Chicago, NYC" is two bare cities joined by comma, not "City, ST" —
+    # the second token isn't a valid state, so this must not be
+    # misinterpreted as state="NYC". First city wins.
+    assert _resolve_nufintech_location("Chicago, NYC") == "Chicago, IL"
+
+
+def test_resolve_nufintech_location_returns_none_for_unrecognized_city():
+    assert _resolve_nufintech_location("Some Unmapped Town") is None
+
+
+def test_parse_nufintech_yaml_emits_a_location_that_survives_canonicalize_location():
+    # Regression guard: the real Akuna fixture's `locations: "Chicago"`
+    # must resolve to something canonicalize_location() accepts, or every
+    # posting from this tracker is silently dropped at merge time.
+    from normalize import canonicalize_location
+    postings = parse_nufintech_yaml(_fixture("northwesternfintech.yaml"))
+    assert postings
+    for p in postings:
+        assert canonicalize_location(p["location"]) is not None, p

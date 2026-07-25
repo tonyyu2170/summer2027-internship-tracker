@@ -7,6 +7,8 @@ import json
 import yaml
 from datetime import datetime, timezone
 
+from normalize import canonicalize_location
+
 _DEGREE_MAP = {
     "bachelor's": "BS", "bachelors": "BS", "bs": "BS",
     "master's": "MS", "masters": "MS", "ms": "MS",
@@ -110,6 +112,46 @@ _NUFINTECH_ROLES = {
 }
 
 
+# Companies publish `locations` inconsistently — bare city names with no
+# state, non-US cities, and multi-location strings joined by "," or ";"
+# with no clear separator between the location list and a trailing state.
+# canonicalize_location() only accepts "City, ST"/"City, State"; this maps
+# the city spellings seen across the tracker's ~58 companies onto that
+# shape, or None for a known non-US city, so the shared US-only filter in
+# merge.py can do its job. Unrecognized cities fall through to None
+# (dropped) rather than guessing.
+_NUFINTECH_CITY_MAP = {
+    "chicago": "Chicago, IL",
+    "nyc": "New York, NY",
+    "new york city": "New York, NY",
+    "boston": "Boston, MA",
+    "houston": "Houston, TX",
+    "miami": "Miami, FL",
+    "irvine": "Irvine, CA",
+    "berkeley": "Berkeley, CA",
+    "bala cynwyd": "Bala Cynwyd, PA",
+    "setauket": "Setauket, NY",
+    "samford": "Stamford, CT",  # source typo for Stamford, CT (Trexquant HQ)
+    "london": None,  # non-US
+}
+
+
+def _resolve_nufintech_location(raw):
+    """Resolve one northwesternfintech `locations` string to 'City, ST',
+    or None if it can't be confidently placed. Multiple locations are
+    joined by ';' (already-valid 'City, ST' segments) or ',' (bare city
+    names with no per-city state); only the first is used, matching the
+    "emit the first" convention used elsewhere in this project."""
+    if not raw:
+        return None
+    first = raw.split(";")[0].strip()
+    canon = canonicalize_location(first)
+    if canon:
+        return canon
+    token = first.split(",")[0].split(" - ")[0].strip().lower()
+    return _NUFINTECH_CITY_MAP.get(token)
+
+
 def parse_nufintech_yaml(text):
     """Parse one northwesternfintech data/<company>.yaml file.
 
@@ -119,7 +161,7 @@ def parse_nufintech_yaml(text):
     auto-close on."""
     doc = yaml.safe_load(text) or {}
     company = doc.get("name")
-    location = doc.get("locations")
+    location = _resolve_nufintech_location(doc.get("locations"))
     postings = []
     for role in doc.get("roles") or []:
         mapped = _NUFINTECH_ROLES.get(role.get("role_type"))
