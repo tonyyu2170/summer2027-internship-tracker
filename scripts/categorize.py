@@ -80,6 +80,23 @@ def known_link_categories(data_dir=None) -> dict:
     return known
 
 
+def known_link_locations(data_dir=None) -> dict:
+    """Map normalized link -> location, over every row in data/*.yaml.
+
+    Lets a source with no location data of its own (e.g. chieler's README
+    has no Location column) still confirm/refresh an already-tracked
+    posting, by reusing the location an earlier source already
+    established, rather than being dropped by the required-field gate."""
+    data_dir = Path(data_dir) if data_dir else ROOT / "data"
+    known = {}
+    for path in sorted(data_dir.glob("*.yaml")):
+        for row in (yaml.safe_load(path.read_text()) or []):
+            link, location = row.get("link"), row.get("location")
+            if link and location:
+                known[normalize_link(link)] = location
+    return known
+
+
 def assign_category(posting: dict, known: dict) -> str | None:
     """Category for one posting: its existing one if the link is already
     tracked, else the tracker's own category, else role-text rules, else

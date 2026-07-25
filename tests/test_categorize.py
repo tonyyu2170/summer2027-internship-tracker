@@ -1,4 +1,11 @@
-from categorize import classify_role, map_upstream_category, assign_category
+import yaml
+
+from categorize import (
+    classify_role,
+    map_upstream_category,
+    assign_category,
+    known_link_locations,
+)
 
 
 def test_hardware_wins_over_quant_for_quant_firm_hardware_roles():
@@ -85,3 +92,12 @@ def test_quant_does_not_match_quantity():
     # "\bquant" (no trailing boundary) previously prefix-matched "Quantity",
     # miscategorizing a role that has nothing to do with quant finance.
     assert classify_role("Quantity Surveyor Intern") is None
+
+
+def test_known_link_locations_maps_normalized_link_to_location(tmp_path):
+    (tmp_path / "swe.yaml").write_text(yaml.safe_dump([
+        {"link": "https://example.com/jobs/1?utm_source=x", "location": "New York, NY"},
+        {"link": "https://example.com/jobs/2", "location": None},
+    ]))
+    known = known_link_locations(tmp_path)
+    assert known == {"https://example.com/jobs/1": "New York, NY"}
