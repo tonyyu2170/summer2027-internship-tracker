@@ -8,6 +8,7 @@ from parse_tracker import (
     parse_pipe_table,
     _resolve_nufintech_location,
     _resolve_us_location,
+    _first_location,
 )
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -394,3 +395,44 @@ def test_parse_pipe_table_on_real_fixture_yields_postings():
     assert postings, "expected postings from the speedyapply fixture"
     for p in postings:
         assert p["company"] and p["role"] and p["link"]
+
+
+def test_parse_pipe_table_drops_explicit_off_cycle_rows():
+    text = """
+| Company | Role | Location | Link |
+| --- | --- | --- | --- |
+| Acme | SWE Intern (Fall 2026) | NY, NY | <a href="https://e.com/1">Apply</a> |
+| Acme | SWE Intern - Winter 2027 | NY, NY | <a href="https://e.com/2">Apply</a> |
+| Acme | Summer 2027 SWE Intern | NY, NY | <a href="https://e.com/3">Apply</a> |
+| Acme | SWE Intern | NY, NY | <a href="https://e.com/4">Apply</a> |
+"""
+    postings = parse_pipe_table(text)
+    links = {p["link"] for p in postings}
+    assert links == {"https://e.com/3", "https://e.com/4"}
+
+
+def test_parse_pipe_table_real_fixtures_have_no_off_cycle_rows():
+    import re
+    pat = re.compile(r"\b(summer|fall|winter|spring)\s*20\d\d\b", re.I)
+    for name in ["speedyapply", "sndsh404", "zapplyjobs", "chieler"]:
+        postings = parse_pipe_table(_fixture(f"{name}.md"))
+        for p in postings:
+            m = pat.search(p["role"])
+            assert not m or m.group(0).lower().replace(" ", "") == "summer2027", (name, p)
+
+
+def test_first_location_strips_plus_n_suffix():
+    assert _first_location("Mountain View, CA +29") == "Mountain View, CA"
+
+
+def test_first_location_strips_multiple_us_suffix():
+    assert _first_location("Austin, TX (multiple US)") == "Austin, TX"
+
+
+def test_parse_pipe_table_resolves_bare_city_via_alias():
+    text = """
+| Company | Role | Location | Link |
+| --- | --- | --- | --- |
+| Acme | SWE Intern | NYC | <a href="https://e.com/1">Apply</a> |
+"""
+    assert parse_pipe_table(text)[0]["location"] == "New York, NY"

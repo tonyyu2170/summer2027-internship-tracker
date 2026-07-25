@@ -224,6 +224,16 @@ _COLUMN_ALIASES = {
 _HREF = re.compile(r'href="([^"]+)"')
 _MD_LINK = re.compile(r"\[[^\]]*\]\((<?)([^)>\s]+)")
 _TAG = re.compile(r"<[^>]+>")
+_OFF_CYCLE = re.compile(r"\b(summer|fall|winter|spring)\s*20\d\d\b", re.I)
+
+
+def _is_off_cycle(role):
+    """True if role text carries an explicit season+year marker that isn't
+    Summer 2027. This repo only tracks Summer 2027 (see CLAUDE.md); an
+    explicit off-cycle marker means the row must be dropped, not relabeled,
+    since parse_pipe_table stamps every row's term as Summer 2027."""
+    m = _OFF_CYCLE.search(role)
+    return bool(m) and m.group(0).lower().replace(" ", "") != "summer2027"
 
 
 def _cells(line):
@@ -232,10 +242,15 @@ def _cells(line):
 
 def _first_location(cell):
     """Collapse a location cell to its first entry. Handles </br>-joined
-    lists and <details> blocks wrapping many locations."""
+    lists, <details> blocks wrapping many locations, and trailing "+N"/
+    "(multiple US)" decoration some trackers append to indicate more
+    locations were collapsed."""
     text = re.sub(r"<summary>.*?</summary>", "", cell, flags=re.DOTALL)
     text = re.split(r"</br>|<br\s*/?>", text)[0]
-    return _TAG.sub("", text).strip()
+    text = _TAG.sub("", text).strip()
+    text = re.sub(r"\s*\+\d+\s*$", "", text)
+    text = re.sub(r"\s*\(multiple US\)\s*$", "", text, flags=re.I)
+    return text.strip()
 
 
 def _extract_link(cell):
@@ -291,10 +306,14 @@ def parse_pipe_table(text):
             closed = "🔒" in role
             role = role.replace("🔒", "").replace("🛂", "").replace("🇺🇸", "")
             role = role.replace("🔥", "").replace("🎓", "").strip()
+            if _is_off_cycle(role):
+                continue
             location = (
                 _first_location(cells[header["location"]])
                 if "location" in header else None
             )
+            if location:
+                location = _resolve_us_location(location) or location
             if not (company and role):
                 continue
             postings.append({
