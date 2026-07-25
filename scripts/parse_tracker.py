@@ -63,3 +63,36 @@ def parse_cvrve_json(text, term_field, term_value, term_out=None):
             posting["upstream_category"] = e["category"]
         postings.append(posting)
     return postings
+
+
+def _from_iso(value):
+    if not value:
+        return None
+    return value.split("T")[0]
+
+
+def parse_zshah_json(text, season):
+    """Parse zshah101's data/jobs.json — a dict keyed by job id, with a
+    singular `location` string and an explicit `season` per entry."""
+    entries = json.loads(text)
+    values = entries.values() if isinstance(entries, dict) else entries
+    postings = []
+    for e in values:
+        if e.get("season") != season:
+            continue
+        posting = {
+            "company": e.get("company"),
+            "role": e.get("title"),
+            "location": e.get("location"),
+            "link": e.get("url"),
+            "term": season,
+            "degree": ["BS"],
+            "closed_marker": not e.get("is_open", True),
+        }
+        date_posted = _from_iso(e.get("posted_at"))
+        if date_posted:
+            posting["date_posted"] = date_posted
+        if e.get("category"):
+            posting["upstream_category"] = e["category"]
+        postings.append(posting)
+    return postings

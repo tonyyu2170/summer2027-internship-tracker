@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from parse_tracker import parse_cvrve_json
+from parse_tracker import parse_cvrve_json, parse_zshah_json
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -93,3 +93,36 @@ def test_parse_cvrve_json_converts_unix_date_posted():
         term_field="terms", term_value="Summer 2027",
     )
     assert postings[0]["date_posted"] == "2025-11-27"
+
+
+def test_parse_zshah_json_filters_to_summer_2027_and_open():
+    postings = parse_zshah_json(_fixture("zshah101.json"), season="Summer 2027")
+    assert all(p["term"] == "Summer 2027" for p in postings)
+
+
+def test_parse_zshah_json_reads_dict_keyed_by_id():
+    text = ('{"amazon:amazon:1": {"company":"Amazon","title":"Software Dev Engineer Intern",'
+            '"url":"https://e.com/1","location":"Seattle, WA","is_open":true,'
+            '"season":"Summer 2027","category":"Software",'
+            '"posted_at":"2026-03-25T00:00:00Z"}}')
+    postings = parse_zshah_json(text, season="Summer 2027")
+    assert len(postings) == 1
+    p = postings[0]
+    assert p["company"] == "Amazon"
+    assert p["location"] == "Seattle, WA"
+    assert p["upstream_category"] == "Software"
+    assert p["date_posted"] == "2026-03-25"
+    assert p["closed_marker"] is False
+
+
+def test_parse_zshah_json_excludes_other_seasons():
+    text = ('{"a": {"company":"A","title":"R","url":"https://e.com/1",'
+            '"location":"NY, NY","is_open":true,"season":"Fall 2026","category":"Software"}}')
+    assert parse_zshah_json(text, season="Summer 2027") == []
+
+
+def test_parse_zshah_json_sets_closed_marker_from_is_open_false():
+    text = ('{"a": {"company":"A","title":"R","url":"https://e.com/1",'
+            '"location":"NY, NY","is_open":false,"season":"Summer 2027",'
+            '"category":"Software"}}')
+    assert parse_zshah_json(text, season="Summer 2027")[0]["closed_marker"] is True
