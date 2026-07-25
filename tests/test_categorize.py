@@ -73,3 +73,15 @@ def test_assign_category_returns_none_when_undecidable():
     assert assign_category(
         {"link": "https://example.com/jobs/3", "role": "Summer Intern"}, {}
     ) is None
+
+
+def test_hardware_asic_requires_word_boundary():
+    # "asic" must not substring-match inside "Basic" — the un-bounded
+    # alternative previously miscategorized this as hardware.
+    assert classify_role("Basic Data Entry Intern") is None
+
+
+def test_quant_does_not_match_quantity():
+    # "\bquant" (no trailing boundary) previously prefix-matched "Quantity",
+    # miscategorizing a role that has nothing to do with quant finance.
+    assert classify_role("Quantity Surveyor Intern") is None

@@ -20,11 +20,11 @@ DROP = "__drop__"
 # and the bug fixed by hand in 0fdf5dd. data_science precedes ai_ml so
 # "Data Scientist" wins over a bare AI match.
 _RULES = [
-    ("hardware", r"hardware|fpga|asic|firmware|silicon|verilog|\brtl\b|embedded|\bpcb\b"),
+    ("hardware", r"hardware|fpga|\basic\b|firmware|silicon|verilog|\brtl\b|embedded|\bpcb\b"),
     ("actuarial", r"actuar"),
     ("ib", r"investment bank|\bibd\b"),
     ("consulting", r"consult"),
-    ("quant", r"\bquant"),
+    ("quant", r"quantitative|\bquant\b(?!ity)"),
     ("data_science", r"data scien|data analy|analytics"),
     ("ai_ml", r"machine learning|deep learning|\bml\b|\bai\b|\bnlp\b|computer vision"),
     ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend"),
