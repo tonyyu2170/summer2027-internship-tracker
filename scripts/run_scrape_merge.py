@@ -95,8 +95,22 @@ def run(reports_dir, data_dir=None, readme_path=None):
     readme_path = Path(readme_path) if readme_path else ROOT / "README.md"
     today = date.today().isoformat()
 
+    unclassified_path = reports_dir / "unclassified.json"
+    if unclassified_path.exists():
+        pending = json.loads(unclassified_path.read_text())
+        pending = [p for p in pending if not p.get("category")]
+        if pending:
+            raise SystemExit(
+                f"{len(pending)} unclassified posting(s) pending in "
+                f"{unclassified_path}. Fill in each row's 'category' before "
+                f"merging — defaulting a category silently creates "
+                f"cross-category duplicates."
+            )
+
     by_cat = defaultdict(list)
     for p in sorted(reports_dir.glob("*.json")):
+        if p.name == "unclassified.json":
+            continue
         report = json.loads(p.read_text())
         by_cat[report["category"]].append(_filter_postings(report))
 

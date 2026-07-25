@@ -1,5 +1,6 @@
 import json
 import yaml
+import pytest
 from pathlib import Path
 from run_scrape_merge import run
 
@@ -251,3 +252,26 @@ def test_run_scrubs_closed_id_when_new_row_also_dropped(tmp_path, capsys):
 
     out = capsys.readouterr().out
     assert "dropped invalid row" in out
+
+
+def test_run_refuses_to_merge_while_unclassified_rows_are_pending(tmp_path):
+    # An unclassified row silently defaulting to a category is how
+    # cross-category duplicates get created, so merge must stop instead.
+    reports = tmp_path / "fetch_reports"
+    reports.mkdir()
+    unclassified = reports / "unclassified.json"
+    unclassified.write_text(json.dumps([
+        {"link": "https://e.com/1", "role": "Summer Intern", "category": None}
+    ]))
+    with pytest.raises(SystemExit) as exc:
+        run(reports, data_dir=tmp_path / "data", readme_path=tmp_path / "README.md")
+    assert "unclassified" in str(exc.value)
+
+
+def test_run_proceeds_when_unclassified_file_is_empty(tmp_path):
+    reports = tmp_path / "fetch_reports"
+    reports.mkdir()
+    (reports / "unclassified.json").write_text("[]")
+    data_dir = tmp_path / "data"
+    data_dir.mkdir()
+    run(reports, data_dir=data_dir, readme_path=tmp_path / "README.md")
