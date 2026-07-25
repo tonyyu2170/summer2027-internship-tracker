@@ -130,6 +130,13 @@ def run(out_dir=None):
 
         by_cat = defaultdict(list)
         for p in postings:
+            link = p.get("link")
+            if p.get("closed_marker") and link and normalize_link(link) not in known:
+                # Already dead and never tracked before: nothing to close,
+                # and adding it now would only import a corpse. Sources like
+                # simplifyjobs carry years of inactive listings alongside
+                # active ones — most closed_marker rows are exactly this.
+                continue
             category = p.pop("category", None) or assign_category(p, known)
             if category == DROP:
                 continue
