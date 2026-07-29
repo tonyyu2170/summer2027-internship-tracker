@@ -32,6 +32,28 @@ def test_run_merges_reports_and_regenerates_readme(tmp_path):
     assert "Stripe" in readme.read_text()
 
 
+def test_run_preserves_source_state_and_passes_current_counts_to_readme(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    reports_dir = tmp_path / "reports"
+    reports_dir.mkdir()
+    (reports_dir / "r1.json").write_text(json.dumps({
+        "category": "swe", "source_entity": "greenhouse:stripe",
+        "postings": [_posting()],
+    }))
+    state_path = tmp_path / "sources" / "scrape_state.yaml"
+    state_path.parent.mkdir()
+    state_path.write_text(yaml.safe_dump({"tracker": {"row_count": 42}}))
+    readme = tmp_path / "README.md"
+
+    run(reports_dir, data_dir, readme, state_path)
+
+    state = yaml.safe_load(state_path.read_text())
+    assert state["tracker"] == {"row_count": 42}
+    assert state["_last_run"]["new"] == 1
+    assert state["_last_run"]["closed"] == 0
+    assert "Last scrape: +1 new, 0 closed." in readme.read_text()
+
+
 def test_run_skips_posting_missing_required_field(tmp_path, capsys):
     root = tmp_path
     data_dir = root / "data"

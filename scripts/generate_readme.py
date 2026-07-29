@@ -41,9 +41,10 @@ def _row_cells(row: dict, is_quant: bool) -> str:
     cells += [
         _escape_cell(row["location"]),
         f"[Apply](<{row['link']}>)",
-        _escape_cell(row["date_posted"]),
+        _escape_cell(("~" if row.get("date_estimated") else "") + row["date_posted"]),
         _escape_cell(row["term"]),
         _escape_cell("/".join(row["degree"])),
+        _escape_cell(row["last_verified"]),
         _status_cell(row),
     ]
     return "| " + " | ".join(cells) + " |"
@@ -51,7 +52,7 @@ def _row_cells(row: dict, is_quant: bool) -> str:
 
 def _table(rows: list, is_quant: bool) -> str:
     header = ["Company", "Role"] + (["Track"] if is_quant else []) + \
-        ["Location", "Link", "Date Posted", "Term", "Degree", "Status"]
+        ["Location", "Link", "Date Posted", "Term", "Degree", "Last Verified", "Status"]
     lines = [
         "| " + " | ".join(header) + " |",
         "| " + " | ".join(["---"] * len(header)) + " |",
@@ -66,13 +67,25 @@ def _load(data_dir: Path, stem: str) -> list:
     return (yaml.safe_load(p.read_text()) or []) if p.exists() else []
 
 
-def render(data_dir=None, readme_path=None) -> Path:
+def render(data_dir=None, readme_path=None, last_run=None) -> Path:
     data_dir = Path(data_dir) if data_dir else ROOT / "data"
     readme_path = Path(readme_path) if readme_path else ROOT / "README.md"
+    rows_by_category = {stem: _load(data_dir, stem) for stem, _, _ in CATEGORIES}
+    open_count = sum(
+        row.get("status") == "open"
+        for rows in rows_by_category.values() for row in rows
+    )
+    last_run_clause = ""
+    if last_run is not None:
+        last_run_clause = (
+            f" Last scrape: +{last_run.get('new', 0)} new, "
+            f"{last_run.get('closed', 0)} closed."
+        )
     out = [
         "# Summer 2027 Internship Tracker",
         "",
-        f"_Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}_",
+        f"_Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} — "
+        f"{open_count} open roles.{last_run_clause}_",
         "",
         "US-based Summer 2027 internships across eight role categories.",
         "",
@@ -83,13 +96,13 @@ def render(data_dir=None, readme_path=None) -> Path:
     out += [
         "",
         "**Legend** — Status: 🟢 Open · 🔒 Closed. Degree = BS/MS/PhD "
-        "eligibility. Date Posted is the source's date where available, else "
-        "the date we first recorded the role. ⚠️dup? marks a possible "
-        "duplicate pending manual review.",
+        "eligibility. ~Date Posted is estimated from when we first recorded "
+        "the role. Last Verified is when the posting was last re-confirmed. "
+        "⚠️dup? marks a possible duplicate pending manual review.",
         "",
     ]
     for stem, title, is_quant in CATEGORIES:
-        rows = _load(data_dir, stem)
+        rows = rows_by_category[stem]
         out += [f"## {title}", ""]
         out += [_table(rows, is_quant), ""] if rows else ["_No roles tracked yet._", ""]
     readme_path.write_text("\n".join(out) + "\n")

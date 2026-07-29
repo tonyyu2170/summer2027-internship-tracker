@@ -13,7 +13,7 @@ import json
 import sys
 import yaml
 from pathlib import Path
-from datetime import date
+from datetime import date, datetime
 from collections import defaultdict
 
 from merge import merge_category
@@ -94,10 +94,12 @@ def _load_rows(path: Path) -> list:
     return (yaml.safe_load(path.read_text()) or []) if path.exists() else []
 
 
-def run(reports_dir, data_dir=None, readme_path=None):
+def run(reports_dir, data_dir=None, readme_path=None, state_path=None):
     reports_dir = Path(reports_dir)
     data_dir = Path(data_dir) if data_dir else ROOT / "data"
     readme_path = Path(readme_path) if readme_path else ROOT / "README.md"
+    state_path = (Path(state_path) if state_path else
+                  data_dir.parent / "sources" / "scrape_state.yaml")
     today = date.today().isoformat()
 
     unclassified_path = reports_dir / "unclassified.json"
@@ -156,7 +158,17 @@ def run(reports_dir, data_dir=None, readme_path=None):
         (data_dir / f"{cat}.yaml").write_text(
             yaml.safe_dump(rows, sort_keys=False, allow_unicode=True))
 
-    render(data_dir, readme_path)
+    state = yaml.safe_load(state_path.read_text()) if state_path.exists() else {}
+    state = state or {}
+    state["_last_run"] = {
+        "new": sum(len(summary["new"]) for summary in summaries.values()),
+        "closed": sum(len(summary["closed"]) for summary in summaries.values()),
+        "ran_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+    }
+    state_path.parent.mkdir(parents=True, exist_ok=True)
+    state_path.write_text(yaml.safe_dump(state, sort_keys=False, allow_unicode=True))
+
+    render(data_dir, readme_path, state["_last_run"])
     summaries["_integrity"] = violations
     return summaries
 

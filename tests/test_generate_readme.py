@@ -68,6 +68,21 @@ def test_rows_sorted_newest_first(tmp_path):
     assert text.index("Newer") < text.index("Older")
 
 
+def test_estimated_date_is_marked_without_changing_sort_order(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write(data_dir, "swe", [
+        _row(company="Older estimate", date_posted="2026-01-01", date_estimated=True),
+        _row(company="Newer actual", date_posted="2026-09-01"),
+    ])
+    out = tmp_path / "README.md"
+    render(data_dir, out, {"new": 2, "closed": 1})
+    text = out.read_text()
+    assert "~2026-01-01" in text
+    assert text.index("Newer actual") < text.index("Older estimate")
+    assert "Last scrape: +2 new, 1 closed." in text
+    assert "Last Verified" in text
+
+
 def test_pipe_newline_and_paren_in_free_text_dont_corrupt_table(tmp_path):
     data_dir = _empty_data_dir(tmp_path)
     _write(data_dir, "swe", [_row(
@@ -85,5 +100,5 @@ def test_pipe_newline_and_paren_in_free_text_dont_corrupt_table(tmp_path):
     assert "Software Engineer \\| Backend" in row_line
     # split on unescaped pipes only: an escaped "\|" must not create a new column
     cells = [c for c in re.split(r"(?<!\\)\|", row_line) if c.strip()]
-    assert len(cells) == 8
+    assert len(cells) == 9
     assert "[Apply](<https://example.com/apply?ref=(promo)>)" in text
