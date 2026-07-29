@@ -21,12 +21,16 @@ actuarial:
     degree: [BS]
     role_pattern: '(?i)actuar'
   - company: Genworth Financial
-    provider: manual_discovery
+    provider: workday_cxs
     url: https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential
     source_entity: company:genworth
     term: Summer 2027
     degree: [BS]
     role_pattern: '(?i)actuar'
+    term_pattern: '(?i)summer\s+2027'
+    tenant: gnw
+    site: Genworth_Confidential
+    search_text: actuarial
   - company: The Hartford
     provider: manual_discovery
     url: https://thehartford.wd5.myworkdayjobs.com/Careers_Restricted

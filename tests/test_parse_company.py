@@ -1,4 +1,4 @@
-from parse_company import parse_phenom_job_page
+from parse_company import parse_phenom_job_page, parse_workday_cxs
 
 
 SOURCE = {
@@ -9,6 +9,20 @@ SOURCE = {
     "term": "Summer 2027",
     "degree": ["BS"],
     "role_pattern": r"(?i)actuar",
+}
+
+WORKDAY_SOURCE = {
+    "company": "Genworth Financial",
+    "provider": "workday_cxs",
+    "url": "https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential",
+    "source_entity": "company:genworth",
+    "term": "Summer 2027",
+    "degree": ["BS"],
+    "role_pattern": r"(?i)actuar",
+    "term_pattern": r"(?i)summer\s+2027",
+    "tenant": "gnw",
+    "site": "Genworth_Confidential",
+    "search_text": "actuarial",
 }
 
 
@@ -63,3 +77,43 @@ def test_parse_phenom_job_page_rejects_non_us_or_missing_locations():
         assert "US location" in str(exc)
     else:
         raise AssertionError("expected ValueError")
+
+
+def test_parse_workday_cxs_filters_to_summer_2027_and_builds_canonical_links():
+    payload = {"jobPostings": [
+        {
+            "title": "Genworth Actuarial Development Program Analyst – 2027",
+            "externalPath": "/job/Richmond-Virginia/analyst_REQ-260275",
+            "locationsText": "Richmond, Virginia",
+        },
+        {
+            "title": "Genworth Actuarial Development Program Intern – Summer 2027",
+            "externalPath": "/job/Richmond-Virginia/intern_REQ-260272",
+            "locationsText": "Richmond, Virginia",
+        },
+    ]}
+
+    postings, drops = parse_workday_cxs(payload, WORKDAY_SOURCE)
+
+    assert postings == [{
+        "company": "Genworth Financial",
+        "role": "Genworth Actuarial Development Program Intern – Summer 2027",
+        "location": "Richmond, VA",
+        "link": "https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential/job/Richmond-Virginia/intern_REQ-260272",
+        "term": "Summer 2027",
+        "degree": ["BS"],
+        "source": "company:genworth",
+    }]
+    assert drops == {"term_unmatched": 1}
+
+
+def test_parse_workday_cxs_counts_malformed_and_non_us_results():
+    payload = {"jobPostings": [
+        {"title": "Actuarial Intern – Summer 2027", "externalPath": "/job/london", "locationsText": "London, England"},
+        {"title": "Actuarial Intern – Summer 2027"},
+    ]}
+
+    postings, drops = parse_workday_cxs(payload, WORKDAY_SOURCE)
+
+    assert postings == []
+    assert drops == {"non_us_location": 1, "malformed_posting": 1}

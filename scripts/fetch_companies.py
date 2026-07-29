@@ -11,22 +11,75 @@ import urllib.request
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import certifi
 import yaml
 
-from parse_company import parse_phenom_job_page
+from parse_company import parse_phenom_job_page, parse_workday_cxs
 
 ROOT = Path(__file__).resolve().parent.parent
 _SSL_CTX = ssl.create_default_context(cafile=certifi.where())
 _HEADERS = {"User-Agent": "internship-tracker-scraper", "Accept": "text/html"}
-_PARSERS = {"phenom_job_page": parse_phenom_job_page}
+_PARSERS = {
+    "phenom_job_page": parse_phenom_job_page,
+    "workday_cxs": parse_workday_cxs,
+}
 
 
 def _get(url: str) -> str:
     request = urllib.request.Request(url, headers=_HEADERS)
     with urllib.request.urlopen(request, timeout=30, context=_SSL_CTX) as response:
         return response.read().decode("utf-8")
+
+
+def _post_json(url: str, payload: dict) -> dict:
+    request = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={**_HEADERS, "Accept": "application/json", "Content-Type": "application/json"},
+    )
+    with urllib.request.urlopen(request, timeout=30, context=_SSL_CTX) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def _workday_cxs_url(source: dict) -> str:
+    parts = urlsplit(source["url"])
+    if not parts.scheme or not parts.netloc:
+        raise ValueError("Workday source url must be absolute")
+    return (f"{parts.scheme}://{parts.netloc}/wday/cxs/"
+            f"{source['tenant']}/{source['site']}/jobs")
+
+
+def _fetch_workday_cxs(source: dict, post=None) -> dict:
+    """Fetch every page from one configured Workday CXS search endpoint."""
+    post = post or _post_json
+    endpoint = _workday_cxs_url(source)
+    postings, offset, total = [], 0, None
+    while total is None or offset < total:
+        payload = post(endpoint, {
+            "appliedFacets": {},
+            "limit": 20,
+            "offset": offset,
+            "searchText": source["search_text"],
+        })
+        page = payload.get("jobPostings")
+        if not isinstance(page, list) or not isinstance(payload.get("total"), int):
+            raise ValueError("invalid Workday CXS search response")
+        postings.extend(page)
+        total = payload["total"]
+        if len(page) == 0 and offset < total:
+            raise ValueError("Workday CXS returned an empty page before total")
+        offset += len(page)
+    return {"jobPostings": postings}
+
+
+def _fetch_source(source: dict):
+    if source["provider"] == "phenom_job_page":
+        return _get(source["url"])
+    if source["provider"] == "workday_cxs":
+        return _fetch_workday_cxs(source)
+    raise ValueError(f"unsupported provider {source['provider']!r}")
 
 
 def _load_drop_counts(path: Path):
@@ -54,7 +107,6 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
         raise SystemExit(f"unknown company-source category {category!r}")
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    fetch = fetch or _get
     drop_counts = _load_drop_counts(out_dir / "drop_counts.json")
     state = yaml.safe_load(state_path.read_text()) if state_path.exists() else {}
     state = state or {}
@@ -74,13 +126,20 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
             print(f"[{entity}] unsupported provider {provider!r}; no report written")
             continue
         try:
-            postings = parser(fetch(source["url"]), source)
+            result = parser(fetch(source) if fetch else _fetch_source(source), source)
         except Exception as exc:
             drop_counts[entity]["source_parse_failed"] += 1
             print(f"[{entity}] warn: source failed ({exc}); no report written")
             continue
+        if isinstance(result, tuple):
+            postings, parser_drops = result
+            drop_counts[entity].update(parser_drops)
+        else:
+            postings = result
+            parser_drops = Counter()
         if not postings:
-            drop_counts[entity]["role_unmatched"] += 1
+            if not parser_drops:
+                drop_counts[entity]["role_unmatched"] += 1
             print(f"[{entity}] no matching roles; no report written")
             continue
 

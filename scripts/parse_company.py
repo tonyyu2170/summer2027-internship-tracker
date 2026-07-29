@@ -1,6 +1,7 @@
 """Pure parsers for direct company-career sources."""
 import json
 import re
+from collections import Counter
 
 from normalize import canonicalize_location
 
@@ -78,3 +79,49 @@ def parse_phenom_job_page(html: str, source: dict) -> list[dict]:
     if job.get("datePosted"):
         posting["date_posted"] = job["datePosted"]
     return [posting]
+
+
+def parse_workday_cxs(payload: dict, source: dict) -> tuple[list[dict], Counter]:
+    """Parse a Workday CXS search response into fetch-report postings.
+
+    Workday exposes only a relative posting time in this response, so the
+    normal merge path marks a new row's date as estimated instead of guessing
+    an absolute date.
+    """
+    jobs = payload.get("jobPostings")
+    if not isinstance(jobs, list):
+        raise ValueError("Workday CXS response is missing jobPostings")
+
+    postings, drops = [], Counter()
+    for job in jobs:
+        if not isinstance(job, dict):
+            drops["malformed_posting"] += 1
+            continue
+        role = job.get("title")
+        path = job.get("externalPath")
+        if not isinstance(role, str) or not isinstance(path, str):
+            drops["malformed_posting"] += 1
+            continue
+        if not re.search(source["role_pattern"], role):
+            drops["role_unmatched"] += 1
+            continue
+        if not re.search(source["term_pattern"], role):
+            drops["term_unmatched"] += 1
+            continue
+        location = canonicalize_location(job.get("locationsText", ""))
+        if not location:
+            drops["non_us_location"] += 1
+            continue
+        if not path.startswith("/job/"):
+            drops["malformed_posting"] += 1
+            continue
+        postings.append({
+            "company": source["company"],
+            "role": role,
+            "location": location,
+            "link": source["url"].rstrip("/") + path,
+            "term": source["term"],
+            "degree": list(source["degree"]),
+            "source": source["source_entity"],
+        })
+    return postings, drops

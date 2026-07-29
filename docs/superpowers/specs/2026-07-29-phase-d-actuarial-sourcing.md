@@ -1,7 +1,8 @@
 # Phase D — Refreshable actuarial sourcing
 
 **Date:** 2026-07-29  
-**Status:** Draft — requires Tony's approval before planning or implementation
+**Status:** In progress — Marsh/Oliver Wyman and Genworth are implemented;
+The Hartford remains manual discovery.
 
 ## Scope decision
 
@@ -38,7 +39,7 @@ employer's own application URL.
 | Employer | Known source | Provider | Phase-D use |
 |---|---|---|---|
 | Marsh McLennan / Oliver Wyman | [Careers posting](https://careers.marsh.com/global/en/job/R_356561/Oliver-Wyman-Actuarial-Internship-Summer-2027) | Phenom JobPosting page | First adapter target |
-| Genworth Financial | `gnw.wd1.myworkdayjobs.com/Genworth_Confidential` | Workday | Reconnoitre its CXS endpoint before enabling |
+| Genworth Financial | `gnw.wd1.myworkdayjobs.com/Genworth_Confidential` | Workday CXS | Enabled: POST `/wday/cxs/gnw/Genworth_Confidential/jobs` with `searchText: actuarial`; results must match Summer 2027 |
 | The Hartford | `thehartford.wd5.myworkdayjobs.com/Careers_Restricted` | Workday | Reconnoitre its CXS endpoint before enabling |
 | Travelers, Nationwide, Aon, WTW, Munich Re | First-party career site to be verified | Unknown | Add one at a time after source verification |
 

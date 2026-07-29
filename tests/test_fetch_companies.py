@@ -3,7 +3,7 @@ from pathlib import Path
 
 import yaml
 
-from fetch_companies import run
+from fetch_companies import _fetch_workday_cxs, run
 
 
 SOURCE = {
@@ -80,3 +80,53 @@ def test_run_counts_manual_discovery_without_writing_a_report(tmp_path):
 
     assert drops["company:genworth"]["manual_discovery"] == 1
     assert not list(out_dir.glob("*_actuarial.json"))
+
+
+def test_workday_cxs_paginates_and_uses_configured_search_contract():
+    source = {
+        "provider": "workday_cxs",
+        "url": "https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential",
+        "tenant": "gnw", "site": "Genworth_Confidential", "search_text": "actuarial",
+    }
+    calls = []
+
+    def post(url, body):
+        calls.append((url, body))
+        if body["offset"] == 0:
+            return {"total": 2, "jobPostings": [{"title": "first"}]}
+        return {"total": 2, "jobPostings": [{"title": "second"}]}
+
+    assert _fetch_workday_cxs(source, post) == {
+        "jobPostings": [{"title": "first"}, {"title": "second"}]}
+    assert calls == [
+        ("https://gnw.wd1.myworkdayjobs.com/wday/cxs/gnw/Genworth_Confidential/jobs", {
+            "appliedFacets": {}, "limit": 20, "offset": 0, "searchText": "actuarial"}),
+        ("https://gnw.wd1.myworkdayjobs.com/wday/cxs/gnw/Genworth_Confidential/jobs", {
+            "appliedFacets": {}, "limit": 20, "offset": 1, "searchText": "actuarial"}),
+    ]
+
+
+def test_run_merges_workday_parser_drops_with_a_matching_report(tmp_path):
+    config_path = tmp_path / "companies.yaml"
+    state_path = tmp_path / "scrape_state.yaml"
+    out_dir = tmp_path / "reports"
+    config = {"actuarial": [{
+        "company": "Genworth Financial", "provider": "workday_cxs",
+        "url": "https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential",
+        "source_entity": "company:genworth", "term": "Summer 2027", "degree": ["BS"],
+        "role_pattern": "(?i)actuar", "term_pattern": "(?i)summer\\s+2027",
+        "tenant": "gnw", "site": "Genworth_Confidential", "search_text": "actuarial",
+    }]}
+    _write_config(config_path, config)
+    payload = {"jobPostings": [
+        {"title": "Actuarial Analyst – 2027", "externalPath": "/job/analyst", "locationsText": "Richmond, Virginia"},
+        {"title": "Actuarial Intern – Summer 2027", "externalPath": "/job/intern", "locationsText": "Richmond, Virginia"},
+    ]}
+
+    drops = run("actuarial", out_dir, config_path, state_path, fetch=lambda _: payload)
+
+    report = json.loads((out_dir / "company_genworth_actuarial.json").read_text())
+    assert report["postings"][0]["link"].endswith("Genworth_Confidential/job/intern")
+    assert drops == {"company:genworth": {"term_unmatched": 1}}
+    state = yaml.safe_load(state_path.read_text())
+    assert state["company_sources"]["company:genworth"]["row_count"] == 1
