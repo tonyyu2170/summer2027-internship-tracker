@@ -12,8 +12,6 @@ CATEGORIES = [                       # (yaml stem, display title, is_quant)
     ("ai_ml", "AI/ML", False),
     ("hardware", "Hardware Engineering", False),
     ("actuarial", "Actuarial", False),
-    ("consulting", "Consulting", False),
-    ("ib", "Investment Banking", False),
 ]
 
 
@@ -87,7 +85,7 @@ def render(data_dir=None, readme_path=None, last_run=None) -> Path:
         f"_Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} — "
         f"{open_count} open roles.{last_run_clause}_",
         "",
-        "US-based Summer 2027 internships across eight role categories.",
+        "US-based Summer 2027 internships across six role categories.",
         "",
         "## Contents",
         "",

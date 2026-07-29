@@ -478,8 +478,7 @@ def test_off_cycle_variants_are_detected(role):
 
 
 @pytest.mark.parametrize("role", [
-    # A bare "Summer" is the standard IB/consulting title and says nothing
-    # about the cycle. Flagging it drops most of data/ib.yaml at parse time.
+    # A bare "Summer" says nothing about the cycle and must stay eligible.
     "Summer Analyst",
     "2027 Strategic Advisory: Mergers & Acquisitions Summer Analyst Program",
     # A bare non-2027 year with no season word is not a cycle marker.

@@ -5,7 +5,7 @@
 
 ## Purpose
 
-A comprehensive, US-only listing of Summer 2027 internships across eight role categories, modeled on repos like [SimplifyJobs/Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) but broader in scope (more categories, more sources). This is a market listing of what's out there — it does not track Tony's own application status. That remains the separate job of `../summer2027_internship_tracker.xlsx`; there is zero overlap between the two systems.
+A comprehensive, US-only listing of Summer 2027 internships across six role categories, modeled on repos like [SimplifyJobs/Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships). This is a market listing of what's out there — it does not track Tony's own application status. That remains the separate job of `../summer2027_internship_tracker.xlsx`; there is zero overlap between the two systems.
 
 ## Non-goals
 
@@ -25,9 +25,7 @@ internship-tracker/                 (own git repo, private GitHub remote: tonyyu
 │   ├── data_science.yaml
 │   ├── ai_ml.yaml
 │   ├── hardware.yaml
-│   ├── actuarial.yaml
-│   ├── consulting.yaml
-│   └── ib.yaml
+│   └── actuarial.yaml
 ├── sources/
 │   └── companies.yaml              # Per-category watch-list: target companies + career-page URL + ATS type
 ├── scripts/
@@ -83,8 +81,6 @@ Eight tables, each its own `##` anchor, linked from a table of contents at the t
 4. AI/ML
 5. Hardware Engineering
 6. Actuarial
-7. Consulting
-8. Investment Banking
 
 Columns: `Company | Role | Track* | Location | Link | Date Posted | Term | Degree | Status` (*Quantitative Finance table only). Rows sorted by `date_posted` descending (newest first). Closed roles render with a 🔒 marker and stay in the table rather than being deleted, preserving history of what existed.
 
@@ -107,7 +103,7 @@ Firecrawl runs as an MCP server (`firecrawl-mcp`), authenticated via `FIRECRAWL_
 
 ## Realistic coverage expectations
 
-The 4 linked repos and most other findable Summer 2027 trackers are SWE/quant-heavy. They give strong bootstrap coverage for Software Engineering and Quantitative Finance, but essentially nothing for Data Science, AI/ML, Hardware Engineering, Actuarial, Consulting, or Investment Banking — those six categories have no comparable aggregator and depend on company-by-company scraping and job-board search from day one. Expect the first scrape to leave SWE/quant well-populated and the other six thin; they fill in incrementally as `companies.yaml` grows across subsequent scrape sessions, not all at once.
+The linked repos and most other findable Summer 2027 trackers are SWE/quant-heavy. They give strong bootstrap coverage for Software Engineering and Quantitative Finance, but Data Science, AI/ML, Hardware Engineering, and Actuarial depend on company-by-company sourcing. Expect the first scrape to leave SWE/quant well-populated and the other four thin; they fill in incrementally as `companies.yaml` grows across subsequent scrape sessions, not all at once.
 
 ## Data integrity safeguards
 

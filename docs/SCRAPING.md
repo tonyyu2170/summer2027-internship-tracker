@@ -6,7 +6,7 @@ per-source procedure that emits **fetch reports** — JSON files the tested
 
 ## Trigger
 
-- "scrape" -> the GitHub tracker repos only, all categories. This is the
+- "scrape" -> the GitHub tracker repos only, all six supported categories.
   default source: cheap (raw markdown fetch, no per-company fan-out) and
   fast.
 - "scrape <category>" -> only that category's rows from the GitHub tracker
@@ -18,6 +18,9 @@ per-source procedure that emits **fetch reports** — JSON files the tested
   token-heavy, so as of 2026-07-24 those are opt-in, not part of a plain
   "scrape".
 Scraping is never scheduled; it runs only on an explicit request.
+
+Consulting and investment banking are intentionally out of scope. Matching
+roles are counted as `category_drop` and never create a category file.
 
 ## Fetch-report contract
 

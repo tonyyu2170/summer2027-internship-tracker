@@ -10,7 +10,7 @@ def test_run_merges_reports_and_regenerates_readme(tmp_path):
     data_dir = root / "data"
     data_dir.mkdir()
     for stem in ("swe", "quant", "data_science", "ai_ml", "hardware",
-                 "actuarial", "consulting", "ib"):
+                 "actuarial"):
         (data_dir / f"{stem}.yaml").write_text("[]\n")
     reports_dir = root / "reports"
     reports_dir.mkdir()
@@ -307,6 +307,17 @@ def test_run_refuses_to_merge_while_unclassified_rows_are_pending(tmp_path):
     assert "unclassified" in str(exc.value)
 
 
+def test_run_refuses_a_removed_category(tmp_path):
+    reports = tmp_path / "fetch_reports"
+    reports.mkdir()
+    (reports / "ib.json").write_text(json.dumps({
+        "category": "ib", "source_entity": "manual",
+        "postings": [],
+    }))
+    with pytest.raises(SystemExit, match="unsupported category"):
+        run(reports, data_dir=tmp_path / "data", readme_path=tmp_path / "README.md")
+
+
 def test_run_proceeds_when_unclassified_file_is_empty(tmp_path):
     reports = tmp_path / "fetch_reports"
     reports.mkdir()
@@ -320,7 +331,7 @@ def _empty_data_dir(root):
     data_dir = root / "data"
     data_dir.mkdir()
     for stem in ("swe", "quant", "data_science", "ai_ml", "hardware",
-                 "actuarial", "consulting", "ib"):
+                 "actuarial"):
         (data_dir / f"{stem}.yaml").write_text("[]\n")
     return data_dir
 

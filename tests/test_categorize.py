@@ -22,8 +22,8 @@ def test_classify_role_basic_categories():
     assert classify_role("Machine Learning Engineer Intern") == "ai_ml"
     assert classify_role("Data Scientist Intern") == "data_science"
     assert classify_role("Actuarial Intern") == "actuarial"
-    assert classify_role("Investment Banking Summer Analyst") == "ib"
-    assert classify_role("Consulting Intern") == "consulting"
+    assert classify_role("Investment Banking Summer Analyst") == "__drop__"
+    assert classify_role("Consulting Intern") == "__drop__"
     assert classify_role("Software Engineer Intern") == "swe"
 
 
@@ -47,6 +47,8 @@ def test_map_upstream_category_known_values():
     assert map_upstream_category("Quant", "X") == "quant"
     assert map_upstream_category("Quantitative Finance", "X") == "quant"
     assert map_upstream_category("Hardware", "X") == "hardware"
+    assert map_upstream_category("Consulting", "Consulting Intern") == "__drop__"
+    assert map_upstream_category("Investment Banking", "Summer Analyst") == "__drop__"
 
 
 def test_map_upstream_category_drops_product():

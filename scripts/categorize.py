@@ -22,8 +22,7 @@ DROP = "__drop__"
 _RULES = [
     ("hardware", r"hardware|fpga|\basic\b|firmware|silicon|verilog|\brtl\b|embedded|\bpcb\b"),
     ("actuarial", r"actuar"),
-    ("ib", r"investment bank|\bibd\b"),
-    ("consulting", r"consult"),
+    (DROP, r"investment bank|\bibd\b|consult"),
     ("quant", r"quantitative|\bquant\b(?!ity)"),
     ("data_science", r"data scien|data analy|analytics"),
     ("ai_ml", r"machine learning|deep learning|\bml\b|\bai\b|\bnlp\b|computer vision"),
@@ -36,6 +35,8 @@ _UPSTREAM = {
     "quant": "quant",
     "quantitative finance": "quant",
     "hardware": "hardware",
+    "consulting": DROP,
+    "investment banking": DROP,
     "product": DROP,
 }
 

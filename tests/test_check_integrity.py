@@ -404,7 +404,7 @@ def test_sweep_off_cycle_flags_stored_rows_and_leaves_summer_alone():
     rows = {
         "swe": [_row(id="a", role="Fall Software Development Intern"),
                 _row(id="b", role="Software Engineer Intern")],
-        "ib": [_row(id="c", role="Summer Analyst"),
+        "actuarial": [_row(id="c", role="Summer Analyst"),
                _row(id="d", role="2027 Strategic Advisory: Mergers & "
                                  "Acquisitions Summer Analyst Program")],
     }

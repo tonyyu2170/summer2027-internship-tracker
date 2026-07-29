@@ -227,9 +227,8 @@ _TAG = re.compile(r"<[^>]+>")
 _SEASON = r"(?:summer|fall|winter|spring)"
 _OFF_CYCLE = re.compile(rf"\b{_SEASON}\s*20\d\d\b", re.I)
 _YEAR = re.compile(r"\b20\d\d\b")
-# 'summer' is deliberately absent here: a bare "Summer Analyst" is the
-# standard IB/consulting title and carries no cycle information. Flagging it
-# would silently drop ~81% of data/ib.yaml at parse time.
+# 'summer' is deliberately absent here: a bare "Summer Analyst" carries no
+# cycle information, so it cannot establish that a role is off-cycle.
 _BARE_NON_SUMMER = re.compile(r"\b(?:fall|winter|spring)\b", re.I)
 _SEASON_YEAR_NEAR = re.compile(
     rf"\b{_SEASON}\b.{{0,20}}?\b20\d\d\b|\b20\d\d\b.{{0,20}}?\b{_SEASON}\b", re.I)

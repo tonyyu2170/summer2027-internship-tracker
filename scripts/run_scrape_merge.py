@@ -128,10 +128,16 @@ def run(reports_dir, data_dir=None, readme_path=None, state_path=None):
             )
 
     by_cat = defaultdict(list)
+    supported_categories = {stem for stem, _title, _is_quant in CATEGORIES}
     for p in sorted(reports_dir.glob("*.json")):
         if p.name in {"unclassified.json", "drop_counts.json"}:
             continue
         report = json.loads(p.read_text())
+        if report["category"] not in supported_categories:
+            raise SystemExit(
+                f"unsupported category {report['category']!r} in {p}; "
+                "the tracker supports only the configured README categories"
+            )
         by_cat[report["category"]].append(_filter_postings(report, record_drop))
 
     # Merge into a buffer first. The integrity check has to see the whole

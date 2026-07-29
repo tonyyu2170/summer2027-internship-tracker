@@ -167,7 +167,7 @@ merge path on the first run after this change.
 Three sources of truth, in precedence order:
 
 1. **Explicit field** (trackers 1–3). Map upstream category strings onto the
-   eight local categories: `Software`/`Software Engineering` → `swe`,
+   six local categories: `Software`/`Software Engineering` → `swe`,
    `Quant`/`Quantitative Finance` → `quant`, `Hardware` → `hardware`,
    `Product` → dropped (no local category). The AI/data bucket is spelled
    differently per tracker — `AI/ML/Data` (trackers 1–2) and `Data & ML/AI`
@@ -189,8 +189,8 @@ Three sources of truth, in precedence order:
    Trader`/`Quant Researcher` → `quant`, `Hardware`/`FPGA`/`ASIC`/
    `Firmware`/`Silicon` → `hardware`, `Machine Learning`/`ML`/`AI` →
    `ai_ml`, `Data Scien`/`Data Analyst` → `data_science`, `Actuarial` →
-   `actuarial`, `Investment Banking` → `ib`, `Consultant`/`Consulting` →
-   `consulting`, and `Software`/`SWE`/`Engineer` → `swe` as the last rule.
+   `actuarial`, and `Software`/`SWE`/`Engineer` → `swe` as the last rule.
+   Consulting and investment-banking roles are deliberately dropped.
    Anything still unmatched goes to a single small LLM call, batched across
    all unclassified new rows in the run.
 

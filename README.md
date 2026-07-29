@@ -1,8 +1,8 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-07-29 08:38 — 673 open roles._
+_Last updated: 2026-07-29 09:20 — 629 open roles._
 
-US-based Summer 2027 internships across eight role categories.
+US-based Summer 2027 internships across six role categories.
 
 ## Contents
 
@@ -12,8 +12,6 @@ US-based Summer 2027 internships across eight role categories.
 - [AI/ML](#aiml)
 - [Hardware Engineering](#hardware-engineering)
 - [Actuarial](#actuarial)
-- [Consulting](#consulting)
-- [Investment Banking](#investment-banking)
 
 **Legend** — Status: 🟢 Open · 🔒 Closed. Degree = BS/MS/PhD eligibility. ~Date Posted is estimated from when we first recorded the role. Last Verified is when the posting was last re-confirmed. ⚠️dup? marks a possible duplicate pending manual review.
 
@@ -739,61 +737,4 @@ US-based Summer 2027 internships across eight role categories.
 | Genworth Financial | Genworth Actuarial Development Program Intern - Summer 2027 | Richmond, VA | [Apply](<https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential/job/Richmond-Virginia/Genworth-Actuarial-Development-Program-Intern---Summer-2027_REQ-260272>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
 | Marsh McLennan | Oliver Wyman Actuarial - Internship - Summer 2027 | New York, NY | [Apply](<https://mmc.wd1.myworkdayjobs.com/MMC/job/New-York---1166/Oliver-Wyman-Actuarial---Internship---Summer-2027_R_356561>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
 | The Hartford | Intern, Actuarial Student Program (Summer 2027) | Hartford, CT | [Apply](<https://thehartford.wd5.myworkdayjobs.com/Careers_Restricted/job/Hartford-CT/Intern--Actuarial-Student-Program--Summer-2027-_R2624619>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-
-## Consulting
-
-| Company | Role | Location | Link | Date Posted | Term | Degree | Last Verified | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Cargill | Operations Management Intern | Minneapolis, MN | [Apply](<https://careers.cargill.com/en/job/minneapolis/operations-management-intern-summer-2027-food-multiple-u-s-locations/23251/93659612048>) | ~2026-07-24 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| Wipfli | ERP Tech Consulting Intern | Milwaukee, WI | [Apply](<https://careers-wipfli.icims.com/jobs/7972/erp-tech-consulting-internship--summer-2027/job>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-25 | 🔒 Closed |
-| Ernst & Young | Assurance Intern | San Antonio, TX | [Apply](<https://eyglobal.yello.co/jobs/YIteGk3arW8BJwB04MbtbA>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| PricewaterhouseCoopers (PwC) | Tax JD Associate | Norridge, IL | [Apply](<https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Tax-JD-Associate---Summer---Fall-2026_657575WD>) | ~2026-07-23 | Summer 2027 | MS | 2026-07-23 | 🟢 Open |
-| Kearney & Company | IT Audit Intern (Summer 2027) | Remote (US) | [Apply](<https://careers.kearneyco.com/jobs/5168>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| Databricks | Product Management Intern (Summer 2027) | San Francisco, CA | [Apply](<https://job-boards.greenhouse.io/databricks/jobs/6883068002>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| Capital One | Product Development Internship Program (Summer 2027) | McLean, TX | [Apply](<https://www.capitalonecareers.com/job/-/-/234/97421687312>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-25 | 🔒 Closed |
-| Salesforce | Associate Product Manager Intern (APM) | San Francisco, CA | [Apply](<https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Associate-Product-Manager--APM-_JR348039-1>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-25 | 🔒 Closed |
-| Amazon | Operations Finance Rotational Program Intern | Seattle, VA | [Apply](<https://www.amazon.jobs/en/jobs/10435673/2027-amazon-operations-finance-rotational-program-summer-internship>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| Solar Turbines (Caterpillar) | Business Analyst Intern (2027) | San Diego, CA | [Apply](<https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-Business-Analyst-Intern_R0000381902>) | 2026-07-16 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| Susquehanna | Operations Intern | Bala Cynwyd, PA | [Apply](<https://careers.sig.com/jobs/10916>) | 2026-06-28 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-
-## Investment Banking
-
-| Company | Role | Location | Link | Date Posted | Term | Degree | Last Verified | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Citi | Services Summer Analyst | New York, NY | [Apply](<https://jobs.citi.com/job/-/-/287/93724104768>) | ~2026-07-24 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| BNP Paribas | Summer Analyst, Corporate Functions Operations | Jersey City, NJ | [Apply](<https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-corporate-functions-operations>) | ~2026-07-24 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| Baird | Equity Research Analyst Intern | Milwaukee, WI | [Apply](<https://www.bairdcareers.com/jobs/r20251244/internship-equity-research-analyst-summer-2027/>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| BNP Paribas | Summer Analyst, Global Markets Sales | Boston, MA | [Apply](<https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-global-markets-sales-boston-ma>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| Evercore | 2027 Strategic Advisory: Mergers & Acquisitions Summer Analyst Program | New York, NY | [Apply](<https://evercore.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/2907-2027-Strategic-Advisory-Mergers-Acquisitions-Summer-Analyst-Program-New-York-Generalist/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Evercore | 2027 Strategic Advisory: Mergers & Acquisitions Summer Analyst Program | Menlo Park, CA | [Apply](<https://evercore.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/2912-2027-Strategic-Advisory-Mergers-Acquisitions-Summer-Analyst-Program-Menlo-Park-Technology/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Evercore | 2027 Strategic Advisory: Mergers & Acquisitions Summer Analyst Program | Menlo Park, CA | [Apply](<https://evercore.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/2911-2027-Strategic-Advisory-Mergers-Acquisitions-Summer-Analyst-Program-Menlo-Park-Healthcare/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Evercore | 2027 Private Capital Advisory & Fundraising: Private Funds Group Summer Analyst Program | New York, NY | [Apply](<https://evercore.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/2925-2027-Private-Capital-Advisory-Fundraising-Private-Funds-Group-Summer-Analyst-Program-New-York/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Evercore | 2027 Capital Markets Advisory: Private Capital Markets and Debt Advisory Summer Analyst Program | New York, NY | [Apply](<https://evercore.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/2922-2027-Capital-Markets-Advisory-Private-Capital-Markets-and-Debt-Advisory-Summer-Analyst-Program-New-York/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Evercore | 2027 Summer Analyst Program: Global Technology | New York, NY | [Apply](<https://evercore.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/2928-2027-Summer-Analyst-Program-Global-Technology-New-York/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Goldman Sachs | Summer Analyst | Albany, NY | [Apply](<https://higher.gs.com/roles/155671>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Goldman Sachs | 2027 – Summer Analyst | Pittsburgh, PA | [Apply](<https://higher.gs.com/roles/155673>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| JP Morgan Chase | Global Finance & Business Management - Corporate Controllers Track Summer Analyst Intern | Newark, DE | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765577>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| JP Morgan Chase | Global Private Bank Advisor Program – Summer Analyst | Las Vegas, NV | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210707218>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| JP Morgan Chase | Asset & Wealth Management Risk Analyst Program | San Francisco, CA | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763529>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| JP Morgan Chase | Asset & Wealth Management Risk Analyst | San Francisco, CA | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691905>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| JP Morgan Chase | 2027 Chase Leadership Development Program – Summer Analyst Opportunity | New York, NY | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768204>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Lazard | 2027 Financial Advisory Summer Analyst Program | New York, NY | [Apply](<https://lazard-careers.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/4154-2027-Financial-Advisory-Summer-Analyst-Program-New-York-Private-Capital-Advisory/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Lazard | 2027 Financial Advisory Summer Analyst Program | New York, NY | [Apply](<https://lazard-careers.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/4117-2027-Financial-Advisory-Summer-Analyst-Program-New-York-Corporate-Finance-Advisory-Capital-Solutions/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Lazard | 2027 Financial Advisory Summer Analyst Program | New York, NY | [Apply](<https://lazard-careers.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/4126-2027-Financial-Advisory-Summer-Analyst-Program-Corporate-Strategy-and-M-A/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Lazard | 2027 Financial Advisory Summer Analyst Program | San Francisco, CA | [Apply](<https://lazard-careers.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/4114-2027-Financial-Advisory-Summer-Analyst-Program-San-Francisco-Technology/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Lazard | 2027 Financial Advisory Summer Analyst Program | Chicago, IL | [Apply](<https://lazard-careers.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/4122-2027-Financial-Advisory-Summer-Analyst-Program-Chicago-Healthcare/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Lazard | 2027 Financial Advisory Summer Analyst Program | Minneapolis, MN | [Apply](<https://lazard-careers.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/4116-2027-Financial-Advisory-Summer-Analyst-Program-Minneapolis-Generalist/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Lazard | 2027 Financial Advisory Summer Analyst Program | Houston, TX | [Apply](<https://lazard-careers.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/4113-2027-Financial-Advisory-Summer-Analyst-Program-Houston-Power-Energy-Infrastructure/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Lazard | 2027 Financial Advisory Summer Analyst Program | New York, NY | [Apply](<https://lazard-careers.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/4119-2027-Financial-Advisory-Summer-Analyst-Program-New-York-Restructuring-Liability-Management/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Lazard | 2027 Financial Advisory Summer Analyst Program | Boston, MA | [Apply](<https://lazard-careers.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/4115-2027-Financial-Advisory-Summer-Analyst-Program-Boston-Technology/en-GB>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Morgan Stanley | Wealth Management Intern | Orlando, FL | [Apply](<https://ms.wd5.myworkdayjobs.com/External/job/Orlando-Florida-United-States-of-America/Intern_JR040900>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Morgan Stanley | Wealth Management Intern | Long Beach, CA | [Apply](<https://ms.wd5.myworkdayjobs.com/private/job/Long-Beach-California-United-States-of-America/Intern_JR039777>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Morgan Stanley | Private Wealth Management Intern | Dallas, TX | [Apply](<https://ms.wd5.myworkdayjobs.com/private/job/Dallas-Texas-United-States-of-America/PWM-Intern_JR034957>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Morgan Stanley | Wealth Management VEA Training Program | Tempe, AZ | [Apply](<https://ms.wd5.myworkdayjobs.com/private/job/58-South-River-Drive/Wealth-Management-VEA-Training-Program--Tempe--AZ-and-Alpharetta--GA-_JR013511>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| JPMorganChase | Corporate Analyst Development Program Summer Analyst | New York, NY | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765749>) | 2026-07-08 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| JPMorganChase | Markets Summer Analyst (Sales / Trading / Structuring / Digital Markets) | New York, NY | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690325>) | 2026-06-21 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| JPMorganChase | Commercial & Investment Bank Innovation Development Summer Analyst, Product Track | Chicago, IL | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690743>) | 2026-06-19 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| StepStone Group | Private Equity Infrastructure & Real Assets Summer Analyst | New York, NY | [Apply](<https://www.stepstonegroup.com/current-opportunities/?gh_jid=7872890>) | 2026-06-15 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| BlackRock | Summer Internship Program, AMERS (all tracks) | New York, NY | [Apply](<https://careers.blackrock.com/job/new-york/2027-summer-internship-program-amers/45831/90628276544>) | 2026-01-15 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
-| JPMorganChase | Asset & Wealth Management Risk Summer Analyst | Columbus, OH | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210691905>) | 2026-01-08 | Summer 2027 | BS | 2026-07-25 | 🟢 Open |
 

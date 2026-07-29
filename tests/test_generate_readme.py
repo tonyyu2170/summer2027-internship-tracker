@@ -24,7 +24,7 @@ def _empty_data_dir(tmp_path: Path) -> Path:
     d = tmp_path / "data"
     d.mkdir()
     for stem in ("swe", "quant", "data_science", "ai_ml", "hardware",
-                 "actuarial", "consulting", "ib"):
+                 "actuarial"):
         _write(d, stem, [])
     return d
 
@@ -35,7 +35,9 @@ def test_render_writes_toc_and_all_headings(tmp_path):
     render(data_dir, out)
     text = out.read_text()
     assert "## Software Engineering" in text
-    assert "## Investment Banking" in text
+    assert "## Actuarial" in text
+    assert "## Consulting" not in text
+    assert "## Investment Banking" not in text
     assert "[Quantitative Finance](#quantitative-finance)" in text
 
 
