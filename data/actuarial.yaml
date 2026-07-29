@@ -10,8 +10,9 @@
   status: open
   sources:
   - aggregator
+  - company:genworth
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-29'
   possible_duplicate_of: null
   date_estimated: true
 - id: marsh-mclennan-oliver-wyman-actuarial-internship-summer-2027-81466e

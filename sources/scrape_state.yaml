@@ -48,12 +48,16 @@ company_sources:
     provider: phenom_job_page
     last_success: '2026-07-29'
     row_count: 1
+  company:genworth:
+    provider: workday_cxs
+    last_success: '2026-07-29'
+    row_count: 1
 _last_run:
   new: 0
   closed: 0
-  ran_at: 2026-07-29 09:50
+  ran_at: 2026-07-29 10:06
   drops:
     company:genworth:
-      manual_discovery: 1
+      term_unmatched: 1
     company:the-hartford:
       manual_discovery: 1
