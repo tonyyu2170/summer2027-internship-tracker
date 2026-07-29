@@ -139,3 +139,78 @@ as the Astreya/Copart/InterDigital locale variants resolved above — Greenhouse
 serving one requisition under two hostnames (4 rows in `swe.yaml`). It was left
 out of scope deliberately; revisit once A3 lands, with the caution the plan
 gives: stripping `gh_jid` "fixes" it while collapsing 11 Jump Trading roles into one.
+
+---
+
+# Handoff: Phases A and B are done; Phase C is next
+
+State at handoff (branch `feat/cheap-tracker-scraping`, nothing pushed):
+
+| | |
+|---|---|
+| Tests | **159 passing** (`python3 -m pytest tests/ -v`). The plan's "104" and CLAUDE.md's "33" are both stale. |
+| Rows | **740** (was 770). swe 222, quant 201, ai_ml 126, hardware 95, data_science 46, ib 36, consulting 11, actuarial 3. 673 open / 67 closed. |
+| Integrity | `python3 scripts/check_integrity.py` → **0 blocking violations, exit 0**. Keep it that way; a gate that is permanently red is noise. |
+
+Commits: `0759042`+`0f217ac` (A1), `89d6fb9`+`7ffb19d`+`efb02ee` (A2), `5a048f6` (A3),
+`ef5b4d1` (A4), `8332547` (B1), `d57156b` (these amendments).
+
+## Corrections that carry into Phase C
+
+**Recompute every count in the plan.** A3 removed 30 rows, so the plan's
+figures are stale. Specifically C1 Step 4 says "backfill the 369 legacy rows";
+the real current number is **355 of 740** rows where `date_posted == date_added`.
+Derive it, don't hard-code it.
+
+**C1's one-directional danger is real — do not split the commit.** `ROW_SCHEMA`
+has `additionalProperties: False` and `run_scrape_merge._drop_invalid_rows`
+*drops* rows in `summary["new"]` that fail validation. If `merge.py` starts
+emitting `date_estimated` before `schema.py` allows it, every new posting on
+the next scrape is silently discarded. Schema-first alone is harmless; the
+reverse is not. Add `date_estimated` as **optional, not required** — 740
+existing rows lack it, and requiring it would fail all of them in
+`check_integrity`'s schema invariant and turn the now-green gate red.
+
+**C2's `~` prefix must never reach the sort key.** `generate_readme._table`
+sorts on `date_posted` with `reverse=True`, and `~` (0x7E) sorts after every
+digit — so a `~`-prefixed value would float all ~355 estimated rows to the top
+of every table while still rendering as valid Markdown. Prefix only the
+rendered cell string.
+
+**C2 Step 1: thread paths, never hardcode `ROOT`.** All `run()` and `render()`
+tests pass `tmp_path`. A hardcoded `ROOT / "sources" / "scrape_state.yaml"`
+would make the suite mutate tracked repo data. `render` must stay a pure
+YAML→README transform: `run()` reads scrape_state and passes the dict in.
+
+**C2 Step 2: read-modify-write `scrape_state.yaml`.** Clobbering it deletes
+every per-handle `row_count`, which makes `fetch_trackers.py`'s
+`baseline and len(postings) < baseline/2` guard a permanent no-op — a parser
+regression yielding 3 postings instead of 400 would then flow through silently.
+Compute summaries → write `_last_run` → **then** call `render(...)`; the
+natural spot after `render()` makes the header show the previous run's counts.
+
+**C3 Step 1 is still true:** `merge.py`'s US-location filter (`canonicalize_location`
+returning None) is the pipeline's only wholly silent drop — a bare `continue`
+with no print and no counter.
+
+## Things Phase C must not undo
+
+- **Triple-key groups are mostly distinct requisitions.** 27 advisory groups
+  remain on purpose (Copart ×6, Lazard ×4, Altom Transport ×3, …). They are
+  separate jobs. Do not "finish the dedup."
+- **Hudson River Trading and Quadrillion render open *and* closed on purpose** —
+  two different requisitions each. Same for Voloridge (Greenhouse req open,
+  hiringthing req closed).
+- **`_is_off_cycle` must never flag a bare "Summer."**
+- **18 rows are flagged off-cycle in `scratch/off_cycle_review.txt` and were
+  deliberately NOT deleted.** 6 have upstream-truncated role text, so their
+  cycle is undeterminable without fetching the posting.
+
+## Open, needs Tony
+
+- **GE HealthCare `R4043933-2`** — one requisition, two rows, 3 upstream
+  trackers call it closed and 2 call it open. Its Workday URL has no CXS
+  endpoint, so `link_check.classify_link` falls back to probing the SPA shell,
+  which returns 200 for dead ids. Unresolvable by probe; left as two rows.
+- **The Anduril two-hostname residual** (4 rows in `swe.yaml`, Greenhouse req
+  `5148079007` under two hostnames). Out of scope by the plan's own decision.
