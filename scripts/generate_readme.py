@@ -1,7 +1,7 @@
 """Render README.md from data/*.yaml. Pure transform; writes one file."""
 import yaml
 from pathlib import Path
-from datetime import date
+from datetime import datetime
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -72,10 +72,9 @@ def render(data_dir=None, readme_path=None) -> Path:
     out = [
         "# Summer 2027 Internship Tracker",
         "",
-        f"_Last updated: {date.today().isoformat()}_",
+        f"_Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}_",
         "",
-        "US-based Summer 2027 internships across eight role categories. "
-        "A market listing — not a personal application tracker.",
+        "US-based Summer 2027 internships across eight role categories.",
         "",
         "## Contents",
         "",
