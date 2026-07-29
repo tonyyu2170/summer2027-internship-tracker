@@ -76,6 +76,18 @@ def test_no_id_duplicate_violation_when_ids_differ():
     assert not any("duplicate id" in v for v in check_integrity(rows_by_category))
 
 
+def test_two_rows_missing_id_do_not_falsely_collide_as_duplicate_id():
+    # Both rows have no id at all (row.get("id") is None) -- they must not
+    # be grouped together as if they shared the value None.
+    row1 = _row(link="https://a.com/1")
+    del row1["id"]
+    row2 = _row(company="Citadel", location="Chicago, IL", link="https://a.com/2")
+    del row2["id"]
+    rows_by_category = {"swe": [row1], "quant": [row2]}
+    violations = check_integrity(rows_by_category)
+    assert not any("duplicate id" in v for v in violations)
+
+
 # --- invariant 2: normalize_link uniqueness -------------------------------
 
 def test_duplicate_link_across_categories_is_flagged():
@@ -105,6 +117,72 @@ def test_different_links_do_not_trip_link_uniqueness():
         )],
     }
     assert not any("duplicate link" in v for v in check_integrity(rows_by_category))
+
+
+def test_link_uniqueness_entries_include_status():
+    # A duplicate-link pair can disagree on status while having different
+    # _triple keys (e.g. role text differs only by a trailing marker), so
+    # invariant 5 (scoped to _triple groups) never sees the conflict. The
+    # only place it's visible is the duplicate-link message itself.
+    rows_by_category = {
+        "swe": [_row(
+            id="a-1", link="https://a.com/1?utm_source=x", status="open",
+            role="Application Development Intern 🛂",
+        )],
+        "quant": [_row(
+            id="b-1", company="Citadel", location="Chicago, IL",
+            link="https://a.com/1", status="closed",
+            role="Application Development Intern",
+        )],
+    }
+    violations = check_integrity(rows_by_category)
+    hit = [v for v in violations if "duplicate link" in v]
+    assert len(hit) == 1
+    assert "status='open'" in hit[0] and "status='closed'" in hit[0]
+
+
+# --- malformed links (blocking, not one of the numbered 5/6) ---------------
+
+def test_blank_link_is_flagged_as_malformed_not_silently_dropped():
+    # "   " satisfies ROW_SCHEMA's minLength:1 (it's a 3-char string), so
+    # invariant 3 does NOT catch it -- this must be its own violation.
+    rows_by_category = {"swe": [_row(id="a-1", link="   ")]}
+    violations = check_integrity(rows_by_category)
+    assert any("malformed" in v and "a-1" in v for v in violations)
+
+
+def test_unparseable_link_is_flagged_as_malformed_not_silently_dropped():
+    # Raises ValueError inside urlsplit; also schema-valid (non-empty
+    # string), so invariant 3 does not catch it either.
+    rows_by_category = {"swe": [_row(id="a-1", link="http://[bad")]}
+    violations = check_integrity(rows_by_category)
+    assert any("malformed" in v and "a-1" in v for v in violations)
+
+
+def test_two_rows_sharing_a_malformed_link_are_each_flagged_not_merged():
+    # Regression: previously two rows with the identical malformed link
+    # produced zero violations of any kind. Each malformed row now gets its
+    # own violation; they must NOT be reported as a "duplicate link" pair,
+    # since the checker never actually normalized either of them.
+    rows_by_category = {
+        "swe": [_row(id="a-1", link="   ")],
+        "quant": [_row(
+            id="a-2", company="Citadel", location="Chicago, IL", link="   ",
+        )],
+    }
+    violations = check_integrity(rows_by_category)
+    assert not any("duplicate link" in v for v in violations)
+    assert sum("malformed" in v for v in violations) == 2
+
+
+def test_missing_link_is_not_flagged_as_malformed():
+    # No link key at all stays invariant 3's job -- only a link that IS
+    # present but unusable gets the new "malformed" violation.
+    row = _row()
+    del row["link"]
+    rows_by_category = {"swe": [row]}
+    violations = check_integrity(rows_by_category)
+    assert not any("malformed" in v for v in violations)
 
 
 # --- invariant 3: schema validity ------------------------------------------
@@ -146,6 +224,16 @@ def test_possible_duplicate_of_unknown_id_is_flagged():
     }
     violations = check_integrity(rows_by_category)
     assert any("does-not-exist" in v for v in violations)
+
+
+def test_possible_duplicate_of_non_string_does_not_crash():
+    # Hand-corrupted possible_duplicate_of (e.g. a list) must not raise --
+    # the isinstance guard should skip invariant 4 for this row entirely
+    # (invariant 3's schema check separately reports the wrong type).
+    rows_by_category = {"swe": [_row(id="a-1", possible_duplicate_of=["x", "y"])]}
+    violations = check_integrity(rows_by_category)  # must not raise
+    assert not any("points at itself" in v for v in violations)
+    assert not any("references an id that doesn't exist" in v for v in violations)
 
 
 def test_possible_duplicate_of_valid_reference_is_clean():
