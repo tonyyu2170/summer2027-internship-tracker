@@ -5,6 +5,11 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 _TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
     "ref", "source", "gh_src", "lever-source", "lever-origin",
+    "jr_id",  # Simplify/vanshb03 referral token — resolves 7 of 9 groups alone
+    "embed",  # Ashby iframe flag — Circleback (only value in data is "true")
+    "iis",    # LinkedIn inbound-source tag — load-bearing for Susquehanna
+    "lang",   # display language — Susquehanna
+    "mode",   # only value in data is "apply"; job id is in the path — Susquehanna
 }
 
 
