@@ -14,7 +14,7 @@ import urllib.request
 import urllib.error
 import certifi
 import yaml
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
 
@@ -93,6 +93,7 @@ def run(out_dir=None):
     known = known_link_categories()
     known_locations = known_link_locations()
     unclassified = []
+    drop_counts = defaultdict(Counter)
 
     for cfg in trackers:
         handle = cfg["handle"]
@@ -136,6 +137,7 @@ def run(out_dir=None):
                 # and adding it now would only import a corpse. Sources like
                 # simplifyjobs carry years of inactive listings alongside
                 # active ones — most closed_marker rows are exactly this.
+                drop_counts[f"github_tracker:{handle}"]["closed_marker_untracked"] += 1
                 continue
             # An already-tracked link keeps its existing category, always —
             # even when the parser itself sets one (northwesternfintech's
@@ -147,9 +149,11 @@ def run(out_dir=None):
             existing_category = known.get(normalize_link(link)) if link else None
             category = existing_category or explicit_category or assign_category(p, known)
             if category == DROP:
+                drop_counts[f"github_tracker:{handle}"]["category_drop"] += 1
                 continue
             if not category:
                 unclassified.append({**p, "handle": handle, "category": None})
+                drop_counts[f"github_tracker:{handle}"]["unclassified"] += 1
                 continue
             p["source"] = f"github_tracker:{handle}"
             by_cat[category].append(p)
@@ -174,6 +178,10 @@ def run(out_dir=None):
               f"{len(by_cat)} categor(ies)")
 
     (out_dir / "unclassified.json").write_text(json.dumps(unclassified, indent=1))
+    (out_dir / "drop_counts.json").write_text(json.dumps(
+        {source: dict(counts) for source, counts in drop_counts.items()}, indent=1))
+    state["_last_fetch"] = {"drops": {
+        source: dict(counts) for source, counts in sorted(drop_counts.items())}}
     state_path.write_text(yaml.safe_dump(state, sort_keys=True))
     if unclassified:
         print(f"\n{len(unclassified)} posting(s) need a category. Fill in "

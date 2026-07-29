@@ -44,10 +44,14 @@ def test_explicit_date_posted_is_not_estimated_and_validates():
     assert validate_row(rows[0]) == []
 
 
-def test_non_us_posting_is_dropped():
+def test_non_us_posting_is_dropped_and_reported(capsys):
+    drops = []
     rows, summary = merge_category(
-        [], [_report([_posting(location="London, UK")])], TODAY)
+        [], [_report([_posting(location="London, UK")])], TODAY,
+        lambda source, stage: drops.append((source, stage)))
     assert rows == [] and summary["new"] == []
+    assert drops == [("greenhouse", "non_us_location")]
+    assert "skipped non-US location" in capsys.readouterr().out
 
 
 def test_same_link_across_sources_merges_and_accumulates_sources():

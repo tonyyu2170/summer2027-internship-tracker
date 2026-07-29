@@ -88,6 +88,23 @@ def test_run_skips_posting_missing_required_field(tmp_path, capsys):
     out = capsys.readouterr().out
     assert "greenhouse:acme" in out
     assert "link" in out
+    assert summaries["_drops"]["greenhouse:acme"]["missing_field"] == 1
+
+
+def test_run_records_non_us_drop_in_state(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    reports_dir = tmp_path / "reports"
+    reports_dir.mkdir()
+    (reports_dir / "r1.json").write_text(json.dumps({
+        "category": "swe", "source_entity": "greenhouse:acme",
+        "postings": [_posting(location="London, UK")],
+    }))
+    state_path = tmp_path / "sources" / "scrape_state.yaml"
+
+    run(reports_dir, data_dir, tmp_path / "README.md", state_path)
+
+    state = yaml.safe_load(state_path.read_text())
+    assert state["_last_run"]["drops"]["greenhouse"]["non_us_location"] == 1
 
 
 def test_run_drops_row_that_fails_schema_validation(tmp_path, capsys):

@@ -25,7 +25,7 @@ def _triple(item: dict):
     )
 
 
-def merge_category(existing_rows, fetch_reports, today):
+def merge_category(existing_rows, fetch_reports, today, on_drop=None):
     """existing_rows: list[dict]; fetch_reports: list[fetch-report dict];
     today: 'YYYY-MM-DD'. Returns (rows, summary)."""
     rows = [dict(r) for r in existing_rows]          # copy; never mutate input
@@ -39,6 +39,10 @@ def merge_category(existing_rows, fetch_reports, today):
         for p in report["postings"]:
             canon_loc = canonicalize_location(p["location"])
             if canon_loc is None:                    # US-only filter
+                src = p.get("source", report.get("source_entity", "unknown"))
+                print(f"    warn: [{src}] skipped non-US location: {p['location']!r}")
+                if on_drop:
+                    on_drop(src, "non_us_location")
                 continue
             nlink = normalize_link(p["link"])
             src = p.get("source", report.get("source_entity", "unknown"))

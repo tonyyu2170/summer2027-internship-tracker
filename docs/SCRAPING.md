@@ -48,8 +48,8 @@ Required per posting: `company, role, location, link, term, degree`.
 Optional: `track` (quant only), `date_posted` (omit/null if the source has
 none — merge fills today's date), `source` (defaults to `source_entity`),
 `closed_marker` (true only when the source itself marks the role closed).
-Locations that are not confidently US are dropped by the merge engine — no
-need to pre-filter, but prefer emitting `City, ST`.
+Locations that are not confidently US are dropped by the merge engine and
+reported in the per-source drop tally — prefer emitting `City, ST`.
 
 ## Source -> tool
 
@@ -140,12 +140,10 @@ in the shim, for postings the merge engine has never seen.
 today.** Hand-filling each entry's `category` satisfies
 `run_scrape_merge.py`'s guard, but there is no code that turns a classified
 `unclassified.json` entry back into a fetch report — the file is only ever
-read as a blocking check, then skipped. In practice this list is usually
-small and low-value (dominated by two half-broken trackers whose rows mostly
-fail the location check anyway); the practical workaround is to delete
-`scratch/fetch_reports/unclassified.json` before merging if it's non-empty
-and not worth hand-classifying. Building a real merge-back path is a
-follow-up, not yet implemented.
+read as a blocking check, then skipped. Its count is recorded in
+`drop_counts.json` and then in `sources/scrape_state.yaml`; do not delete it
+to hide unresolved rows. Building a real merge-back path is a follow-up, not
+yet implemented.
 
 **Two mutation caveats for `sources/scrape_state.yaml`:**
 - Any real run of `fetch_trackers.py` — including a "dry run" pointed at a
@@ -179,12 +177,11 @@ auto-close on.
    only** and never write data files.
 2. The parent writes one fetch-report JSON per non-tracker source entity
    into `scratch/fetch_reports/`, and fills in any `category` left blank in
-   `scratch/fetch_reports/unclassified.json` (or deletes that file — see
-   the caveat above).
+   `scratch/fetch_reports/unclassified.json`.
 3. Run the single serialized writer:
    `python3 scripts/run_scrape_merge.py scratch/fetch_reports`
    It merges per category, rewrites `data/*.yaml`, regenerates `README.md`,
-   and prints new/closed/possible-duplicate counts.
+   and prints new/closed/possible-duplicate counts plus per-source drop tallies.
    - Also review any "warn: skipped ..." or "warn: dropped invalid row ..."
      lines — these mean a scraped posting or merged row failed validation
      and was not persisted; check the source data if a source is

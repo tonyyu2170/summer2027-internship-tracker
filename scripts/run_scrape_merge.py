@@ -14,7 +14,7 @@ import sys
 import yaml
 from pathlib import Path
 from datetime import date, datetime
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 from merge import merge_category
 from schema import validate_row
@@ -24,7 +24,7 @@ from generate_readme import render, ROOT, CATEGORIES
 REQUIRED_POSTING_FIELDS = ["company", "role", "location", "link", "term", "degree"]
 
 
-def _filter_postings(report: dict) -> dict:
+def _filter_postings(report: dict, on_drop=None) -> dict:
     """Return a copy of report with postings missing a required field
     dropped. Prints a warning per skipped posting; never raises.
 
@@ -43,12 +43,14 @@ def _filter_postings(report: dict) -> dict:
             label = p.get("company") or p.get("link") or "<unidentified posting>"
             print(f"    warn: [{entity}] skipped {label!r}: "
                   f"missing required field(s) {missing}")
+            if on_drop:
+                on_drop(entity, "missing_field")
             continue
         kept.append(p)
     return {**report, "postings": kept}
 
 
-def _drop_invalid_rows(rows: list, summary: dict) -> list:
+def _drop_invalid_rows(rows: list, summary: dict, on_drop=None) -> list:
     """Validate only rows created new this run (summary['new'] — the ones
     built from untrusted incoming posting data). Rows loaded from existing
     data/*.yaml are left untouched even if malformed: they may be Tony's own
@@ -72,6 +74,8 @@ def _drop_invalid_rows(rows: list, summary: dict) -> list:
             if errors:
                 dropped.add(rid)
                 print(f"    warn: dropped invalid row {rid!r}: {errors}")
+                if on_drop:
+                    on_drop((row.get("sources") or ["unknown"])[0], "schema_invalid")
                 continue
         elif errors:
             print(f"    warn: existing row {rid!r} fails schema (kept as-is): {errors}")
@@ -101,6 +105,15 @@ def run(reports_dir, data_dir=None, readme_path=None, state_path=None):
     state_path = (Path(state_path) if state_path else
                   data_dir.parent / "sources" / "scrape_state.yaml")
     today = date.today().isoformat()
+    drop_counts = defaultdict(Counter)
+
+    def record_drop(source, stage):
+        drop_counts[source][stage] += 1
+
+    upstream_drops = reports_dir / "drop_counts.json"
+    if upstream_drops.exists():
+        for source, counts in json.loads(upstream_drops.read_text()).items():
+            drop_counts[source].update(counts)
 
     unclassified_path = reports_dir / "unclassified.json"
     if unclassified_path.exists():
@@ -116,10 +129,10 @@ def run(reports_dir, data_dir=None, readme_path=None, state_path=None):
 
     by_cat = defaultdict(list)
     for p in sorted(reports_dir.glob("*.json")):
-        if p.name == "unclassified.json":
+        if p.name in {"unclassified.json", "drop_counts.json"}:
             continue
         report = json.loads(p.read_text())
-        by_cat[report["category"]].append(_filter_postings(report))
+        by_cat[report["category"]].append(_filter_postings(report, record_drop))
 
     # Merge into a buffer first. The integrity check has to see the whole
     # post-merge picture before anything is persisted, so the write loop runs
@@ -128,8 +141,8 @@ def run(reports_dir, data_dir=None, readme_path=None, state_path=None):
     for cat, reports in by_cat.items():
         path = data_dir / f"{cat}.yaml"
         existing = _load_rows(path)
-        rows, summary = merge_category(existing, reports, today)
-        merged[cat] = _drop_invalid_rows(rows, summary)
+        rows, summary = merge_category(existing, reports, today, record_drop)
+        merged[cat] = _drop_invalid_rows(rows, summary, record_drop)
         summaries[cat] = summary
         print(f"[{cat}] +{len(summary['new'])} new, "
               f"{len(summary['closed'])} newly closed, "
@@ -164,12 +177,17 @@ def run(reports_dir, data_dir=None, readme_path=None, state_path=None):
         "new": sum(len(summary["new"]) for summary in summaries.values()),
         "closed": sum(len(summary["closed"]) for summary in summaries.values()),
         "ran_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "drops": {source: dict(counts) for source, counts in sorted(drop_counts.items())},
     }
+    for source, counts in sorted(drop_counts.items()):
+        print(f"[{source}] dropped " + ", ".join(
+            f"{stage}={count}" for stage, count in sorted(counts.items())))
     state_path.parent.mkdir(parents=True, exist_ok=True)
     state_path.write_text(yaml.safe_dump(state, sort_keys=False, allow_unicode=True))
 
     render(data_dir, readme_path, state["_last_run"])
     summaries["_integrity"] = violations
+    summaries["_drops"] = {source: dict(counts) for source, counts in drop_counts.items()}
     return summaries
 
 
