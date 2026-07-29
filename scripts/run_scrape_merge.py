@@ -18,7 +18,8 @@ from collections import defaultdict
 
 from merge import merge_category
 from schema import validate_row
-from generate_readme import render, ROOT
+from check_integrity import check_integrity
+from generate_readme import render, ROOT, CATEGORIES
 
 REQUIRED_POSTING_FIELDS = ["company", "role", "location", "link", "term", "degree"]
 
@@ -89,6 +90,10 @@ def _drop_invalid_rows(rows: list, summary: dict) -> list:
     return kept
 
 
+def _load_rows(path: Path) -> list:
+    return (yaml.safe_load(path.read_text()) or []) if path.exists() else []
+
+
 def run(reports_dir, data_dir=None, readme_path=None):
     reports_dir = Path(reports_dir)
     data_dir = Path(data_dir) if data_dir else ROOT / "data"
@@ -114,13 +119,15 @@ def run(reports_dir, data_dir=None, readme_path=None):
         report = json.loads(p.read_text())
         by_cat[report["category"]].append(_filter_postings(report))
 
-    summaries = {}
+    # Merge into a buffer first. The integrity check has to see the whole
+    # post-merge picture before anything is persisted, so the write loop runs
+    # only after check_integrity has had its say.
+    merged, summaries = {}, {}
     for cat, reports in by_cat.items():
         path = data_dir / f"{cat}.yaml"
-        existing = (yaml.safe_load(path.read_text()) or []) if path.exists() else []
+        existing = _load_rows(path)
         rows, summary = merge_category(existing, reports, today)
-        rows = _drop_invalid_rows(rows, summary)
-        path.write_text(yaml.safe_dump(rows, sort_keys=False, allow_unicode=True))
+        merged[cat] = _drop_invalid_rows(rows, summary)
         summaries[cat] = summary
         print(f"[{cat}] +{len(summary['new'])} new, "
               f"{len(summary['closed'])} newly closed, "
@@ -128,9 +135,35 @@ def run(reports_dir, data_dir=None, readme_path=None):
         for new_id, dup_of in summary["possible_duplicates"]:
             print(f"    warn: {new_id} may duplicate {dup_of}")
 
+    # Every category, not just the merged ones: id and link uniqueness are
+    # cross-category invariants, and checking them over a subset is
+    # meaningless. A swe-only run still has to see quant.yaml to notice that
+    # an incoming swe link is already tracked there.
+    all_rows = dict(merged)
+    for stem, _title, _is_quant in CATEGORIES:
+        if stem not in all_rows:
+            all_rows[stem] = _load_rows(data_dir / f"{stem}.yaml")
+
+    violations = check_integrity(all_rows)
+    for v in violations:
+        print(f"INTEGRITY: {v}")
+    if violations:
+        print(f"INTEGRITY: {len(violations)} violation(s). Rows are NOT deleted "
+              f"— losing a tracked listing is worse than tolerating a flaw. "
+              f"Fix by hand, then re-run.")
+
+    for cat, rows in merged.items():
+        (data_dir / f"{cat}.yaml").write_text(
+            yaml.safe_dump(rows, sort_keys=False, allow_unicode=True))
+
     render(data_dir, readme_path)
+    summaries["_integrity"] = violations
     return summaries
 
 
 if __name__ == "__main__":
-    run(sys.argv[1] if len(sys.argv) > 1 else "scratch/fetch_reports")
+    result = run(sys.argv[1] if len(sys.argv) > 1 else "scratch/fetch_reports")
+    # Non-zero so a downstream commit step fails loudly rather than the run
+    # appearing to succeed with a broken invariant already written to disk.
+    if result.get("_integrity"):
+        sys.exit(1)

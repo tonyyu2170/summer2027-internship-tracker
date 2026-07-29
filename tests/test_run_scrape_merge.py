@@ -275,3 +275,88 @@ def test_run_proceeds_when_unclassified_file_is_empty(tmp_path):
     data_dir = tmp_path / "data"
     data_dir.mkdir()
     run(reports, data_dir=data_dir, readme_path=tmp_path / "README.md")
+
+
+def _empty_data_dir(root):
+    data_dir = root / "data"
+    data_dir.mkdir()
+    for stem in ("swe", "quant", "data_science", "ai_ml", "hardware",
+                 "actuarial", "consulting", "ib"):
+        (data_dir / f"{stem}.yaml").write_text("[]\n")
+    return data_dir
+
+
+def _posting(**kw):
+    p = {
+        "company": "Acme", "role": "SWE Intern", "location": "New York, NY",
+        "link": "https://acme.example.com/jobs/1", "term": "Summer 2027",
+        "degree": ["BS"], "source": "greenhouse",
+    }
+    p.update(kw)
+    return p
+
+
+def test_run_reports_cross_category_duplicate_link_and_keeps_both_rows(tmp_path):
+    """Two incoming reports in different categories carrying the same link.
+    merge_category dedupes only within a category, so it cannot see this."""
+    data_dir = _empty_data_dir(tmp_path)
+    reports_dir = tmp_path / "reports"
+    reports_dir.mkdir()
+    link = "https://acme.example.com/jobs/shared"
+    (reports_dir / "a.json").write_text(json.dumps({
+        "category": "swe", "source_entity": "greenhouse:acme",
+        "postings": [_posting(link=link)]}))
+    (reports_dir / "b.json").write_text(json.dumps({
+        "category": "quant", "source_entity": "greenhouse:acme",
+        "postings": [_posting(link=link)]}))
+
+    summaries = run(reports_dir, data_dir, tmp_path / "README.md")
+
+    assert any("duplicate link" in v for v in summaries["_integrity"])
+    # Reported, never auto-deleted: both rows must survive on disk.
+    assert len(yaml.safe_load((data_dir / "swe.yaml").read_text())) == 1
+    assert len(yaml.safe_load((data_dir / "quant.yaml").read_text())) == 1
+
+
+def test_run_reports_duplicate_against_an_untouched_category_on_disk(tmp_path):
+    """The case that actually guards cross-category dupes: only swe is being
+    merged, and the incoming link already exists in quant.yaml, which this run
+    never loads for merging. A subset-only check would miss it."""
+    data_dir = _empty_data_dir(tmp_path)
+    link = "https://acme.example.com/jobs/already-tracked"
+    (data_dir / "quant.yaml").write_text(yaml.safe_dump([{
+        "id": "acme-swe-intern-aaaaaa", "company": "Acme", "role": "SWE Intern",
+        "location": "New York, NY", "link": link, "date_posted": "2026-01-01",
+        "term": "Summer 2027", "degree": ["BS"], "status": "open",
+        "sources": ["github_tracker"], "date_added": "2026-01-01",
+        "last_verified": "2026-01-01", "possible_duplicate_of": None,
+    }]))
+    reports_dir = tmp_path / "reports"
+    reports_dir.mkdir()
+    (reports_dir / "a.json").write_text(json.dumps({
+        "category": "swe", "source_entity": "greenhouse:acme",
+        "postings": [_posting(link=link)]}))
+
+    summaries = run(reports_dir, data_dir, tmp_path / "README.md")
+
+    assert any("duplicate link" in v for v in summaries["_integrity"])
+    assert len(yaml.safe_load((data_dir / "quant.yaml").read_text())) == 1
+    assert len(yaml.safe_load((data_dir / "swe.yaml").read_text())) == 1
+
+
+def test_run_reports_no_violations_on_a_clean_run(tmp_path):
+    """The gate must be able to go green, or it is noise people learn to
+    ignore. A triple-level status disagreement is advisory, not blocking."""
+    data_dir = _empty_data_dir(tmp_path)
+    reports_dir = tmp_path / "reports"
+    reports_dir.mkdir()
+    (reports_dir / "a.json").write_text(json.dumps({
+        "category": "swe", "source_entity": "greenhouse:acme",
+        "postings": [
+            _posting(link="https://acme.example.com/jobs/1"),
+            _posting(link="https://acme.example.com/jobs/2"),
+        ]}))
+
+    summaries = run(reports_dir, data_dir, tmp_path / "README.md")
+
+    assert summaries["_integrity"] == []
