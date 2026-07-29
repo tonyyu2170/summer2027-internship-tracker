@@ -116,6 +116,12 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
     for source in sources:
         entity = source["source_entity"]
         provider = source["provider"]
+        report_path = out_dir / f"{_report_name(entity)}_{category}.json"
+        # A requested collection owns its source's report and counters for
+        # this run. Otherwise a failed source would leave a stale report for
+        # the merge and repeated runs would inflate its drop tally.
+        report_path.unlink(missing_ok=True)
+        drop_counts.pop(entity, None)
         if provider == "manual_discovery":
             drop_counts[entity]["manual_discovery"] += 1
             print(f"[{entity}] manual discovery only; no report written")
@@ -144,8 +150,7 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
             continue
 
         report = {"category": category, "source_entity": entity, "postings": postings}
-        (out_dir / f"{_report_name(entity)}_{category}.json").write_text(
-            json.dumps(report, indent=1))
+        report_path.write_text(json.dumps(report, indent=1))
         company_state[entity] = {
             "provider": provider,
             "last_success": date.today().isoformat(),

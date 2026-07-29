@@ -55,6 +55,8 @@ def test_run_records_source_failure_without_advancing_its_state(tmp_path):
     _write_config(config_path)
     prior = {"company_sources": {"company:marsh-oliver-wyman": {"last_success": "2026-07-01"}}}
     state_path.write_text(yaml.safe_dump(prior))
+    out_dir.mkdir()
+    (out_dir / "company_marsh_oliver_wyman_actuarial.json").write_text("{}")
 
     def failing_fetch(_):
         raise OSError("offline")
@@ -118,6 +120,11 @@ def test_run_merges_workday_parser_drops_with_a_matching_report(tmp_path):
         "tenant": "gnw", "site": "Genworth_Confidential", "search_text": "actuarial",
     }]}
     _write_config(config_path, config)
+    out_dir.mkdir()
+    (out_dir / "drop_counts.json").write_text(json.dumps({
+        "company:genworth": {"manual_discovery": 1},
+        "github_tracker:example": {"unclassified": 2},
+    }))
     payload = {"jobPostings": [
         {"title": "Actuarial Analyst – 2027", "externalPath": "/job/analyst", "locationsText": "Richmond, Virginia"},
         {"title": "Actuarial Intern – Summer 2027", "externalPath": "/job/intern", "locationsText": "Richmond, Virginia"},
@@ -127,6 +134,9 @@ def test_run_merges_workday_parser_drops_with_a_matching_report(tmp_path):
 
     report = json.loads((out_dir / "company_genworth_actuarial.json").read_text())
     assert report["postings"][0]["link"].endswith("Genworth_Confidential/job/intern")
-    assert drops == {"company:genworth": {"term_unmatched": 1}}
+    assert drops == {
+        "company:genworth": {"term_unmatched": 1},
+        "github_tracker:example": {"unclassified": 2},
+    }
     state = yaml.safe_load(state_path.read_text())
     assert state["company_sources"]["company:genworth"]["row_count"] == 1
