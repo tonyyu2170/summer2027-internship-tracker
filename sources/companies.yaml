@@ -1,5 +1,5 @@
-# Per-category watch-list. `ats` is one of: greenhouse | lever | workday | custom.
-# `url` is the board/careers URL or ATS board token. Grows over time.
+# Per-category watch-list. Legacy `ats` entries are dormant; the actuarial
+# entries below use the explicit provider/source contract in its Phase D spec.
 quant:
   - {company: Jane Street, ats: custom, url: https://www.janestreet.com/join-jane-street/open-roles/}
   - {company: Citadel Securities, ats: custom, url: https://www.citadelsecurities.com/careers/details/}
@@ -13,6 +13,24 @@ data_science: []
 ai_ml: []
 hardware: []
 actuarial:
-  - {company: Genworth Financial, ats: workday, url: https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential}
-  - {company: Marsh McLennan, ats: workday, url: https://mmc.wd1.myworkdayjobs.com/MMC}
-  - {company: The Hartford, ats: workday, url: https://thehartford.wd5.myworkdayjobs.com/Careers_Restricted}
+  - company: Oliver Wyman
+    provider: phenom_job_page
+    url: https://careers.marsh.com/global/en/job/R_356561/Oliver-Wyman-Actuarial-Internship-Summer-2027
+    source_entity: company:marsh-oliver-wyman
+    term: Summer 2027
+    degree: [BS]
+    role_pattern: '(?i)actuar'
+  - company: Genworth Financial
+    provider: manual_discovery
+    url: https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential
+    source_entity: company:genworth
+    term: Summer 2027
+    degree: [BS]
+    role_pattern: '(?i)actuar'
+  - company: The Hartford
+    provider: manual_discovery
+    url: https://thehartford.wd5.myworkdayjobs.com/Careers_Restricted
+    source_entity: company:the-hartford
+    term: Summer 2027
+    degree: [BS]
+    role_pattern: '(?i)actuar'

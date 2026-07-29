@@ -25,6 +25,11 @@ def test_canonicalize_location_us_forms():
 
 def test_canonicalize_location_rejects_non_us():
     assert canonicalize_location("London, UK") is None
+
+
+def test_canonicalize_location_keeps_a_source_owned_multi_location_posting():
+    assert canonicalize_location("New York, NY / Boston, Massachusetts") == \
+        "New York, NY / Boston, MA"
     assert canonicalize_location("Remote - EMEA") is None
     assert canonicalize_location("Singapore") is None
 

@@ -22,6 +22,12 @@ Scraping is never scheduled; it runs only on an explicit request.
 Consulting and investment banking are intentionally out of scope. Matching
 roles are counted as `category_drop` and never create a category file.
 
+For the enabled actuarial company source, run
+`python3 scripts/fetch_companies.py actuarial` before the serialized merge.
+It emits the same fetch-report JSON contract as tracker sources and writes no
+data files itself. Do not run it until the planned direct-link migration for
+the historical Oliver Wyman row has been reviewed.
+
 ## Fetch-report contract
 
 Write one JSON file per source entity into `scratch/fetch_reports/` (git-ignored):

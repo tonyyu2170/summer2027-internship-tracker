@@ -72,6 +72,9 @@ def canonicalize_location(loc: str) -> str | None:
     s = re.sub(r"\s+", " ", (loc or "").strip())
     if not s:
         return None
+    if " / " in s:
+        locations = [canonicalize_location(part) for part in s.split(" / ")]
+        return " / ".join(locations) if all(locations) else None
     low = s.lower()
     if "remote" in low:
         return None if _NON_US_RE.search(low) else "Remote (US)"

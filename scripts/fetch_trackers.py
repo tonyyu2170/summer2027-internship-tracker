@@ -93,7 +93,10 @@ def run(out_dir=None):
     known = known_link_categories()
     known_locations = known_link_locations()
     unclassified = []
-    drop_counts = defaultdict(Counter)
+    drop_counts_path = out_dir / "drop_counts.json"
+    prior_drops = json.loads(drop_counts_path.read_text()) if drop_counts_path.exists() else {}
+    drop_counts = defaultdict(
+        Counter, {source: Counter(counts) for source, counts in prior_drops.items()})
 
     for cfg in trackers:
         handle = cfg["handle"]
@@ -178,7 +181,7 @@ def run(out_dir=None):
               f"{len(by_cat)} categor(ies)")
 
     (out_dir / "unclassified.json").write_text(json.dumps(unclassified, indent=1))
-    (out_dir / "drop_counts.json").write_text(json.dumps(
+    drop_counts_path.write_text(json.dumps(
         {source: dict(counts) for source, counts in drop_counts.items()}, indent=1))
     state["_last_fetch"] = {"drops": {
         source: dict(counts) for source, counts in sorted(drop_counts.items())}}
