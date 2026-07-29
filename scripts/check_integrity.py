@@ -280,6 +280,22 @@ def check_integrity(rows_by_category: dict) -> list:
     return sorted(violations)
 
 
+def sweep_off_cycle(rows_by_category: dict) -> list:
+    """ADVISORY only: stored rows whose role text reads as a cycle other than
+    Summer 2027, per parse_tracker._is_off_cycle. These predate the widened
+    detection, so the parser would reject them today but they are already on
+    disk. Report only -- some role strings are truncated by their upstream
+    tracker ("Hardware R&D Engineering Intern (Fall..."), which makes the real
+    cycle undeterminable from the text alone and needs the posting fetched.
+    Deleting on this signal alone would drop live rows."""
+    from parse_tracker import _is_off_cycle
+    return sorted(
+        f"{category} {row.get('id')} {row.get('role')!r}"
+        for category, row in _all_rows(rows_by_category)
+        if isinstance(row.get("role"), str) and _is_off_cycle(row["role"])
+    )
+
+
 def triple_groups(rows_by_category: dict) -> list:
     """ADVISORY only: every group of >=2 rows sharing a _triple across
     categories, regardless of whether their status agrees. Report only,
@@ -340,6 +356,15 @@ if __name__ == "__main__":
         rows_by_category[stem] = (
             (yaml.safe_load(path.read_text()) or []) if path.exists() else []
         )
+
+    if "--sweep" in sys.argv:
+        lines = sweep_off_cycle(rows_by_category)
+        out = ROOT / "scratch" / "off_cycle_review.txt"
+        out.parent.mkdir(exist_ok=True)
+        out.write_text("\n".join(lines) + ("\n" if lines else ""))
+        print(f"{len(lines)} row(s) flagged off-cycle -> {out}")
+        print("Nothing was deleted. Review by hand before acting.")
+        sys.exit(0)
 
     violations = check_integrity(rows_by_category)
     for v in violations:

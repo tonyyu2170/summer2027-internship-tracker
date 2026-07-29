@@ -224,19 +224,49 @@ _COLUMN_ALIASES = {
 _HREF = re.compile(r'href="([^"]+)"')
 _MD_LINK = re.compile(r"\[[^\]]*\]\((<?)([^)>\s]+)")
 _TAG = re.compile(r"<[^>]+>")
-_OFF_CYCLE = re.compile(r"\b(summer|fall|winter|spring)\s*20\d\d\b", re.I)
+_SEASON = r"(?:summer|fall|winter|spring)"
+_OFF_CYCLE = re.compile(rf"\b{_SEASON}\s*20\d\d\b", re.I)
+_YEAR = re.compile(r"\b20\d\d\b")
+# 'summer' is deliberately absent here: a bare "Summer Analyst" is the
+# standard IB/consulting title and carries no cycle information. Flagging it
+# would silently drop ~81% of data/ib.yaml at parse time.
+_BARE_NON_SUMMER = re.compile(r"\b(?:fall|winter|spring)\b", re.I)
+_SEASON_YEAR_NEAR = re.compile(
+    rf"\b{_SEASON}\b.{{0,20}}?\b20\d\d\b|\b20\d\d\b.{{0,20}}?\b{_SEASON}\b", re.I)
+_YEAR_START = re.compile(r"\b(20\d\d)\s+start\b", re.I)
 
 
 def _is_off_cycle(role):
-    """True if role text carries explicit season+year marker(s) and none of
-    them is Summer 2027. This repo only tracks Summer 2027 (see CLAUDE.md);
-    an off-cycle marker means the row must be dropped, not relabeled, since
-    parse_pipe_table stamps every row's term as Summer 2027. Checks every
-    match, not just the first — a role can legitimately name multiple
-    eligible cycles (e.g. "Fall 2026/Summer 2027"), and the verdict must not
-    depend on which cycle name happens to appear first in the string."""
-    matches = [m.group(0).lower().replace(" ", "") for m in _OFF_CYCLE.finditer(role)]
-    return bool(matches) and "summer2027" not in matches
+    """True if role text carries a cycle marker that isn't Summer 2027. This
+    repo only tracks Summer 2027 (see CLAUDE.md); an off-cycle marker means
+    the row must be dropped, not relabeled, since parse_pipe_table stamps
+    every row's term as Summer 2027.
+
+    Deliberately NOT off-cycle:
+      - a bare season word "Summer" with no year ("Summer Analyst")
+      - a bare non-2027 year with no season word ("Intern - Mechanical
+        Engineer - 2026", "apps reviewed from Aug 2026") -- roles routinely
+        carry a year for reasons unrelated to the cycle
+    """
+    adjacent = [m.group(0).lower().replace(" ", "") for m in _OFF_CYCLE.finditer(role)]
+    if "summer2027" in adjacent:
+        # Names the cycle we track, possibly alongside others
+        # ("Fall 2026/Summer 2027"). Eligible either way. Checks every match,
+        # not just the first, so the verdict doesn't depend on ordering.
+        return False
+    if adjacent:
+        return True
+
+    # No adjacent season+year pair. Widen, carefully.
+    if not _YEAR.search(role) and _BARE_NON_SUMMER.search(role):
+        return True                                  # "(FALL) Data Analyst Intern"
+    near = _SEASON_YEAR_NEAR.search(role)
+    if near and "2027" not in near.group(0):
+        return True                                  # "2026 Internship, Fall - ..."
+    start = _YEAR_START.search(role)
+    if start and start.group(1) != "2027":
+        return True                                  # "... - 2026 Start - BS/MS"
+    return False
 
 
 def _cells(line):

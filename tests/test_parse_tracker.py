@@ -1,4 +1,5 @@
 import json
+import pytest
 from pathlib import Path
 
 from parse_tracker import (
@@ -9,6 +10,7 @@ from parse_tracker import (
     _resolve_nufintech_location,
     _resolve_us_location,
     _first_location,
+    _is_off_cycle,
 )
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -462,3 +464,32 @@ def test_parse_pipe_table_unresolvable_location_becomes_none_not_raw_text():
 | Acme | SWE Intern | USA | <a href="https://e.com/1">Apply</a> |
 """
     assert parse_pipe_table(text)[0]["location"] is None
+
+
+@pytest.mark.parametrize("role", [
+    "(FALL) Data Analyst Intern",
+    "AI software Engineer Project Intern - Transaction Platform - 2026 Start - BS/MS",
+    "2026 Internship, Fall - Data Science",
+    "Software Engineering Intern (Winter)",
+    "Spring 2026 Software Engineer Co-op",
+])
+def test_off_cycle_variants_are_detected(role):
+    assert _is_off_cycle(role)
+
+
+@pytest.mark.parametrize("role", [
+    # A bare "Summer" is the standard IB/consulting title and says nothing
+    # about the cycle. Flagging it drops most of data/ib.yaml at parse time.
+    "Summer Analyst",
+    "2027 Strategic Advisory: Mergers & Acquisitions Summer Analyst Program",
+    # A bare non-2027 year with no season word is not a cycle marker.
+    "Software Engineer Intern (apps reviewed from Aug 2026)",
+    "Intern - Mechanical Engineer - 2026",
+    # Names Summer 2027 alongside another cycle -- still eligible.
+    "Fall 2026/Summer 2027 SWE Intern",
+    "Software Engineering- Internship (Fall 2026/Summer 2027)",
+    "Summer 2027 Systems Engineering Intern",
+    "Software Engineer Intern",
+])
+def test_eligible_roles_are_not_flagged_off_cycle(role):
+    assert not _is_off_cycle(role)

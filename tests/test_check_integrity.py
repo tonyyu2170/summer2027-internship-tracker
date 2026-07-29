@@ -1,4 +1,9 @@
-from check_integrity import check_integrity, triple_groups, triple_status_disagreements
+from check_integrity import (
+    check_integrity,
+    triple_groups,
+    triple_status_disagreements,
+    sweep_off_cycle,
+)
 
 
 def _row(**kw):
@@ -393,3 +398,22 @@ def test_check_integrity_output_is_sorted():
     violations = check_integrity(rows_by_category)
     assert len(violations) == 2
     assert violations == sorted(violations)
+
+
+def test_sweep_off_cycle_flags_stored_rows_and_leaves_summer_alone():
+    rows = {
+        "swe": [_row(id="a", role="Fall Software Development Intern"),
+                _row(id="b", role="Software Engineer Intern")],
+        "ib": [_row(id="c", role="Summer Analyst"),
+               _row(id="d", role="2027 Strategic Advisory: Mergers & "
+                                 "Acquisitions Summer Analyst Program")],
+    }
+    flagged = sweep_off_cycle(rows)
+    assert len(flagged) == 1
+    assert "swe a" in flagged[0]
+
+
+def test_sweep_off_cycle_is_advisory_and_not_blocking():
+    rows = {"swe": [_row(id="a", role="Fall Software Development Intern")]}
+    assert sweep_off_cycle(rows)          # flagged...
+    assert check_integrity(rows) == []    # ...but the gate stays green
