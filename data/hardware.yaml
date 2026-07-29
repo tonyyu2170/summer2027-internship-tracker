@@ -263,8 +263,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: astreya-ai-infrastructure-dc-design-intern-b48bbf
   company: Astreya
@@ -278,8 +279,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: quadric-ai-kernel-engineer-intern-kernel-optimization-8d79fd
   company: Quadric
@@ -1458,6 +1460,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -1508,21 +1511,6 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: motorola-solutions-intern-embedded-software-system-a-c29a1a
-  company: Motorola Solutions
-  role: Intern - Embedded Software, System, a...
-  location: Irvine, CA
-  link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null

@@ -1670,7 +1670,7 @@
   role: Trading System Engineering Intern
   location: Bala Cynwyd, PA
   link: https://careers.sig.com/jobs/10837
-  date_posted: '2026-07-23'
+  date_posted: '2026-05-22'
   term: Summer 2027
   degree:
   - BS
@@ -1678,6 +1678,7 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -2366,8 +2367,9 @@
   sources:
   - github_tracker
   - link_checker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-28'
   possible_duplicate_of: null
   track: Development
 - id: aquatic-capital-software-engineer-intern-efdc36
@@ -2382,8 +2384,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: point72-investment-analyst-intern-point72-academy-67aede
   company: Point72
@@ -3551,21 +3554,6 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: voloridge-investment-management-quantitative-developer-intern-9d8be0
-  company: Voloridge Investment Management
-  role: Quantitative Developer Intern
-  location: Jupiter, FL
-  link: https://voloridge-investment-management.hiringthing.com/job/1013126/quantitative-developer-intern-2027?s=lif&jr_id=69eaa8e4dc35f7132c4ab803
-  date_posted: '2026-05-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: voloridge-investment-management-quantitative-developer-intern-9d8be0
 - id: cubist-systematic-strategies-quantitative-developer-intern-f01b19
   company: Cubist Systematic Strategies
   role: Quantitative Developer Intern

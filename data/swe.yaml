@@ -259,6 +259,7 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -497,43 +498,11 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: hp-software-engineering-intern-device-experiences-04ca7f
-  company: HP
-  role: Software Engineering Intern - Device Experiences
-  location: San Francisco, CA
-  link: https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1
-  date_posted: '2026-07-22'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
 - id: mathtech-web-application-developer-intern-2b5af6
   company: Mathtech
   role: Web Application Developer Intern
   location: Falls Church, VA
   link: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=cf1a92f4-16eb-4267-86ca-bc956024f426&jobId=565843
-  date_posted: '2026-07-22'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: moog-intern-software-engineering-d5ddfb
-  company: Moog
-  role: Intern - Software Engineering
-  location: Buffalo, NY
-  link: https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1
   date_posted: '2026-07-22'
   term: Summer 2027
   degree:
@@ -558,6 +527,7 @@
   sources:
   - github_tracker
   - github_tracker:speedyapply
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -574,6 +544,8 @@
   sources:
   - github_tracker
   - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -690,22 +662,6 @@
   - github_tracker:speedyapply
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: sel-software-engineer-intern-db2ac8
-  company: SEL
-  role: Software Engineer Intern
-  location: Washington, DC
-  link: https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Washington---Pullman/Software-Engineer-Intern_2026-21720
-  date_posted: '2026-07-15'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  date_added: '2026-07-23'
-  last_verified: '2026-07-24'
   possible_duplicate_of: null
 - id: tencent-cloud-media-services-intern-807508
   company: Tencent
@@ -916,6 +872,8 @@
   sources:
   - github_tracker
   - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -1280,22 +1238,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: cadence-software-intern-f7d5ef
-  company: Cadence
-  role: Software Intern
-  location: San Jose, CA
-  link: https://cadence.wd1.myworkdayjobs.com/en-US/external_careers/job/SAN-JOSE/Software-Intern_R53282-1
-  date_posted: '2026-04-16'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
 - id: latent-defense-software-engineer-intern-0fcd95
   company: Latent Defense
   role: Software Engineer Intern
@@ -1589,8 +1531,9 @@
   sources:
   - github_tracker
   - link_checker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-28'
   possible_duplicate_of: null
 - id: fiserv-technology-intern-b8eebb
   company: Fiserv
@@ -1605,8 +1548,9 @@
   sources:
   - github_tracker
   - link_checker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-28'
   possible_duplicate_of: null
 - id: avanade-software-engineering-intern-ef8ce4
   company: Avanade
@@ -1620,8 +1564,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: abc-news-product-management-and-engineering-intern-d0a905
   company: ABC News
@@ -1733,7 +1678,7 @@
   role: Software Engineer Intern
   location: Pullman, WA
   link: https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineer-Intern_2026-21720
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-15'
   term: Summer 2027
   degree:
   - BS
@@ -1741,6 +1686,7 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -1857,9 +1803,9 @@
 - id: cadence-software-intern-896986
   company: Cadence
   role: Software Intern
-  location: SAN JOSE, CA
+  location: San Jose, CA
   link: https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Software-Intern_R53282-1
-  date_posted: '2026-07-23'
+  date_posted: '2026-04-16'
   term: Summer 2027
   degree:
   - BS
@@ -1867,6 +1813,7 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -2000,10 +1947,10 @@
   possible_duplicate_of: null
 - id: circleback-software-engineering-intern-summer-2-26e7bd
   company: Circleback
-  role: Software Engineering Intern (Summer 2...
+  role: Software Engineer Intern
   location: San Francisco, CA
   link: https://jobs.ashbyhq.com/circleback/2bb6be67-d1a8-42f7-bb1b-64ee36bf613f/application
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-15'
   term: Summer 2027
   degree:
   - BS
@@ -2011,6 +1958,9 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -2263,7 +2213,7 @@
   role: Database Engineering Intern
   location: Dallas, TX
   link: https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-24'
   term: Summer 2027
   degree:
   - BS
@@ -2271,6 +2221,7 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -2288,6 +2239,7 @@
   - github_tracker
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -2305,6 +2257,7 @@
   - github_tracker
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -2440,22 +2393,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: schweitzer-engineering-laboratories-software-engineer-intern-829c17
-  company: Schweitzer Engineering Laboratories
-  role: Software Engineer Intern
-  location: Boise, ID
-  link: https://selinc.wd1.myworkdayjobs.com/SEL/job/Idaho---Boise/Software-Engineer-Intern_2026-22321
-  date_posted: '2026-07-21'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:chieler
-  - github_tracker:vanshb03
-  date_added: '2026-07-24'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
 - id: ge-healthcare-engineering-development-program-intern-software-bf3429
   company: GE Healthcare
   role: Engineering Development Program Intern - Software
@@ -2494,37 +2431,6 @@
   location: Golden, CO
   link: https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Undergraduate-graduate-intern---software-and-data-infrastructure-for-autonomous-thin-film-experimentation--Year-Round-_R14394
   date_posted: '2026-07-08'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:chieler
-  date_added: '2026-07-24'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: altasciences-software-engineer-intern-0dbc15
-  company: Altasciences
-  role: Software Engineer Intern
-  location: Overland Park, KS
-  link: https://altasciences.wd1.myworkdayjobs.com/Careers/job/Overland-Park-Kansas/Process-Innovation---Software-Engineering-Intern_R102750
-  date_posted: '2026-06-24'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:chieler
-  - github_tracker:zshah101
-  date_added: '2026-07-24'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: copart-database-engineer-intern-602b5a
-  company: Copart
-  role: Database Engineer Intern
-  location: Dallas, TX
-  link: https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636
-  date_posted: '2026-06-24'
   term: Summer 2027
   degree:
   - BS
@@ -2774,23 +2680,6 @@
   location: San Francisco, CA
   link: https://jobs.ashbyhq.com/netic/ffd6af1a-cebb-41f5-ac1d-e695adfd067c/application?embed=true
   date_posted: '2026-07-16'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: circleback-software-engineer-intern-2a36f8
-  company: Circleback
-  role: Software Engineer Intern
-  location: San Francisco, CA
-  link: https://jobs.ashbyhq.com/circleback/2bb6be67-d1a8-42f7-bb1b-64ee36bf613f/application?embed=true
-  date_posted: '2026-07-15'
   term: Summer 2027
   degree:
   - BS
@@ -3091,36 +2980,6 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: fiserv-application-development-intern-ad0c1c
-  company: Fiserv
-  role: Application Development Intern
-  location: Alpharetta, GA
-  link: https://careers.fiserv.com/us/en/job/FFFYJUSR10390264EXTERNALENUS/Application-Development-Summer-Intern?jr_id=69e6ab177820c036924d1dc6&utm_source=github-vansh-ouckah
-  date_posted: '2026-04-20'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-07-24'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: fiserv-technology-intern-b8eebb
-  company: Fiserv
-  role: Technology Intern
-  location: Columbus, OH
-  link: https://careers.fiserv.com/us/en/job/FFFYJUSR10390344EXTERNALENUS/Technology-Summer-Intern?jr_id=69e6ab5e3aa0c4796439589b&utm_source=github-vansh-ouckah
-  date_posted: '2026-04-20'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-07-24'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
 - id: quadrillion-software-engineering-intern-summer-2027-0a9a2a
   company: Quadrillion
   role: Software Engineering Intern (Summer 2027)
@@ -3148,22 +3007,6 @@
   status: closed
   sources:
   - github_tracker:zshah101
-  date_added: '2026-07-24'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: manhattan-associates-a-i-developer-co-op-boston-ma-e9911e
-  company: Manhattan Associates
-  role: A.I. Developer Co-Op (Boston, MA)
-  location: Remote (US)
-  link: https://manh.wd5.myworkdayjobs.com/campus/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_16931
-  date_posted: '2026-07-10'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  - github_tracker:zapplyjobs
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -3312,7 +3155,7 @@
   - github_tracker:speedyapply
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
-  possible_duplicate_of: hp-software-engineering-intern-device-experiences-04ca7f
+  possible_duplicate_of: hewlett-packard-hp-software-engineering-intern-device-experiences-2f807f
 - id: charles-river-analytics-software-qa-tester-intern-co-op-06c64c
   company: Charles River Analytics
   role: Software QA Tester Intern/Co-op
@@ -3373,81 +3216,6 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: altom-transport-fall-software-development-intern-d55b0d
-- id: avanade-software-engineering-intern-ef8ce4
-  company: Avanade
-  role: Software Engineering Intern
-  location: Los Angeles, CA
-  link: https://accenture.wd103.myworkdayjobs.com/en-GB/AvanadeCareers/job/Los-Angeles-6181-W-Centinela-Ave-Corp/Intern--Software-Engineering---June-2026_R00319370?jr_id=69e6a556f8fa2f3ec32a3173
-  date_posted: '2026-04-20'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: avanade-software-engineering-intern-ef8ce4
-- id: susquehanna-trading-system-engineering-intern-080486
-  company: Susquehanna
-  role: Trading System Engineering Intern
-  location: Bala Cynwyd, PA
-  link: https://careers.sig.com/jobs/10837?lang=en-us&mode=apply&iis=LinkedIn&jr_id=69f3d11158b23a2329da8088
-  date_posted: '2026-05-22'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: aquatic-capital-software-engineer-intern-efdc36
-  company: Aquatic Capital
-  role: Software Engineer Intern
-  location: Chicago, IL
-  link: https://job-boards.greenhouse.io/embed/job_app?for=aquaticcapitalmanagement&jr_id=6a06fd77152f493123c4b595&token=8489233002
-  date_posted: '2026-05-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: stoke-space-software-engineer-intern-098803
-  company: Stoke Space
-  role: Software Engineer Intern
-  location: Kent, WA
-  link: https://www.stokespace.com/careers/current-openings/?gh_jid=5987663004&jr_id=69fae0acd21cf86d1e3cd79c
-  date_posted: '2026-05-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: stoke-space-software-engineer-intern-2d589c
-- id: copart-software-engineering-intern-a42998
-  company: Copart
-  role: Software Engineering Intern
-  location: Dallas, TX
-  link: https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110011
-  date_posted: '2026-07-24'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: copart-software-engineering-intern-7a3998
 - id: appian-software-engineering-intern-9d4b40
   company: Appian
   role: Software Engineering Intern

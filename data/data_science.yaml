@@ -16,22 +16,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: solar-turbines-caterpillar-gas-compressor-data-analyst-intern-a3efd6
-  company: Solar Turbines (Caterpillar)
-  role: Gas Compressor Data Analyst Intern
-  location: San Diego, CA
-  link: https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786
-  date_posted: '2026-06-12'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:sndsh404
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
 - id: meta-research-scientist-intern-nmr-analysis-automation-7506d4
   company: Meta
   role: Research Scientist Intern - NMR Analysis Automation
@@ -83,7 +67,7 @@
   role: '2027 Internship: Gas Compressor Data Analyst'
   location: San Diego, CA
   link: https://cat.wd5.myworkdayjobs.com/en-US/solarturbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786
-  date_posted: '2026-07-22'
+  date_posted: '2026-06-12'
   term: Summer 2027
   degree:
   - BS
@@ -91,6 +75,7 @@
   sources:
   - github_tracker
   - github_tracker:chieler
+  - github_tracker:sndsh404
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -132,21 +117,6 @@
   location: Remote (US)
   link: https://ensemblehp.wd5.myworkdayjobs.com/en-US/ensemblehealthpartnerscareers/job/Remote---Nationwide/Data-Scientist--AI_R048077
   date_posted: '2026-07-17'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
-- id: moog-intern-it-computer-science-data-analytics-91ac75
-  company: Moog
-  role: Intern - IT Computer Science - Data Analytics
-  location: Buffalo, NY
-  link: https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145
-  date_posted: '2026-07-16'
   term: Summer 2027
   degree:
   - BS
@@ -332,10 +302,10 @@
   possible_duplicate_of: null
 - id: moog-intern-it-computer-science-data-an-224620
   company: Moog
-  role: Intern, IT Computer Science - Data An...
+  role: Intern - IT Computer Science - Data Analytics
   location: Buffalo, NY
   link: https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-16'
   term: Summer 2027
   degree:
   - BS

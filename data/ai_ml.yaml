@@ -581,21 +581,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
-- id: tencent-research-intern-video-world-models-research-ml-systems-a01b5f
-  company: Tencent
-  role: Research Intern - Video World Models - Research & ML Systems
-  location: Palo Alto, CA
-  link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1
-  date_posted: '2026-07-15'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
 - id: adaptive-ai-product-operations-intern-f047ad
   company: Adaptive
   role: AI Product Operations Intern
@@ -749,21 +734,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
-- id: tencent-hunyuan-multimodal-reinforcement-learning-research-intern-f653ee
-  company: Tencent
-  role: Hunyuan Multimodal Reinforcement Learning Research Intern
-  location: Palo Alto, CA
-  link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Reinforcement-Learning-Research-Intern_R107084-1
-  date_posted: '2026-07-02'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
 - id: tencent-hunyuan-multimodal-algorithm-researcher-intern-omni-modal-ad40cf
   company: Tencent
   role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal​​
@@ -779,50 +749,23 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
-- id: tencent-research-internship-reinforcement-learning-for-large-foundation-models-374c19
-  company: Tencent
-  role: Research Internship - Reinforcement Learning for Large Foundation Models
-  location: Bellevue, WA
-  link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-Washington-Bellevue/Research-Internship---Reinforcement-Learning-for-Large-Foundation-Models_R106337-1
-  date_posted: '2026-07-02'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
 - id: nelnet-intern-ai-engineer-110df6
   company: Nelnet
   role: Intern - AI Engineer
   location: Lincoln, NE
   link: https://nelnet.wd1.myworkdayjobs.com/en-US/mynelnet/job/Lincoln-NE/Intern---AI-Engineer_R22763
-  date_posted: '2026-07-01'
+  date_posted: '2026-06-18'
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
   - github_tracker
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
-- id: sony-research-intern-on-generative-and-protective-ai-for-content-creation-9507a3
-  company: Sony
-  role: Research Intern on Generative and Protective AI for Content Creation
-  location: Remote (US)
-  link: https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335
-  date_posted: '2026-06-30'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: cotiviti-intern-generative-ai-research-engineer-e2606f
   company: Cotiviti
@@ -1186,8 +1129,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
 - id: penn-state-ai-ml-research-and-development-intern-412d07
   company: Penn State
@@ -1299,8 +1243,9 @@
   sources:
   - github_tracker
   - link_checker
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-07-28'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-applied-mac-c95b8b
   company: ByteDance
@@ -1577,10 +1522,10 @@
   possible_duplicate_of: null
 - id: tencent-research-intern-video-world-models-22f921
   company: Tencent
-  role: Research Intern – Video World Models ...
+  role: Research Intern - Video World Models - Research & ML Systems
   location: Palo Alto, CA
   link: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-15'
   term: Summer 2027
   degree:
   - BS
@@ -1626,10 +1571,10 @@
   possible_duplicate_of: null
 - id: tencent-hunyuan-multimodal-reinforcement-lear-f69dd7
   company: Tencent
-  role: Hunyuan Multimodal Reinforcement Lear...
+  role: Hunyuan Multimodal Reinforcement Learning Research Intern
   location: Palo Alto, CA
   link: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Reinforcement-Learning-Research-Intern_R107084-1
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-02'
   term: Summer 2027
   degree:
   - BS
@@ -1642,10 +1587,10 @@
   possible_duplicate_of: null
 - id: tencent-research-internship-reinforcement-l-587c8b
   company: Tencent
-  role: Research Internship – Reinforcement L...
+  role: Research Internship - Reinforcement Learning for Large Foundation Models
   location: Bellevue, WA
   link: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-Washington-Bellevue/Research-Internship---Reinforcement-Learning-for-Large-Foundation-Models_R106337-1
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-02'
   term: Summer 2027
   degree:
   - BS
@@ -1658,10 +1603,10 @@
   possible_duplicate_of: null
 - id: sony-research-intern-on-generative-and-pro-ccc426
   company: Sony
-  role: Research Intern on Generative and Pro...
+  role: Research Intern on Generative and Protective AI for Content Creation
   location: New York, NY
   link: https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-30'
   term: Summer 2027
   degree:
   - BS
@@ -1669,6 +1614,7 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -1849,22 +1795,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: sony-research-intern-on-generative-and-protective-ai-for-content-creation-3b4399
-  company: Sony
-  role: Research Intern on Generative and Protective AI for Content Creation
-  location: New York, NY
-  link: https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335
-  date_posted: '2026-06-30'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zshah101
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
 - id: nio-ai-robotics-researcher-intern-dexterous-manipulation-1914ad
   company: Nio
   role: AI Robotics Researcher Intern (Dexterous Manipulation)
@@ -1913,23 +1843,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: nelnet-ai-engineer-intern-50ebde
-  company: Nelnet
-  role: AI Engineer Intern
-  location: Lincoln, NE
-  link: https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---AI-Engineer_R22763
-  date_posted: '2026-06-18'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:chieler
-  - github_tracker:zshah101
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
 - id: los-alamos-national-laboratory-computing-ai-division-undergraduate-student-cs-math-stats-fa6991
   company: Los Alamos National Laboratory
   role: Computing & AI Division Undergraduate Student (CS / Math / Stats)
@@ -1950,13 +1863,15 @@
   role: A.I. Developer Co-Op - Boston - MA
   location: Boston, MA
   link: https://manh.wd5.myworkdayjobs.com/en-US/campus/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_16931
-  date_posted: '2026-07-11'
+  date_posted: '2026-07-10'
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
@@ -2037,36 +1952,6 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: intercontinental-exchange-inc-artificial-intelligence-data-machine-learning-intern-f935cf
-  company: Intercontinental Exchange, Inc.
-  role: Artificial Intelligence, Data & Machine Learning Intern
-  location: New York, NY
-  link: https://careers.ice.com/jobs/12830?lang=en-us&iis=LinkedIn&iisn=Linkedin&mode=apply&jr_id=69e67bb27820c036924d0af9
-  date_posted: '2026-04-20'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: intercontinental-exchange-inc-artificial-intelligence-data-machine-learning-intern-f935cf
-- id: interdigital-generative-ai-implementation-intern-32b435
-  company: InterDigital
-  role: Generative AI Implementation Intern
-  location: Conshohocken, PA
-  link: https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Generative-AI-Implementation-Intern_REQ26-1093
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: interdigital-generative-ai-implementation-intern-5f6e5f
 - id: campbell-soup-company-agentic-ai-engineer-co-op-4bbe1e
   company: Campbell Soup Company
   role: Agentic AI Engineer Co-Op
@@ -2112,33 +1997,3 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: astreya-ai-infrastructure-dc-design-intern-0f2834
-  company: Astreya
-  role: AI Infrastructure DC Design Intern
-  location: Remote (US)
-  link: https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0015746
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-- id: astreya-ai-infrastructure-dc-design-intern-f379de
-  company: Astreya
-  role: AI Infrastructure DC Design Intern
-  location: Remote (US)
-  link: https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0015747
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: astreya-ai-infrastructure-dc-design-intern-0f2834
