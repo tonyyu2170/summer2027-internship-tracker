@@ -15,21 +15,24 @@
   possible_duplicate_of: null
   date_estimated: true
 - id: marsh-mclennan-oliver-wyman-actuarial-internship-summer-2027-81466e
-  company: Marsh McLennan
+  company: Oliver Wyman
   role: Oliver Wyman Actuarial - Internship - Summer 2027
-  location: New York, NY
-  link: https://mmc.wd1.myworkdayjobs.com/MMC/job/New-York---1166/Oliver-Wyman-Actuarial---Internship---Summer-2027_R_356561
-  date_posted: '2026-07-23'
+  location: New York, NY / Boston, MA / San Francisco, CA / Hartford, CT / Los Angeles,
+    CA / Philadelphia, PA / Houston, TX / Charlotte, NC / Milwaukee, WI / Washington,
+    DC / Seattle, WA / Chicago, IL / Atlanta, GA
+  link: https://careers.marsh.com/global/en/job/R_356561/Oliver-Wyman-Actuarial-Internship-Summer-2027
+  date_posted: '2026-07-26'
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
   - aggregator
+  - company:marsh-oliver-wyman
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-07-29'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: the-hartford-intern-actuarial-student-program-summer-2027-bd6c1a
   company: The Hartford
   role: Intern, Actuarial Student Program (Summer 2027)

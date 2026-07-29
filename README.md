@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-07-29 09:20 — 629 open roles._
+_Last updated: 2026-07-29 09:50 — 629 open roles. Last scrape: +0 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories.
 
@@ -734,7 +734,7 @@ US-based Summer 2027 internships across six role categories.
 
 | Company | Role | Location | Link | Date Posted | Term | Degree | Last Verified | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Oliver Wyman | Oliver Wyman Actuarial - Internship - Summer 2027 | New York, NY / Boston, MA / San Francisco, CA / Hartford, CT / Los Angeles, CA / Philadelphia, PA / Houston, TX / Charlotte, NC / Milwaukee, WI / Washington, DC / Seattle, WA / Chicago, IL / Atlanta, GA | [Apply](<https://careers.marsh.com/global/en/job/R_356561/Oliver-Wyman-Actuarial-Internship-Summer-2027>) | 2026-07-26 | Summer 2027 | BS | 2026-07-29 | 🟢 Open |
 | Genworth Financial | Genworth Actuarial Development Program Intern - Summer 2027 | Richmond, VA | [Apply](<https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential/job/Richmond-Virginia/Genworth-Actuarial-Development-Program-Intern---Summer-2027_REQ-260272>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
-| Marsh McLennan | Oliver Wyman Actuarial - Internship - Summer 2027 | New York, NY | [Apply](<https://mmc.wd1.myworkdayjobs.com/MMC/job/New-York---1166/Oliver-Wyman-Actuarial---Internship---Summer-2027_R_356561>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
 | The Hartford | Intern, Actuarial Student Program (Summer 2027) | Hartford, CT | [Apply](<https://thehartford.wd5.myworkdayjobs.com/Careers_Restricted/job/Hartford-CT/Intern--Actuarial-Student-Program--Summer-2027-_R2624619>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
 
