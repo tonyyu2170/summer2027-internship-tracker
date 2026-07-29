@@ -23,6 +23,7 @@ def test_new_posting_becomes_open_row():
     assert len(rows) == 1
     assert rows[0]["status"] == "open"
     assert rows[0]["date_added"] == TODAY
+    assert rows[0]["date_estimated"] is True
     assert rows[0]["sources"] == ["greenhouse"]
     assert summary["new"] == [rows[0]["id"]]
 
@@ -30,6 +31,17 @@ def test_new_posting_becomes_open_row():
 def test_missing_date_posted_falls_back_to_today():
     rows, _ = merge_category([], [_report([_posting()])], TODAY)
     assert rows[0]["date_posted"] == TODAY
+    assert rows[0]["date_estimated"] is True
+
+
+def test_explicit_date_posted_is_not_estimated_and_validates():
+    from schema import validate_row
+
+    rows, _ = merge_category(
+        [], [_report([_posting(date_posted="2026-07-15")])], TODAY)
+    assert rows[0]["date_posted"] == "2026-07-15"
+    assert rows[0]["date_estimated"] is False
+    assert validate_row(rows[0]) == []
 
 
 def test_non_us_posting_is_dropped():

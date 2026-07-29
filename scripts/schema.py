@@ -19,6 +19,7 @@ ROW_SCHEMA = {
         "location": {"type": "string", "minLength": 1},
         "link": {"type": "string", "minLength": 1},
         "date_posted": {"type": "string", "pattern": _DATE},
+        "date_estimated": {"type": "boolean"},
         "term": {"type": "string", "minLength": 1},
         "degree": {
             "type": "array", "minItems": 1,

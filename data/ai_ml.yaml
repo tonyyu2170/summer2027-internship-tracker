@@ -326,6 +326,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: meta-research-scientist-intern-monetization-computer-vision-phd-41a185
   company: Meta
   role: Research Scientist Intern - Monetization Computer Vision - PhD
@@ -490,6 +491,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: cadent-enterprise-ai-intern-89f80d
   company: Cadent
   role: Enterprise AI Intern
@@ -1263,6 +1265,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: fortinet-software-development-intern-genai-c00b76
   company: Fortinet
   role: Software Development Intern - GenAI
@@ -1279,6 +1282,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bytedance-machine-learning-engineer-intern-glo-620c2a
   company: ByteDance
   role: Machine Learning Engineer Intern (Glo...
@@ -1295,6 +1299,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bytedance-machine-learning-engineer-intern-glo-2d8070
   company: ByteDance
   role: Machine Learning Engineer Intern (Glo...
@@ -1311,6 +1316,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bytedance-machine-learning-engineer-intern-e-c-c72c34
   company: ByteDance
   role: Machine Learning Engineer Intern (E-C...
@@ -1327,6 +1333,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: boys-town-artificial-intelligence-machine-lea-e442c0
   company: Boys Town
   role: Artificial Intelligence & Machine Lea...
@@ -1343,6 +1350,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: institute-for-foundation-models-ai-research-internship-wm-6a4971
   company: Institute for Foundation Models
   role: AI Research Internship - WM
@@ -1359,6 +1367,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: plusai-deep-learning-intern-e6aaa5
   company: PlusAI
   role: Deep Learning Intern
@@ -1375,6 +1384,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: plusai-machine-learning-engineer-intern-cb8863
   company: PlusAI
   role: Machine Learning Engineer Intern
@@ -1391,6 +1401,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: plusai-machine-learning-engineer-intern-pl-529a36
   company: PlusAI
   role: Machine Learning Engineer Intern - Pl...
@@ -1407,6 +1418,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: fortinet-ai-intern-d9de77
   company: Fortinet
   role: AI Intern
@@ -1423,6 +1435,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: truveta-ml-phd-intern-llms-generative-ai-4e5d78
   company: Truveta
   role: ML PhD Intern - LLMs & Generative AI
@@ -1439,6 +1452,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: neuralink-machine-learning-engineer-intern-3205d9
   company: Neuralink
   role: Machine Learning Engineer Intern
@@ -1455,6 +1469,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: samaya-ai-ml-research-intern-2a424e
   company: Samaya AI
   role: ML Research Intern
@@ -1471,6 +1486,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: intuitive-computer-vision-engineering-intern-c3873f
   company: Intuitive
   role: Computer Vision Engineering Intern - ...
@@ -1488,6 +1504,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bytedance-applied-research-intern-ai-safety-s-3a3777
   company: ByteDance
   role: Applied Research Intern - AI Safety S...
@@ -1504,6 +1521,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bytedance-research-scientist-intern-seed-respo-1ec408
   company: ByteDance
   role: Research Scientist Intern (Seed Respo...
@@ -1520,6 +1538,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: tencent-research-intern-video-world-models-22f921
   company: Tencent
   role: Research Intern - Video World Models - Research & ML Systems
@@ -1553,6 +1572,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bosch-group-research-intern-world-action-model-cb0362
   company: Bosch Group
   role: Research Intern – World-Action Model ...
@@ -1569,6 +1589,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: tencent-hunyuan-multimodal-reinforcement-lear-f69dd7
   company: Tencent
   role: Hunyuan Multimodal Reinforcement Learning Research Intern
@@ -1634,6 +1655,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: sony-research-intern-on-generative-and-pro-b08a86
   company: Sony
   role: Research Intern on Generative and Pro...
@@ -1650,6 +1672,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: nissan-autonomous-driving-applications-resea-7521e8
   company: Nissan
   role: Autonomous Driving Applications Resea...
@@ -1666,6 +1689,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: together-ai-systems-research-engineer-intern-gp-9de310
   company: Together AI
   role: Systems Research Engineer Intern - GP...
@@ -1683,6 +1707,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: newsbreak-research-intern-agent-rl-training-bf51c7
   company: NewsBreak
   role: Research Intern, Agent RL Training
@@ -1699,6 +1724,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: plusai-reinforcement-learning-planning-resea-789a78
   company: PlusAI
   role: Reinforcement Learning Planning Resea...
@@ -1714,6 +1740,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: plusai-deep-learning-research-intern-29f3d9
   company: PlusAI
   role: Deep Learning Research Intern
@@ -1730,6 +1757,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: plusai-research-engineer-intern-mapping-75fcbf
   company: PlusAI
   role: Research Engineer Intern - Mapping & ...
@@ -1746,6 +1774,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: axiomatic-ai-internship-research-uncertainty-q-0cd516
   company: Axiomatic AI
   role: Internship - Research  (Uncertainty Q...
@@ -1762,6 +1791,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: haize-labs-research-intern-972de8
   company: Haize Labs
   role: Research Intern
@@ -1778,6 +1808,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bot-auto-intern-deep-learning-engineer-944a25
   company: Bot Auto
   role: Intern, Deep Learning Engineer
@@ -1858,6 +1889,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: manhattan-associates-a-i-developer-co-op-boston-ma-a7f3d1
   company: Manhattan Associates
   role: A.I. Developer Co-Op - Boston - MA
@@ -1952,6 +1984,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: campbell-soup-company-agentic-ai-engineer-co-op-4bbe1e
   company: Campbell Soup Company
   role: Agentic AI Engineer Co-Op
@@ -1967,6 +2000,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: campbell-soup-company-agentic-ai-engineer-co-op-ee0647
   company: Campbell Soup Company
   role: Agentic AI Engineer Co-Op
@@ -1982,6 +2016,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: campbell-soup-company-agentic-ai-engineer-co-op-4bbe1e
+  date_estimated: true
 - id: campbell-soup-company-business-analyst-co-op-da-ai-a715e6
   company: Campbell Soup Company
   role: Business Analyst (Co-op), DA&AI
@@ -1997,3 +2032,4 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true

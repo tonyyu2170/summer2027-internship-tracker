@@ -280,6 +280,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: epic-software-developer-intern-12c9bd
   company: Epic
   role: Software Developer Intern
@@ -297,6 +298,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: salesforce-software-engineer-intern-futureforce-d47847
   company: Salesforce
   role: Software Engineer Intern (Futureforce)
@@ -316,6 +318,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: podium-software-engineering-intern-bfbc3b
   company: Podium
   role: Software Engineering Intern
@@ -335,6 +338,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: kudu-dynamics-software-engineer-intern-1-59088d
   company: Kudu Dynamics
   role: Software Engineer Intern (1)
@@ -354,6 +358,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: kudu-dynamics-software-engineer-intern-2-eeb983
   company: Kudu Dynamics
   role: Software Engineer Intern (2)
@@ -372,6 +377,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: kudu-dynamics-software-engineer-intern-3-07c1f0
   company: Kudu Dynamics
   role: Software Engineer Intern (3)
@@ -390,6 +396,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: nash-full-stack-engineering-intern-36f4a5
   company: Nash
   role: Full Stack Engineering Intern
@@ -408,6 +415,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: naive-software-engineer-intern-8cecef
   company: Naive
   role: Software Engineer Intern
@@ -425,6 +433,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: paragon-forward-deployed-engineer-intern-6dece6
   company: Paragon
   role: Forward Deployed Engineer Intern
@@ -443,6 +452,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: dimehealth-ai-forward-deployed-engineering-intern-7b7340
   company: DimeHealth AI
   role: Forward Deployed Engineering Intern
@@ -460,6 +470,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: google-software-engineering-intern-ms-summer-2027-456a39
   company: Google
   role: Software Engineering Intern - MS - Summer 2027
@@ -1606,6 +1617,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bytedance-security-engineering-project-intern-7ec665
   company: ByteDance
   role: Security Engineering Project Intern (...
@@ -1622,6 +1634,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bytedance-site-reliability-engineer-project-int-3fdaef
   company: ByteDance
   role: Site Reliability Engineer Project Int...
@@ -1638,6 +1651,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: western-digital-summer-2027-software-engineering-in-4480b2
   company: Western Digital
   role: Summer 2027 - Software Engineering In...
@@ -1658,6 +1672,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: uber-2027-software-engineering-internship-d52f1b
   company: Uber
   role: 2027 Software Engineering Internship,...
@@ -1673,6 +1688,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: schweitzer-engineering-laboratories-software-engineer-intern-e0fb91
   company: Schweitzer Engineering Laboratories
   role: Software Engineer Intern
@@ -1706,6 +1722,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: tiktok-software-engineer-intern-recommendat-40b705
   company: TikTok
   role: Software Engineer Intern (Recommendat...
@@ -1722,6 +1739,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: tiktok-frontend-engineer-project-intern-tik-9b4c1e
   company: TikTok
   role: Frontend Engineer Project Intern (Tik...
@@ -1738,6 +1756,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: palantir-forward-deployed-infrastructure-engin-8b9d74
   company: Palantir
   role: Forward Deployed Infrastructure Engin...
@@ -1753,6 +1772,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: palantir-forward-deployed-infrastructure-engin-247e3a
   company: Palantir
   role: Forward Deployed Infrastructure Engin...
@@ -1768,6 +1788,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: agilent-technologies-intern-r-d-software-engineering-ai-bdf15c
   company: Agilent Technologies
   role: Intern - R&D Software Engineering (AI...
@@ -1784,6 +1805,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: cadence-software-engineering-intern-513d15
   company: Cadence
   role: Software Engineering Intern
@@ -1800,6 +1822,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: cadence-software-intern-896986
   company: Cadence
   role: Software Intern
@@ -1833,6 +1856,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: cisive-intern-software-developer-22aad2
   company: Cisive
   role: Intern- Software Developer
@@ -1849,6 +1873,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: cadence-university-software-intern-12de74
   company: Cadence (University)
   role: Software Intern
@@ -1865,6 +1890,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: cadence-university-software-engineering-intern-3a460d
   company: Cadence (University)
   role: Software Engineering Intern
@@ -1881,6 +1907,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: neighborly-application-developer-intern-1d4e40
   company: Neighborly
   role: Application Developer Intern
@@ -1897,6 +1924,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: ambarella-software-development-engineer-intern-fc6182
   company: Ambarella
   role: Software Development Engineer Intern
@@ -1913,6 +1941,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: ambarella-software-engineer-intern-ba4edd
   company: Ambarella
   role: Software Engineer Intern
@@ -1929,6 +1958,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: idexx-security-operations-cybersecurity-i-9825bf
   company: IDEXX
   role: Security Operations (Cybersecurity) i...
@@ -1945,6 +1975,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: circleback-software-engineering-intern-summer-2-26e7bd
   company: Circleback
   role: Software Engineer Intern
@@ -1980,6 +2011,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: clarity-innovations-junior-software-engineer-internship-3e878f
   company: Clarity Innovations
   role: Junior Software Engineer Internship
@@ -1997,6 +2029,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: rivian-and-volkswagen-group-technologies-software-engineering-intern-vehicle-c26f3f
   company: Rivian and Volkswagen Group Technologies
   role: Software Engineering Intern - Vehicle...
@@ -2014,6 +2047,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: rivian-and-volkswagen-group-technologies-software-engineering-intern-applica-005501
   company: Rivian and Volkswagen Group Technologies
   role: Software Engineering Intern - Applica...
@@ -2031,6 +2065,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: transmarket-group-devops-sre-intern-69f226
   company: TransMarket Group
   role: DevOps/SRE Intern
@@ -2048,6 +2083,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: base-power-software-engineering-intern-91cac3
   company: Base Power
   role: Software Engineering Intern
@@ -2064,6 +2100,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: plusai-systems-engineering-intern-627951
   company: PlusAI
   role: Systems Engineering Intern
@@ -2080,6 +2117,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: plusai-systems-engineering-intern-2269a0
   company: PlusAI
   role: Systems Engineering Intern
@@ -2096,6 +2134,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: plusai-systems-engineering-intern-c50281
   company: PlusAI
   role: Systems Engineering Intern
@@ -2112,6 +2151,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: oracle-oci-software-engineer-intern-ovip-ba1d79
   company: Oracle
   role: OCI Software Engineer Intern - OVIP
@@ -2128,6 +2168,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: oracle-oci-software-engineer-intern-ovip-eb17d6
   company: Oracle
   role: OCI Software Engineer Intern - OVIP
@@ -2144,6 +2185,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: oracle-gdi-information-security-analyst-inte-9bed4e
   company: Oracle
   role: GDI Information Security Analyst Inte...
@@ -2160,6 +2202,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: neuralink-it-systems-administrator-intern-851399
   company: Neuralink
   role: IT Systems Administrator Intern
@@ -2176,6 +2219,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: astranis-software-engineer-backend-intern-fa-9ced81
   company: Astranis
   role: Software Engineer- Backend Intern (Fa...
@@ -2192,6 +2236,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: amazon-com-services-llc-software-development-engineer-intern-bbcc67
   company: Amazon.com Services LLC
   role: Software Development Engineer Intern,...
@@ -2208,6 +2253,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: copart-database-engineering-intern-f2832e
   company: Copart
   role: Database Engineering Intern
@@ -2375,6 +2421,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: deepgram-software-engineering-internship-fall-2026-summer-2027-d9a1ed
   company: Deepgram
   role: Software Engineering- Internship (Fall 2026/Summer 2027)
@@ -2393,6 +2440,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: ge-healthcare-engineering-development-program-intern-software-bf3429
   company: GE Healthcare
   role: Engineering Development Program Intern - Software
@@ -2471,6 +2519,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: aveva-software-developer-intern-drexel-co-op-us-c5904f
   company: AVEVA
   role: Software Developer Intern - Drexel Co-op (US)
@@ -2548,6 +2597,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: chevron-2026-2027-information-technology-software-engineer-intern-755feb
   company: Chevron
   role: 2026-2027 Information Technology - Software Engineer - Intern
@@ -2839,6 +2889,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: jane-street-tools-and-compilers-research-and-development-intern-39854b
   company: Jane Street
   role: Tools and Compilers Research and Development Intern
@@ -2854,6 +2905,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: google-software-engineering-intern-f883c1
   company: Google
   role: Software Engineering Intern
@@ -2870,6 +2922,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: akuna-capital-software-engineer-intern-c-net-desktop-31c020
   company: Akuna Capital
   role: Software Engineer Intern, C# .NET Desktop
@@ -2886,6 +2939,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: akuna-capital-software-engineer-intern-full-stack-web-9e42cb
   company: Akuna Capital
   role: Software Engineer Intern, Full Stack Web
@@ -2902,6 +2956,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: akuna-capital-python-software-engineer-intern-f0144a
   company: Akuna Capital
   role: Python Software Engineer Intern
@@ -2918,6 +2973,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: akuna-capital-platform-engineer-intern-d573e9
   company: Akuna Capital
   role: Platform Engineer Intern
@@ -2934,6 +2990,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: akuna-capital-software-engineer-intern-c-de21d8
   company: Akuna Capital
   role: Software Engineer Intern, C++
@@ -2950,6 +3007,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: amazon-robotics-software-development-engineer-intern-co-op-dc1024
   company: Amazon
   role: Robotics - Software Development Engineer Intern/Co-op
@@ -2995,6 +3053,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: sentara-health-cyber-security-compliance-intern-7e72e1
   company: Sentara Health
   role: Cyber Security Compliance Intern
@@ -3079,6 +3138,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: tiktok-software-engineer-intern-quality-and-efficiency-technology-2026-summer-bs-ms-db655f
   company: TikTok
   role: Software Engineer Intern - Quality and Efficiency Technology - 2026 Summer
@@ -3095,6 +3155,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: tiktok-software-engineer-project-intern-recommendation-infrastructure-tiktok-video-social-2026-start-bs-ms-3822d5
   company: TikTok
   role: Software Engineer Project Intern - Recommendation Infrastructure - TikTok
@@ -3111,6 +3172,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: tiktok-software-engineer-project-intern-model-infrastructure-2026-start-bs-ms-8b6bf6
   company: TikTok
   role: Software Engineer Project Intern - Model Infrastructure - 2026 Start - BS/MS
@@ -3126,6 +3188,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: jane-street-software-engineer-winter-co-op-34623b
   company: Jane Street
   role: Software Engineer Winter Co-Op
@@ -3141,6 +3204,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: hp-software-engineering-intern-device-experiences-c1f81a
   company: HP
   role: Software Engineering Intern - Device Experiences
@@ -3156,6 +3220,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: hewlett-packard-hp-software-engineering-intern-device-experiences-2f807f
+  date_estimated: true
 - id: charles-river-analytics-software-qa-tester-intern-co-op-06c64c
   company: Charles River Analytics
   role: Software QA Tester Intern/Co-op
@@ -3171,6 +3236,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: altom-transport-fall-software-development-intern-d55b0d
   company: Altom Transport
   role: Fall Software Development Intern
@@ -3186,6 +3252,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: altom-transport-fall-software-development-intern-121b4f
   company: Altom Transport
   role: Fall Software Development Intern
@@ -3201,6 +3268,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: altom-transport-fall-software-development-intern-d55b0d
+  date_estimated: true
 - id: altom-transport-fall-software-development-intern-d039d4
   company: Altom Transport
   role: Fall Software Development Intern
@@ -3216,6 +3284,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: altom-transport-fall-software-development-intern-d55b0d
+  date_estimated: true
 - id: appian-software-engineering-intern-9d4b40
   company: Appian
   role: Software Engineering Intern
@@ -3246,6 +3315,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: astranis-software-engineer-intern-enterprise-330766
   company: Astranis
   role: Software Engineer Intern - Enterprise...
@@ -3261,6 +3331,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bosch-group-quality-engineering-intern-co-op-6c2272
   company: Bosch Group
   role: Quality Engineering Intern / Co-op - ...
@@ -3276,6 +3347,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: motorola-solutions-intern-web-interface-software-engin-ce94c8
   company: Motorola Solutions
   role: Intern – Web Interface Software Engin...
@@ -3291,6 +3363,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: beacon-software-software-engineering-intern-4f944c
   company: Beacon Software
   role: Software Engineering Intern
@@ -3306,6 +3379,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: beacon-software-software-engineering-intern-b35cec
+  date_estimated: true
 - id: rainmaker-software-engineering-intern-b626a4
   company: Rainmaker
   role: Software Engineering Intern
@@ -3321,6 +3395,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: rainmaker-software-engineering-intern-29f798
+  date_estimated: true
 - id: smiths-group-mechanical-engineering-co-op-94713a
   company: Smiths Group
   role: Mechanical Engineering Co-Op
@@ -3336,6 +3411,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: smiths-group-mechanical-engineering-co-op-9ab00d
   company: Smiths Group
   role: Mechanical Engineering Co-Op
@@ -3351,6 +3427,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: smiths-group-mechanical-engineering-co-op-94713a
+  date_estimated: true
 - id: baker-hughes-intern-mechanical-engineering-mec-5f51dc
   company: Baker Hughes
   role: Intern – Mechanical Engineering & Mec...
@@ -3366,6 +3443,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: cadence-university-product-engineering-internship-simul-dc0ec1
   company: Cadence (University)
   role: Product Engineering Internship, Simul...
@@ -3381,6 +3459,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: marmon-holdings-engineering-intern-co-op-751577
   company: Marmon Holdings
   role: Engineering Intern Co-op
@@ -3396,6 +3475,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: marmon-holdings-digital-production-engineering-intern-24f251
   company: Marmon Holdings
   role: Digital Production Engineering Intern...
@@ -3411,6 +3491,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: motorola-solutions-intern-mechanical-engineer-2026-61e529
   company: Motorola Solutions
   role: Intern - Mechanical Engineer - 2026
@@ -3426,6 +3507,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bosch-group-industrial-engineering-intern-7db05e
   company: Bosch Group
   role: Industrial Engineering Intern
@@ -3441,6 +3523,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: mariana-minerals-chemical-engineering-intern-2016b1
   company: Mariana Minerals
   role: Chemical Engineering Intern
@@ -3456,6 +3539,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: rocket-lab-manufacturing-engineering-intern-fall-394eb8
   company: Rocket Lab
   role: Manufacturing Engineering Intern Fall...
@@ -3471,6 +3555,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: safari-ai-gtm-engineering-intern-14417d
   company: Safari AI
   role: GTM Engineering Intern
@@ -3486,6 +3571,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: figure-ai-electrical-engineering-intern-fall-2-8c323e
   company: Figure AI
   role: Electrical Engineering Intern [Fall 2...
@@ -3501,6 +3587,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: shield-ai-electrical-engineering-spring-co-op-debc16
   company: Shield AI
   role: Electrical Engineering Spring Co-op (...
@@ -3516,6 +3603,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: figure-ai-validation-engineering-intern-fall-2-6a0a9f
   company: Figure AI
   role: Validation Engineering Intern [Fall 2...
@@ -3531,6 +3619,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: plusai-research-engineer-intern-3b6d0e
   company: PlusAI
   role: Research Engineer Intern
@@ -3546,6 +3635,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bosch-group-manufacturing-engineering-operations-ce584e
   company: Bosch Group
   role: Manufacturing Engineering/Operations ...
@@ -3561,6 +3651,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: coca-cola-co-op-engineering-technician-9fb6e8
   company: Coca-Cola
   role: Co-Op - Engineering Technician
@@ -3576,6 +3667,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: menasha-corporation-application-engineer-intern-fall-win-5da17b
   company: Menasha Corporation
   role: Application Engineer Intern (Fall/Win...
@@ -3591,6 +3683,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: microchip-technology-intern-equipment-engineering-technic-28e659
   company: Microchip Technology
   role: Intern- Equipment Engineering Technic...
@@ -3606,6 +3699,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: microchip-technology-intern-equipment-engineering-technici-38eed3
   company: Microchip Technology
   role: Intern-Equipment Engineering Technici...
@@ -3621,3 +3715,4 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true

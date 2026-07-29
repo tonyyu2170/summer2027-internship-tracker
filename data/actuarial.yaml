@@ -13,6 +13,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: marsh-mclennan-oliver-wyman-actuarial-internship-summer-2027-81466e
   company: Marsh McLennan
   role: Oliver Wyman Actuarial - Internship - Summer 2027
@@ -28,6 +29,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: the-hartford-intern-actuarial-student-program-summer-2027-bd6c1a
   company: The Hartford
   role: Intern, Actuarial Student Program (Summer 2027)
@@ -43,3 +45,4 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true

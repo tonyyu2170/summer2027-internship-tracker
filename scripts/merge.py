@@ -63,6 +63,7 @@ def merge_category(existing_rows, fetch_reports, today):
                 "location": canon_loc,
                 "link": p["link"],
                 "date_posted": p.get("date_posted") or today,
+                "date_estimated": p.get("date_posted") is None,
                 "term": p["term"],
                 "degree": p["degree"],
                 "status": "closed" if p.get("closed_marker") else "open",

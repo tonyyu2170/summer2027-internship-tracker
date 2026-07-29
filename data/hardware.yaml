@@ -17,6 +17,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: citadel-securities-hardware-engineer-fpga-2c9948
   company: Citadel Securities
   role: Hardware Engineer (FPGA)
@@ -33,6 +34,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: drw-fpga-engineer-1147ab
   company: DRW
   role: FPGA Engineer
@@ -49,6 +51,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-24'
   possible_duplicate_of: null
+  date_estimated: true
 - id: imc-trading-hardware-engineer-fd5c49
   company: IMC Trading
   role: Hardware Engineer
@@ -67,6 +70,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: jane-street-fpga-engineer-7bf9ea
   company: Jane Street
   role: FPGA Engineer
@@ -85,6 +89,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: second-order-effects-electrical-engineering-intern-summer-2027-13520f
   company: Second Order Effects
   role: Electrical Engineering Intern (Summer 2027)
@@ -396,6 +401,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: the-exploration-company-crew-systems-engineering-intern-mec-a35ad9
   company: The Exploration Company
   role: Crew Systems Engineering Intern - Mec...
@@ -412,6 +418,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: magna-intern-systems-engineering-b2b310
   company: Magna
   role: Intern - Systems Engineering
@@ -428,6 +435,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: formlabs-manufacturing-test-software-intern-f-46b7bf
   company: Formlabs
   role: Manufacturing Test Software Intern (F...
@@ -443,6 +451,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: hermeus-subsystem-test-engineering-intern-f-18fb1f
   company: Hermeus
   role: Subsystem Test Engineering Intern - F...
@@ -459,6 +468,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: astranis-environmental-test-engineer-associate-ac1d2a
   company: Astranis
   role: Environmental Test Engineer Associate...
@@ -474,6 +484,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: true-anomaly-avionics-and-electrical-engineering-f-e1061e
   company: True Anomaly
   role: Avionics and Electrical Engineering F...
@@ -490,6 +501,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: contoro-robotics-robotics-engineer-intern-test-val-6834ae
   company: Contoro Robotics
   role: Robotics Engineer Intern - Test & Val...
@@ -506,6 +518,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: huntsman-mechanical-engineering-intern-1a4dee
   company: Huntsman
   role: Mechanical Engineering Intern
@@ -522,6 +535,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: huntsman-electrical-engineering-intern-259c59
   company: Huntsman
   role: Electrical Engineering Intern
@@ -538,6 +552,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: schweitzer-engineering-laboratories-engineering-intern-d4c302
   company: Schweitzer Engineering Laboratories
   role: Engineering Intern
@@ -555,6 +570,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: ge-aerospace-unison-engineering-intern-summer-2027-44d6fa
   company: GE Aerospace
   role: Unison Engineering Intern - Summer 2027
@@ -572,6 +588,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: teledyne-mechanical-engineering-intern-36b5c0
   company: Teledyne
   role: Mechanical Engineering Intern
@@ -588,6 +605,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: schweitzer-engineering-laboratories-power-engineer-intern-67c5e8
   company: Schweitzer Engineering Laboratories
   role: Power Engineer Intern
@@ -604,6 +622,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: agilent-technologies-electrical-engineering-intern-48b475
   company: Agilent Technologies
   role: Electrical Engineering Intern
@@ -620,6 +639,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: wsp-electrical-engineering-intern-substa-58615e
   company: WSP
   role: Electrical Engineering Intern (Substa...
@@ -636,6 +656,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: jump-trading-campus-fpga-engineer-intern-6ab7eb
   company: Jump Trading
   role: Campus FPGA Engineer (Intern)
@@ -652,6 +673,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: tencent-mechanical-engineering-intern-bc4621
   company: Tencent
   role: Mechanical Engineering Intern
@@ -668,6 +690,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: crane-co-sustaining-engineering-intern-0af3f0
   company: Crane Co.
   role: Sustaining Engineering Intern
@@ -684,6 +707,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: crane-co-sustaining-engineering-intern-caa526
   company: Crane Co.
   role: Sustaining Engineering Intern
@@ -700,6 +724,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: curtiss-wright-mechanical-engineering-intern-b5590f
   company: Curtiss-Wright
   role: Mechanical Engineering Intern
@@ -716,6 +741,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: borgwarner-mechanical-engineering-intern-adv-f8d459
   company: BorgWarner
   role: Mechanical Engineering Intern – Adv. ...
@@ -732,6 +758,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: generac-intern-firmware-engineering-c86e1e
   company: Generac
   role: Intern Firmware Engineering
@@ -748,6 +775,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bio-techne-hardware-engineering-intern-29b496
   company: Bio-Techne
   role: Hardware Engineering Intern
@@ -764,6 +792,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: marmon-holdings-mechanical-engineer-intern-afb7a2
   company: Marmon Holdings
   role: Mechanical Engineer Intern
@@ -780,6 +809,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: generac-mechanical-design-engineering-intern-7c0f07
   company: Generac
   role: Mechanical Design Engineering Intern
@@ -796,6 +826,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: borgwarner-validation-intern-year-round-633d76
   company: BorgWarner
   role: Validation Intern (Year-Round)
@@ -812,6 +843,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: borgwarner-validation-intern-year-round-8fc9f4
   company: BorgWarner
   role: Validation Intern (Year-Round)
@@ -828,6 +860,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: nidec-manufacturing-engineering-intern-be81f3
   company: Nidec
   role: manufacturing engineering intern
@@ -844,6 +877,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: nidec-electrical-engineer-intern-dbd5bf
   company: Nidec
   role: Electrical Engineer Intern
@@ -860,6 +894,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: zipline-supplier-industrialization-engineerin-325ed8
   company: Zipline
   role: Supplier Industrialization Engineerin...
@@ -876,6 +911,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: anduril-2027-mechanical-engineer-intern-8420b9
   company: Anduril
   role: 2027 Mechanical Engineer Intern
@@ -892,6 +928,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: anduril-2027-electrical-engineer-intern-610c50
   company: Anduril
   role: 2027 Electrical Engineer Intern
@@ -908,6 +945,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bosch-group-mechanical-design-engineering-intern-fced6a
   company: Bosch Group
   role: Mechanical Design Engineering Intern
@@ -924,6 +962,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: rivian-and-volkswagen-group-technologies-electromechanical-design-engineering-b73869
   company: Rivian and Volkswagen Group Technologies
   role: Electromechanical Design Engineering ...
@@ -940,6 +979,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: base-power-firmware-engineering-intern-9d743d
   company: Base Power
   role: Firmware Engineering Intern
@@ -956,6 +996,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: base-power-hardware-engineering-intern-becbe7
   company: Base Power
   role: Hardware Engineering Intern
@@ -972,6 +1013,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: base-power-manufacturing-engineering-intern-f9e18a
   company: Base Power
   role: Manufacturing Engineering Intern
@@ -988,6 +1030,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bosch-group-electronics-engineering-intern-8d175b
   company: Bosch Group
   role: Electronics Engineering Intern
@@ -1004,6 +1047,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: astranis-mechanical-engineer-associate-progr-8b8d60
   company: Astranis
   role: Mechanical Engineer - Associate Progr...
@@ -1020,6 +1064,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: human-computer-lab-intern-electrical-engineer-aa8d73
   company: Human Computer Lab
   role: Intern - Electrical Engineer
@@ -1036,6 +1081,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: layup-parts-electrical-engineering-intern-ffe66c
   company: Layup Parts
   role: Electrical Engineering Intern
@@ -1052,6 +1098,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: asm-manufacturing-engineering-intern-spr-01aa07
   company: ASM
   role: Manufacturing Engineering Intern (Spr...
@@ -1068,6 +1115,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: varda-space-mechanical-engineering-internship-f-1c92fd
   company: Varda Space
   role: Mechanical Engineering Internship - F...
@@ -1084,6 +1132,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: neuralink-manufacturing-intern-surgery-robot-da6979
   company: Neuralink
   role: Manufacturing Intern, Surgery & Robot...
@@ -1100,6 +1149,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: figure-ai-integration-and-test-mechanical-eng-3b11bf
   company: Figure AI
   role: Integration and Test - Mechanical Eng...
@@ -1116,6 +1166,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: neuralink-firmware-engineer-intern-robotics-an-a0c189
   company: Neuralink
   role: Firmware Engineer Intern, Robotics an...
@@ -1132,6 +1183,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: astranis-hardware-design-intern-software-defi-9ae03f
   company: Astranis
   role: Hardware Design Intern, Software Defi...
@@ -1149,6 +1201,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: astranis-hardware-design-associate-software-d-c28249
   company: Astranis
   role: Hardware Design Associate, Software D...
@@ -1165,6 +1218,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: marvell-design-dsp-verification-intern-phd-061746
   company: Marvell
   role: Design/DSP/Verification Intern - PhD ...
@@ -1181,6 +1235,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: ambarella-asic-design-engineer-intern-7b4044
   company: Ambarella
   role: ASIC Design Engineer Intern
@@ -1197,6 +1252,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: astreya-dc-design-engineer-intern-76acb7
   company: Astreya
   role: DC Design Engineer - Intern
@@ -1213,6 +1269,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bosch-group-hardware-embedded-research-intern-db772c
   company: Bosch Group
   role: Hardware & Embedded Research Intern (...
@@ -1228,6 +1285,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: bosch-group-wireless-sensing-research-intern-e69966
   company: Bosch Group
   role: Wireless Sensing Research Intern
@@ -1244,6 +1302,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: neuralink-analog-and-mixed-signal-ic-design-eng-e44ab4
   company: Neuralink
   role: Analog and Mixed-Signal IC Design Eng...
@@ -1260,6 +1319,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: sila-nanotechnologies-battery-simulation-computational-sc-11628a
   company: Sila Nanotechnologies
   role: Battery Simulation & Computational Sc...
@@ -1276,6 +1336,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: neuralink-digital-ic-design-engineer-intern-e72ffa
   company: Neuralink
   role: Digital IC Design Engineer Intern
@@ -1292,6 +1353,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: drw-fpga-intern-c33664
   company: DRW
   role: FPGA Intern
@@ -1308,6 +1370,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: unison-ge-aerospace-engineering-intern-summer-2027-943d1e
   company: Unison (GE Aerospace)
   role: Engineering Intern (Summer 2027)
@@ -1325,6 +1388,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: tsmc-arizona-engineering-intern-12-roles-process-equipment-cim-software-78811d
   company: TSMC Arizona
   role: 'Engineering Intern (12 roles: process, equipment, CIM / software)'
@@ -1341,6 +1405,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: spectrum-control-engineering-intern-8f527f
   company: Spectrum Control
   role: Engineering Intern
@@ -1497,6 +1562,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: optiver-fpga-engineer-intern-748c5a
   company: Optiver
   role: FPGA Engineer Intern
@@ -1529,3 +1595,4 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true

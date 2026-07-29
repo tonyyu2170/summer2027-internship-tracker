@@ -15,6 +15,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: ernst-young-assurance-intern-97dadb
   company: Ernst & Young
   role: Assurance Intern
@@ -30,6 +31,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: pricewaterhousecoopers-pwc-tax-jd-associate-766c0b
   company: PricewaterhouseCoopers (PwC)
   role: Tax JD Associate
@@ -45,6 +47,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: kearney-company-it-audit-intern-summer-2027-8e63f3
   company: Kearney & Company
   role: IT Audit Intern (Summer 2027)
@@ -60,6 +63,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: databricks-product-management-intern-summer-2027-3d07a5
   company: Databricks
   role: Product Management Intern (Summer 2027)
@@ -76,6 +80,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: capital-one-product-development-internship-program-summer-2027-5876e4
   company: Capital One
   role: Product Development Internship Program (Summer 2027)
@@ -92,6 +97,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: salesforce-associate-product-manager-intern-apm-dfd630
   company: Salesforce
   role: Associate Product Manager Intern (APM)
@@ -110,6 +116,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: amazon-operations-finance-rotational-program-intern-ccff5f
   company: Amazon
   role: Operations Finance Rotational Program Intern
@@ -125,6 +132,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: solar-turbines-caterpillar-business-analyst-intern-2027-fb3f9b
   company: Solar Turbines (Caterpillar)
   role: Business Analyst Intern (2027)
@@ -170,3 +178,4 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true

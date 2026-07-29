@@ -300,6 +300,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: moog-intern-it-computer-science-data-an-224620
   company: Moog
   role: Intern - IT Computer Science - Data Analytics
@@ -332,6 +333,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: ardian-data-scientist-intern-a125af
   company: Ardian
   role: Data Scientist Intern
@@ -348,6 +350,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: nrel-graduate-year-round-intern-geospat-4b701b
   company: NREL
   role: 'Graduate (Year-Round) Intern: Geospat...'
@@ -364,6 +367,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: eurofins-business-intelligence-intern-a92c1f
   company: Eurofins
   role: Business Intelligence Intern
@@ -380,6 +384,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: rivian-and-volkswagen-group-technologies-data-engineering-intern-ai-analyt-0a725d
   company: Rivian and Volkswagen Group Technologies
   role: Data Engineering Intern - AI & Analyt...
@@ -397,6 +402,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: evolver-applied-data-science-intern-b3beed
   company: Evolver
   role: Applied Data Science Intern
@@ -413,6 +419,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: faire-data-science-intern-307131
   company: Faire
   role: Data Science Intern
@@ -429,6 +436,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: docugami-data-science-phd-intern-5f8265
   company: Docugami
   role: Data Science PhD Intern
@@ -445,6 +453,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: hirevue-data-science-intern-fully-remote-us-9edf01
   company: HireVue
   role: Data Science Intern / Fully Remote US
@@ -667,6 +676,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: national-interstate-insurance-catastrophe-modeling-data-analytics-29b939
   company: National Interstate Insurance
   role: Catastrophe Modeling & Data Analytics...
@@ -682,6 +692,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: integra-fec-fall-data-scientist-intern-phd-c89985
   company: Integra FEC
   role: (FALL) Data Scientist Intern - PhD
@@ -697,6 +708,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: integra-fec-fall-data-analyst-intern-4d6ba0
   company: Integra FEC
   role: (FALL) Data Analyst Intern
@@ -712,6 +724,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: baker-hughes-intern-systems-data-analysis-ce-0bdc55
   company: Baker Hughes
   role: Intern – Systems & Data Analysis – Ce...
@@ -727,3 +740,4 @@
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true

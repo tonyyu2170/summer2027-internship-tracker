@@ -38,3 +38,8 @@ def test_bad_date_format_is_error():
 def test_track_is_optional():
     row = {k: v for k, v in VALID.items() if k != "track"}
     assert validate_row(row) == []
+
+
+def test_date_estimated_is_optional_boolean():
+    assert validate_row({**VALID, "date_estimated": True}) == []
+    assert validate_row({**VALID, "date_estimated": "true"})

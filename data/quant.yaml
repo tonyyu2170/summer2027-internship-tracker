@@ -19,6 +19,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: akuna-capital-quantitative-researcher-25b3ea
   company: Akuna Capital
   role: Quantitative Researcher
@@ -40,6 +41,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: akuna-capital-software-engineer-c-07a1c1
   company: Akuna Capital
   role: Software Engineer (C++)
@@ -62,6 +64,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: akuna-capital-software-engineer-python-6f6dea
   company: Akuna Capital
   role: Software Engineer (Python)
@@ -85,6 +88,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: akuna-capital-software-engineer-c-net-44545a
   company: Akuna Capital
   role: Software Engineer (C# .NET)
@@ -106,6 +110,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: akuna-capital-software-engineer-full-stack-web-975720
   company: Akuna Capital
   role: Software Engineer (Full Stack Web)
@@ -127,6 +132,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: akuna-capital-software-engineer-platform-753c74
   company: Akuna Capital
   role: Software Engineer (Platform)
@@ -146,6 +152,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: aquatic-software-engineer-387eea
   company: Aquatic
   role: Software Engineer
@@ -170,6 +177,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: aquatic-quantitative-researcher-857973
   company: Aquatic
   role: Quantitative Researcher
@@ -191,6 +199,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: citadel-securities-quantitative-trader-404d0f
   company: Citadel Securities
   role: Quantitative Trader
@@ -208,6 +217,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: citadel-securities-quantitative-researcher-696cd0
   company: Citadel Securities
   role: Quantitative Researcher
@@ -225,6 +235,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: citadel-securities-quantitative-researcher-d49fa7
   company: Citadel Securities
   role: Quantitative Researcher
@@ -242,6 +253,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: citadel-securities-quantitative-researcher-qr-engineer-bfdd1b
   company: Citadel Securities
   role: Quantitative Researcher (QR Engineer)
@@ -260,6 +272,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: citadel-securities-machine-learning-researcher-5c7586
   company: Citadel Securities
   role: Machine Learning Researcher
@@ -277,6 +290,7 @@
   last_verified: '2026-07-24'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: citadel-securities-software-engineer-2e764e
   company: Citadel Securities
   role: Software Engineer
@@ -296,6 +310,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: citadel-quantitative-trader-3e20d6
   company: Citadel
   role: Quantitative Trader
@@ -313,6 +328,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: citadel-quantitative-researcher-ceb687
   company: Citadel
   role: Quantitative Researcher
@@ -330,6 +346,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: citadel-software-engineer-b7b4a5
   company: Citadel
   role: Software Engineer
@@ -350,6 +367,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: drw-quantitative-researcher-ef083d
   company: DRW
   role: Quantitative Researcher
@@ -368,6 +386,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: drw-software-engineer-3fd2b0
   company: DRW
   role: Software Engineer
@@ -386,6 +405,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: five-rings-quantitative-trader-316f53
   company: Five Rings
   role: Quantitative Trader
@@ -408,6 +428,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: five-rings-quantitative-researcher-2e6963
   company: Five Rings
   role: Quantitative Researcher
@@ -429,6 +450,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: five-rings-software-engineer-0432f9
   company: Five Rings
   role: Software Engineer
@@ -454,6 +476,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: flow-traders-quantitative-trader-66e07c
   company: Flow Traders
   role: Quantitative Trader
@@ -471,6 +494,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: hudson-river-trading-quantitative-researcher-696bd5
   company: Hudson River Trading
   role: Quantitative Researcher
@@ -489,6 +513,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: hudson-river-trading-quantitative-researcher-3ced01
   company: Hudson River Trading
   role: Quantitative Researcher
@@ -508,6 +533,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: hudson-river-trading-software-engineer-af9421
   company: Hudson River Trading
   role: Software Engineer
@@ -530,6 +556,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: imc-trading-quantitative-trader-b45a2d
   company: IMC Trading
   role: Quantitative Trader
@@ -548,6 +575,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: imc-trading-quantitative-researcher-44d4ec
   company: IMC Trading
   role: Quantitative Researcher
@@ -568,6 +596,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: imc-trading-quantitative-researcher-46ed6a
   company: IMC Trading
   role: Quantitative Researcher
@@ -587,6 +616,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: imc-trading-software-engineer-58efe6
   company: IMC Trading
   role: Software Engineer
@@ -607,6 +637,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jane-street-quantitative-trader-2c53cb
   company: Jane Street
   role: Quantitative Trader
@@ -627,6 +658,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: jane-street-quantitative-researcher-6fbe73
   company: Jane Street
   role: Quantitative Researcher
@@ -647,6 +679,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: jane-street-quantitative-researcher-ml-1f186b
   company: Jane Street
   role: Quantitative Researcher (ML)
@@ -667,6 +700,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: jane-street-software-engineer-47066e
   company: Jane Street
   role: Software Engineer
@@ -687,6 +721,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: old-mission-software-engineer-96879a
   company: Old Mission
   role: Software Engineer
@@ -710,6 +745,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: optiver-quantitative-trader-9e5766
   company: Optiver
   role: Quantitative Trader
@@ -729,6 +765,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: optiver-quantitative-researcher-0fb0eb
   company: Optiver
   role: Quantitative Researcher
@@ -748,6 +785,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: optiver-quantitative-researcher-a4328e
   company: Optiver
   role: Quantitative Researcher
@@ -767,6 +805,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: optiver-software-engineer-0212ad
   company: Optiver
   role: Software Engineer
@@ -787,6 +826,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: optiver-software-engineer-755824
   company: Optiver
   role: Software Engineer
@@ -808,6 +848,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: quantic-quantitative-developer-69817e
   company: Quantic
   role: Quantitative Developer
@@ -829,6 +870,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: quantic-quantitative-researcher-21fa28
   company: Quantic
   role: Quantitative Researcher
@@ -848,6 +890,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: seven-research-quantitative-researcher-quant-research-db7c55
   company: Seven Research
   role: Quantitative Researcher (Quant Research)
@@ -865,6 +908,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: seven-research-quantitative-researcher-deep-learning-1b0479
   company: Seven Research
   role: Quantitative Researcher (Deep Learning)
@@ -882,6 +926,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: seven-research-quantitative-developer-f7ec8d
   company: Seven Research
   role: Quantitative Developer
@@ -900,6 +945,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: seven-research-software-engineer-92f45a
   company: Seven Research
   role: Software Engineer
@@ -918,6 +964,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: sig-quantitative-trader-5dbfec
   company: SIG
   role: Quantitative Trader
@@ -935,6 +982,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: sig-quantitative-trader-da8405
   company: SIG
   role: Quantitative Trader
@@ -952,6 +1000,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: sig-quantitative-researcher-792349
   company: SIG
   role: Quantitative Researcher
@@ -969,6 +1018,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: sig-quantitative-researcher-f65880
   company: SIG
   role: Quantitative Researcher
@@ -986,6 +1036,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: sig-quantitative-researcher-59d025
   company: SIG
   role: Quantitative Researcher
@@ -1003,6 +1054,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: sig-quantitative-researcher-2d0ab5
   company: SIG
   role: Quantitative Researcher
@@ -1020,6 +1072,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: sig-software-engineer-quantitative-strategy-developer-04341b
   company: SIG
   role: Software Engineer (Quantitative Strategy Developer)
@@ -1037,6 +1090,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: sig-software-engineer-trading-system-engineering-a6ac14
   company: SIG
   role: Software Engineer (Trading System Engineering)
@@ -1054,6 +1108,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: transmarketgroup-quantitative-trader-b27205
   company: TransMarketGroup
   role: Quantitative Trader
@@ -1071,6 +1126,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: walleye-capital-software-engineer-risk-technology-6d161c
   company: Walleye Capital
   role: Software Engineer (Risk Technology)
@@ -1091,6 +1147,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: walleye-capital-software-engineer-technology-28ff87
   company: Walleye Capital
   role: Software Engineer (Technology)
@@ -1111,6 +1168,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: walleye-capital-quantitative-researcher-volatility-130f3d
   company: Walleye Capital
   role: Quantitative Researcher (Volatility)
@@ -1131,6 +1189,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: walleye-capital-quantitative-researcher-data-science-db1055
   company: Walleye Capital
   role: Quantitative Researcher (Data Science)
@@ -1154,6 +1213,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: susquehanna-quantitative-systematic-trading-intern-phd-summer-2027-65fe39
   company: Susquehanna
   role: Quantitative Systematic Trading Intern (PhD, Summer 2027)
@@ -1615,6 +1675,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: citi-markets-quantitative-analysis-summer-analyst-b2b638
   company: Citi
   role: Markets Quantitative Analysis Summer Analyst
@@ -1631,6 +1692,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: susquehanna-macro-analyst-intern-9d7c70
   company: Susquehanna
   role: Macro Analyst Intern
@@ -1647,6 +1709,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: susquehanna-quantitative-strategy-developer-intern-3006c7
   company: Susquehanna
   role: Quantitative Strategy Developer Intern
@@ -1665,6 +1728,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: susquehanna-trading-system-engineering-intern-c9b7fe
   company: Susquehanna
   role: Trading System Engineering Intern
@@ -1699,6 +1763,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jump-trading-campus-software-engineer-intern-295be1
   company: Jump Trading
   role: Campus Software Engineer - Intern
@@ -2142,6 +2207,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: virtu-financial-2027-internship-quantitative-researcher-phd-9c8ad0
   company: Virtu Financial
   role: 2027 Internship - Quantitative Researcher - PhD
@@ -2162,6 +2228,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: virtu-financial-internship-quantitative-trading-29dd2a
   company: Virtu Financial
   role: Internship - Quantitative Trading
@@ -2455,6 +2522,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: d-e-shaw-systems-administrator-intern-new-york-5a9179
   company: D. E. Shaw
   role: Systems Administrator Intern (New York)
@@ -2472,6 +2540,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: imc-trading-quantitative-research-intern-phd-450eb7
   company: IMC Trading
   role: Quantitative Research Intern (PhD) - ...
@@ -2491,6 +2560,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: point72-quantitative-research-intern-nlp-cc3d14
   company: Point72
   role: Quantitative Research Intern (NLP)
@@ -2508,6 +2578,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: point72-summer-2027-quantitative-research-int-1e1785
   company: Point72
   role: Summer 2027 Quantitative Research Int...
@@ -2525,6 +2596,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: point72-quantitative-research-intern-b1a72c
   company: Point72
   role: Quantitative Research Intern
@@ -2542,6 +2614,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: optiver-institutional-trader-intern-2027-sta-31d32d
   company: Optiver
   role: Institutional Trader Intern (2027 Sta...
@@ -2561,6 +2634,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: walleye-capital-volatility-trading-developer-intern-summer-2027-89b05c
   company: Walleye Capital
   role: Volatility Trading Developer Intern (Summer 2027)
@@ -2595,6 +2669,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: drw-strategy-intern-0a1b8b
   company: DRW
   role: Strategy Intern
@@ -2610,6 +2685,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: drw-trade-support-intern-b910ba
   company: DRW
   role: Trade Support Intern
@@ -2625,6 +2701,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: drw-venture-capital-analyst-intern-a6ce18
   company: DRW
   role: Venture Capital Analyst Intern
@@ -2640,6 +2717,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: imc-trading-machine-learning-research-intern-summer-2027-chicago-41bc99
   company: IMC Trading
   role: Machine Learning Research Intern - Summer 2027 - Chicago
@@ -2656,6 +2734,7 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: imc-trading-machine-learning-research-intern-summer-2027-amsterdam-93cc10
   company: IMC Trading
   role: Machine Learning Research Intern - Summer 2027 - Amsterdam
@@ -2672,6 +2751,7 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: jane-street-machine-learning-engineer-970fae
   company: Jane Street
   role: Machine Learning Engineer
@@ -2691,6 +2771,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jane-street-cybersecurity-analyst-a6e6ba
   company: Jane Street
   role: Cybersecurity Analyst
@@ -2708,6 +2789,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jane-street-data-engineer-b91e6b
   company: Jane Street
   role: Data Engineer
@@ -2727,6 +2809,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jane-street-fundamental-research-analyst-7c44d9
   company: Jane Street
   role: Fundamental Research Analyst
@@ -2744,6 +2827,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Research
+  date_estimated: true
 - id: jane-street-linux-engineer-57b54f
   company: Jane Street
   role: Linux Engineer
@@ -2762,6 +2846,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jane-street-network-engineer-0425e2
   company: Jane Street
   role: Network Engineer
@@ -2780,6 +2865,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jane-street-sales-and-trading-80a5b3
   company: Jane Street
   role: Sales and Trading
@@ -2797,6 +2883,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: jane-street-strategy-and-product-4ab7f9
   company: Jane Street
   role: Strategy and Product
@@ -2812,6 +2899,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: jane-street-trading-desk-operations-engineer-8ba5e3
   company: Jane Street
   role: Trading Desk Operations Engineer
@@ -2830,6 +2918,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jane-street-windows-engineer-bf08d7
   company: Jane Street
   role: Windows Engineer
@@ -2848,6 +2937,7 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jane-street-it-operations-engineer-b927a2
   company: Jane Street
   role: IT Operations Engineer
@@ -2864,6 +2954,7 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jane-street-mechanical-engineer-6112d7
   company: Jane Street
   role: Mechanical Engineer
@@ -2880,6 +2971,7 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: jane-street-procurement-specialist-513156
   company: Jane Street
   role: Procurement Specialist
@@ -2895,6 +2987,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
+  date_estimated: true
 - id: optiver-fpga-engineer-intern-summer-2027-austin-58a017
   company: Optiver
   role: FPGA Engineer Intern (Summer 2027 - Austin)
@@ -2911,6 +3004,7 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: optiver-trading-automation-and-operations-intern-summer-2027-ee76e4
   company: Optiver
   role: Trading Automation and Operations Intern (Summer 2027)
@@ -2927,6 +3021,7 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: true
 - id: optiver-fpga-engineer-intern-summer-2027-chicago-b3a3b7
   company: Optiver
   role: FPGA Engineer Intern (Summer 2027 - Chicago)
@@ -2943,6 +3038,7 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: walleye-capital-business-operations-intern-summer-2027-6d347e
   company: Walleye Capital
   role: Business Operations Intern (Summer 2027)
@@ -2958,6 +3054,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: castleton-commodities-international-data-science-machine-learning-intern-ff3b6c
   company: Castleton Commodities International
   role: Data Science Machine Learning Intern
@@ -3008,6 +3105,7 @@
   last_verified: '2026-07-24'
   possible_duplicate_of: null
   track: Development
+  date_estimated: true
 - id: ellipsis-labs-software-engineer-2027-interns-013d37
   company: Ellipsis Labs
   role: Software Engineer - 2027 Interns
@@ -3362,6 +3460,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: akuna-capital-quantitative-research-intern-a0185e
   company: Akuna Capital
   role: Quantitative Research Intern
@@ -3377,6 +3476,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: akuna-capital-quantitative-development-strategy-intern-758a36
   company: Akuna Capital
   role: Quantitative Development & Strategy Intern
@@ -3392,6 +3492,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: anthelion-capital-quant-developer-quant-research-intern-2026-2027-7cd240
   company: Anthelion Capital
   role: Quant Developer / Quant Research Intern - 2026/2027
