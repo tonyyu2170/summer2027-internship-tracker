@@ -7,15 +7,32 @@ it structurally cannot catch a posting that's been tracked under two
 different category files. This module is the cross-category check that
 fills that gap.
 
-Invariants 1-5 are blocking: check_integrity() covers exactly these (plus a
-malformed-link guard invariant 3's schema check can't catch — see
-_classify_link) and its return value drives the process exit code.
-Invariant 6 is advisory only:
-triple_groups() covers it separately and never affects the exit code — a
-bare (company, role, location) triple carries real false-merge risk, so
-matches are surfaced for manual review, never auto-merged, and a group
-still showing up after a repair pass (because it was reviewed and kept) is
-an expected outcome, not an error to gate on."""
+The blocking/advisory split follows identity STRENGTH, not a fixed
+invariant count:
+
+  BLOCKING (check_integrity(), drives the process exit code): everything
+  scoped to the normalized LINK — the repo's PRIMARY dedup key (see
+  normalize.normalize_link / merge.py's by_link). Two rows sharing a
+  normalized link are the same posting by definition, so a duplicate link,
+  or a status disagreement between them, is a defect, full stop. Also
+  blocking for the same "this is unambiguously wrong" reason: id
+  uniqueness, malformed (present-but-unusable) links, ROW_SCHEMA validity,
+  and possible_duplicate_of referential integrity.
+
+  ADVISORY (triple_groups() and triple_status_disagreements(), neither
+  affects the exit code): everything scoped to a bare (company, role,
+  location) TRIPLE — the repo's low-confidence FALLBACK identity, used
+  only when a source has no extractable link (see merge._triple). A
+  shared triple does NOT mean "same posting": two different requisitions
+  for the same role at the same company/location are common, and they can
+  legitimately have different links and different statuses (one filled,
+  one still open). Live examples in this data: Hudson River Trading (two
+  distinct Greenhouse gh_jid requisitions — one closed, one open) and
+  Quadrillion (two distinct Ashby posting UUIDs, same pattern). Neither is
+  a defect; the data-repair task leaves both as two separate rows on
+  purpose. Do NOT re-promote triple-level status agreement to the blocking
+  set — that would make check_integrity() exit non-zero forever on exactly
+  this legitimate case."""
 import sys
 from collections import defaultdict
 
@@ -114,6 +131,18 @@ def _group_by_triple(pairs: list) -> dict:
     return groups
 
 
+def _group_by_link(pairs: list) -> dict:
+    """Group rows by normalized link — the repo's PRIMARY dedup key. Only
+    rows classified "ok" by _classify_link participate; "missing" and
+    "malformed" links are handled by their own dedicated checks."""
+    groups = defaultdict(list)
+    for category, row in pairs:
+        kind, nlink = _classify_link(row)
+        if kind == "ok":
+            groups[nlink].append((category, row))
+    return groups
+
+
 def _check_id_uniqueness(pairs: list) -> list:
     by_id = defaultdict(list)
     for category, row in pairs:
@@ -136,24 +165,39 @@ def _check_id_uniqueness(pairs: list) -> list:
 
 
 def _check_link_uniqueness(pairs: list) -> list:
-    by_link = defaultdict(list)
-    for category, row in pairs:
-        kind, nlink = _classify_link(row)
-        if kind == "ok":
-            by_link[nlink].append((category, row))
     violations = []
-    for nlink, group in by_link.items():
+    for nlink, group in _group_by_link(pairs).items():
         if len(group) > 1:
             # status is included so a reader can tell at a glance whether a
-            # duplicate-link pair also disagrees on status — invariant 5 is
-            # deliberately scoped to _triple groups only, so it won't catch
-            # that here if the two rows' company/role text differs (e.g. by
-            # a trailing emoji marker) even though the link is identical.
+            # duplicate-link pair also disagrees on status (see
+            # _check_link_status_agreement, which flags that specifically).
             entries = ", ".join(
                 f"{_describe(c, r)} link={r.get('link')!r} status={r.get('status')!r}"
                 for c, r in _sorted_group(group)
             )
             violations.append(f"duplicate link {nlink!r} in {len(group)} rows: {entries}")
+    return violations
+
+
+def _check_link_status_agreement(pairs: list) -> list:
+    """BLOCKING: status agreement within a normalized-LINK group. Same
+    normalized link is the repo's PRIMARY dedup key, so two rows sharing
+    one are the same posting by definition — a status disagreement here is
+    a defect, not a judgment call. (Contrast triple_status_disagreements,
+    which checks the same thing at the low-confidence TRIPLE key and is
+    advisory only, precisely because a shared triple is not reliable
+    identity.)"""
+    violations = []
+    for nlink, group in _group_by_link(pairs).items():
+        if len(group) < 2:
+            continue
+        statuses = {row.get("status") for _, row in group}
+        if len(statuses) > 1:
+            entries = ", ".join(
+                f"{_describe(c, r)} status={r.get('status')!r}"
+                for c, r in _sorted_group(group)
+            )
+            violations.append(f"status disagreement for link {nlink!r}: {entries}")
     return violations
 
 
@@ -210,7 +254,67 @@ def _check_duplicate_refs(pairs: list) -> list:
     return violations
 
 
-def _check_status_agreement(pairs: list) -> list:
+def check_integrity(rows_by_category: dict) -> list:
+    """BLOCKING checks only, all scoped to strong identity (id or
+    normalized link — see module docstring): id uniqueness, normalize_link
+    uniqueness, status agreement within a link group, malformed
+    (present-but-unusable) links, ROW_SCHEMA validity, and
+    possible_duplicate_of referential integrity — all checked across every
+    category at once. Returns [] when clean; never mutates input. The
+    returned list is always sorted, so two runs over the same data diff
+    cleanly.
+
+    Deliberately does NOT include status agreement within a _triple group
+    — see triple_status_disagreements(), which reports that as advisory
+    only, and the module docstring for why (Hudson River Trading,
+    Quadrillion)."""
+    pairs = _all_rows(rows_by_category)
+    violations = (
+        _check_id_uniqueness(pairs)
+        + _check_link_uniqueness(pairs)
+        + _check_link_status_agreement(pairs)
+        + _check_malformed_links(pairs)
+        + _check_schema(pairs)
+        + _check_duplicate_refs(pairs)
+    )
+    return sorted(violations)
+
+
+def triple_groups(rows_by_category: dict) -> list:
+    """ADVISORY only: every group of >=2 rows sharing a _triple across
+    categories, regardless of whether their status agrees. Report only,
+    never auto-merge — a bare (company, role, location) triple carries
+    real false-merge risk. Does NOT affect check_integrity()'s return
+    value or the process exit code; a group that's been reviewed and
+    intentionally kept as two rows will still show up here forever, and
+    that's expected, not a bug."""
+    pairs = _all_rows(rows_by_category)
+    violations = []
+    for triple, group in _group_by_triple(pairs).items():
+        if len(group) >= 2:
+            entries = ", ".join(_describe(c, r) for c, r in _sorted_group(group))
+            violations.append(f"possible duplicate group {triple!r}: {entries}")
+    return sorted(violations)
+
+
+def triple_status_disagreements(rows_by_category: dict) -> list:
+    """ADVISORY only: status disagreement within a _triple group. Distinct
+    from triple_groups() — this reports only the subset of triple groups
+    that disagree on status, so a reader can tell "these might be the same
+    posting" (triple_groups) apart from "these disagree on open/closed"
+    (this function); a group can appear in one, the other, both, or
+    neither.
+
+    A bare (company, role, location) triple is NOT reliable identity (see
+    module docstring), so a status disagreement here is a SIGNAL, not
+    necessarily a defect: two different requisitions for the same role at
+    the same company/location can legitimately have different links and
+    different statuses (one filled, one still open). Live examples: Hudson
+    River Trading (two distinct Greenhouse gh_jid requisitions) and
+    Quadrillion (two distinct Ashby posting UUIDs) both trip this and are
+    NOT defects. Never affects check_integrity()'s return value or the
+    process exit code — do not promote this to blocking."""
+    pairs = _all_rows(rows_by_category)
     violations = []
     for triple, group in _group_by_triple(pairs).items():
         if len(group) < 2:
@@ -222,47 +326,6 @@ def _check_status_agreement(pairs: list) -> list:
                 for c, r in _sorted_group(group)
             )
             violations.append(f"status disagreement for triple {triple!r}: {entries}")
-    return violations
-
-
-def check_integrity(rows_by_category: dict) -> list:
-    """Blocking invariants only (1-5): id uniqueness, normalize_link
-    uniqueness, schema validity, possible_duplicate_of referential
-    integrity, and status agreement within a _triple group — all checked
-    across every category at once. Also blocking: a row whose link is
-    present but too malformed to normalize (see _classify_link) — this
-    isn't one of the plan's original 5 invariants by number, but it's a
-    real gap ROW_SCHEMA doesn't cover (minLength:1 passes a whitespace-only
-    or unparseable link) and belongs in the same blocking set rather than
-    silently opting a row out of invariant 2. Returns [] when clean; never
-    mutates input. The returned list is always sorted, so two runs over the
-    same data diff cleanly."""
-    pairs = _all_rows(rows_by_category)
-    violations = (
-        _check_id_uniqueness(pairs)
-        + _check_link_uniqueness(pairs)
-        + _check_malformed_links(pairs)
-        + _check_schema(pairs)
-        + _check_duplicate_refs(pairs)
-        + _check_status_agreement(pairs)
-    )
-    return sorted(violations)
-
-
-def triple_groups(rows_by_category: dict) -> list:
-    """Advisory only (invariant 6): every group of >=2 rows sharing a
-    _triple across categories, regardless of whether their status agrees.
-    Report only, never auto-merge — a bare (company, role, location) triple
-    carries real false-merge risk. Does NOT affect check_integrity()'s
-    return value or the process exit code; a group that's been reviewed and
-    intentionally kept as two rows will still show up here forever, and
-    that's expected, not a bug."""
-    pairs = _all_rows(rows_by_category)
-    violations = []
-    for triple, group in _group_by_triple(pairs).items():
-        if len(group) >= 2:
-            entries = ", ".join(_describe(c, r) for c, r in _sorted_group(group))
-            violations.append(f"possible duplicate group {triple!r}: {entries}")
     return sorted(violations)
 
 
@@ -281,6 +344,14 @@ if __name__ == "__main__":
     violations = check_integrity(rows_by_category)
     for v in violations:
         print(v)
+
+    status_disagreements = triple_status_disagreements(rows_by_category)
+    if status_disagreements:
+        print(f"\nADVISORY: {len(status_disagreements)} triple-level status "
+              f"disagreement(s) (NOT necessarily defects — a bare triple is "
+              f"not reliable identity; see module docstring):")
+        for s in status_disagreements:
+            print(s)
 
     groups = triple_groups(rows_by_category)
     if groups:

@@ -1,4 +1,4 @@
-from check_integrity import check_integrity, triple_groups
+from check_integrity import check_integrity, triple_groups, triple_status_disagreements
 
 
 def _row(**kw):
@@ -120,10 +120,10 @@ def test_different_links_do_not_trip_link_uniqueness():
 
 
 def test_link_uniqueness_entries_include_status():
-    # A duplicate-link pair can disagree on status while having different
-    # _triple keys (e.g. role text differs only by a trailing marker), so
-    # invariant 5 (scoped to _triple groups) never sees the conflict. The
-    # only place it's visible is the duplicate-link message itself.
+    # A duplicate-link pair with disagreeing status also trips the
+    # dedicated _check_link_status_agreement violation, but the
+    # duplicate-link message itself should still show status inline for
+    # readability, so both signals are visible at a glance.
     rows_by_category = {
         "swe": [_row(
             id="a-1", link="https://a.com/1?utm_source=x", status="open",
@@ -254,32 +254,80 @@ def test_possible_duplicate_of_none_is_never_flagged():
     assert check_integrity(rows_by_category) == []
 
 
-# --- invariant 5: status agreement within a _triple group -----------------
+# --- link-scoped status agreement (BLOCKING: link is the primary key) -----
 
-def test_status_disagreement_within_triple_group_is_flagged():
+def test_status_disagreement_within_link_group_is_blocking():
+    # Same normalized link (one copy carries a tracking param) is the
+    # PRIMARY dedup key -- two rows sharing it are the same posting by
+    # definition, so a status disagreement between them is a real defect.
     rows_by_category = {
-        "swe": [_row(id="a-1", link="https://a.com/1", status="open")],
-        "data_science": [_row(id="a-2", link="https://a.com/2", status="closed")],
+        "swe": [_row(
+            id="a-1", link="https://a.com/job/1?utm_source=x", status="open",
+        )],
+        "data_science": [_row(
+            id="a-2", company="Citadel", location="Chicago, IL",
+            link="https://a.com/job/1", status="closed",
+        )],
     }
     violations = check_integrity(rows_by_category)
-    hit = [v for v in violations if "status disagreement" in v]
+    hit = [v for v in violations if "status disagreement for link" in v]
     assert len(hit) == 1
     assert "a-1" in hit[0] and "a-2" in hit[0]
 
 
-def test_status_agreement_within_triple_group_is_clean_for_check_integrity():
+def test_status_agreement_within_link_group_is_clean():
     rows_by_category = {
-        "swe": [_row(id="a-1", link="https://a.com/1", status="open")],
-        "data_science": [_row(id="a-2", link="https://a.com/2", status="open")],
+        "swe": [_row(id="a-1", link="https://a.com/job/1", status="open")],
+        "data_science": [_row(
+            id="a-2", company="Citadel", location="Chicago, IL",
+            link="https://a.com/job/1", status="open",
+        )],
     }
-    # Same triple, same status: not a *blocking* violation (invariant 5),
-    # even though the pair is still surfaced by the advisory invariant 6.
-    assert not any("status disagreement" in v for v in check_integrity(rows_by_category))
+    assert not any(
+        "status disagreement for link" in v
+        for v in check_integrity(rows_by_category)
+    )
+
+
+# --- triple-scoped status disagreement (ADVISORY: triple is not reliable
+# identity -- two different requisitions for the same role/company/location
+# can legitimately disagree on status; modeled on the live Hudson River
+# Trading case, where the two rows differ only by gh_jid) -----------------
+
+def test_status_disagreement_within_triple_group_is_advisory_not_blocking():
+    rows_by_category = {
+        "swe": [_row(
+            id="a-1", link="https://boards.greenhouse.io/x/jobs/1?gh_jid=7964062",
+            status="closed",
+        )],
+        "data_science": [_row(
+            id="a-2", link="https://boards.greenhouse.io/x/jobs/1?gh_jid=8059837",
+            status="open",
+        )],
+    }
+    # Different links -> not blocking. The disagreement is real but the
+    # triple is not reliable identity, so it must not affect the exit code.
+    assert check_integrity(rows_by_category) == []
+    disagreements = triple_status_disagreements(rows_by_category)
+    assert len(disagreements) == 1
+    assert "a-1" in disagreements[0] and "a-2" in disagreements[0]
+
+
+def test_check_integrity_is_clean_when_only_issue_is_triple_status_disagreement():
+    # Proves the exit code would be 0 for exactly the HRT/Quadrillion
+    # pattern: two different postings, same triple, disagreeing status.
+    rows_by_category = {
+        "swe": [_row(id="a-1", link="https://a.com/job/1", status="closed")],
+        "data_science": [_row(id="a-2", link="https://a.com/job/2", status="open")],
+    }
+    assert check_integrity(rows_by_category) == []
+    assert triple_status_disagreements(rows_by_category) != []
 
 
 def test_single_row_triple_is_never_a_status_violation():
     rows_by_category = {"swe": [_row(id="a-1")]}
     assert check_integrity(rows_by_category) == []
+    assert triple_status_disagreements(rows_by_category) == []
 
 
 # --- invariant 6: triple_groups (advisory, report-only) --------------------
