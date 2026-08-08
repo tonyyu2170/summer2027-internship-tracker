@@ -26,11 +26,18 @@ API and are out of scope.
 2. **Multi-location:** if the stored location matches *any* of the API's US
    locations (after `canonicalize_location`), it is confirmed and left
    alone. On a mismatch, write the API's first/primary US location only.
-3. **All-non-US:** if the API lists locations and none canonicalize to US,
-   the row is **deleted** — the same outcome the merge-time US-only filter
-   would have produced had the source been truthful. Every deletion is
-   listed individually in the run output and recorded in the corrections
-   file for audit.
+3. **All-non-US:** a row is **deleted** only on affirmative non-US evidence
+   from the API: its country field names a non-US country, or a location
+   matches the confident non-US pattern (`normalize._NON_US_RE`), or its
+   only US-looking signal is a bare "Remote" while the country field says
+   non-US. Merely ambiguous locations (city-only text like "New York" —
+   `canonicalize_location` returns None for *not confidently US*, which is
+   not the same as non-US) produce a `location_unresolved` action instead:
+   no change, recorded in the corrections file for manual follow-up. Every
+   deletion is listed individually in the run output and recorded in the
+   corrections file for audit. *(Amended 2026-08-08 with Tony's approval,
+   from "delete when nothing canonicalizes US" — that rule would have
+   false-deleted US rows whose authoritative location is city-only text.)*
 4. **README (ask #2):** the *Status* and *Last Verified* columns are dropped
    from the job tables, and only `status: open` rows are rendered. Both
    fields remain in `data/*.yaml`; nothing changes in the data model.
@@ -76,9 +83,12 @@ corrections JSON to `scratch/ats_corrections.json`. It never writes
 
 Reads the corrections file and applies it to `data/*.yaml` in one pass:
 
-- applies `set_location` / `set_date` / `close` / `delete_non_us`;
+- applies `set_location` / `set_date` / `close` / `delete_non_us`; counts
+  `location_unresolved` (the row is stamped `last_verified`, nothing else
+  changes);
 - stamps `last_verified = today` on every row whose probe resolved
-  (confirmed or corrected or closed) — never on `unknown`;
+  (confirmed, corrected, closed, or location-unresolved) — never on
+  `unknown`;
 - clears any `possible_duplicate_of` that pointed at a deleted row id;
 - validates every modified row against `ROW_SCHEMA` **before** writing; any
   failure aborts the whole apply with nothing written (corrections are
@@ -113,9 +123,13 @@ sharing its `id`. `confirm` and `unknown` carry no old/new.
 - API URL answers 404/410, or the payload marks the posting closed →
   `close`.
 - Payload locations are canonicalized with `canonicalize_location`:
-  - locations present, none US → `delete_non_us`;
   - stored location matches any canonical US location → confirmed;
-  - otherwise → `set_location` to the first US location the API lists;
+  - some location is canonically US but none matches the stored one →
+    `set_location` to the first US location the API lists;
+  - nothing canonicalizes US and the API affirmatively says non-US (see
+    decision 3) → `delete_non_us`;
+  - nothing canonicalizes US and the evidence is merely ambiguous →
+    `location_unresolved`: no change, recorded for manual follow-up;
   - no locations in the payload → location untouched.
 - Payload has a posting date differing from the row's → `set_date`, and
   `date_estimated` is cleared (an authoritative date beats both an estimate
