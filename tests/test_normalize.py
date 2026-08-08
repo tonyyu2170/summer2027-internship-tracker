@@ -11,6 +11,39 @@ def test_normalize_link_keeps_meaningful_query_sorted():
     assert normalize_link("https://x.com/j?b=2&a=1&utm_term=z") == "https://x.com/j?a=1&b=2"
 
 
+def test_normalize_link_workday_locale_segment_is_stripped():
+    a = normalize_link("https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0015746")
+    b = normalize_link("https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0015746")
+    assert a == b
+
+
+def test_normalize_link_workday_site_segment_case_folds():
+    a = normalize_link("https://interdigital.wd1.myworkdayjobs.com/InterDigital/job/PA/Intern_REQ26-1093")
+    b = normalize_link("https://interdigital.wd1.myworkdayjobs.com/interdigital/job/PA/Intern_REQ26-1093")
+    assert a == b
+    # requisition id and job-title segments keep their case
+    assert a.endswith("/job/PA/Intern_REQ26-1093")
+
+
+def test_normalize_link_locale_segment_untouched_on_non_workday_hosts():
+    assert normalize_link("https://example.com/en-US/jobs/1") == \
+        "https://example.com/en-US/jobs/1"
+
+
+def test_normalize_link_lever_apply_suffix_is_stripped():
+    a = normalize_link("https://jobs.lever.co/plusai/8b1f-uuid/apply")
+    b = normalize_link("https://jobs.lever.co/plusai/8b1f-uuid")
+    assert a == b
+    # '/apply' elsewhere in the path or on other hosts is untouched
+    assert normalize_link("https://x.com/careers/apply") == "https://x.com/careers/apply"
+
+
+def test_normalize_link_ashby_application_suffix_is_stripped():
+    a = normalize_link("https://jobs.ashbyhq.com/pika/e135-uuid/application?embed=true")
+    b = normalize_link("https://jobs.ashbyhq.com/pika/e135-uuid")
+    assert a == b
+
+
 def test_normalize_company_strips_legal_suffix():
     assert normalize_company("Jane Street Group, LLC") == "jane street"
     assert normalize_company("Stripe, Inc.") == "stripe"

@@ -13,14 +13,37 @@ _TRACKING_PARAMS = {
 }
 
 
+_WORKDAY_LOCALE = re.compile(r"^[a-z]{2}-[a-z]{2}$", re.IGNORECASE)
+
+
+def _canonical_path(netloc: str, path: str) -> str:
+    """Host-specific path canonicalization for ATS URL variants that serve one
+    requisition under several paths (verified in the 2026-08-08 duplicate
+    review). Board aliases (e.g. a Workday redeployment tenant) and req-id
+    ``-N`` instance suffixes are deliberately NOT collapsed — those need
+    per-company evidence."""
+    if netloc.endswith(".myworkdayjobs.com"):
+        segs = [s for s in path.split("/") if s]
+        if segs and _WORKDAY_LOCALE.match(segs[0]):
+            segs = segs[1:]           # locale prefix: /en-US/, /fr-CA/, ...
+        if segs:
+            segs[0] = segs[0].lower()  # site/board segment case varies by source
+        return "/" + "/".join(segs) if segs else ""
+    if netloc == "jobs.lever.co" and path.endswith("/apply"):
+        return path[: -len("/apply")]
+    if netloc == "jobs.ashbyhq.com" and path.endswith("/application"):
+        return path[: -len("/application")]
+    return path
+
+
 def normalize_link(url: str) -> str:
     """Canonical application URL, used as the primary dedup key: lowercase
     scheme+host, drop fragment, strip tracking params, sort the rest, drop a
-    trailing slash from the path."""
+    trailing slash from the path, collapse known ATS path variants."""
     parts = urlsplit(url.strip())
     scheme = (parts.scheme or "https").lower()
     netloc = parts.netloc.lower()
-    path = parts.path.rstrip("/")
+    path = _canonical_path(netloc, parts.path.rstrip("/"))
     kept = sorted(
         (k, v) for k, v in parse_qsl(parts.query, keep_blank_values=False)
         if k.lower() not in _TRACKING_PARAMS
