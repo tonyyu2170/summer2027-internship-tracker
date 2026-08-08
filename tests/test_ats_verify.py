@@ -347,8 +347,37 @@ def test_decide_deletes_on_non_us_country_field():
     assert actions[0]["country"] == "Canada"
 
 
-def test_decide_deletes_on_confident_non_us_location_text():
-    assert decide(_row(), _ext(locations=["London, UK"]))[0]["action"] == "delete_non_us"
+def test_decide_non_us_location_text_alone_never_deletes():
+    # Only the country field authorizes a delete. Non-US-looking location
+    # text with no country evidence is unresolved, not deleted.
+    actions = decide(_row(), _ext(locations=["London, UK"]))
+    assert actions[0]["action"] == "location_unresolved"
+    assert all(a["action"] != "delete_non_us" for a in actions)
+
+
+@pytest.mark.parametrize("location", [
+    "Chicago, IL (On-Site)",          # \bon\b matched "on" in "on-site"
+    "Remote / On-site",
+    "San Francisco, CA (Hybrid - 3 days on-site)",
+])
+def test_decide_on_site_free_text_is_not_read_as_ontario(location):
+    actions = decide(_row(), _ext(locations=[location]))
+    assert all(a["action"] != "delete_non_us" for a in actions)
+
+
+@pytest.mark.parametrize("country", ["U.S.", "U.S.A.", "America",
+                                     "United States (USA)"])
+def test_decide_unrecognized_us_spelling_never_deletes(country):
+    # Not being in the US allowlist is not affirmative non-US evidence.
+    actions = decide(_row(), _ext(locations=["Somewhereville"], country=country))
+    assert all(a["action"] != "delete_non_us" for a in actions)
+
+
+def test_decide_unrecognized_country_is_unresolved_not_deleted():
+    # Under-matching is the safe direction: a country the pattern doesn't
+    # know yields manual review rather than a silent delete.
+    actions = decide(_row(), _ext(locations=["Munich"], country="Germany"))
+    assert actions[0]["action"] == "location_unresolved"
 
 
 def test_decide_ambiguous_city_only_is_unresolved_never_deleted():

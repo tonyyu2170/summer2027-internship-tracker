@@ -521,6 +521,19 @@ def _is_us_country(country) -> bool:
     return (country or "").strip().lower() in _US_COUNTRY
 
 
+def _names_non_us_country(country) -> bool:
+    """True only when the country field AFFIRMATIVELY names a non-US country.
+
+    Deliberately not `not _is_us_country(...)`: negation-as-failure would
+    read unrecognized US spellings ("U.S.", "America") as non-US evidence
+    and delete live US rows. Under-matching is the safe direction here — a
+    country this doesn't recognize (Germany, Japan) yields
+    location_unresolved for manual review instead of a silent delete. Widen
+    by adding an affirmative country list here, never by inverting the US
+    check (spec decision 3; Tony, 2026-08-08)."""
+    return bool(_NON_US_RE.search((country or "").strip().lower()))
+
+
 def _extract_ashby(body, link, today):
     jobs = json.loads(body)["jobs"]
     # Take the uuid from _ASHBY_RE, not from the link's trailing path segment:
@@ -712,8 +725,37 @@ def test_decide_deletes_on_non_us_country_field():
     assert actions[0]["country"] == "Canada"
 
 
-def test_decide_deletes_on_confident_non_us_location_text():
-    assert decide(_row(), _ext(locations=["London, UK"]))[0]["action"] == "delete_non_us"
+def test_decide_non_us_location_text_alone_never_deletes():
+    # Only the country field authorizes a delete. Non-US-looking location
+    # text with no country evidence is unresolved, not deleted.
+    actions = decide(_row(), _ext(locations=["London, UK"]))
+    assert actions[0]["action"] == "location_unresolved"
+    assert all(a["action"] != "delete_non_us" for a in actions)
+
+
+@pytest.mark.parametrize("location", [
+    "Chicago, IL (On-Site)",          # \bon\b matched "on" in "on-site"
+    "Remote / On-site",
+    "San Francisco, CA (Hybrid - 3 days on-site)",
+])
+def test_decide_on_site_free_text_is_not_read_as_ontario(location):
+    actions = decide(_row(), _ext(locations=[location]))
+    assert all(a["action"] != "delete_non_us" for a in actions)
+
+
+@pytest.mark.parametrize("country", ["U.S.", "U.S.A.", "America",
+                                     "United States (USA)"])
+def test_decide_unrecognized_us_spelling_never_deletes(country):
+    # Not being in the US allowlist is not affirmative non-US evidence.
+    actions = decide(_row(), _ext(locations=["Somewhereville"], country=country))
+    assert all(a["action"] != "delete_non_us" for a in actions)
+
+
+def test_decide_unrecognized_country_is_unresolved_not_deleted():
+    # Under-matching is the safe direction: a country the pattern doesn't
+    # know yields manual review rather than a silent delete.
+    actions = decide(_row(), _ext(locations=["Munich"], country="Germany"))
+    assert actions[0]["action"] == "location_unresolved"
 
 
 def test_decide_ambiguous_city_only_is_unresolved_never_deleted():
@@ -789,7 +831,7 @@ def decide(row, ext):
         if canon and canon not in us_locs:
             us_locs.append(canon)
     country = ext.get("country")
-    non_us_country = bool(country) and not _is_us_country(country)
+    non_us_country = _names_non_us_country(country)
     if us_locs == ["Remote (US)"] and non_us_country:
         # a bare "Remote" canonicalizes US, but the API's own country field
         # says otherwise — the country wins when remote is the only signal
@@ -800,9 +842,14 @@ def decide(row, ext):
             actions.append({"action": "set_location",
                             "old": row["location"], "new": us_locs[0]})
     elif ext["locations"]:
-        confident_non_us = non_us_country or any(
-            _NON_US_RE.search((loc or "").lower()) for loc in ext["locations"])
-        if confident_non_us:
+        # Only the country field can authorize a delete. Location free text
+        # never can: _NON_US_RE was built for strings already containing
+        # "remote" (normalize.py), and against arbitrary employer text its
+        # short tokens misfire — "\bon\b" matches the "on" in "on-site", so
+        # "Chicago, IL (On-Site)" would read as Ontario. Anything that fails
+        # to canonicalize without affirmative country evidence goes to
+        # location_unresolved for manual review (Tony, 2026-08-08).
+        if non_us_country:
             return [{"action": "delete_non_us",
                      "api_locations": ext["locations"], "country": country}]
         actions.append({"action": "location_unresolved",

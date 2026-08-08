@@ -31,6 +31,19 @@ def _is_us_country(country) -> bool:
     return (country or "").strip().lower() in _US_COUNTRY
 
 
+def _names_non_us_country(country) -> bool:
+    """True only when the country field AFFIRMATIVELY names a non-US country.
+
+    Deliberately not `not _is_us_country(...)`: negation-as-failure would
+    read unrecognized US spellings ("U.S.", "America") as non-US evidence
+    and delete live US rows. Under-matching is the safe direction here — a
+    country this doesn't recognize (Germany, Japan) yields
+    location_unresolved for manual review instead of a silent delete. Widen
+    by adding an affirmative country list here, never by inverting the US
+    check (spec decision 3; Tony, 2026-08-08)."""
+    return bool(_NON_US_RE.search((country or "").strip().lower()))
+
+
 def api_url(link: str):
     """('family', probe_url) for a link on a covered ATS, else None.
 
@@ -272,7 +285,7 @@ def decide(row, ext):
         if canon and canon not in us_locs:
             us_locs.append(canon)
     country = ext.get("country")
-    non_us_country = bool(country) and not _is_us_country(country)
+    non_us_country = _names_non_us_country(country)
     if us_locs == ["Remote (US)"] and non_us_country:
         # a bare "Remote" canonicalizes US, but the API's own country field
         # says otherwise — the country wins when remote is the only signal
@@ -283,9 +296,14 @@ def decide(row, ext):
             actions.append({"action": "set_location",
                             "old": row["location"], "new": us_locs[0]})
     elif ext["locations"]:
-        confident_non_us = non_us_country or any(
-            _NON_US_RE.search((loc or "").lower()) for loc in ext["locations"])
-        if confident_non_us:
+        # Only the country field can authorize a delete. Location free text
+        # never can: _NON_US_RE was built for strings already containing
+        # "remote" (normalize.py), and against arbitrary employer text its
+        # short tokens misfire — "\bon\b" matches the "on" in "on-site", so
+        # "Chicago, IL (On-Site)" would read as Ontario. Anything that fails
+        # to canonicalize without affirmative country evidence goes to
+        # location_unresolved for manual review (Tony, 2026-08-08).
+        if non_us_country:
             return [{"action": "delete_non_us",
                      "api_locations": ext["locations"], "country": country}]
         actions.append({"action": "location_unresolved",

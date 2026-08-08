@@ -26,18 +26,30 @@ API and are out of scope.
 2. **Multi-location:** if the stored location matches *any* of the API's US
    locations (after `canonicalize_location`), it is confirmed and left
    alone. On a mismatch, write the API's first/primary US location only.
-3. **All-non-US:** a row is **deleted** only on affirmative non-US evidence
-   from the API: its country field names a non-US country, or a location
-   matches the confident non-US pattern (`normalize._NON_US_RE`), or its
-   only US-looking signal is a bare "Remote" while the country field says
-   non-US. Merely ambiguous locations (city-only text like "New York" —
-   `canonicalize_location` returns None for *not confidently US*, which is
-   not the same as non-US) produce a `location_unresolved` action instead:
-   no change, recorded in the corrections file for manual follow-up. Every
-   deletion is listed individually in the run output and recorded in the
-   corrections file for audit. *(Amended 2026-08-08 with Tony's approval,
-   from "delete when nothing canonicalizes US" — that rule would have
-   false-deleted US rows whose authoritative location is city-only text.)*
+3. **All-non-US:** a row is **deleted** only when the API's **country
+   field** affirmatively names a non-US country (`_NON_US_RE` matched
+   against the country field alone), including the case where its only
+   US-looking signal is a bare "Remote" while that country field says
+   non-US. **Location text never authorizes a delete.** Merely ambiguous
+   locations (city-only text like "New York" — `canonicalize_location`
+   returns None for *not confidently US*, which is not the same as non-US)
+   produce a `location_unresolved` action instead: no change, recorded in
+   the corrections file for manual follow-up. Every deletion is listed
+   individually in the run output and recorded in the corrections file for
+   audit. *(Amended twice on 2026-08-08 with Tony's approval. First from
+   "delete when nothing canonicalizes US" — that rule would have
+   false-deleted US rows whose authoritative location is city-only text.
+   Then from "or a location matches `normalize._NON_US_RE`" — that pattern
+   was built for strings already containing "remote", and against arbitrary
+   employer free text its short tokens misfire: `\bon\b` matches the "on"
+   in "on-site", so "Chicago, IL (On-Site)" read as Ontario and would have
+   deleted a live US row. The country check is likewise affirmative rather
+   than `not _is_us_country(...)`, so unrecognized US spellings like "U.S."
+   are not read as non-US evidence. Consequence, accepted: a country the
+   pattern doesn't recognize — "Germany", "Japan" — yields
+   `location_unresolved` rather than a delete. Under-matching is the safe
+   direction; widen by adding an affirmative country list, never by
+   inverting the US check.)*
 4. **README (ask #2):** the *Status* and *Last Verified* columns are dropped
    from the job tables, and only `status: open` rows are rendered. Both
    fields remain in `data/*.yaml`; nothing changes in the data model.
