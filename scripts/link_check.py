@@ -19,7 +19,12 @@ import re
 from urllib.parse import urlsplit
 
 _WORKDAY_HOST_RE = re.compile(r"^([^.]+)\.wd\d+\.myworkdayjobs\.com$", re.IGNORECASE)
-_WORKDAY_PATH_RE = re.compile(r"^/([^/]+)/job/(.+)$")
+# The optional leading group is a locale segment ("/en-US/nw/job/...", which
+# 70 live rows carry) and is dropped from the CXS URL. A two-letter *site*
+# ("/hr/job/...") still parses: the optional group only matches when another
+# path segment follows it before /job/.
+_WORKDAY_PATH_RE = re.compile(
+    r"^/(?:[a-z]{2}(?:-[A-Za-z]{2})?/)?([^/]+)/job/(.+)$")
 
 
 def workday_cxs_url(link: str) -> str | None:

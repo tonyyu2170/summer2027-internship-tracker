@@ -542,3 +542,18 @@ def test_decide_pre_cycle_date_does_not_block_a_location_fix():
     assert {"action": "set_location", "old": "Washington, DC",
             "new": "Redmond, WA"} in actions
     assert all(a["action"] != "set_date" for a in actions)
+
+
+def test_api_url_greenhouse_regional_board():
+    # job-boards.eu.greenhouse.io is served by the same boards-api host.
+    assert api_url("https://job-boards.eu.greenhouse.io/imc/jobs/4823945101") == (
+        "greenhouse",
+        "https://boards-api.greenhouse.io/v1/boards/imc/jobs/4823945101",
+    )
+
+
+def test_api_url_workday_locale_prefixed_link_is_covered():
+    ats, url = api_url(
+        "https://nwis.wd12.myworkdayjobs.com/en-US/nw/job/Annapolis-Junction-MD/SWE_R-1")
+    assert ats == "workday"
+    assert "/wday/cxs/nwis/nw/job/" in url and "/en-US/" not in url

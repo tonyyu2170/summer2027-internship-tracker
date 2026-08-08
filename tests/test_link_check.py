@@ -84,3 +84,24 @@ def test_classify_link_generic_403_is_unknown():
         return (403, url)
 
     assert classify_link(link, probe) == "unknown"
+
+
+def test_workday_cxs_url_handles_locale_prefixed_paths():
+    # 70 live rows carry a /en-US/ segment before the site; the locale is not
+    # part of the CXS path.
+    assert workday_cxs_url(
+        "https://nwis.wd12.myworkdayjobs.com/en-US/nw/job/Annapolis-Junction-MD/SWE_R-1"
+    ) == ("https://nwis.wd12.myworkdayjobs.com/wday/cxs/nwis/nw/job/"
+          "Annapolis-Junction-MD/SWE_R-1")
+
+
+def test_workday_cxs_url_handles_bare_language_prefix():
+    assert workday_cxs_url(
+        "https://acme.wd1.myworkdayjobs.com/fr/careers/job/Paris/Eng_R-2"
+    ) == "https://acme.wd1.myworkdayjobs.com/wday/cxs/acme/careers/job/Paris/Eng_R-2"
+
+
+def test_workday_cxs_url_does_not_mistake_a_two_letter_site_for_a_locale():
+    assert workday_cxs_url(
+        "https://acme.wd1.myworkdayjobs.com/hr/job/Austin/Eng_R-3"
+    ) == "https://acme.wd1.myworkdayjobs.com/wday/cxs/acme/hr/job/Austin/Eng_R-3"

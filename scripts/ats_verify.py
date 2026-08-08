@@ -14,8 +14,11 @@ from link_check import workday_cxs_url
 from normalize import canonicalize_location, _NON_US_RE
 
 _UUID = r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+# Regional boards (job-boards.eu.greenhouse.io) are served by the same
+# boards-api host, so only the link pattern needs to know about them.
 _GREENHOUSE_RE = re.compile(
-    r"^https?://(?:job-boards|boards)\.greenhouse\.io/([^/?#]+)/jobs/(\d+)", re.I)
+    r"^https?://(?:job-boards|boards)(?:\.[a-z]{2})?\.greenhouse\.io"
+    r"/([^/?#]+)/jobs/(\d+)", re.I)
 _LEVER_RE = re.compile(
     rf"^https?://jobs\.lever\.co/([^/?#]+)/({_UUID})", re.I)
 _ASHBY_RE = re.compile(
