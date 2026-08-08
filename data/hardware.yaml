@@ -1870,3 +1870,148 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+- id: skyworks-analog-ic-design-co-op-a63a95
+  company: Skyworks
+  role: Analog IC Design Co-op
+  location: Irvine, CA
+  link: https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100
+  date_posted: '2026-04-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - vanshb03
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: contoro-robotics-robotics-test-validation-intern-9704cf
+  company: Contoro Robotics
+  role: Robotics Test & Validation Intern
+  location: Austin, TX
+  link: https://jobs.ashbyhq.com/contoro/7de98745-6a26-4a96-b82c-0cecf4900eb1
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: bosch-group-wireless-systems-research-intern-b6b391
+  company: Bosch Group
+  role: Wireless Systems Research Intern
+  location: Sunnyvale, CA
+  link: https://jobs.smartrecruiters.com/BoschGroup/744000141552037
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: xpeng-motors-2027-campus-recruiting-robotics-cente-03b021
+  company: XPENG Motors
+  role: 2027 Campus Recruiting Robotics Cente...
+  location: Santa Clara, CA
+  link: https://job-boards.greenhouse.io/xpengmotors/jobs/8681156002
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: nxp-digital-physical-design-p-r-intern-733f8c
+  company: NXP
+  role: Digital Physical Design (P&R) Intern
+  location: Chandler, AZ
+  link: https://nxp.wd3.myworkdayjobs.com/Careers/job/Chandler-Office/Digital-Physical-Design--P-R--Intern_R-10064673
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: centific-robotics-interns-bcdd59
+  company: Centific
+  role: Robotics Interns
+  location: Redmond, WA
+  link: https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Redmond-Washington/Robotics-Interns_JR107983-1
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: flexion-robotics-research-intern-481152
+  company: Flexion Robotics
+  role: Research Intern
+  location: San Francisco, CA
+  link: https://apply.workable.com/flexion-robotics/j/8FF540773C/apply
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: etched-performance-tools-intern-aa8ef8
+  company: Etched
+  role: Performance Tools Intern
+  location: San Jose, CA
+  link: https://jobs.ashbyhq.com/Etched/f02e8035-7dc9-4b0c-aab7-75bbb4e975b8/application?embed=true
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: national-laboratory-of-the-rockies-focused-ion-beam-electron-microscopy-and-autonomous-characterization-intern-multiple-teams-790299
+  company: National Laboratory of the Rockies
+  role: Focused Ion Beam, Electron Microscopy, and Autonomous Characterization Intern
+    - Multiple Teams
+  location: Golden, CO
+  link: https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate-Intern---Focused-Ion-Beam--Electron-Microscopy--and-Autonomous-Characterization_R14431
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null

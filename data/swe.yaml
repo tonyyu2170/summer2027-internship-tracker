@@ -3866,6 +3866,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -4437,6 +4438,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -6562,6 +6564,166 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: delta-dental-internship-application-development-217a02
+  company: Delta Dental
+  role: Internship - Application Development
+  location: Okemos, MI
+  link: https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101382
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: nebo-web-development-intern-398d7b
+  company: Nebo
+  role: Web Development Intern
+  location: Atlanta, GA
+  link: https://neboagency.applytojob.com/apply/AFMqe9Jb7b/Web-Development-Intern
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: bytedance-research-scientist-intern-distributed-nosql-database-systems-30c298
+  company: ByteDance
+  role: Research Scientist Intern - Distributed NoSQL Database Systems
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7668371456348326149/detail
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: uline-database-administrator-intern-b32fa9
+  company: Uline
+  role: Database Administrator Intern
+  location: Pleasant Prairie, WI
+  link: https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Database-Administrator-Internship---Summer-2027_R265687
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: calstart-web-development-intern-3410ce
+  company: CALSTART
+  role: Web Development Intern
+  location: Remote (US)
+  link: https://jobs.lever.co/calstart/cbd0d758-18b0-481d-9e67-a065682f30ea/apply
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: neosigma-member-of-technical-staff-intern-a15bf5
+  company: NeoSigma
+  role: Member of Technical Staff Intern
+  location: San Francisco, CA
+  link: https://ats.rippling.com/neosigma/jobs/a2ee1d26-a551-45d2-9854-6dbf8ed2c866
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: clyde-companies-application-development-intern-02fbb6
+  company: Clyde Companies
+  role: Application Development Intern
+  location: Orem, UT
+  link: https://careers.clydeinc.com/jobs/24398?icims=1
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: equifax-technology-intern-81634a
+  company: Equifax
+  role: Technology Intern
+  location: Alpharetta, GA
+  link: https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/Technology-Intern_J00170964
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: ivy-tech-community-college-federal-work-study-website-development-intern-fbc73c
+  company: Ivy Tech Community College
+  role: Federal Work Study Website Development Intern
+  location: Anderson, IN
+  link: https://ivytech.wd1.myworkdayjobs.com/ivy_tech_careers/job/Anderson-IN/Federal-Work-Study---Website-Development-Intern_JR0000105569
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: university-of-nevada-reno-web-development-intern-marketing-communications-0eb9d4
+  company: University of Nevada, Reno
+  role: Web Development Intern - Marketing & Communications
+  location: Reno, NV
+  link: https://nshe.wd1.myworkdayjobs.com/UNR-external/job/University-of-Nevada-Reno---Main-Campus/Student-Worker---Web-Development-Intern--Marketing---Communications_R0152288
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null

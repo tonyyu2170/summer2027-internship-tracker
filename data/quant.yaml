@@ -3947,6 +3947,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -4083,6 +4084,86 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: capula-trading-and-research-intern-7ae0a9
+  company: Capula
+  role: Trading and Research Intern
+  location: New York, NY
+  link: https://apply.workable.com/capula-investment-management-ltd/j/A15A62A8BE/apply
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: panagora-dynamic-intern-c63692
+  company: PanAgora
+  role: Dynamic Intern
+  location: Boston, MA
+  link: https://empower.wd12.myworkdayjobs.com/PanAgora/job/MA-Boston---PanAgora/Intern--Dynamic_R0061449
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: transmarket-group-algorithmic-trader-intern-4d42a2
+  company: TransMarket Group
+  role: Algorithmic Trader Intern
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/transmarketgroup/jobs/5151581007?gh_jid=5151581007
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: quadrillion-research-intern-75d2a5
+  company: Quadrillion
+  role: Research Intern
+  location: New York, NY
+  link: https://jobs.ashbyhq.com/quadrillion-labs/579cef88-1dbf-45b5-a938-7ddc23505765/application?embed=true
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: citadel-trader-fixed-income-macro-intern-f07282
+  company: Citadel
+  role: 'Trader: Fixed Income & Macro Intern'
+  location: New York, NY
+  link: https://www.citadel.com/careers/details/trader-fixed-income-macro-intern-us/
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null

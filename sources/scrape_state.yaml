@@ -31,40 +31,10 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 303
-  closed: 10
-  ran_at: 2026-08-08 12:09
-  drops:
-    github_tracker:chieler:
-      unclassified: 186
-      category_drop: 1
-      missing_field: 667
-    github_tracker:simplifyjobs:
-      closed_marker_untracked: 195
-      category_drop: 21
-      missing_field: 27
-    github_tracker:sndsh404:
-      unclassified: 19
-      category_drop: 2
-      missing_field: 1
-    github_tracker:speedyapply:
-      unclassified: 1
-      missing_field: 7
-    github_tracker:suryaharikrishnan:
-      category_drop: 21
-      closed_marker_untracked: 168
-      missing_field: 24
-    github_tracker:vanshb03:
-      closed_marker_untracked: 28
-      unclassified: 7
-      missing_field: 8
-    github_tracker:zapplyjobs:
-      unclassified: 172
-      missing_field: 74
-    github_tracker:zshah101:
-      closed_marker_untracked: 19
-      unclassified: 1
-      missing_field: 18
+  new: 35
+  closed: 0
+  ran_at: 2026-08-08 12:38
+  drops: {}
 chieler:
   path: README.md
   row_count: 1061

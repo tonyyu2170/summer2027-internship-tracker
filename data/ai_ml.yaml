@@ -2126,6 +2126,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -2263,6 +2264,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -2383,6 +2385,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -2453,6 +2456,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -2487,6 +2491,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -2546,24 +2551,6 @@
   role: Business Intelligence Developer Intern
   location: Waukegan, IL
   link: https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Business-Intelligence-Developer-Internship---Summer-2027_R265685
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
-- id: uline-database-administrator-intern-b32fa9
-  company: Uline
-  role: Database Administrator Intern
-  location: Waukegan, IL
-  link: https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Database-Administrator-Internship---Summer-2027_R265687
   date_posted: '2026-08-03'
   date_estimated: false
   term: Summer 2027
@@ -2937,6 +2924,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -3429,6 +3417,200 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: bytedance-research-intern-sdn-traffic-intellig-3ab4b5
+  company: ByteDance
+  role: Research Intern (SDN Traffic Intellig...
+  location: San Jose, CA
+  link: https://joinbytedance.com/search/7668118098724079877
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: block-applied-research-intern-proactive-in-77c6ce
+  company: Block
+  role: Applied Research Intern, Proactive In...
+  location: Bay Area, CA
+  link: http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: canva-phd-research-scientist-intern-d81831
+  company: Canva
+  role: PhD Research Scientist Intern
+  location: San Francisco, CA
+  link: https://jobs.smartrecruiters.com/Canva/6000000001291655
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: otter-products-artificial-intelligence-intern-94abfd
+  company: Otter Products
+  role: Artificial Intelligence Intern
+  location: Fort Collins, CO
+  link: https://careers-otterproducts.icims.com/jobs/6912/job?mobile=true&needsRedirect=false
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: tiktok-research-scientist-intern-content-intelligence-030098
+  company: TikTok
+  role: Research Scientist Intern - Content Intelligence
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7662662842545539381
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: bytedance-research-scientist-intern-c8a264
+  company: ByteDance
+  role: Research Scientist Intern
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7667379218929780997/detail
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: neocognition-research-intern-18a581
+  company: NeoCognition
+  role: Research Intern
+  location: Palo Alto, CA
+  link: https://jobs.ashbyhq.com/neocognition/f6b58e72-94eb-4090-a84e-d96197ffeb76/application?embed=true
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: architect-labs-member-of-technical-staff-research-intern-fe4601
+  company: Architect Labs
+  role: Member of Technical Staff Research Intern
+  location: Palo Alto, CA
+  link: https://jobs.ashbyhq.com/architect/1999377b-b23b-461f-b79a-d4edce0d46b1/application?embed=true
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: pika-research-intern-bs-ms-phd-745f19
+  company: Pika
+  role: Research Intern - BS/MS/PhD
+  location: Palo Alto, CA
+  link: https://jobs.ashbyhq.com/pika/e135acb1-2a0b-47b4-81b2-3cb0f787657a/application
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: applied-intuition-research-intern-3d-vision-and-generation-self-driving-0cfcb6
+  company: Applied Intuition
+  role: Research Intern - 3D Vision and Generation - Self-Driving
+  location: Sunnyvale, CA
+  link: https://jobs.ashbyhq.com/applied/91e0686e-272a-4780-b33d-d7860b94a7b4/application
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: applied-intuition-research-intern-reinforcement-learning-self-driving-91eb42
+  company: Applied Intuition
+  role: Research Intern - Reinforcement Learning - Self-Driving
+  location: Sunnyvale, CA
+  link: https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: institute-of-foundation-models-inference-optimization-intern-performance-modeling-d075a3
+  company: Institute of Foundation Models
+  role: Inference Optimization Intern - Performance Modeling
+  location: Sunnyvale, CA
+  link: https://jobs.lever.co/ifm-us/1a09231e-44f2-4c82-a7a1-793bd159d68d/apply
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
