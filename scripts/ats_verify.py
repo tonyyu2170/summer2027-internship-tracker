@@ -31,6 +31,65 @@ def _is_us_country(country) -> bool:
     return (country or "").strip().lower() in _US_COUNTRY
 
 
+_LOC_SPLIT_RE = re.compile(r"\s*[|;]\s*|\n+")
+_PAREN_RE = re.compile(r"\s*\([^)]*\)")
+_COUNTRY_TOKEN = r"(?:u\.?s\.?a?\.?|united states(?: of america)?)"
+_COUNTRY_PREFIX_RE = re.compile(rf"^{_COUNTRY_TOKEN}\s*[-,]\s*", re.I)
+_COUNTRY_SUFFIX_RE = re.compile(rf"[\s,-]+{_COUNTRY_TOKEN}\s*$", re.I)
+_SITE_PREFIX_RE = re.compile(
+    r"^(?:corporate|office|onsite|on-site|hybrid|remote)\s*-\s*", re.I)
+_AREA_SUFFIX_RE = re.compile(r"\s+area$", re.I)
+_JUNK_CITY_RE = re.compile(r"^\d|[|/]")
+_CITY_ALIASES = {"new york city": "New York"}
+
+
+def _location_candidates(raw):
+    """Raw ATS location text -> candidate 'City, ST' strings.
+
+    API location fields carry shapes canonicalize_location was never built
+    for — it reads the last comma-part as the state and everything before
+    it as the city, which is right for tracker table text and wrong here.
+    Observed live: 'Denver, CO | Long Beach, CA' became 'Denver, CA'
+    (wrong state), '150 North Riverside, Chicago, IL' became
+    '150 North Riverside, IL' (street kept, city lost), and
+    'North America/USA/Minnesota/Mankato, MN' passed through whole. So
+    split the multi-location forms and strip the wrappers first, and let
+    each candidate be canonicalized on its own."""
+    out = []
+    parts = _LOC_SPLIT_RE.split(raw or "")
+    # 'Dallas, TX - Headquarters' also gets tried as 'Dallas, TX'. Additive,
+    # so a variant that loses the state ('MI - Detroit Sales Office' -> 'MI')
+    # simply fails to canonicalize and drops out.
+    parts += [p.split(" - ", 1)[0] for p in list(parts) if " - " in p]
+    for part in parts:
+        if "/" in part:
+            part = part.rsplit("/", 1)[-1]       # org path -> its leaf
+        part = _PAREN_RE.sub("", part)
+        part = _COUNTRY_SUFFIX_RE.sub("", part)
+        part = _COUNTRY_PREFIX_RE.sub("", part)
+        part = _SITE_PREFIX_RE.sub("", part)
+        segs = [s.strip() for s in part.split(",") if s.strip()]
+        if len(segs) > 2:
+            segs = segs[-2:]                     # drop street/country lead-ins
+        if len(segs) == 2:
+            city = _AREA_SUFFIX_RE.sub("", segs[0]).strip()
+            city = _CITY_ALIASES.get(city.lower(), city)
+            state = segs[1].replace(".", "")     # 'D.C.' -> 'DC'
+            segs = [city.title() if city.islower() else city, state]
+        cand = ", ".join(segs)
+        if cand:
+            out.append(cand)
+    return out
+
+
+def _plausible_city(canon) -> bool:
+    """Reject a canonical result whose city half is a leftover fragment —
+    a street number, a path remnant, or a bare country token."""
+    city = canon.rsplit(",", 1)[0].strip()
+    return bool(city) and not _JUNK_CITY_RE.search(city) and \
+        city.lower() not in {"usa", "us", "united states"}
+
+
 def _names_non_us_country(country) -> bool:
     """True only when the country field AFFIRMATIVELY names a non-US country.
 
@@ -281,9 +340,10 @@ def decide(row, ext):
     actions = []
     us_locs = []
     for loc in ext["locations"]:
-        canon = canonicalize_location(loc or "")
-        if canon and canon not in us_locs:
-            us_locs.append(canon)
+        for cand in _location_candidates(loc):
+            canon = canonicalize_location(cand)
+            if canon and _plausible_city(canon) and canon not in us_locs:
+                us_locs.append(canon)
     country = ext.get("country")
     non_us_country = _names_non_us_country(country)
     if us_locs == ["Remote (US)"] and non_us_country:

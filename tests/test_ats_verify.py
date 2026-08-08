@@ -425,3 +425,79 @@ def test_decide_never_mutates_the_row():
     before = dict(row)
     decide(row, _ext(locations=["Redmond, WA"], date_posted="2026-01-01"))
     assert row == before
+
+
+# --- location pre-cleaning -------------------------------------------------
+# canonicalize_location reads the last comma-part as the state, which is right
+# for tracker table text and wrong for raw ATS location fields. Every case here
+# is a real string observed in the 2026-08-08 live probe of 439 rows.
+
+@pytest.mark.parametrize("raw,expected", [
+    # multi-location in one string: the killer — pairing Denver with CA
+    ("Denver, CO | Long Beach, CA", ["Denver, CO", "Long Beach, CA"]),
+    # street address ahead of the city
+    ("150 North Riverside, Chicago, IL", ["Chicago, IL"]),
+    # org path
+    ("North America/USA/Minnesota/Mankato, MN", ["Mankato, MN"]),
+    # country prefix / suffix, comma- and space- and dash-separated
+    ("USA, LaFayette, GA", ["LaFayette, GA"]),
+    ("US - Lincoln, NE", ["Lincoln, NE"]),
+    ("Newark, NJ, USA", ["Newark, NJ"]),
+    ("Cambridge, MA USA", ["Cambridge, MA"]),
+    ("North Billerica, MA - USA", ["North Billerica, MA"]),
+    ("Santa Clara, California - United States of America", ["Santa Clara, CA"]),
+    # site qualifiers and parentheticals
+    ("Corporate - Baton Rouge, LA", ["Baton Rouge, LA"]),
+    ("Dallas, TX - Headquarters", ["Dallas, TX"]),
+    ("Bellevue, WA (Seattle)", ["Bellevue, WA"]),
+    ("Bala Cynwyd (Philadelphia Area), PA", ["Bala Cynwyd, PA"]),
+    ("Detroit Area, MI", ["Detroit, MI"]),
+    # casing and the New York City / New York churn
+    ("new york, NY", ["New York, NY"]),
+    ("New York City, NY", ["New York, NY"]),
+    ("Washington, D.C.", ["Washington, DC"]),
+])
+def test_location_candidates_resolve_real_ats_formats(raw, expected):
+    from ats_verify import _location_candidates, _plausible_city
+    from normalize import canonicalize_location
+    got = []
+    for cand in _location_candidates(raw):
+        canon = canonicalize_location(cand)
+        if canon and _plausible_city(canon) and canon not in got:
+            got.append(canon)
+    assert got == expected
+
+
+@pytest.mark.parametrize("raw", [
+    "Atlanta",                          # city-only: ambiguous, not non-US
+    "London",
+    "Chicago, New York City",           # two cities, no state
+    "In-Office",
+    "Flexible - Any SpaceX Site",
+    "MI - Detroit Sales Office",        # state-first: deliberately not inferred
+    "US-California-Palo Alto",
+    "DE-CELLE-BAKER-HUGHES-STRASSE 1",
+])
+def test_ambiguous_location_text_still_resolves_to_nothing(raw):
+    # Under-matching is the safe direction: these become location_unresolved,
+    # never a wrong set_location.
+    from ats_verify import _location_candidates, _plausible_city
+    from normalize import canonicalize_location
+    assert not [c for c in (canonicalize_location(x)
+                            for x in _location_candidates(raw))
+                if c and _plausible_city(c)]
+
+
+def test_decide_confirms_multi_location_string_instead_of_writing_wrong_state():
+    # The regression that halted the first live run: True Anomaly's stored
+    # 'Denver, CO' against API 'Denver, CO | Long Beach, CA' produced a
+    # set_location to 'Denver, CA'.
+    ext = _ext(locations=["Denver, CO | Long Beach, CA"])
+    assert decide(_row(location="Denver, CO"), ext) == [{"action": "confirm"}]
+
+
+def test_decide_ignores_street_address_when_a_real_city_is_present():
+    ext = _ext(locations=["150 North Riverside, Chicago, IL"])
+    actions = decide(_row(location="San Francisco, CA"), ext)
+    assert {"action": "set_location", "old": "San Francisco, CA",
+            "new": "Chicago, IL"} in actions

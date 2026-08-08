@@ -662,6 +662,16 @@ git commit -m "feat: extract authoritative data from Ashby, SmartRecruiters, iCI
 
 ### Task 4: `ats_verify.decide` — extract → correction actions
 
+> **Amended 2026-08-08 after the first live probe.** `decide` fed raw ATS
+> location text straight to `canonicalize_location`, which reads the last
+> comma-part as the state. Live output included `Denver, CO | Long Beach, CA`
+> -> `Denver, CA` (wrong state), `150 North Riverside, Chicago, IL` ->
+> `150 North Riverside, IL`, and `North America/USA/Minnesota/Mankato, MN`
+> passed through whole. `_location_candidates` / `_plausible_city` in
+> `scripts/ats_verify.py` pre-split and pre-clean those shapes; see the
+> parametrized cases in `tests/test_ats_verify.py`, each one a string
+> observed in that probe.
+
 **Files:**
 - Modify: `tests/test_ats_verify.py` (append)
 - Modify: `scripts/ats_verify.py` (append)
@@ -827,9 +837,10 @@ def decide(row, ext):
     actions = []
     us_locs = []
     for loc in ext["locations"]:
-        canon = canonicalize_location(loc or "")
-        if canon and canon not in us_locs:
-            us_locs.append(canon)
+        for cand in _location_candidates(loc):
+            canon = canonicalize_location(cand)
+            if canon and _plausible_city(canon) and canon not in us_locs:
+                us_locs.append(canon)
     country = ext.get("country")
     non_us_country = _names_non_us_country(country)
     if us_locs == ["Remote (US)"] and non_us_country:
