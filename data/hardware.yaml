@@ -142,6 +142,7 @@
   sources:
   - github_tracker
   - github_tracker:speedyapply
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -984,23 +985,6 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
-- id: base-power-firmware-engineering-intern-9d743d
-  company: Base Power
-  role: Firmware Engineering Intern
-  location: Austin, TX
-  link: https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7/application
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: base-power-hardware-engineering-intern-becbe7
   company: Base Power
   role: Hardware Engineering Intern
@@ -1726,22 +1710,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: draper-embedded-quality-fielded-systems-intern-913edb
-  company: Draper
-  role: Embedded Quality & Fielded Systems Intern
-  location: Cambridge, MA
-  link: https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: microchip-intern-engineering-firmware-development-aa2ac7
   company: Microchip
   role: Intern-Engineering - Firmware Development
@@ -1790,22 +1758,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: nightwing-software-hardware-engineering-intern-4ec3f5
-  company: Nightwing
-  role: Software / Hardware Engineering Intern
-  location: Annapolis Junction, MD
-  link: https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733
-  date_posted: '2026-07-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: bytedance-asic-design-engineer-intern-video-si-9f00d2
   company: ByteDance
   role: ASIC Design Engineer Intern (Video Si...
@@ -1835,6 +1787,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -1984,8 +1937,7 @@
   possible_duplicate_of: null
 - id: national-laboratory-of-the-rockies-focused-ion-beam-electron-microscopy-and-autonomous-characterization-intern-multiple-teams-790299
   company: National Laboratory of the Rockies
-  role: Focused Ion Beam, Electron Microscopy, and Autonomous Characterization Intern
-    - Multiple Teams
+  role: Focused Ion Beam, Electron Microscopy, and Autonomous Characterization Intern - Multiple Teams
   location: Golden, CO
   link: https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate-Intern---Focused-Ion-Beam--Electron-Microscopy--and-Autonomous-Characterization_R14431
   date_posted: '2026-08-08'

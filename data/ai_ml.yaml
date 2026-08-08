@@ -896,6 +896,7 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -911,6 +912,7 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -1359,57 +1361,6 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
-- id: institute-for-foundation-models-ai-research-internship-wm-6a4971
-  company: Institute for Foundation Models
-  role: AI Research Internship - WM
-  location: Sunnyvale, CA
-  link: https://jobs.lever.co/ifm-us/3eec355c-6dde-4a3e-8cdf-b2a8930d5678/apply
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: plusai-deep-learning-intern-e6aaa5
-  company: PlusAI
-  role: Deep Learning Intern
-  location: Santa Clara, CA
-  link: https://jobs.lever.co/plus-2/58d77886-bf3a-4707-8af8-e1af47162e2e/apply
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: plusai-machine-learning-engineer-intern-cb8863
-  company: PlusAI
-  role: Machine Learning Engineer Intern
-  location: Santa Clara, CA
-  link: https://jobs.lever.co/plus-2/5d71c173-fef1-409f-b3f0-750e3b828266/apply
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: plusai-machine-learning-engineer-intern-pl-529a36
   company: PlusAI
   role: Machine Learning Engineer Intern - Pl...
@@ -1731,39 +1682,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: plusai-reinforcement-learning-planning-resea-789a78
-  company: PlusAI
-  role: Reinforcement Learning Planning Resea...
-  location: Santa Clara, CA
-  link: https://jobs.lever.co/plus-2/7565aed4-41b0-44e9-8608-3ccd07e18262/apply
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: plusai-deep-learning-research-intern-29f3d9
-  company: PlusAI
-  role: Deep Learning Research Intern
-  location: Santa Clara, CA
-  link: https://jobs.lever.co/plus-2/2f2c1cd9-f099-483a-9717-0da83a391333/apply
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
 - id: plusai-research-engineer-intern-mapping-75fcbf
@@ -2561,6 +2479,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -3217,22 +3137,6 @@
   role: Agentic AI Intern- Marketing and Comm...
   location: Lincoln, NE
   link: https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Agentic-AI-Intern--Marketing-and-Communications_R22919
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
-- id: rivian-and-volkswagen-group-technologies-data-engineering-intern-ai-analyt-159525
-  company: Rivian and Volkswagen Group Technologies
-  role: Data Engineering Intern - AI & Analyt...
-  location: Palo Alto, CA
-  link: https://jobs.ashbyhq.com/rivianvw.tech/3864f83a-7b29-4c96-b00e-436d60c0508a
   date_posted: '2026-08-08'
   date_estimated: true
   term: Summer 2027

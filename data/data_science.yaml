@@ -92,6 +92,8 @@
   sources:
   - github_tracker
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -108,6 +110,8 @@
   sources:
   - github_tracker
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
@@ -745,44 +749,9 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
-- id: capital-one-master-s-data-science-internship-e70bb2
-  company: Capital One
-  role: Master's Data Science Internship
-  location: Cambridge, MA
-  link: https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Current-Master-s---Data-Science-Internship---Summer-2027_R244285-1
-  date_posted: '2026-07-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
-- id: capital-one-data-science-intern-38cd3e
-  company: Capital One
-  role: Data Science Intern
-  location: Cambridge, MA
-  link: https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Current-PhD---Data-Science-Internship---Summer-2027_R244287-1
-  date_posted: '2026-07-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: american-express-campus-undergraduate-summer-internship-strategy-analytics-credit-fraud-risk-497517
   company: American Express
-  role: Campus Undergraduate Summer Internship - Strategy & Analytics - Credit & Fraud
-    Risk
+  role: Campus Undergraduate Summer Internship - Strategy & Analytics - Credit & Fraud Risk
   location: New York, NY
   link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011984
   date_posted: '2026-08-03'
@@ -845,6 +814,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -938,26 +908,9 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: solar-turbines-caterpillar-gas-compressor-data-analyst-intern-a3efd6
-  company: Solar Turbines (Caterpillar)
-  role: Gas Compressor Data Analyst Intern
-  location: San Diego, CA
-  link: https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:sndsh404
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: microsoft-software-engineer-data-platform-analytics-intern-opportunities-for-university-students-redmond-ef32c1
   company: Microsoft
-  role: 'Software Engineer: Data Platform/Analytics Intern Opportunities for University
-    Students - Redmond'
+  role: 'Software Engineer: Data Platform/Analytics Intern Opportunities for University Students - Redmond'
   location: Washington, DC
   link: https://apply.careers.microsoft.com/careers/job/1970393556922931
   date_posted: '2026-08-08'
@@ -1019,22 +972,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: uline-financial-data-analyst-internship-s-a58b80
-  company: Uline
-  role: Financial Data Analyst Internship - S...
-  location: Pleasant Prairie, WI
-  link: https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Financial-Data-Analyst-Internship---Summer-2027_R265665
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: warner-bros-discovery-research-analytics-strategy-intern-6d6388
   company: Warner Bros. Discovery
   role: Research, Analytics & Strategy Intern...
@@ -1051,22 +988,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: the-federal-reserve-system-graduate-intern-statistical-analysis-672e79
-  company: The Federal Reserve System
-  role: Graduate Intern - Statistical Analysis
-  location: Boston, MA
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/Boston-MA/Graduate-Intern---Statistical-Analysis_R-0000032931
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: federal-reserve-system-graduate-intern-statistical-analysis-b2f8e0
   company: Federal Reserve System
   role: Graduate Intern - Statistical Analysis
@@ -1080,21 +1001,6 @@
   status: open
   sources:
   - zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
-- id: the-federal-reserve-system-graduate-statistical-analysis-intern-regional-community-outreach-683227
-  company: The Federal Reserve System
-  role: Graduate Statistical Analysis Intern - Regional & Community Outreach
-  location: Boston, MA
-  link: https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Boston-MA/Graduate-Intern---Statistical-Analysis_R-0000032931
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
   - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-08'

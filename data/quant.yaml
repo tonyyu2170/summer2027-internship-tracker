@@ -3156,7 +3156,7 @@
   role: Software Engineer - 2027 Interns
   location: New York City, NY
   link: https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849
-  date_posted: '2026-03-28'
+  date_posted: '2026-03-26'
   term: Summer 2027
   degree:
   - BS
@@ -3165,27 +3165,12 @@
   - github_tracker:speedyapply
   - github_tracker:sndsh404
   - github_tracker:zshah101
-  date_added: '2026-07-24'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
-  track: Development
-- id: anthelion-capital-quant-developer-quant-research-intern-fec8d9
-  company: Anthelion Capital
-  role: Quant Developer / Quant Research Intern
-  location: New York, NY
-  link: https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96/application?embed=true
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  track: Development
 - id: aqr-capital-management-trading-analyst-intern-5c5e4e
   company: AQR Capital Management
   role: Trading Analyst Intern
@@ -3556,6 +3541,8 @@
   - github_tracker:zshah101
   - github_tracker:speedyapply
   - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-24'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -3966,6 +3953,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -4036,23 +4025,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: drw-quantitative-trading-analyst-intern-968162
-- id: belvedere-trading-quantitative-trading-intern-summer-10f129
-  company: Belvedere Trading
-  role: Quantitative Trading Intern - Summer ...
-  location: Chicago, IL
-  link: https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:zshah101
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: capula-trading-and-research-intern-7ae0a9
   company: Capula
   role: Trading and Research Intern
