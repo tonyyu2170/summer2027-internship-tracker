@@ -115,3 +115,49 @@ def test_apply_never_mutates_input():
         [_action(action="set_location", old="New York, NY", new="Austin, TX")],
         TODAY)
     assert data == snapshot
+
+
+def _setup_tree(tmp_path, rows_swe):
+    data_dir = tmp_path / "data"
+    data_dir.mkdir()
+    stems = ("swe", "quant", "data_science", "ai_ml", "hardware", "actuarial")
+    for stem in stems:
+        rows = rows_swe if stem == "swe" else []
+        (data_dir / f"{stem}.yaml").write_text(
+            yaml.safe_dump(rows, sort_keys=False, allow_unicode=True))
+    return data_dir
+
+
+def _write_corrections(tmp_path, actions):
+    p = tmp_path / "ats_corrections.json"
+    p.write_text(json.dumps({"generated": TODAY, "actions": actions}))
+    return p
+
+
+def test_run_applies_writes_yaml_and_renders_readme(tmp_path):
+    data_dir = _setup_tree(tmp_path, [_row()])
+    corrections = _write_corrections(tmp_path, [
+        _action(action="set_location", old="New York, NY", new="Redmond, WA"),
+    ])
+    readme = tmp_path / "README.md"
+    summary = run(corrections, data_dir=data_dir, readme_path=readme)
+    assert summary["location_fixed"] == ["r1"]
+    on_disk = yaml.safe_load((data_dir / "swe.yaml").read_text())
+    assert on_disk[0]["location"] == "Redmond, WA"
+    assert readme.exists()
+    assert "Redmond, WA" in readme.read_text()
+
+
+def test_run_aborts_on_schema_failure_writing_nothing(tmp_path):
+    data_dir = _setup_tree(tmp_path, [_row()])
+    before = (data_dir / "swe.yaml").read_text()
+    corrections = _write_corrections(tmp_path, [
+        # empty location violates ROW_SCHEMA minLength — deterministic
+        # corrections producing this means a bug, so the whole apply aborts
+        _action(action="set_location", old="New York, NY", new=""),
+    ])
+    readme = tmp_path / "README.md"
+    with pytest.raises(SystemExit):
+        run(corrections, data_dir=data_dir, readme_path=readme)
+    assert (data_dir / "swe.yaml").read_text() == before
+    assert not readme.exists()

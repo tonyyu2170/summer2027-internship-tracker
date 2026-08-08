@@ -85,4 +85,55 @@ def apply_corrections(rows_by_category, actions, today):
 
 
 def run(corrections_path, data_dir=None, readme_path=None):
-    raise NotImplementedError   # Task 7
+    corrections_path = Path(corrections_path)
+    data_dir = Path(data_dir) if data_dir else ROOT / "data"
+    readme_path = Path(readme_path) if readme_path else ROOT / "README.md"
+    doc = json.loads(corrections_path.read_text())
+    rows_by_category = {}
+    for stem, _title, _is_quant in CATEGORIES:
+        path = data_dir / f"{stem}.yaml"
+        rows_by_category[stem] = (
+            (yaml.safe_load(path.read_text()) or []) if path.exists() else [])
+
+    today = date.today().isoformat()
+    new_rows, summary = apply_corrections(rows_by_category, doc["actions"], today)
+
+    # Validate only the rows this run touched: pre-existing malformed
+    # hand-edits are tolerated exactly as run_scrape_merge does.
+    touched = set()
+    for kind in ("confirmed", "location_fixed", "date_fixed", "closed",
+                 "unresolved"):
+        touched.update(summary[kind])
+    errors = []
+    for cat, rows in new_rows.items():
+        for row in rows:
+            if row.get("id") in touched:
+                for err in validate_row(row):
+                    errors.append(f"[{cat}] {row['id']}: {err}")
+    if errors:
+        for e in errors:
+            print(f"SCHEMA: {e}")
+        raise SystemExit(
+            f"{len(errors)} schema error(s) on corrected rows; nothing written.")
+
+    for cat, rows in new_rows.items():
+        (data_dir / f"{cat}.yaml").write_text(
+            yaml.safe_dump(rows, sort_keys=False, allow_unicode=True))
+    render(data_dir, readme_path)
+
+    for a in doc["actions"]:
+        if a.get("action") == "delete_non_us":
+            print(f"    DELETED (non-US): [{a.get('id')}] "
+                  f"api_locations={a.get('api_locations')} "
+                  f"country={a.get('country')}")
+    for rid in summary["closed"]:
+        print(f"    closed: [{rid}]")
+    for rid in summary["skipped"]:
+        print(f"    warn: skipped correction for unknown row id {rid!r}")
+    print(", ".join(f"{k}={len(v)}" for k, v in summary.items()))
+    return summary
+
+
+if __name__ == "__main__":
+    run(sys.argv[1] if len(sys.argv) > 1
+        else ROOT / "scratch" / "ats_corrections.json")
