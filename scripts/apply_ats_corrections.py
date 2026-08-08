@@ -3,8 +3,11 @@ single serialized writer of a verification run. Applies
 set_location/set_date/close/delete_non_us, stamps last_verified on every
 row whose probe resolved, clears possible_duplicate_of pointers into
 deleted rows, validates every touched row against ROW_SCHEMA before
-anything is written (any failure aborts the whole apply), rewrites the
-category YAML, and re-renders README.md. Never runs git.
+anything is written (an error this apply INTRODUCED aborts the whole run;
+one the row already had is warned about and kept), rewrites the category
+YAML of every category that changed, and re-renders README.md. Aborts
+before writing if a corrections id matches more than one row. Never runs
+git.
 
 Usage: python3 scripts/apply_ats_corrections.py [scratch/ats_corrections.json]
 """
@@ -51,9 +54,19 @@ def apply_corrections(rows_by_category, actions, today):
         if act == "confirm":
             summary["confirmed"].append(rid)
         elif act == "set_location":
+            # .get, not [..]: a hand-edited corrections file missing "new"
+            # should degrade to a skipped correction, matching merge.py's
+            # deliberate tolerance for corrupted input rather than crashing
+            # a delete-capable run mid-loop.
+            if "new" not in a:
+                summary["unrecognized_action"].append(rid)
+                continue
             row["location"] = a["new"]
             summary["location_fixed"].append(rid)
         elif act == "set_date":
+            if "new" not in a:
+                summary["unrecognized_action"].append(rid)
+                continue
             row["date_posted"] = a["new"]
             row["date_estimated"] = False
             summary["date_fixed"].append(rid)
@@ -93,7 +106,21 @@ def run(corrections_path, data_dir=None, readme_path=None):
     corrections_path = Path(corrections_path)
     data_dir = Path(data_dir) if data_dir else ROOT / "data"
     readme_path = Path(readme_path) if readme_path else ROOT / "README.md"
-    doc = json.loads(corrections_path.read_text())
+    # A corrections file is hand-inspectable and hand-editable between the
+    # probe and the apply, so bad JSON is operator error, not a bug — say so
+    # plainly instead of surfacing a traceback from a delete-capable tool.
+    try:
+        doc = json.loads(corrections_path.read_text())
+        actions = doc["actions"]
+        if not isinstance(actions, list):
+            raise TypeError("'actions' is not a list")
+    except FileNotFoundError:
+        raise SystemExit(f"no corrections file at {corrections_path}")
+    except (ValueError, KeyError, TypeError) as e:
+        raise SystemExit(
+            f"{corrections_path} is not a valid corrections file ({e}); "
+            f"nothing written.")
+
     rows_by_category = {}
     for stem, _title, _is_quant in CATEGORIES:
         path = data_dir / f"{stem}.yaml"
@@ -117,7 +144,7 @@ def run(corrections_path, data_dir=None, readme_path=None):
                 dupes.add(rid)
             seen[rid] = cat
     colliding = sorted(dupes.intersection(
-        {a.get("id") for a in doc["actions"]}))
+        {a.get("id") for a in actions}))
     if colliding:
         for rid in colliding:
             print(f"DUPLICATE ID: {rid!r} matches more than one row")
@@ -126,27 +153,51 @@ def run(corrections_path, data_dir=None, readme_path=None):
             f"nothing written. Resolve the duplicate ids first.")
 
     today = date.today().isoformat()
-    new_rows, summary = apply_corrections(rows_by_category, doc["actions"], today)
+    new_rows, summary = apply_corrections(rows_by_category, actions, today)
 
-    # Validate only the rows this run touched: pre-existing malformed
-    # hand-edits are tolerated exactly as run_scrape_merge does.
+    # Validate the rows this run touched — but only fail on errors this run
+    # INTRODUCED. A row that already failed schema before the apply is a
+    # pre-existing hand-edit, tolerated with a warning exactly as
+    # run_scrape_merge does for rows loaded from disk. Without the
+    # before-comparison, `confirm` (the modal outcome, which changes nothing
+    # but last_verified) would drag every such row into the gate and let one
+    # stale typo anywhere in the dataset block the whole verification.
     touched = set()
     for kind in ("confirmed", "location_fixed", "date_fixed", "closed",
                  "unresolved"):
         touched.update(summary[kind])
-    errors = []
-    for cat, rows in new_rows.items():
+    before_errors = {}
+    for rows in rows_by_category.values():
         for row in rows:
             if row.get("id") in touched:
-                for err in validate_row(row):
+                before_errors[row["id"]] = set(validate_row(row))
+    errors, tolerated = [], []
+    for cat, rows in new_rows.items():
+        for row in rows:
+            if row.get("id") not in touched:
+                continue
+            was = before_errors.get(row["id"], set())
+            for err in validate_row(row):
+                if err in was:
+                    tolerated.append(f"[{cat}] {row['id']}: {err}")
+                else:
                     errors.append(f"[{cat}] {row['id']}: {err}")
+    for t in tolerated:
+        print(f"    warn: pre-existing schema error, kept as-is — {t}")
     if errors:
         for e in errors:
             print(f"SCHEMA: {e}")
         raise SystemExit(
-            f"{len(errors)} schema error(s) on corrected rows; nothing written.")
+            f"{len(errors)} schema error(s) introduced by this apply; "
+            f"nothing written.")
 
+    # Write only categories whose rows actually changed. safe_dump re-wraps
+    # long lines, so rewriting all six turns a one-row correction into a
+    # diff across every category file — noise in exactly the diff a human
+    # reviews before committing a delete-capable run.
     for cat, rows in new_rows.items():
+        if rows == rows_by_category.get(cat):
+            continue
         (data_dir / f"{cat}.yaml").write_text(
             yaml.safe_dump(rows, sort_keys=False, allow_unicode=True))
     render(data_dir, readme_path)
@@ -154,7 +205,7 @@ def run(corrections_path, data_dir=None, readme_path=None):
     # Report deletes from the summary, not from the raw actions: an action
     # naming a row id that isn't in the data deletes nothing, and announcing
     # it would claim a destructive act that never happened.
-    detail = {a.get("id"): a for a in doc["actions"]
+    detail = {a.get("id"): a for a in actions
               if a.get("action") == "delete_non_us"}
     for rid in summary["deleted"]:
         a = detail.get(rid, {})

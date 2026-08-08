@@ -212,3 +212,70 @@ def test_run_does_not_announce_a_delete_that_did_not_happen(tmp_path, capsys):
     assert summary["skipped"] == ["ghost"]
     assert "DELETED" not in capsys.readouterr().out
     assert len(yaml.safe_load((data_dir / "swe.yaml").read_text())) == 1
+
+
+def test_run_tolerates_a_pre_existing_schema_error_on_a_confirmed_row(tmp_path):
+    # confirm is the modal outcome and changes nothing but last_verified, so
+    # a row that already failed schema must not block the whole apply — the
+    # same tolerance run_scrape_merge extends to rows loaded from disk.
+    bad = _row(id="handedit", notes="hand-added field ROW_SCHEMA forbids")
+    data_dir = _setup_tree(tmp_path, [bad, _row(id="good", link="https://x.com/2")])
+    corrections = _write_corrections(tmp_path, [
+        _action(id="handedit", action="confirm"),
+        _action(id="good", action="set_location",
+                old="New York, NY", new="Austin, TX"),
+    ])
+    summary = run(corrections, data_dir=data_dir,
+                  readme_path=tmp_path / "README.md")
+    on_disk = {r["id"]: r for r in
+               yaml.safe_load((data_dir / "swe.yaml").read_text())}
+    assert summary["location_fixed"] == ["good"]           # the good fix landed
+    assert on_disk["good"]["location"] == "Austin, TX"
+    assert on_disk["handedit"]["notes"] == "hand-added field ROW_SCHEMA forbids"
+
+
+def test_run_still_aborts_when_this_apply_introduces_a_schema_error(tmp_path):
+    data_dir = _setup_tree(tmp_path, [_row()])
+    before = (data_dir / "swe.yaml").read_text()
+    corrections = _write_corrections(tmp_path, [
+        _action(action="set_location", old="New York, NY", new=""),
+    ])
+    with pytest.raises(SystemExit):
+        run(corrections, data_dir=data_dir, readme_path=tmp_path / "README.md")
+    assert (data_dir / "swe.yaml").read_text() == before
+
+
+def test_run_leaves_unchanged_category_files_untouched(tmp_path):
+    # safe_dump re-wraps lines, so rewriting every category turns a one-row
+    # correction into a diff across all six files.
+    data_dir = _setup_tree(tmp_path, [_row()])
+    (data_dir / "quant.yaml").write_text(yaml.safe_dump(
+        [_row(id="q1", link="https://x.com/9")], sort_keys=False,
+        allow_unicode=True))
+    quant_before = (data_dir / "quant.yaml").read_text()
+    corrections = _write_corrections(tmp_path, [
+        _action(action="set_location", old="New York, NY", new="Austin, TX")])
+    run(corrections, data_dir=data_dir, readme_path=tmp_path / "README.md")
+    assert (data_dir / "quant.yaml").read_text() == quant_before
+
+
+def test_run_rejects_a_malformed_corrections_file_cleanly(tmp_path):
+    data_dir = _setup_tree(tmp_path, [_row()])
+    before = (data_dir / "swe.yaml").read_text()
+    bad = tmp_path / "bad.json"
+    bad.write_text('{"generated": "2026-08-08"')          # truncated
+    with pytest.raises(SystemExit):
+        run(bad, data_dir=data_dir, readme_path=tmp_path / "README.md")
+    no_actions = tmp_path / "noactions.json"
+    no_actions.write_text('{"generated": "2026-08-08"}')
+    with pytest.raises(SystemExit):
+        run(no_actions, data_dir=data_dir, readme_path=tmp_path / "README.md")
+    assert (data_dir / "swe.yaml").read_text() == before
+
+
+def test_action_missing_its_new_value_is_skipped_not_a_crash():
+    new, summary = apply_corrections(
+        {"swe": [_row()]}, [_action(action="set_location", old="New York, NY")],
+        TODAY)
+    assert summary["unrecognized_action"] == ["r1"]
+    assert new["swe"][0]["location"] == "New York, NY"
