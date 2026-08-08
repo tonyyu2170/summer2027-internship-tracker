@@ -557,3 +557,26 @@ def test_api_url_workday_locale_prefixed_link_is_covered():
         "https://nwis.wd12.myworkdayjobs.com/en-US/nw/job/Annapolis-Junction-MD/SWE_R-1")
     assert ats == "workday"
     assert "/wday/cxs/nwis/nw/job/" in url and "/en-US/" not in url
+
+
+ICIMS_LINK = "https://careers-cadent.icims.com/jobs/1406/enterprise-ai-intern/job"
+
+
+@pytest.mark.parametrize("final,expected", [
+    (ICIMS_LINK, False),                                      # no redirect
+    ("https://careers-cadent.icims.com/jobs/1406/enterprise-ai-intern/job?in_iframe=1",
+     False),                                                  # same posting
+    ("https://careers-cadent.icims.com/jobs/search?ss=1", True),   # listing page
+    ("https://careers-cadent.icims.com/jobs/9999/other/job", True),  # other job
+    ("https://careers-cadent.icims.com/", True),              # board root
+    (None, False),                                            # no final url
+])
+def test_icims_redirected_away(final, expected):
+    from ats_verify import icims_redirected_away
+    assert icims_redirected_away(ICIMS_LINK, final) is expected
+
+
+def test_icims_redirect_check_ignores_non_icims_links():
+    from ats_verify import icims_redirected_away
+    assert icims_redirected_away(
+        "https://boards.greenhouse.io/acme/jobs/123", "https://elsewhere") is False

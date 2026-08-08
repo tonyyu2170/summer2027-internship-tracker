@@ -91,6 +91,28 @@ def _location_candidates(raw):
     return out
 
 
+_ICIMS_JOB_PATH_RE = re.compile(r"(/jobs/\d+)(?:/|$)", re.I)
+
+
+def icims_redirected_away(link, final_url) -> bool:
+    """True when an iCIMS probe ended up somewhere that lost the posting's
+    own /jobs/<id>/ path.
+
+    Every other family probes a JSON API keyed to one posting; iCIMS probes
+    the posting HTML page, and urllib follows redirects silently. An expired
+    posting that redirects to a search or listing page still carries
+    JobPosting JSON-LD — for a *different* job — and `_extract_icims` takes
+    the first block it finds. Without this check that becomes an
+    authoritative set_location/set_date for the wrong role: the one place in
+    this pipeline that writes wrong data instead of degrading to unknown."""
+    if not _ICIMS_RE.match(link or ""):
+        return False        # only iCIMS probes fetch a posting HTML page
+    m = _ICIMS_JOB_PATH_RE.search(link)
+    if not m or not final_url:
+        return False
+    return m.group(1).lower() not in final_url.lower()
+
+
 def _plausible_city(canon) -> bool:
     """Reject a canonical result whose city half is a leftover fragment —
     a street number, a path remnant, or a bare country token."""

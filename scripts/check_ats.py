@@ -20,15 +20,20 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from check_links import _probe
-from ats_verify import api_url, extract, decide
+from ats_verify import api_url, extract, decide, icims_redirected_away
 
 ROOT = Path(__file__).resolve().parent.parent
 
 
 def _verify_row(category, row, today):
     ats, url = api_url(row["link"])
-    status, _final, body = _probe(url, want_body=True)
-    ext = extract(ats, status, body, link=row["link"], today=today)
+    status, final, body = _probe(url, want_body=True)
+    if ats == "icims" and icims_redirected_away(row["link"], final):
+        # The page we landed on is not this posting; its JSON-LD would
+        # describe someone else's job. Unknown, not a correction.
+        ext = None
+    else:
+        ext = extract(ats, status, body, link=row["link"], today=today)
     return [
         {"id": row["id"], "category": category, "ats": ats, **action}
         for action in decide(row, ext)
