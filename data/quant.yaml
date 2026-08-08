@@ -3,7 +3,7 @@
   role: Quantitative Developer
   location: Chicago, IL
   link: https://www.akunacapital.com/careers/job/8021481/?gh_jid=8021481
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -19,13 +19,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: akuna-capital-quantitative-researcher-25b3ea
   company: Akuna Capital
   role: Quantitative Researcher
   location: Chicago, IL
   link: https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -42,13 +42,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: akuna-capital-software-engineer-c-07a1c1
   company: Akuna Capital
   role: Software Engineer (C++)
   location: Chicago, IL
   link: https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -65,13 +65,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: akuna-capital-software-engineer-python-6f6dea
   company: Akuna Capital
   role: Software Engineer (Python)
   location: Chicago, IL
   link: https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -89,13 +89,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: akuna-capital-software-engineer-c-net-44545a
   company: Akuna Capital
   role: Software Engineer (C# .NET)
   location: Chicago, IL
   link: https://www.akunacapital.com/careers/job/8018886/?gh_jid=8018886
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -111,13 +111,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: akuna-capital-software-engineer-full-stack-web-975720
   company: Akuna Capital
   role: Software Engineer (Full Stack Web)
   location: Chicago, IL
   link: https://www.akunacapital.com/careers/job/8018893/?gh_jid=8018893
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -133,13 +133,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: akuna-capital-software-engineer-platform-753c74
   company: Akuna Capital
   role: Software Engineer (Platform)
   location: Chicago, IL
   link: https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -153,13 +153,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: aquatic-software-engineer-387eea
   company: Aquatic
   role: Software Engineer
   location: Chicago, IL
   link: https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002
-  date_posted: '2026-07-23'
+  date_posted: '2026-04-01'
   term: Summer 2027
   degree:
   - BS
@@ -178,13 +178,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: aquatic-quantitative-researcher-857973
   company: Aquatic
   role: Quantitative Researcher
   location: Chicago, IL
   link: https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002
-  date_posted: '2026-07-23'
+  date_posted: '2026-04-01'
   term: Summer 2027
   degree:
   - BS
@@ -200,7 +200,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: citadel-securities-quantitative-trader-404d0f
   company: Citadel Securities
   role: Quantitative Trader
@@ -242,7 +242,7 @@
   role: Quantitative Researcher
   location: Chicago, IL
   link: https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-intern-us/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - PhD
@@ -255,13 +255,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: citadel-securities-quantitative-researcher-qr-engineer-bfdd1b
   company: Citadel Securities
   role: Quantitative Researcher (QR Engineer)
   location: Chicago, IL
   link: https://www.citadelsecurities.com/careers/details/quantitative-research-engineer-phd-intern-us/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - PhD
@@ -274,13 +274,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: citadel-securities-machine-learning-researcher-5c7586
   company: Citadel Securities
   role: Machine Learning Researcher
   location: Chicago, IL
   link: https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - PhD
@@ -293,13 +293,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: citadel-securities-software-engineer-2e764e
   company: Citadel Securities
   role: Software Engineer
   location: Chicago, IL
   link: https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-06'
   term: Summer 2027
   degree:
   - BS
@@ -313,7 +313,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: citadel-quantitative-trader-3e20d6
   company: Citadel
   role: Quantitative Trader
@@ -355,7 +355,7 @@
   role: Software Engineer
   location: Chicago, IL
   link: https://www.citadel.com/careers/details/software-engineer-intern-us/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-07'
   term: Summer 2027
   degree:
   - BS
@@ -370,13 +370,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: drw-quantitative-researcher-ef083d
   company: DRW
   role: Quantitative Researcher
   location: Chicago, IL
   link: https://www.drw.com/work-at-drw/listings/quantitative-research-intern-3413670
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-31'
   term: Summer 2027
   degree:
   - BS
@@ -390,13 +390,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: drw-software-engineer-3fd2b0
   company: DRW
   role: Software Engineer
   location: Chicago, IL
   link: https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-31'
   term: Summer 2027
   degree:
   - BS
@@ -410,13 +410,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: five-rings-quantitative-trader-316f53
   company: Five Rings
   role: Quantitative Trader
   location: New York, NY
   link: https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-14'
   term: Summer 2027
   degree:
   - BS
@@ -434,13 +434,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: true
+  date_estimated: false
 - id: five-rings-quantitative-researcher-2e6963
   company: Five Rings
   role: Quantitative Researcher
   location: New York, NY
   link: https://job-boards.greenhouse.io/fiveringsllc/jobs/5349219008
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-14'
   term: Summer 2027
   degree:
   - PhD
@@ -456,13 +456,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: five-rings-software-engineer-0432f9
   company: Five Rings
   role: Software Engineer
   location: New York, NY
   link: https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-14'
   term: Summer 2027
   degree:
   - BS
@@ -482,7 +482,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: flow-traders-quantitative-trader-66e07c
   company: Flow Traders
   role: Quantitative Trader
@@ -506,7 +506,7 @@
   role: Quantitative Researcher
   location: New York, NY
   link: https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062&gh_src=f4cuomjz1us
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -520,13 +520,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: hudson-river-trading-quantitative-researcher-3ced01
   company: Hudson River Trading
   role: Quantitative Researcher
   location: New York, NY
   link: https://www.hudsonrivertrading.com/careers/job/?gh_jid=8059837&gh_src=f4cuomjz1us
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - PhD
@@ -541,13 +541,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: hudson-river-trading-software-engineer-af9421
   company: Hudson River Trading
   role: Software Engineer
   location: New York, NY
   link: https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&gh_src=f4cuomjz1us
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -564,7 +564,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: imc-trading-quantitative-trader-b45a2d
   company: IMC Trading
   role: Quantitative Trader
@@ -589,7 +589,7 @@
   role: Quantitative Researcher
   location: Chicago, IL
   link: https://www.imc.com/us/careers/jobs/4907399101
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -604,13 +604,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: imc-trading-quantitative-researcher-46ed6a
   company: IMC Trading
   role: Quantitative Researcher
   location: Chicago, IL
   link: https://www.imc.com/us/careers/jobs/4907400101
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - PhD
@@ -624,13 +624,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: imc-trading-software-engineer-58efe6
   company: IMC Trading
   role: Software Engineer
   location: Chicago, IL
   link: https://www.imc.com/us/careers/jobs/4823924101
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-07'
   term: Summer 2027
   degree:
   - BS
@@ -645,13 +645,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-quantitative-trader-2c53cb
   company: Jane Street
   role: Quantitative Trader
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8617344002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -666,13 +666,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-quantitative-researcher-6fbe73
   company: Jane Street
   role: Quantitative Researcher
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8498547002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -687,13 +687,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-quantitative-researcher-ml-1f186b
   company: Jane Street
   role: Quantitative Researcher (ML)
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8384490002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -708,13 +708,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-software-engineer-47066e
   company: Jane Street
   role: Software Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8599644002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-07'
   term: Summer 2027
   degree:
   - BS
@@ -729,13 +729,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: old-mission-software-engineer-96879a
   company: Old Mission
   role: Software Engineer
   location: Chicago, IL
   link: https://www.oldmissioncapital.com/careers/?gh_jid=7796180003
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-15'
   term: Summer 2027
   degree:
   - BS
@@ -754,13 +754,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: optiver-quantitative-trader-9e5766
   company: Optiver
   role: Quantitative Trader
   location: Chicago, IL
   link: https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-28'
   term: Summer 2027
   degree:
   - BS
@@ -774,13 +774,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: true
+  date_estimated: false
 - id: optiver-quantitative-researcher-0fb0eb
   company: Optiver
   role: Quantitative Researcher
   location: Chicago, IL
   link: https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/chicago/quantitative-research-intern-phd-summer-2027/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-02'
   term: Summer 2027
   degree:
   - PhD
@@ -794,13 +794,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: optiver-quantitative-researcher-a4328e
   company: Optiver
   role: Quantitative Researcher
   location: Austin, TX
   link: https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/austin/quantitative-research-intern-phd-summer-2027/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-02'
   term: Summer 2027
   degree:
   - PhD
@@ -814,13 +814,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: optiver-software-engineer-0212ad
   company: Optiver
   role: Software Engineer
   location: Chicago, IL
   link: https://www.optiver.com/join-us/jobs/technology/chicago/software-engineer-intern-summer-2027-chicago/
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-28'
   term: Summer 2027
   degree:
   - BS
@@ -835,13 +835,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: optiver-software-engineer-755824
   company: Optiver
   role: Software Engineer
   location: Austin, TX
   link: https://www.optiver.com/join-us/jobs/technology/austin/software-engineer-intern-summer-2027-austin/
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-28'
   term: Summer 2027
   degree:
   - BS
@@ -857,13 +857,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: quantic-quantitative-developer-69817e
   company: Quantic
   role: Quantitative Developer
   location: Boston, MA
   link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-01'
   term: Summer 2027
   degree:
   - BS
@@ -879,13 +879,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: quantic-quantitative-researcher-21fa28
   company: Quantic
   role: Quantitative Researcher
   location: Boston, MA
   link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679173006
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-10'
   term: Summer 2027
   degree:
   - BS
@@ -899,13 +899,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: seven-research-quantitative-researcher-quant-research-db7c55
   company: Seven Research
   role: Quantitative Researcher (Quant Research)
   location: New York, NY
   link: https://job-boards.greenhouse.io/sevenresearch/jobs/4894946008
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - BS
@@ -918,13 +918,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: seven-research-quantitative-researcher-deep-learning-1b0479
   company: Seven Research
   role: Quantitative Researcher (Deep Learning)
   location: New York, NY
   link: https://job-boards.greenhouse.io/sevenresearch/jobs/4895007008
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - BS
@@ -937,13 +937,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: seven-research-quantitative-developer-f7ec8d
   company: Seven Research
   role: Quantitative Developer
   location: New York, NY
   link: https://job-boards.greenhouse.io/sevenresearch/jobs/4895082008
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - BS
@@ -956,13 +956,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: seven-research-software-engineer-92f45a
   company: Seven Research
   role: Software Engineer
   location: New York, NY
   link: https://job-boards.greenhouse.io/sevenresearch/jobs/4895047008
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - BS
@@ -975,7 +975,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: sig-quantitative-trader-5dbfec
   company: SIG
   role: Quantitative Trader
@@ -1143,7 +1143,7 @@
   role: Software Engineer (Risk Technology)
   location: New York, NY
   link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679224006
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-10'
   term: Summer 2027
   degree:
   - BS
@@ -1158,13 +1158,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: walleye-capital-software-engineer-technology-28ff87
   company: Walleye Capital
   role: Software Engineer (Technology)
   location: New York, NY
   link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4681002006
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-10'
   term: Summer 2027
   degree:
   - BS
@@ -1179,13 +1179,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: walleye-capital-quantitative-researcher-volatility-130f3d
   company: Walleye Capital
   role: Quantitative Researcher (Volatility)
   location: New York, NY
   link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-01'
   term: Summer 2027
   degree:
   - BS
@@ -1201,13 +1201,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: walleye-capital-quantitative-researcher-data-science-db1055
   company: Walleye Capital
   role: Quantitative Researcher (Data Science)
   location: New York, NY
   link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-01'
   term: Summer 2027
   degree:
   - BS
@@ -1225,7 +1225,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: susquehanna-quantitative-systematic-trading-intern-phd-summer-2027-65fe39
   company: Susquehanna
   role: Quantitative Systematic Trading Intern (PhD, Summer 2027)
@@ -2246,7 +2246,7 @@
   role: 2027 Internship - Quantitative Researcher - PhD
   location: New York City, NY
   link: https://job-boards.greenhouse.io/virtu/jobs/8624424002
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-22'
   term: Summer 2027
   degree:
   - PhD
@@ -2263,7 +2263,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: virtu-financial-internship-quantitative-trading-29dd2a
   company: Virtu Financial
   role: Internship - Quantitative Trading
@@ -2587,7 +2587,7 @@
   role: Quantitative Research Intern (PhD) - ...
   location: Chicago, IL
   link: https://job-boards.eu.greenhouse.io/imc/jobs/4907400101
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - PhD
@@ -2601,13 +2601,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: point72-quantitative-research-intern-nlp-cc3d14
   company: Point72
   role: Quantitative Research Intern (NLP)
   location: New York, NY
   link: https://boards.greenhouse.io/point72/jobs/8018862002?gh_jid=8018862002
-  date_posted: '2026-07-23'
+  date_posted: '2025-06-14'
   term: Summer 2027
   degree:
   - BS
@@ -2625,7 +2625,7 @@
   role: Summer 2027 Quantitative Research Int...
   location: New York, NY
   link: https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002
-  date_posted: '2026-07-23'
+  date_posted: '2024-08-15'
   term: Summer 2027
   degree:
   - BS
@@ -2638,13 +2638,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: point72-quantitative-research-intern-b1a72c
   company: Point72
   role: Quantitative Research Intern
   location: New York, NY
   link: https://boards.greenhouse.io/point72/jobs/7297667002?gh_jid=7297667002
-  date_posted: '2026-07-23'
+  date_posted: '2024-08-18'
   term: Summer 2027
   degree:
   - BS
@@ -2677,7 +2677,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: true
+  date_estimated: false
 - id: walleye-capital-volatility-trading-developer-intern-summer-2027-89b05c
   company: Walleye Capital
   role: Volatility Trading Developer Intern (Summer 2027)
@@ -2800,7 +2800,7 @@
   role: Machine Learning Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8611307002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -2814,13 +2814,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-cybersecurity-analyst-a6e6ba
   company: Jane Street
   role: Cybersecurity Analyst
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8632723002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -2832,13 +2832,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-data-engineer-b91e6b
   company: Jane Street
   role: Data Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8631973002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -2852,13 +2852,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-fundamental-research-analyst-7c44d9
   company: Jane Street
   role: Fundamental Research Analyst
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8347286002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -2870,13 +2870,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-linux-engineer-57b54f
   company: Jane Street
   role: Linux Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8626260002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -2889,13 +2889,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-network-engineer-0425e2
   company: Jane Street
   role: Network Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8620793002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -2908,13 +2908,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-sales-and-trading-80a5b3
   company: Jane Street
   role: Sales and Trading
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8347385002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -2926,7 +2926,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-strategy-and-product-4ab7f9
   company: Jane Street
   role: Strategy and Product
@@ -2948,7 +2948,7 @@
   role: Trading Desk Operations Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8621450002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -2961,13 +2961,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-windows-engineer-bf08d7
   company: Jane Street
   role: Windows Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8628843002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -2980,7 +2980,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-it-operations-engineer-b927a2
   company: Jane Street
   role: IT Operations Engineer
@@ -3494,7 +3494,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: akuna-capital-quantitative-research-intern-a0185e
   company: Akuna Capital
   role: Quantitative Research Intern
@@ -3510,7 +3510,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: akuna-capital-quantitative-development-strategy-intern-758a36
   company: Akuna Capital
   role: Quantitative Development & Strategy Intern
@@ -3526,7 +3526,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: anthelion-capital-quant-developer-quant-research-intern-2026-2027-7cd240
   company: Anthelion Capital
   role: Quant Developer / Quant Research Intern - 2026/2027
@@ -3998,8 +3998,8 @@
   role: 'Quantitative Strategy Developer Internship: Summer 2027'
   location: Bala Cynwyd, PA
   link: https://careers-sig.icims.com/jobs/10838/quantitative-strategy-developer-internship%3a-summer-2027/job
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-04-23'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -4031,7 +4031,7 @@
   location: New York, NY
   link: https://apply.workable.com/capula-investment-management-ltd/j/A15A62A8BE/apply
   date_posted: '2026-08-08'
-  date_estimated: true
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -4046,8 +4046,8 @@
   role: Dynamic Intern
   location: Boston, MA
   link: https://empower.wd12.myworkdayjobs.com/PanAgora/job/MA-Boston---PanAgora/Intern--Dynamic_R0061449
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-06'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -4062,8 +4062,8 @@
   role: Algorithmic Trader Intern
   location: Chicago, IL
   link: https://job-boards.greenhouse.io/transmarketgroup/jobs/5151581007?gh_jid=5151581007
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-03'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -4078,8 +4078,8 @@
   role: 'Trader: Fixed Income & Macro Intern'
   location: New York, NY
   link: https://www.citadel.com/careers/details/trader-fixed-income-macro-intern-us/
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-07-06'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS

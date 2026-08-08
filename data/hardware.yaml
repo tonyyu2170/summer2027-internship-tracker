@@ -3,7 +3,7 @@
   role: Hardware Engineer
   location: Chicago, IL
   link: https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -17,13 +17,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: citadel-securities-hardware-engineer-fpga-2c9948
   company: Citadel Securities
   role: Hardware Engineer (FPGA)
   location: Chicago, IL
   link: https://www.citadelsecurities.com/careers/details/fpga-engineer-intern-us/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-06'
   term: Summer 2027
   degree:
   - BS
@@ -35,13 +35,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: drw-fpga-engineer-1147ab
   company: DRW
   role: FPGA Engineer
   location: Chicago, IL
   link: https://www.drw.com/work-at-drw/listings/fpga-intern-3484423
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-31'
   term: Summer 2027
   degree:
   - BS
@@ -53,13 +53,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: imc-trading-hardware-engineer-fd5c49
   company: IMC Trading
   role: Hardware Engineer
   location: Chicago, IL
   link: https://www.imc.com/us/careers/jobs/4823945101
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -72,13 +72,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: jane-street-fpga-engineer-7bf9ea
   company: Jane Street
   role: FPGA Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8624440002/
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -91,7 +91,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: second-order-effects-electrical-engineering-intern-summer-2027-13520f
   company: Second Order Effects
   role: Electrical Engineering Intern (Summer 2027)
@@ -429,7 +429,7 @@
   role: Intern - Systems Engineering
   location: Southfield, MI
   link: https://magna.wd3.myworkdayjobs.com/Magna/job/Southfield-Michigan-US/Intern---Engineering_R00235437
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -495,7 +495,7 @@
   role: Avionics and Electrical Engineering F...
   location: Denver, CO
   link: https://job-boards.greenhouse.io/trueanomalyinc/jobs/5192738007
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-25'
   term: Summer 2027
   degree:
   - BS
@@ -506,13 +506,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: contoro-robotics-robotics-engineer-intern-test-val-6834ae
   company: Contoro Robotics
   role: Robotics Engineer Intern - Test & Val...
   location: Austin, TX
   link: https://jobs.ashbyhq.com/contoro/cf7c8043-8fbe-4c7e-b91f-ee6db2a616c5/application
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-25'
   term: Summer 2027
   degree:
   - BS
@@ -523,13 +523,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: huntsman-mechanical-engineering-intern-1a4dee
   company: Huntsman
   role: Mechanical Engineering Intern
   location: Houston, TX
   link: https://huntsman.wd1.myworkdayjobs.com/Huntsman/job/USA---Texas---Houston---The-Woodlands---Corporate-Office/Mechanical-Engineering-Intern_J-020026
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-18'
   term: Summer 2027
   degree:
   - BS
@@ -540,13 +540,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: huntsman-electrical-engineering-intern-259c59
   company: Huntsman
   role: Electrical Engineering Intern
   location: Houston, TX
   link: https://huntsman.wd1.myworkdayjobs.com/Huntsman/job/USA---Texas---Houston---The-Woodlands---Corporate-Office/Electrical-Engineering-Intern_J-020027
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-18'
   term: Summer 2027
   degree:
   - BS
@@ -557,7 +557,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: schweitzer-engineering-laboratories-engineering-intern-d4c302
   company: Schweitzer Engineering Laboratories
   role: Engineering Intern
@@ -633,7 +633,7 @@
   role: Electrical Engineering Intern
   location: Wilmington, DE
   link: https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-11'
   term: Summer 2027
   degree:
   - BS
@@ -644,7 +644,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: wsp-electrical-engineering-intern-substa-58615e
   company: WSP
   role: Electrical Engineering Intern (Substa...
@@ -667,7 +667,7 @@
   role: Campus FPGA Engineer (Intern)
   location: Chicago, IL
   link: https://www.jumptrading.com/hr/job?gh_jid=8003013
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -701,7 +701,7 @@
   role: Sustaining Engineering Intern
   location: Cincinnati, OH
   link: https://cranecompany.wd5.myworkdayjobs.com/Careers/job/Cincinnati-Ohio/Sustaining-Engineering-Intern_JR102022
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -718,7 +718,7 @@
   role: Sustaining Engineering Intern
   location: Cincinnati, OH
   link: https://cranecompany.wd5.myworkdayjobs.com/Careers/job/Cincinnati-Ohio/Sustaining-Engineering-Intern_JR102023
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -786,7 +786,7 @@
   role: Hardware Engineering Intern
   location: San Jose, CA
   link: https://biotechne.wd5.myworkdayjobs.com/Biotechne/job/San-Jose-CA/Hardware-Engineering-Intern_JR101533
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -803,7 +803,7 @@
   role: Mechanical Engineer Intern
   location: Remote (US)
   link: https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Remote---United-States-of-America/Mechanical-Engineer-Intern_JR0000036528-1
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -820,7 +820,7 @@
   role: Mechanical Design Engineering Intern
   location: Billerica, MA
   link: https://generac.wd5.myworkdayjobs.com/External/job/North-Billerica-MA---USA/Mechanical-Design-Engineering-Intern_JR14679
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -837,7 +837,7 @@
   role: Validation Intern (Year-Round)
   location: Kokomo, IN
   link: https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Validation-Intern--Year-Round-_R2026-1958-1
-  date_posted: '2026-07-23'
+  date_posted: '2026-08-05'
   term: Summer 2027
   degree:
   - BS
@@ -848,13 +848,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: borgwarner-validation-intern-year-round-8fc9f4
   company: BorgWarner
   role: Validation Intern (Year-Round)
   location: Kokomo, IN
   link: https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Validation-Intern--Year-Round-_R2026-1960
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -871,7 +871,7 @@
   role: manufacturing engineering intern
   location: Mankato, MN
   link: https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSAMinnesotaMankato-MN/manufacturing-engineering-intern_R0016035
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -888,7 +888,7 @@
   role: Electrical Engineer Intern
   location: Lexington, TN
   link: https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSATennesseeLexington-TN/Electrical-Engineer-Intern_R0015984
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -922,7 +922,7 @@
   role: 2027 Mechanical Engineer Intern
   location: Atlanta, GA
   link: https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -939,7 +939,7 @@
   role: 2027 Electrical Engineer Intern
   location: Atlanta, GA
   link: https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -956,7 +956,7 @@
   role: Mechanical Design Engineering Intern
   location: Fort Lauderdale, FL
   link: https://jobs.smartrecruiters.com/BoschGroup/744000131662039
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -973,7 +973,7 @@
   role: Electromechanical Design Engineering ...
   location: Irvine, CA
   link: https://jobs.ashbyhq.com/rivianvw.tech/14734be2-9c81-4aab-bfa6-7dbbe95c94a6/application
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-09'
   term: Summer 2027
   degree:
   - BS
@@ -990,7 +990,7 @@
   role: Hardware Engineering Intern
   location: Austin, TX
   link: https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770/application
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-09'
   term: Summer 2027
   degree:
   - BS
@@ -1007,7 +1007,7 @@
   role: Manufacturing Engineering Intern
   location: Austin, TX
   link: https://jobs.ashbyhq.com/base-power/a92c9d93-eac0-4da5-b3f2-edf1eeef146b/application
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-09'
   term: Summer 2027
   degree:
   - BS
@@ -1041,7 +1041,7 @@
   role: Mechanical Engineer - Associate Progr...
   location: San Francisco, CA
   link: https://job-boards.greenhouse.io/astranis/jobs/4603493006
-  date_posted: '2026-07-23'
+  date_posted: '2026-05-10'
   term: Summer 2027
   degree:
   - BS
@@ -1058,7 +1058,7 @@
   role: Intern - Electrical Engineer
   location: San Francisco, CA
   link: https://jobs.ashbyhq.com/human-computer-lab/004ff3a2-7e38-4959-8bd7-48489cbc78f4/application
-  date_posted: '2026-07-23'
+  date_posted: '2026-05-10'
   term: Summer 2027
   degree:
   - BS
@@ -1075,7 +1075,7 @@
   role: Electrical Engineering Intern
   location: Huntington Beach, CA
   link: https://jobs.lever.co/layup/0d8b26c2-f4f9-4dc1-b987-1e496fd616aa/apply
-  date_posted: '2026-07-23'
+  date_posted: '2026-05-10'
   term: Summer 2027
   degree:
   - BS
@@ -1092,7 +1092,7 @@
   role: Manufacturing Engineering Intern (Spr...
   location: Phoenix, AZ
   link: https://www.asm.com/open-vacancies/?gh_jid=4830098101
-  date_posted: '2026-07-23'
+  date_posted: '2026-05-10'
   term: Summer 2027
   degree:
   - BS
@@ -1212,7 +1212,7 @@
   role: Design/DSP/Verification Intern - PhD ...
   location: Santa Clara, CA
   link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-DSP-Verification-Intern---PhD-Degree_2502786-1
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - PhD
@@ -1229,7 +1229,7 @@
   role: ASIC Design Engineer Intern
   location: Santa Clara, CA
   link: https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100100
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -1296,7 +1296,7 @@
   role: Analog and Mixed-Signal IC Design Eng...
   location: South San Francisco, CA
   link: https://boards.greenhouse.io/neuralink/jobs/7565469003?gh_jid=7565469003
-  date_posted: '2026-07-23'
+  date_posted: '2026-03-11'
   term: Summer 2027
   degree:
   - BS
@@ -1330,7 +1330,7 @@
   role: Digital IC Design Engineer Intern
   location: South San Francisco, CA
   link: https://boards.greenhouse.io/neuralink/jobs/7090489003?gh_jid=7090489003
-  date_posted: '2026-07-23'
+  date_posted: '2025-11-11'
   term: Summer 2027
   degree:
   - BS
@@ -1364,7 +1364,7 @@
   role: Engineering Intern (Summer 2027)
   location: Jacksonville, FL
   link: https://careers.geaerospace.com/global/en/job/GAOGAYGLOBALR5037097EXTERNALENGLOBAL/Unison-Engineering-Intern-Summer-2027
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-16'
   term: Summer 2027
   degree:
   - BS
@@ -1376,13 +1376,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: tsmc-arizona-engineering-intern-12-roles-process-equipment-cim-software-78811d
   company: TSMC Arizona
   role: 'Engineering Intern (12 roles: process, equipment, CIM / software)'
   location: Phoenix, AZ
   link: https://ro.careers.tsmc.com/job/Phoenix-Summer-2027-TSMC-AZ-Internship-Opportunities-Engineering-Roles-AZ-85001/1361003166/
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-04'
   term: Summer 2027
   degree:
   - BS
@@ -1393,7 +1393,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: spectrum-control-engineering-intern-8f527f
   company: Spectrum Control
   role: Engineering Intern
@@ -1551,7 +1551,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: optiver-fpga-engineer-intern-748c5a
   company: Optiver
   role: FPGA Engineer Intern
@@ -1699,8 +1699,8 @@
   role: Research Intern - Firmware Security
   location: Washington, DC
   link: https://apply.careers.microsoft.com/careers/job/1970393556955518
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-04'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1715,8 +1715,8 @@
   role: Intern-Engineering - Firmware Development
   location: Houston, TX
   link: https://microchiphr.wd5.myworkdayjobs.com/en-US/external/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Firmware-Development-_R3372-26
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-03'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1731,8 +1731,8 @@
   role: 'Drexel University Co-op: Embedded Software Engineering'
   location: Princeton, NJ
   link: https://careers-sri.icims.com/jobs/6431/drexel-university-co-op%3a-embedded-software-engineering/job
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-03'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1747,8 +1747,8 @@
   role: Firmware Intern
   location: Palo Alto, CA
   link: https://jobs.ashbyhq.com/windborne-systems/75c5c65c-8179-4ca0-9659-39bf0f8f7b8b
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-07-07'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1764,7 +1764,7 @@
   location: San Jose, CA
   link: https://joinbytedance.com/search/7670332179383699717
   date_posted: '2026-08-08'
-  date_estimated: true
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1779,8 +1779,8 @@
   role: Embedded Quality & Fielded Systems In...
   location: Cambridge, MA
   link: https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-05'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1796,8 +1796,8 @@
   role: Hardware Test & Reliability Intern
   location: San Mateo, CA
   link: https://jobs.ashbyhq.com/skydio/d75d4adf-760c-46b6-bb98-3497650a8924
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-05'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1828,8 +1828,8 @@
   role: Robotics Test & Validation Intern
   location: Austin, TX
   link: https://jobs.ashbyhq.com/contoro/7de98745-6a26-4a96-b82c-0cecf4900eb1
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-05'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1844,8 +1844,8 @@
   role: Wireless Systems Research Intern
   location: Sunnyvale, CA
   link: https://jobs.smartrecruiters.com/BoschGroup/744000141552037
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-04'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1860,8 +1860,8 @@
   role: 2027 Campus Recruiting Robotics Cente...
   location: Santa Clara, CA
   link: https://job-boards.greenhouse.io/xpengmotors/jobs/8681156002
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-05'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1892,8 +1892,8 @@
   role: Robotics Interns
   location: Redmond, WA
   link: https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Redmond-Washington/Robotics-Interns_JR107983-1
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-05'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1909,7 +1909,7 @@
   location: San Francisco, CA
   link: https://apply.workable.com/flexion-robotics/j/8FF540773C/apply
   date_posted: '2026-08-08'
-  date_estimated: true
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1924,8 +1924,8 @@
   role: Performance Tools Intern
   location: San Jose, CA
   link: https://jobs.ashbyhq.com/Etched/f02e8035-7dc9-4b0c-aab7-75bbb4e975b8/application?embed=true
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-03'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -1940,8 +1940,8 @@
   role: Focused Ion Beam, Electron Microscopy, and Autonomous Characterization Intern - Multiple Teams
   location: Golden, CO
   link: https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate-Intern---Focused-Ion-Beam--Electron-Microscopy--and-Autonomous-Characterization_R14431
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-07-29'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
