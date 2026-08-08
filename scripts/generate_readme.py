@@ -40,10 +40,10 @@ def _escape_cell(s: str) -> str:
     return str(s).replace("|", "\\|").replace("\r", "").replace("\n", " ")
 
 
-def _row_cells(row: dict, is_quant: bool) -> str:
+def _row_cells(row: dict) -> str:
+    # `track` stays in the data model; it's just not rendered — the role
+    # title already carries it (Tony, 2026-08-08).
     cells = [_escape_cell(row["company"]), _escape_cell(row["role"])]
-    if is_quant:
-        cells.append(_escape_cell(row.get("track", "")))
     cells += [
         _escape_cell(row["location"]),
         f"[Apply](<{row['link']}>)",
@@ -56,15 +56,15 @@ def _row_cells(row: dict, is_quant: bool) -> str:
     return "| " + " | ".join(cells) + " |"
 
 
-def _table(rows: list, is_quant: bool) -> str:
-    header = ["Company", "Role"] + (["Track"] if is_quant else []) + \
-        ["Location", "Link", "Date Posted", "Term", "Degree", "Last Verified", "Status"]
+def _table(rows: list) -> str:
+    header = ["Company", "Role", "Location", "Link", "Date Posted", "Term",
+              "Degree", "Last Verified", "Status"]
     lines = [
         "| " + " | ".join(header) + " |",
         "| " + " | ".join(["---"] * len(header)) + " |",
     ]
     for r in sorted(rows, key=lambda r: r["date_posted"], reverse=True):
-        lines.append(_row_cells(r, is_quant))
+        lines.append(_row_cells(r))
     return "\n".join(lines)
 
 
@@ -187,10 +187,10 @@ def render(data_dir=None, readme_path=None, last_run=None) -> Path:
         "⏳ Upcoming if unannounced) · 🔒 Closed · ⚪ Unknown.",
         "",
     ]
-    for stem, title, is_quant in CATEGORIES:
+    for stem, title, _is_quant in CATEGORIES:
         rows = rows_by_category[stem]
         out += [f"## {title}", ""]
-        out += [_table(rows, is_quant), ""] if rows else ["_No roles tracked yet._", ""]
+        out += [_table(rows), ""] if rows else ["_No roles tracked yet._", ""]
     for stem, title in OPPORTUNITY_KINDS:
         rows = opp_rows_by_kind[stem]
         out += [f"## {title}", ""]

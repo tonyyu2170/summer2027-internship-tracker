@@ -4073,22 +4073,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: quadrillion-research-intern-75d2a5
-  company: Quadrillion
-  role: Research Intern
-  location: New York, NY
-  link: https://jobs.ashbyhq.com/quadrillion-labs/579cef88-1dbf-45b5-a938-7ddc23505765/application?embed=true
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: citadel-trader-fixed-income-macro-intern-f07282
   company: Citadel
   role: 'Trader: Fixed Income & Macro Intern'

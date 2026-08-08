@@ -68,8 +68,7 @@ def test_quant_table_has_track_column_and_row(tmp_path):
     out = tmp_path / "README.md"
     render(data_dir, out)
     text = out.read_text()
-    assert "| Track |" in text
-    assert "Trading" in text
+    assert "| Track |" not in text     # track stays in data, not rendered
     assert "[Apply](<https://x.com/j>)" in text
 
 
