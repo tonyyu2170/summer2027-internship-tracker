@@ -572,7 +572,7 @@
   role: Software Engineering Intern
   location: Dallas, TX
   link: https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079
-  date_posted: '2026-07-20'
+  date_posted: '2026-08-07'
   term: Summer 2027
   degree:
   - BS
@@ -583,6 +583,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: ge-healthcare-edison-engineering-development-program-intern-software-537e26
   company: GE HealthCare
   role: Edison Engineering Development Program Intern - Software
@@ -667,7 +668,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-cec41d
   company: Copart
@@ -978,12 +979,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: ge-vernova-grid-automation-software-intern-adac8e
   company: GE Vernova
@@ -994,12 +995,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: beacon-software-software-engineering-intern-b35cec
   company: Beacon Software
@@ -2603,7 +2604,7 @@
   role: 2026-2027 Information Technology - Software Engineer - Intern
   location: Houston, TX
   link: https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1
-  date_posted: '2026-07-17'
+  date_posted: '2026-07-16'
   term: Summer 2027
   degree:
   - BS
@@ -2613,6 +2614,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: lila-sciences-co-op-software-product-management-bb961c
   company: Lila Sciences
   role: Co-Op - Software Product Management
@@ -2632,7 +2634,7 @@
 - id: nidec-software-engineer-co-op-e4f614
   company: Nidec
   role: Software Engineer Co-Op
-  location: WPE, MO
+  location: St. Louis - WPE, MO
   link: https://nidec.wd1.myworkdayjobs.com/en-US/nidec/job/North-AmericaUSAMissouriSt-Louis---WPE-MO/Software-Engineer-Co-Op_R0015871
   date_posted: '2026-06-10'
   term: Summer 2027
@@ -5232,7 +5234,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'

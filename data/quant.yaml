@@ -1514,7 +1514,7 @@
   role: Quantitative Research Intern (BS / MS)
   location: Chicago, IL
   link: https://job-boards.eu.greenhouse.io/imc/jobs/4907399101
-  date_posted: '2026-06-28'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - BS
@@ -1531,12 +1531,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
+  date_estimated: false
 - id: imc-trading-machine-learning-research-intern-f75a99
   company: IMC Trading
   role: Machine Learning Research Intern
   location: Chicago, IL
   link: https://job-boards.eu.greenhouse.io/imc/jobs/4907430101
-  date_posted: '2026-06-28'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - BS
@@ -1553,12 +1554,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
+  date_estimated: false
 - id: imc-trading-quantitative-trader-intern-4e8aed
   company: IMC Trading
   role: Quantitative Trader Intern
   location: Chicago, IL
   link: https://job-boards.eu.greenhouse.io/imc/jobs/4823923101
-  date_posted: '2026-06-28'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - BS
@@ -1574,6 +1576,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: false
 - id: virtu-financial-quant-research-intern-undergrad-1a1aed
   company: Virtu Financial
   role: Quant Research Intern (Undergrad)
@@ -2399,7 +2402,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: radix-trading-quantitative-technologist-c-intern-ada60c
   company: Radix Trading

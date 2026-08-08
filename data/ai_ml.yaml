@@ -200,7 +200,7 @@
   role: AI Software Engineering Intern
   location: Phoenix, AZ
   link: https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641
-  date_posted: '2026-07-17'
+  date_posted: '2026-07-29'
   term: Summer 2027
   degree:
   - BS
@@ -211,12 +211,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: intel-ai-software-engineering-intern-4a977c
   company: Intel
   role: AI Software Engineering Intern
   location: Hillsboro, OR
   link: https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639
-  date_posted: '2026-07-17'
+  date_posted: '2026-07-29'
   term: Summer 2027
   degree:
   - BS
@@ -227,6 +228,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: exowatt-software-engineering-intern-agent-platform-ai-695290
   company: Exowatt
   role: Software Engineering Intern - Agent Platform - AI
@@ -576,7 +578,7 @@
 - id: datarobot-agentic-ai-intern-fd3419
   company: DataRobot
   role: Agentic AI Intern
-  location: Remote (US)
+  location: Boston, MA
   link: https://datarobot.wd1.myworkdayjobs.com/en-US/datarobot_external_careers/job/Boston-Massachusetts-US/Agentic-AI-Intern_R-102729
   date_posted: '2026-07-15'
   term: Summer 2027
@@ -586,7 +588,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: adaptive-ai-product-operations-intern-f047ad
   company: Adaptive
@@ -733,7 +735,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: tencent-hunyuan-multimodal-algorithm-researcher-intern-omni-modal-bfb175
   company: Tencent
@@ -748,7 +750,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: tencent-hunyuan-multimodal-algorithm-researcher-intern-omni-modal-ad40cf
   company: Tencent
@@ -763,7 +765,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: nelnet-intern-ai-engineer-110df6
   company: Nelnet
@@ -781,7 +783,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: cotiviti-intern-generative-ai-research-engineer-e2606f
   company: Cotiviti
@@ -1034,7 +1036,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: constellation-space-graduate-phd-research-intern-machine-learning-1617bd
   company: Constellation Space
@@ -1080,7 +1082,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: asm-global-automation-ai-technology-experience-intern-07541e
   company: ASM Global
@@ -1095,7 +1097,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: cotiviti-intern-generative-ai-agentic-ai-research-ad8464
   company: Cotiviti
@@ -1158,7 +1160,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: penn-state-ai-ml-research-and-development-intern-412d07
   company: Penn State
@@ -1169,11 +1171,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: etched-infrastructure-intern-86fd8e
   company: Etched
@@ -1725,12 +1727,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: haize-labs-research-intern-972de8
@@ -2993,7 +2995,7 @@
   role: AI Software Engineer Graduate Intern
   location: Remote (US)
   link: https://intel.wd1.myworkdayjobs.com/en-US/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989
-  date_posted: '2026-07-31'
+  date_posted: '2026-08-04'
   date_estimated: false
   term: Summer 2027
   degree:

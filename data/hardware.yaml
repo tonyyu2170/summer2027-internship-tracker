@@ -114,7 +114,7 @@
   role: Hardware Engineer Intern
   location: Chicago, IL
   link: https://job-boards.eu.greenhouse.io/imc/jobs/4823945101
-  date_posted: '2026-06-28'
+  date_posted: '2026-07-01'
   term: Summer 2027
   degree:
   - BS
@@ -129,6 +129,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: nightwing-software-hardware-engineering-intern-5060d4
   company: Nightwing
   role: Software / Hardware Engineering - Intern
@@ -264,7 +265,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: astreya-ai-infrastructure-dc-design-intern-c37bc5
   company: Astreya
@@ -280,7 +281,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: astreya-ai-infrastructure-dc-design-intern-b48bbf
   company: Astreya
@@ -296,7 +297,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: quadric-ai-kernel-engineer-intern-kernel-optimization-8d79fd
   company: Quadric
@@ -1436,7 +1437,7 @@
   role: Gas Turbine Products Engineering Intern
   location: San Diego, CA
   link: https://cat.wd5.myworkdayjobs.com/en-US/solarturbines/job/San-Diego-California/XMLNAME-2027--Gas-Turbine-Product-Engineering-Internship_R0000382293
-  date_posted: '2026-07-16'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -1446,6 +1447,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: microchip-technology-equipment-engineering-technician-intern-metrology-8e84c1
   company: Microchip Technology
   role: Equipment Engineering Technician Intern - Metrology
@@ -1521,7 +1523,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: optiver-fpga-engineer-intern-d78281
   company: Optiver
