@@ -24,6 +24,12 @@ _SMARTRECRUITERS_RE = re.compile(
     r"^https?://jobs\.smartrecruiters\.com/([^/?#]+)/(\d+)", re.I)
 _ICIMS_RE = re.compile(r"^https?://[^/]+\.icims\.com/jobs/\d+/", re.I)
 
+_US_COUNTRY = {"us", "usa", "united states", "united states of america"}
+
+
+def _is_us_country(country) -> bool:
+    return (country or "").strip().lower() in _US_COUNTRY
+
 
 def api_url(link: str):
     """('family', probe_url) for a link on a covered ATS, else None.
@@ -141,8 +147,102 @@ def _extract_lever(body, link, today):
     }
 
 
+def _extract_ashby(body, link, today):
+    jobs = json.loads(body)["jobs"]
+    uuid = link.rstrip("/").rsplit("/", 1)[-1].lower()
+    job = next(
+        (jb for jb in jobs
+         if (jb.get("id") or "").lower() == uuid
+         or (jb.get("jobUrl") or "").rstrip("/").lower().endswith(uuid)),
+        None)
+    if job is None:
+        # the org's own board no longer serves this posting id — that is the
+        # board's authoritative "gone", not scrape disappearance
+        return {"locations": [], "country": None, "date_posted": None,
+                "closed": True}
+    address = ((job.get("address") or {}).get("postalAddress") or {})
+    locations = []
+    locality, region = address.get("addressLocality"), address.get("addressRegion")
+    if locality and region:
+        locations.append(f"{locality}, {region}")
+    if job.get("location"):
+        locations.append(job["location"])
+    for sec in job.get("secondaryLocations") or []:
+        if sec.get("location"):
+            locations.append(sec["location"])
+    return {
+        "locations": locations,
+        "country": address.get("addressCountry"),
+        "date_posted": (job.get("publishedAt") or "")[:10] or None,
+        "closed": job.get("isListed") is False,
+    }
+
+
+def _extract_smartrecruiters(body, link, today):
+    j = json.loads(body)
+    j["id"]                       # shape guard
+    loc = j.get("location") or {}
+    country = (loc.get("country") or "").upper() or None
+    locations = []
+    if loc.get("remote") and _is_us_country(country):
+        # a bare "Remote" canonicalizes to "Remote (US)" — only emit it when
+        # the API's own country field actually says US
+        locations.append("Remote")
+    if loc.get("city") and loc.get("region"):
+        locations.append(f"{loc['city']}, {loc['region']}")
+    elif loc.get("city"):
+        locations.append(loc["city"])
+    return {
+        "locations": locations,
+        "country": country,
+        "date_posted": (j.get("releasedDate") or "")[:10] or None,
+        "closed": False,
+    }
+
+
+_JSONLD_RE = re.compile(
+    r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
+    re.I | re.S)
+
+
+def _extract_icims(body, link, today):
+    for block in _JSONLD_RE.findall(body):
+        try:
+            data = json.loads(block.strip())
+        except ValueError:
+            continue
+        for item in (data if isinstance(data, list) else [data]):
+            if isinstance(item, dict) and item.get("@type") == "JobPosting":
+                return _from_jsonld(item)
+    return None
+
+
+def _from_jsonld(item):
+    places = item.get("jobLocation") or []
+    if isinstance(places, dict):
+        places = [places]
+    locations, country = [], None
+    for place in places:
+        addr = (place or {}).get("address") or {}
+        locality, region = addr.get("addressLocality"), addr.get("addressRegion")
+        if locality and region:
+            locations.append(f"{locality}, {region}")
+        elif locality:
+            locations.append(locality)
+        country = country or addr.get("addressCountry")
+    return {
+        "locations": locations,
+        "country": country,
+        "date_posted": (item.get("datePosted") or "")[:10] or None,
+        "closed": False,
+    }
+
+
 _EXTRACTORS = {
     "workday": _extract_workday,
     "greenhouse": _extract_greenhouse,
     "lever": _extract_lever,
+    "ashby": _extract_ashby,
+    "smartrecruiters": _extract_smartrecruiters,
+    "icims": _extract_icims,
 }

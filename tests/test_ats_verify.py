@@ -150,3 +150,109 @@ def test_extract_lever_all_locations_country_and_created_at():
 def test_extract_lever_falls_back_to_single_location():
     body = json.dumps({"id": "x", "categories": {"location": "Austin, TX"}})
     assert extract("lever", 200, body, today=TODAY)["locations"] == ["Austin, TX"]
+
+
+ASHBY_LINK = "https://jobs.ashbyhq.com/bild-ai/b333f0f7-0ca6-4509-8697-9303396b5364"
+
+
+def _ashby_board(jobs):
+    return json.dumps({"jobs": jobs})
+
+
+def test_extract_ashby_finds_job_by_link_uuid():
+    jobs = [
+        {"id": "aaaaaaaa-0000-0000-0000-000000000000",
+         "jobUrl": "https://jobs.ashbyhq.com/bild-ai/aaaaaaaa-0000-0000-0000-000000000000",
+         "location": "Remote"},
+        {"id": "b333f0f7-0ca6-4509-8697-9303396b5364",
+         "location": "San Francisco",
+         "secondaryLocations": [{"location": "New York"}],
+         "publishedAt": "2026-07-01T00:00:00.000Z", "isListed": True,
+         "address": {"postalAddress": {
+             "addressLocality": "San Francisco",
+             "addressRegion": "California",
+             "addressCountry": "United States"}}},
+    ]
+    ext = extract("ashby", 200, _ashby_board(jobs), link=ASHBY_LINK, today=TODAY)
+    # the address-derived "Locality, Region" comes first: it's the only form
+    # canonicalize_location can resolve when the display location is city-only
+    assert ext["locations"][0] == "San Francisco, California"
+    assert "New York" in ext["locations"]
+    assert ext["date_posted"] == "2026-07-01"
+    assert ext["country"] == "United States"
+    assert ext["closed"] is False
+
+
+def test_extract_ashby_job_absent_from_own_board_is_closed():
+    # The org's own board API no longer serving the posting id is that
+    # board's authoritative "gone" — not scrape disappearance.
+    jobs = [{"id": "aaaaaaaa-0000-0000-0000-000000000000"}]
+    ext = extract("ashby", 200, _ashby_board(jobs), link=ASHBY_LINK, today=TODAY)
+    assert ext["closed"] is True
+
+
+def test_extract_ashby_unlisted_job_is_closed():
+    jobs = [{"id": "b333f0f7-0ca6-4509-8697-9303396b5364",
+             "isListed": False, "location": "SF"}]
+    ext = extract("ashby", 200, _ashby_board(jobs), link=ASHBY_LINK, today=TODAY)
+    assert ext["closed"] is True
+
+
+def test_extract_ashby_board_404_is_unknown_not_closed():
+    # covered in extract()'s status handling; pinned here as a regression test
+    assert extract("ashby", 404, None, link=ASHBY_LINK, today=TODAY) is None
+
+
+def test_extract_smartrecruiters_city_region_country_and_date():
+    body = json.dumps({
+        "id": "744000133458290", "releasedDate": "2026-06-20T08:00:00.000Z",
+        "location": {"city": "Sunnyvale", "region": "CA", "country": "us",
+                     "remote": False},
+    })
+    ext = extract("smartrecruiters", 200, body, today=TODAY)
+    assert ext["locations"] == ["Sunnyvale, CA"]
+    assert ext["country"] == "US"
+    assert ext["date_posted"] == "2026-06-20"
+
+
+def test_extract_smartrecruiters_remote_us():
+    body = json.dumps({"id": "1", "location": {"country": "us", "remote": True}})
+    assert extract("smartrecruiters", 200, body, today=TODAY)["locations"] == ["Remote"]
+
+
+def test_extract_smartrecruiters_remote_non_us_is_not_emitted_as_remote():
+    # a bare "Remote" would canonicalize to "Remote (US)" downstream — only
+    # emit it when the API's own country field says US
+    body = json.dumps({"id": "1", "location": {"country": "gb", "remote": True}})
+    ext = extract("smartrecruiters", 200, body, today=TODAY)
+    assert "Remote" not in ext["locations"]
+    assert ext["country"] == "GB"
+
+
+def test_extract_icims_jsonld():
+    page = ('<html><head><script type="application/ld+json">'
+            + json.dumps({"@type": "JobPosting", "datePosted": "2026-05-10",
+                          "jobLocation": {"@type": "Place", "address": {
+                              "addressLocality": "Philadelphia",
+                              "addressRegion": "PA",
+                              "addressCountry": "US"}}})
+            + "</script></head></html>")
+    ext = extract("icims", 200, page, today=TODAY)
+    assert ext["locations"] == ["Philadelphia, PA"]
+    assert ext["date_posted"] == "2026-05-10"
+    assert ext["country"] == "US"
+
+
+def test_extract_icims_multiple_job_locations():
+    page = ('<script type="application/ld+json">'
+            + json.dumps({"@type": "JobPosting", "jobLocation": [
+                {"address": {"addressLocality": "Atlanta", "addressRegion": "GA"}},
+                {"address": {"addressLocality": "Dallas", "addressRegion": "TX"}}]})
+            + "</script>")
+    ext = extract("icims", 200, page, today=TODAY)
+    assert ext["locations"] == ["Atlanta, GA", "Dallas, TX"]
+
+
+def test_extract_icims_page_without_jsonld_is_none():
+    assert extract("icims", 200, "<html>SPA shell, no JSON-LD</html>",
+                   today=TODAY) is None
