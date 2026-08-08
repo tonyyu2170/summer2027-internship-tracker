@@ -14,6 +14,14 @@ CATEGORIES = [                       # (yaml stem, display title, is_quant)
     ("actuarial", "Actuarial", False),
 ]
 
+OPPORTUNITY_KINDS = [                # (yaml stem under data/opportunities/, display title)
+    ("programs", "Programs"),
+    ("research", "Research"),
+    ("competitions", "Competitions"),
+]
+
+_OPP_STATUS_RANK = {"open": 0, "upcoming": 1, "unknown": 2, "closed": 3}
+
 
 def _anchor(title: str) -> str:
     return title.lower().replace(" ", "-").replace("/", "")
@@ -65,10 +73,86 @@ def _load(data_dir: Path, stem: str) -> list:
     return (yaml.safe_load(p.read_text()) or []) if p.exists() else []
 
 
+def _load_opportunities(data_dir: Path, stem: str) -> list:
+    """Tolerates a missing data/opportunities/ dir entirely (older callers
+    and tests that only set up job-category YAML) by rendering []."""
+    p = data_dir / "opportunities" / f"{stem}.yaml"
+    return (yaml.safe_load(p.read_text()) or []) if p.exists() else []
+
+
+def _format_opens(value):
+    """'YYYY-MM' -> 'Sep 2026', 'YYYY-MM-DD' -> 'Sep 15, 2026'. A hand-edited
+    watch-list can leave a date/datetime object (PyYAML) instead of a str,
+    or a value that doesn't match either pattern at all — coerce the former,
+    fall back to the raw value on the latter rather than raising."""
+    if not value:
+        return None
+    if not isinstance(value, str):
+        value = value.isoformat()
+    try:
+        if len(value) == 7:
+            return datetime.strptime(value, "%Y-%m").strftime("%b %Y")
+        return datetime.strptime(value, "%Y-%m-%d").strftime("%b %d, %Y")
+    except ValueError:
+        return value
+
+
+def _opp_status_badge(row: dict) -> str:
+    status = row.get("status")
+    if status == "open":
+        return "🟢 **Open**"
+    if status == "upcoming":
+        formatted = _format_opens(row.get("opens"))
+        return f"⏳ `opens {formatted}`" if formatted else "⏳ Upcoming"
+    if status == "closed":
+        return "🔒 Closed"
+    return "⚪ Unknown"
+
+
+def _opp_sort_key(row: dict):
+    """Open first, then upcoming by raw 'opens' ascending (null last among
+    upcoming), then unknown, then closed. Sorts on the raw opens value only
+    — badge/emoji text never enters the key. str()'d since a hand-edited
+    watch-list can leave a date/datetime object instead of a string, which
+    would otherwise TypeError against a sibling row's str opens."""
+    rank = _OPP_STATUS_RANK.get(row.get("status"), _OPP_STATUS_RANK["unknown"])
+    opens = row.get("opens")
+    opens_key = (1, "") if not opens else (0, str(opens))
+    return (rank, opens_key)
+
+
+def _opp_row_cells(row: dict) -> str:
+    category = row.get("category")
+    opens_fmt = _format_opens(row.get("opens"))
+    link = row.get("apply_url") or row.get("url") or "#"
+    cells = [
+        _escape_cell(row.get("name", "")),
+        _escape_cell(row.get("org", "")),
+        _escape_cell(category) if category else "—",
+        _escape_cell(row.get("eligibility", "")),
+        _escape_cell(opens_fmt) if opens_fmt else "—",
+        f"[Apply](<{link}>)",
+        _escape_cell(_opp_status_badge(row)),
+    ]
+    return "| " + " | ".join(cells) + " |"
+
+
+def _opp_table(rows: list) -> str:
+    header = ["Program", "Org", "Category", "Eligibility", "Opens", "Link", "Status"]
+    lines = [
+        "| " + " | ".join(header) + " |",
+        "| " + " | ".join(["---"] * len(header)) + " |",
+    ]
+    for r in sorted(rows, key=_opp_sort_key):
+        lines.append(_opp_row_cells(r))
+    return "\n".join(lines)
+
+
 def render(data_dir=None, readme_path=None, last_run=None) -> Path:
     data_dir = Path(data_dir) if data_dir else ROOT / "data"
     readme_path = Path(readme_path) if readme_path else ROOT / "README.md"
     rows_by_category = {stem: _load(data_dir, stem) for stem, _, _ in CATEGORIES}
+    opp_rows_by_kind = {stem: _load_opportunities(data_dir, stem) for stem, _ in OPPORTUNITY_KINDS}
     open_count = sum(
         row.get("status") == "open"
         for rows in rows_by_category.values() for row in rows
@@ -91,18 +175,25 @@ def render(data_dir=None, readme_path=None, last_run=None) -> Path:
         "",
     ]
     out += [f"- [{title}](#{_anchor(title)})" for _, title, _ in CATEGORIES]
+    out += [f"- [{title}](#{_anchor(title)})" for _, title in OPPORTUNITY_KINDS]
     out += [
         "",
         "**Legend** — Status: 🟢 Open · 🔒 Closed. Degree = BS/MS/PhD "
         "eligibility. ~Date Posted is estimated from when we first recorded "
         "the role. Last Verified is when the posting was last re-confirmed. "
-        "⚠️dup? marks a possible duplicate pending manual review.",
+        "⚠️dup? marks a possible duplicate pending manual review. Programs/"
+        "Research/Competitions status: 🟢 **Open** · ⏳ `opens <date>` (or "
+        "⏳ Upcoming if unannounced) · 🔒 Closed · ⚪ Unknown.",
         "",
     ]
     for stem, title, is_quant in CATEGORIES:
         rows = rows_by_category[stem]
         out += [f"## {title}", ""]
         out += [_table(rows, is_quant), ""] if rows else ["_No roles tracked yet._", ""]
+    for stem, title in OPPORTUNITY_KINDS:
+        rows = opp_rows_by_kind[stem]
+        out += [f"## {title}", ""]
+        out += [_opp_table(rows), ""] if rows else ["_No opportunities tracked yet._", ""]
     readme_path.write_text("\n".join(out) + "\n")
     return readme_path
 

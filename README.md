@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-07-29 10:06 — 629 open roles. Last scrape: +0 new, 0 closed._
+_Last updated: 2026-08-07 23:43 — 629 open roles. Last scrape: +0 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories.
 
@@ -12,8 +12,11 @@ US-based Summer 2027 internships across six role categories.
 - [AI/ML](#aiml)
 - [Hardware Engineering](#hardware-engineering)
 - [Actuarial](#actuarial)
+- [Programs](#programs)
+- [Research](#research)
+- [Competitions](#competitions)
 
-**Legend** — Status: 🟢 Open · 🔒 Closed. Degree = BS/MS/PhD eligibility. ~Date Posted is estimated from when we first recorded the role. Last Verified is when the posting was last re-confirmed. ⚠️dup? marks a possible duplicate pending manual review.
+**Legend** — Status: 🟢 Open · 🔒 Closed. Degree = BS/MS/PhD eligibility. ~Date Posted is estimated from when we first recorded the role. Last Verified is when the posting was last re-confirmed. ⚠️dup? marks a possible duplicate pending manual review. Programs/Research/Competitions status: 🟢 **Open** · ⏳ `opens <date>` (or ⏳ Upcoming if unannounced) · 🔒 Closed · ⚪ Unknown.
 
 ## Software Engineering
 
@@ -737,4 +740,16 @@ US-based Summer 2027 internships across six role categories.
 | Oliver Wyman | Oliver Wyman Actuarial - Internship - Summer 2027 | New York, NY / Boston, MA / San Francisco, CA / Hartford, CT / Los Angeles, CA / Philadelphia, PA / Houston, TX / Charlotte, NC / Milwaukee, WI / Washington, DC / Seattle, WA / Chicago, IL / Atlanta, GA | [Apply](<https://careers.marsh.com/global/en/job/R_356561/Oliver-Wyman-Actuarial-Internship-Summer-2027>) | 2026-07-26 | Summer 2027 | BS | 2026-07-29 | 🟢 Open |
 | Genworth Financial | Genworth Actuarial Development Program Intern - Summer 2027 | Richmond, VA | [Apply](<https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential/job/Richmond-Virginia/Genworth-Actuarial-Development-Program-Intern---Summer-2027_REQ-260272>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-29 | 🟢 Open |
 | The Hartford | Intern, Actuarial Student Program (Summer 2027) | Hartford, CT | [Apply](<https://thehartford.wd5.myworkdayjobs.com/Careers_Restricted/job/Hartford-CT/Intern--Actuarial-Student-Program--Summer-2027-_R2624619>) | ~2026-07-23 | Summer 2027 | BS | 2026-07-23 | 🟢 Open |
+
+## Programs
+
+_No opportunities tracked yet._
+
+## Research
+
+_No opportunities tracked yet._
+
+## Competitions
+
+_No opportunities tracked yet._
 

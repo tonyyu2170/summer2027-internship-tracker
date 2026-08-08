@@ -29,6 +29,26 @@ def _empty_data_dir(tmp_path: Path) -> Path:
     return d
 
 
+def _write_opp(data_dir: Path, stem: str, rows: list):
+    opp_dir = data_dir / "opportunities"
+    opp_dir.mkdir(exist_ok=True)
+    (opp_dir / f"{stem}.yaml").write_text(yaml.safe_dump(rows, sort_keys=False))
+
+
+def _opp_row(**kw):
+    base = {
+        "id": "nvidia-ignite", "name": "NVIDIA Ignite", "org": "NVIDIA",
+        "kind": "program", "category": "ai_ml",
+        "url": "https://example.com/ignite", "apply_url": None,
+        "status": "open", "opens": None, "closes": None,
+        "eligibility": "Sophomores and juniors", "location": "Santa Clara, CA",
+        "cycle": "Summer 2027", "sources": ["llm_discovery"],
+        "date_added": "2026-07-28", "last_checked": "2026-07-28", "notes": None,
+    }
+    base.update(kw)
+    return base
+
+
 def test_render_writes_toc_and_all_headings(tmp_path):
     data_dir = _empty_data_dir(tmp_path)
     out = tmp_path / "README.md"
@@ -104,3 +124,173 @@ def test_pipe_newline_and_paren_in_free_text_dont_corrupt_table(tmp_path):
     cells = [c for c in re.split(r"(?<!\\)\|", row_line) if c.strip()]
     assert len(cells) == 9
     assert "[Apply](<https://example.com/apply?ref=(promo)>)" in text
+
+
+# ---------------------------------------------------------------------------
+# Programs / Research / Competitions sections
+# ---------------------------------------------------------------------------
+
+def test_opportunity_sections_render_headings_and_toc(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    out = tmp_path / "README.md"
+    render(data_dir, out)
+    text = out.read_text()
+    assert "## Programs" in text
+    assert "## Research" in text
+    assert "## Competitions" in text
+    assert "[Programs](#programs)" in text
+    assert "[Research](#research)" in text
+    assert "[Competitions](#competitions)" in text
+
+
+def test_empty_opportunity_sections_render_without_broken_table(tmp_path):
+    # _empty_data_dir doesn't create a data/opportunities/ dir at all —
+    # covers both "no rows" and "dir doesn't exist" in one pass.
+    data_dir = _empty_data_dir(tmp_path)
+    out = tmp_path / "README.md"
+    render(data_dir, out)
+    text = out.read_text()
+    assert text.count("_No opportunities tracked yet._") == 3
+    assert "| Program |" not in text
+
+
+def test_opp_status_badge_open(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "programs", [_opp_row(status="open")])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "🟢 **Open**" in text
+
+
+def test_opp_status_badge_upcoming_with_opens_date(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "programs", [_opp_row(status="upcoming", opens="2026-09")])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "⏳ `opens Sep 2026`" in text
+
+
+def test_opp_status_badge_upcoming_full_date_is_human_formatted(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "programs", [_opp_row(status="upcoming", opens="2026-09-15")])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "⏳ `opens Sep 15, 2026`" in text
+
+
+def test_opp_status_badge_upcoming_null_opens_is_bare(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "programs", [_opp_row(status="upcoming", opens=None)])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    row_line = next(l for l in text.splitlines() if l.startswith("| NVIDIA Ignite"))
+    assert row_line.endswith("⏳ Upcoming |")
+    assert "`opens" not in row_line
+
+
+def test_opp_status_badge_closed(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "programs", [_opp_row(status="closed")])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "🔒 Closed" in text
+
+
+def test_opp_status_badge_unknown(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "programs", [_opp_row(status="unknown")])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "⚪ Unknown" in text
+
+
+def test_opp_rows_sorted_open_upcoming_unknown_closed(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "programs", [
+        _opp_row(id="c", name="Closed Program", status="closed"),
+        _opp_row(id="u2", name="Upcoming No Date", status="upcoming", opens=None),
+        _opp_row(id="k", name="Unknown Program", status="unknown"),
+        _opp_row(id="u1", name="Upcoming Sept", status="upcoming", opens="2026-09"),
+        _opp_row(id="o", name="Open Program", status="open"),
+        _opp_row(id="u0", name="Upcoming August", status="upcoming", opens="2026-08"),
+    ])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    order = [text.index(name) for name in (
+        "Open Program", "Upcoming August", "Upcoming Sept",
+        "Upcoming No Date", "Unknown Program", "Closed Program",
+    )]
+    assert order == sorted(order)
+
+
+def test_opp_category_null_renders_em_dash_not_none(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "programs", [_opp_row(category=None)])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "None" not in text
+    row_line = next(l for l in text.splitlines() if l.startswith("| NVIDIA Ignite"))
+    assert "| — |" in row_line
+
+
+def test_opp_link_prefers_apply_url_over_url(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "programs", [_opp_row(
+        url="https://example.com/page", apply_url="https://example.com/apply",
+    )])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "[Apply](<https://example.com/apply>)" in text
+    assert "[Apply](<https://example.com/page>)" not in text
+
+
+def test_opp_link_falls_back_to_url_when_no_apply_url(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "programs", [_opp_row(
+        url="https://example.com/page", apply_url=None,
+    )])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "[Apply](<https://example.com/page>)" in text
+
+
+def test_opp_pipe_and_paren_in_free_text_dont_corrupt_table(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write_opp(data_dir, "research", [_opp_row(
+        name="Summer Program | Track B",
+        url="https://example.com/apply?ref=(promo)",
+    )])
+    out = tmp_path / "README.md"
+    render(data_dir, out)
+    text = out.read_text()
+    row_lines = [l for l in text.splitlines() if l.startswith("| Summer")]
+    assert len(row_lines) == 1
+    row_line = row_lines[0]
+    assert "Summer Program \\| Track B" in row_line
+    cells = [c for c in re.split(r"(?<!\\)\|", row_line) if c.strip()]
+    assert len(cells) == 7
+    assert "[Apply](<https://example.com/apply?ref=(promo)>)" in text
+
+
+def test_opp_row_missing_both_urls_does_not_render_literal_none(tmp_path):
+    # Mirrors a hand-corrupted row check_programs.py tolerates keeping as-is
+    # (test_check_kind_existing_row_missing_id_is_not_deleted): no 'url' key
+    # at all. render() reads data/opportunities/*.yaml directly and must not
+    # print Python's None into a public README link.
+    data_dir = _empty_data_dir(tmp_path)
+    row = _opp_row()
+    del row["url"]
+    row["apply_url"] = None
+    _write_opp(data_dir, "programs", [row])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "(<None>)" not in text
+
+
+def test_legend_mentions_opportunity_status_badges(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    legend = next(l for l in text.splitlines() if l.startswith("**Legend**"))
+    assert "⏳" in legend
+    assert "⚪ Unknown" in legend
