@@ -7,19 +7,20 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - aggregator
   - company:genworth
   date_added: '2026-07-23'
-  last_verified: '2026-07-29'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: marsh-mclennan-oliver-wyman-actuarial-internship-summer-2027-81466e
   company: Oliver Wyman
   role: Oliver Wyman Actuarial - Internship - Summer 2027
-  location: New York, NY / Boston, MA / San Francisco, CA / Hartford, CT / Los Angeles, CA / Philadelphia, PA /
-    Houston, TX / Charlotte, NC / Milwaukee, WI / Washington, DC / Seattle, WA / Chicago, IL / Atlanta, GA
+  location: New York, NY / Boston, MA / San Francisco, CA / Hartford, CT / Los Angeles,
+    CA / Philadelphia, PA / Houston, TX / Charlotte, NC / Milwaukee, WI / Washington,
+    DC / Seattle, WA / Chicago, IL / Atlanta, GA
   link: https://careers.marsh.com/global/en/job/R_356561/Oliver-Wyman-Actuarial-Internship-Summer-2027
   date_posted: '2026-07-26'
   term: Summer 2027
@@ -38,7 +39,7 @@
   role: Intern, Actuarial Student Program (Summer 2027)
   location: Hartford, CT
   link: https://thehartford.wd5.myworkdayjobs.com/Careers_Restricted/job/Hartford-CT/Intern--Actuarial-Student-Program--Summer-2027-_R2624619
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-30'
   term: Summer 2027
   degree:
   - BS
@@ -46,16 +47,16 @@
   sources:
   - aggregator
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: cigna-actuarial-internship-summer-2027-826fee
   company: Cigna
   role: Actuarial Internship - Summer 2027
   location: Bloomfield, CT
   link: https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2027_26006087
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-05'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS
@@ -70,8 +71,8 @@
   role: Risk & Underwriting Summer Internship...
   location: Bloomfield, CT
   link: https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Risk---Underwriting-Summer-Internship-Program_26008897
-  date_posted: '2026-08-08'
-  date_estimated: true
+  date_posted: '2026-08-07'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS

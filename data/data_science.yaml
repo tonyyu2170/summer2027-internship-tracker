@@ -151,7 +151,7 @@
   role: Data Science intern
   location: San Francisco, CA
   link: https://jobs.lever.co/deuna/060457fb-42c4-4150-a8fa-e2c312a88e6a
-  date_posted: '2026-06-30'
+  date_posted: '2026-06-29'
   term: Summer 2027
   degree:
   - BS
@@ -159,14 +159,15 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: centerfield-data-science-intern-d02167
   company: Centerfield
   role: Data Science Intern
   location: Los Angeles, CA
   link: https://jobs.ashbyhq.com/centerfield/916dcf42-d69a-4f00-875a-f8fe630e0f33
-  date_posted: '2026-06-23'
+  date_posted: '2026-06-22'
   term: Summer 2027
   degree:
   - BS
@@ -178,12 +179,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: medecins-sans-frontieres-doctors-without-borders-united-states-data-science-intern-92ccf2
   company: Medecins Sans Frontieres (Doctors Without Borders) - United States
   role: Data Science Intern
-  location: New York City, NY
+  location: New York, NY
   link: https://job-boards.greenhouse.io/msfcareers/jobs/5271141008
-  date_posted: '2026-06-19'
+  date_posted: '2026-06-18'
   term: Summer 2027
   degree:
   - BS
@@ -194,6 +196,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: magnera-corporation-it-data-analyst-intern-41a8c3
   company: Magnera Corporation
   role: IT Data Analyst Intern
@@ -214,7 +217,7 @@
   role: Intern - Data Analytics
   location: San Francisco, CA
   link: https://jobs.lever.co/evrealty-us/0274f48f-9b19-4bed-bf6a-5e02a2b1e865
-  date_posted: '2026-05-23'
+  date_posted: '2026-05-22'
   term: Summer 2027
   degree:
   - BS
@@ -222,8 +225,9 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: bank-of-china-limited-new-york-branch-internal-audit-department-data-analytics-audit-intern-20fa15
   company: Bank of China Limited, New York Branch
   role: Internal Audit Department - Data Analytics Audit Intern
@@ -245,7 +249,7 @@
   role: Data Science Intern - Customer Success
   location: Remote (US)
   link: https://job-boards.greenhouse.io/cresta/jobs/5213417008
-  date_posted: '2026-05-08'
+  date_posted: '2026-05-07'
   term: Summer 2027
   degree:
   - BS
@@ -256,6 +260,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: bank-of-china-limited-new-york-branch-internal-audit-department-data-analytics-audit-intern-f76a97
   company: Bank of China Limited, New York Branch
   role: Internal Audit Department Data Analytics Audit Intern
@@ -389,13 +394,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: rivian-and-volkswagen-group-technologies-data-engineering-intern-ai-analyt-0a725d
   company: Rivian and Volkswagen Group Technologies
   role: Data Engineering Intern - AI & Analyt...
   location: Palo Alto, CA
   link: https://jobs.ashbyhq.com/rivianvw.tech/3864f83a-7b29-4c96-b00e-436d60c0508a/application
-  date_posted: '2026-06-09'
+  date_posted: '2026-06-03'
   term: Summer 2027
   degree:
   - BS
@@ -405,15 +410,15 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: evolver-applied-data-science-intern-b3beed
   company: Evolver
   role: Applied Data Science Intern
   location: Palo Alto, CA
   link: https://job-boards.greenhouse.io/evolver/jobs/4254540009
-  date_posted: '2026-06-09'
+  date_posted: '2026-05-20'
   term: Summer 2027
   degree:
   - BS
@@ -424,13 +429,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: faire-data-science-intern-307131
   company: Faire
   role: Data Science Intern
   location: San Francisco, CA
   link: https://boards.greenhouse.io/faire/jobs/8376377002?gh_jid=8376377002
-  date_posted: '2026-02-09'
+  date_posted: '2026-01-15'
   term: Summer 2027
   degree:
   - BS
@@ -441,7 +446,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: docugami-data-science-phd-intern-5f8265
   company: Docugami
   role: Data Science PhD Intern
@@ -474,7 +479,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: rfcuny-data-analyst-intern-ff0187
   company: RFCUNY
@@ -551,7 +556,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: caterpillar-corporate-intern-digital-and-analytics-summer-2027-80d243
   company: Caterpillar
@@ -622,7 +627,7 @@
 - id: susquehanna-international-group-sig-electricity-natural-gas-analyst-intern-fa588e
   company: Susquehanna International Group (SIG)
   role: Electricity + Natural Gas Analyst Intern
-  location: Ardmore, PA
+  location: Bala Cynwyd, PA
   link: https://careers-sig.icims.com/jobs/10945/job?mobile=true&needsRedirect=false
   date_posted: '2026-06-04'
   term: Summer 2027
@@ -673,7 +678,7 @@
   role: 2026 Internship, Fall - Data Science
   location: Morristown, NJ
   link: https://jobs.smartrecruiters.com/RedBull/744000139168339
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-22'
   term: Summer 2027
   degree:
   - BS
@@ -706,7 +711,7 @@
   role: (FALL) Data Scientist Intern - PhD
   location: Austin, TX
   link: https://job-boards.greenhouse.io/integra/jobs/5134592008
-  date_posted: '2026-07-25'
+  date_posted: '2026-04-28'
   term: Summer 2027
   degree:
   - BS
@@ -714,15 +719,15 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: integra-fec-fall-data-analyst-intern-4d6ba0
   company: Integra FEC
   role: (FALL) Data Analyst Intern
   location: Austin, TX
   link: https://job-boards.greenhouse.io/integra/jobs/5134522008
-  date_posted: '2026-07-25'
+  date_posted: '2026-04-28'
   term: Summer 2027
   degree:
   - BS
@@ -730,15 +735,15 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: baker-hughes-intern-systems-data-analysis-ce-0bdc55
   company: Baker Hughes
   role: Intern – Systems & Data Analysis – Ce...
   location: Celle, DE
   link: https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/DE-CELLE-BAKER-HUGHES-STRASSE-1/Werkstudent-fr-System--und-Datenanalyse-2026--Celle-_R158064
-  date_posted: '2026-07-25'
+  date_posted: '2026-07-16'
   term: Summer 2027
   degree:
   - BS
@@ -746,12 +751,13 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: american-express-campus-undergraduate-summer-internship-strategy-analytics-credit-fraud-risk-497517
   company: American Express
-  role: Campus Undergraduate Summer Internship - Strategy & Analytics - Credit & Fraud Risk
+  role: Campus Undergraduate Summer Internship - Strategy & Analytics - Credit & Fraud
+    Risk
   location: New York, NY
   link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011984
   date_posted: '2026-08-03'
@@ -788,7 +794,7 @@
   role: Data Analytics Intern
   location: Ridley Park, PA
   link: https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1
-  date_posted: '2026-08-03'
+  date_posted: '2026-08-07'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -910,7 +916,8 @@
   possible_duplicate_of: null
 - id: microsoft-software-engineer-data-platform-analytics-intern-opportunities-for-university-students-redmond-ef32c1
   company: Microsoft
-  role: 'Software Engineer: Data Platform/Analytics Intern Opportunities for University Students - Redmond'
+  role: 'Software Engineer: Data Platform/Analytics Intern Opportunities for University
+    Students - Redmond'
   location: Washington, DC
   link: https://apply.careers.microsoft.com/careers/job/1970393556922931
   date_posted: '2026-08-04'
@@ -961,7 +968,7 @@
   role: Marketing Programs and Analytics Inte...
   location: Austin, TX
   link: https://boards.greenhouse.io/cloudflare/jobs/8104138?gh_jid=8104138
-  date_posted: '2026-08-04'
+  date_posted: '2026-08-03'
   date_estimated: false
   term: Summer 2027
   degree:

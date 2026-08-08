@@ -1125,7 +1125,7 @@
   role: Quantitative Trader
   location: Chicago, IL
   link: https://job-boards.greenhouse.io/transmarketgroup/jobs/5151569007
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-02'
   term: Summer 2027
   degree:
   - BS
@@ -1137,7 +1137,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: true
+  date_estimated: false
 - id: walleye-capital-software-engineer-risk-technology-6d161c
   company: Walleye Capital
   role: Software Engineer (Risk Technology)
@@ -1183,7 +1183,7 @@
 - id: walleye-capital-quantitative-researcher-volatility-130f3d
   company: Walleye Capital
   role: Quantitative Researcher (Volatility)
-  location: New York, NY
+  location: Miami, FL
   link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006
   date_posted: '2026-06-01'
   term: Summer 2027
@@ -1356,7 +1356,7 @@
   role: Quantitative Researcher Intern
   location: Boston, MA
   link: https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Quantitative-Researcher-Intern--Summer-2027_R1505
-  date_posted: '2026-07-09'
+  date_posted: '2026-08-07'
   term: Summer 2027
   degree:
   - BS
@@ -1371,6 +1371,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
+  date_estimated: false
 - id: arrowstreet-capital-quantitative-developer-intern-9501a6
   company: Arrowstreet Capital
   role: Quantitative Developer Intern
@@ -1396,7 +1397,7 @@
   role: Quantitative Trading Intern
   location: New York, NY
   link: https://job-boards.greenhouse.io/flowtraders/jobs/8047166
-  date_posted: '2026-07-09'
+  date_posted: '2026-07-08'
   term: Summer 2027
   degree:
   - BS
@@ -1414,6 +1415,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: false
 - id: two-sigma-ai-research-scientist-intern-ms-phd-fefaa4
   company: Two Sigma
   role: AI Research Scientist Intern (MS / PhD)
@@ -1438,7 +1440,7 @@
   role: Quantitative Trader Intern
   location: New York, NY
   link: https://job-boards.greenhouse.io/towerresearchcapital/jobs/8024128
-  date_posted: '2026-07-06'
+  date_posted: '2026-07-05'
   term: Summer 2027
   degree:
   - BS
@@ -1450,12 +1452,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: false
 - id: tower-research-capital-quantitative-developer-intern-56ddbf
   company: Tower Research Capital
   role: Quantitative Developer Intern
   location: New York, NY
   link: https://job-boards.greenhouse.io/towerresearchcapital/jobs/8044334
-  date_posted: '2026-07-06'
+  date_posted: '2026-07-05'
   term: Summer 2027
   degree:
   - BS
@@ -1467,6 +1470,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
+  date_estimated: false
 - id: two-sigma-quantitative-researcher-intern-aecb8b
   company: Two Sigma
   role: Quantitative Researcher Intern
@@ -1597,7 +1601,7 @@
   role: Quantitative Developer Intern
   location: Jupiter, FL
   link: https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009
-  date_posted: '2026-06-15'
+  date_posted: '2026-06-11'
   term: Summer 2027
   degree:
   - BS
@@ -1611,12 +1615,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
+  date_estimated: false
 - id: voloridge-investment-management-quantitative-research-intern-d48e0c
   company: Voloridge Investment Management
   role: Quantitative Research Intern
   location: Jupiter, FL
   link: https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4226247009
-  date_posted: '2026-06-15'
+  date_posted: '2026-06-11'
   term: Summer 2027
   degree:
   - BS
@@ -1632,6 +1637,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
+  date_estimated: false
 - id: d-e-shaw-software-developer-intern-316e69
   company: D. E. Shaw
   role: Software Developer Intern
@@ -1783,7 +1789,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:sndsh404
@@ -1921,7 +1927,7 @@
   role: Internship - Software Engineer
   location: Austin, TX
   link: https://job-boards.greenhouse.io/virtu/jobs/8624410002
-  date_posted: '2026-07-22'
+  date_posted: '2026-07-21'
   term: Summer 2027
   degree:
   - BS
@@ -1938,6 +1944,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: chicago-trading-company-software-engineering-internship-summer-2027-031e06
   company: Chicago Trading Company
   role: Software Engineering Internship - Summer 2027
@@ -2269,7 +2276,7 @@
   role: Internship - Quantitative Trading
   location: Austin, TX
   link: https://job-boards.greenhouse.io/virtu/jobs/8624408002
-  date_posted: '2026-07-22'
+  date_posted: '2026-07-21'
   term: Summer 2027
   degree:
   - BS
@@ -2286,12 +2293,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: false
 - id: drw-quantitative-research-intern-3ef50f
   company: DRW
   role: Quantitative Research Intern
   location: Chicago, IL
   link: https://job-boards.greenhouse.io/drweng/jobs/7818540
-  date_posted: '2026-07-14'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -2303,12 +2311,13 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
+  date_estimated: false
 - id: drw-quantitative-trading-analyst-intern-968162
   company: DRW
   role: Quantitative Trading Analyst Intern
   location: Chicago, IL
   link: https://job-boards.greenhouse.io/drweng/jobs/7668776
-  date_posted: '2026-07-14'
+  date_posted: '2026-07-13'
   term: Summer 2027
   degree:
   - BS
@@ -2318,9 +2327,10 @@
   - custom
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
+  date_estimated: false
 - id: tower-research-capital-quantitative-trader-intern-summer-2027-3f1648
   company: Tower Research Capital
   role: Quantitative Trader Intern - Summer 2027
@@ -2396,7 +2406,7 @@
   role: Quantitative Technologist - C++ Intern
   location: Chicago, IL
   link: https://job-boards.greenhouse.io/radixuniversity/jobs/8500265002
-  date_posted: '2026-04-10'
+  date_posted: '2026-04-09'
   term: Summer 2027
   degree:
   - BS
@@ -2408,6 +2418,7 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
+  date_estimated: false
 - id: jump-trading-campus-systems-engineer-intern-5098e3
   company: Jump Trading
   role: Campus Systems Engineer Intern
@@ -3091,11 +3102,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: castleton-commodities-international-data-science-machine-learning-intern-ff3b6c
@@ -3139,7 +3150,7 @@
   role: DevOps/SRE Engineer
   location: Chicago, IL
   link: https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007
-  date_posted: '2026-07-24'
+  date_posted: '2026-06-02'
   term: Summer 2027
   degree:
   - BS
@@ -3147,14 +3158,14 @@
   sources:
   - github_tracker:northwesternfintech
   date_added: '2026-07-24'
-  last_verified: '2026-07-24'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: ellipsis-labs-software-engineer-2027-interns-013d37
   company: Ellipsis Labs
   role: Software Engineer - 2027 Interns
-  location: New York City, NY
+  location: New York, NY
   link: https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849
   date_posted: '2026-03-26'
   term: Summer 2027
@@ -3273,7 +3284,7 @@
 - id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-8e39ca
   company: Susquehanna International Group (SIG)
   role: Quantitative Systematic Trading Intern
-  location: Philadelphia, PA
+  location: New York, NY
   link: https://careers-sig.icims.com/jobs/10824/job?mobile=true&needsRedirect=false
   date_posted: '2026-06-29'
   term: Summer 2027
@@ -3289,7 +3300,7 @@
 - id: susquehanna-international-group-sig-quantitative-research-intern-37871c
   company: Susquehanna International Group (SIG)
   role: Quantitative Research Intern
-  location: Philadelphia, PA
+  location: New York, NY
   link: https://careers-sig.icims.com/jobs/10818/job?mobile=true&needsRedirect=false
   date_posted: '2026-06-29'
   term: Summer 2027
@@ -3307,7 +3318,7 @@
   role: PhD Quantitative Researcher Intern
   location: Boston, MA
   link: https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679184006
-  date_posted: '2026-06-10'
+  date_posted: '2026-06-01'
   term: Summer 2027
   degree:
   - PhD
@@ -3318,6 +3329,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: walleye-capital-central-equity-quant-research-intern-ceqr-7f2914
   company: Walleye Capital
   role: Central Equity Quant Research Intern - Ceqr
@@ -3370,7 +3382,7 @@
 - id: susquehanna-international-group-sig-quantitative-strategy-developer-intern-5fe1a0
   company: Susquehanna International Group (SIG)
   role: Quantitative Strategy Developer Intern
-  location: Ardmore, PA
+  location: Bala Cynwyd, PA
   link: https://careers-sig.icims.com/jobs/10838/job?mobile=true&needsRedirect=false
   date_posted: '2026-04-23'
   term: Summer 2027
@@ -3386,7 +3398,7 @@
 - id: susquehanna-international-group-sig-trading-system-engineering-intern-3ce7b9
   company: Susquehanna International Group (SIG)
   role: Trading System Engineering Intern
-  location: Ardmore, PA
+  location: Bala Cynwyd, PA
   link: https://careers-sig.icims.com/jobs/10837/job?mobile=true&needsRedirect=false
   date_posted: '2026-04-23'
   term: Summer 2027
@@ -3402,7 +3414,7 @@
 - id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-179bab
   company: Susquehanna International Group (SIG)
   role: Quantitative Systematic Trading Intern
-  location: Ardmore, PA
+  location: Bala Cynwyd, PA
   link: https://careers-sig.icims.com/jobs/10821/job?mobile=true&needsRedirect=false
   date_posted: '2026-04-21'
   term: Summer 2027
@@ -3418,7 +3430,7 @@
 - id: susquehanna-international-group-sig-quantitative-research-intern-phd-summer-2027-d69598
   company: Susquehanna International Group (SIG)
   role: 'Quantitative Research Intern - PhD: Summer 2027'
-  location: Ardmore, PA
+  location: Bala Cynwyd, PA
   link: https://careers-sig.icims.com/jobs/10817/job?mobile=true&needsRedirect=false
   date_posted: '2026-04-21'
   term: Summer 2027
@@ -3434,7 +3446,7 @@
 - id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-master-s-summer-2027-11105c
   company: Susquehanna International Group (SIG)
   role: 'Quantitative Systematic Trading Intern - Master''s: Summer 2027'
-  location: Ardmore, PA
+  location: Bala Cynwyd, PA
   link: https://careers-sig.icims.com/jobs/10823/job?mobile=true&needsRedirect=false
   date_posted: '2026-04-21'
   term: Summer 2027
@@ -3450,7 +3462,7 @@
 - id: susquehanna-international-group-sig-quantitative-trader-intern-a2cd93
   company: Susquehanna International Group (SIG)
   role: Quantitative Trader Intern
-  location: Ardmore, PA
+  location: Bala Cynwyd, PA
   link: https://careers-sig.icims.com/jobs/10717/job?mobile=true&needsRedirect=false
   date_posted: '2026-04-17'
   term: Summer 2027
@@ -3549,7 +3561,7 @@
 - id: susquehanna-international-group-sig-quantitative-research-intern-ee2bfa
   company: Susquehanna International Group (SIG)
   role: Quantitative Research Intern
-  location: Ardmore, PA
+  location: Bala Cynwyd, PA
   link: https://careers-sig.icims.com/jobs/10819/job?mobile=true&needsRedirect=false
   date_posted: '2026-04-21'
   term: Summer 2027
@@ -3566,7 +3578,7 @@
   role: Private Credit – Investment Analyst Program
   location: San Francisco, CA
   link: https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Private-Credit--Summer-Investment-Analyst-Program_R-124649-1
-  date_posted: '2026-07-17'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -3578,12 +3590,13 @@
   date_added: '2026-07-25'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: pgim-private-credit-investment-analyst-program-673a87
   company: PGIM
   role: Private Credit – Investment Analyst Program
   location: San Francisco, CA
   link: https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Private-Credit--Summer-Investment-Analyst-Program_R-124649
-  date_posted: '2026-07-17'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -3595,6 +3608,7 @@
   date_added: '2026-07-25'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+  date_estimated: false
 - id: pgim-real-estate-equity-investment-analyst-program-e2255d
   company: PGIM
   role: Real Estate Equity Investment Analyst Program
@@ -3730,7 +3744,7 @@
 - id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-phd-85e7be
   company: Susquehanna International Group (SIG)
   role: Quantitative Systematic Trading Intern - PhD
-  location: Philadelphia, PA
+  location: New York, NY
   link: https://careers-sig.icims.com/jobs/10822/job?mobile=true&needsRedirect=false
   date_posted: '2026-06-29'
   date_estimated: false
@@ -3747,7 +3761,7 @@
 - id: susquehanna-international-group-sig-quantitative-research-intern-decb9c
   company: Susquehanna International Group (SIG)
   role: Quantitative Research Intern
-  location: Philadelphia, PA
+  location: New York, NY
   link: https://careers-sig.icims.com/jobs/10820/job?mobile=true&needsRedirect=false
   date_posted: '2026-06-29'
   date_estimated: false
@@ -3944,7 +3958,7 @@
   role: Quantitative Trading Intern - Summer 2027
   location: Chicago, IL
   link: https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab/apply
-  date_posted: '2026-08-07'
+  date_posted: '2026-08-04'
   date_estimated: false
   term: Summer 2027
   degree:
