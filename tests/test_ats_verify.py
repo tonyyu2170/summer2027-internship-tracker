@@ -501,3 +501,22 @@ def test_decide_ignores_street_address_when_a_real_city_is_present():
     actions = decide(_row(location="San Francisco, CA"), ext)
     assert {"action": "set_location", "old": "San Francisco, CA",
             "new": "Chicago, IL"} in actions
+
+
+def test_decide_non_us_country_beats_a_location_that_looks_us():
+    # Magna's real row: 'Milton, Ontario, CA' with country 'Canada'
+    # canonicalizes to 'Ontario, CA' — Ontario, California. Without the
+    # country veto the row is relabelled as a US location instead of deleted.
+    ext = _ext(locations=["Milton, Ontario, CA"], country="Canada")
+    actions = decide(_row(location="Milton, CA"), ext)
+    assert actions[0]["action"] == "delete_non_us"
+    assert all(a["action"] != "set_location" for a in actions)
+
+
+def test_decide_remote_dash_city_does_not_collapse_to_remote_us():
+    # Sony's real row: 'Remote - New York'. Splitting on ' - ' must not yield
+    # the bare candidate 'Remote', which would overwrite a real city with
+    # 'Remote (US)'.
+    ext = _ext(locations=["Remote - New York"], country="United States of America")
+    actions = decide(_row(location="New York, NY"), ext)
+    assert all(a.get("new") != "Remote (US)" for a in actions)

@@ -57,10 +57,12 @@ def _location_candidates(raw):
     each candidate be canonicalized on its own."""
     out = []
     parts = _LOC_SPLIT_RE.split(raw or "")
-    # 'Dallas, TX - Headquarters' also gets tried as 'Dallas, TX'. Additive,
-    # so a variant that loses the state ('MI - Detroit Sales Office' -> 'MI')
-    # simply fails to canonicalize and drops out.
-    parts += [p.split(" - ", 1)[0] for p in list(parts) if " - " in p]
+    # 'Dallas, TX - Headquarters' also gets tried as 'Dallas, TX'. Only when
+    # the head half carries a comma, so it looks like 'City, ST': without
+    # that guard 'Remote - New York' yields the bare candidate 'Remote',
+    # which canonicalizes to 'Remote (US)' and loses the city.
+    parts += [p.split(" - ", 1)[0] for p in list(parts)
+              if " - " in p and "," in p.split(" - ", 1)[0]]
     for part in parts:
         if "/" in part:
             part = part.rsplit("/", 1)[-1]       # org path -> its leaf
@@ -346,9 +348,14 @@ def decide(row, ext):
                 us_locs.append(canon)
     country = ext.get("country")
     non_us_country = _names_non_us_country(country)
-    if us_locs == ["Remote (US)"] and non_us_country:
-        # a bare "Remote" canonicalizes US, but the API's own country field
-        # says otherwise — the country wins when remote is the only signal
+    if non_us_country:
+        # An affirmative non-US country field beats any location parse. Two
+        # ways a non-US row otherwise reads as US: a bare "Remote"
+        # canonicalizes to "Remote (US)", and a foreign address can land on
+        # a real US city name — Magna's 'Milton, Ontario, CA' (country
+        # "Canada") canonicalizes to 'Ontario, CA', i.e. Ontario,
+        # California. Clearing us_locs routes the row to delete_non_us
+        # instead of relabelling it with a US location.
         us_locs = []
     if us_locs:
         stored = [p.strip() for p in row["location"].split(" / ")]
