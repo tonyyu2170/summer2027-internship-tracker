@@ -46,12 +46,18 @@ def _slug(org: str, name: str) -> str:
 
 
 def _match_signal(signal: str, text: str) -> bool:
-    """Case-sensitive. signal may be a literal string or a regex; a pattern
-    that fails to compile falls back to plain substring containment."""
+    """Case-sensitive. Substring containment is checked first: most signals
+    are literal page-text snippets that can contain regex metacharacters
+    ("Apply by January 15 (11:59pm)" would misread the parens as a capture
+    group under regex-first matching and fail to find its own literal
+    text). A signal not found literally is then tried as a regex; an
+    invalid pattern (re.error) is simply not a match."""
+    if signal in text:
+        return True
     try:
         return re.search(signal, text) is not None
     except re.error:
-        return signal in text
+        return False
 
 
 def _is_future(date_str, today: str) -> bool:
@@ -93,7 +99,26 @@ def derive_status(open_signal, closed_signal, body, opens, today, prev_status):
     return prev_status or "unknown"
 
 
+def _date_str(value):
+    """Normalize an opens/closes value to an ISO string. A hand-edited
+    sources/programs.yaml can leave an unquoted date scalar, which PyYAML
+    parses into a date/datetime object rather than a string — the schema
+    requires a string, so an unnormalized value would fail validation
+    (and thus never get written) on every run."""
+    if value is None or isinstance(value, str):
+        return value
+    if hasattr(value, "hour"):        # datetime -> truncate to its date part
+        value = value.date()
+    return value.isoformat()
+
+
 def build_row(entry: dict, id_: str, status: str, today: str, existing_row=None) -> dict:
+    if existing_row:
+        sources = list(existing_row.get("sources") or ["llm_discovery"])
+        date_added = existing_row.get("date_added") or today
+    else:
+        sources = ["llm_discovery"]
+        date_added = today
     return {
         "id": id_,
         "name": entry["name"],
@@ -103,13 +128,13 @@ def build_row(entry: dict, id_: str, status: str, today: str, existing_row=None)
         "url": entry["url"],
         "apply_url": entry.get("apply_url"),
         "status": status,
-        "opens": entry.get("opens"),
-        "closes": entry.get("closes"),
+        "opens": _date_str(entry.get("opens")),
+        "closes": _date_str(entry.get("closes")),
         "eligibility": entry["eligibility"],
         "location": entry.get("location"),
         "cycle": entry.get("cycle"),
-        "sources": list(existing_row["sources"]) if existing_row else ["llm_discovery"],
-        "date_added": existing_row["date_added"] if existing_row else today,
+        "sources": sources,
+        "date_added": date_added,
         "last_checked": today,
         "notes": entry.get("notes"),
     }
@@ -136,7 +161,11 @@ def check_kind(entries: list, existing_rows: list, today: str, fetch):
         id_ = _slug(entry["org"], entry["name"])
         seen_ids.add(id_)
         existing = existing_by_id.get(id_)
-        prev_status = existing["status"] if existing else (entry.get("status") or "unknown")
+        # A hand-corrupted existing row missing 'status' degrades to the
+        # same fallback as no existing row at all, rather than KeyError-ing
+        # the whole run.
+        prev_status = (existing.get("status") if existing else None) or \
+            entry.get("status") or "unknown"
 
         check_url = entry.get("check_url")
         body = fetch(check_url) if check_url else None
@@ -155,8 +184,8 @@ def check_kind(entries: list, existing_rows: list, today: str, fetch):
                 rows.append(existing)   # keep the last known-good row as-is
             continue
 
-        if existing and existing["status"] != status:
-            summary["transitioned"].append((id_, existing["status"], status))
+        if existing and existing.get("status") != status:
+            summary["transitioned"].append((id_, existing.get("status"), status))
         rows.append(row)
         summary[status] += 1
 
@@ -168,11 +197,11 @@ def check_kind(entries: list, existing_rows: list, today: str, fetch):
     return rows, summary
 
 
-def run(watchlist_path=None, data_dir=None, state_path=None, probe=None):
+def run(watchlist_path=None, data_dir=None, state_path=None, fetch=None):
     watchlist_path = Path(watchlist_path) if watchlist_path else ROOT / "sources" / "programs.yaml"
     data_dir = Path(data_dir) if data_dir else ROOT / "data"
     state_path = Path(state_path) if state_path else ROOT / "sources" / "scrape_state.yaml"
-    fetch = probe or _fetch_body
+    fetch = fetch or _fetch_body
     today = date.today().isoformat()
 
     watchlist = yaml.safe_load(watchlist_path.read_text()) or {}
@@ -182,7 +211,7 @@ def run(watchlist_path=None, data_dir=None, state_path=None, probe=None):
     totals = Counter()
     transitioned, invalid = [], []
     for kind, filename in KIND_TO_FILE.items():
-        entries = watchlist.get(kind, [])
+        entries = watchlist.get(kind) or []
         out_path = opp_dir / filename
         existing_rows = (yaml.safe_load(out_path.read_text()) or []) if out_path.exists() else []
 
@@ -198,7 +227,7 @@ def run(watchlist_path=None, data_dir=None, state_path=None, probe=None):
         print(f"[{kind}] {summary['open']} open, {summary['upcoming']} upcoming, "
               f"{summary['closed']} closed, {summary['unknown']} unknown "
               f"({summary['fetch_failed']} fetch failure(s))")
-        for k, id_, old, new in [(kind, *t) for t in summary["transitioned"]]:
+        for id_, old, new in summary["transitioned"]:
             print(f"    transitioned: [{id_}] {old} -> {new}")
         for id_, errors in summary["invalid"]:
             print(f"    warn: [{kind}] {id_} failed schema, not written: {errors}")

@@ -3,6 +3,7 @@ import check_programs
 from check_programs import (
     _slug, _match_signal, _is_future, derive_status, build_row, check_kind, run,
 )
+from opportunity_schema import validate_opportunity
 
 
 # ---------------------------------------------------------------------------
@@ -43,6 +44,18 @@ def test_match_signal_falls_back_to_substring_on_bad_regex():
     bad_pattern = "applications (are closed"
     assert _match_signal(bad_pattern, "text with applications (are closed inside")
     assert not _match_signal(bad_pattern, "no match here")
+
+
+def test_match_signal_literal_with_parens_matches_its_own_text():
+    # A literal page-text signal can contain regex metacharacters that are
+    # balanced (so it compiles fine as a regex) but mean something entirely
+    # different: under regex-first matching, "(11:59pm)" reads as a capture
+    # group rather than literal parens, so the pattern never matches the
+    # very text it was copied from. Substring containment must be tried
+    # first so a literal signal always matches itself.
+    signal = "Apply by January 15 (11:59pm)"
+    text = "Deadline: Apply by January 15 (11:59pm) sharp."
+    assert _match_signal(signal, text)
 
 
 # ---------------------------------------------------------------------------
@@ -197,6 +210,28 @@ def test_build_row_update_preserves_date_added_and_sources():
     assert row["status"] == "open"
 
 
+def test_build_row_update_missing_status_and_date_added_use_fallbacks():
+    # A hand-corrupted existing row (id present, other fields dropped) must
+    # not KeyError build_row — it degrades like there was no existing row.
+    existing = {"id": "nvidia-nvidia-ignite"}
+    row = build_row(ENTRY, "nvidia-nvidia-ignite", "unknown", TODAY, existing)
+    assert row["sources"] == ["llm_discovery"]
+    assert row["date_added"] == TODAY
+
+
+def test_build_row_normalizes_date_objects_for_opens_and_closes():
+    import datetime as dt
+    entry = {
+        **ENTRY,
+        "opens": dt.date(2026, 11, 1),
+        "closes": dt.datetime(2026, 12, 1, 0, 0),
+    }
+    row = build_row(entry, "nvidia-nvidia-ignite", "unknown", TODAY, None)
+    assert row["opens"] == "2026-11-01"
+    assert row["closes"] == "2026-12-01"
+    assert validate_opportunity(row) == []
+
+
 # ---------------------------------------------------------------------------
 # check_kind — orchestration with a stubbed fetch
 # ---------------------------------------------------------------------------
@@ -291,6 +326,29 @@ def test_check_kind_existing_row_missing_id_is_not_deleted():
     assert unkeyed_row in rows
 
 
+def test_check_kind_existing_row_missing_status_does_not_crash():
+    # A hand-corrupted existing row (id present, status field dropped) must
+    # not KeyError check_kind. prev_status degrades through the entry's own
+    # seeded status field, then to 'unknown'.
+    existing = [{
+        "id": "nvidia-nvidia-ignite", "name": "NVIDIA Ignite", "org": "NVIDIA",
+        "kind": "program", "category": "ai_ml", "url": "https://example.com/ignite",
+        "apply_url": None, "opens": None, "closes": None,
+        "eligibility": "Freshmen and sophomores", "location": "Santa Clara, CA",
+        "cycle": "Summer 2027", "sources": ["llm_discovery"],
+        "date_added": "2026-01-01", "last_checked": "2026-01-01", "notes": None,
+        # 'status' is missing entirely
+    }]
+    entries = [{**ENTRY, "open_signal": None, "closed_signal": None}]  # ENTRY.status == "unknown"
+
+    def fetch(url):
+        return None  # fetch fails -> derive_status preserves prev_status
+
+    rows, summary = check_kind(entries, existing, TODAY, fetch)
+    assert len(rows) == 1
+    assert rows[0]["status"] == "unknown"
+
+
 def test_check_kind_orphaned_row_carried_through_untouched():
     existing = [{
         "id": "orphan-co-orphan-program", "name": "Orphan Program", "org": "Orphan Co",
@@ -330,10 +388,10 @@ def test_run_writes_all_three_kind_files(tmp_path):
     data_dir = tmp_path / "data"
     state_path = tmp_path / "scrape_state.yaml"
 
-    def probe(url):
+    def fetch(url):
         return "Applications are now open!"
 
-    run(watchlist_path, data_dir, state_path, probe)
+    run(watchlist_path, data_dir, state_path, fetch)
 
     assert (data_dir / "opportunities" / "programs.yaml").exists()
     assert (data_dir / "opportunities" / "research.yaml").exists()
@@ -352,16 +410,33 @@ def test_run_read_modify_write_preserves_existing_scrape_state(tmp_path):
         "_last_run": {"new": 3, "closed": 1},
     }))
 
-    def probe(url):
+    def fetch(url):
         return None
 
-    run(watchlist_path, data_dir, state_path, probe)
+    run(watchlist_path, data_dir, state_path, fetch)
 
     state = yaml.safe_load(state_path.read_text())
     assert state["some_tracker"] == {"row_count": 42, "sha": "abc123"}
     assert state["_last_run"] == {"new": 3, "closed": 1}
     assert "_last_program_check" in state
     assert "ran_at" in state["_last_program_check"]
+
+
+def test_run_tolerates_hand_emptied_watchlist_section(tmp_path):
+    # sources/programs.yaml with a hand-emptied section ('programs:' and
+    # nothing under it) parses via yaml.safe_load as None, not []. Must not
+    # TypeError mid-run.
+    watchlist_path = tmp_path / "programs.yaml"
+    watchlist_path.write_text(yaml.safe_dump({
+        "programs": None, "research": [], "competitions": [],
+    }))
+    data_dir = tmp_path / "data"
+    state_path = tmp_path / "scrape_state.yaml"
+
+    run(watchlist_path, data_dir, state_path, lambda url: None)
+
+    rows = yaml.safe_load((data_dir / "opportunities" / "programs.yaml").read_text())
+    assert rows == []
 
 
 def test_run_writes_no_tracked_repo_file(tmp_path):
