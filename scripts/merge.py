@@ -56,6 +56,16 @@ def merge_category(existing_rows, fetch_reports, today, on_drop=None):
                     row["status"] = "closed"
                     if row.get("id"):
                         summary["closed"].append(row["id"])
+                # Upgrade a stale estimate once a real date shows up for the
+                # same link (e.g. a source that only later grew an
+                # age/date column). Never touches a row whose date is
+                # already real, and an incoming date that's itself flagged
+                # estimated (date_estimated: true) doesn't count as "real"
+                # -- that would just trade one guess for another.
+                incoming_date = p.get("date_posted")
+                if incoming_date and not p.get("date_estimated") and row.get("date_estimated"):
+                    row["date_posted"] = incoming_date
+                    row["date_estimated"] = False
                 continue
 
             trip = _triple({**p, "location": canon_loc})

@@ -74,6 +74,59 @@ def test_non_us_posting_is_dropped_and_reported(capsys):
     assert "skipped non-US location" in capsys.readouterr().out
 
 
+def test_real_incoming_date_upgrades_estimated_existing_row():
+    # First run: no date_posted anywhere, so the row falls back to today
+    # with date_estimated: true (e.g. a source that had no age column yet).
+    rows, _ = merge_category([], [_report([_posting()])], TODAY)
+    assert rows[0]["date_estimated"] is True
+
+    # Second run: same link re-found, now carrying a real derived date (e.g.
+    # the pipe-table parser's new age-column support). The stale estimate
+    # must be replaced, not kept alongside a real date sitting unused.
+    rows2, _ = merge_category(
+        rows, [_report([_posting(date_posted="2026-06-01")])], "2026-07-25")
+    assert len(rows2) == 1
+    assert rows2[0]["date_posted"] == "2026-06-01"
+    assert rows2[0]["date_estimated"] is False
+
+
+def test_incoming_date_never_overwrites_a_real_existing_date():
+    rows, _ = merge_category(
+        [], [_report([_posting(date_posted="2026-05-01")])], TODAY)
+    assert rows[0]["date_estimated"] is False
+
+    rows2, _ = merge_category(
+        rows, [_report([_posting(date_posted="2026-06-15")])], "2026-07-25")
+    assert rows2[0]["date_posted"] == "2026-05-01"
+    assert rows2[0]["date_estimated"] is False
+
+
+def test_estimated_incoming_date_does_not_upgrade_estimated_existing_row():
+    # An incoming posting whose own date_posted is itself flagged estimated
+    # (e.g. a month-granularity pipe-table age) is not "a real date_posted"
+    # -- it must not overwrite an existing estimate either, since that
+    # would just swap one guess for another without the honesty gained.
+    rows, _ = merge_category([], [_report([_posting()])], TODAY)
+    assert rows[0]["date_estimated"] is True
+    stale_date = rows[0]["date_posted"]
+
+    rows2, _ = merge_category(
+        rows,
+        [_report([_posting(date_posted="2026-06-01", date_estimated=True)])],
+        "2026-07-25")
+    assert rows2[0]["date_posted"] == stale_date
+    assert rows2[0]["date_estimated"] is True
+
+
+def test_incoming_posting_without_date_posted_does_not_touch_existing_row():
+    rows, _ = merge_category([], [_report([_posting()])], TODAY)
+    stale_date = rows[0]["date_posted"]
+
+    rows2, _ = merge_category(rows, [_report([_posting()])], "2026-07-25")
+    assert rows2[0]["date_posted"] == stale_date
+    assert rows2[0]["date_estimated"] is True
+
+
 def test_same_link_across_sources_merges_and_accumulates_sources():
     rows, _ = merge_category([], [_report([_posting()])], TODAY)
     # Second run: same job, different source, tracking param on the link.
