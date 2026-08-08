@@ -217,12 +217,43 @@ Design: `docs/superpowers/specs/2026-08-08-ats-verification-design.md`.
    proposed change). Writes nothing else.
 2. Review the printed summary — every proposed close and non-US delete is
    listed individually.
-3. `python3 scripts/apply_ats_corrections.py scratch/ats_corrections.json`
+3. **Before applying, group the proposed closes by org and look for any org
+   where *every* row closes.** That is the shape of a board rename, not of
+   real closures: `api_url` maps all of an org's rows to one board token
+   (Ashby) or one company slug (Greenhouse/Lever/SmartRecruiters), so a
+   renamed board 404s — or serves an empty `jobs` array — for every row at
+   once. This is the one outcome the pipeline cannot self-correct: nothing
+   ever re-opens a closed row, and `check_ats.py` skips closed rows on every
+   future pass, so a false close leaves the README permanently and is
+   repairable only by hand or `git revert`. Deletes are gated on affirmative
+   country evidence and are individually printed; **closes are the riskier
+   action here despite looking reversible.**
+
+   ```bash
+   python3 -c "import json,collections; \
+   a=json.load(open('scratch/ats_corrections.json'))['actions']; \
+   print(collections.Counter(x['ats'] for x in a if x['action']=='close'))"
+   ```
+4. `python3 scripts/apply_ats_corrections.py scratch/ats_corrections.json`
    — the single serialized writer: applies corrections, stamps
    `last_verified`, rewrites `data/*.yaml`, re-renders `README.md`. Aborts
-   without writing if any corrected row fails ROW_SCHEMA.
-4. `python3 scripts/check_integrity.py`, then commit.
+   without writing if any corrected row fails ROW_SCHEMA, or if a
+   corrections id matches more than one row (duplicate ids would delete
+   every row sharing the id and edit the wrong one).
+5. `python3 scripts/check_integrity.py`, then commit.
 
 Never run concurrently with `run_scrape_merge.py` (single-writer
-discipline). `unknown` results change nothing — no disappearance-based
-closing.
+discipline), and **do not scrape between steps 1 and 4** — the corrections
+file has no freshness check, so a stale `set_location` would clobber a
+fresher merge result and a stale `close` would close a re-listed row.
+`unknown` results change nothing — no disappearance-based closing.
+
+Expect `location_unresolved` to dominate the first run rather than real
+corrections: `canonicalize_location` takes the last comma-separated part as
+the state, so common ATS forms like `"Charlotte, North Carolina, United
+States"` and Workday's `"USA-NY-New York"` do not resolve. Those rows are
+US, open, and correct — they are noise, not findings. Note also that
+`delete_non_us` can never fire for Greenhouse, Lever or SmartRecruiters rows
+(~197 of the 439 probed): Greenhouse carries no country field, and the other
+two return ISO-2 codes that `_NON_US_RE` does not match. That is the safe
+direction, by design.

@@ -1153,6 +1153,7 @@ category YAML, and re-renders README.md. Never runs git.
 
 Usage: python3 scripts/apply_ats_corrections.py [scratch/ats_corrections.json]
 """
+import copy
 import json
 import sys
 import yaml
@@ -1171,9 +1172,10 @@ def apply_corrections(rows_by_category, actions, today):
     """Pure. Returns (new_rows_by_category, summary); never mutates input.
     summary maps outcome kinds to sorted row-id lists; 'skipped' holds ids
     from the corrections file that no longer exist in the data."""
-    rows_by_category = {
-        cat: [dict(r) for r in rows] for cat, rows in rows_by_category.items()
-    }
+    # deepcopy, not dict(): a shallow copy shares the nested `degree` and
+    # `sources` lists with the caller, so the never-mutates guarantee would
+    # hold only as long as no action touches a nested value.
+    rows_by_category = copy.deepcopy(rows_by_category)
     index = {}
     for rows in rows_by_category.values():
         for row in rows:
@@ -1181,7 +1183,7 @@ def apply_corrections(rows_by_category, actions, today):
                 index[row["id"]] = row
     summary = {k: [] for k in (
         "confirmed", "location_fixed", "date_fixed", "closed", "deleted",
-        "unresolved", "unknown", "skipped")}
+        "unresolved", "unknown", "skipped", "unrecognized_action")}
     deleted, verified = set(), set()
     for a in actions:
         rid, act = a.get("id"), a.get("action")
@@ -1211,7 +1213,10 @@ def apply_corrections(rows_by_category, actions, today):
         elif act == "unknown":
             summary["unknown"].append(rid)
         else:
-            summary["skipped"].append(rid)
+            # An action kind we don't implement, on a row that DOES exist —
+            # a typo or a renamed action, not a stale id. Kept separate from
+            # "skipped" so it can't be reported as a missing row.
+            summary["unrecognized_action"].append(rid)
     new = {}
     for cat, rows in rows_by_category.items():
         kept = []
@@ -1325,6 +1330,31 @@ def run(corrections_path, data_dir=None, readme_path=None):
         rows_by_category[stem] = (
             (yaml.safe_load(path.read_text()) or []) if path.exists() else [])
 
+    # Corrections are matched to rows by id alone, so a duplicate id would
+    # apply one row's correction to another row entirely: a delete would
+    # remove every row sharing the id (reporting one), and a set_location
+    # would land on whichever row loaded last. Duplicate ids are a known,
+    # unfixed upstream bug in merge.py's id hash, and run_scrape_merge
+    # deliberately writes them to disk anyway rather than lose a listing.
+    # Refuse to touch a dataset in that state instead of guessing.
+    seen, dupes = {}, set()
+    for cat, rows in rows_by_category.items():
+        for row in rows:
+            rid = row.get("id")
+            if rid is None:
+                continue
+            if rid in seen:
+                dupes.add(rid)
+            seen[rid] = cat
+    colliding = sorted(dupes.intersection(
+        {a.get("id") for a in doc["actions"]}))
+    if colliding:
+        for rid in colliding:
+            print(f"DUPLICATE ID: {rid!r} matches more than one row")
+        raise SystemExit(
+            f"{len(colliding)} corrections id(s) match multiple rows; "
+            f"nothing written. Resolve the duplicate ids first.")
+
     today = date.today().isoformat()
     new_rows, summary = apply_corrections(rows_by_category, doc["actions"], today)
 
@@ -1351,15 +1381,22 @@ def run(corrections_path, data_dir=None, readme_path=None):
             yaml.safe_dump(rows, sort_keys=False, allow_unicode=True))
     render(data_dir, readme_path)
 
-    for a in doc["actions"]:
-        if a.get("action") == "delete_non_us":
-            print(f"    DELETED (non-US): [{a.get('id')}] "
-                  f"api_locations={a.get('api_locations')} "
-                  f"country={a.get('country')}")
+    # Report deletes from the summary, not from the raw actions: an action
+    # naming a row id that isn't in the data deletes nothing, and announcing
+    # it would claim a destructive act that never happened.
+    detail = {a.get("id"): a for a in doc["actions"]
+              if a.get("action") == "delete_non_us"}
+    for rid in summary["deleted"]:
+        a = detail.get(rid, {})
+        print(f"    DELETED (non-US): [{rid}] "
+              f"api_locations={a.get('api_locations')} "
+              f"country={a.get('country')}")
     for rid in summary["closed"]:
         print(f"    closed: [{rid}]")
     for rid in summary["skipped"]:
         print(f"    warn: skipped correction for unknown row id {rid!r}")
+    for rid in summary["unrecognized_action"]:
+        print(f"    warn: unrecognized action kind for existing row {rid!r}")
     print(", ".join(f"{k}={len(v)}" for k, v in summary.items()))
     return summary
 
