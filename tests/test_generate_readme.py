@@ -1,7 +1,8 @@
 import re
+import datetime as dt
 import yaml
 from pathlib import Path
-from generate_readme import render
+from generate_readme import render, _format_opens
 
 
 def _write(data_dir: Path, stem: str, rows: list):
@@ -129,6 +130,37 @@ def test_pipe_newline_and_paren_in_free_text_dont_corrupt_table(tmp_path):
 # ---------------------------------------------------------------------------
 # Programs / Research / Competitions sections
 # ---------------------------------------------------------------------------
+
+# _format_opens — direct unit tests for the defensive coercion seams a
+# hand-edited sources/programs.yaml can trigger (PyYAML parses an unquoted
+# date/int scalar into a non-str object).
+
+def test_format_opens_year_month_string():
+    assert _format_opens("2026-09") == "Sep 2026"
+
+
+def test_format_opens_full_date_string():
+    assert _format_opens("2026-09-15") == "Sep 15, 2026"
+
+
+def test_format_opens_none_is_none():
+    assert _format_opens(None) is None
+
+
+def test_format_opens_date_object():
+    assert _format_opens(dt.date(2026, 9, 15)) == "Sep 15, 2026"
+
+
+def test_format_opens_datetime_object_truncates_time_of_day():
+    assert _format_opens(dt.datetime(2026, 9, 15, 13, 30, 0)) == "Sep 15, 2026"
+
+
+def test_format_opens_bare_int_does_not_raise():
+    # An unquoted 'opens: 2026' YAML scalar parses as an int, not a str or
+    # date — must fall back to the raw value rather than crashing the
+    # whole render on .isoformat().
+    assert _format_opens(2026) == "2026"
+
 
 def test_opportunity_sections_render_headings_and_toc(tmp_path):
     data_dir = _empty_data_dir(tmp_path)
@@ -272,11 +304,12 @@ def test_opp_pipe_and_paren_in_free_text_dont_corrupt_table(tmp_path):
     assert "[Apply](<https://example.com/apply?ref=(promo)>)" in text
 
 
-def test_opp_row_missing_both_urls_does_not_render_literal_none(tmp_path):
+def test_opp_row_missing_both_urls_renders_em_dash_not_dead_link(tmp_path):
     # Mirrors a hand-corrupted row check_programs.py tolerates keeping as-is
     # (test_check_kind_existing_row_missing_id_is_not_deleted): no 'url' key
     # at all. render() reads data/opportunities/*.yaml directly and must not
-    # print Python's None into a public README link.
+    # print Python's None into a public README link, nor render a
+    # live-looking [Apply](<#>) link to nowhere.
     data_dir = _empty_data_dir(tmp_path)
     row = _opp_row()
     del row["url"]
@@ -285,6 +318,10 @@ def test_opp_row_missing_both_urls_does_not_render_literal_none(tmp_path):
     render(data_dir, tmp_path / "README.md")
     text = (tmp_path / "README.md").read_text()
     assert "(<None>)" not in text
+    assert "[Apply](<#>)" not in text
+    row_line = next(l for l in text.splitlines() if l.startswith("| NVIDIA Ignite"))
+    cells = [c.strip() for c in re.split(r"(?<!\\)\|", row_line) if c.strip()]
+    assert cells[5] == "—"   # Link column: Program/Org/Category/Eligibility/Opens/Link/Status
 
 
 def test_legend_mentions_opportunity_status_badges(tmp_path):

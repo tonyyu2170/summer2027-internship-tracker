@@ -76,19 +76,20 @@ def _load(data_dir: Path, stem: str) -> list:
 def _load_opportunities(data_dir: Path, stem: str) -> list:
     """Tolerates a missing data/opportunities/ dir entirely (older callers
     and tests that only set up job-category YAML) by rendering []."""
-    p = data_dir / "opportunities" / f"{stem}.yaml"
-    return (yaml.safe_load(p.read_text()) or []) if p.exists() else []
+    return _load(data_dir / "opportunities", stem)
 
 
 def _format_opens(value):
     """'YYYY-MM' -> 'Sep 2026', 'YYYY-MM-DD' -> 'Sep 15, 2026'. A hand-edited
-    watch-list can leave a date/datetime object (PyYAML) instead of a str,
-    or a value that doesn't match either pattern at all — coerce the former,
-    fall back to the raw value on the latter rather than raising."""
+    watch-list can leave a date/datetime object (PyYAML), a bare int (an
+    unquoted 'opens: 2026' scalar), or a value that doesn't match either
+    pattern at all — coerce the former two, fall back to the raw value on
+    the latter rather than raising."""
     if not value:
         return None
     if not isinstance(value, str):
-        value = value.isoformat()
+        value = value.isoformat() if hasattr(value, "isoformat") else str(value)
+        value = value[:10]   # a datetime isoformats with a 'THH:MM:SS' tail
     try:
         if len(value) == 7:
             return datetime.strptime(value, "%Y-%m").strftime("%b %Y")
@@ -124,14 +125,14 @@ def _opp_sort_key(row: dict):
 def _opp_row_cells(row: dict) -> str:
     category = row.get("category")
     opens_fmt = _format_opens(row.get("opens"))
-    link = row.get("apply_url") or row.get("url") or "#"
+    link = row.get("apply_url") or row.get("url")
     cells = [
-        _escape_cell(row.get("name", "")),
-        _escape_cell(row.get("org", "")),
+        _escape_cell(row.get("name") or ""),
+        _escape_cell(row.get("org") or ""),
         _escape_cell(category) if category else "—",
-        _escape_cell(row.get("eligibility", "")),
+        _escape_cell(row.get("eligibility") or ""),
         _escape_cell(opens_fmt) if opens_fmt else "—",
-        f"[Apply](<{link}>)",
+        f"[Apply](<{link}>)" if link else "—",
         _escape_cell(_opp_status_badge(row)),
     ]
     return "| " + " | ".join(cells) + " |"
