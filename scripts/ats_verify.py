@@ -149,11 +149,19 @@ def _extract_lever(body, link, today):
 
 def _extract_ashby(body, link, today):
     jobs = json.loads(body)["jobs"]
-    uuid = link.rstrip("/").rsplit("/", 1)[-1].lower()
+    # Take the uuid from _ASHBY_RE, not from the link's trailing path segment:
+    # real links carry /application, /apply and ?utm_* suffixes, so a naive
+    # rsplit yields "application" — which matches no job and would send the
+    # row down the closed branch below. Manufacturing an authoritative "gone"
+    # from a parse miss is exactly what this module must never do.
+    m = _ASHBY_RE.match(link)
+    if not m:
+        return None
+    uuid = m.group(2).lower()
     job = next(
         (jb for jb in jobs
          if (jb.get("id") or "").lower() == uuid
-         or (jb.get("jobUrl") or "").rstrip("/").lower().endswith(uuid)),
+         or uuid in (jb.get("jobUrl") or "").lower()),
         None)
     if job is None:
         # the org's own board no longer serves this posting id — that is the

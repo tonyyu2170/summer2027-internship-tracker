@@ -2,6 +2,8 @@
 import json
 from datetime import date
 
+import pytest
+
 from ats_verify import api_url, extract, decide
 
 
@@ -189,6 +191,39 @@ def test_extract_ashby_job_absent_from_own_board_is_closed():
     jobs = [{"id": "aaaaaaaa-0000-0000-0000-000000000000"}]
     ext = extract("ashby", 200, _ashby_board(jobs), link=ASHBY_LINK, today=TODAY)
     assert ext["closed"] is True
+
+
+# 23 of 71 live open Ashby rows carry a /application or ?utm_* suffix. Deriving
+# the uuid from the link's last path segment yields "application" for those,
+# matching no job and false-closing a live posting.
+@pytest.mark.parametrize("suffix", [
+    "/application",
+    "/application?embed=true",
+    "/apply",
+    "?utm_source=Simplify&ref=Simplify",
+    "/",
+])
+def test_extract_ashby_finds_job_despite_link_suffix(suffix):
+    jobs = [{"id": "b333f0f7-0ca6-4509-8697-9303396b5364",
+             "location": "San Francisco", "isListed": True}]
+    ext = extract("ashby", 200, _ashby_board(jobs),
+                  link=ASHBY_LINK + suffix, today=TODAY)
+    assert ext["closed"] is False
+    assert ext["locations"] == ["San Francisco"]
+
+
+def test_extract_ashby_matches_by_joburl_despite_link_suffix():
+    jobs = [{"jobUrl": ASHBY_LINK + "/application", "location": "Austin, TX",
+             "isListed": True}]
+    ext = extract("ashby", 200, _ashby_board(jobs),
+                  link=ASHBY_LINK + "?utm_source=x", today=TODAY)
+    assert ext["closed"] is False
+
+
+def test_extract_ashby_unparseable_link_is_unknown_not_closed():
+    # No uuid to match on means we cannot tell — and must not guess "gone".
+    assert extract("ashby", 200, _ashby_board([{"id": "x"}]),
+                   link="https://jobs.ashbyhq.com/bild-ai", today=TODAY) is None
 
 
 def test_extract_ashby_unlisted_job_is_closed():
