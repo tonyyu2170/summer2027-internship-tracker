@@ -35,15 +35,21 @@ _HEADERS = {
 }
 
 
-def _probe(url: str, timeout: float = 12.0):
+def _probe(url: str, timeout: float = 12.0, want_body: bool = False):
+    """want_body=True also returns decoded response text as a third element
+    (None on any failure) — used by check_programs.py to match open/closed
+    signals against page content without a second HTTP client."""
     req = urllib.request.Request(url, headers=_HEADERS)
     try:
         with urllib.request.urlopen(req, timeout=timeout, context=_SSL_CTX) as resp:
+            if want_body:
+                return resp.status, resp.geturl(), resp.read().decode("utf-8", errors="replace")
             return resp.status, resp.geturl()
     except urllib.error.HTTPError as e:
-        return e.code, e.geturl() or url
+        return (e.code, e.geturl() or url, None) if want_body else (e.code, e.geturl() or url)
     except Exception:
-        return 0, url  # network error/timeout -> classify_status_code -> "unknown"
+        # network error/timeout -> classify_status_code -> "unknown"
+        return (0, url, None) if want_body else (0, url)
 
 
 def check_category(path: Path, workers: int = 15):
