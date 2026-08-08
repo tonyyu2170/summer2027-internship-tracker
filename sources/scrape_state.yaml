@@ -61,3 +61,11 @@ _last_run:
       term_unmatched: 1
     company:the-hartford:
       manual_discovery: 1
+_last_program_check:
+  ran_at: 2026-08-08 12:03
+  open: 7
+  upcoming: 1
+  closed: 26
+  unknown: 21
+  fetch_failed: 4
+  transitioned: []

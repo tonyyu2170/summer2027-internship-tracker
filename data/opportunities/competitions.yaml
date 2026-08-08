@@ -1,1 +1,324 @@
-[]
+- id: akuna-capital-akuna-capital-s-2026-virtual-quant-trading-challenge
+  name: Akuna Capital's 2026 Virtual Quant Trading Challenge
+  org: Akuna Capital
+  kind: competition
+  category: quant
+  url: https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge/?gh_jid=7993921
+  apply_url: https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge/?gh_jid=7993921
+  status: open
+  opens: 2026-06
+  closes: '2026-08-10'
+  eligibility: BS/MS/PhD students in Engineering, Econ, Stats, Math, CS, Actuarial
+    Science or related; min 3.5 major GPA; graduating Dec 2026 - Aug 2028
+  location: Remote (Online); firm based in Chicago, IL
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: CLOSES 2026-08-10. Greenhouse job-board posting (?gh_jid=) - will likely
+    404/redirect once closed rather than show closed-language; recheck script should
+    treat 404/redirect as closed too.
+- id: optiver-optiver-ready-trader-go
+  name: Optiver Ready Trader Go
+  org: Optiver
+  kind: competition
+  category: quant
+  url: https://readytradergo.optiver.com/
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: University students in eligible countries incl. USA, UK, EU, Australia,
+    NZ, Taiwan, Singapore, China
+  location: Remote (Online)
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: Recurs periodically (2021, 2023, ...); page directs students to a mailing
+    list for the next edition. No date given.
+- id: imc-trading-imc-prosperity
+  name: IMC Prosperity
+  org: IMC Trading
+  kind: competition
+  category: quant
+  url: https://prosperity.imc.com/
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: University STEM students worldwide preferred (anyone may participate
+    to learn); 18+ and residency in EMEA/NA/SA/India/Australia/Hong Kong required
+    for prize eligibility
+  location: Remote (Online)
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: Annual flagship IMC challenge (most recent held April 2026). No date stated
+    for Prosperity 5.
+- id: university-of-chicago-uchicago-trading-competition
+  name: UChicago Trading Competition
+  org: University of Chicago
+  kind: competition
+  category: quant
+  url: https://tradingcompetition.uchicago.edu/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Undergraduate/graduate students from any university (not limited to
+    UChicago)
+  location: Chicago, IL
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: 14th annual edition held April 10-11, 2026 (past); recurs annually. No literal
+    open/closed application-status text found.
+- id: traders-at-berkeley-uc-berkeley-berkeley-trading-competition
+  name: Berkeley Trading Competition
+  org: Traders at Berkeley (UC Berkeley)
+  kind: competition
+  category: quant
+  url: https://traders.studentorg.berkeley.edu/competition/
+  apply_url: null
+  status: closed
+  opens: 2026-11
+  closes: 2026-12
+  eligibility: Any US-based undergraduate or graduate student
+  location: Berkeley, CA
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: Sponsored by Citadel, Jane Street, Optiver, Jump, DRW, SIG, Five Rings, HRT,
+    Flow Traders, Virtu. Page says applications "typically open in late November and
+    close in mid-December" - recurring pattern, not a firm 2026 commitment.
+- id: quant-fund-at-cornell-cornell-trading-competition
+  name: Cornell Trading Competition
+  org: Quant Fund at Cornell
+  kind: competition
+  category: quant
+  url: https://cornellquantfund.org/competition
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Undergraduate and master's students from universities in the US and
+    Canada
+  location: New York, NY (Cornell Tech)
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: 2026 edition scheduled mid-October 2026 at Cornell Tech. "Early Fall 2026"
+    stated without a specific month, so opens left null.
+- id: duke-fintech-gothic-hedge-society-duke-master-in-fintech-duke-fintech-trading-competition
+  name: Duke FinTech Trading Competition
+  org: Duke FinTech (Gothic Hedge Society / Duke Master in FinTech)
+  kind: competition
+  category: quant
+  url: https://fintechtradingcompetition.com/
+  apply_url: null
+  status: open
+  opens: null
+  closes: null
+  eligibility: Any student, any university, any status - explicitly not limited to
+    Duke or to enrolled students
+  location: Remote (Online); paper trading via Interactive Brokers
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: Now rolling/continual rather than fixed seasons. Page states Fall 2026 rules
+    will be updated in August 2026.
+- id: wids-worldwide-women-in-data-science-wids-datathon
+  name: WiDS Datathon
+  org: WiDS Worldwide (Women in Data Science)
+  kind: competition
+  category: data_science
+  url: https://www.widsworldwide.org/learn/datathon/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Data science students/enthusiasts (General track); advanced students
+    (University Edition track)
+  location: Remote (Online); global, Stanford-affiliated
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: 2026 cycle ran Jan-Apr 2026. Page still displayed "The 2026 WiDS Global Challenge
+    is now Open!" at fetch time - stale relative to its own dates, so it fails as
+    a reliable open-only signal. 2027 not yet announced.
+- id: correlation-one-citadel-data-open
+  name: Citadel Data Open
+  org: Correlation One
+  kind: competition
+  category: data_science
+  url: https://www.correlation-one.com/data-science-talent-competitions
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: University students (undergrad/grad/PhD); not explicitly stated on
+    the fetched page itself
+  location: Multiple US cities (regional events) plus a championship event
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: Hosted by Correlation One in partnership with Citadel/Citadel Securities.
+    citadel.com returned HTTP 403 to every fetch, so the operator's own domain is
+    used. No explicit open/closed language found.
+- id: american-statistical-association-asa-datafest
+  name: ASA DataFest
+  org: American Statistical Association
+  kind: competition
+  category: data_science
+  url: https://ww2.amstat.org/education/datafest/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Undergraduate students at participating US universities
+  location: Multiple US university campuses (local chapters)
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: 48-hour national data science competition run by university chapters each
+    spring; registration varies by chapter, so status is unknown at the national level.
+- id: correlation-one-citadel-securities-terminal-ai-games
+  name: Citadel Securities Terminal / AI Games
+  org: Correlation One
+  kind: competition
+  category: ai_ml
+  url: https://terminal.c1games.com/
+  apply_url: https://terminal.c1games.com/
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Not explicitly stated on the fetched page; open sign-up platform
+  location: Remote (Online)
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: Co-branded with Citadel Securities per Correlation One's page; citadel domains
+    403'd. Appears evergreen/always-on ladder competition, so no reliable open/closed
+    signal exists.
+- id: jpmorgan-chase-jpmorgan-chase-code-for-good-hackathon
+  name: JPMorgan Chase Code for Good Hackathon
+  org: JPMorgan Chase
+  kind: competition
+  category: swe
+  url: https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Students enrolled in a bachelor's degree program (or a JPMorganChase-sponsored
+    program); sister "Data for Good" is for bachelor's/master's/PhD data science students
+  location: Multiple US cities (also international)
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: Annual since 2012. Page states "only locations where this program is currently
+    open will be displayed" - status varies by location with no single global signal.
+- id: society-of-actuaries-soa-research-institute-soa-research-institute-student-research-case-study-challenge
+  name: SOA Research Institute Student Research Case Study Challenge
+  org: Society of Actuaries (SOA Research Institute)
+  kind: competition
+  category: actuarial
+  url: https://www.soa.org/research/opportunities/2026-student-research-case-study-challenge/
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Undergraduate/graduate student teams of 2-5; 2026 edition drew teams
+    from 65 universities across 19 countries (not US-restricted)
+  location: Remote (Online)
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: 2026 cycle fully past (case Jan 16, submissions Mar 13, winners Apr 24).
+    Annual; URL will likely be superseded by a 2027 page.
+- id: casualty-actuarial-society-cas-student-central-cas-student-central-mentor-led-summer-program
+  name: CAS Student Central Mentor-Led Summer Program
+  org: Casualty Actuarial Society (CAS Student Central)
+  kind: competition
+  category: actuarial
+  url: https://www.casstudentcentral.org/cassummerprogram/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: University students interested in actuarial/P&C insurance careers,
+    open globally (Asia/Pacific students directed to a separate regional program)
+  location: Remote (Online)
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: Free 8-week program (2026 edition ran June 8 - July 31, concluded) including
+    a team-based case competition. "Early spring" stated without a month, so opens
+    left null.
+- id: university-of-arizona-center-for-semiconductor-manufacturing-ai-hardware-design-league-ai-hdl
+  name: AI Hardware Design League (AI-HDL)
+  org: University of Arizona (Center for Semiconductor Manufacturing)
+  kind: competition
+  category: hardware
+  url: https://csm.arizona.edu/AIHDL
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Community college, undergraduate, or graduate students, open globally;
+    teams of 3-5 at the same degree level
+  location: Remote (Online); hosted by University of Arizona, Tucson, AZ
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: Inaugural 2026 cycle ran Jan 15 - May 12, 2026; registration deadline Dec
+    19, 2025 - past. No 2027 date posted; recurrence unconfirmed (first run).
+- id: iclad-dac-design-automation-conference-genai-chip-hackathon-at-dac-2026
+  name: GenAI Chip Hackathon at DAC 2026
+  org: ICLAD / DAC (Design Automation Conference)
+  kind: competition
+  category: hardware
+  url: https://dac.com/2026/dac-pull-down-menu-tab-genai-chip-hackathon
+  apply_url: https://iclad.ai/hackathon
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Not explicitly limited to students; requires in-person DAC or "I LOVE
+    DAC" registration to compete for prizes
+  location: Long Beach, CA (in-person)
+  cycle: null
+  sources:
+  - llm_discovery
+  date_added: '2026-08-08'
+  last_checked: '2026-08-08'
+  notes: Registration opened May 14, 2026; competition July 26, 2026 at DAC 2026 -
+    past. Recurs with the annual DAC conference; 2027 not yet announced.

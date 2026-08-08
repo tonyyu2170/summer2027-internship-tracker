@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-07 23:43 — 629 open roles. Last scrape: +0 new, 0 closed._
+_Last updated: 2026-08-08 12:03 — 629 open roles. Last scrape: +0 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories.
 
@@ -743,13 +743,71 @@ US-based Summer 2027 internships across six role categories.
 
 ## Programs
 
-_No opportunities tracked yet._
+| Program | Org | Category | Eligibility | Opens | Link | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| MLT Career Prep | Management Leadership for Tomorrow (MLT) | — | College sophomores graduating Fall 2028/Spring/Summer 2029; Black, Hispanic/Latinx, or Native American/Indigenous; US citizen or permanent resident (incl. DACA) | — | [Apply](<https://mlt.org/career-prep/>) | 🟢 **Open** |
+| Richard Tapia Celebration of Diversity in Computing | CMD-IT / ACM | — | Undergraduate, graduate, and community-college students, faculty, and professionals in computing (all backgrounds); scholarships available for US students | — | [Apply](<https://tapiaconference.cmd-it.org/2026-registration/>) | 🟢 **Open** |
+| NVIDIA Ignite | NVIDIA | ai_ml | Current freshmen and sophomores pursuing a bachelor's degree | — | [Apply](<https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/>) | ⚪ Unknown |
+| Explore Microsoft | Microsoft | swe | First- and second-year undergraduates; must have completed an intro CS course and one semester of calculus | — | [Apply](<https://careers.microsoft.com/v2/global/en/exploremicrosoft>) | ⚪ Unknown |
+| Optiver FutureFocus | Optiver | quant | First- and second-year students | — | [Apply](<https://www.optiver.com/join-us/students/programs/futurefocus/>) | ⚪ Unknown |
+| FOCUS | Jane Street | quant | First-year students who have experienced barriers to advanced STEM opportunities (first-generation, underrepresented minority, financial need, under-resourced schools) | — | [Apply](<https://www.janestreet.com/join-jane-street/programs-and-events/focus/>) | ⚪ Unknown |
+| INSIGHT | Jane Street | quant | Women, transgender, and/or gender-expansive undergraduates; no prior finance knowledge required | — | [Apply](<https://www.janestreet.com/join-jane-street/programs-and-events/insight/>) | ⚪ Unknown |
+| SEO Career | Sponsors for Educational Opportunity (SEO) | — | Freshman-junior undergraduates; GPA 3.2+ preferred (3.0 considered; freshmen may apply without GPA) | — | [Apply](<https://career.seo-usa.org/our-program/>) | ⚪ Unknown |
+| Winning Women | JPMorgan Chase | — | Undergraduate women; must have US work authorization (no sponsorship offered) | — | [Apply](<https://www.jpmorganchase.com/careers/explore-opportunities/programs/winning-women-ba>) | ⚪ Unknown |
+| Launchpad | IMC Trading | quant | First- or second-year university students, quantitative/CS background; invitation-based | — | [Apply](<https://www.imc.com/us/careers/students-graduates/programs/launchpad>) | ⚪ Unknown |
+| SHPE National Convention | Society of Hispanic Professional Engineers (SHPE) | — | Not stated | — | [Apply](<https://shpe.org/2026-shpe/>) | ⚪ Unknown |
+| US Discovery Programs | Susquehanna International Group (SIG) | quant | Not stated | — | [Apply](<https://careers.sig.com/us-discovery-programs/jobs>) | ⚪ Unknown |
+| Student Training in Engineering Program (STEP) | Google | swe | First- or second-year undergraduates in CS, CE, or a related field; students from historically underrepresented groups in tech encouraged | — | [Apply](<https://www.google.com/about/careers/applications/buildyourfuture/programs/step>) | ⚪ Unknown |
+| Possibilities Summits | Goldman Sachs | — | First-year undergraduates at a U.S. college/university, graduating December 2028-May 2029 | — | [Apply](<https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series>) | 🔒 Closed |
+| Inside HRT | Hudson River Trading | quant | First- and second-year students in computer science, mathematics, or another STEM field | — | [Apply](<https://www.hudsonrivertrading.com/student-opportunities/>) | 🔒 Closed |
+| Explore HRT | Hudson River Trading | quant | Students graduating 2028 (current juniors) interested in quantitative trading | — | [Apply](<https://www.hudsonrivertrading.com/student-opportunities/>) | 🔒 Closed |
+| Point72 Academy | Point72 | quant | Undergraduates in their final summer before graduation (equities investing training) | — | [Apply](<https://point72.com/point72-academy/>) | 🔒 Closed |
+| NSBE Annual Convention | National Society of Black Engineers (NSBE) | — | NSBE collegiate members and prospective members (Black engineering/CS undergraduates) | — | [Apply](<https://convention.nsbe.org/register-for-nsbe2026/>) | 🔒 Closed |
+| Building Entrepreneurial Leaders (BEL) | Bain & Company | — | Sophomore undergraduates identifying as Black/African American, Hispanic/Latinx, or American Indian | — | [Apply](<https://www.bain.com/careers/work-with-us/internships-programs/building-entrepreneurial-leaders/>) | 🔒 Closed |
+| Consulting Kickstart | Bain & Company | — | First-year (freshman) undergraduates identifying as Black, Hispanic/Latin American, or Indigenous | — | [Apply](<https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/>) | 🔒 Closed |
+| BCG Launch | Boston Consulting Group | — | Undergraduate and non-MBA master's students, all fields, at a US or Canadian college/university | — | [Apply](<https://careers.bcg.com/on-campus/programs/bcg-launch>) | 🔒 Closed |
 
 ## Research
 
-_No opportunities tracked yet._
+| Program | Org | Category | Eligibility | Opens | Link | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| SPAR (Supervised Program for Alignment Research) | SPAR / Kairos Project | ai_ml | Open to undergraduate and graduate/PhD students and professionals; technical (ML/CS/cybersecurity/math/physics) or policy/governance backgrounds | — | [Apply](<https://forms.sparai.org/spar/mentee-app>) | 🟢 **Open** |
+| NSF REU — Undergraduate Research in Data Analytics (URDA) | Marshall University | data_science | US undergraduates nationwide; emphasis on West Virginia, Kentucky, Ohio, first-generation students, underrepresented minorities, and students from resource-limited Appalachian institutions | — | [Apply](<https://etap.nsf.gov/award/7954/opportunity/10858>) | 🟢 **Open** |
+| Science Undergraduate Laboratory Internships (SULI) | US Department of Energy, Office of Science | — | Full-time undergraduates, age 18+, GPA 3.0+, US citizen or permanent resident, high school diploma/GED | — | [Apply](<https://science.osti.gov/wdts/suli>) | 🟢 **Open** |
+| Summer Undergraduate Research Fellowships (SURF) | Caltech | — | Continuing undergraduate eligible for fall registration; cumulative GPA 2.5+; completed second semester or third quarter of college | Nov 01, 2026 | [Apply](<https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information>) | ⏳ `opens Nov 01, 2026` |
+| AI Safety Camp — Research Incubator | AI Safety Camp | ai_ml | Open to students, engineers, independent researchers, and others interested in AI safety; no formal degree-level restriction stated | — | [Apply](<https://aisafety.camp/>) | ⚪ Unknown |
+| Data+ | Duke University | data_science | Duke undergraduate and master's students, plus non-Duke students via a separate application track; open to all class years and majors | — | [Apply](<https://bigdata.duke.edu/data/>) | ⚪ Unknown |
+| REU / SPUR (Summer Program for Undergraduate Research), Mathematics | Cornell University Department of Mathematics | quant | Not stated | — | [Apply](<https://www.math.cornell.edu/undergraduate-research>) | ⚪ Unknown |
+| MATS (ML Alignment & Theory Scholars) | MATS Research | ai_ml | Open to a range of experience levels, from undergraduates to industry professionals; focus areas span AI alignment, security, and governance research | Aug 2026 | [Apply](<https://www.matsprogram.org/>) | 🔒 Closed |
+| Anthropic Fellows Program | Anthropic | ai_ml | Technical talent with strong coding ability (Python); no PhD, prior ML experience, or publications required; must have work authorization in US, UK, or Canada | — | [Apply](<https://www.anthropic.com/careers/jobs/5023394008>) | 🔒 Closed |
+| AI for Computational Creativity (NSF REU Site) | Brown University Department of Computer Science | ai_ml | US citizens/permanent residents currently enrolled as undergraduates (bachelor's or associate's); students who have already graduated are not eligible | — | [Apply](<https://aireu.cs.brown.edu/>) | 🔒 Closed |
+| FoDOMMaT (NSF REU Site) | National Center for Supercomputing Applications, UIUC | ai_ml | US citizens/permanent residents; enrolled undergraduates in good standing, age 18+, some Python and ML exposure | — | [Apply](<https://reu.ncsa.illinois.edu/>) | 🔒 Closed |
+| NSF REU — High-Performance Computing | University of Wisconsin-Eau Claire | hardware | US citizens/permanent residents; full-time STEM bachelor's/associate's students; cumulative GPA 2.5+ | — | [Apply](<https://hpc.uwec.edu/explore-opportunities/nsf-reu/>) | 🔒 Closed |
+| MIT Summer Research Program (MSRP) | MIT | — | Sophomore, junior, or non-graduating senior; 3.5+ GPA (overall or major); enrolled full-time at a US institution other than MIT | — | [Apply](<https://oge.mit.edu/msrp/application/>) | 🔒 Closed |
+| Summer Undergraduate Program in Engineering Research at Berkeley (SUPERB-AI4E) | UC Berkeley EECS | ai_ml | Rising juniors/seniors; US citizens/permanent residents; completed upper-division EECS coursework; GPA 3.0+ | — | [Apply](<https://eecs.berkeley.edu/resources/undergrads/research/superb>) | 🔒 Closed |
+| Distributed Research Experiences for Undergraduates (DREU) | Computing Research Association (CRA-WP) | swe | US citizens, permanent residents, or nationals; priority to CS/CE/related fields; no prior research experience required | — | [Apply](<https://cra.org/cra-wp/dreu/>) | 🔒 Closed |
+| Data Science for Social Good Fellowship | Data Science for Social Good Foundation | data_science | Current or recent graduate and undergraduate students from quantitative and computational fields | — | [Apply](<https://dssgfellowship.org/>) | 🔒 Closed |
+| American Economic Association Summer Training Program (AEASP) | American Economic Association (2026 hosted at American University) | — | Undergraduates preparing for economics PhD study; historically focused on broadening participation in the economics profession | — | [Apply](<https://www.american.edu/cas/economics/aeasp/>) | 🔒 Closed |
+| ASPIRE Fellowship (Advancing Scholars in Physics and Innovative Research in Engineering) | Fermilab | hardware | Undergraduate junior/senior or master's engineering students focused on accelerator engineering; US citizen/permanent resident; full-time enrollment; GPA 3.0+ | — | [Apply](<https://internships.fnal.gov/https-fermilab-wd5-myworkdayjobs-com-en-us-fermilabcareers-details-aspire-fellowship_r_007434qaspire/>) | 🔒 Closed |
 
 ## Competitions
 
-_No opportunities tracked yet._
+| Program | Org | Category | Eligibility | Opens | Link | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Akuna Capital's 2026 Virtual Quant Trading Challenge | Akuna Capital | quant | BS/MS/PhD students in Engineering, Econ, Stats, Math, CS, Actuarial Science or related; min 3.5 major GPA; graduating Dec 2026 - Aug 2028 | Jun 2026 | [Apply](<https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge/?gh_jid=7993921>) | 🟢 **Open** |
+| Duke FinTech Trading Competition | Duke FinTech (Gothic Hedge Society / Duke Master in FinTech) | quant | Any student, any university, any status - explicitly not limited to Duke or to enrolled students | — | [Apply](<https://fintechtradingcompetition.com/>) | 🟢 **Open** |
+| UChicago Trading Competition | University of Chicago | quant | Undergraduate/graduate students from any university (not limited to UChicago) | — | [Apply](<https://tradingcompetition.uchicago.edu/>) | ⚪ Unknown |
+| WiDS Datathon | WiDS Worldwide (Women in Data Science) | data_science | Data science students/enthusiasts (General track); advanced students (University Edition track) | — | [Apply](<https://www.widsworldwide.org/learn/datathon/>) | ⚪ Unknown |
+| Citadel Data Open | Correlation One | data_science | University students (undergrad/grad/PhD); not explicitly stated on the fetched page itself | — | [Apply](<https://www.correlation-one.com/data-science-talent-competitions>) | ⚪ Unknown |
+| ASA DataFest | American Statistical Association | data_science | Undergraduate students at participating US universities | — | [Apply](<https://ww2.amstat.org/education/datafest/>) | ⚪ Unknown |
+| Citadel Securities Terminal / AI Games | Correlation One | ai_ml | Not explicitly stated on the fetched page; open sign-up platform | — | [Apply](<https://terminal.c1games.com/>) | ⚪ Unknown |
+| JPMorgan Chase Code for Good Hackathon | JPMorgan Chase | swe | Students enrolled in a bachelor's degree program (or a JPMorganChase-sponsored program); sister "Data for Good" is for bachelor's/master's/PhD data science students | — | [Apply](<https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons>) | ⚪ Unknown |
+| CAS Student Central Mentor-Led Summer Program | Casualty Actuarial Society (CAS Student Central) | actuarial | University students interested in actuarial/P&C insurance careers, open globally (Asia/Pacific students directed to a separate regional program) | — | [Apply](<https://www.casstudentcentral.org/cassummerprogram/>) | ⚪ Unknown |
+| Berkeley Trading Competition | Traders at Berkeley (UC Berkeley) | quant | Any US-based undergraduate or graduate student | Nov 2026 | [Apply](<https://traders.studentorg.berkeley.edu/competition/>) | 🔒 Closed |
+| Optiver Ready Trader Go | Optiver | quant | University students in eligible countries incl. USA, UK, EU, Australia, NZ, Taiwan, Singapore, China | — | [Apply](<https://readytradergo.optiver.com/>) | 🔒 Closed |
+| IMC Prosperity | IMC Trading | quant | University STEM students worldwide preferred (anyone may participate to learn); 18+ and residency in EMEA/NA/SA/India/Australia/Hong Kong required for prize eligibility | — | [Apply](<https://prosperity.imc.com/>) | 🔒 Closed |
+| Cornell Trading Competition | Quant Fund at Cornell | quant | Undergraduate and master's students from universities in the US and Canada | — | [Apply](<https://cornellquantfund.org/competition>) | 🔒 Closed |
+| SOA Research Institute Student Research Case Study Challenge | Society of Actuaries (SOA Research Institute) | actuarial | Undergraduate/graduate student teams of 2-5; 2026 edition drew teams from 65 universities across 19 countries (not US-restricted) | — | [Apply](<https://www.soa.org/research/opportunities/2026-student-research-case-study-challenge/>) | 🔒 Closed |
+| AI Hardware Design League (AI-HDL) | University of Arizona (Center for Semiconductor Manufacturing) | hardware | Community college, undergraduate, or graduate students, open globally; teams of 3-5 at the same degree level | — | [Apply](<https://csm.arizona.edu/AIHDL>) | 🔒 Closed |
+| GenAI Chip Hackathon at DAC 2026 | ICLAD / DAC (Design Automation Conference) | hardware | Not explicitly limited to students; requires in-person DAC or "I LOVE DAC" registration to compete for prizes | — | [Apply](<https://iclad.ai/hackathon>) | 🔒 Closed |
 
