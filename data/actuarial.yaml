@@ -50,3 +50,19 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   date_estimated: true
+- id: cigna-actuarial-internship-summer-2027-826fee
+  company: Cigna
+  role: Actuarial Internship - Summer 2027
+  location: Bloomfield, CT
+  link: https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2027_26006087
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null

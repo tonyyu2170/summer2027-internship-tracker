@@ -16,7 +16,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -37,8 +37,9 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -61,7 +62,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -85,7 +86,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -107,7 +108,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -129,7 +130,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -149,7 +150,7 @@
   - github_tracker:zshah101
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -174,7 +175,7 @@
   - github_tracker:vanshb03
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -196,7 +197,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -214,7 +215,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -232,7 +233,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -249,8 +250,9 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -269,7 +271,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -286,8 +288,9 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-24'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -307,7 +310,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -325,7 +328,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -343,7 +346,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -364,7 +367,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -382,8 +385,9 @@
   - github_tracker
   - custom
   - github_tracker:northwesternfintech
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -401,8 +405,9 @@
   - github_tracker
   - custom
   - github_tracker:northwesternfintech
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -424,8 +429,9 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -447,7 +453,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -473,7 +479,7 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -491,7 +497,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -509,8 +515,9 @@
   - github_tracker
   - github_tracker:northwesternfintech
   - github_tracker:simplifyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -529,8 +536,9 @@
   - github_tracker:northwesternfintech
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -553,7 +561,7 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -572,7 +580,7 @@
   - custom
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -593,7 +601,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -613,7 +621,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -634,7 +642,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -655,7 +663,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -676,7 +684,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -697,7 +705,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -718,7 +726,7 @@
   - github_tracker:speedyapply
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -741,8 +749,9 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -762,7 +771,7 @@
   - github_tracker:sndsh404
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -782,7 +791,7 @@
   - github_tracker:sndsh404
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -802,7 +811,7 @@
   - github_tracker:sndsh404
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -823,7 +832,7 @@
   - github_tracker:vanshb03
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -845,7 +854,7 @@
   - github_tracker:chieler
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -867,7 +876,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -880,14 +889,14 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -904,8 +913,9 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -922,8 +932,9 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -942,7 +953,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -961,7 +972,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -979,7 +990,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -997,7 +1008,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -1015,7 +1026,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1033,7 +1044,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1051,7 +1062,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1069,7 +1080,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1087,7 +1098,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -1105,7 +1116,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -1123,7 +1134,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -1136,7 +1147,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
@@ -1144,7 +1155,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -1165,7 +1176,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -1185,8 +1196,9 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   - github_tracker:simplifyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1199,7 +1211,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zshah101
@@ -1210,7 +1222,7 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1228,7 +1240,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: susquehanna-quantitative-systematic-trading-intern-master-s-summer-2027-445736
@@ -1245,7 +1257,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: chicago-trading-company-quant-trading-intern-summer-2027-5f6b11
@@ -1264,8 +1276,11 @@
   - github_tracker:speedyapply
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:vanshb03
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: point72-quantitative-research-intern-summer-2027-dd1f66
@@ -1282,7 +1297,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: old-mission-software-engineer-intern-summer-2027-june-start-366d65
@@ -1299,7 +1314,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: akuna-capital-software-engineer-intern-summer-2027-python-c-full-stack-c-net-b4eac5
   company: Akuna Capital
@@ -1316,7 +1331,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: hudson-river-trading-software-engineering-intern-summer-2027-c-python-d0cfc2
   company: Hudson River Trading
@@ -1334,7 +1349,7 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: arrowstreet-capital-quantitative-researcher-intern-9ea7bf
   company: Arrowstreet Capital
@@ -1351,8 +1366,9 @@
   - github_tracker:sndsh404
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: arrowstreet-capital-quantitative-developer-intern-9501a6
@@ -1372,7 +1388,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: flow-traders-quantitative-trading-intern-b24124
@@ -1392,8 +1408,10 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: two-sigma-ai-research-scientist-intern-ms-phd-fefaa4
@@ -1412,7 +1430,7 @@
   - github_tracker:sndsh404
   - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: tower-research-capital-quantitative-trader-intern-04531f
@@ -1429,7 +1447,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: tower-research-capital-quantitative-developer-intern-56ddbf
@@ -1446,7 +1464,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: two-sigma-quantitative-researcher-intern-aecb8b
@@ -1463,7 +1481,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: imc-trading-software-engineer-intern-f62566
@@ -1485,7 +1503,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: imc-trading-quantitative-research-intern-bs-ms-6db1c0
   company: IMC Trading
@@ -1503,8 +1521,10 @@
   - github_tracker:sndsh404
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: imc-trading-machine-learning-research-intern-f75a99
@@ -1524,8 +1544,9 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: imc-trading-quantitative-trader-intern-4e8aed
@@ -1543,8 +1564,10 @@
   - github_tracker:sndsh404
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: virtu-financial-quant-research-intern-undergrad-1a1aed
@@ -1562,8 +1585,11 @@
   - github_tracker:sndsh404
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:northwesternfintech
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: voloridge-investment-management-quantitative-developer-intern-8db21e
@@ -1582,7 +1608,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: voloridge-investment-management-quantitative-research-intern-d48e0c
@@ -1600,8 +1626,10 @@
   - github_tracker:sndsh404
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: d-e-shaw-software-developer-intern-316e69
@@ -1621,7 +1649,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: d-e-shaw-quantitative-analyst-intern-ada12f
@@ -1639,7 +1667,7 @@
   - github_tracker:sndsh404
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: d-e-shaw-quantitative-analyst-intern-phd-2e1ba1
   company: D. E. Shaw
@@ -1656,7 +1684,7 @@
   - github_tracker:sndsh404
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: d-e-shaw-systems-engineering-intern-c87bc6
   company: D. E. Shaw
@@ -1673,7 +1701,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: citi-markets-quantitative-analysis-summer-analyst-b2b638
@@ -1690,7 +1718,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: susquehanna-macro-analyst-intern-9d7c70
@@ -1707,7 +1735,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: susquehanna-quantitative-strategy-developer-intern-3006c7
@@ -1725,7 +1753,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -1744,7 +1772,7 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: cubist-systematic-strategies-quantitative-developer-intern-f53f1c
   company: Cubist Systematic Strategies
@@ -1760,7 +1788,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -1781,7 +1809,7 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: jump-trading-campus-ui-software-engineer-intern-76b32d
   company: Jump Trading
@@ -1800,7 +1828,7 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: optiver-software-engineer-intern-summer-2027-chicago-3812f2
   company: Optiver
@@ -1817,7 +1845,7 @@
   - github_tracker:speedyapply
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: optiver-software-engineer-intern-summer-2027-austin-8bb1fa
   company: Optiver
@@ -1835,7 +1863,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: d-e-shaw-co-quantitative-analyst-and-software-developer-intern-summer-2027-12b44b
   company: D. E. Shaw & Co.
@@ -1851,7 +1879,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: d-e-shaw-co-software-developer-intern-new-york-summer-2027-2cdc30
@@ -1868,7 +1896,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: d-e-shaw-co-software-developer-ph-d-intern-new-york-summer-2027-e83404
@@ -1885,7 +1913,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: virtu-financial-internship-software-engineer-99c39c
@@ -1906,8 +1934,9 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: chicago-trading-company-software-engineering-internship-summer-2027-031e06
   company: Chicago Trading Company
@@ -1926,8 +1955,9 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: drw-software-developer-intern-3fbdee
   company: DRW
@@ -1944,7 +1974,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: tower-research-capital-quantitative-developer-intern-summer-2027-3556aa
@@ -1965,7 +1995,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: stevens-capital-management-developer-internship-6c78cb
@@ -1983,7 +2013,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: citadel-machine-learning-researcher-phd-intern-us-6b1743
@@ -2014,8 +2044,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: citadel-quantitative-research-engineer-phd-intern-us-f00ebe
@@ -2032,7 +2063,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: citadel-quantitative-research-analyst-intern-us-cee269
@@ -2083,7 +2114,7 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: jump-trading-campus-quantitative-researcher-phd-intern-a0b344
@@ -2119,7 +2150,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: optiver-quantitative-research-intern-phd-summer-2027-c35d0f
@@ -2137,8 +2168,9 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: optiver-quantitative-intern-summer-2027-620b2f
@@ -2156,8 +2188,9 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: d-e-shaw-co-quantitative-analyst-intern-new-york-summer-2027-adb63a
   company: D. E. Shaw & Co.
@@ -2224,8 +2257,10 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -2244,8 +2279,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:vanshb03
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: drw-quantitative-research-intern-3ef50f
@@ -2262,7 +2300,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: drw-quantitative-trading-analyst-intern-968162
@@ -2298,8 +2336,9 @@
   - github_tracker:speedyapply
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: tower-research-capital-quantitative-trader-intern-phd-9e55c4
@@ -2314,8 +2353,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
 - id: stevens-capital-management-quantitative-research-analyst-internship-29a025
@@ -2331,8 +2371,9 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: cme-group-quant-risk-management-intern-year-round-b0121a
@@ -2364,7 +2405,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: jump-trading-campus-systems-engineer-intern-5098e3
@@ -2383,7 +2424,7 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: tower-research-quantitative-developer-intern-d2babf
   company: Tower Research
@@ -2400,7 +2441,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: susquehanna-investment-group-quantitative-strategy-developer-intern-a33568
@@ -2418,7 +2459,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: voloridge-investment-management-quantitative-developer-intern-9d8be0
@@ -2436,7 +2477,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-28'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: aquatic-capital-software-engineer-intern-efdc36
@@ -2453,7 +2494,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: point72-investment-analyst-intern-point72-academy-67aede
   company: Point72
@@ -2469,7 +2510,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: point72-quantitative-researcher-intern-a97c77
   company: Point72
@@ -2485,7 +2526,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
 - id: point72-quantitative-developer-intern-251025
@@ -2502,7 +2543,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: d-e-shaw-software-developer-ph-d-intern-new-15cbfa
@@ -2519,7 +2560,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -2537,7 +2578,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -2557,7 +2598,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -2575,7 +2616,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -2592,8 +2633,9 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -2611,7 +2653,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -2630,8 +2672,9 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -2644,14 +2687,14 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zshah101
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: drw-leadership-rotation-network-intern-2a08da
@@ -2768,7 +2811,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -2786,7 +2829,7 @@
   - custom
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -2806,7 +2849,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -2824,7 +2867,7 @@
   - custom
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -2843,7 +2886,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -2862,7 +2905,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -2880,7 +2923,7 @@
   - custom
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -2915,7 +2958,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -2934,7 +2977,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -3069,8 +3112,9 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: castleton-commodities-international-full-stack-software-engineer-intern-32c980
   company: Castleton Commodities International
@@ -3086,8 +3130,9 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: transmarketgroup-devops-sre-engineer-2d6488
   company: TransMarketGroup
@@ -3121,7 +3166,7 @@
   - github_tracker:sndsh404
   - github_tracker:zshah101
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   track: Development
 - id: anthelion-capital-quant-developer-quant-research-intern-fec8d9
@@ -3139,7 +3184,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: aqr-capital-management-trading-analyst-intern-5c5e4e
   company: AQR Capital Management
@@ -3154,8 +3199,9 @@
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: castleton-commodities-international-commodities-trading-analyst-internship-7e8da1
   company: Castleton Commodities International
@@ -3170,8 +3216,9 @@
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: jump-trading-campus-quantitative-researcher-intern-phd-c37c46
   company: Jump Trading
@@ -3186,8 +3233,9 @@
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-strategy-developer-intern-7f0927
   company: Susquehanna International Group (SIG)
@@ -3203,7 +3251,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-trader-intern-bf294e
   company: Susquehanna International Group (SIG)
@@ -3219,7 +3267,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-trader-intern-c566b8
   company: Susquehanna International Group (SIG)
@@ -3235,7 +3283,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-8e39ca
   company: Susquehanna International Group (SIG)
@@ -3251,7 +3299,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-research-intern-37871c
   company: Susquehanna International Group (SIG)
@@ -3267,7 +3315,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: walleye-capital-phd-quantitative-researcher-intern-95c07c
   company: Walleye Capital
@@ -3283,7 +3331,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: walleye-capital-central-equity-quant-research-intern-ceqr-7f2914
   company: Walleye Capital
@@ -3294,12 +3342,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: transmarket-group-quantitative-trader-intern-1fa194
   company: TransMarket Group
@@ -3315,7 +3363,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: infinitequant-quantitative-researcher-intern-ddf806
   company: InfiniteQuant
@@ -3330,8 +3378,9 @@
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-strategy-developer-intern-5fe1a0
   company: Susquehanna International Group (SIG)
@@ -3347,7 +3396,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-trading-system-engineering-intern-3ce7b9
   company: Susquehanna International Group (SIG)
@@ -3363,7 +3412,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-179bab
   company: Susquehanna International Group (SIG)
@@ -3379,7 +3428,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-research-intern-phd-summer-2027-d69598
   company: Susquehanna International Group (SIG)
@@ -3395,7 +3444,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-master-s-summer-2027-11105c
   company: Susquehanna International Group (SIG)
@@ -3411,7 +3460,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-trader-intern-a2cd93
   company: Susquehanna International Group (SIG)
@@ -3427,7 +3476,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: barclays-markets-quantitative-analyst-summer-internship-2027-new-york-f8f3ff
   company: Barclays
@@ -3458,7 +3507,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: akuna-capital-quantitative-research-intern-a0185e
@@ -3474,7 +3523,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: akuna-capital-quantitative-development-strategy-intern-758a36
@@ -3490,7 +3539,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: anthelion-capital-quant-developer-quant-research-intern-2026-2027-7cd240
@@ -3502,12 +3551,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zshah101
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-research-intern-ee2bfa
   company: Susquehanna International Group (SIG)
@@ -3522,7 +3572,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: prudential-financial-private-credit-investment-analyst-program-0f2464
   company: Prudential Financial
@@ -3537,8 +3587,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: pgim-private-credit-investment-analyst-program-673a87
   company: PGIM
@@ -3555,7 +3606,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: pgim-real-estate-equity-investment-analyst-program-e2255d
   company: PGIM
@@ -3566,12 +3617,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: prudential-financial-real-estate-equity-investment-analyst-program-f1c84e
   company: Prudential Financial
@@ -3582,12 +3633,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: trillium-equity-trader-intern-141d7a
   company: Trillium
@@ -3603,8 +3654,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: trillium-equity-trader-intern-c03440
   company: Trillium
@@ -3621,7 +3673,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: trillium-equity-trader-intern-d109f0
   company: Trillium
@@ -3637,7 +3689,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: trillium-equity-trader-intern-141d7a
 - id: northwestern-mutual-investment-analyst-intern-private-debt-equity-aa547c
   company: Northwestern Mutual
@@ -3652,8 +3704,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: cubist-systematic-strategies-quantitative-developer-intern-f01b19
   company: Cubist Systematic Strategies
@@ -3668,5 +3721,368 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: cubist-systematic-strategies-quantitative-developer-intern-f53f1c
+- id: voloridge-quantitative-developer-intern-97ec1d
+  company: Voloridge
+  role: Quantitative Developer Intern
+  location: Jupiter, FL
+  link: https://www.voloridge.com/jobs/voloridgeinvestmentmanagement/4224862009
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:northwesternfintech
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: voloridge-quantitative-researcher-intern-c7030e
+  company: Voloridge
+  role: Quantitative Researcher Intern
+  location: Jupiter, FL
+  link: https://www.voloridge.com/jobs/voloridgeinvestmentmanagement/4226247009
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:northwesternfintech
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-phd-85e7be
+  company: Susquehanna International Group (SIG)
+  role: Quantitative Systematic Trading Intern - PhD
+  location: Philadelphia, PA
+  link: https://careers-sig.icims.com/jobs/10822/job?mobile=true&needsRedirect=false
+  date_posted: '2026-06-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: susquehanna-international-group-sig-quantitative-research-intern-decb9c
+  company: Susquehanna International Group (SIG)
+  role: Quantitative Research Intern
+  location: Philadelphia, PA
+  link: https://careers-sig.icims.com/jobs/10820/job?mobile=true&needsRedirect=false
+  date_posted: '2026-06-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: susquehanna-international-group-sig-quantitative-research-intern-37871c
+- id: university-of-virginia-investment-management-company-uvimco-investment-analyst-intern-5ae99f
+  company: University of Virginia Investment Management Company (UVIMCO)
+  role: Investment Analyst Intern
+  location: Charlottesville, VA
+  link: https://job-boards.greenhouse.io/uvimco/jobs/5300713008
+  date_posted: '2026-07-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: two-sigma-quantitative-researcher-intern-caffe0
+  company: Two Sigma
+  role: Quantitative Researcher Intern
+  location: New York, NY
+  link: https://twosigma.avature.net/careers/JobDetail/13945
+  date_posted: '2026-08-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: two-sigma-quantitative-researcher-intern-aecb8b
+- id: jp-morgan-chase-quantitative-research-intern-markets-analyst-cd1a33
+  company: JP Morgan Chase
+  role: Quantitative Research Intern - Markets - Analyst
+  location: New York, NY
+  link: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: jp-morgan-chase-quantitative-research-intern-risk-and-treasury-2929b0
+  company: JP Morgan Chase
+  role: Quantitative Research Intern - Risk and Treasury
+  location: Plano, TX
+  link: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773978
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: jp-morgan-chase-quantitative-research-summer-analyst-intern-asset-management-db6522
+  company: JP Morgan Chase
+  role: Quantitative Research Summer Analyst Intern - Asset Management
+  location: New York, NY
+  link: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: jp-morgan-chase-quantitative-research-intern-ee3632
+  company: JP Morgan Chase
+  role: Quantitative Research Intern
+  location: New York, NY
+  link: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774061
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: chicago-trading-company-quantitative-trading-intern-3dea32
+  company: Chicago Trading Company
+  role: Quantitative Trading Intern
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716930005
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:vanshb03
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: dv-trading-quantitative-risk-intern-662de8
+  company: DV Trading
+  role: Quantitative Risk Intern
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/dvtrading/jobs/4719118005
+  date_posted: '2026-08-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:vanshb03
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: maven-securities-trader-intern-summer-b9889f
+  company: Maven Securities
+  role: Trader Intern - Summer
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8051937
+  date_posted: '2026-08-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: maven-securities-trader-intern-78ceed
+  company: Maven Securities
+  role: Trader Intern
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/emergingtalent/jobs/8051938
+  date_posted: '2026-08-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: optiver-quantitative-intern-summer-2027-b013b6
+  company: Optiver
+  role: Quantitative Intern - Summer 2027
+  location: Austin, TX
+  link: https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002
+  date_posted: '2026-08-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: belvedere-trading-quantitative-trading-intern-summer-2027-1c32eb
+  company: Belvedere Trading
+  role: Quantitative Trading Intern - Summer 2027
+  location: Chicago, IL
+  link: https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab/apply
+  date_posted: '2026-08-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: royal-bank-of-canada-global-markets-quantitative-trading-summer-analyst-capital-markets-ea81dd
+  company: Royal Bank of Canada
+  role: Global Markets Quantitative Trading Summer Analyst - Capital Markets
+  location: New York, NY
+  link: https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/New-York-New-York-United-States-of-America/XMLNAME-2027-Capital-Markets--Global-Markets-Quantitative-Trading-Summer-Analyst_R-0000183468
+  date_posted: '2026-08-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: royal-bank-of-canada-global-markets-sales-trading-summer-analyst-capital-markets-030e8b
+  company: Royal Bank of Canada
+  role: Global Markets Sales & Trading Summer Analyst - Capital Markets
+  location: New York, NY
+  link: https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/New-York-New-York-United-States-of-America/XMLNAME-2027-Capital-Markets--Global-Markets-Sales---Trading-Summer-Analyst_R-0000147305-2
+  date_posted: '2026-08-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: susquehanna-international-group-quantitative-strategy-developer-internship-summer-2027-fe465d
+  company: Susquehanna International Group
+  role: 'Quantitative Strategy Developer Internship: Summer 2027'
+  location: Bala Cynwyd, PA
+  link: https://careers-sig.icims.com/jobs/10838/quantitative-strategy-developer-internship%3a-summer-2027/job
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: drw-quantitative-trading-analyst-intern-64db71
+  company: DRW
+  role: Quantitative Trading Analyst Intern
+  location: Chicago, IL
+  link: https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090
+  date_posted: '2026-07-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:vanshb03
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: drw-quantitative-trading-analyst-intern-968162
+- id: belvedere-trading-quantitative-trading-intern-summer-10f129
+  company: Belvedere Trading
+  role: Quantitative Trading Intern - Summer ...
+  location: Chicago, IL
+  link: https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null

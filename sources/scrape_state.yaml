@@ -1,71 +1,121 @@
+_last_fetch:
+  drops:
+    github_tracker:chieler:
+      category_drop: 1
+      unclassified: 186
+    github_tracker:simplifyjobs:
+      category_drop: 21
+      closed_marker_untracked: 195
+    github_tracker:sndsh404:
+      category_drop: 2
+      unclassified: 19
+    github_tracker:speedyapply:
+      unclassified: 1
+    github_tracker:suryaharikrishnan:
+      category_drop: 21
+      closed_marker_untracked: 168
+    github_tracker:vanshb03:
+      closed_marker_untracked: 28
+      unclassified: 7
+    github_tracker:zapplyjobs:
+      unclassified: 172
+    github_tracker:zshah101:
+      closed_marker_untracked: 19
+      unclassified: 1
+_last_program_check:
+  closed: 26
+  fetch_failed: 4
+  open: 7
+  ran_at: 2026-08-08 12:03
+  transitioned: []
+  unknown: 21
+  upcoming: 1
+_last_run:
+  new: 303
+  closed: 10
+  ran_at: 2026-08-08 12:09
+  drops:
+    github_tracker:chieler:
+      unclassified: 186
+      category_drop: 1
+      missing_field: 667
+    github_tracker:simplifyjobs:
+      closed_marker_untracked: 195
+      category_drop: 21
+      missing_field: 27
+    github_tracker:sndsh404:
+      unclassified: 19
+      category_drop: 2
+      missing_field: 1
+    github_tracker:speedyapply:
+      unclassified: 1
+      missing_field: 7
+    github_tracker:suryaharikrishnan:
+      category_drop: 21
+      closed_marker_untracked: 168
+      missing_field: 24
+    github_tracker:vanshb03:
+      closed_marker_untracked: 28
+      unclassified: 7
+      missing_field: 8
+    github_tracker:zapplyjobs:
+      unclassified: 172
+      missing_field: 74
+    github_tracker:zshah101:
+      closed_marker_untracked: 19
+      unclassified: 1
+      missing_field: 18
 chieler:
   path: README.md
-  row_count: 468
-  scraped_at: '2026-07-25'
-  sha: c28543adab915d31e8bab220ffe6790251b74531
+  row_count: 1061
+  scraped_at: '2026-08-08'
+  sha: c5488b838e1fe2b98bebf509d953d03004e88fe3
+company_sources:
+  company:genworth:
+    last_success: '2026-07-29'
+    provider: workday_cxs
+    row_count: 1
+  company:marsh-oliver-wyman:
+    last_success: '2026-07-29'
+    provider: phenom_job_page
+    row_count: 1
 northwesternfintech:
   path: data
-  row_count: 62
-  scraped_at: '2026-07-25'
-  sha: 6c2ca00e866dfcff2741f45c554634603df0c546
+  row_count: 66
+  scraped_at: '2026-08-08'
+  sha: e893de31b7cda543bb63f8b45c8f36766e4c9861
 simplifyjobs:
   path: .github/scripts/listings.json
-  row_count: 327
-  scraped_at: '2026-07-25'
-  sha: 14643ef5dee79ca70b5dab71f8a925f3761b5566
+  row_count: 529
+  scraped_at: '2026-08-08'
+  sha: a915cbdf83c3aeea62e60bcf3579abc6c5a1570e
 sndsh404:
   path: README.md
-  row_count: 114
-  scraped_at: '2026-07-25'
-  sha: 6fbabfbe642fb98da4d99ac486cebed0891180f1
+  row_count: 112
+  scraped_at: '2026-08-08'
+  sha: f2d77c85c3f847c0b9ca221e21a8fbd1c10e7599
 speedyapply:
   path: README.md
-  row_count: 116
-  scraped_at: '2026-07-25'
-  sha: e1f6a1dcaa896009ef2156239c0f67a062240932
+  row_count: 176
+  scraped_at: '2026-08-08'
+  sha: 8de8874b0be1b2ef5dad88cd835fb1c9b64ef619
 suryaharikrishnan:
   path: data/listings.json
-  row_count: 293
-  scraped_at: '2026-07-25'
-  sha: 0f38b0a2cc9a3b70c99af3c98684b34818f7cbb9
+  row_count: 457
+  scraped_at: '2026-08-08'
+  sha: 4bc238e416db1ac21e11601752c3cc6d0b95091f
 vanshb03:
   path: .github/scripts/listings.json
-  row_count: 134
-  scraped_at: '2026-07-25'
-  sha: 3b6ec4a7aa7660b2ee5ca7db7670fb584c8de6d3
+  row_count: 224
+  scraped_at: '2026-08-08'
+  sha: 92f1c9b017012c95653d344d8a3169abdf2f7203
 zapplyjobs:
   path: README.md
-  row_count: 463
-  scraped_at: '2026-07-25'
-  sha: 8bf0968d19ab928ec86d44b5fd6034f2b85d9278
+  row_count: 438
+  scraped_at: '2026-08-08'
+  sha: a574d5b6e3402e9f0525bfc9f4c39637c2977b0e
 zshah101:
   path: data/jobs.json
-  row_count: 106
-  scraped_at: '2026-07-25'
-  sha: 1eebb667a4cff9fbfb05e10835378e465c77109b
-company_sources:
-  company:marsh-oliver-wyman:
-    provider: phenom_job_page
-    last_success: '2026-07-29'
-    row_count: 1
-  company:genworth:
-    provider: workday_cxs
-    last_success: '2026-07-29'
-    row_count: 1
-_last_run:
-  new: 0
-  closed: 0
-  ran_at: 2026-07-29 10:06
-  drops:
-    company:genworth:
-      term_unmatched: 1
-    company:the-hartford:
-      manual_discovery: 1
-_last_program_check:
-  ran_at: 2026-08-08 12:03
-  open: 7
-  upcoming: 1
-  closed: 26
-  unknown: 21
-  fetch_failed: 4
-  transitioned: []
+  row_count: 88
+  scraped_at: '2026-08-08'
+  sha: e6ca7709e312f4387b865e4aca5eb350f6619e06

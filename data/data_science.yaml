@@ -14,7 +14,7 @@
   - link_checker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: meta-research-scientist-intern-nmr-analysis-automation-7506d4
   company: Meta
@@ -45,7 +45,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: decisions-data-analyst-intern-c93eb7
   company: Decisions
@@ -170,8 +170,9 @@
   sources:
   - github_tracker
   - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: medecins-sans-frontieres-doctors-without-borders-united-states-data-science-intern-92ccf2
   company: Medecins Sans Frontieres (Doctors Without Borders) - United States
@@ -187,7 +188,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: magnera-corporation-it-data-analyst-intern-41a8c3
   company: Magnera Corporation
@@ -249,7 +250,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: bank-of-china-limited-new-york-branch-internal-audit-department-data-analytics-audit-intern-f76a97
   company: Bank of China Limited, New York Branch
@@ -282,7 +283,7 @@
   - link_checker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: tiktok-data-scientist-project-intern-tiktok-f1a3d0
   company: TikTok
@@ -315,7 +316,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: equifax-data-analytics-intern-6be1cd
   company: Equifax
@@ -331,7 +332,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: ardian-data-scientist-intern-a125af
@@ -348,7 +349,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: nrel-graduate-year-round-intern-geospat-4b701b
@@ -382,7 +383,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: rivian-and-volkswagen-group-technologies-data-engineering-intern-ai-analyt-0a725d
@@ -417,7 +418,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: faire-data-science-intern-307131
@@ -434,7 +435,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: docugami-data-science-phd-intern-5f8265
@@ -451,7 +452,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: hirevue-data-science-intern-fully-remote-us-9edf01
@@ -486,7 +487,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: primetals-technologies-data-science-internship-governance-f0ec0b
   company: Primetals Technologies
@@ -576,8 +577,10 @@
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: alixpartners-data-scientist-intern-124339
   company: AlixPartners
@@ -594,7 +597,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: wells-fargo-corporate-risk-development-program-intern-core-risk-early-careers-175e8a
   company: Wells Fargo
@@ -605,12 +608,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-electricity-natural-gas-analyst-intern-fa588e
   company: Susquehanna International Group (SIG)
@@ -626,7 +629,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: marmon-holdings-data-engineering-intern-co-op-255c42
   company: Marmon Holdings
@@ -642,7 +645,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: marmon-holdings-data-engineering-intern-co-op-9401f4
   company: Marmon Holdings
@@ -659,7 +662,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: red-bull-2026-internship-fall-data-science-1d597d
   company: Red Bull
@@ -673,8 +676,9 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-07-25'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
 - id: national-interstate-insurance-catastrophe-modeling-data-analytics-29b939
@@ -741,3 +745,325 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
+- id: capital-one-master-s-data-science-internship-e70bb2
+  company: Capital One
+  role: Master's Data Science Internship
+  location: Cambridge, MA
+  link: https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Current-Master-s---Data-Science-Internship---Summer-2027_R244285-1
+  date_posted: '2026-07-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: capital-one-data-science-intern-38cd3e
+  company: Capital One
+  role: Data Science Intern
+  location: Cambridge, MA
+  link: https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Current-PhD---Data-Science-Internship---Summer-2027_R244287-1
+  date_posted: '2026-07-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: american-express-campus-undergraduate-summer-internship-strategy-analytics-credit-fraud-risk-497517
+  company: American Express
+  role: Campus Undergraduate Summer Internship - Strategy & Analytics - Credit & Fraud
+    Risk
+  location: New York, NY
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011984
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: american-express-undergraduate-intern-strategy-analytics-092d7e
+  company: American Express
+  role: Undergraduate Intern - Strategy & Analytics
+  location: Phoenix, AZ
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011990
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: the-boeing-company-data-analytics-intern-2b55f7
+  company: The Boeing Company
+  role: Data Analytics Intern
+  location: Ridley Park, PA
+  link: https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: the-boeing-company-data-analytics-intern-65d1fd
+  company: The Boeing Company
+  role: Data Analytics Intern
+  location: Ridley Park, PA
+  link: https://boeing.wd1.myworkdayjobs.com/INTERN/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: the-boeing-company-data-analytics-intern-2b55f7
+- id: uline-financial-data-analyst-intern-a601f2
+  company: Uline
+  role: Financial Data Analyst Intern
+  location: Waukegan, IL
+  link: https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Financial-Data-Analyst-Internship---Summer-2027_R265665
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: tiktok-data-science-intern-integrity-and-safety-9cc0c4
+  company: TikTok
+  role: Data Science Intern - Integrity and Safety
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7669682935444900149
+  date_posted: '2026-08-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: tiktok-data-science-intern-tiktok-live-b6f743
+  company: TikTok
+  role: Data Science Intern - TikTok Live
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7669700822370945333
+  date_posted: '2026-08-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: tiktok-data-science-intern-tiktok-product-437403
+  company: TikTok
+  role: Data Science Intern - TikTok Product
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7669683639101884725
+  date_posted: '2026-08-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: tiktok-data-scientist-intern-vod-data-563d2d
+  company: TikTok
+  role: Data Scientist Intern - VOD Data
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7670287013157095733
+  date_posted: '2026-08-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: the-nuclear-company-data-science-intern-ede193
+  company: The Nuclear Company
+  role: Data Science Intern
+  location: Washington, DC
+  link: https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383244008
+  date_posted: '2026-08-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: solar-turbines-caterpillar-gas-compressor-data-analyst-intern-a3efd6
+  company: Solar Turbines (Caterpillar)
+  role: Gas Compressor Data Analyst Intern
+  location: San Diego, CA
+  link: https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:sndsh404
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: microsoft-software-engineer-data-platform-analytics-intern-opportunities-for-university-students-redmond-ef32c1
+  company: Microsoft
+  role: 'Software Engineer: Data Platform/Analytics Intern Opportunities for University
+    Students - Redmond'
+  location: Washington, DC
+  link: https://apply.careers.microsoft.com/careers/job/1970393556922931
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: microsoft-software-engineer-intern-data-platform-analytics-b1ffd2
+  company: Microsoft
+  role: Software Engineer Intern, Data Platform/Analytics
+  location: Redmond, WA
+  link: https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922931
+  date_posted: '2026-08-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:vanshb03
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: boeing-data-analytics-intern-bdaa98
+  company: Boeing
+  role: Data Analytics Intern
+  location: Everett, WA
+  link: https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/details/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1?q=JR2026520976
+  date_posted: '2026-08-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:vanshb03
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: cloudflare-marketing-programs-and-analytics-inte-a85654
+  company: Cloudflare
+  role: Marketing Programs and Analytics Inte...
+  location: Austin, TX
+  link: https://boards.greenhouse.io/cloudflare/jobs/8104138?gh_jid=8104138
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: uline-financial-data-analyst-internship-s-a58b80
+  company: Uline
+  role: Financial Data Analyst Internship - S...
+  location: Pleasant Prairie, WI
+  link: https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Financial-Data-Analyst-Internship---Summer-2027_R265665
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
+- id: warner-bros-discovery-research-analytics-strategy-intern-6d6388
+  company: Warner Bros. Discovery
+  role: Research, Analytics & Strategy Intern...
+  location: New York, NY
+  link: https://warnerbros.wd5.myworkdayjobs.com/global/job/NY-New-York-30-Hudson-Yards/Research--Analytics---Strategy-Internships--NYC---Fall-2026_R000107153
+  date_posted: '2026-08-08'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-08'
+  last_verified: '2026-08-08'
+  possible_duplicate_of: null
