@@ -3292,38 +3292,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: astreya-ai-infrastructure-dc-design-intern-0f2834
-  company: Astreya
-  role: AI Infrastructure DC Design Intern
-  location: Remote (US)
-  link: https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0015746
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
-- id: astreya-ai-infrastructure-dc-design-intern-f379de
-  company: Astreya
-  role: AI Infrastructure DC Design Intern
-  location: Remote (US)
-  link: https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0015747
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: bytedance-ai-perception-intern-pico-2027-st-388135
   company: ByteDance
   role: AI Perception Intern (PICO) - 2027 St...

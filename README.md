@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-08 12:57 — 946 open roles. Last scrape: +35 new, 0 closed._
+_Last updated: 2026-08-08 13:01 — 943 open roles. Last scrape: +35 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories.
 
@@ -178,7 +178,6 @@ US-based Summer 2027 internships across six role categories.
 | Uline | Software Development Intern | Waukegan, IL | [Apply](<https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Software-Development-Internship---Summer-2027_R265684>) | 2026-08-03 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
 | Capital One | Software Engineer Intern | McLean, VA | [Apply](<https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Technology-Internship-Program---Summer-2027_R244387-1>) | 2026-08-03 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
 | HPR (Hyannis Port Research) | Software Engineer Intern | Needham, MA | [Apply](<https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003>) | 2026-08-01 | Summer 2027 | BS/MS | 2026-08-08 | 🟢 Open |
-| Medtronic | Software Engineer Intern | Boston, MA | [Apply](<https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630>) | 2026-08-01 | Summer 2027 | BS/MS | 2026-08-08 | 🟢 Open |
 | Heliux | Software Engineer Intern | San Francisco, CA | [Apply](<https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef/application?embed=true>) | 2026-07-31 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
 | Melius | Software Engineer Intern | New York, NY | [Apply](<https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280/application?embed=true>) | 2026-07-31 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
 | Genworth Financial | IT Development Program Intern - IT Development Program | Richmond, VA | [Apply](<https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Genworth-IT-Development-Program-Intern---Summer-2027_REQ-260269-1>) | 2026-07-31 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
@@ -729,8 +728,6 @@ US-based Summer 2027 internships across six role categories.
 | PlusAI | Machine Learning Engineer Intern - Sc... | Santa Clara, CA | [Apply](<https://jobs.lever.co/plus-2/b4f750e7-0148-41f0-b2b1-ff054450a320>) | ~2026-08-08 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
 | ByteDance | Machine Learning Research Scientist I... | Seattle, WA | [Apply](<https://joinbytedance.com/search/7670855041951795509>) | ~2026-08-08 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
 | PlusAI | Deep Learning Research Intern — Multi... | Santa Clara, CA | [Apply](<https://jobs.lever.co/plus-2/2ee24f85-bfa1-47fc-bfe3-fd07521a7b62>) | ~2026-08-08 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
-| Astreya | AI Infrastructure DC Design Intern | Remote (US) | [Apply](<https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0015746>) | ~2026-08-08 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
-| Astreya | AI Infrastructure DC Design Intern | Remote (US) | [Apply](<https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0015747>) | ~2026-08-08 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
 | ByteDance | AI Perception Intern (PICO) - 2027 St... | San Jose, CA | [Apply](<https://joinbytedance.com/search/7665457718334425349>) | ~2026-08-08 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
 | Cloudflare | U.S. Public Policy and AI Innovation ... | Washington, DC | [Apply](<https://boards.greenhouse.io/cloudflare/jobs/8105728?gh_jid=8105728>) | ~2026-08-08 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |
 | ByteDance | Research Intern (SDN Traffic Intellig... | San Jose, CA | [Apply](<https://joinbytedance.com/search/7668118098724079877>) | ~2026-08-08 | Summer 2027 | BS | 2026-08-08 | 🟢 Open |

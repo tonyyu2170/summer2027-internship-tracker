@@ -3162,8 +3162,7 @@
   date_estimated: true
 - id: tiktok-software-engineer-intern-quality-and-efficiency-technology-2026-summer-bs-ms-db655f
   company: TikTok
-  role: Software Engineer Intern - Quality and Efficiency Technology - 2026 Summer
-    - BS/MS
+  role: Software Engineer Intern - Quality and Efficiency Technology - 2026 Summer - BS/MS
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7637047421538404613
   date_posted: '2026-07-25'
@@ -3179,8 +3178,7 @@
   date_estimated: true
 - id: tiktok-software-engineer-project-intern-recommendation-infrastructure-tiktok-video-social-2026-start-bs-ms-3822d5
   company: TikTok
-  role: Software Engineer Project Intern - Recommendation Infrastructure - TikTok
-    Video Social - 2026 Start - BS/MS
+  role: Software Engineer Project Intern - Recommendation Infrastructure - TikTok Video Social - 2026 Start - BS/MS
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7629500062003218741
   date_posted: '2026-07-25'
@@ -3823,24 +3821,6 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   - github_tracker:zshah101
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
-- id: medtronic-software-engineer-intern-9b325b
-  company: Medtronic
-  role: Software Engineer Intern
-  location: Boston, MA
-  link: https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630
-  date_posted: '2026-08-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
@@ -4843,8 +4823,7 @@
   possible_duplicate_of: null
 - id: bytedance-gpu-ai-application-system-software-engineer-intern-system-technologies-and-engineering-623b63
   company: ByteDance
-  role: GPU/AI Application System Software Engineer Intern - System Technologies and
-    Engineering
+  role: GPU/AI Application System Software Engineer Intern - System Technologies and Engineering
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7668464504736876853/detail
   date_posted: '2026-08-06'
@@ -5180,8 +5159,7 @@
   possible_duplicate_of: null
 - id: microsoft-software-engineer-fullstack-product-web-services-intern-opportunities-for-university-students-a605d9
   company: Microsoft
-  role: 'Software Engineer: Fullstack Product - Web + Services Intern Opportunities
-    for University Students'
+  role: 'Software Engineer: Fullstack Product - Web + Services Intern Opportunities for University Students'
   location: Washington, DC
   link: https://apply.careers.microsoft.com/careers/job/1970393556922922
   date_posted: '2026-08-08'
@@ -5197,8 +5175,7 @@
   possible_duplicate_of: null
 - id: microsoft-software-engineer-security-identity-intern-opportunities-for-university-students-redmond-9833be
   company: Microsoft
-  role: 'Software Engineer: Security & Identity Intern Opportunities for University
-    Students - Redmond'
+  role: 'Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond'
   location: Washington, DC
   link: https://apply.careers.microsoft.com/careers/job/1970393556922930
   date_posted: '2026-08-08'
@@ -5214,8 +5191,7 @@
   possible_duplicate_of: null
 - id: microsoft-software-engineer-cloud-distributed-backend-intern-opportunities-for-university-students-redmond-3cba0f
   company: Microsoft
-  role: 'Software Engineer: Cloud & Distributed Backend Intern Opportunities for University
-    Students - Redmond'
+  role: 'Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students - Redmond'
   location: Washington, DC
   link: https://apply.careers.microsoft.com/careers/job/1970393556922923
   date_posted: '2026-08-08'
