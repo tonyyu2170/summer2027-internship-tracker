@@ -204,3 +204,25 @@ auto-close on.
    "scrape: update roles as of <date>"`. Run `git status --short` first to
    confirm nothing unexpected is staged.
 6. **Pushing is Tony's action alone.** The assistant never runs `git push`.
+
+## ATS verification pass (authoritative location/date)
+
+Manual, explicit-request-only re-verification of open rows whose links sit
+on an API-covered ATS (Workday CXS, Greenhouse boards-api, Lever v0
+postings, Ashby posting-api, SmartRecruiters postings API, iCIMS JSON-LD).
+Design: `docs/superpowers/specs/2026-08-08-ats-verification-design.md`.
+
+1. `python3 scripts/check_ats.py [category ...]` — probes the APIs and
+   writes `scratch/ats_corrections.json` (the audit record of every
+   proposed change). Writes nothing else.
+2. Review the printed summary — every proposed close and non-US delete is
+   listed individually.
+3. `python3 scripts/apply_ats_corrections.py scratch/ats_corrections.json`
+   — the single serialized writer: applies corrections, stamps
+   `last_verified`, rewrites `data/*.yaml`, re-renders `README.md`. Aborts
+   without writing if any corrected row fails ROW_SCHEMA.
+4. `python3 scripts/check_integrity.py`, then commit.
+
+Never run concurrently with `run_scrape_merge.py` (single-writer
+discipline). `unknown` results change nothing — no disappearance-based
+closing.

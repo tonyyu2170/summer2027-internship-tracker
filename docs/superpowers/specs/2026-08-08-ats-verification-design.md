@@ -1,7 +1,7 @@
 # ATS-API verification pass + README column cleanup
 
 **Date:** 2026-08-08
-**Status:** Approved design, not yet implemented.
+**Status:** Implemented.
 
 ## Motivation
 
