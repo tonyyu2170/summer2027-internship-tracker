@@ -27,13 +27,6 @@ def _anchor(title: str) -> str:
     return title.lower().replace(" ", "-").replace("/", "")
 
 
-def _status_cell(row: dict) -> str:
-    cell = "🔒 Closed" if row.get("status") == "closed" else "🟢 Open"
-    if row.get("possible_duplicate_of"):
-        cell += f" ⚠️dup?({row['possible_duplicate_of']})"
-    return cell
-
-
 def _escape_cell(s: str) -> str:
     """Escape free text for a Markdown table cell: an unescaped pipe splits
     into an extra column, and a raw newline breaks the single-line row."""
@@ -43,22 +36,23 @@ def _escape_cell(s: str) -> str:
 def _row_cells(row: dict) -> str:
     # `track` stays in the data model; it's just not rendered — the role
     # title already carries it (Tony, 2026-08-08).
-    cells = [_escape_cell(row["company"]), _escape_cell(row["role"])]
+    role = _escape_cell(row["role"])
+    if row.get("possible_duplicate_of"):
+        role += f" ⚠️dup?({row['possible_duplicate_of']})"
+    cells = [_escape_cell(row["company"]), role]
     cells += [
         _escape_cell(row["location"]),
         f"[Apply](<{row['link']}>)",
         _escape_cell(("~" if row.get("date_estimated") else "") + row["date_posted"]),
         _escape_cell(row["term"]),
         _escape_cell("/".join(row["degree"])),
-        _escape_cell(row["last_verified"]),
-        _status_cell(row),
     ]
     return "| " + " | ".join(cells) + " |"
 
 
 def _table(rows: list) -> str:
     header = ["Company", "Role", "Location", "Link", "Date Posted", "Term",
-              "Degree", "Last Verified", "Status"]
+              "Degree"]
     lines = [
         "| " + " | ".join(header) + " |",
         "| " + " | ".join(["---"] * len(header)) + " |",
@@ -179,18 +173,24 @@ def render(data_dir=None, readme_path=None, last_run=None) -> Path:
     out += [f"- [{title}](#{_anchor(title)})" for _, title in OPPORTUNITY_KINDS]
     out += [
         "",
-        "**Legend** — Status: 🟢 Open · 🔒 Closed. Degree = BS/MS/PhD "
-        "eligibility. ~Date Posted is estimated from when we first recorded "
-        "the role. Last Verified is when the posting was last re-confirmed. "
-        "⚠️dup? marks a possible duplicate pending manual review. Programs/"
-        "Research/Competitions status: 🟢 **Open** · ⏳ `opens <date>` (or "
-        "⏳ Upcoming if unannounced) · 🔒 Closed · ⚪ Unknown.",
+        "**Legend** — Degree = BS/MS/PhD eligibility. ~Date Posted is "
+        "estimated from when we first recorded the role. ⚠️dup? marks a "
+        "possible duplicate pending manual review. Closed roles are kept in "
+        "the data but not rendered. Programs/Research/Competitions status: "
+        "🟢 **Open** · ⏳ `opens <date>` (or ⏳ Upcoming if unannounced) · "
+        "🔒 Closed · ⚪ Unknown.",
         "",
     ]
     for stem, title, _is_quant in CATEGORIES:
         rows = rows_by_category[stem]
+        open_rows = [r for r in rows if r.get("status") != "closed"]
         out += [f"## {title}", ""]
-        out += [_table(rows), ""] if rows else ["_No roles tracked yet._", ""]
+        if open_rows:
+            out += [_table(open_rows), ""]
+        elif rows:
+            out += ["_No open roles._", ""]
+        else:
+            out += ["_No roles tracked yet._", ""]
     for stem, title in OPPORTUNITY_KINDS:
         rows = opp_rows_by_kind[stem]
         out += [f"## {title}", ""]

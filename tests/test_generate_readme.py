@@ -72,11 +72,44 @@ def test_quant_table_has_track_column_and_row(tmp_path):
     assert "[Apply](<https://x.com/j>)" in text
 
 
-def test_closed_row_renders_lock(tmp_path):
+def test_closed_rows_are_not_rendered(tmp_path):
     data_dir = _empty_data_dir(tmp_path)
     _write(data_dir, "swe", [_row(status="closed")])
     render(data_dir, tmp_path / "README.md")
-    assert "🔒" in (tmp_path / "README.md").read_text()
+    text = (tmp_path / "README.md").read_text()
+    assert "Jane Street" not in text
+    swe_section = text.split("## Software Engineering")[1].split("## ")[0]
+    assert "_No open roles._" in swe_section
+
+
+def test_mixed_category_renders_only_open_rows(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write(data_dir, "swe", [
+        _row(id="a", company="OpenCo"),
+        _row(id="b", company="ClosedCo", link="https://x.com/k", status="closed"),
+    ])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "OpenCo" in text
+    assert "ClosedCo" not in text
+
+
+def test_status_and_last_verified_columns_dropped(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write(data_dir, "swe", [_row()])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "| Company | Role | Location | Link | Date Posted | Term | Degree |" in text
+    assert "Status |" not in text
+    assert "Last Verified" not in text
+
+
+def test_dup_marker_renders_in_role_cell(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    _write(data_dir, "swe", [_row(possible_duplicate_of="other-row-id")])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert "Quant Trading Intern ⚠️dup?(other-row-id)" in text
 
 
 def test_rows_sorted_newest_first(tmp_path):
@@ -102,7 +135,7 @@ def test_estimated_date_is_marked_without_changing_sort_order(tmp_path):
     assert "~2026-01-01" in text
     assert text.index("Newer actual") < text.index("Older estimate")
     assert "Last scrape: +2 new, 1 closed." in text
-    assert "Last Verified" in text
+    assert "Last Verified" not in text
 
 
 def test_pipe_newline_and_paren_in_free_text_dont_corrupt_table(tmp_path):
@@ -122,7 +155,7 @@ def test_pipe_newline_and_paren_in_free_text_dont_corrupt_table(tmp_path):
     assert "Software Engineer \\| Backend" in row_line
     # split on unescaped pipes only: an escaped "\|" must not create a new column
     cells = [c for c in re.split(r"(?<!\\)\|", row_line) if c.strip()]
-    assert len(cells) == 9
+    assert len(cells) == 7
     assert "[Apply](<https://example.com/apply?ref=(promo)>)" in text
 
 
