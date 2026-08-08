@@ -1,0 +1,6 @@
+# Watch-list for programs, research fellowships, and competitions (the
+# opportunities system — see data/opportunities/). Mirrors companies.yaml's
+# per-category shape.
+programs: []
+research: []
+competitions: []
