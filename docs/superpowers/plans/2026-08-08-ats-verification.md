@@ -866,6 +866,13 @@ def decide(row, ext):
         actions.append({"action": "location_unresolved",
                         "api_locations": ext["locations"]})
     api_date = ext["date_posted"]
+    if api_date and api_date < _CYCLE_START:
+        # Lever's createdAt and Greenhouse's first_published record when the
+        # requisition was created, not when this posting went live. Evergreen
+        # reqs carry dates years back — the live probe found a Summer 2027
+        # Palantir role whose API date was 2016-10-06. Anything before the
+        # cycle is not a posting date, so leave the row's own value alone.
+        api_date = None
     if api_date and (api_date != row["date_posted"] or row.get("date_estimated")):
         actions.append({"action": "set_date",
                         "old": row["date_posted"], "new": api_date})

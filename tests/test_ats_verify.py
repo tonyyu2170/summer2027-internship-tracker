@@ -520,3 +520,25 @@ def test_decide_remote_dash_city_does_not_collapse_to_remote_us():
     ext = _ext(locations=["Remote - New York"], country="United States of America")
     actions = decide(_row(location="New York, NY"), ext)
     assert all(a.get("new") != "Remote (US)" for a in actions)
+
+
+def test_decide_ignores_pre_cycle_requisition_dates():
+    # Lever createdAt / Greenhouse first_published are requisition-creation
+    # dates. The live probe found a Summer 2027 Palantir role reporting
+    # 2016-10-06; writing that would date the posting ten years old.
+    ext = _ext(locations=["New York, NY"], date_posted="2016-10-06")
+    assert decide(_row(date_posted="2026-06-29"), ext) == [{"action": "confirm"}]
+
+
+def test_decide_still_takes_in_cycle_dates():
+    ext = _ext(locations=["New York, NY"], date_posted="2026-06-15")
+    assert {"action": "set_date", "old": "2026-07-01",
+            "new": "2026-06-15"} in decide(_row(), ext)
+
+
+def test_decide_pre_cycle_date_does_not_block_a_location_fix():
+    ext = _ext(locations=["Redmond, WA"], date_posted="2016-10-06")
+    actions = decide(_row(location="Washington, DC"), ext)
+    assert {"action": "set_location", "old": "Washington, DC",
+            "new": "Redmond, WA"} in actions
+    assert all(a["action"] != "set_date" for a in actions)
