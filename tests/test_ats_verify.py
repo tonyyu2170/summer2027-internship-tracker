@@ -2,7 +2,7 @@
 import json
 from datetime import date
 
-from ats_verify import api_url, extract
+from ats_verify import api_url, extract, decide
 
 
 def test_api_url_greenhouse_job_boards():
@@ -256,3 +256,108 @@ def test_extract_icims_multiple_job_locations():
 def test_extract_icims_page_without_jsonld_is_none():
     assert extract("icims", 200, "<html>SPA shell, no JSON-LD</html>",
                    today=TODAY) is None
+
+
+def _row(**kw):
+    base = {
+        "id": "r1", "company": "Acme", "role": "SWE Intern",
+        "location": "New York, NY",
+        "link": "https://jobs.lever.co/acme/01fdf41b-a835-4e00-8d01-0275677a8f08",
+        "date_posted": "2026-07-01", "term": "Summer 2027", "degree": ["BS"],
+        "status": "open", "sources": ["s"], "date_added": "2026-07-01",
+        "last_verified": "2026-07-01", "possible_duplicate_of": None,
+    }
+    base.update(kw)
+    return base
+
+
+def _ext(**kw):
+    base = {"locations": [], "country": None, "date_posted": None, "closed": False}
+    base.update(kw)
+    return base
+
+
+def test_decide_none_ext_is_unknown():
+    assert decide(_row(), None) == [{"action": "unknown"}]
+
+
+def test_decide_closed_wins_over_everything():
+    ext = _ext(closed=True, locations=["London"], date_posted="2026-01-01")
+    assert decide(_row(), ext) == [{"action": "close"}]
+
+
+def test_decide_confirms_when_stored_location_matches_any_api_us_location():
+    ext = _ext(locations=["Austin, TX", "New York, NY"], date_posted="2026-07-01")
+    assert decide(_row(), ext) == [{"action": "confirm"}]
+
+
+def test_decide_sets_location_to_primary_us_location_on_mismatch():
+    ext = _ext(locations=["Redmond, WA", "Austin, TX"])
+    actions = decide(_row(location="Washington, DC"), ext)
+    assert {"action": "set_location", "old": "Washington, DC",
+            "new": "Redmond, WA"} in actions
+
+
+def test_decide_multi_part_stored_location_confirms_on_any_member():
+    ext = _ext(locations=["Austin, TX"])
+    assert decide(_row(location="New York, NY / Austin, TX"), ext) == [
+        {"action": "confirm"}]
+
+
+def test_decide_deletes_on_non_us_country_field():
+    ext = _ext(locations=["Toronto"], country="Canada")
+    actions = decide(_row(), ext)
+    assert actions[0]["action"] == "delete_non_us"
+    assert actions[0]["api_locations"] == ["Toronto"]
+    assert actions[0]["country"] == "Canada"
+
+
+def test_decide_deletes_on_confident_non_us_location_text():
+    assert decide(_row(), _ext(locations=["London, UK"]))[0]["action"] == "delete_non_us"
+
+
+def test_decide_ambiguous_city_only_is_unresolved_never_deleted():
+    # "New York" without a state canonicalizes to None — not confidently US,
+    # which is NOT the same as non-US. Spec decision 3 (amended).
+    actions = decide(_row(), _ext(locations=["New York"]))
+    assert actions[0]["action"] == "location_unresolved"
+    assert actions[0]["api_locations"] == ["New York"]
+    assert all(a["action"] != "delete_non_us" for a in actions)
+
+
+def test_decide_bare_remote_with_non_us_country_deletes():
+    # "Remote" canonicalizes to "Remote (US)", but the API's own country
+    # field wins when remote is the only US-looking signal
+    ext = _ext(locations=["Remote"], country="Canada")
+    assert decide(_row(), ext)[0]["action"] == "delete_non_us"
+
+
+def test_decide_remote_us_row_confirms_against_bare_remote():
+    ext = _ext(locations=["Remote"], country="US")
+    assert decide(_row(location="Remote (US)"), ext) == [{"action": "confirm"}]
+
+
+def test_decide_sets_differing_date():
+    ext = _ext(locations=["New York, NY"], date_posted="2026-06-15")
+    assert {"action": "set_date", "old": "2026-07-01",
+            "new": "2026-06-15"} in decide(_row(), ext)
+
+
+def test_decide_confirms_estimated_date_by_reissuing_it():
+    # equal date but row is flagged estimated: emit set_date so the applier
+    # clears date_estimated — the date is now confirmed, not guessed
+    ext = _ext(locations=["New York, NY"], date_posted="2026-07-01")
+    actions = decide(_row(date_estimated=True), ext)
+    assert {"action": "set_date", "old": "2026-07-01",
+            "new": "2026-07-01"} in actions
+
+
+def test_decide_no_locations_in_payload_leaves_location_alone():
+    assert decide(_row(), _ext(date_posted="2026-07-01")) == [{"action": "confirm"}]
+
+
+def test_decide_never_mutates_the_row():
+    row = _row()
+    before = dict(row)
+    decide(row, _ext(locations=["Redmond, WA"], date_posted="2026-01-01"))
+    assert row == before

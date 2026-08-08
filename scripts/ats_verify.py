@@ -246,3 +246,44 @@ _EXTRACTORS = {
     "smartrecruiters": _extract_smartrecruiters,
     "icims": _extract_icims,
 }
+
+
+def decide(row, ext):
+    """Row + extract -> list of action dicts (the spec's corrections
+    contract, minus id/category/ats, which the driver adds). Pure; never
+    mutates row. ext=None (ambiguous probe / unparseable payload) -> a
+    single 'unknown' action and nothing else."""
+    if ext is None:
+        return [{"action": "unknown"}]
+    if ext["closed"]:
+        return [{"action": "close"}]
+    actions = []
+    us_locs = []
+    for loc in ext["locations"]:
+        canon = canonicalize_location(loc or "")
+        if canon and canon not in us_locs:
+            us_locs.append(canon)
+    country = ext.get("country")
+    non_us_country = bool(country) and not _is_us_country(country)
+    if us_locs == ["Remote (US)"] and non_us_country:
+        # a bare "Remote" canonicalizes US, but the API's own country field
+        # says otherwise — the country wins when remote is the only signal
+        us_locs = []
+    if us_locs:
+        stored = [p.strip() for p in row["location"].split(" / ")]
+        if not any(p in us_locs for p in stored):
+            actions.append({"action": "set_location",
+                            "old": row["location"], "new": us_locs[0]})
+    elif ext["locations"]:
+        confident_non_us = non_us_country or any(
+            _NON_US_RE.search((loc or "").lower()) for loc in ext["locations"])
+        if confident_non_us:
+            return [{"action": "delete_non_us",
+                     "api_locations": ext["locations"], "country": country}]
+        actions.append({"action": "location_unresolved",
+                        "api_locations": ext["locations"]})
+    api_date = ext["date_posted"]
+    if api_date and (api_date != row["date_posted"] or row.get("date_estimated")):
+        actions.append({"action": "set_date",
+                        "old": row["date_posted"], "new": api_date})
+    return actions or [{"action": "confirm"}]
