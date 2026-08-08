@@ -1,6 +1,958 @@
-# Watch-list for programs, research fellowships, and competitions (the
-# opportunities system — see data/opportunities/). Mirrors companies.yaml's
-# per-category shape.
-programs: []
-research: []
-competitions: []
+# Watch-list for programs, research fellowships, and competitions (Phase E).
+# Seeded 2026-08-07 by the one-time discovery pass documented in docs/PROGRAM_DISCOVERY.md.
+# check_url/open_signal/closed_signal drive scripts/check_programs.py's deterministic re-check;
+# entries with both signals null are tracked as status: unknown until manually reviewed.
+programs:
+- name: NVIDIA Ignite
+  org: NVIDIA
+  kind: program
+  category: ai_ml
+  url: https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Current freshmen and sophomores pursuing a bachelor's degree
+  location: Santa Clara, CA
+  cycle: Summer 2027
+  check_url: https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/
+  open_signal: null
+  closed_signal: null
+  notes: 12-week summer pre-internship program for freshmen/sophomores from underrepresented backgrounds. No Ignite-specific
+    open/closed status text on page.
+- name: Explore Microsoft
+  org: Microsoft
+  kind: program
+  category: swe
+  url: https://careers.microsoft.com/v2/global/en/exploremicrosoft
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: First- and second-year undergraduates; must have completed an intro CS course and one semester of
+    calculus
+  location: null
+  cycle: Summer 2027
+  check_url: https://careers.microsoft.com/v2/global/en/exploremicrosoft
+  open_signal: null
+  closed_signal: null
+  notes: 12-week program; umbrella page covers separate first-year and second-year application tracks. No open/closed
+    status text found on the page itself.
+- name: Optiver FutureFocus
+  org: Optiver
+  kind: program
+  category: quant
+  url: https://www.optiver.com/join-us/students/programs/futurefocus/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: First- and second-year students
+  location: null
+  cycle: null
+  check_url: https://www.optiver.com/join-us/students/programs/futurefocus/
+  open_signal: null
+  closed_signal: null
+  notes: Five-day discovery program (trading/quant research and technology tracks). Persistent "Apply now" CTA is
+    page chrome, not a reliable open-only signal.
+- name: FOCUS
+  org: Jane Street
+  kind: program
+  category: quant
+  url: https://www.janestreet.com/join-jane-street/programs-and-events/focus/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: First-year students who have experienced barriers to advanced STEM opportunities (first-generation,
+    underrepresented minority, financial need, under-resourced schools)
+  location: null
+  cycle: null
+  check_url: https://www.janestreet.com/join-jane-street/programs-and-events/focus/
+  open_signal: null
+  closed_signal: null
+  notes: Multi-day program; travel, accommodation, and stipend provided. Page directs visitors to "sign up to be
+    notified about upcoming sessions".
+- name: INSIGHT
+  org: Jane Street
+  kind: program
+  category: quant
+  url: https://www.janestreet.com/join-jane-street/programs-and-events/insight/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Women, transgender, and/or gender-expansive undergraduates; no prior finance knowledge required
+  location: null
+  cycle: null
+  check_url: https://www.janestreet.com/join-jane-street/programs-and-events/insight/
+  open_signal: null
+  closed_signal: null
+  notes: Multi-day program across software engineering, trading, and strategy/product tracks; sessions run in NYC,
+    London, and Hong Kong.
+- name: Possibilities Summits
+  org: Goldman Sachs
+  kind: program
+  category: null
+  url: https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: First-year undergraduates at a U.S. college/university, graduating December 2028-May 2029
+  location: null
+  cycle: null
+  check_url: https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series
+  open_signal: null
+  closed_signal: Applications are now closed
+  notes: Virtual interactive-workshop series; recurs annually, next cohort not yet posted.
+- name: SEO Career
+  org: Sponsors for Educational Opportunity (SEO)
+  kind: program
+  category: null
+  url: https://career.seo-usa.org/our-program/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Freshman-junior undergraduates; GPA 3.2+ preferred (3.0 considered; freshmen may apply without GPA)
+  location: null
+  cycle: null
+  check_url: https://career.seo-usa.org/our-program/
+  open_signal: null
+  closed_signal: null
+  notes: Rolling, year-round admissions into paid-internship pipeline (Wall St., real estate, tech). Multiple "Apply
+    Now" CTAs but no explicit open/closed statement.
+- name: Inside HRT
+  org: Hudson River Trading
+  kind: program
+  category: quant
+  url: https://www.hudsonrivertrading.com/student-opportunities/
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: First- and second-year students in computer science, mathematics, or another STEM field
+  location: New York, NY
+  cycle: null
+  check_url: https://www.hudsonrivertrading.com/student-opportunities/
+  open_signal: null
+  closed_signal: to be notified when applications open
+  notes: Three-day spring program (workshops, tech talks, networking).
+- name: Explore HRT
+  org: Hudson River Trading
+  kind: program
+  category: quant
+  url: https://www.hudsonrivertrading.com/student-opportunities/
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Students graduating 2028 (current juniors) interested in quantitative trading
+  location: New York, NY
+  cycle: null
+  check_url: https://www.hudsonrivertrading.com/student-opportunities/
+  open_signal: null
+  closed_signal: to be notified when applications open
+  notes: Spring program - tech talks, 1:1 mentorship, look into HRT's trading infrastructure.
+- name: Point72 Academy
+  org: Point72
+  kind: program
+  category: quant
+  url: https://point72.com/point72-academy/
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Undergraduates in their final summer before graduation (equities investing training)
+  location: New York, NY; San Francisco, CA; Chicago, IL; West Palm Beach/Miami, FL
+  cycle: Summer 2027
+  check_url: https://point72.com/point72-academy/
+  open_signal: null
+  closed_signal: null
+  notes: 'Status inferred, not a literal page quote: the page''s own timeline table put the 2027 Summer Internship
+    window at Winter 2026 (opens) to Early Summer 2026 (closes); since today is 2026-08-07, that window has already
+    passed.'
+- name: Winning Women
+  org: JPMorgan Chase
+  kind: program
+  category: null
+  url: https://www.jpmorganchase.com/careers/explore-opportunities/programs/winning-women-ba
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Undergraduate women; must have US work authorization (no sponsorship offered)
+  location: null
+  cycle: null
+  check_url: https://www.jpmorganchase.com/careers/explore-opportunities/programs/winning-women-ba
+  open_signal: null
+  closed_signal: null
+  notes: 'Page: "only locations where this program is currently open will be displayed" - availability varies by
+    location, not a clean site-wide signal.'
+- name: Launchpad
+  org: IMC Trading
+  kind: program
+  category: quant
+  url: https://www.imc.com/us/careers/students-graduates/programs/launchpad
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: First- or second-year university students, quantitative/CS background; invitation-based
+  location: Chicago, IL
+  cycle: null
+  check_url: https://www.imc.com/us/careers/students-graduates/programs/launchpad
+  open_signal: null
+  closed_signal: null
+  notes: Three-day discovery program (software engineering and quant trading tracks); no open/closed status text
+    found.
+- name: MLT Career Prep
+  org: Management Leadership for Tomorrow (MLT)
+  kind: program
+  category: null
+  url: https://mlt.org/career-prep/
+  apply_url: https://mlt.org/career-prep/
+  status: open
+  opens: null
+  closes: '2027-01-15'
+  eligibility: College sophomores graduating Fall 2028/Spring/Summer 2029; Black, Hispanic/Latinx, or Native American/Indigenous;
+    US citizen or permanent resident (incl. DACA)
+  location: null
+  cycle: null
+  check_url: https://mlt.org/career-prep/
+  open_signal: Career Prep Application is now open
+  closed_signal: null
+  notes: 18-month coaching/development program. Tiered priority deadlines - Finance 2026-08-01, Consulting 2026-09-01,
+    SWE/Tech & Corporate Management 2026-11-01, general 2026-12-01, final 2027-01-15.
+- name: Richard Tapia Celebration of Diversity in Computing
+  org: CMD-IT / ACM
+  kind: program
+  category: null
+  url: https://tapiaconference.cmd-it.org/2026-registration/
+  apply_url: https://tapiaconference.cmd-it.org/2026-registration/
+  status: open
+  opens: null
+  closes: null
+  eligibility: Undergraduate, graduate, and community-college students, faculty, and professionals in computing
+    (all backgrounds); scholarships available for US students
+  location: Atlanta, GA
+  cycle: null
+  check_url: https://tapiaconference.cmd-it.org/2026-registration/
+  open_signal: Registration is Open!
+  closed_signal: null
+  notes: 2026 conference Sept 16-18 in Atlanta; recurs annually. The year-less /registration/ URL served stale 2025
+    content; the /2026-registration/ URL is current.
+- name: NSBE Annual Convention
+  org: National Society of Black Engineers (NSBE)
+  kind: program
+  category: null
+  url: https://convention.nsbe.org/register-for-nsbe2026/
+  apply_url: https://convention.nsbe.org/register-for-nsbe2026/
+  status: closed
+  opens: null
+  closes: null
+  eligibility: NSBE collegiate members and prospective members (Black engineering/CS undergraduates)
+  location: Baltimore, MD (2026 site; varies by year)
+  cycle: null
+  check_url: https://convention.nsbe.org/register-for-nsbe2026/
+  open_signal: null
+  closed_signal: null
+  notes: 'Status inferred, not literal page text: the 2026 convention (March 18-22, 2026) already occurred as of
+    2026-08-07; late-registration window on page is stale. Recurs annually; 2027 registration not yet posted.'
+- name: Building Entrepreneurial Leaders (BEL)
+  org: Bain & Company
+  kind: program
+  category: null
+  url: https://www.bain.com/careers/work-with-us/internships-programs/building-entrepreneurial-leaders/
+  apply_url: https://www.bain.com/careers/work-with-us/internships-programs/building-entrepreneurial-leaders/
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Sophomore undergraduates identifying as Black/African American, Hispanic/Latinx, or American Indian
+  location: US / Toronto
+  cycle: null
+  check_url: https://www.bain.com/careers/work-with-us/internships-programs/building-entrepreneurial-leaders/
+  open_signal: null
+  closed_signal: program are now closed
+  notes: 'One-week paid program held in August before junior year. Page: "Applications for our 2026 program are
+    now closed. Check back later for more information on our 2027 BEL program."'
+- name: Consulting Kickstart
+  org: Bain & Company
+  kind: program
+  category: null
+  url: https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/
+  apply_url: https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/
+  status: closed
+  opens: null
+  closes: null
+  eligibility: First-year (freshman) undergraduates identifying as Black, Hispanic/Latin American, or Indigenous
+  location: null
+  cycle: null
+  check_url: https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/
+  open_signal: null
+  closed_signal: program are now closed
+  notes: Page text ("Applications for our 2025 program are now closed... check back... 2026 Consulting Kickstart")
+    appears stale relative to 2026-08-07 - reads like an un-refreshed prior cycle.
+- name: BCG Launch
+  org: Boston Consulting Group
+  kind: program
+  category: null
+  url: https://careers.bcg.com/on-campus/programs/bcg-launch
+  apply_url: https://careers.bcg.com/on-campus/programs/bcg-launch
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Undergraduate and non-MBA master's students, all fields, at a US or Canadian college/university
+  location: null
+  cycle: null
+  check_url: https://careers.bcg.com/on-campus/programs/bcg-launch
+  open_signal: null
+  closed_signal: Registration is currently closed
+  notes: Page also noted a since-passed 2026 portal close date (May 29, 2026), consistent with the closed status
+    as of today.
+- name: SHPE National Convention
+  org: Society of Hispanic Professional Engineers (SHPE)
+  kind: program
+  category: null
+  url: https://shpe.org/2026-shpe/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Not stated
+  location: Indianapolis, IN
+  cycle: null
+  check_url: https://shpe.org/2026-shpe/
+  open_signal: null
+  closed_signal: null
+  notes: 2026 convention Oct 28-31, Indianapolis ("STEM for the BOLD"). Page only offered a "Sign Up to be Notified!"
+    link - no explicit registration open/closed language, no eligibility text captured.
+- name: US Discovery Programs
+  org: Susquehanna International Group (SIG)
+  kind: program
+  category: quant
+  url: https://careers.sig.com/us-discovery-programs/jobs
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Not stated
+  location: null
+  cycle: null
+  check_url: https://careers.sig.com/us-discovery-programs/jobs
+  open_signal: null
+  closed_signal: null
+  notes: JS-rendered React job board; fetch confirmed the page is real and owned by sig.com but returned only navigation
+    chrome, no program-specific text.
+- name: Student Training in Engineering Program (STEP)
+  org: Google
+  kind: program
+  category: swe
+  url: https://www.google.com/about/careers/applications/buildyourfuture/programs/step
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: First- or second-year undergraduates in CS, CE, or a related field; students from historically underrepresented
+    groups in tech encouraged
+  location: null
+  cycle: Summer 2027
+  check_url: https://www.google.com/about/careers/applications/buildyourfuture/programs/step
+  open_signal: null
+  closed_signal: null
+  notes: JS-rendered Google Careers SPA; fetch confirmed the page is real but returned only navigation chrome, no
+    STEP-specific status text.
+research:
+- name: Anthropic Fellows Program
+  org: Anthropic
+  kind: research
+  category: ai_ml
+  url: https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/
+  apply_url: https://www.anthropic.com/careers/jobs/5023394008
+  status: closed
+  opens: null
+  closes: '2026-07-26'
+  eligibility: Technical talent with strong coding ability (Python); no PhD, prior ML experience, or publications
+    required; must have work authorization in US, UK, or Canada
+  location: US / UK / Canada (various Anthropic offices)
+  cycle: null
+  check_url: https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/
+  open_signal: null
+  closed_signal: null
+  notes: November-cohort applications closed July 26 (passed as of 2026-08-07). Multiple cohorts per year; next
+    round not yet posted here.
+- name: MATS (ML Alignment & Theory Scholars)
+  org: MATS Research
+  kind: research
+  category: ai_ml
+  url: https://www.matsprogram.org/
+  apply_url: null
+  status: closed
+  opens: 2026-08
+  closes: null
+  eligibility: Open to a range of experience levels, from undergraduates to industry professionals; focus areas
+    span AI alignment, security, and governance research
+  location: Berkeley, CA (some scholars based in London)
+  cycle: null
+  check_url: https://www.matsprogram.org/
+  open_signal: null
+  closed_signal: Autumn 2026 applications are now closed.
+  notes: Page states applications for Winter 2027 will open in mid-August. Multiple cohorts per year rather than
+    a single summer cycle.
+- name: SPAR (Supervised Program for Alignment Research)
+  org: SPAR / Kairos Project
+  kind: research
+  category: ai_ml
+  url: https://sparai.org/
+  apply_url: https://forms.sparai.org/spar/mentee-app
+  status: open
+  opens: null
+  closes: '2026-08-18'
+  eligibility: Open to undergraduate and graduate/PhD students and professionals; technical (ML/CS/cybersecurity/math/physics)
+    or policy/governance backgrounds
+  location: Remote
+  cycle: null
+  check_url: https://sparai.org/
+  open_signal: Fall 2026 mentee applications are open!
+  closed_signal: null
+  notes: Part-time (5-40 hrs/week), remote, 3-month research projects; recurs across Spring/Summer/Fall cohorts.
+- name: AI Safety Camp — Research Incubator
+  org: AI Safety Camp
+  kind: research
+  category: ai_ml
+  url: https://aisafety.camp/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Open to students, engineers, independent researchers, and others interested in AI safety; no formal
+    degree-level restriction stated
+  location: Virtual
+  cycle: null
+  check_url: https://aisafety.camp/
+  open_signal: null
+  closed_signal: null
+  notes: 16-day virtual Research Incubator cohort ran Aug 15-30, 2026; recurring program but no clear literal open/closed
+    signal text found at time of check.
+- name: AI for Computational Creativity (NSF REU Site)
+  org: Brown University Department of Computer Science
+  kind: research
+  category: ai_ml
+  url: https://aireu.cs.brown.edu/
+  apply_url: https://aireu.cs.brown.edu/
+  status: closed
+  opens: null
+  closes: null
+  eligibility: US citizens/permanent residents currently enrolled as undergraduates (bachelor's or associate's);
+    students who have already graduated are not eligible
+  location: Providence, RI
+  cycle: Summer 2027
+  check_url: https://aireu.cs.brown.edu/
+  open_signal: null
+  closed_signal: null
+  notes: Page states students interested in Summer 2027 should check back in late fall 2026.
+- name: NSF REU — Undergraduate Research in Data Analytics (URDA)
+  org: Marshall University
+  kind: research
+  category: data_science
+  url: https://www.marshall.edu/cecs/nsf-funded-data-analytics-reu/
+  apply_url: https://etap.nsf.gov/award/7954/opportunity/10858
+  status: open
+  opens: null
+  closes: null
+  eligibility: US undergraduates nationwide; emphasis on West Virginia, Kentucky, Ohio, first-generation students,
+    underrepresented minorities, and students from resource-limited Appalachian institutions
+  location: Huntington, WV
+  cycle: null
+  check_url: https://www.marshall.edu/cecs/nsf-funded-data-analytics-reu/
+  open_signal: Apply Now!
+  closed_signal: null
+  notes: Active "Apply Now!" link to NSF ETAP portal but page does not clearly state which summer cycle it governs
+    - manual check advised before relying on it for Summer 2027.
+- name: FoDOMMaT (NSF REU Site)
+  org: National Center for Supercomputing Applications, UIUC
+  kind: research
+  category: ai_ml
+  url: https://reu.ncsa.illinois.edu/
+  apply_url: https://reu.ncsa.illinois.edu/
+  status: closed
+  opens: null
+  closes: '2026-03-25'
+  eligibility: US citizens/permanent residents; enrolled undergraduates in good standing, age 18+, some Python and
+    ML exposure
+  location: Urbana, IL
+  cycle: null
+  check_url: https://reu.ncsa.illinois.edu/
+  open_signal: null
+  closed_signal: null
+  notes: Summer 2026 window was Jan 20 - Mar 25, 2026, already past. Recurs annually.
+- name: NSF REU — High-Performance Computing
+  org: University of Wisconsin-Eau Claire
+  kind: research
+  category: hardware
+  url: https://hpc.uwec.edu/explore-opportunities/nsf-reu/
+  apply_url: https://hpc.uwec.edu/explore-opportunities/nsf-reu/
+  status: closed
+  opens: null
+  closes: null
+  eligibility: US citizens/permanent residents; full-time STEM bachelor's/associate's students; cumulative GPA 2.5+
+  location: Eau Claire, WI
+  cycle: Summer 2027
+  check_url: https://hpc.uwec.edu/explore-opportunities/nsf-reu/
+  open_signal: null
+  closed_signal: Applications are closed and are no longer being accepted
+  notes: Funded to host cohorts each summer 2025-2027, so a Summer 2027 round is expected; opening date not yet
+    posted.
+- name: MIT Summer Research Program (MSRP)
+  org: MIT
+  kind: research
+  category: null
+  url: https://oge.mit.edu/msrp/application/
+  apply_url: https://oge.mit.edu/msrp/application/
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Sophomore, junior, or non-graduating senior; 3.5+ GPA (overall or major); enrolled full-time at a
+    US institution other than MIT
+  location: Cambridge, MA
+  cycle: null
+  check_url: https://oge.mit.edu/msrp/application/
+  open_signal: null
+  closed_signal: null
+  notes: Summer 2026 cycle ran Sept 26, 2025 to Jan 20, 2026; both past. Recurs annually; Summer 2027 dates not
+    yet posted.
+- name: Summer Undergraduate Research Fellowships (SURF)
+  org: Caltech
+  kind: research
+  category: null
+  url: https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information
+  apply_url: https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information
+  status: upcoming
+  opens: '2026-11-01'
+  closes: '2027-03-01'
+  eligibility: Continuing undergraduate eligible for fall registration; cumulative GPA 2.5+; completed second semester
+    or third quarter of college
+  location: Pasadena, CA
+  cycle: Summer 2027
+  check_url: https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information
+  open_signal: null
+  closed_signal: null
+  notes: Page explicitly states the SURF 2027 application opens November 1 and is due March 1.
+- name: Summer Undergraduate Program in Engineering Research at Berkeley (SUPERB-AI4E)
+  org: UC Berkeley EECS
+  kind: research
+  category: ai_ml
+  url: https://eecs.berkeley.edu/resources/undergrads/research/superb
+  apply_url: https://eecs.berkeley.edu/resources/undergrads/research/superb
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Rising juniors/seniors; US citizens/permanent residents; completed upper-division EECS coursework;
+    GPA 3.0+
+  location: Berkeley, CA
+  cycle: null
+  check_url: https://eecs.berkeley.edu/resources/undergrads/research/superb
+  open_signal: null
+  closed_signal: application is now closed
+  notes: Live page still displays the 2025 cycle as of Aug 2026 - may not be updated yet. Flagged for manual re-check
+    closer to application season.
+- name: Distributed Research Experiences for Undergraduates (DREU)
+  org: Computing Research Association (CRA-WP)
+  kind: research
+  category: swe
+  url: https://cra.org/cra-wp/dreu/
+  apply_url: https://cra.org/cra-wp/dreu/
+  status: closed
+  opens: null
+  closes: null
+  eligibility: US citizens, permanent residents, or nationals; priority to CS/CE/related fields; no prior research
+    experience required
+  location: Varies (hosted at faculty mentor's institution nationwide)
+  cycle: null
+  check_url: https://cra.org/cra-wp/dreu/
+  open_signal: null
+  closed_signal: null
+  notes: General track deadline Jan 31, 2026; AI & Quantum track deadline April 15, 2026 - both past. Recurs annually.
+- name: Science Undergraduate Laboratory Internships (SULI)
+  org: US Department of Energy, Office of Science
+  kind: research
+  category: null
+  url: https://science.osti.gov/wdts/suli
+  apply_url: https://science.osti.gov/wdts/suli
+  status: open
+  opens: null
+  closes: '2026-09-30'
+  eligibility: Full-time undergraduates, age 18+, GPA 3.0+, US citizen or permanent resident, high school diploma/GED
+  location: 17 DOE national laboratories nationwide
+  cycle: null
+  check_url: https://science.osti.gov/wdts/suli
+  open_signal: null
+  closed_signal: null
+  notes: The 2026-09-30 deadline is for the Spring 2027 term, not Summer 2027 - separate Spring/Summer/Fall cycles;
+    Summer 2027 window not yet posted. Status inferred from the stated future deadline.
+- name: Data Science for Social Good Fellowship
+  org: Data Science for Social Good Foundation
+  kind: research
+  category: data_science
+  url: https://dssgfellowship.org/
+  apply_url: https://dssgfellowship.org/
+  status: closed
+  opens: null
+  closes: '2026-03-06'
+  eligibility: Current or recent graduate and undergraduate students from quantitative and computational fields
+  location: null
+  cycle: null
+  check_url: https://dssgfellowship.org/
+  open_signal: null
+  closed_signal: null
+  notes: Extended 2026 deadline was March 6, 2026, already past. Host institution and location rotate by year.
+- name: Data+
+  org: Duke University
+  kind: research
+  category: data_science
+  url: https://bigdata.duke.edu/data/
+  apply_url: https://bigdata.duke.edu/data/
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Duke undergraduate and master's students, plus non-Duke students via a separate application track;
+    open to all class years and majors
+  location: Durham, NC
+  cycle: Summer 2027
+  check_url: https://bigdata.duke.edu/data/
+  open_signal: null
+  closed_signal: null
+  notes: 2026 program ran May 18-July 24, 2026. No live open/closed text and no Summer 2027 deadline posted yet.
+- name: American Economic Association Summer Training Program (AEASP)
+  org: American Economic Association (2026 hosted at American University)
+  kind: research
+  category: null
+  url: https://www.american.edu/cas/economics/aeasp/
+  apply_url: https://www.american.edu/cas/economics/aeasp/
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Undergraduates preparing for economics PhD study; historically focused on broadening participation
+    in the economics profession
+  location: Washington, DC (2026 host; rotates by year)
+  cycle: null
+  check_url: https://www.american.edu/cas/economics/aeasp/
+  open_signal: null
+  closed_signal: null
+  notes: 8-week training program in micro/math/econometrics/research methods - training-adjacent rather than a research
+    fellowship proper. 2026 deadline Jan 31, 2026 past; host rotates.
+- name: REU / SPUR (Summer Program for Undergraduate Research), Mathematics
+  org: Cornell University Department of Mathematics
+  kind: research
+  category: quant
+  url: https://www.math.cornell.edu/undergraduate-research
+  apply_url: https://www.math.cornell.edu/undergraduate-research
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Not stated
+  location: Ithaca, NY
+  cycle: Summer 2027
+  check_url: https://www.math.cornell.edu/undergraduate-research
+  open_signal: null
+  closed_signal: null
+  notes: Department did not offer REU/SPUR for Summer 2026 and hopes to host in Summer 2027 depending on funding;
+    update promised early December 2026. Genuinely uncertain whether Summer 2027 will run.
+- name: ASPIRE Fellowship (Advancing Scholars in Physics and Innovative Research in Engineering)
+  org: Fermilab
+  kind: research
+  category: hardware
+  url: https://internships.fnal.gov/https-fermilab-wd5-myworkdayjobs-com-en-us-fermilabcareers-details-aspire-fellowship_r_007434qaspire/
+  apply_url: https://internships.fnal.gov/https-fermilab-wd5-myworkdayjobs-com-en-us-fermilabcareers-details-aspire-fellowship_r_007434qaspire/
+  status: closed
+  opens: null
+  closes: '2026-04-07'
+  eligibility: Undergraduate junior/senior or master's engineering students focused on accelerator engineering;
+    US citizen/permanent resident; full-time enrollment; GPA 3.0+
+  location: Fermilab, Batavia, IL (onsite)
+  cycle: null
+  check_url: https://internships.fnal.gov/https-fermilab-wd5-myworkdayjobs-com-en-us-fermilabcareers-details-aspire-fellowship_r_007434qaspire/
+  open_signal: null
+  closed_signal: null
+  notes: 2026 window was March 17 - April 7, 2026, already past. Recurs annually with a similar winter/spring window.
+competitions:
+- name: Akuna Capital's 2026 Virtual Quant Trading Challenge
+  org: Akuna Capital
+  kind: competition
+  category: quant
+  url: https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge/?gh_jid=7993921
+  apply_url: https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge/?gh_jid=7993921
+  status: open
+  opens: 2026-06
+  closes: '2026-08-10'
+  eligibility: BS/MS/PhD students in Engineering, Econ, Stats, Math, CS, Actuarial Science or related; min 3.5 major
+    GPA; graduating Dec 2026 - Aug 2028
+  location: Remote (Online); firm based in Chicago, IL
+  cycle: null
+  check_url: https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge/?gh_jid=7993921
+  open_signal: Applications open on 6/11/2026 and close on 8/10/2026.
+  closed_signal: null
+  notes: CLOSES 2026-08-10. Greenhouse job-board posting (?gh_jid=) - will likely 404/redirect once closed rather
+    than show closed-language; recheck script should treat 404/redirect as closed too.
+- name: Optiver Ready Trader Go
+  org: Optiver
+  kind: competition
+  category: quant
+  url: https://readytradergo.optiver.com/
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: University students in eligible countries incl. USA, UK, EU, Australia, NZ, Taiwan, Singapore, China
+  location: Remote (Online)
+  cycle: null
+  check_url: https://readytradergo.optiver.com/
+  open_signal: null
+  closed_signal: Competition closed
+  notes: Recurs periodically (2021, 2023, ...); page directs students to a mailing list for the next edition. No
+    date given.
+- name: IMC Prosperity
+  org: IMC Trading
+  kind: competition
+  category: quant
+  url: https://prosperity.imc.com/
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: University STEM students worldwide preferred (anyone may participate to learn); 18+ and residency
+    in EMEA/NA/SA/India/Australia/Hong Kong required for prize eligibility
+  location: Remote (Online)
+  cycle: null
+  check_url: https://prosperity.imc.com/
+  open_signal: null
+  closed_signal: Prosperity 4 finished
+  notes: Annual flagship IMC challenge (most recent held April 2026). No date stated for Prosperity 5.
+- name: UChicago Trading Competition
+  org: University of Chicago
+  kind: competition
+  category: quant
+  url: https://tradingcompetition.uchicago.edu/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Undergraduate/graduate students from any university (not limited to UChicago)
+  location: Chicago, IL
+  cycle: null
+  check_url: https://tradingcompetition.uchicago.edu/
+  open_signal: null
+  closed_signal: null
+  notes: 14th annual edition held April 10-11, 2026 (past); recurs annually. No literal open/closed application-status
+    text found.
+- name: Berkeley Trading Competition
+  org: Traders at Berkeley (UC Berkeley)
+  kind: competition
+  category: quant
+  url: https://traders.studentorg.berkeley.edu/competition/
+  apply_url: null
+  status: closed
+  opens: 2026-11
+  closes: 2026-12
+  eligibility: Any US-based undergraduate or graduate student
+  location: Berkeley, CA
+  cycle: null
+  check_url: https://traders.studentorg.berkeley.edu/competition/
+  open_signal: null
+  closed_signal: Applications for the next competition are not open yet.
+  notes: Sponsored by Citadel, Jane Street, Optiver, Jump, DRW, SIG, Five Rings, HRT, Flow Traders, Virtu. Page
+    says applications "typically open in late November and close in mid-December" - recurring pattern, not a firm
+    2026 commitment.
+- name: Cornell Trading Competition
+  org: Quant Fund at Cornell
+  kind: competition
+  category: quant
+  url: https://cornellquantfund.org/competition
+  apply_url: null
+  status: upcoming
+  opens: null
+  closes: null
+  eligibility: Undergraduate and master's students from universities in the US and Canada
+  location: New York, NY (Cornell Tech)
+  cycle: null
+  check_url: https://cornellquantfund.org/competition
+  open_signal: null
+  closed_signal: Applications for CTC 2026 will open in early Fall 2026.
+  notes: 2026 edition scheduled mid-October 2026 at Cornell Tech. "Early Fall 2026" stated without a specific month,
+    so opens left null.
+- name: Duke FinTech Trading Competition
+  org: Duke FinTech (Gothic Hedge Society / Duke Master in FinTech)
+  kind: competition
+  category: quant
+  url: https://fintechtradingcompetition.com/
+  apply_url: null
+  status: open
+  opens: null
+  closes: null
+  eligibility: Any student, any university, any status - explicitly not limited to Duke or to enrolled students
+  location: Remote (Online); paper trading via Interactive Brokers
+  cycle: null
+  check_url: https://fintechtradingcompetition.com/
+  open_signal: signing up throughout the year for any and all who wish to participate
+  closed_signal: null
+  notes: Now rolling/continual rather than fixed seasons. Page states Fall 2026 rules will be updated in August
+    2026.
+- name: WiDS Datathon
+  org: WiDS Worldwide (Women in Data Science)
+  kind: competition
+  category: data_science
+  url: https://www.widsworldwide.org/learn/datathon/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Data science students/enthusiasts (General track); advanced students (University Edition track)
+  location: Remote (Online); global, Stanford-affiliated
+  cycle: null
+  check_url: https://www.widsworldwide.org/learn/datathon/
+  open_signal: null
+  closed_signal: null
+  notes: 2026 cycle ran Jan-Apr 2026. Page still displayed "The 2026 WiDS Global Challenge is now Open!" at fetch
+    time - stale relative to its own dates, so it fails as a reliable open-only signal. 2027 not yet announced.
+- name: Citadel Data Open
+  org: Correlation One
+  kind: competition
+  category: data_science
+  url: https://www.correlation-one.com/data-science-talent-competitions
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: University students (undergrad/grad/PhD); not explicitly stated on the fetched page itself
+  location: Multiple US cities (regional events) plus a championship event
+  cycle: null
+  check_url: https://www.correlation-one.com/data-science-talent-competitions
+  open_signal: null
+  closed_signal: null
+  notes: Hosted by Correlation One in partnership with Citadel/Citadel Securities. citadel.com returned HTTP 403
+    to every fetch, so the operator's own domain is used. No explicit open/closed language found.
+- name: ASA DataFest
+  org: American Statistical Association
+  kind: competition
+  category: data_science
+  url: https://ww2.amstat.org/education/datafest/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Undergraduate students at participating US universities
+  location: Multiple US university campuses (local chapters)
+  cycle: null
+  check_url: https://ww2.amstat.org/education/datafest/
+  open_signal: null
+  closed_signal: null
+  notes: 48-hour national data science competition run by university chapters each spring; registration varies by
+    chapter, so status is unknown at the national level.
+- name: Citadel Securities Terminal / AI Games
+  org: Correlation One
+  kind: competition
+  category: ai_ml
+  url: https://terminal.c1games.com/
+  apply_url: https://terminal.c1games.com/
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Not explicitly stated on the fetched page; open sign-up platform
+  location: Remote (Online)
+  cycle: null
+  check_url: https://terminal.c1games.com/
+  open_signal: null
+  closed_signal: null
+  notes: Co-branded with Citadel Securities per Correlation One's page; citadel domains 403'd. Appears evergreen/always-on
+    ladder competition, so no reliable open/closed signal exists.
+- name: JPMorgan Chase Code for Good Hackathon
+  org: JPMorgan Chase
+  kind: competition
+  category: swe
+  url: https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: Students enrolled in a bachelor's degree program (or a JPMorganChase-sponsored program); sister "Data
+    for Good" is for bachelor's/master's/PhD data science students
+  location: Multiple US cities (also international)
+  cycle: null
+  check_url: https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons
+  open_signal: null
+  closed_signal: null
+  notes: Annual since 2012. Page states "only locations where this program is currently open will be displayed"
+    - status varies by location with no single global signal.
+- name: SOA Research Institute Student Research Case Study Challenge
+  org: Society of Actuaries (SOA Research Institute)
+  kind: competition
+  category: actuarial
+  url: https://www.soa.org/research/opportunities/2026-student-research-case-study-challenge/
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Undergraduate/graduate student teams of 2-5; 2026 edition drew teams from 65 universities across
+    19 countries (not US-restricted)
+  location: Remote (Online)
+  cycle: null
+  check_url: https://www.soa.org/research/opportunities/2026-student-research-case-study-challenge/
+  open_signal: null
+  closed_signal: Congratulations, students, on completing a submission
+  notes: 2026 cycle fully past (case Jan 16, submissions Mar 13, winners Apr 24). Annual; URL will likely be superseded
+    by a 2027 page.
+- name: CAS Student Central Mentor-Led Summer Program
+  org: Casualty Actuarial Society (CAS Student Central)
+  kind: competition
+  category: actuarial
+  url: https://www.casstudentcentral.org/cassummerprogram/
+  apply_url: null
+  status: unknown
+  opens: null
+  closes: null
+  eligibility: University students interested in actuarial/P&C insurance careers, open globally (Asia/Pacific students
+    directed to a separate regional program)
+  location: Remote (Online)
+  cycle: null
+  check_url: https://www.casstudentcentral.org/cassummerprogram/
+  open_signal: null
+  closed_signal: null
+  notes: Free 8-week program (2026 edition ran June 8 - July 31, concluded) including a team-based case competition.
+    "Early spring" stated without a month, so opens left null.
+- name: AI Hardware Design League (AI-HDL)
+  org: University of Arizona (Center for Semiconductor Manufacturing)
+  kind: competition
+  category: hardware
+  url: https://csm.arizona.edu/AIHDL
+  apply_url: null
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Community college, undergraduate, or graduate students, open globally; teams of 3-5 at the same degree
+    level
+  location: Remote (Online); hosted by University of Arizona, Tucson, AZ
+  cycle: null
+  check_url: https://csm.arizona.edu/AIHDL
+  open_signal: null
+  closed_signal: null
+  notes: Inaugural 2026 cycle ran Jan 15 - May 12, 2026; registration deadline Dec 19, 2025 - past. No 2027 date
+    posted; recurrence unconfirmed (first run).
+- name: GenAI Chip Hackathon at DAC 2026
+  org: ICLAD / DAC (Design Automation Conference)
+  kind: competition
+  category: hardware
+  url: https://dac.com/2026/dac-pull-down-menu-tab-genai-chip-hackathon
+  apply_url: https://iclad.ai/hackathon
+  status: closed
+  opens: null
+  closes: null
+  eligibility: Not explicitly limited to students; requires in-person DAC or "I LOVE DAC" registration to compete
+    for prizes
+  location: Long Beach, CA (in-person)
+  cycle: null
+  check_url: https://dac.com/2026/dac-pull-down-menu-tab-genai-chip-hackathon
+  open_signal: null
+  closed_signal: null
+  notes: Registration opened May 14, 2026; competition July 26, 2026 at DAC 2026 - past. Recurs with the annual
+    DAC conference; 2027 not yet announced.
