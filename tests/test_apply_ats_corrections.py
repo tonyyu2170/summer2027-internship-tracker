@@ -1,4 +1,5 @@
 """Tests for the corrections applier (scripts/apply_ats_corrections.py)."""
+import copy
 import json
 import yaml
 import pytest
@@ -108,13 +109,27 @@ def test_multiple_actions_for_one_row_all_apply():
 
 
 def test_apply_never_mutates_input():
+    # deepcopy, not dict(): a shallow snapshot shares the nested `degree` and
+    # `sources` lists with the input, so `data == snapshot` would hold even if
+    # apply_corrections mutated one of them in place.
     data = {"swe": [_row()]}
-    snapshot = {"swe": [dict(data["swe"][0])]}
+    snapshot = copy.deepcopy(data)
     apply_corrections(
         data,
         [_action(action="set_location", old="New York, NY", new="Austin, TX")],
         TODAY)
     assert data == snapshot
+
+
+def test_unrecognized_action_on_existing_row_is_not_reported_as_unknown_id():
+    # A typo'd or renamed action kind must not be reported as a stale row id,
+    # and must change nothing.
+    new, summary = apply_corrections(
+        {"swe": [_row()]}, [_action(action="clsoe")], TODAY)
+    assert summary["unrecognized_action"] == ["r1"]
+    assert summary["skipped"] == []
+    assert new["swe"][0]["status"] == "open"
+    assert new["swe"][0]["last_verified"] == "2026-07-01"
 
 
 def _setup_tree(tmp_path, rows_swe):
@@ -161,3 +176,39 @@ def test_run_aborts_on_schema_failure_writing_nothing(tmp_path):
         run(corrections, data_dir=data_dir, readme_path=readme)
     assert (data_dir / "swe.yaml").read_text() == before
     assert not readme.exists()
+
+
+def test_run_aborts_when_a_corrections_id_matches_two_rows(tmp_path):
+    # Rows are matched by id alone, so a duplicate id would delete every row
+    # sharing it (reporting one) and land a set_location on whichever row
+    # loaded last. merge.py can still emit duplicate ids, so refuse to run.
+    data_dir = _setup_tree(tmp_path, [_row(id="dup", company="AlphaCo")])
+    (data_dir / "quant.yaml").write_text(yaml.safe_dump(
+        [_row(id="dup", company="BetaCo", link="https://x.com/2")],
+        sort_keys=False, allow_unicode=True))
+    before = (data_dir / "swe.yaml").read_text()
+    corrections = _write_corrections(tmp_path, [
+        _action(id="dup", action="delete_non_us",
+                api_locations=["Toronto"], country="Canada"),
+    ])
+    readme = tmp_path / "README.md"
+    with pytest.raises(SystemExit):
+        run(corrections, data_dir=data_dir, readme_path=readme)
+    assert (data_dir / "swe.yaml").read_text() == before
+    assert not readme.exists()
+
+
+def test_run_does_not_announce_a_delete_that_did_not_happen(tmp_path, capsys):
+    # An action naming a row id that isn't in the data deletes nothing; the
+    # output must not claim otherwise.
+    data_dir = _setup_tree(tmp_path, [_row()])
+    corrections = _write_corrections(tmp_path, [
+        _action(id="ghost", action="delete_non_us",
+                api_locations=["Toronto"], country="Canada"),
+    ])
+    summary = run(corrections, data_dir=data_dir,
+                  readme_path=tmp_path / "README.md")
+    assert summary["deleted"] == []
+    assert summary["skipped"] == ["ghost"]
+    assert "DELETED" not in capsys.readouterr().out
+    assert len(yaml.safe_load((data_dir / "swe.yaml").read_text())) == 1
