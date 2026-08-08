@@ -67,7 +67,13 @@ def merge_category(existing_rows, fetch_reports, today, on_drop=None):
                 "location": canon_loc,
                 "link": p["link"],
                 "date_posted": p.get("date_posted") or today,
-                "date_estimated": p.get("date_posted") is None,
+                # A posting can flag its own derived date_posted as coarse
+                # (e.g. a "2mo"-granularity pipe-table age -- see
+                # parse_tracker._derive_date_posted); that must survive onto
+                # the row. `or` rather than a bare lookup: a posting with no
+                # date_posted at all is always estimated (today-fallback),
+                # regardless of what it claims.
+                "date_estimated": bool(p.get("date_estimated")) or p.get("date_posted") is None,
                 "term": p["term"],
                 "degree": p["degree"],
                 "status": "closed" if p.get("closed_marker") else "open",

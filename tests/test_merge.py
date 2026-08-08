@@ -44,6 +44,26 @@ def test_explicit_date_posted_is_not_estimated_and_validates():
     assert validate_row(rows[0]) == []
 
 
+def test_posting_level_date_estimated_flows_into_new_row():
+    # A month-granularity pipe-table age ("2mo") still derives a real
+    # date_posted, but parse_tracker.py marks the posting itself
+    # date_estimated=True -- that flag must survive onto the row, not get
+    # silently overwritten to False just because date_posted is present.
+    rows, _ = merge_category(
+        [], [_report([_posting(date_posted="2026-06-01", date_estimated=True)])], TODAY)
+    assert rows[0]["date_posted"] == "2026-06-01"
+    assert rows[0]["date_estimated"] is True
+
+
+def test_missing_date_posted_is_estimated_regardless_of_posting_flag():
+    # Defensive: a posting with no date_posted at all must never end up
+    # date_estimated=False, even if it explicitly (incorrectly) claims
+    # date_estimated=False -- the today-fallback is never a real date.
+    rows, _ = merge_category([], [_report([_posting(date_estimated=False)])], TODAY)
+    assert rows[0]["date_posted"] == TODAY
+    assert rows[0]["date_estimated"] is True
+
+
 def test_non_us_posting_is_dropped_and_reported(capsys):
     drops = []
     rows, summary = merge_category(

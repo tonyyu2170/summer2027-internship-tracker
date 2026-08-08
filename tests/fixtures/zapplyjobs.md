@@ -66,13 +66,13 @@ Connect and seek advice from a growing network of fellow students and new grads.
 
 | Company | Role | Location | Posted | Visa | **Apply** |
 |---------|------|----------|--------|------|----------|
-| **ByteDance** | Software Engineer Intern (Applied Mac... | San Jose, California | Recently |  | [<img src="images/apply.png" width="80" alt="Apply">](https://joinbytedance.com/search/7533045355162044690) |
-| **ByteDance** | Security Engineering Project Intern (... | San Jose, California | Recently |  | [<img src="images/apply.png" width="80" alt="Apply">](https://joinbytedance.com/search/7625759034518128901) |
-| **ByteDance** | Site Reliability Engineer Project Int... | San Jose, California | Recently |  | [<img src="images/apply.png" width="80" alt="Apply">](https://joinbytedance.com/search/7600174040255007029) |
-| **Google** | Software Engineering Intern, MS, Summ... | United States | Recently |  | [<img src="images/apply.png" width="80" alt="Apply">](https://www.google.com/about/careers/applications/jobs/results/95141459539174086) |
-| **Google** | Software Engineering Intern, BS, Summ... | United States | Recently |  | [<img src="images/apply.png" width="80" alt="Apply">](https://www.google.com/about/careers/applications/jobs/results/85564713261245126) |
-| **PDT Partners** | Summer 2027 Systems Engineering Intern | New York, NY | Recently |  | [<img src="images/apply.png" width="80" alt="Apply">](https://job-boards.greenhouse.io/pdtpartners/jobs/8083292) |
-| **PDT Partners** | Summer 2027 Software Engineering Intern | New York, NY | Recently |  | [<img src="images/apply.png" width="80" alt="Apply">](https://job-boards.greenhouse.io/pdtpartners/jobs/8077685) |
+| **ByteDance** | Software Engineer Intern (Applied Mac... | San Jose, California | 35m |  | [<img src="images/apply.png" width="80" alt="Apply">](https://joinbytedance.com/search/7533045355162044690) |
+| **ByteDance** | Security Engineering Project Intern (... | San Jose, California | 18h |  | [<img src="images/apply.png" width="80" alt="Apply">](https://joinbytedance.com/search/7625759034518128901) |
+| **ByteDance** | Site Reliability Engineer Project Int... | San Jose, California | 1d |  | [<img src="images/apply.png" width="80" alt="Apply">](https://joinbytedance.com/search/7600174040255007029) |
+| **Google** | Software Engineering Intern, MS, Summ... | United States | 3w |  | [<img src="images/apply.png" width="80" alt="Apply">](https://www.google.com/about/careers/applications/jobs/results/95141459539174086) |
+| **Google** | Software Engineering Intern, BS, Summ... | United States | 2mo |  | [<img src="images/apply.png" width="80" alt="Apply">](https://www.google.com/about/careers/applications/jobs/results/85564713261245126) |
+| **PDT Partners** | Summer 2027 Systems Engineering Intern | New York, NY | 71mo |  | [<img src="images/apply.png" width="80" alt="Apply">](https://job-boards.greenhouse.io/pdtpartners/jobs/8083292) |
+| **PDT Partners** | Summer 2027 Software Engineering Intern | New York, NY | Date unknown |  | [<img src="images/apply.png" width="80" alt="Apply">](https://job-boards.greenhouse.io/pdtpartners/jobs/8077685) |
 | **Astranis** | Software Engineer Intern - Enterprise... | San Francisco, CA | Recently |  | [<img src="images/apply.png" width="80" alt="Apply">](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | **Appian** | Software Engineering Intern | McLean, Virginia | Recently |  | [<img src="images/apply.png" width="80" alt="Apply">](https://job-boards.greenhouse.io/appian/jobs/8041237) |
 | **Western Digital** | Fall 2026 Intern - Failure Analysis A... | San Jose, CA | Recently |  | [<img src="images/apply.png" width="80" alt="Apply">](https://jobs.smartrecruiters.com/WesternDigital/744000139338269) |

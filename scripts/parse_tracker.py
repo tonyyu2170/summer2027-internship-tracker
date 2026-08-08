@@ -6,7 +6,7 @@ calls in here. Four format families cover all nine trackers."""
 import json
 import re
 import yaml
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from normalize import canonicalize_location
 
@@ -221,6 +221,23 @@ _COLUMN_ALIASES = {
     "link": "link", "application": "link", "application/link": "link",
     "apply": "link", "application link": "link", "posting": "link",
 }
+# The age/date column's header name across the four pipe-table trackers:
+# speedyapply "Age", chieler/zapplyjobs "Posted", sndsh404 "Added". Kept out
+# of _COLUMN_ALIASES/`header` on purpose -- see parse_pipe_table's date_idx
+# handling, which must not tighten the cells-vs-header bound check that
+# company/role/location/link rely on.
+_DATE_COLUMN_LABELS = {"age", "posted", "added"}
+_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+# <N><unit>: m(inute)/h(our)/d(ay)/w(eek)/mo(nth), as seen live on
+# zapplyjobs (e.g. "35m", "18h", "4d", "3w", "2mo") and speedyapply (days
+# only, e.g. "4d"). Alternation tries "mo" before the single-char classes,
+# so "1mo" doesn't get mis-split as "1m" + stray "o".
+_AGE = re.compile(r"^(\d+)\s*(mo|[mhdw])$", re.IGNORECASE)
+# Observed "no date on file" placeholders (chieler, sndsh404) -- distinct
+# from unrecognized-but-present text like "Recently" or "Date unknown",
+# which _derive_date_posted also returns (None, None) for, just via falling
+# through every pattern instead of an explicit placeholder match.
+_DASH_VALUES = {"-", "--", "---", "—"}
 _HREF = re.compile(r'href="([^"]+)"')
 _MD_LINK = re.compile(r"\[[^\]]*\]\((<?)([^)>\s]+)")
 _TAG = re.compile(r"<[^>]+>")
@@ -295,9 +312,47 @@ def _extract_link(cell):
     return None
 
 
-def parse_pipe_table(text):
+def _derive_date_posted(raw, reference_date):
+    """Resolve one age/date cell to (date_posted, estimated), or (None,
+    None) when the cell carries no derivable date. reference_date is the
+    caller-supplied fetch date (a datetime.date) -- never date.today(), per
+    docs/SCRAPING.md's rule that parse functions stay pure.
+
+    Precision rule: an explicit date, or a day/week-granularity age, is
+    trusted exactly (estimated=False). A month-granularity age is still
+    derived -- better than the scrape-date fallback -- but flagged
+    estimated=True since "2mo" only pins the day to +/-2 weeks or so.
+    Anything unrecognized (dash placeholders, "Recently", "Date unknown",
+    ...) returns (None, None) rather than guessing; the caller (merge.py)
+    already falls back to today's date with date_estimated=True for a
+    posting with no date_posted at all."""
+    text = (raw or "").strip()
+    if not text or text in _DASH_VALUES:
+        return None, None
+    if _ISO_DATE.match(text):
+        return text, False
+    if text.lower() in ("today", "new"):
+        return reference_date.isoformat(), False
+    m = _AGE.match(text)
+    if m:
+        n, unit = int(m.group(1)), m.group(2).lower()
+        if unit == "mo":
+            return (reference_date - timedelta(days=30 * n)).isoformat(), True
+        if unit == "w":
+            return (reference_date - timedelta(weeks=n)).isoformat(), False
+        if unit == "d":
+            return (reference_date - timedelta(days=n)).isoformat(), False
+        return reference_date.isoformat(), False    # 'h'/'m': same calendar day
+    return None, None
+
+
+def parse_pipe_table(text, reference_date):
     """Parse every Markdown pipe table in a README that looks like a job
     table, i.e. whose header maps to at least company, role and link.
+
+    reference_date (a datetime.date) is the fetch date used to derive
+    date_posted from an age column ("4d", "2mo", ...) -- required, not
+    defaulted, so this stays a pure function; see _derive_date_posted.
 
     Column order differs across trackers, so columns are located by header
     name. Tables that don't match (resource lists, prep links) are skipped."""
@@ -310,10 +365,14 @@ def parse_pipe_table(text):
             i += 1
             continue
         header = {}
+        date_idx = None
         for idx, name in enumerate(_cells(line)):
-            key = _COLUMN_ALIASES.get(_TAG.sub("", name).strip("* ").lower())
+            label = _TAG.sub("", name).strip("* ").lower()
+            key = _COLUMN_ALIASES.get(label)
             if key and key not in header:
                 header[key] = idx
+            elif date_idx is None and label in _DATE_COLUMN_LABELS:
+                date_idx = idx
         if not {"company", "role", "link"} <= set(header):
             i += 1
             continue
@@ -353,7 +412,7 @@ def parse_pipe_table(text):
                 location = _resolve_us_location(location)
             if not (company and role):
                 continue
-            postings.append({
+            posting = {
                 "company": company,
                 "role": role,
                 "location": location,
@@ -361,5 +420,13 @@ def parse_pipe_table(text):
                 "term": "Summer 2027",
                 "degree": ["BS"],
                 "closed_marker": closed,
-            })
+            }
+            if date_idx is not None and date_idx < len(cells):
+                raw_date = _TAG.sub("", cells[date_idx]).strip()
+                date_posted, date_estimated = _derive_date_posted(raw_date, reference_date)
+                if date_posted:
+                    posting["date_posted"] = date_posted
+                    if date_estimated:
+                        posting["date_estimated"] = True
+            postings.append(posting)
     return postings

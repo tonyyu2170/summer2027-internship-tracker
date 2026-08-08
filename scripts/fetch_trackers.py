@@ -66,7 +66,8 @@ def _parse(cfg):
             season=cfg["term_value"],
         )
     if fmt == "pipe_table":
-        return parse_pipe_table(_raw(cfg["repo"], cfg["branch"], cfg["path"]))
+        return parse_pipe_table(
+            _raw(cfg["repo"], cfg["branch"], cfg["path"]), reference_date=date.today())
     if fmt == "nufintech_yaml":
         # One recursive listing, not 59 separate content fetches.
         tree = _get(

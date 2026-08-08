@@ -1,5 +1,6 @@
 import json
 import pytest
+from datetime import date
 from pathlib import Path
 
 from parse_tracker import (
@@ -14,6 +15,9 @@ from parse_tracker import (
 )
 
 FIXTURES = Path(__file__).parent / "fixtures"
+# Fixed reference date for age-column derivation -- never date.today() in a
+# parse function, so every test pins one explicitly (see parse_pipe_table).
+REF = date(2026, 8, 8)
 
 
 def _fixture(name):
@@ -312,7 +316,7 @@ def test_parse_pipe_table_reads_columns_by_header_name():
 | --- | --- | --- | --- | --- |
 | Acme | Software Engineer Intern | New York, NY | <a href="https://e.com/1">Apply</a> | Jul 24 |
 """
-    postings = parse_pipe_table(text)
+    postings = parse_pipe_table(text, REF)
     assert len(postings) == 1
     p = postings[0]
     assert p["company"] == "Acme"
@@ -327,7 +331,7 @@ def test_parse_pipe_table_handles_alternate_column_order():
 | --- | --- | --- | --- | --- |
 | Acme | SWE Intern | 2026-07-24 | — | [Apply](https://e.com/2) |
 """
-    postings = parse_pipe_table(text)
+    postings = parse_pipe_table(text, REF)
     assert postings[0]["link"] == "https://e.com/2"
     assert postings[0]["company"] == "Acme"
 
@@ -340,7 +344,7 @@ def test_parse_pipe_table_resolves_carry_forward_arrow():
 | Jane Street | Software Engineer Intern | New York, NY | <a href="https://e.com/1">Apply</a> |
 | ↳ | Hardware Engineer Intern | New York, NY | <a href="https://e.com/2">Apply</a> |
 """
-    postings = parse_pipe_table(text)
+    postings = parse_pipe_table(text, REF)
     assert [p["company"] for p in postings] == ["Jane Street", "Jane Street"]
 
 
@@ -350,7 +354,7 @@ def test_parse_pipe_table_collapses_multi_location_to_first():
 | --- | --- | --- | --- |
 | HRT | SWE Intern | Austin, TX</br>Chicago, IL | <a href="https://e.com/1">Apply</a> |
 """
-    assert parse_pipe_table(text)[0]["location"] == "Austin, TX"
+    assert parse_pipe_table(text, REF)[0]["location"] == "Austin, TX"
 
 
 def test_parse_pipe_table_collapses_details_block_to_first_location():
@@ -359,7 +363,7 @@ def test_parse_pipe_table_collapses_details_block_to_first_location():
 | --- | --- | --- | --- |
 | Google | SWE Intern | <details><summary>**30 locations**</summary>Mountain View, CA</br>Atlanta, GA</details> | <a href="https://e.com/1">Apply</a> |
 """
-    assert parse_pipe_table(text)[0]["location"] == "Mountain View, CA"
+    assert parse_pipe_table(text, REF)[0]["location"] == "Mountain View, CA"
 
 
 def test_parse_pipe_table_sets_closed_marker_from_lock_emoji():
@@ -368,7 +372,7 @@ def test_parse_pipe_table_sets_closed_marker_from_lock_emoji():
 | --- | --- | --- | --- |
 | Acme | SWE Intern 🔒 | NY, NY | <a href="https://e.com/1">Apply</a> |
 """
-    p = parse_pipe_table(text)[0]
+    p = parse_pipe_table(text, REF)[0]
     assert p["closed_marker"] is True
     assert "🔒" not in p["role"]
 
@@ -379,7 +383,7 @@ def test_parse_pipe_table_skips_rows_without_a_link():
 | --- | --- | --- | --- |
 | Acme | SWE Intern | NY, NY | Closed |
 """
-    assert parse_pipe_table(text) == []
+    assert parse_pipe_table(text, REF) == []
 
 
 def test_parse_pipe_table_ignores_non_job_tables():
@@ -389,11 +393,11 @@ def test_parse_pipe_table_ignores_non_job_tables():
 | --- | --- |
 | Book | <a href="https://e.com/b">Buy</a> |
 """
-    assert parse_pipe_table(text) == []
+    assert parse_pipe_table(text, REF) == []
 
 
 def test_parse_pipe_table_on_real_fixture_yields_postings():
-    postings = parse_pipe_table(_fixture("speedyapply.md"))
+    postings = parse_pipe_table(_fixture("speedyapply.md"), REF)
     assert postings, "expected postings from the speedyapply fixture"
     for p in postings:
         assert p["company"] and p["role"] and p["link"]
@@ -408,7 +412,7 @@ def test_parse_pipe_table_drops_explicit_off_cycle_rows():
 | Acme | Summer 2027 SWE Intern | NY, NY | <a href="https://e.com/3">Apply</a> |
 | Acme | SWE Intern | NY, NY | <a href="https://e.com/4">Apply</a> |
 """
-    postings = parse_pipe_table(text)
+    postings = parse_pipe_table(text, REF)
     links = {p["link"] for p in postings}
     assert links == {"https://e.com/3", "https://e.com/4"}
 
@@ -417,7 +421,7 @@ def test_parse_pipe_table_real_fixtures_have_no_off_cycle_rows():
     import re
     pat = re.compile(r"\b(summer|fall|winter|spring)\s*20\d\d\b", re.I)
     for name in ["speedyapply", "sndsh404", "zapplyjobs", "chieler"]:
-        postings = parse_pipe_table(_fixture(f"{name}.md"))
+        postings = parse_pipe_table(_fixture(f"{name}.md"), REF)
         for p in postings:
             matches = [m.group(0).lower().replace(" ", "") for m in pat.finditer(p["role"])]
             assert not matches or "summer2027" in matches, (name, p)
@@ -432,7 +436,7 @@ def test_parse_pipe_table_keeps_row_naming_both_summer_2027_and_another_cycle():
 | Acme | SWE Intern - Fall 2026/Summer 2027 | NY, NY | <a href="https://e.com/1">Apply</a> |
 | Acme | SWE Intern - Summer 2027/Fall 2026 | NY, NY | <a href="https://e.com/2">Apply</a> |
 """
-    links = {p["link"] for p in parse_pipe_table(text)}
+    links = {p["link"] for p in parse_pipe_table(text, REF)}
     assert links == {"https://e.com/1", "https://e.com/2"}
 
 
@@ -450,7 +454,7 @@ def test_parse_pipe_table_resolves_bare_city_via_alias():
 | --- | --- | --- | --- |
 | Acme | SWE Intern | NYC | <a href="https://e.com/1">Apply</a> |
 """
-    assert parse_pipe_table(text)[0]["location"] == "New York, NY"
+    assert parse_pipe_table(text, REF)[0]["location"] == "New York, NY"
 
 
 def test_parse_pipe_table_unresolvable_location_becomes_none_not_raw_text():
@@ -463,7 +467,7 @@ def test_parse_pipe_table_unresolvable_location_becomes_none_not_raw_text():
 | --- | --- | --- | --- |
 | Acme | SWE Intern | USA | <a href="https://e.com/1">Apply</a> |
 """
-    assert parse_pipe_table(text)[0]["location"] is None
+    assert parse_pipe_table(text, REF)[0]["location"] is None
 
 
 @pytest.mark.parametrize("role", [
@@ -492,3 +496,209 @@ def test_off_cycle_variants_are_detected(role):
 ])
 def test_eligible_roles_are_not_flagged_off_cycle(role):
     assert not _is_off_cycle(role)
+
+
+def test_parse_pipe_table_requires_reference_date():
+    # Purity guard: parse_pipe_table must never fall back to date.today()
+    # internally -- the reference date has to come from the caller (real
+    # runs) or the test, every time.
+    text = """
+| Company | Role | Location | Link | Age |
+| --- | --- | --- | --- | --- |
+| Acme | SWE Intern | NY, NY | <a href="https://e.com/1">Apply</a> | 4d |
+"""
+    with pytest.raises(TypeError):
+        parse_pipe_table(text)
+
+
+def test_parse_pipe_table_derives_date_posted_from_day_age():
+    text = """
+| Company | Role | Location | Link | Age |
+| --- | --- | --- | --- | --- |
+| Acme | SWE Intern | NY, NY | <a href="https://e.com/1">Apply</a> | 4d |
+"""
+    p = parse_pipe_table(text, REF)[0]
+    assert p["date_posted"] == "2026-08-04"
+    assert "date_estimated" not in p
+
+
+def test_parse_pipe_table_derives_date_posted_from_week_age():
+    text = """
+| Company | Role | Location | Link | Age |
+| --- | --- | --- | --- | --- |
+| Acme | SWE Intern | NY, NY | <a href="https://e.com/1">Apply</a> | 3w |
+"""
+    p = parse_pipe_table(text, REF)[0]
+    assert p["date_posted"] == "2026-07-18"
+    assert "date_estimated" not in p
+
+
+def test_parse_pipe_table_flags_month_age_as_estimated():
+    text = """
+| Company | Role | Location | Link | Age |
+| --- | --- | --- | --- | --- |
+| Acme | SWE Intern | NY, NY | <a href="https://e.com/1">Apply</a> | 2mo |
+"""
+    p = parse_pipe_table(text, REF)[0]
+    assert p["date_posted"] == "2026-06-09"
+    assert p["date_estimated"] is True
+
+
+def test_parse_pipe_table_collapses_hour_and_minute_age_to_reference_date():
+    text = """
+| Company | Role | Location | Link | Age |
+| --- | --- | --- | --- | --- |
+| Acme | Hour Intern | NY, NY | <a href="https://e.com/1">Apply</a> | 18h |
+| Acme | Minute Intern | NY, NY | <a href="https://e.com/2">Apply</a> | 35m |
+"""
+    postings = parse_pipe_table(text, REF)
+    for p in postings:
+        assert p["date_posted"] == "2026-08-08"
+        assert "date_estimated" not in p
+
+
+def test_parse_pipe_table_reads_explicit_iso_date_in_age_column_as_real():
+    text = """
+| Company | Role | Location | Link | Added |
+| --- | --- | --- | --- | --- |
+| Acme | SWE Intern | NY, NY | <a href="https://e.com/1">Apply</a> | 2026-07-21 |
+"""
+    p = parse_pipe_table(text, REF)[0]
+    assert p["date_posted"] == "2026-07-21"
+    assert "date_estimated" not in p
+
+
+def test_parse_pipe_table_recognizes_today_and_new():
+    text = """
+| Company | Role | Location | Link | Age |
+| --- | --- | --- | --- | --- |
+| Acme | Today Intern | NY, NY | <a href="https://e.com/1">Apply</a> | today |
+| Acme | New Intern | NY, NY | <a href="https://e.com/2">Apply</a> | New |
+"""
+    for p in parse_pipe_table(text, REF):
+        assert p["date_posted"] == "2026-08-08"
+        assert "date_estimated" not in p
+
+
+@pytest.mark.parametrize("raw", ["-", "---", "—", ""])
+def test_parse_pipe_table_leaves_date_posted_unset_for_dash_placeholder(raw):
+    text = f"""
+| Company | Role | Location | Link | Added |
+| --- | --- | --- | --- | --- |
+| Acme | SWE Intern | NY, NY | <a href="https://e.com/1">Apply</a> | {raw} |
+"""
+    p = parse_pipe_table(text, REF)[0]
+    assert "date_posted" not in p
+    assert "date_estimated" not in p
+
+
+@pytest.mark.parametrize("raw", ["Recently", "Date unknown"])
+def test_parse_pipe_table_leaves_date_posted_unset_for_unrecognized_value(raw):
+    # "Recently" is observed live on zapplyjobs.md, but a cross-check against
+    # a fresh live fetch (2026-08-08) showed rows marked "Recently" in an
+    # older snapshot were actually 1-4 months old by the time real ages
+    # appeared -- it carries no reliable elapsed-time information. Treating
+    # it as "today" would fabricate precision, so it's left unrecognized
+    # like any other unparseable cell (falls back to merge.py's existing
+    # scrape-date + date_estimated=True behavior).
+    text = f"""
+| Company | Role | Location | Link | Posted |
+| --- | --- | --- | --- | --- |
+| Acme | SWE Intern | NY, NY | <a href="https://e.com/1">Apply</a> | {raw} |
+"""
+    p = parse_pipe_table(text, REF)[0]
+    assert "date_posted" not in p
+    assert "date_estimated" not in p
+
+
+def test_parse_pipe_table_missing_trailing_age_cell_does_not_drop_row():
+    # Regression guard: the date column sits last in speedyapply's and
+    # sndsh404's real headers. It must not be folded into the same
+    # cells-vs-header bound check used for company/role/location/link, or a
+    # row that's merely missing its trailing (optional, best-effort) age
+    # cell would be dropped wholesale instead of just losing its date.
+    text = """
+| Company | Role | Location | Link | Age |
+| --- | --- | --- | --- | --- |
+| Acme | SWE Intern | NY, NY | <a href="https://e.com/1">Apply</a> |
+"""
+    postings = parse_pipe_table(text, REF)
+    assert len(postings) == 1
+    assert postings[0]["company"] == "Acme"
+    assert "date_posted" not in postings[0]
+
+
+def test_parse_pipe_table_row_counts_unchanged_across_real_fixtures():
+    # Wiring up date derivation must not change which rows survive parsing
+    # -- only whether they carry date_posted/date_estimated.
+    expected = {
+        "speedyapply": 108, "sndsh404": 114, "zapplyjobs": 429, "chieler": 471,
+    }
+    for name, count in expected.items():
+        assert len(parse_pipe_table(_fixture(f"{name}.md"), REF)) == count, name
+
+
+def test_parse_pipe_table_real_fixtures_derive_dates_from_age_columns():
+    # speedyapply: Anthelion Capital's Age is "0d" -> posted on REF itself.
+    speedyapply = parse_pipe_table(_fixture("speedyapply.md"), REF)
+    by_link = {p["link"]: p for p in speedyapply}
+    anthelion = by_link["https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96"]
+    assert anthelion["date_posted"] == "2026-08-08"
+    assert "date_estimated" not in anthelion
+
+    # chieler: Quadrillion's Posted column is the explicit date 2026-07-24.
+    chieler = parse_pipe_table(_fixture("chieler.md"), REF)
+    by_link = {p["link"]: p for p in chieler}
+    quadrillion = by_link[
+        "https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05/application?embed=true"
+    ]
+    assert quadrillion["date_posted"] == "2026-07-24"
+    assert "date_estimated" not in quadrillion
+
+    # sndsh404: Susquehanna's Added column is the explicit date 2026-07-21.
+    sndsh404 = parse_pipe_table(_fixture("sndsh404.md"), REF)
+    by_link = {p["link"]: p for p in sndsh404}
+    susquehanna = by_link["https://careers.sig.com/jobs/10822"]
+    assert susquehanna["date_posted"] == "2026-07-21"
+    assert "date_estimated" not in susquehanna
+
+
+def test_parse_pipe_table_zapplyjobs_real_fixture_covers_every_age_format():
+    # The 7 rows below were hand-edited from their original "Recently"
+    # placeholder (see test_..._unrecognized_value's docstring) to the
+    # distinct age-column formats actually observed on a live fetch of
+    # zapplyjobs/Internships-2027's README on 2026-08-08.
+    postings = parse_pipe_table(_fixture("zapplyjobs.md"), REF)
+    by_link = {p["link"]: p for p in postings}
+
+    minutes = by_link["https://joinbytedance.com/search/7533045355162044690"]
+    assert minutes["date_posted"] == "2026-08-08"
+    assert "date_estimated" not in minutes
+
+    hours = by_link["https://joinbytedance.com/search/7625759034518128901"]
+    assert hours["date_posted"] == "2026-08-08"
+    assert "date_estimated" not in hours
+
+    one_day = by_link["https://joinbytedance.com/search/7600174040255007029"]
+    assert one_day["date_posted"] == "2026-08-07"
+    assert "date_estimated" not in one_day
+
+    three_weeks = by_link[
+        "https://www.google.com/about/careers/applications/jobs/results/95141459539174086"
+    ]
+    assert three_weeks["date_posted"] == "2026-07-18"
+    assert "date_estimated" not in three_weeks
+
+    two_months = by_link[
+        "https://www.google.com/about/careers/applications/jobs/results/85564713261245126"
+    ]
+    assert two_months["date_posted"] == "2026-06-09"
+    assert two_months["date_estimated"] is True
+
+    seventy_one_months = by_link["https://job-boards.greenhouse.io/pdtpartners/jobs/8083292"]
+    assert seventy_one_months["date_posted"] == "2020-10-08"
+    assert seventy_one_months["date_estimated"] is True
+
+    unknown = by_link["https://job-boards.greenhouse.io/pdtpartners/jobs/8077685"]
+    assert "date_posted" not in unknown
+    assert "date_estimated" not in unknown
