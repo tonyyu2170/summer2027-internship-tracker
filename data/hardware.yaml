@@ -1806,22 +1806,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: base-power-hardware-engineering-intern-9f4e6b
-  company: Base Power
-  role: Hardware Engineering Intern
-  location: Austin, TX
-  link: https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: base-power-hardware-engineering-intern-becbe7
 - id: bytedance-asic-design-engineer-intern-video-si-9f00d2
   company: ByteDance
   role: ASIC Design Engineer Intern (Video Si...

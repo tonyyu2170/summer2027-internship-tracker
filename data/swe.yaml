@@ -3119,7 +3119,7 @@
   - github_tracker:chieler
   date_added: '2026-07-25'
   last_verified: '2026-08-08'
-  possible_duplicate_of: quadrillion-software-engineering-intern-8ae91e
+  possible_duplicate_of: null
 - id: pdt-partners-software-engineer-intern-093c88
   company: PDT Partners
   role: Software Engineer Intern
@@ -3227,22 +3227,6 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
-- id: hp-software-engineering-intern-device-experiences-c1f81a
-  company: HP
-  role: Software Engineering Intern - Device Experiences
-  location: San Francisco, CA
-  link: https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: hewlett-packard-hp-software-engineering-intern-device-experiences-2f807f
-  date_estimated: true
 - id: charles-river-analytics-software-qa-tester-intern-co-op-06c64c
   company: Charles River Analytics
   role: Software QA Tester Intern/Co-op
@@ -3289,7 +3273,7 @@
   - github_tracker:speedyapply
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
-  possible_duplicate_of: altom-transport-fall-software-development-intern-d55b0d
+  possible_duplicate_of: null
   date_estimated: true
 - id: altom-transport-fall-software-development-intern-d039d4
   company: Altom Transport
@@ -3305,24 +3289,8 @@
   - github_tracker:speedyapply
   date_added: '2026-07-25'
   last_verified: '2026-07-25'
-  possible_duplicate_of: altom-transport-fall-software-development-intern-d55b0d
+  possible_duplicate_of: null
   date_estimated: true
-- id: appian-software-engineering-intern-9d4b40
-  company: Appian
-  role: Software Engineering Intern
-  location: McLean, VA
-  link: https://careers.appian.com/jobs/8041237-software-engineering-intern
-  date_posted: '2026-07-24'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-07-25'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: appian-software-engineering-intern-172919
 - id: pdt-partners-summer-2027-systems-engineering-intern-5aedc8
   company: PDT Partners
   role: Summer 2027 Systems Engineering Intern
@@ -3388,39 +3356,6 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
-- id: beacon-software-software-engineering-intern-4f944c
-  company: Beacon Software
-  role: Software Engineering Intern
-  location: San Francisco, CA
-  link: https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1/application
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-07-25'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: beacon-software-software-engineering-intern-b35cec
-  date_estimated: true
-- id: rainmaker-software-engineering-intern-b626a4
-  company: Rainmaker
-  role: Software Engineering Intern
-  location: El Segundo, CA
-  link: https://jobs.lever.co/make-rain/b45f954e-19df-45b1-8748-c8ae442a2e8b/apply
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: rainmaker-software-engineering-intern-29f798
-  date_estimated: true
 - id: smiths-group-mechanical-engineering-co-op-94713a
   company: Smiths Group
   role: Mechanical Engineering Co-Op
@@ -3451,7 +3386,7 @@
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
   last_verified: '2026-08-08'
-  possible_duplicate_of: smiths-group-mechanical-engineering-co-op-94713a
+  possible_duplicate_of: null
   date_estimated: true
 - id: baker-hughes-intern-mechanical-engineering-mec-5f51dc
   company: Baker Hughes
@@ -3985,7 +3920,7 @@
   - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: tiktok-software-engineer-intern-99ebe3
+  possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-715068
   company: TikTok
   role: Backend Software Engineer Intern
@@ -4024,7 +3959,7 @@
   - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: tiktok-backend-software-engineer-intern-715068
+  possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-c1f3e2
   company: TikTok
   role: Backend Software Engineer Intern
@@ -4042,7 +3977,7 @@
   - github_tracker:speedyapply
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: tiktok-backend-software-engineer-intern-715068
+  possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ads-measurement-signal-and-privacy-2782e9
   company: TikTok
   role: Software Engineer Intern - Ads Measurement Signal and Privacy
@@ -4161,7 +4096,7 @@
   - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: tiktok-software-engineer-intern-99ebe3
+  possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-419bba
   company: TikTok
   role: Backend Software Engineer Intern
@@ -4180,7 +4115,7 @@
   - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: tiktok-backend-software-engineer-intern-715068
+  possible_duplicate_of: null
 - id: tiktok-frontend-engineer-intern-open-platform-5b5aa1
   company: TikTok
   role: Frontend Engineer Intern - Open Platform
@@ -4238,7 +4173,7 @@
   - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: tiktok-software-engineer-intern-99ebe3
+  possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-7e0735
   company: TikTok
   role: Software Engineer Intern
@@ -4277,7 +4212,7 @@
   - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: tiktok-backend-software-engineer-intern-715068
+  possible_duplicate_of: null
 - id: tiktok-frontend-software-engineer-intern-ads-measurement-signal-and-privacy-92c451
   company: TikTok
   role: Frontend Software Engineer Intern - Ads Measurement Signal and Privacy
@@ -4613,7 +4548,7 @@
   - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: tiktok-software-engineer-intern-99ebe3
+  possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-global-e-commerce-759204
   company: TikTok
   role: Backend Software Engineer Intern - Global E-Commerce
@@ -4728,7 +4663,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: tiktok-software-engineer-intern-99ebe3
+  possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-ai-platform-4320f5
   company: ByteDance
   role: Software Engineer Intern - AI Platform
@@ -4993,7 +4928,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: general-dynamics-information-technology-software-developer-intern-9a7f46
+  possible_duplicate_of: null
 - id: general-dynamics-information-technology-software-developer-intern-6b3497
   company: General Dynamics Information Technology
   role: Software Developer Intern
@@ -5009,7 +4944,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: general-dynamics-information-technology-software-developer-intern-9a7f46
+  possible_duplicate_of: null
 - id: tiktok-fullstack-software-engineer-intern-global-e-commerce-d3da9b
   company: TikTok
   role: Fullstack Software Engineer Intern - Global E-Commerce
@@ -5518,7 +5453,7 @@
   - github_tracker:speedyapply
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: northrop-grumman-2027-intern-software-engineer-de1a48
+  possible_duplicate_of: null
 - id: raytheon-software-engineering-intern-summer-2027-8d72fe
   company: Raytheon
   role: Software Engineering Intern - Summer 2027
@@ -5695,22 +5630,6 @@
   - github_tracker:speedyapply
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: copart-software-engineering-intern-7a3998
-- id: medtronic-software-engineering-intern-summer-2027-82f287
-  company: Medtronic
-  role: Software Engineering Intern - Summer 2027
-  location: Fridley, MN
-  link: https://medtronic.wd1.myworkdayjobs.com/en-US/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: medtronic-software-engineering-intern-summer-2027-2fe6af
   company: Medtronic
@@ -5728,7 +5647,7 @@
   - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: medtronic-software-engineering-intern-summer-2027-82f287
+  possible_duplicate_of: null
 - id: heliux-software-engineer-internship-summer-2027-23752c
   company: Heliux
   role: Software Engineer - Internship - Summer 2027
@@ -5761,7 +5680,7 @@
   - github_tracker:speedyapply
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: copart-software-engineering-intern-7a3998
+  possible_duplicate_of: null
 - id: copart-software-engineering-intern-545d41
   company: Copart
   role: Software Engineering Intern
@@ -5777,7 +5696,7 @@
   - github_tracker:speedyapply
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: copart-software-engineering-intern-7a3998
+  possible_duplicate_of: null
 - id: bosch-adas-software-engineering-intern-6abbba
   company: Bosch
   role: ADAS Software Engineering Intern
@@ -5875,22 +5794,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: cadence-software-intern-f7d5ef
-  company: Cadence
-  role: Software Intern
-  location: San Jose, CA
-  link: https://cadence.wd1.myworkdayjobs.com/en-US/external_careers/job/SAN-JOSE/Software-Intern_R53282-1
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: cadence-software-intern-896986
 - id: appian-information-security-engineer-intern-a9d70f
   company: Appian
   role: Information Security Engineer Intern
@@ -6102,23 +6005,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: belvedere-trading-software-engineer-intern-summer-2027-3fd00c
-  company: Belvedere Trading
-  role: Software Engineer Intern - Summer 2027
-  location: Chicago, IL
-  link: https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:zshah101
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: belvedere-trading-software-engineer-intern-summer-2027-bfe10f
 - id: bosch-group-project-management-test-engineering-539375
   company: Bosch Group
   role: Project Management / Test Engineering...
@@ -6199,38 +6085,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: rivian-and-volkswagen-group-technologies-software-engineering-intern-vehicle-3bba16
-  company: Rivian and Volkswagen Group Technologies
-  role: Software Engineering Intern - Vehicle...
-  location: Irvine, CA
-  link: https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: rivian-and-volkswagen-group-technologies-software-engineering-intern-vehicle-c26f3f
-- id: rivian-and-volkswagen-group-technologies-software-engineering-intern-applica-a0ae9e
-  company: Rivian and Volkswagen Group Technologies
-  role: Software Engineering Intern - Applica...
-  location: Irvine, CA
-  link: https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: rivian-and-volkswagen-group-technologies-software-engineering-intern-applica-005501
 - id: uline-business-intelligence-developer-inter-29047d
   company: Uline
   role: Business Intelligence Developer Inter...
@@ -6326,7 +6180,7 @@
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: draper-mechanical-engineering-system-packa-dcc05e
+  possible_duplicate_of: null
 - id: contoro-robotics-robotics-engineer-intern-test-val-2632b9
   company: Contoro Robotics
   role: Robotics Engineer Intern - Test & Val...
@@ -6375,22 +6229,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: mariana-minerals-chemical-engineering-intern-ee172e
-  company: Mariana Minerals
-  role: Chemical Engineering Intern
-  location: Moab, UT
-  link: https://jobs.ashbyhq.com/marianaminerals/1f8dc663-ae78-44ad-8232-ebf5dcf2385a
-  date_posted: '2026-08-08'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: mariana-minerals-chemical-engineering-intern-2016b1
 - id: base-power-manufacturing-engineering-intern-a44f6a
   company: Base Power
   role: Manufacturing Engineering Intern
@@ -6486,7 +6324,7 @@
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: menasha-corporation-custom-packaging-design-engineer-co-o-5587cd
+  possible_duplicate_of: null
 - id: plusai-research-engineer-intern-mapping-0d0c66
   company: PlusAI
   role: Research Engineer Intern - Mapping & ...

@@ -3690,7 +3690,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-07-25'
   last_verified: '2026-08-08'
-  possible_duplicate_of: trillium-equity-trader-intern-141d7a
+  possible_duplicate_of: null
 - id: northwestern-mutual-investment-analyst-intern-private-debt-equity-aa547c
   company: Northwestern Mutual
   role: Investment Analyst Intern - Private Debt & Equity
@@ -3708,21 +3708,6 @@
   date_added: '2026-07-25'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: cubist-systematic-strategies-quantitative-developer-intern-f01b19
-  company: Cubist Systematic Strategies
-  role: Quantitative Developer Intern
-  location: New York, NY
-  link: https://job-boards.greenhouse.io/embed/job_app?for=point72&jr_id=6a07069024dcb03739f1ec72&token=7297613002
-  date_posted: '2026-05-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-07-25'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: cubist-systematic-strategies-quantitative-developer-intern-f53f1c
 - id: voloridge-quantitative-developer-intern-97ec1d
   company: Voloridge
   role: Quantitative Developer Intern
@@ -3787,7 +3772,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
-  possible_duplicate_of: susquehanna-international-group-sig-quantitative-research-intern-37871c
+  possible_duplicate_of: null
 - id: university-of-virginia-investment-management-company-uvimco-investment-analyst-intern-5ae99f
   company: University of Virginia Investment Management Company (UVIMCO)
   role: Investment Analyst Intern
@@ -3805,25 +3790,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: two-sigma-quantitative-researcher-intern-caffe0
-  company: Two Sigma
-  role: Quantitative Researcher Intern
-  location: New York, NY
-  link: https://twosigma.avature.net/careers/JobDetail/13945
-  date_posted: '2026-08-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: two-sigma-quantitative-researcher-intern-aecb8b
 - id: jp-morgan-chase-quantitative-research-intern-markets-analyst-cd1a33
   company: JP Morgan Chase
   role: Quantitative Research Intern - Markets - Analyst

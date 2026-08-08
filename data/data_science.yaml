@@ -831,22 +831,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: the-boeing-company-data-analytics-intern-65d1fd
-  company: The Boeing Company
-  role: Data Analytics Intern
-  location: Ridley Park, PA
-  link: https://boeing.wd1.myworkdayjobs.com/INTERN/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: the-boeing-company-data-analytics-intern-2b55f7
 - id: uline-financial-data-analyst-intern-a601f2
   company: Uline
   role: Financial Data Analyst Intern
