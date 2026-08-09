@@ -82,3 +82,19 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
+- id: national-interstate-insurance-actuarial-intern-summer-2027-a2ff0e
+  company: National Interstate Insurance
+  role: Actuarial Intern - Summer 2027
+  location: Cincinnati, OH
+  link: https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Actuarial-Intern---Summer-2027_R9332
+  date_posted: '2026-08-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-09'
+  last_verified: '2026-08-09'
+  possible_duplicate_of: null
