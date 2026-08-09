@@ -1,6 +1,6 @@
 #!/bin/bash
-# Scheduled deterministic tracker scrape — the launchd entrypoint behind
-# com.tonyyu2170.internship-tracker.scrape (every 6 hours).
+# One-shot plain-"scrape" runner (explicit request only — scraping is
+# never scheduled; the 2026-08-09 launchd experiment was reverted same day).
 #
 # Runs exactly the plain-"scrape" pipeline from docs/SCRAPING.md (GitHub
 # trackers only, no opt-in sources, no LLM), commits locally when data/
