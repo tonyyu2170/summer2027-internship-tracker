@@ -19,11 +19,13 @@ import yaml
 from categorize import known_link_categories
 from normalize import normalize_link
 from parse_company import (
+    is_intern_title,
     parse_ashby_board,
     parse_greenhouse_board,
     parse_lever_postings,
     parse_phenom_job_page,
     parse_workday_cxs,
+    parse_workday_search,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -32,6 +34,7 @@ _HEADERS = {"User-Agent": "internship-tracker-scraper", "Accept": "text/html"}
 _PARSERS = {
     "phenom_job_page": parse_phenom_job_page,
     "workday_cxs": parse_workday_cxs,
+    "workday_search": parse_workday_search,
     "greenhouse_board": parse_greenhouse_board,
     "lever_api": parse_lever_postings,
     "ashby_api": parse_ashby_board,
@@ -41,7 +44,25 @@ _PARSERS = {
 # providers; ATS kinds without a wired API pull are skipped with a counter.
 _ATS_PROVIDERS = {"greenhouse": "greenhouse_board",
                   "lever": "lever_api",
-                  "ashby": "ashby_api"}
+                  "ashby": "ashby_api",
+                  "workday": "workday_search"}
+
+# Workday's search ranks rather than filters, so a bare "intern" matches most
+# of a board. The full phrase is what actually narrows it (Capital One:
+# 1775 postings -> 5), which keeps a board to one page in practice.
+_WORKDAY_SEARCH_TEXT = "Summer 2027"
+_WORKDAY_PAGE = 20
+_WORKDAY_MAX_PAGES = 5
+
+
+def _workday_site(url: str):
+    """tenant/site for a `{tenant}.wd{N}.myworkdayjobs.com/{site}` career URL,
+    or None when the watch-list URL isn't that shape."""
+    parts = urlsplit(url)
+    segments = [segment for segment in parts.path.split("/") if segment]
+    if not parts.netloc.lower().endswith(".myworkdayjobs.com") or not segments:
+        return None
+    return {"tenant": parts.netloc.split(".")[0], "site": segments[0]}
 
 
 def _normalize_source(source: dict):
@@ -55,6 +76,14 @@ def _normalize_source(source: dict):
         normalized["provider"] = "_unverified"
         return normalized
     normalized["provider"] = _ATS_PROVIDERS.get(source.get("ats"), "_unwired")
+    if normalized["provider"] == "workday_search":
+        # Derived here, outside run()'s per-source try, so an off-shape URL
+        # has to degrade to "unwired" rather than abort the category.
+        site = _workday_site(source["url"])
+        if not site:
+            normalized["provider"] = "_unwired"
+            return normalized
+        normalized.update(site, search_text=_WORKDAY_SEARCH_TEXT)
     return normalized
 
 
@@ -109,12 +138,68 @@ def _get_json(url: str):
     return json.loads(_get(url))
 
 
+def _get_json_api(url: str):
+    """Workday's CXS endpoints 406 on the shared text/html Accept header."""
+    request = urllib.request.Request(
+        url, headers={**_HEADERS, "Accept": "application/json"})
+    with urllib.request.urlopen(request, timeout=30, context=_SSL_CTX) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def _cxs_base(source: dict) -> str:
+    parts = urlsplit(source["url"])
+    return (f"{parts.scheme}://{parts.netloc}/wday/cxs/"
+            f"{source['tenant']}/{source['site']}")
+
+
+def _fetch_workday_search(source: dict, post=None, get=None) -> dict:
+    """Search one Workday board, then pull the job detail behind each
+    intern-titled hit.
+
+    The search response carries no description and shows a multi-site posting
+    only as "3 Locations", so Summer-2027 evidence and a US location can be
+    judged solely from the detail payload. The title pre-filter and the page
+    cap bound what an unexpectedly broad board costs.
+    """
+    post, get = post or _post_json, get or _get_json_api
+    base = _cxs_base(source)
+    rows, offset, total, truncated = [], 0, None, False
+    while total is None or offset < total:
+        payload = post(f"{base}/jobs", {
+            "appliedFacets": {},
+            "limit": _WORKDAY_PAGE,
+            "offset": offset,
+            "searchText": source["search_text"],
+        })
+        page = payload.get("jobPostings")
+        if not isinstance(page, list) or not isinstance(payload.get("total"), int):
+            raise ValueError("invalid Workday CXS search response")
+        rows.extend(page)
+        total = payload["total"]
+        if len(page) == 0 and offset < total:
+            raise ValueError("Workday CXS returned an empty page before total")
+        offset += len(page)
+        if len(rows) >= _WORKDAY_PAGE * _WORKDAY_MAX_PAGES:
+            truncated = offset < total
+            break
+
+    jobs = []
+    for row in rows:
+        path = row.get("externalPath") or ""
+        if not is_intern_title(row.get("title") or "") or not path.startswith("/job/"):
+            continue
+        jobs.append(get(base + path)["jobPostingInfo"])
+    return {"jobs": jobs, "truncated": truncated}
+
+
 def _fetch_source(source: dict):
     provider = source["provider"]
     if provider == "phenom_job_page":
         return _get(source["url"])
     if provider == "workday_cxs":
         return _fetch_workday_cxs(source)
+    if provider == "workday_search":
+        return _fetch_workday_search(source)
     if provider == "greenhouse_board":
         return _get_json("https://boards-api.greenhouse.io/v1/boards/"
                          f"{source['url']}/jobs?content=true")

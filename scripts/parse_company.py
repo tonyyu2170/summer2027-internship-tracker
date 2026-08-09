@@ -225,6 +225,58 @@ def parse_ashby_board(payload: dict, source: dict) -> tuple[list[dict], Counter]
     return postings, drops
 
 
+def is_intern_title(role: str) -> bool:
+    """The title pre-filter the Workday fetch uses to bound how many job-detail
+    requests a board costs. `parse_workday_search` re-checks it, so this is an
+    optimization only — never the accept decision."""
+    return bool(role) and bool(_INTERN.search(role))
+
+
+def parse_workday_search(payload: dict, source: dict) -> tuple[list[dict], Counter]:
+    """Parse enriched Workday job details into fetch-report postings.
+
+    Workday's CXS *search* response carries no description and collapses a
+    multi-site posting to "3 Locations", so neither Summer-2027 evidence nor a
+    US location can be judged from it. The fetch layer therefore pairs each
+    candidate with its job-detail payload, and this parses those fields with
+    the same intern/2027/US rules the other board parsers apply.
+    """
+    jobs = payload.get("jobs")
+    if not isinstance(jobs, list):
+        raise ValueError("Workday search response is missing jobs")
+
+    postings, drops = [], Counter()
+    if payload.get("truncated"):
+        drops["search_truncated"] += 1
+    for job in jobs:
+        if not isinstance(job, dict):
+            drops["malformed_posting"] += 1
+            continue
+        role, link = job.get("title"), job.get("externalUrl")
+        if not role or not link:
+            drops["malformed_posting"] += 1
+            continue
+        if not _INTERN.search(role):
+            drops["role_unmatched"] += 1
+            continue
+        body = _text(job.get("jobDescription") or "")
+        if not (_TERM27.search(role) or _TERM27.search(body)):
+            drops["term_unmatched"] += 1
+            continue
+        places = [job.get("location") or ""] + list(job.get("additionalLocations") or [])
+        located = [loc for loc in (canonicalize_location(p) for p in places) if loc]
+        if not located:
+            drops["non_us_location"] += 1
+            continue
+        # startDate is Workday's absolute posting date; postedOn is only a
+        # relative string. A posting without one leaves date_posted unset and
+        # the merge marks the new row's date estimated.
+        postings.append(_board_posting(
+            source, role, " / ".join(dict.fromkeys(located)), link, body,
+            job.get("startDate")))
+    return postings, drops
+
+
 def parse_workday_cxs(payload: dict, source: dict) -> tuple[list[dict], Counter]:
     """Parse a Workday CXS search response into fetch-report postings.
 

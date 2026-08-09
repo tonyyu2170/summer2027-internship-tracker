@@ -193,3 +193,61 @@ def test_parse_ashby_board_rules():
     assert [p["role"] for p in postings] == ["Hardware Engineer Intern", "Research Resident"]
     assert postings[0]["date_posted"] == "2026-08-02"
     assert drops == {"unlisted": 1, "term_unmatched": 1}
+
+
+def test_parse_workday_search_uses_detail_fields():
+    from parse_company import parse_workday_search
+    payload = {"jobs": [
+        # Title carries no "Summer 2027"; the description supplies the evidence,
+        # and additionalLocations resolves what search showed as "3 Locations".
+        {"title": "2027 Intern Software Engineer",
+         "externalUrl": "https://ngc.wd1.myworkdayjobs.com/site/job/McLean-VA/x_R1",
+         "location": "McLean, VA",
+         "additionalLocations": ["San Francisco,  CA", "Bengaluru, India"],
+         "startDate": "2026-08-03", "postedOn": "Posted 6 Days Ago",
+         "jobDescription": "<p>Summer 2027 cohort. Master's students.</p>"},
+        {"title": "Finance Intern",  # no 2027 evidence anywhere
+         "externalUrl": "https://ngc.wd1.myworkdayjobs.com/site/job/McLean-VA/y_R2",
+         "location": "McLean, VA", "startDate": "2026-08-03",
+         "jobDescription": "Ongoing program"},
+        {"title": "Staff Engineer",  # not an intern role
+         "externalUrl": "https://ngc.wd1.myworkdayjobs.com/site/job/McLean-VA/z_R3",
+         "location": "McLean, VA", "jobDescription": "Summer 2027"},
+        {"title": "Intern, Strategy - Summer 2027",  # non-US
+         "externalUrl": "https://ngc.wd1.myworkdayjobs.com/site/job/Toronto-ON/w_R4",
+         "location": "Toronto, ON", "jobDescription": "Summer 2027"},
+    ]}
+    postings, drops = parse_workday_search(payload, BOARD_SOURCE)
+
+    assert len(postings) == 1
+    p = postings[0]
+    assert p["role"] == "2027 Intern Software Engineer"
+    assert p["location"] == "McLean, VA / San Francisco, CA"
+    assert p["link"] == "https://ngc.wd1.myworkdayjobs.com/site/job/McLean-VA/x_R1"
+    assert p["term"] == "Summer 2027"
+    assert p["degree"] == ["MS"]
+    assert p["date_posted"] == "2026-08-03"
+    assert p["source"] == "company:acme"
+    assert drops == {"term_unmatched": 1, "role_unmatched": 1, "non_us_location": 1}
+
+
+def test_parse_workday_search_omits_date_without_a_start_date():
+    from parse_company import parse_workday_search
+    payload = {"jobs": [
+        {"title": "SWE Intern", "location": "Austin, TX",
+         "externalUrl": "https://acme.wd1.myworkdayjobs.com/s/job/Austin-TX/a_R9",
+         "jobDescription": "Summer 2027"},
+        {"title": "SWE Intern", "location": "Austin, TX",  # unusable link
+         "jobDescription": "Summer 2027"},
+    ]}
+    postings, drops = parse_workday_search(payload, BOARD_SOURCE)
+
+    assert "date_posted" not in postings[0]
+    assert drops == {"malformed_posting": 1}
+
+
+def test_parse_workday_search_rejects_a_drifted_payload():
+    from parse_company import parse_workday_search
+    import pytest
+    with pytest.raises(ValueError):
+        parse_workday_search({"jobPostings": []}, BOARD_SOURCE)

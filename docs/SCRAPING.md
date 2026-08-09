@@ -49,17 +49,29 @@ roles are counted as `category_drop` and never create a category file.
 Direct company boards (wired 2026-08-09): `python3 scripts/fetch_companies.py
 [category ...]` (default: all six) pulls every watch-list entry with a wired
 provider — the rich `provider:` entries plus, implicitly, legacy entries
-whose `ats` is greenhouse/lever/ashby (public JSON APIs; workday/custom
-entries and `verified: false` links are skipped with counters). Board pulls
-keep only intern-titled roles with explicit Summer-2027 evidence and a US
-location, skip links already tracked in a different category
-(`tracked_elsewhere` — categories dedupe independently), and emit the same
-fetch-report contract. Shortcut for the whole cycle:
+whose `ats` is greenhouse/lever/ashby (public JSON APIs) or workday (wired
+2026-08-09; `custom` entries and `verified: false` links are still skipped
+with counters). Board pulls keep only intern-titled roles with explicit
+Summer-2027 evidence and a US location, skip links already tracked in a
+different category (`tracked_elsewhere` — categories dedupe independently),
+and emit the same fetch-report contract. Shortcut for the whole cycle:
 `bash scripts/auto_scrape.sh --companies` (trackers + boards + merge +
 auto-verify + local commit). This runs only on explicit request — "scrape
 companies" — like every non-tracker source. Caveat: a company report forces
 its watch-list category onto every posting it emits, so keep multi-category
 companies' watch-list category aligned with where their rows already live.
+
+Workday is a two-stage pull, because its search response has no description
+and shows a multi-site posting only as "3 Locations". Stage 1 searches the
+board's CXS endpoint for the phrase `Summer 2027` — Workday *ranks* rather
+than filters, so a bare "intern" matches most of a board while the full
+phrase narrows it (Capital One: 1775 postings -> 5). Stage 2 pulls the job
+detail behind each intern-titled hit, which is where the description,
+`additionalLocations`, and the absolute `startDate` live. `tenant`/`site`
+come from the watch-list URL (`{tenant}.wd{N}.myworkdayjobs.com/{site}`), a
+title pre-filter bounds how many detail requests a board costs, and a 5-page
+cap (`search_truncated`) stops a runaway board. CXS 406s on the shared
+`text/html` Accept header, so those requests send `application/json`.
 
 ## Fetch-report contract
 

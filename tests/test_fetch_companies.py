@@ -3,7 +3,12 @@ from pathlib import Path
 
 import yaml
 
-from fetch_companies import _fetch_workday_cxs, run
+from fetch_companies import (
+    _fetch_workday_cxs,
+    _fetch_workday_search,
+    _normalize_source,
+    run,
+)
 
 
 SOURCE = {
@@ -140,3 +145,61 @@ def test_run_merges_workday_parser_drops_with_a_matching_report(tmp_path):
     }
     state = yaml.safe_load(state_path.read_text())
     assert state["company_sources"]["company:genworth"]["row_count"] == 1
+
+
+def test_normalize_source_derives_a_workday_search_endpoint():
+    source = _normalize_source({
+        "company": "Cadence (University)", "ats": "workday",
+        "url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers"})
+
+    assert source["provider"] == "workday_search"
+    assert source["source_entity"] == "company:cadence-university"
+    assert source["tenant"] == "cadence"
+    assert source["site"] == "Univ_Careers"
+    assert source["search_text"] == "Summer 2027"
+
+
+def _search_source():
+    return _normalize_source({
+        "company": "Acme", "ats": "workday",
+        "url": "https://acme.wd1.myworkdayjobs.com/External"})
+
+
+def test_fetch_workday_search_pulls_details_only_for_intern_titles():
+    gets = []
+
+    def post(url, body):
+        assert url == "https://acme.wd1.myworkdayjobs.com/wday/cxs/acme/External/jobs"
+        assert body["searchText"] == "Summer 2027"
+        return {"total": 2, "jobPostings": [
+            {"title": "SWE Intern - Summer 2027", "externalPath": "/job/Austin-TX/a_R1"},
+            {"title": "Director, Summer 2027 Planning", "externalPath": "/job/Austin-TX/b_R2"},
+        ]}
+
+    def get(url):
+        gets.append(url)
+        return {"jobPostingInfo": {"title": "SWE Intern - Summer 2027"}}
+
+    payload = _fetch_workday_search(_search_source(), post, get)
+
+    # Only the intern-titled row costs a detail request.
+    assert gets == [
+        "https://acme.wd1.myworkdayjobs.com/wday/cxs/acme/External/job/Austin-TX/a_R1"]
+    assert payload == {"jobs": [{"title": "SWE Intern - Summer 2027"}],
+                       "truncated": False}
+
+
+def test_fetch_workday_search_caps_a_runaway_search():
+    def post(url, body):
+        offset = body["offset"]
+        return {"total": 10_000, "jobPostings": [
+            {"title": f"Intern {offset + i}", "externalPath": f"/job/Austin-TX/j{offset + i}"}
+            for i in range(20)]}
+
+    def get(url):
+        return {"jobPostingInfo": {"title": "Intern"}}
+
+    payload = _fetch_workday_search(_search_source(), post, get)
+
+    assert payload["truncated"] is True
+    assert len(payload["jobs"]) == 100
