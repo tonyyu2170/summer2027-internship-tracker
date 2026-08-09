@@ -51,20 +51,31 @@ Verified against live pages, 136 rows probed:
   re-render README, targeted commit. Deleted-for-term links ALWAYS go into
   `manual_categories.yaml` as `__drop__` or they resurrect.
 
-## Tasks
+## Status: EXECUTED 2026-08-09 (same session, commits a9f05af..1ef4c62)
 
-1. Run Bucket A run-book as-is (no code changes) — clears dates/closes/non-US.
-2. Add term verification to `ats_verify.py` (pure function + tests; flag
-   `term_mismatch` in corrections for review) and re-run Bucket A.
-3. Build `scripts/probe_custom.py` (SSR-title prober, per-host extractor
-   table, generic fallback, threaded, audit-JSON output; Playwright fallback
-   only where curl gets a JS shell). Model it on the pilot script in this
-   plan's trigger session; pilot logic: title present → authoritative,
-   absent → unknown/no action.
-4. Sweep Bucket B in host-size order, review + apply per batch.
-5. Update `docs/SCRAPING.md` (verification section), memory, and this plan's
-   completion status.
+All 844 open links were probed by at least one method: ATS APIs (467),
+API-host SSR term-scan (472), ByteDance/TikTok SSR titles (136), generic
+custom-host scan (235), Workable JSON API (14), Playwright (10 JS shells).
 
-Notes: repo venv is `.venv/bin/python3`. 9 pilot rows errored transiently —
-retry them in Bucket B. Term-marker regex that worked:
-`\b(20\d\d)\s*(Start|Summer|Fall|Spring|Winter)?\s*$` on the cleaned title.
+Results: **64 non-2027 rows deleted** (7.6% of the repo — 18 ByteDance/
+TikTok, 11+1 custom-host, 34 API-host "Fall 2026" wave), 1 non-US delete,
+9 dead rows closed (hard 404s + Point72 explicit page-not-found), 108
+titles restored, 7 dates fixed. 844 → 770 open. Every deleted link is
+suppressed in `sources/manual_categories.yaml` (deletion alone re-imports).
+
+## Residual (probed, deliberately no action — ambiguous evidence)
+
+- 47 ATS unknowns (38 Workday-HTML tenants, 9 iCIMS) — known steady-state.
+- 17 HTTP 403 bot-blocked custom rows; 1 × 406; ~5 transient read errors.
+- 6 SPA-redirects to generic careers pages (WSP ×2, Google ×2, DTCC, h-co)
+  — may be dead, but redirect-to-search is not an unambiguous signal.
+- 4 weak term suspects left open (Meta RS ×3 `start_time:2025` metadata,
+  Corpay posting-timestamp); Eluvio "Last Minute Summer" (no year).
+
+## Recurring exposure
+
+Trackers keep mislabeling non-2027 postings as Summer 2027, so NEW rows
+arrive unverified. The scans are repeatable ~5-minute procedures (threaded
+scripts in the 2026-08-09 session; audit JSONs in scratch/). Options if it
+recurs: re-run the scans after big scrape waves, or fold a term check into
+`ats_verify.decide` (original Task 2 — still unbuilt, now optional).
