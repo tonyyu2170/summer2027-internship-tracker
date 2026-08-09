@@ -321,24 +321,6 @@ def test_decide_closed_wins_over_everything():
     assert decide(_row(), ext) == [{"action": "close"}]
 
 
-def test_decide_confirms_when_stored_location_matches_any_api_us_location():
-    ext = _ext(locations=["Austin, TX", "New York, NY"], date_posted="2026-07-01")
-    assert decide(_row(), ext) == [{"action": "confirm"}]
-
-
-def test_decide_sets_location_to_primary_us_location_on_mismatch():
-    ext = _ext(locations=["Redmond, WA", "Austin, TX"])
-    actions = decide(_row(location="Washington, DC"), ext)
-    assert {"action": "set_location", "old": "Washington, DC",
-            "new": "Redmond, WA"} in actions
-
-
-def test_decide_multi_part_stored_location_confirms_on_any_member():
-    ext = _ext(locations=["Austin, TX"])
-    assert decide(_row(location="New York, NY / Austin, TX"), ext) == [
-        {"action": "confirm"}]
-
-
 def test_decide_deletes_on_non_us_country_field():
     ext = _ext(locations=["Toronto"], country="Canada")
     actions = decide(_row(), ext)
@@ -347,58 +329,11 @@ def test_decide_deletes_on_non_us_country_field():
     assert actions[0]["country"] == "Canada"
 
 
-def test_decide_non_us_location_text_alone_never_deletes():
-    # Only the country field authorizes a delete. Non-US-looking location
-    # text with no country evidence is unresolved, not deleted.
-    actions = decide(_row(), _ext(locations=["London, UK"]))
-    assert actions[0]["action"] == "location_unresolved"
-    assert all(a["action"] != "delete_non_us" for a in actions)
-
-
-@pytest.mark.parametrize("location", [
-    "Chicago, IL (On-Site)",          # \bon\b matched "on" in "on-site"
-    "Remote / On-site",
-    "San Francisco, CA (Hybrid - 3 days on-site)",
-])
-def test_decide_on_site_free_text_is_not_read_as_ontario(location):
-    actions = decide(_row(), _ext(locations=[location]))
-    assert all(a["action"] != "delete_non_us" for a in actions)
-
-
-@pytest.mark.parametrize("country", ["U.S.", "U.S.A.", "America",
-                                     "United States (USA)"])
-def test_decide_unrecognized_us_spelling_never_deletes(country):
-    # Not being in the US allowlist is not affirmative non-US evidence.
-    actions = decide(_row(), _ext(locations=["Somewhereville"], country=country))
-    assert all(a["action"] != "delete_non_us" for a in actions)
-
-
-def test_decide_unrecognized_country_is_unresolved_not_deleted():
-    # Under-matching is the safe direction: a country the pattern doesn't
-    # know yields manual review rather than a silent delete.
-    actions = decide(_row(), _ext(locations=["Munich"], country="Germany"))
-    assert actions[0]["action"] == "location_unresolved"
-
-
-def test_decide_ambiguous_city_only_is_unresolved_never_deleted():
-    # "New York" without a state canonicalizes to None — not confidently US,
-    # which is NOT the same as non-US. Spec decision 3 (amended).
-    actions = decide(_row(), _ext(locations=["New York"]))
-    assert actions[0]["action"] == "location_unresolved"
-    assert actions[0]["api_locations"] == ["New York"]
-    assert all(a["action"] != "delete_non_us" for a in actions)
-
-
 def test_decide_bare_remote_with_non_us_country_deletes():
     # "Remote" canonicalizes to "Remote (US)", but the API's own country
     # field wins when remote is the only US-looking signal
     ext = _ext(locations=["Remote"], country="Canada")
     assert decide(_row(), ext)[0]["action"] == "delete_non_us"
-
-
-def test_decide_remote_us_row_confirms_against_bare_remote():
-    ext = _ext(locations=["Remote"], country="US")
-    assert decide(_row(location="Remote (US)"), ext) == [{"action": "confirm"}]
 
 
 def test_decide_sets_differing_date():
@@ -416,91 +351,11 @@ def test_decide_confirms_estimated_date_by_reissuing_it():
             "new": "2026-07-01"} in actions
 
 
-def test_decide_no_locations_in_payload_leaves_location_alone():
-    assert decide(_row(), _ext(date_posted="2026-07-01")) == [{"action": "confirm"}]
-
-
 def test_decide_never_mutates_the_row():
     row = _row()
     before = dict(row)
     decide(row, _ext(locations=["Redmond, WA"], date_posted="2026-01-01"))
     assert row == before
-
-
-# --- location pre-cleaning -------------------------------------------------
-# canonicalize_location reads the last comma-part as the state, which is right
-# for tracker table text and wrong for raw ATS location fields. Every case here
-# is a real string observed in the 2026-08-08 live probe of 439 rows.
-
-@pytest.mark.parametrize("raw,expected", [
-    # multi-location in one string: the killer — pairing Denver with CA
-    ("Denver, CO | Long Beach, CA", ["Denver, CO", "Long Beach, CA"]),
-    # street address ahead of the city
-    ("150 North Riverside, Chicago, IL", ["Chicago, IL"]),
-    # org path
-    ("North America/USA/Minnesota/Mankato, MN", ["Mankato, MN"]),
-    # country prefix / suffix, comma- and space- and dash-separated
-    ("USA, LaFayette, GA", ["LaFayette, GA"]),
-    ("US - Lincoln, NE", ["Lincoln, NE"]),
-    ("Newark, NJ, USA", ["Newark, NJ"]),
-    ("Cambridge, MA USA", ["Cambridge, MA"]),
-    ("North Billerica, MA - USA", ["North Billerica, MA"]),
-    ("Santa Clara, California - United States of America", ["Santa Clara, CA"]),
-    # site qualifiers and parentheticals
-    ("Corporate - Baton Rouge, LA", ["Baton Rouge, LA"]),
-    ("Dallas, TX - Headquarters", ["Dallas, TX"]),
-    ("Bellevue, WA (Seattle)", ["Bellevue, WA"]),
-    ("Bala Cynwyd (Philadelphia Area), PA", ["Bala Cynwyd, PA"]),
-    ("Detroit Area, MI", ["Detroit, MI"]),
-    # casing and the New York City / New York churn
-    ("new york, NY", ["New York, NY"]),
-    ("New York City, NY", ["New York, NY"]),
-    ("Washington, D.C.", ["Washington, DC"]),
-])
-def test_location_candidates_resolve_real_ats_formats(raw, expected):
-    from ats_verify import _location_candidates, _plausible_city
-    from normalize import canonicalize_location
-    got = []
-    for cand in _location_candidates(raw):
-        canon = canonicalize_location(cand)
-        if canon and _plausible_city(canon) and canon not in got:
-            got.append(canon)
-    assert got == expected
-
-
-@pytest.mark.parametrize("raw", [
-    "Atlanta",                          # city-only: ambiguous, not non-US
-    "London",
-    "Chicago, New York City",           # two cities, no state
-    "In-Office",
-    "Flexible - Any SpaceX Site",
-    "MI - Detroit Sales Office",        # state-first: deliberately not inferred
-    "US-California-Palo Alto",
-    "DE-CELLE-BAKER-HUGHES-STRASSE 1",
-])
-def test_ambiguous_location_text_still_resolves_to_nothing(raw):
-    # Under-matching is the safe direction: these become location_unresolved,
-    # never a wrong set_location.
-    from ats_verify import _location_candidates, _plausible_city
-    from normalize import canonicalize_location
-    assert not [c for c in (canonicalize_location(x)
-                            for x in _location_candidates(raw))
-                if c and _plausible_city(c)]
-
-
-def test_decide_confirms_multi_location_string_instead_of_writing_wrong_state():
-    # The regression that halted the first live run: True Anomaly's stored
-    # 'Denver, CO' against API 'Denver, CO | Long Beach, CA' produced a
-    # set_location to 'Denver, CA'.
-    ext = _ext(locations=["Denver, CO | Long Beach, CA"])
-    assert decide(_row(location="Denver, CO"), ext) == [{"action": "confirm"}]
-
-
-def test_decide_ignores_street_address_when_a_real_city_is_present():
-    ext = _ext(locations=["150 North Riverside, Chicago, IL"])
-    actions = decide(_row(location="San Francisco, CA"), ext)
-    assert {"action": "set_location", "old": "San Francisco, CA",
-            "new": "Chicago, IL"} in actions
 
 
 def test_decide_non_us_country_beats_a_location_that_looks_us():
@@ -511,15 +366,6 @@ def test_decide_non_us_country_beats_a_location_that_looks_us():
     actions = decide(_row(location="Milton, CA"), ext)
     assert actions[0]["action"] == "delete_non_us"
     assert all(a["action"] != "set_location" for a in actions)
-
-
-def test_decide_remote_dash_city_does_not_collapse_to_remote_us():
-    # Sony's real row: 'Remote - New York'. Splitting on ' - ' must not yield
-    # the bare candidate 'Remote', which would overwrite a real city with
-    # 'Remote (US)'.
-    ext = _ext(locations=["Remote - New York"], country="United States of America")
-    actions = decide(_row(location="New York, NY"), ext)
-    assert all(a.get("new") != "Remote (US)" for a in actions)
 
 
 def test_decide_ignores_pre_cycle_requisition_dates():
@@ -534,14 +380,6 @@ def test_decide_still_takes_in_cycle_dates():
     ext = _ext(locations=["New York, NY"], date_posted="2026-06-15")
     assert {"action": "set_date", "old": "2026-07-01",
             "new": "2026-06-15"} in decide(_row(), ext)
-
-
-def test_decide_pre_cycle_date_does_not_block_a_location_fix():
-    ext = _ext(locations=["Redmond, WA"], date_posted="2016-10-06")
-    actions = decide(_row(location="Washington, DC"), ext)
-    assert {"action": "set_location", "old": "Washington, DC",
-            "new": "Redmond, WA"} in actions
-    assert all(a["action"] != "set_date" for a in actions)
 
 
 def test_api_url_greenhouse_regional_board():
@@ -580,3 +418,18 @@ def test_icims_redirect_check_ignores_non_icims_links():
     from ats_verify import icims_redirected_away
     assert icims_redirected_away(
         "https://boards.greenhouse.io/acme/jobs/123", "https://elsewhere") is False
+
+
+@pytest.mark.parametrize("locations,stored", [
+    (["Redmond, WA"], "Washington, DC"),        # would once have been set_location
+    (["New York"], "New York, NY"),             # would once have been unresolved
+    (["Chicago, IL (On-Site)"], "Austin, TX"),
+    (["150 North Riverside, Chicago, IL"], "San Francisco, CA"),
+    (["Denver, CO | Long Beach, CA"], "Denver, CO"),
+])
+def test_decide_never_proposes_a_location_change(locations, stored):
+    # Location is not a tracked field: the listing is US-only by
+    # construction and individual locations aren't rendered or corrected.
+    actions = decide(_row(location=stored), _ext(locations=locations))
+    assert all(a["action"] not in ("set_location", "location_unresolved")
+               for a in actions)

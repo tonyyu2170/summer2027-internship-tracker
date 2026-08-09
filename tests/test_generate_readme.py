@@ -99,7 +99,7 @@ def test_status_and_last_verified_columns_dropped(tmp_path):
     _write(data_dir, "swe", [_row()])
     render(data_dir, tmp_path / "README.md")
     text = (tmp_path / "README.md").read_text()
-    assert "| Company | Role | Location | Link | Date Posted | Term | Degree |" in text
+    assert "| Company | Role | Link | Date Posted | Term | Degree |" in text
     assert "Status |" not in text
     assert "Last Verified" not in text
 
@@ -155,7 +155,7 @@ def test_pipe_newline_and_paren_in_free_text_dont_corrupt_table(tmp_path):
     assert "Software Engineer \\| Backend" in row_line
     # split on unescaped pipes only: an escaped "\|" must not create a new column
     cells = [c for c in re.split(r"(?<!\\)\|", row_line) if c.strip()]
-    assert len(cells) == 7
+    assert len(cells) == 6
     assert "[Apply](<https://example.com/apply?ref=(promo)>)" in text
 
 
@@ -332,7 +332,7 @@ def test_opp_pipe_and_paren_in_free_text_dont_corrupt_table(tmp_path):
     row_line = row_lines[0]
     assert "Summer Program \\| Track B" in row_line
     cells = [c for c in re.split(r"(?<!\\)\|", row_line) if c.strip()]
-    assert len(cells) == 7
+    assert len(cells) == 7          # opportunity tables keep their own columns
     assert "[Apply](<https://example.com/apply?ref=(promo)>)" in text
 
 

@@ -39,9 +39,12 @@ def _row_cells(row: dict) -> str:
     role = _escape_cell(row["role"])
     if row.get("possible_duplicate_of"):
         role += f" ⚠️dup?({row['possible_duplicate_of']})"
+    # `location` stays in the data model — merge.py's fallback dedup key and
+    # the US-only filter both need it — but it is not rendered: the listing
+    # is US-only by construction, and scraped location text was never
+    # reliable enough to be worth a column (Tony, 2026-08-08).
     cells = [_escape_cell(row["company"]), role]
     cells += [
-        _escape_cell(row["location"]),
         f"[Apply](<{row['link']}>)",
         _escape_cell(("~" if row.get("date_estimated") else "") + row["date_posted"]),
         _escape_cell(row["term"]),
@@ -51,8 +54,7 @@ def _row_cells(row: dict) -> str:
 
 
 def _table(rows: list) -> str:
-    header = ["Company", "Role", "Location", "Link", "Date Posted", "Term",
-              "Degree"]
+    header = ["Company", "Role", "Link", "Date Posted", "Term", "Degree"]
     lines = [
         "| " + " | ".join(header) + " |",
         "| " + " | ".join(["---"] * len(header)) + " |",
@@ -164,7 +166,7 @@ def render(data_dir=None, readme_path=None, last_run=None) -> Path:
         f"_Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} — "
         f"{open_count} open roles.{last_run_clause}_",
         "",
-        "US-based Summer 2027 internships across six role categories.",
+        "US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.",
         "",
         "## Contents",
         "",

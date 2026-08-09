@@ -11,7 +11,7 @@ import re
 from datetime import datetime, timedelta, timezone
 
 from link_check import workday_cxs_url
-from normalize import canonicalize_location, _NON_US_RE
+from normalize import _NON_US_RE
 
 _UUID = r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
 # Regional boards (job-boards.eu.greenhouse.io) are served by the same
@@ -34,61 +34,9 @@ def _is_us_country(country) -> bool:
     return (country or "").strip().lower() in _US_COUNTRY
 
 
-_LOC_SPLIT_RE = re.compile(r"\s*[|;]\s*|\n+")
-_PAREN_RE = re.compile(r"\s*\([^)]*\)")
-_COUNTRY_TOKEN = r"(?:u\.?s\.?a?\.?|united states(?: of america)?)"
-_COUNTRY_PREFIX_RE = re.compile(rf"^{_COUNTRY_TOKEN}\s*[-,]\s*", re.I)
-_COUNTRY_SUFFIX_RE = re.compile(rf"[\s,-]+{_COUNTRY_TOKEN}\s*$", re.I)
-_SITE_PREFIX_RE = re.compile(
-    r"^(?:corporate|office|onsite|on-site|hybrid|remote)\s*-\s*", re.I)
-_AREA_SUFFIX_RE = re.compile(r"\s+area$", re.I)
-_JUNK_CITY_RE = re.compile(r"^\d|[|/]")
-_CITY_ALIASES = {"new york city": "New York"}
-
 # Earliest date that can plausibly be a Summer 2027 posting date. Bump this
 # when the tracker moves to a new cycle.
 _CYCLE_START = "2026-01-01"
-
-
-def _location_candidates(raw):
-    """Raw ATS location text -> candidate 'City, ST' strings.
-
-    API location fields carry shapes canonicalize_location was never built
-    for — it reads the last comma-part as the state and everything before
-    it as the city, which is right for tracker table text and wrong here.
-    Observed live: 'Denver, CO | Long Beach, CA' became 'Denver, CA'
-    (wrong state), '150 North Riverside, Chicago, IL' became
-    '150 North Riverside, IL' (street kept, city lost), and
-    'North America/USA/Minnesota/Mankato, MN' passed through whole. So
-    split the multi-location forms and strip the wrappers first, and let
-    each candidate be canonicalized on its own."""
-    out = []
-    parts = _LOC_SPLIT_RE.split(raw or "")
-    # 'Dallas, TX - Headquarters' also gets tried as 'Dallas, TX'. Only when
-    # the head half carries a comma, so it looks like 'City, ST': without
-    # that guard 'Remote - New York' yields the bare candidate 'Remote',
-    # which canonicalizes to 'Remote (US)' and loses the city.
-    parts += [p.split(" - ", 1)[0] for p in list(parts)
-              if " - " in p and "," in p.split(" - ", 1)[0]]
-    for part in parts:
-        if "/" in part:
-            part = part.rsplit("/", 1)[-1]       # org path -> its leaf
-        part = _PAREN_RE.sub("", part)
-        part = _COUNTRY_SUFFIX_RE.sub("", part)
-        part = _COUNTRY_PREFIX_RE.sub("", part)
-        part = _SITE_PREFIX_RE.sub("", part)
-        segs = [s.strip() for s in part.split(",") if s.strip()]
-        if len(segs) > 2:
-            segs = segs[-2:]                     # drop street/country lead-ins
-        if len(segs) == 2:
-            city = _AREA_SUFFIX_RE.sub("", segs[0]).strip()
-            city = _CITY_ALIASES.get(city.lower(), city)
-            state = segs[1].replace(".", "")     # 'D.C.' -> 'DC'
-            segs = [city.title() if city.islower() else city, state]
-        cand = ", ".join(segs)
-        if cand:
-            out.append(cand)
-    return out
 
 
 _ICIMS_JOB_PATH_RE = re.compile(r"(/jobs/\d+)(?:/|$)", re.I)
@@ -111,14 +59,6 @@ def icims_redirected_away(link, final_url) -> bool:
     if not m or not final_url:
         return False
     return m.group(1).lower() not in final_url.lower()
-
-
-def _plausible_city(canon) -> bool:
-    """Reject a canonical result whose city half is a leftover fragment —
-    a street number, a path remnant, or a bare country token."""
-    city = canon.rsplit(",", 1)[0].strip()
-    return bool(city) and not _JUNK_CITY_RE.search(city) and \
-        city.lower() not in {"usa", "us", "united states"}
 
 
 def _names_non_us_country(country) -> bool:
@@ -369,41 +309,15 @@ def decide(row, ext):
     if ext["closed"]:
         return [{"action": "close"}]
     actions = []
-    us_locs = []
-    for loc in ext["locations"]:
-        for cand in _location_candidates(loc):
-            canon = canonicalize_location(cand)
-            if canon and _plausible_city(canon) and canon not in us_locs:
-                us_locs.append(canon)
-    country = ext.get("country")
-    non_us_country = _names_non_us_country(country)
-    if non_us_country:
-        # An affirmative non-US country field beats any location parse. Two
-        # ways a non-US row otherwise reads as US: a bare "Remote"
-        # canonicalizes to "Remote (US)", and a foreign address can land on
-        # a real US city name — Magna's 'Milton, Ontario, CA' (country
-        # "Canada") canonicalizes to 'Ontario, CA', i.e. Ontario,
-        # California. Clearing us_locs routes the row to delete_non_us
-        # instead of relabelling it with a US location.
-        us_locs = []
-    if us_locs:
-        stored = [p.strip() for p in row["location"].split(" / ")]
-        if not any(p in us_locs for p in stored):
-            actions.append({"action": "set_location",
-                            "old": row["location"], "new": us_locs[0]})
-    elif ext["locations"]:
-        # Only the country field can authorize a delete. Location free text
-        # never can: _NON_US_RE was built for strings already containing
-        # "remote" (normalize.py), and against arbitrary employer text its
-        # short tokens misfire — "\bon\b" matches the "on" in "on-site", so
-        # "Chicago, IL (On-Site)" would read as Ontario. Anything that fails
-        # to canonicalize without affirmative country evidence goes to
-        # location_unresolved for manual review (Tony, 2026-08-08).
-        if non_us_country:
-            return [{"action": "delete_non_us",
-                     "api_locations": ext["locations"], "country": country}]
-        actions.append({"action": "location_unresolved",
-                        "api_locations": ext["locations"]})
+    # Location is no longer tracked as a corrected field (Tony, 2026-08-08:
+    # "as long as they are all US"), so the only thing the payload's
+    # locations are still read for is keeping the listing US-only: an
+    # affirmative non-US country field deletes the row. Nothing here ever
+    # rewrites row["location"].
+    if _names_non_us_country(ext.get("country")):
+        return [{"action": "delete_non_us",
+                 "api_locations": ext["locations"],
+                 "country": ext.get("country")}]
     api_date = ext["date_posted"]
     if api_date and api_date < _CYCLE_START:
         # Lever's createdAt and Greenhouse's first_published record when the

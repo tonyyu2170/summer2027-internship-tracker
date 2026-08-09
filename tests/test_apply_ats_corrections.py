@@ -39,16 +39,6 @@ def test_unknown_does_not_stamp():
     assert summary["unknown"] == ["r1"]
 
 
-def test_set_location():
-    new, summary = apply_corrections(
-        {"swe": [_row()]},
-        [_action(action="set_location", old="New York, NY", new="Redmond, WA")],
-        TODAY)
-    assert new["swe"][0]["location"] == "Redmond, WA"
-    assert new["swe"][0]["last_verified"] == TODAY
-    assert summary["location_fixed"] == ["r1"]
-
-
 def test_set_date_clears_estimated():
     new, summary = apply_corrections(
         {"swe": [_row(date_estimated=True)]},
@@ -81,16 +71,6 @@ def test_delete_removes_row_and_clears_dup_pointers_across_categories():
     assert summary["deleted"] == ["gone"]
 
 
-def test_location_unresolved_stamps_but_changes_nothing_else():
-    new, summary = apply_corrections(
-        {"swe": [_row()]},
-        [_action(action="location_unresolved", api_locations=["New York"])],
-        TODAY)
-    assert new["swe"][0]["location"] == "New York, NY"
-    assert new["swe"][0]["last_verified"] == TODAY
-    assert summary["unresolved"] == ["r1"]
-
-
 def test_correction_for_unknown_row_id_is_skipped():
     new, summary = apply_corrections(
         {"swe": [_row()]}, [_action(id="ghost")], TODAY)
@@ -100,12 +80,12 @@ def test_correction_for_unknown_row_id_is_skipped():
 
 def test_multiple_actions_for_one_row_all_apply():
     actions = [
-        _action(action="set_location", old="New York, NY", new="Austin, TX"),
         _action(action="set_date", old="2026-07-01", new="2026-06-15"),
+        _action(action="confirm"),
     ]
-    new, _ = apply_corrections({"swe": [_row()]}, actions, TODAY)
-    assert new["swe"][0]["location"] == "Austin, TX"
+    new, summary = apply_corrections({"swe": [_row()]}, actions, TODAY)
     assert new["swe"][0]["date_posted"] == "2026-06-15"
+    assert summary["confirmed"] == ["r1"] and summary["date_fixed"] == ["r1"]
 
 
 def test_apply_never_mutates_input():
@@ -116,7 +96,7 @@ def test_apply_never_mutates_input():
     snapshot = copy.deepcopy(data)
     apply_corrections(
         data,
-        [_action(action="set_location", old="New York, NY", new="Austin, TX")],
+        [_action(action="set_date", old="2026-07-01", new="2026-06-15")],
         TODAY)
     assert data == snapshot
 
@@ -152,24 +132,24 @@ def _write_corrections(tmp_path, actions):
 def test_run_applies_writes_yaml_and_renders_readme(tmp_path):
     data_dir = _setup_tree(tmp_path, [_row()])
     corrections = _write_corrections(tmp_path, [
-        _action(action="set_location", old="New York, NY", new="Redmond, WA"),
+        _action(action="set_date", old="2026-07-01", new="2026-06-15"),
     ])
     readme = tmp_path / "README.md"
     summary = run(corrections, data_dir=data_dir, readme_path=readme)
-    assert summary["location_fixed"] == ["r1"]
+    assert summary["date_fixed"] == ["r1"]
     on_disk = yaml.safe_load((data_dir / "swe.yaml").read_text())
-    assert on_disk[0]["location"] == "Redmond, WA"
+    assert on_disk[0]["date_posted"] == "2026-06-15"
     assert readme.exists()
-    assert "Redmond, WA" in readme.read_text()
+    assert "2026-06-15" in readme.read_text()
 
 
 def test_run_aborts_on_schema_failure_writing_nothing(tmp_path):
     data_dir = _setup_tree(tmp_path, [_row()])
     before = (data_dir / "swe.yaml").read_text()
     corrections = _write_corrections(tmp_path, [
-        # empty location violates ROW_SCHEMA minLength — deterministic
+        # empty date violates ROW_SCHEMA's date pattern — deterministic
         # corrections producing this means a bug, so the whole apply aborts
-        _action(action="set_location", old="New York, NY", new=""),
+        _action(action="set_date", old="2026-07-01", new=""),
     ])
     readme = tmp_path / "README.md"
     with pytest.raises(SystemExit):
@@ -222,15 +202,15 @@ def test_run_tolerates_a_pre_existing_schema_error_on_a_confirmed_row(tmp_path):
     data_dir = _setup_tree(tmp_path, [bad, _row(id="good", link="https://x.com/2")])
     corrections = _write_corrections(tmp_path, [
         _action(id="handedit", action="confirm"),
-        _action(id="good", action="set_location",
-                old="New York, NY", new="Austin, TX"),
+        _action(id="good", action="set_date",
+                old="2026-07-01", new="2026-06-15"),
     ])
     summary = run(corrections, data_dir=data_dir,
                   readme_path=tmp_path / "README.md")
     on_disk = {r["id"]: r for r in
                yaml.safe_load((data_dir / "swe.yaml").read_text())}
-    assert summary["location_fixed"] == ["good"]           # the good fix landed
-    assert on_disk["good"]["location"] == "Austin, TX"
+    assert summary["date_fixed"] == ["good"]               # the good fix landed
+    assert on_disk["good"]["date_posted"] == "2026-06-15"
     assert on_disk["handedit"]["notes"] == "hand-added field ROW_SCHEMA forbids"
 
 
@@ -238,7 +218,7 @@ def test_run_still_aborts_when_this_apply_introduces_a_schema_error(tmp_path):
     data_dir = _setup_tree(tmp_path, [_row()])
     before = (data_dir / "swe.yaml").read_text()
     corrections = _write_corrections(tmp_path, [
-        _action(action="set_location", old="New York, NY", new=""),
+        _action(action="set_date", old="2026-07-01", new=""),
     ])
     with pytest.raises(SystemExit):
         run(corrections, data_dir=data_dir, readme_path=tmp_path / "README.md")
@@ -254,7 +234,7 @@ def test_run_leaves_unchanged_category_files_untouched(tmp_path):
         allow_unicode=True))
     quant_before = (data_dir / "quant.yaml").read_text()
     corrections = _write_corrections(tmp_path, [
-        _action(action="set_location", old="New York, NY", new="Austin, TX")])
+        _action(action="set_date", old="2026-07-01", new="2026-06-15")])
     run(corrections, data_dir=data_dir, readme_path=tmp_path / "README.md")
     assert (data_dir / "quant.yaml").read_text() == quant_before
 
@@ -275,7 +255,7 @@ def test_run_rejects_a_malformed_corrections_file_cleanly(tmp_path):
 
 def test_action_missing_its_new_value_is_skipped_not_a_crash():
     new, summary = apply_corrections(
-        {"swe": [_row()]}, [_action(action="set_location", old="New York, NY")],
+        {"swe": [_row()]}, [_action(action="set_date", old="2026-07-01")],
         TODAY)
     assert summary["unrecognized_action"] == ["r1"]
-    assert new["swe"][0]["location"] == "New York, NY"
+    assert new["swe"][0]["date_posted"] == "2026-07-01"

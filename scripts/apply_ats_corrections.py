@@ -1,6 +1,6 @@
 """Apply an ats_corrections.json (from check_ats.py) to data/*.yaml — the
 single serialized writer of a verification run. Applies
-set_location/set_date/close/delete_non_us, stamps last_verified on every
+set_date/close/delete_non_us, stamps last_verified on every
 row whose probe resolved, clears possible_duplicate_of pointers into
 deleted rows, validates every touched row against ROW_SCHEMA before
 anything is written (an error this apply INTRODUCED aborts the whole run;
@@ -22,8 +22,7 @@ from schema import validate_row
 from generate_readme import render, ROOT, CATEGORIES
 
 # actions that prove the posting was authoritatively seen this run
-_RESOLVED = {"confirm", "set_location", "set_date", "close",
-             "location_unresolved"}
+_RESOLVED = {"confirm", "set_date", "close"}
 
 
 def apply_corrections(rows_by_category, actions, today):
@@ -40,8 +39,8 @@ def apply_corrections(rows_by_category, actions, today):
             if row.get("id"):
                 index[row["id"]] = row
     summary = {k: [] for k in (
-        "confirmed", "location_fixed", "date_fixed", "closed", "deleted",
-        "unresolved", "unknown", "skipped", "unrecognized_action")}
+        "confirmed", "date_fixed", "closed", "deleted",
+        "unknown", "skipped", "unrecognized_action")}
     deleted, verified = set(), set()
     for a in actions:
         rid, act = a.get("id"), a.get("action")
@@ -53,17 +52,11 @@ def apply_corrections(rows_by_category, actions, today):
             verified.add(rid)
         if act == "confirm":
             summary["confirmed"].append(rid)
-        elif act == "set_location":
-            # .get, not [..]: a hand-edited corrections file missing "new"
-            # should degrade to a skipped correction, matching merge.py's
-            # deliberate tolerance for corrupted input rather than crashing
-            # a delete-capable run mid-loop.
-            if "new" not in a:
-                summary["unrecognized_action"].append(rid)
-                continue
-            row["location"] = a["new"]
-            summary["location_fixed"].append(rid)
         elif act == "set_date":
+            # "new" not in a, rather than falsy: a hand-edited corrections
+            # file missing the key should degrade to a skipped correction
+            # rather than crash a delete-capable run mid-loop, while an
+            # empty value still reaches the schema gate.
             if "new" not in a:
                 summary["unrecognized_action"].append(rid)
                 continue
@@ -76,8 +69,6 @@ def apply_corrections(rows_by_category, actions, today):
         elif act == "delete_non_us":
             deleted.add(rid)
             summary["deleted"].append(rid)
-        elif act == "location_unresolved":
-            summary["unresolved"].append(rid)
         elif act == "unknown":
             summary["unknown"].append(rid)
         else:
@@ -129,7 +120,7 @@ def run(corrections_path, data_dir=None, readme_path=None):
 
     # Corrections are matched to rows by id alone, so a duplicate id would
     # apply one row's correction to another row entirely: a delete would
-    # remove every row sharing the id (reporting one), and a set_location
+    # remove every row sharing the id (reporting one), and a set_date
     # would land on whichever row loaded last. Duplicate ids are a known,
     # unfixed upstream bug in merge.py's id hash, and run_scrape_merge
     # deliberately writes them to disk anyway rather than lose a listing.
@@ -163,8 +154,7 @@ def run(corrections_path, data_dir=None, readme_path=None):
     # but last_verified) would drag every such row into the gate and let one
     # stale typo anywhere in the dataset block the whole verification.
     touched = set()
-    for kind in ("confirmed", "location_fixed", "date_fixed", "closed",
-                 "unresolved"):
+    for kind in ("confirmed", "date_fixed", "closed"):
         touched.update(summary[kind])
     before_errors = {}
     for rows in rows_by_category.values():

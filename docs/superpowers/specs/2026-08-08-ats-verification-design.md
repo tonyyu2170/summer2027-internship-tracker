@@ -23,36 +23,32 @@ API and are out of scope.
 1. **Field scope:** the API may overwrite `location` and `date_posted`, and
    may close a row (`status: closed`, same semantics as a source-side
    `closed_marker`). `role`/`term`/`degree` are never touched.
-2. **Multi-location:** if the stored location matches *any* of the API's US
-   locations (after `canonicalize_location`), it is confirmed and left
-   alone. On a mismatch, write the API's first/primary US location only.
-3. **All-non-US:** a row is **deleted** only when the API's **country
-   field** affirmatively names a non-US country (`_NON_US_RE` matched
-   against the country field alone), including the case where its only
-   US-looking signal is a bare "Remote" while that country field says
-   non-US. **Location text never authorizes a delete.** Merely ambiguous
-   locations (city-only text like "New York" — `canonicalize_location`
-   returns None for *not confidently US*, which is not the same as non-US)
-   produce a `location_unresolved` action instead: no change, recorded in
-   the corrections file for manual follow-up. Every deletion is listed
-   individually in the run output and recorded in the corrections file for
-   audit. *(Amended twice on 2026-08-08 with Tony's approval. First from
-   "delete when nothing canonicalizes US" — that rule would have
-   false-deleted US rows whose authoritative location is city-only text.
-   Then from "or a location matches `normalize._NON_US_RE`" — that pattern
-   was built for strings already containing "remote", and against arbitrary
-   employer free text its short tokens misfire: `\bon\b` matches the "on"
-   in "on-site", so "Chicago, IL (On-Site)" read as Ontario and would have
-   deleted a live US row. The country check is likewise affirmative rather
-   than `not _is_us_country(...)`, so unrecognized US spellings like "U.S."
-   are not read as non-US evidence. Consequence, accepted: a country the
-   pattern doesn't recognize — "Germany", "Japan" — yields
-   `location_unresolved` rather than a delete. Under-matching is the safe
-   direction; widen by adding an affirmative country list, never by
-   inverting the US check.)*
-4. **README (ask #2):** the *Status* and *Last Verified* columns are dropped
-   from the job tables, and only `status: open` rows are rendered. Both
-   fields remain in `data/*.yaml`; nothing changes in the data model.
+2. **Location is not a tracked field.** *(Amended 2026-08-08: "i dont care
+   much about location, we can get rid of location. as long as they are all
+   US" — Tony.)* The API never rewrites `location`, and the README job
+   tables do not render it. The field stays in `data/*.yaml` because
+   `merge.py`'s fallback dedup key and the merge-time US-only filter both
+   read it. The `set_location` and `location_unresolved` actions are gone.
+3. **All-non-US:** a row is **deleted** when the API's **country field**
+   affirmatively names a non-US country (`_NON_US_RE` matched against the
+   country field alone). Location text never authorizes a delete, and no
+   location parse can veto one. *(Amended three times on 2026-08-08 with
+   Tony's approval. From "delete when nothing canonicalizes US", which
+   would have false-deleted US rows with city-only locations. Then dropping
+   "or a location matches `normalize._NON_US_RE`" — that pattern was built
+   for strings already containing "remote", and `on` matched the "on"
+   in "on-site", so "Chicago, IL (On-Site)" read as Ontario. The country
+   check is affirmative rather than `not _is_us_country(...)`, so
+   unrecognized US spellings like "U.S." are not non-US evidence. Finally,
+   with location no longer tracked, the country field is the whole rule.
+   Accepted consequence: a country the pattern does not recognize —
+   "Germany", "Japan" — is not deleted. Under-matching is the safe
+   direction; widen with an affirmative country list, never by inverting
+   the US check.)*
+4. **README (ask #2):** the *Status*, *Last Verified* and *Location*
+   columns are dropped from the job tables, and only `status: open` rows
+   are rendered. All three fields remain in `data/*.yaml`; nothing changes
+   in the data model.
 5. **Architecture:** corrections-report + dedicated applier (option B
    below), not an extension of `merge_category` and not a one-off repair
    script.
@@ -95,12 +91,9 @@ corrections JSON to `scratch/ats_corrections.json`. It never writes
 
 Reads the corrections file and applies it to `data/*.yaml` in one pass:
 
-- applies `set_location` / `set_date` / `close` / `delete_non_us`; counts
-  `location_unresolved` (the row is stamped `last_verified`, nothing else
-  changes);
+- applies `set_date` / `close` / `delete_non_us`;
 - stamps `last_verified = today` on every row whose probe resolved
-  (confirmed, corrected, closed, or location-unresolved) — never on
-  `unknown`;
+  (confirmed, corrected, or closed) — never on `unknown`;
 - clears any `possible_duplicate_of` that pointed at a deleted row id;
 - validates every modified row against `ROW_SCHEMA` **before** writing; any
   failure aborts the whole apply with nothing written (corrections are
@@ -118,7 +111,7 @@ At least one entry per probed row:
   "generated": "2026-08-08",
   "actions": [
     {"id": "examplecorp-swe-intern-a1b2c3", "category": "swe", "ats": "workday",
-     "action": "set_location", "old": "Washington, DC", "new": "Redmond, WA"},
+     "action": "set_date", "old": "2026-08-08", "new": "2026-07-15"},
     {"id": "samplesoft-swe-intern-d4e5f6", "category": "swe", "ats": "greenhouse",
      "action": "confirm"},
     {"id": "acme-quant-intern-778899", "category": "quant", "ats": "lever",
@@ -134,15 +127,9 @@ sharing its `id`. `confirm` and `unknown` carry no old/new.
 
 - API URL answers 404/410, or the payload marks the posting closed →
   `close`.
-- Payload locations are canonicalized with `canonicalize_location`:
-  - stored location matches any canonical US location → confirmed;
-  - some location is canonically US but none matches the stored one →
-    `set_location` to the first US location the API lists;
-  - nothing canonicalizes US and the API affirmatively says non-US (see
-    decision 3) → `delete_non_us`;
-  - nothing canonicalizes US and the evidence is merely ambiguous →
-    `location_unresolved`: no change, recorded for manual follow-up;
-  - no locations in the payload → location untouched.
+- The payload's country field is the only location-derived signal read: if
+  it affirmatively names a non-US country -> `delete_non_us`. Otherwise the
+  row's `location` is left exactly as-is (decision 2).
 - Payload has a posting date differing from the row's → `set_date`, and
   `date_estimated` is cleared (an authoritative date beats both an estimate
   and a wrong "real" tracker date).

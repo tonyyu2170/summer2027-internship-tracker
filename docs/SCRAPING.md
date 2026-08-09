@@ -205,10 +205,13 @@ auto-close on.
    confirm nothing unexpected is staged.
 6. **Pushing is Tony's action alone.** The assistant never runs `git push`.
 
-## ATS verification pass (authoritative location/date)
+## ATS verification pass (authoritative posting date / open state)
 
 Manual, explicit-request-only re-verification of open rows whose links sit
-on an API-covered ATS (Workday CXS, Greenhouse boards-api, Lever v0
+on an API-covered ATS. Corrects `date_posted`, closes dead postings, and
+deletes rows the API's country field says are non-US. It never touches
+`location` — that field is kept for merge-time dedup and the US filter, but
+is not tracked or rendered (Workday CXS, Greenhouse boards-api, Lever v0
 postings, Ashby posting-api, SmartRecruiters postings API, iCIMS JSON-LD).
 Design: `docs/superpowers/specs/2026-08-08-ats-verification-design.md`.
 
@@ -244,16 +247,7 @@ Design: `docs/superpowers/specs/2026-08-08-ats-verification-design.md`.
 
 Never run concurrently with `run_scrape_merge.py` (single-writer
 discipline), and **do not scrape between steps 1 and 4** — the corrections
-file has no freshness check, so a stale `set_location` would clobber a
-fresher merge result and a stale `close` would close a re-listed row.
+file has no freshness check, so a stale `set_date` would clobber a fresher
+merge result and a stale `close` would close a re-listed row.
 `unknown` results change nothing — no disappearance-based closing.
 
-Expect `location_unresolved` to dominate the first run rather than real
-corrections: `canonicalize_location` takes the last comma-separated part as
-the state, so common ATS forms like `"Charlotte, North Carolina, United
-States"` and Workday's `"USA-NY-New York"` do not resolve. Those rows are
-US, open, and correct — they are noise, not findings. Note also that
-`delete_non_us` can never fire for Greenhouse, Lever or SmartRecruiters rows
-(~197 of the 439 probed): Greenhouse carries no country field, and the other
-two return ISO-2 codes that `_NON_US_RE` does not match. That is the safe
-direction, by design.
