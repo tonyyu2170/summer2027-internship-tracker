@@ -147,6 +147,48 @@ def test_run_merges_workday_parser_drops_with_a_matching_report(tmp_path):
     assert state["company_sources"]["company:genworth"]["row_count"] == 1
 
 
+def _greenhouse_board(*titles):
+    return {"jobs": [
+        {"title": t, "absolute_url": f"https://boards.greenhouse.io/acme/jobs/{i}",
+         "location": {"name": "Austin, TX"}, "content": "Summer 2027. BS students."}
+        for i, t in enumerate(titles)]}
+
+
+def test_run_drops_company_roles_categorize_rejects(tmp_path):
+    config_path = tmp_path / "companies.yaml"
+    out_dir = tmp_path / "reports"
+    _write_config(config_path, {"swe": [
+        {"company": "Acme", "ats": "greenhouse", "url": "acme"}]})
+    payload = _greenhouse_board("Supply Chain Intern", "Outside Sales Internship")
+
+    drops = run("swe", out_dir, config_path, tmp_path / "state.yaml",
+                fetch=lambda _: payload)
+
+    assert drops["company:acme"]["category_drop"] == 2
+    assert not list(out_dir.glob("*.json")) or not list(out_dir.glob("company_acme_*.json"))
+
+
+def test_run_files_company_postings_under_their_classified_category(tmp_path):
+    config_path = tmp_path / "companies.yaml"
+    out_dir = tmp_path / "reports"
+    _write_config(config_path, {"swe": [
+        {"company": "Acme", "ats": "greenhouse", "url": "acme"}]})
+    # A swe-watch-list board carrying a data-science role and an unclassifiable
+    # one: the first is filed where it belongs, the second falls back.
+    payload = _greenhouse_board("Data Science Intern - Summer 2027",
+                                "Software Engineer Intern",
+                                "Rotational Program Intern")
+
+    run("swe", out_dir, config_path, tmp_path / "state.yaml", fetch=lambda _: payload)
+
+    ds = json.loads((out_dir / "company_acme_data_science.json").read_text())
+    assert ds["category"] == "data_science"
+    assert [p["role"] for p in ds["postings"]] == ["Data Science Intern - Summer 2027"]
+    swe = json.loads((out_dir / "company_acme_swe.json").read_text())
+    assert sorted(p["role"] for p in swe["postings"]) == [
+        "Rotational Program Intern", "Software Engineer Intern"]
+
+
 def test_normalize_source_derives_a_workday_search_endpoint():
     source = _normalize_source({
         "company": "Cadence (University)", "ats": "workday",

@@ -16,7 +16,7 @@ from urllib.parse import urlsplit
 import certifi
 import yaml
 
-from categorize import known_link_categories
+from categorize import DROP, classify_role, known_link_categories
 from normalize import normalize_link
 from parse_company import (
     is_intern_title,
@@ -29,6 +29,7 @@ from parse_company import (
 )
 
 ROOT = Path(__file__).resolve().parent.parent
+CATEGORIES = ["swe", "quant", "data_science", "ai_ml", "hardware", "actuarial"]
 _SSL_CTX = ssl.create_default_context(cafile=certifi.where())
 _HEADERS = {"User-Agent": "internship-tracker-scraper", "Accept": "text/html"}
 _PARSERS = {
@@ -247,16 +248,22 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
         source = _normalize_source(source)
         entity = source["source_entity"]
         provider = source["provider"]
-        report_path = out_dir / f"{_report_name(entity)}_{category}.json"
+        def clear_reports():
+            # A posting can be filed outside its watch-list category, so a
+            # source owns one report per category, not just its own.
+            for known_category in CATEGORIES:
+                (out_dir / f"{_report_name(entity)}_{known_category}.json").unlink(
+                    missing_ok=True)
+
         if provider in ("_unwired", "_unverified"):
-            report_path.unlink(missing_ok=True)
+            clear_reports()
             drop_counts.pop(entity, None)
             drop_counts[entity][provider.lstrip("_") + "_source"] += 1
             continue
-        # A requested collection owns its source's report and counters for
+        # A requested collection owns its source's reports and counters for
         # this run. Otherwise a failed source would leave a stale report for
         # the merge and repeated runs would inflate its drop tally.
-        report_path.unlink(missing_ok=True)
+        clear_reports()
         drop_counts.pop(entity, None)
         if provider == "manual_discovery":
             drop_counts[entity]["manual_discovery"] += 1
@@ -284,29 +291,40 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
         # creates a cross-category duplicate the merge can't see (categories
         # dedupe independently). Same-category known links pass through: the
         # merge refreshes the existing row.
-        kept = []
+        # A watch-list board is the company's whole intern programme, so most
+        # of what it returns is off-scope for this tracker (supply chain, HR,
+        # sales). The watch-list category says where a company's rows *live*,
+        # not what any one role is — so categorize.py decides, exactly as it
+        # does for the tracker path, and only falls back to the watch-list
+        # category when it can't tell.
+        by_category = defaultdict(list)
         for posting in postings:
             existing_cat = known.get(normalize_link(posting["link"]))
             if existing_cat and existing_cat != category:
                 drop_counts[entity]["tracked_elsewhere"] += 1
                 continue
-            kept.append(posting)
-        postings = kept
-        if not postings:
+            resolved = classify_role(posting["role"])
+            if resolved == DROP:
+                drop_counts[entity]["category_drop"] += 1
+                continue
+            by_category[resolved or category].append(posting)
+        if not by_category:
             if not parser_drops:
                 drop_counts[entity]["role_unmatched"] += 1
             print(f"[{entity}] no matching roles; no report written")
             continue
 
-        report = {"category": category, "source_entity": entity, "postings": postings}
-        report_path.write_text(json.dumps(report, indent=1))
+        for target, rows in sorted(by_category.items()):
+            (out_dir / f"{_report_name(entity)}_{target}.json").write_text(json.dumps(
+                {"category": target, "source_entity": entity, "postings": rows}, indent=1))
+        total = sum(len(rows) for rows in by_category.values())
         company_state[entity] = {
             "provider": provider,
             "last_success": date.today().isoformat(),
-            "row_count": len(postings),
+            "row_count": total,
         }
         state_changed = True
-        print(f"[{entity}] {len(postings)} posting(s)")
+        print(f"[{entity}] {total} posting(s) -> {', '.join(sorted(by_category))}")
 
     (out_dir / "drop_counts.json").write_text(json.dumps(
         {source: dict(counts) for source, counts in sorted(drop_counts.items())}, indent=1))
@@ -346,8 +364,7 @@ def _prefetched(config_path=None):
 
 
 if __name__ == "__main__":
-    categories = sys.argv[1:] or ["swe", "quant", "data_science", "ai_ml",
-                                  "hardware", "actuarial"]
+    categories = sys.argv[1:] or CATEGORIES
     fetch = _prefetched()
     for cat in categories:
         print(f"--- {cat} ---")

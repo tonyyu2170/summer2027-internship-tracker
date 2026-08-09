@@ -57,9 +57,21 @@ different category (`tracked_elsewhere` — categories dedupe independently),
 and emit the same fetch-report contract. Shortcut for the whole cycle:
 `bash scripts/auto_scrape.sh --companies` (trackers + boards + merge +
 auto-verify + local commit). This runs only on explicit request — "scrape
-companies" — like every non-tracker source. Caveat: a company report forces
-its watch-list category onto every posting it emits, so keep multi-category
-companies' watch-list category aligned with where their rows already live.
+companies" — like every non-tracker source.
+
+A watch-list board is a company's *whole* intern programme, so most of what
+it returns is off-scope (supply chain, HR, outside sales). The watch-list
+category therefore says only where a company's rows tend to live, not what
+any one role is: every posting goes through `categorize.classify_role`, the
+same rules the tracker path uses. A `DROP` verdict drops the posting
+(`category_drop`); a confident verdict files it under *that* category, so one
+source can write several reports (`company_acme_data_science.json` alongside
+`company_acme_swe.json`) and a source clears its report in every category
+before a run; only an unclassifiable role falls back to the watch-list
+category. Measured on the first full Workday pass this cut 145 hits to ~65.
+Residual imprecision is categorize.py's, not the board path's — `internship
+program` is a DROP alternative, so "Technology Internship Program" drops,
+while a bare `engineer` match sends civil/mechanical interns to swe.
 
 Workday is a two-stage pull, because its search response has no description
 and shows a multi-site posting only as "3 Locations". Stage 1 searches the
