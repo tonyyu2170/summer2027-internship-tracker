@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-09 11:23 EST — 805 open roles. Last scrape: +1 new, 0 closed._
+_Last updated: 2026-08-09 11:24 EST — 804 open roles. Last scrape: +1 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -155,7 +155,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Bosch | Powertrain Controls Software Engineering Intern - 6-Months | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000140089589-powertrain-controls-software-engineering-intern-6-months-?oga=true>) | 2026-07-27 | Summer 2027 | BS |
 | SRI International | Drexel University Co-op: Software Engineering/Full stack development | [Apply](<https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job>) | 2026-07-27 | Summer 2027 | BS |
 | Appian | Information Security Engineer Intern | [Apply](<https://job-boards.greenhouse.io/appian/jobs/8088496>) | 2026-07-27 | Summer 2027 | BS |
-| TikTok | Software Engineer Project Intern - Model Infrastructure - 2026 Start - BS/MS | [Apply](<https://lifeattiktok.com/search/7624284785283746053>) | ~2026-07-25 | Summer 2027 | BS |
 | Figure AI | Validation Engineering Intern [Fall 2... | [Apply](<https://job-boards.greenhouse.io/figureai/jobs/4606072006>) | ~2026-07-25 | Summer 2027 | BS |
 | Coca-Cola | Co-Op - Engineering Technician | [Apply](<https://coke.wd1.myworkdayjobs.com/coca-cola-careers/job/US---GA---Atlanta/Co-Op---Engineering-Technician_R-143655>) | ~2026-07-25 | Summer 2027 | BS |
 | CloudFit Software | Summer Intern, Early Interest (Software / AI/ML / Cyber) | [Apply](<https://cloudfitsoftware.applytojob.com/apply/oaG5GcybAo>) | ~2026-07-24 | Summer 2027 | BS |

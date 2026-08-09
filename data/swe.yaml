@@ -2893,22 +2893,6 @@
   date_added: '2026-07-25'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: tiktok-software-engineer-project-intern-model-infrastructure-2026-start-bs-ms-8b6bf6
-  company: TikTok
-  role: Software Engineer Project Intern - Model Infrastructure - 2026 Start - BS/MS
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7624284785283746053
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: jane-street-software-engineer-winter-co-op-34623b
   company: Jane Street
   role: Software Engineer Winter Co-Op
