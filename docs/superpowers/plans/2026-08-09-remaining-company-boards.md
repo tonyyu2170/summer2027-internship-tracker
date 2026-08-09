@@ -1,5 +1,49 @@
 # Remaining company-board work (post-Workday)
 
+> **Status 2026-08-09 (executed):** Task 1 **done** (`bcddf61`). Task 3 step 1
+> **done for smartrecruiters** (`5f3c34f`), **closed as not-viable for icims**.
+> Task 2 **dropped**. Remaining: the 524 custom entries (incl. the 99
+> `verified: false`) and steps 2–4, which the yield data now argues for
+> deferring to the fall.
+>
+> **What was learned, so nobody re-derives it:**
+> - Workday error codes: **422 = bad tenant, 404 = bad site**, confirmed with a
+>   control probe against a known-good board. Fastest triage for any future
+>   board failure.
+> - Castleton: Workday tenant ids can't contain `-`, so the `osv-cci` vanity
+>   host fronts tenant `osv_cci`. Entries can now pin `tenant:`/`site:`. A
+>   blanket `-` -> `_` rule was rejected: 1 of 114 hosts is hyphenated, so it
+>   would fire once and silently break a genuinely hyphenated tenant later.
+> - Penn State: the `Student` site serves search but 404s **every** job detail.
+>   `PSU_Staff` serves both legs, so the URL points there now.
+> - IDEXX: 422 for every tenant/site pair, and a nonexistent-tenant control
+>   (`zzznotarealtenant.wd1...`) returns the identical Workday maintenance
+>   redirect — that host was never a Workday tenant. IDEXX runs Phenom at
+>   `careers.idexx.com`; retagged `custom` (counted unwired), since there is no
+>   board-wide Phenom provider.
+> - **iCIMS has no public JSON — this plan's premise below was wrong.**
+>   `careers-{slug}.icims.com` is an Angular `iCIMS_JobsTable` page,
+>   `searchRss=1` returns HTML rather than a feed, and detail pages carry no
+>   JSON-LD. Wiring it means bespoke HTML scraping, which this repo doesn't
+>   build. The 12 entries stay unwired **by decision, not omission.**
+> - SmartRecruiters **does** have a public API, but needed Workday's two-stage
+>   shape rather than greenhouse's one-shot: no description in the list
+>   response, and its narrowing params are ignored (`q=` ranks,
+>   `experienceLevel` dropped). Live across all 9 boards: 54 detail fetches ->
+>   **3 on-scope rows** (Western Digital hardware + swe, InfiniteQuant quant).
+> - **Task 2 (`Mckinney, TX`) dropped**, taking this file's own "leave it and
+>   delete this task" option: location isn't displayed, the value canonicalizes
+>   correctly, and the alternative is hand-maintaining an intercaps list that
+>   will be wrong elsewhere. Don't raise it a third time.
+> - **Step 3's "stop and measure" is answered, and it says stop.** Yield per
+>   wired board keeps falling: 114 Workday boards -> ~65 rows; 9
+>   SmartRecruiters boards -> 3 rows. Re-measure in the fall before spending
+>   effort on the ~500-host custom tail.
+>
+> Still needs Tony: none of these 3 rows are in `data/` yet — that takes an
+> explicit "scrape companies" run.
+
+
 Handoff from the 2026-08-09 Workday session (commits `aa60082`, `736bf71`,
 `ad31b10`). Tony asked to tackle these in a fresh session. Everything below is
 grounded in probes already run — don't re-derive it, verify and proceed.

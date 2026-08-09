@@ -49,9 +49,10 @@ roles are counted as `category_drop` and never create a category file.
 Direct company boards (wired 2026-08-09): `python3 scripts/fetch_companies.py
 [category ...]` (default: all six) pulls every watch-list entry with a wired
 provider — the rich `provider:` entries plus, implicitly, legacy entries
-whose `ats` is greenhouse/lever/ashby (public JSON APIs) or workday (wired
-2026-08-09; `custom` entries and `verified: false` links are still skipped
-with counters). Board pulls keep only intern-titled roles with explicit
+whose `ats` is greenhouse/lever/ashby/smartrecruiters (public JSON APIs) or
+workday (all wired 2026-08-09; `custom`, `icims`, and `verified: false`
+entries are still skipped with counters — see "iCIMS is deliberately
+unwired" below). Board pulls keep only intern-titled roles with explicit
 Summer-2027 evidence and a US location, skip links already tracked in a
 different category (`tracked_elsewhere` — categories dedupe independently),
 and emit the same fetch-report contract. Shortcut for the whole cycle:
@@ -84,6 +85,32 @@ come from the watch-list URL (`{tenant}.wd{N}.myworkdayjobs.com/{site}`), a
 title pre-filter bounds how many detail requests a board costs, and a 5-page
 cap (`search_truncated`) stops a runaway board. CXS 406s on the shared
 `text/html` Accept header, so those requests send `application/json`.
+
+Workday's error codes tell you which half is wrong, which is worth knowing
+before hand-editing a board URL: **422 means a bad tenant, 404 a bad site.**
+The tenant is normally the first host label, but Workday tenant ids can't
+contain `-`, so a hyphenated vanity host fronts an underscored tenant
+(`osv-cci.wd1...` serves tenant `osv_cci`). Those entries pin `tenant:` (and
+may pin `site:`) in `sources/companies.yaml` rather than relying on
+derivation — a blanket `-` -> `_` rule would break a genuinely hyphenated
+tenant. A site can also serve search but 404 every job detail (Penn State's
+`Student`), in which case find the sibling site that serves both.
+
+SmartRecruiters is the same two-stage shape for a different reason: its list
+response carries no description, and it *ignores* the params that would
+narrow the board server-side — `q=intern` ranks (AbbVie: still 724 of 1712,
+MSL roles on top) and `experienceLevel=internship` is dropped entirely. So
+the whole board is paged at 100/request. Unlike Workday, list rows carry a
+structured location, so the intern-title pre-filter also checks
+`location.country == "us"`, which is what keeps the detail leg cheap: 307
+intern-titled hits across the nine boards reduce to 54 detail fetches.
+
+**iCIMS is deliberately unwired.** Probed 2026-08-09: `careers-{slug}.icims.com`
+serves an Angular-rendered `iCIMS_JobsTable` page, the `searchRss=1` parameter
+returns HTML rather than a feed, and job-detail pages carry no JSON-LD. There
+is no public JSON to parse, so the only route is bespoke HTML scraping — which
+this repo deliberately doesn't build. The 12 entries stay `icims` and are
+counted as `unwired_source`. Revisit only if iCIMS exposes a real API.
 
 ## Fetch-report contract
 
