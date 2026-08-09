@@ -43,7 +43,7 @@ _RULES = [
            r"|graphic design|visual design|instructional design|industrial design"
            r"|biolog|vaccine|clinical|formulation|\bmaterials\b|paint|coating"
            r"|radiolog|chemist|skillbridge"
-           r"|legal|counsel|compliance|administrat|archivist|polling|real estate"
+           r"|legal|counsel|compliance|administrat|archivist|polling|real estate|returning plann"
            r"|communication|publicity"
            r"|relationship manager|investor engage|business development"
            r"|aerospace|payload|\bgnc\b|guidance, navigation"

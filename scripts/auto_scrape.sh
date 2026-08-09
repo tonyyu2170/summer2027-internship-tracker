@@ -73,6 +73,14 @@ if [ $rc -ne 0 ]; then
     exit 1
 fi
 
+log "run: verify_links.py"
+"$PY" scripts/verify_links.py >> "$LOG" 2>&1
+rc=$?
+if [ $rc -ne 0 ]; then
+    attention "verify_links.py exited $rc — see log; scrape left uncommitted"
+    exit 1
+fi
+
 if $GIT diff --quiet -- data/; then
     # No listing changes. Drop the README timestamp-only churn so "Last
     # updated" keeps reflecting when listings last changed; scrape_state
@@ -85,7 +93,7 @@ if $GIT diff --quiet -- data/; then
     exit 0
 fi
 
-$GIT add data/ sources/scrape_state.yaml README.md
+$GIT add data/ sources/scrape_state.yaml sources/manual_categories.yaml README.md
 if ! $GIT commit -q -m "scrape: auto-update roles as of $(date '+%Y-%m-%d %H:%M')" >> "$LOG" 2>&1; then
     attention "git commit failed — see log"
     exit 1

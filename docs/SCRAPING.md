@@ -30,6 +30,19 @@ and appends to `scratch/auto_scrape/NEEDS_ATTENTION` (log:
 per-link entries in `sources/manual_categories.yaml` (or a `categorize.py`
 rule for a recurring family), then re-run.
 
+**Every scrape auto-verifies its new rows** (added 2026-08-09): after a
+successful merge the runner calls `scripts/verify_links.py`, which probes
+each row added today (ByteDance/TikTok SSR titles, Workable JSON API,
+generic HTML elsewhere) and applies only unambiguous outcomes — explicit
+non-2027 term ⇒ delete + suppress in `manual_categories.yaml`; hard
+404/410 ⇒ delete; authoritative ByteDance/TikTok title ⇒ restore role text.
+Ambiguous results (bot-blocks, missing SSR titles, metadata-only years) are
+never acted on. A flood of wrong-term flags aborts with no changes (format
+break, not data). Judgment rules live in `scripts/link_verify.py`
+(unit-tested); audit trail: `scratch/verify_links_audit.json`.
+`python3 scripts/verify_links.py --all` re-verifies every open row —
+explicit request only, like all full passes.
+
 Consulting and investment banking are intentionally out of scope. Matching
 roles are counted as `category_drop` and never create a category file.
 
