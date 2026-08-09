@@ -46,11 +46,20 @@ explicit request only, like all full passes.
 Consulting and investment banking are intentionally out of scope. Matching
 roles are counted as `category_drop` and never create a category file.
 
-For the enabled actuarial company source, run
-`python3 scripts/fetch_companies.py actuarial` before the serialized merge.
-It emits the same fetch-report JSON contract as tracker sources and writes no
-data files itself. Do not run it until the planned direct-link migration for
-the historical Oliver Wyman row has been reviewed.
+Direct company boards (wired 2026-08-09): `python3 scripts/fetch_companies.py
+[category ...]` (default: all six) pulls every watch-list entry with a wired
+provider — the rich `provider:` entries plus, implicitly, legacy entries
+whose `ats` is greenhouse/lever/ashby (public JSON APIs; workday/custom
+entries and `verified: false` links are skipped with counters). Board pulls
+keep only intern-titled roles with explicit Summer-2027 evidence and a US
+location, skip links already tracked in a different category
+(`tracked_elsewhere` — categories dedupe independently), and emit the same
+fetch-report contract. Shortcut for the whole cycle:
+`bash scripts/auto_scrape.sh --companies` (trackers + boards + merge +
+auto-verify + local commit). This runs only on explicit request — "scrape
+companies" — like every non-tracker source. Caveat: a company report forces
+its watch-list category onto every posting it emits, so keep multi-category
+companies' watch-list category aligned with where their rows already live.
 
 ## Fetch-report contract
 
