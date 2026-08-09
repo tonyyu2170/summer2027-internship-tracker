@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-09 11:21 EST — 807 open roles. Last scrape: +1 new, 0 closed._
+_Last updated: 2026-08-09 11:23 EST — 805 open roles. Last scrape: +1 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -488,9 +488,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Susquehanna International Group (SIG) | Quantitative Research Intern - PhD: Summer 2027 | [Apply](<https://careers-sig.icims.com/jobs/10817/job?mobile=true&needsRedirect=false>) | 2026-04-21 | Summer 2027 | PhD |
 | Susquehanna International Group (SIG) | Quantitative Systematic Trading Intern - Master's: Summer 2027 | [Apply](<https://careers-sig.icims.com/jobs/10823/job?mobile=true&needsRedirect=false>) | 2026-04-21 | Summer 2027 | MS |
 | Susquehanna International Group (SIG) | Quantitative Research Intern | [Apply](<https://careers-sig.icims.com/jobs/10819/job?mobile=true&needsRedirect=false>) | 2026-04-21 | Summer 2027 | MS |
-| Point72 | Investment Analyst Intern, Point72 Academy | [Apply](<https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081>) | 2026-04-19 | Summer 2027 | BS |
 | Point72 | Quantitative Researcher Intern | [Apply](<https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-researcher-internship&jobCode=CSS-0012295>) | 2026-04-19 | Summer 2027 | BS |
-| Point72 | Quantitative Developer Intern | [Apply](<https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-developer-internship&jobCode=CSS-0012293>) | 2026-04-19 | Summer 2027 | BS |
 | Susquehanna International Group (SIG) | Quantitative Trader Intern | [Apply](<https://careers-sig.icims.com/jobs/10717/job?mobile=true&needsRedirect=false>) | 2026-04-17 | Summer 2027 | BS |
 | CME Group | Quant Risk Management Intern - Year Round | [Apply](<https://cmegroup.wd1.myworkdayjobs.com/en-US/cme_careers/job/New-York---300-Vesey-Street/Quant-Risk-Management-Intern---Year-Round_34278>) | 2026-04-13 | Summer 2027 | BS |
 | Radix Trading | Quantitative Technologist - C++ Intern | [Apply](<https://job-boards.greenhouse.io/radixuniversity/jobs/8500265002>) | 2026-04-09 | Summer 2027 | BS |
