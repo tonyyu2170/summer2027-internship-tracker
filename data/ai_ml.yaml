@@ -1,6 +1,7 @@
 - id: bytedance-student-researcher-multimodal-interaction-world-model-seed-67c396
   company: ByteDance
-  role: Student Researcher, Multimodal Interaction & World Model (Seed)
+  role: Student Researcher (Multimodal Interaction and World Model - Seed) - 2027
+    Start
   location: San Jose, CA
   link: https://joinbytedance.com/search/7623548747208739077
   date_posted: '2026-06-28'
@@ -16,7 +17,7 @@
   possible_duplicate_of: null
 - id: bytedance-student-researcher-vision-foundation-model-seed-e6b7ad
   company: ByteDance
-  role: Student Researcher, Vision Foundation Model (Seed)
+  role: Student Researcher (Vision Foundation Model - Seed) - 2027 Start
   location: San Jose, CA
   link: https://joinbytedance.com/search/7623544831999346997
   date_posted: '2026-06-28'
@@ -67,7 +68,8 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-business-integrity-phd-9bfbc8
   company: TikTok
-  role: Applied Scientist Intern, Business Integrity (PhD)
+  role: Applied Scientist Intern - Business Integrity - Global Frontier Tech Recruitment
+    Program - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7631063087262419205
   date_posted: '2026-04-21'
@@ -83,7 +85,8 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-monetization-genai-phd-71fde1
   company: TikTok
-  role: Applied Scientist Intern, Monetization GenAI (PhD)
+  role: Applied Scientist Intern - Monetization GenAI - Global Frontier Tech Recruitment
+    Program - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7631062649025857797
   date_posted: '2026-04-21'
@@ -99,7 +102,8 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-monetization-technology-phd-0f1cb8
   company: TikTok
-  role: Applied Scientist Intern, Monetization Technology (PhD)
+  role: Applied Scientist Intern - Monetization Technology - Global Frontier Tech
+    Recruitment Program - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7629248119245261061
   date_posted: '2026-04-16'
@@ -115,7 +119,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-e-commerce-recommendation-llm-phd-98002d
   company: TikTok
-  role: Research Scientist Intern, E-commerce Recommendation LLM (PhD)
+  role: Research Scientist Intern– E-commerce Recommendation(LLM Applications) - Global
+    Frontier Tech Recruitment Program - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7629187524074342709
   date_posted: '2026-04-16'
@@ -383,8 +388,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-tiktok-search-generative-ai-llm-global-frontier-tech-recruitment-program-2027-start-phd-5b77be
   company: TikTok
-  role: Research Scientist Intern - TikTok Search / Generative AI - LLM - Global Frontier
-    Tech Recruitment Program - 2027 Start - PhD
+  role: Research Scientist Intern – TikTok Search / Generative AI (LLM) - Global Frontier
+    Tech Recruitment Program - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7629250876813642037
   date_posted: '2026-04-16'
@@ -1235,22 +1240,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: tiktok-llm-post-training-engineer-intern-research-product-a36fc9
-  company: TikTok
-  role: LLM Post-training Engineer Intern, Research & Product
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7631599293708126517
-  date_posted: '2026-04-24'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:vanshb03
-  date_added: '2026-07-23'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: intercontinental-exchange-inc-artificial-intelligence-data-machine-learning-intern-f935cf
   company: Intercontinental Exchange, Inc.
   role: Artificial Intelligence, Data & Machine Learning Intern
@@ -1268,79 +1257,11 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: bytedance-software-engineer-intern-applied-mac-c95b8b
-  company: ByteDance
-  role: Software Engineer Intern (Applied Mac...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7533045355162044690
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: fortinet-software-development-intern-genai-c00b76
   company: Fortinet
   role: Software Development Intern - GenAI
   location: Santa Clara, CA
   link: https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22401
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: bytedance-machine-learning-engineer-intern-glo-620c2a
-  company: ByteDance
-  role: Machine Learning Engineer Intern (Glo...
-  location: Seattle, WA
-  link: https://joinbytedance.com/search/7535951608832657682
-  date_posted: '2026-08-08'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: bytedance-machine-learning-engineer-intern-glo-2d8070
-  company: ByteDance
-  role: Machine Learning Engineer Intern (Glo...
-  location: Seattle, WA
-  link: https://joinbytedance.com/search/7535953226975054098
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: bytedance-machine-learning-engineer-intern-e-c-c72c34
-  company: ByteDance
-  role: Machine Learning Engineer Intern (E-C...
-  location: Seattle, WA
-  link: https://joinbytedance.com/search/7543005612200970503
   date_posted: '2026-07-23'
   term: Summer 2027
   degree:
@@ -1475,26 +1396,10 @@
   date_estimated: false
 - id: bytedance-applied-research-intern-ai-safety-s-3a3777
   company: ByteDance
-  role: Applied Research Intern - AI Safety S...
+  role: Applied Research Intern- AI Safety Security -Global Tech Research Program-2027
+    Start
   location: San Jose, CA
   link: https://joinbytedance.com/search/7645070235035044101
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: bytedance-research-scientist-intern-seed-respo-1ec408
-  company: ByteDance
-  role: Research Scientist Intern (Seed Respo...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7642762054696896773
   date_posted: '2026-07-23'
   term: Summer 2027
   degree:
@@ -1527,7 +1432,8 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-trust-and-b4cc95
   company: TikTok
-  role: Applied Scientist Intern - Trust and ...
+  role: Applied Scientist Intern - Trust and Safety (Multimodal Foundation Model)
+    - Global Frontier Tech Recruitment Program - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/position/7633668456744503557
   date_posted: '2026-04-28'
@@ -1905,23 +1811,6 @@
   date_added: '2026-07-25'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: tiktok-ai-software-engineer-project-intern-transaction-platform-2026-start-bs-ms-4f891e
-  company: TikTok
-  role: AI software Engineer Project Intern - Transaction Platform - 2026 Start -
-    BS/MS
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7646621925436131637
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: campbell-soup-company-agentic-ai-engineer-co-op-4bbe1e
   company: Campbell Soup Company
   role: Agentic AI Engineer Co-Op
@@ -2030,7 +1919,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-trust-and-safety-380f75
   company: TikTok
-  role: Research Scientist Intern - Trust and Safety
+  role: Research Scientist Intern (Trust and Safety - CV/NLP/Multimodal LLM) - 2027
+    Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7662672903447988485
   date_posted: '2026-08-03'
@@ -2047,7 +1937,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-foundations-intelligence-service-32184c
   company: TikTok
-  role: Research Scientist Intern - Foundations & Intelligence Service
+  role: Research Scientist Intern (Data-TnS-Algo-Foundations &amp; Intelligence Service)
+    - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662677746436524293
   date_posted: '2026-08-03'
@@ -2066,7 +1957,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-basic-ranking-25be14
   company: TikTok
-  role: Machine Learning Engineer Intern - Basic Ranking
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027
+    Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667339583362025781
   date_posted: '2026-08-03'
@@ -2084,7 +1976,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-recommendation-2bb674
   company: TikTok
-  role: Machine Learning Engineer Intern - Recommendation
+  role: (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation) -
+    2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662653087863081221
   date_posted: '2026-08-03'
@@ -2120,7 +2013,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-794421
   company: TikTok
-  role: Machine Learning Engineer Intern
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667338938890930437
   date_posted: '2026-08-03'
@@ -2138,7 +2032,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-search-search-quality-82ee2d
   company: TikTok
-  role: Machine Learning Engineer Intern - Data Search Search Quality
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - 2027
+    Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7665475888805611781
   date_posted: '2026-08-03'
@@ -2174,7 +2069,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-search-quality-4a20a3
   company: TikTok
-  role: Machine Learning Engineer Intern - Search Quality
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - Summer
+    2027
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7665475460339665157
   date_posted: '2026-08-03'
@@ -2193,7 +2089,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-neural-graphics-and-world-models-3565d3
   company: TikTok
-  role: Research Scientist Intern - Neural Graphics and World Models
+  role: Research Scientist Intern (TikTok-Neural Graphics and World Models) - 2027
+    Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935738840090933
   date_posted: '2026-08-03'
@@ -2212,7 +2109,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-8abe31
   company: TikTok
-  role: Machine Learning Engineer Intern
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667350291952765237
   date_posted: '2026-08-03'
@@ -2229,7 +2127,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-search-visual-search-bf8f1b
   company: TikTok
-  role: Machine Learning Engineer Intern - Data Search - Visual Search
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027
+    Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667349591727278341
   date_posted: '2026-08-03'
@@ -2247,7 +2146,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-scientist-intern-content-ecology-llm-application-bf1ae0
   company: TikTok
-  role: Machine Learning Scientist Intern - Content Ecology - LLM Application
+  role: Machine Learning Scientist Intern (TikTok - Content Ecology - LLM application)
+    - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667933770625599749
   date_posted: '2026-08-03'
@@ -2265,7 +2165,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-d447df
   company: TikTok
-  role: Machine Learning Engineer Intern
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667346576033777925
   date_posted: '2026-08-03'
@@ -2282,7 +2183,7 @@
   possible_duplicate_of: null
 - id: tiktok-artificial-intelligence-engineer-intern-client-architecture-919674
   company: TikTok
-  role: Artificial Intelligence Engineer Intern - Client Architecture
+  role: AI Engineer Intern (TikTok-Client Arch)- 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935738190465285
   date_posted: '2026-08-03'
@@ -2301,7 +2202,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-scientist-intern-df486d
   company: TikTok
-  role: Machine Learning Scientist Intern
+  role: Machine Learning Scientist Intern (TikTok-Local Services) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667934169444485429
   date_posted: '2026-08-03'
@@ -2319,7 +2220,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-recommendation-2daace
   company: TikTok
-  role: Research Scientist Intern - Recommendation
+  role: Research Scientist Intern (TikTok-Recommendation) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662661203281447221
   date_posted: '2026-08-03'
@@ -2338,7 +2239,8 @@
   possible_duplicate_of: null
 - id: tiktok-generative-ai-researcher-intern-intelligent-creation-vision-and-graphics-92b290
   company: TikTok
-  role: Generative AI Researcher Intern - Intelligent Creation-Vision and Graphics
+  role: Generative AI Researcher Intern (Intelligent Creation-Vision and Graphics)
+    - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668183035989281029
   date_posted: '2026-08-03'
@@ -2396,7 +2298,7 @@
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-multi-modal-agentic-databases-14220d
   company: ByteDance
-  role: Research Scientist Intern - Multi-modal Agentic Databases
+  role: Research Scientist Intern (Multi-modal Agentic Databases) - 2027 Start
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7667380184615127301/detail
   date_posted: '2026-08-03'
@@ -2415,7 +2317,7 @@
   possible_duplicate_of: null
 - id: bytedance-ai-perception-intern-pico-2565c9
   company: ByteDance
-  role: AI Perception Intern - Pico
+  role: AI Perception Intern (PICO) - 2027 Start
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7665457718334425349/detail
   date_posted: '2026-08-03'
@@ -2434,7 +2336,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-monetization-technology-business-integrity-04804f
   company: TikTok
-  role: Research Scientist Intern - Monetization Technology - Business Integrity
+  role: Research Scientist Intern (Monetization Technology - Business Integrity) -
+    2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668204438271969589
   date_posted: '2026-08-03'
@@ -2453,7 +2356,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-engineer-intern-monetization-technology-business-integrity-4998e4
   company: TikTok
-  role: Research Engineer Intern - Monetization Technology - Business Integrity
+  role: Research Engineer Intern (Monetization Technology - Business Integrity) -
+    2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668202602270951733
   date_posted: '2026-08-03'
@@ -2470,7 +2374,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-monetization-technology-business-integrity-b35c69
   company: TikTok
-  role: Research Scientist Intern - Monetization Technology - Business Integrity
+  role: Research Scientist Intern (Monetization Technology - Business Integrity) -
+    2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668202600147552517
   date_posted: '2026-08-03'
@@ -2563,7 +2468,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-5c7e5c
   company: TikTok
-  role: Machine Learning Engineer Intern
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Local Service) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668379675467761925
   date_posted: '2026-08-04'
@@ -2598,7 +2504,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-ads-signal-measurement-6df6f2
   company: TikTok
-  role: Machine Learning Engineer Intern - Ads Signal & Measurement
+  role: Machine Learning Engineer Intern (Ads Signal &amp; Measurement) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669700361976809733
   date_posted: '2026-08-04'
@@ -2616,7 +2522,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-performance-monetization-ef3a91
   company: TikTok
-  role: Machine Learning Engineer Intern - Performance Monetization
+  role: (General Hire) Machine Learning Engineer Intern (Performance Monetization)
+    - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669693163422845237
   date_posted: '2026-08-04'
@@ -2634,7 +2541,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-lead-ads-608557
   company: TikTok
-  role: Machine Learning Engineer Intern - Lead Ads
+  role: Machine Learning Engineer Intern (Lead Ads) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669707492914727221
   date_posted: '2026-08-04'
@@ -2652,7 +2559,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-commerce-ads-summer-2027-e37b1d
   company: TikTok
-  role: Machine Learning Engineer Intern - Commerce Ads - Summer 2027
+  role: Machine Learning Engineer Intern (Commerce Ads) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669711968043092229
   date_posted: '2026-08-04'
@@ -2672,7 +2579,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-search-ads-b3b303
   company: TikTok
-  role: Machine Learning Engineer Intern - Search Ads
+  role: Machine Learning Engineer Intern (Search Ads) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669698648817305909
   date_posted: '2026-08-04'
@@ -2690,7 +2597,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-brand-ads-656a4e
   company: TikTok
-  role: Machine Learning Engineer Intern - Brand Ads
+  role: Machine Learning Eningeer Intern (Brand Ads) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668654528822954245
   date_posted: '2026-08-04'
@@ -2708,7 +2615,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-performance-monetization-f89997
   company: TikTok
-  role: Machine Learning Engineer Intern - Performance Monetization
+  role: (General Hire) Machine Learning Engineer Intern (Performance Monetization)
+    - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669693205558561077
   date_posted: '2026-08-04'
@@ -2724,7 +2632,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-app-ads-and-gaming-fd0565
   company: TikTok
-  role: Machine Learning Engineer Intern - App Ads and Gaming
+  role: Machine Learning Engineer Intern (App Ads and Gaming) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669709472078170373
   date_posted: '2026-08-04'
@@ -2742,7 +2650,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-search-recommendation-global-e-commerce-b2cb49
   company: TikTok
-  role: Machine Learning Engineer Intern - Data Search Recommendation Global E-Commerce
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation-Global
+    E-Commerce) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7668383643375257909
   date_posted: '2026-08-04'
@@ -2761,8 +2670,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-engineer-intern-agentic-systems-ai-infrastructure-generalized-architecture-518bf1
   company: TikTok
-  role: Research Engineer Intern - Agentic Systems & AI Infrastructure - Generalized
-    Architecture
+  role: Research Engineer Intern, Agentic Systems &amp; AI Infrastructure  (TikTok-Generalized
+    Arch) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7667934792727906565
   date_posted: '2026-08-03'
@@ -2799,7 +2708,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-global-e-commerce-search-03670e
   company: TikTok
-  role: Machine Learning Engineer Intern - Data-Global E-Commerce-Search
+  role: Machine Learning Engineer Intern (Data-Global E-Commerce-Search) - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7668415591670417717
   date_posted: '2026-08-05'
@@ -2817,7 +2726,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-search-98bd04
   company: TikTok
-  role: Machine Learning Engineer Intern - Search
+  role: Machine Learning Engineer Intern (Data-Global E-Commerce-Search) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7668396597746862341
   date_posted: '2026-08-05'
@@ -2836,7 +2745,7 @@
   possible_duplicate_of: null
 - id: tiktok-data-engineer-intern-ads-targeting-c3e6b9
   company: TikTok
-  role: Data Engineer Intern - Ads Targeting
+  role: Data Engineering Project Intern  (Ads Targeting) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668533140146817333
   date_posted: '2026-08-05'
@@ -2873,7 +2782,7 @@
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-multimedia-streaming-16300b
   company: ByteDance
-  role: Research Scientist Intern - Multimedia Streaming
+  role: Research Scientist Intern (Multimedia Streaming) - 2027 Start
   location: San Diego, CA
   link: https://jobs.bytedance.com/en/position/7670354800621603125/detail
   date_posted: '2026-08-06'
@@ -2892,7 +2801,8 @@
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-511a28
   company: ByteDance
-  role: Research Scientist Intern
+  role: Research Scientist Intern (Video Quality Analysis &amp; Coding Strategy) -
+    2027 Start
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670375041041320245/detail
   date_posted: '2026-08-06'
@@ -2908,7 +2818,8 @@
   possible_duplicate_of: null
 - id: bytedance-applied-machine-learning-production-engineer-intern-aml-production-engineer-26bd7b
   company: ByteDance
-  role: Applied Machine Learning Production Engineer Intern - AML Production Engineer
+  role: Applied Machine Learning Production Engineer Intern (AML-Production Engineer)
+    - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670009669494704437/detail
   date_posted: '2026-08-06'
@@ -2929,8 +2840,8 @@
   possible_duplicate_of: null
 - id: bytedance-machine-learning-research-scientist-intern-seed-ai-for-science-atomistic-ai-221962
   company: ByteDance
-  role: Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic
-    AI
+  role: Machine Learning Research Scientist Intern (Seed AI for Science - Atomistic
+    AI) - 2027 Start
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7670855041951795509/detail
   date_posted: '2026-08-07'
@@ -3022,7 +2933,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ml-infra-2027-start-phd-c63f8f
   company: TikTok
-  role: Software Engineer Intern - ML Infra - 2027 Start - PhD
+  role: Software Engineer Intern (ML Infra) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668696895234197813
   date_posted: '2026-08-01'
@@ -3086,38 +2997,6 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-machine-learning-engineer-intern-e-c-af0e8c
-  company: ByteDance
-  role: Machine Learning Engineer Intern (E-C...
-  location: Seattle, WA
-  link: https://joinbytedance.com/search/7538942403488188680
-  date_posted: '2026-08-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-machine-learning-engineer-intern-e-c-ff51f2
-  company: ByteDance
-  role: Machine Learning Engineer Intern (E-c...
-  location: Seattle, WA
-  link: https://joinbytedance.com/search/7535171166420453639
-  date_posted: '2026-08-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -3188,7 +3067,7 @@
   possible_duplicate_of: null
 - id: bytedance-research-intern-sdn-traffic-intellig-3ab4b5
   company: ByteDance
-  role: Research Intern (SDN Traffic Intellig...
+  role: Research Intern (SDN Traffic Intelligence &amp; Control) - 2027 Start
   location: San Jose, CA
   link: https://joinbytedance.com/search/7668118098724079877
   date_posted: '2026-08-08'
@@ -3256,7 +3135,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-content-intelligence-030098
   company: TikTok
-  role: Research Scientist Intern - Content Intelligence
+  role: Research Scientist Intern (TikTok-Data-Content Intelligence) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662662842545539381
   date_posted: '2026-08-03'
@@ -3273,7 +3152,7 @@
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-c8a264
   company: ByteDance
-  role: Research Scientist Intern
+  role: Research Scientist Intern (AI Infra Compute) - 2027 Start
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7667379218929780997/detail
   date_posted: '2026-08-03'

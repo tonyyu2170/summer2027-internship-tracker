@@ -1655,40 +1655,6 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
-- id: bytedance-security-engineering-project-intern-7ec665
-  company: ByteDance
-  role: Security Engineering Project Intern (...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7625759034518128901
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: bytedance-site-reliability-engineer-project-int-3fdaef
-  company: ByteDance
-  role: Site Reliability Engineer Project Int...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7600174040255007029
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: western-digital-summer-2027-software-engineering-in-4480b2
   company: Western Digital
   role: Summer 2027 - Software Engineering In...
@@ -1743,59 +1709,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: tiktok-frontend-software-engineer-project-in-368465
-  company: TikTok
-  role: Frontend Software Engineer Project In...
-  location: San Jose, CA
-  link: https://lifeattiktok.com/position/7654431844394322229
-  date_posted: '2026-07-02'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:chieler
-  - github_tracker:speedyapply
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: tiktok-software-engineer-intern-recommendat-40b705
-  company: TikTok
-  role: Software Engineer Intern (Recommendat...
-  location: San Jose, CA
-  link: https://lifeattiktok.com/position/7534878965941766408
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: tiktok-frontend-engineer-project-intern-tik-9b4c1e
-  company: TikTok
-  role: Frontend Engineer Project Intern (Tik...
-  location: San Jose, CA
-  link: https://lifeattiktok.com/position/7595733632086591797
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: palantir-forward-deployed-infrastructure-engin-8b9d74
   company: Palantir
   role: Forward Deployed Infrastructure Engin...
@@ -3033,40 +2946,6 @@
   date_added: '2026-07-25'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: tiktok-software-engineer-intern-quality-and-efficiency-technology-2026-summer-bs-ms-db655f
-  company: TikTok
-  role: Software Engineer Intern - Quality and Efficiency Technology - 2026 Summer
-    - BS/MS
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7637047421538404613
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: tiktok-software-engineer-project-intern-recommendation-infrastructure-tiktok-video-social-2026-start-bs-ms-3822d5
-  company: TikTok
-  role: Software Engineer Project Intern - Recommendation Infrastructure - TikTok
-    Video Social - 2026 Start - BS/MS
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7629500062003218741
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: tiktok-software-engineer-project-intern-model-infrastructure-2026-start-bs-ms-8b6bf6
   company: TikTok
   role: Software Engineer Project Intern - Model Infrastructure - 2026 Start - BS/MS
@@ -3695,7 +3574,8 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-creative-intelligence-and-brand-innovation-00a83e
   company: TikTok
-  role: Software Engineer Intern - Creative Intelligence and Brand Innovation
+  role: Software Engineer Intern (Creative Intelligence and Brand Innovation) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668642761473902901
   date_posted: '2026-08-03'
@@ -3716,7 +3596,8 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-trust-and-safety-engineering-c21bc2
   company: TikTok
-  role: Software Engineer Intern - Trust and Safety Engineering
+  role: (General Hire) Software Engineer Intern (Trust and Safety-Engineering) - 2027
+    Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7662684280234232117
   date_posted: '2026-08-03'
@@ -3736,7 +3617,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-99ebe3
   company: TikTok
-  role: Software Engineer Intern
+  role: Software Engineer Intern (Ads Infrastructure) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668581636242016565
   date_posted: '2026-08-03'
@@ -3754,7 +3635,8 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-d3637f
   company: TikTok
-  role: Software Engineer Intern
+  role: (General Hire) Software Engineer Intern (Trust and Safety-Engineering) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662700594251958581
   date_posted: '2026-08-03'
@@ -3774,7 +3656,7 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-715068
   company: TikTok
-  role: Backend Software Engineer Intern
+  role: Backend Software Engineer Intern (TikTok-Social-Foundation) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935565120112949
   date_posted: '2026-08-03'
@@ -3795,7 +3677,7 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-313718
   company: TikTok
-  role: Backend Software Engineer Intern
+  role: Backend Software Engineer Intern (TikTok-Social-Friending) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667934635573692725
   date_posted: '2026-08-03'
@@ -3815,7 +3697,7 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-c1f3e2
   company: TikTok
-  role: Backend Software Engineer Intern
+  role: Backend Software Engineer Intern (TikTok-PGC-Creator Strategy) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667933770819897605
   date_posted: '2026-08-03'
@@ -3834,7 +3716,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ads-measurement-signal-and-privacy-2782e9
   company: TikTok
-  role: Software Engineer Intern - Ads Measurement Signal and Privacy
+  role: Software Engineer Intern (Ads Measurement Signal and Privacy) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668582031916435717
   date_posted: '2026-08-03'
@@ -3854,7 +3736,8 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-innovative-growth-710977
   company: TikTok
-  role: Backend Software Engineer Intern - Innovative Growth
+  role: Backend Software Engineer Intern (TikTok-Growth-Innovative Growth) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667934860750063925
   date_posted: '2026-08-03'
@@ -3875,7 +3758,8 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-digital-content-center-4b30dd
   company: TikTok
-  role: Backend Software Engineer Intern - Digital Content Center
+  role: Backend Software Engineer Intern (TikTok- PGC-Digital Content Center) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667934302872537397
   date_posted: '2026-08-03'
@@ -3896,7 +3780,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-social-friending-f07c84
   company: TikTok
-  role: Software Engineer Intern - Social Friending
+  role: Software Engineer Intern (TikTok-Social-Friending) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935399050692917
   date_posted: '2026-08-03'
@@ -3918,7 +3802,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-data-architecture-e-commerce-b02f0e
   company: TikTok
-  role: Software Engineer Intern - Data Architecture - E-commerce
+  role: Software Engineer Intern (Data Arch - E-commerce) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7668582146236631349
   date_posted: '2026-08-03'
@@ -3939,7 +3823,8 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-d0d748
   company: TikTok
-  role: Software Engineer Intern
+  role: Software Engineer Intern (TikTok-Generalized Arch-Code Intelligence &amp;
+    Quality Validation) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935738376227077
   date_posted: '2026-08-03'
@@ -3959,7 +3844,7 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-419bba
   company: TikTok
-  role: Backend Software Engineer Intern
+  role: Backend Software Engineer Intern (TikTok-Search) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667933335084124469
   date_posted: '2026-08-03'
@@ -3979,7 +3864,7 @@
   possible_duplicate_of: null
 - id: tiktok-frontend-engineer-intern-open-platform-5b5aa1
   company: TikTok
-  role: Frontend Engineer Intern - Open Platform
+  role: Software Engineer Intern (TikTok- Developer Platform) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935739300792629
   date_posted: '2026-08-03'
@@ -3999,7 +3884,8 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-agentic-creation-effect-platform-3fe2b9
   company: TikTok
-  role: Software Engineer Intern - Agentic Creation-Effect Platform
+  role: Software Engineer Intern (TikTok-Agentic Creation-Effect Platform) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668445566565321013
   date_posted: '2026-08-03'
@@ -4020,7 +3906,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-b35765
   company: TikTok
-  role: Software Engineer Intern
+  role: Software Engineer Intern (TikTok-Agentic Creation-AIGC) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668675500744837381
   date_posted: '2026-08-03'
@@ -4040,7 +3926,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-7e0735
   company: TikTok
-  role: Software Engineer Intern
+  role: Software Engineer Intern (Data Arch - E-commerce) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7668582086899763461
   date_posted: '2026-08-03'
@@ -4060,7 +3946,7 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-2e8703
   company: TikTok
-  role: Backend Software Engineer Intern
+  role: Backend Software Engineer Intern (TikTok-Privacy and Security) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935739300317493
   date_posted: '2026-08-03'
@@ -4080,7 +3966,8 @@
   possible_duplicate_of: null
 - id: tiktok-frontend-software-engineer-intern-ads-measurement-signal-and-privacy-92c451
   company: TikTok
-  role: Frontend Software Engineer Intern - Ads Measurement Signal and Privacy
+  role: Frontend Software Engineer Intern (Ads Measurement Signal and Privacy) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668584161852229893
   date_posted: '2026-08-03'
@@ -4141,7 +4028,7 @@
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-ai-infra-compute-53dee2
   company: ByteDance
-  role: Software Engineer Intern - AI Infra Compute
+  role: Software Engineer Intern (AI Infra Compute) - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7667378931599214853/detail
   date_posted: '2026-08-03'
@@ -4160,7 +4047,7 @@
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-ai-infrastructure-compute-e6be58
   company: ByteDance
-  role: Software Engineer Intern - AI Infrastructure Compute
+  role: Software Engineer Intern (AI Infra Compute) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7667377525182662965/detail
   date_posted: '2026-08-03'
@@ -4178,7 +4065,7 @@
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-ce32f8
   company: ByteDance
-  role: Software Engineer Intern
+  role: Software Engineer Intern (Distributed NoSQL Database Systems) - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7668373268886161669/detail
   date_posted: '2026-08-03'
@@ -4198,7 +4085,7 @@
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-distributed-nosql-database-systems-517ea7
   company: ByteDance
-  role: Software Engineer Intern - Distributed NoSQL Database Systems
+  role: Software Engineer Intern (Distributed NoSQL Database Systems) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7668374190764050741/detail
   date_posted: '2026-08-03'
@@ -4313,7 +4200,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-global-crm-0d0a2d
   company: TikTok
-  role: Software Engineer Intern - Global CRM
+  role: Software Engineer Intern (Global CRM) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669711844487399685
   date_posted: '2026-08-04'
@@ -4334,7 +4221,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-effects-performance-eff1b3
   company: TikTok
-  role: Software Engineer Intern - Effects Performance
+  role: Software Engineer Intern (TikTok - Effects Performance) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668725183121000757
   date_posted: '2026-08-04'
@@ -4355,7 +4242,8 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-product-infrastructure-2ff396
   company: TikTok
-  role: Backend Software Engineer Intern - Product Infrastructure
+  role: Backend Software Engineer Intern (TikTok - Product Infrastructure) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935633764370741
   date_posted: '2026-08-04'
@@ -4376,7 +4264,7 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-global-e-commerce-1e71ae
   company: TikTok
-  role: Backend Software Engineer Intern - Global E-Commerce
+  role: Backend Software Engineer Intern (Global E-Commerce) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668834837268138293
   date_posted: '2026-08-04'
@@ -4397,7 +4285,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ads-interface-eadf7a
   company: TikTok
-  role: Software Engineer Intern - Ads Interface
+  role: Software Engineer Intern (Ads Interface) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669705785962727733
   date_posted: '2026-08-04'
@@ -4418,7 +4306,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-d3bf89
   company: TikTok
-  role: Software Engineer Intern
+  role: Software Engineer Intern (TikTok - Shoot Experience Optimization) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668921505254410549
   date_posted: '2026-08-04'
@@ -4438,7 +4326,7 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-global-e-commerce-759204
   company: TikTok
-  role: Backend Software Engineer Intern - Global E-Commerce
+  role: Backend Software Engineer Intern (Global E-Commerce) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7668834837268416821
   date_posted: '2026-08-04'
@@ -4458,7 +4346,7 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-live-foundation-governance-engineering-525c81
   company: TikTok
-  role: Backend Software Engineer Intern - LIVE Foundation Governance Engineering
+  role: Backend Software Engineer Intern (TikTok-Global Live-Foundation) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935150530840837
   date_posted: '2026-08-04'
@@ -4499,7 +4387,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-transaction-platform-7f215b
   company: TikTok
-  role: Software Engineer Intern - Transaction Platform
+  role: Software Engineer Intern (Transaction Platform) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669943120351906053
   date_posted: '2026-08-04'
@@ -4520,7 +4408,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-intelligent-creation-camera-720f5a
   company: TikTok
-  role: Software Engineer Intern - Intelligent Creation-Camera
+  role: Software Engineer Intern (TikTok-Intelligent Creation-Camera) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668862422178318597
   date_posted: '2026-08-04'
@@ -4540,7 +4428,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-a54de1
   company: TikTok
-  role: Software Engineer Intern
+  role: Software Engineer Intern (AI Agent &amp; Global Revenue Platform) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669712589169117445
   date_posted: '2026-08-04'
@@ -4559,7 +4447,7 @@
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-ai-platform-4320f5
   company: ByteDance
-  role: Software Engineer Intern - AI Platform
+  role: Software Engineer Intern (AI Platform) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7668212952030841093/detail
   date_posted: '2026-08-04'
@@ -4579,7 +4467,7 @@
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-creation-platform-46d534
   company: TikTok
-  role: Backend Software Engineer Intern - Creation Platform
+  role: Backend Software Engineer Intern (Creation Platform) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7670289874020993285
   date_posted: '2026-08-05'
@@ -4712,7 +4600,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-media-engine-193346
   company: TikTok
-  role: Software Engineer Intern - Media Engine
+  role: Software Engineer Intern (Media Engine) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7670295535077427509
   date_posted: '2026-08-06'
@@ -4732,7 +4620,7 @@
   possible_duplicate_of: null
 - id: bytedance-video-image-ai-ml-software-engineer-intern-multimedia-07e4a5
   company: ByteDance
-  role: Video/Image AI/ML Software Engineer Intern - Multimedia
+  role: Video/Image AI/ML Software Engineer Intern (Multimedia) - 2027 Start
   location: San Diego, CA
   link: https://jobs.bytedance.com/en/position/7670354329765464373/detail
   date_posted: '2026-08-06'
@@ -4750,8 +4638,8 @@
   possible_duplicate_of: null
 - id: bytedance-gpu-ai-application-system-software-engineer-intern-system-technologies-and-engineering-623b63
   company: ByteDance
-  role: GPU/AI Application System Software Engineer Intern - System Technologies and
-    Engineering
+  role: GPU/AI Application System Software Engineer Intern (System Technologies and
+    Engineering) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7668464504736876853/detail
   date_posted: '2026-08-06'
@@ -4771,7 +4659,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-foundation-platform-d046cc
   company: TikTok
-  role: Software Engineer Intern - Foundation Platform
+  role: Software Engineer Intern (Foundation Platform) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7670281449668905269
   date_posted: '2026-08-06'
@@ -4791,7 +4679,8 @@
   possible_duplicate_of: null
 - id: bytedance-ai-network-automation-engineer-intern-global-physical-network-infrastructure-146657
   company: ByteDance
-  role: AI Network Automation Engineer Intern - Global Physical Network Infrastructure
+  role: AI Network Automation Engineer intern (Global Physical Network Infra) - 2027
+    Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670690923748870405/detail
   date_posted: '2026-08-06'
@@ -4868,7 +4757,7 @@
   possible_duplicate_of: null
 - id: tiktok-fullstack-software-engineer-intern-global-e-commerce-d3da9b
   company: TikTok
-  role: Fullstack Software Engineer Intern - Global E-Commerce
+  role: Fullstack Software Engineer Intern (Global E-Commerce) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7670700387322300677
   date_posted: '2026-08-07'
@@ -4888,7 +4777,7 @@
   possible_duplicate_of: null
 - id: tiktok-fullstack-software-engineer-intern-global-e-commerce-2027-summer-5c9e90
   company: TikTok
-  role: Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer
+  role: Fullstack Software Engineer Intern (Global E-Commerce) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7670738362521520437
   date_posted: '2026-08-07'
@@ -4907,7 +4796,7 @@
   possible_duplicate_of: null
 - id: bytedance-network-software-engineer-intern-network-switch-5dbf96
   company: ByteDance
-  role: Network Software Engineer Intern - Network Switch
+  role: Network Software Development Engineer Intern (Network Switch) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670778018960542005/detail
   date_posted: '2026-08-07'
@@ -4927,7 +4816,8 @@
   possible_duplicate_of: null
 - id: bytedance-network-software-engineer-intern-network-observation-2c86db
   company: ByteDance
-  role: Network Software Engineer Intern - Network Observation
+  role: Network Software Development Engineer Intern(Network  Observation) - 2027
+    Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670772641439041797/detail
   date_posted: '2026-08-07'
@@ -5078,7 +4968,7 @@
   possible_duplicate_of: null
 - id: tiktok-frontend-engineer-intern-ads-interface-33264a
   company: TikTok
-  role: Frontend Engineer Intern - Ads Interface
+  role: Frontend Engineer Intern (Ads Interface) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7671211313289398581
   date_posted: '2026-08-07'
@@ -5097,7 +4987,7 @@
   possible_duplicate_of: null
 - id: bytedance-software-development-engineer-intern-network-automation-2027-summer-c3e49c
   company: ByteDance
-  role: Software Development Engineer Intern - Network Automation - 2027 Summer
+  role: Software Development Engineer Intern (Network Automation) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7671147251943213317/detail
   date_posted: '2026-08-08'
@@ -5169,7 +5059,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-development-engineer-in-test-intern-global-e-commerce-2027-summer-0d8dc3
   company: TikTok
-  role: Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer
+  role: Software Development Engineer in Test Intern (Global E-Commerce) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7668837276597127477
   date_posted: '2026-08-01'
@@ -5185,7 +5075,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-development-engineer-in-test-intern-global-e-commerce-2027-summer-345353
   company: TikTok
-  role: Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer
+  role: Software Development Engineer in Test Intern (Global E-Commerce) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668837275459324213
   date_posted: '2026-08-01'
@@ -6126,7 +6016,7 @@
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-distributed-nosql-database-systems-30c298
   company: ByteDance
-  role: Research Scientist Intern - Distributed NoSQL Database Systems
+  role: Research Scientist Intern (Distributed NoSQL Database Systems) - 2027 Start
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7668371456348326149/detail
   date_posted: '2026-08-03'
@@ -6346,22 +6236,6 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: menasha-corporation-custom-packaging-design-engineer-co-o-449b0b
-- id: bytedance-developer-advocacy-project-intern-pi-6379b0
-  company: ByteDance
-  role: Developer Advocacy Project Intern (PI...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7665037087551129909
-  date_posted: '2026-08-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: pentair-it-cybersecurity-leadership-development-internship-program-summer-2027-1a055c
   company: Pentair
   role: IT & Cybersecurity Leadership Development Internship Program -  Summer 2027

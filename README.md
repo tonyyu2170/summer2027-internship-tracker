@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-09 11:01 EST — 844 open roles. Last scrape: +1 new, 0 closed._
+_Last updated: 2026-08-09 11:15 EST — 826 open roles. Last scrape: +1 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,20 +22,19 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
-| ByteDance | Developer Advocacy Project Intern (PI... | [Apply](<https://joinbytedance.com/search/7665037087551129909>) | 2026-08-09 | Summer 2027 | BS |
-| ByteDance | Software Development Engineer Intern - Network Automation - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7671147251943213317/detail>) | 2026-08-08 | Summer 2027 | BS/MS |
+| ByteDance | Software Development Engineer Intern (Network Automation) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7671147251943213317/detail>) | 2026-08-08 | Summer 2027 | BS/MS |
 | Copart | Software Engineering Intern | [Apply](<https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079>) | 2026-08-07 | Summer 2027 | BS |
 | Copart | Database Engineering Intern | [Apply](<https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636>) | 2026-08-07 | Summer 2027 | BS |
-| TikTok | Fullstack Software Engineer Intern - Global E-Commerce | [Apply](<https://lifeattiktok.com/search/7670700387322300677>) | 2026-08-07 | Summer 2027 | BS/MS |
-| TikTok | Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7670738362521520437>) | 2026-08-07 | Summer 2027 | BS/MS |
-| ByteDance | Network Software Engineer Intern - Network Switch | [Apply](<https://jobs.bytedance.com/en/position/7670778018960542005/detail>) | 2026-08-07 | Summer 2027 | BS/MS |
-| ByteDance | Network Software Engineer Intern - Network Observation | [Apply](<https://jobs.bytedance.com/en/position/7670772641439041797/detail>) | 2026-08-07 | Summer 2027 | BS/MS |
+| TikTok | Fullstack Software Engineer Intern (Global E-Commerce) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7670700387322300677>) | 2026-08-07 | Summer 2027 | BS/MS |
+| TikTok | Fullstack Software Engineer Intern (Global E-Commerce) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7670738362521520437>) | 2026-08-07 | Summer 2027 | BS/MS |
+| ByteDance | Network Software Development Engineer Intern (Network Switch) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7670778018960542005/detail>) | 2026-08-07 | Summer 2027 | BS/MS |
+| ByteDance | Network Software Development Engineer Intern(Network  Observation) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7670772641439041797/detail>) | 2026-08-07 | Summer 2027 | BS/MS |
 | Ameren | DERMS Co-op/Intern | [Apply](<https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/DERMS-Co-Op-Intern_033809-1>) | 2026-08-07 | Summer 2027 | BS/MS |
 | Ameren | Digital Co-op | [Apply](<https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Digital-Co-op_033841-1>) | 2026-08-07 | Summer 2027 | BS/MS |
 | Trillium | Software Engineer Intern - Summer 2027 | [Apply](<https://www.trlm.com/apply/5207089007?gh_jid=5207089007>) | 2026-08-07 | Summer 2027 | BS |
 | Axon | Software Engineer Intern | [Apply](<https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837133003>) | 2026-08-07 | Summer 2027 | BS |
 | The Nuclear Company | Software Engineering Intern - Product - Platform | [Apply](<https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008>) | 2026-08-07 | Summer 2027 | BS |
-| TikTok | Frontend Engineer Intern - Ads Interface | [Apply](<https://lifeattiktok.com/search/7671211313289398581>) | 2026-08-07 | Summer 2027 | BS/MS |
+| TikTok | Frontend Engineer Intern (Ads Interface) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7671211313289398581>) | 2026-08-07 | Summer 2027 | BS/MS |
 | Kastle | Software Engineer - Intern | [Apply](<https://jobs.ashbyhq.com/kastle/6f32db51-de45-472f-a9c8-d9419d3634ee>) | 2026-08-07 | Summer 2027 | BS |
 | Terranova | Software Engineering Intern | [Apply](<https://jobs.ashbyhq.com/terranova/a8e5a8d2-4af3-4736-b66e-e0804447f7a0>) | 2026-08-07 | Summer 2027 | BS |
 | RTX | Raytheon Electrical Engineering Inter... | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-PLANO-465--465-Independence-Pkwy--INDEPENDENCE/Raytheon-Electrical-Engineering-Intern--Summer-2027--Onsite-_01864023>) | 2026-08-07 | Summer 2027 | BS |
@@ -43,11 +42,11 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Delta Dental | Internship - Application Development | [Apply](<https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101382>) | 2026-08-07 | Summer 2027 | BS |
 | KBR | Mechanical Engineering Intern | [Apply](<https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Las-Cruces-New-Mexico/Mechanical-Engineering-Intern_R2127930>) | 2026-08-07 | Summer 2027 | BS |
 | General Dynamics Information Technology | Software Developer Intern | [Apply](<https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225450-1>) | 2026-08-06 | Summer 2027 | BS |
-| TikTok | Software Engineer Intern - Media Engine | [Apply](<https://lifeattiktok.com/search/7670295535077427509>) | 2026-08-06 | Summer 2027 | BS/MS |
-| ByteDance | Video/Image AI/ML Software Engineer Intern - Multimedia | [Apply](<https://jobs.bytedance.com/en/position/7670354329765464373/detail>) | 2026-08-06 | Summer 2027 | PhD |
-| ByteDance | GPU/AI Application System Software Engineer Intern - System Technologies and Engineering | [Apply](<https://jobs.bytedance.com/en/position/7668464504736876853/detail>) | 2026-08-06 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern - Foundation Platform | [Apply](<https://lifeattiktok.com/search/7670281449668905269>) | 2026-08-06 | Summer 2027 | BS/MS |
-| ByteDance | AI Network Automation Engineer Intern - Global Physical Network Infrastructure | [Apply](<https://jobs.bytedance.com/en/position/7670690923748870405/detail>) | 2026-08-06 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (Media Engine) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7670295535077427509>) | 2026-08-06 | Summer 2027 | BS/MS |
+| ByteDance | Video/Image AI/ML Software Engineer Intern (Multimedia) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7670354329765464373/detail>) | 2026-08-06 | Summer 2027 | PhD |
+| ByteDance | GPU/AI Application System Software Engineer Intern (System Technologies and Engineering) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7668464504736876853/detail>) | 2026-08-06 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (Foundation Platform) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7670281449668905269>) | 2026-08-06 | Summer 2027 | BS/MS |
+| ByteDance | AI Network Automation Engineer intern (Global Physical Network Infra) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7670690923748870405/detail>) | 2026-08-06 | Summer 2027 | BS/MS |
 | Northrop Grumman | Software Engineer Intern - Aeronautics Systems | [Apply](<https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395>) | 2026-08-06 | Summer 2027 | BS |
 | General Dynamics Information Technology | Software Developer Intern | [Apply](<https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225456-1>) | 2026-08-06 | Summer 2027 | BS |
 | General Dynamics Information Technology | Software Developer Intern | [Apply](<https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1>) | 2026-08-06 | Summer 2027 | BS |
@@ -57,7 +56,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | KBR | Software Intern | [Apply](<https://kbr.wd5.myworkdayjobs.com/en-US/kbr_careers/job/Houston-Texas/Software-Intern_R2127863>) | 2026-08-06 | Summer 2027 | BS |
 | GlobalFoundries | Factory Automation Engineering Intern... | [Apply](<https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Factory-Automation-Engineering-Intern--Fall-2026-_JR-2503358>) | 2026-08-06 | Summer 2027 | BS |
 | Curtiss-Wright | Intern, Manufacturing Engineering | [Apply](<https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-OH-Brecksville-Farris/Intern--Manufacturing-Engineering_JR13116>) | 2026-08-06 | Summer 2027 | BS |
-| TikTok | Backend Software Engineer Intern - Creation Platform | [Apply](<https://lifeattiktok.com/search/7670289874020993285>) | 2026-08-05 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (Creation Platform) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7670289874020993285>) | 2026-08-05 | Summer 2027 | BS/MS |
 | GE Appliances | Engineering Co-op | [Apply](<https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-LaFayette-GA/Engineering-Co-op-Summer-2027_REQ-26431>) | 2026-08-05 | Summer 2027 | BS |
 | GE Appliances | Software Engineer Co-op - Software Engineering | [Apply](<https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Summer-2027_REQ-26427>) | 2026-08-05 | Summer 2027 | BS |
 | Vertiv | Thermal Application Engineer Intern - Summer 2027 | [Apply](<https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278512>) | 2026-08-05 | Summer 2027 | BS |
@@ -67,19 +66,19 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Draper | Mechanical Engineering & System Packa... | [Apply](<https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Mechanical-Engineering---System-Packaging-Intern_JR002767>) | 2026-08-05 | Summer 2027 | BS |
 | CAE | Mechanical Engineering Intern | [Apply](<https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Mechanical-Engineering-Intern_122210>) | 2026-08-05 | Summer 2027 | BS |
 | HNTB | WED - Intern Civil Engineer (Summer 2... | [Apply](<https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Bellevue-WA-Seattle/WED---Intern-Civil-Engineer--Summer-2027---For-Current---Recent-HNTB-Interns-Only-_R-31037>) | 2026-08-05 | Summer 2027 | BS |
-| TikTok | Software Engineer Intern - Global CRM | [Apply](<https://lifeattiktok.com/search/7669711844487399685>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern - Effects Performance | [Apply](<https://lifeattiktok.com/search/7668725183121000757>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern - Product Infrastructure | [Apply](<https://lifeattiktok.com/search/7667935633764370741>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern - Global E-Commerce | [Apply](<https://lifeattiktok.com/search/7668834837268138293>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern - Ads Interface | [Apply](<https://lifeattiktok.com/search/7669705785962727733>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7668921505254410549>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern - Global E-Commerce | [Apply](<https://lifeattiktok.com/search/7668834837268416821>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern - LIVE Foundation Governance Engineering | [Apply](<https://lifeattiktok.com/search/7667935150530840837>) | 2026-08-04 | Summer 2027 | BS |
+| TikTok | Software Engineer Intern (Global CRM) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669711844487399685>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (TikTok - Effects Performance) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668725183121000757>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (TikTok - Product Infrastructure) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667935633764370741>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (Global E-Commerce) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668834837268138293>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (Ads Interface) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669705785962727733>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (TikTok - Shoot Experience Optimization) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668921505254410549>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (Global E-Commerce) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668834837268416821>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (TikTok-Global Live-Foundation) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667935150530840837>) | 2026-08-04 | Summer 2027 | BS |
 | TikTok | Frontend Engineer Intern - Global CRM | [Apply](<https://lifeattiktok.com/search/7669711026846058757>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern - Transaction Platform | [Apply](<https://lifeattiktok.com/search/7669943120351906053>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern - Intelligent Creation-Camera | [Apply](<https://lifeattiktok.com/search/7668862422178318597>) | 2026-08-04 | Summer 2027 | BS |
-| TikTok | Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7669712589169117445>) | 2026-08-04 | Summer 2027 | BS/MS |
-| ByteDance | Software Engineer Intern - AI Platform | [Apply](<https://jobs.bytedance.com/en/position/7668212952030841093/detail>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (Transaction Platform) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669943120351906053>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (TikTok-Intelligent Creation-Camera) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668862422178318597>) | 2026-08-04 | Summer 2027 | BS |
+| TikTok | Software Engineer Intern (AI Agent &amp; Global Revenue Platform) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669712589169117445>) | 2026-08-04 | Summer 2027 | BS/MS |
+| ByteDance | Software Engineer Intern (AI Platform) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7668212952030841093/detail>) | 2026-08-04 | Summer 2027 | BS/MS |
 | Belvedere Trading | Software Engineer Intern - Summer 2027 | [Apply](<https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0/apply>) | 2026-08-04 | Summer 2027 | BS |
 | Microsoft | Software Engineer: Fullstack Product - Web + Services Intern Opportunities for University Students | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556922922>) | 2026-08-04 | Summer 2027 | BS |
 | Microsoft | Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556922930>) | 2026-08-04 | Summer 2027 | BS |
@@ -90,32 +89,32 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Microsoft | Software Engineer Intern, Cloud & Distributed Backend | [Apply](<https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922923>) | 2026-08-04 | Summer 2027 | BS |
 | Draper | Mechanical Engineering & System Packa... | [Apply](<https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Mechanical-Engineering---System-Packaging-Intern_JR002763>) | 2026-08-04 | Summer 2027 | BS |
 | IDEXX | Security Operations (Cybersecurity) i... | [Apply](<https://idexx.wd1.myworkdayjobs.com/IDEXX/job/Westbrook-ME/Security-Operations--Cybersecurity--internship_J-053268>) | 2026-08-03 | Summer 2027 | BS |
-| TikTok | Software Engineer Intern - Creative Intelligence and Brand Innovation | [Apply](<https://lifeattiktok.com/search/7668642761473902901>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern - Trust and Safety Engineering | [Apply](<https://lifeattiktok.com/search/7662684280234232117>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7668581636242016565>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7662700594251958581>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7667935565120112949>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7667934635573692725>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7667933770819897605>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern - Ads Measurement Signal and Privacy | [Apply](<https://lifeattiktok.com/search/7668582031916435717>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern - Innovative Growth | [Apply](<https://lifeattiktok.com/search/7667934860750063925>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern - Digital Content Center | [Apply](<https://lifeattiktok.com/search/7667934302872537397>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern - Social Friending | [Apply](<https://lifeattiktok.com/search/7667935399050692917>) | 2026-08-03 | Summer 2027 | BS/MS/PhD |
-| TikTok | Software Engineer Intern - Data Architecture - E-commerce | [Apply](<https://lifeattiktok.com/search/7668582146236631349>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7667935738376227077>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7667933335084124469>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Frontend Engineer Intern - Open Platform | [Apply](<https://lifeattiktok.com/search/7667935739300792629>) | 2026-08-03 | Summer 2027 | BS |
-| TikTok | Software Engineer Intern - Agentic Creation-Effect Platform | [Apply](<https://lifeattiktok.com/search/7668445566565321013>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7668675500744837381>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7668582086899763461>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Backend Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7667935739300317493>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Frontend Software Engineer Intern - Ads Measurement Signal and Privacy | [Apply](<https://lifeattiktok.com/search/7668584161852229893>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (Creative Intelligence and Brand Innovation) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668642761473902901>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | (General Hire) Software Engineer Intern (Trust and Safety-Engineering) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7662684280234232117>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (Ads Infrastructure) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668581636242016565>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | (General Hire) Software Engineer Intern (Trust and Safety-Engineering) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7662700594251958581>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (TikTok-Social-Foundation) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667935565120112949>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (TikTok-Social-Friending) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667934635573692725>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (TikTok-PGC-Creator Strategy) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667933770819897605>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (Ads Measurement Signal and Privacy) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668582031916435717>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (TikTok-Growth-Innovative Growth) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667934860750063925>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (TikTok- PGC-Digital Content Center) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667934302872537397>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (TikTok-Social-Friending) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667935399050692917>) | 2026-08-03 | Summer 2027 | BS/MS/PhD |
+| TikTok | Software Engineer Intern (Data Arch - E-commerce) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668582146236631349>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (TikTok-Generalized Arch-Code Intelligence &amp; Quality Validation) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667935738376227077>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (TikTok-Search) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667933335084124469>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (TikTok- Developer Platform) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667935739300792629>) | 2026-08-03 | Summer 2027 | BS |
+| TikTok | Software Engineer Intern (TikTok-Agentic Creation-Effect Platform) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668445566565321013>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (TikTok-Agentic Creation-AIGC) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668675500744837381>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern (Data Arch - E-commerce) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668582086899763461>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Backend Software Engineer Intern (TikTok-Privacy and Security) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667935739300317493>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Frontend Software Engineer Intern (Ads Measurement Signal and Privacy) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668584161852229893>) | 2026-08-03 | Summer 2027 | BS/MS |
 | TikTok | Software Engineer Intern - Business Integrity | [Apply](<https://lifeattiktok.com/search/7668584916620527925>) | 2026-08-03 | Summer 2027 | BS/MS |
 | JP Morgan Chase | Software Engineer Intern - Software Engineer Program | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773759>) | 2026-08-03 | Summer 2027 | BS/MS |
-| ByteDance | Software Engineer Intern - AI Infra Compute | [Apply](<https://jobs.bytedance.com/en/position/7667378931599214853/detail>) | 2026-08-03 | Summer 2027 | MS |
-| ByteDance | Software Engineer Intern - AI Infrastructure Compute | [Apply](<https://jobs.bytedance.com/en/position/7667377525182662965/detail>) | 2026-08-03 | Summer 2027 | MS |
-| ByteDance | Software Engineer Intern | [Apply](<https://jobs.bytedance.com/en/position/7668373268886161669/detail>) | 2026-08-03 | Summer 2027 | BS/MS |
-| ByteDance | Software Engineer Intern - Distributed NoSQL Database Systems | [Apply](<https://jobs.bytedance.com/en/position/7668374190764050741/detail>) | 2026-08-03 | Summer 2027 | BS/MS |
+| ByteDance | Software Engineer Intern (AI Infra Compute) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7667378931599214853/detail>) | 2026-08-03 | Summer 2027 | MS |
+| ByteDance | Software Engineer Intern (AI Infra Compute) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7667377525182662965/detail>) | 2026-08-03 | Summer 2027 | MS |
+| ByteDance | Software Engineer Intern (Distributed NoSQL Database Systems) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7668373268886161669/detail>) | 2026-08-03 | Summer 2027 | BS/MS |
+| ByteDance | Software Engineer Intern (Distributed NoSQL Database Systems) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7668374190764050741/detail>) | 2026-08-03 | Summer 2027 | BS/MS |
 | Microsoft | Software Engineer Intern - CoreAI | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556951950>) | 2026-08-03 | Summer 2027 | BS/MS |
 | Capital One | Technology Intern | [Apply](<https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Technology-Internship-Program---Summer-2027_R244387-1>) | 2026-08-03 | Summer 2027 | BS |
 | Chicago Trading Company | Software Engineer Intern | [Apply](<https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005>) | 2026-08-03 | Summer 2027 | BS/MS |
@@ -129,14 +128,14 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Bosch Group | Project Management / Test Engineering... | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000141334799>) | 2026-08-03 | Summer 2027 | BS |
 | Uline | Network Engineer Internship - Summer ... | [Apply](<https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Network-Engineer-Internship---Summer-2027_R265689>) | 2026-08-03 | Summer 2027 | BS |
 | Nebo | Web Development Intern | [Apply](<https://neboagency.applytojob.com/apply/AFMqe9Jb7b/Web-Development-Intern>) | 2026-08-03 | Summer 2027 | BS |
-| ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems | [Apply](<https://jobs.bytedance.com/en/position/7668371456348326149/detail>) | 2026-08-03 | Summer 2027 | PhD |
+| ByteDance | Research Scientist Intern (Distributed NoSQL Database Systems) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7668371456348326149/detail>) | 2026-08-03 | Summer 2027 | PhD |
 | Uline | Database Administrator Intern | [Apply](<https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Database-Administrator-Internship---Summer-2027_R265687>) | 2026-08-03 | Summer 2027 | BS |
 | Pentair | IT & Cybersecurity Leadership Development Internship Program -  Summer 2027 | [Apply](<https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700>) | 2026-08-03 | Summer 2027 | BS |
 | Copart | Software Engineering Intern | [Apply](<https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353>) | 2026-08-02 | Summer 2027 | BS |
 | Magna | IoT Systems Engineer - Co-op (4 month... | [Apply](<https://magna.wd3.myworkdayjobs.com/Magna/job/Milton-Ontario-CA/Manufacturing-Engineer---Co-op--4-months-_R00252235>) | 2026-08-02 | Summer 2027 | BS |
 | HPR (Hyannis Port Research) | Software Engineer Intern | [Apply](<https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003>) | 2026-08-01 | Summer 2027 | BS/MS |
-| TikTok | Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668837276597127477>) | 2026-08-01 | Summer 2027 | BS |
-| TikTok | Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668837275459324213>) | 2026-08-01 | Summer 2027 | BS |
+| TikTok | Software Development Engineer in Test Intern (Global E-Commerce) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668837276597127477>) | 2026-08-01 | Summer 2027 | BS |
+| TikTok | Software Development Engineer in Test Intern (Global E-Commerce) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668837275459324213>) | 2026-08-01 | Summer 2027 | BS |
 | Medtronic | Software Engineering Intern - Summer 2027 | [Apply](<https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1>) | 2026-08-01 | Summer 2027 | BS |
 | Medtronic | Software Engineer Intern | [Apply](<https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630>) | 2026-08-01 | Summer 2027 | BS/MS |
 | Heliux | Software Engineer Intern | [Apply](<https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef/application?embed=true>) | 2026-07-31 | Summer 2027 | BS |
@@ -157,8 +156,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Bosch | Powertrain Controls Software Engineering Intern - 6-Months | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000140089589-powertrain-controls-software-engineering-intern-6-months-?oga=true>) | 2026-07-27 | Summer 2027 | BS |
 | SRI International | Drexel University Co-op: Software Engineering/Full stack development | [Apply](<https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job>) | 2026-07-27 | Summer 2027 | BS |
 | Appian | Information Security Engineer Intern | [Apply](<https://job-boards.greenhouse.io/appian/jobs/8088496>) | 2026-07-27 | Summer 2027 | BS |
-| TikTok | Software Engineer Intern - Quality and Efficiency Technology - 2026 Summer - BS/MS | [Apply](<https://lifeattiktok.com/search/7637047421538404613>) | ~2026-07-25 | Summer 2027 | BS |
-| TikTok | Software Engineer Project Intern - Recommendation Infrastructure - TikTok Video Social - 2026 Start - BS/MS | [Apply](<https://lifeattiktok.com/search/7629500062003218741>) | ~2026-07-25 | Summer 2027 | BS |
 | TikTok | Software Engineer Project Intern - Model Infrastructure - 2026 Start - BS/MS | [Apply](<https://lifeattiktok.com/search/7624284785283746053>) | ~2026-07-25 | Summer 2027 | BS |
 | Altom Transport | Fall Software Development Intern | [Apply](<https://apply.workable.com/altom-transport/j/9FC654F05E/>) | ~2026-07-25 | Summer 2027 | BS |
 | Altom Transport | Fall Software Development Intern | [Apply](<https://apply.workable.com/altom-transport/j/8536165C7B/>) | ~2026-07-25 | Summer 2027 | BS |
@@ -181,11 +178,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | LufCo | Summer Intern (CS / Software / Engineering) | [Apply](<https://lufco.breezy.hr/p/3d3ec6639256-summer-intern-2027>) | ~2026-07-23 | Summer 2027 | BS |
 | Epic | Software Developer Intern | [Apply](<https://careers.epic.com/jobs/intern/>) | ~2026-07-23 | Summer 2027 | BS |
 | Appian | Software Engineering Intern | [Apply](<https://job-boards.greenhouse.io/appian/jobs/8041237>) | 2026-07-23 | Summer 2027 | BS |
-| ByteDance | Security Engineering Project Intern (... | [Apply](<https://joinbytedance.com/search/7625759034518128901>) | ~2026-07-23 | Summer 2027 | BS |
-| ByteDance | Site Reliability Engineer Project Int... | [Apply](<https://joinbytedance.com/search/7600174040255007029>) | ~2026-07-23 | Summer 2027 | BS |
 | Uber | 2027 Software Engineering Internship,... | [Apply](<https://www.uber.com/global/en/careers/list/302133/>) | ~2026-07-23 | Summer 2027 | BS |
-| TikTok | Software Engineer Intern (Recommendat... | [Apply](<https://lifeattiktok.com/position/7534878965941766408>) | ~2026-07-23 | Summer 2027 | BS |
-| TikTok | Frontend Engineer Project Intern (Tik... | [Apply](<https://lifeattiktok.com/position/7595733632086591797>) | ~2026-07-23 | Summer 2027 | BS |
 | Agilent Technologies | Intern - R&D Software Engineering (AI... | [Apply](<https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437>) | ~2026-07-23 | Summer 2027 | BS |
 | Oracle | GDI Information Security Analyst Inte... | [Apply](<https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334389>) | ~2026-07-23 | Summer 2027 | BS |
 | Amazon.com Services LLC | Software Development Engineer Intern,... | [Apply](<https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us>) | ~2026-07-23 | Summer 2027 | BS |
@@ -257,7 +250,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Marshall Wace | Technology Intern | [Apply](<https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002>) | 2026-07-06 | Summer 2027 | BS |
 | Eulerity | Website Developer & Content Marketing Intern - AI & Automation | [Apply](<https://job-boards.greenhouse.io/eulerity/jobs/4694300006>) | 2026-07-03 | Summer 2027 | BS |
 | Tencent | Cloud Media Services Intern | [Apply](<https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R106872>) | 2026-07-03 | Summer 2027 | BS |
-| TikTok | Frontend Software Engineer Project In... | [Apply](<https://lifeattiktok.com/position/7654431844394322229>) | 2026-07-02 | Summer 2027 | BS |
 | Palantir | Forward Deployed Software Engineer - Internship - Intel | [Apply](<https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89>) | 2026-07-01 | Summer 2027 | BS |
 | Sony | Software Engineer Intern | [Apply](<https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282>) | 2026-07-01 | Summer 2027 | BS |
 | Palantir | Forward Deployed Software Engineer Intern, Commercial | [Apply](<https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2>) | 2026-06-30 | Summer 2027 | BS |
@@ -524,12 +516,12 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | --- | --- | --- | --- | --- | --- |
 | The Boeing Company | Data Analytics Intern | [Apply](<https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1>) | 2026-08-07 | Summer 2027 | BS |
 | The Nuclear Company | Data Science Intern | [Apply](<https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383244008>) | 2026-08-07 | Summer 2027 | BS/MS |
-| TikTok | Data Science Intern - TikTok Product | [Apply](<https://lifeattiktok.com/search/7669683639101884725>) | 2026-08-05 | Summer 2027 | BS/MS |
-| TikTok | Data Scientist Intern - VOD Data | [Apply](<https://lifeattiktok.com/search/7670287013157095733>) | 2026-08-05 | Summer 2027 | BS/MS |
+| TikTok | Data Science Intern (TikTok Product) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669683639101884725>) | 2026-08-05 | Summer 2027 | BS/MS |
+| TikTok | Data Scientist Intern (VOD Data) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7670287013157095733>) | 2026-08-05 | Summer 2027 | BS/MS |
 | Boeing | Data Analytics Intern | [Apply](<https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/details/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1?q=JR2026520976>) | 2026-08-05 | Summer 2027 | BS |
 | PNC Financial Services | Data, Modeling, and Analytics Undergr... | [Apply](<https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Data--Modeling--and-Analytics-Undergraduate-Intern_R231526-1>) | 2026-08-05 | Summer 2027 | BS |
-| TikTok | Data Science Intern - Integrity and Safety | [Apply](<https://lifeattiktok.com/search/7669682935444900149>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Data Science Intern - TikTok Live | [Apply](<https://lifeattiktok.com/search/7669700822370945333>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Data Science Intern (TikTok Integrity and Safety) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669682935444900149>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Data Science Intern (TikTok LIVE) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669700822370945333>) | 2026-08-04 | Summer 2027 | BS/MS |
 | Microsoft | Software Engineer: Data Platform/Analytics Intern Opportunities for University Students - Redmond | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556922931>) | 2026-08-04 | Summer 2027 | BS |
 | Microsoft | Software Engineer Intern, Data Platform/Analytics | [Apply](<https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922931>) | 2026-08-04 | Summer 2027 | BS |
 | Federal Reserve System | Graduate Intern - Statistical Analysis | [Apply](<https://rb.wd5.myworkdayjobs.com/frs/job/Boston-MA/Graduate-Intern---Statistical-Analysis_R-0000032931>) | 2026-08-04 | Summer 2027 | BS |
@@ -542,7 +534,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | CALSTART | Zero-Emission Data & Research Intern | [Apply](<https://jobs.lever.co/calstart/faf839b1-8c62-4fcf-991c-71750d8fc909/apply>) | 2026-07-30 | Summer 2027 | BS |
 | Louisiana Blue | Data Modeler Intern | [Apply](<https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Corporate---Baton-Rouge-LA/CW-Data-Modeler-Intern_R11956>) | 2026-07-29 | Summer 2027 | BS |
 | National Interstate Insurance | Catastrophe Modeling & Data Analytics... | [Apply](<https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Catastrophe-Modeling---Data-Analytics-Intern--Fall-2026-_R9102>) | ~2026-07-25 | Summer 2027 | BS |
-| TikTok | Data Scientist Project Intern (TikTok... | [Apply](<https://lifeattiktok.com/position/7610543185362372917>) | ~2026-07-23 | Summer 2027 | BS |
 | NREL | Graduate (Year-Round) Intern: Geospat... | [Apply](<https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern--Geospatial-Data-Science-Modeling-and-Analysis_R14338>) | ~2026-07-23 | Summer 2027 | BS |
 | Primetals Technologies | Data Science Internship - Governance | [Apply](<https://mhicareers.com/job/Lake-Mary-Data-Science-Internship-(Governance)-FL-32746/1401009733/?ats=successfactors>) | 2026-07-23 | Summer 2027 | BS |
 | Warner Bros. Discovery | Research, Analytics & Strategy Intern... | [Apply](<https://warnerbros.wd5.myworkdayjobs.com/global/job/NY-New-York-30-Hudson-Yards/Research--Analytics---Strategy-Internships--NYC---Fall-2026_R000107153>) | 2026-07-23 | Summer 2027 | BS |
@@ -589,91 +580,83 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
-| ByteDance | Machine Learning Engineer Intern (Glo... | [Apply](<https://joinbytedance.com/search/7535951608832657682>) | 2026-08-08 | Summer 2027 | BS |
-| ByteDance | Machine Learning Engineer Intern (E-C... | [Apply](<https://joinbytedance.com/search/7538942403488188680>) | 2026-08-08 | Summer 2027 | BS |
-| ByteDance | Machine Learning Engineer Intern (E-c... | [Apply](<https://joinbytedance.com/search/7535171166420453639>) | 2026-08-08 | Summer 2027 | BS |
-| ByteDance | Research Intern (SDN Traffic Intellig... | [Apply](<https://joinbytedance.com/search/7668118098724079877>) | 2026-08-08 | Summer 2027 | BS |
+| ByteDance | Research Intern (SDN Traffic Intelligence &amp; Control) - 2027 Start | [Apply](<https://joinbytedance.com/search/7668118098724079877>) | 2026-08-08 | Summer 2027 | BS |
 | FTI Consulting | Technology Intern - Technology | [Apply](<https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareersPrivate/job/United-States/XMLNAME-2027-Intern---Technology_JR260339>) | 2026-08-07 | Summer 2027 | BS/MS |
 | FTI Consulting | Technology Intern | [Apply](<https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Technology_JR260339-1>) | 2026-08-07 | Summer 2027 | BS/MS |
 | GE Vernova | Digital Technology Intern | [Apply](<https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-3>) | 2026-08-07 | Summer 2027 | BS |
-| ByteDance | Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic AI | [Apply](<https://jobs.bytedance.com/en/position/7670855041951795509/detail>) | 2026-08-07 | Summer 2027 | PhD |
+| ByteDance | Machine Learning Research Scientist Intern (Seed AI for Science - Atomistic AI) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7670855041951795509/detail>) | 2026-08-07 | Summer 2027 | PhD |
 | General Dynamics Information Technology | Artificial Intelligence/Machine Learning Intern | [Apply](<https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912>) | 2026-08-07 | Summer 2027 | BS/MS |
 | The Nuclear Company | AI/ML Engineer Intern | [Apply](<https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383231008>) | 2026-08-07 | Summer 2027 | BS |
 | Royal Bank of Canada | Capital Markets Quant Summer Associate - Quantitative Technology Services | [Apply](<https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/New-York-New-York-United-States-of-America/XMLNAME-2027-Capital-Markets--Quants-Summer-Associate--Quantitative-Technology-Services_R-0000183482>) | 2026-08-07 | Summer 2027 | BS/MS/PhD |
 | TikTok | LLM Post-training Engineer Intern - Research & Product | [Apply](<https://lifeattiktok.com/search/7670285031018432773>) | 2026-08-06 | Summer 2027 | BS/MS |
-| ByteDance | Research Scientist Intern - Multimedia Streaming | [Apply](<https://jobs.bytedance.com/en/position/7670354800621603125/detail>) | 2026-08-06 | Summer 2027 | PhD |
-| ByteDance | Research Scientist Intern | [Apply](<https://jobs.bytedance.com/en/position/7670375041041320245/detail>) | 2026-08-06 | Summer 2027 | PhD |
-| ByteDance | Applied Machine Learning Production Engineer Intern - AML Production Engineer | [Apply](<https://jobs.bytedance.com/en/position/7670009669494704437/detail>) | 2026-08-06 | Summer 2027 | BS/MS |
+| ByteDance | Research Scientist Intern (Multimedia Streaming) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7670354800621603125/detail>) | 2026-08-06 | Summer 2027 | PhD |
+| ByteDance | Research Scientist Intern (Video Quality Analysis &amp; Coding Strategy) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7670375041041320245/detail>) | 2026-08-06 | Summer 2027 | PhD |
+| ByteDance | Applied Machine Learning Production Engineer Intern (AML-Production Engineer) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7670009669494704437/detail>) | 2026-08-06 | Summer 2027 | BS/MS |
 | Canva | PhD Research Scientist Intern | [Apply](<https://jobs.smartrecruiters.com/Canva/6000000001291655>) | 2026-08-06 | Summer 2027 | PhD |
 | Otter Products | Artificial Intelligence Intern | [Apply](<https://careers-otterproducts.icims.com/jobs/6912/job?mobile=true&needsRedirect=false>) | 2026-08-06 | Summer 2027 | BS |
-| TikTok | Machine Learning Engineer Intern - Data-Global E-Commerce-Search | [Apply](<https://lifeattiktok.com/search/7668415591670417717>) | 2026-08-05 | Summer 2027 | PhD |
-| TikTok | Machine Learning Engineer Intern - Search | [Apply](<https://lifeattiktok.com/search/7668396597746862341>) | 2026-08-05 | Summer 2027 | BS/MS |
-| TikTok | Data Engineer Intern - Ads Targeting | [Apply](<https://lifeattiktok.com/search/7668533140146817333>) | 2026-08-05 | Summer 2027 | BS/MS |
-| TikTok | Machine Learning Engineer Intern | [Apply](<https://lifeattiktok.com/search/7668379675467761925>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Machine Learning Engineer Intern (Data-Global E-Commerce-Search) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7668415591670417717>) | 2026-08-05 | Summer 2027 | PhD |
+| TikTok | Machine Learning Engineer Intern (Data-Global E-Commerce-Search) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668396597746862341>) | 2026-08-05 | Summer 2027 | BS/MS |
+| TikTok | Data Engineering Project Intern  (Ads Targeting) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7668533140146817333>) | 2026-08-05 | Summer 2027 | BS/MS |
+| TikTok | Machine Learning Engineer Intern (TikTok-Data-Search-Local Service) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668379675467761925>) | 2026-08-04 | Summer 2027 | BS/MS |
 | TikTok | Machine Learning Engineer Intern - Commercial AI-CRM and Transaction | [Apply](<https://lifeattiktok.com/search/7669702702763018501>) | 2026-08-04 | Summer 2027 | MS |
-| TikTok | Machine Learning Engineer Intern - Ads Signal & Measurement | [Apply](<https://lifeattiktok.com/search/7669700361976809733>) | 2026-08-04 | Summer 2027 | BS |
-| TikTok | Machine Learning Engineer Intern - Performance Monetization | [Apply](<https://lifeattiktok.com/search/7669693163422845237>) | 2026-08-04 | Summer 2027 | BS |
-| TikTok | Machine Learning Engineer Intern - Lead Ads | [Apply](<https://lifeattiktok.com/search/7669707492914727221>) | 2026-08-04 | Summer 2027 | BS |
-| TikTok | Machine Learning Engineer Intern - Commerce Ads - Summer 2027 | [Apply](<https://lifeattiktok.com/search/7669711968043092229>) | 2026-08-04 | Summer 2027 | BS/MS/PhD |
-| TikTok | Machine Learning Engineer Intern - Search Ads | [Apply](<https://lifeattiktok.com/search/7669698648817305909>) | 2026-08-04 | Summer 2027 | BS |
-| TikTok | Machine Learning Engineer Intern - Brand Ads | [Apply](<https://lifeattiktok.com/search/7668654528822954245>) | 2026-08-04 | Summer 2027 | BS/MS |
-| TikTok | Machine Learning Engineer Intern - Performance Monetization | [Apply](<https://lifeattiktok.com/search/7669693205558561077>) | 2026-08-04 | Summer 2027 | PhD |
-| TikTok | Machine Learning Engineer Intern - App Ads and Gaming | [Apply](<https://lifeattiktok.com/search/7669709472078170373>) | 2026-08-04 | Summer 2027 | BS |
-| TikTok | Machine Learning Engineer Intern - Data Search Recommendation Global E-Commerce | [Apply](<https://lifeattiktok.com/search/7668383643375257909>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | Machine Learning Engineer Intern (Ads Signal &amp; Measurement) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669700361976809733>) | 2026-08-04 | Summer 2027 | BS |
+| TikTok | (General Hire) Machine Learning Engineer Intern (Performance Monetization) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669693163422845237>) | 2026-08-04 | Summer 2027 | BS |
+| TikTok | Machine Learning Engineer Intern (Lead Ads) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669707492914727221>) | 2026-08-04 | Summer 2027 | BS |
+| TikTok | Machine Learning Engineer Intern (Commerce Ads) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669711968043092229>) | 2026-08-04 | Summer 2027 | BS/MS/PhD |
+| TikTok | Machine Learning Engineer Intern (Search Ads) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669698648817305909>) | 2026-08-04 | Summer 2027 | BS |
+| TikTok | Machine Learning Eningeer Intern (Brand Ads) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668654528822954245>) | 2026-08-04 | Summer 2027 | BS/MS |
+| TikTok | (General Hire) Machine Learning Engineer Intern (Performance Monetization) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7669693205558561077>) | 2026-08-04 | Summer 2027 | PhD |
+| TikTok | Machine Learning Engineer Intern (App Ads and Gaming) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669709472078170373>) | 2026-08-04 | Summer 2027 | BS |
+| TikTok | Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation-Global E-Commerce) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668383643375257909>) | 2026-08-04 | Summer 2027 | BS/MS |
 | Microsoft | Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556922929>) | 2026-08-04 | Summer 2027 | BS |
 | Intel | AI Software Engineer Graduate Intern | [Apply](<https://intel.wd1.myworkdayjobs.com/en-US/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989>) | 2026-08-04 | Summer 2027 | BS |
 | Microsoft | Software Engineer Intern, AI/ML & LLM | [Apply](<https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922929>) | 2026-08-04 | Summer 2027 | BS |
 | PlusAI | Deep Learning Research Intern — Multi... | [Apply](<https://jobs.lever.co/plus-2/2ee24f85-bfa1-47fc-bfe3-fd07521a7b62>) | 2026-08-04 | Summer 2027 | BS |
 | Cloudflare | U.S. Public Policy and AI Innovation ... | [Apply](<https://boards.greenhouse.io/cloudflare/jobs/8105728?gh_jid=8105728>) | 2026-08-04 | Summer 2027 | BS |
 | GE Vernova | Digital Technology Intern ⚠️dup?(ge-vernova-digital-technology-intern-c5f332) | [Apply](<https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-2>) | 2026-08-04 | Summer 2027 | BS |
-| TikTok | Research Scientist Intern - Trust and Safety | [Apply](<https://lifeattiktok.com/search/7662672903447988485>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Research Scientist Intern - Foundations & Intelligence Service | [Apply](<https://lifeattiktok.com/search/7662677746436524293>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Machine Learning Engineer Intern - Basic Ranking | [Apply](<https://lifeattiktok.com/search/7667339583362025781>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Machine Learning Engineer Intern - Recommendation | [Apply](<https://lifeattiktok.com/search/7662653087863081221>) | 2026-08-03 | Summer 2027 | MS |
+| TikTok | Research Scientist Intern (Trust and Safety - CV/NLP/Multimodal LLM) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7662672903447988485>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Research Scientist Intern (Data-TnS-Algo-Foundations &amp; Intelligence Service) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7662677746436524293>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7667339583362025781>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7662653087863081221>) | 2026-08-03 | Summer 2027 | MS |
 | TikTok | Machine Learning Scientist Intern - Recommendation | [Apply](<https://lifeattiktok.com/search/7662657855099357493>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Machine Learning Engineer Intern | [Apply](<https://lifeattiktok.com/search/7667338938890930437>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Machine Learning Engineer Intern - Data Search Search Quality | [Apply](<https://lifeattiktok.com/search/7665475888805611781>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667338938890930437>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7665475888805611781>) | 2026-08-03 | Summer 2027 | PhD |
 | TikTok | Machine Learning Engineer Intern - Trust and Safety | [Apply](<https://lifeattiktok.com/search/7662672554084059445>) | 2026-08-03 | Summer 2027 | MS |
-| TikTok | Machine Learning Engineer Intern - Search Quality | [Apply](<https://lifeattiktok.com/search/7665475460339665157>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Research Scientist Intern - Neural Graphics and World Models | [Apply](<https://lifeattiktok.com/search/7667935738840090933>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Machine Learning Engineer Intern | [Apply](<https://lifeattiktok.com/search/7667350291952765237>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Machine Learning Engineer Intern - Data Search - Visual Search | [Apply](<https://lifeattiktok.com/search/7667349591727278341>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Machine Learning Scientist Intern - Content Ecology - LLM Application | [Apply](<https://lifeattiktok.com/search/7667933770625599749>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Machine Learning Engineer Intern | [Apply](<https://lifeattiktok.com/search/7667346576033777925>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Artificial Intelligence Engineer Intern - Client Architecture | [Apply](<https://lifeattiktok.com/search/7667935738190465285>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Machine Learning Scientist Intern | [Apply](<https://lifeattiktok.com/search/7667934169444485429>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Research Scientist Intern - Recommendation | [Apply](<https://lifeattiktok.com/search/7662661203281447221>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Generative AI Researcher Intern - Intelligent Creation-Vision and Graphics | [Apply](<https://lifeattiktok.com/search/7668183035989281029>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - Summer 2027 | [Apply](<https://lifeattiktok.com/search/7665475460339665157>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Research Scientist Intern (TikTok-Neural Graphics and World Models) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7667935738840090933>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667350291952765237>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7667349591727278341>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Machine Learning Scientist Intern (TikTok - Content Ecology - LLM application) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7667933770625599749>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667346576033777925>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | AI Engineer Intern (TikTok-Client Arch)- 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667935738190465285>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Machine Learning Scientist Intern (TikTok-Local Services) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7667934169444485429>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Research Scientist Intern (TikTok-Recommendation) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7662661203281447221>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Generative AI Researcher Intern (Intelligent Creation-Vision and Graphics) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7668183035989281029>) | 2026-08-03 | Summer 2027 | PhD |
 | JP Morgan Chase | Data & AI Intern - Analyst | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773869>) | 2026-08-03 | Summer 2027 | BS/MS |
 | JP Morgan Chase | Data Internship - Data & AI Program | [Apply](<https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775223>) | 2026-08-03 | Summer 2027 | BS/MS |
-| ByteDance | Research Scientist Intern - Multi-modal Agentic Databases | [Apply](<https://jobs.bytedance.com/en/position/7667380184615127301/detail>) | 2026-08-03 | Summer 2027 | PhD |
-| ByteDance | AI Perception Intern - Pico | [Apply](<https://jobs.bytedance.com/en/position/7665457718334425349/detail>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Research Scientist Intern - Monetization Technology - Business Integrity | [Apply](<https://lifeattiktok.com/search/7668204438271969589>) | 2026-08-03 | Summer 2027 | PhD |
-| TikTok | Research Engineer Intern - Monetization Technology - Business Integrity | [Apply](<https://lifeattiktok.com/search/7668202602270951733>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Research Scientist Intern - Monetization Technology - Business Integrity | [Apply](<https://lifeattiktok.com/search/7668202600147552517>) | 2026-08-03 | Summer 2027 | BS/MS |
+| ByteDance | Research Scientist Intern (Multi-modal Agentic Databases) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7667380184615127301/detail>) | 2026-08-03 | Summer 2027 | PhD |
+| ByteDance | AI Perception Intern (PICO) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7665457718334425349/detail>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Research Scientist Intern (Monetization Technology - Business Integrity) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7668204438271969589>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Research Engineer Intern (Monetization Technology - Business Integrity) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668202602270951733>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Research Scientist Intern (Monetization Technology - Business Integrity) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668202600147552517>) | 2026-08-03 | Summer 2027 | BS/MS |
 | StepStone Group | AI Intern | [Apply](<https://boards.greenhouse.io/embed/job_app?token=8096268>) | 2026-08-03 | Summer 2027 | PhD |
 | Uline | Business Intelligence Developer Intern | [Apply](<https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Business-Intelligence-Developer-Internship---Summer-2027_R265685>) | 2026-08-03 | Summer 2027 | BS/MS |
 | Uline | Operations Analyst Intern | [Apply](<https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Operations-Analyst-Internship---Summer-2027_R265822>) | 2026-08-03 | Summer 2027 | BS |
 | CNO Financial Group  | Artificial Intelligence Information Technology Intern - AI | [Apply](<https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389>) | 2026-08-03 | Summer 2027 | BS |
-| TikTok | Research Engineer Intern - Agentic Systems & AI Infrastructure - Generalized Architecture | [Apply](<https://lifeattiktok.com/search/7667934792727906565>) | 2026-08-03 | Summer 2027 | BS/MS |
-| TikTok | Research Scientist Intern - Content Intelligence | [Apply](<https://lifeattiktok.com/search/7662662842545539381>) | 2026-08-03 | Summer 2027 | PhD |
-| ByteDance | Research Scientist Intern | [Apply](<https://jobs.bytedance.com/en/position/7667379218929780997/detail>) | 2026-08-03 | Summer 2027 | PhD |
+| TikTok | Research Engineer Intern, Agentic Systems &amp; AI Infrastructure  (TikTok-Generalized Arch) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7667934792727906565>) | 2026-08-03 | Summer 2027 | BS/MS |
+| TikTok | Research Scientist Intern (TikTok-Data-Content Intelligence) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7662662842545539381>) | 2026-08-03 | Summer 2027 | PhD |
+| ByteDance | Research Scientist Intern (AI Infra Compute) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7667379218929780997/detail>) | 2026-08-03 | Summer 2027 | PhD |
 | Two Sigma | AI Research Scientist Intern - 2027 Summer | [Apply](<https://twosigma.avature.net/careers/JobDetail/14096>) | 2026-08-02 | Summer 2027 | BS/MS/PhD |
-| TikTok | Software Engineer Intern - ML Infra - 2027 Start - PhD | [Apply](<https://lifeattiktok.com/search/7668696895234197813>) | 2026-08-01 | Summer 2027 | BS |
+| TikTok | Software Engineer Intern (ML Infra) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7668696895234197813>) | 2026-08-01 | Summer 2027 | BS |
 | Nelnet | Agentic AI Intern- Marketing and Comm... | [Apply](<https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Agentic-AI-Intern--Marketing-and-Communications_R22919>) | 2026-07-31 | Summer 2027 | BS |
 | Intel | AI Software Engineering Intern | [Apply](<https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641>) | 2026-07-29 | Summer 2027 | BS |
 | Intel | AI Software Engineering Intern | [Apply](<https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639>) | 2026-07-29 | Summer 2027 | BS |
 | Modal | ML Research Intern | [Apply](<https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a>) | 2026-07-28 | Summer 2027 | BS |
-| TikTok | AI software Engineer Project Intern - Transaction Platform - 2026 Start - BS/MS | [Apply](<https://lifeattiktok.com/search/7646621925436131637>) | ~2026-07-25 | Summer 2027 | BS |
 | Los Alamos National Laboratory | Computing & AI Division Undergraduate Student (CS / Math / Stats) | [Apply](<https://lanl.jobs/search/jobdetails/computing-and-artificial-intelligence-cai-division-ugs/ce152ba6-2ab8-4ef8-827d-f9ca75a54e6e>) | ~2026-07-24 | Summer 2027 | BS |
 | Microsoft | Applied Science: PhD Microsoft AI Internship Opportunities - Redmond | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556868271>) | ~2026-07-23 | Summer 2027 | PhD |
-| ByteDance | Software Engineer Intern (Applied Mac... | [Apply](<https://joinbytedance.com/search/7533045355162044690>) | ~2026-07-23 | Summer 2027 | BS |
 | Fortinet | Software Development Intern - GenAI | [Apply](<https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22401>) | ~2026-07-23 | Summer 2027 | BS |
-| ByteDance | Machine Learning Engineer Intern (Glo... | [Apply](<https://joinbytedance.com/search/7535953226975054098>) | ~2026-07-23 | Summer 2027 | BS |
-| ByteDance | Machine Learning Engineer Intern (E-C... | [Apply](<https://joinbytedance.com/search/7543005612200970503>) | ~2026-07-23 | Summer 2027 | BS |
 | Boys Town | Artificial Intelligence & Machine Lea... | [Apply](<https://boystown.wd1.myworkdayjobs.com/boystowncareers/job/Omaha-NE/Artificial-Intelligence---Machine-Learning-Intern_REQ-2026-8543-1>) | ~2026-07-23 | Summer 2027 | BS |
-| ByteDance | Applied Research Intern - AI Safety S... | [Apply](<https://joinbytedance.com/search/7645070235035044101>) | ~2026-07-23 | Summer 2027 | BS |
-| ByteDance | Research Scientist Intern (Seed Respo... | [Apply](<https://joinbytedance.com/search/7642762054696896773>) | ~2026-07-23 | Summer 2027 | BS |
+| ByteDance | Applied Research Intern- AI Safety Security -Global Tech Research Program-2027 Start | [Apply](<https://joinbytedance.com/search/7645070235035044101>) | ~2026-07-23 | Summer 2027 | BS |
 | Netflix | AI/ML Scientist Intern, AIMS AI Found... | [Apply](<https://explore.jobs.netflix.net/careers/job/790316547536>) | ~2026-07-23 | Summer 2027 | BS |
 | Sony | Research Intern on Generative and Pro... | [Apply](<https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---Michigan/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-118961>) | ~2026-07-23 | Summer 2027 | BS |
 | Haize Labs | Research Intern | [Apply](<https://job-boards.greenhouse.io/haizelabs/jobs/4070377008>) | ~2026-07-23 | Summer 2027 | BS |
@@ -717,8 +700,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Sony | Research Intern on Generative and Protective AI for Content Creation | [Apply](<https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335>) | 2026-06-30 | Summer 2027 | BS |
 | Halo Industries | Software Engineer Intern - Machine Learning Workflow | [Apply](<https://apply.workable.com/halo-industries/j/29728B1DAF/>) | 2026-06-29 | Summer 2027 | BS |
 | Lila Sciences | Co-Op, LS AI, ML Scientist for Protein Engineering | [Apply](<https://job-boards.greenhouse.io/lilasciences/jobs/4289387009>) | 2026-06-29 | Summer 2027 | BS |
-| ByteDance | Student Researcher, Multimodal Interaction & World Model (Seed) | [Apply](<https://joinbytedance.com/search/7623548747208739077>) | 2026-06-28 | Summer 2027 | BS |
-| ByteDance | Student Researcher, Vision Foundation Model (Seed) | [Apply](<https://joinbytedance.com/search/7623544831999346997>) | 2026-06-28 | Summer 2027 | BS |
+| ByteDance | Student Researcher (Multimodal Interaction and World Model - Seed) - 2027 Start | [Apply](<https://joinbytedance.com/search/7623548747208739077>) | 2026-06-28 | Summer 2027 | BS |
+| ByteDance | Student Researcher (Vision Foundation Model - Seed) - 2027 Start | [Apply](<https://joinbytedance.com/search/7623544831999346997>) | 2026-06-28 | Summer 2027 | BS |
 | Quadrillion | Research Intern | [Apply](<https://jobs.ashbyhq.com/quadrillion-labs/579cef88-1dbf-45b5-a938-7ddc23505765/application?embed=true>) | 2026-06-28 | Summer 2027 | BS |
 | CTGT | Software Engineering Intern / Research Intern, Interpretability (Summer 2027) | [Apply](<https://www.ycombinator.com/companies/ctgt/jobs/b3hTkK4-software-engineering-intern-summer-2027>) | 2026-06-27 | Summer 2027 | BS |
 | Applied Intuition | Research Intern - Reinforcement Learning - Self-Driving | [Apply](<https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application>) | 2026-06-27 | Summer 2027 | BS |
@@ -749,18 +732,17 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Eluvio | Last Minute AI-Machine Learning Summer Internship - Gen AI - Multimodal | [Apply](<https://apply.workable.com/eluvio/j/F70F3473E7/>) | 2026-05-09 | Summer 2027 | BS |
 | NeoCognition | Research Intern | [Apply](<https://jobs.ashbyhq.com/neocognition/f6b58e72-94eb-4090-a84e-d96197ffeb76/application?embed=true>) | 2026-05-01 | Summer 2027 | BS |
 | TikTok | Applied Scientist Intern - Trust and Safety - Multimodal Foundation Model - Global Frontier Tech Recruitment Program - 2027 Start - PhD | [Apply](<https://lifeattiktok.com/search/7633670871815670069>) | 2026-04-28 | Summer 2027 | PhD |
-| TikTok | Applied Scientist Intern - Trust and ... | [Apply](<https://lifeattiktok.com/position/7633668456744503557>) | 2026-04-28 | Summer 2027 | BS |
+| TikTok | Applied Scientist Intern - Trust and Safety (Multimodal Foundation Model) - Global Frontier Tech Recruitment Program - 2027 Start | [Apply](<https://lifeattiktok.com/position/7633668456744503557>) | 2026-04-28 | Summer 2027 | BS |
 | Marvell | Applied Machine Learning Scientist Intern - PhD | [Apply](<https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Santa-Clara-CA/Applied-Machine-Learning-Scientist-Intern---PhD_2502662>) | 2026-04-27 | Summer 2027 | PhD |
 | TIFIN | AI Engineering Intern | [Apply](<https://tifin.com/careers/apply/?gh_jid=5981740004>) | 2026-04-25 | Summer 2027 | BS |
 | Constellation Space | Graduate/PhD Research Intern - Machine Learning | [Apply](<https://jobs.ashbyhq.com/constellationspace/b763d4ba-7b77-479b-89a0-f632d9d02f4a>) | 2026-04-24 | Summer 2027 | PhD |
-| TikTok | LLM Post-training Engineer Intern, Research & Product | [Apply](<https://lifeattiktok.com/search/7631599293708126517>) | 2026-04-24 | Summer 2027 | BS |
 | Kion Group | AI Internships | [Apply](<https://kiongroup.wd3.myworkdayjobs.com/en-US/kion_scs/job/Wauwatosa-WI-United-States/AI-Internships_JR-0088855>) | 2026-04-23 | Summer 2027 | BS |
-| TikTok | Applied Scientist Intern, Business Integrity (PhD) | [Apply](<https://lifeattiktok.com/search/7631063087262419205>) | 2026-04-21 | Summer 2027 | PhD |
-| TikTok | Applied Scientist Intern, Monetization GenAI (PhD) | [Apply](<https://lifeattiktok.com/search/7631062649025857797>) | 2026-04-21 | Summer 2027 | PhD |
+| TikTok | Applied Scientist Intern - Business Integrity - Global Frontier Tech Recruitment Program - 2027 Start | [Apply](<https://lifeattiktok.com/search/7631063087262419205>) | 2026-04-21 | Summer 2027 | PhD |
+| TikTok | Applied Scientist Intern - Monetization GenAI - Global Frontier Tech Recruitment Program - 2027 Start | [Apply](<https://lifeattiktok.com/search/7631062649025857797>) | 2026-04-21 | Summer 2027 | PhD |
 | ASM Global | Automation & AI Technology Experience Intern | [Apply](<https://asmglobal.wd1.myworkdayjobs.com/en-US/careers/job/West-Conshohocken-PA/Automation---AI-Technology-Experience-Intern_R100122152>) | 2026-04-17 | Summer 2027 | BS |
-| TikTok | Applied Scientist Intern, Monetization Technology (PhD) | [Apply](<https://lifeattiktok.com/search/7629248119245261061>) | 2026-04-16 | Summer 2027 | PhD |
-| TikTok | Research Scientist Intern, E-commerce Recommendation LLM (PhD) | [Apply](<https://lifeattiktok.com/search/7629187524074342709>) | 2026-04-16 | Summer 2027 | PhD |
-| TikTok | Research Scientist Intern - TikTok Search / Generative AI - LLM - Global Frontier Tech Recruitment Program - 2027 Start - PhD | [Apply](<https://lifeattiktok.com/search/7629250876813642037>) | 2026-04-16 | Summer 2027 | PhD |
+| TikTok | Applied Scientist Intern - Monetization Technology - Global Frontier Tech Recruitment Program - 2027 Start | [Apply](<https://lifeattiktok.com/search/7629248119245261061>) | 2026-04-16 | Summer 2027 | PhD |
+| TikTok | Research Scientist Intern– E-commerce Recommendation(LLM Applications) - Global Frontier Tech Recruitment Program - 2027 Start | [Apply](<https://lifeattiktok.com/search/7629187524074342709>) | 2026-04-16 | Summer 2027 | PhD |
+| TikTok | Research Scientist Intern – TikTok Search / Generative AI (LLM) - Global Frontier Tech Recruitment Program - 2027 Start | [Apply](<https://lifeattiktok.com/search/7629250876813642037>) | 2026-04-16 | Summer 2027 | PhD |
 | TikTok | Research Scientist Intern- E-commerce Recommendation- LLM Applications - Global Frontier Tech Recruitment Program - 2027 Start - PhD | [Apply](<https://lifeattiktok.com/search/7629188397976586501>) | 2026-04-16 | Summer 2027 | PhD |
 | Cotiviti | Intern - Generative AI/Agentic AI/Research | [Apply](<https://careers-cotiviti.icims.com/jobs/18929/intern---generative-ai-agentic-ai-research/job>) | 2026-04-15 | Summer 2027 | BS |
 | Xterra AI | Research Scientist - Intern | [Apply](<https://jobs.ashbyhq.com/xterra%20ai/bc481f5a-3365-4048-8533-0c7728db512b>) | 2026-04-14 | Summer 2027 | BS |
@@ -779,7 +761,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
 | Flexion Robotics | Research Intern | [Apply](<https://apply.workable.com/flexion-robotics/j/8FF540773C/apply>) | 2026-08-08 | Summer 2027 | BS |
-| ByteDance | ASIC Design Engineer Intern - Video Silicon IP | [Apply](<https://jobs.bytedance.com/en/position/7670332179383699717/detail>) | 2026-08-06 | Summer 2027 | MS |
+| ByteDance | ASIC Design Engineer Intern (Video Silicon IP) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7670332179383699717/detail>) | 2026-08-06 | Summer 2027 | MS |
 | BorgWarner | Validation Intern (Year-Round) | [Apply](<https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Validation-Intern--Year-Round-_R2026-1958-1>) | 2026-08-05 | Summer 2027 | BS |
 | Draper | Embedded Quality & Fielded Systems In... | [Apply](<https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718>) | 2026-08-05 | Summer 2027 | BS |
 | Skydio | Hardware Test & Reliability Intern | [Apply](<https://jobs.ashbyhq.com/skydio/d75d4adf-760c-46b6-bb98-3497650a8924>) | 2026-08-05 | Summer 2027 | BS |

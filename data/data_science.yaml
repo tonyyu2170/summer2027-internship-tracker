@@ -299,23 +299,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: tiktok-data-scientist-project-intern-tiktok-f1a3d0
-  company: TikTok
-  role: Data Scientist Project Intern (TikTok...
-  location: San Jose, CA
-  link: https://lifeattiktok.com/position/7610543185362372917
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: moog-intern-it-computer-science-data-an-224620
   company: Moog
   role: Intern - IT Computer Science - Data Analytics
@@ -837,7 +820,7 @@
   possible_duplicate_of: null
 - id: tiktok-data-science-intern-integrity-and-safety-9cc0c4
   company: TikTok
-  role: Data Science Intern - Integrity and Safety
+  role: Data Science Intern (TikTok Integrity and Safety) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669682935444900149
   date_posted: '2026-08-04'
@@ -856,7 +839,7 @@
   possible_duplicate_of: null
 - id: tiktok-data-science-intern-tiktok-live-b6f743
   company: TikTok
-  role: Data Science Intern - TikTok Live
+  role: Data Science Intern (TikTok LIVE) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669700822370945333
   date_posted: '2026-08-04'
@@ -875,7 +858,7 @@
   possible_duplicate_of: null
 - id: tiktok-data-science-intern-tiktok-product-437403
   company: TikTok
-  role: Data Science Intern - TikTok Product
+  role: Data Science Intern (TikTok Product) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669683639101884725
   date_posted: '2026-08-05'
@@ -894,7 +877,7 @@
   possible_duplicate_of: null
 - id: tiktok-data-scientist-intern-vod-data-563d2d
   company: TikTok
-  role: Data Scientist Intern - VOD Data
+  role: Data Scientist Intern (VOD Data) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7670287013157095733
   date_posted: '2026-08-05'
