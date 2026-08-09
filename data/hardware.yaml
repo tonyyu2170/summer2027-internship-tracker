@@ -485,22 +485,6 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
-- id: astranis-environmental-test-engineer-associate-ac1d2a
-  company: Astranis
-  role: Environmental Test Engineer Associate...
-  location: San Francisco, CA
-  link: https://job-boards.greenhouse.io/astranis/jobs/4676910006
-  date_posted: '2026-04-28'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: true-anomaly-avionics-and-electrical-engineering-f-e1061e
   company: True Anomaly
   role: Avionics and Electrical Engineering F...
@@ -979,23 +963,6 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
-- id: rivian-and-volkswagen-group-technologies-electromechanical-design-engineering-b73869
-  company: Rivian and Volkswagen Group Technologies
-  role: Electromechanical Design Engineering ...
-  location: Irvine, CA
-  link: https://jobs.ashbyhq.com/rivianvw.tech/14734be2-9c81-4aab-bfa6-7dbbe95c94a6/application
-  date_posted: '2026-06-02'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: base-power-hardware-engineering-intern-becbe7
   company: Base Power
   role: Hardware Engineering Intern
@@ -1036,23 +1003,6 @@
   location: Fort Lauderdale, FL
   link: https://jobs.smartrecruiters.com/BoschGroup/744000126066306
   date_posted: '2026-05-12'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: astranis-mechanical-engineer-associate-progr-8b8d60
-  company: Astranis
-  role: Mechanical Engineer - Associate Progr...
-  location: San Francisco, CA
-  link: https://job-boards.greenhouse.io/astranis/jobs/4603493006
-  date_posted: '2026-04-29'
   term: Summer 2027
   degree:
   - BS
@@ -1115,23 +1065,6 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: true
-- id: varda-space-mechanical-engineering-internship-f-1c92fd
-  company: Varda Space
-  role: Mechanical Engineering Internship - F...
-  location: El Segundo, CA
-  link: https://job-boards.greenhouse.io/vardaspace/jobs/7670782003
-  date_posted: '2026-03-24'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: neuralink-manufacturing-intern-surgery-robot-da6979
   company: Neuralink
   role: Manufacturing Intern, Surgery & Robot...
@@ -1269,22 +1202,6 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
-- id: bosch-group-hardware-embedded-research-intern-db772c
-  company: Bosch Group
-  role: Hardware & Embedded Research Intern (...
-  location: Sunnyvale, CA
-  link: https://jobs.smartrecruiters.com/BoschGroup/744000131150005
-  date_posted: '2026-06-09'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: bosch-group-wireless-sensing-research-intern-e69966
   company: Bosch Group
   role: Wireless Sensing Research Intern
@@ -1798,22 +1715,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: skydio-hardware-test-reliability-intern-1463bb
-  company: Skydio
-  role: Hardware Test & Reliability Intern
-  location: San Mateo, CA
-  link: https://jobs.ashbyhq.com/skydio/d75d4adf-760c-46b6-bb98-3497650a8924
-  date_posted: '2026-08-05'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: skyworks-analog-ic-design-co-op-a63a95
   company: Skyworks
   role: Analog IC Design Co-op
@@ -1974,38 +1875,6 @@
   link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/R-D-Intern---Wireless-Systems-Engineer---2026_R62376
   date_posted: '2026-07-10'
   date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: marvell-analog-design-intern-master-s-degre-256f47
-  company: Marvell
-  role: Analog Design Intern - Master's Degre...
-  location: Westlake Village, CA
-  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Westlake-Village-CA/Analog-Design-Intern---Master-s-Degree--Quarter-Schools---Fall-2026-Start-Dates-_2502475-1
-  date_posted: '2026-07-10'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: figure-ai-power-systems-integration-intern-fal-8b9161
-  company: Figure AI
-  role: Power Systems Integration Intern [Fal...
-  location: San Jose, CA
-  link: https://job-boards.greenhouse.io/figureai/jobs/4702104006
-  date_posted: '2026-08-03'
-  date_estimated: false
   term: Summer 2027
   degree:
   - BS

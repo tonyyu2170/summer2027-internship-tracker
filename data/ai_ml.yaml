@@ -3065,23 +3065,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: otter-products-artificial-intelligence-intern-94abfd
-  company: Otter Products
-  role: Artificial Intelligence Intern
-  location: Fort Collins, CO
-  link: https://careers-otterproducts.icims.com/jobs/6912/job?mobile=true&needsRedirect=false
-  date_posted: '2026-08-06'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - chieler
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-content-intelligence-030098
   company: TikTok
   role: Research Scientist Intern (TikTok-Data-Content Intelligence) - 2027 Start

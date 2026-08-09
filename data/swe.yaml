@@ -772,24 +772,6 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
-- id: eulerity-website-developer-content-marketing-intern-ai-automation-c18223
-  company: Eulerity
-  role: Website Developer & Content Marketing Intern - AI & Automation
-  location: New York, NY
-  link: https://job-boards.greenhouse.io/eulerity/jobs/4694300006
-  date_posted: '2026-07-03'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: tencent-cloud-media-services-intern-4106a0
   company: Tencent
   role: Cloud Media Services Intern
@@ -969,24 +951,6 @@
   - github_tracker:speedyapply
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
-  possible_duplicate_of: null
-- id: beacon-software-software-engineering-intern-b35cec
-  company: Beacon Software
-  role: Software Engineering Intern
-  location: San Francisco, CA
-  link: https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1
-  date_posted: '2026-06-02'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
   possible_duplicate_of: null
 - id: clerkie-software-engineer-internship-397233
   company: Clerkie
@@ -1948,42 +1912,6 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
-- id: rivian-and-volkswagen-group-technologies-software-engineering-intern-vehicle-c26f3f
-  company: Rivian and Volkswagen Group Technologies
-  role: Software Engineering Intern - Vehicle...
-  location: Irvine, CA
-  link: https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55/application
-  date_posted: '2026-06-03'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: rivian-and-volkswagen-group-technologies-software-engineering-intern-applica-005501
-  company: Rivian and Volkswagen Group Technologies
-  role: Software Engineering Intern - Applica...
-  location: Irvine, CA
-  link: https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c/application
-  date_posted: '2026-06-03'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: transmarket-group-devops-sre-intern-69f226
   company: TransMarket Group
   role: DevOps/SRE Intern
@@ -2110,23 +2038,6 @@
   location: Austin, TX
   link: https://boards.greenhouse.io/neuralink/jobs/7736276003?gh_jid=7736276003
   date_posted: '2026-05-15'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: astranis-software-engineer-backend-intern-fa-9ced81
-  company: Astranis
-  role: Software Engineer- Backend Intern (Fa...
-  location: San Francisco, CA
-  link: https://job-boards.greenhouse.io/astranis/jobs/4681183006
-  date_posted: '2026-05-13'
   term: Summer 2027
   degree:
   - BS
@@ -2942,39 +2853,6 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
-- id: astranis-software-engineer-intern-enterprise-330766
-  company: Astranis
-  role: Software Engineer Intern - Enterprise...
-  location: San Francisco, CA
-  link: https://job-boards.greenhouse.io/astranis/jobs/4699071006
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: bosch-group-quality-engineering-intern-co-op-6c2272
-  company: Bosch Group
-  role: Quality Engineering Intern / Co-op - ...
-  location: Florence, KY
-  link: https://jobs.smartrecruiters.com/BoschGroup/744000138864841
-  date_posted: '2026-07-21'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: motorola-solutions-intern-web-interface-software-engin-ce94c8
   company: Motorola Solutions
   role: Intern – Web Interface Software Engin...
@@ -3039,22 +2917,6 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
-- id: cadence-university-product-engineering-internship-simul-dc0ec1
-  company: Cadence (University)
-  role: Product Engineering Internship, Simul...
-  location: Burlington, MA
-  link: https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/Burlington-MA/Product-Engineering-Internship--Simulation-and-Verification--Summer-2026-_R53475
-  date_posted: '2026-07-09'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: marmon-holdings-engineering-intern-co-op-751577
   company: Marmon Holdings
   role: Engineering Intern Co-op
@@ -3169,22 +3031,6 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
-- id: figure-ai-electrical-engineering-intern-fall-2-8c323e
-  company: Figure AI
-  role: Electrical Engineering Intern [Fall 2...
-  location: San Jose, CA
-  link: https://job-boards.greenhouse.io/figureai/jobs/4676467006
-  date_posted: '2026-04-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: shield-ai-electrical-engineering-spring-co-op-debc16
   company: Shield AI
   role: Electrical Engineering Spring Co-op (...
@@ -3201,22 +3047,6 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
-- id: figure-ai-validation-engineering-intern-fall-2-6a0a9f
-  company: Figure AI
-  role: Validation Engineering Intern [Fall 2...
-  location: San Jose, CA
-  link: https://job-boards.greenhouse.io/figureai/jobs/4606072006
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: plusai-research-engineer-intern-3b6d0e
   company: PlusAI
   role: Research Engineer Intern
@@ -3233,22 +3063,6 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: true
-- id: bosch-group-manufacturing-engineering-operations-ce584e
-  company: Bosch Group
-  role: Manufacturing Engineering/Operations ...
-  location: Pineville, NC
-  link: https://jobs.smartrecruiters.com/BoschGroup/744000139141329
-  date_posted: '2026-07-22'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: coca-cola-co-op-engineering-technician-9fb6e8
   company: Coca-Cola
   role: Co-Op - Engineering Technician
@@ -3265,22 +3079,6 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
-- id: menasha-corporation-application-engineer-intern-fall-win-5da17b
-  company: Menasha Corporation
-  role: Application Engineer Intern (Fall/Win...
-  location: Troy, MI
-  link: https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Troy-Michigan/Application-Engineer-Intern--Summer-2026-_R13999
-  date_posted: '2026-07-14'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: microchip-technology-intern-equipment-engineering-technic-28e659
   company: Microchip Technology
   role: Intern- Equipment Engineering Technic...
@@ -5175,23 +4973,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: persona-ai-autonomy-software-engineering-internship-world-modeling-363d58
-  company: Persona AI
-  role: Autonomy Software Engineering Internship - World Modeling
-  location: Houston, TX
-  link: https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: samsara-software-engineering-internship-san-francisco-fa2c8b
   company: Samsara
   role: Software Engineering Internship - San Francisco
@@ -5588,22 +5369,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: globalfoundries-factory-automation-engineering-intern-c59cc1
-  company: GlobalFoundries
-  role: Factory Automation Engineering Intern...
-  location: New York, NY
-  link: https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Factory-Automation-Engineering-Intern--Fall-2026-_JR-2503358
-  date_posted: '2026-08-06'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: bosch-group-project-management-test-engineering-539375
   company: Bosch Group
   role: Project Management / Test Engineering...
@@ -5642,22 +5407,6 @@
   location: Plano, TX
   link: https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-PLANO-465--465-Independence-Pkwy--INDEPENDENCE/Raytheon-Electrical-Engineering-Intern--Summer-2027--Onsite-_01864023
   date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: moog-intern-electrical-engineering-81ba67
-  company: Moog
-  role: Intern, Electrical Engineering
-  location: Buffalo, NY
-  link: https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Electrical-Engineering_R-26-18835
-  date_posted: '2026-08-05'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -5766,22 +5515,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: menasha-corporation-custom-packaging-design-engineer-co-o-5587cd
-  company: Menasha Corporation
-  role: Custom Packaging Design Engineer Co-O...
-  location: Piedmont, SC
-  link: https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Piedmont-South-Carolina/Custom-Packaging-Design-Engineer-Co-Op--Summer-Fall-2026-_R13995
-  date_posted: '2026-07-09'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: menasha-corporation-custom-packaging-design-engineer-co-o-449b0b
   company: Menasha Corporation
   role: Custom Packaging Design Engineer Co-O...
@@ -5858,24 +5591,6 @@
   - BS
   status: open
   sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: delta-dental-internship-application-development-217a02
-  company: Delta Dental
-  role: Internship - Application Development
-  location: Okemos, MI
-  link: https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101382
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - zapplyjobs
-  - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
@@ -6006,23 +5721,6 @@
   role: Federal Work Study Website Development Intern
   location: Anderson, IN
   link: https://ivytech.wd1.myworkdayjobs.com/ivy_tech_careers/job/Anderson-IN/Federal-Work-Study---Website-Development-Intern_JR0000105569
-  date_posted: '2026-06-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - chieler
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: university-of-nevada-reno-web-development-intern-marketing-communications-0eb9d4
-  company: University of Nevada, Reno
-  role: Web Development Intern - Marketing & Communications
-  location: Reno, NV
-  link: https://nshe.wd1.myworkdayjobs.com/UNR-external/job/University-of-Nevada-Reno---Main-Campus/Student-Worker---Web-Development-Intern--Marketing---Communications_R0152288
   date_posted: '2026-06-27'
   date_estimated: false
   term: Summer 2027

@@ -170,23 +170,6 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
-- id: medecins-sans-frontieres-doctors-without-borders-united-states-data-science-intern-92ccf2
-  company: Medecins Sans Frontieres (Doctors Without Borders) - United States
-  role: Data Science Intern
-  location: New York, NY
-  link: https://job-boards.greenhouse.io/msfcareers/jobs/5271141008
-  date_posted: '2026-06-18'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: magnera-corporation-it-data-analyst-intern-41a8c3
   company: Magnera Corporation
   role: IT Data Analyst Intern
@@ -284,22 +267,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: moog-intern-it-computer-science-data-an-224620
-  company: Moog
-  role: Intern - IT Computer Science - Data Analytics
-  location: Buffalo, NY
-  link: https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145
-  date_posted: '2026-07-16'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: equifax-data-analytics-intern-6be1cd
   company: Equifax
   role: Data & Analytics Intern
@@ -368,47 +335,12 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
-- id: rivian-and-volkswagen-group-technologies-data-engineering-intern-ai-analyt-0a725d
-  company: Rivian and Volkswagen Group Technologies
-  role: Data Engineering Intern - AI & Analyt...
-  location: Palo Alto, CA
-  link: https://jobs.ashbyhq.com/rivianvw.tech/3864f83a-7b29-4c96-b00e-436d60c0508a/application
-  date_posted: '2026-06-03'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: evolver-applied-data-science-intern-b3beed
   company: Evolver
   role: Applied Data Science Intern
   location: Palo Alto, CA
   link: https://job-boards.greenhouse.io/evolver/jobs/4254540009
   date_posted: '2026-05-20'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: faire-data-science-intern-307131
-  company: Faire
-  role: Data Science Intern
-  location: San Francisco, CA
-  link: https://boards.greenhouse.io/faire/jobs/8376377002?gh_jid=8376377002
-  date_posted: '2026-01-15'
   term: Summer 2027
   degree:
   - BS
@@ -647,39 +579,6 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: red-bull-2026-internship-fall-data-science-1d597d
-  company: Red Bull
-  role: 2026 Internship, Fall - Data Science
-  location: Morristown, NJ
-  link: https://jobs.smartrecruiters.com/RedBull/744000139168339
-  date_posted: '2026-07-22'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: national-interstate-insurance-catastrophe-modeling-data-analytics-29b939
-  company: National Interstate Insurance
-  role: Catastrophe Modeling & Data Analytics...
-  location: Cincinnati, OH
-  link: https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Catastrophe-Modeling---Data-Analytics-Intern--Fall-2026-_R9102
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: integra-fec-fall-data-scientist-intern-phd-c89985
   company: Integra FEC
   role: (FALL) Data Scientist Intern - PhD
@@ -961,23 +860,6 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: warner-bros-discovery-research-analytics-strategy-intern-6d6388
-  company: Warner Bros. Discovery
-  role: Research, Analytics & Strategy Intern...
-  location: New York, NY
-  link: https://warnerbros.wd5.myworkdayjobs.com/global/job/NY-New-York-30-Hudson-Yards/Research--Analytics---Strategy-Internships--NYC---Fall-2026_R000107153
-  date_posted: '2026-07-23'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
