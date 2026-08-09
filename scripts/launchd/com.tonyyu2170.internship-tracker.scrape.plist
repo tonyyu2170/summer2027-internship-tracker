@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tonyyu2170.internship-tracker.scrape</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/turdy/unemploy/summer2027/internship-tracker/scripts/auto_scrape.sh</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict><key>Hour</key><integer>0</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>6</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>12</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>18</integer><key>Minute</key><integer>0</integer></dict>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/turdy/unemploy/summer2027/internship-tracker</string>
+    <key>StandardOutPath</key>
+    <string>/Users/turdy/unemploy/summer2027/internship-tracker/scratch/auto_scrape/launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/turdy/unemploy/summer2027/internship-tracker/scratch/auto_scrape/launchd.log</string>
+</dict>
+</plist>

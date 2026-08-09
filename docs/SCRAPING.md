@@ -17,7 +17,20 @@ per-source procedure that emits **fetch reports** — JSON files the tested
   simplify.jobs"). Full fan-out across every source got too slow and
   token-heavy, so as of 2026-07-24 those are opt-in, not part of a plain
   "scrape".
-Scraping is never scheduled; it runs only on an explicit request.
+**Scheduled runs (added 2026-08-09):** the plain-"scrape" tracker pull runs
+automatically every 6 hours (00/06/12/18 local) via the launchd agent
+`com.tonyyu2170.internship-tracker.scrape` (`scripts/auto_scrape.sh`; plist
+kept at `scripts/launchd/`, installed to `~/Library/LaunchAgents/`). It is
+deterministic-only: GitHub trackers, merge, README, a targeted local commit —
+never `git push`, never opt-in sources. It skips itself while
+`scratch/ats_corrections.json` exists, while another writer process runs, or
+while `data/`/`README.md` have uncommitted changes; on anything needing
+judgment (unclassified postings, integrity violations) it stops without
+committing and appends to `scratch/auto_scrape/NEEDS_ATTENTION` (log:
+`scratch/auto_scrape/auto_scrape.log`). Resolve unclassified rows by adding
+per-link entries to `sources/manual_categories.yaml` (or extending
+`categorize.py`'s rules for a recurring family) — the next run picks them up.
+All **opt-in** sources below still run only on Tony's explicit request.
 
 Consulting and investment banking are intentionally out of scope. Matching
 roles are counted as `category_drop` and never create a category file.

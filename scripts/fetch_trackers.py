@@ -18,7 +18,13 @@ from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
 
-from categorize import assign_category, known_link_categories, known_link_locations, DROP
+from categorize import (
+    assign_category,
+    known_link_categories,
+    known_link_locations,
+    manual_link_categories,
+    DROP,
+)
 from normalize import normalize_link
 from parse_tracker import (
     parse_cvrve_json,
@@ -91,7 +97,10 @@ def run(out_dir=None):
     trackers = yaml.safe_load((ROOT / "sources" / "github_trackers.yaml").read_text())
     state_path = ROOT / "sources" / "scrape_state.yaml"
     state = yaml.safe_load(state_path.read_text()) or {}
-    known = known_link_categories()
+    # Data rows win over manual judgments: a tracked link's category is
+    # stable, and manual_categories.yaml only speaks for links no rule or
+    # data row covers.
+    known = {**manual_link_categories(), **known_link_categories()}
     known_locations = known_link_locations()
     unclassified = []
     drop_counts_path = out_dir / "drop_counts.json"

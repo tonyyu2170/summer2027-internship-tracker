@@ -20,13 +20,32 @@ DROP = "__drop__"
 # and the bug fixed by hand in 0fdf5dd. data_science precedes ai_ml so
 # "Data Scientist" wins over a bare AI match.
 _RULES = [
-    ("hardware", r"hardware|fpga|\basic\b|firmware|silicon|verilog|\brtl\b|embedded|\bpcb\b"),
+    ("hardware", r"hardware|fpga|\basic\b|firmware|silicon|verilog|\brtl\b|embedded|\bpcb\b|analog design|wireless systems"),
     ("actuarial", r"actuar"),
     (DROP, r"investment bank|\bibd\b|consult"),
     ("quant", r"quantitative|\bquant\b(?!ity)"),
-    ("data_science", r"data scien|data analy|analytics"),
+    ("data_science", r"data scien|data analy|analytics|business intelligence"),
     ("ai_ml", r"machine learning|deep learning|\bml\b|\bai\b|\bnlp\b|computer vision"),
-    ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend"),
+    ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend|cyber|malware|algorithm|application development"),
+    # Out-of-scope families, checked last so any in-scope keyword above wins
+    # first ("Supply Chain Software Engineer" is swe, "Quantitative Finance"
+    # is quant). A role left as None re-blocks every unattended merge under
+    # the scheduled scrape, so families that recur in zapplyjobs/chieler must
+    # resolve deterministically; one-off oddballs belong in
+    # sources/manual_categories.yaml instead of new patterns here.
+    (DROP, r"\bproduct\b|supply chain|logistic|purchasing|procurement|distribution"
+           r"|human resources|\bhr\b|recruit|\btalent\b"
+           r"|accounting|\bfinance\b|financial analysis|credit analyst|venture capital"
+           r"|marketing|market research|\bbrand\b|social media|\bmedia\b|editorial"
+           r"|newsgathering|\bcontent\b|community engagement|sponsorship|\bsports\b"
+           r"|outside sales|\bretail\b|\binsights?\b"
+           r"|manufacturing|mechanical|\boperations\b|maintenance|warranty|thermal|drafter"
+           r"|graphic design|visual design|instructional design|industrial design"
+           r"|biolog|vaccine|clinical|formulation|\bmaterials\b|paint|coating"
+           r"|legal|counsel|compliance|administrative|archivist|polling|real estate"
+           r"|relationship manager|investor engage|business development"
+           r"|aerospace|payload|\bgnc\b|guidance, navigation"
+           r"|internship program|talent community|^\s*intern\s*$"),
 ]
 
 _UPSTREAM = {
@@ -79,6 +98,21 @@ def known_link_categories(data_dir=None) -> dict:
             if link:
                 known[normalize_link(link)] = path.stem
     return known
+
+
+def manual_link_categories(path=None) -> dict:
+    """Map normalized link -> category from sources/manual_categories.yaml.
+
+    Per-link judgments recorded once, by hand, for postings no rule can
+    classify (ambiguous titles, upstream-truncated text). Values are a
+    category stem or DROP. Rows already in data/*.yaml always win over this
+    file — see the merge order at fetch_trackers' call site — so a manual
+    entry can never recategorize a tracked link."""
+    path = Path(path) if path else ROOT / "sources" / "manual_categories.yaml"
+    if not path.exists():
+        return {}
+    return {normalize_link(link): category
+            for link, category in (yaml.safe_load(path.read_text()) or {}).items()}
 
 
 def known_link_locations(data_dir=None) -> dict:

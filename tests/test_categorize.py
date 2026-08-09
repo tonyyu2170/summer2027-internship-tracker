@@ -5,6 +5,7 @@ from categorize import (
     map_upstream_category,
     assign_category,
     known_link_locations,
+    manual_link_categories,
 )
 
 
@@ -94,6 +95,57 @@ def test_quant_does_not_match_quantity():
     # "\bquant" (no trailing boundary) previously prefix-matched "Quantity",
     # miscategorizing a role that has nothing to do with quant finance.
     assert classify_role("Quantity Surveyor Intern") is None
+
+
+def test_classify_role_drops_recurring_nontarget_families():
+    # Added 2026-08-09 with the scheduled scrape: rows classify_role leaves
+    # as None re-block every unattended merge, so recurring non-target
+    # families (observed in zapplyjobs/chieler) must resolve to DROP.
+    assert classify_role("Product Manager Intern") == "__drop__"
+    assert classify_role("Supply Chain Intern") == "__drop__"
+    assert classify_role("Human Resources Intern") == "__drop__"
+    assert classify_role("HR Recruiting Intern") == "__drop__"
+    assert classify_role("Accounting Internship - Summer 2027") == "__drop__"
+    assert classify_role("Finance Intern - Year-Round Rotation Program") == "__drop__"
+    assert classify_role("Brand Marketing Intern") == "__drop__"
+    assert classify_role("Quality & Manufacturing Intern (Summer 2027)") == "__drop__"
+    assert classify_role("Graphic Design Intern — NYC") == "__drop__"
+    assert classify_role("Biologics Formulation Research Intern") == "__drop__"
+    assert classify_role("Compliance Analyst Co-Op") == "__drop__"
+    assert classify_role("Insights Intern - Multiple Teams") == "__drop__"
+    assert classify_role("Boeing Summer 2027 Internship Program...") == "__drop__"
+    assert classify_role("Intern") == "__drop__"
+
+
+def test_drop_families_checked_last_so_in_scope_keywords_win():
+    # The out-of-scope rule sits after every in-scope rule, so a title
+    # carrying any in-scope keyword must never fall into it.
+    assert classify_role("Supply Chain Software Engineer Intern") == "swe"
+    assert classify_role("Quantitative Finance Intern") == "quant"
+    assert classify_role("Machine Learning Operations Intern") == "ai_ml"
+    assert classify_role("Manufacturing Data Analyst Intern") == "data_science"
+
+
+def test_new_in_scope_families():
+    assert classify_role("Business Intelligence Intern") == "data_science"
+    assert classify_role("Analog Design Intern - Master's Degree") == "hardware"
+    assert classify_role("R&D Intern - Wireless Systems Engineering") == "hardware"
+    assert classify_role("Digital Health Algorithms Intern") == "swe"
+    assert classify_role("IT & Cybersecurity Leadership Development Internship Program") == "swe"
+    assert classify_role("Malware Research Intern") == "swe"
+
+
+def test_manual_link_categories_normalizes_and_tolerates_missing_file(tmp_path):
+    f = tmp_path / "manual_categories.yaml"
+    f.write_text(yaml.safe_dump({
+        "https://example.com/jobs/9?utm_source=x": "__drop__",
+        "https://example.com/jobs/10": "swe",
+    }))
+    assert manual_link_categories(f) == {
+        "https://example.com/jobs/9": "__drop__",
+        "https://example.com/jobs/10": "swe",
+    }
+    assert manual_link_categories(tmp_path / "nope.yaml") == {}
 
 
 def test_known_link_locations_maps_normalized_link_to_location(tmp_path):
