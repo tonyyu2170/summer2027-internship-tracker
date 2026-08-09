@@ -164,9 +164,11 @@ Trigger. Only add to it or scrape from it when Tony explicitly asks for
 direct-company scraping. **2026-08-09: expanded to exactly 1000 companies**
 (361 mined from data/ posting links — posting-evidenced; the rest curated
 and live-probed; `verified: false` marks links a probe could not confirm).
-Still a watch-list: only the rich `provider:` entries are wired into
-`fetch_companies.py`; wiring the greenhouse/lever/ashby-tokened subset into
-API pulls is the designed next step.
+Still a watch-list, but no longer only for the rich `provider:` entries:
+greenhouse/lever/ashby/workday/smartrecruiters are all wired into
+`fetch_companies.py` as of 2026-08-09. What remains unwired is `custom` (524
+entries, a near-flat tail of ~500 distinct hosts) and `icims` (12, no public
+JSON — see above).
 
 ## Link liveness check
 
