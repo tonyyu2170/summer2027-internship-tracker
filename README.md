@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-09 10:52 EST — 858 open roles. Last scrape: +1 new, 0 closed._
+_Last updated: 2026-08-09 11:01 EST — 844 open roles. Last scrape: +1 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,10 +22,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
-| ByteDance | Software Development Engineer Intern ... | [Apply](<https://joinbytedance.com/search/7671147251943213317>) | 2026-08-09 | Summer 2027 | BS |
 | ByteDance | Developer Advocacy Project Intern (PI... | [Apply](<https://joinbytedance.com/search/7665037087551129909>) | 2026-08-09 | Summer 2027 | BS |
 | ByteDance | Software Development Engineer Intern - Network Automation - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7671147251943213317/detail>) | 2026-08-08 | Summer 2027 | BS/MS |
-| ByteDance | Network Software Development Engineer... | [Apply](<https://joinbytedance.com/search/7670778018960542005>) | 2026-08-08 | Summer 2027 | BS |
 | Copart | Software Engineering Intern | [Apply](<https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079>) | 2026-08-07 | Summer 2027 | BS |
 | Copart | Database Engineering Intern | [Apply](<https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636>) | 2026-08-07 | Summer 2027 | BS |
 | TikTok | Fullstack Software Engineer Intern - Global E-Commerce | [Apply](<https://lifeattiktok.com/search/7670700387322300677>) | 2026-08-07 | Summer 2027 | BS/MS |
@@ -90,8 +88,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Corpay | Web Application Developer Intern | [Apply](<https://jobs.dayforcehcm.com/en-US/corpay/candidateportal/jobs/55812>) | 2026-08-04 | Summer 2027 | BS |
 | Microsoft | Software Engineer Intern, Security & Identity | [Apply](<https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922930>) | 2026-08-04 | Summer 2027 | BS |
 | Microsoft | Software Engineer Intern, Cloud & Distributed Backend | [Apply](<https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922923>) | 2026-08-04 | Summer 2027 | BS |
-| ByteDance | Software Engineer Intern, Distributed NoSQL Database Systems | [Apply](<https://joinbytedance.com/search/7668373268886161669>) | 2026-08-04 | Summer 2027 | BS |
-| ByteDance | Software Engineer Intern, Distributed NoSQL Database Systems | [Apply](<https://joinbytedance.com/search/7668374190764050741>) | 2026-08-04 | Summer 2027 | BS |
 | Draper | Mechanical Engineering & System Packa... | [Apply](<https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Mechanical-Engineering---System-Packaging-Intern_JR002763>) | 2026-08-04 | Summer 2027 | BS |
 | IDEXX | Security Operations (Cybersecurity) i... | [Apply](<https://idexx.wd1.myworkdayjobs.com/IDEXX/job/Westbrook-ME/Security-Operations--Cybersecurity--internship_J-053268>) | 2026-08-03 | Summer 2027 | BS |
 | TikTok | Software Engineer Intern - Creative Intelligence and Brand Innovation | [Apply](<https://lifeattiktok.com/search/7668642761473902901>) | 2026-08-03 | Summer 2027 | BS/MS |
@@ -188,7 +184,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | ByteDance | Security Engineering Project Intern (... | [Apply](<https://joinbytedance.com/search/7625759034518128901>) | ~2026-07-23 | Summer 2027 | BS |
 | ByteDance | Site Reliability Engineer Project Int... | [Apply](<https://joinbytedance.com/search/7600174040255007029>) | ~2026-07-23 | Summer 2027 | BS |
 | Uber | 2027 Software Engineering Internship,... | [Apply](<https://www.uber.com/global/en/careers/list/302133/>) | ~2026-07-23 | Summer 2027 | BS |
-| TikTok | Frontend Software Engineer Project In... | [Apply](<https://lifeattiktok.com/position/7654431844394322229>) | ~2026-07-23 | Summer 2027 | BS |
 | TikTok | Software Engineer Intern (Recommendat... | [Apply](<https://lifeattiktok.com/position/7534878965941766408>) | ~2026-07-23 | Summer 2027 | BS |
 | TikTok | Frontend Engineer Project Intern (Tik... | [Apply](<https://lifeattiktok.com/position/7595733632086591797>) | ~2026-07-23 | Summer 2027 | BS |
 | Agilent Technologies | Intern - R&D Software Engineering (AI... | [Apply](<https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437>) | ~2026-07-23 | Summer 2027 | BS |
@@ -262,7 +257,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Marshall Wace | Technology Intern | [Apply](<https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002>) | 2026-07-06 | Summer 2027 | BS |
 | Eulerity | Website Developer & Content Marketing Intern - AI & Automation | [Apply](<https://job-boards.greenhouse.io/eulerity/jobs/4694300006>) | 2026-07-03 | Summer 2027 | BS |
 | Tencent | Cloud Media Services Intern | [Apply](<https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R106872>) | 2026-07-03 | Summer 2027 | BS |
-| TikTok | Frontend Software Engineer Project Intern - Global CRM - 2026 Start（BS/MS） | [Apply](<https://lifeattiktok.com/search/7654431844394322229>) | 2026-07-02 | Summer 2027 | BS |
+| TikTok | Frontend Software Engineer Project In... | [Apply](<https://lifeattiktok.com/position/7654431844394322229>) | 2026-07-02 | Summer 2027 | BS |
 | Palantir | Forward Deployed Software Engineer - Internship - Intel | [Apply](<https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89>) | 2026-07-01 | Summer 2027 | BS |
 | Sony | Software Engineer Intern | [Apply](<https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282>) | 2026-07-01 | Summer 2027 | BS |
 | Palantir | Forward Deployed Software Engineer Intern, Commercial | [Apply](<https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2>) | 2026-06-30 | Summer 2027 | BS |
@@ -595,11 +590,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
 | ByteDance | Machine Learning Engineer Intern (Glo... | [Apply](<https://joinbytedance.com/search/7535951608832657682>) | 2026-08-08 | Summer 2027 | BS |
-| ByteDance | Software Engineer Intern (AI Infra Co... | [Apply](<https://joinbytedance.com/search/7667378931599214853>) | 2026-08-08 | Summer 2027 | BS |
 | ByteDance | Machine Learning Engineer Intern (E-C... | [Apply](<https://joinbytedance.com/search/7538942403488188680>) | 2026-08-08 | Summer 2027 | BS |
 | ByteDance | Machine Learning Engineer Intern (E-c... | [Apply](<https://joinbytedance.com/search/7535171166420453639>) | 2026-08-08 | Summer 2027 | BS |
-| ByteDance | Machine Learning Research Scientist I... | [Apply](<https://joinbytedance.com/search/7670855041951795509>) | 2026-08-08 | Summer 2027 | BS |
-| ByteDance | AI Perception Intern (PICO) - 2027 St... | [Apply](<https://joinbytedance.com/search/7665457718334425349>) | 2026-08-08 | Summer 2027 | BS |
 | ByteDance | Research Intern (SDN Traffic Intellig... | [Apply](<https://joinbytedance.com/search/7668118098724079877>) | 2026-08-08 | Summer 2027 | BS |
 | FTI Consulting | Technology Intern - Technology | [Apply](<https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareersPrivate/job/United-States/XMLNAME-2027-Intern---Technology_JR260339>) | 2026-08-07 | Summer 2027 | BS/MS |
 | FTI Consulting | Technology Intern | [Apply](<https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Technology_JR260339-1>) | 2026-08-07 | Summer 2027 | BS/MS |
@@ -612,9 +604,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | ByteDance | Research Scientist Intern - Multimedia Streaming | [Apply](<https://jobs.bytedance.com/en/position/7670354800621603125/detail>) | 2026-08-06 | Summer 2027 | PhD |
 | ByteDance | Research Scientist Intern | [Apply](<https://jobs.bytedance.com/en/position/7670375041041320245/detail>) | 2026-08-06 | Summer 2027 | PhD |
 | ByteDance | Applied Machine Learning Production Engineer Intern - AML Production Engineer | [Apply](<https://jobs.bytedance.com/en/position/7670009669494704437/detail>) | 2026-08-06 | Summer 2027 | BS/MS |
-| ByteDance | AI Network Automation Engineer Intern, Global Physical Network Infra | [Apply](<https://joinbytedance.com/search/7670690923748870405>) | 2026-08-06 | Summer 2027 | BS |
-| ByteDance | GPU/AI Application System Software Engineer Intern | [Apply](<https://joinbytedance.com/search/7668464504736876853>) | 2026-08-06 | Summer 2027 | BS |
-| ByteDance | Applied Machine Learning Production Engineer Intern | [Apply](<https://joinbytedance.com/search/7670009669494704437>) | 2026-08-06 | Summer 2027 | BS |
 | Canva | PhD Research Scientist Intern | [Apply](<https://jobs.smartrecruiters.com/Canva/6000000001291655>) | 2026-08-06 | Summer 2027 | PhD |
 | Otter Products | Artificial Intelligence Intern | [Apply](<https://careers-otterproducts.icims.com/jobs/6912/job?mobile=true&needsRedirect=false>) | 2026-08-06 | Summer 2027 | BS |
 | TikTok | Machine Learning Engineer Intern - Data-Global E-Commerce-Search | [Apply](<https://lifeattiktok.com/search/7668415591670417717>) | 2026-08-05 | Summer 2027 | PhD |
@@ -634,7 +623,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Microsoft | Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556922929>) | 2026-08-04 | Summer 2027 | BS |
 | Intel | AI Software Engineer Graduate Intern | [Apply](<https://intel.wd1.myworkdayjobs.com/en-US/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989>) | 2026-08-04 | Summer 2027 | BS |
 | Microsoft | Software Engineer Intern, AI/ML & LLM | [Apply](<https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922929>) | 2026-08-04 | Summer 2027 | BS |
-| ByteDance | Software Engineer Intern, AI Platform | [Apply](<https://joinbytedance.com/search/7668212952030841093>) | 2026-08-04 | Summer 2027 | BS |
 | PlusAI | Deep Learning Research Intern — Multi... | [Apply](<https://jobs.lever.co/plus-2/2ee24f85-bfa1-47fc-bfe3-fd07521a7b62>) | 2026-08-04 | Summer 2027 | BS |
 | Cloudflare | U.S. Public Policy and AI Innovation ... | [Apply](<https://boards.greenhouse.io/cloudflare/jobs/8105728?gh_jid=8105728>) | 2026-08-04 | Summer 2027 | BS |
 | GE Vernova | Digital Technology Intern ⚠️dup?(ge-vernova-digital-technology-intern-c5f332) | [Apply](<https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-2>) | 2026-08-04 | Summer 2027 | BS |
@@ -686,7 +674,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Boys Town | Artificial Intelligence & Machine Lea... | [Apply](<https://boystown.wd1.myworkdayjobs.com/boystowncareers/job/Omaha-NE/Artificial-Intelligence---Machine-Learning-Intern_REQ-2026-8543-1>) | ~2026-07-23 | Summer 2027 | BS |
 | ByteDance | Applied Research Intern - AI Safety S... | [Apply](<https://joinbytedance.com/search/7645070235035044101>) | ~2026-07-23 | Summer 2027 | BS |
 | ByteDance | Research Scientist Intern (Seed Respo... | [Apply](<https://joinbytedance.com/search/7642762054696896773>) | ~2026-07-23 | Summer 2027 | BS |
-| TikTok | Applied Scientist Intern - Trust and ... | [Apply](<https://lifeattiktok.com/position/7633668456744503557>) | ~2026-07-23 | Summer 2027 | BS |
 | Netflix | AI/ML Scientist Intern, AIMS AI Found... | [Apply](<https://explore.jobs.netflix.net/careers/job/790316547536>) | ~2026-07-23 | Summer 2027 | BS |
 | Sony | Research Intern on Generative and Pro... | [Apply](<https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---Michigan/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-118961>) | ~2026-07-23 | Summer 2027 | BS |
 | Haize Labs | Research Intern | [Apply](<https://job-boards.greenhouse.io/haizelabs/jobs/4070377008>) | ~2026-07-23 | Summer 2027 | BS |
@@ -761,8 +748,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Fortinet | AI Intern | [Apply](<https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22741>) | ~2026-05-10 | Summer 2027 | BS |
 | Eluvio | Last Minute AI-Machine Learning Summer Internship - Gen AI - Multimodal | [Apply](<https://apply.workable.com/eluvio/j/F70F3473E7/>) | 2026-05-09 | Summer 2027 | BS |
 | NeoCognition | Research Intern | [Apply](<https://jobs.ashbyhq.com/neocognition/f6b58e72-94eb-4090-a84e-d96197ffeb76/application?embed=true>) | 2026-05-01 | Summer 2027 | BS |
-| TikTok | Applied Scientist Intern, Trust & Safety Multimodal Foundation Model (PhD) | [Apply](<https://lifeattiktok.com/search/7633668456744503557>) | 2026-04-28 | Summer 2027 | PhD |
 | TikTok | Applied Scientist Intern - Trust and Safety - Multimodal Foundation Model - Global Frontier Tech Recruitment Program - 2027 Start - PhD | [Apply](<https://lifeattiktok.com/search/7633670871815670069>) | 2026-04-28 | Summer 2027 | PhD |
+| TikTok | Applied Scientist Intern - Trust and ... | [Apply](<https://lifeattiktok.com/position/7633668456744503557>) | 2026-04-28 | Summer 2027 | BS |
 | Marvell | Applied Machine Learning Scientist Intern - PhD | [Apply](<https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Santa-Clara-CA/Applied-Machine-Learning-Scientist-Intern---PhD_2502662>) | 2026-04-27 | Summer 2027 | PhD |
 | TIFIN | AI Engineering Intern | [Apply](<https://tifin.com/careers/apply/?gh_jid=5981740004>) | 2026-04-25 | Summer 2027 | BS |
 | Constellation Space | Graduate/PhD Research Intern - Machine Learning | [Apply](<https://jobs.ashbyhq.com/constellationspace/b763d4ba-7b77-479b-89a0-f632d9d02f4a>) | 2026-04-24 | Summer 2027 | PhD |
@@ -791,7 +778,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
-| ByteDance | ASIC Design Engineer Intern (Video Si... | [Apply](<https://joinbytedance.com/search/7670332179383699717>) | 2026-08-08 | Summer 2027 | BS |
 | Flexion Robotics | Research Intern | [Apply](<https://apply.workable.com/flexion-robotics/j/8FF540773C/apply>) | 2026-08-08 | Summer 2027 | BS |
 | ByteDance | ASIC Design Engineer Intern - Video Silicon IP | [Apply](<https://jobs.bytedance.com/en/position/7670332179383699717/detail>) | 2026-08-06 | Summer 2027 | MS |
 | BorgWarner | Validation Intern (Year-Round) | [Apply](<https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Validation-Intern--Year-Round-_R2026-1958-1>) | 2026-08-05 | Summer 2027 | BS |

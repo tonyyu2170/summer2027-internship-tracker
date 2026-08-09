@@ -1748,18 +1748,20 @@
   role: Frontend Software Engineer Project In...
   location: San Jose, CA
   link: https://lifeattiktok.com/position/7654431844394322229
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-02'
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
   - github_tracker
+  - github_tracker:chieler
+  - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: tiktok-software-engineer-intern-recommendat-40b705
   company: TikTok
   role: Software Engineer Intern (Recommendat...
@@ -3031,23 +3033,6 @@
   date_added: '2026-07-25'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: tiktok-frontend-software-engineer-project-intern-global-crm-2026-start-bs-ms-e3c109
-  company: TikTok
-  role: Frontend Software Engineer Project Intern - Global CRM - 2026 Start（BS/MS）
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7654431844394322229
-  date_posted: '2026-07-02'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: tiktok-software-engineer-intern-quality-and-efficiency-technology-2026-summer-bs-ms-db655f
   company: TikTok
   role: Software Engineer Intern - Quality and Efficiency Technology - 2026 Summer
@@ -4166,9 +4151,10 @@
   - MS
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -4203,9 +4189,10 @@
   - MS
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
+  - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -4224,6 +4211,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -4582,8 +4570,10 @@
   - MS
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -4772,9 +4762,10 @@
   - MS
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
+  - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -4811,9 +4802,11 @@
   - MS
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
+  - github_tracker:vanshb03
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -4925,9 +4918,10 @@
   - MS
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -5114,9 +5108,10 @@
   - MS
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -5802,39 +5797,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: bytedance-software-engineer-intern-distributed-nosql-database-systems-265cda
-  company: ByteDance
-  role: Software Engineer Intern, Distributed NoSQL Database Systems
-  location: Seattle, WA
-  link: https://joinbytedance.com/search/7668373268886161669
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-software-engineer-intern-distributed-nosql-database-systems-7b0f55
-  company: ByteDance
-  role: Software Engineer Intern, Distributed NoSQL Database Systems
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7668374190764050741
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: rtx-software-engineer-intern-fleet-health-instrumentation-9e8f6f
   company: RTX
   role: Software Engineer Intern, Fleet Health Instrumentation
@@ -5850,22 +5812,6 @@
   - github_tracker:vanshb03
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-network-software-development-engineer-a0a303
-  company: ByteDance
-  role: Network Software Development Engineer...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7670778018960542005
-  date_posted: '2026-08-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -6333,22 +6279,6 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:speedyapply
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-software-development-engineer-intern-72fe4d
-  company: ByteDance
-  role: Software Development Engineer Intern ...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7671147251943213317
-  date_posted: '2026-08-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: null

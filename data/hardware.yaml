@@ -1707,9 +1707,10 @@
   - MS
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -1777,22 +1778,6 @@
   status: open
   sources:
   - github_tracker:speedyapply
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-asic-design-engineer-intern-video-si-9f00d2
-  company: ByteDance
-  role: ASIC Design Engineer Intern (Video Si...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7670332179383699717
-  date_posted: '2026-08-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null

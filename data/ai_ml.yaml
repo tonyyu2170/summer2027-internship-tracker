@@ -65,22 +65,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: tiktok-applied-scientist-intern-trust-safety-multimodal-foundation-model-phd-21abee
-  company: TikTok
-  role: Applied Scientist Intern, Trust & Safety Multimodal Foundation Model (PhD)
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7633668456744503557
-  date_posted: '2026-04-28'
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:sndsh404
-  date_added: '2026-07-23'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-business-integrity-phd-9bfbc8
   company: TikTok
   role: Applied Scientist Intern, Business Integrity (PhD)
@@ -1546,17 +1530,18 @@
   role: Applied Scientist Intern - Trust and ...
   location: Seattle, WA
   link: https://lifeattiktok.com/position/7633668456744503557
-  date_posted: '2026-07-23'
+  date_posted: '2026-04-28'
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
   - github_tracker
+  - github_tracker:sndsh404
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
-  date_estimated: true
+  date_estimated: false
 - id: bosch-group-research-intern-world-action-model-cb0362
   company: Bosch Group
   role: Research Intern – World-Action Model ...
@@ -2440,9 +2425,10 @@
   - PhD
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -2933,9 +2919,11 @@
   - MS
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
+  - github_tracker:vanshb03
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -2952,9 +2940,10 @@
   - PhD
   status: open
   sources:
+  - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -3082,23 +3071,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: bytedance-software-engineer-intern-ai-platform-77e8ec
-  company: ByteDance
-  role: Software Engineer Intern, AI Platform
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7668212952030841093
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: modal-ml-research-intern-6636a4
   company: Modal
   role: ML Research Intern
@@ -3114,75 +3086,6 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-ai-network-automation-engineer-intern-global-physical-network-infra-80a0bb
-  company: ByteDance
-  role: AI Network Automation Engineer Intern, Global Physical Network Infra
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7670690923748870405
-  date_posted: '2026-08-06'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-gpu-ai-application-system-software-engineer-intern-041ccc
-  company: ByteDance
-  role: GPU/AI Application System Software Engineer Intern
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7668464504736876853
-  date_posted: '2026-08-06'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-applied-machine-learning-production-engineer-intern-0d9df2
-  company: ByteDance
-  role: Applied Machine Learning Production Engineer Intern
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7670009669494704437
-  date_posted: '2026-08-06'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-software-engineer-intern-ai-infra-co-8808f6
-  company: ByteDance
-  role: Software Engineer Intern (AI Infra Co...
-  location: Seattle, WA
-  link: https://joinbytedance.com/search/7667378931599214853
-  date_posted: '2026-08-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -3250,22 +3153,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: bytedance-machine-learning-research-scientist-i-cde71c
-  company: ByteDance
-  role: Machine Learning Research Scientist I...
-  location: Seattle, WA
-  link: https://joinbytedance.com/search/7670855041951795509
-  date_posted: '2026-08-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: plusai-deep-learning-research-intern-multi-c9e544
   company: PlusAI
   role: Deep Learning Research Intern — Multi...
@@ -3282,22 +3169,6 @@
   - github_tracker:chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: bytedance-ai-perception-intern-pico-2027-st-388135
-  company: ByteDance
-  role: AI Perception Intern (PICO) - 2027 St...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7665457718334425349
-  date_posted: '2026-08-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-08'
   possible_duplicate_of: null
 - id: cloudflare-u-s-public-policy-and-ai-innovation-836e8f
   company: Cloudflare
