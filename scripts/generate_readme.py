@@ -163,7 +163,7 @@ def render(data_dir=None, readme_path=None, last_run=None) -> Path:
     out = [
         "# Summer 2027 Internship Tracker",
         "",
-        f"_Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')} — "
+        f"_Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M EST')} — "
         f"{open_count} open roles.{last_run_clause}_",
         "",
         "US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.",
