@@ -28,6 +28,20 @@ def test_classify_role_basic_categories():
     assert classify_role("Software Engineer Intern") == "swe"
 
 
+def test_classify_role_routes_non_software_disciplines_to_hardware():
+    # swe's bare `engineer` used to claim all of these.
+    assert classify_role("Mechanical Engineering Intern (Summer 2027)") == "hardware"
+    assert classify_role("Intern, Industrial Engineering") == "hardware"
+    assert classify_role("WED - Intern Civil Engineer (Summer 2027)") == "hardware"
+    assert classify_role("Chemical Engineering Intern") == "hardware"
+    # The discipline has to modify "engineer": a bare-word match would
+    # misroute this genuinely-software role.
+    assert classify_role(
+        "Privacy and Civil Liberties Software Engineer Intern") == "swe"
+    # In-scope specialties still win over the discipline rule.
+    assert classify_role("Mechanical Engineer, Data Analytics Intern") == "data_science"
+
+
 def test_classify_role_returns_none_when_no_rule_matches():
     assert classify_role("Summer Intern") is None
     assert classify_role("Business Intern") is None

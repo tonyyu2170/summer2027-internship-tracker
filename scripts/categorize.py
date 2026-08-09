@@ -26,6 +26,15 @@ _RULES = [
     ("quant", r"quantitative|\bquant\b(?!ity)"),
     ("data_science", r"data scien|data analy|analytics|business intelligence"),
     ("ai_ml", r"machine learning|deep learning|\bml\b|\bai\b|\bnlp\b|computer vision"),
+    # Non-software engineering disciplines, checked just before swe so its
+    # bare `engineer` match can't claim them (RTX/Bosch/HNTB mechanical,
+    # industrial and civil interns were all filing as swe). The discipline
+    # must modify "engineer" — matching the bare word would misroute
+    # "Privacy and Civil Liberties Software Engineer Intern". In-scope
+    # specialties above still win, so a firmware-flavoured mechanical role
+    # stays hardware on its own merits.
+    ("hardware", r"(civil|mechanical|industrial|chemical|structural|aerospace"
+                 r"|environmental|geotechnical|nuclear|petroleum)\s+engineer"),
     ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend|cyber|malware|algorithm|application development"),
     # Out-of-scope families, checked last so any in-scope keyword above wins
     # first ("Supply Chain Software Engineer" is swe, "Quantitative Finance"
