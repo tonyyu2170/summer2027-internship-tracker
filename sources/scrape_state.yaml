@@ -1,12 +1,2145 @@
 _last_fetch:
   drops:
+    company:1password:
+      role_unmatched: 61
+    company:3red-partners:
+      role_unmatched: 8
+    company:84-51:
+      role_unmatched: 13
+    company:abbvie:
+      unwired_source: 1
+    company:abc-news:
+      unwired_source: 1
+    company:abridge:
+      role_unmatched: 44
+    company:abundant:
+      unwired_source: 1
+    company:adaptive:
+      role_unmatched: 17
+    company:addepar:
+      unwired_source: 1
+    company:adobe:
+      unverified_source: 1
+    company:advantest-america:
+      unwired_source: 1
+    company:affinius-capital:
+      unwired_source: 1
+    company:affirm:
+      role_unmatched: 200
+    company:agilent-technologies:
+      unwired_source: 1
+    company:agility-robotics:
+      role_unmatched: 60
+    company:aig:
+      unwired_source: 1
+    company:airbnb:
+      role_unmatched: 189
+    company:airbyte:
+      role_unmatched: 10
+    company:airtable:
+      role_unmatched: 38
+    company:akamai:
+      unverified_source: 1
+    company:akuna-capital:
+      unwired_source: 1
+    company:al-warren-oil-company:
+      unwired_source: 1
+    company:alaska-airlines:
+      unwired_source: 1
+    company:alation:
+      unwired_source: 1
+    company:alixpartners:
+      unwired_source: 1
+    company:allegro-microsystems:
+      unwired_source: 1
+    company:allstate:
+      unwired_source: 1
+    company:ally:
+      unwired_source: 1
+    company:altasciences:
+      unwired_source: 1
+    company:alteryx:
+      unwired_source: 1
+    company:amazon:
+      unwired_source: 1
+    company:ambarella:
+      unwired_source: 1
+    company:ambience-healthcare:
+      role_unmatched: 20
+    company:amd:
+      unwired_source: 1
+    company:ameren:
+      unwired_source: 1
+    company:american-airlines:
+      unverified_source: 1
+    company:american-express:
+      unwired_source: 1
+    company:american-family:
+      unverified_source: 1
+    company:ameritas:
+      unwired_source: 1
+    company:amica:
+      unverified_source: 1
+    company:amphenol:
+      unverified_source: 1
+    company:amplitude:
+      role_unmatched: 33
+    company:anaconda:
+      unwired_source: 1
+    company:analog-devices:
+      unverified_source: 1
+    company:anchorage-digital:
+      unwired_source: 1
+    company:anduril:
+      non_us_location: 4
+      role_unmatched: 2182
+      term_unmatched: 1
+    company:ansys:
+      unwired_source: 1
+    company:anthelion-capital:
+      non_us_location: 1
+      role_unmatched: 3
+    company:anthropic:
+      role_unmatched: 392
+    company:anyscale:
+      role_unmatched: 18
+    company:anysphere-cursor:
+      unwired_source: 1
+    company:aon:
+      unwired_source: 1
+    company:apex-technology-inc:
+      role_unmatched: 82
+    company:apollo-global:
+      unwired_source: 1
+    company:apollo-graphql:
+      unwired_source: 1
+    company:appian:
+      role_unmatched: 186
+    company:apple:
+      source_parse_failed: 1
+    company:applied-intuition:
+      role_unmatched: 256
+      term_unmatched: 5
+    company:applied-materials:
+      unverified_source: 1
+    company:applied-systems:
+      unwired_source: 1
+    company:apptronik:
+      role_unmatched: 81
+      term_unmatched: 1
+    company:aqr:
+      role_unmatched: 47
+    company:aqr-capital-management:
+      unwired_source: 1
+    company:aquatic:
+      non_us_location: 2
+      role_unmatched: 7
+    company:aquatic-capital:
+      source_parse_failed: 1
+    company:arcesium:
+      unwired_source: 1
+    company:archer-aviation:
+      unwired_source: 1
+    company:architect-labs:
+      role_unmatched: 8
+      term_unmatched: 1
+    company:ardian:
+      unwired_source: 1
+    company:ares-management:
+      unverified_source: 1
+    company:arista-networks:
+      unwired_source: 1
+    company:arkansas-center-for-data-sciences:
+      role_unmatched: 9
+      term_unmatched: 8
+    company:arm:
+      unwired_source: 1
+    company:arrowstreet-capital:
+      unwired_source: 1
+    company:asana:
+      role_unmatched: 148
+    company:asm:
+      unwired_source: 1
+    company:asm-global:
+      unwired_source: 1
+    company:asml-us:
+      unwired_source: 1
+    company:assurant:
+      unwired_source: 1
+    company:astera-institute:
+      role_unmatched: 36
+      term_unmatched: 2
+    company:astera-labs:
+      role_unmatched: 162
+      term_unmatched: 3
+    company:astranis:
+      role_unmatched: 68
+      term_unmatched: 20
+    company:astreya:
+      unwired_source: 1
+    company:at-bay:
+      role_unmatched: 1
+    company:at-t:
+      unverified_source: 1
+    company:athenahealth:
+      unverified_source: 1
+    company:athene:
+      unverified_source: 1
+    company:atlassian:
+      unwired_source: 1
+    company:atom-computing:
+      unwired_source: 1
+    company:atoms:
+      non_us_location: 1
+      role_unmatched: 235
+      term_unmatched: 1
+    company:auctor:
+      role_unmatched: 11
+      term_unmatched: 2
+    company:aurora-innovation:
+      unwired_source: 1
+    company:auto-owners:
+      unwired_source: 1
+    company:autodesk:
+      unverified_source: 1
+    company:avanade:
+      unwired_source: 1
+    company:aveva:
+      unwired_source: 1
+    company:axcelis:
+      unwired_source: 1
+    company:axiom-space:
+      unwired_source: 1
+    company:axiomatic-ai:
+      role_unmatched: 4
+      term_unmatched: 1
+    company:axon:
+      role_unmatched: 5
+      term_unmatched: 8
+    company:ayar-labs:
+      unwired_source: 1
+    company:bae-systems:
+      unwired_source: 1
+    company:baker-hughes:
+      unwired_source: 1
+    company:balyasny:
+      unwired_source: 1
+    company:bank-of-america:
+      unwired_source: 1
+    company:bank-of-china-limited-new-york-branch:
+      unwired_source: 1
+    company:barclays:
+      unwired_source: 1
+    company:base-power:
+      role_unmatched: 162
+      term_unmatched: 9
+    company:base-power-company:
+      role_unmatched: 162
+      term_unmatched: 9
+    company:baseten:
+      role_unmatched: 65
+    company:belvedere-trading:
+      role_unmatched: 12
+      term_unmatched: 1
+    company:bentley-systems:
+      unwired_source: 1
+    company:best-buy:
+      unverified_source: 1
+    company:beta-technologies:
+      unwired_source: 1
+    company:betterment:
+      role_unmatched: 32
+    company:bild-ai:
+      role_unmatched: 2
+      term_unmatched: 1
+    company:bio-techne:
+      unwired_source: 1
+    company:bitwarden:
+      role_unmatched: 22
+    company:black-cape:
+      unwired_source: 1
+    company:blackrock:
+      unwired_source: 1
+    company:blackstone:
+      unverified_source: 1
+    company:blend:
+      role_unmatched: 7
+    company:block:
+      role_unmatched: 199
+      term_unmatched: 2
+    company:bloomberg:
+      unverified_source: 1
+    company:blue-origin:
+      unverified_source: 1
+    company:bny:
+      unwired_source: 1
+    company:boeing:
+      unwired_source: 1
+    company:booking-com-us:
+      unwired_source: 1
+    company:booz-allen:
+      unwired_source: 1
+    company:borgwarner:
+      unwired_source: 1
+    company:bosch-group:
+      unwired_source: 1
+    company:bose:
+      unwired_source: 1
+    company:boston-dynamics:
+      unwired_source: 1
+    company:bot-auto:
+      role_unmatched: 19
+      term_unmatched: 1
+    company:box:
+      unverified_source: 1
+    company:boys-town:
+      unwired_source: 1
+    company:braze:
+      role_unmatched: 256
+      term_unmatched: 1
+    company:brex:
+      role_unmatched: 303
+    company:bridgewater:
+      unwired_source: 1
+    company:brighthouse:
+      unverified_source: 1
+    company:brilliant:
+      unwired_source: 1
+    company:broadcom:
+      unwired_source: 1
+    company:broadridge:
+      unwired_source: 1
+    company:brunswick:
+      unwired_source: 1
+    company:bytedance:
+      unwired_source: 1
+    company:c3-ai:
+      source_parse_failed: 1
+    company:caci:
+      unwired_source: 1
+    company:cadence:
+      unwired_source: 1
+    company:cadence-university:
+      unwired_source: 1
+    company:cadent:
+      unwired_source: 1
+    company:cae:
+      unwired_source: 1
+    company:calm:
+      role_unmatched: 1
+    company:calstart:
+      role_unmatched: 3
+      term_unmatched: 9
+    company:campbell-soup-company:
+      unwired_source: 1
+    company:canva:
+      unwired_source: 1
+    company:canva-us:
+      unverified_source: 1
+    company:capital-one:
+      unwired_source: 1
+    company:capula:
+      unwired_source: 1
+    company:carlyle:
+      unverified_source: 1
+    company:carnegie-mellon-university:
+      unwired_source: 1
+    company:carta:
+      role_unmatched: 61
+    company:castleton-commodities-international:
+      unwired_source: 1
+    company:caterpillar:
+      unwired_source: 1
+    company:cboe:
+      unwired_source: 1
+    company:cedar:
+      role_unmatched: 3
+    company:celestica-us:
+      unwired_source: 1
+    company:centene:
+      unverified_source: 1
+    company:centerfield:
+      role_unmatched: 18
+      term_unmatched: 3
+    company:centific:
+      unwired_source: 1
+    company:cerebras:
+      role_unmatched: 123
+    company:chainalysis:
+      unwired_source: 1
+    company:chainguard:
+      role_unmatched: 80
+      term_unmatched: 1
+    company:character-ai:
+      role_unmatched: 13
+    company:charles-river-analytics:
+      role_unmatched: 9
+      term_unmatched: 1
+    company:charles-schwab:
+      unwired_source: 1
+    company:chevron:
+      unwired_source: 1
+    company:chewy:
+      unwired_source: 1
+    company:chicago-trading-company:
+      non_us_location: 3
+      role_unmatched: 5
+    company:chime:
+      role_unmatched: 58
+    company:chroma:
+      role_unmatched: 1
+    company:chubb:
+      unwired_source: 1
+    company:ciena:
+      unverified_source: 1
+    company:cigna:
+      unwired_source: 1
+    company:cincinnati-financial:
+      unwired_source: 1
+    company:circle:
+      unwired_source: 1
+    company:circleback:
+      unwired_source: 1
+    company:cisco:
+      unverified_source: 1
+    company:cisive:
+      unwired_source: 1
+    company:citadel:
+      unwired_source: 1
+    company:citadel-securities:
+      unwired_source: 1
+    company:citi:
+      unwired_source: 1
+    company:citizens:
+      unwired_source: 1
+    company:clarity-innovations:
+      role_unmatched: 32
+      term_unmatched: 1
+    company:clearwater-analytics:
+      unwired_source: 1
+    company:clerkie:
+      unwired_source: 1
+    company:clickhouse:
+      role_unmatched: 166
+    company:cloudera:
+      unwired_source: 1
+    company:cloudfit-software:
+      unwired_source: 1
+    company:cloudflare:
+      role_unmatched: 285
+      term_unmatched: 14
+    company:clyde-companies:
+      unwired_source: 1
+    company:cme-group:
+      unwired_source: 1
+    company:cna:
+      unverified_source: 1
+    company:cno-financial-group:
+      unwired_source: 1
+    company:coalition:
+      unwired_source: 1
+    company:coca-cola:
+      unwired_source: 1
+    company:cockroach-labs:
+      role_unmatched: 26
+    company:cognition:
+      role_unmatched: 84
+    company:cohere:
+      role_unmatched: 138
+      term_unmatched: 3
+    company:coherent:
+      unwired_source: 1
+    company:cohu:
+      unwired_source: 1
+    company:coinbase:
+      role_unmatched: 174
+    company:collibra:
+      role_unmatched: 36
+    company:color:
+      source_parse_failed: 1
+    company:commonwealth-fusion:
+      unwired_source: 1
+    company:commure:
+      role_unmatched: 72
+    company:compass:
+      unwired_source: 1
+    company:composio:
+      role_unmatched: 30
+      term_unmatched: 1
+    company:connectprep:
+      unwired_source: 1
+    company:constellation-space:
+      role_unmatched: 3
+      term_unmatched: 1
+    company:contextual-ai:
+      unwired_source: 1
+    company:contoro-robotics:
+      role_unmatched: 7
+      term_unmatched: 3
+    company:copart:
+      unwired_source: 1
+    company:corebridge:
+      unwired_source: 1
+    company:corning:
+      unverified_source: 1
+    company:corpay:
+      unwired_source: 1
+    company:costar:
+      unverified_source: 1
+    company:costco:
+      unwired_source: 1
+    company:cotiviti:
+      unwired_source: 1
+    company:couchbase:
+      unverified_source: 1
+    company:coursera:
+      role_unmatched: 18
+    company:cpi-card-group:
+      unwired_source: 1
+    company:crane-co:
+      unwired_source: 1
+    company:credo:
+      unwired_source: 1
+    company:cresta:
+      role_unmatched: 91
+      term_unmatched: 6
+    company:crowdstrike:
+      unwired_source: 1
+    company:ctgt:
+      non_us_location: 1
+      role_unmatched: 2
+    company:cubist-systematic-strategies:
+      non_us_location: 2
+      role_unmatched: 216
+      term_unmatched: 13
+    company:curtiss-wright:
+      unwired_source: 1
+    company:cvs-health:
+      unwired_source: 1
+    company:cyberark:
+      unwired_source: 1
+    company:cybernetic-labs:
+      role_unmatched: 24
+      term_unmatched: 3
+    company:d-e-shaw:
+      unwired_source: 1
+    company:d-e-shaw-co:
+      unwired_source: 1
+    company:d-matrix:
+      unwired_source: 1
+    company:databento:
+      role_unmatched: 15
+    company:databricks:
+      unwired_source: 1
+    company:datadog:
+      unwired_source: 1
+    company:datarobot:
+      unwired_source: 1
+    company:datasite:
+      unwired_source: 1
+    company:datavant:
+      unwired_source: 1
+    company:dbt-labs:
+      unwired_source: 1
+    company:decagon:
+      role_unmatched: 126
+    company:dedalus-labs:
+      unwired_source: 1
+    company:deepgram:
+      role_unmatched: 79
+    company:dell:
+      unwired_source: 1
+    company:delta-air-lines:
+      unverified_source: 1
+    company:descript:
+      role_unmatched: 10
+    company:deuna:
+      role_unmatched: 13
+      term_unmatched: 1
+    company:devoted-health:
+      unwired_source: 1
+    company:dexmate:
+      role_unmatched: 29
+      term_unmatched: 3
+    company:digitalocean:
+      unwired_source: 1
+    company:dimensional:
+      role_unmatched: 8
+    company:discord:
+      role_unmatched: 47
+    company:discover:
+      unwired_source: 1
+    company:disney:
+      unwired_source: 1
+    company:diversified-automation:
+      role_unmatched: 8
+      term_unmatched: 2
+    company:docker:
+      role_unmatched: 57
+    company:docugami:
+      role_unmatched: 4
+      term_unmatched: 3
+    company:docusign:
+      unwired_source: 1
+    company:dolby:
+      unwired_source: 1
+    company:domino-data-lab:
+      role_unmatched: 15
+    company:domino-s:
+      unwired_source: 1
+    company:domo:
+      unwired_source: 1
+    company:doordash:
+      unverified_source: 1
+    company:draftkings:
+      unwired_source: 1
+    company:draper:
+      unwired_source: 1
+    company:dremio:
+      role_unmatched: 2
+    company:dropbox:
+      role_unmatched: 39
+    company:drw:
+      unwired_source: 1
+    company:dtcc:
+      unwired_source: 1
+    company:duck-creek:
+      unwired_source: 1
+    company:duolingo:
+      role_unmatched: 65
+    company:dv-trading:
+      non_us_location: 2
+      role_unmatched: 54
+    company:dynatrace:
+      unwired_source: 1
+    company:easypost:
+      unwired_source: 1
+    company:eaton:
+      unverified_source: 1
+    company:ebay:
+      unwired_source: 1
+    company:egnyte:
+      unwired_source: 1
+    company:egra:
+      term_unmatched: 1
+    company:elastic:
+      role_unmatched: 245
+    company:electronic-arts:
+      unwired_source: 1
+    company:elevance-health:
+      unwired_source: 1
+    company:elevenlabs:
+      role_unmatched: 230
+    company:ellipsis-labs:
+      role_unmatched: 10
+      term_unmatched: 1
+    company:eluvio:
+      unwired_source: 1
+    company:emc-insurance:
+      unverified_source: 1
+    company:emerson:
+      unwired_source: 1
+    company:empower:
+      unwired_source: 1
+    company:ensemble-health-partners:
+      unwired_source: 1
+    company:entegris:
+      unverified_source: 1
+    company:epic:
+      unwired_source: 1
+    company:epic-games:
+      role_unmatched: 158
+      term_unmatched: 3
+    company:epic-systems:
+      unwired_source: 1
+    company:epsilon:
+      unwired_source: 1
+    company:equifax:
+      unwired_source: 1
+    company:eragon:
+      role_unmatched: 3
+      term_unmatched: 1
+    company:erie-insurance:
+      unwired_source: 1
+    company:etched:
+      role_unmatched: 92
+      term_unmatched: 17
+    company:ether-fi:
+      role_unmatched: 10
+    company:ethos:
+      role_unmatched: 1
+    company:etsy:
+      unwired_source: 1
+    company:eulerity:
+      role_unmatched: 12
+      term_unmatched: 6
+    company:eurofins:
+      unwired_source: 1
+    company:ev-realty:
+      term_unmatched: 1
+    company:eventbrite:
+      unwired_source: 1
+    company:everest:
+      unwired_source: 1
+    company:evolver:
+      role_unmatched: 13
+      term_unmatched: 1
+    company:exoduspoint:
+      role_unmatched: 2
+    company:exowatt:
+      role_unmatched: 16
+    company:expedia-group:
+      unwired_source: 1
+    company:experian:
+      unwired_source: 1
+    company:f-g:
+      unwired_source: 1
+    company:factory:
+      role_unmatched: 43
+    company:factset:
+      unwired_source: 1
+    company:faire:
+      role_unmatched: 65
+      term_unmatched: 1
+    company:fanduel:
+      role_unmatched: 82
+      term_unmatched: 3
+    company:faraday-future:
+      role_unmatched: 56
+      term_unmatched: 4
+    company:fastly:
+      role_unmatched: 49
+    company:federal-reserve-system:
+      unwired_source: 1
+    company:fedex:
+      unwired_source: 1
+    company:fico:
+      unwired_source: 1
+    company:fidelity:
+      unverified_source: 1
+    company:fifth-third:
+      unwired_source: 1
+    company:figma:
+      role_unmatched: 164
+    company:figure-ai:
+      role_unmatched: 120
+      term_unmatched: 7
+    company:finra:
+      unwired_source: 1
+    company:fireblocks:
+      role_unmatched: 70
+    company:firefly-aerospace:
+      unwired_source: 1
+    company:firework:
+      role_unmatched: 23
+      term_unmatched: 1
+    company:fireworks-ai:
+      role_unmatched: 58
+    company:fis:
+      unverified_source: 1
+    company:fiserv:
+      unwired_source: 1
+    company:five-rings:
+      role_unmatched: 14
+      term_unmatched: 3
+    company:fivetran:
+      role_unmatched: 197
+    company:flatiron-health:
+      unwired_source: 1
+    company:flex:
+      role_unmatched: 43
+    company:flexion-robotics:
+      unwired_source: 1
+    company:flexport:
+      role_unmatched: 161
+    company:flow-traders:
+      unwired_source: 1
+    company:fluxergy:
+      role_unmatched: 10
+      term_unmatched: 1
+    company:fly-io:
+      unwired_source: 1
+    company:fm:
+      unverified_source: 1
+    company:ford:
+      unverified_source: 1
+    company:form-energy:
+      role_unmatched: 185
+    company:formfactor:
+      unwired_source: 1
+    company:formlabs:
+      unwired_source: 1
+    company:fortinet:
+      unwired_source: 1
+    company:fourkites:
+      role_unmatched: 14
+      term_unmatched: 2
+    company:fox:
+      role_unmatched: 8
+    company:front:
+      source_parse_failed: 1
+    company:fti-consulting:
+      unwired_source: 1
+    company:gallup:
+      role_unmatched: 54
+      term_unmatched: 1
+    company:garmin:
+      unwired_source: 1
+    company:ge-aerospace:
+      unwired_source: 1
+    company:ge-appliances:
+      unwired_source: 1
+    company:ge-healthcare:
+      unwired_source: 1
+    company:ge-vernova:
+      unwired_source: 1
+    company:geico:
+      unwired_source: 1
+    company:gelber-group:
+      role_unmatched: 19
+    company:gemini:
+      role_unmatched: 42
+    company:gen-re:
+      unwired_source: 1
+    company:generac:
+      unwired_source: 1
+    company:general-astronautics:
+      unwired_source: 1
+    company:general-dynamics:
+      unverified_source: 1
+    company:general-dynamics-information-technology:
+      unwired_source: 1
+    company:general-motors:
+      unverified_source: 1
+    company:geneva-trading:
+      role_unmatched: 13
+    company:genworth:
+      role_unmatched: 1
+    company:genworth-financial:
+      unwired_source: 1
+    company:github:
+      unwired_source: 1
+    company:gitlab:
+      role_unmatched: 189
+    company:glean:
+      unwired_source: 1
+    company:global-atlantic:
+      unwired_source: 1
+    company:global-payments:
+      unverified_source: 1
+    company:globalfoundries:
+      unwired_source: 1
+    company:godaddy:
+      role_unmatched: 1
+    company:gofundme:
+      role_unmatched: 41
+    company:goldman-sachs:
+      unwired_source: 1
+    company:gong:
+      unwired_source: 1
+    company:google:
+      unwired_source: 1
+    company:google-deepmind:
+      role_unmatched: 10
+    company:gopuff:
+      unverified_source: 1
+    company:grafana-labs:
+      unwired_source: 1
+    company:grammarly:
+      unwired_source: 1
+    company:grange-insurance:
+      unverified_source: 1
+    company:grant-thornton:
+      unwired_source: 1
+    company:gritt-robotics:
+      role_unmatched: 17
+      term_unmatched: 3
+    company:groq:
+      unwired_source: 1
+    company:group-one-trading:
+      unwired_source: 1
+    company:grubhub:
+      unwired_source: 1
+    company:guardian-life:
+      unwired_source: 1
+    company:guidewire:
+      unwired_source: 1
+    company:gulf-management:
+      unwired_source: 1
+    company:h-co:
+      unwired_source: 1
+    company:h2o-ai:
+      unwired_source: 1
+    company:haize-labs:
+      role_unmatched: 4
+      term_unmatched: 2
+    company:halo-industries:
+      unwired_source: 1
+    company:harvey:
+      role_unmatched: 373
+    company:hashicorp:
+      unverified_source: 1
+    company:hcsc:
+      unwired_source: 1
+    company:headlands-technologies:
+      unwired_source: 1
+    company:headspace:
+      unwired_source: 1
+    company:headway:
+      role_unmatched: 73
+    company:health-catalyst:
+      unwired_source: 1
+    company:helion:
+      unwired_source: 1
+    company:heliux:
+      non_us_location: 1
+      role_unmatched: 1
+      term_unmatched: 1
+    company:hermeus:
+      role_unmatched: 80
+      term_unmatched: 7
+    company:hewlett-packard-hp:
+      unwired_source: 1
+    company:hex:
+      role_unmatched: 30
+    company:highmark-health:
+      unwired_source: 1
+    company:highspot:
+      unwired_source: 1
+    company:hims-hers:
+      unverified_source: 1
+    company:hinge-health:
+      unwired_source: 1
+    company:hippo:
+      unwired_source: 1
+    company:hirevue:
+      unwired_source: 1
+    company:hntb:
+      unwired_source: 1
+    company:home-depot:
+      unwired_source: 1
+    company:homebase:
+      role_unmatched: 14
+    company:honeywell:
+      unwired_source: 1
+    company:hopper:
+      role_unmatched: 42
+    company:hpe:
+      unverified_source: 1
+    company:hpr-hyannis-port-research:
+      role_unmatched: 8
+    company:hubspot:
+      role_unmatched: 1
+    company:hudson-river-trading:
+      unwired_source: 1
+    company:hugging-face:
+      unwired_source: 1
+    company:human-computer-lab:
+      role_unmatched: 7
+      term_unmatched: 5
+    company:humana:
+      unverified_source: 1
+    company:huntington:
+      unverified_source: 1
+    company:huntsman:
+      unwired_source: 1
+    company:hyperlight:
+      unwired_source: 1
+    company:ibm:
+      unwired_source: 1
+    company:icapital:
+      unwired_source: 1
+    company:ice:
+      source_parse_failed: 1
+    company:idexx:
+      unwired_source: 1
+    company:iherb:
+      source_parse_failed: 1
+    company:imbue:
+      role_unmatched: 2
+    company:imc-trading:
+      unwired_source: 1
+    company:impact:
+      role_unmatched: 82
+      term_unmatched: 2
+    company:impulse-space:
+      unwired_source: 1
+    company:included-health:
+      unwired_source: 1
+    company:infinitequant:
+      unwired_source: 1
+    company:informatica:
+      unwired_source: 1
+    company:ing:
+      unwired_source: 1
+    company:innovaccer:
+      unwired_source: 1
+    company:insitro:
+      role_unmatched: 13
+    company:instacart:
+      role_unmatched: 116
+    company:institute-of-foundation-models:
+      role_unmatched: 41
+      term_unmatched: 3
+    company:integra-fec:
+      role_unmatched: 3
+      term_unmatched: 3
+    company:intel:
+      unwired_source: 1
+    company:intercom:
+      unwired_source: 1
+    company:intercontinental-exchange-inc:
+      unwired_source: 1
+    company:interdigital:
+      unwired_source: 1
+    company:intuit:
+      unverified_source: 1
+    company:intuitive:
+      unwired_source: 1
+    company:ionq:
+      role_unmatched: 98
+    company:iqvia:
+      unwired_source: 1
+    company:irobot:
+      unwired_source: 1
+    company:isomorphic-labs:
+      role_unmatched: 25
+    company:iterable:
+      role_unmatched: 26
+    company:ivy-tech-community-college:
+      unwired_source: 1
+    company:jabil:
+      unwired_source: 1
+    company:jane-street:
+      unwired_source: 1
+    company:jefferies:
+      unwired_source: 1
+    company:jetblue:
+      unwired_source: 1
+    company:jhu-apl:
+      unwired_source: 1
+    company:joby-aviation:
+      unwired_source: 1
+    company:john-deere:
+      unwired_source: 1
+    company:john-hancock:
+      unverified_source: 1
+    company:jp-morgan-chase:
+      unwired_source: 1
+    company:jpmorganchase:
+      unwired_source: 1
+    company:jump-trading:
+      unwired_source: 1
+    company:juniper-networks:
+      unwired_source: 1
+    company:kastle:
+      role_unmatched: 10
+      term_unmatched: 2
+    company:kayak:
+      role_unmatched: 1
+    company:kbr:
+      unwired_source: 1
+    company:keysight:
+      unverified_source: 1
+    company:khan-academy:
+      role_unmatched: 27
+    company:kinaxis:
+      unwired_source: 1
+    company:kion-group:
+      unwired_source: 1
+    company:kkr:
+      unwired_source: 1
+    company:kla:
+      unwired_source: 1
+    company:klaviyo:
+      role_unmatched: 148
+    company:kodiak-robotics:
+      role_unmatched: 68
+    company:komodo-health:
+      role_unmatched: 34
+    company:kong:
+      unwired_source: 1
+    company:kos-ai:
+      role_unmatched: 4
+      term_unmatched: 1
+    company:kraken:
+      role_unmatched: 1
+    company:kroger:
+      unverified_source: 1
+    company:kudu-dynamics:
+      unwired_source: 1
+    company:kumo:
+      unwired_source: 1
+    company:l3harris:
+      unwired_source: 1
+    company:lam-research:
+      unwired_source: 1
+    company:langchain:
+      role_unmatched: 101
+    company:latent-defense:
+      role_unmatched: 4
+      term_unmatched: 1
+    company:lattice-semiconductor:
+      unwired_source: 1
+    company:layup-parts:
+      role_unmatched: 24
+      term_unmatched: 3
+    company:legal-general-america:
+      unwired_source: 1
+    company:leidos:
+      unwired_source: 1
+    company:lemonade:
+      unwired_source: 1
+    company:lexisnexis-risk-solutions:
+      unwired_source: 1
+    company:liberty-mutual:
+      unwired_source: 1
+    company:lightmatter:
+      role_unmatched: 67
+    company:lila-sciences:
+      role_unmatched: 115
+      term_unmatched: 8
+    company:lincoln-financial:
+      unwired_source: 1
+    company:linear:
+      role_unmatched: 27
+    company:livekit:
+      role_unmatched: 31
+    company:liveramp:
+      unwired_source: 1
+    company:llamaindex:
+      role_unmatched: 15
+    company:lockheed-martin:
+      unwired_source: 1
+    company:los-alamos-national-lab:
+      unwired_source: 1
+    company:los-alamos-national-laboratory:
+      unwired_source: 1
+    company:louisiana-blue:
+      unwired_source: 1
+    company:lowe-s:
+      unverified_source: 1
+    company:lseg:
+      unwired_source: 1
+    company:lucid-motors:
+      role_unmatched: 321
+      term_unmatched: 2
+    company:lufco:
+      unwired_source: 1
+    company:luma-ai:
+      unwired_source: 1
+    company:lumentum:
+      unwired_source: 1
+    company:lyft:
+      role_unmatched: 169
+    company:lyra-health:
+      role_unmatched: 1
+    company:m-t-bank:
+      unwired_source: 1
+    company:macom:
+      unwired_source: 1
+    company:magic:
+      role_unmatched: 1
+    company:magic-leap:
+      role_unmatched: 7
+    company:magna:
+      unwired_source: 1
+    company:magnera-corporation:
+      unwired_source: 1
+    company:manhattan-associates:
+      unwired_source: 1
+    company:mantech:
+      unwired_source: 1
+    company:mariana-minerals:
+      role_unmatched: 62
+      term_unmatched: 1
+    company:markel:
+      unwired_source: 1
+    company:marketaxess:
+      unwired_source: 1
+    company:marmon-holdings:
+      unwired_source: 1
+    company:marshall-wace:
+      term_unmatched: 4
+    company:marvell:
+      unwired_source: 1
+    company:massmutual:
+      unverified_source: 1
+    company:mastercard:
+      unverified_source: 1
+    company:materialize:
+      role_unmatched: 5
+    company:mathtech:
+      unwired_source: 1
+    company:mathworks:
+      unverified_source: 1
+    company:maven-clinic:
+      role_unmatched: 31
+      term_unmatched: 1
+    company:maven-securities:
+      role_unmatched: 37
+      term_unmatched: 2
+    company:maxar:
+      unwired_source: 1
+    company:meditech:
+      unwired_source: 1
+    company:medtronic:
+      unwired_source: 1
+    company:melius:
+      non_us_location: 1
+      role_unmatched: 6
+      term_unmatched: 1
+    company:menasha-corporation:
+      unwired_source: 1
+    company:mercari-us:
+      role_unmatched: 3
+    company:mercer:
+      unwired_source: 1
+    company:mercor:
+      role_unmatched: 80
+    company:mercury:
+      role_unmatched: 55
+    company:meta:
+      unwired_source: 1
+    company:metlife:
+      unwired_source: 1
+    company:microchip:
+      unwired_source: 1
+    company:microchip-technology:
+      unwired_source: 1
+    company:micron:
+      unwired_source: 1
+    company:microsoft:
+      unwired_source: 1
+    company:millennium:
+      unwired_source: 1
+    company:milliman:
+      unwired_source: 1
+    company:miro:
+      role_unmatched: 46
+    company:mitre:
+      unverified_source: 1
+    company:mixpanel:
+      role_unmatched: 57
+    company:mks-instruments:
+      unverified_source: 1
+    company:modal:
+      role_unmatched: 30
+      term_unmatched: 1
+    company:molex:
+      unverified_source: 1
+    company:molina-healthcare:
+      unwired_source: 1
+    company:mongodb:
+      role_unmatched: 405
+    company:monolithic-power-systems:
+      unwired_source: 1
+    company:monte-carlo:
+      role_unmatched: 6
+    company:moody-s:
+      unwired_source: 1
+    company:moog:
+      unwired_source: 1
+    company:morgan-stanley:
+      unwired_source: 1
+    company:morning-consult:
+      role_unmatched: 8
+    company:motive:
+      role_unmatched: 106
+    company:motorola-solutions:
+      unwired_source: 1
+    company:msci:
+      unwired_source: 1
+    company:munich-re-us:
+      unwired_source: 1
+    company:mutual-of-omaha:
+      unwired_source: 1
+    company:mux:
+      role_unmatched: 2
+    company:nasdaq:
+      unwired_source: 1
+    company:nash:
+      unwired_source: 1
+    company:national-interstate-insurance:
+      unwired_source: 1
+    company:national-laboratory-of-the-rockies:
+      unwired_source: 1
+    company:nationwide:
+      unwired_source: 1
+    company:navitas:
+      unwired_source: 1
+    company:nebo:
+      unwired_source: 1
+    company:neighborly:
+      unwired_source: 1
+    company:nelnet:
+      unwired_source: 1
+    company:neocognition:
+      role_unmatched: 4
+      term_unmatched: 1
+    company:neon:
+      role_unmatched: 6
+    company:neosigma:
+      unwired_source: 1
+    company:netflix:
+      unwired_source: 1
+    company:netlify:
+      role_unmatched: 3
+    company:netsmart:
+      unwired_source: 1
+    company:neuralink:
+      role_unmatched: 61
+      term_unmatched: 18
+    company:new-relic:
+      role_unmatched: 58
+    company:new-york-life:
+      unwired_source: 1
+    company:newfront:
+      unwired_source: 1
+    company:newsbreak:
+      role_unmatched: 35
+      term_unmatched: 2
+    company:next-insurance:
+      unwired_source: 1
+    company:nextera-energy:
+      unwired_source: 1
+    company:ni:
+      source_parse_failed: 1
+    company:nidec:
+      unwired_source: 1
+    company:nielsen:
+      unwired_source: 1
+    company:nightwing:
+      unwired_source: 1
+    company:nike:
+      unwired_source: 1
+    company:nio:
+      unwired_source: 1
+    company:nissan:
+      unwired_source: 1
+    company:nordstrom:
+      unwired_source: 1
+    company:northern-trust:
+      unwired_source: 1
+    company:northrop-grumman:
+      unwired_source: 1
+    company:northwestern-mutual:
+      unwired_source: 1
+    company:notable:
+      unwired_source: 1
+    company:notion:
+      role_unmatched: 126
+      term_unmatched: 1
+    company:nrel:
+      unwired_source: 1
+    company:nuro:
+      role_unmatched: 103
+      term_unmatched: 1
+    company:nvidia:
+      unwired_source: 1
+    company:nxp:
+      unwired_source: 1
+    company:oak-ridge-national-lab:
+      unwired_source: 1
+    company:occ:
+      unverified_source: 1
+    company:odys-aviation:
+      role_unmatched: 7
+      term_unmatched: 5
+    company:oklo:
+      role_unmatched: 64
+    company:okta:
+      role_unmatched: 343
+    company:old-mission:
+      unwired_source: 1
+    company:oliver-wyman:
+      unwired_source: 1
+    company:olo:
+      source_parse_failed: 1
+    company:omada-health:
+      role_unmatched: 30
+    company:oneamerica:
+      unwired_source: 1
+    company:onsemi:
+      unverified_source: 1
+    company:onto-innovation:
+      unwired_source: 1
+    company:openai:
+      role_unmatched: 750
+    company:opendoor:
+      unwired_source: 1
+    company:openevidence:
+      role_unmatched: 7
+    company:optiver:
+      unwired_source: 1
+    company:opusclip:
+      role_unmatched: 7
+      term_unmatched: 1
+    company:oracle:
+      unwired_source: 1
+    company:oscar-health:
+      unwired_source: 1
+    company:otter-ai:
+      role_unmatched: 25
+    company:oura:
+      unwired_source: 1
+    company:output-biosciences:
+      role_unmatched: 9
+    company:outreach:
+      unwired_source: 1
+    company:pacific-life:
+      unwired_source: 1
+    company:pagerduty:
+      role_unmatched: 23
+    company:palantir:
+      role_unmatched: 265
+      term_unmatched: 40
+    company:palantir-technologies:
+      role_unmatched: 265
+      term_unmatched: 40
+    company:palo-alto-networks:
+      unwired_source: 1
+    company:panagora:
+      unwired_source: 1
+    company:paragon:
+      unwired_source: 1
+    company:paramount:
+      unverified_source: 1
+    company:partnerre:
+      unverified_source: 1
+    company:pathai:
+      unwired_source: 1
+    company:patreon:
+      role_unmatched: 6
+    company:paypal:
+      unverified_source: 1
+    company:pdt-partners:
+      role_unmatched: 8
+    company:peak6:
+      unwired_source: 1
+    company:peloton:
+      unverified_source: 1
+    company:penn-mutual:
+      unwired_source: 1
+    company:penn-state:
+      unwired_source: 1
+    company:penn-state-university:
+      unwired_source: 1
+    company:pennsylvania-state-university:
+      unwired_source: 1
+    company:pentair:
+      unwired_source: 1
+    company:peraton:
+      unwired_source: 1
+    company:perplexity:
+      role_unmatched: 88
+      term_unmatched: 4
+    company:persona-ai:
+      role_unmatched: 16
+      term_unmatched: 6
+    company:pgim:
+      unwired_source: 1
+    company:physical-intelligence:
+      role_unmatched: 29
+      term_unmatched: 1
+    company:pika:
+      role_unmatched: 9
+      term_unmatched: 1
+    company:pimco:
+      unwired_source: 1
+    company:pinecone:
+      role_unmatched: 8
+    company:pinterest:
+      role_unmatched: 223
+    company:plaid:
+      role_unmatched: 106
+    company:planet:
+      role_unmatched: 1
+    company:planetscale:
+      role_unmatched: 9
+    company:playstation:
+      unwired_source: 1
+    company:plus:
+      role_unmatched: 31
+      term_unmatched: 10
+    company:plusai:
+      role_unmatched: 31
+      term_unmatched: 10
+    company:pnc-financial-services:
+      unwired_source: 1
+    company:pnnl:
+      unwired_source: 1
+    company:podium:
+      role_unmatched: 54
+    company:point72:
+      non_us_location: 2
+      role_unmatched: 216
+      term_unmatched: 13
+    company:pointclickcare:
+      unwired_source: 1
+    company:pony-ai:
+      unwired_source: 1
+    company:poolside:
+      role_unmatched: 16
+    company:poshmark:
+      role_unmatched: 25
+    company:posit:
+      unwired_source: 1
+    company:postman:
+      role_unmatched: 106
+      term_unmatched: 1
+    company:primetals-technologies:
+      unwired_source: 1
+    company:principal:
+      unwired_source: 1
+    company:prizepicks:
+      role_unmatched: 24
+    company:procore:
+      unwired_source: 1
+    company:progressive:
+      unverified_source: 1
+    company:project44:
+      role_unmatched: 37
+      term_unmatched: 2
+    company:proofpoint:
+      unwired_source: 1
+    company:prospect-equities:
+      unwired_source: 1
+    company:protective-life:
+      unwired_source: 1
+    company:prudential:
+      unverified_source: 1
+    company:prudential-financial:
+      unwired_source: 1
+    company:psiquantum:
+      role_unmatched: 66
+      term_unmatched: 5
+    company:ptc:
+      source_parse_failed: 1
+    company:pylon:
+      non_us_location: 1
+      role_unmatched: 19
+    company:qlik:
+      unwired_source: 1
+    company:qorvo:
+      unverified_source: 1
+    company:quadric:
+      unwired_source: 1
+    company:quadrillion:
+      non_us_location: 1
+      role_unmatched: 4
+      term_unmatched: 1
+    company:qualcomm:
+      unwired_source: 1
+    company:qualys:
+      unwired_source: 1
+    company:quantic:
+      role_unmatched: 3
+    company:quantinuum:
+      unwired_source: 1
+    company:quantlab:
+      unverified_source: 1
+    company:quera:
+      unwired_source: 1
+    company:quizlet:
+      unverified_source: 1
+    company:radix-trading:
+      role_unmatched: 7
+      term_unmatched: 1
+    company:rainmaker:
+      role_unmatched: 29
+      term_unmatched: 3
+    company:rakuten-international:
+      unwired_source: 1
+    company:rambus:
+      unwired_source: 1
+    company:ramp:
+      role_unmatched: 121
+      term_unmatched: 1
+    company:rapid7:
+      unwired_source: 1
+    company:recursion:
+      unwired_source: 1
+    company:reddit:
+      unwired_source: 1
+    company:redis:
+      role_unmatched: 24
+    company:relativity-space:
+      unwired_source: 1
+    company:renaissance-technologies:
+      unwired_source: 1
+    company:render:
+      role_unmatched: 34
+    company:replicate:
+      unwired_source: 1
+    company:replit:
+      role_unmatched: 88
+    company:reply:
+      role_unmatched: 37
+      term_unmatched: 2
+    company:rev:
+      role_unmatched: 1
+    company:rfcuny:
+      unwired_source: 1
+    company:rga:
+      source_parse_failed: 1
+    company:rigetti:
+      unwired_source: 1
+    company:ringcentral:
+      unwired_source: 1
+    company:riot-games:
+      role_unmatched: 163
+      term_unmatched: 1
+    company:rivian:
+      unwired_source: 1
+    company:ro:
+      source_parse_failed: 1
+    company:robinhood:
+      role_unmatched: 137
+      term_unmatched: 1
+    company:roblox:
+      unwired_source: 1
+    company:rocket-lab:
+      role_unmatched: 371
+      term_unmatched: 32
+    company:rockwell-automation:
+      unwired_source: 1
+    company:root-insurance:
+      source_parse_failed: 1
+    company:royal-bank-of-canada:
+      unwired_source: 1
+    company:rtx:
+      unwired_source: 1
+    company:runway:
+      unwired_source: 1
+    company:s-p-global:
+      unverified_source: 1
+    company:safari-ai:
+      role_unmatched: 5
+    company:saic:
+      unverified_source: 1
+    company:salesforce:
+      unwired_source: 1
+    company:salesloft:
+      role_unmatched: 36
+    company:samaya-ai:
+      role_unmatched: 8
+      term_unmatched: 1
+    company:sambanova:
+      unwired_source: 1
+    company:sammons-financial:
+      unwired_source: 1
+    company:samsara:
+      unwired_source: 1
+    company:sandia-national-labs:
+      unwired_source: 1
+    company:sanmina:
+      unwired_source: 1
+    company:sap-america:
+      unverified_source: 1
+    company:sargent-lundy:
+      unwired_source: 1
+    company:sas:
+      unwired_source: 1
+    company:scale-ai:
+      role_unmatched: 208
+      term_unmatched: 2
+    company:schonfeld:
+      role_unmatched: 49
+      term_unmatched: 4
+    company:schweitzer-engineering-laboratories:
+      unwired_source: 1
+    company:scor:
+      unwired_source: 1
+    company:seagate:
+      unwired_source: 1
+    company:seatgeek:
+      role_unmatched: 26
+    company:second-order-effects:
+      unwired_source: 1
+    company:securian:
+      unwired_source: 1
+    company:seismic:
+      unwired_source: 1
+    company:sel:
+      unwired_source: 1
+    company:selective:
+      unwired_source: 1
+    company:semtech:
+      unwired_source: 1
+    company:sentara-health:
+      unwired_source: 1
+    company:sentinelone:
+      unwired_source: 1
+    company:sentry-insurance:
+      role_unmatched: 47
+    company:serval:
+      role_unmatched: 40
+      term_unmatched: 1
+    company:servicenow:
+      unverified_source: 1
+    company:seven-research:
+      role_unmatched: 4
+      term_unmatched: 4
+    company:shield-ai:
+      role_unmatched: 432
+      term_unmatched: 1
+    company:shipbob:
+      unwired_source: 1
+    company:shopify-us:
+      unwired_source: 1
+    company:sierra:
+      role_unmatched: 191
+    company:sierra-space:
+      unverified_source: 1
+    company:sifive:
+      unwired_source: 1
+    company:sig:
+      unwired_source: 1
+    company:sigma-computing:
+      role_unmatched: 70
+    company:sila-nanotechnologies:
+      role_unmatched: 29
+    company:simoncomputing:
+      unwired_source: 1
+    company:sitime:
+      unwired_source: 1
+    company:sk-hynix-america:
+      unverified_source: 1
+    company:skild-ai:
+      unwired_source: 1
+    company:skyworks:
+      unwired_source: 1
+    company:smartsheet:
+      role_unmatched: 99
+    company:smiths-group:
+      unwired_source: 1
+    company:snap:
+      unwired_source: 1
+    company:snowflake:
+      role_unmatched: 387
+      term_unmatched: 8
+    company:snyk:
+      role_unmatched: 1
+    company:sofi:
+      role_unmatched: 64
+    company:solar-turbines:
+      unwired_source: 1
+    company:solar-turbines-caterpillar:
+      unwired_source: 1
+    company:sonos:
+      unverified_source: 1
+    company:sony:
+      unwired_source: 1
+    company:sourcegraph:
+      unwired_source: 1
+    company:southwest:
+      unwired_source: 1
+    company:spacex:
+      non_us_location: 6
+      role_unmatched: 2141
+      term_unmatched: 7
+    company:spectrum-control:
+      unwired_source: 1
+    company:splunk:
+      unwired_source: 1
+    company:spotify-us:
+      unwired_source: 1
+    company:spring-health:
+      unwired_source: 1
+    company:squarepoint-capital:
+      role_unmatched: 84
+      term_unmatched: 3
+    company:squarespace:
+      role_unmatched: 18
+    company:sri-international:
+      unwired_source: 1
+    company:ss-c:
+      unwired_source: 1
+    company:starbucks:
+      unverified_source: 1
+    company:starburst:
+      role_unmatched: 15
+    company:starsling:
+      unwired_source: 1
+    company:state-farm:
+      unwired_source: 1
+    company:state-street:
+      unwired_source: 1
+    company:statsig:
+      unwired_source: 1
+    company:stepstone-group:
+      source_parse_failed: 1
+    company:stevens-capital-management:
+      role_unmatched: 27
+      term_unmatched: 2
+    company:stitch-fix:
+      role_unmatched: 12
+    company:stoke-space:
+      unwired_source: 1
+    company:stord:
+      unwired_source: 1
+    company:strava:
+      role_unmatched: 21
+    company:stripe:
+      role_unmatched: 549
+      term_unmatched: 1
+    company:stubhub:
+      unwired_source: 1
+    company:substack:
+      role_unmatched: 12
+    company:sun-life-us:
+      unverified_source: 1
+    company:suno:
+      role_unmatched: 62
+    company:supabase:
+      role_unmatched: 58
+    company:surge-ai:
+      unwired_source: 1
+    company:susquehanna:
+      unwired_source: 1
+    company:susquehanna-international-group:
+      unwired_source: 1
+    company:susquehanna-international-group-sig:
+      unwired_source: 1
+    company:susquehanna-investment-group:
+      unwired_source: 1
+    company:swiss-re:
+      unverified_source: 1
+    company:sword-health:
+      role_unmatched: 1
+    company:symetra:
+      unverified_source: 1
+    company:synaptics:
+      unwired_source: 1
+    company:synchrony:
+      unwired_source: 1
+    company:synchrony-financial:
+      unwired_source: 1
+    company:synopsys:
+      unwired_source: 1
+    company:t-mobile:
+      unwired_source: 1
+    company:t-rowe-price:
+      unwired_source: 1
+    company:tailscale:
+      role_unmatched: 59
+    company:take-two:
+      unwired_source: 1
+    company:target:
+      unwired_source: 1
+    company:te-connectivity:
+      source_parse_failed: 1
+    company:tektronix:
+      unwired_source: 1
+    company:teledyne:
+      unwired_source: 1
+    company:teleport:
+      role_unmatched: 22
+    company:temporal:
+      role_unmatched: 55
+    company:tempus:
+      unverified_source: 1
+    company:tenable:
+      unwired_source: 1
+    company:tencent:
+      unwired_source: 1
+    company:tenstorrent:
+      term_unmatched: 28
+    company:teradata:
+      unverified_source: 1
+    company:teradyne:
+      unwired_source: 1
+    company:terranova:
+      role_unmatched: 11
+      term_unmatched: 4
+    company:terranox-ai:
+      unwired_source: 1
+    company:terrapower:
+      unwired_source: 1
+    company:tesla:
+      unverified_source: 1
+    company:tetramem:
+      unwired_source: 1
+    company:texas-instruments:
+      unwired_source: 1
+    company:textron:
+      unwired_source: 1
+    company:tgs:
+      unwired_source: 1
+    company:the-boeing-company:
+      unwired_source: 1
+    company:the-cigna-group:
+      source_parse_failed: 1
+    company:the-exploration-company:
+      role_unmatched: 107
+      term_unmatched: 4
+    company:the-hanover:
+      role_unmatched: 3
+    company:the-hartford:
+      unwired_source: 1
+    company:the-new-york-times:
+      source_parse_failed: 1
+    company:the-nuclear-company:
+      role_unmatched: 63
+      term_unmatched: 5
+    company:the-trade-desk:
+      role_unmatched: 200
+      term_unmatched: 1
+    company:the-voleon-group:
+      role_unmatched: 56
+    company:the-washington-post:
+      source_parse_failed: 1
+    company:thoughtspot:
+      unwired_source: 1
+    company:thrivent:
+      unverified_source: 1
+    company:tiaa:
+      unverified_source: 1
+    company:tifin:
+      unwired_source: 1
+    company:tiktok:
+      unwired_source: 1
+    company:toast:
+      unverified_source: 1
+    company:together-ai:
+      role_unmatched: 56
+      term_unmatched: 3
+    company:torc-robotics:
+      unwired_source: 1
+    company:tower-research:
+      unwired_source: 1
+    company:tower-research-capital:
+      non_us_location: 2
+      role_unmatched: 66
+      term_unmatched: 4
+    company:toyota-north-america:
+      unwired_source: 1
+    company:tradeweb:
+      unverified_source: 1
+    company:transamerica:
+      unwired_source: 1
+    company:transmarket-group:
+      role_unmatched: 14
+      term_unmatched: 3
+    company:transmarketgroup:
+      role_unmatched: 14
+      term_unmatched: 3
+    company:transunion:
+      unverified_source: 1
+    company:travelers:
+      unwired_source: 1
+    company:trillium:
+      unwired_source: 1
+    company:trimble:
+      unwired_source: 1
+    company:tripadvisor:
+      role_unmatched: 89
+      term_unmatched: 2
+    company:true-anomaly:
+      role_unmatched: 164
+      term_unmatched: 1
+    company:truist:
+      unwired_source: 1
+    company:trustage:
+      unwired_source: 1
+    company:truveta:
+      role_unmatched: 37
+      term_unmatched: 3
+    company:tsmc-arizona:
+      unwired_source: 1
+    company:turo:
+      unverified_source: 1
+    company:twilio:
+      role_unmatched: 172
+    company:two-sigma:
+      unwired_source: 1
+    company:uber:
+      unwired_source: 1
+    company:udemy:
+      role_unmatched: 12
+    company:uline:
+      unwired_source: 1
+    company:ultra-clean:
+      unverified_source: 1
+    company:underdog:
+      role_unmatched: 14
+    company:unison-ge-aerospace:
+      unwired_source: 1
+    company:united-airlines:
+      unverified_source: 1
+    company:unitedhealth-group:
+      unwired_source: 1
+    company:unity:
+      unwired_source: 1
+    company:university-of-virginia-investment-management-company-uvimco:
+      role_unmatched: 2
+    company:unum:
+      unwired_source: 1
+    company:ups:
+      unverified_source: 1
+    company:ursa-major:
+      role_unmatched: 78
+    company:usaa:
+      unwired_source: 1
+    company:vanguard:
+      unwired_source: 1
+    company:vannevar-labs:
+      role_unmatched: 33
+      term_unmatched: 1
+    company:vast:
+      unwired_source: 1
+    company:vatic-labs:
+      role_unmatched: 10
+      term_unmatched: 1
+    company:veeam-software:
+      role_unmatched: 237
+    company:veeco:
+      unverified_source: 1
+    company:veeva:
+      unwired_source: 1
+    company:vercel:
+      role_unmatched: 83
+    company:verily:
+      unwired_source: 1
+    company:verisk:
+      unwired_source: 1
+    company:verizon:
+      unverified_source: 1
+    company:vertafore:
+      unwired_source: 1
+    company:vertiv:
+      unwired_source: 1
+    company:vetsez:
+      unwired_source: 1
+    company:vicor:
+      unwired_source: 1
+    company:vimeo:
+      unwired_source: 1
+    company:virtu-financial:
+      role_unmatched: 33
+      term_unmatched: 13
+    company:visa:
+      unwired_source: 1
+    company:voloridge:
+      unwired_source: 1
+    company:voloridge-investment-management:
+      role_unmatched: 4
+      term_unmatched: 2
+    company:voya:
+      unwired_source: 1
+    company:w-r-berkley:
+      source_parse_failed: 1
+    company:walleye-capital:
+      role_unmatched: 3
+    company:walmart-global-tech:
+      unwired_source: 1
+    company:warby-parker:
+      unverified_source: 1
+    company:wayfair:
+      unwired_source: 1
+    company:waymo:
+      role_unmatched: 397
+    company:wealthfront:
+      unwired_source: 1
+    company:webflow:
+      role_unmatched: 29
+    company:weights-biases:
+      unwired_source: 1
+    company:wellington:
+      unwired_source: 1
+    company:wells-fargo:
+      unwired_source: 1
+    company:wellsky:
+      unwired_source: 1
+    company:western-digital:
+      unwired_source: 1
+    company:western-southern:
+      unwired_source: 1
+    company:whatnot:
+      source_parse_failed: 1
+    company:whoop:
+      role_unmatched: 178
+    company:windborne-systems:
+      role_unmatched: 19
+      term_unmatched: 1
+    company:windsurf:
+      unwired_source: 1
+    company:wing:
+      role_unmatched: 43
+    company:wisk:
+      unwired_source: 1
+    company:wiz:
+      role_unmatched: 1
+    company:wolfram:
+      unwired_source: 1
+    company:wolfspeed:
+      unwired_source: 1
+    company:wolverine-trading:
+      unverified_source: 1
+    company:workato:
+      unwired_source: 1
+    company:workday:
+      unwired_source: 1
+    company:world-labs:
+      role_unmatched: 7
+    company:worldquant:
+      role_unmatched: 93
+      term_unmatched: 7
+    company:writer:
+      role_unmatched: 55
+    company:wsp:
+      unwired_source: 1
+    company:wtw:
+      unverified_source: 1
+    company:x-energy:
+      unwired_source: 1
+    company:xai:
+      unverified_source: 1
+    company:xpeng:
+      role_unmatched: 22
+      term_unmatched: 3
+    company:xpeng-motors:
+      role_unmatched: 22
+      term_unmatched: 3
+    company:xsolla:
+      role_unmatched: 167
+      term_unmatched: 13
+    company:xterra-ai:
+      role_unmatched: 4
+      term_unmatched: 1
+    company:xtx-markets:
+      unwired_source: 1
+    company:zebra-technologies:
+      unwired_source: 1
+    company:zendesk:
+      unwired_source: 1
+    company:zillow:
+      unverified_source: 1
+    company:zipline:
+      unwired_source: 1
+    company:zocdoc:
+      role_unmatched: 54
+    company:zoom:
+      unwired_source: 1
+    company:zoox:
+      unwired_source: 1
+    company:zscaler:
+      role_unmatched: 320
+      term_unmatched: 6
+    company:zurich-na:
+      unwired_source: 1
     github_tracker:simplifyjobs:
-      category_drop: 22
-      closed_marker_untracked: 188
+      category_drop: 44
+      closed_marker_untracked: 376
+    github_tracker:suryaharikrishnan:
+      category_drop: 42
+      closed_marker_untracked: 326
     github_tracker:zapplyjobs:
-      category_drop: 165
+      category_drop: 332
+      unclassified: 2
     github_tracker:zshah101:
-      closed_marker_untracked: 14
+      closed_marker_untracked: 28
 _last_program_check:
   closed: 26
   fetch_failed: 4
@@ -16,19 +2149,2153 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 4
+  new: 11
   closed: 0
-  ran_at: 2026-08-09 11:50
+  ran_at: 2026-08-09 14:07
   drops:
+    company:1password:
+      role_unmatched: 61
+    company:3red-partners:
+      role_unmatched: 8
+    company:84-51:
+      role_unmatched: 13
+    company:abbvie:
+      unwired_source: 1
+    company:abc-news:
+      unwired_source: 1
+    company:abridge:
+      role_unmatched: 44
+    company:abundant:
+      unwired_source: 1
+    company:adaptive:
+      role_unmatched: 17
+    company:addepar:
+      unwired_source: 1
+    company:adobe:
+      unverified_source: 1
+    company:advantest-america:
+      unwired_source: 1
+    company:affinius-capital:
+      unwired_source: 1
+    company:affirm:
+      role_unmatched: 200
+    company:agilent-technologies:
+      unwired_source: 1
+    company:agility-robotics:
+      role_unmatched: 60
+    company:aig:
+      unwired_source: 1
+    company:airbnb:
+      role_unmatched: 189
+    company:airbyte:
+      role_unmatched: 10
+    company:airtable:
+      role_unmatched: 38
+    company:akamai:
+      unverified_source: 1
+    company:akuna-capital:
+      unwired_source: 1
+    company:al-warren-oil-company:
+      unwired_source: 1
+    company:alaska-airlines:
+      unwired_source: 1
+    company:alation:
+      unwired_source: 1
+    company:alixpartners:
+      unwired_source: 1
+    company:allegro-microsystems:
+      unwired_source: 1
+    company:allstate:
+      unwired_source: 1
+    company:ally:
+      unwired_source: 1
+    company:altasciences:
+      unwired_source: 1
+    company:alteryx:
+      unwired_source: 1
+    company:amazon:
+      unwired_source: 1
+    company:ambarella:
+      unwired_source: 1
+    company:ambience-healthcare:
+      role_unmatched: 20
+    company:amd:
+      unwired_source: 1
+    company:ameren:
+      unwired_source: 1
+    company:american-airlines:
+      unverified_source: 1
+    company:american-express:
+      unwired_source: 1
+    company:american-family:
+      unverified_source: 1
+    company:ameritas:
+      unwired_source: 1
+    company:amica:
+      unverified_source: 1
+    company:amphenol:
+      unverified_source: 1
+    company:amplitude:
+      role_unmatched: 33
+    company:anaconda:
+      unwired_source: 1
+    company:analog-devices:
+      unverified_source: 1
+    company:anchorage-digital:
+      unwired_source: 1
+    company:anduril:
+      role_unmatched: 2182
+      non_us_location: 4
+      term_unmatched: 1
+    company:ansys:
+      unwired_source: 1
+    company:anthelion-capital:
+      role_unmatched: 3
+      non_us_location: 1
+    company:anthropic:
+      role_unmatched: 392
+    company:anyscale:
+      role_unmatched: 18
+    company:anysphere-cursor:
+      unwired_source: 1
+    company:aon:
+      unwired_source: 1
+    company:apex-technology-inc:
+      role_unmatched: 82
+    company:apollo-global:
+      unwired_source: 1
+    company:apollo-graphql:
+      unwired_source: 1
+    company:appian:
+      role_unmatched: 186
+    company:apple:
+      source_parse_failed: 1
+    company:applied-intuition:
+      role_unmatched: 256
+      term_unmatched: 5
+    company:applied-materials:
+      unverified_source: 1
+    company:applied-systems:
+      unwired_source: 1
+    company:apptronik:
+      role_unmatched: 81
+      term_unmatched: 1
+    company:aqr:
+      role_unmatched: 47
+    company:aqr-capital-management:
+      unwired_source: 1
+    company:aquatic:
+      role_unmatched: 7
+      non_us_location: 2
+    company:aquatic-capital:
+      source_parse_failed: 1
+    company:arcesium:
+      unwired_source: 1
+    company:archer-aviation:
+      unwired_source: 1
+    company:architect-labs:
+      role_unmatched: 8
+      term_unmatched: 1
+    company:ardian:
+      unwired_source: 1
+    company:ares-management:
+      unverified_source: 1
+    company:arista-networks:
+      unwired_source: 1
+    company:arkansas-center-for-data-sciences:
+      role_unmatched: 9
+      term_unmatched: 8
+    company:arm:
+      unwired_source: 1
+    company:arrowstreet-capital:
+      unwired_source: 1
+    company:asana:
+      role_unmatched: 148
+    company:asm:
+      unwired_source: 1
+    company:asm-global:
+      unwired_source: 1
+    company:asml-us:
+      unwired_source: 1
+    company:assurant:
+      unwired_source: 1
+    company:astera-institute:
+      role_unmatched: 36
+      term_unmatched: 2
+    company:astera-labs:
+      role_unmatched: 162
+      term_unmatched: 3
+    company:astranis:
+      term_unmatched: 20
+      role_unmatched: 68
+    company:astreya:
+      unwired_source: 1
+    company:at-bay:
+      role_unmatched: 1
+    company:at-t:
+      unverified_source: 1
+    company:athenahealth:
+      unverified_source: 1
+    company:athene:
+      unverified_source: 1
+    company:atlassian:
+      unwired_source: 1
+    company:atom-computing:
+      unwired_source: 1
+    company:atoms:
+      role_unmatched: 235
+      non_us_location: 1
+      term_unmatched: 1
+    company:auctor:
+      role_unmatched: 11
+      term_unmatched: 2
+    company:aurora-innovation:
+      unwired_source: 1
+    company:auto-owners:
+      unwired_source: 1
+    company:autodesk:
+      unverified_source: 1
+    company:avanade:
+      unwired_source: 1
+    company:aveva:
+      unwired_source: 1
+    company:axcelis:
+      unwired_source: 1
+    company:axiom-space:
+      unwired_source: 1
+    company:axiomatic-ai:
+      role_unmatched: 4
+      term_unmatched: 1
+    company:axon:
+      role_unmatched: 5
+      term_unmatched: 8
+    company:ayar-labs:
+      unwired_source: 1
+    company:bae-systems:
+      unwired_source: 1
+    company:baker-hughes:
+      unwired_source: 1
+    company:balyasny:
+      unwired_source: 1
+    company:bank-of-america:
+      unwired_source: 1
+    company:bank-of-china-limited-new-york-branch:
+      unwired_source: 1
+    company:barclays:
+      unwired_source: 1
+    company:base-power:
+      role_unmatched: 162
+      term_unmatched: 9
+    company:base-power-company:
+      role_unmatched: 162
+      term_unmatched: 9
+    company:baseten:
+      role_unmatched: 65
+    company:belvedere-trading:
+      role_unmatched: 12
+      term_unmatched: 1
+    company:bentley-systems:
+      unwired_source: 1
+    company:best-buy:
+      unverified_source: 1
+    company:beta-technologies:
+      unwired_source: 1
+    company:betterment:
+      role_unmatched: 32
+    company:bild-ai:
+      role_unmatched: 2
+      term_unmatched: 1
+    company:bio-techne:
+      unwired_source: 1
+    company:bitwarden:
+      role_unmatched: 22
+    company:black-cape:
+      unwired_source: 1
+    company:blackrock:
+      unwired_source: 1
+    company:blackstone:
+      unverified_source: 1
+    company:blend:
+      role_unmatched: 7
+    company:block:
+      role_unmatched: 199
+      term_unmatched: 2
+    company:bloomberg:
+      unverified_source: 1
+    company:blue-origin:
+      unverified_source: 1
+    company:bny:
+      unwired_source: 1
+    company:boeing:
+      unwired_source: 1
+    company:booking-com-us:
+      unwired_source: 1
+    company:booz-allen:
+      unwired_source: 1
+    company:borgwarner:
+      unwired_source: 1
+    company:bosch-group:
+      unwired_source: 1
+    company:bose:
+      unwired_source: 1
+    company:boston-dynamics:
+      unwired_source: 1
+    company:bot-auto:
+      role_unmatched: 19
+      term_unmatched: 1
+    company:box:
+      unverified_source: 1
+    company:boys-town:
+      unwired_source: 1
+    company:braze:
+      role_unmatched: 256
+      term_unmatched: 1
+    company:brex:
+      role_unmatched: 303
+    company:bridgewater:
+      unwired_source: 1
+    company:brighthouse:
+      unverified_source: 1
+    company:brilliant:
+      unwired_source: 1
+    company:broadcom:
+      unwired_source: 1
+    company:broadridge:
+      unwired_source: 1
+    company:brunswick:
+      unwired_source: 1
+    company:bytedance:
+      unwired_source: 1
+    company:c3-ai:
+      source_parse_failed: 1
+    company:caci:
+      unwired_source: 1
+    company:cadence:
+      unwired_source: 1
+    company:cadence-university:
+      unwired_source: 1
+    company:cadent:
+      unwired_source: 1
+    company:cae:
+      unwired_source: 1
+    company:calm:
+      role_unmatched: 1
+    company:calstart:
+      term_unmatched: 9
+      role_unmatched: 3
+    company:campbell-soup-company:
+      unwired_source: 1
+    company:canva:
+      unwired_source: 1
+    company:canva-us:
+      unverified_source: 1
+    company:capital-one:
+      unwired_source: 1
+    company:capula:
+      unwired_source: 1
+    company:carlyle:
+      unverified_source: 1
+    company:carnegie-mellon-university:
+      unwired_source: 1
+    company:carta:
+      role_unmatched: 61
+    company:castleton-commodities-international:
+      unwired_source: 1
+    company:caterpillar:
+      unwired_source: 1
+    company:cboe:
+      unwired_source: 1
+    company:cedar:
+      role_unmatched: 3
+    company:celestica-us:
+      unwired_source: 1
+    company:centene:
+      unverified_source: 1
+    company:centerfield:
+      role_unmatched: 18
+      term_unmatched: 3
+    company:centific:
+      unwired_source: 1
+    company:cerebras:
+      role_unmatched: 123
+    company:chainalysis:
+      unwired_source: 1
+    company:chainguard:
+      role_unmatched: 80
+      term_unmatched: 1
+    company:character-ai:
+      role_unmatched: 13
+    company:charles-river-analytics:
+      role_unmatched: 9
+      term_unmatched: 1
+    company:charles-schwab:
+      unwired_source: 1
+    company:chevron:
+      unwired_source: 1
+    company:chewy:
+      unwired_source: 1
+    company:chicago-trading-company:
+      role_unmatched: 5
+      non_us_location: 3
+    company:chime:
+      role_unmatched: 58
+    company:chroma:
+      role_unmatched: 1
+    company:chubb:
+      unwired_source: 1
+    company:ciena:
+      unverified_source: 1
+    company:cigna:
+      unwired_source: 1
+    company:cincinnati-financial:
+      unwired_source: 1
+    company:circle:
+      unwired_source: 1
+    company:circleback:
+      unwired_source: 1
+    company:cisco:
+      unverified_source: 1
+    company:cisive:
+      unwired_source: 1
+    company:citadel:
+      unwired_source: 1
+    company:citadel-securities:
+      unwired_source: 1
+    company:citi:
+      unwired_source: 1
+    company:citizens:
+      unwired_source: 1
+    company:clarity-innovations:
+      role_unmatched: 32
+      term_unmatched: 1
+    company:clearwater-analytics:
+      unwired_source: 1
+    company:clerkie:
+      unwired_source: 1
+    company:clickhouse:
+      role_unmatched: 166
+    company:cloudera:
+      unwired_source: 1
+    company:cloudfit-software:
+      unwired_source: 1
+    company:cloudflare:
+      term_unmatched: 14
+      role_unmatched: 285
+    company:clyde-companies:
+      unwired_source: 1
+    company:cme-group:
+      unwired_source: 1
+    company:cna:
+      unverified_source: 1
+    company:cno-financial-group:
+      unwired_source: 1
+    company:coalition:
+      unwired_source: 1
+    company:coca-cola:
+      unwired_source: 1
+    company:cockroach-labs:
+      role_unmatched: 26
+    company:cognition:
+      role_unmatched: 84
+    company:cohere:
+      role_unmatched: 138
+      term_unmatched: 3
+    company:coherent:
+      unwired_source: 1
+    company:cohu:
+      unwired_source: 1
+    company:coinbase:
+      role_unmatched: 174
+    company:collibra:
+      role_unmatched: 36
+    company:color:
+      source_parse_failed: 1
+    company:commonwealth-fusion:
+      unwired_source: 1
+    company:commure:
+      role_unmatched: 72
+    company:compass:
+      unwired_source: 1
+    company:composio:
+      role_unmatched: 30
+      term_unmatched: 1
+    company:connectprep:
+      unwired_source: 1
+    company:constellation-space:
+      term_unmatched: 1
+      role_unmatched: 3
+    company:contextual-ai:
+      unwired_source: 1
+    company:contoro-robotics:
+      role_unmatched: 7
+      term_unmatched: 3
+    company:copart:
+      unwired_source: 1
+    company:corebridge:
+      unwired_source: 1
+    company:corning:
+      unverified_source: 1
+    company:corpay:
+      unwired_source: 1
+    company:costar:
+      unverified_source: 1
+    company:costco:
+      unwired_source: 1
+    company:cotiviti:
+      unwired_source: 1
+    company:couchbase:
+      unverified_source: 1
+    company:coursera:
+      role_unmatched: 18
+    company:cpi-card-group:
+      unwired_source: 1
+    company:crane-co:
+      unwired_source: 1
+    company:credo:
+      unwired_source: 1
+    company:cresta:
+      role_unmatched: 91
+      term_unmatched: 6
+    company:crowdstrike:
+      unwired_source: 1
+    company:ctgt:
+      role_unmatched: 2
+      non_us_location: 1
+    company:cubist-systematic-strategies:
+      term_unmatched: 13
+      role_unmatched: 216
+      non_us_location: 2
+    company:curtiss-wright:
+      unwired_source: 1
+    company:cvs-health:
+      unwired_source: 1
+    company:cyberark:
+      unwired_source: 1
+    company:cybernetic-labs:
+      role_unmatched: 24
+      term_unmatched: 3
+    company:d-e-shaw:
+      unwired_source: 1
+    company:d-e-shaw-co:
+      unwired_source: 1
+    company:d-matrix:
+      unwired_source: 1
+    company:databento:
+      role_unmatched: 15
+    company:databricks:
+      unwired_source: 1
+    company:datadog:
+      unwired_source: 1
+    company:datarobot:
+      unwired_source: 1
+    company:datasite:
+      unwired_source: 1
+    company:datavant:
+      unwired_source: 1
+    company:dbt-labs:
+      unwired_source: 1
+    company:decagon:
+      role_unmatched: 126
+    company:dedalus-labs:
+      unwired_source: 1
+    company:deepgram:
+      role_unmatched: 79
+    company:dell:
+      unwired_source: 1
+    company:delta-air-lines:
+      unverified_source: 1
+    company:descript:
+      role_unmatched: 10
+    company:deuna:
+      role_unmatched: 13
+      term_unmatched: 1
+    company:devoted-health:
+      unwired_source: 1
+    company:dexmate:
+      role_unmatched: 29
+      term_unmatched: 3
+    company:digitalocean:
+      unwired_source: 1
+    company:dimensional:
+      role_unmatched: 8
+    company:discord:
+      role_unmatched: 47
+    company:discover:
+      unwired_source: 1
+    company:disney:
+      unwired_source: 1
+    company:diversified-automation:
+      term_unmatched: 2
+      role_unmatched: 8
+    company:docker:
+      role_unmatched: 57
+    company:docugami:
+      role_unmatched: 4
+      term_unmatched: 3
+    company:docusign:
+      unwired_source: 1
+    company:dolby:
+      unwired_source: 1
+    company:domino-data-lab:
+      role_unmatched: 15
+    company:domino-s:
+      unwired_source: 1
+    company:domo:
+      unwired_source: 1
+    company:doordash:
+      unverified_source: 1
+    company:draftkings:
+      unwired_source: 1
+    company:draper:
+      unwired_source: 1
+    company:dremio:
+      role_unmatched: 2
+    company:dropbox:
+      role_unmatched: 39
+    company:drw:
+      unwired_source: 1
+    company:dtcc:
+      unwired_source: 1
+    company:duck-creek:
+      unwired_source: 1
+    company:duolingo:
+      role_unmatched: 65
+    company:dv-trading:
+      role_unmatched: 54
+      non_us_location: 2
+    company:dynatrace:
+      unwired_source: 1
+    company:easypost:
+      unwired_source: 1
+    company:eaton:
+      unverified_source: 1
+    company:ebay:
+      unwired_source: 1
+    company:egnyte:
+      unwired_source: 1
+    company:egra:
+      term_unmatched: 1
+    company:elastic:
+      role_unmatched: 245
+    company:electronic-arts:
+      unwired_source: 1
+    company:elevance-health:
+      unwired_source: 1
+    company:elevenlabs:
+      role_unmatched: 230
+    company:ellipsis-labs:
+      role_unmatched: 10
+      term_unmatched: 1
+    company:eluvio:
+      unwired_source: 1
+    company:emc-insurance:
+      unverified_source: 1
+    company:emerson:
+      unwired_source: 1
+    company:empower:
+      unwired_source: 1
+    company:ensemble-health-partners:
+      unwired_source: 1
+    company:entegris:
+      unverified_source: 1
+    company:epic:
+      unwired_source: 1
+    company:epic-games:
+      role_unmatched: 158
+      term_unmatched: 3
+    company:epic-systems:
+      unwired_source: 1
+    company:epsilon:
+      unwired_source: 1
+    company:equifax:
+      unwired_source: 1
+    company:eragon:
+      role_unmatched: 3
+      term_unmatched: 1
+    company:erie-insurance:
+      unwired_source: 1
+    company:etched:
+      role_unmatched: 92
+      term_unmatched: 17
+    company:ether-fi:
+      role_unmatched: 10
+    company:ethos:
+      role_unmatched: 1
+    company:etsy:
+      unwired_source: 1
+    company:eulerity:
+      role_unmatched: 12
+      term_unmatched: 6
+    company:eurofins:
+      unwired_source: 1
+    company:ev-realty:
+      term_unmatched: 1
+    company:eventbrite:
+      unwired_source: 1
+    company:everest:
+      unwired_source: 1
+    company:evolver:
+      term_unmatched: 1
+      role_unmatched: 13
+    company:exoduspoint:
+      role_unmatched: 2
+    company:exowatt:
+      role_unmatched: 16
+    company:expedia-group:
+      unwired_source: 1
+    company:experian:
+      unwired_source: 1
+    company:f-g:
+      unwired_source: 1
+    company:factory:
+      role_unmatched: 43
+    company:factset:
+      unwired_source: 1
+    company:faire:
+      role_unmatched: 65
+      term_unmatched: 1
+    company:fanduel:
+      role_unmatched: 82
+      term_unmatched: 3
+    company:faraday-future:
+      term_unmatched: 4
+      role_unmatched: 56
+    company:fastly:
+      role_unmatched: 49
+    company:federal-reserve-system:
+      unwired_source: 1
+    company:fedex:
+      unwired_source: 1
+    company:fico:
+      unwired_source: 1
+    company:fidelity:
+      unverified_source: 1
+    company:fifth-third:
+      unwired_source: 1
+    company:figma:
+      role_unmatched: 164
+    company:figure-ai:
+      role_unmatched: 120
+      term_unmatched: 7
+    company:finra:
+      unwired_source: 1
+    company:fireblocks:
+      role_unmatched: 70
+    company:firefly-aerospace:
+      unwired_source: 1
+    company:firework:
+      role_unmatched: 23
+      term_unmatched: 1
+    company:fireworks-ai:
+      role_unmatched: 58
+    company:fis:
+      unverified_source: 1
+    company:fiserv:
+      unwired_source: 1
+    company:five-rings:
+      role_unmatched: 14
+      term_unmatched: 3
+    company:fivetran:
+      role_unmatched: 197
+    company:flatiron-health:
+      unwired_source: 1
+    company:flex:
+      role_unmatched: 43
+    company:flexion-robotics:
+      unwired_source: 1
+    company:flexport:
+      role_unmatched: 161
+    company:flow-traders:
+      unwired_source: 1
+    company:fluxergy:
+      role_unmatched: 10
+      term_unmatched: 1
+    company:fly-io:
+      unwired_source: 1
+    company:fm:
+      unverified_source: 1
+    company:ford:
+      unverified_source: 1
+    company:form-energy:
+      role_unmatched: 185
+    company:formfactor:
+      unwired_source: 1
+    company:formlabs:
+      unwired_source: 1
+    company:fortinet:
+      unwired_source: 1
+    company:fourkites:
+      role_unmatched: 14
+      term_unmatched: 2
+    company:fox:
+      role_unmatched: 8
+    company:front:
+      source_parse_failed: 1
+    company:fti-consulting:
+      unwired_source: 1
+    company:gallup:
+      role_unmatched: 54
+      term_unmatched: 1
+    company:garmin:
+      unwired_source: 1
+    company:ge-aerospace:
+      unwired_source: 1
+    company:ge-appliances:
+      unwired_source: 1
+    company:ge-healthcare:
+      unwired_source: 1
+    company:ge-vernova:
+      unwired_source: 1
+    company:geico:
+      unwired_source: 1
+    company:gelber-group:
+      role_unmatched: 19
+    company:gemini:
+      role_unmatched: 42
+    company:gen-re:
+      unwired_source: 1
+    company:generac:
+      unwired_source: 1
+    company:general-astronautics:
+      unwired_source: 1
+    company:general-dynamics:
+      unverified_source: 1
+    company:general-dynamics-information-technology:
+      unwired_source: 1
+    company:general-motors:
+      unverified_source: 1
+    company:geneva-trading:
+      role_unmatched: 13
+    company:genworth:
+      role_unmatched: 1
+    company:genworth-financial:
+      unwired_source: 1
+    company:github:
+      unwired_source: 1
+    company:gitlab:
+      role_unmatched: 189
+    company:glean:
+      unwired_source: 1
+    company:global-atlantic:
+      unwired_source: 1
+    company:global-payments:
+      unverified_source: 1
+    company:globalfoundries:
+      unwired_source: 1
+    company:godaddy:
+      role_unmatched: 1
+    company:gofundme:
+      role_unmatched: 41
+    company:goldman-sachs:
+      unwired_source: 1
+    company:gong:
+      unwired_source: 1
+    company:google:
+      unwired_source: 1
+    company:google-deepmind:
+      role_unmatched: 10
+    company:gopuff:
+      unverified_source: 1
+    company:grafana-labs:
+      unwired_source: 1
+    company:grammarly:
+      unwired_source: 1
+    company:grange-insurance:
+      unverified_source: 1
+    company:grant-thornton:
+      unwired_source: 1
+    company:gritt-robotics:
+      role_unmatched: 17
+      term_unmatched: 3
+    company:groq:
+      unwired_source: 1
+    company:group-one-trading:
+      unwired_source: 1
+    company:grubhub:
+      unwired_source: 1
+    company:guardian-life:
+      unwired_source: 1
+    company:guidewire:
+      unwired_source: 1
+    company:gulf-management:
+      unwired_source: 1
+    company:h-co:
+      unwired_source: 1
+    company:h2o-ai:
+      unwired_source: 1
+    company:haize-labs:
+      role_unmatched: 4
+      term_unmatched: 2
+    company:halo-industries:
+      unwired_source: 1
+    company:harvey:
+      role_unmatched: 373
+    company:hashicorp:
+      unverified_source: 1
+    company:hcsc:
+      unwired_source: 1
+    company:headlands-technologies:
+      unwired_source: 1
+    company:headspace:
+      unwired_source: 1
+    company:headway:
+      role_unmatched: 73
+    company:health-catalyst:
+      unwired_source: 1
+    company:helion:
+      unwired_source: 1
+    company:heliux:
+      role_unmatched: 1
+      term_unmatched: 1
+      non_us_location: 1
+    company:hermeus:
+      role_unmatched: 80
+      term_unmatched: 7
+    company:hewlett-packard-hp:
+      unwired_source: 1
+    company:hex:
+      role_unmatched: 30
+    company:highmark-health:
+      unwired_source: 1
+    company:highspot:
+      unwired_source: 1
+    company:hims-hers:
+      unverified_source: 1
+    company:hinge-health:
+      unwired_source: 1
+    company:hippo:
+      unwired_source: 1
+    company:hirevue:
+      unwired_source: 1
+    company:hntb:
+      unwired_source: 1
+    company:home-depot:
+      unwired_source: 1
+    company:homebase:
+      role_unmatched: 14
+    company:honeywell:
+      unwired_source: 1
+    company:hopper:
+      role_unmatched: 42
+    company:hpe:
+      unverified_source: 1
+    company:hpr-hyannis-port-research:
+      role_unmatched: 8
+    company:hubspot:
+      role_unmatched: 1
+    company:hudson-river-trading:
+      unwired_source: 1
+    company:hugging-face:
+      unwired_source: 1
+    company:human-computer-lab:
+      role_unmatched: 7
+      term_unmatched: 5
+    company:humana:
+      unverified_source: 1
+    company:huntington:
+      unverified_source: 1
+    company:huntsman:
+      unwired_source: 1
+    company:hyperlight:
+      unwired_source: 1
+    company:ibm:
+      unwired_source: 1
+    company:icapital:
+      unwired_source: 1
+    company:ice:
+      source_parse_failed: 1
+    company:idexx:
+      unwired_source: 1
+    company:iherb:
+      source_parse_failed: 1
+    company:imbue:
+      role_unmatched: 2
+    company:imc-trading:
+      unwired_source: 1
+    company:impact:
+      role_unmatched: 82
+      term_unmatched: 2
+    company:impulse-space:
+      unwired_source: 1
+    company:included-health:
+      unwired_source: 1
+    company:infinitequant:
+      unwired_source: 1
+    company:informatica:
+      unwired_source: 1
+    company:ing:
+      unwired_source: 1
+    company:innovaccer:
+      unwired_source: 1
+    company:insitro:
+      role_unmatched: 13
+    company:instacart:
+      role_unmatched: 116
+    company:institute-of-foundation-models:
+      role_unmatched: 41
+      term_unmatched: 3
+    company:integra-fec:
+      role_unmatched: 3
+      term_unmatched: 3
+    company:intel:
+      unwired_source: 1
+    company:intercom:
+      unwired_source: 1
+    company:intercontinental-exchange-inc:
+      unwired_source: 1
+    company:interdigital:
+      unwired_source: 1
+    company:intuit:
+      unverified_source: 1
+    company:intuitive:
+      unwired_source: 1
+    company:ionq:
+      role_unmatched: 98
+    company:iqvia:
+      unwired_source: 1
+    company:irobot:
+      unwired_source: 1
+    company:isomorphic-labs:
+      role_unmatched: 25
+    company:iterable:
+      role_unmatched: 26
+    company:ivy-tech-community-college:
+      unwired_source: 1
+    company:jabil:
+      unwired_source: 1
+    company:jane-street:
+      unwired_source: 1
+    company:jefferies:
+      unwired_source: 1
+    company:jetblue:
+      unwired_source: 1
+    company:jhu-apl:
+      unwired_source: 1
+    company:joby-aviation:
+      unwired_source: 1
+    company:john-deere:
+      unwired_source: 1
+    company:john-hancock:
+      unverified_source: 1
+    company:jp-morgan-chase:
+      unwired_source: 1
+    company:jpmorganchase:
+      unwired_source: 1
+    company:jump-trading:
+      unwired_source: 1
+    company:juniper-networks:
+      unwired_source: 1
+    company:kastle:
+      role_unmatched: 10
+      term_unmatched: 2
+    company:kayak:
+      role_unmatched: 1
+    company:kbr:
+      unwired_source: 1
+    company:keysight:
+      unverified_source: 1
+    company:khan-academy:
+      role_unmatched: 27
+    company:kinaxis:
+      unwired_source: 1
+    company:kion-group:
+      unwired_source: 1
+    company:kkr:
+      unwired_source: 1
+    company:kla:
+      unwired_source: 1
+    company:klaviyo:
+      role_unmatched: 148
+    company:kodiak-robotics:
+      role_unmatched: 68
+    company:komodo-health:
+      role_unmatched: 34
+    company:kong:
+      unwired_source: 1
+    company:kos-ai:
+      role_unmatched: 4
+      term_unmatched: 1
+    company:kraken:
+      role_unmatched: 1
+    company:kroger:
+      unverified_source: 1
+    company:kudu-dynamics:
+      unwired_source: 1
+    company:kumo:
+      unwired_source: 1
+    company:l3harris:
+      unwired_source: 1
+    company:lam-research:
+      unwired_source: 1
+    company:langchain:
+      role_unmatched: 101
+    company:latent-defense:
+      role_unmatched: 4
+      term_unmatched: 1
+    company:lattice-semiconductor:
+      unwired_source: 1
+    company:layup-parts:
+      role_unmatched: 24
+      term_unmatched: 3
+    company:legal-general-america:
+      unwired_source: 1
+    company:leidos:
+      unwired_source: 1
+    company:lemonade:
+      unwired_source: 1
+    company:lexisnexis-risk-solutions:
+      unwired_source: 1
+    company:liberty-mutual:
+      unwired_source: 1
+    company:lightmatter:
+      role_unmatched: 67
+    company:lila-sciences:
+      role_unmatched: 115
+      term_unmatched: 8
+    company:lincoln-financial:
+      unwired_source: 1
+    company:linear:
+      role_unmatched: 27
+    company:livekit:
+      role_unmatched: 31
+    company:liveramp:
+      unwired_source: 1
+    company:llamaindex:
+      role_unmatched: 15
+    company:lockheed-martin:
+      unwired_source: 1
+    company:los-alamos-national-lab:
+      unwired_source: 1
+    company:los-alamos-national-laboratory:
+      unwired_source: 1
+    company:louisiana-blue:
+      unwired_source: 1
+    company:lowe-s:
+      unverified_source: 1
+    company:lseg:
+      unwired_source: 1
+    company:lucid-motors:
+      role_unmatched: 321
+      term_unmatched: 2
+    company:lufco:
+      unwired_source: 1
+    company:luma-ai:
+      unwired_source: 1
+    company:lumentum:
+      unwired_source: 1
+    company:lyft:
+      role_unmatched: 169
+    company:lyra-health:
+      role_unmatched: 1
+    company:m-t-bank:
+      unwired_source: 1
+    company:macom:
+      unwired_source: 1
+    company:magic:
+      role_unmatched: 1
+    company:magic-leap:
+      role_unmatched: 7
+    company:magna:
+      unwired_source: 1
+    company:magnera-corporation:
+      unwired_source: 1
+    company:manhattan-associates:
+      unwired_source: 1
+    company:mantech:
+      unwired_source: 1
+    company:mariana-minerals:
+      role_unmatched: 62
+      term_unmatched: 1
+    company:markel:
+      unwired_source: 1
+    company:marketaxess:
+      unwired_source: 1
+    company:marmon-holdings:
+      unwired_source: 1
+    company:marshall-wace:
+      term_unmatched: 4
+    company:marvell:
+      unwired_source: 1
+    company:massmutual:
+      unverified_source: 1
+    company:mastercard:
+      unverified_source: 1
+    company:materialize:
+      role_unmatched: 5
+    company:mathtech:
+      unwired_source: 1
+    company:mathworks:
+      unverified_source: 1
+    company:maven-clinic:
+      role_unmatched: 31
+      term_unmatched: 1
+    company:maven-securities:
+      role_unmatched: 37
+      term_unmatched: 2
+    company:maxar:
+      unwired_source: 1
+    company:meditech:
+      unwired_source: 1
+    company:medtronic:
+      unwired_source: 1
+    company:melius:
+      role_unmatched: 6
+      term_unmatched: 1
+      non_us_location: 1
+    company:menasha-corporation:
+      unwired_source: 1
+    company:mercari-us:
+      role_unmatched: 3
+    company:mercer:
+      unwired_source: 1
+    company:mercor:
+      role_unmatched: 80
+    company:mercury:
+      role_unmatched: 55
+    company:meta:
+      unwired_source: 1
+    company:metlife:
+      unwired_source: 1
+    company:microchip:
+      unwired_source: 1
+    company:microchip-technology:
+      unwired_source: 1
+    company:micron:
+      unwired_source: 1
+    company:microsoft:
+      unwired_source: 1
+    company:millennium:
+      unwired_source: 1
+    company:milliman:
+      unwired_source: 1
+    company:miro:
+      role_unmatched: 46
+    company:mitre:
+      unverified_source: 1
+    company:mixpanel:
+      role_unmatched: 57
+    company:mks-instruments:
+      unverified_source: 1
+    company:modal:
+      role_unmatched: 30
+      term_unmatched: 1
+    company:molex:
+      unverified_source: 1
+    company:molina-healthcare:
+      unwired_source: 1
+    company:mongodb:
+      role_unmatched: 405
+    company:monolithic-power-systems:
+      unwired_source: 1
+    company:monte-carlo:
+      role_unmatched: 6
+    company:moody-s:
+      unwired_source: 1
+    company:moog:
+      unwired_source: 1
+    company:morgan-stanley:
+      unwired_source: 1
+    company:morning-consult:
+      role_unmatched: 8
+    company:motive:
+      role_unmatched: 106
+    company:motorola-solutions:
+      unwired_source: 1
+    company:msci:
+      unwired_source: 1
+    company:munich-re-us:
+      unwired_source: 1
+    company:mutual-of-omaha:
+      unwired_source: 1
+    company:mux:
+      role_unmatched: 2
+    company:nasdaq:
+      unwired_source: 1
+    company:nash:
+      unwired_source: 1
+    company:national-interstate-insurance:
+      unwired_source: 1
+    company:national-laboratory-of-the-rockies:
+      unwired_source: 1
+    company:nationwide:
+      unwired_source: 1
+    company:navitas:
+      unwired_source: 1
+    company:nebo:
+      unwired_source: 1
+    company:neighborly:
+      unwired_source: 1
+    company:nelnet:
+      unwired_source: 1
+    company:neocognition:
+      term_unmatched: 1
+      role_unmatched: 4
+    company:neon:
+      role_unmatched: 6
+    company:neosigma:
+      unwired_source: 1
+    company:netflix:
+      unwired_source: 1
+    company:netlify:
+      role_unmatched: 3
+    company:netsmart:
+      unwired_source: 1
+    company:neuralink:
+      term_unmatched: 18
+      role_unmatched: 61
+    company:new-relic:
+      role_unmatched: 58
+    company:new-york-life:
+      unwired_source: 1
+    company:newfront:
+      unwired_source: 1
+    company:newsbreak:
+      role_unmatched: 35
+      term_unmatched: 2
+    company:next-insurance:
+      unwired_source: 1
+    company:nextera-energy:
+      unwired_source: 1
+    company:ni:
+      source_parse_failed: 1
+    company:nidec:
+      unwired_source: 1
+    company:nielsen:
+      unwired_source: 1
+    company:nightwing:
+      unwired_source: 1
+    company:nike:
+      unwired_source: 1
+    company:nio:
+      unwired_source: 1
+    company:nissan:
+      unwired_source: 1
+    company:nordstrom:
+      unwired_source: 1
+    company:northern-trust:
+      unwired_source: 1
+    company:northrop-grumman:
+      unwired_source: 1
+    company:northwestern-mutual:
+      unwired_source: 1
+    company:notable:
+      unwired_source: 1
+    company:notion:
+      role_unmatched: 126
+      term_unmatched: 1
+    company:nrel:
+      unwired_source: 1
+    company:nuro:
+      role_unmatched: 103
+      term_unmatched: 1
+    company:nvidia:
+      unwired_source: 1
+    company:nxp:
+      unwired_source: 1
+    company:oak-ridge-national-lab:
+      unwired_source: 1
+    company:occ:
+      unverified_source: 1
+    company:odys-aviation:
+      role_unmatched: 7
+      term_unmatched: 5
+    company:oklo:
+      role_unmatched: 64
+    company:okta:
+      role_unmatched: 343
+    company:old-mission:
+      unwired_source: 1
+    company:oliver-wyman:
+      unwired_source: 1
+    company:olo:
+      source_parse_failed: 1
+    company:omada-health:
+      role_unmatched: 30
+    company:oneamerica:
+      unwired_source: 1
+    company:onsemi:
+      unverified_source: 1
+    company:onto-innovation:
+      unwired_source: 1
+    company:openai:
+      role_unmatched: 750
+    company:opendoor:
+      unwired_source: 1
+    company:openevidence:
+      role_unmatched: 7
+    company:optiver:
+      unwired_source: 1
+    company:opusclip:
+      role_unmatched: 7
+      term_unmatched: 1
+    company:oracle:
+      unwired_source: 1
+    company:oscar-health:
+      unwired_source: 1
+    company:otter-ai:
+      role_unmatched: 25
+    company:oura:
+      unwired_source: 1
+    company:output-biosciences:
+      role_unmatched: 9
+    company:outreach:
+      unwired_source: 1
+    company:pacific-life:
+      unwired_source: 1
+    company:pagerduty:
+      role_unmatched: 23
+    company:palantir:
+      role_unmatched: 265
+      term_unmatched: 40
+    company:palantir-technologies:
+      role_unmatched: 265
+      term_unmatched: 40
+    company:palo-alto-networks:
+      unwired_source: 1
+    company:panagora:
+      unwired_source: 1
+    company:paragon:
+      unwired_source: 1
+    company:paramount:
+      unverified_source: 1
+    company:partnerre:
+      unverified_source: 1
+    company:pathai:
+      unwired_source: 1
+    company:patreon:
+      role_unmatched: 6
+    company:paypal:
+      unverified_source: 1
+    company:pdt-partners:
+      role_unmatched: 8
+    company:peak6:
+      unwired_source: 1
+    company:peloton:
+      unverified_source: 1
+    company:penn-mutual:
+      unwired_source: 1
+    company:penn-state:
+      unwired_source: 1
+    company:penn-state-university:
+      unwired_source: 1
+    company:pennsylvania-state-university:
+      unwired_source: 1
+    company:pentair:
+      unwired_source: 1
+    company:peraton:
+      unwired_source: 1
+    company:perplexity:
+      role_unmatched: 88
+      term_unmatched: 4
+    company:persona-ai:
+      role_unmatched: 16
+      term_unmatched: 6
+    company:pgim:
+      unwired_source: 1
+    company:physical-intelligence:
+      role_unmatched: 29
+      term_unmatched: 1
+    company:pika:
+      role_unmatched: 9
+      term_unmatched: 1
+    company:pimco:
+      unwired_source: 1
+    company:pinecone:
+      role_unmatched: 8
+    company:pinterest:
+      role_unmatched: 223
+    company:plaid:
+      role_unmatched: 106
+    company:planet:
+      role_unmatched: 1
+    company:planetscale:
+      role_unmatched: 9
+    company:playstation:
+      unwired_source: 1
+    company:plus:
+      role_unmatched: 31
+      term_unmatched: 10
+    company:plusai:
+      role_unmatched: 31
+      term_unmatched: 10
+    company:pnc-financial-services:
+      unwired_source: 1
+    company:pnnl:
+      unwired_source: 1
+    company:podium:
+      role_unmatched: 54
+    company:point72:
+      term_unmatched: 13
+      role_unmatched: 216
+      non_us_location: 2
+    company:pointclickcare:
+      unwired_source: 1
+    company:pony-ai:
+      unwired_source: 1
+    company:poolside:
+      role_unmatched: 16
+    company:poshmark:
+      role_unmatched: 25
+    company:posit:
+      unwired_source: 1
+    company:postman:
+      role_unmatched: 106
+      term_unmatched: 1
+    company:primetals-technologies:
+      unwired_source: 1
+    company:principal:
+      unwired_source: 1
+    company:prizepicks:
+      role_unmatched: 24
+    company:procore:
+      unwired_source: 1
+    company:progressive:
+      unverified_source: 1
+    company:project44:
+      term_unmatched: 2
+      role_unmatched: 37
+    company:proofpoint:
+      unwired_source: 1
+    company:prospect-equities:
+      unwired_source: 1
+    company:protective-life:
+      unwired_source: 1
+    company:prudential:
+      unverified_source: 1
+    company:prudential-financial:
+      unwired_source: 1
+    company:psiquantum:
+      role_unmatched: 66
+      term_unmatched: 5
+    company:ptc:
+      source_parse_failed: 1
+    company:pylon:
+      role_unmatched: 19
+      non_us_location: 1
+    company:qlik:
+      unwired_source: 1
+    company:qorvo:
+      unverified_source: 1
+    company:quadric:
+      unwired_source: 1
+    company:quadrillion:
+      role_unmatched: 4
+      term_unmatched: 1
+      non_us_location: 1
+    company:qualcomm:
+      unwired_source: 1
+    company:qualys:
+      unwired_source: 1
+    company:quantic:
+      role_unmatched: 3
+    company:quantinuum:
+      unwired_source: 1
+    company:quantlab:
+      unverified_source: 1
+    company:quera:
+      unwired_source: 1
+    company:quizlet:
+      unverified_source: 1
+    company:radix-trading:
+      role_unmatched: 7
+      term_unmatched: 1
+    company:rainmaker:
+      role_unmatched: 29
+      term_unmatched: 3
+    company:rakuten-international:
+      unwired_source: 1
+    company:rambus:
+      unwired_source: 1
+    company:ramp:
+      role_unmatched: 121
+      term_unmatched: 1
+    company:rapid7:
+      unwired_source: 1
+    company:recursion:
+      unwired_source: 1
+    company:reddit:
+      unwired_source: 1
+    company:redis:
+      role_unmatched: 24
+    company:relativity-space:
+      unwired_source: 1
+    company:renaissance-technologies:
+      unwired_source: 1
+    company:render:
+      role_unmatched: 34
+    company:replicate:
+      unwired_source: 1
+    company:replit:
+      role_unmatched: 88
+    company:reply:
+      role_unmatched: 37
+      term_unmatched: 2
+    company:rev:
+      role_unmatched: 1
+    company:rfcuny:
+      unwired_source: 1
+    company:rga:
+      source_parse_failed: 1
+    company:rigetti:
+      unwired_source: 1
+    company:ringcentral:
+      unwired_source: 1
+    company:riot-games:
+      role_unmatched: 163
+      term_unmatched: 1
+    company:rivian:
+      unwired_source: 1
+    company:ro:
+      source_parse_failed: 1
+    company:robinhood:
+      role_unmatched: 137
+      term_unmatched: 1
+    company:roblox:
+      unwired_source: 1
+    company:rocket-lab:
+      role_unmatched: 371
+      term_unmatched: 32
+    company:rockwell-automation:
+      unwired_source: 1
+    company:root-insurance:
+      source_parse_failed: 1
+    company:royal-bank-of-canada:
+      unwired_source: 1
+    company:rtx:
+      unwired_source: 1
+    company:runway:
+      unwired_source: 1
+    company:s-p-global:
+      unverified_source: 1
+    company:safari-ai:
+      role_unmatched: 5
+    company:saic:
+      unverified_source: 1
+    company:salesforce:
+      unwired_source: 1
+    company:salesloft:
+      role_unmatched: 36
+    company:samaya-ai:
+      role_unmatched: 8
+      term_unmatched: 1
+    company:sambanova:
+      unwired_source: 1
+    company:sammons-financial:
+      unwired_source: 1
+    company:samsara:
+      unwired_source: 1
+    company:sandia-national-labs:
+      unwired_source: 1
+    company:sanmina:
+      unwired_source: 1
+    company:sap-america:
+      unverified_source: 1
+    company:sargent-lundy:
+      unwired_source: 1
+    company:sas:
+      unwired_source: 1
+    company:scale-ai:
+      role_unmatched: 208
+      term_unmatched: 2
+    company:schonfeld:
+      term_unmatched: 4
+      role_unmatched: 49
+    company:schweitzer-engineering-laboratories:
+      unwired_source: 1
+    company:scor:
+      unwired_source: 1
+    company:seagate:
+      unwired_source: 1
+    company:seatgeek:
+      role_unmatched: 26
+    company:second-order-effects:
+      unwired_source: 1
+    company:securian:
+      unwired_source: 1
+    company:seismic:
+      unwired_source: 1
+    company:sel:
+      unwired_source: 1
+    company:selective:
+      unwired_source: 1
+    company:semtech:
+      unwired_source: 1
+    company:sentara-health:
+      unwired_source: 1
+    company:sentinelone:
+      unwired_source: 1
+    company:sentry-insurance:
+      role_unmatched: 47
+    company:serval:
+      role_unmatched: 40
+      term_unmatched: 1
+    company:servicenow:
+      unverified_source: 1
+    company:seven-research:
+      role_unmatched: 4
+      term_unmatched: 4
+    company:shield-ai:
+      role_unmatched: 432
+      term_unmatched: 1
+    company:shipbob:
+      unwired_source: 1
+    company:shopify-us:
+      unwired_source: 1
+    company:sierra:
+      role_unmatched: 191
+    company:sierra-space:
+      unverified_source: 1
+    company:sifive:
+      unwired_source: 1
+    company:sig:
+      unwired_source: 1
+    company:sigma-computing:
+      role_unmatched: 70
+    company:sila-nanotechnologies:
+      role_unmatched: 29
+    company:simoncomputing:
+      unwired_source: 1
+    company:sitime:
+      unwired_source: 1
+    company:sk-hynix-america:
+      unverified_source: 1
+    company:skild-ai:
+      unwired_source: 1
+    company:skyworks:
+      unwired_source: 1
+    company:smartsheet:
+      role_unmatched: 99
+    company:smiths-group:
+      unwired_source: 1
+    company:snap:
+      unwired_source: 1
+    company:snowflake:
+      role_unmatched: 387
+      term_unmatched: 8
+    company:snyk:
+      role_unmatched: 1
+    company:sofi:
+      role_unmatched: 64
+    company:solar-turbines:
+      unwired_source: 1
+    company:solar-turbines-caterpillar:
+      unwired_source: 1
+    company:sonos:
+      unverified_source: 1
+    company:sony:
+      unwired_source: 1
+    company:sourcegraph:
+      unwired_source: 1
+    company:southwest:
+      unwired_source: 1
+    company:spacex:
+      role_unmatched: 2141
+      term_unmatched: 7
+      non_us_location: 6
+    company:spectrum-control:
+      unwired_source: 1
+    company:splunk:
+      unwired_source: 1
+    company:spotify-us:
+      unwired_source: 1
+    company:spring-health:
+      unwired_source: 1
+    company:squarepoint-capital:
+      role_unmatched: 84
+      term_unmatched: 3
+    company:squarespace:
+      role_unmatched: 18
+    company:sri-international:
+      unwired_source: 1
+    company:ss-c:
+      unwired_source: 1
+    company:starbucks:
+      unverified_source: 1
+    company:starburst:
+      role_unmatched: 15
+    company:starsling:
+      unwired_source: 1
+    company:state-farm:
+      unwired_source: 1
+    company:state-street:
+      unwired_source: 1
+    company:statsig:
+      unwired_source: 1
+    company:stepstone-group:
+      source_parse_failed: 1
+    company:stevens-capital-management:
+      role_unmatched: 27
+      term_unmatched: 2
+    company:stitch-fix:
+      role_unmatched: 12
+    company:stoke-space:
+      unwired_source: 1
+    company:stord:
+      unwired_source: 1
+    company:strava:
+      role_unmatched: 21
+    company:stripe:
+      role_unmatched: 549
+      term_unmatched: 1
+    company:stubhub:
+      unwired_source: 1
+    company:substack:
+      role_unmatched: 12
+    company:sun-life-us:
+      unverified_source: 1
+    company:suno:
+      role_unmatched: 62
+    company:supabase:
+      role_unmatched: 58
+    company:surge-ai:
+      unwired_source: 1
+    company:susquehanna:
+      unwired_source: 1
+    company:susquehanna-international-group:
+      unwired_source: 1
+    company:susquehanna-international-group-sig:
+      unwired_source: 1
+    company:susquehanna-investment-group:
+      unwired_source: 1
+    company:swiss-re:
+      unverified_source: 1
+    company:sword-health:
+      role_unmatched: 1
+    company:symetra:
+      unverified_source: 1
+    company:synaptics:
+      unwired_source: 1
+    company:synchrony:
+      unwired_source: 1
+    company:synchrony-financial:
+      unwired_source: 1
+    company:synopsys:
+      unwired_source: 1
+    company:t-mobile:
+      unwired_source: 1
+    company:t-rowe-price:
+      unwired_source: 1
+    company:tailscale:
+      role_unmatched: 59
+    company:take-two:
+      unwired_source: 1
+    company:target:
+      unwired_source: 1
+    company:te-connectivity:
+      source_parse_failed: 1
+    company:tektronix:
+      unwired_source: 1
+    company:teledyne:
+      unwired_source: 1
+    company:teleport:
+      role_unmatched: 22
+    company:temporal:
+      role_unmatched: 55
+    company:tempus:
+      unverified_source: 1
+    company:tenable:
+      unwired_source: 1
+    company:tencent:
+      unwired_source: 1
+    company:tenstorrent:
+      term_unmatched: 28
+    company:teradata:
+      unverified_source: 1
+    company:teradyne:
+      unwired_source: 1
+    company:terranova:
+      role_unmatched: 11
+      term_unmatched: 4
+    company:terranox-ai:
+      unwired_source: 1
+    company:terrapower:
+      unwired_source: 1
+    company:tesla:
+      unverified_source: 1
+    company:tetramem:
+      unwired_source: 1
+    company:texas-instruments:
+      unwired_source: 1
+    company:textron:
+      unwired_source: 1
+    company:tgs:
+      unwired_source: 1
+    company:the-boeing-company:
+      unwired_source: 1
+    company:the-cigna-group:
+      source_parse_failed: 1
+    company:the-exploration-company:
+      role_unmatched: 107
+      term_unmatched: 4
+    company:the-hanover:
+      role_unmatched: 3
+    company:the-hartford:
+      unwired_source: 1
+    company:the-new-york-times:
+      source_parse_failed: 1
+    company:the-nuclear-company:
+      role_unmatched: 63
+      term_unmatched: 5
+    company:the-trade-desk:
+      term_unmatched: 1
+      role_unmatched: 200
+    company:the-voleon-group:
+      role_unmatched: 56
+    company:the-washington-post:
+      source_parse_failed: 1
+    company:thoughtspot:
+      unwired_source: 1
+    company:thrivent:
+      unverified_source: 1
+    company:tiaa:
+      unverified_source: 1
+    company:tifin:
+      unwired_source: 1
+    company:tiktok:
+      unwired_source: 1
+    company:toast:
+      unverified_source: 1
+    company:together-ai:
+      role_unmatched: 56
+      term_unmatched: 3
+    company:torc-robotics:
+      unwired_source: 1
+    company:tower-research:
+      unwired_source: 1
+    company:tower-research-capital:
+      role_unmatched: 66
+      term_unmatched: 4
+      non_us_location: 2
+    company:toyota-north-america:
+      unwired_source: 1
+    company:tradeweb:
+      unverified_source: 1
+    company:transamerica:
+      unwired_source: 1
+    company:transmarket-group:
+      term_unmatched: 3
+      role_unmatched: 14
+    company:transmarketgroup:
+      term_unmatched: 3
+      role_unmatched: 14
+    company:transunion:
+      unverified_source: 1
+    company:travelers:
+      unwired_source: 1
+    company:trillium:
+      unwired_source: 1
+    company:trimble:
+      unwired_source: 1
+    company:tripadvisor:
+      role_unmatched: 89
+      term_unmatched: 2
+    company:true-anomaly:
+      role_unmatched: 164
+      term_unmatched: 1
+    company:truist:
+      unwired_source: 1
+    company:trustage:
+      unwired_source: 1
+    company:truveta:
+      role_unmatched: 37
+      term_unmatched: 3
+    company:tsmc-arizona:
+      unwired_source: 1
+    company:turo:
+      unverified_source: 1
+    company:twilio:
+      role_unmatched: 172
+    company:two-sigma:
+      unwired_source: 1
+    company:uber:
+      unwired_source: 1
+    company:udemy:
+      role_unmatched: 12
+    company:uline:
+      unwired_source: 1
+    company:ultra-clean:
+      unverified_source: 1
+    company:underdog:
+      role_unmatched: 14
+    company:unison-ge-aerospace:
+      unwired_source: 1
+    company:united-airlines:
+      unverified_source: 1
+    company:unitedhealth-group:
+      unwired_source: 1
+    company:unity:
+      unwired_source: 1
+    company:university-of-virginia-investment-management-company-uvimco:
+      role_unmatched: 2
+    company:unum:
+      unwired_source: 1
+    company:ups:
+      unverified_source: 1
+    company:ursa-major:
+      role_unmatched: 78
+    company:usaa:
+      unwired_source: 1
+    company:vanguard:
+      unwired_source: 1
+    company:vannevar-labs:
+      role_unmatched: 33
+      term_unmatched: 1
+    company:vast:
+      unwired_source: 1
+    company:vatic-labs:
+      role_unmatched: 10
+      term_unmatched: 1
+    company:veeam-software:
+      role_unmatched: 237
+    company:veeco:
+      unverified_source: 1
+    company:veeva:
+      unwired_source: 1
+    company:vercel:
+      role_unmatched: 83
+    company:verily:
+      unwired_source: 1
+    company:verisk:
+      unwired_source: 1
+    company:verizon:
+      unverified_source: 1
+    company:vertafore:
+      unwired_source: 1
+    company:vertiv:
+      unwired_source: 1
+    company:vetsez:
+      unwired_source: 1
+    company:vicor:
+      unwired_source: 1
+    company:vimeo:
+      unwired_source: 1
+    company:virtu-financial:
+      term_unmatched: 13
+      role_unmatched: 33
+    company:visa:
+      unwired_source: 1
+    company:voloridge:
+      unwired_source: 1
+    company:voloridge-investment-management:
+      role_unmatched: 4
+      term_unmatched: 2
+    company:voya:
+      unwired_source: 1
+    company:w-r-berkley:
+      source_parse_failed: 1
+    company:walleye-capital:
+      role_unmatched: 3
+    company:walmart-global-tech:
+      unwired_source: 1
+    company:warby-parker:
+      unverified_source: 1
+    company:wayfair:
+      unwired_source: 1
+    company:waymo:
+      role_unmatched: 397
+    company:wealthfront:
+      unwired_source: 1
+    company:webflow:
+      role_unmatched: 29
+    company:weights-biases:
+      unwired_source: 1
+    company:wellington:
+      unwired_source: 1
+    company:wells-fargo:
+      unwired_source: 1
+    company:wellsky:
+      unwired_source: 1
+    company:western-digital:
+      unwired_source: 1
+    company:western-southern:
+      unwired_source: 1
+    company:whatnot:
+      source_parse_failed: 1
+    company:whoop:
+      role_unmatched: 178
+    company:windborne-systems:
+      role_unmatched: 19
+      term_unmatched: 1
+    company:windsurf:
+      unwired_source: 1
+    company:wing:
+      role_unmatched: 43
+    company:wisk:
+      unwired_source: 1
+    company:wiz:
+      role_unmatched: 1
+    company:wolfram:
+      unwired_source: 1
+    company:wolfspeed:
+      unwired_source: 1
+    company:wolverine-trading:
+      unverified_source: 1
+    company:workato:
+      unwired_source: 1
+    company:workday:
+      unwired_source: 1
+    company:world-labs:
+      role_unmatched: 7
+    company:worldquant:
+      role_unmatched: 93
+      term_unmatched: 7
+    company:writer:
+      role_unmatched: 55
+    company:wsp:
+      unwired_source: 1
+    company:wtw:
+      unverified_source: 1
+    company:x-energy:
+      unwired_source: 1
+    company:xai:
+      unverified_source: 1
+    company:xpeng:
+      role_unmatched: 22
+      term_unmatched: 3
+    company:xpeng-motors:
+      role_unmatched: 22
+      term_unmatched: 3
+    company:xsolla:
+      role_unmatched: 167
+      term_unmatched: 13
+    company:xterra-ai:
+      role_unmatched: 4
+      term_unmatched: 1
+    company:xtx-markets:
+      unwired_source: 1
+    company:zebra-technologies:
+      unwired_source: 1
+    company:zendesk:
+      unwired_source: 1
+    company:zillow:
+      unverified_source: 1
+    company:zipline:
+      unwired_source: 1
+    company:zocdoc:
+      role_unmatched: 54
+    company:zoom:
+      unwired_source: 1
+    company:zoox:
+      unwired_source: 1
+    company:zscaler:
+      role_unmatched: 320
+      term_unmatched: 6
+    company:zurich-na:
+      unwired_source: 1
     github_tracker:simplifyjobs:
-      closed_marker_untracked: 188
-      category_drop: 22
+      closed_marker_untracked: 376
+      category_drop: 44
       missing_field: 24
+    github_tracker:suryaharikrishnan:
+      category_drop: 42
+      closed_marker_untracked: 326
+      missing_field: 22
     github_tracker:zapplyjobs:
-      category_drop: 165
+      category_drop: 332
+      unclassified: 2
       missing_field: 63
     github_tracker:zshah101:
-      closed_marker_untracked: 14
+      closed_marker_untracked: 28
       missing_field: 9
 chieler:
   path: README.md
@@ -53,7 +4320,7 @@ simplifyjobs:
   path: .github/scripts/listings.json
   row_count: 529
   scraped_at: '2026-08-09'
-  sha: 295841aa5dd9ed3e39d7e0909191aaca6f2eab73
+  sha: c2fc67cc6b870268759ffa6f8218e211ac19c577
 sndsh404:
   path: README.md
   row_count: 112
@@ -68,7 +4335,7 @@ suryaharikrishnan:
   path: data/listings.json
   row_count: 457
   scraped_at: '2026-08-09'
-  sha: 35794feb8b917544efe052cb9527ec76277fb5f5
+  sha: ba86a8632c94793388a1ce67bb5bf382d725fd7c
 vanshb03:
   path: .github/scripts/listings.json
   row_count: 224
@@ -76,11 +4343,11 @@ vanshb03:
   sha: 92f1c9b017012c95653d344d8a3169abdf2f7203
 zapplyjobs:
   path: README.md
-  row_count: 429
+  row_count: 433
   scraped_at: '2026-08-09'
-  sha: 8ef546fbac5b093b5b26b52f61fca2ff3203bb1c
+  sha: d59c36e2a28006b337f49e730cbefbda56589860
 zshah101:
   path: data/jobs.json
   row_count: 88
   scraped_at: '2026-08-09'
-  sha: 1371864edcbc9c79400d6cde34bb0c1cb98994d6
+  sha: 5a7d81014bc0eabc5b1164ea7fc34ffa525c2cdf
