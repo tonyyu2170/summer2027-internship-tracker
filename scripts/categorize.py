@@ -20,7 +20,7 @@ DROP = "__drop__"
 # and the bug fixed by hand in 0fdf5dd. data_science precedes ai_ml so
 # "Data Scientist" wins over a bare AI match.
 _RULES = [
-    ("hardware", r"hardware|fpga|\basic\b|firmware|silicon|verilog|\brtl\b|embedded|\bpcb\b|analog design|wireless systems"),
+    ("hardware", r"hardware|fpga|\basic\b|firmware|silicon|verilog|\brtl\b|embedded|\bpcb\b|analog design|wireless systems|design verification|digital logic"),
     ("actuarial", r"actuar"),
     (DROP, r"investment bank|\bibd\b|consult"),
     ("quant", r"quantitative|\bquant\b(?!ity)"),
@@ -35,14 +35,16 @@ _RULES = [
     # sources/manual_categories.yaml instead of new patterns here.
     (DROP, r"\bproduct\b|supply chain|logistic|purchasing|procurement|distribution"
            r"|human resources|\bhr\b|recruit|\btalent\b"
-           r"|accounting|\bfinance\b|financial analysis|credit analyst|venture capital"
+           r"|accounting|\bfinance\b|financial analys|credit analyst|venture capital|investment services"
            r"|marketing|market research|\bbrand\b|social media|\bmedia\b|editorial"
            r"|newsgathering|\bcontent\b|community engagement|sponsorship|\bsports\b"
            r"|outside sales|\bretail\b|\binsights?\b"
            r"|manufacturing|mechanical|\boperations\b|maintenance|warranty|thermal|drafter"
            r"|graphic design|visual design|instructional design|industrial design"
            r"|biolog|vaccine|clinical|formulation|\bmaterials\b|paint|coating"
-           r"|legal|counsel|compliance|administrative|archivist|polling|real estate"
+           r"|radiolog|chemist|skillbridge"
+           r"|legal|counsel|compliance|administrat|archivist|polling|real estate"
+           r"|communication|publicity"
            r"|relationship manager|investor engage|business development"
            r"|aerospace|payload|\bgnc\b|guidance, navigation"
            r"|internship program|talent community|^\s*intern\s*$"),
