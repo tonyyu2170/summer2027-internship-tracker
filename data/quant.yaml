@@ -1134,7 +1134,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
@@ -1297,7 +1297,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Research
 - id: old-mission-software-engineer-intern-summer-2027-june-start-366d65
@@ -1314,7 +1314,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
 - id: akuna-capital-software-engineer-intern-summer-2027-python-c-full-stack-c-net-b4eac5
   company: Akuna Capital
@@ -1449,7 +1449,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
@@ -1467,7 +1467,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -2330,7 +2330,7 @@
   - custom
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
@@ -2386,7 +2386,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Research
 - id: cme-group-quant-risk-management-intern-year-round-b0121a
@@ -2402,7 +2402,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
 - id: radix-trading-quantitative-technologist-c-intern-ada60c
   company: Radix Trading
@@ -2418,7 +2418,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -3161,7 +3161,7 @@
   sources:
   - github_tracker:northwesternfintech
   date_added: '2026-07-24'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
