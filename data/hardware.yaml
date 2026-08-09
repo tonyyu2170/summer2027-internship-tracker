@@ -1885,3 +1885,20 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
+- id: western-digital-summer-2027-intern-hardware-engineering-693580
+  company: Western Digital
+  role: Summer 2027 Intern - Hardware Engineering
+  location: San Jose, CA
+  link: https://jobs.smartrecruiters.com/WesternDigital/744000140949875-summer-2027-intern-hardware-engineering
+  date_posted: '2026-07-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:western-digital
+  date_added: '2026-08-09'
+  last_verified: '2026-08-09'
+  possible_duplicate_of: null

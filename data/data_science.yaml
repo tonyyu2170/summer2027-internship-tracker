@@ -81,6 +81,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zapplyjobs
+  - company:capital-one
   date_added: '2026-07-23'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -101,6 +102,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zapplyjobs
+  - company:capital-one
   date_added: '2026-07-23'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -680,6 +682,8 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zapplyjobs
+  - company:boeing
+  - company:the-boeing-company
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -793,6 +797,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - company:the-nuclear-company
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -963,6 +968,23 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:chieler
+  date_added: '2026-08-09'
+  last_verified: '2026-08-09'
+  possible_duplicate_of: null
+- id: caterpillar-2027-summer-corporate-intern-environmental-health-and-safety-395be8
+  company: Caterpillar
+  role: 2027 Summer Corporate Intern - Environmental, Health and Safety
+  location: Peoria, IL
+  link: https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Environmental--Health-and-Safety_R0000380458
+  date_posted: '2026-07-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:caterpillar
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: null

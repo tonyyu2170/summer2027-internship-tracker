@@ -3989,6 +3989,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   - github_tracker:chieler
+  - company:belvedere-trading
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -4149,3 +4150,19 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: two-sigma-quantitative-researcher-intern-aecb8b
+- id: infinitequant-quantitative-researcher-internship-summer-2027-34910f
+  company: InfiniteQuant
+  role: Quantitative Researcher - Internship - Summer 2027
+  location: New York, NY
+  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000129235439-quantitative-researcher-internship-summer-2027
+  date_posted: '2026-05-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - company:infinitequant
+  date_added: '2026-08-09'
+  last_verified: '2026-08-09'
+  possible_duplicate_of: null

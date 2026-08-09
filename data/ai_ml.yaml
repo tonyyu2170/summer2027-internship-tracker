@@ -2671,6 +2671,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -2861,6 +2862,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
+  - company:the-nuclear-company
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -3245,6 +3247,39 @@
   link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Applied-Machine-Learning-Scientist-Intern---PhD_2502662-1
   date_posted: '2026-07-10'
   date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-09'
+  last_verified: '2026-08-09'
+  possible_duplicate_of: null
+- id: cno-financial-group-enterprise-architecture-it-intern-remote-b7799b
+  company: 'CNO Financial Group '
+  role: Enterprise Architecture IT Intern - REMOTE
+  location: Carmel, IN
+  link: https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/IT-Intern_JR170390
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:cno-financial-group
+  date_added: '2026-08-09'
+  last_verified: '2026-08-09'
+  possible_duplicate_of: null
+- id: bytedance-ai-infrastructure-engineer-intern-co-42cd1f
+  company: ByteDance
+  role: AI Infrastructure Engineer Intern (Compute Efficiency &amp; Scheduling) -
+    2027 Summer
+  location: Seattle, WA
+  link: https://joinbytedance.com/search/7668802157205965109
+  date_posted: '2026-08-09'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS

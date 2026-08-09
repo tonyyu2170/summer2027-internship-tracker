@@ -236,3 +236,16 @@ https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/XMLNAME-2
 # auto verify_links: live page says a non-2027 term.
 ? https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Digital-Logic---Design-Verification-Graduate-Co-Op-Program--US---Fall-2026-_2602858-1
 : __drop__
+# scrape 2026-08-09: all three are off-scope for the six tracked categories.
+# GE Vernova is nuclear field services (and arrived with a null location);
+# Sony is corporate FP&A; HNTB's posting reads as generic support work
+# ("basic assignments", records, graphics) with no CS requirement, matching
+# the two sibling HNTB returner postings already dropped above.
+? https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Wilmington-NC-USA/GE-Vernova-Nuclear---Field-Services-Internship-2027_R5049161-2
+: __drop__
+? https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Tallahassee-FL/Strategic-Technology-Intern---Summer-2027--SED-Division--For-Current-Former-HNTB-Interns-Only-_R-31092-1
+: __drop__
+https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/New-York/Intern--Financial-Planning---Analysis_JR-119444-1: __drop__
+# auto verify_links: live page says a non-2027 term.
+https://joinbytedance.com/search/7641703558211586309: __drop__
+https://lifeattiktok.com/search/7641703558211586309: __drop__
