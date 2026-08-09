@@ -84,6 +84,11 @@ def _normalize_source(source: dict):
         if not site:
             normalized["provider"] = "_unwired"
             return normalized
+        # A vanity host can differ from the real tenant id — Workday tenants
+        # can't contain "-", so osv-cci.wd1... serves tenant `osv_cci`. An entry
+        # pins tenant/site itself in that case; derivation stays the default,
+        # since a blanket "-" -> "_" would break a genuinely hyphenated tenant.
+        site.update({key: source[key] for key in ("tenant", "site") if key in source})
         normalized.update(site, search_text=_WORKDAY_SEARCH_TEXT)
     return normalized
 

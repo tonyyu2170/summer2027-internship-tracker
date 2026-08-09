@@ -82,7 +82,7 @@ swe:
   - {ats: workday, company: HNTB, url: 'https://hntb.wd5.myworkdayjobs.com/hntb_careers'}
   - {ats: ashby, company: Homebase, url: homebase}
   - {ats: custom, company: HyperLight, url: 'https://apply.workable.com'}
-  - {ats: workday, company: IDEXX, url: 'https://idexx.wd1.myworkdayjobs.com/IDEXX'}
+  - {ats: custom, company: IDEXX, url: 'https://careers.idexx.com/us/en'}
   - {ats: greenhouse, company: iHerb, url: iherb}
   - {ats: greenhouse, company: Impact, url: impact}
   - {ats: workday, company: Ivy Tech Community College, url: 'https://ivytech.wd1.myworkdayjobs.com/ivy_tech_careers'}
@@ -118,7 +118,7 @@ swe:
   - {ats: custom, company: Paragon, url: 'https://www.workatastartup.com'}
   - {ats: custom, company: PathAI, url: 'https://www.pathai.com'}
   - {ats: greenhouse, company: PDT Partners, url: pdtpartners}
-  - {ats: workday, company: Penn State University, url: 'https://psu.wd1.myworkdayjobs.com/Student'}
+  - {ats: workday, company: Penn State University, url: 'https://psu.wd1.myworkdayjobs.com/PSU_Staff'}
   - {ats: workday, company: Pentair, url: 'https://pentair.wd5.myworkdayjobs.com/pentair_careers'}
   - {ats: ashby, company: Persona AI, url: persona.ai}
   - {ats: lever, company: PlusAI, url: plus-2}
@@ -482,7 +482,7 @@ quant:
   - {ats: workday, company: Arrowstreet Capital, url: 'https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers'}
   - {ats: workday, company: Barclays, url: 'https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays'}
   - {ats: custom, company: Capula, url: 'https://apply.workable.com'}
-  - {ats: workday, company: Castleton Commodities International, url: 'https://osv-cci.wd1.myworkdayjobs.com/CCICareers'}
+  - {ats: workday, company: Castleton Commodities International, tenant: osv_cci, url: 'https://osv-cci.wd1.myworkdayjobs.com/CCICareers'}
   - {ats: greenhouse, company: Chicago Trading Company, url: chicagotradingcampus}
   - {ats: custom, company: Citadel, url: 'https://www.citadel.com'}
   - {ats: custom, company: Citadel Securities, url: 'https://www.citadelsecurities.com'}

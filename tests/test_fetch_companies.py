@@ -201,6 +201,18 @@ def test_normalize_source_derives_a_workday_search_endpoint():
     assert source["search_text"] == "Summer 2027"
 
 
+def test_normalize_source_lets_an_entry_pin_a_workday_tenant():
+    # Castleton's vanity host is osv-cci but its tenant is osv_cci; deriving
+    # the tenant from the host label 422s.
+    source = _normalize_source({
+        "company": "Castleton Commodities International", "ats": "workday",
+        "tenant": "osv_cci",
+        "url": "https://osv-cci.wd1.myworkdayjobs.com/CCICareers"})
+
+    assert source["tenant"] == "osv_cci"
+    assert source["site"] == "CCICareers"
+
+
 def _search_source():
     return _normalize_source({
         "company": "Acme", "ats": "workday",
