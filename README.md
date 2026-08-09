@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-09 11:25 EST — 770 open roles. Last scrape: +1 new, 0 closed._
+_Last updated: 2026-08-09 11:50 EST — 773 open roles. Last scrape: +4 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -86,6 +86,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Microsoft | Software Engineer Intern, Cloud & Distributed Backend | [Apply](<https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922923>) | 2026-08-04 | Summer 2027 | BS |
 | Draper | Mechanical Engineering & System Packa... | [Apply](<https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Mechanical-Engineering---System-Packaging-Intern_JR002763>) | 2026-08-04 | Summer 2027 | BS |
 | Pentair | IT & Cybersecurity Leadership Development Internship Program -  Summer 2027 | [Apply](<https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700>) | 2026-08-04 | Summer 2027 | BS |
+| Bosch Group | 2027 Spring Industrial Engineer co-op | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000141338859>) | 2026-08-04 | Summer 2027 | BS |
+| AbbVie | 2027 Business Technology Solutions In... | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990014410464>) | 2026-08-04 | Summer 2027 | BS |
 | IDEXX | Security Operations (Cybersecurity) i... | [Apply](<https://idexx.wd1.myworkdayjobs.com/IDEXX/job/Westbrook-ME/Security-Operations--Cybersecurity--internship_J-053268>) | 2026-08-03 | Summer 2027 | BS |
 | TikTok | Software Engineer Intern (Creative Intelligence and Brand Innovation) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668642761473902901>) | 2026-08-03 | Summer 2027 | BS/MS |
 | TikTok | (General Hire) Software Engineer Intern (Trust and Safety-Engineering) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7662684280234232117>) | 2026-08-03 | Summer 2027 | BS/MS |
@@ -211,6 +213,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Datasite | Forward Deployed Engineer Intern | [Apply](<https://datasite.wd1.myworkdayjobs.com/en-GB/datasite/job/USA---NY---New-York-City/AI-Transformation---Forward-Deployed-Engineer--FDE--Intern_R36255>) | 2026-07-10 | Summer 2027 | BS |
 | Carnegie Mellon University | RF Cyber Lab Intern | [Apply](<https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/RF-Cyber-Lab-Intern_2024547>) | ~2026-07-10 | Summer 2027 | BS |
 | Menasha Corporation | Custom Packaging Design Engineer Co-O... ⚠️dup?(menasha-corporation-custom-packaging-design-engineer-co-o-449b0b) | [Apply](<https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Piedmont-South-Carolina/Custom-Packaging-Design-Engineer-Co-Op--Spring-2027-_R12880>) | ~2026-07-10 | Summer 2027 | BS |
+| ASM Global | Technology Engineering Intern | [Apply](<https://asmglobal.wd1.myworkdayjobs.com/careers/job/Frisco-TX/Technology-Engineering-Intern_R100122391>) | ~2026-07-10 | Summer 2027 | BS |
 | Palantir | Software Engineer Intern | [Apply](<https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c>) | 2026-07-09 | Summer 2027 | BS |
 | Palantir | Software Engineer Intern, Infrastructure | [Apply](<https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3>) | 2026-07-09 | Summer 2027 | BS |
 | Palantir | Software Engineer Intern, Production Infrastructure | [Apply](<https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1>) | 2026-07-09 | Summer 2027 | BS |

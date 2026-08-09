@@ -1,17 +1,10 @@
 _last_fetch:
   drops:
-    github_tracker:chieler:
-      category_drop: 100
     github_tracker:simplifyjobs:
       category_drop: 22
       closed_marker_untracked: 188
-    github_tracker:speedyapply:
-      category_drop: 1
-    github_tracker:suryaharikrishnan:
-      category_drop: 21
-      closed_marker_untracked: 163
     github_tracker:zapplyjobs:
-      category_drop: 151
+      category_drop: 165
     github_tracker:zshah101:
       closed_marker_untracked: 14
 _last_program_check:
@@ -23,27 +16,17 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 1
+  new: 4
   closed: 0
-  ran_at: 2026-08-09 10:52
+  ran_at: 2026-08-09 11:50
   drops:
-    github_tracker:chieler:
-      category_drop: 100
-      missing_field: 406
     github_tracker:simplifyjobs:
       closed_marker_untracked: 188
       category_drop: 22
       missing_field: 24
-    github_tracker:speedyapply:
-      category_drop: 1
-      missing_field: 4
-    github_tracker:suryaharikrishnan:
-      category_drop: 21
-      closed_marker_untracked: 163
-      missing_field: 22
     github_tracker:zapplyjobs:
-      category_drop: 151
-      missing_field: 70
+      category_drop: 165
+      missing_field: 63
     github_tracker:zshah101:
       closed_marker_untracked: 14
       missing_field: 9
@@ -70,7 +53,7 @@ simplifyjobs:
   path: .github/scripts/listings.json
   row_count: 529
   scraped_at: '2026-08-09'
-  sha: 643bfe36e09d9a6b11fc012e6a29e09662acdd39
+  sha: 295841aa5dd9ed3e39d7e0909191aaca6f2eab73
 sndsh404:
   path: README.md
   row_count: 112
@@ -93,11 +76,11 @@ vanshb03:
   sha: 92f1c9b017012c95653d344d8a3169abdf2f7203
 zapplyjobs:
   path: README.md
-  row_count: 437
+  row_count: 429
   scraped_at: '2026-08-09'
-  sha: 43b0571bb54a9c88ca2aad044cf75a1c55c3420b
+  sha: 8ef546fbac5b093b5b26b52f61fca2ff3203bb1c
 zshah101:
   path: data/jobs.json
   row_count: 88
   scraped_at: '2026-08-09'
-  sha: a84ebb17be55915935759968f7534628d853854a
+  sha: 1371864edcbc9c79400d6cde34bb0c1cb98994d6
