@@ -36,6 +36,9 @@ def _canonical_path(netloc: str, path: str) -> str:
     return path
 
 
+_SEARCH_ID = re.compile(r"^/search/(\d+)$")
+
+
 def normalize_link(url: str) -> str:
     """Canonical application URL, used as the primary dedup key: lowercase
     scheme+host, drop fragment, strip tracking params, sort the rest, drop a
@@ -43,7 +46,16 @@ def normalize_link(url: str) -> str:
     parts = urlsplit(url.strip())
     scheme = (parts.scheme or "https").lower()
     netloc = parts.netloc.lower()
-    path = _canonical_path(netloc, parts.path.rstrip("/"))
+    path = parts.path.rstrip("/")
+    # ByteDance/TikTok serve one requisition under two link forms; trackers
+    # emit both (verified 2026-08-09: 14 same-req-id duplicate pairs).
+    # Collapse onto the detail-page form the careers sites themselves use.
+    m = _SEARCH_ID.match(path)
+    if m and netloc == "joinbytedance.com":
+        netloc, path = "jobs.bytedance.com", f"/en/position/{m.group(1)}/detail"
+    elif m and netloc == "lifeattiktok.com":
+        path = f"/position/{m.group(1)}"
+    path = _canonical_path(netloc, path)
     kept = sorted(
         (k, v) for k, v in parse_qsl(parts.query, keep_blank_values=False)
         if k.lower() not in _TRACKING_PARAMS

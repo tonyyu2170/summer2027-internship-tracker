@@ -11,6 +11,19 @@ def test_normalize_link_keeps_meaningful_query_sorted():
     assert normalize_link("https://x.com/j?b=2&a=1&utm_term=z") == "https://x.com/j?a=1&b=2"
 
 
+def test_normalize_link_collapses_bytedance_tiktok_search_variants():
+    # 2026-08-09: trackers emit the same ByteDance/TikTok requisition as both
+    # a /search/<id> link and a detail-page link; 14 duplicate pairs found.
+    assert normalize_link("https://joinbytedance.com/search/7671147251943213317") == \
+        normalize_link("https://jobs.bytedance.com/en/position/7671147251943213317/detail")
+    assert normalize_link("https://lifeattiktok.com/search/7633668456744503557") == \
+        normalize_link("https://lifeattiktok.com/position/7633668456744503557")
+    # non-numeric or other-host /search/ paths are untouched
+    assert normalize_link("https://example.com/search/123") == "https://example.com/search/123"
+    assert normalize_link("https://joinbytedance.com/search/abc") == \
+        "https://joinbytedance.com/search/abc"
+
+
 def test_normalize_link_workday_locale_segment_is_stripped():
     a = normalize_link("https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0015746")
     b = normalize_link("https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0015746")
