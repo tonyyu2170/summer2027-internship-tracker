@@ -190,6 +190,38 @@ def test_run_files_company_postings_under_their_classified_category(tmp_path):
         "Rotational Program Intern", "Software Engineer Intern"]
 
 
+def test_run_skips_a_link_already_tracked_where_classify_role_would_file_it(
+        tmp_path, monkeypatch):
+    """The tracked_elsewhere guard has to compare against the category
+    classify_role picks, not the company's watch-list category.
+
+    Castleton is watched under quant and its rows already live in quant, but
+    both classify as data_science/swe — checking the watch-list category waved
+    them straight through as fresh rows under another category, which the
+    merge cannot dedupe (categories dedupe independently).
+    """
+    config_path = tmp_path / "companies.yaml"
+    out_dir = tmp_path / "reports"
+    _write_config(config_path, {"quant": [
+        {"company": "Acme", "ats": "greenhouse", "url": "acme"}]})
+    payload = _greenhouse_board("Data Science Machine Learning Intern",
+                                "Quantitative Researcher Intern")
+    # Both links are already tracked under quant, the watch-list category.
+    monkeypatch.setattr("fetch_companies.known_link_categories", lambda: {
+        "https://boards.greenhouse.io/acme/jobs/0": "quant",
+        "https://boards.greenhouse.io/acme/jobs/1": "quant"})
+
+    drops = run("quant", out_dir, config_path, tmp_path / "state.yaml",
+                fetch=lambda _: payload)
+
+    # The data-science role is already tracked in quant, so it must not be
+    # re-imported into data_science; the quant role stays refreshable in place.
+    assert not (out_dir / "company_acme_data_science.json").exists()
+    assert drops["company:acme"]["tracked_elsewhere"] == 1
+    quant = json.loads((out_dir / "company_acme_quant.json").read_text())
+    assert [p["role"] for p in quant["postings"]] == ["Quantitative Researcher Intern"]
+
+
 def test_normalize_source_derives_a_workday_search_endpoint():
     source = _normalize_source({
         "company": "Cadence (University)", "ats": "workday",

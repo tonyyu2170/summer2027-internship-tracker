@@ -365,15 +365,23 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
         # category when it can't tell.
         by_category = defaultdict(list)
         for posting in postings:
-            existing_cat = known.get(normalize_link(posting["link"]))
-            if existing_cat and existing_cat != category:
-                drop_counts[entity]["tracked_elsewhere"] += 1
-                continue
             resolved = classify_role(posting["role"])
             if resolved == DROP:
                 drop_counts[entity]["category_drop"] += 1
                 continue
-            by_category[resolved or category].append(posting)
+            target = resolved or category
+            # Compared against `target`, not the watch-list category:
+            # classify_role can move a posting out of the category its company
+            # is watched under, and a guard that checked the watch-list
+            # category would wave through exactly that case. Castleton is
+            # watched under quant, so its two already-tracked quant rows were
+            # refiled as fresh data_science/swe rows — duplicate links the
+            # merge can't see, since categories dedupe independently.
+            existing_cat = known.get(normalize_link(posting["link"]))
+            if existing_cat and existing_cat != target:
+                drop_counts[entity]["tracked_elsewhere"] += 1
+                continue
+            by_category[target].append(posting)
         if not by_category:
             if not parser_drops:
                 drop_counts[entity]["role_unmatched"] += 1
