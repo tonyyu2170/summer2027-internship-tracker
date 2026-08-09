@@ -1,15 +1,17 @@
 _last_fetch:
   drops:
     github_tracker:chieler:
-      category_drop: 103
+      category_drop: 100
     github_tracker:simplifyjobs:
-      category_drop: 23
-      closed_marker_untracked: 187
-    github_tracker:suryaharikrishnan:
       category_drop: 22
-      closed_marker_untracked: 162
+      closed_marker_untracked: 188
+    github_tracker:speedyapply:
+      category_drop: 1
+    github_tracker:suryaharikrishnan:
+      category_drop: 21
+      closed_marker_untracked: 163
     github_tracker:zapplyjobs:
-      category_drop: 139
+      category_drop: 151
     github_tracker:zshah101:
       closed_marker_untracked: 14
 _last_program_check:
@@ -21,32 +23,35 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 16
-  closed: 8
-  ran_at: 2026-08-09 02:25
+  new: 1
+  closed: 0
+  ran_at: 2026-08-09 10:52
   drops:
     github_tracker:chieler:
-      category_drop: 103
-      missing_field: 412
+      category_drop: 100
+      missing_field: 406
     github_tracker:simplifyjobs:
-      closed_marker_untracked: 187
-      category_drop: 23
-      missing_field: 24
-    github_tracker:suryaharikrishnan:
+      closed_marker_untracked: 188
       category_drop: 22
-      closed_marker_untracked: 162
+      missing_field: 24
+    github_tracker:speedyapply:
+      category_drop: 1
+      missing_field: 4
+    github_tracker:suryaharikrishnan:
+      category_drop: 21
+      closed_marker_untracked: 163
       missing_field: 22
     github_tracker:zapplyjobs:
-      category_drop: 139
-      missing_field: 64
+      category_drop: 151
+      missing_field: 70
     github_tracker:zshah101:
       closed_marker_untracked: 14
       missing_field: 9
 chieler:
   path: README.md
-  row_count: 1053
+  row_count: 1048
   scraped_at: '2026-08-09'
-  sha: 34406115169d161286623fd85cf72bca00a8ffd5
+  sha: 99683ec1f85302eb37a9ed933aa16d38b6615ae4
 company_sources:
   company:genworth:
     last_success: '2026-07-29'
@@ -65,7 +70,7 @@ simplifyjobs:
   path: .github/scripts/listings.json
   row_count: 529
   scraped_at: '2026-08-09'
-  sha: 1879a0305cc7144455a30c03a62d00f70b2a2c9c
+  sha: 643bfe36e09d9a6b11fc012e6a29e09662acdd39
 sndsh404:
   path: README.md
   row_count: 112
@@ -74,13 +79,13 @@ sndsh404:
 speedyapply:
   path: README.md
   row_count: 176
-  scraped_at: '2026-08-08'
-  sha: 8de8874b0be1b2ef5dad88cd835fb1c9b64ef619
+  scraped_at: '2026-08-09'
+  sha: 355df29e6480e34d080917070bb0c2fe2b9fd6aa
 suryaharikrishnan:
   path: data/listings.json
   row_count: 457
   scraped_at: '2026-08-09'
-  sha: e79dd25b99ed0595777ba8e118f6b8c35e2bf949
+  sha: 35794feb8b917544efe052cb9527ec76277fb5f5
 vanshb03:
   path: .github/scripts/listings.json
   row_count: 224
@@ -88,11 +93,11 @@ vanshb03:
   sha: 92f1c9b017012c95653d344d8a3169abdf2f7203
 zapplyjobs:
   path: README.md
-  row_count: 430
+  row_count: 437
   scraped_at: '2026-08-09'
-  sha: dbdc3973067eee663849364566f502dcab46c158
+  sha: 43b0571bb54a9c88ca2aad044cf75a1c55c3420b
 zshah101:
   path: data/jobs.json
   row_count: 88
   scraped_at: '2026-08-09'
-  sha: cdb3f46feb14a14fcde1ae789e87691c734cf1eb
+  sha: a84ebb17be55915935759968f7534628d853854a

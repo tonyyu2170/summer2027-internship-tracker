@@ -163,7 +163,7 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
 - id: base-power-company-firmware-engineering-intern-70783e
   company: Base Power Company
@@ -215,7 +215,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
 - id: neuralink-electrical-engineer-intern-implant-embedded-systems-9ad358
@@ -1482,7 +1482,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
 - id: pennsylvania-state-university-research-and-development-engineer-intern-bd1764
   company: Pennsylvania State University
@@ -1762,7 +1762,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
 - id: windborne-systems-firmware-intern-34f5bd
   company: WindBorne Systems
@@ -1778,7 +1778,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
 - id: bytedance-asic-design-engineer-intern-video-si-9f00d2
   company: ByteDance
@@ -2005,6 +2005,22 @@
   link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Westlake-Village-CA/Analog-Design-Intern---Master-s-Degree--Quarter-Schools---Fall-2026-Start-Dates-_2502475-1
   date_posted: '2026-07-10'
   date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-09'
+  last_verified: '2026-08-09'
+  possible_duplicate_of: null
+- id: figure-ai-power-systems-integration-intern-fal-8b9161
+  company: Figure AI
+  role: Power Systems Integration Intern [Fal...
+  location: San Jose, CA
+  link: https://job-boards.greenhouse.io/figureai/jobs/4702104006
+  date_posted: '2026-08-04'
+  date_estimated: false
   term: Summer 2027
   degree:
   - BS

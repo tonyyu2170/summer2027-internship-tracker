@@ -944,7 +944,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-intern-data-platform-analytics-b1ffd2
   company: Microsoft
@@ -1129,6 +1129,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: null

@@ -726,7 +726,7 @@
   - github_tracker:speedyapply
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -1888,7 +1888,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Development
 - id: d-e-shaw-co-software-developer-intern-new-york-summer-2027-2cdc30
@@ -1905,7 +1905,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Development
 - id: d-e-shaw-co-software-developer-ph-d-intern-new-york-summer-2027-e83404
@@ -1922,7 +1922,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Development
 - id: virtu-financial-internship-software-engineer-99c39c
@@ -2023,7 +2023,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   track: Development
 - id: citadel-machine-learning-researcher-phd-intern-us-6b1743
@@ -3812,6 +3812,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -4034,7 +4035,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-08'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
 - id: drw-quantitative-trading-analyst-intern-64db71
   company: DRW
@@ -4138,6 +4139,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: two-sigma-quantitative-researcher-intern-aecb8b
