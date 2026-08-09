@@ -101,7 +101,12 @@ used only by the opt-in Greenhouse/Lever/Workday-direct rows above. As of
 2026-07-24 it's dormant by default (kept for reference/future re-enable, not
 deleted) since plain "scrape" no longer drives per-company ATS fan-out — see
 Trigger. Only add to it or scrape from it when Tony explicitly asks for
-direct-company scraping.
+direct-company scraping. **2026-08-09: expanded to exactly 1000 companies**
+(361 mined from data/ posting links — posting-evidenced; the rest curated
+and live-probed; `verified: false` marks links a probe could not confirm).
+Still a watch-list: only the rich `provider:` entries are wired into
+`fetch_companies.py`; wiring the greenhouse/lever/ashby-tokened subset into
+API pulls is the designed next step.
 
 ## Link liveness check
 
