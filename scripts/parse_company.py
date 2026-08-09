@@ -225,6 +225,40 @@ def parse_ashby_board(payload: dict, source: dict) -> tuple[list[dict], Counter]
     return postings, drops
 
 
+def parse_smartrecruiters_postings(payload: dict, source: dict) -> tuple[list[dict], Counter]:
+    """Parse SmartRecruiters job details into fetch-report postings.
+
+    The board list response carries no description, and SmartRecruiters ignores
+    the filter params that would narrow it server-side (`experienceLevel=
+    internship` returns the whole board), so Summer-2027 evidence exists only
+    in the detail payload. The fetch layer pairs each title/US pre-filtered hit
+    with its detail, and this applies the same intern/2027/US rules as the
+    other board parsers.
+    """
+    jobs = payload.get("jobs")
+    if not isinstance(jobs, list):
+        raise ValueError("SmartRecruiters response is missing jobs")
+
+    postings, drops = [], Counter()
+    for job in jobs:
+        if not isinstance(job, dict):
+            drops["malformed_posting"] += 1
+            continue
+        sections = ((job.get("jobAd") or {}).get("sections") or {}).values()
+        body = _text(" ".join(section.get("text") or "" for section in sections
+                              if isinstance(section, dict)))
+        place = job.get("location") or {}
+        loc_text = ", ".join(part for part in (place.get("city"), place.get("region"))
+                             if part)
+        link = job.get("postingUrl") or job.get("applyUrl")
+        location = _filter_board_job(source, job.get("name"), loc_text, link, body, drops)
+        if not location:
+            continue
+        postings.append(_board_posting(
+            source, job["name"], location, link, body, job.get("releasedDate")))
+    return postings, drops
+
+
 # Workday location text is tenant-authored, so it arrives in several shapes
 # canonicalize_location can't read. These reshape a string into something it
 # *can* judge — they never decide US-ness themselves, so a bad reshape still

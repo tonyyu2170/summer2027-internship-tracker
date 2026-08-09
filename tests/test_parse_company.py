@@ -151,6 +151,36 @@ def test_parse_greenhouse_board_filters_and_maps():
     assert drops == {"role_unmatched": 1, "term_unmatched": 1, "non_us_location": 1}
 
 
+def test_parse_smartrecruiters_postings_reads_sections_and_structured_location():
+    from parse_company import parse_smartrecruiters_postings
+    payload = {"jobs": [
+        {"name": "Software Engineer Intern",
+         "postingUrl": "https://jobs.smartrecruiters.com/Acme/1",
+         "location": {"city": "Austin", "region": "TX", "country": "us"},
+         "jobAd": {"sections": {
+             "jobDescription": {"text": "<p>Join us for Summer 2027.</p>"},
+             "qualifications": {"text": "<p>Pursuing a BS or MS.</p>"}}},
+         "releasedDate": "2026-08-06T15:02:42.506Z"},
+        {"name": "Hardware Intern",  # no 2027 evidence in any section
+         "postingUrl": "https://jobs.smartrecruiters.com/Acme/2",
+         "location": {"city": "Austin", "region": "TX", "country": "us"},
+         "jobAd": {"sections": {"jobDescription": {"text": "Fall 2026 start"}}}},
+        {"name": "Data Intern",  # passed the fetch filter, but has no city/region
+         "postingUrl": "https://jobs.smartrecruiters.com/Acme/3",
+         "location": {"country": "us"},
+         "jobAd": {"sections": {"jobDescription": {"text": "Summer 2027"}}}},
+    ]}
+    postings, drops = parse_smartrecruiters_postings(payload, BOARD_SOURCE)
+
+    assert len(postings) == 1
+    assert postings[0]["role"] == "Software Engineer Intern"
+    assert postings[0]["location"] == "Austin, TX"
+    assert postings[0]["degree"] == ["BS", "MS"]
+    assert postings[0]["date_posted"] == "2026-08-06"
+    assert postings[0]["link"] == "https://jobs.smartrecruiters.com/Acme/1"
+    assert drops == {"term_unmatched": 1, "non_us_location": 1}
+
+
 def test_parse_lever_postings_maps_epoch_date():
     from parse_company import parse_lever_postings
     payload = [

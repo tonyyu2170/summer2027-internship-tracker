@@ -4,6 +4,7 @@ from pathlib import Path
 import yaml
 
 from fetch_companies import (
+    _fetch_smartrecruiters,
     _fetch_workday_cxs,
     _fetch_workday_search,
     _normalize_source,
@@ -211,6 +212,37 @@ def test_normalize_source_lets_an_entry_pin_a_workday_tenant():
 
     assert source["tenant"] == "osv_cci"
     assert source["site"] == "CCICareers"
+
+
+def test_fetch_smartrecruiters_pages_the_board_then_details_us_interns():
+    source = _normalize_source({
+        "company": "Acme", "ats": "smartrecruiters",
+        "url": "https://jobs.smartrecruiters.com/AcmeGroup"})
+    assert source["provider"] == "smartrecruiters_api"
+    assert source["board"] == "AcmeGroup"
+
+    board = "https://api.smartrecruiters.com/v1/companies/AcmeGroup/postings"
+    pages = {
+        f"{board}?limit=100&offset=0": {"totalFound": 3, "content": [
+            {"id": "1", "name": "Software Engineer Intern",
+             "location": {"country": "us"}},
+            {"id": "2", "name": "Software Engineer Intern",
+             "location": {"country": "de"}}]},   # non-US: no detail fetch
+        f"{board}?limit=100&offset=2": {"totalFound": 3, "content": [
+            {"id": "3", "name": "Staff Engineer",
+             "location": {"country": "us"}}]},   # not intern-titled
+    }
+    requested = []
+
+    def get(url):
+        requested.append(url)
+        return pages.get(url, {"id": "1", "name": "Software Engineer Intern"})
+
+    payload = _fetch_smartrecruiters(source, get)
+
+    assert payload == {"jobs": [{"id": "1", "name": "Software Engineer Intern"}]}
+    assert requested[-1] == f"{board}/1"
+    assert len(requested) == 3
 
 
 def _search_source():

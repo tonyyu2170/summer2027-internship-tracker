@@ -24,6 +24,7 @@ from parse_company import (
     parse_greenhouse_board,
     parse_lever_postings,
     parse_phenom_job_page,
+    parse_smartrecruiters_postings,
     parse_workday_cxs,
     parse_workday_search,
 )
@@ -39,6 +40,7 @@ _PARSERS = {
     "greenhouse_board": parse_greenhouse_board,
     "lever_api": parse_lever_postings,
     "ashby_api": parse_ashby_board,
+    "smartrecruiters_api": parse_smartrecruiters_postings,
 }
 
 # Legacy watch-list entries ({company, ats, url}) map onto implicit API
@@ -46,7 +48,11 @@ _PARSERS = {
 _ATS_PROVIDERS = {"greenhouse": "greenhouse_board",
                   "lever": "lever_api",
                   "ashby": "ashby_api",
-                  "workday": "workday_search"}
+                  "workday": "workday_search",
+                  "smartrecruiters": "smartrecruiters_api"}
+
+_SMARTRECRUITERS_HOST = "jobs.smartrecruiters.com"
+_SMARTRECRUITERS_PAGE = 100
 
 # Workday's search ranks rather than filters, so a bare "intern" matches most
 # of a board. The full phrase is what actually narrows it (Capital One:
@@ -64,6 +70,16 @@ def _workday_site(url: str):
     if not parts.netloc.lower().endswith(".myworkdayjobs.com") or not segments:
         return None
     return {"tenant": parts.netloc.split(".")[0], "site": segments[0]}
+
+
+def _smartrecruiters_board(url: str):
+    """Company identifier for a `jobs.smartrecruiters.com/{id}` board URL, or
+    None when the watch-list URL isn't that shape."""
+    parts = urlsplit(url)
+    segments = [segment for segment in parts.path.split("/") if segment]
+    if parts.netloc.lower() != _SMARTRECRUITERS_HOST or not segments:
+        return None
+    return segments[0]
 
 
 def _normalize_source(source: dict):
@@ -90,6 +106,14 @@ def _normalize_source(source: dict):
         # since a blanket "-" -> "_" would break a genuinely hyphenated tenant.
         site.update({key: source[key] for key in ("tenant", "site") if key in source})
         normalized.update(site, search_text=_WORKDAY_SEARCH_TEXT)
+    if normalized["provider"] == "smartrecruiters_api":
+        # Same reason as the Workday derivation above: an off-shape watch-list
+        # URL degrades to unwired here rather than aborting the category.
+        board = _smartrecruiters_board(source["url"])
+        if not board:
+            normalized["provider"] = "_unwired"
+            return normalized
+        normalized["board"] = board
     return normalized
 
 
@@ -198,6 +222,41 @@ def _fetch_workday_search(source: dict, post=None, get=None) -> dict:
     return {"jobs": jobs, "truncated": truncated}
 
 
+def _fetch_smartrecruiters(source: dict, get=None) -> dict:
+    """Page one SmartRecruiters board, then pull the detail behind each US
+    intern-titled hit.
+
+    SmartRecruiters ignores the params that would narrow the board server-side
+    (`q=` ranks rather than filters, `experienceLevel=internship` is dropped),
+    so the whole board is paged and filtered here. The list rows carry no
+    description but do carry a structured location, so title plus
+    `country == "us"` is enough to bound the detail fetches — 4762 Bosch
+    postings cost 31 of them.
+    """
+    get = get or _get_json_api
+    base = (f"https://api.smartrecruiters.com/v1/companies/{source['board']}/postings")
+    rows, offset, total = [], 0, None
+    while total is None or offset < total:
+        payload = get(f"{base}?limit={_SMARTRECRUITERS_PAGE}&offset={offset}")
+        page = payload.get("content")
+        if not isinstance(page, list) or not isinstance(payload.get("totalFound"), int):
+            raise ValueError("invalid SmartRecruiters postings response")
+        rows.extend(page)
+        total = payload["totalFound"]
+        if len(page) == 0 and offset < total:
+            raise ValueError("SmartRecruiters returned an empty page before total")
+        offset += len(page)
+
+    jobs = []
+    for row in rows:
+        if not is_intern_title(row.get("name") or ""):
+            continue
+        if (row.get("location") or {}).get("country") != "us":
+            continue
+        jobs.append(get(f"{base}/{row['id']}"))
+    return {"jobs": jobs}
+
+
 def _fetch_source(source: dict):
     provider = source["provider"]
     if provider == "phenom_job_page":
@@ -214,6 +273,8 @@ def _fetch_source(source: dict):
     if provider == "ashby_api":
         return _get_json("https://api.ashbyhq.com/posting-api/job-board/"
                          f"{source['url']}?includeCompensation=false")
+    if provider == "smartrecruiters_api":
+        return _fetch_smartrecruiters(source)
     raise ValueError(f"unsupported provider {source['provider']!r}")
 
 
