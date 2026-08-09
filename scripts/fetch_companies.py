@@ -16,7 +16,15 @@ from urllib.parse import urlsplit
 import certifi
 import yaml
 
-from parse_company import parse_phenom_job_page, parse_workday_cxs
+from categorize import known_link_categories
+from normalize import normalize_link
+from parse_company import (
+    parse_ashby_board,
+    parse_greenhouse_board,
+    parse_lever_postings,
+    parse_phenom_job_page,
+    parse_workday_cxs,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 _SSL_CTX = ssl.create_default_context(cafile=certifi.where())
@@ -24,7 +32,30 @@ _HEADERS = {"User-Agent": "internship-tracker-scraper", "Accept": "text/html"}
 _PARSERS = {
     "phenom_job_page": parse_phenom_job_page,
     "workday_cxs": parse_workday_cxs,
+    "greenhouse_board": parse_greenhouse_board,
+    "lever_api": parse_lever_postings,
+    "ashby_api": parse_ashby_board,
 }
+
+# Legacy watch-list entries ({company, ats, url}) map onto implicit API
+# providers; ATS kinds without a wired API pull are skipped with a counter.
+_ATS_PROVIDERS = {"greenhouse": "greenhouse_board",
+                  "lever": "lever_api",
+                  "ashby": "ashby_api"}
+
+
+def _normalize_source(source: dict):
+    """Return a provider-shaped source for a legacy watch-list entry, the
+    entry itself when already rich, or None when it isn't scrapeable."""
+    if "provider" in source:
+        return source
+    slug = re.sub(r"[^a-z0-9]+", "-", source["company"].lower()).strip("-")
+    normalized = {**source, "source_entity": f"company:{slug}"}
+    if source.get("verified") is False:
+        normalized["provider"] = "_unverified"
+        return normalized
+    normalized["provider"] = _ATS_PROVIDERS.get(source.get("ats"), "_unwired")
+    return normalized
 
 
 def _get(url: str) -> str:
@@ -74,11 +105,24 @@ def _fetch_workday_cxs(source: dict, post=None) -> dict:
     return {"jobPostings": postings}
 
 
+def _get_json(url: str):
+    return json.loads(_get(url))
+
+
 def _fetch_source(source: dict):
-    if source["provider"] == "phenom_job_page":
+    provider = source["provider"]
+    if provider == "phenom_job_page":
         return _get(source["url"])
-    if source["provider"] == "workday_cxs":
+    if provider == "workday_cxs":
         return _fetch_workday_cxs(source)
+    if provider == "greenhouse_board":
+        return _get_json("https://boards-api.greenhouse.io/v1/boards/"
+                         f"{source['url']}/jobs?content=true")
+    if provider == "lever_api":
+        return _get_json(f"https://api.lever.co/v0/postings/{source['url']}?mode=json")
+    if provider == "ashby_api":
+        return _get_json("https://api.ashbyhq.com/posting-api/job-board/"
+                         f"{source['url']}?includeCompensation=false")
     raise ValueError(f"unsupported provider {source['provider']!r}")
 
 
@@ -107,6 +151,7 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
         raise SystemExit(f"unknown company-source category {category!r}")
 
     out_dir.mkdir(parents=True, exist_ok=True)
+    known = known_link_categories()
     drop_counts = _load_drop_counts(out_dir / "drop_counts.json")
     state = yaml.safe_load(state_path.read_text()) if state_path.exists() else {}
     state = state or {}
@@ -114,9 +159,15 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
     state_changed = False
 
     for source in sources:
+        source = _normalize_source(source)
         entity = source["source_entity"]
         provider = source["provider"]
         report_path = out_dir / f"{_report_name(entity)}_{category}.json"
+        if provider in ("_unwired", "_unverified"):
+            report_path.unlink(missing_ok=True)
+            drop_counts.pop(entity, None)
+            drop_counts[entity][provider.lstrip("_") + "_source"] += 1
+            continue
         # A requested collection owns its source's report and counters for
         # this run. Otherwise a failed source would leave a stale report for
         # the merge and repeated runs would inflate its drop tally.
@@ -143,6 +194,19 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
         else:
             postings = result
             parser_drops = Counter()
+        # A link the tracker pipeline already placed in another category must
+        # not be re-imported under this company's watch-list category — that
+        # creates a cross-category duplicate the merge can't see (categories
+        # dedupe independently). Same-category known links pass through: the
+        # merge refreshes the existing row.
+        kept = []
+        for posting in postings:
+            existing_cat = known.get(normalize_link(posting["link"]))
+            if existing_cat and existing_cat != category:
+                drop_counts[entity]["tracked_elsewhere"] += 1
+                continue
+            kept.append(posting)
+        postings = kept
         if not postings:
             if not parser_drops:
                 drop_counts[entity]["role_unmatched"] += 1
@@ -168,7 +232,38 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
     return {source: dict(counts) for source, counts in drop_counts.items()}
 
 
+def _prefetched(config_path=None):
+    """Concurrently fetch every scrapeable source up front; run() then
+    consumes results via its injectable `fetch` parameter. Exceptions are
+    stored and re-raised inside run()'s per-source try."""
+    from concurrent.futures import ThreadPoolExecutor
+    config_path = Path(config_path) if config_path else ROOT / "sources" / "companies.yaml"
+    config = yaml.safe_load(config_path.read_text()) or {}
+    sources = [_normalize_source(s) for entries in config.values() for s in entries or []]
+    sources = [s for s in sources if s["provider"] in _PARSERS]
+    results = {}
+
+    def one(s):
+        try:
+            results[s["source_entity"]] = ("ok", _fetch_source(s))
+        except Exception as exc:
+            results[s["source_entity"]] = ("err", exc)
+
+    with ThreadPoolExecutor(16) as ex:
+        list(ex.map(one, sources))
+
+    def fetch(source):
+        kind, value = results[source["source_entity"]]
+        if kind == "err":
+            raise value
+        return value
+    return fetch
+
+
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        raise SystemExit("usage: python3 scripts/fetch_companies.py <category>")
-    run(sys.argv[1])
+    categories = sys.argv[1:] or ["swe", "quant", "data_science", "ai_ml",
+                                  "hardware", "actuarial"]
+    fetch = _prefetched()
+    for cat in categories:
+        print(f"--- {cat} ---")
+        run(cat, fetch=fetch)

@@ -35,7 +35,7 @@ _RULES = [
     # sources/manual_categories.yaml instead of new patterns here.
     (DROP, r"\bproduct\b|supply chain|logistic|purchasing|procurement|distribution"
            r"|human resources|\bhr\b|recruit|\btalent\b"
-           r"|accounting|\bfinance\b|financial analys|credit analyst|venture capital|investment services"
+           r"|accounting|\bfinance\b|financial analys|credit analyst|venture capital|investment services|wealth management"
            r"|marketing|market research|\bbrand\b|social media|\bmedia\b|editorial"
            r"|newsgathering|\bcontent\b|community engagement|sponsorship|\bsports\b"
            r"|outside sales|\bretail\b|\binsights?\b"

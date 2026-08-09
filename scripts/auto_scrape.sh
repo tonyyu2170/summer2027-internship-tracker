@@ -62,6 +62,18 @@ if [ $rc -ne 0 ]; then
     exit 1
 fi
 
+# Opt-in: --companies also pulls the wired watch-list boards
+# (greenhouse/lever/ashby APIs) into the same fetch-report pass.
+if [ "${1:-}" = "--companies" ]; then
+    log "run: fetch_companies.py (all categories)"
+    "$PY" scripts/fetch_companies.py >> "$LOG" 2>&1
+    rc=$?
+    if [ $rc -ne 0 ]; then
+        attention "fetch_companies.py exited $rc — see log"
+        exit 1
+    fi
+fi
+
 log "run: run_scrape_merge.py"
 "$PY" scripts/run_scrape_merge.py scratch/fetch_reports >> "$LOG" 2>&1
 rc=$?

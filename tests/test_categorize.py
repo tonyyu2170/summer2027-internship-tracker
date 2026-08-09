@@ -121,6 +121,7 @@ def test_classify_role_drops_recurring_nontarget_families():
     assert classify_role("Chemist (Co-Op - Santa Clara)") == "__drop__"
     assert classify_role("Skillbridge Internship -IO") == "__drop__"
     assert classify_role("New Grad Returning Planner I- Summer 2027") == "__drop__"
+    assert classify_role("Summer 2027 KeyBank Wealth Management Intern") == "__drop__"
     assert classify_role("Boeing Summer 2027 Internship Program...") == "__drop__"
     assert classify_role("Intern") == "__drop__"
 
