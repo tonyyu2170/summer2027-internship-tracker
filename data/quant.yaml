@@ -3371,23 +3371,6 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: infinitequant-quantitative-researcher-intern-ddf806
-  company: InfiniteQuant
-  role: Quantitative Researcher Intern
-  location: New York, NY
-  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000129235439
-  date_posted: '2026-05-29'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  - github_tracker:zshah101
-  date_added: '2026-07-24'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-strategy-developer-intern-5fe1a0
   company: Susquehanna International Group (SIG)
   role: Quantitative Strategy Developer Intern

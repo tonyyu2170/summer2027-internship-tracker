@@ -14,6 +14,7 @@ _TRACKING_PARAMS = {
 
 
 _WORKDAY_LOCALE = re.compile(r"^[a-z]{2}-[a-z]{2}$", re.IGNORECASE)
+_SR_POSTING = re.compile(r"^(/[^/]+/\d+)(?:-.*)?$")
 
 
 def _canonical_path(netloc: str, path: str) -> str:
@@ -29,6 +30,15 @@ def _canonical_path(netloc: str, path: str) -> str:
         if segs:
             segs[0] = segs[0].lower()  # site/board segment case varies by source
         return "/" + "/".join(segs) if segs else ""
+    if netloc == "jobs.smartrecruiters.com":
+        # Posting URLs are /{Company}/{numeric id} with an optional
+        # title-derived slug appended; the id alone is the identity. Verified
+        # 2026-08-09: 3 duplicate pairs, every one same company and same id,
+        # differing only by the slug — the API returns the slugged form while
+        # trackers emit the bare one.
+        slugged = _SR_POSTING.match(path)
+        if slugged:
+            return slugged.group(1)
     if netloc == "jobs.lever.co" and path.endswith("/apply"):
         return path[: -len("/apply")]
     if netloc == "jobs.ashbyhq.com" and path.endswith("/application"):

@@ -57,6 +57,20 @@ def test_normalize_link_ashby_application_suffix_is_stripped():
     assert a == b
 
 
+def test_normalize_link_smartrecruiters_title_slug_is_stripped():
+    # The API returns the slugged form, trackers emit the bare id.
+    a = normalize_link("https://jobs.smartrecruiters.com/WesternDigital/"
+                       "744000138727213-summer-2027-software-engineering-internship")
+    b = normalize_link("https://jobs.smartrecruiters.com/WesternDigital/744000138727213")
+    assert a == b == "https://jobs.smartrecruiters.com/WesternDigital/744000138727213"
+    # A different numeric id is a different posting, slug or not.
+    assert normalize_link(
+        "https://jobs.smartrecruiters.com/WesternDigital/744000140949875") != b
+    # Non-numeric ids and other hosts are untouched.
+    assert normalize_link("https://jobs.smartrecruiters.com/Acme/oneclick-ui-x9") == \
+        "https://jobs.smartrecruiters.com/Acme/oneclick-ui-x9"
+
+
 def test_normalize_company_strips_legal_suffix():
     assert normalize_company("Jane Street Group, LLC") == "jane street"
     assert normalize_company("Stripe, Inc.") == "stripe"
