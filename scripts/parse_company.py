@@ -225,6 +225,40 @@ def parse_ashby_board(payload: dict, source: dict) -> tuple[list[dict], Counter]
     return postings, drops
 
 
+# Workday location text is tenant-authored, so it arrives in several shapes
+# canonicalize_location can't read. These reshape a string into something it
+# *can* judge — they never decide US-ness themselves, so a bad reshape still
+# has to survive the canonicalizer to become a location.
+_WD_SITE_CODE = re.compile(r"^US-([A-Z]{2})-(.+?)(?:\s*~.*)?$")
+_WD_COUNTRY_STATE_CITY = re.compile(r"^United States-([^-]+)-(.+)$")
+_WD_TRAILING_COUNTRY = re.compile(r",\s*United States(?: of America)?$", re.IGNORECASE)
+_WD_TRAILING_SITE = re.compile(r"\s*\([^()]*\)$")
+
+
+def _workday_place(raw: str, us: bool) -> str | None:
+    """Canonicalize one Workday location string, reshaping the tenant-specific
+    formats first. `us` (the posting's own country field) gates the shape
+    parses so a Canadian `CA-ON-TORONTO` can never be read as a US state."""
+    place = re.sub(r"\s+", " ", (raw or "").strip())
+    if not place:
+        return None
+    if us:
+        site_code = _WD_SITE_CODE.match(place)
+        if site_code:
+            state, rest = site_code.groups()
+            # Drop only the trailing building code ("TEWKSBURY-TB2"), so a
+            # hyphenated city ("WINSTON-SALEM-123") keeps its hyphen.
+            city = rest.rsplit("-", 1)[0] if "-" in rest else rest
+            place = f"{city.title()}, {state}"
+        country_first = _WD_COUNTRY_STATE_CITY.match(place)
+        if country_first:
+            state, city = country_first.groups()
+            place = f"{city}, {state}"
+    place = _WD_TRAILING_COUNTRY.sub("", place)
+    place = _WD_TRAILING_SITE.sub("", place)
+    return canonicalize_location(place)
+
+
 def is_intern_title(role: str) -> bool:
     """The title pre-filter the Workday fetch uses to bound how many job-detail
     requests a board costs. `parse_workday_search` re-checks it, so this is an
@@ -264,7 +298,8 @@ def parse_workday_search(payload: dict, source: dict) -> tuple[list[dict], Count
             drops["term_unmatched"] += 1
             continue
         places = [job.get("location") or ""] + list(job.get("additionalLocations") or [])
-        located = [loc for loc in (canonicalize_location(p) for p in places) if loc]
+        us = (job.get("country") or {}).get("descriptor") == "United States of America"
+        located = [loc for loc in (_workday_place(p, us) for p in places) if loc]
         if not located:
             drops["non_us_location"] += 1
             continue

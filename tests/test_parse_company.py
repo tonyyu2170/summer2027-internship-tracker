@@ -246,6 +246,52 @@ def test_parse_workday_search_omits_date_without_a_start_date():
     assert drops == {"malformed_posting": 1}
 
 
+def test_workday_place_reshapes_the_tenant_specific_location_formats():
+    from parse_company import _workday_place
+    # Shapes seen across the 114-board watch-list. The reshaper only ever
+    # hands a candidate to canonicalize_location; it never decides US-ness.
+    assert _workday_place("Houston, Texas, United States of America", True) == "Houston, TX"
+    assert _workday_place("United States-California-Palmdale", True) == "Palmdale, CA"
+    assert _workday_place("Kissimmee, FL (Celebration Blvd)", True) == "Kissimmee, FL"
+    assert _workday_place("Orlando, FL (Maitland, FL)", True) == "Orlando, FL"
+    assert _workday_place("US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC",
+                          True) == "East Hartford, CT"
+    assert _workday_place("US-TX-PLANO-465 ~ 465 Independence Pkwy ~ INDEPENDENCE",
+                          True) == "Plano, TX"
+    # Only the trailing site code is dropped, so a hyphenated city survives.
+    assert _workday_place("US-NC-WINSTON-SALEM-123 ~ 1 Main St", True) == "Winston-Salem, NC"
+
+
+def test_workday_place_still_drops_what_is_not_confidently_us():
+    from parse_company import _workday_place
+    # Canada must never be reshaped into a US state, and a bare city has no
+    # state to recover — both stay dropped.
+    assert _workday_place("Toronto, ON", False) is None
+    assert _workday_place("Milton, Ontario", False) is None
+    assert _workday_place("CA-ON-TORONTO-1 ~ 1 King St", False) is None
+    assert _workday_place("Waukesha", True) is None
+    assert _workday_place("United States", True) is None
+    assert _workday_place("", True) is None
+    # A US-country job may still list a non-US site; the canonicalizer, not
+    # the country flag, decides each place.
+    assert _workday_place("Bengaluru, India", True) is None
+
+
+def test_parse_workday_search_recovers_a_tenant_specific_location():
+    from parse_company import parse_workday_search
+    payload = {"jobs": [{
+        "title": "Electrical Engineering Intern (Summer 2027)",
+        "externalUrl": "https://globalhr.wd5.myworkdayjobs.com/s/job/x_R1",
+        "location": "US-TX-MCKINNEY-513WZ ~ 2501 W University Dr ~ WING Z BLDG",
+        "additionalLocations": ["US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG"],
+        "country": {"descriptor": "United States of America"},
+        "jobDescription": "Summer 2027"}]}
+    postings, drops = parse_workday_search(payload, BOARD_SOURCE)
+
+    assert postings[0]["location"] == "Mckinney, TX / Tewksbury, MA"
+    assert drops == {}
+
+
 def test_parse_workday_search_rejects_a_drifted_payload():
     from parse_company import parse_workday_search
     import pytest
