@@ -461,7 +461,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   date_added: '2026-07-23'
@@ -1590,7 +1590,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'

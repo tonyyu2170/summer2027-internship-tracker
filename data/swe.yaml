@@ -423,24 +423,6 @@
   last_verified: '2026-08-08'
   possible_duplicate_of: null
   date_estimated: false
-- id: naive-software-engineer-intern-8cecef
-  company: Naive
-  role: Software Engineer Intern
-  location: San Francisco, CA
-  link: https://www.workatastartup.com/jobs/94647
-  date_posted: '2026-05-14'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:sndsh404
-  - github_tracker:vanshb03
-  date_added: '2026-07-23'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: paragon-forward-deployed-engineer-intern-6dece6
   company: Paragon
   role: Forward Deployed Engineer Intern
@@ -454,24 +436,6 @@
   sources:
   - github_tracker
   - link_checker
-  - github_tracker:sndsh404
-  - github_tracker:vanshb03
-  date_added: '2026-07-23'
-  last_verified: '2026-08-08'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: dimehealth-ai-forward-deployed-engineering-intern-7b7340
-  company: DimeHealth AI
-  role: Forward Deployed Engineering Intern
-  location: New York, NY
-  link: https://www.workatastartup.com/jobs/94211
-  date_posted: '2026-05-09'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   date_added: '2026-07-23'
@@ -613,7 +577,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:speedyapply
@@ -1526,7 +1490,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:vanshb03
@@ -2174,23 +2138,6 @@
   last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
-- id: amazon-com-services-llc-software-development-engineer-intern-bbcc67
-  company: Amazon.com Services LLC
-  role: Software Development Engineer Intern,...
-  location: Seattle, WA
-  link: https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: copart-database-engineering-intern-f2832e
   company: Copart
   role: Database Engineering Intern
@@ -2993,54 +2940,6 @@
   - github_tracker:speedyapply
   date_added: '2026-07-25'
   last_verified: '2026-08-08'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: altom-transport-fall-software-development-intern-d55b0d
-  company: Altom Transport
-  role: Fall Software Development Intern
-  location: Hammond, IN
-  link: https://apply.workable.com/altom-transport/j/9FC654F05E/
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: altom-transport-fall-software-development-intern-121b4f
-  company: Altom Transport
-  role: Fall Software Development Intern
-  location: Hammond, IN
-  link: https://apply.workable.com/altom-transport/j/8536165C7B/
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: altom-transport-fall-software-development-intern-d039d4
-  company: Altom Transport
-  role: Fall Software Development Intern
-  location: Hammond, IN
-  link: https://apply.workable.com/altom-transport/j/1E3C4A9408/
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
 - id: pdt-partners-summer-2027-systems-engineering-intern-5aedc8

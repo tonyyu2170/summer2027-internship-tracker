@@ -47,21 +47,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: decisions-data-analyst-intern-c93eb7
-  company: Decisions
-  role: Data Analyst Intern
-  location: Remote (US)
-  link: https://decisions.com/jobs-listing/5192047007?gh_jid=5192047007
-  date_posted: '2026-07-22'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
 - id: solar-turbines-2027-internship-gas-compressor-data-analyst-9df566
   company: Solar Turbines
   role: '2027 Internship: Gas Compressor Data Analyst'
@@ -1012,23 +997,6 @@
   - chieler
   - github_tracker:chieler
   - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: acretrader-data-intern-7b1cf6
-  company: AcreTrader
-  role: Data Intern
-  location: Fayetteville, AR
-  link: https://ats.rippling.com/acretrader-jobs/jobs/e0192aa0-bd65-4262-81ed-d64685c7dc41
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - chieler
-  - github_tracker:chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
