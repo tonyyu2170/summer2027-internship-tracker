@@ -400,6 +400,24 @@ def test_run_records_a_keep_in_the_overrides_file(tmp_path):
     assert len(yaml.safe_load((data_dir / "swe.yaml").read_text())) == 1
 
 
+def test_run_survives_a_malformed_duplicate_keep_action(tmp_path):
+    # A hand-edited corrections file can carry two keep actions for one id,
+    # one well-formed and one missing `from`. The malformed one is rejected
+    # by apply_corrections, but its id still appears in summary["kept"]
+    # thanks to the valid one — so run() must re-check `from` rather than
+    # bracket-index it and crash a delete-capable run mid-write.
+    data_dir = _setup_tree(tmp_path, [_row()])
+    overrides = tmp_path / "manual_categories.yaml"
+    corrections = _write_corrections(tmp_path, [
+        _action(action="keep", link="https://x.com/1",
+                **{"from": "swe", "to": "quant"}),
+        _action(action="keep", link="https://x.com/1", to="quant"),
+    ])
+    run(corrections, data_dir=data_dir, readme_path=tmp_path / "README.md",
+        overrides_path=overrides)
+    assert yaml.safe_load(overrides.read_text()) == {"https://x.com/1": "swe"}
+
+
 def test_possible_duplicate_of_survives_a_recategorize():
     # Only pointers into DELETED rows are cleared. recategorize never
     # rehashes the id, so a pointer into a moved row stays resolvable

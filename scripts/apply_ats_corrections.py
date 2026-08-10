@@ -278,7 +278,10 @@ def run(corrections_path, data_dir=None, readme_path=None, overrides_path=None):
         rid, link = a.get("id"), a.get("link")
         if not link:
             continue
-        if a.get("action") == "keep" and rid in applied_keep:
+        # rid in applied_keep can be true because of a *different*,
+        # well-formed action sharing the id, so the falsy-`from` check has
+        # to be repeated here — it cannot be inferred from the summary alone.
+        if a.get("action") == "keep" and rid in applied_keep and a.get("from"):
             adjudicated[link] = a["from"]
         elif a.get("action") == "drop" and rid in applied_drop:
             adjudicated[link] = "__drop__"
