@@ -35,6 +35,12 @@ def test_classify_role_routes_non_software_disciplines_to_hardware():
     assert classify_role("WED - Intern Civil Engineer (Summer 2027)") == "hardware"
     assert classify_role("Chemical Engineering Intern") == "hardware"
     assert classify_role("Electrical Engineering Intern") == "hardware"
+    assert classify_role("Biomedical Engineering Intern") == "hardware"
+    assert classify_role("Optical Engineer Co-Op") == "hardware"
+    assert classify_role("Materials Engineering Intern") == "hardware"
+    # Only the "<discipline> engineer" form routes to hardware; the bare
+    # word stays in the out-of-scope DROP family.
+    assert classify_role("Materials Science Intern") == "__drop__"
     assert classify_role(
         "Raytheon Electrical Engineering Intern (Summer 2027)(Onsite)") == "hardware"
     # The discipline has to modify "engineer": a bare-word match would

@@ -34,7 +34,8 @@ _RULES = [
     # specialties above still win, so a firmware-flavoured mechanical role
     # stays hardware on its own merits.
     ("hardware", r"(civil|mechanical|industrial|chemical|structural|aerospace"
-                 r"|environmental|geotechnical|nuclear|petroleum|electrical)\s+engineer"),
+                 r"|environmental|geotechnical|nuclear|petroleum|electrical"
+                 r"|biomedical|optical|materials)\s+engineer"),
     ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend|cyber|malware|algorithm|application development"),
     # Out-of-scope families, checked last so any in-scope keyword above wins
     # first ("Supply Chain Software Engineer" is swe, "Quantitative Finance"
