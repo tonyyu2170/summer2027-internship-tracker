@@ -50,7 +50,7 @@ _RULES = [
            r"|outside sales|\bretail\b|\binsights?\b"
            r"|manufacturing|mechanical|\boperations\b|maintenance|warranty|thermal|drafter"
            r"|graphic design|visual design|instructional design|industrial design"
-           r"|biolog|vaccine|clinical|formulation|\bmaterials\b|paint|coating"
+           r"|biolog|vaccine|clinical|formulation|pharmac|\bmaterials\b|paint|coating"
            r"|radiolog|chemist|skillbridge"
            r"|legal|counsel|compliance|administrat|archivist|polling|real estate|returning plann"
            r"|communication|publicity"

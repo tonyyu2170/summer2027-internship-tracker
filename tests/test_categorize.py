@@ -138,6 +138,9 @@ def test_classify_role_drops_recurring_nontarget_families():
     assert classify_role("Summer 2027 KeyBank Wealth Management Intern") == "__drop__"
     assert classify_role("Boeing Summer 2027 Internship Program...") == "__drop__"
     assert classify_role("Intern") == "__drop__"
+    # CVS/Walgreens post pharmacy interns in bulk every run.
+    assert classify_role("Pharmacy Intern") == "__drop__"
+    assert classify_role("Pharmacy Intern - Grad") == "__drop__"
 
 
 def test_drop_families_checked_last_so_in_scope_keywords_win():
@@ -147,6 +150,7 @@ def test_drop_families_checked_last_so_in_scope_keywords_win():
     assert classify_role("Quantitative Finance Intern") == "quant"
     assert classify_role("Machine Learning Operations Intern") == "ai_ml"
     assert classify_role("Manufacturing Data Analyst Intern") == "data_science"
+    assert classify_role("Pharmaceutical Data Science Intern") == "data_science"
 
 
 def test_new_in_scope_families():

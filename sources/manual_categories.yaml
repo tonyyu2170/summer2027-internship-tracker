@@ -245,6 +245,11 @@ https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/XMLNAME-2
 : __drop__
 ? https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Tallahassee-FL/Strategic-Technology-Intern---Summer-2027--SED-Division--For-Current-Former-HNTB-Interns-Only-_R-31092-1
 : __drop__
+# Same req (R-31092) under HNTB's university site; normalize_link doesn't
+# collapse differing Workday site paths. The posting itself is a generalist
+# support intern ("basic research and data collection", records, graphics).
+? https://hntb.wd5.myworkdayjobs.com/hntb_university_careers/job/Tallahassee-FL/Strategic-Technology-Intern---Summer-2027--SED-Division--For-Current-Former-HNTB-Interns-Only-_R-31092
+: __drop__
 https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/New-York/Intern--Financial-Planning---Analysis_JR-119444-1: __drop__
 # auto verify_links: live page says a non-2027 term.
 https://joinbytedance.com/search/7641703558211586309: __drop__
