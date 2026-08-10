@@ -172,15 +172,27 @@ so **new** TikTok research postings are silently dropped on every scrape. Narrow
 
 The replacements were verified empirically against all 633 open tracked roles:
 `recruit` → `recruiting intern|recruiting coordinator|\brecruiter\b|talent acquisition`
-and `\bcontent\b` → `content (?:strateg|marketing|writ|produc|moderat|design)` change
-exactly the nine intended classifications and nothing else. Adding `applied scientist`
-to the `ai_ml` pattern then routes five of them correctly; the remaining four
+and `\bcontent\b` → `content (?:strateg|marketing|writ|produc|moderat|design|creat)`
+change exactly the nine intended classifications and nothing else. Adding
+`applied scientist` to the `ai_ml` pattern then routes five of them correctly; the
+remaining four
 (three TikTok `Research Scientist Intern` titles and the XPENG robotics title) fall to
 `None`, keep their current correct placement, and park as unclassified if seen again —
 resolved via `manual_categories.yaml`, as `categorize.py`'s own comment prescribes.
 A broader `research scientist` pattern was tested and rejected: it also captures
 `Research Scientist Intern - NMR Analysis Automation` and
 `(Distributed NoSQL Database Systems)`, which are not AI/ML.
+
+`applied scientist` additionally needs a negative lookahead —
+`applied scientist(?!.*\b(?:materials|chemist\w*|chemical|optics|polymer|metallurg\w*)\b)`.
+Code review caught that without it the alternative silently outranks the `DROP`
+rule's own `\bmaterials\b` and `chemist`, because `ai_ml` is evaluated first:
+`Materials Science Intern` classifies `__drop__` while
+`Applied Scientist - Materials Science` would classify `ai_ml`. That failure mode is
+invisible to this sweep by construction — rule and file would agree — which is
+precisely why it had to be caught in review rather than left for the tool to find.
+The exclusion list stays physical-science only; `biolog` is deliberately absent,
+since `Applied Scientist Intern - Computational Biology` is correctly `ai_ml`.
 
 ### Error handling
 

@@ -67,11 +67,27 @@ Expected: FAIL — `assert '__drop__' == 'ai_ml'`
 
 - [ ] **Step 3: Narrow the two patterns and add the positive `applied scientist` rule**
 
-In `scripts/categorize.py`, in the `ai_ml` rule, append `|applied scientist`:
+In `scripts/categorize.py`, add the guarded `applied scientist` alternative to the
+`ai_ml` rule:
 
 ```python
-    ("ai_ml", r"machine learning|deep learning|\bml\b|\bai\b|\bnlp\b|computer vision|applied scientist"),
+    ("ai_ml", r"machine learning|deep learning|\bml\b|\bai\b|\bnlp\b|computer vision"
+              r"|applied scientist(?!.*\b(?:materials|chemist\w*|chemical|optics|polymer|metallurg\w*)\b)"),
 ```
+
+Note the `\w*` on `chemist` and `metallurg`. The group carries a trailing `\b`, which
+cannot fire before the `y` in "chemistry" or "metallurgy" — bare `chemistr` and
+`metallurg` alternatives silently never match those words.
+
+**The lookahead is required, not optional.** `_RULES` is evaluated top-down and
+`ai_ml` sits ahead of the final `DROP` rule that owns `\bmaterials\b` and `chemist`,
+so a bare `applied scientist` silently outranks them: `Materials Science Intern`
+classifies `__drop__` but `Applied Scientist - Materials Science` would classify
+`ai_ml`, contradicting the locked-in test at `tests/test_categorize.py:43`. Worse,
+the sweep built in Tasks 2–7 is structurally blind to it — the rule would say
+`ai_ml` and the file would say `ai_ml`, so it never reports as a disagreement.
+Keep the exclusion list narrow and physical-science only; **do not add `biolog`**,
+because `Applied Scientist Intern - Computational Biology` is correctly `ai_ml`.
 
 In the final `DROP` rule, replace the `recruit` alternative:
 
@@ -82,8 +98,13 @@ In the final `DROP` rule, replace the `recruit` alternative:
 and replace the `\bcontent\b` alternative:
 
 ```python
-           r"|newsgathering|content (?:strateg|marketing|writ|produc|moderat|design)|community engagement|sponsorship|\bsports\b"
+           r"|newsgathering|content (?:strateg|marketing|writ|produc|moderat|design|creat)|community engagement|sponsorship|\bsports\b"
 ```
+
+`creat` is in the list because `Content Creator Intern` is a common real
+out-of-scope title. It cannot reintroduce the original bug: the AI research titles
+that mention "Content Creation" match `\bai\b` and are claimed by the `ai_ml` rule
+before the `DROP` rule is ever reached.
 
 Leave `media` and `manufacturing` alone. `Tencent | Cloud Media Services Intern` and
 `Neuralink | Manufacturing Intern, Surgery & Robot...` are judgment calls, not bugs;

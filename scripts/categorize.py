@@ -26,7 +26,7 @@ _RULES = [
     ("quant", r"quantitative|\bquant\b(?!ity)"),
     ("data_science", r"data scien|data analy|analytics|business intelligence"),
     ("ai_ml", r"machine learning|deep learning|\bml\b|\bai\b|\bnlp\b|computer vision"
-              r"|applied scientist(?!.*\b(?:materials|chemist\w*|chemical|optics|polymer|metallurg)\b)"),
+              r"|applied scientist(?!.*\b(?:materials|chemist\w*|chemical|optics|polymer|metallurg\w*)\b)"),
     # Non-software engineering disciplines, checked just before swe so its
     # bare `engineer` match can't claim them (RTX/Bosch/HNTB mechanical,
     # industrial and civil interns were all filing as swe). The discipline

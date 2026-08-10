@@ -230,6 +230,9 @@ def test_applied_scientist_does_not_claim_physical_science_titles():
     assert classify_role("Applied Scientist - Materials Science") != "ai_ml"
     assert classify_role("Applied Scientist Intern, Battery Materials") != "ai_ml"
     assert classify_role("Applied Scientist Intern - Chemistry") != "ai_ml"
+    # A bare `metallurg` alternative has the same defect `chemistr` had: the
+    # group's trailing \b cannot fire before the "y" in "metallurgy".
+    assert classify_role("Applied Scientist Intern - Metallurgy") != "ai_ml"
     # Computational biology IS in scope for ai_ml — the guard must not
     # over-correct.
     assert classify_role("Applied Scientist Intern - Computational Biology") == "ai_ml"
