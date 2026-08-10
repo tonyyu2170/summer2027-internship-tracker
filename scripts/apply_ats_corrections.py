@@ -147,10 +147,12 @@ def apply_corrections(rows_by_category, actions, today):
     return new, summary
 
 
-def run(corrections_path, data_dir=None, readme_path=None):
+def run(corrections_path, data_dir=None, readme_path=None, overrides_path=None):
     corrections_path = Path(corrections_path)
     data_dir = Path(data_dir) if data_dir else ROOT / "data"
     readme_path = Path(readme_path) if readme_path else ROOT / "README.md"
+    overrides_path = (Path(overrides_path) if overrides_path
+                      else ROOT / "sources" / "manual_categories.yaml")
     # A corrections file is hand-inspectable and hand-editable between the
     # probe and the apply, so bad JSON is operator error, not a bug — say so
     # plainly instead of surfacing a traceback from a delete-capable tool.
@@ -263,10 +265,33 @@ def run(corrections_path, data_dir=None, readme_path=None):
     superseded = sorted({a["old_link"] for a in actions
                          if a.get("action") == "repost" and a.get("old_link")})
     if summary["reposted"] and superseded:
-        with open(ROOT / "sources" / "manual_categories.yaml", "a") as f:
+        with open(overrides_path, "a") as f:
             f.write("# auto apply_ats_corrections: superseded by a repost.\n")
             f.write(yaml.safe_dump({l: "__drop__" for l in superseded},
                                    sort_keys=True))
+    # Record every category adjudication so check_categories stops re-reporting
+    # it. Keyed off the summary, not the raw actions, so an action whose row no
+    # longer exists never writes a decision about a row that is not there.
+    applied_keep, applied_drop = set(summary["kept"]), set(summary["dropped"])
+    adjudicated = {}
+    for a in actions:
+        rid, link = a.get("id"), a.get("link")
+        if not link:
+            continue
+        if a.get("action") == "keep" and rid in applied_keep:
+            adjudicated[link] = a["from"]
+        elif a.get("action") == "drop" and rid in applied_drop:
+            adjudicated[link] = "__drop__"
+    if adjudicated:
+        with open(overrides_path, "a") as f:
+            f.write("# auto apply_ats_corrections: category adjudication.\n")
+            f.write(yaml.safe_dump(adjudicated, sort_keys=True))
+    for rid in summary["recategorized"]:
+        print(f"    recategorized: [{rid}]")
+    for rid in summary["kept"]:
+        print(f"    kept: [{rid}]")
+    for rid in summary["dropped"]:
+        print(f"    dropped: [{rid}]")
     for rid in summary["reposted"]:
         print(f"    reposted -> [{rid}]")
     for rid in summary["skipped"]:

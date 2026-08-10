@@ -1,6 +1,7 @@
 """Tests for the retro-classification sweep (scripts/check_categories.py)."""
 import yaml
 
+from categorize import manual_link_categories
 from check_categories import find_disagreements
 
 
@@ -68,6 +69,30 @@ def test_load_rows_reads_every_category_file(tmp_path):
     # Categories with no file on disk must still be present, so a
     # recategorize target never KeyErrors.
     assert rows["quant"] == []
+
+
+def test_sweep_apply_keep_sweep_is_idempotent(tmp_path):
+    # The property this whole feature exists for. It is also the only test
+    # that catches a mismatch between the link form `keep` WRITES to
+    # manual_categories.yaml and the form find_disagreements READS back:
+    # the applier appends the raw link, manual_link_categories normalizes
+    # keys on read, and find_disagreements normalizes before comparing.
+    rows = {"quant": [_row(role="Software Engineer Intern",
+                           link="https://x.com/1?utm_source=board")],
+            "swe": []}
+
+    first = find_disagreements(rows, {})
+    assert len(first) == 1
+    assert first[0]["action"] == "recategorize"
+
+    # Simulate adjudicating it as `keep`, byte-for-byte how run() writes it.
+    overrides_path = tmp_path / "manual_categories.yaml"
+    overrides_path.write_text(
+        yaml.safe_dump({first[0]["link"]: first[0]["from"]}, sort_keys=True))
+
+    second = find_disagreements(
+        rows, manual_link_categories(path=overrides_path))
+    assert second == []
 
 
 def test_drift_marker_is_written_when_drift_exists_and_removed_when_clean(tmp_path):

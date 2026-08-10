@@ -375,6 +375,31 @@ def test_recategorize_appends_without_clobbering_the_destination():
     assert [r["id"] for r in new["hardware"]] == ["sitting", "mover"]
 
 
+def test_run_moves_a_row_between_category_files_on_disk(tmp_path):
+    data_dir = _setup_tree(tmp_path, [_row(role="FPGA Engineer Intern")])
+    (data_dir / "hardware.yaml").write_text(yaml.safe_dump([]))
+    corrections = _write_corrections(tmp_path, [
+        _action(action="recategorize", **{"from": "swe", "to": "hardware"})])
+    run(corrections, data_dir=data_dir, readme_path=tmp_path / "README.md",
+        overrides_path=tmp_path / "manual_categories.yaml")
+    assert yaml.safe_load((data_dir / "swe.yaml").read_text()) == []
+    moved = yaml.safe_load((data_dir / "hardware.yaml").read_text())
+    assert [r["id"] for r in moved] == ["r1"]
+
+
+def test_run_records_a_keep_in_the_overrides_file(tmp_path):
+    data_dir = _setup_tree(tmp_path, [_row()])
+    overrides = tmp_path / "manual_categories.yaml"
+    corrections = _write_corrections(tmp_path, [
+        _action(action="keep", link="https://x.com/1",
+                **{"from": "swe", "to": "quant"})])
+    run(corrections, data_dir=data_dir, readme_path=tmp_path / "README.md",
+        overrides_path=overrides)
+    assert yaml.safe_load(overrides.read_text()) == {"https://x.com/1": "swe"}
+    # The row itself must not have moved.
+    assert len(yaml.safe_load((data_dir / "swe.yaml").read_text())) == 1
+
+
 def test_possible_duplicate_of_survives_a_recategorize():
     # Only pointers into DELETED rows are cleared. recategorize never
     # rehashes the id, so a pointer into a moved row stays resolvable
