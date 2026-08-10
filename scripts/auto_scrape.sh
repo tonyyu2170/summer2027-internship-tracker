@@ -31,6 +31,10 @@ if [ -f "$REPO/scratch/ats_corrections.json" ]; then
     log "skip: scratch/ats_corrections.json exists (ATS review in flight)"
     exit 0
 fi
+if [ -f "$REPO/scratch/category_corrections.json" ]; then
+    log "skip: scratch/category_corrections.json exists (category review in flight)"
+    exit 0
+fi
 if pgrep -f 'run_scrape_merge\.py|apply_ats_corrections\.py' > /dev/null; then
     log "skip: another writer process is running"
     exit 0
@@ -92,6 +96,14 @@ if [ $rc -ne 0 ]; then
     attention "verify_links.py exited $rc — see log; scrape left uncommitted"
     exit 1
 fi
+
+# Advisory only: never writes scratch/category_corrections.json (that would
+# trip the in-flight guard above and block every later scrape) and never
+# fails the run. It maintains its own CATEGORY_DRIFT marker because $MARKER
+# is cleared on both success paths below.
+log "run: check_categories.py --report-only"
+"$PY" scripts/check_categories.py --report-only >> "$LOG" 2>&1 || \
+    log "warn: check_categories.py --report-only failed — see log"
 
 if $GIT diff --quiet -- data/; then
     # No listing changes. Drop the README timestamp-only churn so "Last
