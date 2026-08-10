@@ -34,6 +34,9 @@ def test_classify_role_routes_non_software_disciplines_to_hardware():
     assert classify_role("Intern, Industrial Engineering") == "hardware"
     assert classify_role("WED - Intern Civil Engineer (Summer 2027)") == "hardware"
     assert classify_role("Chemical Engineering Intern") == "hardware"
+    assert classify_role("Electrical Engineering Intern") == "hardware"
+    assert classify_role(
+        "Raytheon Electrical Engineering Intern (Summer 2027)(Onsite)") == "hardware"
     # The discipline has to modify "engineer": a bare-word match would
     # misroute this genuinely-software role.
     assert classify_role(
