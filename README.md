@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-10 09:46 EST — 817 open roles. Last scrape: +4 new, 5 closed._
+_Last updated: 2026-08-10 09:50 EST — 817 open roles. Last scrape: +4 new, 5 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -307,6 +307,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 | [Apply](<https://jobs.smartrecruiters.com/InfiniteQuant/744000142560129-quantitative-researcher-internship-summer-2027>) | 2026-08-10 | Summer 2027 | MS |
 | Voloridge | Quantitative Developer Intern | [Apply](<https://www.voloridge.com/jobs/voloridgeinvestmentmanagement/4224862009>) | ~2026-08-08 | Summer 2027 | BS |
 | Voloridge | Quantitative Researcher Intern | [Apply](<https://www.voloridge.com/jobs/voloridgeinvestmentmanagement/4226247009>) | ~2026-08-08 | Summer 2027 | BS |
 | Capula | Trading and Research Intern | [Apply](<https://apply.workable.com/capula-investment-management-ltd/j/A15A62A8BE/apply>) | 2026-08-08 | Summer 2027 | BS |
@@ -464,7 +465,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Quantic | Quantitative Developer | [Apply](<https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006>) | 2026-06-01 | Summer 2027 | BS |
 | Walleye Capital | Quantitative Researcher (Volatility) | [Apply](<https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006>) | 2026-06-01 | Summer 2027 | BS |
 | Walleye Capital | PhD Quantitative Researcher Intern | [Apply](<https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679184006>) | 2026-06-01 | Summer 2027 | PhD |
-| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 | [Apply](<https://jobs.smartrecruiters.com/InfiniteQuant/744000129235439-quantitative-researcher-internship-summer-2027>) | 2026-05-29 | Summer 2027 | MS |
 | Stevens Capital Management | Developer Internship | [Apply](<https://job-boards.greenhouse.io/scm/jobs/721888>) | 2026-05-24 | Summer 2027 | BS |
 | Stevens Capital Management | Quantitative Research Analyst Internship | [Apply](<https://job-boards.greenhouse.io/scm/jobs/721895>) | 2026-05-24 | Summer 2027 | BS |
 | Susquehanna | Trading System Engineering Intern | [Apply](<https://careers.sig.com/jobs/10837>) | 2026-05-22 | Summer 2027 | BS |
