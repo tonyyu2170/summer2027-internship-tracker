@@ -1716,7 +1716,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
 - id: tenstorrent-software-engineering-intern-power-modeling-ai-tools-53620e
   company: Tenstorrent
@@ -2407,7 +2407,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -2882,7 +2882,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ml-infra-2027-start-phd-c63f8f
   company: TikTok
@@ -3269,5 +3269,38 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: tiktok-data-engineer-intern-monetization-data-a8e279
+  company: TikTok
+  role: Data Engineer Intern (Monetization Data) - 2027 Summer
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7671232204182276405
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: xpeng-motors-2027-campus-recruiting-general-intell-d48445
+  company: XPENG Motors
+  role: 2027 Campus Recruiting General Intell...
+  location: Santa Clara, CA
+  link: https://job-boards.greenhouse.io/xpengmotors/jobs/8680036002
+  date_posted: '2026-08-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-10'
   last_verified: '2026-08-10'
   possible_duplicate_of: null

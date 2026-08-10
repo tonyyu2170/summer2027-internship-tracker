@@ -163,7 +163,7 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
 - id: base-power-company-firmware-engineering-intern-70783e
   company: Base Power Company
@@ -215,7 +215,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
   date_estimated: false
 - id: neuralink-electrical-engineer-intern-implant-embedded-systems-9ad358
@@ -233,7 +233,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
   date_estimated: false
 - id: odys-aviation-robotics-embedded-systems-intern-7dfd83
@@ -1028,7 +1028,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
   date_estimated: false
 - id: layup-parts-electrical-engineering-intern-ffe66c
@@ -1045,7 +1045,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
   date_estimated: false
 - id: asm-manufacturing-engineering-intern-spr-01aa07
@@ -1445,7 +1445,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
 - id: optiver-fpga-engineer-intern-d78281
   company: Optiver
@@ -1660,7 +1660,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
 - id: windborne-systems-firmware-intern-34f5bd
   company: WindBorne Systems
@@ -1676,7 +1676,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
 - id: draper-embedded-quality-fielded-systems-in-3852bd
   company: Draper
@@ -1862,7 +1862,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
 - id: western-digital-summer-2027-intern-hardware-engineering-693580
   company: Western Digital
@@ -2386,3 +2386,67 @@
   possible_duplicate_of: null
   track: Development
   date_estimated: true
+- id: vertiv-software-engineer-intern-9f5873
+  company: Vertiv
+  role: Software Engineer Intern
+  location: Delaware, OH
+  link: https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278777
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: vertiv-thermal-engineer-intern-summer-2027-ed10c2
+  company: Vertiv
+  role: Thermal Engineer Intern - Summer 2027
+  location: Westerville, OH
+  link: https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278813
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: rtx-software-engineer-intern-summer-2027-e59fd0
+  company: RTX
+  role: Software Engineer Intern - Summer 2027
+  location: Woburn, MA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineering-Intern--Summer-2027-_01864764
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: nrel-post-undergraduate-intern-year-round-62132f
+  company: NREL
+  role: Post-Undergraduate Intern (Year-Round...
+  location: Golden, CO
+  link: https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Post-Undergraduate-Intern--Year-Round----Separations-Engineering_R14447
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
