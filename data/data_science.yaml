@@ -435,21 +435,6 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-24'
   possible_duplicate_of: null
-- id: lexisnexis-risk-solutions-editorial-data-reporting-intern-c28e90
-  company: LexisNexis Risk Solutions
-  role: Editorial Data Reporting Intern
-  location: Washington, DC
-  link: https://relx.wd3.myworkdayjobs.com/LexisNexisLegal/job/Home-based-Washington-DC/Editorial-Data-Reporting-Intern_R112971-1
-  date_posted: '2026-07-10'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:chieler
-  date_added: '2026-07-24'
-  last_verified: '2026-07-24'
-  possible_duplicate_of: null
 - id: synchrony-financial-data-analytics-intern-75125d
   company: Synchrony Financial
   role: Data Analytics Intern

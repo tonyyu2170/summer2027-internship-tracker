@@ -2583,24 +2583,6 @@
   possible_duplicate_of: null
   track: Development
   date_estimated: true
-- id: d-e-shaw-systems-administrator-intern-new-york-5a9179
-  company: D. E. Shaw
-  role: Systems Administrator Intern (New York)
-  location: New York, NY
-  link: https://www.deshaw.com/careers/systems-administrator-intern-new-york-5921
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-10'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: true
 - id: imc-trading-quantitative-research-intern-phd-450eb7
   company: IMC Trading
   role: Quantitative Research Intern (PhD) - ...
@@ -2753,22 +2735,6 @@
   role: Trade Support Intern
   location: Chicago, IL
   link: https://www.drw.com/work-at-drw/listings/trade-support-intern-3467551
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - custom
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: drw-venture-capital-analyst-intern-a6ce18
-  company: DRW
-  role: Venture Capital Analyst Intern
-  location: Chicago, IL
-  link: https://www.drw.com/work-at-drw/listings/venture-capital-analyst-intern-3467348
   date_posted: '2026-07-23'
   term: Summer 2027
   degree:
@@ -3050,23 +3016,6 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   date_estimated: true
-- id: optiver-fpga-engineer-intern-summer-2027-austin-58a017
-  company: Optiver
-  role: FPGA Engineer Intern (Summer 2027 - Austin)
-  location: Austin, TX
-  link: https://www.optiver.com/join-us/jobs/technology/austin/fpga-engineer-intern-summer-2027-austin/
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - custom
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: true
 - id: optiver-trading-automation-and-operations-intern-summer-2027-ee76e4
   company: Optiver
   role: Trading Automation and Operations Intern (Summer 2027)
@@ -3083,23 +3032,6 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: true
-- id: optiver-fpga-engineer-intern-summer-2027-chicago-b3a3b7
-  company: Optiver
-  role: FPGA Engineer Intern (Summer 2027 - Chicago)
-  location: Chicago, IL
-  link: https://www.optiver.com/join-us/jobs/technology/chicago/fpga-engineer-intern-summer-2027-chicago/
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - custom
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
-  track: Development
   date_estimated: true
 - id: walleye-capital-business-operations-intern-summer-2027-6d347e
   company: Walleye Capital

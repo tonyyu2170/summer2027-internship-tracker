@@ -2017,23 +2017,6 @@
   last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
-- id: neuralink-it-systems-administrator-intern-851399
-  company: Neuralink
-  role: IT Systems Administrator Intern
-  location: Austin, TX
-  link: https://boards.greenhouse.io/neuralink/jobs/7736276003?gh_jid=7736276003
-  date_posted: '2026-05-15'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-10'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: copart-database-engineering-intern-f2832e
   company: Copart
   role: Database Engineering Intern
@@ -5405,25 +5388,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-10'
   possible_duplicate_of: null
-- id: uline-database-administrator-intern-b32fa9
-  company: Uline
-  role: Database Administrator Intern
-  location: Pleasant Prairie, WI
-  link: https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Database-Administrator-Internship---Summer-2027_R265687
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - chieler
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-08'
-  last_verified: '2026-08-10'
-  possible_duplicate_of: null
 - id: calstart-web-development-intern-3410ce
   company: CALSTART
   role: Web Development Intern
@@ -5607,61 +5571,6 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: appian-associate-consultant-intern-b2b602
-  company: Appian
-  role: 'Associate Consultant Intern '
-  location: McLean, VA
-  link: https://job-boards.greenhouse.io/appian/jobs/8088498
-  date_posted: '2026-07-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:appian
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: appian-product-manager-intern-6155a6
-  company: Appian
-  role: 'Product Manager Intern '
-  location: McLean, VA
-  link: https://job-boards.greenhouse.io/appian/jobs/8041243
-  date_posted: '2026-07-23'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:appian
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-09'
-  last_verified: '2026-08-10'
-  possible_duplicate_of: null
-- id: databricks-product-management-intern-summer-2027-9d6754
-  company: Databricks
-  role: Product Management Intern (Summer 2027)
-  location: Bellevue, CA
-  link: https://databricks.com/company/careers/open-positions/job?gh_jid=6883068002
-  date_posted: '2023-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:databricks
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
