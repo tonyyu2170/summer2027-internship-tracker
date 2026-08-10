@@ -205,6 +205,20 @@ since `Applied Scientist Intern - Computational Biology` is correctly `ai_ml`.
 - The existing pre-write `ROW_SCHEMA` gate still runs. A moved row is byte-identical
   to what it was, so `recategorize` cannot introduce a schema error.
 
+### Known limitation: conflicting actions for one id
+
+`run()`'s adjudication loop re-scans the raw actions, so if a hand-edited corrections
+file carries both a `drop` and a `keep` for the same `id`, the row is deleted (the
+rebuild loop checks `deleted` before `moved`) but whichever action appears **later**
+in the list determines what gets written to `manual_categories.yaml` — so the file can
+record a live category for a link whose row was just removed.
+
+Not fixed, deliberately. `find_disagreements` emits at most one action per row and
+cannot produce this; reaching it requires hand-editing two conflicting entries. Unlike
+the malformed-`keep` `KeyError` — which was fixed, because it crashes a delete-capable
+run mid-write and Task 7 hand-edits exactly this file — this one fails quietly and
+self-corrects the next time the link is seen.
+
 ## `auto_scrape.sh` integration
 
 Two changes:
