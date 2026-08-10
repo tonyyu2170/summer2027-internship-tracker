@@ -901,9 +901,13 @@ Add to the section describing `auto_scrape.sh`:
 - [ ] **Step 3: Commit**
 
 ```bash
-git add CLAUDE.md docs/SCRAPING.md
+git add docs/SCRAPING.md
 git commit -m "docs: record the retro-classification run-book"
 ```
+
+**Commit `docs/SCRAPING.md` only.** `CLAUDE.md` is gitignored and untracked by
+design — its own header says it is Tony's local working notes, expected to drift
+ahead of what's pushed, and must never be `git add`ed. Edit it, don't stage it.
 
 ---
 

@@ -22,7 +22,8 @@ launchd every-6h schedule was tried and reverted the same day, 2026-08-09 —
 Tony prefers saying "scrape".) The standard way to execute a plain "scrape"
 is `bash scripts/auto_scrape.sh` — one shot: trackers → merge → README → a
 targeted local commit, never `git push`. It skips itself while
-`scratch/ats_corrections.json` exists, another writer process runs, or
+`scratch/ats_corrections.json` or `scratch/category_corrections.json`
+exists, another writer process runs, or
 `data/`/`README.md` have uncommitted changes; on anything needing judgment
 (unclassified postings, integrity violations) it stops without committing
 and appends to `scratch/auto_scrape/NEEDS_ATTENTION` (log:
@@ -42,6 +43,26 @@ break, not data). Judgment rules live in `scripts/link_verify.py`
 (unit-tested); audit trail: `scratch/verify_links_audit.json`.
 `python3 scripts/verify_links.py --all` re-verifies every open row —
 explicit request only, like all full passes.
+
+**Every scrape also reports category drift** (added 2026-08-10): the runner
+calls `scripts/check_categories.py --report-only`, which finds open rows
+whose role no longer classifies to the category file they live in —
+`classify_role` runs only on incoming postings, so a `categorize.py` rule
+change otherwise never reaches the existing corpus. It is advisory: it never
+writes the corrections JSON (that would trip the in-flight guard above and
+block every later scrape) and never fails the run. When rows have drifted it
+writes `scratch/auto_scrape/CATEGORY_DRIFT`, overwritten each run and removed
+once the count reaches zero, so the file's existence is itself the signal.
+`NEEDS_ATTENTION` still means only "the scrape stopped" — it is cleared on
+both success paths, which is why the advisory needs its own marker.
+
+To act on it: `python3 scripts/check_categories.py` writes
+`scratch/category_corrections.json`; set each entry's `action` to `keep` for
+a deliberate placement (recorded in `manual_categories.yaml` so it never
+reports again), leave `recategorize` to move the row, or `drop` to delete
+it; then `python3 scripts/apply_ats_corrections.py
+scratch/category_corrections.json` and `check_integrity.py` before
+committing.
 
 Consulting and investment banking are intentionally out of scope. Matching
 roles are counted as `category_drop` and never create a category file.
