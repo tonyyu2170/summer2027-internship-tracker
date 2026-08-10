@@ -162,13 +162,25 @@ on legitimate roles:**
 The patterns match a program or team **name**, not the job function. Two more are
 judgment calls rather than clear bugs: `media` on `Tencent | Cloud Media Services
 Intern`, and `manufacturing` on `Neuralink | Manufacturing Intern, Surgery & Robot...`.
+Those two patterns stay as-is — the rows surface as `drop` proposals and Tony
+adjudicates them with `keep`, which is what the review loop is for.
 
 This is a live defect independent of this spec — those patterns run at classify time,
-so **new** TikTok research postings are silently dropped on every scrape. The
-implementation plan must narrow `recruit` and `content` (and decide on `media` /
-`manufacturing`) **before** any `drop` action is applied, or this sweep will delete
-nine good rows. Narrowing the rules also shrinks the sweep's own output, since those
-rows then classify to a real category instead.
+so **new** TikTok research postings are silently dropped on every scrape. Narrowing
+`recruit` and `content` is therefore the implementation plan's first task, and no
+`drop` action may be applied before it lands.
+
+The replacements were verified empirically against all 633 open tracked roles:
+`recruit` → `recruiting intern|recruiting coordinator|\brecruiter\b|talent acquisition`
+and `\bcontent\b` → `content (?:strateg|marketing|writ|produc|moderat|design)` change
+exactly the nine intended classifications and nothing else. Adding `applied scientist`
+to the `ai_ml` pattern then routes five of them correctly; the remaining four
+(three TikTok `Research Scientist Intern` titles and the XPENG robotics title) fall to
+`None`, keep their current correct placement, and park as unclassified if seen again —
+resolved via `manual_categories.yaml`, as `categorize.py`'s own comment prescribes.
+A broader `research scientist` pattern was tested and rejected: it also captures
+`Research Scientist Intern - NMR Analysis Automation` and
+`(Distributed NoSQL Database Systems)`, which are not AI/ML.
 
 ### Error handling
 
@@ -189,24 +201,30 @@ Two changes:
    `scratch/ats_corrections.json`: never scrape while a category review is in
    flight, per the single-writer discipline in `docs/SCRAPING.md`.
 2. **Report after `verify_links.py`.** Call `check_categories.py --report-only`,
-   which returns 0 so the run still commits, and appends to
-   `scratch/auto_scrape/NEEDS_ATTENTION` only under the conditions below.
+   which returns 0 so the run still commits, prints the count to stdout (captured
+   into `auto_scrape.log`), and maintains its own marker file — not
+   `NEEDS_ATTENTION`.
 
-### Keeping NEEDS_ATTENTION's meaning intact
+### Why the advisory gets its own marker
 
-`auto_scrape.sh`'s header defines the marker as what it writes "whenever the runbook
-calls for human judgment," and every existing `attention` call is followed by
-`exit 0` or `exit 1` — the file means **"the scrape stopped, resolve this."** An
-advisory line that does not stop the run would blur that, and `attention()` is a
-bare append with no rotation, so an unconditional advisory would add a line per
-scrape until all ~110 keeps are adjudicated. Two rules prevent both problems:
+`NEEDS_ATTENTION` cannot carry this. `auto_scrape.sh` ends **both** success paths
+with `rm -f "$MARKER"` (lines 105 and 114), so the file is wiped on every run that
+completes; an advisory appended earlier in the same run would be deleted before Tony
+could ever see it. The marker only survives a run that stopped — which is exactly
+its documented meaning: the header defines it as what gets written "whenever the
+runbook calls for human judgment," and every existing `attention` call is followed
+by `exit 0` or `exit 1`.
 
-- The line is prefixed `advisory:` so a reader can tell it from a stop.
-- It is appended **only when the disagreement count increased** since the previous
-  run. `--report-only` stores the current count in
-  `scratch/auto_scrape/category_disagreements.count` (created on first run, absent
-  count treated as 0 so the first run does report). A steady backlog stays silent;
-  a rule that starts misfiring surfaces the same day, which is the point.
+So `--report-only` maintains `scratch/auto_scrape/CATEGORY_DRIFT` instead:
+
+- **Overwritten**, never appended, so it cannot grow one line per scrape while a
+  backlog of ~110 keeps sits unadjudicated.
+- Written only when the count is non-zero; **removed** when the count reaches zero,
+  so the file's existence is itself the signal and it self-heals once adjudicated.
+- Contents: the run date and the count, plus the one-line run-book reminder
+  (`run scripts/check_categories.py`).
+
+`NEEDS_ATTENTION` keeps meaning "the scrape stopped" and is not touched.
 
 `--report-only` writes no JSON, and that is the point. If the scrape wrote the
 corrections file itself, the first run would find 127 disagreements and then block
