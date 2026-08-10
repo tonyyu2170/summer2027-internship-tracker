@@ -21,6 +21,14 @@ engineering intern"), and it recurs on every rule change.
 This spec adds a re-runnable sweep that reports disagreements, a review file to
 adjudicate them, and a way to record a decision so it never reports again.
 
+The first real run will report **at most** 127. `sources/manual_categories.yaml`
+already holds 179 entries, and step 2 of `find_disagreements` skips any row whose
+link is a key there. That includes a row whose recorded entry says one category
+while the row lives in another — "rows already in `data/*.yaml` always win," so the
+entry never moved it. Those are hand-recorded judgments disagreeing with reality,
+and this sweep deliberately stays silent about them rather than re-litigating a
+decision Tony already wrote down.
+
 ## Relationship to the 2026-07-24 category-stability decision
 
 `2026-07-24-cheap-tracker-scraping-design.md` § "Link-hash gate and category
@@ -130,6 +138,38 @@ append that `apply_ats_corrections.py` already performs for superseded repost li
 and that `verify_links.py` performs for non-2027 rows. Deletion (not closing)
 matches the existing `delete_non_us` precedent.
 
+**Both appends write the raw link, not the normalized one.** `manual_link_categories`
+normalizes keys on read (`categorize.py:126`), and `find_disagreements` step 2
+normalizes the row's link before comparing, so a raw append round-trips correctly.
+This matches what the existing repost suppression already writes
+(`apply_ats_corrections.py:236`).
+
+### `drop` proposals are suspect until three `categorize.py` patterns are fixed
+
+Verified on 2026-08-10 by running `classify_role` over the untruncated titles of all
+23 rows that currently classify to `__drop__`. Ten are genuine
+(`D. E. Shaw | Systems Administrator Intern`, `DRW | Venture Capital Analyst Intern`,
+`Neuralink | IT Systems Administrator Intern`, `Appian | Product Manager Intern`,
+`Databricks | Product Management Intern`, and similar). **Nine are rule over-matches
+on legitimate roles:**
+
+| Pattern | Fires on | Should be |
+| --- | --- | --- |
+| `recruit` | 7 × TikTok `Applied/Research Scientist Intern — Global Frontier Tech **Recruitment** Program` | `ai_ml` |
+| `recruit` | `XPENG Motors \| 2027 Campus **Recruiting** Robotics Center...` | `hardware` |
+| `content` | `TikTok \| Research Scientist Intern (TikTok-Data-**Content** Intelligence)` | `ai_ml` |
+
+The patterns match a program or team **name**, not the job function. Two more are
+judgment calls rather than clear bugs: `media` on `Tencent | Cloud Media Services
+Intern`, and `manufacturing` on `Neuralink | Manufacturing Intern, Surgery & Robot...`.
+
+This is a live defect independent of this spec — those patterns run at classify time,
+so **new** TikTok research postings are silently dropped on every scrape. The
+implementation plan must narrow `recruit` and `content` (and decide on `media` /
+`manufacturing`) **before** any `drop` action is applied, or this sweep will delete
+nine good rows. Narrowing the rules also shrinks the sweep's own output, since those
+rows then classify to a real category instead.
+
 ### Error handling
 
 - A `to` value outside `CATEGORIES` goes to the existing `unrecognized_action`
@@ -149,8 +189,24 @@ Two changes:
    `scratch/ats_corrections.json`: never scrape while a category review is in
    flight, per the single-writer discipline in `docs/SCRAPING.md`.
 2. **Report after `verify_links.py`.** Call `check_categories.py --report-only`,
-   which appends `N category disagreement(s) — run check_categories.py` to
-   `scratch/auto_scrape/NEEDS_ATTENTION` and returns 0 so the run still commits.
+   which returns 0 so the run still commits, and appends to
+   `scratch/auto_scrape/NEEDS_ATTENTION` only under the conditions below.
+
+### Keeping NEEDS_ATTENTION's meaning intact
+
+`auto_scrape.sh`'s header defines the marker as what it writes "whenever the runbook
+calls for human judgment," and every existing `attention` call is followed by
+`exit 0` or `exit 1` — the file means **"the scrape stopped, resolve this."** An
+advisory line that does not stop the run would blur that, and `attention()` is a
+bare append with no rotation, so an unconditional advisory would add a line per
+scrape until all ~110 keeps are adjudicated. Two rules prevent both problems:
+
+- The line is prefixed `advisory:` so a reader can tell it from a stop.
+- It is appended **only when the disagreement count increased** since the previous
+  run. `--report-only` stores the current count in
+  `scratch/auto_scrape/category_disagreements.count` (created on first run, absent
+  count treated as 0 so the first run does report). A steady backlog stays silent;
+  a rule that starts misfiring surfaces the same day, which is the point.
 
 `--report-only` writes no JSON, and that is the point. If the scrape wrote the
 corrections file itself, the first run would find 127 disagreements and then block
@@ -172,6 +228,13 @@ New `tests/test_check_categories.py`, covering `find_disagreements`:
 - a row whose link is in `overrides` → skipped even when it disagrees
 - a cross-category disagreement → one `recategorize` with correct `from`/`to`
 - a role classifying to `__drop__` → one `drop`
+
+Plus the property the feature exists for, as an end-to-end test:
+
+- **idempotence** — sweep, apply every action as `keep`, sweep again → zero actions.
+  This is the one test that catches a mismatch between the link form `keep` writes to
+  `manual_categories.yaml` and the form step 2 reads back, which is where this
+  feature can silently fail while every isolated unit test still passes.
 
 Additions to `tests/test_apply_ats_corrections.py`:
 
