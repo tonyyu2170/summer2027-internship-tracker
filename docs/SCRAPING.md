@@ -342,3 +342,35 @@ file has no freshness check, so a stale `set_date` would clobber a fresher
 merge result and a stale `close` would close a re-listed row.
 `unknown` results change nothing — no disappearance-based closing.
 
+## Repost check (explicit request only)
+
+A company that re-lists a role gets a **new requisition id**, so the tracked
+link keeps pointing at the superseded posting and the row keeps its original
+`date_posted`. Since the README sorts newest-first, a role that just went live
+sinks: InfiniteQuant's Summer 2027 QR internship sat at row 158 of 187 that
+way, which is invisible if you only read the top of a section.
+
+1. `python3 scripts/check_reposts.py [category ...]` — fetches each company's
+   posting list **once per board** (not per row) and writes
+   `scratch/repost_corrections.json`.
+2. Review it. `repost` carries `old_link`/`new_link`/`new_date`; `ambiguous`
+   is report-only, emitted whenever a title fans out (several tracked rows or
+   several new postings share it) rather than guessing a pairing.
+3. `python3 scripts/apply_ats_corrections.py scratch/repost_corrections.json`
+   — the same applier consumes it. A `repost` rewrites `link` and
+   `date_posted`, **recomputes `id`** (it hashes the link — leaving it stale
+   is the known id/link drift bug), and appends the superseded link to
+   `sources/manual_categories.yaml` as `__drop__` so the next scrape can't
+   re-import the old posting as a second row.
+4. `python3 scripts/check_integrity.py`, then commit.
+
+Covers SmartRecruiters, Greenhouse and Lever only. **Workday is excluded on
+purpose**: `normalize_link` collapses neither its `-N` requisition instance
+suffixes nor its board aliases, so every such row would fail an exact link
+comparison and fake a repost. For the same reason `repost_verify._link_key`
+folds Greenhouse's two hostnames (`boards.` / `job-boards.greenhouse.io`) and
+its `gh_jid` param for comparison only — a live run called Neuralink job
+`6594422003` a repost of itself before that was added. Nothing here ever
+closes a row: a tracked link absent from the listing with no title match
+produces no action at all.
+

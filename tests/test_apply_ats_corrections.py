@@ -71,6 +71,44 @@ def test_delete_removes_row_and_clears_dup_pointers_across_categories():
     assert summary["deleted"] == ["gone"]
 
 
+def test_repost_moves_link_date_and_recomputes_the_id():
+    row = _row(link="https://jobs.smartrecruiters.com/Acme/111",
+               date_posted="2026-05-29", date_estimated=True)
+    new, summary = apply_corrections(
+        {"swe": [row]},
+        [_action(action="repost", old_link="https://jobs.smartrecruiters.com/Acme/111",
+                 new_link="https://jobs.smartrecruiters.com/Acme/222",
+                 new_date="2026-08-10")],
+        TODAY)
+    moved = new["swe"][0]
+    assert moved["link"] == "https://jobs.smartrecruiters.com/Acme/222"
+    assert moved["date_posted"] == "2026-08-10"
+    assert moved["date_estimated"] is False
+    assert moved["last_verified"] == TODAY
+    # The id is a hash of the link; leaving it stale is the known drift bug.
+    assert moved["id"] != "r1"
+    assert summary["reposted"] == [moved["id"]]
+
+
+def test_repost_without_a_new_link_is_not_applied():
+    new, summary = apply_corrections(
+        {"swe": [_row()]}, [_action(action="repost")], TODAY)
+    assert new["swe"][0]["link"] == "https://x.com/1"
+    assert summary["reposted"] == []
+    assert summary["unrecognized_action"] == ["r1"]
+
+
+def test_ambiguous_is_report_only_and_never_counts_as_a_missing_row():
+    new, summary = apply_corrections(
+        {"swe": [_row()]},
+        [{"action": "ambiguous", "ids": ["r1", "r2"], "category": "swe",
+          "ats": "lever", "title": "swe intern", "candidates": []}],
+        TODAY)
+    assert new["swe"][0] == _row()
+    assert summary["skipped"] == []
+    assert summary["unrecognized_action"] == []
+
+
 def test_correction_for_unknown_row_id_is_skipped():
     new, summary = apply_corrections(
         {"swe": [_row()]}, [_action(id="ghost")], TODAY)

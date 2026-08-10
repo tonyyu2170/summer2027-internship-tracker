@@ -20,6 +20,8 @@ from datetime import date
 
 from schema import validate_row
 from generate_readme import render, ROOT, CATEGORIES
+from merge import _slug
+from normalize import normalize_link
 
 # actions that prove the posting was authoritatively seen this run
 _RESOLVED = {"confirm", "set_date", "close"}
@@ -39,11 +41,15 @@ def apply_corrections(rows_by_category, actions, today):
             if row.get("id"):
                 index[row["id"]] = row
     summary = {k: [] for k in (
-        "confirmed", "date_fixed", "closed", "deleted",
+        "confirmed", "date_fixed", "closed", "deleted", "reposted",
         "unknown", "skipped", "unrecognized_action")}
     deleted, verified = set(), set()
     for a in actions:
         rid, act = a.get("id"), a.get("action")
+        if act == "ambiguous":
+            # check_reposts couldn't tell which new posting replaces which
+            # row; it prints them for hand review and carries no single id.
+            continue
         row = index.get(rid)
         if row is None:
             summary["skipped"].append(rid)
@@ -66,6 +72,27 @@ def apply_corrections(rows_by_category, actions, today):
         elif act == "close":
             row["status"] = "closed"
             summary["closed"].append(rid)
+        elif act == "repost":
+            # The role was re-listed under a new requisition id, so the row
+            # points at a superseded posting and carries its stale date.
+            if "new_link" not in a:
+                summary["unrecognized_action"].append(rid)
+                continue
+            row["link"] = a["new_link"]
+            if a.get("new_date"):
+                row["date_posted"] = a["new_date"]
+                row["date_estimated"] = False
+            # The id is a hash of the link (merge._slug); leaving it alone
+            # is the known id/link drift bug, which surfaces as duplicate
+            # ids on the next scrape. last_verified is stamped here rather
+            # than via `verified`, whose lookup keys on the id we just
+            # replaced.
+            row["id"] = _slug(row["company"], row["role"],
+                              normalize_link(a["new_link"]))
+            row["last_verified"] = today
+            # The NEW id, so the schema gate in run() can find the row it
+            # has to validate; the old one no longer exists in the data.
+            summary["reposted"].append(row["id"])
         elif act == "delete_non_us":
             deleted.add(rid)
             summary["deleted"].append(rid)
@@ -154,7 +181,7 @@ def run(corrections_path, data_dir=None, readme_path=None):
     # but last_verified) would drag every such row into the gate and let one
     # stale typo anywhere in the dataset block the whole verification.
     touched = set()
-    for kind in ("confirmed", "date_fixed", "closed"):
+    for kind in ("confirmed", "date_fixed", "closed", "reposted"):
         touched.update(summary[kind])
     before_errors = {}
     for rows in rows_by_category.values():
@@ -204,6 +231,17 @@ def run(corrections_path, data_dir=None, readme_path=None):
               f"country={a.get('country')}")
     for rid in summary["closed"]:
         print(f"    closed: [{rid}]")
+    # Suppress every superseded link, or the next scrape re-imports the old
+    # posting as a second row carrying the stale date all over again.
+    superseded = sorted({a["old_link"] for a in actions
+                         if a.get("action") == "repost" and a.get("old_link")})
+    if summary["reposted"] and superseded:
+        with open(ROOT / "sources" / "manual_categories.yaml", "a") as f:
+            f.write("# auto apply_ats_corrections: superseded by a repost.\n")
+            f.write(yaml.safe_dump({l: "__drop__" for l in superseded},
+                                   sort_keys=True))
+    for rid in summary["reposted"]:
+        print(f"    reposted -> [{rid}]")
     for rid in summary["skipped"]:
         print(f"    warn: skipped correction for unknown row id {rid!r}")
     for rid in summary["unrecognized_action"]:
