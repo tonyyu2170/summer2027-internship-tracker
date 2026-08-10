@@ -207,8 +207,8 @@ def test_drop_rules_do_not_match_program_or_team_names():
         "Model - Global Frontier Tech Recruitment Program - 2027 Start") == "ai_ml"
     assert classify_role(
         "Research Scientist Intern (TikTok-Data-Content Intelligence) - 2027 Start"
-    ) != "__drop__"
-    assert classify_role("2027 Campus Recruiting Robotics Cente...") != "__drop__"
+    ) is None
+    assert classify_role("2027 Campus Recruiting Robotics Cente...") is None
 
 
 def test_drop_rules_still_catch_the_real_hr_and_content_functions():
@@ -219,3 +219,21 @@ def test_drop_rules_still_catch_the_real_hr_and_content_functions():
     assert classify_role("Content Strategy Intern") == "__drop__"
     assert classify_role("Content Marketing Intern") == "__drop__"
     assert classify_role("Content Moderation Intern") == "__drop__"
+    assert classify_role("Content Creator Intern") == "__drop__"
+
+
+def test_applied_scientist_does_not_claim_physical_science_titles():
+    # ai_ml is evaluated before the DROP rule that owns \bmaterials\b and
+    # chemist, so a bare `applied scientist` alternative would silently
+    # outrank them — and the retro-classification sweep cannot see that
+    # failure, since rule and file would agree.
+    assert classify_role("Applied Scientist - Materials Science") != "ai_ml"
+    assert classify_role("Applied Scientist Intern, Battery Materials") != "ai_ml"
+    assert classify_role("Applied Scientist Intern - Chemistry") != "ai_ml"
+    # Computational biology IS in scope for ai_ml — the guard must not
+    # over-correct.
+    assert classify_role("Applied Scientist Intern - Computational Biology") == "ai_ml"
+    # The titles Task 1 exists to free must still reach ai_ml.
+    assert classify_role(
+        "Applied Scientist Intern - Business Integrity - Global Frontier Tech "
+        "Recruitment Program - 2027 Start") == "ai_ml"

@@ -25,7 +25,8 @@ _RULES = [
     (DROP, r"investment bank|\bibd\b|consult"),
     ("quant", r"quantitative|\bquant\b(?!ity)"),
     ("data_science", r"data scien|data analy|analytics|business intelligence"),
-    ("ai_ml", r"machine learning|deep learning|\bml\b|\bai\b|\bnlp\b|computer vision|applied scientist"),
+    ("ai_ml", r"machine learning|deep learning|\bml\b|\bai\b|\bnlp\b|computer vision"
+              r"|applied scientist(?!.*\b(?:materials|chemist\w*|chemical|optics|polymer|metallurg)\b)"),
     # Non-software engineering disciplines, checked just before swe so its
     # bare `engineer` match can't claim them (RTX/Bosch/HNTB mechanical,
     # industrial and civil interns were all filing as swe). The discipline
@@ -47,7 +48,7 @@ _RULES = [
            r"|human resources|\bhr\b|recruiting intern|recruiting coordinator|\brecruiter\b|\btalent\b"
            r"|accounting|\bfinance\b|financial analys|credit analyst|venture capital|investment services|wealth management"
            r"|marketing|market research|\bbrand\b|social media|\bmedia\b|editorial"
-           r"|newsgathering|content (?:strateg|marketing|writ|produc|moderat|design)|community engagement|sponsorship|\bsports\b"
+           r"|newsgathering|content (?:strateg|marketing|writ|produc|moderat|design|creat)|community engagement|sponsorship|\bsports\b"
            r"|outside sales|\bretail\b|\binsights?\b"
            r"|manufacturing|mechanical|\boperations\b|maintenance|warranty|thermal|drafter"
            r"|graphic design|visual design|instructional design|industrial design"
