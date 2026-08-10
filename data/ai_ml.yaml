@@ -2235,7 +2235,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3285,6 +3285,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-10'
   possible_duplicate_of: null
@@ -3301,6 +3303,113 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-116983
+  company: ByteDance
+  role: Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern
+    (AML-Ark-US) - 2027 Summer
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7671105026009925893/detail
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: bytedance-machine-learning-engineer-intern-240982
+  company: ByteDance
+  role: Machine Learning Engineer Intern (AML-Engine-Orchestration) - 2027 Start
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7671291260529821957/detail
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: bytedance-agent-evaluation-evolution-machine-learning-engineer-intern-applied-machine-learning-ark-24d044
+  company: ByteDance
+  role: Agent Evaluation &amp; Evolution Machine Learning Engineer Intern (AML-Ark-US)
+    - 2027 Summer
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7671096345243535669/detail
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: montenson-sustainability-engineer-intern-7074f3
+  company: Montenson
+  role: Sustainability Engineer Intern
+  location: Denver, CO
+  link: https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23367
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: tiktok-issue-discovery-operations-intern-content-ecosystem-f31f07
+  company: TikTok
+  role: Issue Discovery Operation Intern (TikTok-Product-Content Ecosystem) - 2027
+    Summer
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7667582040108222773
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: altamira-technologies-research-and-development-intern-5fb2b7
+  company: Altamira Technologies
+  role: Research and Development Intern
+  location: Fairborn, OH
+  link: https://jobs.jobvite.com/altamiracorps/job/oHqCAfw3?nl=1&nl=1&fr=false
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-10'
   last_verified: '2026-08-10'
   possible_duplicate_of: null

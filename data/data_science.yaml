@@ -973,3 +973,54 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
+- id: bytedance-data-lake-infrastructure-and-data-analytics-research-engineer-intern-applied-machine-learning-ark-9d250a
+  company: ByteDance
+  role: Data Lake Infrastructure &amp; Data Analytics Research Engineer Intern (AML-Ark-US)
+    - 2027 Summer
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7671109787509213445/detail
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: sargent-lundy-ai-automation-intern-enterprise-data-analytics-63cf00
+  company: Sargent & Lundy
+  role: AI & Automation Intern - Enterprise Data & Analytics
+  location: Chicago, IL
+  link: https://careers-sargentlundy.icims.com/jobs/25986/job?mobile=true&needsRedirect=false
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: citadel-sector-data-scientist-intern-b05c18
+  company: Citadel
+  role: Sector Data Scientist Intern
+  location: New York, NY
+  link: https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null

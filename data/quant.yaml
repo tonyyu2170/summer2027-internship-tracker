@@ -4087,3 +4087,35 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-10'
   possible_duplicate_of: null
+- id: peak6-trading-bootcamp-micro-internship-summer-2027-c05a30
+  company: PEAK6
+  role: Trading Bootcamp Micro-Internship - Summer 2027
+  location: Chicago, IL
+  link: https://peak6group.wd1.myworkdayjobs.com/CapMan/job/Chicago-IL/Trading-Bootcamp-Micro-Internship---Summer-2027_JR105057
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
+- id: peak6-trading-intern-ff5dd7
+  company: PEAK6
+  role: Trading Intern
+  location: Chicago, IL
+  link: https://peak6group.wd1.myworkdayjobs.com/CapMan/job/Chicago-IL/Trading-Internship-for-Women-_JR105061
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-10'
+  last_verified: '2026-08-10'
+  possible_duplicate_of: null
