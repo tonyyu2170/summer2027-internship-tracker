@@ -110,6 +110,8 @@ def apply_corrections(rows_by_category, actions, today):
         elif act == "keep":
             # The row stays put; run() records the decision in
             # manual_categories.yaml so the sweep stops re-reporting it.
+            # Falsy, not "from" not in a: run() writes `from` verbatim into
+            # that file with no downstream gate, so "" and None must be caught here.
             if not a.get("from"):
                 summary["unrecognized_action"].append(rid)
                 continue

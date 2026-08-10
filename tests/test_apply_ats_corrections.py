@@ -340,6 +340,21 @@ def test_keep_without_a_from_is_rejected():
     assert summary["unrecognized_action"] == ["r1"]
 
 
+def test_keep_with_a_falsy_from_is_rejected():
+    # Not merely "key absent" — `from` is written verbatim into
+    # sources/manual_categories.yaml by run(), with no downstream gate to
+    # catch it, so an empty or null value must be refused here. This is a
+    # deliberate deviation from set_date's `"new" not in a` check, which can
+    # afford to let an empty value through to the schema gate.
+    for bad in ("", None):
+        new, summary = apply_corrections(
+            {"quant": [_row()]},
+            [_action(action="keep", **{"from": bad, "to": "swe"})], TODAY)
+        assert new["quant"] == [_row()]
+        assert summary["unrecognized_action"] == ["r1"]
+        assert summary["kept"] == []
+
+
 def test_drop_deletes_the_row():
     new, summary = apply_corrections(
         {"quant": [_row(role="Venture Capital Analyst Intern")]},
@@ -347,3 +362,30 @@ def test_drop_deletes_the_row():
         TODAY)
     assert new["quant"] == []
     assert summary["dropped"] == ["r1"]
+
+
+def test_recategorize_appends_without_clobbering_the_destination():
+    new, summary = apply_corrections(
+        {"quant": [_row(id="mover", role="FPGA Engineer Intern")],
+         "hardware": [_row(id="sitting", link="https://x.com/2")]},
+        [_action(id="mover", action="recategorize",
+                 **{"from": "quant", "to": "hardware"})],
+        TODAY)
+    assert new["quant"] == []
+    assert [r["id"] for r in new["hardware"]] == ["sitting", "mover"]
+
+
+def test_possible_duplicate_of_survives_a_recategorize():
+    # Only pointers into DELETED rows are cleared. recategorize never
+    # rehashes the id, so a pointer into a moved row stays resolvable
+    # dataset-wide and must be left alone.
+    new, _summary = apply_corrections(
+        {"quant": [_row(id="mover", role="FPGA Engineer Intern")],
+         "hardware": [],
+         "swe": [_row(id="pointer", link="https://x.com/2",
+                      possible_duplicate_of="mover")]},
+        [_action(id="mover", action="recategorize",
+                 **{"from": "quant", "to": "hardware"})],
+        TODAY)
+    assert new["swe"][0]["possible_duplicate_of"] == "mover"
+    assert new["hardware"][0]["id"] == "mover"
