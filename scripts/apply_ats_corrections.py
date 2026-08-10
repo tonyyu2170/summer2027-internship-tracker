@@ -42,8 +42,9 @@ def apply_corrections(rows_by_category, actions, today):
                 index[row["id"]] = row
     summary = {k: [] for k in (
         "confirmed", "date_fixed", "closed", "deleted", "reposted",
+        "recategorized", "kept", "dropped",
         "unknown", "skipped", "unrecognized_action")}
-    deleted, verified = set(), set()
+    deleted, verified, moved = set(), set(), {}
     for a in actions:
         rid, act = a.get("id"), a.get("action")
         if act == "ambiguous":
@@ -98,23 +99,47 @@ def apply_corrections(rows_by_category, actions, today):
             summary["deleted"].append(rid)
         elif act == "unknown":
             summary["unknown"].append(rid)
+        elif act == "recategorize":
+            # A typo in `to` must not silently vanish a row: reject it the way
+            # a renamed action kind is rejected, and leave the row alone.
+            if a.get("to") not in rows_by_category:
+                summary["unrecognized_action"].append(rid)
+                continue
+            moved[rid] = a["to"]
+            summary["recategorized"].append(rid)
+        elif act == "keep":
+            # The row stays put; run() records the decision in
+            # manual_categories.yaml so the sweep stops re-reporting it.
+            if not a.get("from"):
+                summary["unrecognized_action"].append(rid)
+                continue
+            summary["kept"].append(rid)
+        elif act == "drop":
+            deleted.add(rid)
+            summary["dropped"].append(rid)
         else:
             # An action kind we don't implement, on a row that DOES exist —
             # a typo or a renamed action, not a stale id. Kept separate from
             # "skipped" so it can't be reported as a missing row.
             summary["unrecognized_action"].append(rid)
-    new = {}
+    new, relocated = {}, []
     for cat, rows in rows_by_category.items():
         kept = []
         for row in rows:
-            if row.get("id") in deleted:
+            rid = row.get("id")
+            if rid in deleted:
                 continue
-            if row.get("id") in verified:
+            if rid in verified:
                 row["last_verified"] = today
             if row.get("possible_duplicate_of") in deleted:
                 row["possible_duplicate_of"] = None
+            if rid in moved:
+                relocated.append((moved[rid], row))
+                continue
             kept.append(row)
         new[cat] = kept
+    for target, row in relocated:
+        new[target].append(row)
     for ids in summary.values():
         ids.sort(key=str)
     return new, summary

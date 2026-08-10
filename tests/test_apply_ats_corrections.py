@@ -297,3 +297,53 @@ def test_action_missing_its_new_value_is_skipped_not_a_crash():
         TODAY)
     assert summary["unrecognized_action"] == ["r1"]
     assert new["swe"][0]["date_posted"] == "2026-07-01"
+
+
+def test_recategorize_moves_the_row_without_touching_id_or_link():
+    new, summary = apply_corrections(
+        {"quant": [_row(role="FPGA Engineer Intern")], "hardware": []},
+        [_action(action="recategorize", **{"from": "quant", "to": "hardware"})],
+        TODAY)
+    assert new["quant"] == []
+    assert len(new["hardware"]) == 1
+    # The id is a hash of company/role/link and does not embed the category,
+    # so a move must not rehash it — that would be the id/link drift bug.
+    assert new["hardware"][0]["id"] == "r1"
+    assert new["hardware"][0]["link"] == "https://x.com/1"
+    assert summary["recategorized"] == ["r1"]
+
+
+def test_recategorize_to_an_unknown_category_is_rejected():
+    new, summary = apply_corrections(
+        {"quant": [_row()], "hardware": []},
+        [_action(action="recategorize", **{"from": "quant", "to": "nonsense"})],
+        TODAY)
+    assert new["quant"] == [_row()]
+    assert summary["unrecognized_action"] == ["r1"]
+    assert summary["recategorized"] == []
+
+
+def test_keep_leaves_every_category_file_untouched():
+    new, summary = apply_corrections(
+        {"quant": [_row()], "hardware": []},
+        [_action(action="keep", **{"from": "quant", "to": "swe"})],
+        TODAY)
+    assert new["quant"] == [_row()]
+    assert new["hardware"] == []
+    assert summary["kept"] == ["r1"]
+
+
+def test_keep_without_a_from_is_rejected():
+    new, summary = apply_corrections(
+        {"quant": [_row()]}, [_action(action="keep", to="swe")], TODAY)
+    assert new["quant"] == [_row()]
+    assert summary["unrecognized_action"] == ["r1"]
+
+
+def test_drop_deletes_the_row():
+    new, summary = apply_corrections(
+        {"quant": [_row(role="Venture Capital Analyst Intern")]},
+        [_action(action="drop", **{"from": "quant", "to": "__drop__"})],
+        TODAY)
+    assert new["quant"] == []
+    assert summary["dropped"] == ["r1"]
