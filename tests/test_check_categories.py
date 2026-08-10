@@ -1,4 +1,6 @@
 """Tests for the retro-classification sweep (scripts/check_categories.py)."""
+import yaml
+
 from check_categories import find_disagreements
 
 
@@ -56,3 +58,28 @@ def test_out_of_scope_role_proposes_drop():
     assert len(actions) == 1
     assert actions[0]["action"] == "drop"
     assert actions[0]["to"] == "__drop__"
+
+
+def test_load_rows_reads_every_category_file(tmp_path):
+    from check_categories import load_rows
+    (tmp_path / "swe.yaml").write_text(yaml.safe_dump([_row()]))
+    rows = load_rows(tmp_path)
+    assert rows["swe"] == [_row()]
+    # Categories with no file on disk must still be present, so a
+    # recategorize target never KeyErrors.
+    assert rows["quant"] == []
+
+
+def test_drift_marker_is_written_when_drift_exists_and_removed_when_clean(tmp_path):
+    from check_categories import write_drift_marker
+    marker = tmp_path / "CATEGORY_DRIFT"
+
+    write_drift_marker(marker, 3, "2026-08-10")
+    assert marker.exists()
+    assert "3" in marker.read_text()
+    assert "check_categories.py" in marker.read_text()
+
+    # Self-healing: a clean run removes the marker rather than leaving a
+    # stale one, so the file's existence is itself the signal.
+    write_drift_marker(marker, 0, "2026-08-11")
+    assert not marker.exists()
