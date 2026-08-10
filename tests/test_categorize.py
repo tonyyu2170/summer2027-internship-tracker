@@ -192,3 +192,30 @@ def test_known_link_locations_maps_normalized_link_to_location(tmp_path):
     ]))
     known = known_link_locations(tmp_path)
     assert known == {"https://example.com/jobs/1": "New York, NY"}
+
+
+def test_drop_rules_do_not_match_program_or_team_names():
+    # `recruit` used to fire on TikTok's program NAME ("Global Frontier Tech
+    # Recruitment Program"), silently dropping 8 legitimate AI/ML roles at
+    # classify time, and on XPENG's "2027 Campus Recruiting Robotics Center".
+    # `content` used to fire on team names like "Data-Content Intelligence".
+    assert classify_role(
+        "Applied Scientist Intern - Business Integrity - Global Frontier Tech "
+        "Recruitment Program - 2027 Start") == "ai_ml"
+    assert classify_role(
+        "Applied Scientist Intern - Trust and Safety - Multimodal Foundation "
+        "Model - Global Frontier Tech Recruitment Program - 2027 Start") == "ai_ml"
+    assert classify_role(
+        "Research Scientist Intern (TikTok-Data-Content Intelligence) - 2027 Start"
+    ) != "__drop__"
+    assert classify_role("2027 Campus Recruiting Robotics Cente...") != "__drop__"
+
+
+def test_drop_rules_still_catch_the_real_hr_and_content_functions():
+    # Narrowing must not free the roles the patterns exist for.
+    assert classify_role("Recruiting Intern") == "__drop__"
+    assert classify_role("Recruiting Coordinator Intern") == "__drop__"
+    assert classify_role("Talent Acquisition Intern") == "__drop__"
+    assert classify_role("Content Strategy Intern") == "__drop__"
+    assert classify_role("Content Marketing Intern") == "__drop__"
+    assert classify_role("Content Moderation Intern") == "__drop__"
