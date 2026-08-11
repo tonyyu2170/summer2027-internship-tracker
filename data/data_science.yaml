@@ -1029,3 +1029,19 @@
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
+- id: northwestern-mutual-analytics-internship-21aebb
+  company: Northwestern Mutual
+  role: Analytics Internship
+  location: Milwaukee, WI
+  link: https://jobs.smartrecruiters.com/NorthwesternMutual/85751677
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null

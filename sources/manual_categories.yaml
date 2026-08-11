@@ -476,3 +476,37 @@ https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2
 # PNC's general technology intern program, read as swe on the ING "Summer 2027
 # Internship - Tech" precedent rather than the IT-support drops.
 https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Technology-Undergraduate-Intern_R231441-1: swe
+
+# Added by the scheduled cloud scrape, 2026-08-11 (zapplyjobs rows parked in unclassified.json).
+# LLNL Computing intern (grad) - HPC/software, Livermore CA
+https://jobs.smartrecruiters.com/llnl/3743990013801396: swe
+# LLNL Computing intern (undergrad) - HPC/software, Livermore CA
+https://jobs.smartrecruiters.com/llnl/3743990013801386: swe
+# IT business analyst, not SWE; cf. 'Business Systems Administration Internship' drop
+https://jobs.smartrecruiters.com/NorthwesternMutual/85751624: __drop__
+# generic university research intern, no tracked discipline
+https://usnh.wd5.myworkdayjobs.com/Careers/job/University-of-New-Hampshire--Main-Campus/Research-Intern_JR8972: __drop__
+# customer service, and year-round rather than Summer 2027
+https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Kenosha-WI/Customer-Service-Internship---Year-Round_R265488: __drop__
+# production/manufacturing operations, off-scope
+https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000127747569: __drop__
+# broadcast tech operations at a TV station, not SWE
+https://jobs.smartrecruiters.com/NBCUniversal3/744000136875591: __drop__
+# writer/editor, off-scope
+https://jobs.smartrecruiters.com/Codeage/743999669081698: __drop__
+# packaging co-op, and July-Dec term is not Summer 2027
+https://jobs.smartrecruiters.com/AbbVie/3743990014191506: __drop__
+# packaging co-op, and Jan-June term is not Summer 2027
+https://jobs.smartrecruiters.com/AbbVie/3743990014191096: __drop__
+# coastal mapping / geoscience, off-scope
+https://usnh.wd5.myworkdayjobs.com/Careers/job/University-of-New-Hampshire--Main-Campus/Coastal-Mapping-Intern_JR9098: __drop__
+# business management, off-scope
+https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/XMLNAME-2027-Business-Management-Intern_R10244870: __drop__
+# generic 'Information Technology' intern; could be SWE-adjacent [low confidence]
+https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Nashville-Tennessee/XMLNAME-2027-Summer-Intern---Information-Technology_R0000387802: __drop__
+# manufacturing test technician; technician rather than engineering [low confidence]
+https://jobs.smartrecruiters.com/BoschGroup/744000082485386: __drop__
+# chassis controls could fit hardware, but Kettering co-op term is unclear [low confidence]
+https://jobs.smartrecruiters.com/BoschGroup/744000127510818: __drop__
+# Title says '2027 Fall'; this repo tracks Summer 2027 only (the sibling Summer req is tracked separately).
+https://lifeattiktok.com/search/7670839752644233525: __drop__

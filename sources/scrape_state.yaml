@@ -1,7 +1,7 @@
 _last_fetch:
   drops:
     github_tracker:chieler:
-      category_drop: 123
+      category_drop: 122
     github_tracker:simplifyjobs:
       category_drop: 32
       closed_marker_untracked: 187
@@ -16,7 +16,7 @@ _last_fetch:
       category_drop: 7
       closed_marker_untracked: 26
     github_tracker:zapplyjobs:
-      category_drop: 180
+      category_drop: 169
     github_tracker:zshah101:
       category_drop: 1
       closed_marker_untracked: 13
@@ -29,16 +29,14 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 1
-  closed: 2
-  ran_at: 2026-08-11 11:46
+  closed: 1
   drops:
     github_tracker:chieler:
-      category_drop: 123
-      missing_field: 414
+      category_drop: 122
+      missing_field: 415
     github_tracker:simplifyjobs:
-      closed_marker_untracked: 187
       category_drop: 32
+      closed_marker_untracked: 187
       missing_field: 30
     github_tracker:sndsh404:
       category_drop: 23
@@ -51,19 +49,21 @@ _last_run:
       closed_marker_untracked: 162
       missing_field: 28
     github_tracker:vanshb03:
-      closed_marker_untracked: 26
       category_drop: 7
+      closed_marker_untracked: 26
       missing_field: 7
     github_tracker:zapplyjobs:
-      category_drop: 180
-      missing_field: 61
+      category_drop: 169
+      missing_field: 64
     github_tracker:zshah101:
-      closed_marker_untracked: 13
       category_drop: 1
+      closed_marker_untracked: 13
       missing_field: 10
+  new: 20
+  ran_at: 2026-08-11 16:18
 chieler:
   path: README.md
-  row_count: 1092
+  row_count: 1090
   scraped_at: '2026-08-11'
   sha: a8667afe590b38c911fa7c91da105ebe12756714
 company_sources:
@@ -196,7 +196,7 @@ sndsh404:
   sha: f2d77c85c3f847c0b9ca221e21a8fbd1c10e7599
 speedyapply:
   path: README.md
-  row_count: 175
+  row_count: 174
   scraped_at: '2026-08-11'
   sha: 2d53f3d6127c5f518425114eaf98765e53d627ff
 suryaharikrishnan:
@@ -211,7 +211,7 @@ vanshb03:
   sha: 92f1c9b017012c95653d344d8a3169abdf2f7203
 zapplyjobs:
   path: README.md
-  row_count: 435
+  row_count: 432
   scraped_at: '2026-08-11'
   sha: d7c4bd2da8e93470a605cfc55e0ae09c2170daeb
 zshah101:

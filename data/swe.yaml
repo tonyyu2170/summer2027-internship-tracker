@@ -622,7 +622,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-cce1c8
   company: Copart
@@ -4239,7 +4239,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
@@ -5642,7 +5642,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: boeing-boeing-summer-2027-internship-program-paid-facilities-engineering-ed6a7f
   company: Boeing
@@ -6111,6 +6111,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
+  - github_tracker:speedyapply
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6231,24 +6232,6 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
-  date_added: '2026-08-10'
-  last_verified: '2026-08-11'
-  possible_duplicate_of: null
-- id: atoms-machine-learning-phd-software-engineer-intern-6be3ca
-  company: Atoms
-  role: Machine Learning PhD Software Engineer Intern
-  location: Seattle, WA
-  link: https://job-boards.greenhouse.io/cssmerge/jobs/8693034002
-  date_posted: '2026-08-10'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6390,6 +6373,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
+  - github_tracker:speedyapply
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6492,6 +6476,286 @@
   - BS
   status: open
   sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: ing-internship-software-engineer-b93453
+  company: ING
+  role: INTERNSHIP SOFTWARE ENGINEER
+  location: Waco, TX
+  link: https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/INTERNSHIP-SOFTWARE-ENGINEER_REQ-10119555
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: re-spec-inc-student-software-engineering-intern-8dd9a9
+  company: RE/SPEC Inc.
+  role: Student Software Engineering Intern
+  location: Albuquerque, NM
+  link: https://jobs.smartrecruiters.com/RESPECInc/744000012676985
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: codeage-web-developer-intern-wordpress-and-a1693c
+  company: Codeage
+  role: Web Developer Intern - WordPress and ...
+  location: Beverly Hills, CA
+  link: https://jobs.smartrecruiters.com/Codeage/743999669081604
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: bosch-group-powertrain-controls-software-engineer-6d0e5c
+  company: Bosch Group
+  role: Powertrain Controls Software Engineer...
+  location: Farmington Hills, MI
+  link: https://jobs.smartrecruiters.com/BoschGroup/744000142898574
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: re-spec-inc-student-engineering-intern-data-sci-95300c
+  company: RE/SPEC Inc.
+  role: Student Engineering Intern - Data Sci...
+  location: Rapid City, SD
+  link: https://jobs.smartrecruiters.com/RESPECInc/744000107100902
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: re-spec-inc-student-engineering-intern-civil-a45da0
+  company: RE/SPEC Inc.
+  role: Student Engineering Intern - Civil
+  location: Fort Myers, FL
+  link: https://jobs.smartrecruiters.com/RESPECInc/744000113805397
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: re-spec-inc-student-engineering-intern-cavern-g-2304dc
+  company: RE/SPEC Inc.
+  role: Student Engineering Intern - Cavern G...
+  location: Rapid City, SD
+  link: https://jobs.smartrecruiters.com/RESPECInc/744000107082695
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: bosch-group-mechanical-design-engineering-intern-438842
+  company: Bosch Group
+  role: Mechanical Design Engineering Intern
+  location: Fort Lauderdale, FL
+  link: https://jobs.smartrecruiters.com/BoschGroup/744000123481879
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: smiths-group-customer-reliability-engineer-intern-9a5383
+  company: Smiths Group
+  role: Customer Reliability Engineer Intern ...
+  location: Port Arthur, TX
+  link: https://jobs.smartrecruiters.com/SmithsGroup2/744000135011634
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: sandisk-field-application-engineer-new-colle-6345e4
+  company: Sandisk
+  role: Field Application Engineer (New Colle...
+  location: Milpitas, CA
+  link: https://jobs.smartrecruiters.com/Sandisk/744000136097669
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: northwestern-mutual-application-development-internship-9242ee
+  company: Northwestern Mutual
+  role: Application Development Internship
+  location: Milwaukee, WI
+  link: https://jobs.smartrecruiters.com/NorthwesternMutual/85751711
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: northwestern-mutual-cyber-security-internship-2a7ff1
+  company: Northwestern Mutual
+  role: Cyber-Security Internship
+  location: Milwaukee, WI
+  link: https://jobs.smartrecruiters.com/NorthwesternMutual/85751642
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: llnl-computing-graduate-student-intern-f-5afb2d
+  company: LLNL
+  role: Computing Graduate Student Intern - F...
+  location: Livermore, CA
+  link: https://jobs.smartrecruiters.com/llnl/3743990013801396
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: llnl-computing-undergraduate-student-inter-3bff41
+  company: LLNL
+  role: Computing Undergraduate Student Inter...
+  location: Livermore, CA
+  link: https://jobs.smartrecruiters.com/llnl/3743990013801386
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: rtx-software-engineer-intern-summer-2027-e59fd0
+  company: RTX
+  role: Software Engineer Intern - Summer 2027
+  location: Woburn, MA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineering-Intern--Summer-2027-_01864764
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-10'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: tiktok-data-engineer-intern-monetization-data-a8e279
+  company: TikTok
+  role: Data Engineer Intern (Monetization Data) - 2027 Summer
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7671232204182276405
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-10'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: lpl-financial-holdings-data-engineer-intern-data-474e4f
+  company: LPL Financial Holdings
+  role: Data Engineer Intern - Data
+  location: Austin, TX
+  link: https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
   last_verified: '2026-08-11'

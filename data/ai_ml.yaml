@@ -3272,25 +3272,6 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
-- id: tiktok-data-engineer-intern-monetization-data-a8e279
-  company: TikTok
-  role: Data Engineer Intern (Monetization Data) - 2027 Summer
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7671232204182276405
-  date_posted: '2026-08-10'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-10'
-  last_verified: '2026-08-11'
-  possible_duplicate_of: null
 - id: xpeng-motors-2027-campus-recruiting-general-intell-d48445
   company: XPENG Motors
   role: 2027 Campus Recruiting General Intell...
@@ -3384,26 +3365,6 @@
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
-- id: tiktok-issue-discovery-operations-intern-content-ecosystem-f31f07
-  company: TikTok
-  role: Issue Discovery Operation Intern (TikTok-Product-Content Ecosystem) - 2027
-    Summer
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7667582040108222773
-  date_posted: '2026-08-10'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-10'
-  last_verified: '2026-08-11'
-  possible_duplicate_of: null
 - id: altamira-technologies-research-and-development-intern-5fb2b7
   company: Altamira Technologies
   role: Research and Development Intern
@@ -3422,23 +3383,37 @@
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
-- id: lpl-financial-holdings-data-engineer-intern-data-474e4f
-  company: LPL Financial Holdings
-  role: Data Engineer Intern - Data
-  location: Austin, TX
-  link: https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914
+- id: hiebing-ai-agent-developer-intern-08803a
+  company: Hiebing
+  role: AI Agent Developer Intern
+  location: Madison, WI
+  link: http://hiebing.applytojob.com/apply/GYiQqWe8cL/AI-Agent-Developer-Intern
   date_posted: '2026-08-10'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
-  - MS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: atoms-machine-learning-phd-software-engineer-intern-6be3ca
+  company: Atoms
+  role: Machine Learning PhD Software Engineer Intern
+  location: Seattle, WA
+  link: https://job-boards.greenhouse.io/cssmerge/jobs/8693034002
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
   status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-11'
+  date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
