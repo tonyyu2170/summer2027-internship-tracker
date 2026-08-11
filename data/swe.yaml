@@ -5561,7 +5561,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: abbvie-2027-business-technology-solutions-in-f9abde
   company: AbbVie
@@ -5698,7 +5698,7 @@
   - company:the-boeing-company
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-10'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: hntb-intern-engineer-summer-2027-central-division-for-current-former-hntb-interns-only-7d0948
   company: HNTB
@@ -6230,6 +6230,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6246,6 +6247,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6263,6 +6266,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6279,6 +6283,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6296,6 +6301,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6312,6 +6319,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6379,6 +6388,8 @@
   sources:
   - github_tracker:zshah101
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6396,6 +6407,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-11'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6412,6 +6426,7 @@
   status: open
   sources:
   - github_tracker:vanshb03
+  - github_tracker:chieler
   date_added: '2026-08-11'
   last_verified: '2026-08-11'
   possible_duplicate_of: appian-software-engineering-intern-172919
@@ -6441,9 +6456,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:vanshb03
+  - github_tracker:zshah101
   date_added: '2026-08-11'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -6453,6 +6469,23 @@
   location: Buffalo, NY
   link: https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Product-Engineering_R-26-19224
   date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-08-11'
+  last_verified: '2026-08-11'
+  possible_duplicate_of: null
+- id: pnc-financial-services-technology-undergraduate-intern-536712
+  company: PNC Financial Services
+  role: Technology Undergraduate Intern
+  location: Pittsburgh, PA
+  link: https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Technology-Undergraduate-Intern_R231441-1
+  date_posted: '2026-08-05'
   date_estimated: false
   term: Summer 2027
   degree:

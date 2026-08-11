@@ -4100,6 +4100,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -4116,6 +4118,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null

@@ -3017,7 +3017,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-10'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: bytedance-research-intern-sdn-traffic-intellig-3ab4b5
   company: ByteDance
@@ -3237,7 +3237,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-10'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: cno-financial-group-enterprise-architecture-it-intern-remote-b7799b
   company: 'CNO Financial Group '
@@ -3399,6 +3399,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -3415,6 +3417,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
@@ -3432,6 +3436,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-11'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
