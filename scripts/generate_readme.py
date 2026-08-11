@@ -5,6 +5,8 @@ from datetime import datetime
 
 ROOT = Path(__file__).resolve().parent.parent
 
+TITLE = "Summer 2027 Internship Tracker"
+
 CATEGORIES = [                       # (yaml stem, display title, is_quant)
     ("swe", "Software Engineering", False),
     ("quant", "Quantitative Finance", True),
@@ -25,6 +27,11 @@ _OPP_STATUS_RANK = {"open": 0, "upcoming": 1, "unknown": 2, "closed": 3}
 
 def _anchor(title: str) -> str:
     return title.lower().replace(" ", "-").replace("/", "")
+
+
+# Derived from TITLE rather than hardcoded so the link can't drift out of sync
+# with the H1 it targets if the title is ever edited.
+_BACK_TO_TOP = f"[⬆ Back to top](#{_anchor(TITLE)})"
 
 
 def _escape_cell(s: str) -> str:
@@ -59,7 +66,15 @@ def _table(rows: list) -> str:
         "| " + " | ".join(header) + " |",
         "| " + " | ".join(["---"] * len(header)) + " |",
     ]
-    for r in sorted(rows, key=lambda r: r["date_posted"], reverse=True):
+    # Ties on date_posted (day granularity) break by list position instead of
+    # staying in original order: merge.py always appends new rows to the end
+    # of a category's list, so a higher index means a more recent scrape —
+    # sorting (date_posted, index) both descending puts same-day rows
+    # newest-scraped-first (Tony, 2026-08-10).
+    ordered = sorted(
+        enumerate(rows), key=lambda pair: (pair[1]["date_posted"], pair[0]), reverse=True
+    )
+    for _, r in ordered:
         lines.append(_row_cells(r))
     return "\n".join(lines)
 
@@ -161,7 +176,7 @@ def render(data_dir=None, readme_path=None, last_run=None) -> Path:
             f"{last_run.get('closed', 0)} closed."
         )
     out = [
-        "# Summer 2027 Internship Tracker",
+        f"# {TITLE}",
         "",
         f"_Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M EST')} — "
         f"{open_count} open roles.{last_run_clause}_",
@@ -193,10 +208,13 @@ def render(data_dir=None, readme_path=None, last_run=None) -> Path:
             out += ["_No open roles._", ""]
         else:
             out += ["_No roles tracked yet._", ""]
+        # Outside the branches: an empty section gets a back-to-top link too.
+        out += [_BACK_TO_TOP, ""]
     for stem, title in OPPORTUNITY_KINDS:
         rows = opp_rows_by_kind[stem]
         out += [f"## {title}", ""]
         out += [_opp_table(rows), ""] if rows else ["_No opportunities tracked yet._", ""]
+        out += [_BACK_TO_TOP, ""]
     readme_path.write_text("\n".join(out) + "\n")
     return readme_path
 

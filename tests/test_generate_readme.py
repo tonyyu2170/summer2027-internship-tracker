@@ -2,7 +2,7 @@ import re
 import datetime as dt
 import yaml
 from pathlib import Path
-from generate_readme import render, _format_opens
+from generate_readme import render, _format_opens, CATEGORIES, OPPORTUNITY_KINDS
 
 
 def _write(data_dir: Path, stem: str, rows: list):
@@ -60,6 +60,37 @@ def test_render_writes_toc_and_all_headings(tmp_path):
     assert "## Consulting" not in text
     assert "## Investment Banking" not in text
     assert "[Quantitative Finance](#quantitative-finance)" in text
+
+
+def test_every_section_has_a_back_to_top_link(tmp_path):
+    # One per H2 except "## Contents", which sits a few lines from the top.
+    # Covers the populated and both empty-section branches: swe has a row,
+    # quant renders "_No open roles._", the rest "_No roles tracked yet._",
+    # and the three opportunity kinds render their own empty branch.
+    data_dir = _empty_data_dir(tmp_path)
+    _write(data_dir, "swe", [_row()])
+    _write(data_dir, "quant", [_row(id="c", link="https://x.com/c",
+                                    status="closed")])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    link = "[⬆ Back to top](#summer-2027-internship-tracker)"
+    sections = text.split("\n## ")[1:]
+    assert sections[0].split("\n", 1)[0] == "Contents"
+    assert link not in sections[0]
+    for section in sections[1:]:
+        assert link in section, f"missing back-to-top in: {section[:40]!r}"
+    assert text.count(link) == len(sections) - 1 == len(CATEGORIES) + len(OPPORTUNITY_KINDS)
+
+
+def test_back_to_top_target_matches_the_rendered_h1(tmp_path):
+    # The link is only "automatic" if its target is the anchor GitHub
+    # generates for the H1 — guard the two against drifting apart.
+    data_dir = _empty_data_dir(tmp_path)
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    h1 = text.split("\n", 1)[0].removeprefix("# ")
+    target = h1.lower().replace(" ", "-").replace("/", "")
+    assert f"[⬆ Back to top](#{target})" in text
 
 
 def test_quant_table_has_track_column_and_row(tmp_path):
@@ -121,6 +152,21 @@ def test_rows_sorted_newest_first(tmp_path):
     render(data_dir, tmp_path / "README.md")
     text = (tmp_path / "README.md").read_text()
     assert text.index("Newer") < text.index("Older")
+
+
+def test_same_date_ties_break_newest_scraped_first(tmp_path):
+    # merge.py always appends new rows to the end of a category's list, so
+    # list position is a proxy for scrape recency when date_posted ties.
+    data_dir = _empty_data_dir(tmp_path)
+    _write(data_dir, "swe", [
+        _row(id="a", company="ScrapedMorning", link="https://x.com/a",
+             date_posted="2026-08-10"),
+        _row(id="b", company="ScrapedEvening", link="https://x.com/b",
+             date_posted="2026-08-10"),
+    ])
+    render(data_dir, tmp_path / "README.md")
+    text = (tmp_path / "README.md").read_text()
+    assert text.index("ScrapedEvening") < text.index("ScrapedMorning")
 
 
 def test_estimated_date_is_marked_without_changing_sort_order(tmp_path):
