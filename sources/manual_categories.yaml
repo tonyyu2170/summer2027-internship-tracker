@@ -434,3 +434,79 @@ https://careers.noblis.org/jobs/27606?icims=1: __drop__
 : __drop__
 # auto verify_links: live page says a non-2027 term.
 https://magna.wd3.myworkdayjobs.com/Magna/job/Newmarket-Ontario-CA/Mechatronics-Engineering-Co-op_R00251133: __drop__
+# 2026-08-11 scheduled scrape: sndsh404/zapplyjobs parked these in
+# unclassified.json. All are finance/business/audit families outside the six
+# tracked categories (cf. the DROP rules in scripts/categorize.py); recorded
+# per-link rather than as new patterns, per that file's "one-off oddballs"
+# note.
+https://careers.kearneyco.com/jobs/5168: __drop__
+https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-Business-Analyst-Intern_R0000381902: __drop__
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765749: __drop__
+https://www.stepstonegroup.com/current-opportunities/?gh_jid=7872890: __drop__
+https://jobs.citi.com/job/-/-/287/93724104768: __drop__
+https://www.bairdcareers.com/jobs/r20251244/internship-equity-research-analyst-summer-2027/: __drop__
+https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-global-markets-sales-boston-ma: __drop__
+https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922: __drop__
+https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Corporate-Risk-Development-Program-Summer-Internship--Core-Risk----Early-Careers_R-556123: __drop__
+# 2026-08-11 scheduled scrape: Workday path says Milton-Ontario-CA (Canada);
+# the parsed location rendered as "Milton, CA", which reads as California.
+# Non-US, and this tracker is US-only.
+https://magna.wd3.myworkdayjobs.com/Magna/job/Milton-Ontario-CA/Junior-Full-Stack-Developer-Coop_R00244793: __drop__
+# 2026-08-11 scheduled scrape (2nd run): sndsh404/zapplyjobs/chieler parked
+# these in unclassified.json. Bank sales-and-trading / equity-research /
+# commodities-trading analyst programs are the same out-of-scope family as the
+# BNP Global Markets Sales and Chevron Supply & Trading drops above; biomedical
+# research and Deloitte consulting likewise have no local category.
+https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/Atlanta-GA/XMLNAME-2027-Truist-Securities---Equity-Research--Sales--Trading---Research----Analyst-Program--INTERN-CONVERSION-_R0117762-1: __drop__
+https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/New-York-NY/XMLNAME-2027-Truist-Securities---Fixed-Income-Loans-S-T--Sales--Trading---Research----Analyst-Program--INTERN-CONVERSION-_R0117765-1: __drop__
+https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/New-York-NY/XMLNAME-2027-Truist-Securities---Equity-S-T--Sales--Trading---Research----Analyst-Program--INTERN-CONVERSION-_R0117763-1: __drop__
+https://jobs.exxonmobil.com/job/Spring-Students-Seeking-InternshipCo-op-Opportunities-in-Trading-TX-77389/1417886900/?ats=successfactors: __drop__
+https://texaspsf.wd501.myworkdayjobs.com/TexasPSFCareers/job/Innovation-Tower/Equity-Capital-Markets-Intern_JR100108: __drop__
+https://nationwidechildrens.wd5.myworkdayjobs.com/en-US/NCHCareers/job/Main-Campus-Columbus-OH/IGM-Research-Intern---RI-Miller_R-27400-1: __drop__
+https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Summer-Scholar-Data-Management-Solutions/362366: __drop__
+# The two below carried over unresolved from the 02:46 UTC run and re-block
+# every merge until they have a line here. Both are soft calls -- flagged in
+# the PR for review rather than left to block the schedule indefinitely.
+# BofA: "Business Analyst" track, matching the LPL and Solar Turbines BA drops,
+# though it does sit inside a Global Technology org (arguably swe).
+https://careers.bankofamerica.com/en-us/students/job-detail/14419/global-technology-summer-analyst-2027-business-analyst-multiple-locations: __drop__
+# JPMC Markets: bank sales/trading/structuring, not the prop-shop/hedge-fund
+# work the quant category tracks; cf. the BNP Global Markets Sales drop.
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690325: __drop__
+# PNC's general technology intern program, read as swe on the ING "Summer 2027
+# Internship - Tech" precedent rather than the IT-support drops.
+https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Technology-Undergraduate-Intern_R231441-1: swe
+
+# Added by the scheduled cloud scrape, 2026-08-11 (zapplyjobs rows parked in unclassified.json).
+# LLNL Computing intern (grad) - HPC/software, Livermore CA
+https://jobs.smartrecruiters.com/llnl/3743990013801396: swe
+# LLNL Computing intern (undergrad) - HPC/software, Livermore CA
+https://jobs.smartrecruiters.com/llnl/3743990013801386: swe
+# IT business analyst, not SWE; cf. 'Business Systems Administration Internship' drop
+https://jobs.smartrecruiters.com/NorthwesternMutual/85751624: __drop__
+# generic university research intern, no tracked discipline
+https://usnh.wd5.myworkdayjobs.com/Careers/job/University-of-New-Hampshire--Main-Campus/Research-Intern_JR8972: __drop__
+# customer service, and year-round rather than Summer 2027
+https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Kenosha-WI/Customer-Service-Internship---Year-Round_R265488: __drop__
+# production/manufacturing operations, off-scope
+https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000127747569: __drop__
+# broadcast tech operations at a TV station, not SWE
+https://jobs.smartrecruiters.com/NBCUniversal3/744000136875591: __drop__
+# writer/editor, off-scope
+https://jobs.smartrecruiters.com/Codeage/743999669081698: __drop__
+# packaging co-op, and July-Dec term is not Summer 2027
+https://jobs.smartrecruiters.com/AbbVie/3743990014191506: __drop__
+# packaging co-op, and Jan-June term is not Summer 2027
+https://jobs.smartrecruiters.com/AbbVie/3743990014191096: __drop__
+# coastal mapping / geoscience, off-scope
+https://usnh.wd5.myworkdayjobs.com/Careers/job/University-of-New-Hampshire--Main-Campus/Coastal-Mapping-Intern_JR9098: __drop__
+# business management, off-scope
+https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/XMLNAME-2027-Business-Management-Intern_R10244870: __drop__
+# generic 'Information Technology' intern; could be SWE-adjacent [low confidence]
+https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Nashville-Tennessee/XMLNAME-2027-Summer-Intern---Information-Technology_R0000387802: __drop__
+# manufacturing test technician; technician rather than engineering [low confidence]
+https://jobs.smartrecruiters.com/BoschGroup/744000082485386: __drop__
+# chassis controls could fit hardware, but Kettering co-op term is unclear [low confidence]
+https://jobs.smartrecruiters.com/BoschGroup/744000127510818: __drop__
+# Title says '2027 Fall'; this repo tracks Summer 2027 only (the sibling Summer req is tracked separately).
+https://lifeattiktok.com/search/7670839752644233525: __drop__
