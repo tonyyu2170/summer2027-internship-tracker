@@ -1778,7 +1778,7 @@
   - zapplyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
 - id: centific-robotics-interns-bcdd59
   company: Centific
@@ -2450,7 +2450,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-10'
@@ -2466,7 +2466,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-10'

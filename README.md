@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-12 00:24 EST — 898 open roles._
+_Last updated: 2026-08-12 11:36 EST — 893 open roles. Last scrape: +0 new, 5 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -36,7 +36,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | ByteDance | Software Engineer Intern - AML-Engine-Orchestration | [Apply](<https://jobs.bytedance.com/en/position/7672386983965100341/detail>) | 2026-08-11 | Summer 2027 | BS/MS |
 | RTX | Software Development Intern - Summer 2027 | [Apply](<https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Development-Intern--Summer-2027-_01865635>) | 2026-08-11 | Summer 2027 | BS/MS |
 | RTX | Software Engineer Intern | [Apply](<https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Software-Engineering-Intern--2027-_01865474>) | 2026-08-11 | Summer 2027 | BS |
-| RTX | Enterprise Extended Reality Intern | [Apply](<https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-NY-REMOTE/Enterprise-Extended-Reality--XR--Intern--Summer-2027---Remote-_01865894>) | 2026-08-11 | Summer 2027 | BS |
 | Quantbot Technologies | Software Engineer Intern | [Apply](<https://www.quantbot.com/careers/4299458009?gh_jid=4299458009>) | 2026-08-11 | Summer 2027 | BS/MS |
 | Kimley-Horn | Software Developer Intern | [Apply](<https://careers-kimley-horn.icims.com/jobs/25761/job?mobile=true&needsRedirect=false>) | 2026-08-11 | Summer 2027 | BS |
 | LLNL | Computing Undergraduate Student Inter... | [Apply](<https://jobs.smartrecruiters.com/llnl/3743990013801386>) | 2026-08-11 | Summer 2027 | BS |
@@ -527,7 +526,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | D. E. Shaw | Software Developer Intern | [Apply](<https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894>) | 2026-04-29 | Summer 2027 | BS |
 | Susquehanna International Group | Quantitative Strategy Developer Internship: Summer 2027 | [Apply](<https://careers-sig.icims.com/jobs/10838/quantitative-strategy-developer-internship%3a-summer-2027/job>) | 2026-04-23 | Summer 2027 | BS |
 | Susquehanna International Group (SIG) | Trading System Engineering Intern | [Apply](<https://careers-sig.icims.com/jobs/10837/job?mobile=true&needsRedirect=false>) | 2026-04-23 | Summer 2027 | BS |
-| Susquehanna International Group (SIG) | Quantitative Strategy Developer Intern | [Apply](<https://careers-sig.icims.com/jobs/10838/job?mobile=true&needsRedirect=false>) | 2026-04-23 | Summer 2027 | BS |
 | Susquehanna International Group (SIG) | Quantitative Research Intern | [Apply](<https://careers-sig.icims.com/jobs/10819/job?mobile=true&needsRedirect=false>) | 2026-04-21 | Summer 2027 | MS |
 | Susquehanna International Group (SIG) | Quantitative Systematic Trading Intern - Master's: Summer 2027 | [Apply](<https://careers-sig.icims.com/jobs/10823/job?mobile=true&needsRedirect=false>) | 2026-04-21 | Summer 2027 | MS |
 | Susquehanna International Group (SIG) | Quantitative Research Intern - PhD: Summer 2027 | [Apply](<https://careers-sig.icims.com/jobs/10817/job?mobile=true&needsRedirect=false>) | 2026-04-21 | Summer 2027 | PhD |
@@ -554,7 +552,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | ByteDance | Data Lake Infrastructure & Data Analytics Research Engineer Intern - Applied Machine Learning Ark | [Apply](<https://jobs.bytedance.com/en/position/7672394389001816325/detail>) | 2026-08-11 | Summer 2027 | BS/MS |
 | Northwestern Mutual | Analytics Internship | [Apply](<https://jobs.smartrecruiters.com/NorthwesternMutual/85751677>) | 2026-08-11 | Summer 2027 | BS |
 | Citadel | Sector Data Scientist Intern | [Apply](<https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/>) | 2026-08-10 | Summer 2027 | BS |
-| Sargent & Lundy | AI & Automation Intern - Enterprise Data & Analytics | [Apply](<https://careers-sargentlundy.icims.com/jobs/25986/job?mobile=true&needsRedirect=false>) | 2026-08-10 | Summer 2027 | BS |
 | ByteDance | Data Lake Infrastructure &amp; Data Analytics Research Engineer Intern (AML-Ark-US) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7671109787509213445/detail>) | 2026-08-10 | Summer 2027 | BS/MS |
 | The Boeing Company | Data Analytics Intern ⚠️dup?(the-boeing-company-data-analytics-intern-2b55f7) | [Apply](<https://boeing.wd1.myworkdayjobs.com/INTERN/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976>) | 2026-08-07 | Summer 2027 | BS |
 | The Nuclear Company | Data Science Intern | [Apply](<https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383244008>) | 2026-08-07 | Summer 2027 | BS/MS |
@@ -814,8 +811,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Bosch Group | 2026 Mechanical Engineering Internati... | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000121016953>) | 2026-08-11 | Summer 2027 | BS |
 | Reframe Systems | Mechanical Engineer Internship (Summe... | [Apply](<https://jobs.ashbyhq.com/reframesystems/c4db63dc-4023-44f7-b971-d94cc730ab9f>) | 2026-08-11 | Summer 2027 | BS |
 | Jabil | Industrial Engineer Intern | [Apply](<https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/San-Jose-CA/Industrial-Engineer-Intern_J2460247>) | 2026-08-10 | Summer 2027 | BS |
-| Rockwell Automation | Embedded Software Engineer Co-op ⚠️dup?(rockwell-automation-embedded-software-engineer-co-op-17f11a) | [Apply](<https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473-1>) | 2026-08-10 | Summer 2027 | BS |
-| Rockwell Automation | Embedded Software Engineer Co-op | [Apply](<https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473>) | 2026-08-10 | Summer 2027 | BS |
 | NREL | Post-Undergraduate Intern (Year-Round... | [Apply](<https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Post-Undergraduate-Intern--Year-Round----Separations-Engineering_R14447>) | 2026-08-10 | Summer 2027 | BS |
 | Vertiv | Thermal Engineer Intern - Summer 2027 | [Apply](<https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278813>) | 2026-08-10 | Summer 2027 | BS |
 | Teledyne | Electrical Engineering Intern | [Apply](<https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Miamisburg-OH/Electrical-Engineering-Intern_REQ35563>) | 2026-08-10 | Summer 2027 | BS |

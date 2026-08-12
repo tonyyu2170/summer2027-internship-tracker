@@ -1,27 +1,25 @@
 _last_fetch:
   drops:
     github_tracker:chieler:
-      category_drop: 247
-      unclassified: 5
+      category_drop: 125
     github_tracker:simplifyjobs:
-      category_drop: 64
-      closed_marker_untracked: 376
+      category_drop: 34
+      closed_marker_untracked: 189
     github_tracker:sndsh404:
-      category_drop: 46
+      category_drop: 23
     github_tracker:speedyapply:
-      category_drop: 10
+      category_drop: 5
     github_tracker:suryaharikrishnan:
-      category_drop: 60
-      closed_marker_untracked: 324
+      category_drop: 32
+      closed_marker_untracked: 164
     github_tracker:vanshb03:
-      category_drop: 14
-      closed_marker_untracked: 52
-    github_tracker:zapplyjobs:
-      category_drop: 319
-      unclassified: 27
-    github_tracker:zshah101:
-      category_drop: 2
+      category_drop: 7
       closed_marker_untracked: 26
+    github_tracker:zapplyjobs:
+      category_drop: 171
+    github_tracker:zshah101:
+      category_drop: 1
+      closed_marker_untracked: 13
 _last_program_check:
   closed: 26
   fetch_failed: 4
@@ -31,43 +29,41 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 46
-  closed: 2
-  ran_at: 2026-08-12 00:20
+  new: 0
+  closed: 5
+  ran_at: 2026-08-12 11:35
   drops:
     github_tracker:chieler:
-      category_drop: 247
-      unclassified: 5
-      missing_field: 438
+      category_drop: 125
+      missing_field: 423
     github_tracker:simplifyjobs:
-      closed_marker_untracked: 376
-      category_drop: 64
-      missing_field: 31
+      closed_marker_untracked: 189
+      category_drop: 34
+      missing_field: 30
     github_tracker:sndsh404:
-      category_drop: 46
+      category_drop: 23
       missing_field: 2
     github_tracker:speedyapply:
-      category_drop: 10
+      category_drop: 5
       missing_field: 4
     github_tracker:suryaharikrishnan:
-      category_drop: 60
-      closed_marker_untracked: 324
+      category_drop: 32
+      closed_marker_untracked: 164
       missing_field: 28
     github_tracker:vanshb03:
-      closed_marker_untracked: 52
-      category_drop: 14
+      closed_marker_untracked: 26
+      category_drop: 7
       missing_field: 7
     github_tracker:zapplyjobs:
-      category_drop: 319
-      unclassified: 27
-      missing_field: 63
+      category_drop: 171
+      missing_field: 59
     github_tracker:zshah101:
-      closed_marker_untracked: 26
-      category_drop: 2
+      closed_marker_untracked: 13
+      category_drop: 1
       missing_field: 11
 chieler:
   path: README.md
-  row_count: 1112
+  row_count: 1119
   scraped_at: '2026-08-12'
   sha: null
 company_sources:
@@ -205,7 +201,7 @@ speedyapply:
   sha: null
 suryaharikrishnan:
   path: data/listings.json
-  row_count: 514
+  row_count: 519
   scraped_at: '2026-08-12'
   sha: null
 vanshb03:
@@ -215,7 +211,7 @@ vanshb03:
   sha: null
 zapplyjobs:
   path: README.md
-  row_count: 455
+  row_count: 448
   scraped_at: '2026-08-12'
   sha: null
 zshah101:

@@ -3186,6 +3186,7 @@
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-07-24'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
@@ -3313,7 +3314,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
@@ -4154,6 +4155,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-12'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
@@ -4173,6 +4175,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-12'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
@@ -4191,6 +4194,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-12'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
@@ -4224,6 +4228,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-12'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
