@@ -162,6 +162,18 @@ def test_drop_families_checked_last_so_in_scope_keywords_win():
     assert classify_role("Pharmaceutical Data Science Intern") == "data_science"
 
 
+def test_reinforcement_learning_titles_reach_ai_ml():
+    # "Reinforcement Learning" carries neither \bml\b nor \bai\b, so these
+    # titles used to match no rule at all and park in unclassified.json —
+    # five such rows already sit in data/ai_ml.yaml, categorized upstream.
+    assert classify_role("Reinforcement Learning Planning Research Intern") == "ai_ml"
+    assert classify_role(
+        "PhD Research Scientist Intern - Reinforcement Learning for Diffusion Modelling"
+    ) == "ai_ml"
+    # An in-scope keyword still can't override an earlier rule.
+    assert classify_role("Quantitative Researcher Intern - Reinforcement Learning") == "quant"
+
+
 def test_new_in_scope_families():
     assert classify_role("Business Intelligence Intern") == "data_science"
     assert classify_role("Analog Design Intern - Master's Degree") == "hardware"
