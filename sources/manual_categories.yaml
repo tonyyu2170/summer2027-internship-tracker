@@ -510,3 +510,84 @@ https://jobs.smartrecruiters.com/BoschGroup/744000082485386: __drop__
 https://jobs.smartrecruiters.com/BoschGroup/744000127510818: __drop__
 # Title says '2027 Fall'; this repo tracks Summer 2027 only (the sibling Summer req is tracked separately).
 https://lifeattiktok.com/search/7670839752644233525: __drop__
+
+# --- 2026-08-12 scheduled run: zapplyjobs/chieler unclassified batch ---
+# 'Year at Palantir - Forward Deployed S[oftware Engineer]'; software role, but it is a
+# year-long deferral program rather than a summer internship [low confidence]
+https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d: swe
+# Field AI robot-learning research; matches the ai_ml precedent set by
+# 'AI Robotics Researcher Intern (Dexterous Manipulation)'
+https://jobs.lever.co/field-ai/a03d3102-4ebf-4557-9e0e-537ead53e24f: ai_ml
+# Field AI 'Robotics Research Internship - Locomoti[on]'; learning-based research
+https://jobs.lever.co/field-ai/ce04c5b3-17c3-49aa-b833-a6bebbf9d23f: ai_ml
+# Field AI 'Robotics Research Internship, Humanoi[d]'; learning-based research
+https://jobs.lever.co/field-ai/2a2c8f00-3a28-481b-882c-33cb0ec4a3a0: ai_ml
+# CertiK security research; repo files cybersecurity under swe
+https://jobs.lever.co/certik/148afcf8-106b-42fa-a516-6bb8f1184e33: swe
+# CertiK 'Blockchain Security Expert Intern'; same convention as above
+https://jobs.lever.co/certik/1f446b66-1fae-4c31-9352-cde86e254754: swe
+# Structural optimization design; civil/structural, out of scope
+https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Intern---Structural-Optimization-Design-Graduate-Intern_R0168006: __drop__
+# HNTB 'New Grad Scientist I'; new-grad infrastructure role, not an internship
+https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Dallas-TX/New-Grad-Scientist-I---Summer-2027---Central-Division--For-Current-Returning-HNTB-Interns-Only-_R-31129-1: __drop__
+# Telemundo news internship; journalism, out of scope
+https://jobs.smartrecruiters.com/NBCUniversal3/744000140290675: __drop__
+https://jobs.smartrecruiters.com/NBCUniversal3/744000140293530: __drop__
+# 'Internship Opportunity'; no discipline stated, cannot be filed to a category
+https://jobs.lever.co/xsolla/09a7b7ec-7c95-491e-9d1b-0da77f2f8873: __drop__
+# Energy market operations (MISO), not quantitative finance [low confidence]
+https://jobs.lever.co/voltus/b7833dd8-d742-44d8-aae2-2e7de7541ce4: __drop__
+# TRI Human Interactive Driving; ML-driven autonomy research group [low confidence]
+https://jobs.lever.co/tri/63d61db3-ac43-4c0d-8b9b-5006e3b92149: ai_ml
+# Radar DSP; signal-processing/embedded work files as hardware here
+https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9: hardware
+# 'Robotics Systems Intern - Sensor Plat[form]'; matches hardware robotics precedent
+https://jobs.lever.co/plus-2/c6560f15-5446-442a-878d-b7c72606149b: hardware
+# Palantir Deployment Strategist; business/strategy track, not one of the six categories
+https://jobs.lever.co/palantir/a49d4181-a289-435a-b581-7f5af0497c8e: __drop__
+# Church campus internship; out of scope
+https://jobs.lever.co/life/2282f1ca-c456-46a2-9ba3-05524e4ce91b: __drop__
+# Technical project management, not an engineering track
+https://jobs.lever.co/MachinaLabs/95d39682-8861-4b82-bb18-c985f280f415: __drop__
+# 'CIS/CS Internship'; computer information systems / computer science
+https://jobs.lever.co/crestoperations/234d5be4-a214-4568-a681-d60f15624488: swe
+# 'Internships - All Disciplines'; generic catch-all with no discipline
+https://jobs.lever.co/crestoperations/9afdac38-29ca-40be-8bd3-314869633cad: __drop__
+# HVAC technician; out of scope
+https://jll.wd1.myworkdayjobs.com/jllcareers/job/Seattle-WA/HVAC-Technician-Intern_REQ528097: __drop__
+# Invesco investment-risk rotation; asset-management finance, not quant research [low confidence]
+https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Investments--Risk-_R-15052-1: __drop__
+# Fundamental Equities COO Office; business operations
+https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Fundamental-Equities-COO-Office_R-15098-1: __drop__
+https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Fundamental-Equities-COO-Office_R-15097-1: __drop__
+# NREL building-equipment research; mechanical/energy, out of scope
+https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate-Intern---Advanced-Building-Equipment-Research-Group_R14429: __drop__
+# Corporate strategy and growth; out of scope
+https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938: __drop__
+# Process innovation; chemical/environmental process engineering
+https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000142933259: __drop__
+# Quantbot is a quant fund; 'Data Trading Analyst' is trading-data research [low confidence]
+https://www.quantbot.com/careers/4299767009?gh_jid=4299767009: quant
+# RTX Enterprise Extended Reality (XR) Intern, Summer 2027, remote; XR application development
+https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-NY-REMOTE/Enterprise-Extended-Reality--XR--Intern--Summer-2027---Remote-_01865894: swe
+# Canva RL-for-diffusion research
+https://jobs.smartrecruiters.com/Canva/6000000001295209: ai_ml
+# GIS planning intern for a municipality; urban planning, out of scope
+https://recruiting.paylocity.com/Recruiting/Jobs/Details/4377573: __drop__
+# --- 2026-08-12 quality pass: rows dropped after merge, suppressed so they do not return ---
+# Title says 'Co-op: September...'; a September-start co-op, not a Summer 2027 internship
+https://www.pathai.com/careers/8623056002?gh_jid=8623056002: __drop__
+# Trust-and-safety content operations, not ML work
+https://lifeattiktok.com/search/7667582040108222773: __drop__
+# Req title is '2027 ETP Analyst ... Regions 2026 Interns only'; a full-time new-grad
+# program for returning interns, not a Summer 2027 internship
+https://regions.wd5.myworkdayjobs.com/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/XMLNAME-2027-ETP-Analyst--Technology--Operations--Digital--and-Data-Regions-2026-Interns-only_R105132: __drop__
+# Hermeus propulsion test engineering; aerospace test, arrived tagged 'software' upstream
+https://jobs.lever.co/hermeus/31513d2a-8e08-424b-b125-4f972fcfc805: __drop__
+# Hermeus test & operations engineering; same upstream mis-tag
+https://jobs.lever.co/hermeus/6afd9372-2a91-4935-b7a5-7a1cf4eb960b: __drop__
+# Hermeus manufacturing engineering; 'manufacturing' is on categorize.py's drop list, but
+# swe's bare 'engineer' match fires first, so the rule never reaches it
+https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872: __drop__
+# Layup Parts manufacturing engineering; same reason
+https://jobs.lever.co/layup/4522257e-bac4-4937-b0b0-88d7ebbb6583: __drop__
