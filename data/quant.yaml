@@ -4098,7 +4098,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -4156,6 +4156,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-12'
   last_verified: '2026-08-12'
   possible_duplicate_of: null

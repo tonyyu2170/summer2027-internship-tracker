@@ -1902,6 +1902,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
@@ -3627,6 +3628,54 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:chieler
+  date_added: '2026-08-12'
+  last_verified: '2026-08-12'
+  possible_duplicate_of: null
+- id: tiktok-machine-learning-engineer-intern-e-commerce-recommendation-foundation-89e960
+  company: TikTok
+  role: Machine Learning Engineer Intern - E-Commerce Recommendation Foundation
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7672883129493948677
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-12'
+  last_verified: '2026-08-12'
+  possible_duplicate_of: null
+- id: tiktok-machine-learning-engineer-intern-e-commerce-recommendation-mall-53d08b
+  company: TikTok
+  role: Machine Learning Engineer Intern - E-Commerce Recommendation Mall
+  location: Seattle, WA
+  link: https://lifeattiktok.com/search/7672920375646488885
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-12'
+  last_verified: '2026-08-12'
+  possible_duplicate_of: null
+- id: tiktok-machine-learning-engineer-intern-e-commerce-recommendation-foundation-372771
+  company: TikTok
+  role: Machine Learning Engineer Intern - E-Commerce Recommendation Foundation
+  location: Seattle, WA
+  link: https://lifeattiktok.com/search/7672881840860940597
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-12'
   last_verified: '2026-08-12'
   possible_duplicate_of: null

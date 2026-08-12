@@ -599,3 +599,32 @@ https://jobs.smartrecruiters.com/Leger2/744000141569336: __drop__
 https://www.quantbot.com/careers/4299858009?gh_jid=4299858009: quant
 # non-US: "Amsterdam, NH" is Amsterdam, Noord-Holland (NL), not a US location.
 https://job-boards.greenhouse.io/lucidmotors/jobs/5156608007: __drop__
+# --- 2026-08-12 evening run: unclassified postings resolved by hand ---
+# Micron Boise semiconductor design/R&D; matches the Process Pathfinding (DRAM Dry Etch)
+# entry already classified hardware above
+https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---DRAM-IP-Circuits-Design-Engineer_JR108471: hardware
+# Micron Boise Corporate Labs; memory-technology R&D org, so hardware by the same
+# reasoning, though the title alone names no discipline [moderate confidence]
+https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---Corporate-Labs_JR108442: hardware
+# Generic university research intern, no tracked discipline; same title as JR8972 above
+https://usnh.wd5.myworkdayjobs.com/Careers/job/University-of-New-Hampshire--Main-Campus/Research-Intern_JR8497: __drop__
+# High-school career-internship program, Fall term; not a Summer 2027 internship
+https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI19-UTEC-Huntington-111-East-Wayne-Street-Fort-Wayne-IN-46802-USA/Homestead-High-School-Career-Internship-program---Fall_30214589: __drop__
+# Invesco Fixed Income NYC desk; asset-management investing, not quant research —
+# same family as the IFI High Yield and Investments-Risk entries already dropped
+https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Investments--IFI-NYC-_R-15092-1: __drop__
+# Title names no discipline at all and the req is return-offer-only; nothing to classify
+https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Summer-2027-Intern---Return-Offer-Only_JR17434: __drop__
+# Community relations; non-technical, like the other Comcast interns dropped above
+https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-3601-S-Broad-St/Community-Relations-Intern_R439176: __drop__
+# HNTB returner posting; consistent with the Strategic Technology and Planning returner
+# reqs already dropped as generic infrastructure-support work [moderate confidence]
+https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Dallas-TX/Returning-Digital-Infrastructure-Solutions-Intern---Summer-2027---Central-Division--For-Current-Former-HNTB-Interns-Only-_R-31141: __drop__
+# Magazine database-coordinator volunteer role; not an engineering internship
+https://jobs.smartrecruiters.com/LuxeMediaLLC/83121944: __drop__
+# --- 2026-08-12 evening run: rows dropped after merge, suppressed so they do not return ---
+# Blue Origin '2026 Intern Conversion - ... Engineer I': full-time entry-level conversion
+# reqs for the 2026 intern cohort, not Summer 2027 internships. Same reasoning as the
+# Regions 2027 ETP Analyst and HNTB New Grad Scientist I entries above.
+https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306: __drop__
+https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275: __drop__

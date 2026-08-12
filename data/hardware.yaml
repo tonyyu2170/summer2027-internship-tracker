@@ -994,7 +994,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-electronics-engineering-intern-8d175b
@@ -2541,6 +2541,22 @@
   role: Robotics Systems Intern - Sensor Plat...
   location: Santa Clara, CA
   link: https://jobs.lever.co/plus-2/c6560f15-5446-442a-878d-b7c72606149b
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-12'
+  last_verified: '2026-08-12'
+  possible_duplicate_of: null
+- id: draper-mechanical-engineering-system-packa-27423f
+  company: Draper
+  role: Mechanical Engineering & System Packa...
+  location: Cambridge, MA
+  link: https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Mechanical-Engineering---System-Packaging-Intern_JR002797
   date_posted: '2026-08-12'
   date_estimated: false
   term: Summer 2027
