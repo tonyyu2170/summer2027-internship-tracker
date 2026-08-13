@@ -628,3 +628,21 @@ https://jobs.smartrecruiters.com/LuxeMediaLLC/83121944: __drop__
 # Regions 2027 ETP Analyst and HNTB New Grad Scientist I entries above.
 https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306: __drop__
 https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275: __drop__
+# --- 2026-08-13 morning run: unclassified rows resolved ---
+# Guidehouse life-sciences/health consulting advisory intern; not one of the six
+# tracked technical categories.
+https://guidehouse.wd1.myworkdayjobs.com/External/job/US---NY-New-York/Intern---Life-Sciences-Advisory--Health-Segment---Campus-2027_43306: __drop__
+# HR business-partner intern (R&D org, but the role itself is HR).
+https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Farmington-Hills-Michigan---United-States-of-America/R-D-HRBP-Intern_R00212816: __drop__
+# Outbound sales rep; non-technical.
+https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Outbound-Sales-Representative--2027-Internship-_R67607: __drop__
+# Technical sales intern; sales, not engineering.
+https://job-boards.greenhouse.io/amarok/jobs/6141167004: __drop__
+# Abbott UIUC Research Park 'Student Researcher'; upstream title is truncated and names
+# no discipline, so there is nothing to classify on. Dropped conservatively rather than
+# guessed into a category — flip this entry if the full req turns out to be SWE/data.
+https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Champaign--Atkins-Building/Research-Park-Intern---Student-Researcher_31142332: __drop__
+# TMEIC 'Engineer Intern - Spring 2027': the title names the Spring 2027 term outright;
+# upstream trackers stamped it Summer 2027 from their own default. Dropped as off-term,
+# and suppressed so it does not re-enter on the next run.
+https://apply.workable.com/tmeic-corporation-americas/j/68E556E5CA/apply: __drop__
