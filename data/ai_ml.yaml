@@ -3647,6 +3647,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-12'
   last_verified: '2026-08-13'
   possible_duplicate_of: null
@@ -3664,6 +3665,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-12'
   last_verified: '2026-08-13'
   possible_duplicate_of: null
@@ -3698,6 +3700,56 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: grant-thornton-tax-technology-intern-summer-2027-20edb9
+  company: Grant Thornton
+  role: Tax Technology Intern - Summer 2027
+  location: Bellevue, WA
+  link: https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/114405
+  date_posted: '2026-02-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: campbell-soup-company-business-analyst-co-op-da-ai-922186
+  company: Campbell Soup Company
+  role: Business Analyst (Co-op), DA&AI
+  location: Remote (US)
+  link: https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65913
+  date_posted: '2026-07-14'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: campbell-soup-company-business-analyst-co-op-da-ai-84c705
+  company: Campbell Soup Company
+  role: Business Analyst (Co-op), DA&AI
+  location: Remote (US)
+  link: https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65914
+  date_posted: '2026-07-14'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-13'
   last_verified: '2026-08-13'
   possible_duplicate_of: null

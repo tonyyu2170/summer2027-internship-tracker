@@ -4248,6 +4248,60 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: wells-fargo-quantitative-analytics-intern-capital-markets-masters-1bcea6
+  company: Wells Fargo
+  role: Quantitative Analytics Intern - Capital Markets - Masters
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--Masters----Early-Careers_R-568270
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: wells-fargo-quantitative-analytics-intern-multiple-teams-b8e266
+  company: Wells Fargo
+  role: Quantitative Analytics Intern - Multiple Teams
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: wells-fargo-quantitative-analytics-intern-multiple-teams-0a06ab
+  company: Wells Fargo
+  role: Quantitative Analytics Intern - Multiple Teams
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--Masters----Early-Careers_R-568259
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-13'
   last_verified: '2026-08-13'
   possible_duplicate_of: null

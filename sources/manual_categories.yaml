@@ -646,3 +646,34 @@ https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Champaign-
 # upstream trackers stamped it Summer 2027 from their own default. Dropped as off-term,
 # and suppressed so it does not re-enter on the next run.
 https://apply.workable.com/tmeic-corporation-americas/j/68E556E5CA/apply: __drop__
+# --- 2026-08-13 evening run: unclassified rows resolved ---
+# Palantir "Year at Palantir - Forward Deployed S..." — title truncated upstream, so
+# no keyword rule fires. Four other "Year at Palantir" reqs are already tracked in
+# swe.yaml, so this one files with them.
+https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333: swe
+# Bare "Business Analyst Intern", matching the Solar Turbines / LPL / BofA
+# precedent already in this file. (Capital One's BAIP is analytics-heavy in
+# practice — flip to data_science if it should be tracked.)
+? https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Business-Analyst-Intern---Summer-2027_R244322-1
+: __drop__
+# Investments/ETF role at an asset manager; finance, not one of the six categories.
+? https://invesco.wd1.myworkdayjobs.com/IVZ/job/Downers-Grove-Illinois/Early-Career-Intern---Investments--ETF-_R-15047-1
+: __drop__
+# C#/ASP.NET development intern; software.
+https://jobs.smartrecruiters.com/Mapjectscom/79400823: swe
+# Investment analyst; finance.
+https://jobs.smartrecruiters.com/RRSGroup/744000133857769: __drop__
+# BowerGroupAsia is a government-affairs/advisory firm; non-technical research intern.
+https://bga.bamboohr.com/careers/152/: __drop__
+# DV Trading is a proprietary trading firm; trading intern files with the other
+# trader/trading-desk rows already in quant.yaml.
+https://job-boards.greenhouse.io/dvtrading/jobs/4719135005: quant
+# "Master Data" here is ERP/master-data administration, not data science — same
+# call as the Chanel / CAE / BeeSweet generic data-admin drops above.
+? https://heidelbergmaterials.wd3.myworkdayjobs.com/global_hm_career_site/job/Irving-TX/Master-Data-Intern_JR10017954-1
+: __drop__
+# Truist "Intern Conversion" req — a return-offer conversion posting rather than a
+# publicly-open Summer 2027 internship, same call as the Blue Origin intern-conversion
+# entries above. Removed from swe.yaml and suppressed so it does not re-enter.
+? https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/Charlotte-NC/XMLNAME-2027-Technology--Data--and-Operations-Internship---Intern-Conversion-_R0117276
+: __drop__

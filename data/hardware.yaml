@@ -449,7 +449,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-13'
   possible_duplicate_of: null
   date_estimated: true
 - id: formlabs-manufacturing-test-software-intern-f-46b7bf
@@ -875,7 +875,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-13'
   possible_duplicate_of: null
   date_estimated: true
 - id: nidec-electrical-engineer-intern-dbd5bf
@@ -892,7 +892,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-13'
   possible_duplicate_of: null
   date_estimated: true
 - id: zipline-supplier-industrialization-engineerin-325ed8
@@ -1399,7 +1399,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-13'
   possible_duplicate_of: null
 - id: pennsylvania-state-university-research-and-development-engineer-intern-bd1764
   company: Pennsylvania State University
@@ -1931,7 +1931,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-13'
   possible_duplicate_of: null
   date_estimated: false
 - id: motorola-solutions-intern-mechanical-engineer-2026-61e529
@@ -2044,7 +2044,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-13'
   possible_duplicate_of: null
 - id: hntb-wed-intern-civil-engineer-summer-2-112b75
   company: HNTB

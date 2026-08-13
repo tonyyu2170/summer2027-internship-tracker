@@ -1102,3 +1102,21 @@
   date_added: '2026-08-12'
   last_verified: '2026-08-13'
   possible_duplicate_of: null
+- id: tiktok-data-science-intern-advertisement-team-ae4794
+  company: TikTok
+  role: Data Science Intern - Advertisement Team
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7673226686054107445
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
