@@ -1120,3 +1120,19 @@
   date_added: '2026-08-13'
   last_verified: '2026-08-13'
   possible_duplicate_of: null
+- id: delta-dental-internship-knowledge-science-624873
+  company: Delta Dental
+  role: Internship - Knowledge Science
+  location: Okemos, MI
+  link: https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Knowledge-Science_JR101405
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null

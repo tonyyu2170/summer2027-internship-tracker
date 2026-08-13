@@ -677,3 +677,19 @@ https://job-boards.greenhouse.io/dvtrading/jobs/4719135005: quant
 # entries above. Removed from swe.yaml and suppressed so it does not re-enter.
 ? https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/Charlotte-NC/XMLNAME-2027-Technology--Data--and-Operations-Internship---Intern-Conversion-_R0117276
 : __drop__
+# Micron "DOW SkillsBridge Intern - Semiconductor Equipment Technician" — a DoD
+# SkillsBridge military-transition placement for a technician role, not a student
+# Summer 2027 internship. categorize.py's DROP list already carries `skillbridge`,
+# which just misses the "SkillsBridge" spelling; same call, recorded per-link.
+? https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---ID1/DOW-SkillsBridge-Intern---Semiconductor-Equipment-Technician_JR108935
+: __drop__
+# Delta Dental of Michigan "Internship - Knowledge Science" — Knowledge Science is
+# DDMI's data/analytics org, so this files as data_science. Title carries no keyword
+# any rule matches; flagged in the PR for review since the read is on the org name.
+? https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Knowledge-Science_JR101405
+: data_science
+# RTX "Modeling, Simulation & Analysis Intern" (Tucson, AZ) — a non-software
+# engineering discipline, which this repo files under hardware (see the discipline
+# rule in categorize.py); consistent with the other RTX engineering interns there.
+? https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-9020--9020-S-Rita-Rd--BLDG-9020/Modeling--Simulation---Analysis-Intern_01866254
+: hardware

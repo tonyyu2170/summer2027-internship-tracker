@@ -3960,7 +3960,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-13'
   possible_duplicate_of: null
 - id: drw-quantitative-trading-analyst-intern-64db71
   company: DRW
@@ -4078,7 +4078,7 @@
   term: Summer 2027
   degree:
   - MS
-  status: open
+  status: closed
   sources:
   - company:infinitequant
   - github_tracker:simplifyjobs
@@ -4302,6 +4302,70 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: CHARLOTTE, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--Masters----Early-Careers_R-568270
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: wells-fargo-2027-quantitative-analytics-summer-in-959624
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: CHARLOTTE, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: wells-fargo-2027-quantitative-analytics-summer-in-f6f112
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: CHARLOTTE, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--Masters----Early-Careers_R-568259
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: infinitequant-quantitative-developer-internship-summer-2027-606c92
+  company: InfiniteQuant
+  role: Quantitative Developer - Internship - Summer 2027
+  location: Remote (US)
+  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
   date_added: '2026-08-13'
   last_verified: '2026-08-13'
   possible_duplicate_of: null

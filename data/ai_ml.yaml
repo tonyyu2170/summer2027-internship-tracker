@@ -3753,3 +3753,19 @@
   date_added: '2026-08-13'
   last_verified: '2026-08-13'
   possible_duplicate_of: null
+- id: sel-software-engineering-intern-ai-focus-0671a6
+  company: SEL
+  role: Software Engineering Intern - AI Focus
+  location: Pullman, WA
+  link: https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null

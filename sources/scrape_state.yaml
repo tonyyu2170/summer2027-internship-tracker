@@ -4,7 +4,7 @@ _last_fetch:
       category_drop: 140
     github_tracker:simplifyjobs:
       category_drop: 45
-      closed_marker_untracked: 187
+      closed_marker_untracked: 188
     github_tracker:sndsh404:
       category_drop: 23
     github_tracker:speedyapply:
@@ -16,10 +16,10 @@ _last_fetch:
       category_drop: 7
       closed_marker_untracked: 26
     github_tracker:zapplyjobs:
-      category_drop: 181
+      category_drop: 175
     github_tracker:zshah101:
       category_drop: 1
-      closed_marker_untracked: 13
+      closed_marker_untracked: 14
 _last_program_check:
   closed: 26
   fetch_failed: 4
@@ -29,17 +29,17 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 1
-  closed: 1
-  ran_at: 2026-08-13 11:38
+  new: 10
+  closed: 2
+  ran_at: 2026-08-13 16:56
   drops:
     github_tracker:chieler:
       category_drop: 140
-      missing_field: 429
+      missing_field: 430
     github_tracker:simplifyjobs:
-      closed_marker_untracked: 187
+      closed_marker_untracked: 188
       category_drop: 45
-      missing_field: 31
+      missing_field: 32
     github_tracker:sndsh404:
       category_drop: 23
       missing_field: 2
@@ -55,12 +55,12 @@ _last_run:
       category_drop: 7
       missing_field: 7
     github_tracker:zapplyjobs:
-      category_drop: 181
-      missing_field: 64
+      category_drop: 175
+      missing_field: 67
     github_tracker:zshah101:
-      closed_marker_untracked: 13
+      closed_marker_untracked: 14
       category_drop: 1
-      missing_field: 10
+      missing_field: 11
 chieler:
   path: README.md
   row_count: 1144
@@ -186,7 +186,7 @@ northwesternfintech:
   sha: e61d1999bbfba5afaea4c535e179cd04b61feb8e
 simplifyjobs:
   path: .github/scripts/listings.json
-  row_count: 623
+  row_count: 627
   scraped_at: '2026-08-13'
   sha: null
 sndsh404:
@@ -196,12 +196,12 @@ sndsh404:
   sha: null
 speedyapply:
   path: README.md
-  row_count: 177
+  row_count: 178
   scraped_at: '2026-08-13'
   sha: null
 suryaharikrishnan:
   path: data/listings.json
-  row_count: 542
+  row_count: 543
   scraped_at: '2026-08-13'
   sha: null
 vanshb03:
@@ -216,6 +216,6 @@ zapplyjobs:
   sha: null
 zshah101:
   path: data/jobs.json
-  row_count: 100
+  row_count: 103
   scraped_at: '2026-08-13'
   sha: null
