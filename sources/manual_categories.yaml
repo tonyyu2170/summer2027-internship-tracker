@@ -693,3 +693,46 @@ https://job-boards.greenhouse.io/dvtrading/jobs/4719135005: quant
 # rule in categorize.py); consistent with the other RTX engineering interns there.
 ? https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-9020--9020-S-Rita-Rd--BLDG-9020/Modeling--Simulation---Analysis-Intern_01866254
 : hardware
+# 2026-08-14 scheduled scrape: zapplyjobs/chieler parked these ten with no
+# rule match. Judgments below follow categorize.py's own rules where the
+# untruncated title (recoverable from the link slug) makes them determinate.
+# PIMCO's upstream title is truncated at "Client Solutions..."; the slug shows
+# the full title is "Client Solutions & Analytics Analyst", and `analytics`
+# is a data_science rule match, so it files there rather than on a quant hunch.
+? https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Client-Solutions---Analytics-Analyst--US_R106605
+: data_science
+# BP's title is truncated at "Instrument, Controls ..."; the slug completes it
+# as "Instrument, Controls & Electrical Engineer", which the discipline rule
+# routes to hardware (same call as the RTX engineering intern above).
+? https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Texas---Houston/Summer-Intern---Instrument--Controls---Electrical-Engineer---Houston--TX_RQ114742
+: hardware
+# Comcast corporate-partnerships and premium-hospitality interns are business
+# roles with no technical component - same family as the sponsorship and
+# business-development drops above.
+? https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-3601-S-Broad-St/Corporate-Partnerships-Intern_R441998
+: __drop__
+? https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-3601-S-Broad-St/Premium-Hospitality-Intern_R441965
+: __drop__
+# NREL "Graduate (Year-Round) Intern - Transportation Systems Analysis" - a
+# year-round graduate placement in transportation modeling, not a Summer 2027
+# internship in any of the six categories. Arrived twice this run (zapplyjobs
+# as NREL, chieler as "National Laboratory of the Rockies") on the same req.
+https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern---Transportation-Systems-Analysis_R14385: __drop__
+# Micron DRAM process integration and wafer bonding process development are
+# semiconductor process engineering. Filed hardware rather than caught by the
+# `manufacturing` drop, which targets generic factory/production roles - these
+# are silicon process work. Flagged in the PR since the read is borderline.
+https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---DRAM-Process-Integration_JR108075: hardware
+https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---Wafer-Bonding-Process-Development_JR108074: hardware
+# Veolia wastewater operator intern - plant operations, out of scope.
+https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000143361009: __drop__
+# Analytical Mechanics Associates "Research Scientist Intern" carries no domain
+# signal at all in the title or slug, and AMA's work is aerospace engineering
+# services (an existing DROP family). Dropped for lack of evidence rather than
+# guessed into a category; flagged in the PR if Tony wants it reinstated.
+https://amainc.wd12.myworkdayjobs.com/ama_careers/job/Remote---New-Jersey/Graduate-Research-Scientist-intern_R-100717-1: __drop__
+# Vertiv "Operations Intern - Summer 2027" landed in ai_ml.yaml with no AI/ML
+# signal at all; check_categories agrees the role classifies to __drop__ via the
+# `operations` family. Removed from ai_ml.yaml and suppressed so it does not
+# re-enter. Its Vertiv siblings (thermal engineer, sales data analytics) stay.
+https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279223: __drop__
