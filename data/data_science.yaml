@@ -1150,6 +1150,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null
@@ -1166,6 +1169,25 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-14'
+  last_verified: '2026-08-14'
+  possible_duplicate_of: null
+- id: pimco-client-solutions-analytics-analyst-intern-ebc2fd
+  company: PIMCO
+  role: Client Solutions & Analytics Analyst Intern
+  location: Newport Beach, CA
+  link: https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Client-Solutions---Analytics-Analyst--US_R106605
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null

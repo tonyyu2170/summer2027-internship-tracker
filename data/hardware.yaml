@@ -994,7 +994,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-13'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-electronics-engineering-intern-8d175b
@@ -1011,7 +1011,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-13'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
   date_estimated: false
 - id: human-computer-lab-intern-electrical-engineer-aa8d73
@@ -1028,7 +1028,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
   date_estimated: false
 - id: layup-parts-electrical-engineering-intern-ffe66c
@@ -1062,7 +1062,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-10'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
   date_estimated: true
 - id: neuralink-manufacturing-intern-surgery-robot-da6979
@@ -1079,7 +1079,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
   date_estimated: false
 - id: figure-ai-integration-and-test-mechanical-eng-3b11bf
@@ -1113,7 +1113,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
   date_estimated: true
 - id: astranis-hardware-design-intern-software-defi-9ae03f
@@ -1761,7 +1761,7 @@
   - zapplyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
 - id: nxp-digital-physical-design-p-r-intern-733f8c
   company: NXP
@@ -2592,6 +2592,38 @@
   role: Mechanical Engineering Intern
   location: Fort Lauderdale, FL
   link: https://jobs.smartrecruiters.com/BoschGroup/744000126065755
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-14'
+  last_verified: '2026-08-14'
+  possible_duplicate_of: null
+- id: bytedance-asic-design-engineer-intern-video-silicon-ip-9ba5fe
+  company: ByteDance
+  role: ASIC Design Engineer Intern - Video Silicon IP
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7673638856678279429/detail
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-14'
+  last_verified: '2026-08-14'
+  possible_duplicate_of: null
+- id: field-ai-electrical-engineer-robotics-hardwar-2c9fe0
+  company: Field AI
+  role: Electrical Engineer, Robotics Hardwar...
+  location: Irvine, CA
+  link: https://jobs.lever.co/field-ai/1049e3e1-b4ca-4996-96a5-14e933f35b44
   date_posted: '2026-08-14'
   date_estimated: false
   term: Summer 2027

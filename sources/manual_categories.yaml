@@ -736,3 +736,53 @@ https://amainc.wd12.myworkdayjobs.com/ama_careers/job/Remote---New-Jersey/Gradua
 # `operations` family. Removed from ai_ml.yaml and suppressed so it does not
 # re-enter. Its Vertiv siblings (thermal engineer, sales data analytics) stay.
 https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279223: __drop__
+# --- 2026-08-14 scheduled run: postings parked in unclassified.json ---
+# Microsoft "Account Tech Strategist - Kuwait Nati..." - upstream-truncated
+# title; an account/sales strategy role, and the visible fragment points at
+# Kuwait, not the US.
+https://apply.careers.microsoft.com/careers/job/1970393556943542: __drop__
+# GenScript LNP (lipid nanoparticle) production intern - biotech manufacturing,
+# the existing biolog/formulation DROP family.
+https://job-boards.greenhouse.io/genscript/jobs/5201216007: __drop__
+# Eulerity "Intern - Office of the CEO" - business generalist, no technical
+# discipline in scope.
+https://job-boards.greenhouse.io/eulerity/jobs/4701817006: __drop__
+# Analysis Group "Research Professional Intern - Generalist" - economic
+# consulting; matches the intent of the existing `consult` DROP rule even
+# though the title itself never says "consulting".
+https://analystcareers-analysisgroup.icims.com/jobs/3007/job?mobile=true&needsRedirect=false: __drop__
+# PNNL detection-physics and nuclear-facility interns - national-lab physics
+# research and facility work, not one of the six tracked categories.
+https://careers.pnnl.gov/jobs/11986?icims=1: __drop__
+https://careers.pnnl.gov/jobs/11987?icims=1: __drop__
+https://careers.pnnl.gov/jobs/12027?icims=1: __drop__
+# QuEra Computing "Internship - Data Management" [low confidence] - same family
+# as the already-dropped "Data Processing Intern"/"Data Specialist intern"
+# entries: data handling/ops rather than data science. Dropped for lack of
+# evidence; flip to data_science if Tony reads it the other way.
+https://job-boards.greenhouse.io/queracomputinginc/jobs/5378366008: __drop__
+# Bank of China USA enterprise-risk "Risk Data Aggregation Intern", two reqs
+# (4326 and 4470, near-identical titles) [low confidence] - bank risk-department
+# internships have consistently been dropped here (Wells Fargo Corporate Risk,
+# Invesco Investments-Risk). Note BOC's Internal Audit "Data Analytics Audit
+# Intern" rows in data_science.yaml are the closer counter-example, so this is
+# the judgment call most worth a second look.
+https://careers-bocusa.icims.com/jobs/4326/job?mobile=true&needsRedirect=false: __drop__
+https://careers-bocusa.icims.com/jobs/4470/job?mobile=true&needsRedirect=false: __drop__
+# FAST Enterprises "Implementation Intern" - FAST's implementation interns build
+# and configure its GenTax/FastDS software; a development role, so swe.
+https://careers.fastenterprises.com/jobs/1594?icims=1: swe
+# Eulerity "Recruiting Intern - AI & Automation" landed in ai_ml because `\bai\b`
+# matches before the DROP family, but the head noun is Recruiting Intern and
+# `recruiting intern` is already an explicit DROP pattern. Removed from
+# ai_ml.yaml and suppressed.
+https://job-boards.greenhouse.io/eulerity/jobs/4701376006: __drop__
+# DoorDash "Software Engineer I, Entry-Level (Gra..." - a full-time new-grad
+# req, not an internship (date_posted 2025-10-18, term guessed as Summer 2027 by
+# the tracker). Removed from swe.yaml and suppressed.
+https://job-boards.greenhouse.io/doordashusa/jobs/7263610: __drop__
+# Defense Unicorns "SkillBridge Intern - Platform Engineer" - DoD SkillBridge is
+# a transitioning-servicemember program, not a student internship; `skillbridge`
+# is already an explicit DROP pattern but `engineer` matched swe first. Removed
+# from swe.yaml and suppressed.
+https://job-boards.greenhouse.io/defenseunicorns/jobs/4661526007: __drop__

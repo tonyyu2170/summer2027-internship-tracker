@@ -1896,7 +1896,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-13'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
   date_estimated: false
 - id: transmarket-group-devops-sre-intern-69f226
@@ -1914,7 +1914,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
   date_estimated: false
 - id: plusai-systems-engineering-intern-627951
@@ -1982,7 +1982,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
   date_estimated: true
 - id: oracle-oci-software-engineer-intern-ovip-eb17d6
@@ -1999,7 +1999,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
   date_estimated: true
 - id: oracle-gdi-information-security-analyst-inte-9bed4e
@@ -7054,7 +7054,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -7439,6 +7439,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null
@@ -7456,6 +7457,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null
@@ -7473,6 +7475,8 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null
@@ -7490,6 +7494,9 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null
@@ -7522,6 +7529,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null
@@ -7554,6 +7562,71 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-14'
+  last_verified: '2026-08-14'
+  possible_duplicate_of: null
+- id: tiktok-mobile-software-engineer-intern-global-e-commerce-7e39be
+  company: TikTok
+  role: Mobile Software Engineer Intern - Global E-Commerce
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7673663349758675205
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-14'
+  last_verified: '2026-08-14'
+  possible_duplicate_of: null
+- id: truveta-software-engineering-intern-af6388
+  company: Truveta
+  role: Software Engineering Intern
+  location: Seattle, WA
+  link: https://job-boards.greenhouse.io/truveta/jobs/5659745004
+  date_posted: '2026-03-17'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-14'
+  last_verified: '2026-08-14'
+  possible_duplicate_of: null
+- id: bytedance-self-built-engineer-intern-cdn-platform-df48ea
+  company: ByteDance
+  role: Self-Built Engineer Intern - CDN Platform
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7673617571165620533/detail
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-14'
+  last_verified: '2026-08-14'
+  possible_duplicate_of: null
+- id: bytedance-self-built-engineer-intern-cdn-platform-f40828
+  company: ByteDance
+  role: Self-Built Engineer Intern - CDN Platform
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7673608499872827701/detail
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null
