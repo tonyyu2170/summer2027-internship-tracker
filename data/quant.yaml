@@ -3940,7 +3940,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4211,7 +4211,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4321,7 +4321,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-13'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
 - id: wells-fargo-2027-quantitative-analytics-summer-in-959624
   company: Wells Fargo
@@ -4337,7 +4337,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-13'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
 - id: wells-fargo-2027-quantitative-analytics-summer-in-f6f112
   company: Wells Fargo
@@ -4353,7 +4353,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-13'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
 - id: infinitequant-quantitative-developer-internship-summer-2027-606c92
   company: InfiniteQuant
@@ -4388,6 +4388,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null

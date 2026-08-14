@@ -1,14 +1,14 @@
 _last_fetch:
   drops:
     github_tracker:chieler:
-      category_drop: 151
+      category_drop: 157
     github_tracker:simplifyjobs:
       category_drop: 50
       closed_marker_untracked: 188
     github_tracker:sndsh404:
       category_drop: 23
     github_tracker:speedyapply:
-      category_drop: 8
+      category_drop: 7
     github_tracker:suryaharikrishnan:
       category_drop: 47
       closed_marker_untracked: 164
@@ -16,7 +16,8 @@ _last_fetch:
       category_drop: 7
       closed_marker_untracked: 26
     github_tracker:zapplyjobs:
-      category_drop: 120
+      category_drop: 178
+      unclassified: 2
     github_tracker:zshah101:
       category_drop: 1
       closed_marker_untracked: 14
@@ -29,13 +30,13 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 11
-  closed: 5
-  ran_at: 2026-08-14 11:53
+  new: 1
+  closed: 6
+  ran_at: 2026-08-14 17:02
   drops:
     github_tracker:chieler:
-      category_drop: 151
-      missing_field: 436
+      category_drop: 157
+      missing_field: 432
     github_tracker:simplifyjobs:
       closed_marker_untracked: 188
       category_drop: 50
@@ -44,7 +45,7 @@ _last_run:
       category_drop: 23
       missing_field: 2
     github_tracker:speedyapply:
-      category_drop: 8
+      category_drop: 7
       missing_field: 5
     github_tracker:suryaharikrishnan:
       category_drop: 47
@@ -55,15 +56,16 @@ _last_run:
       category_drop: 7
       missing_field: 7
     github_tracker:zapplyjobs:
-      category_drop: 120
-      missing_field: 50
+      category_drop: 178
+      unclassified: 2
+      missing_field: 67
     github_tracker:zshah101:
       closed_marker_untracked: 14
       category_drop: 1
-      missing_field: 11
+      missing_field: 12
 chieler:
   path: README.md
-  row_count: 1163
+  row_count: 1169
   scraped_at: '2026-08-14'
   sha: null
 company_sources:
@@ -196,12 +198,12 @@ sndsh404:
   sha: null
 speedyapply:
   path: README.md
-  row_count: 178
+  row_count: 174
   scraped_at: '2026-08-14'
   sha: null
 suryaharikrishnan:
   path: data/listings.json
-  row_count: 560
+  row_count: 561
   scraped_at: '2026-08-14'
   sha: null
 vanshb03:
@@ -211,11 +213,11 @@ vanshb03:
   sha: null
 zapplyjobs:
   path: README.md
-  row_count: 331
+  row_count: 455
   scraped_at: '2026-08-14'
   sha: null
 zshah101:
   path: data/jobs.json
-  row_count: 105
+  row_count: 106
   scraped_at: '2026-08-14'
   sha: null

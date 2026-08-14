@@ -5279,7 +5279,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-13'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
 - id: microchip-technology-intern-engineering-mems-design-65cc9e
   company: Microchip Technology
@@ -5597,7 +5597,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-10'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
 - id: leidos-engineering-intern-3284ac
   company: Leidos
@@ -6249,7 +6249,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6308,7 +6308,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-10'
+  last_verified: '2026-08-14'
   possible_duplicate_of: null
 - id: bytedance-multi-cloud-cdn-scheduling-platform-e-114217
   company: ByteDance
@@ -7171,7 +7171,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:simplifyjobs
@@ -7477,6 +7477,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   - github_tracker:simplifyjobs
+  - github_tracker:speedyapply
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null
@@ -7497,6 +7498,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:speedyapply
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null
@@ -7579,6 +7581,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null
@@ -7627,6 +7630,23 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-14'
+  last_verified: '2026-08-14'
+  possible_duplicate_of: null
+- id: metaphor-software-engineer-intern-b03070
+  company: Metaphor
+  role: Software Engineer - Intern
+  location: San Francisco, CA
+  link: https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
   date_added: '2026-08-14'
   last_verified: '2026-08-14'
   possible_duplicate_of: null

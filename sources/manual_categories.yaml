@@ -786,3 +786,8 @@ https://job-boards.greenhouse.io/doordashusa/jobs/7263610: __drop__
 # is already an explicit DROP pattern but `engineer` matched swe first. Removed
 # from swe.yaml and suppressed.
 https://job-boards.greenhouse.io/defenseunicorns/jobs/4661526007: __drop__
+# cloud routine 2026-08-14: bank risk-management program (not a tracked category); non-US industrial-hygiene co-op.
+? https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stagiaire-en-Hygiene-industrielle-et-Ergonomie---Internship-in-Industrial-Hygiene-and-Ergonomics_01841734
+: __drop__
+? https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Risk-Management-Internship-Program--Cleveland_R-41378
+: __drop__
