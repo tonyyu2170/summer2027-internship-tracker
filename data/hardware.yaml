@@ -15,7 +15,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: citadel-securities-hardware-engineer-fpga-2c9948
@@ -33,7 +33,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: drw-fpga-engineer-1147ab
@@ -51,7 +51,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: imc-trading-hardware-engineer-fd5c49
@@ -70,7 +70,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: jane-street-fpga-engineer-7bf9ea
@@ -89,7 +89,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: second-order-effects-electrical-engineering-intern-summer-2027-13520f
@@ -107,7 +107,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: imc-trading-hardware-engineer-intern-36c34e
   company: IMC Trading
@@ -127,7 +127,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: nightwing-software-hardware-engineering-intern-5060d4
@@ -146,7 +146,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: fluxergy-firmware-engineer-intern-275a35
   company: Fluxergy
@@ -163,7 +163,7 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: base-power-company-firmware-engineering-intern-70783e
   company: Base Power Company
@@ -180,7 +180,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: etched-chip-simulation-software-intern-f6d801
@@ -198,7 +198,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: terranova-embedded-systems-intern-360285
@@ -215,7 +215,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: neuralink-electrical-engineer-intern-implant-embedded-systems-9ad358
@@ -282,7 +282,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: astreya-ai-infrastructure-dc-design-intern-b48bbf
   company: Astreya
@@ -298,7 +298,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: quadric-ai-kernel-engineer-intern-kernel-optimization-8d79fd
   company: Quadric
@@ -331,7 +331,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: etched-firmware-intern-34f1f8
   company: Etched
@@ -349,7 +349,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: apex-technology-inc-software-engineering-intern-embedded-systems-ae38f0
   company: Apex Technology, Inc.
@@ -365,7 +365,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: general-astronautics-engineering-intern-5a95b5
   company: General Astronautics
@@ -382,7 +382,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: tetramem-software-engineer-intern-embedded-4009fa
   company: TETRAMEM
@@ -398,7 +398,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: moog-intern-test-engineering-8c8483
   company: Moog
@@ -499,7 +499,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: contoro-robotics-robotics-engineer-intern-test-val-6834ae
@@ -533,7 +533,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: huntsman-electrical-engineering-intern-259c59
@@ -550,7 +550,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: schweitzer-engineering-laboratories-engineering-intern-d4c302
@@ -637,7 +637,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: wsp-electrical-engineering-intern-substa-58615e
@@ -807,7 +807,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: generac-mechanical-design-engineering-intern-7c0f07
@@ -824,7 +824,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: borgwarner-validation-intern-year-round-633d76
@@ -841,7 +841,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: borgwarner-validation-intern-year-round-8fc9f4
@@ -858,7 +858,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: nidec-manufacturing-engineering-intern-be81f3
@@ -875,7 +875,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: nidec-electrical-engineer-intern-dbd5bf
@@ -892,7 +892,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: zipline-supplier-industrialization-engineerin-325ed8
@@ -1011,7 +1011,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: human-computer-lab-intern-electrical-engineer-aa8d73
@@ -1045,7 +1045,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: asm-manufacturing-engineering-intern-spr-01aa07
@@ -1165,7 +1165,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: ambarella-asic-design-engineer-intern-7b4044
@@ -1182,7 +1182,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: astreya-dc-design-engineer-intern-76acb7
@@ -1233,7 +1233,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: sila-nanotechnologies-battery-simulation-computational-sc-11628a
@@ -1267,7 +1267,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: drw-fpga-intern-c33664
@@ -1302,7 +1302,7 @@
   - link_checker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: tsmc-arizona-engineering-intern-12-roles-process-equipment-cim-software-78811d
@@ -1319,7 +1319,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: spectrum-control-engineering-intern-8f527f
@@ -1352,7 +1352,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: solar-turbines-gas-turbine-products-engineering-intern-06c469
   company: Solar Turbines
@@ -1367,7 +1367,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: microchip-technology-equipment-engineering-technician-intern-metrology-8e84c1
@@ -1383,7 +1383,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: teledyne-computer-engineer-intern-49e329
   company: Teledyne
@@ -1399,7 +1399,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: pennsylvania-state-university-research-and-development-engineer-intern-bd1764
   company: Pennsylvania State University
@@ -1445,7 +1445,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: optiver-fpga-engineer-intern-d78281
   company: Optiver
@@ -1462,7 +1462,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: akuna-capital-hardware-engineer-intern-162e4f
   company: Akuna Capital
@@ -1478,7 +1478,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: optiver-fpga-engineer-intern-748c5a
@@ -1496,7 +1496,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: formlabs-hardware-r-d-engineering-intern-fall-c4943b
   company: Formlabs
@@ -1531,7 +1531,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: hpr-hyannis-port-research-fpga-engineer-intern-c736f2
   company: HPR (Hyannis Port Research)
@@ -1551,7 +1551,7 @@
   - github_tracker:chieler
   - company:hpr-hyannis-port-research
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: spacex-silicon-engineer-intern-co-op-4fcd2f
   company: SpaceX
@@ -1570,7 +1570,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-summer-2027-50420c
   company: RTX
@@ -1590,7 +1590,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: bytedance-asic-design-engineer-intern-video-silicon-ip-020d49
   company: ByteDance
@@ -1609,7 +1609,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: microsoft-research-intern-firmware-security-e7ae53
   company: Microsoft
@@ -1644,7 +1644,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: sri-international-drexel-university-co-op-embedded-software-engineering-8b6916
   company: SRI International
@@ -1660,7 +1660,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: windborne-systems-firmware-intern-34f5bd
   company: WindBorne Systems
@@ -1676,7 +1676,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: draper-embedded-quality-fielded-systems-in-3852bd
   company: Draper
@@ -1693,7 +1693,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: skyworks-analog-ic-design-co-op-a63a95
   company: Skyworks
@@ -1710,7 +1710,7 @@
   - vanshb03
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: contoro-robotics-robotics-test-validation-intern-9704cf
   company: Contoro Robotics
@@ -1727,7 +1727,7 @@
   - zapplyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: bosch-group-wireless-systems-research-intern-b6b391
   company: Bosch Group
@@ -1778,7 +1778,7 @@
   - zapplyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: centific-robotics-interns-bcdd59
   company: Centific
@@ -1812,7 +1812,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: etched-performance-tools-intern-aa8ef8
   company: Etched
@@ -1829,7 +1829,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: national-laboratory-of-the-rockies-focused-ion-beam-electron-microscopy-and-autonomous-characterization-intern-multiple-teams-790299
   company: National Laboratory of the Rockies
@@ -1847,7 +1847,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: motorola-solutions-r-d-intern-wireless-systems-enginee-2acbe7
   company: Motorola Solutions
@@ -1863,7 +1863,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: western-digital-summer-2027-intern-hardware-engineering-693580
   company: Western Digital
@@ -1884,7 +1884,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: smiths-group-mechanical-engineering-co-op-94713a
   company: Smiths Group
@@ -1899,7 +1899,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: smiths-group-mechanical-engineering-co-op-9ab00d
@@ -1915,7 +1915,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: baker-hughes-intern-mechanical-engineering-mec-5f51dc
@@ -1931,7 +1931,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: motorola-solutions-intern-mechanical-engineer-2026-61e529
@@ -1996,7 +1996,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: cae-mechanical-engineering-intern-76e5ae
   company: CAE
@@ -2077,7 +2077,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: bosch-group-2027-spring-industrial-engineer-co-op-27649e
   company: Bosch Group
@@ -2206,7 +2206,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: field-ai-mechanical-engineer-robotics-hardwar-229f34
   company: Field AI
@@ -2222,7 +2222,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: shield-ai-electrical-engineering-spring-co-op-debc16
   company: Shield AI
@@ -2334,7 +2334,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: rtx-materials-processes-and-mechanical-disciplines-engineering-intern-summer-2027-onsite-6a6006
   company: RTX
@@ -2403,7 +2403,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: vertiv-thermal-engineer-intern-summer-2027-ed10c2
   company: Vertiv
@@ -2422,7 +2422,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: nrel-post-undergraduate-intern-year-round-62132f
   company: NREL
@@ -2454,7 +2454,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: rockwell-automation-embedded-software-engineer-co-op-ea27ba
   company: Rockwell Automation
@@ -2470,7 +2470,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: rockwell-automation-embedded-software-engineer-co-op-17f11a
 - id: reframe-systems-mechanical-engineer-internship-summe-1a17db
   company: Reframe Systems
@@ -2486,7 +2486,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: bosch-group-2026-mechanical-engineering-internati-cdb84a
   company: Bosch Group
@@ -2502,7 +2502,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: jabil-industrial-engineer-intern-24886b
   company: Jabil
@@ -2534,7 +2534,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: plusai-robotics-systems-intern-sensor-plat-dda507
   company: PlusAI
@@ -2566,7 +2566,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: rtx-modeling-simulation-analysis-intern-ac8418
   company: RTX
@@ -2585,7 +2585,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-13'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: bosch-group-mechanical-engineering-intern-8e96dc
   company: Bosch Group
@@ -2617,7 +2617,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-14'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: field-ai-electrical-engineer-robotics-hardwar-2c9fe0
   company: Field AI
@@ -2633,5 +2633,54 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-14'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: rtx-radar-digital-products-engineering-intern-ae94ec
+  company: RTX
+  role: Radar Digital Products Engineering Intern
+  location: Tewksbury, MA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Radar-Digital-Products-Engineering-Intern--Summer-2027-_01866243
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: rtx-electrical-computer-aided-design-engineer-intern-3520d5
+  company: RTX
+  role: Electrical Computer-Aided Design Engineer Intern
+  location: Tucson, AZ
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/EAP-Engineering-ECAD-Intern--Summer-2027-_01866716-1
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: olsson-civil-engineering-internship-rail-p-e35bbb
+  company: Olsson
+  role: Civil Engineering Internship - Rail P...
+  location: Remote (US)
+  link: https://job-boards.greenhouse.io/olsson/jobs/5389567008
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null

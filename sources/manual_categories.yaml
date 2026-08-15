@@ -791,3 +791,14 @@ https://job-boards.greenhouse.io/defenseunicorns/jobs/4661526007: __drop__
 : __drop__
 ? https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Risk-Management-Internship-Program--Cleveland_R-41378
 : __drop__
+# cloud routine 2026-08-15: Snap research intern is genuine AI/ML (user modeling
+# and personalization, Bellevue WA); the other four are off-scope support roles
+# a keyword rule can't reach — broadcast digital media, payroll tax, EHS, archives.
+? https://wd1.myworkdaysite.com/snap/job/Bellevue-Washington/Research-Intern--User-Modeling-and-Personalization_R0046464-1
+: ai_ml
+https://jobs.smartrecruiters.com/NBCUniversal3/744000140959009: __drop__
+https://job-boards.greenhouse.io/genscript/jobs/5212805007: __drop__
+? https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Environmental-Health---Safety-Intern--Summer-2027-_JR-2604242
+: __drop__
+? https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Gilman-Archive-Intern--Non-CMU-student----Archives-Department---UEIS_2024942
+: __drop__
