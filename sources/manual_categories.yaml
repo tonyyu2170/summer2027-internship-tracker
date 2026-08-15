@@ -802,3 +802,32 @@ https://job-boards.greenhouse.io/genscript/jobs/5212805007: __drop__
 : __drop__
 ? https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Gilman-Archive-Intern--Non-CMU-student----Archives-Department---UEIS_2024942
 : __drop__
+# cloud routine 2026-08-15 (morning): same Snap "User Modeling and Personalization"
+# req (R0046464) re-listed by chieler under a longer /recruiting/snapchat/ URL form —
+# same ai_ml call as the wd1.myworkdaysite.com/snap/ entry above.
+? https://wd1.myworkdaysite.com/recruiting/snapchat/snap/job/Bellevue-Washington/Research-Intern--User-Modeling-and-Personalization_R0046464-1
+: ai_ml
+# Crowe ServiceNow implementation-consulting intern (Chicago IL) — enterprise-platform
+# build/config work, same call as the BankEasy SharePoint/Power Platform entry above.
+? https://crowe.wd12.myworkdayjobs.com/en-US/external_careers/job/Chicago-IL-USA/ServiceNow-Implementation-Intern_R-71036
+: swe
+# Vendelux is a B2B event-intelligence SaaS company whose product is the data itself,
+# so a bare "Data Intern" there reads as analytics/DS rather than the ERP master-data
+# administration behind the Chanel / CAE / Heidelberg drops above.
+https://jobs.ashbyhq.com/vendelux/ec44a794-9622-444e-a789-491fa12726dd/application?embed=true: data_science
+# Off-scope: animation/rigging art role, not one of the six tracked categories.
+https://jobs.ashbyhq.com/human-computer-lab/6f3e8185-eb3a-42c3-b8c4-1c2837d5e9e1: __drop__
+# JLL commercial-real-estate capital markets (brokerage/debt-equity advisory), not a
+# quant role — same call as the Texas PSF Equity Capital Markets Intern above.
+? https://jll.wd1.myworkdayjobs.com/jllcareers/job/New-York-NY/Capital-Markets-Summer-2027-Internship---New-York_REQ528322
+: __drop__
+# Blue Origin "Program Manager, Intern Experience" is a program-management req for
+# running the intern program, not an internship posting at all.
+? https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Program-Manager--Intern-Experience_R70491
+: __drop__
+# Amazon loss prevention = physical security / supply-chain ops, not a tracked category.
+https://www.amazon.jobs/en/jobs/10502807/loss-prevention-specialist-intern-2027: __drop__
+# Dallas College "SAS Intern" sited at a campus building — Student Accessibility
+# Services, not the SAS statistical language; no tracked-category signal.
+? https://dallascollege.wd1.myworkdayjobs.com/Dallas_College_Careers/job/El-Centro-Campus-R-Building/SAS-Intern_R13709
+: __drop__

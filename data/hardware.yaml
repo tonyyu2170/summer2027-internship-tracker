@@ -722,7 +722,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: curtiss-wright-mechanical-engineering-intern-b5590f
@@ -790,7 +790,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: marmon-holdings-mechanical-engineer-intern-afb7a2
@@ -1583,7 +1583,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -2649,6 +2649,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -2665,6 +2667,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -2674,6 +2678,22 @@
   location: Remote (US)
   link: https://job-boards.greenhouse.io/olsson/jobs/5389567008
   date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: interdigital-ph-d-intern-6g-wireless-systems-s-150dc0
+  company: InterDigital
+  role: Ph.D. Intern, 6G Wireless Systems - S...
+  location: Conshohocken, PA
+  link: https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/PhD-Intern--6G-Wireless-Systems---Sept-2026_REQ26-1135
+  date_posted: '2026-08-14'
   date_estimated: false
   term: Summer 2027
   degree:
