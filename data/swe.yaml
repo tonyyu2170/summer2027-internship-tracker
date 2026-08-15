@@ -6773,3 +6773,23 @@
   date_added: '2026-08-12'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
+- id: rtx-software-engineer-intern-summer-2027-50420c
+  company: RTX
+  role: Software Engineer Intern - Summer 2027
+  location: Cedar Rapids, IA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1
+  date_posted: '2026-08-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-08-08'
+  last_verified: '2026-08-12'
+  possible_duplicate_of: null

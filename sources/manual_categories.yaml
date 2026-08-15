@@ -267,7 +267,6 @@ https://apply.workable.com/quadric-dot-i-o-inc/j/6BEF4752B5/: hardware
 : hardware
 https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/DC-Design-Engineer---Intern_R0015671: hardware
 https://boards.greenhouse.io/neuralink/jobs/7090489003?gh_jid=7090489003: hardware
-https://boards.greenhouse.io/neuralink/jobs/7666761003?gh_jid=7666761003: hardware
 https://boards.greenhouse.io/neuralink/jobs/7736276003?gh_jid=7736276003: __drop__
 https://careers-sig.icims.com/jobs/10837/job?mobile=true&needsRedirect=false: quant
 https://careers.sig.com/intern-co-op-technology/jobs/10837: quant
@@ -283,8 +282,6 @@ https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Lincoln-NE/Computer-Engi
 https://generac.wd5.myworkdayjobs.com/External/job/North-Billerica-MA---USA/Mechanical-Design-Engineering-Intern_JR14679: hardware
 ? https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Materials---Processes-and-Mechanical-Disciplines-Engineering-Intern--Summer-2027---Onsite-_01864004
 : hardware
-? https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1
-: hardware
 https://job-boards.eu.greenhouse.io/imc/jobs/4907430101: quant
 https://job-boards.greenhouse.io/appian/jobs/8041243: __drop__
 https://job-boards.greenhouse.io/appian/jobs/8088498: __drop__
@@ -297,7 +294,6 @@ https://job-boards.greenhouse.io/togetherai/jobs/5157559007: ai_ml
 https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007: quant
 https://job-boards.greenhouse.io/transmarketgroup/jobs/5151581007?gh_jid=5151581007: quant
 https://job-boards.greenhouse.io/virtu/jobs/8624410002: quant
-https://jobs.ashbyhq.com/base-power/a92c9d93-eac0-4da5-b3f2-edf1eeef146b/application: hardware
 https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e: swe
 https://jobs.ashbyhq.com/contoro/cf7c8043-8fbe-4c7e-b91f-ee6db2a616c5/application: hardware
 https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849: quant
@@ -322,8 +318,6 @@ https://manh.wd5.myworkdayjobs.com/en-US/campus/job/US---Home-Office/AI-Develope
 : data_science
 ? https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453
 : data_science
-? https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSAMinnesotaMankato-MN/manufacturing-engineering-intern_R0016035
-: hardware
 https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Engineering-Internship--Summer-2027-_R1346: data_science
 ? https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Science-Machine-Learning-Internship--Summer-2027-_R1344
 : quant
@@ -355,7 +349,6 @@ https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Southfield-Michigan-US/
 ? https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/OR---Gresham/Intern-Equipment-Engineering-Technician--Metrology-_R3077-26
 : hardware
 https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856: quant
-https://www.asm.com/open-vacancies/?gh_jid=4830098101: hardware
 https://www.citadel.com/careers/details/machine-learning-researcher-phd-intern-us/: quant
 https://www.citadel.com/careers/details/software-engineer-intern-us/: quant
 https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/: quant
@@ -393,7 +386,6 @@ https://www.optiver.com/join-us/jobs/8604760002/?gh_jid=8604760002: quant
 https://www.optiver.com/join-us/jobs/technology/austin/software-engineer-intern-summer-2027-austin/: quant
 https://www.optiver.com/join-us/jobs/technology/chicago/software-engineer-intern-summer-2027-chicago/: quant
 https://www.ycombinator.com/companies/ctgt/jobs/b3hTkK4-software-engineering-intern-summer-2027: ai_ml
-https://www.zipline.com/open-roles?gh_jid=7766424003: hardware
 # 2026-08-10 scrape: upstream-truncated or out-of-scope titles.
 https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Video-Production-Intern_4038651: __drop__
 ? https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/San-Francisco/Secondaries---Primaries-Intern---September-2026-I-SF_JR1001863
@@ -622,3 +614,10 @@ https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Irving-TX/Warehouse-Manage
 https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Lacey-WA/Warehouse-Management-Internship---Summer-2027_R266137: __drop__
 https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Sales-Analyst-Internship---Summer-2027_R265911: __drop__
 https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Reno-NV/Warehouse-Management-Internship---Summer-2027_R265729: __drop__
+# auto apply_ats_corrections: category adjudication.
+https://boards.greenhouse.io/neuralink/jobs/7666761003?gh_jid=7666761003: __drop__
+https://jobs.ashbyhq.com/base-power/a92c9d93-eac0-4da5-b3f2-edf1eeef146b/application: __drop__
+? https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSAMinnesotaMankato-MN/manufacturing-engineering-intern_R0016035
+: __drop__
+https://www.asm.com/open-vacancies/?gh_jid=4830098101: __drop__
+https://www.zipline.com/open-roles?gh_jid=7766424003: __drop__

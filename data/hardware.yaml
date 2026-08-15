@@ -861,23 +861,6 @@
   last_verified: '2026-08-12'
   possible_duplicate_of: null
   date_estimated: true
-- id: nidec-manufacturing-engineering-intern-be81f3
-  company: Nidec
-  role: manufacturing engineering intern
-  location: Mankato, MN
-  link: https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSAMinnesotaMankato-MN/manufacturing-engineering-intern_R0016035
-  date_posted: '2026-07-09'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: nidec-electrical-engineer-intern-dbd5bf
   company: Nidec
   role: Electrical Engineer Intern
@@ -893,23 +876,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-08-12'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: zipline-supplier-industrialization-engineerin-325ed8
-  company: Zipline
-  role: Supplier Industrialization Engineerin...
-  location: South San Francisco, CA
-  link: https://www.zipline.com/open-roles?gh_jid=7766424003
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
   possible_duplicate_of: null
   date_estimated: true
 - id: anduril-2027-mechanical-engineer-intern-8420b9
@@ -980,23 +946,6 @@
   last_verified: '2026-08-12'
   possible_duplicate_of: null
   date_estimated: false
-- id: base-power-manufacturing-engineering-intern-f9e18a
-  company: Base Power
-  role: Manufacturing Engineering Intern
-  location: Austin, TX
-  link: https://jobs.ashbyhq.com/base-power/a92c9d93-eac0-4da5-b3f2-edf1eeef146b/application
-  date_posted: '2026-05-18'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: bosch-group-electronics-engineering-intern-8d175b
   company: Bosch Group
   role: Electronics Engineering Intern
@@ -1046,40 +995,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-08-12'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: asm-manufacturing-engineering-intern-spr-01aa07
-  company: ASM
-  role: Manufacturing Engineering Intern (Spr...
-  location: Phoenix, AZ
-  link: https://www.asm.com/open-vacancies/?gh_jid=4830098101
-  date_posted: '2026-05-10'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-10'
-  possible_duplicate_of: null
-  date_estimated: true
-- id: neuralink-manufacturing-intern-surgery-robot-da6979
-  company: Neuralink
-  role: Manufacturing Intern, Surgery & Robot...
-  location: South San Francisco, CA
-  link: https://boards.greenhouse.io/neuralink/jobs/7666761003?gh_jid=7666761003
-  date_posted: '2026-03-19'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
 - id: figure-ai-integration-and-test-mechanical-eng-3b11bf
@@ -1569,26 +1484,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
-- id: rtx-software-engineer-intern-summer-2027-50420c
-  company: RTX
-  role: Software Engineer Intern - Summer 2027
-  location: Cedar Rapids, IA
-  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zshah101
   date_added: '2026-08-08'
   last_verified: '2026-08-12'
   possible_duplicate_of: null

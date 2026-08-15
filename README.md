@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-15 11:40 EST — 872 open roles._
+_Last updated: 2026-08-15 11:44 EST — 867 open roles._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -108,6 +108,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | GE Appliances | Software Engineer Co-op - Software Engineering | [Apply](<https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Summer-2027_REQ-26427>) | 2026-08-05 | Summer 2027 | BS |
 | GE Appliances | Engineering Co-op | [Apply](<https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-LaFayette-GA/Engineering-Co-op-Summer-2027_REQ-26431>) | 2026-08-05 | Summer 2027 | BS |
 | TikTok | Backend Software Engineer Intern (Creation Platform) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7670289874020993285>) | 2026-08-05 | Summer 2027 | BS/MS |
+| RTX | Software Engineer Intern - Summer 2027 | [Apply](<https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1>) | 2026-08-04 | Summer 2027 | BS/MS |
 | General Dynamics Information Technology | Software Developer Intern ⚠️dup?(general-dynamics-information-technology-software-developer-intern-6b3497) | [Apply](<https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1>) | 2026-08-04 | Summer 2027 | BS |
 | RTX | Software Platform Internship (Summer 2027) | [Apply](<https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Platform-Internship--Summer-2027-_01863414>) | 2026-08-04 | Summer 2027 | BS |
 | RTX | Systems Engineer Intern - Summer 2027 (Onsite) | [Apply](<https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-112--400-Collins-Rd-NE--BLDG-112/Systems-Engineer-Intern---Summer-2027--Onsite-_01864173>) | 2026-08-04 | Summer 2027 | BS |
@@ -824,7 +825,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Bosch Group | Wireless Systems Research Intern | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000141552037>) | 2026-08-04 | Summer 2027 | BS |
 | Contoro Robotics | Robotics Test & Validation Intern | [Apply](<https://jobs.ashbyhq.com/contoro/7de98745-6a26-4a96-b82c-0cecf4900eb1>) | 2026-08-04 | Summer 2027 | BS |
 | Microsoft | Research Intern - Firmware Security | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556955518>) | 2026-08-04 | Summer 2027 | BS |
-| RTX | Software Engineer Intern - Summer 2027 | [Apply](<https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1>) | 2026-08-04 | Summer 2027 | BS/MS |
 | Etched | Performance Tools Intern | [Apply](<https://jobs.ashbyhq.com/Etched/f02e8035-7dc9-4b0c-aab7-75bbb4e975b8/application?embed=true>) | 2026-08-03 | Summer 2027 | BS |
 | SRI International | Drexel University Co-op: Embedded Software Engineering | [Apply](<https://careers-sri.icims.com/jobs/6431/drexel-university-co-op%3a-embedded-software-engineering/job>) | 2026-08-03 | Summer 2027 | BS |
 | Microchip | Intern-Engineering - Firmware Development | [Apply](<https://microchiphr.wd5.myworkdayjobs.com/en-US/external/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Firmware-Development-_R3372-26>) | 2026-08-03 | Summer 2027 | BS |
@@ -843,7 +843,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Spectrum Control | Engineering Intern | [Apply](<https://spectrumcontrol.wd1.myworkdayjobs.com/spectrumcontrol/job/Fairview-PA/Engineering-Intern_JR101449>) | 2026-07-23 | Summer 2027 | BS |
 | Astreya | DC Design Engineer - Intern | [Apply](<https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/DC-Design-Engineer---Intern_R0015671>) | ~2026-07-23 | Summer 2027 | BS |
 | Neuralink | Firmware Engineer Intern, Robotics an... | [Apply](<https://boards.greenhouse.io/neuralink/jobs/6648992003?gh_jid=6648992003>) | ~2026-07-23 | Summer 2027 | BS |
-| Zipline | Supplier Industrialization Engineerin... | [Apply](<https://www.zipline.com/open-roles?gh_jid=7766424003>) | ~2026-07-23 | Summer 2027 | BS |
 | Generac | Intern Firmware Engineering | [Apply](<https://generac.wd5.myworkdayjobs.com/External/job/Reno-NV---USA/Intern-Firmware-Engineering_JR14674>) | ~2026-07-23 | Summer 2027 | BS |
 | BorgWarner | Mechanical Engineering Intern – Adv. ... | [Apply](<https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/Mechanical-Engineering-Intern---Adv-Engineering---PDS--Year-Round-_R2026-2137>) | ~2026-07-23 | Summer 2027 | BS |
 | Curtiss-Wright | Mechanical Engineering Intern | [Apply](<https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-CA-Brea-Nuclear/Mechanical-Engineering-Intern_JR12660-1>) | ~2026-07-23 | Summer 2027 | BS |
@@ -871,7 +870,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Ambarella | ASIC Design Engineer Intern | [Apply](<https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100100>) | ~2026-07-09 | Summer 2027 | BS |
 | Marvell | Design/DSP/Verification Intern - PhD ... | [Apply](<https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-DSP-Verification-Intern---PhD-Degree_2502786-1>) | ~2026-07-09 | Summer 2027 | PhD |
 | Nidec | Electrical Engineer Intern | [Apply](<https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSATennesseeLexington-TN/Electrical-Engineer-Intern_R0015984>) | ~2026-07-09 | Summer 2027 | BS |
-| Nidec | manufacturing engineering intern | [Apply](<https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSAMinnesotaMankato-MN/manufacturing-engineering-intern_R0016035>) | ~2026-07-09 | Summer 2027 | BS |
 | BorgWarner | Validation Intern (Year-Round) | [Apply](<https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Validation-Intern--Year-Round-_R2026-1960>) | ~2026-07-09 | Summer 2027 | BS |
 | Generac | Mechanical Design Engineering Intern | [Apply](<https://generac.wd5.myworkdayjobs.com/External/job/North-Billerica-MA---USA/Mechanical-Design-Engineering-Intern_JR14679>) | ~2026-07-09 | Summer 2027 | BS |
 | Marmon Holdings | Mechanical Engineer Intern | [Apply](<https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Remote---United-States-of-America/Mechanical-Engineer-Intern_JR0000036528-1>) | ~2026-07-09 | Summer 2027 | BS |
@@ -900,9 +898,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Base Power | Hardware Engineering Intern | [Apply](<https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770/application>) | 2026-05-21 | Summer 2027 | BS |
 | Terranova | Embedded Systems Intern | [Apply](<https://jobs.ashbyhq.com/terranova/8fdce1f7-a1df-4e64-8f10-c78771a399da>) | 2026-05-19 | Summer 2027 | BS |
 | Etched | Chip Simulation Software Intern | [Apply](<https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8>) | 2026-05-19 | Summer 2027 | BS |
-| Base Power | Manufacturing Engineering Intern | [Apply](<https://jobs.ashbyhq.com/base-power/a92c9d93-eac0-4da5-b3f2-edf1eeef146b/application>) | 2026-05-18 | Summer 2027 | BS |
 | Bosch Group | Electronics Engineering Intern | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000126066306>) | 2026-05-12 | Summer 2027 | BS |
-| ASM | Manufacturing Engineering Intern (Spr... | [Apply](<https://www.asm.com/open-vacancies/?gh_jid=4830098101>) | ~2026-05-10 | Summer 2027 | BS |
 | Human Computer Lab | Intern - Electrical Engineer | [Apply](<https://jobs.ashbyhq.com/human-computer-lab/004ff3a2-7e38-4959-8bd7-48489cbc78f4/application>) | 2026-04-27 | Summer 2027 | BS |
 | Layup Parts | Electrical Engineering Intern | [Apply](<https://jobs.lever.co/layup/0d8b26c2-f4f9-4dc1-b987-1e496fd616aa/apply>) | 2026-04-24 | Summer 2027 | BS |
 | Skyworks | Analog IC Design Co-op | [Apply](<https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100>) | 2026-04-20 | Summer 2027 | BS |
@@ -912,7 +908,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Neuralink | Electrical Engineer Intern - Implant Embedded Systems | [Apply](<https://boards.greenhouse.io/neuralink/jobs/7702527003?gh_jid=7702527003>) | 2026-04-15 | Summer 2027 | BS |
 | Motorola Solutions | Intern - Embedded Software - System - and Test Engineer - 2026 | [Apply](<https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372>) | 2026-03-31 | Summer 2027 | BS |
 | Odys Aviation | Robotics & Embedded Systems Intern | [Apply](<https://jobs.ashbyhq.com/odys-aviation/d15b1f56-d160-403e-8d12-90f531eb490f>) | 2026-03-26 | Summer 2027 | BS |
-| Neuralink | Manufacturing Intern, Surgery & Robot... | [Apply](<https://boards.greenhouse.io/neuralink/jobs/7666761003?gh_jid=7666761003>) | 2026-03-19 | Summer 2027 | BS |
 | Neuralink | Analog and Mixed-Signal IC Design Eng... | [Apply](<https://boards.greenhouse.io/neuralink/jobs/7565469003?gh_jid=7565469003>) | 2026-02-18 | Summer 2027 | BS |
 | Neuralink | Digital IC Design Engineer Intern | [Apply](<https://boards.greenhouse.io/neuralink/jobs/7090489003?gh_jid=7090489003>) | ~2025-11-11 | Summer 2027 | BS |
 
