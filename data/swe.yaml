@@ -2876,22 +2876,6 @@
   last_verified: '2026-08-12'
   possible_duplicate_of: null
   date_estimated: false
-- id: rocket-lab-manufacturing-engineering-intern-fall-394eb8
-  company: Rocket Lab
-  role: Manufacturing Engineering Intern Fall...
-  location: Long Beach, CA
-  link: https://job-boards.greenhouse.io/rocketlab/jobs/7733900003
-  date_posted: '2026-05-21'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: safari-ai-gtm-engineering-intern-14417d
   company: Safari AI
   role: GTM Engineering Intern
@@ -4066,25 +4050,6 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   - github_tracker:speedyapply
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
-- id: vertiv-thermal-application-engineer-intern-summer-2027-df5cc9
-  company: Vertiv
-  role: Thermal Application Engineer Intern - Summer 2027
-  location: Westerville, OH
-  link: https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278512
-  date_posted: '2026-08-05'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-12'
@@ -5279,22 +5244,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
-- id: microchip-technology-intern-engineering-mems-design-65cc9e
-  company: Microchip Technology
-  role: Intern-Engineering (MEMS Design)
-  location: Detroit Sales, MI
-  link: https://microchiphr.wd5.myworkdayjobs.com/External/job/MI---Detroit-Sales-Office/Intern-Engineering--MEMS-Design-_R3208-26
-  date_posted: '2026-07-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
 - id: menasha-corporation-custom-packaging-design-engineer-co-o-76fc48
   company: Menasha Corporation
   role: Custom Packaging Design Engineer Co-O...
@@ -5313,44 +5262,12 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
-- id: menasha-corporation-custom-packaging-design-engineer-co-o-449b0b
-  company: Menasha Corporation
-  role: Custom Packaging Design Engineer Co-O...
-  location: Piedmont, SC
-  link: https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Piedmont-South-Carolina/Custom-Packaging-Design-Engineer-Co-Op--Fall-2027-_R12881
-  date_posted: '2026-07-09'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
 - id: plusai-research-engineer-intern-control-03794c
   company: PlusAI
   role: Research Engineer Intern - Control
   location: Santa Clara, CA
   link: https://jobs.lever.co/plus-2/ac7f8f73-88d0-48d5-8d4f-71ed4cfa6ecc
   date_posted: '2026-05-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-11'
-  possible_duplicate_of: null
-- id: curtiss-wright-intern-manufacturing-engineering-0594b1
-  company: Curtiss-Wright
-  role: Intern, Manufacturing Engineering
-  location: Brecksville, OH
-  link: https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-OH-Brecksville-Farris/Intern--Manufacturing-Engineering_JR13116
-  date_posted: '2026-08-06'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -5516,22 +5433,6 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
-- id: menasha-corporation-custom-packaging-design-engineer-co-o-cc6f90
-  company: Menasha Corporation
-  role: Custom Packaging Design Engineer Co-O...
-  location: Piedmont, SC
-  link: https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Piedmont-South-Carolina/Custom-Packaging-Design-Engineer-Co-Op--Spring-2027-_R12880
-  date_posted: '2026-07-10'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: menasha-corporation-custom-packaging-design-engineer-co-o-449b0b
 - id: pentair-it-cybersecurity-leadership-development-internship-program-summer-2027-1a055c
   company: Pentair
   role: IT & Cybersecurity Leadership Development Internship Program -  Summer 2027
@@ -5614,94 +5515,6 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-11'
   possible_duplicate_of: null
-- id: menasha-corporation-custom-packaging-design-engineer-co-o-c4da0e
-  company: Menasha Corporation
-  role: Custom Packaging Design Engineer Co-O...
-  location: Northwood, OH
-  link: https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Northwood-Ohio/Custom-Packaging-Design-Engineer-Co-Op--Fall-2027-_R12874
-  date_posted: '2026-07-10'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-10'
-  possible_duplicate_of: null
-- id: jabil-manufacturing-engineer-intern-5109e5
-  company: Jabil
-  role: Manufacturing Engineer - Intern
-  location: West Chester, PA
-  link: https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/West-Chester-PA/Manufacturing-Engineer---Intern_J2457898
-  date_posted: '2026-08-05'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
-- id: boeing-boeing-summer-2027-internship-program-paid-facilities-engineering-ed6a7f
-  company: Boeing
-  role: Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering
-  location: USA - Everett, WA / USA - Heath, OH / USA - Seal Beach, CA / USA - Huntington
-    Beach, CA / USA - Long Beach, CA / USA - Hazelwood, MO / USA - Arlington, VA /
-    USA - Ridley Park, PA / USA - Renton, WA / USA - Mesa, AZ / USA - North Charleston,
-    SC
-  link: https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Facilities-Engineering_JR2026521015-1
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:boeing
-  - company:the-boeing-company
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: boeing-boeing-summer-2027-internship-program-paid-quality-engineering-intern-7d2d0a
-  company: Boeing
-  role: Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern
-  location: USA - Seattle, WA / USA - Hill AFB, UT / USA - Portland, OR / USA - Huntsville,
-    AL / USA - Richmond, VA / USA - Washington DC, DC / USA - Tinker AFB, OK / USA
-    - Oklahoma City, OK / USA - Madison, AL / USA - Leesburg, VA / USA - Arlington,
-    VA / USA - North Charleston, SC / USA - Heath, OH / USA - Englewood, CO / USA
-    - Fairfax, VA / USA - Colorado Springs, CO / USA - Seal Beach, CA / USA - Maryland
-    Heights, MO / USA - Chantilly, VA / USA - Dallas, TX / USA - Virginia Beach, VA
-    / USA - Springfield, VA / USA - Pleasanton, CA / USA - San Antonio, TX / USA -
-    San Luis Obispo, CA / USA - Saint Charles, MO / USA - Salt Lake City, UT / USA
-    - Charleston, SC / USA - Smithfield, PA / USA - Orlando, FL / USA - Huntington
-    Beach, CA / USA - Miami, FL / USA - Berkeley, MO / USA - Hazelwood, MO / USA -
-    Germantown, MD / USA - Albuquerque, NM / USA - El Segundo, CA / USA - Fort Walton
-    Beach, FL / USA - China Lake, CA / USA - Titusville, FL / USA - Herndon, VA /
-    USA - Swansea, IL / USA - O'Fallon, IL / USA - Ridley Park, PA / USA - Tukwila,
-    WA / USA - Kennedy Space Center, FL / USA - Jacksonville, FL / USA - Edwards AFB,
-    CA / USA - Scott AFB, IL / USA - Mountain View, CA / USA - Houston, TX / USA -
-    California, MD / USA - Belleville, IL / USA - Mukilteo, WA / USA - Long Beach,
-    CA / USA - Puyallup, WA / USA - Renton, WA / USA - Mascoutah, IL / USA - Layton,
-    UT / USA - Los Angeles, CA / USA - Auburn, WA / USA - Philadelphia, PA / USA -
-    Everett, WA / USA - Kent, WA / USA - Mesa, AZ / USA - New Orleans, LA
-  link: https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Engineering-Intern_JR2026520439-1
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:boeing
-  - company:the-boeing-company
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-11'
-  possible_duplicate_of: null
 - id: hntb-intern-engineer-summer-2027-central-division-for-current-former-hntb-interns-only-7d0948
   company: HNTB
   role: Intern Engineer - Summer 2027 - Central Division (For Current/Former HNTB
@@ -5759,24 +5572,6 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: hntb-returning-intern-inspector-summer-2027-southeast-division-for-current-previous-hntb-interns-only-d5fa60
-  company: HNTB
-  role: Returning Intern Inspector - Summer 2027 (Southeast Division) (For Current/Previous
-    HNTB Interns ONLY)
-  location: Lake Mary, FL / Orlando, FL / Kissimmee, FL / Jacksonville, FL / Green
-    Cove Springs, FL
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_Careers/job/Lake-Mary-FL/Returning-Intern-Inspector---Summer-2027--Southeast-Division---For-Current-Previous-HNTB-Interns-ONLY-_R-31045-1
-  date_posted: '2026-08-05'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:hntb
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: hntb-returning-intern-engineer-summer-2027-mid-atlantic-division-for-current-former-hntb-interns-only-2fdec7
   company: HNTB
   role: Returning Intern Engineer - Summer 2027 - Mid Atlantic Division (For Current/Former
@@ -5785,25 +5580,6 @@
     Scott Depot, WV / Harrisburg, PA / North Charleston, SC / Washington, DC / Pittsburgh,
     PA / Arlington, VA / Baltimore, MD / King of Prussia, PA
   link: https://hntb.wd5.myworkdayjobs.com/HNTB_Careers/job/Philadelphia-PA-Pennsylvania/Returning-Intern-Engineer---Summer-2027---Mid-Atlantic-Division--For-Current-Former-HNTB-Interns-Only-_R-31026-1
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:hntb
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: hntb-returning-intern-co-op-planner-project-controls-ned-summer-2027-for-current-previous-hntb-interns-only-c769a0
-  company: HNTB
-  role: Returning Intern/Co-op Planner/Project Controls - NED Summer 2027 (For current/previous
-    HNTB interns only)
-  location: Boston, MA / South Portland, ME / Princeton, NJ / New York, NY / Bedford,
-    NH / Newark, NJ / Cherry Hill, NJ / Parsippany, NJ / South Norwalk, CT / Rocky
-    Hill, CT / Chelmsford, MA
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_Careers/job/Boston-MA/Returning-Intern-Co-op-Planner-Project-Controls---NED-Summer-2026--For-current-previous-HNTB-interns-only-_R-31007-1
   date_posted: '2026-08-04'
   date_estimated: false
   term: Summer 2027
@@ -5852,23 +5628,6 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: northrop-grumman-2027-operations-manufacturing-engineering-intern-37d59f
-  company: Northrop Grumman
-  role: 2027 Operations Manufacturing Engineering Intern
-  location: Palmdale, CA
-  link: https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/XMLNAME-2027-Operations-Manufacturing-Engineering-Intern_R10244597
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:northrop-grumman
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: pentair-engineering-leadership-development-internship-program-summer-2027-790638
   company: Pentair
   role: Engineering Leadership Development Internship Program – Summer 2027
@@ -5883,55 +5642,6 @@
   status: open
   sources:
   - company:pentair
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: rtx-pw1100g-propulsion-systems-analysis-intern-summer-2027-onsite-192cf0
-  company: RTX
-  role: PW1100G Propulsion Systems Analysis Intern (Summer 2027) (Onsite)
-  location: East Hartford, CT
-  link: https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/PW1100G-Propulsion-Systems-Analysis-Intern--Summer-2027---Onsite-_01865156
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:rtx
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: rtx-repair-structures-intern-aftermarket-sustainment-engineering-summer-2027-onsite-d4132d
-  company: RTX
-  role: Repair Structures Intern - Aftermarket Sustainment Engineering (Summer 2027)
-    (Onsite)
-  location: East Hartford, CT
-  link: https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Repair-Structures-Intern---Aftermarket-Sustainment-Engineering--Summer-2027---Onsite-_01862160
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:rtx
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: rtx-2027-returning-intern-microwave-semiconductor-engineer-b31682
-  company: RTX
-  role: 2027 Returning Intern - Microwave/Semiconductor Engineer
-  location: Andover, MA
-  link: https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-MA-ANDOVER-AR1--358-Lowell-St--AR1-DUKES-BLDG/XMLNAME-2027-Returning-Intern---Microwave-Semiconductor-Engineer_01864713
-  date_posted: '2026-08-06'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:rtx
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
@@ -6015,77 +5725,12 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-09'
   possible_duplicate_of: null
-- id: uline-warehouse-management-internship-summer-2027-00c5f0
-  company: Uline
-  role: Warehouse Management Internship - Summer 2027
-  location: Lacey, WA / Tacoma, WA / Olympia, WA
-  link: https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Lacey-WA/Warehouse-Management-Internship---Summer-2027_R266137
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:uline
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: uline-sales-analyst-internship-summer-2027-1472c2
-  company: Uline
-  role: Sales Analyst Internship - Summer 2027
-  location: Pleasant Prairie, WI / Milwaukee, WI / Waukegan, IL / Glenview, IL / Kenosha,
-    WI
-  link: https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Sales-Analyst-Internship---Summer-2027_R265911
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:uline
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: uline-cgi-imaging-internship-summer-2027-2e0161
   company: Uline
   role: CGI Imaging Internship - Summer 2027
   location: Pleasant Prairie, WI / Milwaukee, WI / Waukegan, IL / Glenview, IL / Kenosha,
     WI
   link: https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/CGI-Imaging-Internship---Summer-2027_R265898
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:uline
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: uline-warehouse-management-internship-summer-2027-ec12e9
-  company: Uline
-  role: Warehouse Management Internship - Summer 2027
-  location: Reno, NV / Spanish Springs, NV / Carson City, NV / Cold Springs, NV
-  link: https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Reno-NV/Warehouse-Management-Internship---Summer-2027_R265729
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:uline
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-- id: uline-warehouse-management-internship-summer-2027-af91f9
-  company: Uline
-  role: Warehouse Management Internship - Summer 2027
-  location: Irving, TX / Dallas, TX
-  link: https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Irving-TX/Warehouse-Management-Internship---Summer-2027_R265698
   date_posted: '2026-08-03'
   date_estimated: false
   term: Summer 2027
@@ -6194,25 +5839,6 @@
   degree:
   - BS
   status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-10'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
-- id: truist-bank-technology-and-operations-intern-conversion-data-dfd7fd
-  company: Truist Bank
-  role: Technology and Operations Intern Conversion - Data
-  location: Charlotte, NC
-  link: https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/Charlotte-NC/XMLNAME-2027-Technology--Data--and-Operations-Internship---Intern-Conversion-_R0117276
-  date_posted: '2026-08-10'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6564,43 +6190,11 @@
   date_added: '2026-08-11'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
-- id: re-spec-inc-student-engineering-intern-civil-a45da0
-  company: RE/SPEC Inc.
-  role: Student Engineering Intern - Civil
-  location: Fort Myers, FL
-  link: https://jobs.smartrecruiters.com/RESPECInc/744000113805397
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-11'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
 - id: re-spec-inc-student-engineering-intern-cavern-g-2304dc
   company: RE/SPEC Inc.
   role: Student Engineering Intern - Cavern G...
   location: Rapid City, SD
   link: https://jobs.smartrecruiters.com/RESPECInc/744000107082695
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-11'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
-- id: bosch-group-mechanical-design-engineering-intern-438842
-  company: Bosch Group
-  role: Mechanical Design Engineering Intern
-  location: Fort Lauderdale, FL
-  link: https://jobs.smartrecruiters.com/BoschGroup/744000123481879
   date_posted: '2026-08-11'
   date_estimated: false
   term: Summer 2027
@@ -7145,22 +6739,6 @@
   date_added: '2026-08-12'
   last_verified: '2026-08-12'
   possible_duplicate_of: machina-labs-robotic-process-engineer-intern-197d6a
-- id: layup-parts-manufacturing-engineer-intern-b325cf
-  company: Layup Parts
-  role: Manufacturing Engineer Intern
-  location: Huntington Beach, CA
-  link: https://jobs.lever.co/layup/4522257e-bac4-4937-b0b0-88d7ebbb6583
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
 - id: crest-industries-cis-cs-internship-f26223
   company: Crest Industries
   role: CIS/CS Internship
@@ -7174,6 +6752,24 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-12'
+  last_verified: '2026-08-12'
+  possible_duplicate_of: null
+- id: rtx-software-engineering-intern-6266d8
+  company: RTX
+  role: Software Engineering Intern
+  location: El Segundo, CA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Software-Engineering-Intern--Summer-2027-_01865025
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-12'
   last_verified: '2026-08-12'
   possible_duplicate_of: null

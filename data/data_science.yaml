@@ -956,23 +956,6 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
-- id: caterpillar-2027-summer-corporate-intern-environmental-health-and-safety-395be8
-  company: Caterpillar
-  role: 2027 Summer Corporate Intern - Environmental, Health and Safety
-  location: Peoria, IL
-  link: https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Environmental--Health-and-Safety_R0000380458
-  date_posted: '2026-07-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:caterpillar
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
 - id: bytedance-data-lake-infrastructure-and-data-analytics-research-engineer-intern-applied-machine-learning-ark-9d250a
   company: ByteDance
   role: Data Lake Infrastructure &amp; Data Analytics Research Engineer Intern (AML-Ark-US)
@@ -1096,6 +1079,23 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-12'
+  last_verified: '2026-08-12'
+  possible_duplicate_of: null
+- id: conocophillips-trading-analytics-intern-990235
+  company: ConocoPhillips
+  role: Trading Analytics Intern
+  location: Houston, TX
+  link: https://conocophillips.wd1.myworkdayjobs.com/External/job/Houston-TX/Intern--Trading-Analytics-2027_REQ-006429
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-12'
   last_verified: '2026-08-12'
   possible_duplicate_of: null

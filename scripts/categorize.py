@@ -15,6 +15,26 @@ ROOT = Path(__file__).resolve().parent.parent
 # Sentinel: upstream category has no local equivalent; drop the posting.
 DROP = "__drop__"
 
+# A title naming a software craft is never re-routed by the discipline rules,
+# however else the title reads. This guard, not adjacency to "engineer", is
+# what keeps those rules from over-matching: without it `civil` claims
+# "Privacy and Civil Liberties Software Engineer Intern" and `quality` claims
+# TikTok's "Code Intelligence & Quality Validation" backend role.
+_NOT_SOFTWARE = (r"^(?!.*(?:software|developer|programmer|full.?stack|backend"
+                 r"|front.?end|\bswe\b|computer science))")
+
+
+def _discipline(words):
+    r"""Pattern matching an engineering title that names one of `words`.
+
+    The discipline may sit anywhere in the title: an earlier
+    `<discipline>\s+engineer` rule required adjacency and so missed
+    "Mechanical Design Engineering Intern" (a word in between) and "Student
+    Engineering Intern - Civil" (inverted), filing both under swe.
+    """
+    return _NOT_SOFTWARE + r"(?=.*engineer).*(?:" + words + r")"
+
+
 # Order matters. Hardware is checked before quant so hardware roles at quant
 # firms (Jane Street, Akuna, IMC) route to hardware.yaml — the convention,
 # and the bug fixed by hand in 0fdf5dd. data_science precedes ai_ml so
@@ -29,15 +49,34 @@ _RULES = [
               r"|applied scientist(?!.*\b(?:materials|chemist\w*|chemical|optics|polymer|metallurg\w*)\b)"),
     # Non-software engineering disciplines, checked just before swe so its
     # bare `engineer` match can't claim them (RTX/Bosch/HNTB mechanical,
-    # industrial and civil interns were all filing as swe). The discipline
-    # must modify "engineer" — matching the bare word would misroute
-    # "Privacy and Civil Liberties Software Engineer Intern". In-scope
-    # specialties above still win, so a firmware-flavoured mechanical role
-    # stays hardware on its own merits.
-    ("hardware", r"(civil|mechanical|industrial|chemical|structural|aerospace"
-                 r"|environmental|geotechnical|nuclear|petroleum|electrical"
-                 r"|biomedical|optical|materials)\s+engineer"),
-    ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend|cyber|malware|algorithm|application development"),
+    # industrial and civil interns were all filing as swe). Physical-product
+    # electronics disciplines are in scope and route to hardware; the rest are
+    # out of scope for a six-category listing and drop, rather than making
+    # hardware.yaml the catch-all it had become. Hardware is checked first so
+    # Draper's "Mechanical Engineering & System Packaging" keeps its
+    # discipline instead of dropping on `packaging`. In-scope specialties
+    # above still win, so a firmware-flavoured mechanical role stays hardware
+    # on its own merits.
+    ("hardware", _discipline(r"electrical|electronic|mechanical|mechatronic"
+                             r"|semiconductor|microwave|\bmems\b|metrology"
+                             r"|optical|photonic")),
+    # thermal, manufactur, aerospace and materials also appear in the
+    # out-of-scope family at the bottom of this table, but no title naming
+    # "engineer" ever reaches it — swe claims the row first. This is where
+    # those words actually take effect for an engineering title.
+    # The \b on structur/facilit/materials is load-bearing: a bare substring
+    # check matches "Infrastructure" and would drop ByteDance's AI
+    # Infrastructure Engineer roles — the same class of bug as the location
+    # filter's Milwaukee/Dayton false positives.
+    (DROP, _discipline(r"civil|chemical|environmental|geotechnical|petroleum"
+                       r"|\bstructur|industrial|manufactur|\bfacilit|packaging"
+                       r"|\bquality\b|mining|agricultural|nuclear|aerospace"
+                       r"|biomedical|\bmaterials\b|thermal|sustainab")),
+    # `computer science` earns its place next to `software`: a bare "Computer
+    # Science Intern" matches nothing else here, so it fell through to the
+    # out-of-scope family below and Gulfstream's CS intern dropped on the
+    # `materials` in its subtitle.
+    ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend|cyber|malware|algorithm|application development|computer science"),
     # Out-of-scope families, checked last so any in-scope keyword above wins
     # first ("Supply Chain Software Engineer" is swe, "Quantitative Finance"
     # is quant). A role left as None re-blocks every unattended merge under
@@ -57,7 +96,15 @@ _RULES = [
            r"|legal|counsel|compliance|administrat|archivist|polling|real estate|returning plann"
            r"|communication|publicity"
            r"|relationship manager|investor engage|business development"
-           r"|aerospace|payload|\bgnc\b|guidance, navigation"
+           r"|aerospace|payload|\bgnc\b|guidance, navigation|propulsion"
+           # Company watch-list boards are a company's whole intern programme,
+           # and fetch_companies falls back to the watch-list category when no
+           # rule matches — so an unclassifiable title lands in whatever
+           # category the company is watched under (Uline's warehouse and
+           # sales interns filed as swe, Caterpillar's EHS intern as
+           # data_science). These resolve them deterministically instead.
+           r"|warehouse management|sales analyst|\binspector\b"
+           r"|project controls|health and safety"
            r"|internship program|talent community|^\s*intern\s*$"),
 ]
 

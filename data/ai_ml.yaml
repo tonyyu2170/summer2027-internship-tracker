@@ -3349,24 +3349,6 @@
   date_added: '2026-08-10'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
-- id: montenson-sustainability-engineer-intern-7074f3
-  company: Montenson
-  role: Sustainability Engineer Intern
-  location: Denver, CO
-  link: https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23367
-  date_posted: '2026-08-10'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-10'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
 - id: altamira-technologies-research-and-development-intern-5fb2b7
   company: Altamira Technologies
   role: Research and Development Intern
@@ -3420,25 +3402,6 @@
   date_added: '2026-08-10'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
-- id: tiktok-issue-discovery-operations-intern-content-ecosystem-f31f07
-  company: TikTok
-  role: Issue Discovery Operation Intern (TikTok-Product-Content Ecosystem) - 2027
-    Summer
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7667582040108222773
-  date_posted: '2026-08-10'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-12'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
 - id: quantbot-technologies-machine-learning-research-engineer-intern-2d85b3
   company: Quantbot Technologies
   role: Machine Learning Research Engineer Intern
@@ -3449,25 +3412,6 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-12'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
-- id: regions-bank-technology-operations-digital-and-data-development-program-associate-operations-digital-0f6f32
-  company: Regions Bank
-  role: Technology, Operations, Digital and Data Development Program Associate - Operations
-    - Digital
-  location: Hoover, AL
-  link: https://regions.wd5.myworkdayjobs.com/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/XMLNAME-2027-ETP-Analyst--Technology--Operations--Digital--and-Data-Regions-2026-Interns-only_R105132
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
   status: open
   sources:
   - github_tracker:simplifyjobs
