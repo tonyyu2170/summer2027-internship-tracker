@@ -7584,6 +7584,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-14'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -7670,6 +7671,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
+  - github_tracker:speedyapply
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -7705,6 +7707,7 @@
   - github_tracker:zshah101
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:speedyapply
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -7806,6 +7809,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -7823,6 +7827,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -7840,6 +7845,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -7892,6 +7898,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -7909,6 +7916,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -8026,6 +8034,87 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: abridge-software-engineer-intern-ef03e7
+  company: Abridge
+  role: Software Engineer - Intern
+  location: San Francisco, CA
+  link: https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: freeform-software-engineering-intern-summer-2027-30b802
+  company: Freeform
+  role: Software Engineering Intern - Summer 2027
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7872198003
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: hypercubic-software-engineering-internship-7a66c4
+  company: Hypercubic
+  role: Software Engineering Internship
+  location: San Francisco, CA
+  link: https://jobs.ashbyhq.com/hypercubic/ab7a23f9-7280-4443-b442-2813dc39d490
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: first-american-software-engineering-intern-81cc02
+  company: First American
+  role: Software Engineering Intern
+  location: Remote (US)
+  link: https://firstam.wd1.myworkdayjobs.com/en-US/firstamericancareers/job/USA-California-Remote/Software-Engineering-Intern_R058260
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: valeo-software-engineer-intern-6f498f
+  company: Valeo
+  role: Software Engineer Intern
+  location: Troy, MI
+  link: https://valeo.wd3.myworkdayjobs.com/en-US/valeo_jobs/job/Troy-MI/Software-Engineer-Intern_REQ2026076575
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null

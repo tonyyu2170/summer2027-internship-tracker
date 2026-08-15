@@ -1267,3 +1267,19 @@
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
+- id: crowe-data-analytics-developer-intern-7677cf
+  company: Crowe
+  role: Data Analytics Developer Intern
+  location: Chicago, IL
+  link: https://crowe.wd12.myworkdayjobs.com/en-US/external_careers/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null

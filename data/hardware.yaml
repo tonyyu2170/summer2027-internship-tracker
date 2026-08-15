@@ -2701,6 +2701,23 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
+- id: generac-intern-firmware-engineering-a5e421
+  company: Generac
+  role: Intern Firmware Engineering
+  location: Reno, NV
+  link: https://generac.wd5.myworkdayjobs.com/en-US/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR16149
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: generac-intern-firmware-engineering-c86e1e

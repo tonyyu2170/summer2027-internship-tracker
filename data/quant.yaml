@@ -1192,7 +1192,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
@@ -4428,6 +4428,71 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: goldman-sachs-summer-associate-intern-multiple-teams-c68aef
+  company: Goldman Sachs
+  role: Summer Associate Intern - Multiple Teams
+  location: New York, NY
+  link: https://higher.gs.com/roles/171566?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: goldman-sachs-quantitative-strategist-intern-multiple-teams-acee8f
+  company: Goldman Sachs
+  role: Quantitative Strategist Intern - Multiple Teams
+  location: New York, NY
+  link: https://higher.gs.com/roles/171563?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: goldman-sachs-summer-analyst-intern-ficc-and-equities-sales-and-trading-e1ef09
+  company: Goldman Sachs
+  role: Summer Analyst Intern - FICC and Equities - Sales and Trading
+  location: West Palm Beach, FL
+  link: https://higher.gs.com/roles/181628?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: goldman-sachs-quantitative-strategist-associate-intern-the-core-quantitative-strats-fcc632
+  company: Goldman Sachs
+  role: Quantitative Strategist Associate Intern - The Core Quantitative Strats
+  location: New York, NY
+  link: https://higher.gs.com/roles/171535?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
