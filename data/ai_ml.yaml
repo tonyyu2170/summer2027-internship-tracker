@@ -1,7 +1,6 @@
 - id: bytedance-student-researcher-multimodal-interaction-world-model-seed-67c396
   company: ByteDance
-  role: Student Researcher (Multimodal Interaction and World Model - Seed) - 2027
-    Start
+  role: Student Researcher (Multimodal Interaction and World Model - Seed) - 2027 Start
   location: San Jose, CA
   link: https://joinbytedance.com/search/7623548747208739077
   date_posted: '2026-06-28'
@@ -13,7 +12,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: bytedance-student-researcher-vision-foundation-model-seed-e6b7ad
   company: ByteDance
@@ -29,7 +28,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: ctgt-software-engineering-intern-research-intern-interpretability-summer-2027-18386f
   company: CTGT
@@ -68,8 +67,8 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-business-integrity-phd-9bfbc8
   company: TikTok
-  role: Applied Scientist Intern - Business Integrity - Global Frontier Tech Recruitment
-    Program - 2027 Start
+  role: Applied Scientist Intern - Business Integrity - Global Frontier Tech Recruitment Program
+    - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7631063087262419205
   date_posted: '2026-04-21'
@@ -81,12 +80,12 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-monetization-genai-phd-71fde1
   company: TikTok
-  role: Applied Scientist Intern - Monetization GenAI - Global Frontier Tech Recruitment
-    Program - 2027 Start
+  role: Applied Scientist Intern - Monetization GenAI - Global Frontier Tech Recruitment Program
+    - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7631062649025857797
   date_posted: '2026-04-21'
@@ -98,12 +97,12 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-monetization-technology-phd-0f1cb8
   company: TikTok
-  role: Applied Scientist Intern - Monetization Technology - Global Frontier Tech
-    Recruitment Program - 2027 Start
+  role: Applied Scientist Intern - Monetization Technology - Global Frontier Tech Recruitment
+    Program - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7629248119245261061
   date_posted: '2026-04-16'
@@ -115,12 +114,12 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-e-commerce-recommendation-llm-phd-98002d
   company: TikTok
-  role: Research Scientist Intern– E-commerce Recommendation(LLM Applications) - Global
-    Frontier Tech Recruitment Program - 2027 Start
+  role: Research Scientist Intern– E-commerce Recommendation(LLM Applications) - Global Frontier
+    Tech Recruitment Program - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7629187524074342709
   date_posted: '2026-04-16'
@@ -132,7 +131,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: meta-research-scientist-intern-embedded-contextual-ai-on-wearables-phd-302603
   company: Meta
@@ -288,7 +287,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   date_estimated: false
 - id: databricks-phd-genai-research-scientist-intern-43d2da
@@ -343,8 +342,7 @@
   possible_duplicate_of: null
 - id: meta-research-scientist-intern-state-estimation-for-dexterous-manipulation-phd-54dceb
   company: Meta
-  role: Research Scientist Intern - State Estimation for Dexterous Manipulation -
-    PhD
+  role: Research Scientist Intern - State Estimation for Dexterous Manipulation - PhD
   location: Redmond, WA
   link: https://www.metacareers.com/jobs/2774289902955470
   date_posted: '2026-06-13'
@@ -374,8 +372,8 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-trust-and-safety-multimodal-foundation-model-global-frontier-tech-recruitment-program-2027-start-phd-d31b44
   company: TikTok
-  role: Applied Scientist Intern - Trust and Safety - Multimodal Foundation Model
-    - Global Frontier Tech Recruitment Program - 2027 Start - PhD
+  role: Applied Scientist Intern - Trust and Safety - Multimodal Foundation Model - Global
+    Frontier Tech Recruitment Program - 2027 Start - PhD
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7633670871815670069
   date_posted: '2026-04-28'
@@ -408,8 +406,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-e-commerce-recommendation-llm-applications-global-frontier-tech-recruitment-program-2027-start-phd-1be6cd
   company: TikTok
-  role: Research Scientist Intern- E-commerce Recommendation- LLM Applications - Global
-    Frontier Tech Recruitment Program - 2027 Start - PhD
+  role: Research Scientist Intern- E-commerce Recommendation- LLM Applications - Global Frontier
+    Tech Recruitment Program - 2027 Start - PhD
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7629188397976586501
   date_posted: '2026-04-16'
@@ -699,7 +697,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   date_estimated: false
 - id: cotiviti-intern-ai-engineer-800380
@@ -953,9 +951,8 @@
   status: open
   sources:
   - github_tracker
-  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-09'
   possible_duplicate_of: null
   date_estimated: false
 - id: quadric-ai-inference-engineer-intern-model-pruning-bc24ec
@@ -987,7 +984,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: false
 - id: eluvio-last-minute-ai-machine-learning-summer-internship-gen-ai-multimodal-7efd7d
@@ -1190,7 +1187,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: etched-supercomputing-intern-76c629
   company: Etched
@@ -1224,7 +1221,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: intercontinental-exchange-inc-artificial-intelligence-data-machine-learning-intern-f935cf
   company: Intercontinental Exchange, Inc.
@@ -1241,7 +1238,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: fortinet-software-development-intern-genai-c00b76
   company: Fortinet
@@ -1291,7 +1288,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: false
 - id: fortinet-ai-intern-d9de77
@@ -1382,8 +1379,7 @@
   date_estimated: false
 - id: bytedance-applied-research-intern-ai-safety-s-3a3777
   company: ByteDance
-  role: Applied Research Intern- AI Safety Security -Global Tech Research Program-2027
-    Start
+  role: Applied Research Intern- AI Safety Security -Global Tech Research Program-2027 Start
   location: San Jose, CA
   link: https://joinbytedance.com/search/7645070235035044101
   date_posted: '2026-07-23'
@@ -1418,8 +1414,8 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-trust-and-b4cc95
   company: TikTok
-  role: Applied Scientist Intern - Trust and Safety (Multimodal Foundation Model)
-    - Global Frontier Tech Recruitment Program - 2027 Start
+  role: Applied Scientist Intern - Trust and Safety (Multimodal Foundation Model) - Global
+    Frontier Tech Recruitment Program - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/position/7633668456744503557
   date_posted: '2026-04-28'
@@ -1431,7 +1427,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-research-intern-world-action-model-cb0362
@@ -1584,7 +1580,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: false
 - id: axiomatic-ai-internship-research-uncertainty-q-0cd516
@@ -1699,7 +1695,7 @@
   sources:
   - github_tracker:sndsh404
   date_added: '2026-07-24'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: true
 - id: manhattan-associates-a-i-developer-co-op-boston-ma-a7f3d1
@@ -1889,8 +1885,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-trust-and-safety-380f75
   company: TikTok
-  role: Research Scientist Intern (Trust and Safety - CV/NLP/Multimodal LLM) - 2027
-    Start
+  role: Research Scientist Intern (Trust and Safety - CV/NLP/Multimodal LLM) - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7662672903447988485
   date_posted: '2026-08-03'
@@ -1908,8 +1903,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-foundations-intelligence-service-32184c
   company: TikTok
-  role: Research Scientist Intern (Data-TnS-Algo-Foundations &amp; Intelligence Service)
-    - 2027 Start
+  role: Research Scientist Intern (Data-TnS-Algo-Foundations &amp; Intelligence Service) -
+    2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662677746436524293
   date_posted: '2026-08-03'
@@ -1928,8 +1923,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-basic-ranking-25be14
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027
-    Start
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667339583362025781
   date_posted: '2026-08-03'
@@ -1947,8 +1941,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-recommendation-2bb674
   company: TikTok
-  role: (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation) -
-    2027 Summer
+  role: (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662653087863081221
   date_posted: '2026-08-03'
@@ -1984,8 +1977,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-794421
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027
-    Summer
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667338938890930437
   date_posted: '2026-08-03'
@@ -2003,8 +1995,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-search-search-quality-82ee2d
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - 2027
-    Start
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7665475888805611781
   date_posted: '2026-08-03'
@@ -2040,8 +2031,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-search-quality-4a20a3
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - Summer
-    2027
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - Summer 2027
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7665475460339665157
   date_posted: '2026-08-03'
@@ -2060,8 +2050,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-neural-graphics-and-world-models-3565d3
   company: TikTok
-  role: Research Scientist Intern (TikTok-Neural Graphics and World Models) - 2027
-    Start
+  role: Research Scientist Intern (TikTok-Neural Graphics and World Models) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935738840090933
   date_posted: '2026-08-03'
@@ -2080,8 +2069,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-8abe31
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027
-    Summer
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667350291952765237
   date_posted: '2026-08-03'
@@ -2098,8 +2086,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-search-visual-search-bf8f1b
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027
-    Start
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667349591727278341
   date_posted: '2026-08-03'
@@ -2117,8 +2104,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-scientist-intern-content-ecology-llm-application-bf1ae0
   company: TikTok
-  role: Machine Learning Scientist Intern (TikTok - Content Ecology - LLM application)
-    - 2027 Start
+  role: Machine Learning Scientist Intern (TikTok - Content Ecology - LLM application) - 2027
+    Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667933770625599749
   date_posted: '2026-08-03'
@@ -2136,8 +2123,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-d447df
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation) - 2027
-    Summer
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667346576033777925
   date_posted: '2026-08-03'
@@ -2210,8 +2196,8 @@
   possible_duplicate_of: null
 - id: tiktok-generative-ai-researcher-intern-intelligent-creation-vision-and-graphics-92b290
   company: TikTok
-  role: Generative AI Researcher Intern (Intelligent Creation-Vision and Graphics)
-    - 2027 Start
+  role: Generative AI Researcher Intern (Intelligent Creation-Vision and Graphics) - 2027
+    Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668183035989281029
   date_posted: '2026-08-03'
@@ -2308,8 +2294,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-monetization-technology-business-integrity-04804f
   company: TikTok
-  role: Research Scientist Intern (Monetization Technology - Business Integrity) -
-    2027 Start
+  role: Research Scientist Intern (Monetization Technology - Business Integrity) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668204438271969589
   date_posted: '2026-08-03'
@@ -2328,8 +2313,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-engineer-intern-monetization-technology-business-integrity-4998e4
   company: TikTok
-  role: Research Engineer Intern (Monetization Technology - Business Integrity) -
-    2027 Summer
+  role: Research Engineer Intern (Monetization Technology - Business Integrity) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668202602270951733
   date_posted: '2026-08-03'
@@ -2346,8 +2330,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-monetization-technology-business-integrity-b35c69
   company: TikTok
-  role: Research Scientist Intern (Monetization Technology - Business Integrity) -
-    2027 Summer
+  role: Research Scientist Intern (Monetization Technology - Business Integrity) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668202600147552517
   date_posted: '2026-08-03'
@@ -2422,8 +2405,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-5c7e5c
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Local Service) - 2027
-    Summer
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Local Service) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668379675467761925
   date_posted: '2026-08-04'
@@ -2476,8 +2458,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-performance-monetization-ef3a91
   company: TikTok
-  role: (General Hire) Machine Learning Engineer Intern (Performance Monetization)
-    - 2027 Summer
+  role: (General Hire) Machine Learning Engineer Intern (Performance Monetization) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669693163422845237
   date_posted: '2026-08-04'
@@ -2569,8 +2551,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-performance-monetization-f89997
   company: TikTok
-  role: (General Hire) Machine Learning Engineer Intern (Performance Monetization)
-    - 2027 Start
+  role: (General Hire) Machine Learning Engineer Intern (Performance Monetization) - 2027
+    Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669693205558561077
   date_posted: '2026-08-04'
@@ -2604,8 +2586,8 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-search-recommendation-global-e-commerce-b2cb49
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation-Global
-    E-Commerce) - 2027 Summer
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation-Global E-Commerce)
+    - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7668383643375257909
   date_posted: '2026-08-04'
@@ -2756,8 +2738,7 @@
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-511a28
   company: ByteDance
-  role: Research Scientist Intern (Video Quality Analysis &amp; Coding Strategy) -
-    2027 Start
+  role: Research Scientist Intern (Video Quality Analysis &amp; Coding Strategy) - 2027 Start
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670375041041320245/detail
   date_posted: '2026-08-06'
@@ -2773,8 +2754,8 @@
   possible_duplicate_of: null
 - id: bytedance-applied-machine-learning-production-engineer-intern-aml-production-engineer-26bd7b
   company: ByteDance
-  role: Applied Machine Learning Production Engineer Intern (AML-Production Engineer)
-    - 2027 Summer
+  role: Applied Machine Learning Production Engineer Intern (AML-Production Engineer) - 2027
+    Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670009669494704437/detail
   date_posted: '2026-08-06'
@@ -2795,8 +2776,8 @@
   possible_duplicate_of: null
 - id: bytedance-machine-learning-research-scientist-intern-seed-ai-for-science-atomistic-ai-221962
   company: ByteDance
-  role: Machine Learning Research Scientist Intern (Seed AI for Science - Atomistic
-    AI) - 2027 Start
+  role: Machine Learning Research Scientist Intern (Seed AI for Science - Atomistic AI) -
+    2027 Start
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7670855041951795509/detail
   date_posted: '2026-08-07'
@@ -2873,8 +2854,7 @@
   possible_duplicate_of: null
 - id: microsoft-software-engineer-ai-ml-llm-intern-opportunities-for-university-students-redmond-3f132b
   company: Microsoft
-  role: 'Software Engineer: AI/ML & LLM Intern Opportunities for University Students
-    - Redmond'
+  role: 'Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond'
   location: Washington, DC
   link: https://apply.careers.microsoft.com/careers/job/1970393556922929
   date_posted: '2026-08-04'
@@ -2886,7 +2866,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ml-infra-2027-start-phd-c63f8f
   company: TikTok
@@ -2987,7 +2967,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: plusai-deep-learning-research-intern-multi-c9e544
   company: PlusAI
@@ -3037,7 +3017,7 @@
   - zapplyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-10'
   possible_duplicate_of: null
 - id: canva-phd-research-scientist-intern-d81831
   company: Canva
@@ -3261,8 +3241,7 @@
   possible_duplicate_of: null
 - id: bytedance-ai-infrastructure-engineer-intern-co-42cd1f
   company: ByteDance
-  role: AI Infrastructure Engineer Intern (Compute Efficiency &amp; Scheduling) -
-    2027 Summer
+  role: AI Infrastructure Engineer Intern (Compute Efficiency &amp; Scheduling) - 2027 Summer
   location: Seattle, WA
   link: https://joinbytedance.com/search/7668802157205965109
   date_posted: '2026-08-09'
@@ -3290,12 +3269,12 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-14'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-116983
   company: ByteDance
-  role: Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern
-    (AML-Ark-US) - 2027 Summer
+  role: Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern (AML-Ark-US)
+    - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7671105026009925893/detail
   date_posted: '2026-08-10'
@@ -3328,14 +3307,13 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  - github_tracker:zapplyjobs
   date_added: '2026-08-10'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: bytedance-agent-evaluation-evolution-machine-learning-engineer-intern-applied-machine-learning-ark-24d044
   company: ByteDance
-  role: Agent Evaluation &amp; Evolution Machine Learning Engineer Intern (AML-Ark-US)
-    - 2027 Summer
+  role: Agent Evaluation &amp; Evolution Machine Learning Engineer Intern (AML-Ark-US) - 2027
+    Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7671096345243535669/detail
   date_posted: '2026-08-10'
@@ -3350,24 +3328,6 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zapplyjobs
-  date_added: '2026-08-10'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: montenson-sustainability-engineer-intern-7074f3
-  company: Montenson
-  role: Sustainability Engineer Intern
-  location: Denver, CO
-  link: https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23367
-  date_posted: '2026-08-10'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
   date_added: '2026-08-10'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -3444,8 +3404,8 @@
   possible_duplicate_of: null
 - id: bytedance-agent-evaluation-evolution-machine-learning-engineer-intern-applied-machine-learning-ark-b5bc69
   company: ByteDance
-  role: Agent Evaluation & Evolution Machine Learning Engineer Intern - Applied Machine
-    Learning Ark
+  role: Agent Evaluation &amp; Evolution Machine Learning Engineer Intern (AML-Ark-US) - 2027
+    Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672391300141877557/detail
   date_posted: '2026-08-11'
@@ -3464,7 +3424,7 @@
   possible_duplicate_of: null
 - id: bytedance-machine-learning-engineer-intern-aml-engine-orchestration-7daea9
   company: ByteDance
-  role: Machine Learning Engineer Intern - AML-Engine-Orchestration
+  role: Machine Learning Engineer Intern (AML-Engine-Orchestration) - 2027 Start
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672382828525832501/detail
   date_posted: '2026-08-11'
@@ -3483,8 +3443,8 @@
   possible_duplicate_of: null
 - id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-c4e170
   company: ByteDance
-  role: Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern
-    - AML-ARK
+  role: Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern (AML-Ark-US)
+    - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672392998231050549/detail
   date_posted: '2026-08-11'
@@ -3498,24 +3458,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: deloitte-ai-and-data-engineering-summer-scholar-intern-government-public-services-213bff
-  company: Deloitte
-  role: AI and Data Engineering Summer Scholar Intern - Government & Public Services
-  location: Austin, TX
-  link: https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Summer-Scholar-AI-and-Data-Engineering/362479
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
   date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -3533,110 +3475,12 @@
   status: closed
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: institute-for-foundation-models-ai-research-internship-llm-5825ef
-  company: Institute for Foundation Models
-  role: AI Research Internship - LLM
-  location: Sunnyvale, CA
-  link: https://jobs.lever.co/ifm-us/5342e333-61b9-406d-bfea-61a687a94d1f
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: field-ai-robotics-research-intern-robot-learn-f126d1
-  company: Field AI
-  role: Robotics Research Intern, Robot Learn...
-  location: Pittsburgh, PA
-  link: https://jobs.lever.co/field-ai/a03d3102-4ebf-4557-9e0e-537ead53e24f
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: field-ai-robotics-research-internship-locomoti-4cb187
-  company: Field AI
-  role: Robotics Research Internship-Locomoti...
-  location: Irvine, CA
-  link: https://jobs.lever.co/field-ai/ce04c5b3-17c3-49aa-b833-a6bebbf9d23f
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: field-ai-robotics-research-internship-humanoi-49ed33
-  company: Field AI
-  role: Robotics Research Internship, Humanoi...
-  location: Boston, MA
-  link: https://jobs.lever.co/field-ai/2a2c8f00-3a28-481b-882c-33cb0ec4a3a0
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: toyota-research-institute-human-interactive-driving-intern-wo-cb5d03
-  company: Toyota Research Institute
-  role: Human Interactive Driving Intern – Wo...
-  location: Los Altos, CA
-  link: https://jobs.lever.co/tri/63d61db3-ac43-4c0d-8b9b-5006e3b92149
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: booz-allen-hamilton-ai-ran-telecommunications-engineer-in-5d6794
-  company: Booz Allen Hamilton
-  role: AI RAN Telecommunications Engineer In...
-  location: McLean, VA
-  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246415
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
   date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-recommendation-foundation-89e960
   company: TikTok
-  role: Machine Learning Engineer Intern - E-Commerce Recommendation Foundation
+  role: Machine Learning Engineer Intern (E-Commerce Recommendation Foundation) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7672883129493948677
   date_posted: '2026-08-12'
@@ -3654,7 +3498,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-recommendation-mall-53d08b
   company: TikTok
-  role: Machine Learning Engineer Intern - E-Commerce Recommendation Mall
+  role: Machine Learning Engineer Intern (E-Commerce Recommendation Mall) - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7672920375646488885
   date_posted: '2026-08-12'
@@ -3672,7 +3516,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-recommendation-foundation-372771
   company: TikTok
-  role: Machine Learning Engineer Intern - E-Commerce Recommendation Foundation
+  role: Machine Learning Engineer Intern (E-Commerce Recommendation Foundation) - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7672881840860940597
   date_posted: '2026-08-12'
@@ -3702,7 +3546,23 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
-  date_added: '2026-08-13'
+  date_added: '2026-08-12'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: institute-for-foundation-models-ai-research-internship-llm-5825ef
+  company: Institute for Foundation Models
+  role: AI Research Internship - LLM
+  location: Sunnyvale, CA
+  link: https://jobs.lever.co/ifm-us/5342e333-61b9-406d-bfea-61a687a94d1f
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: grant-thornton-tax-technology-intern-summer-2027-20edb9
@@ -3715,49 +3575,17 @@
   term: Summer 2027
   degree:
   - BS
-  status: closed
+  status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-13'
+  date_added: '2026-08-15'
   last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: campbell-soup-company-business-analyst-co-op-da-ai-922186
-  company: Campbell Soup Company
-  role: Business Analyst (Co-op), DA&AI
-  location: Remote (US)
-  link: https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65913
-  date_posted: '2026-07-14'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-13'
-  last_verified: '2026-08-13'
-  possible_duplicate_of: null
-- id: campbell-soup-company-business-analyst-co-op-da-ai-84c705
-  company: Campbell Soup Company
-  role: Business Analyst (Co-op), DA&AI
-  location: Remote (US)
-  link: https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65914
-  date_posted: '2026-07-14'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-13'
-  last_verified: '2026-08-13'
   possible_duplicate_of: null
 - id: sel-software-engineering-intern-ai-focus-0671a6
   company: SEL
   role: Software Engineering Intern - AI Focus
-  location: Pullman, WA
+  location: Washington, DC
   link: https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601
   date_posted: '2026-08-12'
   date_estimated: false
@@ -3767,9 +3595,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-13'
+  date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: bytedance-research-intern-ai-compute-efficienc-a124a4
@@ -3777,7 +3603,7 @@
   role: Research Intern (AI Compute Efficienc...
   location: Seattle, WA
   link: https://joinbytedance.com/search/7668802153418475829
-  date_posted: '2026-08-14'
+  date_posted: '2026-08-15'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -3785,7 +3611,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
-  date_added: '2026-08-14'
+  date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: mercedes-benz-r-d-north-america-ai-program-manager-intern-4d7648
@@ -3793,7 +3619,7 @@
   role: ​​AI Program Manager Intern​
   location: San Jose, CA
   link: https://jobs.lever.co/MBRDNA/a5501534-a21b-4e47-a249-37dac374210f
-  date_posted: '2026-08-14'
+  date_posted: '2026-08-15'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -3801,7 +3627,24 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
-  date_added: '2026-08-14'
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-ai-ran-telecommunications-engineer-in-5d6794
+  company: Booz Allen Hamilton
+  role: AI RAN Telecommunications Engineer In...
+  location: McLean, VA
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246415
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: bp-geoscience-intern-geoscientist-caefc9
@@ -3823,12 +3666,44 @@
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: berrydunn-consulting-intern-healthcare-data-management-and-strategy-8dcb2a
-  company: BerryDunn
-  role: Consulting Intern - Healthcare Data Management and Strategy
-  location: Portland, ME
-  link: https://careers-berrydunn.icims.com/jobs/3973/job?mobile=true&needsRedirect=false
-  date_posted: '2026-08-14'
+- id: campbell-soup-company-business-analyst-co-op-da-ai-84c705
+  company: Campbell Soup Company
+  role: Business Analyst (Co-op), DA&AI
+  location: Remote (US)
+  link: https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65914
+  date_posted: '2026-07-14'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: campbell-soup-company-business-analyst-co-op-da-ai-922186
+  company: Campbell Soup Company
+  role: Business Analyst (Co-op), DA&AI
+  location: Remote (US)
+  link: https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65913
+  date_posted: '2026-07-14'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-13'
+  last_verified: '2026-08-13'
+  possible_duplicate_of: null
+- id: deloitte-ai-and-data-engineering-summer-scholar-intern-government-public-services-213bff
+  company: Deloitte
+  role: AI and Data Engineering Summer Scholar Intern - Government & Public Services
+  location: Austin, TX
+  link: https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Summer-Scholar-AI-and-Data-Engineering/362479
+  date_posted: '2026-08-11'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -3836,8 +3711,72 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-15'
+  - github_tracker:chieler
+  date_added: '2026-08-12'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: field-ai-robotics-research-intern-robot-learn-f126d1
+  company: Field AI
+  role: Robotics Research Intern, Robot Learn...
+  location: Pittsburgh, PA
+  link: https://jobs.lever.co/field-ai/a03d3102-4ebf-4557-9e0e-537ead53e24f
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-12'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: field-ai-robotics-research-internship-humanoi-49ed33
+  company: Field AI
+  role: Robotics Research Internship, Humanoi...
+  location: Boston, MA
+  link: https://jobs.lever.co/field-ai/2a2c8f00-3a28-481b-882c-33cb0ec4a3a0
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-12'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: field-ai-robotics-research-internship-locomoti-4cb187
+  company: Field AI
+  role: Robotics Research Internship-Locomoti...
+  location: Irvine, CA
+  link: https://jobs.lever.co/field-ai/ce04c5b3-17c3-49aa-b833-a6bebbf9d23f
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-12'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: toyota-research-institute-human-interactive-driving-intern-wo-cb5d03
+  company: Toyota Research Institute
+  role: Human Interactive Driving Intern – Wo...
+  location: Los Altos, CA
+  link: https://jobs.lever.co/tri/63d61db3-ac43-4c0d-8b9b-5006e3b92149
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null

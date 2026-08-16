@@ -169,7 +169,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-13'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   date_estimated: false
 - id: magnera-corporation-it-data-analyst-intern-41a8c3
@@ -616,8 +616,7 @@
   date_estimated: false
 - id: american-express-campus-undergraduate-summer-internship-strategy-analytics-credit-fraud-risk-497517
   company: American Express
-  role: Campus Undergraduate Summer Internship - Strategy & Analytics - Credit & Fraud
-    Risk
+  role: Campus Undergraduate Summer Internship - Strategy & Analytics - Credit & Fraud Risk
   location: New York, NY
   link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011984
   date_posted: '2026-08-03'
@@ -788,8 +787,8 @@
   possible_duplicate_of: null
 - id: microsoft-software-engineer-data-platform-analytics-intern-opportunities-for-university-students-redmond-ef32c1
   company: Microsoft
-  role: 'Software Engineer: Data Platform/Analytics Intern Opportunities for University
-    Students - Redmond'
+  role: 'Software Engineer: Data Platform/Analytics Intern Opportunities for University Students
+    - Redmond'
   location: Washington, DC
   link: https://apply.careers.microsoft.com/careers/job/1970393556922931
   date_posted: '2026-08-04'
@@ -801,7 +800,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-intern-data-platform-analytics-b1ffd2
   company: Microsoft
@@ -851,7 +850,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: federal-reserve-system-graduate-intern-statistical-analysis-b2f8e0
   company: Federal Reserve System
@@ -921,7 +920,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: the-boeing-company-data-analytics-intern-ffa406
   company: The Boeing Company
@@ -955,23 +954,6 @@
   - github_tracker:chieler
   date_added: '2026-08-09'
   last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: caterpillar-2027-summer-corporate-intern-environmental-health-and-safety-395be8
-  company: Caterpillar
-  role: 2027 Summer Corporate Intern - Environmental, Health and Safety
-  location: Peoria, IL
-  link: https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Environmental--Health-and-Safety_R0000380458
-  date_posted: '2026-07-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:caterpillar
-  date_added: '2026-08-09'
-  last_verified: '2026-08-09'
   possible_duplicate_of: null
 - id: bytedance-data-lake-infrastructure-and-data-analytics-research-engineer-intern-applied-machine-learning-ark-9d250a
   company: ByteDance
@@ -1048,8 +1030,8 @@
   possible_duplicate_of: null
 - id: bytedance-data-lake-infrastructure-data-analytics-research-engineer-intern-applied-machine-learning-ark-5530fd
   company: ByteDance
-  role: Data Lake Infrastructure & Data Analytics Research Engineer Intern - Applied
-    Machine Learning Ark
+  role: Data Lake Infrastructure &amp; Data Analytics Research Engineer Intern (AML-Ark-US)
+    - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672394389001816325/detail
   date_posted: '2026-08-11'
@@ -1079,25 +1061,42 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
   date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: warner-bros-discovery-research-analytics-internships-atl-29d7d4
-  company: Warner Bros. Discovery
-  role: 'Research & Analytics Internships: ATL...'
-  location: Atlanta, GA
-  link: https://warnerbros.wd5.myworkdayjobs.com/global/job/GA-Atlanta-1050-Techwood-Drive-NW/Research---Analytics-Internships--ATL---Fall-2026_R000107483
-  date_posted: '2026-08-12'
-  date_estimated: false
+- id: lucid-motors-data-analyst-intern-9728d5
+  company: Lucid Motors
+  role: Data Analyst Intern
+  location: Amsterdam, NH
+  link: https://job-boards.greenhouse.io/lucidmotors/jobs/5156608007
+  date_posted: '2026-06-13'
+  date_estimated: true
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-12'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: conocophillips-trading-analytics-intern-990235
+  company: ConocoPhillips
+  role: Trading Analytics Intern
+  location: Houston, TX
+  link: https://conocophillips.wd1.myworkdayjobs.com/External/job/Houston-TX/Intern--Trading-Analytics-2027_REQ-006429
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-12'
   last_verified: '2026-08-15'
@@ -1116,25 +1115,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-13'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: delta-dental-internship-knowledge-science-624873
-  company: Delta Dental
-  role: Internship - Knowledge Science
-  location: Okemos, MI
-  link: https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Knowledge-Science_JR101405
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-13'
+  date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: vertiv-sales-data-analytics-intern-summer-2027-e4b53b
@@ -1150,10 +1131,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-14'
+  date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: vertiv-sales-data-analytics-intern-7efcc6
@@ -1170,8 +1149,108 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: the-nuclear-company-data-science-machine-learning-fellow-intern-302ab5
+  company: The Nuclear Company
+  role: Data Science & Machine Learning Fellow Intern
+  location: Washington, DC
+  link: https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: wec-energy-group-renewables-data-analytics-intern-26aaae
+  company: WEC Energy Group
+  role: Renewables Data Analytics Intern
+  location: Milwaukee, WI
+  link: https://careers.wecenergygroup.com/We_Energies/job/Milwaukee-Intern-Renewables-Data-Analytics-WI-53203/1419740100/?ats=successfactors
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: vertiv-planning-analytics-intern-summer-2027-a17f00
+  company: Vertiv
+  role: Planning Analytics Intern - Summer 2027
+  location: Westerville, OH
+  link: https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279236
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: guidewell-mutual-enterprise-analytics-intern-5a593a
+  company: GuideWell Mutual
+  role: Enterprise Analytics Intern
+  location: Jacksonville, FL
+  link: http://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41879
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: crowe-data-analytics-developer-intern-7677cf
+  company: Crowe
+  role: Data Analytics Developer Intern
+  location: Chicago, IL
+  link: https://crowe.wd12.myworkdayjobs.com/en-US/external_careers/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: delta-dental-internship-knowledge-science-624873
+  company: Delta Dental
+  role: Internship - Knowledge Science
+  location: Okemos, MI
+  link: https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Knowledge-Science_JR101405
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
   - github_tracker:zapplyjobs
-  date_added: '2026-08-14'
+  date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: pimco-client-solutions-analytics-analyst-intern-ebc2fd
@@ -1192,94 +1271,20 @@
   date_added: '2026-08-14'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: the-nuclear-company-data-science-machine-learning-fellow-intern-302ab5
-  company: The Nuclear Company
-  role: Data Science & Machine Learning Fellow Intern
-  location: Washington, DC
-  link: https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008
-  date_posted: '2026-08-14'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-15'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: wec-energy-group-renewables-data-analytics-intern-26aaae
-  company: WEC Energy Group
-  role: Renewables Data Analytics Intern
-  location: Milwaukee, WI
-  link: https://careers.wecenergygroup.com/We_Energies/job/Milwaukee-Intern-Renewables-Data-Analytics-WI-53203/1419740100/?ats=successfactors
-  date_posted: '2026-08-14'
+- id: warner-bros-discovery-research-analytics-internships-atl-29d7d4
+  company: Warner Bros. Discovery
+  role: 'Research & Analytics Internships: ATL...'
+  location: Atlanta, GA
+  link: https://warnerbros.wd5.myworkdayjobs.com/global/job/GA-Atlanta-1050-Techwood-Drive-NW/Research---Analytics-Internships--ATL---Fall-2026_R000107483
+  date_posted: '2026-08-12'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-15'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: vertiv-planning-analytics-intern-summer-2027-a17f00
-  company: Vertiv
-  role: Planning Analytics Intern - Summer 2027
-  location: Westerville, OH
-  link: https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279236
-  date_posted: '2026-08-14'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
   - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-15'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: guidewell-mutual-enterprise-analytics-intern-5a593a
-  company: GuideWell Mutual
-  role: Enterprise Analytics Intern
-  location: Jacksonville, FL
-  link: http://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41879
-  date_posted: '2026-08-14'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-15'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: crowe-data-analytics-developer-intern-7677cf
-  company: Crowe
-  role: Data Analytics Developer Intern
-  location: Chicago, IL
-  link: https://crowe.wd12.myworkdayjobs.com/en-US/external_careers/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041
-  date_posted: '2026-08-14'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-15'
+  date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null

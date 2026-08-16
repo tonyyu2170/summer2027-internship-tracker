@@ -174,7 +174,6 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   - github_tracker:zshah101
-  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -216,7 +215,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -234,7 +233,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -253,7 +252,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -272,7 +271,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -291,7 +290,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -329,7 +328,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -347,7 +346,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -388,7 +387,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -408,7 +407,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -498,7 +497,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -581,7 +580,7 @@
   - custom
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -602,7 +601,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -622,7 +621,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -664,7 +663,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
@@ -685,7 +684,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -706,7 +705,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -772,7 +771,7 @@
   - github_tracker:sndsh404
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
@@ -792,7 +791,7 @@
   - github_tracker:sndsh404
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -812,7 +811,7 @@
   - github_tracker:sndsh404
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -833,7 +832,7 @@
   - github_tracker:vanshb03
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -918,7 +917,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -937,7 +936,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -956,7 +955,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -975,7 +974,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -993,7 +992,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -1011,7 +1010,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -1029,7 +1028,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1047,7 +1046,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1065,7 +1064,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1083,7 +1082,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1101,7 +1100,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -1119,7 +1118,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -1137,7 +1136,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
@@ -1245,7 +1244,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Trading
 - id: susquehanna-quantitative-systematic-trading-intern-master-s-summer-2027-445736
@@ -1262,7 +1261,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Trading
 - id: chicago-trading-company-quant-trading-intern-summer-2027-5f6b11
@@ -1302,7 +1301,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Research
 - id: old-mission-software-engineer-intern-summer-2027-june-start-366d65
@@ -1319,7 +1318,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: akuna-capital-software-engineer-intern-summer-2027-python-c-full-stack-c-net-b4eac5
   company: Akuna Capital
@@ -1437,7 +1436,7 @@
   - github_tracker:sndsh404
   - link_checker
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Research
 - id: tower-research-capital-quantitative-trader-intern-04531f
@@ -1454,7 +1453,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
@@ -1472,7 +1471,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -1490,7 +1489,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Research
 - id: imc-trading-software-engineer-intern-f62566
@@ -1681,7 +1680,7 @@
   - github_tracker:sndsh404
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: d-e-shaw-quantitative-analyst-intern-phd-2e1ba1
   company: D. E. Shaw
@@ -1698,7 +1697,7 @@
   - github_tracker:sndsh404
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: d-e-shaw-systems-engineering-intern-c87bc6
   company: D. E. Shaw
@@ -1732,7 +1731,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: true
 - id: susquehanna-macro-analyst-intern-9d7c70
@@ -1749,7 +1748,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: true
 - id: susquehanna-quantitative-strategy-developer-intern-3006c7
@@ -1786,7 +1785,7 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: cubist-systematic-strategies-quantitative-developer-intern-f53f1c
   company: Cubist Systematic Strategies
@@ -1802,7 +1801,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -2079,7 +2078,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
   track: Research
 - id: citadel-quantitative-research-analyst-intern-us-cee269
@@ -2130,7 +2129,7 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Trading
 - id: jump-trading-campus-quantitative-researcher-phd-intern-a0b344
@@ -2392,7 +2391,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Research
 - id: cme-group-quant-risk-management-intern-year-round-b0121a
@@ -2424,7 +2423,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -2497,7 +2496,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Development
 - id: aquatic-capital-software-engineer-intern-efdc36
@@ -2514,7 +2513,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: point72-investment-analyst-intern-point72-academy-67aede
   company: Point72
@@ -2530,7 +2529,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
 - id: point72-quantitative-researcher-intern-a97c77
   company: Point72
@@ -2546,7 +2545,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Research
 - id: point72-quantitative-developer-intern-251025
@@ -2563,7 +2562,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Development
 - id: d-e-shaw-software-developer-ph-d-intern-new-15cbfa
@@ -2815,7 +2814,7 @@
   - custom
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -2853,7 +2852,7 @@
   - custom
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -2909,7 +2908,7 @@
   - custom
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
@@ -3431,7 +3430,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: false
 - id: akuna-capital-quantitative-research-intern-a0185e
@@ -3447,7 +3446,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: false
 - id: akuna-capital-quantitative-development-strategy-intern-758a36
@@ -3463,7 +3462,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: false
 - id: anthelion-capital-quant-developer-quant-research-intern-2026-2027-7cd240
@@ -3650,7 +3649,7 @@
   sources:
   - github_tracker:northwesternfintech
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
 - id: voloridge-quantitative-researcher-intern-c7030e
   company: Voloridge
@@ -3666,7 +3665,7 @@
   sources:
   - github_tracker:northwesternfintech
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-12'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-phd-85e7be
   company: Susquehanna International Group (SIG)
@@ -3977,7 +3976,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: drw-quantitative-trading-analyst-intern-968162
 - id: capula-trading-and-research-intern-7ae0a9
   company: Capula
@@ -4029,7 +4028,6 @@
   sources:
   - chieler
   - github_tracker:chieler
-  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -4140,7 +4138,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-08-11'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-11'
   possible_duplicate_of: cubist-systematic-strategies-quantitative-developer-intern-f53f1c
 - id: quantbot-technologies-quantitative-developer-intern-91fba2
   company: Quantbot Technologies
@@ -4156,9 +4154,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  - github_tracker:speedyapply
   date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -4218,24 +4216,6 @@
   date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: conocophillips-trading-analytics-intern-990235
-  company: ConocoPhillips
-  role: Trading Analytics Intern
-  location: Houston, TX
-  link: https://conocophillips.wd1.myworkdayjobs.com/External/job/Houston-TX/Intern--Trading-Analytics-2027_REQ-006429
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: northwestern-mutual-quantitative-analyst-intern-public-investments-511ad5
   company: Northwestern Mutual
   role: Quantitative Analyst Intern - Public Investments
@@ -4252,7 +4232,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zshah101
-  date_added: '2026-08-13'
+  date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: wells-fargo-quantitative-analytics-intern-capital-markets-masters-1bcea6
@@ -4268,165 +4248,6 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-13'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: wells-fargo-quantitative-analytics-intern-multiple-teams-b8e266
-  company: Wells Fargo
-  role: Quantitative Analytics Intern - Multiple Teams
-  location: Charlotte, NC
-  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-13'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: wells-fargo-quantitative-analytics-intern-multiple-teams-0a06ab
-  company: Wells Fargo
-  role: Quantitative Analytics Intern - Multiple Teams
-  location: Charlotte, NC
-  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--Masters----Early-Careers_R-568259
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-08-13'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
-  company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
-  location: CHARLOTTE, NC
-  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--Masters----Early-Careers_R-568270
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-13'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: wells-fargo-2027-quantitative-analytics-summer-in-959624
-  company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
-  location: CHARLOTTE, NC
-  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-13'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: wells-fargo-2027-quantitative-analytics-summer-in-f6f112
-  company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
-  location: CHARLOTTE, NC
-  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--Masters----Early-Careers_R-568259
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-13'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: infinitequant-quantitative-developer-internship-summer-2027-606c92
-  company: InfiniteQuant
-  role: Quantitative Developer - Internship - Summer 2027
-  location: Remote (US)
-  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-13'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: keybank-analytics-and-quantitative-modeling-intern-analytics-quantitative-modeling-a89ef2
-  company: KeyBank
-  role: Analytics and Quantitative Modeling Intern - Analytics & Quantitative Modeling
-  location: Cleveland, OH
-  link: https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Analytics-and-Quantitative-Modeling-Internship--Cleveland_R-41380
-  date_posted: '2026-08-14'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-14'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: pgim-public-credit-summer-investment-analyst-intern-portfolio-analysis-group-aabb0d
-  company: PGIM
-  role: Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group
-  location: Newark, NJ
-  link: https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Public-Credit--Summer-Investment-Analyst-Program--Portfolio-Analysis-Group-_R-124835
-  date_posted: '2026-08-14'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-15'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: prudential-financial-public-credit-summer-investment-analyst-intern-portfolio-analysis-group-09c2e5
-  company: Prudential Financial
-  role: Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group
-  location: Newark, NJ
-  link: https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Public-Credit--Summer-Investment-Analyst-Program--Portfolio-Analysis-Group-_R-124835-2
-  date_posted: '2026-08-14'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
@@ -4480,6 +4301,121 @@
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
+- id: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: CHARLOTTE, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--Masters----Early-Careers_R-568270
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: wells-fargo-2027-quantitative-analytics-summer-in-959624
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: CHARLOTTE, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
+- id: wells-fargo-2027-quantitative-analytics-summer-in-f6f112
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: CHARLOTTE, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--Masters----Early-Careers_R-568259
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
+- id: infinitequant-quantitative-developer-internship-summer-2027-606c92
+  company: InfiniteQuant
+  role: Quantitative Developer - Internship - Summer 2027
+  location: Remote (US)
+  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: wells-fargo-quantitative-analytics-intern-multiple-teams-b8e266
+  company: Wells Fargo
+  role: Quantitative Analytics Intern - Multiple Teams
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: wells-fargo-quantitative-analytics-intern-multiple-teams-0a06ab
+  company: Wells Fargo
+  role: Quantitative Analytics Intern - Multiple Teams
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--Masters----Early-Careers_R-568259
+  date_posted: '2026-08-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: wells-fargo-quantitative-analytics-intern-multiple-teams-b8e266
+- id: keybank-analytics-and-quantitative-modeling-intern-analytics-quantitative-modeling-a89ef2
+  company: KeyBank
+  role: Analytics and Quantitative Modeling Intern - Analytics & Quantitative Modeling
+  location: Cleveland, OH
+  link: https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Analytics-and-Quantitative-Modeling-Internship--Cleveland_R-41380
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
 - id: goldman-sachs-quantitative-strategist-associate-intern-the-core-quantitative-strats-fcc632
   company: Goldman Sachs
   role: Quantitative Strategist Associate Intern - The Core Quantitative Strats
@@ -4493,6 +4429,44 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: pgim-public-credit-summer-investment-analyst-intern-portfolio-analysis-group-aabb0d
+  company: PGIM
+  role: Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group
+  location: Newark, NJ
+  link: https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Public-Credit--Summer-Investment-Analyst-Program--Portfolio-Analysis-Group-_R-124835
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: prudential-financial-public-credit-summer-investment-analyst-intern-portfolio-analysis-group-09c2e5
+  company: Prudential Financial
+  role: Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group
+  location: Newark, NJ
+  link: https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Public-Credit--Summer-Investment-Analyst-Program--Portfolio-Analysis-Group-_R-124835-2
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null

@@ -28,27 +28,97 @@ def test_classify_role_basic_categories():
     assert classify_role("Software Engineer Intern") == "swe"
 
 
-def test_classify_role_routes_non_software_disciplines_to_hardware():
+def test_classify_role_routes_electronics_disciplines_to_hardware():
     # swe's bare `engineer` used to claim all of these.
     assert classify_role("Mechanical Engineering Intern (Summer 2027)") == "hardware"
-    assert classify_role("Intern, Industrial Engineering") == "hardware"
-    assert classify_role("WED - Intern Civil Engineer (Summer 2027)") == "hardware"
-    assert classify_role("Chemical Engineering Intern") == "hardware"
     assert classify_role("Electrical Engineering Intern") == "hardware"
-    assert classify_role("Biomedical Engineering Intern") == "hardware"
     assert classify_role("Optical Engineer Co-Op") == "hardware"
-    assert classify_role("Materials Engineering Intern") == "hardware"
-    # Only the "<discipline> engineer" form routes to hardware; the bare
-    # word stays in the out-of-scope DROP family.
-    assert classify_role("Materials Science Intern") == "__drop__"
     assert classify_role(
         "Raytheon Electrical Engineering Intern (Summer 2027)(Onsite)") == "hardware"
-    # The discipline has to modify "engineer": a bare-word match would
-    # misroute this genuinely-software role.
-    assert classify_role(
-        "Privacy and Civil Liberties Software Engineer Intern") == "swe"
     # In-scope specialties still win over the discipline rule.
     assert classify_role("Mechanical Engineer, Data Analytics Intern") == "data_science"
+
+
+def test_classify_role_drops_out_of_scope_engineering_disciplines():
+    # These routed to hardware, which turned hardware.yaml into the catch-all
+    # for every non-software discipline rather than chip/FPGA/embedded work.
+    assert classify_role("Intern, Industrial Engineering") == "__drop__"
+    assert classify_role("WED - Intern Civil Engineer (Summer 2027)") == "__drop__"
+    assert classify_role("Chemical Engineering Intern") == "__drop__"
+    assert classify_role("Biomedical Engineering Intern") == "__drop__"
+    assert classify_role("Materials Engineering Intern") == "__drop__"
+    assert classify_role("Materials Science Intern") == "__drop__"
+    assert classify_role("Manufacturing Engineer - Intern") == "__drop__"
+    assert classify_role(
+        "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern"
+    ) == "__drop__"
+    assert classify_role(
+        "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering"
+    ) == "__drop__"
+    assert classify_role("Custom Packaging Design Engineer Co-Op") == "__drop__"
+    assert classify_role(
+        "Repair Structures Intern - Aftermarket Sustainment Engineering") == "__drop__"
+    # In the out-of-scope family at the bottom of the table too, but nothing
+    # naming "engineer" reaches it — swe claims the row first.
+    assert classify_role("Thermal Engineer Intern - Summer 2027") == "__drop__"
+    assert classify_role("Thermal Application Engineer Intern") == "__drop__"
+    assert classify_role("Sustainability Engineer Intern") == "__drop__"
+    # Hardware is checked before the drop list, so a title naming both keeps
+    # its discipline instead of dropping on the out-of-scope word.
+    assert classify_role(
+        "Mechanical Engineering & System Packaging Intern") == "hardware"
+
+
+def test_discipline_rules_do_not_require_adjacency_to_engineer():
+    # A `<discipline>\s+engineer` rule missed both of these — one puts a word
+    # between the two, the other inverts them — and swe claimed them.
+    assert classify_role("Mechanical Design Engineering Intern") == "hardware"
+    assert classify_role("Student Engineering Intern - Civil") == "__drop__"
+    assert classify_role("Intern-Engineering (MEMS Design)") == "hardware"
+    assert classify_role(
+        "2027 Returning Intern - Microwave/Semiconductor Engineer") == "hardware"
+    assert classify_role(
+        "2027 Operations Manufacturing Engineering Intern") == "__drop__"
+
+
+def test_software_titles_are_never_claimed_by_a_discipline_rule():
+    # Dropping the adjacency requirement means only this guard stops a
+    # discipline word anywhere in a software title from stealing the row.
+    assert classify_role(
+        "Privacy and Civil Liberties Software Engineer Intern") == "swe"
+    assert classify_role(
+        "Software Engineer Intern (TikTok-Generalized Arch-Code Intelligence "
+        "& Quality Validation) - 2027 Summer") == "swe"
+    assert classify_role(
+        "2026 Intern Conversion - Aerospace Software Apps Engineer I") == "swe"
+    assert classify_role("Manufacturing Systems Developer Intern") == "swe"
+    # A bare CS title matches nothing else, so without `computer science` in
+    # the swe rule this dropped on the `materials` in its own subtitle.
+    assert classify_role(
+        "Computer Science Intern - Advanced Structures and Materials") == "swe"
+    assert classify_role(
+        "Research Intern - School of Computer Science - LTI") == "swe"
+    # \b guards: "Infrastructure" contains "structur", and an unguarded
+    # substring check dropped these AI/platform roles.
+    assert classify_role(
+        "AI Infrastructure Engineer Intern (Compute Efficiency)") == "ai_ml"
+    assert classify_role("Infrastructure Engineer Intern") == "swe"
+
+
+def test_watch_list_fallback_families_resolve_deterministically():
+    # fetch_companies files an unclassifiable board posting under the
+    # company's watch-list category, so these landed in swe (Uline, HNTB) and
+    # data_science (Caterpillar) rather than being dropped.
+    assert classify_role("Warehouse Management Internship - Summer 2027") == "__drop__"
+    assert classify_role("Sales Analyst Internship - Summer 2027") == "__drop__"
+    assert classify_role(
+        "Returning Intern Inspector - Summer 2027 (Southeast Division)") == "__drop__"
+    assert classify_role(
+        "Returning Intern/Co-op Planner/Project Controls - NED Summer 2027") == "__drop__"
+    assert classify_role(
+        "2027 Summer Corporate Intern - Environmental, Health and Safety") == "__drop__"
+    assert classify_role(
+        "PW1100G Propulsion Systems Analysis Intern (Summer 2027) (Onsite)") == "__drop__"
 
 
 def test_classify_role_returns_none_when_no_rule_matches():
@@ -160,6 +230,18 @@ def test_drop_families_checked_last_so_in_scope_keywords_win():
     assert classify_role("Machine Learning Operations Intern") == "ai_ml"
     assert classify_role("Manufacturing Data Analyst Intern") == "data_science"
     assert classify_role("Pharmaceutical Data Science Intern") == "data_science"
+
+
+def test_reinforcement_learning_titles_reach_ai_ml():
+    # "Reinforcement Learning" carries neither \bml\b nor \bai\b, so these
+    # titles used to match no rule at all and park in unclassified.json —
+    # five such rows already sit in data/ai_ml.yaml, categorized upstream.
+    assert classify_role("Reinforcement Learning Planning Research Intern") == "ai_ml"
+    assert classify_role(
+        "PhD Research Scientist Intern - Reinforcement Learning for Diffusion Modelling"
+    ) == "ai_ml"
+    # An in-scope keyword still can't override an earlier rule.
+    assert classify_role("Quantitative Researcher Intern - Reinforcement Learning") == "quant"
 
 
 def test_new_in_scope_families():
