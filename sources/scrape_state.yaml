@@ -1,22 +1,26 @@
 _last_fetch:
   drops:
     github_tracker:chieler:
-      category_drop: 323
-      unclassified: 25
+      category_drop: 648
     github_tracker:simplifyjobs:
-      category_drop: 109
-      closed_marker_untracked: 384
+      category_drop: 216
+      closed_marker_untracked: 772
+    github_tracker:sndsh404:
+      category_drop: 92
     github_tracker:speedyapply:
-      category_drop: 12
+      category_drop: 20
     github_tracker:suryaharikrishnan:
-      category_drop: 101
-      closed_marker_untracked: 344
+      category_drop: 208
+      closed_marker_untracked: 656
+    github_tracker:vanshb03:
+      category_drop: 28
+      closed_marker_untracked: 104
     github_tracker:zapplyjobs:
-      category_drop: 377
-      unclassified: 21
+      category_drop: 745
+      unclassified: 6
     github_tracker:zshah101:
-      category_drop: 2
-      closed_marker_untracked: 28
+      category_drop: 4
+      closed_marker_untracked: 56
 _last_program_check:
   closed: 26
   fetch_failed: 4
@@ -26,38 +30,44 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 78
-  closed: 19
-  ran_at: 2026-08-15 12:52
+  new: 4
+  closed: 4
+  ran_at: 2026-08-16 00:19
   drops:
     github_tracker:chieler:
-      unclassified: 25
-      category_drop: 323
-      missing_field: 472
+      category_drop: 648
+      missing_field: 428
     github_tracker:simplifyjobs:
-      closed_marker_untracked: 384
-      category_drop: 109
-      missing_field: 39
+      closed_marker_untracked: 772
+      category_drop: 216
+      missing_field: 33
+    github_tracker:sndsh404:
+      category_drop: 92
+      missing_field: 2
     github_tracker:speedyapply:
-      category_drop: 12
+      category_drop: 20
       missing_field: 5
     github_tracker:suryaharikrishnan:
-      closed_marker_untracked: 344
-      category_drop: 101
-      missing_field: 32
+      category_drop: 208
+      closed_marker_untracked: 656
+      missing_field: 34
+    github_tracker:vanshb03:
+      closed_marker_untracked: 104
+      category_drop: 28
+      missing_field: 7
     github_tracker:zapplyjobs:
-      category_drop: 377
-      unclassified: 21
-      missing_field: 80
+      category_drop: 745
+      unclassified: 6
+      missing_field: 76
     github_tracker:zshah101:
-      closed_marker_untracked: 28
-      category_drop: 2
-      missing_field: 17
+      closed_marker_untracked: 56
+      category_drop: 4
+      missing_field: 11
 chieler:
   path: README.md
   row_count: 1165
-  scraped_at: '2026-08-15'
-  sha: b27e065634dc04b80b089ab01cdaca8fa7a40be5
+  scraped_at: '2026-08-16'
+  sha: null
 company_sources:
   company:appian:
     last_success: '2026-08-09'
@@ -178,36 +188,36 @@ northwesternfintech:
   sha: e893de31b7cda543bb63f8b45c8f36766e4c9861
 simplifyjobs:
   path: .github/scripts/listings.json
-  row_count: 681
-  scraped_at: '2026-08-15'
-  sha: 15b8ea2eac6ce3bacce8b00ca2ee3c58cf5671da
+  row_count: 682
+  scraped_at: '2026-08-16'
+  sha: null
 sndsh404:
   path: README.md
   row_count: 112
-  scraped_at: '2026-08-11'
-  sha: f2d77c85c3f847c0b9ca221e21a8fbd1c10e7599
+  scraped_at: '2026-08-16'
+  sha: null
 speedyapply:
   path: README.md
   row_count: 182
-  scraped_at: '2026-08-15'
-  sha: c2bebe59d2b28bf96f89f5bdef270964cf90d4de
+  scraped_at: '2026-08-16'
+  sha: null
 suryaharikrishnan:
   path: data/listings.json
-  row_count: 588
-  scraped_at: '2026-08-15'
-  sha: bd855606a6a6d9d44132391ab444d7986600d1c5
+  row_count: 593
+  scraped_at: '2026-08-16'
+  sha: null
 vanshb03:
   path: .github/scripts/listings.json
   row_count: 224
-  scraped_at: '2026-08-11'
-  sha: 92f1c9b017012c95653d344d8a3169abdf2f7203
+  scraped_at: '2026-08-16'
+  sha: null
 zapplyjobs:
   path: README.md
-  row_count: 466
-  scraped_at: '2026-08-15'
-  sha: 39a8b3aa964e13da675a50a8a9e8da7847089621
+  row_count: 463
+  scraped_at: '2026-08-16'
+  sha: null
 zshah101:
   path: data/jobs.json
-  row_count: 111
-  scraped_at: '2026-08-15'
-  sha: f553cd0572a51ff6ce26b6b5486153b40eaba6d7
+  row_count: 112
+  scraped_at: '2026-08-16'
+  sha: null
