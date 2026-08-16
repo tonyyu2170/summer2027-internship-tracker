@@ -7658,7 +7658,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-16'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-forward-deployed-s-c8e66a
   company: Palantir
@@ -7777,6 +7777,8 @@
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-16'
   last_verified: '2026-08-16'
   possible_duplicate_of: null
