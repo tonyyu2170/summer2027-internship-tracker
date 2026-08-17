@@ -4012,7 +4012,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -5796,7 +5796,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-17'
   possible_duplicate_of: null
 - id: ing-summer-2027-internship-tech-information-security-a2b000
   company: ING
@@ -6407,7 +6407,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6837,7 +6837,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-15'
@@ -7779,6 +7779,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
+  - github_tracker:speedyapply
   date_added: '2026-08-16'
   last_verified: '2026-08-17'
   possible_duplicate_of: null
@@ -7813,4 +7814,69 @@
   - github_tracker:zapplyjobs
   date_added: '2026-08-16'
   last_verified: '2026-08-16'
+  possible_duplicate_of: null
+- id: w-w-grainger-software-engineer-intern-grainger-technology-group-908349
+  company: W.W. Grainger
+  role: Software Engineer Intern - Grainger Technology Group
+  location: Chicago, IL
+  link: https://jobs.grainger.com/job/CHICAGO-GTG-Intern-Software-Engineer-IL-60661-4555/1419930800/?ats=successfactors
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-17'
+  last_verified: '2026-08-17'
+  possible_duplicate_of: null
+- id: american-express-software-engineer-intern-enterprise-technology-services-39a020
+  company: American Express
+  role: Software Engineer Intern - Enterprise Technology Services
+  location: Charlotte, NC
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-17'
+  last_verified: '2026-08-17'
+  possible_duplicate_of: null
+- id: american-express-software-engineer-intern-enterprise-technology-services-72a313
+  company: American Express
+  role: Software Engineer Intern - Enterprise Technology Services
+  location: New York, NY
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-17'
+  last_verified: '2026-08-17'
+  possible_duplicate_of: null
+- id: tiktok-data-engineer-intern-data-platform-global-live-77eec8
+  company: TikTok
+  role: Data Engineer Intern - Data Platform Global Live
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7674032146438162693
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-17'
+  last_verified: '2026-08-17'
   possible_duplicate_of: null

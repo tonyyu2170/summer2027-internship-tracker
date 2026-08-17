@@ -1302,3 +1302,20 @@
   date_added: '2026-08-12'
   last_verified: '2026-08-17'
   possible_duplicate_of: null
+- id: ryan-companies-business-intelligence-intern-mission-critical-dd587b
+  company: Ryan Companies
+  role: Business Intelligence Intern - Mission Critical
+  location: Des Moines, IA
+  link: https://ryancompanies.wd5.myworkdayjobs.com/ryancompanies/job/Minneapolis/Business-Intelligence-Intern--Mission-Critical_R-101961
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-17'
+  last_verified: '2026-08-17'
+  possible_duplicate_of: null

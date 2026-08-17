@@ -3853,3 +3853,19 @@
   date_added: '2026-08-17'
   last_verified: '2026-08-17'
   possible_duplicate_of: null
+- id: w-w-grainger-business-systems-analyst-intern-458617
+  company: W.W. Grainger
+  role: Business Systems Analyst Intern
+  location: Chicago, IL
+  link: https://jobs.grainger.com/job/CHICAGO-GTG-Intern-Business-Systems-Analyst-IL-60654-4203/1419931200/?ats=successfactors
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-17'
+  last_verified: '2026-08-17'
+  possible_duplicate_of: null
