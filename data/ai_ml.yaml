@@ -3837,3 +3837,19 @@
   date_added: '2026-08-17'
   last_verified: '2026-08-17'
   possible_duplicate_of: null
+- id: bytedance-ai-creator-operations-intern-capcut-df9009
+  company: ByteDance
+  role: AI Creator Operations Intern (CapCut)...
+  location: Los Angeles, CA
+  link: https://joinbytedance.com/search/7673715653065525509
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-17'
+  last_verified: '2026-08-17'
+  possible_duplicate_of: null

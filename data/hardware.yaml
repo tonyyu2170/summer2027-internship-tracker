@@ -637,7 +637,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-16'
+  last_verified: '2026-08-17'
   possible_duplicate_of: null
   date_estimated: false
 - id: wsp-electrical-engineering-intern-substa-58615e
@@ -1080,7 +1080,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-16'
+  last_verified: '2026-08-17'
   possible_duplicate_of: null
   date_estimated: true
 - id: ambarella-asic-design-engineer-intern-7b4044
@@ -2581,6 +2581,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-17'
   last_verified: '2026-08-17'
   possible_duplicate_of: null
