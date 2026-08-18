@@ -4565,6 +4565,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: point72-quantitative-developer-intern-251025
@@ -4581,6 +4582,9 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -4597,6 +4601,9 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null

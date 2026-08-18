@@ -811,3 +811,28 @@ https://nro.applytojob.com/apply/oZyJp3ZEQh/2027-Dr-Chris-Scolese-Summer-Interns
 # data_science on `analytics` in the title, but the two sibling Summer Scholar
 # postings above are already recorded as __drop__ consulting.
 https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-Forensic-Analytics/363251: __drop__
+# scrape 2026-08-18: zapplyjobs rows no rule could classify.
+# RTX Longueuil/Saint-Hubert stages are Quebec winter-term co-ops in
+# manufacturing quality, technical investigation, continuous improvement and
+# law — non-US and outside the six categories.
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage-Hiver-2027---Analyste-de-Fabrication-Qualite---Internship-Winter-2027-Winter---Manufacturing---Quality-Analyst_01864107: __drop__
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage-Hiver-2027---Enquteur-Technique---Internship-Winter-2027---Technical-Investigator_01866082: __drop__
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage-Hiver-2027----Spcialiste-en-amlioration-continue---Winter-2027-Internship---Continuous-Improvement-Intern_01865161: __drop__
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver---Etudiant-en-droit---Internship---Winter---Legal-student_01867495: __drop__
+# Title truncated upstream to "2027 Summer Intern - Technology Analy..."; the
+# req is "Technology Analyst, Software Engineering" in Austin, TX.
+https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745: swe
+# PIMCO/Invesco investment-side analyst programmes (capital markets, trade
+# support, bank loans, fundamental equities COO) — finance, not quant research
+# or trading, so none of the six categories apply.
+https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Capital-Markets-Group-Analyst_R106743: __drop__
+https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Trade-Support-Analyst_R106744: __drop__
+https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Investments--Bank-Loans-_R-15095-1: __drop__
+https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Fundamental-Equities-COO-Office_R-15097-1: __drop__
+# Quality engineering and IT audit: same out-of-scope families as the
+# existing drops above.
+https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Quality_R-26-19130: __drop__
+https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Information-Technology--IT--Audit-Intern_R9392: __drop__
+# scrape 2026-08-18: zapplyjobs tagged this Summer 2027, but the req slug and
+# the (truncated) title both say Spring 2027 — wrong term for this listing.
+https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1: __drop__

@@ -899,7 +899,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:speedyapply
@@ -6855,7 +6855,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
@@ -6911,7 +6911,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -8229,6 +8229,7 @@
   sources:
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -8246,6 +8247,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -8279,6 +8281,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -8296,6 +8300,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -8329,6 +8335,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -8364,6 +8371,23 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: intel-software-development-graduate-intern-51d6d9
+  company: Intel
+  role: Software Development Graduate Intern
+  location: Folsom, CA
+  link: https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null

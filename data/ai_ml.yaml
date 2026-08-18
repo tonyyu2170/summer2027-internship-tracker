@@ -2651,7 +2651,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4030,6 +4030,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -4046,6 +4048,24 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: arkansas-center-for-data-sciences-align-ai-software-development-intern-c6c755
+  company: Arkansas Center for Data Sciences
+  role: Align AI Software Development Intern
+  location: Bentonville, AR
+  link: https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
