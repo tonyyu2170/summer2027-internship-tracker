@@ -4403,7 +4403,7 @@
   term: Summer 2027
   degree:
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-15'
@@ -4497,6 +4497,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -4513,6 +4515,88 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: wells-fargo-quantitative-analytics-intern-multiple-teams-bb7d21
+  company: Wells Fargo
+  role: Quantitative Analytics Intern - Multiple Teams
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-Masters----Early-Careers_R-569402
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: wells-fargo-quantitative-analytics-intern-multiple-teams-0a06ab
+- id: wells-fargo-2027-quantitative-analytics-summer-in-52fefb
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: CHARLOTTE, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-Masters----Early-Careers_R-569402
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-f6f112
+- id: point72-quantitative-developer-intern-678962
+  company: Point72
+  role: Quantitative Developer Intern
+  location: New York, NY
+  link: https://boards.greenhouse.io/point72/jobs/8721562002?gh_jid=8721562002
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: point72-quantitative-developer-intern-251025
+- id: xantium-quantitative-developer-intern-a092e7
+  company: Xantium
+  role: Quantitative Developer Intern
+  location: London, NY
+  link: https://job-boards.greenhouse.io/xantium/jobs/4360768009
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: xantium-quantitative-researcher-internship-dbf816
+  company: Xantium
+  role: Quantitative Researcher Internship
+  location: London, NY
+  link: https://job-boards.greenhouse.io/xantium/jobs/4371217009
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null

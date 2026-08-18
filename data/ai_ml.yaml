@@ -3885,6 +3885,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -3901,6 +3904,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -3917,6 +3923,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -3933,6 +3941,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -3949,6 +3960,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: american-express-ai-engineer-intern-enterprise-technology-services-28f75a
@@ -3965,6 +3978,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null
@@ -3994,6 +4008,41 @@
   term: Summer 2027
   degree:
   - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: american-express-ai-engineer-intern-enterprise-technology-services-717447
+  company: American Express
+  role: AI Engineer Intern - Enterprise Technology Services
+  location: Sunrise, FL
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011745
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: american-express-ai-engineer-intern-enterprise-technology-services-eac109
+  company: American Express
+  role: AI Engineer Intern - Enterprise Technology Services
+  location: Atlanta, GA
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
   status: open
   sources:
   - github_tracker:simplifyjobs

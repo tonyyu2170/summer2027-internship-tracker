@@ -875,7 +875,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: true
 - id: anduril-2027-mechanical-engineer-intern-8420b9
@@ -2424,7 +2424,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -2584,5 +2584,21 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-17'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: rtx-systems-engineering-intern-3f21f4
+  company: RTX
+  role: Systems Engineering Intern
+  location: Portsmouth, RI
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-RI-PORTSMOUTH-PS1--1847-W-Main-Rd--NIMITZ-BLDG/XMLNAME-2027-Portsmouth-Systems-Engineering-Intern_01867557
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-18'
   last_verified: '2026-08-18'
   possible_duplicate_of: null

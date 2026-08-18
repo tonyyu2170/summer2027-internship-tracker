@@ -760,3 +760,54 @@ https://nrel.wd5.myworkdayjobs.com/NLR/job/Boulder-CO/Graduate--Year-Round--Inte
 : __drop__
 ? https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/XMLNAME-2027-Engineering-Corporate-Internship-Program-Welding_R0000380506
 : __drop__
+# 2026-08-18 scheduled run (evening): unclassified.json adjudication.
+# In scope:
+# KeyBank KT&S Security/Business & Strategy track; sibling Technology Track
+# req R-41382 above is already recorded as swe, same programme [soft call].
+? https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Security--Business---Strategy-Track-Internship--Cleveland_R-41390
+: swe
+# AeroVect autonomy stack (autonomous ground-handling vehicles) - software
+# role; read as swe rather than ai_ml since the title names no ML [soft call].
+https://jobs.smartrecruiters.com/AeroVect/743999725988642: swe
+# American Fidelity "Data Internship", Oklahoma City.
+https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Data-Internship--Okalhoma-City-Local-Only-_JR1024: data_science
+# Google Research PhD "Research Scientist" intern.
+https://www.google.com/about/careers/applications/jobs/results/134795423167455942: ai_ml
+# Off scope for the six tracked categories:
+# growth/ops, not engineering
+https://jobs.ashbyhq.com/leland/23c6dd75-cc1e-457b-a666-2fbf944540e1: __drop__
+# IT business analyst (access management); cf. the LPL/Solar Turbines BA drops
+https://jobs.smartrecruiters.com/FannieMae1SB/743999744532787: __drop__
+# clinical data management at a clinical-trials vendor, not data science
+https://jobs.smartrecruiters.com/ClinicalInk/89163444: __drop__
+# generic research analyst at an outdoor-travel company
+https://jobs.smartrecruiters.com/HuckAdventures/743999747985535: __drop__
+# Riveron is a business-advisory firm; same family as the consulting drops
+https://jobs.ashbyhq.com/riveron/a1c4ef22-34a2-43b8-950d-ca6288cc17a1/application?embed=true: __drop__
+# campus ed-tech / learning-technology support
+https://studentemployment-stthomas.icims.com/jobs/9527/job?mobile=true&needsRedirect=false: __drop__
+# e-commerce category management (merchandising), not engineering
+https://lifeattiktok.com/search/7674880292247406901: __drop__
+# undifferentiated agency-wide internship programme, no tracked discipline
+https://nro.applytojob.com/apply/oZyJp3ZEQh/2027-Dr-Chris-Scolese-Summer-Internship-Program: __drop__
+# battery/materials R&D, and the title says Fall 2026 rather than Summer 2027
+? https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Fall-2026-PhD-Battery---Sustainability-Intern---Battery-Research-and-Development_JR-202618049
+: __drop__
+? https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Fall-2026-PhD-Battery---Sustainability-Intern----Battery-Research-and-Development_JR-202618053
+: __drop__
+# Toronto, Canada and a Winter 2027 4-month term; non-US and wrong term
+? https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/Winter-2027---GRM--CMM-Analyst-Intern--4-Months-_R-0000184636-1
+: __drop__
+# Raytheon modeling/simulation & analysis - defence systems analysis, which is
+# the aerospace family the DROP rules already cover [soft call].
+? https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-9020--9020-S-Rita-Rd--BLDG-9020/Modeling--Simulation---Analysis-Intern--Summer-2027-_01867118
+: __drop__
+# 2026-08-18 scheduled run (evening): dropped from this run's new rows.
+# Title and Workday slug both say Spring 2027; the tracker's term field said
+# Summer 2027. This repo tracks Summer 2027 only (cf. the 2027 Fall drop above).
+? https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Spring-2027-_01864146
+: __drop__
+# Deloitte "Consultative Offerings ... Summer Scholar" family; matched
+# data_science on `analytics` in the title, but the two sibling Summer Scholar
+# postings above are already recorded as __drop__ consulting.
+https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-Forensic-Analytics/363251: __drop__
