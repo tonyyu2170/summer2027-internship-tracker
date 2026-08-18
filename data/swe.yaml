@@ -13,7 +13,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: uber-software-engineering-intern-summer-2027-uber-career-prep-77e5f2
   company: Uber
@@ -29,7 +29,7 @@
   - github_tracker
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: western-digital-software-engineering-intern-summer-2027-6857a4
   company: Western Digital
@@ -51,7 +51,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: the-trade-desk-software-engineering-intern-north-america-summer-2027-1d904d
   company: The Trade Desk
@@ -73,7 +73,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: neuralink-software-engineer-intern-bci-applications-7e2a2f
   company: Neuralink
@@ -90,7 +90,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bae-systems-software-engineering-intern-i-summer-2027-f0046c
   company: BAE Systems
@@ -107,7 +107,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: palantir-software-engineer-intern-d83bf2
   company: Palantir
@@ -126,7 +126,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: palantir-software-engineer-intern-infrastructure-a28252
   company: Palantir
@@ -143,8 +143,9 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: palantir-software-engineer-intern-production-infrastructure-adf365
   company: Palantir
@@ -161,7 +162,7 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: palantir-software-engineer-intern-defense-tech-d6f9c5
   company: Palantir
@@ -177,8 +178,9 @@
   - github_tracker
   - github_tracker:sndsh404
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: palantir-forward-deployed-software-engineer-intern-commercial-f08121
   company: Palantir
@@ -200,7 +202,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-forward-deployed-software-engineer-intern-07a275
   company: Palantir
@@ -220,7 +222,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: circleback-software-engineering-intern-summer-2027-ae1c5e
@@ -239,7 +241,7 @@
   - link_checker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: liveramp-software-engineer-intern-pixel-serving-d4be07
   company: LiveRamp
@@ -257,7 +259,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: stoke-space-software-engineer-intern-2d589c
   company: Stoke Space
@@ -274,7 +276,7 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: lufco-summer-intern-cs-software-engineering-6bd743
   company: LufCo
@@ -291,7 +293,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: true
 - id: epic-software-developer-intern-12c9bd
@@ -309,7 +311,7 @@
   - github_tracker:chieler
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: true
 - id: salesforce-software-engineer-intern-futureforce-d47847
@@ -329,7 +331,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: podium-software-engineering-intern-bfbc3b
@@ -349,7 +351,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: kudu-dynamics-software-engineer-intern-1-59088d
@@ -369,7 +371,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: kudu-dynamics-software-engineer-intern-2-eeb983
@@ -388,7 +390,7 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: kudu-dynamics-software-engineer-intern-3-07c1f0
@@ -407,7 +409,7 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: nash-full-stack-engineering-intern-36f4a5
@@ -426,7 +428,7 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: paragon-forward-deployed-engineer-intern-6dece6
@@ -445,7 +447,7 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: google-software-engineering-intern-ms-summer-2027-456a39
@@ -465,7 +467,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: google-software-engineering-intern-bs-summer-2027-1e300e
   company: Google
@@ -484,7 +486,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: mathtech-web-application-developer-intern-2b5af6
   company: Mathtech
@@ -500,7 +502,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-769543
   company: Copart
@@ -517,7 +519,7 @@
   - github_tracker:speedyapply
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: sel-software-engineer-intern-624e31
   company: SEL
@@ -535,7 +537,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-836bbe
   company: Copart
@@ -552,7 +554,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: ge-healthcare-edison-engineering-development-program-intern-software-537e26
@@ -572,7 +574,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: hyperlight-software-engineer-intern-881e62
   company: HyperLight
@@ -591,7 +593,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: composio-full-stack-intern-18b4bb
   company: Composio
@@ -623,7 +625,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-cce1c8
   company: Copart
@@ -639,7 +641,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-cec41d
   company: Copart
@@ -671,7 +673,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: joby-aviation-software-engineer-intern-air-taxi-d2fe2d
   company: Joby Aviation
@@ -704,7 +706,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: serval-software-engineer-intern-6afd5e
@@ -721,7 +723,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: black-cape-us-military-skillbridge-internship-software-engineer-arlington-va-c6649f
@@ -738,7 +740,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: exowatt-software-engineering-intern-inventory-automation-iot-robotics-5f05b2
   company: Exowatt
@@ -775,7 +777,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: tencent-cloud-media-services-intern-4106a0
@@ -811,7 +813,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: sony-software-engineer-intern-247866
@@ -829,7 +831,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ctgt-software-engineering-intern-summer-2027-4594b9
   company: CTGT
@@ -848,7 +850,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: altasciences-process-innovation-software-engineering-intern-6191f8
@@ -904,7 +906,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: centerfield-software-engineer-intern-1d8295
@@ -923,7 +925,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: ge-vernova-grid-automation-software-intern-97c804
@@ -990,7 +992,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: prospect-equities-backend-frontend-developer-intern-16a1b7
   company: Prospect Equities
@@ -1006,7 +1008,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: base-power-company-quantitative-developer-intern-2f1230
   company: Base Power Company
@@ -1040,7 +1042,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: reply-ios-developer-intern-222c4c
@@ -1057,7 +1059,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: reply-android-developer-intern-262bb5
@@ -1074,7 +1076,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: brunswick-computer-graphics-software-developer-intern-a846ed
@@ -1160,7 +1162,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: apptronik-robotics-software-intern-real-time-controls-6a79b6
@@ -1178,7 +1180,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: rainmaker-software-engineering-intern-29f798
@@ -1196,7 +1198,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: palantir-year-at-palantir-forward-deployed-software-engineer-internship-usg-dea244
@@ -1214,7 +1216,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: latent-defense-software-engineer-intern-0fcd95
@@ -1298,7 +1300,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: capital-one-product-development-internship-program-dbab5b
   company: Capital One
@@ -1316,7 +1318,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: anduril-software-engineer-intern-fbf8a2
   company: Anduril
@@ -1333,7 +1335,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: starsling-software-engineer-intern-78c3a4
@@ -1351,7 +1353,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: abundant-software-engineering-intern-research-focused-a27502
   company: Abundant
@@ -1368,7 +1370,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: wsp-software-developer-intern-75d70a
   company: WSP
@@ -1384,7 +1386,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: veeam-software-software-engineering-intern-policy-engineering-1bf020
   company: Veeam Software
@@ -1401,7 +1403,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: veeam-software-software-engineering-intern-platform-security-ai-5702e6
   company: Veeam Software
@@ -1418,7 +1420,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: dedalus-labs-forward-deployed-engineer-intern-b424b7
   company: Dedalus Labs
@@ -1435,7 +1437,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: homebase-forward-deployed-engineering-intern-ai-native-2f30c5
   company: Homebase
@@ -1451,7 +1453,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: al-warren-oil-company-software-developer-intern-dc8924
   company: Al Warren Oil Company
@@ -1467,7 +1469,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: h-co-software-development-intern-c05d5c
   company: H&CO
@@ -1483,7 +1485,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: poshmark-cloud-platform-engineer-intern-growth-dc52bc
   company: Poshmark
@@ -1499,7 +1501,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: fiserv-application-development-intern-ad0c1c
   company: Fiserv
@@ -1516,7 +1518,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: fiserv-technology-intern-b8eebb
   company: Fiserv
@@ -1533,7 +1535,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: avanade-software-engineering-intern-ef8ce4
   company: Avanade
@@ -1549,7 +1551,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: abc-news-product-management-and-engineering-intern-d0a905
   company: ABC News
@@ -1566,7 +1568,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: appian-software-engineering-intern-172919
   company: Appian
@@ -1589,7 +1591,7 @@
   - github_tracker:vanshb03
   - company:appian
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: uber-2027-software-engineering-internship-d52f1b
@@ -1722,7 +1724,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: true
 - id: cisive-intern-software-developer-22aad2
@@ -1739,7 +1741,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: true
 - id: cadence-university-software-intern-12de74
@@ -1756,7 +1758,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: true
 - id: cadence-university-software-engineering-intern-3a460d
@@ -1773,7 +1775,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: true
 - id: neighborly-application-developer-intern-1d4e40
@@ -1824,7 +1826,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: true
 - id: idexx-security-operations-cybersecurity-i-9825bf
@@ -1841,7 +1843,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: circleback-software-engineering-intern-summer-2-26e7bd
@@ -1862,7 +1864,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: zipline-enterprise-systems-software-engineer-9d4efd
@@ -2035,7 +2037,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: hewlett-packard-hp-software-engineering-intern-device-experiences-2f807f
@@ -2072,7 +2074,7 @@
   - github_tracker:zshah101
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: carnegie-mellon-university-research-intern-school-of-computer-science-lti-e01e34
   company: Carnegie Mellon University
@@ -2186,7 +2188,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: deepgram-software-engineering-internship-fall-2026-summer-2027-d9a1ed
@@ -2206,7 +2208,7 @@
   - github_tracker:chieler
   - company:deepgram
   date_added: '2026-07-23'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: rfcuny-it-data-systems-intern-archibus-applications-development-f309ad
@@ -2222,7 +2224,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: national-laboratory-of-the-rockies-software-and-data-infrastructure-intern-153ee8
   company: National Laboratory of the Rockies
@@ -2268,7 +2270,7 @@
   - github_tracker:chieler
   - github_tracker:sndsh404
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: aveva-software-developer-intern-drexel-co-op-us-c5904f
@@ -2300,7 +2302,7 @@
   sources:
   - github_tracker:sndsh404
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: dtcc-information-technology-intern-2027-summer-2d55f7
@@ -2316,7 +2318,7 @@
   sources:
   - github_tracker:sndsh404
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: anduril-software-engineer-intern-apps-reviewed-from-aug-2026-8e5113
   company: Anduril
@@ -2331,7 +2333,7 @@
   sources:
   - github_tracker:sndsh404
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: cloudfit-software-summer-intern-early-interest-software-ai-ml-cyber-dca96d
@@ -2348,7 +2350,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: true
 - id: chevron-2026-2027-information-technology-software-engineer-intern-755feb
@@ -2366,7 +2368,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: lila-sciences-co-op-software-product-management-bb961c
@@ -2382,7 +2384,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: nidec-software-engineer-co-op-e4f614
@@ -2399,7 +2401,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: kinaxis-co-op-intern-software-development-c-f7485e
   company: Kinaxis
@@ -2433,7 +2435,7 @@
   - github_tracker:speedyapply
   - github_tracker:sndsh404
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: cybernetic-labs-full-stack-software-engineer-intern-product-2762a3
   company: Cybernetic Labs
@@ -2451,7 +2453,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: cybernetic-labs-forward-deployed-engineer-intern-287c0e
   company: Cybernetic Labs
@@ -2468,7 +2470,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: marshall-wace-technology-intern-0e91ed
@@ -2485,7 +2487,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: palantir-privacy-and-civil-liberties-software-engineer-intern-9d702b
   company: Palantir
@@ -2502,7 +2504,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: simoncomputing-software-development-internship-986b8e
   company: SimonComputing
@@ -2519,7 +2521,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: anduril-software-engineer-intern-844a26
   company: Anduril
@@ -2535,7 +2537,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: palantir-forward-deployed-software-engineer-internship-us-government-067c1b
@@ -2567,7 +2569,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: jane-street-tools-and-compilers-research-and-development-intern-39854b
@@ -2583,7 +2585,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: google-software-engineering-intern-f883c1
@@ -2600,7 +2602,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: akuna-capital-software-engineer-intern-c-net-desktop-31c020
@@ -2617,7 +2619,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: akuna-capital-software-engineer-intern-full-stack-web-9e42cb
@@ -2634,7 +2636,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: akuna-capital-python-software-engineer-intern-f0144a
@@ -2651,7 +2653,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: akuna-capital-platform-engineer-intern-d573e9
@@ -2668,7 +2670,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: akuna-capital-software-engineer-intern-c-de21d8
@@ -2685,7 +2687,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: amazon-robotics-software-development-engineer-intern-co-op-dc1024
@@ -2701,7 +2703,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ether-fi-gtm-engineer-intern-d8c738
   company: Ether.fi
@@ -2716,7 +2718,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: quadrillion-software-engineering-intern-summer-2027-0a9a2a
   company: Quadrillion
@@ -2735,7 +2737,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-24'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: sentara-health-cyber-security-compliance-intern-7e72e1
@@ -2775,7 +2777,7 @@
   - github_tracker:vanshb03
   - company:pdt-partners
   date_added: '2026-07-25'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: jane-street-software-engineer-winter-co-op-34623b
   company: Jane Street
@@ -2791,7 +2793,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-07-25'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: charles-river-analytics-software-qa-tester-intern-co-op-06c64c
@@ -2824,7 +2826,7 @@
   - github_tracker:zapplyjobs
   - company:pdt-partners
   date_added: '2026-07-25'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: motorola-solutions-intern-web-interface-software-engin-ce94c8
@@ -2874,7 +2876,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-25'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
   date_estimated: false
 - id: safari-ai-gtm-engineering-intern-14417d
@@ -2959,7 +2961,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: virtu-financial-frontend-developer-internship-31d12d
   company: Virtu Financial
@@ -2981,7 +2983,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-2d97b5
   company: RTX
@@ -3001,7 +3003,7 @@
   - github_tracker:chieler
   - company:rtx
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: godaddy-software-development-engineer-intern-a91b34
   company: GoDaddy
@@ -3021,7 +3023,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: heliux-software-engineer-intern-43603a
   company: Heliux
@@ -3042,7 +3044,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: genworth-financial-it-development-program-intern-it-development-program-f3ae01
   company: Genworth Financial
@@ -3062,7 +3064,7 @@
   - github_tracker:chieler
   - company:genworth-financial
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: hpr-hyannis-port-research-software-engineer-intern-daddbb
   company: HPR (Hyannis Port Research)
@@ -3085,7 +3087,7 @@
   - github_tracker:chieler
   - company:hpr-hyannis-port-research
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-creative-intelligence-and-brand-innovation-00a83e
   company: TikTok
@@ -3107,7 +3109,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-trust-and-safety-engineering-c21bc2
   company: TikTok
@@ -3128,7 +3130,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-99ebe3
   company: TikTok
@@ -3146,7 +3148,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-d3637f
   company: TikTok
@@ -3167,7 +3169,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-715068
   company: TikTok
@@ -3188,7 +3190,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-313718
   company: TikTok
@@ -3208,7 +3210,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-c1f3e2
   company: TikTok
@@ -3228,7 +3230,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ads-measurement-signal-and-privacy-2782e9
   company: TikTok
@@ -3248,7 +3250,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-innovative-growth-710977
   company: TikTok
@@ -3270,7 +3272,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-digital-content-center-4b30dd
   company: TikTok
@@ -3292,7 +3294,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-social-friending-f07c84
   company: TikTok
@@ -3314,7 +3316,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-data-architecture-e-commerce-b02f0e
   company: TikTok
@@ -3335,7 +3337,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-d0d748
   company: TikTok
@@ -3356,7 +3358,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-419bba
   company: TikTok
@@ -3376,7 +3378,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-frontend-engineer-intern-open-platform-5b5aa1
   company: TikTok
@@ -3396,7 +3398,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-agentic-creation-effect-platform-3fe2b9
   company: TikTok
@@ -3418,7 +3420,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-b35765
   company: TikTok
@@ -3438,7 +3440,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-7e0735
   company: TikTok
@@ -3458,7 +3460,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-2e8703
   company: TikTok
@@ -3478,7 +3480,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-frontend-software-engineer-intern-ads-measurement-signal-and-privacy-92c451
   company: TikTok
@@ -3499,7 +3501,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-business-integrity-0ab2b5
   company: TikTok
@@ -3520,7 +3522,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: jp-morgan-chase-software-engineer-intern-software-engineer-program-38d1f2
   company: JP Morgan Chase
@@ -3540,7 +3542,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-ai-infra-compute-53dee2
   company: ByteDance
@@ -3559,7 +3561,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-ai-infrastructure-compute-e6be58
   company: ByteDance
@@ -3577,7 +3579,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-ce32f8
   company: ByteDance
@@ -3597,7 +3599,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-distributed-nosql-database-systems-517ea7
   company: ByteDance
@@ -3616,7 +3618,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-intern-coreai-626a81
   company: Microsoft
@@ -3636,7 +3638,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: capital-one-technology-intern-3a0751
   company: Capital One
@@ -3655,7 +3657,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: chicago-trading-company-software-engineer-intern-592222
   company: Chicago Trading Company
@@ -3674,7 +3676,7 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: spacex-software-engineering-intern-co-op-05b585
   company: SpaceX
@@ -3692,7 +3694,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: uline-software-development-intern-8f9995
   company: Uline
@@ -3712,7 +3714,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-global-crm-0d0a2d
   company: TikTok
@@ -3733,7 +3735,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-effects-performance-eff1b3
   company: TikTok
@@ -3754,7 +3756,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-product-infrastructure-2ff396
   company: TikTok
@@ -3776,7 +3778,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-global-e-commerce-1e71ae
   company: TikTok
@@ -3797,7 +3799,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ads-interface-eadf7a
   company: TikTok
@@ -3818,7 +3820,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-d3bf89
   company: TikTok
@@ -3838,7 +3840,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-global-e-commerce-759204
   company: TikTok
@@ -3858,7 +3860,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-live-foundation-governance-engineering-525c81
   company: TikTok
@@ -3878,7 +3880,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-frontend-engineer-intern-global-crm-52f85b
   company: TikTok
@@ -3899,7 +3901,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-transaction-platform-7f215b
   company: TikTok
@@ -3920,7 +3922,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-intelligent-creation-camera-720f5a
   company: TikTok
@@ -3940,7 +3942,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-a54de1
   company: TikTok
@@ -3960,7 +3962,7 @@
   - github_tracker:speedyapply
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-ai-platform-4320f5
   company: ByteDance
@@ -3980,7 +3982,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-backend-software-engineer-intern-creation-platform-46d534
   company: TikTok
@@ -4000,7 +4002,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ge-appliances-engineering-co-op-454c4a
   company: GE Appliances
@@ -4017,7 +4019,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ge-appliances-software-engineer-co-op-software-engineering-40ac92
   company: GE Appliances
@@ -4034,7 +4036,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: general-dynamics-information-technology-software-developer-intern-9a7f46
   company: General Dynamics Information Technology
@@ -4054,7 +4056,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: roblox-software-engineer-intern-a54b87
   company: Roblox
@@ -4077,7 +4079,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-4029b2
   company: RTX
@@ -4095,7 +4097,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-media-engine-193346
   company: TikTok
@@ -4115,7 +4117,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-video-image-ai-ml-software-engineer-intern-multimedia-07e4a5
   company: ByteDance
@@ -4133,7 +4135,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-gpu-ai-application-system-software-engineer-intern-system-technologies-and-engineering-623b63
   company: ByteDance
@@ -4154,7 +4156,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-foundation-platform-d046cc
   company: TikTok
@@ -4174,7 +4176,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-ai-network-automation-engineer-intern-global-physical-network-infrastructure-146657
   company: ByteDance
@@ -4196,7 +4198,7 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: northrop-grumman-software-engineer-intern-aeronautics-systems-4af553
   company: Northrop Grumman
@@ -4217,7 +4219,7 @@
   - github_tracker:zshah101
   - company:northrop-grumman
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: general-dynamics-information-technology-software-developer-intern-afa263
   company: General Dynamics Information Technology
@@ -4236,7 +4238,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: general-dynamics-information-technology-software-developer-intern-6b3497
   company: General Dynamics Information Technology
@@ -4256,7 +4258,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-fullstack-software-engineer-intern-global-e-commerce-d3da9b
   company: TikTok
@@ -4276,7 +4278,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-fullstack-software-engineer-intern-global-e-commerce-2027-summer-5c9e90
   company: TikTok
@@ -4295,7 +4297,7 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-network-software-engineer-intern-network-switch-5dbf96
   company: ByteDance
@@ -4315,7 +4317,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-network-software-engineer-intern-network-observation-2c86db
   company: ByteDance
@@ -4335,7 +4337,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ameren-derms-co-op-intern-b5f36b
   company: Ameren
@@ -4354,7 +4356,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ameren-digital-co-op-955c94
   company: Ameren
@@ -4372,7 +4374,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: belvedere-trading-software-engineer-intern-summer-2027-bfe10f
   company: Belvedere Trading
@@ -4394,7 +4396,7 @@
   - company:belvedere-trading
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: trillium-software-engineer-intern-summer-2027-c6c593
   company: Trillium
@@ -4413,7 +4415,7 @@
   - github_tracker:chieler
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: axon-software-engineer-intern-e7b60f
   company: Axon
@@ -4432,7 +4434,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: atoms-software-engineer-intern-summer-2027-a588e4
   company: Atoms
@@ -4451,7 +4453,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: the-nuclear-company-software-engineering-intern-product-platform-007baa
   company: The Nuclear Company
@@ -4471,7 +4473,7 @@
   - github_tracker:chieler
   - company:the-nuclear-company
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-frontend-engineer-intern-ads-interface-33264a
   company: TikTok
@@ -4491,7 +4493,7 @@
   - github_tracker:chieler
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-development-engineer-intern-network-automation-2027-summer-c3e49c
   company: ByteDance
@@ -4511,7 +4513,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-fullstack-product-web-services-intern-opportunities-for-university-students-a605d9
   company: Microsoft
@@ -4579,7 +4581,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-development-engineer-in-test-intern-global-e-commerce-2027-summer-345353
   company: TikTok
@@ -4595,7 +4597,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-software-development-engineer-in-test-intern-tiktok-testing-2027-summer-6b2743
   company: TikTok
@@ -4611,7 +4613,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: centerfield-frontend-engineer-intern-6-month-internship-a8e224
   company: Centerfield
@@ -4629,7 +4631,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: impact-associate-software-engineer-intern-676fa5
   company: Impact
@@ -4663,7 +4665,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: terranova-software-engineering-intern-f918e4
   company: Terranova
@@ -4680,7 +4682,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: gulf-management-software-engineer-business-systems-intern-046a37
   company: Gulf Management
@@ -4696,7 +4698,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: kbr-software-intern-07432c
   company: KBR
@@ -4714,7 +4716,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: leidos-application-developer-intern-e4f0d4
   company: Leidos
@@ -4731,7 +4733,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: sargent-lundy-software-engineer-intern-summer-2027-a269fc
   company: Sargent & Lundy
@@ -4763,7 +4765,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: northrop-grumman-2027-intern-software-engineer-da50cb
   company: Northrop Grumman
@@ -4782,7 +4784,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: corpay-web-application-developer-intern-5783f5
   company: Corpay
@@ -4798,7 +4800,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: samsara-software-engineering-internship-san-francisco-fa2c8b
   company: Samsara
@@ -4817,7 +4819,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: spacex-summer-2027-software-engineering-internship-co-op-b6887b
   company: SpaceX
@@ -4833,7 +4835,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: microchip-intern-engineering-software-development-ee7cc8
   company: Microchip
@@ -4850,7 +4852,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: netsmart-cloud-engineer-future-summer-2027-internship-3fa51d
   company: Netsmart
@@ -4867,7 +4869,7 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-ceb38e
   company: Copart
@@ -4902,7 +4904,7 @@
   - github_tracker:chieler
   - company:medtronic
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-397e88
   company: Copart
@@ -4918,7 +4920,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-545d41
   company: Copart
@@ -4934,7 +4936,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bosch-adas-software-engineering-intern-6abbba
   company: Bosch
@@ -4950,7 +4952,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bosch-powertrain-controls-software-engineering-intern-6-months-999be8
   company: Bosch
@@ -4999,7 +5001,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: astera-institute-software-engineering-intern-distributed-simulation-systems-251c49
   company: Astera Institute
@@ -5016,7 +5018,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: dexmate-frontend-engineer-intern-43ee02
   company: Dexmate
@@ -5033,7 +5035,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: appian-information-security-engineer-intern-a9d70f
   company: Appian
@@ -5053,7 +5055,7 @@
   - github_tracker:chieler
   - company:appian
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: general-dynamics-information-technology-systems-engineer-intern-c90032
   company: General Dynamics Information Technology
@@ -5070,7 +5072,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: drw-platform-engineer-intern-fb7ba6
   company: DRW
@@ -5087,7 +5089,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: capital-one-software-engineer-intern-51666a
   company: Capital One
@@ -5104,7 +5106,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-intern-security-identity-d01c40
   company: Microsoft
@@ -5121,7 +5123,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-intern-cloud-distributed-backend-91e424
   company: Microsoft
@@ -5138,7 +5140,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: melius-software-engineering-intern-f2f199
   company: Melius
@@ -5157,7 +5159,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: netsmart-software-engineer-intern-9ab698
   company: Netsmart
@@ -5178,7 +5180,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-fleet-health-instrumentation-9e8f6f
   company: RTX
@@ -5196,7 +5198,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bosch-group-project-management-test-engineering-539375
   company: Bosch Group
@@ -5228,7 +5230,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: penn-state-university-research-and-development-engineering-fc2a0e
   company: Penn State University
@@ -5244,7 +5246,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: menasha-corporation-custom-packaging-design-engineer-co-o-76fc48
   company: Menasha Corporation
@@ -5262,7 +5264,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: plusai-research-engineer-intern-control-03794c
   company: PlusAI
@@ -5295,7 +5297,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-distributed-nosql-database-systems-30c298
   company: ByteDance
@@ -5312,7 +5314,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: calstart-web-development-intern-3410ce
   company: CALSTART
@@ -5329,7 +5331,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: neosigma-member-of-technical-staff-intern-a15bf5
   company: NeoSigma
@@ -5346,7 +5348,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: clyde-companies-application-development-intern-02fbb6
   company: Clyde Companies
@@ -5363,7 +5365,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: equifax-technology-intern-81634a
   company: Equifax
@@ -5417,7 +5419,7 @@
   - github_tracker:chieler
   - github_tracker:speedyapply
   date_added: '2026-08-09'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: carnegie-mellon-university-rf-cyber-lab-intern-4ab1cb
   company: Carnegie Mellon University
@@ -5450,7 +5452,7 @@
   - github_tracker:zshah101
   - company:pentair
   date_added: '2026-08-09'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: asm-global-technology-engineering-intern-268589
   company: ASM Global
@@ -5498,7 +5500,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: leidos-engineering-intern-3284ac
   company: Leidos
@@ -5762,7 +5764,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:speedyapply
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-summer-2027-3c7714
   company: RTX
@@ -5780,7 +5782,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: polaris-engineering-intern-summer-2027-b0307b
   company: Polaris
@@ -5796,7 +5798,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ing-summer-2027-internship-tech-information-security-a2b000
   company: ING
@@ -5812,7 +5814,7 @@
   sources:
   - github_tracker:zshah101
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ing-summer-2027-internship-tech-infrastructure-c42135
   company: ING
@@ -5829,7 +5831,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ing-technology-intern-innovation-593aae
   company: ING
@@ -5847,7 +5849,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: mckesson-technology-intern-491c37
   company: McKesson
@@ -5864,7 +5866,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-f06bb1
   company: RTX
@@ -5882,7 +5884,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: gulfstream-computer-science-intern-advanced-structures-and-materials-bfa22c
   company: Gulfstream
@@ -5899,7 +5901,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-aml-engine-orchestration-216ab6
   company: ByteDance
@@ -5919,7 +5921,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: altamira-technologies-software-development-intern-29b68e
   company: Altamira Technologies
@@ -5937,7 +5939,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: amentum-network-engineer-internship-ires-ssfb-c8a08d
   company: Amentum
@@ -5953,7 +5955,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-multi-cloud-cdn-scheduling-platform-e-114217
   company: ByteDance
@@ -5987,7 +5989,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: bosch-adas-software-engineering-intern-6abbba
 - id: dv-trading-software-engineer-intern-summer-2027-dv-commodities-163cb8
   company: DV Trading
@@ -6007,7 +6009,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:speedyapply
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: lpl-financial-holdings-software-engineer-intern-fc1c96
   company: LPL Financial Holdings
@@ -6027,7 +6029,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: appian-software-engineering-intern-9d4b40
   company: Appian
@@ -6044,7 +6046,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: appian-software-engineering-intern-172919
 - id: capital-one-cyber-security-intern-078a1f
   company: Capital One
@@ -6060,7 +6062,7 @@
   sources:
   - github_tracker:vanshb03
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: cno-financial-group-cyber-security-it-intern-508722
   company: CNO Financial Group
@@ -6077,7 +6079,7 @@
   - github_tracker:vanshb03
   - github_tracker:zshah101
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: moog-intern-product-engineering-8f2f3c
   company: Moog
@@ -6094,7 +6096,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: pnc-financial-services-technology-undergraduate-intern-536712
   company: PNC Financial Services
@@ -6126,7 +6128,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: re-spec-inc-student-software-engineering-intern-8dd9a9
   company: RE/SPEC Inc.
@@ -6142,7 +6144,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: codeage-web-developer-intern-wordpress-and-a1693c
   company: Codeage
@@ -6158,7 +6160,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bosch-group-powertrain-controls-software-engineer-6d0e5c
   company: Bosch Group
@@ -6175,7 +6177,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: re-spec-inc-student-engineering-intern-data-sci-95300c
   company: RE/SPEC Inc.
@@ -6191,7 +6193,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: re-spec-inc-student-engineering-intern-cavern-g-2304dc
   company: RE/SPEC Inc.
@@ -6207,7 +6209,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: smiths-group-customer-reliability-engineer-intern-9a5383
   company: Smiths Group
@@ -6223,7 +6225,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: sandisk-field-application-engineer-new-colle-6345e4
   company: Sandisk
@@ -6239,7 +6241,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: northwestern-mutual-application-development-internship-9242ee
   company: Northwestern Mutual
@@ -6255,7 +6257,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: northwestern-mutual-cyber-security-internship-2a7ff1
   company: Northwestern Mutual
@@ -6271,7 +6273,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: llnl-computing-graduate-student-intern-f-5afb2d
   company: LLNL
@@ -6287,7 +6289,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: llnl-computing-undergraduate-student-inter-3bff41
   company: LLNL
@@ -6320,7 +6322,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-data-engineer-intern-monetization-data-a8e279
   company: TikTok
@@ -6339,7 +6341,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: lpl-financial-holdings-data-engineer-intern-data-474e4f
   company: LPL Financial Holdings
@@ -6359,7 +6361,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: general-dynamics-information-technology-software-developer-intern-3fd04c
   company: General Dynamics Information Technology
@@ -6377,7 +6379,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: general-dynamics-information-technology-software-developer-intern-6b3497
 - id: kimley-horn-software-developer-intern-d95898
   company: Kimley-Horn
@@ -6395,7 +6397,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-148c74
   company: RTX
@@ -6412,7 +6414,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-development-intern-summer-2027-f1899f
   company: RTX
@@ -6431,7 +6433,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-aml-engine-orchestration-eb9cf9
   company: ByteDance
@@ -6450,7 +6452,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: sentry-software-engineer-intern-summer-2027-d31cd7
   company: Sentry
@@ -6462,7 +6464,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
@@ -6471,7 +6473,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-c2aac9
   company: RTX
@@ -6488,7 +6490,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bosch-powertrain-controls-software-engineering-intern-6-months-full-time-02580a
   company: Bosch
@@ -6504,7 +6506,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: pathai-software-engineering-co-op-september-december-2026-06d5bd
   company: PathAI
@@ -6537,7 +6539,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: blue-origin-2026-intern-conversion-software-development-engineer-i-af031e
   company: Blue Origin
@@ -6554,7 +6556,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: general-dynamics-mission-systems-cybersecurity-software-intern-engineer-c17a3d
   company: General Dynamics Mission Systems
@@ -6570,7 +6572,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: hp-enterprise-operations-software-internship-3081d7
   company: HP
@@ -6589,7 +6591,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: hp-enterprise-operations-software-internship-512164
   company: HP
@@ -6605,7 +6607,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: hp-enterprise-operations-software-internship-3081d7
 - id: kimley-horn-software-developer-intern-298a0c
   company: Kimley-Horn
@@ -6621,7 +6623,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: kimley-horn-software-developer-intern-d95898
 - id: quantbot-technologies-software-engineer-summer-internship-2027-new-york-2c3f75
   company: Quantbot Technologies
@@ -6639,7 +6641,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: solopulse-systems-engineering-intern-a5a2db
   company: SoloPulse
@@ -6655,7 +6657,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: layup-parts-software-engineering-intern-1f2136
   company: Layup Parts
@@ -6671,7 +6673,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: western-digital-summer-2027-intern-software-enginee-ee3cc8
   company: Western Digital
@@ -6689,7 +6691,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: curtiss-wright-project-engineering-intern-dbc2f5
   company: Curtiss-Wright
@@ -6705,7 +6707,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: palantir-deployment-strategist-internship-u-5c4bb8
   company: Palantir
@@ -6721,7 +6723,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: machina-labs-robotic-process-engineer-intern-197d6a
   company: Machina Labs
@@ -6737,7 +6739,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: machina-labs-robotic-process-engineer-intern-f621d5
   company: Machina Labs
@@ -6753,7 +6755,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: machina-labs-robotic-process-engineer-intern-197d6a
 - id: crest-industries-cis-cs-internship-f26223
   company: Crest Industries
@@ -6769,7 +6771,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineering-intern-6266d8
   company: RTX
@@ -6787,7 +6789,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-summer-2027-50420c
   company: RTX
@@ -6807,7 +6809,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-08-08'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ge-vernova-engineering-intern-818986
   company: GE Vernova
@@ -6819,13 +6821,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: ge-vernova-engineering-intern-3037fd
   company: GE Vernova
@@ -6841,7 +6843,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: ge-vernova-engineering-intern-818986
 - id: northrop-grumman-software-engineer-intern-aeronautics-systems-d8c376
   company: Northrop Grumman
@@ -6861,7 +6863,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: northrop-grumman-software-engineer-intern-aeronautics-systems-4af553
 - id: rrs-group-software-engineer-intern-placement-year-09cfc5
   company: RRS Group
@@ -6879,7 +6881,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: specter-aerospace-full-stack-developer-co-op-3546b2
   company: Specter Aerospace
@@ -6896,7 +6898,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-methods-intern-hot-section-engineering-6c1cd2
   company: RTX
@@ -6915,7 +6917,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-f010e9
   company: RTX
@@ -6934,7 +6936,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: teledyne-software-engineer-intern-nhrc-792479
   company: Teledyne
@@ -6955,7 +6957,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: teledyne-software-engineer-intern-nhrc-d97a5e
   company: Teledyne
@@ -6975,7 +6977,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: teledyne-software-engineer-intern-nhrc-792479
 - id: tiktok-mobile-software-engineer-intern-global-e-commerce-7e39be
   company: TikTok
@@ -6994,7 +6996,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: motorola-android-platform-software-engineer-intern-summer-2027-4f4496
   company: Motorola
@@ -7016,7 +7018,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: notion-software-engineer-intern-summer-2027-4bb5e5
   company: Notion
@@ -7037,7 +7039,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-global-payment-infra-and-sre-e4d786
   company: ByteDance
@@ -7056,7 +7058,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-global-traffic-architecture-74bbc2
   company: ByteDance
@@ -7074,7 +7076,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-software-engineer-intern-traffic-infrastructure-a04cda
   company: ByteDance
@@ -7092,7 +7094,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-summer-2027-8c2d94
   company: RTX
@@ -7110,7 +7112,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-1cd6ab
   company: RTX
@@ -7127,7 +7129,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-summer-2027-3a4c67
   company: RTX
@@ -7145,7 +7147,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: rtx-software-engineer-intern-summer-2027-50420c
 - id: rtx-software-engineer-intern-f4989d
   company: RTX
@@ -7163,7 +7165,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: abridge-software-engineer-intern-ef03e7
   company: Abridge
@@ -7180,7 +7182,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: freeform-software-engineering-intern-summer-2027-30b802
   company: Freeform
@@ -7201,7 +7203,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: hypercubic-software-engineering-internship-7a66c4
   company: Hypercubic
@@ -7218,7 +7220,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: first-american-software-engineering-intern-81cc02
   company: First American
@@ -7235,7 +7237,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: valeo-software-engineer-intern-6f498f
   company: Valeo
@@ -7252,7 +7254,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: metaphor-software-engineer-intern-b03070
   company: Metaphor
@@ -7268,7 +7270,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: raytheon-software-engineering-intern-summer-2027-059c66
   company: Raytheon
@@ -7289,7 +7291,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: security-risk-advisors-devops-engineering-generalist-co-op-6d9564
   company: Security Risk Advisors
@@ -7305,7 +7307,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-production-system-engineer-project-in-3a939e
   company: ByteDance
@@ -7321,7 +7323,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-material-process-engineering-intern-8e07ef
   company: RTX
@@ -7337,7 +7339,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: true-anomaly-gse-engineering-intern-0e38ba
   company: True Anomaly
@@ -7354,7 +7356,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-backend-development-engineer-intern-c5657b
   company: ByteDance
@@ -7370,7 +7372,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: applied-materials-2026-2027-process-engineer-co-op-do-b05746
   company: Applied Materials
@@ -7421,7 +7423,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: bytedance-self-built-engineer-intern-cdn-platform-df48ea
   company: ByteDance
@@ -7437,7 +7439,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: bytedance-self-built-engineer-intern-cdn-platform-df4429
 - id: bytedance-self-built-engineer-intern-cdn-platform-f40828
   company: ByteDance
@@ -7454,7 +7456,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-summer-2027-58f5c5
   company: RTX
@@ -7472,7 +7474,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-summer-2027-4a9618
   company: RTX
@@ -7490,7 +7492,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineering-intern-576c5f
   company: RTX
@@ -7508,7 +7510,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-381316
   company: RTX
@@ -7526,7 +7528,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-summer-2027-9f3a60
   company: RTX
@@ -7544,7 +7546,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
   date_added: '2026-08-15'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: amazon-com-services-llc-automation-engineer-intern-nationwi-1338ad
   company: Amazon.com Services LLC
@@ -7577,7 +7579,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: foxconn-industrial-internet-usa-software-engineering-intern-9d1127
   company: Foxconn Industrial Internet USA
@@ -7594,7 +7596,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: hermeus-flight-software-engineering-intern-8bb8e3
   company: Hermeus
@@ -7610,7 +7612,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: hermeus-software-engineering-intern-command-abcb98
   company: Hermeus
@@ -7626,7 +7628,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: palantir-software-engineer-internship-6be649
   company: Palantir
@@ -7724,7 +7726,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-summer-2027-cb2c48
   company: RTX
@@ -7742,7 +7744,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-14'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: truveta-software-engineering-intern-af6388
   company: Truveta
@@ -7781,7 +7783,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:speedyapply
   date_added: '2026-08-16'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: palantir-software-engineer-internship-defen-ada3c9
   company: Palantir
@@ -7828,8 +7830,10 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-17'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: american-express-software-engineer-intern-enterprise-technology-services-39a020
   company: American Express
@@ -7844,8 +7848,11 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-08-17'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: american-express-software-engineer-intern-enterprise-technology-services-72a313
   company: American Express
@@ -7860,8 +7867,11 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-08-17'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
 - id: tiktok-data-engineer-intern-data-platform-global-live-77eec8
   company: TikTok
@@ -7877,6 +7887,317 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-17'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: ge-aerospace-digital-technology-intern-multiple-teams-f32bc9
+  company: GE Aerospace
+  role: Digital Technology Intern - Multiple Teams
+  location: Atlanta, GA
+  link: https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Atlanta/Digital-Technology-Intern---US---Atlanta--GA----Summer-2027_R5038078
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: ge-aerospace-digital-technology-intern-multiple-teams-443486
+  company: GE Aerospace
+  role: Digital Technology Intern - Multiple Teams
+  location: Evendale, OH
+  link: https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Digital-Technology-Intern---US---Cincinnati--OH---Summer-2027_R5029739-1
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: ge-aerospace-digital-technology-intern-summer-2027-af1b28
+  company: GE Aerospace
+  role: Digital Technology Intern - Summer 2027
+  location: Livonia, MI
+  link: https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Livonia/Digital-Technology-Intern---US---Livonia--MI---Summer-2027_R5038079-1
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: keybank-technology-track-intern-key-technology-and-services-92f6b6
+  company: KeyBank
+  role: Technology Track Intern - Key Technology and Services
+  location: Brooklyn, OH
+  link: https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Technology-Track-Internship--Cleveland_R-41382
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: bytedance-software-engineer-intern-global-payment-928839
+  company: ByteDance
+  role: Software Engineer Intern - Global Payment
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7668650945276168453/detail
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: american-express-software-engineer-intern-enterprise-technology-services-75dc0a
+  company: American Express
+  role: Software Engineer Intern - Enterprise Technology Services
+  location: Sunrise, FL
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011084
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: american-express-software-engineer-intern-enterprise-technology-services-480344
+  company: American Express
+  role: Software Engineer Intern - Enterprise Technology Services
+  location: Charlotte, NC
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011679
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: american-express-software-engineer-intern-enterprise-technology-services-39a020
+- id: american-express-software-engineer-intern-technology-a7ad3f
+  company: American Express
+  role: Software Engineer Intern - Technology
+  location: New York, NY
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010970
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: hilton-worldwide-corporate-summer-internship-technology-software-engineering-and-cyber-2c25e4
+  company: Hilton Worldwide
+  role: Corporate Summer Internship - Technology, Software Engineering and Cyber
+  location: Dallas, TX
+  link: https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218257
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: american-express-software-engineer-intern-enterprise-technology-services-8351eb
+  company: American Express
+  role: Software Engineer Intern - Enterprise Technology Services
+  location: Phoenix, AZ
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: deutsche-bank-technology-data-and-innovation-intern-technology-data-and-innovation-9d2d16
+  company: Deutsche Bank
+  role: Technology, Data and Innovation Intern - Technology, Data and Innovation
+  location: New York, NY
+  link: https://db.recsolu.com/external/requisitions/utrM7YhSIN2pudx_g6Rh2w
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: dee-zee-software-development-intern-39f8f7
+  company: Dee Zee
+  role: Software Development Intern
+  location: Des Moines, IA
+  link: https://deezee.wd108.myworkdayjobs.com/DeeZee_Careers/job/Des-Moines/Software-Development-Intern_REQ00368
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: palantir-software-engineer-internship-infra-d7f61c
+  company: Palantir
+  role: Software Engineer, Internship - Infra...
+  location: Palo Alto, CA
+  link: https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: keybank-2027-summer-key-technology-services-43132d
+  company: KeyBank
+  role: 2027 Summer Key Technology & Services...
+  location: Brooklyn, OH
+  link: https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: vanguard-college-to-corporate-it-internship-79b48c
+  company: Vanguard
+  role: College to Corporate IT Internship - ...
+  location: Malvern, PA
+  link: https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Risk---Security---Engineer---PA-_177687-1
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: vanguard-college-to-corporate-internship-app-0b70ba
+  company: Vanguard
+  role: College to Corporate Internship - App...
+  location: Malvern, PA
+  link: https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-Internship---Application-Development--PA-_177644-1
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: vanguard-college-to-corporate-it-internship-ad52dd
+  company: Vanguard
+  role: College to Corporate IT Internship - ...
+  location: Charlotte, NC
+  link: https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Risk---Security---Engineer---NC-_177688-1
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: conagra-brands-it-infrastructure-internship-summer-2027-c83a16
+  company: Conagra Brands
+  role: IT Infrastructure Internship - Summer 2027
+  location: Omaha, NE
+  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
+  possible_duplicate_of: null
+- id: conagra-brands-software-development-internship-summer-2027-782d8b
+  company: Conagra Brands
+  role: Software Development Internship - Summer 2027
+  location: Omaha, NE
+  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-08-18'
+  last_verified: '2026-08-18'
   possible_duplicate_of: null
