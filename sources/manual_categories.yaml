@@ -866,3 +866,28 @@ https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Santa-Clara-California-United-
 # ai_ml rule claimed first. Reported by check_categories on 2026-08-19.
 ? https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Global-Client-Group---Insights--Undergraduate---Master-s-_2026-9002
 : __drop__
+# zapplyjobs truncates long titles, so NVIDIA's "2027 Internships: ..."
+# family reaches classify_role with the discipline cut off ("Systems
+# Soft...", "Ph.D. Resear..."). Resolved per-link off the untruncated
+# discipline in each Workday URL slug.
+https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492: swe
+https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Generative-AI_JR2023475: ai_ml
+https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Vision-and-Deep-Learning_JR2023833: ai_ml
+https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504: hardware
+https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502: hardware
+# Lower confidence, see the PR body. Robotics research follows the existing
+# ai_ml precedent for learning-based manipulation research interns; graphics
+# and simulation is rendering/systems work, so swe by the same reading that
+# put "Computer Graphics Software Developer Intern" there.
+https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Robotics_JR2023847: ai_ml
+https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Graphics-and-Simulation_JR2023835: swe
+# DRAM process integration is semiconductor work; truncated past "Process
+# Integr..." so no hardware keyword survived.
+https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---Advanced-DRAM-Process-Integration_JR107205: hardware
+# A new-grad requisition, not an internship, and HNTB design professional is
+# civil/architectural — off scope twice over.
+https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Kansas-City-MO/XMLNAME-2027-New-Grad-Design-Professional-I--For-Current---Recent-HNTB-Interns-Only-_R-31236-1: __drop__
+# Microsoft's "Research Sciences" internship req; the title truncates before
+# any discipline. The posting family is consistently AI/ML research
+# (NLU/CV/ML, publication-track), so ai_ml — see the PR body.
+https://apply.careers.microsoft.com/careers/job/1970393556747969: ai_ml

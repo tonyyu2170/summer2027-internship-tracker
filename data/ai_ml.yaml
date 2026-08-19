@@ -2850,6 +2850,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   - company:the-nuclear-company
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -3222,7 +3223,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -4087,6 +4088,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -4103,6 +4105,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -4135,6 +4138,141 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: continental-resources-geoscience-intern-f1ba85
+  company: Continental Resources
+  role: Geoscience Intern
+  location: Oklahoma City, OK
+  link: https://clr.wd5.myworkdayjobs.com/CLR_Careers/job/Oklahoma-City-OK/Geoscience-Intern--Summer-2027-_R02592-1
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: bytedance-machine-learning-engineer-intern-e-commerce-risk-control-phd-1f4b70
+  company: ByteDance
+  role: Machine Learning Engineer Intern - E-Commerce Risk Control - PhD
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7675478684795881781/detail
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: bytedance-machine-learning-engineer-intern-e-commerce-risk-control-phd-2863bc
+  company: ByteDance
+  role: Machine Learning Engineer Intern - E-Commerce Risk Control - PhD
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7675477254269765941/detail
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-ph-d-research-autonomous-vehicles-intern-1b26b6
+  company: NVIDIA
+  role: Ph.D. Research Autonomous Vehicles Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Autonomous-Vehicles_JR2023838
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-generative-ai-ph-d-research-intern-c23ddc
+  company: NVIDIA
+  role: Generative AI Ph.D. Research Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Generative-AI_JR2023475
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-large-language-models-intern-research-9bd7b3
+  company: NVIDIA
+  role: Large Language Models Intern - Research
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Large-Language-Models_JR2023837
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-deep-learning-computer-architecture-intern-df45c2
+  company: NVIDIA
+  role: Deep Learning Computer Architecture Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-computer-vision-and-deep-learning-intern-778318
+  company: NVIDIA
+  role: Computer Vision and Deep Learning Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Vision-and-Deep-Learning_JR2023833
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null

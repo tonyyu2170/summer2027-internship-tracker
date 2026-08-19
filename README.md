@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-19 00:19 EST — 1008 open roles._
+_Last updated: 2026-08-19 11:36 EST — 1029 open roles. Last scrape: +23 new, 2 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,6 +22,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| NVIDIA | Ph.D. Research Graphics and Simulation Intern - Graphics and Simulation | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Graphics-and-Simulation_JR2023835>) | 2026-08-19 | Summer 2027 | PhD |
 | Marmon Holdings | Engineering Co-op | [Apply](<https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Chicago-IL/Engineering-Co-op_JR0000045243-3>) | 2026-08-19 | Summer 2027 | BS |
 | HNTB | Bridge Engineering Technology Intern ... | [Apply](<https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Princeton-NJ/Bridge-Engineering-Technology-Intern---Fall-2026_R-31086-1>) | 2026-08-19 | Summer 2027 | BS |
 | Marmon Holdings | Engineering Intern | [Apply](<https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Chicago-IL/Engineering-Intern_JR0000045242-3>) | 2026-08-19 | Summer 2027 | BS |
@@ -411,6 +412,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| InfiniteQuant | Quantitative Developer - Internship - Summer 2027 ⚠️dup?(infinitequant-quantitative-developer-internship-summer-2027-606c92) | [Apply](<https://jobs.smartrecruiters.com/InfiniteQuant/744000144281579>) | 2026-08-19 | Summer 2027 | BS |
 | Point72 | Quantitative Developer Intern ⚠️dup?(point72-quantitative-developer-intern-251025) | [Apply](<https://boards.greenhouse.io/point72/jobs/8721562002?gh_jid=8721562002>) | 2026-08-18 | Summer 2027 | BS |
 | Wells Fargo | 2027 Quantitative Analytics Summer In... ⚠️dup?(wells-fargo-2027-quantitative-analytics-summer-in-f6f112) | [Apply](<https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-Masters----Early-Careers_R-569402>) | 2026-08-18 | Summer 2027 | BS |
 | Wells Fargo | Quantitative Analytics Intern - Multiple Teams ⚠️dup?(wells-fargo-quantitative-analytics-intern-multiple-teams-0a06ab) | [Apply](<https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-Masters----Early-Careers_R-569402>) | 2026-08-18 | Summer 2027 | MS |
@@ -614,6 +616,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Continental Resources | Data Analyst Intern | [Apply](<https://clr.wd5.myworkdayjobs.com/CLR_Careers/job/Oklahoma-City-OK/Data-Analyst-Intern--Summer-2027-_R02591-1>) | 2026-08-18 | Summer 2027 | BS |
 | American Express | Data Analytics Intern - Global Servicing - Financial Crimes Risk & Controls | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012627>) | 2026-08-18 | Summer 2027 | BS |
 | Arthur J. Gallagher & Co. | Data Analytics Intern | [Apply](<https://jobs.ajg.com/jobs/57701?icims=1>) | 2026-08-17 | Summer 2027 | BS |
 | WEC Energy Group | Energy Analytics Intern | [Apply](<https://careers.wecenergygroup.com/We_Energies/job/Milwaukee-Intern-Energy-Analytics-WI-53203/1420267800/?ats=successfactors>) | 2026-08-17 | Summer 2027 | BS/MS |
@@ -621,7 +624,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Vanguard | Data Analyst Intern - College to Corporate IT | [Apply](<https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Analyst--NC-_177677-1>) | 2026-08-17 | Summer 2027 | BS/MS |
 | Vanguard | Data Science Intern - College to Corporate IT | [Apply](<https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1>) | 2026-08-17 | Summer 2027 | BS/MS |
 | Vanguard | Data Science Intern - Information Technology | [Apply](<https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1>) | 2026-08-17 | Summer 2027 | BS |
-| Vanguard | Data Analysis Intern | [Apply](<https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Analysis--PA-_177679-1>) | 2026-08-17 | Summer 2027 | BS/MS |
 | Ryan Companies | Business Intelligence Intern - Mission Critical | [Apply](<https://ryancompanies.wd5.myworkdayjobs.com/ryancompanies/job/Minneapolis/Business-Intelligence-Intern--Mission-Critical_R-101961>) | 2026-08-17 | Summer 2027 | BS/MS |
 | Crowe | Data Analytics Developer Intern | [Apply](<https://crowe.wd12.myworkdayjobs.com/en-US/external_careers/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041>) | 2026-08-14 | Summer 2027 | BS |
 | GuideWell Mutual | Enterprise Analytics Intern | [Apply](<http://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41879>) | 2026-08-14 | Summer 2027 | BS |
@@ -698,8 +700,16 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| NVIDIA | Computer Vision and Deep Learning Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Vision-and-Deep-Learning_JR2023833>) | 2026-08-19 | Summer 2027 | PhD |
+| NVIDIA | Deep Learning Computer Architecture Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
+| NVIDIA | Large Language Models Intern - Research | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Large-Language-Models_JR2023837>) | 2026-08-19 | Summer 2027 | PhD |
+| NVIDIA | Generative AI Ph.D. Research Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Generative-AI_JR2023475>) | 2026-08-19 | Summer 2027 | PhD |
+| NVIDIA | Ph.D. Research Autonomous Vehicles Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Autonomous-Vehicles_JR2023838>) | 2026-08-19 | Summer 2027 | PhD |
+| ByteDance | Machine Learning Engineer Intern - E-Commerce Risk Control - PhD | [Apply](<https://jobs.bytedance.com/en/position/7675477254269765941/detail>) | 2026-08-19 | Summer 2027 | PhD |
+| ByteDance | Machine Learning Engineer Intern - E-Commerce Risk Control - PhD | [Apply](<https://jobs.bytedance.com/en/position/7675478684795881781/detail>) | 2026-08-19 | Summer 2027 | PhD |
 | ByteDance | AI/LLM Network Research Intern (High ... | [Apply](<https://joinbytedance.com/search/7670281454740818181>) | 2026-08-19 | Summer 2027 | BS |
 | ByteDance | GPU/AI Application Platform Engineer ... | [Apply](<https://joinbytedance.com/search/7668475133954197765>) | 2026-08-19 | Summer 2027 | BS |
+| Continental Resources | Geoscience Intern | [Apply](<https://clr.wd5.myworkdayjobs.com/CLR_Careers/job/Oklahoma-City-OK/Geoscience-Intern--Summer-2027-_R02592-1>) | 2026-08-18 | Summer 2027 | BS/MS |
 | Humana | Technology Intern | [Apply](<https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Humana-Technology-Internship---Summer-2027_R-424692-1>) | 2026-08-18 | Summer 2027 | BS |
 | Dimensional Fund Advisors | Global Client Group Intern - Data and Tools - Undergraduate and Master's | [Apply](<https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Global-Client-Group---Data-and-Tools--Undergraduate---Master-s-_2026-9003>) | 2026-08-18 | Summer 2027 | BS/MS |
 | Arkansas Center for Data Sciences | Align AI Software Development Intern | [Apply](<https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787>) | 2026-08-18 | Summer 2027 | BS |
@@ -744,7 +754,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | ByteDance | Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern (AML-Ark-US) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7671105026009925893/detail>) | 2026-08-10 | Summer 2027 | BS/MS |
 | ByteDance | AI Infrastructure Engineer Intern (Compute Efficiency &amp; Scheduling) - 2027 Summer | [Apply](<https://joinbytedance.com/search/7668802157205965109>) | 2026-08-09 | Summer 2027 | BS |
 | ByteDance | Research Intern (SDN Traffic Intelligence &amp; Control) - 2027 Start | [Apply](<https://joinbytedance.com/search/7668118098724079877>) | 2026-08-08 | Summer 2027 | BS |
-| GE Vernova | Digital Technology Intern ⚠️dup?(ge-vernova-digital-technology-intern-c5f332) | [Apply](<https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-2>) | 2026-08-07 | Summer 2027 | BS |
 | The Nuclear Company | AI/ML Engineer Intern | [Apply](<https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383231008>) | 2026-08-07 | Summer 2027 | BS |
 | ByteDance | Machine Learning Research Scientist Intern (Seed AI for Science - Atomistic AI) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7670855041951795509/detail>) | 2026-08-07 | Summer 2027 | PhD |
 | FTI Consulting | Technology Intern | [Apply](<https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Technology_JR260339-1>) | 2026-08-07 | Summer 2027 | BS/MS |
@@ -917,6 +926,17 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| NVIDIA | Mixed Signal Design Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
+| NVIDIA | Hardware Design for Test Intern - DFT | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1>) | 2026-08-19 | Summer 2027 | MS/PhD |
+| NVIDIA | Ph.D. Research Hardware Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Hardware_JR2023855>) | 2026-08-19 | Summer 2027 | PhD |
+| NVIDIA | Ph.D. Engineering Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Summer-Internships--PhD-Engineering_JR2023856>) | 2026-08-19 | Summer 2027 | PhD |
+| NVIDIA | Computer Architecture Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
+| NVIDIA | Hardware Verification Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
+| NVIDIA | Hardware Physical Design / VLSI Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
+| NVIDIA | Developer and Performance Technology Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499>) | 2026-08-19 | Summer 2027 | BS/MS |
+| NVIDIA | Computer Architecture and Systems Intern - Research | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Architecture-and-Systems_JR2023854>) | 2026-08-19 | Summer 2027 | PhD |
+| NVIDIA | Hardware Engineering Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
+| NVIDIA | Hardware ASIC Design Intern - Hardware | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
 | Amentum | Mechanical Engineering Intern | [Apply](<https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-ID-Scoville/Mechanical-Engineering-Intern_R0168396-1>) | 2026-08-19 | Summer 2027 | BS |
 | BorgWarner | Validation Intern (Year-Round) | [Apply](<https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Validation-Intern--Year-Round-_R2026-1960>) | 2026-08-19 | Summer 2027 | BS |
 | Wabtec | Engineering Intern | [Apply](<https://jobs.smartrecruiters.com/Wabtec/3743990014652807>) | 2026-08-18 | Summer 2027 | BS |
@@ -1058,6 +1078,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| CVS Health | Actuarial Corporate Internship | [Apply](<https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Actuarial-Corporate-Internship_R1015250>) | 2026-08-19 | Summer 2027 | BS |
 | Northwestern Mutual | Actuarial Summer Internship | [Apply](<https://jobs.smartrecruiters.com/NorthwesternMutual/743999658679004>) | 2026-08-11 | Summer 2027 | BS |
 | Cigna | Risk & Underwriting Summer Internship... | [Apply](<https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Risk---Underwriting-Summer-Internship-Program_26008897>) | 2026-08-07 | Summer 2027 | BS |
 | Cigna | Actuarial Internship - Summer 2027 | [Apply](<https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2027_26006087>) | 2026-08-05 | Summer 2027 | BS |

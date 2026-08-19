@@ -807,7 +807,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-18'
+  last_verified: '2026-08-19'
   possible_duplicate_of: null
   date_estimated: true
 - id: generac-mechanical-design-engineering-intern-7c0f07
@@ -2616,6 +2616,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -2632,6 +2633,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -2664,6 +2666,196 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-hardware-asic-design-intern-hardware-10f6d3
+  company: NVIDIA
+  role: Hardware ASIC Design Intern - Hardware
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-hardware-engineering-intern-ddfa8d
+  company: NVIDIA
+  role: Hardware Engineering Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-computer-architecture-and-systems-intern-research-03e767
+  company: NVIDIA
+  role: Computer Architecture and Systems Intern - Research
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Architecture-and-Systems_JR2023854
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-developer-and-performance-technology-intern-47e1f8
+  company: NVIDIA
+  role: Developer and Performance Technology Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-hardware-physical-design-vlsi-intern-c0f58e
+  company: NVIDIA
+  role: Hardware Physical Design / VLSI Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-hardware-verification-intern-383e3c
+  company: NVIDIA
+  role: Hardware Verification Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-computer-architecture-intern-da2167
+  company: NVIDIA
+  role: Computer Architecture Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-ph-d-engineering-intern-62b11d
+  company: NVIDIA
+  role: Ph.D. Engineering Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Summer-Internships--PhD-Engineering_JR2023856
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-ph-d-research-hardware-intern-4a086d
+  company: NVIDIA
+  role: Ph.D. Research Hardware Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Hardware_JR2023855
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-hardware-design-for-test-intern-dft-9bb917
+  company: NVIDIA
+  role: Hardware Design for Test Intern - DFT
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-mixed-signal-design-intern-d8d450
+  company: NVIDIA
+  role: Mixed Signal Design Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null

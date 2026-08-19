@@ -3675,6 +3675,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -4473,6 +4474,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   - company:the-nuclear-company
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -8408,6 +8410,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -8442,6 +8445,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -8458,6 +8464,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -8475,6 +8483,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -8492,6 +8501,10 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -8556,6 +8569,22 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-ph-d-research-graphics-and-simulation-intern-graphics-and-simulation-39f29e
+  company: NVIDIA
+  role: Ph.D. Research Graphics and Simulation Intern - Graphics and Simulation
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Graphics-and-Simulation_JR2023835
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null

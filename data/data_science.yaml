@@ -783,6 +783,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
   - company:the-nuclear-company
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -1174,6 +1175,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-08-15'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -1332,7 +1334,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -1471,6 +1473,25 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: continental-resources-data-analyst-intern-afcb82
+  company: Continental Resources
+  role: Data Analyst Intern
+  location: Oklahoma City, OK
+  link: https://clr.wd5.myworkdayjobs.com/CLR_Careers/job/Oklahoma-City-OK/Data-Analyst-Intern--Summer-2027-_R02591-1
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null

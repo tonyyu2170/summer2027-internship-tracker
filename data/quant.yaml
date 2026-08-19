@@ -1283,6 +1283,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -1640,6 +1641,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -3813,6 +3815,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -4607,3 +4610,19 @@
   date_added: '2026-08-18'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
+- id: infinitequant-quantitative-developer-internship-summer-2027-015b79
+  company: InfiniteQuant
+  role: Quantitative Developer - Internship - Summer 2027
+  location: Remote (US)
+  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000144281579
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: infinitequant-quantitative-developer-internship-summer-2027-606c92
