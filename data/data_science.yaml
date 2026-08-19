@@ -1474,6 +1474,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -1492,6 +1493,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null

@@ -1249,8 +1249,9 @@
   sources:
   - github_tracker
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-19'
   possible_duplicate_of: null
   date_estimated: false
 - id: eulerity-android-developer-intern-158d47
@@ -6609,6 +6610,8 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-12'
   last_verified: '2026-08-19'
   possible_duplicate_of: hp-enterprise-operations-software-internship-3081d7
@@ -8448,6 +8451,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -8484,6 +8488,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -8585,6 +8590,169 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-nvidia-2027-internships-systems-software-engineering-d11cde
+  company: NVIDIA
+  role: 'NVIDIA 2027 Internships: Systems Software Engineering'
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: nvidia-nvidia-2027-internships-software-engineering-9e8029
+  company: NVIDIA
+  role: 'NVIDIA 2027 Internships: Software Engineering'
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: metova-federal-software-design-engineer-intern-e70798
+  company: Metova Federal
+  role: Software Design Engineer Intern
+  location: Orlando, FL
+  link: https://jobs-cesi.icims.com/jobs/11204/software-design-engineer-intern/job
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: by-light-software-design-engineer-intern-efdeda
+  company: By Light
+  role: Software Design Engineer Intern
+  location: Orlando, FL
+  link: https://jobs-bylight.icims.com/jobs/11204/software-design-engineer-intern/job
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: rivian-and-volkswagen-group-technologies-software-engineering-intern-embedde-3c2267
+  company: Rivian and Volkswagen Group Technologies
+  role: Software Engineering Intern - Embedde...
+  location: Palo Alto, CA
+  link: https://jobs.ashbyhq.com/rivianvw.tech/4dfbf1e6-3778-4101-8ac7-cd4015d47eff
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: rilla-software-engineering-intern-2027-gr-ca0951
+  company: Rilla
+  role: Software Engineering Intern - 2027 Gr...
+  location: New York, NY
+  link: https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: n1-software-engineer-intern-fullstack-8a3c6c
+  company: N1
+  role: Software Engineer Intern (Fullstack)
+  location: New York, NY
+  link: https://jobs.ashbyhq.com/N1/298585c3-96b1-4728-8d37-31482f85a064
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: n1-software-engineer-intern-backend-rust-5f98c3
+  company: N1
+  role: Software Engineer Intern (Backend, Rust)
+  location: New York, NY
+  link: https://jobs.ashbyhq.com/N1/afe7deb5-9cfd-4926-bcb4-058d418592a6
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: n1-research-intern-02ecf4
+  company: N1
+  role: Research Intern
+  location: New York, NY
+  link: https://jobs.ashbyhq.com/N1/f40a263f-dc1a-4d67-81ed-2ba3c893567c
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-19'
+  last_verified: '2026-08-19'
+  possible_duplicate_of: null
+- id: microchip-technology-intern-engineering-applications-ddee57
+  company: Microchip Technology
+  role: Intern - Engineering (Applications)
+  location: Lawrence, MA
+  link: https://microchiphr.wd5.myworkdayjobs.com/External/job/MA---Lawrence/Intern---Engineering--Applications-_R3569-26
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: null

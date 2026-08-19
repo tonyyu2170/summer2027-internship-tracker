@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-19 11:36 EST — 1029 open roles. Last scrape: +23 new, 2 closed._
+_Last updated: 2026-08-19 17:17 EST — 1044 open roles._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,11 +22,21 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Microchip Technology | Intern - Engineering (Applications) | [Apply](<https://microchiphr.wd5.myworkdayjobs.com/External/job/MA---Lawrence/Intern---Engineering--Applications-_R3569-26>) | 2026-08-19 | Summer 2027 | BS |
+| N1 | Research Intern | [Apply](<https://jobs.ashbyhq.com/N1/f40a263f-dc1a-4d67-81ed-2ba3c893567c>) | 2026-08-19 | Summer 2027 | BS |
+| N1 | Software Engineer Intern (Backend, Rust) | [Apply](<https://jobs.ashbyhq.com/N1/afe7deb5-9cfd-4926-bcb4-058d418592a6>) | 2026-08-19 | Summer 2027 | BS |
+| N1 | Software Engineer Intern (Fullstack) | [Apply](<https://jobs.ashbyhq.com/N1/298585c3-96b1-4728-8d37-31482f85a064>) | 2026-08-19 | Summer 2027 | BS |
+| Rilla | Software Engineering Intern - 2027 Gr... | [Apply](<https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5>) | 2026-08-19 | Summer 2027 | BS |
+| Rivian and Volkswagen Group Technologies | Software Engineering Intern - Embedde... | [Apply](<https://jobs.ashbyhq.com/rivianvw.tech/4dfbf1e6-3778-4101-8ac7-cd4015d47eff>) | 2026-08-19 | Summer 2027 | BS |
+| Metova Federal | Software Design Engineer Intern | [Apply](<https://jobs-cesi.icims.com/jobs/11204/software-design-engineer-intern/job>) | 2026-08-19 | Summer 2027 | BS |
+| NVIDIA | NVIDIA 2027 Internships: Software Engineering | [Apply](<https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495>) | 2026-08-19 | Summer 2027 | BS |
+| NVIDIA | NVIDIA 2027 Internships: Systems Software Engineering | [Apply](<https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492>) | 2026-08-19 | Summer 2027 | BS |
 | NVIDIA | Ph.D. Research Graphics and Simulation Intern - Graphics and Simulation | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Graphics-and-Simulation_JR2023835>) | 2026-08-19 | Summer 2027 | PhD |
 | Marmon Holdings | Engineering Co-op | [Apply](<https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Chicago-IL/Engineering-Co-op_JR0000045243-3>) | 2026-08-19 | Summer 2027 | BS |
 | HNTB | Bridge Engineering Technology Intern ... | [Apply](<https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Princeton-NJ/Bridge-Engineering-Technology-Intern---Fall-2026_R-31086-1>) | 2026-08-19 | Summer 2027 | BS |
 | Marmon Holdings | Engineering Intern | [Apply](<https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Chicago-IL/Engineering-Intern_JR0000045242-3>) | 2026-08-19 | Summer 2027 | BS |
 | ByteDance | Site Reliability Engineer Intern (Dat... | [Apply](<https://joinbytedance.com/search/7672922348676647221>) | 2026-08-19 | Summer 2027 | BS |
+| By Light | Software Design Engineer Intern | [Apply](<https://jobs-bylight.icims.com/jobs/11204/software-design-engineer-intern/job>) | 2026-08-18 | Summer 2027 | BS |
 | PIMCO | Software Engineering Intern - Technology Analyst | [Apply](<https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745>) | 2026-08-18 | Summer 2027 | BS/MS |
 | Truist Bank | Technology and Operations Intern - Data | [Apply](<https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/Charlotte-NC/XMLNAME-2027-Technology--Data--and-Operations-Internship_R0118061>) | 2026-08-18 | Summer 2027 | BS/MS |
 | American Express | Software Engineer Intern - Enterprise Technology Services | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011015>) | 2026-08-18 | Summer 2027 | BS |
@@ -424,7 +434,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | KeyBank | Analytics and Quantitative Modeling Intern - Analytics & Quantitative Modeling | [Apply](<https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Analytics-and-Quantitative-Modeling-Internship--Cleveland_R-41380>) | 2026-08-14 | Summer 2027 | BS |
 | Readystate Asset Management | Investment Intern - Summer 2027 & 2028 | [Apply](<https://job-boards.greenhouse.io/readystate/jobs/4171077008>) | 2026-08-13 | Summer 2027 | BS |
 | Wells Fargo | Quantitative Analytics Intern - Multiple Teams | [Apply](<https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279>) | 2026-08-13 | Summer 2027 | PhD |
-| InfiniteQuant | Quantitative Developer - Internship - Summer 2027 | [Apply](<https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594>) | 2026-08-13 | Summer 2027 | BS |
 | Wells Fargo | 2027 Quantitative Analytics Summer In... ⚠️dup?(wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5) | [Apply](<https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--Masters----Early-Careers_R-568259>) | 2026-08-13 | Summer 2027 | BS |
 | Wells Fargo | 2027 Quantitative Analytics Summer In... ⚠️dup?(wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5) | [Apply](<https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279>) | 2026-08-13 | Summer 2027 | BS |
 | Wells Fargo | 2027 Quantitative Analytics Summer In... | [Apply](<https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--Masters----Early-Careers_R-568270>) | 2026-08-13 | Summer 2027 | BS |
@@ -700,6 +709,9 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Fundwell | AI Innovation Internship | [Apply](<https://jobs.ashbyhq.com/fundwell/2d91136d-b54d-4ed0-93de-22c7839a3982>) | 2026-08-19 | Summer 2027 | BS |
+| Allium | Engineering Intern - General / AI | [Apply](<https://jobs.ashbyhq.com/allium/5d697ce5-b820-45c0-a101-86a05e1fb15e>) | 2026-08-19 | Summer 2027 | BS |
+| Microsoft | AI Software Engineering Intern | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556962891>) | 2026-08-19 | Summer 2027 | BS |
 | NVIDIA | Computer Vision and Deep Learning Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Vision-and-Deep-Learning_JR2023833>) | 2026-08-19 | Summer 2027 | PhD |
 | NVIDIA | Deep Learning Computer Architecture Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
 | NVIDIA | Large Language Models Intern - Research | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Large-Language-Models_JR2023837>) | 2026-08-19 | Summer 2027 | PhD |
@@ -926,6 +938,10 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Base Power | Hardware Sourcing Intern | [Apply](<https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10>) | 2026-08-19 | Summer 2027 | BS |
+| Motorola Solutions | Electrical Engineer Intern - Summer 2027 | [Apply](<https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67781>) | 2026-08-19 | Summer 2027 | BS |
+| Motorola Solutions | Electrical Engineer Intern - Summer 2027 | [Apply](<https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67780>) | 2026-08-19 | Summer 2027 | BS |
+| Zipline | Long Range Platform Embedded Firmware Intern - Summer 2027 | [Apply](<https://www.zipline.com/open-roles?gh_jid=7891459003>) | 2026-08-19 | Summer 2027 | BS |
 | NVIDIA | Mixed Signal Design Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
 | NVIDIA | Hardware Design for Test Intern - DFT | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1>) | 2026-08-19 | Summer 2027 | MS/PhD |
 | NVIDIA | Ph.D. Research Hardware Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Hardware_JR2023855>) | 2026-08-19 | Summer 2027 | PhD |
@@ -933,7 +949,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | NVIDIA | Computer Architecture Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
 | NVIDIA | Hardware Verification Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
 | NVIDIA | Hardware Physical Design / VLSI Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
-| NVIDIA | Developer and Performance Technology Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499>) | 2026-08-19 | Summer 2027 | BS/MS |
 | NVIDIA | Computer Architecture and Systems Intern - Research | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Architecture-and-Systems_JR2023854>) | 2026-08-19 | Summer 2027 | PhD |
 | NVIDIA | Hardware Engineering Intern | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |
 | NVIDIA | Hardware ASIC Design Intern - Hardware | [Apply](<https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486>) | 2026-08-19 | Summer 2027 | BS/MS/PhD |

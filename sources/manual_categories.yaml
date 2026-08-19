@@ -891,3 +891,64 @@ https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Kansas-City-MO/XMLNAME-2027-
 # any discipline. The posting family is consistently AI/ML research
 # (NLU/CV/ML, publication-track), so ai_ml — see the PR body.
 https://apply.careers.microsoft.com/careers/job/1970393556747969: ai_ml
+# 2026-08-19 scheduled run (evening): unclassified.json adjudication.
+# Kept — technical roles whose titles carry no keyword any rule matches.
+# Physical Intelligence is a robot-foundation-model lab, so its umbrella
+# "Research Internships" req is AI/ML research by the same reading that put
+# Microsoft's "Research Sciences" req in ai_ml. RTX "Digital Technology
+# Intern" follows the GE Aerospace Digital Technology precedent above.
+https://jobs.ashbyhq.com/physicalintelligence/f020ff1a-4b4c-4415-8434-2da5010a7076: ai_ml
+? https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Digital-Technology-Intern----Hybrid-_01867766
+: swe
+# Lower confidence, see the PR body. N1 (n1.xyz) is a 16-person NYC L1
+# blockchain/onchain-finance infra startup; a bare "Research Intern" there
+# reads as protocol/systems research, so swe — but quant is defensible given
+# the trading focus, and the posting itself is unreachable from this
+# environment.
+https://jobs.ashbyhq.com/N1/f40a263f-dc1a-4d67-81ed-2ba3c893567c: swe
+# Dropped — business/GTM/ops families (growth, go-to-market, member
+# experience, program management, planning, project coordination), consulting
+# (Grant Thornton customer transformation, PwC SAP), investment analysis at an
+# asset manager, GIS at a civil-engineering firm, and non-US reqs.
+https://jobs.ashbyhq.com/N1/7511c4e9-ac1e-476f-8d84-6055cd3d6eba: __drop__
+https://jobs.ashbyhq.com/human-computer-lab/d00556eb-3be0-4b51-be43-4a4084e505a1: __drop__
+https://jobs.ashbyhq.com/etched/0321523b-f0c3-44cd-9c46-cf318a1cad9e: __drop__
+https://jobs.ashbyhq.com/etched/f32908bd-8abc-495c-ab69-ac893b6c924d: __drop__
+https://jobs.ashbyhq.com/base-power/fe71e011-a23a-4651-8f8a-9c0fcb5f1f22: __drop__
+https://jobs.ashbyhq.com/base-power/bef96e47-d08d-4717-a2be-28975b367a89: __drop__
+https://jobs.ashbyhq.com/rivianvw.tech/8cfc9852-8aa4-492f-8817-ae4bc62dd127: __drop__
+# Spring-2027 term on a program-management req — wrong term twice over, same
+# call as the Draper Spring-2027 co-op above.
+https://www.zipline.com/open-roles?gh_jid=7904446003: __drop__
+? https://jj.wd5.myworkdayjobs.com/jj/job/Titusville-New-Jersey-United-States-of-America/External-Planning-Intern_R-094377
+: __drop__
+https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115580: __drop__
+https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278843: __drop__
+? https://ats.rippling.com/zuckerman-investment-group/jobs/923b73b8-91a9-430c-9f84-b87014b8bbb3
+: __drop__
+https://careers-kimley-horn.icims.com/jobs/25884/job?mobile=true&needsRedirect=false: __drop__
+# Non-US: Magna (Aurora, Ontario), RTX legal student (Longueuil, QC), PwC SAP
+# (Calgary) — off-scope on discipline as well.
+? https://magna.wd3.myworkdayjobs.com/Magna/job/Aurora-Ontario-CA/Co-op-Student--Organizational-Change-Management_R00256547
+: __drop__
+? https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Etudiant-en-droit---Internship---Winter-2027---Legal-student_01865040
+: __drop__
+https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Calgary/May-2027---SAP---Summer-Intern---Calgary_752589WD: __drop__
+# Lower confidence, see the PR body. A discipline-less "Corporate Intern -
+# Engineering" at Caterpillar's Mossville engine campus; its sibling
+# Engineering Corporate Internship Program reqs (Materials, Welding) all
+# dropped as off-scope disciplines, and nothing in the title signals software.
+? https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/XMLNAME-2027-Corporate-Intern---Engineering_R0000384650
+: __drop__
+# Same NVIDIA "2027 Internships: ..." truncation family as the entries above;
+# autonomous-vehicle and robotics work follows the PhD-Research-Robotics call
+# recorded this morning.
+? https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496
+: ai_ml
+# Deleted from the batch and suppressed. NVIDIA's req slug says Spring 2027
+# (the tracker labelled it Summer 2027); ING's says ACT-Amsterdam, so the
+# "Waco, TX" location the tracker supplied is wrong and the req is not US.
+? https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499
+: __drop__
+? https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Internship-Artificial-Intelligence-Agent-Developer_REQ-10120054
+: __drop__

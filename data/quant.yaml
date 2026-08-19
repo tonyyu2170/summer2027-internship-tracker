@@ -3120,6 +3120,7 @@
   - github_tracker:zshah101
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-07-24'
   last_verified: '2026-08-19'
   possible_duplicate_of: null
@@ -4341,7 +4342,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-18'
+  last_verified: '2026-08-19'
   possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
 - id: wells-fargo-2027-quantitative-analytics-summer-in-f6f112
   company: Wells Fargo
@@ -4369,7 +4370,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zshah101
   - github_tracker:chieler
@@ -4623,6 +4624,7 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
   date_added: '2026-08-19'
   last_verified: '2026-08-19'
   possible_duplicate_of: infinitequant-quantitative-developer-internship-summer-2027-606c92
