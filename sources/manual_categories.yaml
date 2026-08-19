@@ -836,3 +836,33 @@ https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Informati
 # scrape 2026-08-18: zapplyjobs tagged this Summer 2027, but the req slug and
 # the (truncated) title both say Spring 2027 — wrong term for this listing.
 https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1: __drop__
+# scrape 2026-08-19: zapplyjobs batch. Same out-of-scope families as the
+# drops above — business/process analysis, media production, energy and
+# construction, plus a non-US Fall-2026 req.
+https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Atlanta/Fleet-Issue-Risk-Intern-2027_R5050348-2: __drop__
+? https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Automne-2026---Spcialiste-en-amlioration-des-procds--Leasco---Internship---Fall-2026---Process-Improvement-Specialist--Leasco_01847320
+: __drop__
+https://joinbytedance.com/search/7672681508985227525: __drop__
+https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Business-Process-Analyst-Internship---Summer-2027_R265666: __drop__
+https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-3601-S-Broad-St/Video-Production-Intern_R440161: __drop__
+https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Post-Graduate--Year-Round--Intern---Agricultural-Energy_R14459: __drop__
+https://www.zipline.com/open-roles?gh_jid=7894561003: __drop__
+# Investment analyst roles at an asset manager, not quant research or
+# trading — same call as the PIMCO Capital Markets / Trade Support drops above.
+? https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Private-Strategies-Analyst--US--Special-Situations--NYC-_R106747
+: __drop__
+? https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Private-Strategies-Analyst--US--Residential-Mortgages--NPB-_R106748
+: __drop__
+# Guidance/navigation/control: the `\bgnc\b|guidance, navigation` drop family
+# in categorize.py, which this title misses only for lacking the comma.
+? https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/XMLNAME-2027-Guidance-Navigation-and-Control-Intern-Dulles-VA_R10246322
+: __drop__
+# Kept, lower confidence — see the PR body. Test automation is a software
+# craft; data-center optimization reads as physical-infrastructure work.
+https://www.zipline.com/open-roles?gh_jid=7886320003: swe
+https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Santa-Clara-California-United-States/Intern---Data-Center-Optimization_R0142174: hardware
+# Client-group "Insights" is the asset-manager business function, not
+# analytics — the `\boperations\b`/`\binsights?\b` drop families, which the
+# ai_ml rule claimed first. Reported by check_categories on 2026-08-19.
+? https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Global-Client-Group---Insights--Undergraduate---Master-s-_2026-9002
+: __drop__
