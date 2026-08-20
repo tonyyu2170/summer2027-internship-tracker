@@ -952,3 +952,37 @@ https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Calgary/May-2027---S
 : __drop__
 ? https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Internship-Artificial-Intelligence-Agent-Developer_REQ-10120054
 : __drop__
+# 2026-08-20 scheduled run (morning): unclassified.json adjudication.
+# Kept — General Matter's title truncates at "Summer 2027 Internship -
+# Electrical E..."; an electrical-engineering req, so hardware by the same
+# reading that placed the Micron DRAM process and Hitachi data-center reqs
+# there. Lower confidence only because the discipline is inferred from the
+# truncation — see the PR body.
+https://job-boards.greenhouse.io/generalmatter/jobs/5376052008: hardware
+# Dropped — same out-of-scope families already recorded above. Uline private
+# label is merchandising (cf. the Uline Business Process Analyst drop);
+# Invesco Fundamental Equities is investment analysis at an asset manager,
+# not quant research or trading (cf. the two Fundamental Equities COO Office
+# drops); HNTB Construction Services is civil/construction (cf. the HNTB
+# design-professional drop).
+https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Private-Label-Associate-Internship---Summer-2027_R265820: __drop__
+https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Fundamental-Equities_R-15179-1: __drop__
+https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Dallas-TX/Returning-Intern-Construction-Services--Central-Division--For-Current-Former-HNTB-Interns-Only_R-31253-1: __drop__
+# Wrong term and/or non-US: the RTX req is a Winter-2027 stage in Longueuil,
+# QC (chemical regulations), and both Warner Bros. Discovery reqs are Fall
+# 2026 CNN news-production roles despite the tracker's Summer 2027 tag.
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Bureau-de-la-Rglementation-sur-les-Produits---Internship--Winter-2027---Global-Chemical-Regulations-Office_01864165: __drop__
+https://warnerbros.wd5.myworkdayjobs.com/global/job/NY-New-York-30-Hudson-Yards/WBD-Academic-Year-Internships--WAY---CNN-NYC-News---Fall-2026_R000107237: __drop__
+https://warnerbros.wd5.myworkdayjobs.com/global/job/DC-Washington-820-1st-Street-NE/WBD-Academic-Year-Internships--WAY---CNN-DC-News---Fall-2026_R000107238: __drop__
+# Lower confidence, see the PR body. Zipline's "Computational Physics Intern"
+# is flight-physics simulation — an aerospace/mechanical discipline, the same
+# call as the Northrop Guidance-Navigation-and-Control drop, not software or
+# ML. The tracker also supplies no location for it.
+https://www.zipline.com/open-roles?gh_jid=7904720003: __drop__
+# Deleted from this batch and suppressed. Magna's req slug says
+# Toronto-Ontario-CA, so the tracker's "Toronto, CA" location is Canada, not
+# California — is_us_location read the ", CA" as the state (see the PR body).
+# The Aerospace Corporation req is a 2026 AFRL program despite the tracker's
+# Summer 2027 tag, the same call as the Draper and NVIDIA Spring-2027 drops.
+https://magna.wd3.myworkdayjobs.com/Magna/job/Toronto-Ontario-CA/Computer-Vision-Engineering-Co-op_R00248460: __drop__
+https://aero.wd5.myworkdayjobs.com/External/job/Kirtland-AFB-NM/XMLNAME-2026-AFRL-System-Engineer-Graduate-Intern_R016128: __drop__
