@@ -986,3 +986,36 @@ https://www.zipline.com/open-roles?gh_jid=7904720003: __drop__
 # Summer 2027 tag, the same call as the Draper and NVIDIA Spring-2027 drops.
 https://magna.wd3.myworkdayjobs.com/Magna/job/Toronto-Ontario-CA/Computer-Vision-Engineering-Co-op_R00248460: __drop__
 https://aero.wd5.myworkdayjobs.com/External/job/Kirtland-AFB-NM/XMLNAME-2026-AFRL-System-Engineer-Graduate-Intern_R016128: __drop__
+# Out-of-scope families already recorded above. Zipline Construction
+# Management is a construction discipline (cf. the other Zipline non-software
+# drops); Epic's Tech Art is an art-pipeline discipline, the same call as the
+# non-software split out of swe; the three PIMCO Global Wealth Management reqs
+# (alternatives, growth markets, internal sales) are asset-management/sales,
+# not quant research or trading (cf. the Invesco Fundamental Equities drops);
+# Marmon's Duty Drawback req is customs/trade-compliance process automation
+# (cf. the Uline Business Process Analyst drop); Pikeville Policy Analyst is
+# public policy; BMO's Workforce Analyst is HR analytics and its slug says
+# Toronto-ON-CAN and Winter 2027 despite the tracker's Summer 2027 tag;
+# Centific "Technical Intern" carries no discipline in the title at all (cf.
+# the Centific Research-Intern drop).
+https://www.zipline.com/open-roles?gh_jid=7904363003: __drop__
+https://epicgames.com/careers/jobs/6147154004?gh_jid=6147154004: __drop__
+https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Global-Wealth-Management--Alternatives-Analyst--US_R106760: __drop__
+https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Global-Wealth-Management--Growth-Markets-Analyst--US_R106759-1: __drop__
+https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Global-Wealth-Management--Internal-Sales-Analyst--US_R106758: __drop__
+https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Newark-NJ/Data---Process-Automation-Intern---Duty-Drawback_JR0000045184: __drop__
+https://upike.bamboohr.com/careers/511/: __drop__
+https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Workforce-Analyst--Winter-2027--Co-op-Internship----8-Months_R260024513: __drop__
+https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/Technical-Intern--Masters-or-PhD-_JR108144-1: __drop__
+# Lower confidence, see the PR body. Citadel Securities' Fundamental Analyst
+# sits on the trading side at a quant trading firm (its req slug is
+# trading-fundamental-analyst-intern-us), the same call as the Citadel
+# Securities rates-trading intern above — not the asset-manager fundamental
+# equities family that was dropped.
+https://www.citadelsecurities.com/careers/details/trading-fundamental-analyst-intern-us/: quant
+# Deleted from this batch and suppressed. Lower confidence, see the PR body.
+# Leidos' Transportation Engineering Lab in McLean, VA is highway/traffic
+# research (it supports FHWA's Turner-Fairbank lab) — a civil/transportation
+# discipline, the same call as the HNTB Construction Services drop, not
+# software. The classifier only routed it to swe on the word "Engineering".
+https://leidos.wd5.myworkdayjobs.com/External/job/McLean-VA/Transportation-Engineering-Lab-Intern_R-00189519: __drop__

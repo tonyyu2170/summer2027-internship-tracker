@@ -1844,7 +1844,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-08-20'
   possible_duplicate_of: null
   date_estimated: false
 - id: circleback-software-engineering-intern-summer-2-26e7bd
@@ -4787,6 +4787,8 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -7167,7 +7169,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -8356,7 +8358,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -8411,7 +8413,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -8779,6 +8781,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -8848,6 +8851,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -8865,6 +8870,9 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -8913,6 +8921,78 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: tiktok-software-engineer-intern-recommendation-infra-performance-efficiency-7c7c14
+  company: TikTok
+  role: Software Engineer Intern - Recommendation Infra - Performance Efficiency
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7675159726676101381
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: tiktok-software-engineer-intern-recommendation-architecture-feeds-infrastructure-435ae6
+  company: TikTok
+  role: Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure
+  location: Seattle, WA
+  link: https://lifeattiktok.com/search/7672926068681951493
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: tiktok-software-engineer-intern-recommendation-architecture-feeds-infrastructure-abb39b
+  company: TikTok
+  role: Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7672930401597671733
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: tiktok-software-engineer-intern-tiktok-search-architecture-402d41
+  company: TikTok
+  role: Software Engineer Intern - TikTok Search Architecture
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7675517686256863541
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null

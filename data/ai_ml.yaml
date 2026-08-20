@@ -4358,6 +4358,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -4376,6 +4377,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -4392,6 +4395,40 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: tiktok-machine-learning-engineer-intern-e911cd
+  company: TikTok
+  role: Machine Learning Engineer Intern
+  location: Seattle, WA
+  link: https://lifeattiktok.com/search/7675847556668295429
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: tiktok-machine-learning-engineer-intern-e-commerce-supply-chain-logistics-llm-agent-phd-af24f2
+  company: TikTok
+  role: Machine Learning Engineer Intern - E-Commerce Supply Chain & Logistics-LLM/Agent
+    - PhD
+  location: Seattle, WA
+  link: https://lifeattiktok.com/search/7675845333947812149
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null

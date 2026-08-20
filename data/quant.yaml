@@ -4358,7 +4358,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-19'
+  last_verified: '2026-08-20'
   possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
 - id: infinitequant-quantitative-developer-internship-summer-2027-606c92
   company: InfiniteQuant
@@ -4629,3 +4629,36 @@
   date_added: '2026-08-19'
   last_verified: '2026-08-20'
   possible_duplicate_of: infinitequant-quantitative-developer-internship-summer-2027-606c92
+- id: wells-fargo-2027-quantitative-analytics-summer-in-20d06e
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: CHARLOTTE, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-PhD----Early-Careers_R-569912
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: wells-fargo-quantitative-analytics-intern-risk-analytics-and-decision-sciences-216372
+  company: Wells Fargo
+  role: Quantitative Analytics Intern - Risk Analytics and Decision Sciences
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-PhD----Early-Careers_R-569912
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
