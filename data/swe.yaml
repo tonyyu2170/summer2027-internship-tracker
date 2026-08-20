@@ -6433,7 +6433,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -7134,7 +7134,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-15'
@@ -8311,6 +8311,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
+  - github_tracker:speedyapply
   date_added: '2026-08-18'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -8513,6 +8514,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-08-19'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -8873,6 +8875,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:speedyapply
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -8905,6 +8908,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -8940,6 +8944,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -8958,6 +8964,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -8975,6 +8983,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:speedyapply
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
@@ -8993,6 +9002,186 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:speedyapply
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: rtx-software-development-intern-f11d92
+  company: RTX
+  role: Software Development Intern
+  location: Tewksbury, MA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Development-Intern--Summer-2027-_01867943
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: fifth-third-bank-software-engineer-co-op-enterprise-finance-applications-summer-2027-89adbb
+  company: Fifth Third Bank
+  role: Software Engineer Co-op - Enterprise Finance Applications - Summer 2027
+  location: Cincinnati, OH
+  link: https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Summer-2027_R71588
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: tiktok-site-reliability-engineer-intern-global-sre-2027-summer-6ef8ce
+  company: TikTok
+  role: Site Reliability Engineer Intern - Global SRE - 2027 Summer
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7670874691332212997
+  date_posted: '2026-08-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: metecs-summer-software-internship-cbba26
+  company: METECS
+  role: Summer Software Internship
+  location: Houston, TX
+  link: http://metecs.applytojob.com/apply/XTBhKHIVhQ/Summer-Software-Internship
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: n1-software-engineer-intern-backend-rust-360513
+  company: N1
+  role: Software Engineer Intern - Backend - Rust
+  location: New York City, NY
+  link: https://jobs.ashbyhq.com/n1/afe7deb5-9cfd-4926-bcb4-058d418592a6
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: specialisterne-software-engineer-intern-neurodiversity-hiring-initiative-3bf70c
+  company: Specialisterne
+  role: Software Engineer Intern - Neurodiversity Hiring Initiative
+  location: Dallas, TX
+  link: http://specialisterne.applytojob.com/apply/gOkVN8zGTL/Software-Engineer-Intern-Neurodiversity-Hiring-Initiative
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: zipline-software-systems-validation-intern-summer-2027-7f0da9
+  company: Zipline
+  role: Software Systems Validation Intern - Summer 2027
+  location: South San Francisco, CA
+  link: https://www.zipline.com/open-roles?gh_jid=7894335003
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: fooji-software-engineering-intern-7660c0
+  company: Fooji
+  role: Software Engineering Intern
+  location: Lexington, KY
+  link: https://apply.workable.com/fooji/j/6563DA99B5/
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: zipline-enterprise-systems-software-engineer-intern-summer-2027-f01dc7
+  company: Zipline
+  role: Enterprise Systems Software Engineer Intern - Summer 2027
+  location: South San Francisco, CA
+  link: https://www.zipline.com/open-roles?gh_jid=7886501003
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: globalfoundries-production-control-engineering-intern-9385ff
+  company: GlobalFoundries
+  role: Production Control Engineering Intern
+  location: New York, NY
+  link: https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Technology-Development-Engineering-Intern--ULP-CMOS_JR-2503682
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
+- id: fifth-third-bank-information-security-co-op-cyber-threat-interdiction-summer-2027-3a41a0
+  company: Fifth Third Bank
+  role: Information Security Co-op - Cyber Threat Interdiction - Summer 2027
+  location: Cincinnati, OH
+  link: https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Cyber-Threat-Interdiction---Summer-2027_R71582
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null

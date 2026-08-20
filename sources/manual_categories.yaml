@@ -1019,3 +1019,51 @@ https://www.citadelsecurities.com/careers/details/trading-fundamental-analyst-in
 # discipline, the same call as the HNTB Construction Services drop, not
 # software. The classifier only routed it to swe on the word "Engineering".
 https://leidos.wd5.myworkdayjobs.com/External/job/McLean-VA/Transportation-Engineering-Lab-Intern_R-00189519: __drop__
+# 2026-08-20 scheduled run (midday): unclassified.json adjudication.
+# Dropped — all fall into out-of-scope families already recorded above.
+# Fifth Third Bank Info Security / IAM is an information-security discipline,
+# not one of the six tracked categories (the classifier deliberately treats
+# "Information Security"/"IAM" as off-scope, cf. the security-family drops
+# earlier). AbbVie's Business Technology Solutions is a BT-consulting
+# discipline (cf. the earlier BT drops). Barclays' Banking Analyst is
+# investment banking (cf. the many banking-analyst drops above). Campbell
+# Soup's Community Impact Co-Op is CSR/community-relations, not engineering.
+# National Interstate Insurance's Internal Audit Intern is audit (cf. the
+# Deloitte / EY audit drops above). JLL's Leasing Intern is commercial-real-
+# estate leasing, a sales/brokerage discipline.
+https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591: __drop__
+https://jobs.smartrecruiters.com/AbbVie/3743990014697918: __drop__
+https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Houston-609-Main-Street/Banking-Analyst-Summer-Internship-Program-2027-Houston_JR-0000083839: __drop__
+https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---NJ---Camden/Community-Impact-Co-Op_Req-67556: __drop__
+https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Internal-Audit-Intern---Summer-2027_R9399: __drop__
+https://jll.wd1.myworkdayjobs.com/jllcareers/job/Houston-TX/Leasing-Intern_REQ530097: __drop__
+# Non-US: three RTX "Stage - Hiver 2027" reqs whose Workday slugs say
+# CA-QC-LONGUEUIL (Quebec, Canada — the tracker's "Qc, CA" was Quebec, not
+# California), the same call as the earlier RTX Quebec stage drops. All three
+# are also winter stages, not summer.
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-de-Projet---Bureau-de-Transformation-Mondiale---Internship---Winter-2027----Project-Management---Global-Transformation-Office--GTO-_01864641: __drop__
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Robotique-et-Automatisation-dans-le-secteur-manufacturier-de-aronautique---Internship---Winter-2027---Robotics-and-Automation-in-the-Aeronautics-Manufacturing-Sector_01866622: __drop__
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage--Superviseur-COOP-Hiver-2027---Internship---COOP-supervisor---Winter-2027_01863232: __drop__
+# Lower confidence, see the PR body. Etched builds LLM-inference ASICs
+# (the Sohu chip); a "Supercomputing Intern" there reads as chip/systems
+# infrastructure work adjacent to the silicon, so hardware by the same
+# reading that placed the earlier Etched hardware roles there. The title
+# alone is ambiguous — could equally be ai_ml systems — but hardware is the
+# closest fit for the discipline this company hires into.
+https://jobs.ashbyhq.com/etched/b45e357c-07ea-4499-9911-1d3cc9b9ac71: hardware
+# Dropped — Abundant's "Member of Technical Staff Intern - Research" gives
+# no discipline in the title, and the company (an ashbyhq board with no
+# public presence resolvable from the link alone) doesn't disambiguate.
+# Same call as the Centific Technical-Intern drops above. Left for Tony to
+# reclassify by hand if the company turns out to be a tracked AI lab.
+https://jobs.ashbyhq.com/abundant/1ebf7fda-c322-404d-acc3-2757bbd79996/application?embed=true: __drop__
+# Wrong term: five TikTok "2027 Fall" reqs that the speedyapply tracker tagged
+# Summer 2027, but whose titles carry "2027 Fall" outright — a Fall term is
+# off-scope for this Summer 2027 listing. Deleted from data/swe.yaml this run
+# and suppressed so the same speedyapply mis-tag can't re-import them. Sibling
+# "2027 Summer" reqs on identical teams from the same source were kept.
+https://lifeattiktok.com/search/7675524738811218229: __drop__
+https://lifeattiktok.com/search/7675129440242010421: __drop__
+https://lifeattiktok.com/search/7675163472469444917: __drop__
+https://lifeattiktok.com/search/7674029284224092421: __drop__
+https://lifeattiktok.com/search/7672934842451577141: __drop__

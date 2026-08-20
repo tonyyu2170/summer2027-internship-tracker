@@ -1534,3 +1534,21 @@
   date_added: '2026-08-20'
   last_verified: '2026-08-20'
   possible_duplicate_of: null
+- id: fannie-mae-data-science-intern-analytics-modeling-program-5ea444
+  company: Fannie Mae
+  role: Data Science Intern - Analytics & Modeling Program
+  location: Washington, DC
+  link: https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Washington-DC/Campus---Data-Science-Intern--Analytics---Modeling-Program-_JR2815
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-20'
+  last_verified: '2026-08-20'
+  possible_duplicate_of: null
