@@ -943,7 +943,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-08-21'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-electronics-engineering-intern-8d175b
@@ -1080,7 +1080,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-20'
+  last_verified: '2026-08-21'
   possible_duplicate_of: null
   date_estimated: true
 - id: ambarella-asic-design-engineer-intern-7b4044
@@ -2796,7 +2796,7 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -3038,6 +3038,260 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-research-engineer-intern-co-op-amd-research-43cd29
+  company: AMD
+  role: Research Engineer Intern/Co-op - AMD Research
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/90925?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-hardware-design-verification-engineer-co-op-intern-632cc5
+  company: AMD
+  role: Hardware Design Verification Engineer Co-op/Intern
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/90810?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-hardware-engineer-intern-co-op-hardware-engineering-f36999
+  company: AMD
+  role: Hardware Engineer Intern/Co-op - Hardware Engineering
+  location: Rochester, NY
+  link: https://careers.amd.com/jobs/91182?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-firmware-engineer-intern-co-op-3939f1
+  company: AMD
+  role: Firmware Engineer Intern/Co-op
+  location: Secaucus, NJ
+  link: https://careers.amd.com/jobs/90801?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-firmware-engineering-intern-co-op-undergrad-d673c7
+  company: AMD
+  role: Firmware Engineering Intern Co-op - Undergrad
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/90807?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-hardware-engineering-intern-co-op-undergrad-2435d0
+  company: AMD
+  role: Hardware Engineering Intern/Co-op - Undergrad
+  location: Rochester, NY
+  link: https://careers.amd.com/jobs/91173?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-hardware-design-verification-engineer-co-op-intern-0a859a
+  company: AMD
+  role: Hardware Design Verification Engineer Co-op/Intern
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/90811?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-hardware-design-verification-engineer-intern-co-op-b3a9bd
+  company: AMD
+  role: Hardware Design Verification Engineer Intern/Co-op
+  location: Secaucus, NJ
+  link: https://careers.amd.com/jobs/90813?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-field-applications-engineer-intern-masters-a839f8
+  company: AMD
+  role: Field Applications Engineer Intern - Masters
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/91239?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-product-development-engineering-intern-co-op-5ba78c
+  company: AMD
+  role: Product Development Engineering Intern/Co-op
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/91228?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-firmware-engineer-co-op-intern-fa3d50
+  company: AMD
+  role: Firmware Engineer Co-op/Intern
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/90809?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-hardware-engineer-intern-co-op-8b23c2
+  company: AMD
+  role: Hardware Engineer Intern/Co-op
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/90894?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-firmware-engineer-intern-co-op-ab50e0
+  company: AMD
+  role: Firmware Engineer Intern/Co-op
+  location: Secaucus, NJ
+  link: https://careers.amd.com/jobs/90805?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-hardware-design-verification-engineering-intern-co-op-cf6c12
+  company: AMD
+  role: Hardware Design Verification Engineering Intern/Co-op
+  location: Secaucus, NJ
+  link: https://careers.amd.com/jobs/90820?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-product-development-engineer-intern-co-op-e21b23
+  company: AMD
+  role: Product Development Engineer Intern/Co-op
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/91227?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null

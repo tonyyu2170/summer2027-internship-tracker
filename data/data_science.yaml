@@ -1396,7 +1396,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
@@ -1551,6 +1551,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-20'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -1586,6 +1587,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -1603,6 +1607,8 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -1620,6 +1626,8 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -1637,6 +1645,8 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -1669,6 +1679,72 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-data-analyst-intern-co-op-481a6b
+  company: AMD
+  role: Data Analyst Intern/Co-op
+  location: Rochester, NY
+  link: https://careers.amd.com/jobs/91183?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-data-analyst-intern-co-op-d7df0e
+  company: AMD
+  role: Data Analyst Intern/Co-op
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/90895?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-data-analyst-intern-co-op-c24e24
+  company: AMD
+  role: Data Analyst Intern/Co-op
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/91179?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-data-analyst-intern-co-op-b30b00
+  company: AMD
+  role: Data Analyst Intern/Co-op
+  location: Rochester, NY
+  link: https://careers.amd.com/jobs/91175?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null

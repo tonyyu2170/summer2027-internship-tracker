@@ -2259,7 +2259,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4449,6 +4449,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4465,6 +4467,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4481,6 +4485,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4497,6 +4502,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4513,6 +4519,127 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: auto-owners-insurance-predictive-modeler-intern-summer-2027-8a0937
+  company: Auto-Owners Insurance
+  role: Predictive Modeler Intern - Summer 2027
+  location: Lansing, MI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Predictive-Modeler-Intern---Summer-2022_R_3833
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: imeg-innovation-services-intern-c28aa4
+  company: IMEG
+  role: Innovation Services Intern
+  location: St. Louis, MO
+  link: https://wd1.myworkdaysite.com/recruiting/imeg/Imeg_Careers/job/St-Louis-MO/Innovation-Services-Intern---St-Louis--MO_R-16449-1
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: lawrence-livermore-national-laboratory-llnl-computational-engineering-graduate-intern-98ed6e
+  company: Lawrence Livermore National Laboratory (LLNL)
+  role: Computational Engineering Graduate Intern
+  location: Livermore, CA
+  link: https://jobs.smartrecruiters.com/LLNL/3743990014730886
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-machine-learning-intern-co-op-multiple-teams-c4434b
+  company: AMD
+  role: Machine Learning Intern/Co-op - Multiple Teams
+  location: Rochester, NY
+  link: https://careers.amd.com/jobs/91170?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-machine-learning-intern-co-op-machine-learning-artificial-intelligence-8ecdb5
+  company: AMD
+  role: Machine Learning Intern/Co-op - Machine Learning - Artificial Intelligence
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/91177?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-machine-learning-intern-co-op-machine-learning-artificial-intelligence-1bf304
+  company: AMD
+  role: Machine Learning Intern/Co-op - Machine Learning - Artificial Intelligence
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/90892?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-machine-learning-intern-co-op-artificial-intelligence-a80c34
+  company: AMD
+  role: Machine Learning Intern/Co-op - Artificial Intelligence
+  location: Rochester, NY
+  link: https://careers.amd.com/jobs/91181?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null

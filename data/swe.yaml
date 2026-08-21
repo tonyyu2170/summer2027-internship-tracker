@@ -2209,6 +2209,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   - company:deepgram
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -6313,7 +6314,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-17'
+  last_verified: '2026-08-21'
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-summer-2027-e59fd0
   company: RTX
@@ -7118,7 +7119,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -7153,7 +7154,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
@@ -7480,10 +7481,11 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -7498,7 +7500,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -7516,7 +7518,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -7535,7 +7537,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -7553,7 +7555,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
@@ -8381,7 +8383,7 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
@@ -8435,7 +8437,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-19'
@@ -8818,7 +8820,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -9206,6 +9208,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -9238,6 +9241,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -9286,6 +9290,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -9318,6 +9323,155 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-software-engineer-intern-co-op-masters-d2ecac
+  company: AMD
+  role: Software Engineer Intern/Co-op - Masters
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/91176?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-software-engineer-intern-co-op-803c5b
+  company: AMD
+  role: Software Engineer Intern/Co-op
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/90891?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-software-engineer-intern-co-op-a7d519
+  company: AMD
+  role: Software Engineer Intern/Co-op
+  location: Rochester, NY
+  link: https://careers.amd.com/jobs/91180?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: amd-software-engineer-intern-co-op-1bdcce
+  company: AMD
+  role: Software Engineer Intern/Co-op
+  location: Rochester, NY
+  link: https://careers.amd.com/jobs/90947?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: llnl-national-security-engineering-divisio-b1f5f4
+  company: LLNL
+  role: National Security Engineering Divisio...
+  location: Livermore, CA
+  link: https://jobs.smartrecruiters.com/llnl/3743990014731656
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: llnl-national-security-engineering-divisio-71dc37
+  company: LLNL
+  role: National Security Engineering Divisio...
+  location: Livermore, CA
+  link: https://jobs.smartrecruiters.com/llnl/3743990014731646
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: leidos-robotics-engineer-intern-3add2f
+  company: Leidos
+  role: Robotics Engineer Intern
+  location: Huntsville, AL
+  link: https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Robotics-Engineer-Intern_R-00190159
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: leidos-engineering-intern-a2e280
+  company: Leidos
+  role: Engineering Intern
+  location: Huntsville, AL
+  link: https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern_R-00189691
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: analog-devices-mixed-signal-engineer-intern-63593d
+  company: Analog Devices
+  role: Mixed Signal Engineer Intern
+  location: Wilmington, MA
+  link: https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Mixed-Signal-Engineer-Intern_R265299
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
