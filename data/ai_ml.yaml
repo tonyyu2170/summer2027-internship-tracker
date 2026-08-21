@@ -3896,6 +3896,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:vanshb03
   date_added: '2026-08-18'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3915,6 +3916,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:vanshb03
   date_added: '2026-08-18'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3933,6 +3935,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:vanshb03
   date_added: '2026-08-18'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3952,6 +3955,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:vanshb03
   date_added: '2026-08-18'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3970,6 +3974,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:vanshb03
   date_added: '2026-08-18'
   last_verified: '2026-08-21'
   possible_duplicate_of: american-express-ai-engineer-intern-enterprise-technology-services-28f75a
@@ -4022,6 +4027,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:vanshb03
   date_added: '2026-08-18'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4040,6 +4046,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:vanshb03
   date_added: '2026-08-18'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4058,6 +4065,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:vanshb03
   date_added: '2026-08-18'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4112,6 +4120,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:vanshb03
   date_added: '2026-08-19'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4538,6 +4547,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4555,6 +4565,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4573,6 +4584,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4590,6 +4602,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4607,6 +4620,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -4640,6 +4654,23 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: millennium-applied-ai-engineer-intern-ef89eb
+  company: Millennium
+  role: Applied AI Engineer Intern
+  location: Miami, FL
+  link: https://career.mlp.com/careers/job/755957778848
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:vanshb03
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null

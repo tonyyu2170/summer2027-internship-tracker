@@ -1465,6 +1465,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - company:hpr-hyannis-port-research
+  - github_tracker:vanshb03
   date_added: '2026-08-08'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3056,6 +3057,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3073,6 +3075,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3090,6 +3093,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3107,6 +3111,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3124,6 +3129,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3141,6 +3147,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3191,6 +3198,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3208,6 +3216,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3242,6 +3251,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3275,6 +3285,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
@@ -3292,6 +3303,55 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: e-space-embedded-software-engineering-intern-ad5bef
+  company: E-Space
+  role: Embedded Software Engineering Intern
+  location: Arlington, TX
+  link: https://jobs.lever.co/espace/1e189295-a315-414d-8c0b-686f204e3cb3
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: moog-intern-electrical-engineering-91f728
+  company: Moog
+  role: Intern, Electrical Engineering
+  location: Buffalo, NY
+  link: https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Electrical-Engineering_R-26-19569
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-21'
+  last_verified: '2026-08-21'
+  possible_duplicate_of: null
+- id: analog-devices-process-sustaining-engineering-intern-6da3a7
+  company: Analog Devices
+  role: Process Sustaining Engineering Intern
+  location: Chelmsford Alpha, MA
+  link: https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Chelmsford-Alpha/Process-Sustaining-Engineering-Intern_R265319-1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-21'
   last_verified: '2026-08-21'
   possible_duplicate_of: null
