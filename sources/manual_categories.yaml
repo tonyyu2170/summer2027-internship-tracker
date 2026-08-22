@@ -1140,3 +1140,55 @@ https://www.zipline.com/open-roles?gh_jid=7909570003: ai_ml
 : __drop__
 ? https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Internship---Artificial-Intelligence-Agent-Developer_REQ-10120227
 : __drop__
+# 2026-08-22 scheduled scrape: zapplyjobs parked these in unclassified.json.
+# Most are upstream-truncated titles where the full req (recoverable from the
+# link) does resolve under scripts/categorize.py's rules; the rest are
+# out-of-scope families already recorded above.
+# Truncated software titles — "...Platform E[ngineer]" and "...Soft[ware
+# Engineer]" — both plainly swe once untruncated.
+https://joinbytedance.com/search/7673636205233490181: swe
+https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bellevue/GE-Vernova---Energy-Optimization-Software-Engineer-Intern---Summer-2027_R5050022-2: swe
+# LPL's FAR analytics reqs: "data analy"/"analytics" wins ahead of the
+# out-of-scope families in categorize.py's rule order, the same outcome as the
+# tracked Bank of China "Internal Audit Department - Data Analytics Audit
+# Intern" rows in data_science.yaml.
+https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Intern-2027---FAR-Program---Internal-Audit---Data-Analytics_R-053198: data_science
+https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Intern-2027---FAR-Program---Internal-Audit---Business-Analytics_R-053190: data_science
+https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Intern-2027---FAR-Program---Data-Analytics_R-052053: data_science
+# The other two FAR reqs name no analytics discipline: IT audit is the same
+# family as the GAIG IT Audit drop, and "Risk, Operations, and Compliance"
+# matches the operations/compliance DROP rules outright.
+https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Intern-2027---FAR-Program---Internal-Audit---Information-Technology_R-053199: __drop__
+https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Intern-2027---FAR-Program---Risk--Operations--and-Compliance_R-052054: __drop__
+# Power-transmission and power-systems engineering: the non-software
+# discipline split, cf. the Eversource Transmission System Planning drop.
+https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/93367: __drop__
+https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/93368: __drop__
+https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bellevue/GE-Vernova---Power-Systems-Intern---Summer-2027_R5050148-2: __drop__
+# Zipline programme management and aerodynamics — non-software disciplines,
+# cf. the other Zipline drops above.
+https://www.zipline.com/open-roles?gh_jid=7904471003: __drop__
+https://www.zipline.com/open-roles?gh_jid=7904518003: __drop__
+# PIMCO Global Wealth Management again (private family capital, strategic
+# accounts, private client group) — asset-management/sales, the same call as
+# the three GWM reqs recorded above.
+https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Global-Wealth-Management--Private-Family-Capital-Analyst--US-_R106771: __drop__
+https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Global-Wealth-Management--Strategic-Accounts-Analyst--US--_R106770: __drop__
+https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Global-Wealth-Management--Private-Client-Group-Analyst--US-_R106768: __drop__
+# Corporate IT operations / internal systems administration: the same family
+# as the BorgWarner IT Technician and Argonne Business Systems Administration
+# drops.
+https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Technology-Operations--PA-_181788: __drop__
+https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Intern--IS-Systems---Salesforce_REQ26-1133: __drop__
+# Sales and events roles.
+https://www.samsara.com/company/careers/roles/8099799?gh_jid=8099799: __drop__
+https://www.samsara.com/company/careers/roles/8103119?gh_jid=8103119: __drop__
+https://asmglobal.wd1.myworkdayjobs.com/careers/job/Frisco-TX/Intern-Catering---Special-Events-Coordinator_R100124929: __drop__
+# Consulting is out of scope (CLAUDE.md); this req came in under simplifyjobs'
+# own ai_ml category and was dropped from data/ai_ml.yaml in the same run, so
+# record the judgment here to keep it from returning tomorrow.
+https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/Phoenix---E-Camelback/Government-Health-Consulting-Informatics-Summer-Intern---College-Program-2027_R_362073: __drop__
+# Petroleum geoscience at an oil and gas producer — none of the six
+# categories. Arrived under the trackers' own ai_ml category (so no rule saw
+# it) and was dropped from data/ai_ml.yaml in the same run.
+https://diamondbackenergy.wd12.myworkdayjobs.com/DBE/job/Midland-TX/Summer-2027-Geoscience-Intern_R100829: __drop__

@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-21 16:12 EST — 1121 open roles._
+_Last updated: 2026-08-22 00:17 EST — 1135 open roles._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,6 +22,16 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Brunswick | Engineering Test Lab Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Lowell-MI/Engineering-Test-Lab-Intern_JR-051267>) | 2026-08-22 | Summer 2027 | BS |
+| Brunswick | Engineering Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Tulsa-OK/Engineering-Intern_JR-051312>) | 2026-08-22 | Summer 2027 | BS |
+| Brunswick | Transducer Engineering Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Tulsa-OK/Transducer-Engineering-Intern_JR-051320>) | 2026-08-22 | Summer 2027 | BS |
+| ByteDance | Multi-Cloud CDN Scheduling Platform E... | [Apply](<https://joinbytedance.com/search/7673636205233490181>) | 2026-08-22 | Summer 2027 | BS |
+| Brunswick | Software Engineering Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Tulsa-OK/Software-Engineering-Intern_JR-051321>) | 2026-08-22 | Summer 2027 | BS |
+| Blackstone | Software Engineer Summer Analyst - Blackstone Technology & Innovations | [Apply](<https://blackstone.wd1.myworkdayjobs.com/zh-CN/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Software-Engineer-Summer-Analyst_45021>) | 2026-08-21 | Summer 2027 | BS |
+| GE Vernova | Project Engineer Intern - Summer 2027 ⚠️dup?(ge-vernova-project-engineer-intern-summer-2027-101110) | [Apply](<https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050023-2>) | 2026-08-21 | Summer 2027 | MS/PhD |
+| GE Vernova | Energy Optimization Software Engineer Intern - Summer 2027 ⚠️dup?(ge-vernova-energy-optimization-software-engineer-intern-summer-2027-8b746c) | [Apply](<https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue/GE-Vernova---Energy-Optimization-Software-Engineer-Intern---Summer-2027_R5050022-2>) | 2026-08-21 | Summer 2027 | MS/PhD |
+| GE Vernova | Project Engineer Intern - Summer 2027 | [Apply](<https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050023-1>) | 2026-08-21 | Summer 2027 | MS/PhD |
+| GE Vernova | Energy Optimization Software Engineer Intern - Summer 2027 | [Apply](<https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Energy-Optimization-Software-Engineer-Intern---Summer-2027_R5050022-1>) | 2026-08-21 | Summer 2027 | MS/PhD |
 | American Express | Cybersecurity Intern ⚠️dup?(american-express-cybersecurity-intern-85ea3f) | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012460>) | 2026-08-21 | Summer 2027 | BS |
 | American Express | Cybersecurity Intern | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012462>) | 2026-08-21 | Summer 2027 | BS |
 | Copart | QA Engineering Intern | [Apply](<https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671>) | 2026-08-21 | Summer 2027 | BS |
@@ -201,7 +211,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Kastle | Software Engineer - Intern | [Apply](<https://jobs.ashbyhq.com/kastle/6f32db51-de45-472f-a9c8-d9419d3634ee>) | 2026-08-07 | Summer 2027 | BS |
 | TikTok | Frontend Engineer Intern (Ads Interface) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7671211313289398581>) | 2026-08-07 | Summer 2027 | BS/MS |
 | The Nuclear Company | Software Engineering Intern - Product - Platform | [Apply](<https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008>) | 2026-08-07 | Summer 2027 | BS |
-| Trillium | Software Engineer Intern - Summer 2027 | [Apply](<https://www.trlm.com/apply/5207089007?gh_jid=5207089007>) | 2026-08-07 | Summer 2027 | BS |
 | Ameren | Digital Co-op | [Apply](<https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Digital-Co-op_033841-1>) | 2026-08-07 | Summer 2027 | BS/MS |
 | Ameren | DERMS Co-op/Intern | [Apply](<https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/DERMS-Co-Op-Intern_033809-1>) | 2026-08-07 | Summer 2027 | BS/MS |
 | ByteDance | Network Software Development Engineer Intern(Network  Observation) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7670772641439041797/detail>) | 2026-08-07 | Summer 2027 | BS/MS |
@@ -462,7 +471,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Prudential Financial | Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group | [Apply](<https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Public-Credit--Summer-Investment-Analyst-Program--Portfolio-Analysis-Group-_R-124835-2>) | 2026-08-14 | Summer 2027 | BS/MS |
 | PGIM | Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group | [Apply](<https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Public-Credit--Summer-Investment-Analyst-Program--Portfolio-Analysis-Group-_R-124835>) | 2026-08-14 | Summer 2027 | BS/MS |
 | KeyBank | Analytics and Quantitative Modeling Intern - Analytics & Quantitative Modeling | [Apply](<https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Analytics-and-Quantitative-Modeling-Internship--Cleveland_R-41380>) | 2026-08-14 | Summer 2027 | BS |
-| Readystate Asset Management | Investment Intern - Summer 2027 & 2028 | [Apply](<https://job-boards.greenhouse.io/readystate/jobs/4171077008>) | 2026-08-13 | Summer 2027 | BS |
 | Wells Fargo | Quantitative Analytics Intern - Multiple Teams | [Apply](<https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279>) | 2026-08-13 | Summer 2027 | PhD |
 | Wells Fargo | 2027 Quantitative Analytics Summer In... ⚠️dup?(wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5) | [Apply](<https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--Masters----Early-Careers_R-568259>) | 2026-08-13 | Summer 2027 | BS |
 | Wells Fargo | 2027 Quantitative Analytics Summer In... ⚠️dup?(wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5) | [Apply](<https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279>) | 2026-08-13 | Summer 2027 | BS |
@@ -654,6 +662,9 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Blackstone | Data Science Summer Analyst | [Apply](<https://blackstone.wd1.myworkdayjobs.com/zh-CN/Blackstone_Campus_Careers/job/New-York/XMLNAME-2027-Data-Science-Summer-Analyst_44862>) | 2026-08-21 | Summer 2027 | BS/MS |
+| LPL Financial Holdings | Data Analytics Intern - FAR Program | [Apply](<https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Intern-2027---FAR-Program---Data-Analytics_R-052053>) | 2026-08-21 | Summer 2027 | BS |
+| LPL Financial Holdings | Internal Audit Intern - Multiple Teams | [Apply](<https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Intern-2027---FAR-Program---Internal-Audit---Data-Analytics_R-053198>) | 2026-08-21 | Summer 2027 | BS |
 | AMD | Data Analyst Intern/Co-op | [Apply](<https://careers.amd.com/jobs/91175?icims=1>) | 2026-08-21 | Summer 2027 | BS |
 | AMD | Data Analyst Intern/Co-op | [Apply](<https://careers.amd.com/jobs/91179?icims=1>) | 2026-08-21 | Summer 2027 | MS |
 | AMD | Data Analyst Intern/Co-op | [Apply](<https://careers.amd.com/jobs/90895?icims=1>) | 2026-08-21 | Summer 2027 | BS |
@@ -748,6 +759,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Blackstone | Data Engineer Summer Analyst - Blackstone Technology & Innovations | [Apply](<https://blackstone.wd1.myworkdayjobs.com/zh-CN/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Technology-and-Innovations--Data-Engineer-Summer-Analyst_45022>) | 2026-08-21 | Summer 2027 | BS |
 | Millennium | Applied AI Engineer Intern | [Apply](<https://career.mlp.com/careers/job/755957778848>) | 2026-08-21 | Summer 2027 | BS |
 | AMD | Machine Learning Intern/Co-op - Artificial Intelligence | [Apply](<https://careers.amd.com/jobs/91181?icims=1>) | 2026-08-21 | Summer 2027 | MS |
 | AMD | Machine Learning Intern/Co-op - Machine Learning - Artificial Intelligence | [Apply](<https://careers.amd.com/jobs/90892?icims=1>) | 2026-08-21 | Summer 2027 | BS |
@@ -993,6 +1005,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Analog Devices | Analog Design Engineer Intern | [Apply](<https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297>) | 2026-08-22 | Summer 2027 | BS |
+| General Matter | Summer 2027 Internship - Electrical E... ⚠️dup?(general-matter-summer-2027-internship-electrical-e-cfd305) | [Apply](<https://job-boards.greenhouse.io/generalmatter/jobs/5376639008>) | 2026-08-22 | Summer 2027 | BS |
 | Analog Devices | Process Sustaining Engineering Intern | [Apply](<https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Chelmsford-Alpha/Process-Sustaining-Engineering-Intern_R265319-1>) | 2026-08-21 | Summer 2027 | BS |
 | Moog | Intern, Electrical Engineering | [Apply](<https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Electrical-Engineering_R-26-19569>) | 2026-08-21 | Summer 2027 | BS |
 | AMD | Product Development Engineer Intern/Co-op | [Apply](<https://careers.amd.com/jobs/91227?icims=1>) | 2026-08-21 | Summer 2027 | BS |
