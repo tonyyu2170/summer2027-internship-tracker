@@ -9756,3 +9756,53 @@
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
+- id: tiktok-software-engineer-intern-2d5519
+  company: TikTok
+  role: Software Engineer Intern
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7676276048527214901
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: hitachi-engineering-intern-91cd07
+  company: Hitachi
+  role: Engineering Intern
+  location: Raleigh, NC
+  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/XMLNAME-2027-Summer-Engineering-Intern---Raleigh_R0142571
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: analog-devices-system-integration-engineer-intern-0eb373
+  company: Analog Devices
+  role: System Integration Engineer Intern
+  location: Durham, NC
+  link: https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/System-Integration-Engineer-Intern_R265305
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null

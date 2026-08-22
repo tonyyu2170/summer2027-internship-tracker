@@ -4692,5 +4692,20 @@
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
-  possible_duplicate_of: null
+- id: ecolab-digital-ai-technology-intern-c48375
+  company: Ecolab
+  role: Digital & AI Technology Intern
+  location: Naperville, IL
+  link: https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Saint-Paul/Digital---AI-Technology-Intern_R00303249
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
   possible_duplicate_of: null

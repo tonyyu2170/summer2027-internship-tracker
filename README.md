@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-22 00:17 EST — 1135 open roles._
+_Last updated: 2026-08-22 11:37 EST — 1139 open roles._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,6 +22,9 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Analog Devices | System Integration Engineer Intern | [Apply](<https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/System-Integration-Engineer-Intern_R265305>) | 2026-08-22 | Summer 2027 | BS |
+| Hitachi | Engineering Intern | [Apply](<https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/XMLNAME-2027-Summer-Engineering-Intern---Raleigh_R0142571>) | 2026-08-22 | Summer 2027 | BS/MS |
+| TikTok | Software Engineer Intern | [Apply](<https://lifeattiktok.com/search/7676276048527214901>) | 2026-08-22 | Summer 2027 | BS/MS |
 | Brunswick | Engineering Test Lab Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Lowell-MI/Engineering-Test-Lab-Intern_JR-051267>) | 2026-08-22 | Summer 2027 | BS |
 | Brunswick | Engineering Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Tulsa-OK/Engineering-Intern_JR-051312>) | 2026-08-22 | Summer 2027 | BS |
 | Brunswick | Transducer Engineering Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Tulsa-OK/Transducer-Engineering-Intern_JR-051320>) | 2026-08-22 | Summer 2027 | BS |
@@ -759,6 +762,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Ecolab | Digital & AI Technology Intern | [Apply](<https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Saint-Paul/Digital---AI-Technology-Intern_R00303249>) | 2026-08-21 | Summer 2027 | BS |
 | Blackstone | Data Engineer Summer Analyst - Blackstone Technology & Innovations | [Apply](<https://blackstone.wd1.myworkdayjobs.com/zh-CN/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Technology-and-Innovations--Data-Engineer-Summer-Analyst_45022>) | 2026-08-21 | Summer 2027 | BS |
 | Millennium | Applied AI Engineer Intern | [Apply](<https://career.mlp.com/careers/job/755957778848>) | 2026-08-21 | Summer 2027 | BS |
 | AMD | Machine Learning Intern/Co-op - Artificial Intelligence | [Apply](<https://careers.amd.com/jobs/91181?icims=1>) | 2026-08-21 | Summer 2027 | MS |

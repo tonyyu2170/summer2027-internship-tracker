@@ -1192,3 +1192,12 @@ https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/Phoenix---E-Camelback/Government
 # categories. Arrived under the trackers' own ai_ml category (so no rule saw
 # it) and was dropped from data/ai_ml.yaml in the same run.
 https://diamondbackenergy.wd12.myworkdayjobs.com/DBE/job/Midland-TX/Summer-2027-Geoscience-Intern_R100829: __drop__
+https://jobs.ashbyhq.com/etched/6f23713f-5409-45b7-aae8-adb8710cdbc3: ai_ml
+? https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/AUCC-Virtual-Info-Session---Summer-Internship-Program_R-15245
+: __drop__
+? https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/XMLNAME-2027-Summer-Business-Intern---Raleigh_R0142569
+: __drop__
+? https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---Yield-Enhancement--Data-Analysis_JR109076
+: data_science
+? https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Intern---Reservoir-Engineer---Houston--TX_RQ114655-2
+: __drop__
