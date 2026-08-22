@@ -641,7 +641,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-21'
+  last_verified: '2026-08-22'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-cec41d
   company: Copart
@@ -2126,7 +2126,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-22'
   possible_duplicate_of: null
 - id: vetsez-full-stack-developer-intern-remote-opportunity-254da6
   company: VetsEZ
@@ -2571,6 +2571,7 @@
   status: open
   sources:
   - github_tracker:vanshb03
+  - github_tracker:zapplyjobs
   date_added: '2026-07-24'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -4458,6 +4459,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:vanshb03
+  - github_tracker:chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -7291,6 +7293,7 @@
   sources:
   - github_tracker:speedyapply
   - github_tracker:vanshb03
+  - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -7668,7 +7671,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-15'
+  last_verified: '2026-08-22'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-forward-deployed-s-39a506
   company: Palantir
@@ -8370,6 +8373,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-08-18'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -9046,6 +9050,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-20'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -9550,6 +9555,7 @@
   status: open
   sources:
   - github_tracker:vanshb03
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -9602,6 +9608,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -9620,6 +9627,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -9689,6 +9697,8 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -9770,6 +9780,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:speedyapply
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -9787,6 +9798,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -9803,6 +9817,160 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
+- id: springs-window-fashions-application-engineering-intern-summer-2027-f91ad3
+  company: Springs Window Fashions
+  role: Application Engineering Intern - Summer 2027
+  location: Long Island City, NY
+  link: https://careers-springswindowfashions.icims.com/jobs/12893/job?mobile=true&needsRedirect=false
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: ambrook-software-engineering-intern-a59c69
+  company: Ambrook
+  role: Software Engineering Intern
+  location: New York City, NY
+  link: https://jobs.ashbyhq.com/ambrook/e458b046-aa7f-4022-bca5-63cdfd495456
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:chieler
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: emory-university-internship-gps-sample-tester-and-junior-developer-ets-temporary-5ff614
+  company: Emory University
+  role: Internship GPS Sample Tester and Junior Developer - ETS- Temporary
+  location: Decatur, GA
+  link: https://staff-emory.icims.com/jobs/172196/internship-gps-sample-tester-and-junior-developer-%28ets%29%7c-temporary/job
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: simis-aerospace-aviation-artificial-intelligence-developer-intern-39ad68
+  company: SimIS
+  role: Aerospace/Aviation Artificial Intelligence Developer - Intern
+  location: Suffolk, VA
+  link: http://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: syska-hennessy-group-innovations-intern-full-stack-front-end-engineering-bed68d
+  company: Syska Hennessy Group
+  role: Innovations Intern - Full Stack/Front End Engineering
+  location: New York City, NY
+  link: https://job-boards.greenhouse.io/syskahennessy/jobs/8147733
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:chieler
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: zipline-software-engineer-intern-summer-2027-269af2
+  company: Zipline
+  role: Software Engineer Intern - Summer 2027
+  location: South San Francisco, CA
+  link: https://www.zipline.com/open-roles?gh_jid=7929236003
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: availity-software-engineering-intern-1504b9
+  company: Availity
+  role: Software Engineering Intern
+  location: Remote (US)
+  link: https://availity.wd1.myworkdayjobs.com/en-US/availity_careers_us/job/Remote---United-States/Software-Engineering-Intern_R0008436
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:chieler
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: hp-software-internship-roles-hp-solutions-hps-2a7c2c
+  company: HP
+  role: Software Internship Roles - HP Solutions - HPS
+  location: Spring, TX
+  link: https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: hp-software-internship-roles-hp-solutions-hps-c77d3f
+  company: HP
+  role: Software Internship Roles - HP Solutions - HPS
+  location: Spring, TX
+  link: https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: hp-software-internship-roles-hp-solutions-hps-2a7c2c

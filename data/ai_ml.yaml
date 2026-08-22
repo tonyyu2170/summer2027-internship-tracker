@@ -4672,6 +4672,7 @@
   status: open
   sources:
   - github_tracker:vanshb03
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -4706,6 +4707,41 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: springs-window-fashions-ai-analyst-intern-consumer-business-unit-1eb5e7
+  company: Springs Window Fashions
+  role: AI Analyst Intern - Consumer Business Unit
+  location: Middleton, WI
+  link: https://careers-springswindowfashions.icims.com/jobs/12875/job?mobile=true&needsRedirect=false
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: microsoft-ai-software-engineering-intern-edge-c477a9
+  company: Microsoft
+  role: AI Software Engineering Intern - Edge
+  location: Washington, DC
+  link: https://apply.careers.microsoft.com/careers/job/1970393556979054
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null

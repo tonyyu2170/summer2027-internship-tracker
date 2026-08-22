@@ -1201,3 +1201,29 @@ https://jobs.ashbyhq.com/etched/6f23713f-5409-45b7-aae8-adb8710cdbc3: ai_ml
 : data_science
 ? https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Intern---Reservoir-Engineer---Houston--TX_RQ114655-2
 : __drop__
+
+# 2026-08-22 scheduled run: the seven titles that parked in
+# unclassified.json. Micron's metrology role lost its trailing 'Engineer' to
+# upstream truncation, so the metrology discipline rule (which requires it)
+# could not fire. Capacity's speech-technology role is ai_ml on its subject.
+# The rest are out of scope: a genomic-medicine research intern, two Toronto
+# pension-fund investments interns, and two RTX Quebec Winter-2027 co-ops.
+? https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---Metrology-Process-Development-Engineer_JR108851
+: hardware
+https://ats.rippling.com/capacity/jobs/fe15a314-75d1-4355-8e80-31de902d6d58: ai_ml
+? https://nationwidechildrens.wd5.myworkdayjobs.com/en-US/NCHCareers/job/Main-Campus-Columbus-OH/IGM-Research-Intern---RI-Miller_R-27625-1
+: __drop__
+? https://otppb.wd3.myworkdayjobs.com/OntarioTeachers_Careers/job/Toronto-Canada/Intern--Investments--Total-Fund-Management--Global-Trading--January-2027--4-Months-_7169
+: __drop__
+? https://otppb.wd3.myworkdayjobs.com/OntarioTeachers_Careers/job/Toronto-Canada/Intern--Investments--Total-Fund-Management--Global-Trading--May-2027--4-Months-_7170
+: __drop__
+? https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage-Hiver-2027---Analyste-systmes-d-affaires-et-transformation---Internship-Winter-2027---Analyst-Business-Systems-and-Transformation_01865865
+: __drop__
+? https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage-Hiver-2027---Groupe-Solutions-Client--Rparation-et-Rvision-----Internship-Winter-2027---Repair---Overhaul-Customer-Solutions-Group-_01867393
+: __drop__
+
+# 2026-08-22 scheduled run: a textile-engineering intern is a materials
+# discipline, not one of the six tracked categories. Arrived under the
+# trackers' own ai_ml category (so no rule saw it) and was dropped from
+# data/ai_ml.yaml in the same run.
+https://careers-springswindowfashions.icims.com/jobs/12881/job?mobile=true&needsRedirect=false: __drop__

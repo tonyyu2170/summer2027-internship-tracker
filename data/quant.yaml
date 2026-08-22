@@ -1802,6 +1802,7 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - github_tracker:chieler
   date_added: '2026-07-23'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -4360,7 +4361,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-21'
+  last_verified: '2026-08-22'
   possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
 - id: infinitequant-quantitative-developer-internship-summer-2027-606c92
   company: InfiniteQuant
@@ -4697,6 +4698,7 @@
   status: open
   sources:
   - github_tracker:vanshb03
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-22'
   possible_duplicate_of: null

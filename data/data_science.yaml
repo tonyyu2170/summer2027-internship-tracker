@@ -1765,6 +1765,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -1783,6 +1784,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
@@ -1801,6 +1803,38 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: springs-window-fashions-dealer-business-operations-analytics-intern-summer-2027-04a05b
+  company: Springs Window Fashions
+  role: Dealer Business Operations & Analytics Intern - Summer 2027
+  location: Middleton, WI
+  link: https://careers-springswindowfashions.icims.com/jobs/12886/job?mobile=true&needsRedirect=false
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-22'
+  last_verified: '2026-08-22'
+  possible_duplicate_of: null
+- id: springs-window-fashions-data-analyst-intern-consumer-business-unit-98f484
+  company: Springs Window Fashions
+  role: Data Analyst Intern - Consumer Business Unit
+  location: Middleton, WI
+  link: https://careers-springswindowfashions.icims.com/jobs/12874/job?mobile=true&needsRedirect=false
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-22'
   last_verified: '2026-08-22'
   possible_duplicate_of: null
