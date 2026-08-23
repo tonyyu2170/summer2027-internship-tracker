@@ -1,22 +1,23 @@
 _last_fetch:
   drops:
     github_tracker:chieler:
-      category_drop: 187
+      category_drop: 188
     github_tracker:simplifyjobs:
-      category_drop: 79
-      closed_marker_untracked: 190
+      category_drop: 78
+      closed_marker_untracked: 191
     github_tracker:sndsh404:
       category_drop: 23
     github_tracker:speedyapply:
       category_drop: 10
     github_tracker:suryaharikrishnan:
-      category_drop: 77
-      closed_marker_untracked: 163
+      category_drop: 76
+      closed_marker_untracked: 165
     github_tracker:vanshb03:
       category_drop: 10
       closed_marker_untracked: 26
     github_tracker:zapplyjobs:
       category_drop: 198
+      unclassified: 1
     github_tracker:zshah101:
       category_drop: 3
       closed_marker_untracked: 17
@@ -30,15 +31,15 @@ _last_program_check:
   upcoming: 1
 _last_run:
   new: 0
-  closed: 0
-  ran_at: 2026-08-23 11:35
+  closed: 4
+  ran_at: 2026-08-23 16:03
   drops:
     github_tracker:chieler:
-      category_drop: 187
-      missing_field: 469
+      category_drop: 188
+      missing_field: 466
     github_tracker:simplifyjobs:
-      closed_marker_untracked: 190
-      category_drop: 79
+      closed_marker_untracked: 191
+      category_drop: 78
       missing_field: 55
     github_tracker:sndsh404:
       category_drop: 23
@@ -47,23 +48,24 @@ _last_run:
       category_drop: 10
       missing_field: 4
     github_tracker:suryaharikrishnan:
-      category_drop: 77
-      closed_marker_untracked: 163
-      missing_field: 53
+      category_drop: 76
+      closed_marker_untracked: 165
+      missing_field: 52
     github_tracker:vanshb03:
       closed_marker_untracked: 26
       category_drop: 10
       missing_field: 9
     github_tracker:zapplyjobs:
       category_drop: 198
-      missing_field: 100
+      unclassified: 1
+      missing_field: 99
     github_tracker:zshah101:
       closed_marker_untracked: 17
       category_drop: 3
       missing_field: 17
 chieler:
   path: README.md
-  row_count: 1368
+  row_count: 1361
   scraped_at: '2026-08-23'
   sha: null
 company_sources:
@@ -196,7 +198,7 @@ sndsh404:
   sha: null
 speedyapply:
   path: README.md
-  row_count: 212
+  row_count: 211
   scraped_at: '2026-08-23'
   sha: null
 suryaharikrishnan:

@@ -3692,7 +3692,7 @@
   degree:
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
