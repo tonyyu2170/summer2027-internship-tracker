@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-22 16:09 EST — 1152 open roles._
+_Last updated: 2026-08-23 00:12 EST — 1152 open roles. Last scrape: +1 new, 1 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -117,7 +117,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | KeyBank | 2027 Summer Key Technology & Services... | [Apply](<https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384>) | 2026-08-18 | Summer 2027 | BS |
 | Palantir | Software Engineer, Internship - Infra... | [Apply](<https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4>) | 2026-08-18 | Summer 2027 | BS |
 | Intel | Software Development Graduate Intern | [Apply](<https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1>) | 2026-08-17 | Summer 2027 | BS |
-| RTX | Software Engineer Intern - Summer 2027 | [Apply](<https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324>) | 2026-08-17 | Summer 2027 | BS/MS |
 | KeyBank | 2027 Summer Key Technology & Services... | [Apply](<https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Security--Business---Strategy-Track-Internship--Cleveland_R-41390>) | 2026-08-17 | Summer 2027 | BS |
 | Conagra Brands | Software Development Internship - Summer 2027 | [Apply](<https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787>) | 2026-08-17 | Summer 2027 | BS |
 | Conagra Brands | IT Infrastructure Internship - Summer 2027 | [Apply](<https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788>) | 2026-08-17 | Summer 2027 | BS |
@@ -1022,6 +1021,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| GlobalFoundries | Quantum Technology Services Intern (S... | [Apply](<https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Quantum-Technology-Services-Intern--Summer-2027-_JR-2604439>) | 2026-08-23 | Summer 2027 | BS |
 | Analog Devices | Analog Design Engineer Intern | [Apply](<https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297>) | 2026-08-22 | Summer 2027 | BS |
 | General Matter | Summer 2027 Internship - Electrical E... ⚠️dup?(general-matter-summer-2027-internship-electrical-e-cfd305) | [Apply](<https://job-boards.greenhouse.io/generalmatter/jobs/5376639008>) | 2026-08-22 | Summer 2027 | BS |
 | Analog Devices | Process Sustaining Engineering Intern | [Apply](<https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Chelmsford-Alpha/Process-Sustaining-Engineering-Intern_R265319-1>) | 2026-08-21 | Summer 2027 | BS |

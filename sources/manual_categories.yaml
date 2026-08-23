@@ -1227,3 +1227,12 @@ https://ats.rippling.com/capacity/jobs/fe15a314-75d1-4355-8e80-31de902d6d58: ai_
 # trackers' own ai_ml category (so no rule saw it) and was dropped from
 # data/ai_ml.yaml in the same run.
 https://careers-springswindowfashions.icims.com/jobs/12881/job?mobile=true&needsRedirect=false: __drop__
+
+# 2026-08-23 scheduled run: GlobalFoundries "Quantum Technology Services
+# Intern" at their Malta, NY fab. The title arrived upstream-truncated
+# ("(S...") and "quantum" matches no rule, so it parked as unclassified.
+# Filed as hardware: a quantum-technology role at a semiconductor foundry
+# site is physical device/process work, which is what hardware.yaml holds.
+# Flagged in the PR body — the truncated title leaves some doubt.
+? https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Quantum-Technology-Services-Intern--Summer-2027-_JR-2604439
+: hardware
