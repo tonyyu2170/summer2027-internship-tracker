@@ -16,7 +16,8 @@ _last_fetch:
       category_drop: 10
       closed_marker_untracked: 26
     github_tracker:zapplyjobs:
-      category_drop: 198
+      category_drop: 196
+      unclassified: 11
     github_tracker:zshah101:
       category_drop: 3
       closed_marker_untracked: 17
@@ -29,9 +30,9 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 0
-  closed: 0
-  ran_at: 2026-08-24 00:15
+  new: 5
+  closed: 1
+  ran_at: 2026-08-24 11:36
   drops:
     github_tracker:chieler:
       category_drop: 188
@@ -55,8 +56,9 @@ _last_run:
       category_drop: 10
       missing_field: 9
     github_tracker:zapplyjobs:
-      category_drop: 198
-      missing_field: 102
+      category_drop: 196
+      unclassified: 11
+      missing_field: 97
     github_tracker:zshah101:
       closed_marker_untracked: 17
       category_drop: 3
@@ -211,11 +213,11 @@ vanshb03:
   sha: null
 zapplyjobs:
   path: README.md
-  row_count: 524
+  row_count: 528
   scraped_at: '2026-08-24'
   sha: null
 zshah101:
   path: data/jobs.json
-  row_count: 164
+  row_count: 165
   scraped_at: '2026-08-24'
   sha: null

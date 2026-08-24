@@ -4702,3 +4702,19 @@
   date_added: '2026-08-21'
   last_verified: '2026-08-24'
   possible_duplicate_of: null
+- id: infinitequant-quantitative-developer-internship-summer-2027-40dfd2
+  company: InfiniteQuant
+  role: Quantitative Developer - Internship - Summer 2027
+  location: Remote (US)
+  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000145205764
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: infinitequant-quantitative-developer-internship-summer-2027-015b79

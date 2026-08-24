@@ -1253,3 +1253,53 @@ https://careers-springswindowfashions.icims.com/jobs/12881/job?mobile=true&needs
 # it is silicon design-for-test work. Filed as hardware, consistent with the
 # other Etched chip-side rows already in data/hardware.yaml.
 https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d: hardware
+
+# 2026-08-24 (cloud run): nine Disney (Workday) postings from zapplyjobs,
+# all with upstream-truncated titles so no keyword rule fires. Every one is
+# dropped on two independent grounds: the term is Spring 2027 (one is Spring
+# 2026), not Summer 2027, despite the tracker asserting "Summer 2027" in its
+# term column; and none is one of the six tracked categories — theme-park
+# transportation logistics, facilities/utilities engineering, strategic
+# sourcing, show lighting design, business planning, and occupational safety
+# and industrial hygiene. Note the first would otherwise classify as
+# data_science on the "Analytics" in its untruncated title, and the
+# facilities-controls one as hardware on "Electrical Engineering"; both are
+# still wrong-term Spring roles, which is why they are recorded here rather
+# than left to the rules.
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Walt-Disney-World-Transportation-Logistics---Analytics-Intern--Spring-2027_10158253-1
+: __drop__
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Disneyland-Facilities-Controls-Electrical-Engineering-Intern--Spring-2027_10158296
+: __drop__
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Disneyland-Facilities-Management-Engineering-Intern--Spring-2027_10158737
+: __drop__
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Disneyland-Design-and-Construction-Strategic-Sourcing-Intern--Spring-2027_10158291
+: __drop__
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/WDI-Show-Lighting-Design-Intern--Spring-2027_10158892
+: __drop__
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Celebration-FL-USA/WDI-Business-Planning-and-Strategy-Intern--Orlando--Spring-2027_10158474-2
+: __drop__
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/DLR-Occupational-Safety---Industrial-Hygiene-Interns--Spring-2027_10158132
+: __drop__
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Disneyland-Civil-Facilities-and-Utilities-Intern--Spring-2026_10158736-2
+: __drop__
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Disneyland-Strategic-Sourcing-Intern--Spring-2027_10158264-2
+: __drop__
+
+# 2026-08-24 (cloud run): Intel "Process Integration and Yield Engineer PhD
+# Intern" (Hillsboro, OR). Truncated upstream, so nothing matched; on the
+# full title the bare `engineer` in the swe rule would claim it, which is
+# clearly wrong for fab-side work. Filed as hardware, consistent with the
+# hardware discipline list already covering semiconductor and metrology —
+# process integration and yield engineering is silicon process work, not a
+# software role. Flagged in the PR body; a one-line edit here to __drop__
+# would treat it as out-of-scope manufacturing instead.
+? https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Process-Integration-and-Yield-Engineer-PhD-Intern_JR0286268
+: hardware
+
+# 2026-08-24 (cloud run): Google "Research Intern, PhD, Summer 2027". The
+# title is complete, not truncated — it simply names no field, so no rule
+# can fire. Filed as ai_ml because Google's PhD research internships are
+# predominantly ML/AI research, but this is a genuine guess and is flagged
+# in the PR body. (The only Google rows currently tracked are in swe.yaml,
+# all explicitly "Software Engineering Intern".)
+https://www.google.com/about/careers/applications/jobs/results/86701057991680710: ai_ml

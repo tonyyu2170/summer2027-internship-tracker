@@ -1842,3 +1842,19 @@
   date_added: '2026-08-22'
   last_verified: '2026-08-24'
   possible_duplicate_of: null
+- id: audax-group-data-analytics-co-op-3a6fb3
+  company: Audax Group
+  role: Data Analytics Co-Op
+  location: Boston, MA
+  link: https://job-boards.greenhouse.io/audaxgroup/jobs/4722880005
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null

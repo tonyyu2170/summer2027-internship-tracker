@@ -7671,7 +7671,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-23'
+  last_verified: '2026-08-24'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-forward-deployed-s-39a506
   company: Palantir
@@ -7719,7 +7719,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-21'
+  last_verified: '2026-08-24'
   possible_duplicate_of: null
 - id: rtx-co-op-aftermarket-engineer-d40e26
   company: RTX
@@ -8516,7 +8516,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -9977,3 +9977,19 @@
   date_added: '2026-08-22'
   last_verified: '2026-08-24'
   possible_duplicate_of: hp-software-internship-roles-hp-solutions-hps-2a7c2c
+- id: analog-devices-product-engineer-product-development-6b7800
+  company: Analog Devices
+  role: Product Engineer (Product Development...
+  location: Wilmington, MA
+  link: https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Product-Engineer--Product-Development--Intern_R265302
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null

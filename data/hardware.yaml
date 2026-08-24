@@ -943,7 +943,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-21'
+  last_verified: '2026-08-24'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-electronics-engineering-intern-8d175b
@@ -2037,7 +2037,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-21'
+  last_verified: '2026-08-24'
   possible_duplicate_of: null
 - id: shield-ai-electrical-engineering-spring-co-op-debc16
   company: Shield AI
@@ -3403,5 +3403,21 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-23'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: analog-devices-digital-design-engineer-intern-a0708d
+  company: Analog Devices
+  role: Digital Design Engineer Intern
+  location: Durham, NC
+  link: https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-24'
   last_verified: '2026-08-24'
   possible_duplicate_of: null
