@@ -1858,3 +1858,83 @@
   date_added: '2026-08-24'
   last_verified: '2026-08-24'
   possible_duplicate_of: null
+- id: bny-data-science-intern-engineering-f24428
+  company: BNY
+  role: Data Science Intern - Engineering
+  location: Jersey City, NJ
+  link: https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81238
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: bny-data-science-intern-engineering-5e1a50
+  company: BNY
+  role: Data Science Intern - Engineering
+  location: Pittsburgh, PA
+  link: https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81241
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: bny-data-science-intern-engineering-7f7468
+  company: BNY
+  role: Data Science Intern - Engineering
+  location: New York, NY
+  link: https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81240
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: bny-data-science-intern-engineering-432893
+  company: BNY
+  role: Data Science Intern - Engineering
+  location: Lake Mary, FL
+  link: https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81239
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: polaris-digital-it-predictive-data-scienc-24f93d
+  company: Polaris
+  role: Digital & IT - Predictive Data Scienc...
+  location: Medina, MN
+  link: https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Medina-MN-USA/Digital---IT---Predictive-Data-Science-Internship---Summer-2027_R30525
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null

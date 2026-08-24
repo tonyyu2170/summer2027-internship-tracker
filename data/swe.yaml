@@ -9974,6 +9974,8 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-22'
   last_verified: '2026-08-24'
   possible_duplicate_of: hp-software-internship-roles-hp-solutions-hps-2a7c2c
@@ -9982,6 +9984,185 @@
   role: Product Engineer (Product Development...
   location: Wilmington, MA
   link: https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Product-Engineer--Product-Development--Intern_R265302
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: bny-engineering-developer-intern-engineering-c8bfaf
+  company: BNY
+  role: Engineering Developer Intern - Engineering
+  location: Lake Mary, FL
+  link: https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81252
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: gulfstream-software-engineer-intern-ief-05a2b4
+  company: Gulfstream
+  role: Software Engineer Intern - IEF
+  location: Savannah, GA
+  link: https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421863200/?ats=successfactors
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: mastercard-software-engineer-intern-616ec9
+  company: Mastercard
+  role: Software Engineer Intern
+  location: O'Fallon, MO
+  link: https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer-Intern--Summer-2027---United-States_R-287618-1
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: medpace-python-intern-summer-2027-71e896
+  company: Medpace
+  role: Python Intern - Summer 2027
+  location: Cincinnati, OH
+  link: https://careers.medpace.com/jobs/12962?icims=1
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: bny-software-engineer-intern-engineering-developer-cb3b7a
+  company: BNY
+  role: Software Engineer Intern - Engineering - Developer
+  location: Jersey City, NJ
+  link: https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81251
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: bny-engineering-intern-engineering-developer-b5b476
+  company: BNY
+  role: Engineering Intern - Engineering - Developer
+  location: Pittsburgh, PA
+  link: https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81254
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: bny-software-developer-intern-engineering-b6f187
+  company: BNY
+  role: Software Developer Intern - Engineering
+  location: New York, NY
+  link: https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81253
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: motorola-android-application-developer-intern-summer-2027-e450f6
+  company: Motorola
+  role: Android Application Developer Intern - Summer 2027
+  location: Chicago, IL
+  link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: audax-group-data-engineer-co-op-7c9e94
+  company: Audax Group
+  role: Data Engineer Co-Op
+  location: Boston, MA
+  link: https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: rtx-system-engineering-co-op-remote-095d6a
+  company: RTX
+  role: System Engineering Co-op (Remote)
+  location: Aurora, CO
+  link: https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/System-Engineering-Co-op--Remote-_01868902
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: curtiss-wright-engineer-intern-fd2821
+  company: Curtiss-Wright
+  role: Engineer Intern
+  location: Grand Prairie, TX
+  link: https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-TX-Grand-Prairie-ST-160/Engineer-Intern_JR11380
   date_posted: '2026-08-24'
   date_estimated: false
   term: Summer 2027

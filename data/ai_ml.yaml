@@ -3058,7 +3058,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-23'
+  last_verified: '2026-08-24'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-content-intelligence-030098
   company: TikTok
@@ -4760,6 +4760,22 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: google-research-intern-phd-e45d13
+  company: Google
+  role: Research Intern - PhD
+  location: Palo Alto, CA
+  link: https://www.google.com/about/careers/applications/jobs/results/86701057991680710
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-24'
   last_verified: '2026-08-24'
   possible_duplicate_of: null

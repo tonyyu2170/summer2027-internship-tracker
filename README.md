@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-24 11:37 EST — 1152 open roles. Last scrape: +5 new, 1 closed._
+_Last updated: 2026-08-24 16:08 EST — 1172 open roles. Last scrape: +21 new, 1 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,6 +22,17 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Curtiss-Wright | Engineer Intern | [Apply](<https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-TX-Grand-Prairie-ST-160/Engineer-Intern_JR11380>) | 2026-08-24 | Summer 2027 | BS |
+| RTX | System Engineering Co-op (Remote) | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/System-Engineering-Co-op--Remote-_01868902>) | 2026-08-24 | Summer 2027 | BS |
+| Audax Group | Data Engineer Co-Op | [Apply](<https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005>) | 2026-08-24 | Summer 2027 | BS |
+| Motorola | Android Application Developer Intern - Summer 2027 | [Apply](<https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740>) | 2026-08-24 | Summer 2027 | BS/MS |
+| BNY | Software Developer Intern - Engineering | [Apply](<https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81253>) | 2026-08-24 | Summer 2027 | BS |
+| BNY | Engineering Intern - Engineering - Developer | [Apply](<https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81254>) | 2026-08-24 | Summer 2027 | BS |
+| BNY | Software Engineer Intern - Engineering - Developer | [Apply](<https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81251>) | 2026-08-24 | Summer 2027 | BS |
+| Medpace | Python Intern - Summer 2027 | [Apply](<https://careers.medpace.com/jobs/12962?icims=1>) | 2026-08-24 | Summer 2027 | BS |
+| Mastercard | Software Engineer Intern | [Apply](<https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer-Intern--Summer-2027---United-States_R-287618-1>) | 2026-08-24 | Summer 2027 | BS |
+| Gulfstream | Software Engineer Intern - IEF | [Apply](<https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421863200/?ats=successfactors>) | 2026-08-24 | Summer 2027 | BS |
+| BNY | Engineering Developer Intern - Engineering | [Apply](<https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81252>) | 2026-08-24 | Summer 2027 | BS |
 | Analog Devices | Product Engineer (Product Development... | [Apply](<https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Product-Engineer--Product-Development--Intern_R265302>) | 2026-08-24 | Summer 2027 | BS |
 | Zipline | Software Engineer Intern - Summer 2027 | [Apply](<https://www.zipline.com/open-roles?gh_jid=7929236003>) | 2026-08-22 | Summer 2027 | BS |
 | Syska Hennessy Group | Innovations Intern - Full Stack/Front End Engineering | [Apply](<https://job-boards.greenhouse.io/syskahennessy/jobs/8147733>) | 2026-08-22 | Summer 2027 | BS |
@@ -466,7 +477,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
-| InfiniteQuant | Quantitative Developer - Internship - Summer 2027 ⚠️dup?(infinitequant-quantitative-developer-internship-summer-2027-015b79) | [Apply](<https://jobs.smartrecruiters.com/InfiniteQuant/744000145205764>) | 2026-08-24 | Summer 2027 | BS |
+| InfiniteQuant | Quantitative Developer - Internship - Summer 2027 ⚠️dup?(infinitequant-quantitative-developer-internship-summer-2027-40dfd2) | [Apply](<https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134>) | 2026-08-24 | Summer 2027 | BS |
+| Freddie Mac | Quantitative Risk Management Intern | [Apply](<https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Risk-Management-Graduate-Intern---Quantitative-Summer-2027_JR17553>) | 2026-08-24 | Summer 2027 | BS |
 | Millennium | Quantitative Developer Intern | [Apply](<https://career.mlp.com/careers/job/755957819661>) | 2026-08-21 | Summer 2027 | BS |
 | PIMCO | Trading Analyst Intern | [Apply](<https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Trading-Analyst--US_R106763>) | 2026-08-20 | Summer 2027 | BS |
 | Wells Fargo | Quantitative Analytics Intern - Risk Analytics and Decision Sciences | [Apply](<https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-PhD----Early-Careers_R-569912>) | 2026-08-20 | Summer 2027 | PhD |
@@ -671,6 +683,11 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Polaris | Digital & IT - Predictive Data Scienc... | [Apply](<https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Medina-MN-USA/Digital---IT---Predictive-Data-Science-Internship---Summer-2027_R30525>) | 2026-08-24 | Summer 2027 | BS |
+| BNY | Data Science Intern - Engineering | [Apply](<https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81239>) | 2026-08-24 | Summer 2027 | BS |
+| BNY | Data Science Intern - Engineering | [Apply](<https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81240>) | 2026-08-24 | Summer 2027 | BS |
+| BNY | Data Science Intern - Engineering | [Apply](<https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81241>) | 2026-08-24 | Summer 2027 | BS |
+| BNY | Data Science Intern - Engineering | [Apply](<https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81238>) | 2026-08-24 | Summer 2027 | BS |
 | Audax Group | Data Analytics Co-Op | [Apply](<https://job-boards.greenhouse.io/audaxgroup/jobs/4722880005>) | 2026-08-24 | Summer 2027 | BS |
 | Springs Window Fashions | Data Analyst Intern - Consumer Business Unit | [Apply](<https://careers-springswindowfashions.icims.com/jobs/12874/job?mobile=true&needsRedirect=false>) | 2026-08-22 | Summer 2027 | BS |
 | Springs Window Fashions | Dealer Business Operations & Analytics Intern - Summer 2027 | [Apply](<https://careers-springswindowfashions.icims.com/jobs/12886/job?mobile=true&needsRedirect=false>) | 2026-08-22 | Summer 2027 | BS |
@@ -771,6 +788,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Google | Research Intern - PhD | [Apply](<https://www.google.com/about/careers/applications/jobs/results/86701057991680710>) | 2026-08-24 | Summer 2027 | PhD |
 | Audax Group | AI Engineer Co-Op | [Apply](<https://job-boards.greenhouse.io/audaxgroup/jobs/4722801005>) | 2026-08-24 | Summer 2027 | BS |
 | Microsoft | AI Software Engineering Intern - Edge | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556979054>) | 2026-08-22 | Summer 2027 | BS |
 | Springs Window Fashions | AI Analyst Intern - Consumer Business Unit | [Apply](<https://careers-springswindowfashions.icims.com/jobs/12875/job?mobile=true&needsRedirect=false>) | 2026-08-22 | Summer 2027 | BS |
@@ -1020,6 +1038,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Brunswick | Mechanical Engineer Co-op/Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Lowell-MI/Mechanical-Engineer-Co-op-Intern_JR-051322>) | 2026-08-24 | Summer 2027 | BS |
+| Brunswick | Electro - Mechanical Engineering Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Menomonee-Falls-WI/Electro---Mechanical-Engineering-Intern_JR-051298>) | 2026-08-24 | Summer 2027 | BS |
 | Analog Devices | Digital Design Engineer Intern | [Apply](<https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298>) | 2026-08-24 | Summer 2027 | BS |
 | GlobalFoundries | Quantum Technology Services Intern (S... | [Apply](<https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Quantum-Technology-Services-Intern--Summer-2027-_JR-2604439>) | 2026-08-23 | Summer 2027 | BS |
 | Analog Devices | Analog Design Engineer Intern | [Apply](<https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297>) | 2026-08-22 | Summer 2027 | BS |

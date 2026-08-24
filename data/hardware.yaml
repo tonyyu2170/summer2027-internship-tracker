@@ -3421,3 +3421,35 @@
   date_added: '2026-08-24'
   last_verified: '2026-08-24'
   possible_duplicate_of: null
+- id: brunswick-electro-mechanical-engineering-intern-ade4d8
+  company: Brunswick
+  role: Electro - Mechanical Engineering Intern
+  location: Menomonee Falls, WI
+  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Menomonee-Falls-WI/Electro---Mechanical-Engineering-Intern_JR-051298
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
+- id: brunswick-mechanical-engineer-co-op-intern-72d344
+  company: Brunswick
+  role: Mechanical Engineer Co-op/Intern
+  location: Lowell, MI
+  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Lowell-MI/Mechanical-Engineer-Co-op-Intern_JR-051322
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-24'
+  last_verified: '2026-08-24'
+  possible_duplicate_of: null
