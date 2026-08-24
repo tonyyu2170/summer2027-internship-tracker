@@ -1246,3 +1246,10 @@ https://careers-springswindowfashions.icims.com/jobs/12881/job?mobile=true&needs
 # tenant as the already-dropped RTX India CA-Intern row above.
 ? https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Industrialisation----Internship---Winter-2027---Industrialization-Production-Readiness_01867520
 : __drop__
+
+# 2026-08-24 (cloud run): Etched "DFT Intern". "DFT" matches no keyword rule
+# and is ambiguous in the abstract (design-for-test vs. density functional
+# theory), but Etched builds transformer-inference ASICs, so at this employer
+# it is silicon design-for-test work. Filed as hardware, consistent with the
+# other Etched chip-side rows already in data/hardware.yaml.
+https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d: hardware

@@ -10,14 +10,13 @@ _last_fetch:
     github_tracker:speedyapply:
       category_drop: 10
     github_tracker:suryaharikrishnan:
-      category_drop: 76
-      closed_marker_untracked: 165
+      category_drop: 75
+      closed_marker_untracked: 167
     github_tracker:vanshb03:
       category_drop: 10
       closed_marker_untracked: 26
     github_tracker:zapplyjobs:
       category_drop: 198
-      unclassified: 1
     github_tracker:zshah101:
       category_drop: 3
       closed_marker_untracked: 17
@@ -31,8 +30,8 @@ _last_program_check:
   upcoming: 1
 _last_run:
   new: 0
-  closed: 4
-  ran_at: 2026-08-23 16:03
+  closed: 0
+  ran_at: 2026-08-24 00:15
   drops:
     github_tracker:chieler:
       category_drop: 188
@@ -48,17 +47,16 @@ _last_run:
       category_drop: 10
       missing_field: 4
     github_tracker:suryaharikrishnan:
-      category_drop: 76
-      closed_marker_untracked: 165
-      missing_field: 52
+      category_drop: 75
+      closed_marker_untracked: 167
+      missing_field: 51
     github_tracker:vanshb03:
       closed_marker_untracked: 26
       category_drop: 10
       missing_field: 9
     github_tracker:zapplyjobs:
       category_drop: 198
-      unclassified: 1
-      missing_field: 99
+      missing_field: 102
     github_tracker:zshah101:
       closed_marker_untracked: 17
       category_drop: 3
@@ -66,7 +64,7 @@ _last_run:
 chieler:
   path: README.md
   row_count: 1361
-  scraped_at: '2026-08-23'
+  scraped_at: '2026-08-24'
   sha: null
 company_sources:
   company:appian:
@@ -189,35 +187,35 @@ northwesternfintech:
 simplifyjobs:
   path: .github/scripts/listings.json
   row_count: 886
-  scraped_at: '2026-08-23'
+  scraped_at: '2026-08-24'
   sha: null
 sndsh404:
   path: README.md
   row_count: 112
-  scraped_at: '2026-08-23'
+  scraped_at: '2026-08-24'
   sha: null
 speedyapply:
   path: README.md
   row_count: 211
-  scraped_at: '2026-08-23'
+  scraped_at: '2026-08-24'
   sha: null
 suryaharikrishnan:
   path: data/listings.json
   row_count: 771
-  scraped_at: '2026-08-23'
+  scraped_at: '2026-08-24'
   sha: null
 vanshb03:
   path: .github/scripts/listings.json
   row_count: 265
-  scraped_at: '2026-08-23'
+  scraped_at: '2026-08-24'
   sha: null
 zapplyjobs:
   path: README.md
-  row_count: 521
-  scraped_at: '2026-08-23'
+  row_count: 524
+  scraped_at: '2026-08-24'
   sha: null
 zshah101:
   path: data/jobs.json
   row_count: 164
-  scraped_at: '2026-08-23'
+  scraped_at: '2026-08-24'
   sha: null
