@@ -1424,3 +1424,39 @@ https://jll.wd1.myworkdayjobs.com/jllcareers/job/Columbus-OH/Intern--Value-and-R
 # category; suppressed here so they do not return on the next scrape.
 https://lifeattiktok.com/search/7677467375486765317: __drop__
 https://lifeattiktok.com/search/7677467052537776437: __drop__
+
+# scrape 2026-08-25 (evening, cloud run): 16 postings parked as unclassified.
+# Fourteen are plainly outside the six tracked categories (creative/media,
+# events, publishing, internal audit, energy-market analysis, pension risk,
+# pricing, GIS, facilities/IT support, public health, client onboarding) or
+# outside scope on location/term (Toronto, Longueuil QC; Spring/Winter 2027
+# listings the tracker mislabelled Summer 2027). Suppressed so they stop
+# re-blocking every scheduled merge.
+https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Video---Multimedia-Intern--WSHES-Creative--Spring-2027_10157945: __drop__
+https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Event-Team-Co-Op_R67793: __drop__
+https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Irvine-Co-working/Publishing-Intern_R108014: __drop__
+https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Internal-Audit-Intern---Summer-2027_JR17565: __drop__
+https://apply.workable.com/rystad-energy/j/74A4CBBC6B/apply: __drop__
+https://otppb.wd3.myworkdayjobs.com/OntarioTeachers_Careers/job/Toronto-Canada/Intern---Total-Risk-Fund--May-2027---12-months-_7212: __drop__
+https://disney.wd5.myworkdayjobs.com/disneycareer/job/Celebration-FL-USA/Disney-Signature-Experiences-Pricing---Revenue-Management-Intern--Spring-2027_10158469: __drop__
+https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Geographic-Information-Systems--GIS--Intern--Spring-2027_10158899: __drop__
+https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---ECCO--Data-Intern--4-Months-_R-0000185330: __drop__
+https://uva.wd1.myworkdayjobs.com/uvastudentjobs/job/Charlottesville-VA/Darden-Technical-Research-Assistant--Student-Wage---Remote-_R0086583: __drop__
+https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/BMO-Capital-Markets-Winter-2027-Client-Enablement-Analyst--Toronto_R260021775: __drop__
+https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/BMO-Capital-Markets-Winter-2027-Client-Enablement-Analyst--Toronto_R260021775-3: __drop__
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Centre-Priorit-Clients---Internship---Winter-2027---Customer-First-Centre--Technical-helpdesk_01867386: __drop__
+https://multco.wd1.myworkdayjobs.com/multco_jobs/job/Portland-OR/PHP-Tobacco-Control-and-Prevention-Intern_R-20137-1: __drop__
+
+# The remaining two read as in-scope software roles whose titles carry no
+# keyword categorize.py matches. Kodiak Robotics is autonomous trucking, so
+# "Mission Planning" is the autonomy/planning stack; RFCUNY's title names
+# "Applications Development", which categorize.py already routes to swe when
+# it appears in the singular. Both flagged in the PR for a second opinion.
+https://job-boards.greenhouse.io/kodiak/jobs/4378548009: swe
+https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/IT---Data-Systems-Intern--Archibus---Applications-Development-_JR3277: swe
+
+# scrape 2026-08-25 (evening, cloud run): zapplyjobs tagged this Cadence
+# posting Summer 2027, but its own URL says Fall-2026 ("Product Engineering
+# Internship, Electronics Hardware Design, Fall 2026"). Wrong term, and it is
+# a hardware role rather than swe. Removed from data/swe.yaml and suppressed.
+https://cadence.wd1.myworkdayjobs.com/External_Careers/job/Burlington-MA/Product-Engineering-Internship--Electronics-Hardware-Design--Fall-2026-_R54158-2: __drop__

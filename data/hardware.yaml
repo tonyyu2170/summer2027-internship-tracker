@@ -943,7 +943,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-24'
+  last_verified: '2026-08-25'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-electronics-engineering-intern-8d175b
@@ -2282,7 +2282,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-21'
+  last_verified: '2026-08-25'
   possible_duplicate_of: null
 - id: bosch-group-2026-mechanical-engineering-internati-cdb84a
   company: Bosch Group
@@ -3126,7 +3126,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3282,7 +3282,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3418,6 +3418,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-24'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -3459,6 +3460,73 @@
   location: Brookings, SD
   link: https://careers-daktronics.icims.com/jobs/7518/job?mobile=true&needsRedirect=false
   date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: amd-asic-package-engineering-intern-co-op-92912c
+  company: AMD
+  role: ASIC Package Engineering Intern Co-op
+  location: Secaucus, NJ
+  link: https://careers.amd.com/jobs/91466?icims=1
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: amd-asic-package-engineer-intern-co-op-c7cbe7
+  company: AMD
+  role: ASIC Package Engineer Intern Co-op
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/91469?icims=1
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: amd-asic-package-engineering-intern-co-op-845fb2
+  company: AMD
+  role: ASIC Package Engineering Intern Co-op
+  location: Secaucus, NJ
+  link: https://careers.amd.com/jobs/91471?icims=1
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: amd-asic-package-engineering-co-op-intern-3fd44a
+  company: AMD
+  role: ASIC Package Engineering Co-op/Intern
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/91463?icims=1
+  date_posted: '2026-08-25'
   date_estimated: false
   term: Summer 2027
   degree:

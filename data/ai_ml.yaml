@@ -2392,7 +2392,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3505,6 +3505,7 @@
   status: closed
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-08-12'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -4297,7 +4298,7 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -4773,11 +4774,12 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-24'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -4795,6 +4797,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -4812,6 +4815,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -4860,6 +4864,22 @@
   status: open
   sources:
   - github_tracker:zshah101
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: amd-research-engineering-intern-co-op-amd-research-b31c87
+  company: AMD
+  role: Research Engineering Intern/Co-op - AMD Research
+  location: Secaucus, NJ
+  link: https://careers.amd.com/jobs/90926?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
