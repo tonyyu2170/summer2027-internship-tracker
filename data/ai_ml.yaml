@@ -4848,6 +4848,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -4880,6 +4881,24 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: bosch-group-ai-security-research-intern-47456d
+  company: Bosch Group
+  role: AI Security Research Intern
+  location: Pittsburgh, PA
+  link: https://jobs.smartrecruiters.com/BoschGroup/744000145507908
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null

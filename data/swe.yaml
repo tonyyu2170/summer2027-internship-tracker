@@ -8864,7 +8864,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -10146,6 +10146,7 @@
   - github_tracker:zshah101
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-24'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10214,6 +10215,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10234,6 +10236,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10271,6 +10274,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10327,6 +10331,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10346,6 +10351,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10367,6 +10373,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10480,6 +10487,7 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10497,6 +10505,7 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10547,6 +10556,7 @@
   sources:
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10563,6 +10573,7 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -10634,6 +10645,200 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: northrop-grumman-software-engineer-intern-strategic-deterrent-systems-division-sentinel-e64809
+  company: Northrop Grumman
+  role: Software Engineer Intern - Strategic Deterrent Systems Division - Sentinel
+  location: Huntsville, AL
+  link: https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: google-software-engineering-intern-phd-summer-2027-f873e1
+  company: Google
+  role: Software Engineering Intern - PhD - Summer 2027
+  location: Mountain View, CA
+  link: https://www.google.com/about/careers/applications/jobs/results/91436104816698054
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: morse-corp-co-op-opportunities-full-stack-software-engineer-graduate-co-op-2afec8
+  company: MORSE Corp Co-op Opportunities
+  role: Full Stack Software Engineer Graduate Co-op
+  location: Arlington, VA
+  link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: morse-corp-co-op-opportunities-python-software-engineer-co-op-251051
+  company: MORSE Corp Co-op Opportunities
+  role: Python Software Engineer Co-op
+  location: Arlington, VA
+  link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: morse-corp-co-op-opportunities-python-software-engineer-graduate-co-op-203dd3
+  company: MORSE Corp Co-op Opportunities
+  role: Python Software Engineer Graduate Co-op
+  location: Arlington, VA
+  link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: ge-vernova-ge-vernova-gridos-software-test-engineer-intern-summer-2027-d35cee
+  company: GE Vernova
+  role: GE Vernova GridOS Software Test Engineer - Intern - Summer 2027
+  location: Atlanta, GA
+  link: https://gevernova.wd5.myworkdayjobs.com/en-US/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-GridOS--Software-Test-Engineer---Intern---Summer-2027_R5049907-1
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: p-g-procter-gamble-it-engineering-internship-software-platform-network-63abaa
+  company: P&G - Procter & Gamble
+  role: IT Engineering Internship - Software - Platform - & Network
+  location: Cincinnati, OH
+  link: https://pg.wd5.myworkdayjobs.com/en-US/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering-Internship--Software--Platform----Network-_R000157503
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: philips-co-op-software-system-engineering-plymouth-mn-january-2027-f769d2
+  company: Philips
+  role: Co-op - Software System Engineering - Plymouth - MN - January 2027
+  location: Plymouth, MN
+  link: https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: globalfoundries-cybersecurity-intern-summer-2027-ee8f7d
+  company: GlobalFoundries
+  role: Cybersecurity Intern (Summer 2027)
+  location: New York, NY
+  link: https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Cybersecurity-Intern--Summer-2027-_JR-2604459
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: celonis-engineering-intern-6bebac
+  company: Celonis
+  role: Engineering Intern
+  location: Remote (US)
+  link: https://job-boards.greenhouse.io/celonis/jobs/7974381003?gh_jid=7974381003
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: the-voleon-group-software-engineer-intern-summer-2027-aefb43
+  company: The Voleon Group
+  role: Software Engineer Intern - (Summer 2027)
+  location: Berkeley, CA
+  link: https://jobs.ashbyhq.com/voleon/57f1b666-2f4b-4bad-aac0-fa42a1c8fdf6
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: rtx-software-engineer-co-op-avionics-platform-software-5aed09
+  company: RTX
+  role: Software Engineer Co-op - Avionics Platform Software
+  location: Cedar Rapids, IA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Summer-Fall-2027---Onsite-_01869518
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null

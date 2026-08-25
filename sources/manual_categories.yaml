@@ -1460,3 +1460,39 @@ https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/IT---Data-Systems-
 # Internship, Electronics Hardware Design, Fall 2026"). Wrong term, and it is
 # a hardware role rather than swe. Removed from data/swe.yaml and suppressed.
 https://cadence.wd1.myworkdayjobs.com/External_Careers/job/Burlington-MA/Product-Engineering-Internship--Electronics-Hardware-Design--Fall-2026-_R54158-2: __drop__
+
+# scrape 2026-08-25 (evening, cloud run): twelve postings parked in
+# unclassified.json. Nine are out-of-scope families (business analysis,
+# civil/construction, investment operations, environmental, sustainability,
+# sales, configuration management, public health). The three Kodiak Robotics
+# roles follow the same reading as the Mission Planning entry above —
+# autonomous-trucking autonomy stack, i.e. software. "Controls Intern" is the
+# least certain of the three (controls could be read as a vehicle/hardware
+# discipline); flagged in the PR for a second opinion.
+https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/Business-Analyst-Intern_R-71638: __drop__
+https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Kansas-City-MO/Design-Build-Intern-Technician---Summer-2027_R-31320-1: __drop__
+https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Alternatives-Investment-Operations-Intern_R106782: __drop__
+https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Environmental-Intern--Summer-2027-_JR-2604241: __drop__
+https://jj.wd5.myworkdayjobs.com/jj/job/New-Brunswick-New-Jersey-United-States-of-America/Sustainability-Engagement-Coop_R-093946: __drop__
+https://abb.wd3.myworkdayjobs.com/external_career_page/job/Remote-Florida-United-States-of-America/Electrification-Sales-Co-Op-Summer-Fall-2027_JR00043335: __drop__
+https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2620824: __drop__
+https://jobs.l3harris.com/job/Waco-Intern,-Configuration-Management-TX-76705/1422798600/?ats=successfactors: __drop__
+https://multco.wd1.myworkdayjobs.com/multco_jobs/job/Portland-OR/PHP-Immunization---Community-Health-Intern_R-20139: __drop__
+https://job-boards.greenhouse.io/kodiak/jobs/4378662009: swe
+https://job-boards.greenhouse.io/kodiak/jobs/4377721009: swe
+https://job-boards.greenhouse.io/kodiak/jobs/4378402009: swe
+
+# scrape 2026-08-25 (evening, cloud run): four rows this run's merge created
+# that read as out of scope, removed from data/ and suppressed here.
+# Cigna's title is truncated upstream; the link's own slug reads "Legal
+# Operations Financial, Data & AI Analytics Intern" — a legal-department
+# analytics role that only reached ai_ml because the `\bai\b` rule is checked
+# before the out-of-scope family that already contains `legal`. HNTB is
+# named in categorize.py as a civil/infrastructure firm whose interns kept
+# filing as swe on the bare `engineer` match; these three name no discipline
+# at all, and the "Design Build Intern Technician" sibling of the first is
+# dropped just above.
+https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Legal-Operations-Financial--Data---AI-Analytics-Intern_25016386: __drop__
+https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Kansas-City-MO/Design-Build-Intern-Engineer---Summer-2027_R-31321-1: __drop__
+https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Minneapolis-MN/Intern-Engineer---Summer-2027_R-31319-1: __drop__
+https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Columbus-OH/Intern-Engineer---Summer-2027_R-31318-1: __drop__

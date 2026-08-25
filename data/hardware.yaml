@@ -2834,7 +2834,7 @@
   degree:
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3485,6 +3485,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -3502,6 +3503,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
@@ -3535,6 +3537,118 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: morse-corp-co-op-opportunities-embedded-software-engineer-graduate-co-op-ca3b0a
+  company: MORSE Corp Co-op Opportunities
+  role: Embedded Software Engineer Graduate Co-op
+  location: Cambridge, MA
+  link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968523003
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: morse-corp-co-op-opportunities-embedded-software-engineer-co-op-647b88
+  company: MORSE Corp Co-op Opportunities
+  role: Embedded Software Engineer Co-op
+  location: Cambridge, MA
+  link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968605003
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: daktronics-firmware-hardware-design-co-op-intern-1f0397
+  company: Daktronics
+  role: Firmware/Hardware Design Co-op Intern
+  location: Brookings, SD
+  link: https://careers-daktronics.icims.com/jobs/7518/firmware-hardware-design-co-op-intern/job
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: nomagic-engineering-intern-software-or-hardware-fd77cf
+  company: Nomagic
+  role: Engineering Intern - Software or Hardware
+  location: Alpharetta, GA
+  link: https://jobs.lever.co/Nomagic/c7a6445d-3fd8-4bf1-90c0-ec01c2bef2af
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: brunswick-mechanical-engineering-intern-dea57e
+  company: Brunswick
+  role: Mechanical Engineering Intern
+  location: Menomonee Falls, WI
+  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Menomonee-Falls-WI/Mechanical-Engineering-Intern_JR-051231
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: brunswick-electrical-engineering-intern-72ea6b
+  company: Brunswick
+  role: Electrical Engineering Intern
+  location: Menomonee Falls, WI
+  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Menomonee-Falls-WI/Electrical-Engineering-Intern_JR-051233
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-25'
+  last_verified: '2026-08-25'
+  possible_duplicate_of: null
+- id: moog-intern-hardware-engineering-30bd07
+  company: Moog
+  role: Intern, Hardware Engineering
+  location: Mineral Wells, TX
+  link: https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Mineral-Wells-TX/Intern--Hardware-Engineering_R-26-19417
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-25'
   last_verified: '2026-08-25'
   possible_duplicate_of: null
