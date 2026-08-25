@@ -1374,3 +1374,53 @@ https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Plymouth-MN-USA/Sales-Inte
 # finance function; categorize.py has `investor engage` but not
 # `investor relations`, so no rule fires. One-off, not a rule family.
 https://job-boards.greenhouse.io/audaxgroup/jobs/4726930005: __drop__
+
+# scrape 2026-08-25: zapplyjobs truncates long titles, so no rule fires.
+# The Hartford's "Tech & Data Program Summer 2027" reqs are readable from
+# their slugs: one Software Engineer Intern and two Data Engineer Interns.
+# All three file as swe -- categorize.py's data_science pattern is
+# `data scien|data analy|analytics|business intelligence`, which "Data
+# Engineer" does not match, so the swe `engineer` rule claims them.
+? https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1
+: swe
+? https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Columbus-OH/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Columbus-_R2626610
+: swe
+? https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Hartford-_R2626103-1
+: swe
+
+# Off-scope for the six tracked categories, each matching the spirit of an
+# existing drop family: Brunswick UX/UI and Experience Management (design /
+# CX, cf. `graphic design|visual design`), Freddie Mac training design
+# (`instructional design`), Micron nanoscale materials characterization and
+# J&J's two MedTech lab reqs (`\bmaterials\b`, `biolog|clinical|chemist`),
+# Target's three distribution-center Operation Manager interns
+# (`\boperations\b|distribution`), and JLL's three commercial real estate
+# reqs (`real estate` -- valuation and CRE capital markets, not quant).
+https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--UX-UI-Design-Intern_JR-051163: __drop__
+https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Experience-Management-Intern_JR-051184: __drop__
+? https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Multifamily-Education-Training-Design-Intern---Summer-2027_JR17563
+: __drop__
+? https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/XMLNAME-2027-Summer-Intern--Advanced-Spectroscopy-and-Nanoscale-Materials-Characterization_JR109071
+: __drop__
+? https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/MedTech-Surgery-Analytical-Characterization-Intern_R-094628
+: __drop__
+? https://jj.wd5.myworkdayjobs.com/jj/job/Warsaw-Indiana-United-States-of-America/DePuy-Synthes-R-D-Lab-Co-op-Orthopedics_R-094145-1
+: __drop__
+? https://target.wd5.myworkdayjobs.com/targetcareers/job/13786-County-Rd-433-TylerTX-75706-4106/Operation-Manager-Intern--Starting-Summer-2027--Flow-Distribution-Center---Riverside--CA_R0000450436
+: __drop__
+? https://target.wd5.myworkdayjobs.com/targetcareers/job/3255-Airport-Rd-Denton-TX-76207/Operation-Manager-Intern--Starting-Summer-2027--Food-Distribution-Center---Denton--TX_R0000450442
+: __drop__
+? https://target.wd5.myworkdayjobs.com/targetcareers/job/2200-Viking-Rd-Cedar-FallsIA-50613-9526/Operation-Manager-Intern--Starting-Summer-2027--Regional-Distribution-Center---Cedar-Falls--IA_R0000450405
+: __drop__
+https://jll.wd1.myworkdayjobs.com/jllcareers/job/Columbus-OH/Intern--Value-and-Risk-Advisory_REQ530251: __drop__
+? https://jll.wd1.myworkdayjobs.com/jllcareers/job/Chicago-IL/Corporate-Capital-and-NNN-Lease-Capital-Markets-Summer-2027-Internship---Chicago--IL_REQ530530
+: __drop__
+? https://jll.wd1.myworkdayjobs.com/jllcareers/job/Los-Angeles-CA/Capital-Markets-Summer-2027-Internship---Century-City--LA_REQ530570
+: __drop__
+
+# scrape 2026-08-25: TikTok "Client Solutions" is Global Business Solutions,
+# TikTok's advertiser-facing sales org -- account management, not an AI/ML
+# engineering role. Both arrived tagged ai_ml from simplifyjobs' upstream
+# category; suppressed here so they do not return on the next scrape.
+https://lifeattiktok.com/search/7677467375486765317: __drop__
+https://lifeattiktok.com/search/7677467052537776437: __drop__
