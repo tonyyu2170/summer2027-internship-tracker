@@ -1496,3 +1496,48 @@ https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Legal-Operation
 https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Kansas-City-MO/Design-Build-Intern-Engineer---Summer-2027_R-31321-1: __drop__
 https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Minneapolis-MN/Intern-Engineer---Summer-2027_R-31319-1: __drop__
 https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Columbus-OH/Intern-Engineer---Summer-2027_R-31318-1: __drop__
+
+# scrape 2026-08-26 (morning, cloud run): twenty-four postings parked in
+# unclassified.json. Sixteen are resolved here; the other eight are left
+# unclassified and flagged in the PR for a second opinion.
+# Fourteen drops, in three families:
+#  - out-of-scope disciplines: game design (Epic), themed-entertainment
+#    effects design / environmental affairs / stylized photography (Disney),
+#    real-estate market research (JLL), distribution-center operations
+#    management (Target), construction materials testing (Olsson), and
+#    corporate FP&A (Sila). The two ABB electrification sales co-ops follow
+#    the ABB Electrification Sales Co-Op drop recorded on 2026-08-25.
+#  - wrong term: both Philips surgical-robotics co-ops are January 2027 and
+#    Fall 2026 by their own URL slugs, not Summer 2027, so they follow the
+#    RTX Winter 2027 robotics drop rather than being read as hardware.
+#  - both at once: the Motorola Solutions role is presales and Fall 2026.
+# Two are in scope: Applied Intuition's World-Action Foundation Model
+# research intern follows the NVIDIA PhD-Research-Robotics -> ai_ml reading,
+# and DV Trading's futures-and-options trading analyst follows the
+# HRT / Jump / Citadel Securities trading-intern -> quant reading.
+https://epicgames.com/careers/jobs/6147156004?gh_jid=6147156004: __drop__
+https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/WDI-Special-Effects-Designer-Intern--Orlando--Spring-2027-2026_10158465: __drop__
+https://disney.wd5.myworkdayjobs.com/disneycareer/job/Celebration-FL-USA/DCL-Environmental-Affairs-Intern--Spring-2027_10159314: __drop__
+https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Food---Beverage-and-Merchandise-Stylized-Photography-Intern--Spring-2027_10159304: __drop__
+https://jll.wd1.myworkdayjobs.com/jllcareers/job/Dallas-TX/Market-Studies-Intern-Summer-2027-Internship---Cedar-Springs---Dallas--TX_REQ530575: __drop__
+https://abb.wd3.myworkdayjobs.com/external_career_page/job/Atlanta-Georgia-United-States-of-America/Electrification-GA-Sales-Co-Op---Summer-Fall-2027_JR00043332: __drop__
+https://abb.wd3.myworkdayjobs.com/external_career_page/job/Atlanta-Georgia-United-States-of-America/Electrification-GA-Sales-Co-Op---Spring-Summer2027_JR00043329: __drop__
+https://target.wd5.myworkdayjobs.com/targetcareers/job/15450-Washington-St-ThorntonCO-80023-9719/Operation-Manager-Intern--Starting-Summer-2027--Food-Distribution-Center---Thornton--CO_R0000450440-1: __drop__
+https://target.wd5.myworkdayjobs.com/targetcareers/job/34800-United-Ave-PuebloCO-81001-4882/Operation-Manager-Intern--Starting-Summer-2027--Regional-Distribution-Center---Pueblo--CO_R0000450392: __drop__
+https://job-boards.greenhouse.io/olsson/jobs/5396195008: __drop__
+https://job-boards.greenhouse.io/silananotechnologies/jobs/8157153: __drop__
+https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Robotics-Mechatronics--Surgical-Robotics---Cambridge--MA---January-2027_589902: __drop__
+https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Robotics-Mechatronics--Surgical-Robotics---Cambridge--MA---Fall-2026_589905: __drop__
+https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Michigan-US-Offsite/Center-of-Excellence-Presales-----Fall-2026-Co-Op-_R67752: __drop__
+https://jobs.ashbyhq.com/applied/edc2528d-6e6c-4a67-b871-bfe7d9c890b4: ai_ml
+https://job-boards.greenhouse.io/dvtrading/jobs/4722749005: quant
+
+# scrape 2026-08-26 (morning, cloud run): one row this run's merge created
+# that reads as out of scope, removed from data/quant.yaml and suppressed
+# here. BP's "Summer Intern - Supply, Trading, & Shipping Finance & Risk" is
+# an oil-major commercial finance/risk program, not quantitative research or
+# trading; check_categories.py independently flagged it quant -> __drop__,
+# and it is the direct sibling of the Chevron Supply & Trading TRIP Program
+# drops already recorded above. Its Houston BP siblings (geoscientist,
+# reservoir engineer) are likewise dropped.
+https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Illinois---Chicago/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ114738-1: __drop__

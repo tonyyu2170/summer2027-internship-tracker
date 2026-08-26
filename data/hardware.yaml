@@ -3452,7 +3452,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-24'
-  last_verified: '2026-08-25'
+  last_verified: '2026-08-26'
   possible_duplicate_of: null
 - id: daktronics-hardware-design-co-op-intern-firmware-057fed
   company: Daktronics
@@ -3619,7 +3619,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-25'
-  last_verified: '2026-08-25'
+  last_verified: '2026-08-26'
   possible_duplicate_of: null
 - id: brunswick-electrical-engineering-intern-72ea6b
   company: Brunswick
@@ -3652,6 +3652,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-25'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -3670,6 +3671,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null

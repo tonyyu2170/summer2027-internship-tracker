@@ -7673,7 +7673,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-24'
+  last_verified: '2026-08-26'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-forward-deployed-s-39a506
   company: Palantir
@@ -9238,6 +9238,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-21'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -9734,8 +9735,9 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-22'
-  last_verified: '2026-08-24'
+  last_verified: '2026-08-26'
   possible_duplicate_of: null
 - id: brunswick-engineering-intern-d5fc54
   company: Brunswick
@@ -10593,6 +10595,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-25'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10815,6 +10818,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-25'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10833,6 +10837,7 @@
   - github_tracker:zshah101
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-25'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10869,6 +10874,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10886,6 +10894,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10904,6 +10915,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10921,6 +10935,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10956,6 +10972,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10974,6 +10991,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -11043,6 +11061,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -11076,6 +11095,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -11093,6 +11115,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -11107,9 +11130,10 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -11123,9 +11147,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -11142,6 +11167,8 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -11158,6 +11185,57 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: epic-games-gameplay-programmer-intern-2119d8
+  company: Epic Games
+  role: Gameplay Programmer Intern
+  location: Cary, NC
+  link: https://epicgames.com/careers/jobs/6152263004?gh_jid=6152263004
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: steven-s-capital-management-software-engineer-3af902
+  company: Steven's Capital Management
+  role: Software Engineer
+  location: Radnor, PA
+  link: https://grnh.se/abfli75k1us
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: abbvie-business-technology-solutions-intern-data-software-engineering-499b3b
+  company: AbbVie
+  role: Business Technology Solutions Intern - Data & Software Engineering
+  location: Irvine, CA
+  link: https://jobs.smartrecruiters.com/AbbVie/3743990014860306
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null

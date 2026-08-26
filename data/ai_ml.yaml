@@ -200,6 +200,7 @@
   - github_tracker
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-07-23'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -1810,7 +1811,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-25'
+  last_verified: '2026-08-26'
   possible_duplicate_of: null
   date_estimated: true
 - id: campbell-soup-company-business-analyst-co-op-da-ai-a715e6
@@ -1826,7 +1827,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-25'
+  last_verified: '2026-08-26'
   possible_duplicate_of: null
   date_estimated: true
 - id: fti-consulting-technology-intern-technology-76df5d
@@ -4899,6 +4900,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-25'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -4915,6 +4917,26 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: tiktok-ai-infrastructure-engineer-intern-recommendation-llm-097b1b
+  company: TikTok
+  role: AI Infrastructure Engineer Intern - Recommendation & LLM
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7672671220798818613
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
