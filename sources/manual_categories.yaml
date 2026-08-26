@@ -1541,3 +1541,57 @@ https://job-boards.greenhouse.io/dvtrading/jobs/4722749005: quant
 # drops already recorded above. Its Houston BP siblings (geoscientist,
 # reservoir engineer) are likewise dropped.
 https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Illinois---Chicago/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ114738-1: __drop__
+# 2026-08-26 scheduled run. AbbVie's three new Business Technology Solutions
+# reqs share a truncated title with 3743990014410464 (already tracked as swe)
+# and sit in the same 86xxxxx req batch as 3743990014860306, "Business
+# Technology Solutions Intern - Data & Software Engineering" — routed swe on
+# that sibling evidence, not on the bare truncated title. Brunswick's Power
+# BI/Ops Analytics Co-op only landed here because upstream truncated
+# "Analytic..."; the full title matches the data_science rule (analytics
+# precedes the \boperations\b drop), so it is classified the way the rules
+# would have. DTCC's plain "Information Security Intern" follows the
+# security-family stance recorded above (cf. the Fifth Third IAM drop) rather
+# than the ING "Tech (Information Security)" swe entry, which carried an
+# explicit tech-program signal this one lacks. The rest are off-scope
+# disciplines: commercial banking / credit (KeyBank x3, Brunswick Credit),
+# video production (Comcast, cf. the other Comcast media drops), HR-side
+# consulting (Grant Thornton Workforce Transformation), metallurgy
+# (Brunswick Heat Treat — note the bare `engineer` in its full title would
+# otherwise file it as swe), business IT (Honeywell Information Systems, cf.
+# the Caterpillar IT and Vanguard Technology Operations drops), an
+# undifferentiated student-researcher posting (Abbott Research Park), and
+# Manhattan Associates' CXO co-op, which is their Customer Experience
+# Organization services track rather than product engineering.
+https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214476: __drop__
+https://jobs.smartrecruiters.com/AbbVie/3743990014860391: swe
+https://jobs.smartrecruiters.com/AbbVie/3743990014860456: swe
+https://jobs.smartrecruiters.com/AbbVie/3743990014860211: swe
+? https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Power-BI-Ops-Analytics-Co-op_JR-051236
+: data_science
+? https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Chicago-IL/XMLNAME-2027-Summer-Commercial-Bank-Internship---Chicago--Credit-_R-41395
+: __drop__
+? https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Buffalo-NY/XMLNAME-2027-Summer-Commercial-Bank-Internship---Buffalo--Credit-_R-41394
+: __drop__
+? https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Commercial-Bank-Internship---Cleveland_R-41393-1
+: __drop__
+? https://comcast.wd115.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-3601-S-Broad-St/Video-Production-Intern_R443293
+: __drop__
+https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115691: __drop__
+? https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Illinois---Champaign/Research-Park-Intern---Student-Researcher_31128619
+: __drop__
+https://manh.wd5.myworkdayjobs.com/campus/job/Atlanta-GA/CXO-Co-Op---Summer--May-2027-_16873: __drop__
+? https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine---Heat-Treat-Metallurgical-Engineer-Co-op_JR-051013
+: __drop__
+https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Credit-Intern_JR-051201: __drop__
+? https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155555
+: __drop__
+# Two rows this run's merge created and the quality pass then removed as
+# off-scope; recorded here so the next scheduled run does not re-add them.
+# Repsol's Reservoir Engineer Intern is petroleum engineering (the discipline
+# family categorize.py already drops) and had landed in ai_ml. Brunswick's
+# Mercury Marine Foundry Engineering Co-op is metal casting at the Fond du Lac
+# foundry — the bare `engineer` in its truncated title filed it as swe; cf. the
+# Heat Treat Metallurgical drop above at the same site.
+https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Reservoir-Engineer-Intern_83636-1: __drop__
+? https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine---Foundry-Engineering-Co-op_JR-050979
+: __drop__

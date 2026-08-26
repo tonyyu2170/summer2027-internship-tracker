@@ -2009,3 +2009,36 @@
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
+- id: mks-instruments-business-intelligence-data-analytics-intern-1577fd
+  company: MKS Instruments
+  role: Business Intelligence/Data Analytics Intern
+  location: Andover, MA
+  link: https://mksinst.wd1.myworkdayjobs.com/MKSCareersUniversity/job/Andover-MA/XMLNAME-2027-Summer-BI-Data-Analytics-IT-Intern_R20657
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: brunswick-mercury-marine-power-bi-ops-analytic-801326
+  company: Brunswick
+  role: 'Mercury Marine: Power BI/Ops Analytic...'
+  location: Fond du Lac, WI
+  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Power-BI-Ops-Analytics-Co-op_JR-051236
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null

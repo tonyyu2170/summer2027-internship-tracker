@@ -10877,6 +10877,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10897,6 +10898,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10918,6 +10920,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -10937,6 +10940,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -11116,6 +11120,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -11202,6 +11207,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -11236,6 +11242,138 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: rtx-software-engineer-intern-summer-2027-fc8082
+  company: RTX
+  role: Software Engineer Intern - Summer 2027
+  location: Woburn, MA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-Intern--Summer-2027-_01869890
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: rtx-software-engineer-intern-summer-2027-58d676
+  company: RTX
+  role: Software Engineer Intern - Summer 2027
+  location: Richardson, TX
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01868869
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: rtx-software-engineer-intern-646470
+  company: RTX
+  role: Software Engineer Intern
+  location: Richardson, TX
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01868886
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: maximor-ai-software-engineering-intern-9288b9
+  company: Maximor AI
+  role: Software engineering Intern
+  location: New York City, NY
+  link: https://jobs.ashbyhq.com/maximor/3ff6e57d-5430-4836-b6f0-19044d8ee6d8
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: talentpluto-full-stack-engineering-intern-9d2857
+  company: talentpluto
+  role: Full Stack Engineering Intern
+  location: New York City, NY
+  link: https://apply.workable.com/talentpluto/j/290A067DC5/
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: abbvie-2027-business-technology-solutions-in-b14ba0
+  company: AbbVie
+  role: 2027 Business Technology Solutions In...
+  location: South San Francisco, CA
+  link: https://jobs.smartrecruiters.com/AbbVie/3743990014860391
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: abbvie-2027-business-technology-solutions-in-01de2b
+  company: AbbVie
+  role: 2027 Business Technology Solutions In...
+  location: South San Francisco, CA
+  link: https://jobs.smartrecruiters.com/AbbVie/3743990014860456
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: abbvie-2027-business-technology-solutions-in-b14ba0
+- id: abbvie-2027-business-technology-solutions-in-ebaeaa
+  company: AbbVie
+  role: 2027 Business Technology Solutions In...
+  location: Irvine, CA
+  link: https://jobs.smartrecruiters.com/AbbVie/3743990014860211
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null

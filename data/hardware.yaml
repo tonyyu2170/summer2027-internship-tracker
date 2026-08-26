@@ -3673,6 +3673,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:speedyapply
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
@@ -3689,6 +3690,39 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: qts-data-center-infrastructure-management-intern-dcim-b4035e
+  company: QTS
+  role: Data Center Infrastructure Management Intern - DCIM
+  location: Ashburn, VA
+  link: https://qtsdatacenters.wd5.myworkdayjobs.com/qts/job/Suwanee-GA/Summer-2027-Internship--Data-Center-Infrastructure-Management--DCIM-_R2026-1892
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: qts-summer-2027-internship-internal-data-center-infrastructure-projects-3d3295
+  company: QTS
+  role: 'Summer 2027 Internship: Internal Data Center Infrastructure Projects'
+  location: Irving, TX
+  link: https://qtsdatacenters.wd5.myworkdayjobs.com/qts/job/Irving-TX/Summer-2027-Internship--Internal-Data-Center-Infrastructure-Projects_R2026-1906
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null

@@ -4827,6 +4827,24 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-26'
+  last_verified: '2026-08-26'
+  possible_duplicate_of: null
+- id: fannie-mae-treasury-capital-markets-intern-quantitative-research-track-e89b8e
+  company: Fannie Mae
+  role: Treasury & Capital Markets Intern - Quantitative Research Track
+  location: Washington, DC
+  link: https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Washington-DC/Campus---Treasury---Capital-Markets-Program-Intern--Quantitative-Research-Track-_JR2872
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-26'
   last_verified: '2026-08-26'
   possible_duplicate_of: null
