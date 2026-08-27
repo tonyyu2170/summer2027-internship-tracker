@@ -2075,6 +2075,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null

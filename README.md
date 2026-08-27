@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-27 00:19 EST — 1282 open roles._
+_Last updated: 2026-08-27 11:37 EST — 1282 open roles. Last scrape: +5 new, 5 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -27,6 +27,9 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Bosch Group | Phone as a Key Software Engineering -... | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000145785190>) | 2026-08-27 | Summer 2027 | BS |
 | Ancestry | Software Engineer – Observability, Co-op | [Apply](<https://ancestry.wd501.myworkdayjobs.com/Careers/job/Draper-Utah/Software-Engineer---Observability--Co-op_R003434>) | 2026-08-27 | Summer 2027 | BS |
 | Brunswick | Mercury Racing Systems Engineering Co-Op | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Racing-Systems-Engineering-Co-Op_JR-051290>) | 2026-08-27 | Summer 2027 | BS |
+| Curtiss-Wright | Engineer Intern | [Apply](<https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-NC-Charlotte-ST-170/Engineer-Intern_JR12661>) | 2026-08-26 | Summer 2027 | BS |
+| Leidos | Transport Network Engineer Intern | [Apply](<https://leidos.wd5.myworkdayjobs.com/External/job/Shiloh-IL/Transport-Network-Engineer-Intern_R-00190655>) | 2026-08-26 | Summer 2027 | BS |
+| Leidos | Systems Engineering Intern | [Apply](<https://leidos.wd5.myworkdayjobs.com/External/job/Odenton-MD/Systems-Engineering-Intern_R-00190647>) | 2026-08-26 | Summer 2027 | BS |
 | Leidos | Cybersecurity Analyst Intern | [Apply](<https://leidos.wd5.myworkdayjobs.com/External/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669>) | 2026-08-26 | Summer 2027 | BS |
 | Leidos | Cybersecurity Analyst Intern | [Apply](<https://leidos.wd5.myworkdayjobs.com/External/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664>) | 2026-08-26 | Summer 2027 | BS |
 | Leidos | Cybersecurity Analyst Intern | [Apply](<https://leidos.wd5.myworkdayjobs.com/External/job/Shiloh-IL/Cybersecurity-Analyst-Intern_R-00190667>) | 2026-08-26 | Summer 2027 | BS |
@@ -64,7 +67,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Compeer Financial | Engineering Intern ⚠️dup?(compeer-financial-engineering-intern-f3fa73) | [Apply](<https://job-boards.greenhouse.io/compeerfinancial/jobs/5405015008>) | 2026-08-25 | Summer 2027 | BS/MS |
 | Compeer Financial | Engineering Intern | [Apply](<https://job-boards.greenhouse.io/compeerfinancial/jobs/5404850008>) | 2026-08-25 | Summer 2027 | BS/MS |
 | Nokia | Software Engineer Co-op - Deepfield | [Apply](<https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39908>) | 2026-08-25 | Summer 2027 | BS |
-| RTX | Software Engineer Intern | [Apply](<https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-JUPITER-ADR--17900-Beeline-Hwy--ADR-BLDG/Software-Engineering-Intern--Summer-2027-_01868485>) | 2026-08-25 | Summer 2027 | BS/MS |
 | Verkada | Backend Software Engineer Intern | [Apply](<https://job-boards.greenhouse.io/verkada/jobs/5210813007>) | 2026-08-25 | Summer 2027 | BS/MS |
 | Verkada | Security Software Engineer Intern | [Apply](<https://job-boards.greenhouse.io/verkada/jobs/5213881007>) | 2026-08-25 | Summer 2027 | BS/MS |
 | Verkada | Frontend Software Engineer Intern | [Apply](<https://job-boards.greenhouse.io/verkada/jobs/5210942007>) | 2026-08-25 | Summer 2027 | BS/MS |
@@ -74,7 +76,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | MORSE Corp Co-op Opportunities | Python Software Engineer Graduate Co-op | [Apply](<https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003>) | 2026-08-25 | Summer 2027 | BS |
 | MORSE Corp Co-op Opportunities | Python Software Engineer Co-op | [Apply](<https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003>) | 2026-08-25 | Summer 2027 | BS |
 | MORSE Corp Co-op Opportunities | Full Stack Software Engineer Graduate Co-op | [Apply](<https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003>) | 2026-08-25 | Summer 2027 | BS |
-| Northrop Grumman | Software Engineer Intern - Strategic Deterrent Systems Division - Sentinel | [Apply](<https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486>) | 2026-08-25 | Summer 2027 | BS/MS |
 | Brunswick | Computer Graphics Engineering Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Champaign-IL/Computer-Graphics-Engineering-Intern_JR-051325>) | 2026-08-25 | Summer 2027 | BS |
 | RTX | Systems Engineering Test Equipment In... | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Systems-Engineering-Test-Equipment-Intern--Summer-2027-_01867450>) | 2026-08-25 | Summer 2027 | BS |
 | Booz Allen Hamilton | Software Engineer - Intern | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Bremerton-WA/Software-Engineer---Intern_R0247218>) | 2026-08-25 | Summer 2027 | BS |
@@ -83,7 +84,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | P&G - Procter & Gamble | IT Engineering Internship - Software - Platform - & Network | [Apply](<https://pg.wd5.myworkdayjobs.com/en-US/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering-Internship--Software--Platform----Network-_R000157503>) | 2026-08-24 | Summer 2027 | BS |
 | GE Vernova | GE Vernova GridOS Software Test Engineer - Intern - Summer 2027 | [Apply](<https://gevernova.wd5.myworkdayjobs.com/en-US/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-GridOS--Software-Test-Engineer---Intern---Summer-2027_R5049907-1>) | 2026-08-24 | Summer 2027 | BS |
 | Google | Software Engineering Intern - PhD - Summer 2027 | [Apply](<https://www.google.com/about/careers/applications/jobs/results/91436104816698054>) | 2026-08-24 | Summer 2027 | BS |
-| RTX | Software Engineer Intern | [Apply](<https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MD-ANNAPOLIS-JUNCTION-339--306-Sentinel-Dr--339-BLDG/Software-Engineering-Intern_01869058>) | 2026-08-24 | Summer 2027 | BS/MS |
 | MSA Safety | Software Engineer Intern - Product Development - Summer 2027 | [Apply](<https://careers.msasafety.com/jobs/9993?icims=1>) | 2026-08-24 | Summer 2027 | BS |
 | Garmin | Software Engineer Intern | [Apply](<https://careers.garmin.com/jobs/19693?icims=1>) | 2026-08-24 | Summer 2027 | BS |
 | Advanced Space | 2027 DevOps Summer Internship | [Apply](<https://job-boards.greenhouse.io/advancedspace/jobs/4333179009>) | 2026-08-24 | Summer 2027 | BS |
@@ -568,6 +568,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Xantium | Quantitative Researcher Internship | [Apply](<https://job-boards.greenhouse.io/xantium/jobs/4371217009>) | 2026-08-17 | Summer 2027 | BS |
 | Xantium | Quantitative Developer Intern | [Apply](<https://job-boards.greenhouse.io/xantium/jobs/4360768009>) | 2026-08-17 | Summer 2027 | BS |
 | DV Trading | Trading Intern - Summer 2027 - DV Commodities | [Apply](<https://job-boards.greenhouse.io/dvtrading/jobs/4719134005>) | 2026-08-17 | Summer 2027 | BS |
+| Goldman Sachs | Summer Associate Intern | [Apply](<https://higher.gs.com/roles/171552?type=students>) | 2026-08-15 | Summer 2027 | PhD |
 | Prudential Financial | Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group | [Apply](<https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Public-Credit--Summer-Investment-Analyst-Program--Portfolio-Analysis-Group-_R-124835-2>) | 2026-08-14 | Summer 2027 | BS/MS |
 | PGIM | Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group | [Apply](<https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Public-Credit--Summer-Investment-Analyst-Program--Portfolio-Analysis-Group-_R-124835>) | 2026-08-14 | Summer 2027 | BS/MS |
 | KeyBank | Analytics and Quantitative Modeling Intern - Analytics & Quantitative Modeling | [Apply](<https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Analytics-and-Quantitative-Modeling-Internship--Cleveland_R-41380>) | 2026-08-14 | Summer 2027 | BS |
@@ -600,7 +601,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | DRW | Quantitative Trading Analyst Intern ⚠️dup?(drw-quantitative-trading-analyst-intern-968162) | [Apply](<https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090>) | 2026-07-31 | Summer 2027 | BS |
 | DRW | Software Engineer | [Apply](<https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328>) | 2026-07-31 | Summer 2027 | BS |
 | DRW | Quantitative Researcher | [Apply](<https://www.drw.com/work-at-drw/listings/quantitative-research-intern-3413670>) | 2026-07-31 | Summer 2027 | BS |
-| University of Virginia Investment Management Company (UVIMCO) | Investment Analyst Intern | [Apply](<https://job-boards.greenhouse.io/uvimco/jobs/5300713008>) | 2026-07-29 | Summer 2027 | BS |
 | Northwestern Mutual | Investment Analyst Intern - Private Debt & Equity | [Apply](<https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Investment-Analyst-Intern---Private-Debt---Equity--Summer-2027_JR-45705>) | 2026-07-24 | Summer 2027 | BS |
 | Trillium | Equity Trader Intern | [Apply](<https://www.trlm.com/apply/5076067007?gh_jid=5076067007>) | 2026-07-24 | Summer 2027 | BS/MS |
 | Trillium | Equity Trader Intern | [Apply](<https://www.trlm.com/apply/5076017007?gh_jid=5076017007>) | 2026-07-24 | Summer 2027 | BS/MS |
@@ -1131,6 +1131,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Axon | Embedded Engineer Intern | [Apply](<https://job-boards.greenhouse.io/axontalentcommunity/jobs/7800627003>) | 2026-08-27 | Summer 2027 | BS |
 | Brunswick | Mercury Marine: Mechanical Engineerin... | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Mechanical-Engineering-Intern_JR-051390>) | 2026-08-27 | Summer 2027 | BS |
 | HNTB | Intern Electrical Engineer - Summer 2027 | [Apply](<https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Kansas-City-MO/Intern-Electrical-Engineer---Summer-2027_R-31347-1>) | 2026-08-27 | Summer 2027 | BS |
 | RTX | Electrical Engineer Intern Co-Op | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Electrical-Engineer-Intern-Co-Op_01868699>) | 2026-08-27 | Summer 2027 | BS |
@@ -1195,7 +1196,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Wabtec | Engineering Intern | [Apply](<https://jobs.smartrecruiters.com/Wabtec/3743990014652807>) | 2026-08-18 | Summer 2027 | BS |
 | Wabtec | Digital Intern | [Apply](<https://jobs.smartrecruiters.com/Wabtec/3743990014655843>) | 2026-08-18 | Summer 2027 | BS |
 | Avery Dennison | RFID Applications Engineer Co-op - Summer 2027 - Plus one semester | [Apply](<https://jobs.smartrecruiters.com/AveryDennison/744000144153141>) | 2026-08-18 | Summer 2027 | BS |
-| Boom Supersonic | Engineering and Tech Intern | [Apply](<https://ats.rippling.com/boom-supersonic/jobs/4053f749-3d30-4d71-a64c-5fa79e162bbf>) | 2026-08-16 | Summer 2027 | BS |
 | Bosch Group | Mechanical Engineering Intern | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000126065755>) | 2026-08-15 | Summer 2027 | BS |
 | InterDigital | Ph.D. Intern, 6G Wireless Systems - S... | [Apply](<https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/PhD-Intern--6G-Wireless-Systems---Sept-2026_REQ26-1135>) | 2026-08-14 | Summer 2027 | BS |
 | Field AI | Electrical Engineer, Robotics Hardwar... | [Apply](<https://jobs.lever.co/field-ai/1049e3e1-b4ca-4996-96a5-14e933f35b44>) | 2026-08-14 | Summer 2027 | BS |

@@ -3715,7 +3715,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4847,5 +4847,21 @@
   - github_tracker:zshah101
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-26'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: goldman-sachs-summer-associate-intern-c7829e
+  company: Goldman Sachs
+  role: Summer Associate Intern
+  location: New York, NY
+  link: https://higher.gs.com/roles/171552?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null

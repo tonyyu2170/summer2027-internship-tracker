@@ -7690,7 +7690,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-26'
+  last_verified: '2026-08-27'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-forward-deployed-s-c8e66a
   company: Palantir
@@ -10647,7 +10647,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -10665,7 +10665,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -10956,7 +10956,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11401,6 +11401,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
@@ -11418,6 +11419,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
@@ -11437,6 +11439,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
@@ -11456,6 +11459,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
@@ -11475,6 +11479,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
@@ -11492,6 +11497,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
@@ -11508,6 +11514,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
@@ -11620,6 +11628,8 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
@@ -11716,6 +11726,54 @@
   status: open
   sources:
   - github_tracker:zshah101
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: leidos-systems-engineering-intern-fd1aa1
+  company: Leidos
+  role: Systems Engineering Intern
+  location: Odenton, MD
+  link: https://leidos.wd5.myworkdayjobs.com/External/job/Odenton-MD/Systems-Engineering-Intern_R-00190647
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: leidos-transport-network-engineer-intern-27aca1
+  company: Leidos
+  role: Transport Network Engineer Intern
+  location: Shiloh, IL
+  link: https://leidos.wd5.myworkdayjobs.com/External/job/Shiloh-IL/Transport-Network-Engineer-Intern_R-00190655
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: curtiss-wright-engineer-intern-4ec41e
+  company: Curtiss-Wright
+  role: Engineer Intern
+  location: Charlotte, NC
+  link: https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-NC-Charlotte-ST-170/Engineer-Intern_JR12661
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null

@@ -2579,7 +2579,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -3741,6 +3741,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
@@ -3789,6 +3791,23 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: axon-embedded-engineer-intern-a69c24
+  company: Axon
+  role: Embedded Engineer Intern
+  location: Boston, MA
+  link: https://job-boards.greenhouse.io/axontalentcommunity/jobs/7800627003
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null

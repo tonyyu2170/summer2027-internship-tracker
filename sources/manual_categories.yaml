@@ -1666,3 +1666,24 @@ https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Reservoir-Engineering-In
 ? https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Kansas-City-MO/New-Grad-Electrical-Engineer-I---Winter-Summer-2027_R-31351-1
 : __drop__
 https://job-boards.greenhouse.io/whitewatermidstream/jobs/5221723007: __drop__
+
+# 2026-08-27 scheduled run. Four zapplyjobs postings no rule could classify,
+# all out of scope for the six tracked categories. Recorded per-link rather
+# than as new categorize.py patterns: "advisory"/"valuation" are one-off
+# title shapes here, and a blanket `advisory` DROP would be broad enough to
+# risk claiming in-scope titles.
+# CVS: insurance underwriting is a distinct function from actuarial work
+# (risk selection/pricing per case), and `actuar` correctly does not match.
+? https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Underwriting-Corporate-Internship--Undergraduate-_R1023695
+: __drop__
+# Grant Thornton is an accounting/advisory firm; Risk Advisory and Valuation
+# & Modeling are both consulting practices, and consulting is intentionally
+# out of scope (docs/SCRAPING.md). The `consult` pattern misses them because
+# neither title uses the word.
+https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115684: __drop__
+https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115685: __drop__
+# General Matter's title is upstream-truncated ("... - Environmenta..."), but
+# every completion of it (environmental engineering / EHS / compliance) is
+# out of scope; the `environmental` DROP rule only fires on titles that also
+# say "engineer".
+https://job-boards.greenhouse.io/generalmatter/jobs/5376633008: __drop__
