@@ -1595,3 +1595,74 @@ https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine
 https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Reservoir-Engineer-Intern_83636-1: __drop__
 ? https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine---Foundry-Engineering-Co-op_JR-050979
 : __drop__
+# 2026-08-27 scheduled scrape: zapplyjobs parked 18 postings unclassified.
+# The Hartford's Tech & Data Program rows follow the sibling Columbus/Hartford
+# reqs already resolved to swe above (it is one software+data rotational
+# programme, so its Data Engineer track files with its SWE track).
+? https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649
+: swe
+? https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Chicago-IL/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Chicago-_R2626650
+: swe
+? https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Charlotte-_R2626648
+: swe
+# GlobalFoundries: SiGe HBT device modelling is semiconductor device work.
+? https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/SiGe-HBT-Device-Modelling-Intern--Summer-2027-_JR-2604271
+: hardware
+# Federal Reserve Richmond posts a Business/Technical pair; the technical track
+# is the software-and-IT one. Truncated title, so this is a judgment call.
+? https://rb.wd5.myworkdayjobs.com/frs/job/Richmond-VA/Federal-Reserve-Summer-2027-Technical-Internship_R-0000033194
+: swe
+? https://rb.wd5.myworkdayjobs.com/frs/job/Richmond-VA/Federal-Reserve-Summer-Business-2027-Internship_R-0000033190
+: __drop__
+# Out-of-scope families, each matching a drop rule categorize.py already has
+# but that the truncated titles kept it from reaching: UX/visual design,
+# civil-structural, IT support, supply chain ("Deliver" is J&J's supply chain
+# org), urban planning, a new-grad planner posting, financial services,
+# private-equity infrastructure investing (and a February, not Summer, term),
+# real estate valuations/capital markets, and Crowe advisory (consulting).
+? https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/UX-Design-Internship---Summer-2027_R266218
+: __drop__
+? https://parsons.wd5.myworkdayjobs.com/search/job/US---FL-Tallahassee/Structural-Design-Intern_R185382
+: __drop__
+? https://magna.wd3.myworkdayjobs.com/Magna/job/Liberty-Missouri-US/IT-Intern_R00258472
+: __drop__
+? https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/Deliver-Business-Unit-Integration-Co-Op_R-094887
+: __drop__
+? https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Chicago-IL/Planning-Intern---Summer-2027_R-31365-1
+: __drop__
+? https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Kansas-City-MO/New-Grad-Integrated-Planning-Solutions-Planner-I---Winter-Summer-2027_R-31354-1
+: __drop__
+? https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345
+: __drop__
+? https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/New-York/Infrastructure-Intern---February-2027-I-NYC_JR1002214
+: __drop__
+? https://jll.wd1.myworkdayjobs.com/jllcareers/job/Overland-Park-KS/Valuations-Advisory-Summer-2027-Internship---Houston--TX_REQ530574
+: __drop__
+? https://jll.wd1.myworkdayjobs.com/jllcareers/job/Dallas-TX/Capital-Markets-Summer-2027-Internship---Dallas--TX_REQ530555
+: __drop__
+? https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/Technology-Advisory-Intern_R-71003
+: __drop__
+# Bosch Rexroth's Watertown MA site is its Training Technology (didactic
+# equipment) line; the truncated title gives no evidence of a software or
+# hardware-design role, so it drops like the other Bosch non-engineering reqs.
+? https://jobs.smartrecruiters.com/BoschGroup/744000132662239
+: __drop__
+# Five rows this run's merge created and the quality pass then removed as
+# off-scope; recorded here so the next scheduled run does not re-add them.
+# Repsol posted a fresh family of petroleum-engineering reqs (83945/83947/
+# 83951) that the trackers file under their AI/ML/Data heading, so the
+# upstream-category path claimed them for ai_ml before any role rule ran —
+# the same call as the Reservoir Engineer drop above, which pinned a
+# different req (83636) and so could not cover these. HNTB's is a New Grad
+# Engineer I posting, not an internship (cf. the New Grad planner drops
+# above). WhiteWater Midstream is a natural-gas pipeline operator, so its
+# Trading Operations intern is scheduling/settlement ops, not quant; its
+# Data Science intern in the same batch is genuinely in scope and was kept.
+https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Reservoir-Engineering-Intern_83945-1: __drop__
+? https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Production-Allocation-Engineering-Intern_83947-1
+: __drop__
+? https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Development-Planning-Engineering-Intern_83951-1
+: __drop__
+? https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Kansas-City-MO/New-Grad-Electrical-Engineer-I---Winter-Summer-2027_R-31351-1
+: __drop__
+https://job-boards.greenhouse.io/whitewatermidstream/jobs/5221723007: __drop__
