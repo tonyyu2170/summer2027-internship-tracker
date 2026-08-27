@@ -4728,7 +4728,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
@@ -4859,9 +4859,57 @@
   term: Summer 2027
   degree:
   - PhD
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: goldman-sachs-associate-intern-the-core-quantitative-strats-722850
+  company: Goldman Sachs
+  role: Associate Intern - The Core Quantitative Strats
+  location: Dallas, TX
+  link: https://higher.gs.com/roles/171546?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
   status: open
   sources:
   - github_tracker:simplifyjobs
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: wells-fargo-2027-quantitative-analytics-summer-in-6ece98
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: CHARLOTTE, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-PhD----Early-Careers_R-571703
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: wells-fargo-2027-quantitative-analytics-summer-in-e6beff
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: CHARLOTTE, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-Masters----Early-Careers_R-571698
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null

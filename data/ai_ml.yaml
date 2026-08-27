@@ -4678,23 +4678,6 @@
   date_added: '2026-08-21'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
-- id: blackstone-data-engineer-summer-analyst-blackstone-technology-innovations-bf89ea
-  company: Blackstone
-  role: Data Engineer Summer Analyst - Blackstone Technology & Innovations
-  location: Miami, FL
-  link: https://blackstone.wd1.myworkdayjobs.com/zh-CN/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Technology-and-Innovations--Data-Engineer-Summer-Analyst_45022
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-22'
-  last_verified: '2026-08-27'
-  possible_duplicate_of: null
 - id: ecolab-digital-ai-technology-intern-c48375
   company: Ecolab
   role: Digital & AI Technology Intern
@@ -4941,24 +4924,6 @@
   date_added: '2026-08-26'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
-- id: auto-owners-insurance-data-engineering-intern-summer-2027-87dac5
-  company: Auto-Owners Insurance
-  role: Data Engineering Intern - Summer 2027
-  location: Lansing, MI
-  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-27'
-  last_verified: '2026-08-27'
-  possible_duplicate_of: null
 - id: verisk-ai-intern-summer-internship-program-7f09e3
   company: Verisk
   role: AI Intern - Summer Internship Program
@@ -5043,6 +5008,24 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: procter-gamble-research-development-scientist-engineer-intern-freshmen-sophomores-and-juniors-70d589
+  company: Procter & Gamble
+  role: Research & Development Scientist/Engineer Intern - Freshmen, Sophomores, And
+    Juniors
+  location: St Bernard, OH
+  link: https://pg.wd5.myworkdayjobs.com/1000/job/Mason/Research---Development-Scientist-Engineer-Intern-Summer-2027---Freshmen--Sophomores--and-Juniors_R000157846
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null

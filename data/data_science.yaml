@@ -2080,3 +2080,53 @@
   date_added: '2026-08-27'
   last_verified: '2026-08-27'
   possible_duplicate_of: null
+- id: brunswick-global-supply-chain-analytics-insig-8d5694
+  company: Brunswick
+  role: Global Supply Chain Analytics & Insig...
+  location: Fond du Lac, WI
+  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Global-Supply-Chain-Analytics---Insights-Intern_JR-051419
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-data-s-7b0373
+  company: Booz Allen Hamilton
+  role: University - 2027 Summer Games Data S...
+  location: San Diego, CA
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University---2027-Summer-Games-Data-Scientist-Intern---San-Diego--CA_R0248045
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-data-s-6b4a70
+  company: Booz Allen Hamilton
+  role: University - 2027 Summer Games Data S...
+  location: McLean, VA
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-27'
+  last_verified: '2026-08-27'
+  possible_duplicate_of: null
