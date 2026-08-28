@@ -330,6 +330,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -7674,7 +7675,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-26'
+  last_verified: '2026-08-28'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-forward-deployed-s-39a506
   company: Palantir
@@ -12277,6 +12278,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: abbvie-2027-business-technology-solutions-in-01de2b
@@ -12293,6 +12295,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: abbvie-2027-business-technology-solutions-in-ebaeaa
@@ -12309,6 +12312,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: abbvie-2027-business-technology-solutions-in-f9abde
@@ -12377,6 +12381,86 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-softwa-c5d103
+  company: Booz Allen Hamilton
+  role: University - 2027 Summer Games Softwa...
+  location: Charleston, SC
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Software-Developer-Intern_R0248134
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-softwar-1f9b3d
+  company: Booz Allen Hamilton
+  role: University, 2027 Summer Games Softwar...
+  location: Rome, NY
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/University--2027-Summer-Games-Software-Developer-Intern_R0248141
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-softwar-12c7d4
+  company: Booz Allen Hamilton
+  role: University, 2027 Summer Games Softwar...
+  location: Colorado Springs, CO
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-cyber-b9c683
+  company: Booz Allen Hamilton
+  role: University - 2027 Summer Games Cyber ...
+  location: Charleston, SC
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Cyber-Security-Intern---Charleston--SC_R0248136
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-cyber-s-5d3ca0
+  company: Booz Allen Hamilton
+  role: University, 2027 Summer Games Cyber S...
+  location: Rome, NY
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/University--2027-Summer-Games-Cyber-Security-Intern_R0248142
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null

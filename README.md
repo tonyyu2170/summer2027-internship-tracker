@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-28 11:39 EST — 1329 open roles._
+_Last updated: 2026-08-28 16:09 EST — 1337 open roles._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,6 +22,11 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Booz Allen Hamilton | University, 2027 Summer Games Cyber S... | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/University--2027-Summer-Games-Cyber-Security-Intern_R0248142>) | 2026-08-28 | Summer 2027 | BS |
+| Booz Allen Hamilton | University - 2027 Summer Games Cyber ... | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Cyber-Security-Intern---Charleston--SC_R0248136>) | 2026-08-28 | Summer 2027 | BS |
+| Booz Allen Hamilton | University, 2027 Summer Games Softwar... | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130>) | 2026-08-28 | Summer 2027 | BS |
+| Booz Allen Hamilton | University, 2027 Summer Games Softwar... | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/University--2027-Summer-Games-Software-Developer-Intern_R0248141>) | 2026-08-28 | Summer 2027 | BS |
+| Booz Allen Hamilton | University - 2027 Summer Games Softwa... | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Software-Developer-Intern_R0248134>) | 2026-08-28 | Summer 2027 | BS |
 | Diversified Automation | Applications Engineering Co-op | [Apply](<https://jobs.lever.co/diversified-automation/d83143a9-f536-498e-9554-b419dff07a32>) | 2026-08-28 | Summer 2027 | BS |
 | Booz Allen Hamilton | University - 2027 Summer Games Cyber ... | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034>) | 2026-08-28 | Summer 2027 | BS |
 | Booz Allen Hamilton | University, 2027 Summer Games Cyber S... | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043>) | 2026-08-28 | Summer 2027 | BS |
@@ -794,6 +799,9 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Booz Allen Hamilton | University, 2027 Summer Games Data Sc... | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143>) | 2026-08-28 | Summer 2027 | BS |
+| Booz Allen Hamilton | University - 2027 Summer Games Data S... | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Data-Scientist-Intern_R0248137>) | 2026-08-28 | Summer 2027 | BS |
+| Booz Allen Hamilton | University, 2027 Summer Games Data Sc... | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132>) | 2026-08-28 | Summer 2027 | BS |
 | Micron Technology | Intern - Marketing Analytics | [Apply](<https://micron.wd1.myworkdayjobs.com/external/job/Meridian-ID/Intern---Marketing-Analytics_JR109458>) | 2026-08-28 | Summer 2027 | BS |
 | Booz Allen | Data Scientist Intern - University - Summer Games | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University--2027-Summer-Games-Data-Scientist-Intern_R0248050>) | 2026-08-27 | Summer 2027 | BS |
 | Leidos | Data Engineering & Analytics Intern | [Apply](<https://leidos.wd5.myworkdayjobs.com/External/job/Shiloh-IL/Data-Engineering---Analytics-Intern_R-00190672-1>) | 2026-08-27 | Summer 2027 | BS |

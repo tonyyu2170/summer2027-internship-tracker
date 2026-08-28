@@ -5160,6 +5160,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null

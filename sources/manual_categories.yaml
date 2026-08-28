@@ -1871,3 +1871,25 @@ https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/
 # auto apply_ats_corrections: category adjudication.
 ? https://airproducts.wd5.myworkdayjobs.com/AP0001/job/Allentown-Pennsylvania/Summer-Intern--IT---Cyber-Audit--2027-_JR-2026-21954
 : __drop__
+# scheduled run 2026-08-28: upstream-truncated titles from zapplyjobs.
+? https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Software-Developer-Intern_R0248134
+: swe
+? https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/University--2027-Summer-Games-Software-Developer-Intern_R0248141
+: swe
+? https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130
+: swe
+? https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132
+: data_science
+? https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Data-Scientist-Intern_R0248137
+: data_science
+? https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143
+: data_science
+# New-grad full-time role (and HNTB "Scientist" is environmental/infra science), not an internship.
+? https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Dallas-TX/New-Grad-Scientist-I---Summer-2027---Central-Division--For-Current-Returning-HNTB-Interns-Only-_R-31129-1
+: __drop__
+# Risk advisory = consulting; outside the six tracked categories.
+https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115682: __drop__
+# Freight-rail intermodal operations role; simplifyjobs files it under AI/ML/Data
+# but no keyword rule matches it and it is off-scope for all six categories.
+? https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/job/54817
+: __drop__
