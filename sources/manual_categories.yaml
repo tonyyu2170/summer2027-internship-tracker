@@ -1814,3 +1814,60 @@ https://www.amazon.jobs/en/jobs/10517149/robotics-software-development-engineer-
 # "software" heading, which outranks a role rule for a first-sight link.
 ? https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern---IT--Summer-2027-_38395
 : __drop__
+
+# 2026-08-28 midday scheduled run: 12 postings parked unclassified
+# (zapplyjobs, chieler).
+# In scope. Apple's Applied Data Solutions Program is the same req (200673612)
+# pinned data_science earlier today; zapplyjobs now emits the longer slugged
+# URL, which normalizes to a different key.
+? https://jobs.apple.com/en-us/details/200673612/applied-data-solutions-program-internships-summer-2027
+: data_science
+# Lower confidence, see the PR body. Etched is an ~AI-accelerator startup, so
+# its "Infrastructure Intern" reads as compute/platform software rather than
+# business IT — the same call as Clyde Companies' Platform Services Intern
+# above, and distinct from the business-IT drops below.
+https://jobs.ashbyhq.com/etched/1b073af4-6764-45ca-a22d-40a4823f0877: swe
+# Business-IT and security-GRC family, already settled above: Vanguard's own
+# Technology Operations intern, Workiva Security & GRC, Fifth Third IAM and
+# DTCC information security all dropped. These two are the same "College to
+# Corporate IT" analyst req in NC and PA.
+? https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Risk---Security---Analyst---NC-_181764
+: __drop__
+? https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Risk---Security---Analyst---PA-_181762
+: __drop__
+# Non-Summer-2027 terms. Both Disney reqs carry "Spring 2027" in their slug
+# despite the tracker labelling them Summer 2027 — same call as the WDI
+# Project Coordination Spring 2027 drop above. The Show Set Design req is
+# out-of-scope design work regardless of term.
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/WDI-Show-Set-Design-Intern--Orlando--Spring-2027_10158508
+: __drop__
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Park-Yield-Optimization-Intern--Spring-2027_10158534
+: __drop__
+# Out-of-scope disciplines that categorize.py already drops but whose titles
+# arrived truncated, so no rule fired: Disney's Workforce Management req is
+# Industrial Engineering (the `industrial` discipline drop) and Lennox's MES &
+# Industrial Automation is manufacturing-systems work (`manufactur`).
+? https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Walt-Disney-World-Workforce-Management-Industrial-Engineering-Intern--Spring-Summer-2027_10158144
+: __drop__
+https://uscareers-lennox.icims.com/jobs/54562/job?mobile=true&needsRedirect=false: __drop__
+# Product management under another name — Honeywell's "Offering Management" is
+# its product-management track, which the `\bproduct\b` rule would catch if the
+# title said so.
+https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155594: __drop__
+# Finance/advisory and investment-management roles - none of the six tracked
+# categories. Grant Thornton's Financial Due Diligence req (115601) is the
+# sibling of 115642, dropped above. Dimensional's Investment Solutions intern
+# follows the Mackenzie Investments drop; it is portfolio/client solutions
+# work, not quant research.
+https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115601: __drop__
+? https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Investment-Solutions--Undergraduate---Master-s-_2026-9041
+: __drop__
+# Event production, not a tracked engineering category.
+? https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Emo-Nite---Production-Intern_JR-92849-2
+: __drop__
+# auto apply_ats_corrections: category adjudication.
+? https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Pricing---Product-Development-Intern--Spring-2027_10158266
+: __drop__
+# auto apply_ats_corrections: category adjudication.
+? https://airproducts.wd5.myworkdayjobs.com/AP0001/job/Allentown-Pennsylvania/Summer-Intern--IT---Cyber-Audit--2027-_JR-2026-21954
+: __drop__

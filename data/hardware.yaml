@@ -943,7 +943,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-25'
+  last_verified: '2026-08-28'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-electronics-engineering-intern-8d175b
@@ -2894,7 +2894,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-19'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-28'
   possible_duplicate_of: null
 - id: motorola-solutions-electrical-engineer-intern-summer-2027-650bc1
   company: Motorola Solutions
@@ -2977,7 +2977,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-20'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-28'
   possible_duplicate_of: null
 - id: diversified-automation-hardware-engineering-co-op-b55b4a
   company: Diversified Automation
@@ -3647,7 +3647,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:simplifyjobs
@@ -3825,29 +3825,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-28'
-  last_verified: '2026-08-28'
-  possible_duplicate_of: null
-- id: cesiumastro-software-engineering-intern-advanced-projects-group-573450
-  company: CesiumAstro
-  role: Software Engineering Intern - Advanced Projects Group
-  location: Austin, TX
-  link: https://jobs.lever.co/CesiumAstro/d406d2ed-cc05-4346-90ea-b13dfa07e411/apply
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -3863,6 +3845,24 @@
   - BS
   - MS
   - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: vertiv-power-management-intern-summer-2027-e39f03
+  company: Vertiv
+  role: Power Management Intern - Summer 2027
+  location: Delaware, OH
+  link: https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279233
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
   status: open
   sources:
   - github_tracker:simplifyjobs

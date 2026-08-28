@@ -6726,7 +6726,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-28'
   possible_duplicate_of: null
 - id: palantir-deployment-strategist-internship-u-5c4bb8
   company: Palantir
@@ -11082,7 +11082,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-26'
@@ -12037,6 +12037,8 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -12055,6 +12057,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -12071,6 +12074,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -12087,6 +12092,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -12103,22 +12111,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  date_added: '2026-08-28'
-  last_verified: '2026-08-28'
-  possible_duplicate_of: null
-- id: deloitte-ai-innovation-summer-scholar-intern-ai-innovation-6df3f4
-  company: Deloitte
-  role: AI Innovation Summer Scholar Intern - AI Innovation
-  location: McLean, VA
-  link: https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-AI-Innovation/364696
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -12135,6 +12129,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -12151,6 +12147,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: copart-software-engineering-intern-545d41
@@ -12231,6 +12228,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -12263,6 +12261,122 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: abbvie-2027-business-technology-solutions-in-275c8e
+  company: AbbVie
+  role: 2027 Business Technology Solutions In...
+  location: South San Francisco, CA
+  link: https://jobs.smartrecruiters.com/AbbVie/3743990014900536
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: abbvie-2027-business-technology-solutions-in-01de2b
+- id: abbvie-2027-business-technology-solutions-in-d7b5b4
+  company: AbbVie
+  role: 2027 Business Technology Solutions In...
+  location: Irvine, CA
+  link: https://jobs.smartrecruiters.com/AbbVie/3743990014900496
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: abbvie-2027-business-technology-solutions-in-ebaeaa
+- id: abbvie-2027-business-technology-solutions-in-276c07
+  company: AbbVie
+  role: 2027 Business Technology Solutions In...
+  location: North Chicago, IL
+  link: https://jobs.smartrecruiters.com/AbbVie/3743990014896329
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: abbvie-2027-business-technology-solutions-in-f9abde
+- id: booz-allen-hamilton-university-2027-summer-games-cyber-s-67b4b8
+  company: Booz Allen Hamilton
+  role: University, 2027 Summer Games Cyber S...
+  location: San Diego, CA
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-cyber-049495
+  company: Booz Allen Hamilton
+  role: University - 2027 Summer Games Cyber ...
+  location: McLean, VA
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: diversified-automation-applications-engineering-co-op-093097
+  company: Diversified Automation
+  role: Applications Engineering Co-op
+  location: Louisville, KY
+  link: https://jobs.lever.co/diversified-automation/d83143a9-f536-498e-9554-b419dff07a32
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: cesiumastro-software-engineering-intern-advanced-projects-group-573450
+  company: CesiumAstro
+  role: Software Engineering Intern - Advanced Projects Group
+  location: Austin, TX
+  link: https://jobs.lever.co/CesiumAstro/d406d2ed-cc05-4346-90ea-b13dfa07e411/apply
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null

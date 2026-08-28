@@ -1361,7 +1361,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-28'
   possible_duplicate_of: null
   date_estimated: true
 - id: intuitive-computer-vision-engineering-intern-c3873f
@@ -1795,7 +1795,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-28'
   possible_duplicate_of: null
   date_estimated: true
 - id: campbell-soup-company-agentic-ai-engineer-co-op-ee0647
@@ -1811,7 +1811,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-28'
   possible_duplicate_of: null
   date_estimated: true
 - id: campbell-soup-company-business-analyst-co-op-da-ai-a715e6
@@ -1827,7 +1827,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-28'
   possible_duplicate_of: null
   date_estimated: true
 - id: fti-consulting-technology-intern-technology-76df5d
@@ -5051,6 +5051,8 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -5068,6 +5070,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -5085,6 +5088,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -5103,6 +5108,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -5119,6 +5125,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
@@ -5135,6 +5143,41 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: iberdrola-group-technology-cyber-data-intern-f3db07
+  company: Iberdrola Group
+  role: Technology – Cyber & Data Intern
+  location: Boston, MA
+  link: https://iberdrola.wd3.myworkdayjobs.com/iberdrola/job/United-States-Of-America-Connecticut-Orange/XMLNAME-2027-Technology--Cyber---Data-Internship-Program_R-32747
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-28'
+  last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: deloitte-ai-innovation-summer-scholar-intern-ai-innovation-6df3f4
+  company: Deloitte
+  role: AI Innovation Summer Scholar Intern - AI Innovation
+  location: McLean, VA
+  link: https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-AI-Innovation/364696
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-28'
   last_verified: '2026-08-28'
   possible_duplicate_of: null
