@@ -1709,3 +1709,108 @@ https://job-boards.greenhouse.io/msfcareers/jobs/5407616008: __drop__
 https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115642: __drop__
 https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278313: __drop__
 https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278669: __drop__
+
+# 2026-08-28 scheduled run: 24 postings parked unclassified (zapplyjobs, chieler).
+# In scope. AbbVie's three new 2027 Business Technology Solutions reqs
+# (89xxxxx/90xxxxx) share the truncated title and req family already resolved to
+# swe on 2026-08-26 sibling evidence ("... - Data & Software Engineering").
+# Booz Allen's El Segundo Data Scientist req is the sixth of the Summer Games
+# 2027 family adjudicated above; its slug spells out the discipline. L3Harris's
+# "Artificial Intelligence Intern" (Melbourne, FL) is plainly ai_ml — the
+# `\bai\b` rule only misses it because the title spells the words out.
+https://jobs.smartrecruiters.com/AbbVie/3743990014900536: swe
+https://jobs.smartrecruiters.com/AbbVie/3743990014900496: swe
+https://jobs.smartrecruiters.com/AbbVie/3743990014896329: swe
+https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University--2027-Summer-Games-Data-Scientist-Intern_R0248050: data_science
+? https://jobs.l3harris.com/job/Melbourne-Intern-,-Artificial-Intelligence-FL-32919/1423790400/?ats=successfactors
+: ai_ml
+# Apple's Applied Data Solutions Program is its data engineering/analytics
+# organization; both trackers surfaced the same req (200673612).
+https://jobs.apple.com/en-us/details/200673612: data_science
+# Lower confidence, see the PR body. Vertiv builds power and thermal
+# infrastructure (UPS, busway, switchgear), so a "Power Management Intern"
+# there reads as power-electronics work — hardware by the same reasoning as
+# the other electrical-discipline entries. Clyde Companies' Platform Services
+# Intern follows its sibling "Application Development Intern" (already tracked
+# as swe) as the platform/infrastructure half of the same tech org.
+https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279233: hardware
+https://careers.clydeinc.com/jobs/35829?icims=1: swe
+# Non-US or non-Summer-2027 terms. Capital One's "Technology Intern" is the
+# Nottingham, England req. RBC's Model Risk Intern is Toronto and a 4-month
+# Winter 2027 term (both Workday sites carry the same req R-0000185788). RTX's
+# Customer Master Data role is another CA-QC-LONGUEUIL "Stage - Hiver 2027",
+# the same call as the three RTX Quebec stage drops above. Excellus BCBS's
+# Community Impact posting is a Fall 2026 term as well as CSR work (cf. the
+# Campbell Soup Community Impact drop).
+? https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Nottingham--Eng/Technology-Summer-Internship_R999269
+: __drop__
+? https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--Model-Risk-Intern--4-Months-_R-0000185788-1
+: __drop__
+? https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--Model-Risk-Intern--4-Months-_R-0000185788
+: __drop__
+? https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-et-analyse-de-donnes-clients---Internship---Winter-2027---Customer-Master-Data-Analysis-and-Management_01865932
+: __drop__
+? https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Community-Impact---Fall-2026_JR103924-2
+: __drop__
+# Mackenzie Investments is a Canadian asset manager and the role is investment
+# management, off-scope on both counts.
+? https://careersen-mackenzieinvestments.icims.com/jobs/5993/job?mobile=true&needsRedirect=false
+: __drop__
+# Out-of-scope disciplines that categorize.py already drops but whose titles
+# arrived truncated, so no rule fired: GlobalFoundries' Advanced Manufacturing
+# Process Engineering (the `manufactur` discipline drop; distinct from the SiGe
+# device-modelling req kept as hardware above), Amentum's Structural Dynamics
+# Engineer (`\bstructur`), J&J's OPEX Co-Op (operational excellence), and
+# Northrop Grumman's Sunnyvale Business Management Intern — the exact sibling
+# of the Palmdale req dropped above.
+? https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Job-Posting-Title-Advanced-Manufacturing-Process-Engineering-Intern--Sophomore--Summer-2027-_JR-2604664
+: __drop__
+? https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Summer-2027-Intern---Structural-Dynamics-Engineer_R0169254
+: __drop__
+https://jj.wd5.myworkdayjobs.com/jj/job/Gurabo-Puerto-Rico-United-States-of-America/OPEX-Co-Op_R-095047: __drop__
+? https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Sunnyvale/XMLNAME-2027-Business-Management-Intern---Sunnyvale-CA_R10248163-1
+: __drop__
+# Business-IT and security-GRC families already settled above. Workiva's
+# Security & GRC intern follows the Fifth Third IAM and DTCC information-
+# security drops. Air Products' IT/Digital Technology - Infrastructure Services
+# and Clyde's Enterprise Business Solutions are business-IT (cf. the Magna IT,
+# Caterpillar IT, Trane Business Systems Analyst and Argonne Business Systems
+# entries). Micron's Technical Customer Management req is a customer-facing
+# technical account role — "AI" there names the business segment, not the work.
+? https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring---Summer-2027-Intern---Security---GRC_R12353
+: __drop__
+? https://airproducts.wd5.myworkdayjobs.com/en-US/AP0001/job/Allentown-Pennsylvania/Summer-Intern--IT-Digital-Technology--2027-_JR-2026-21953
+: __drop__
+https://careers.clydeinc.com/jobs/20002?icims=1: __drop__
+? https://micron.wd1.myworkdayjobs.com/external/job/Longmont-MAX--Office-CO/Intern---Technical-Customer-Management--AI_JR109454
+: __drop__
+# Lower confidence, see the PR body. Manulife's Boston "Summer Intern 2027 -
+# Business Technology" has no software or data signal in the title and no
+# sibling req to lean on, so it follows the business-IT drops (Honeywell
+# Information Systems, Vanguard Technology Operations) rather than the AbbVie
+# BTS entries, which were routed swe only on explicit sibling evidence.
+? https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Business-Technology_JR26081681
+: __drop__
+# Five rows this run's merge created and the quality pass then removed;
+# recorded here so the next scheduled run does not re-add them. Repsol's G&G
+# Intern (83639) is the fifth req of the petroleum-geoscience family dropped
+# above (83636/83945/83947/83951) — the trackers file Repsol under their
+# AI/ML/Data heading, so it reached ai_ml before any role rule ran. HNTB's is
+# a New Grad Field Engineer I posting, not an internship, and civil/
+# transportation besides (cf. the New Grad Electrical Engineer I and planner
+# drops above). The Amazon req is a Fall 2026 Robotics co-op — its slug says
+# "fall-intern-co-op-2026" — which the tracker mislabelled Summer 2027.
+https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/G-G-Intern_83639-1: __drop__
+? https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Dallas-TX/New-Grad-Field-Engineer-I--Central-Division--For-Current-Former-HNTB-Interns-Only_R-30954-1
+: __drop__
+https://www.amazon.jobs/en/jobs/10517149/robotics-software-development-engineer-fall-intern-co-op-2026: __drop__
+# Lower confidence, see the PR body. Commerce Bank's plain "Intern - IT" is a
+# business-IT role, the family already dropped above (Magna IT Intern,
+# Caterpillar Information Technology, Honeywell Information Systems, Trane
+# Business Systems Analyst, Argonne Business Systems). Air Products' IT/Digital
+# Technology - Infrastructure Services row was dropped on the same reasoning;
+# its link is already pinned __drop__ in this run's adjudication block above.
+# Both reached swe only because chieler/zapplyjobs file them under an upstream
+# "software" heading, which outranks a role rule for a first-sight link.
+? https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern---IT--Summer-2027-_38395
+: __drop__
