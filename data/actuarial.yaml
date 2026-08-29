@@ -132,7 +132,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-28'
+  last_verified: '2026-08-29'
   possible_duplicate_of: null
 - id: cvs-health-actuarial-corporate-internship-8367d1
   company: CVS Health
@@ -165,4 +165,20 @@
   - github_tracker:zapplyjobs
   date_added: '2026-08-27'
   last_verified: '2026-08-28'
+  possible_duplicate_of: null
+- id: manulife-summer-intern-2027-actuarial-us-b122e4
+  company: Manulife
+  role: Summer Intern 2027 – Actuarial US
+  location: Boston, MA
+  link: https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Actuarial-US_JR26081417-1
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
   possible_duplicate_of: null
