@@ -1643,7 +1643,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
@@ -2286,6 +2286,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -2304,6 +2305,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -2338,6 +2340,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -2354,6 +2357,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -2370,6 +2374,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -2378,6 +2383,38 @@
   role: Data Management (DMO) Internship - Su...
   location: Omaha, NE
   link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Data-Management--DMO--Internship---Summer-2027_Req-039968
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: leidos-data-science-intern-ec1d6a
+  company: Leidos
+  role: Data Science Intern
+  location: San Diego, CA
+  link: https://leidos.wd5.myworkdayjobs.com/External/job/San-Diego-CA/Data-Science-Intern_R-00190740
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: northwood-space-supply-chain-data-analytics-intern-233849
+  company: Northwood Space
+  role: Supply Chain Data & Analytics Intern ...
+  location: Torrance, CA
+  link: https://jobs.ashbyhq.com/northwoodspace/69f99cd7-3ce7-413a-8cfe-29b7ccbc1490
   date_posted: '2026-08-29'
   date_estimated: false
   term: Summer 2027

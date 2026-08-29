@@ -5199,6 +5199,43 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: philips-data-ai-ml-engineer-intern-image-guided-therapy-devices-software-r-d-82778c
+  company: Philips
+  role: Data AI/ML Engineer Intern - Image Guided Therapy Devices - Software R&D
+  location: Plymouth, MN
+  link: https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: charles-schwab-data-engineering-intern-data-engineering-5934a0
+  company: Charles Schwab
+  role: Data Engineering Intern - Data Engineering
+  location: Austin, TX
+  link: https://career-schwab.icims.com/jobs/126227/job?mobile=true&needsRedirect=false
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null

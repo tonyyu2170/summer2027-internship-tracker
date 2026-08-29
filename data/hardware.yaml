@@ -3885,6 +3885,74 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: northwood-space-embedded-software-engineering-intern-dd199e
+  company: Northwood Space
+  role: Embedded Software Engineering Intern ...
+  location: Torrance, CA
+  link: https://jobs.ashbyhq.com/northwoodspace/d0cca9dd-ea90-4c3b-94b4-17761932d11c
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: northwood-space-mechanical-engineering-intern-2027-s-ec935f
+  company: Northwood Space
+  role: Mechanical Engineering Intern (2027 S...
+  location: Torrance, CA
+  link: https://jobs.ashbyhq.com/northwoodspace/6081eebf-7021-4a3f-a34f-78c91c94fcd3
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: northwood-space-electrical-engineering-intern-2027-s-b35455
+  company: Northwood Space
+  role: Electrical Engineering Intern (2027 S...
+  location: Torrance, CA
+  link: https://jobs.ashbyhq.com/northwoodspace/1bc230b1-5ad2-44b8-ad61-e80a730e5026
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: northwood-space-rf-engineering-intern-2027-summer-in-8f83f3
+  company: Northwood Space
+  role: RF Engineering Intern (2027 Summer In...
+  location: Torrance, CA
+  link: https://jobs.ashbyhq.com/northwoodspace/f086c92a-7e4b-4799-8f2a-2ad8b13111ca
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null

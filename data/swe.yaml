@@ -7675,7 +7675,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-28'
+  last_verified: '2026-08-29'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-forward-deployed-s-39a506
   company: Palantir
@@ -8883,7 +8883,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -12531,6 +12531,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -12550,6 +12551,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -12614,9 +12616,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -12630,9 +12634,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -12665,6 +12671,9 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -12730,6 +12739,8 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -12762,6 +12773,7 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -12778,6 +12790,7 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -12795,6 +12808,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -12812,6 +12826,60 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: intuit-software-engineer-intern-full-stack-cc18f3
+  company: Intuit
+  role: Software Engineer Intern - Full Stack
+  location: Charlotte, NC
+  link: https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: charles-schwab-software-engineering-intern-technology-f3a90b
+  company: Charles Schwab
+  role: Software Engineering Intern - Technology
+  location: Austin, TX
+  link: https://career-schwab.icims.com/jobs/126228/job?mobile=true&needsRedirect=false
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-29'
+  last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: northwood-space-software-engineering-intern-2027-sum-4c88bf
+  company: Northwood Space
+  role: Software Engineering Intern (2027 Sum...
+  location: Torrance, CA
+  link: https://jobs.ashbyhq.com/northwoodspace/ce3d4b73-461e-4128-a6f1-f933897e8119
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
