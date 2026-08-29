@@ -5146,6 +5146,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-28'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
@@ -5219,6 +5220,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
   possible_duplicate_of: null

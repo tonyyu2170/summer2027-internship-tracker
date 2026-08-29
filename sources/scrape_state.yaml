@@ -10,14 +10,14 @@ _last_fetch:
     github_tracker:speedyapply:
       category_drop: 20
     github_tracker:suryaharikrishnan:
-      category_drop: 228
-      closed_marker_untracked: 328
+      category_drop: 226
+      closed_marker_untracked: 330
     github_tracker:vanshb03:
       category_drop: 20
       closed_marker_untracked: 52
     github_tracker:zapplyjobs:
-      category_drop: 453
-      unclassified: 7
+      category_drop: 454
+      unclassified: 5
     github_tracker:zshah101:
       category_drop: 14
       closed_marker_untracked: 38
@@ -30,9 +30,9 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 12
-  closed: 4
-  ran_at: 2026-08-29 11:37
+  new: 0
+  closed: 0
+  ran_at: 2026-08-29 16:04
   drops:
     github_tracker:chieler:
       category_drop: 468
@@ -48,21 +48,21 @@ _last_run:
       category_drop: 20
       missing_field: 4
     github_tracker:suryaharikrishnan:
-      category_drop: 228
-      closed_marker_untracked: 328
-      missing_field: 68
+      category_drop: 226
+      closed_marker_untracked: 330
+      missing_field: 67
     github_tracker:vanshb03:
       closed_marker_untracked: 52
       category_drop: 20
       missing_field: 9
     github_tracker:zapplyjobs:
-      category_drop: 453
-      unclassified: 7
-      missing_field: 94
+      category_drop: 454
+      unclassified: 5
+      missing_field: 97
     github_tracker:zshah101:
       closed_marker_untracked: 38
       category_drop: 14
-      missing_field: 34
+      missing_field: 33
 chieler:
   path: README.md
   row_count: 1575
@@ -203,7 +203,7 @@ speedyapply:
   sha: null
 suryaharikrishnan:
   path: data/listings.json
-  row_count: 967
+  row_count: 966
   scraped_at: '2026-08-29'
   sha: null
 vanshb03:
@@ -213,11 +213,11 @@ vanshb03:
   sha: null
 zapplyjobs:
   path: README.md
-  row_count: 551
+  row_count: 552
   scraped_at: '2026-08-29'
   sha: null
 zshah101:
   path: data/jobs.json
-  row_count: 275
+  row_count: 277
   scraped_at: '2026-08-29'
   sha: null

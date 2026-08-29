@@ -12200,6 +12200,7 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:speedyapply
+  - github_tracker:zshah101
   date_added: '2026-08-28'
   last_verified: '2026-08-29'
   possible_duplicate_of: null
