@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-29 16:04 EST — 1368 open roles. Last scrape: +0 new, 0 closed._
+_Last updated: 2026-08-30 00:12 EST — 1368 open roles. Last scrape: +0 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
