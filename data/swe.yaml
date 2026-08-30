@@ -5589,8 +5589,9 @@
   status: open
   sources:
   - company:hntb
+  - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-30'
   possible_duplicate_of: null
 - id: hntb-returning-intern-engineer-summer-2027-mid-atlantic-division-for-current-former-hntb-interns-only-2fdec7
   company: HNTB

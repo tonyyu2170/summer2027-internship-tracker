@@ -3717,7 +3717,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-26'
+  last_verified: '2026-08-30'
   possible_duplicate_of: null
 - id: campbell-soup-company-business-analyst-co-op-da-ai-922186
   company: Campbell Soup Company
@@ -3733,7 +3733,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-28'
+  last_verified: '2026-08-30'
   possible_duplicate_of: null
 - id: deloitte-ai-and-data-engineering-summer-scholar-intern-government-public-services-213bff
   company: Deloitte
@@ -4975,7 +4975,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan

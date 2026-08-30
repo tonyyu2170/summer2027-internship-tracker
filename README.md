@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-30 11:35 EST — 1368 open roles. Last scrape: +0 new, 0 closed._
+_Last updated: 2026-08-30 16:04 EST — 1367 open roles. Last scrape: +0 new, 1 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -954,7 +954,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Booz Allen | Applied AI Intern - University | [Apply](<https://bah.wd1.myworkdayjobs.com/Confidential/job/Washington-DC/University---Applied-AI-Intern_R0248111>) | 2026-08-27 | Summer 2027 | BS |
 | Manulife Financial | AI Intern - AI | [Apply](<https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---AI_JR26081682>) | 2026-08-27 | Summer 2027 | BS |
 | Microsoft | Applied Science: PhD Microsoft AI Internship Opportunities - Redmond | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556868271>) | 2026-08-27 | Summer 2027 | PhD |
-| Leidos | Software Engineer Intern - Artificial Intelligence | [Apply](<https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00190648>) | 2026-08-26 | Summer 2027 | BS |
 | TikTok | AI Infrastructure Engineer Intern - Recommendation & LLM | [Apply](<https://lifeattiktok.com/search/7672671220798818613>) | 2026-08-26 | Summer 2027 | BS/MS |
 | DTCC | Data Solutions Intern - Internship Program | [Apply](<https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214478>) | 2026-08-25 | Summer 2027 | BS |
 | Bosch Group | AI Security Research Intern | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000145507908>) | 2026-08-25 | Summer 2027 | BS |
