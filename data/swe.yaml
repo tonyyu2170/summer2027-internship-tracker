@@ -1218,7 +1218,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-29'
+  last_verified: '2026-08-30'
   possible_duplicate_of: null
   date_estimated: false
 - id: latent-defense-software-engineer-intern-0fcd95
@@ -7691,7 +7691,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-29'
+  last_verified: '2026-08-30'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-forward-deployed-s-c8e66a
   company: Palantir
