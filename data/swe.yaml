@@ -6897,7 +6897,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -7677,7 +7677,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-30'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-forward-deployed-s-39a506
   company: Palantir
@@ -12857,7 +12857,7 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12875,7 +12875,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12979,6 +12979,9 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null
@@ -13011,6 +13014,8 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null
@@ -13043,6 +13048,95 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: qorvo-full-stack-web-developer-intern-3c6dbf
+  company: Qorvo
+  role: Full-Stack Web Developer Intern
+  location: Richardson, TX
+  link: https://careers.qorvo.com/job/Richardson-Full-Stack-Web-Developer-Intern-TX-75080/1424716200/?ats=successfactors
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: stryker-software-engineering-intern-software-engineering-822dde
+  company: Stryker
+  role: Software Engineering Intern - Software Engineering
+  location: Fort Lauderdale, FL
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: stryker-software-engineering-intern-multiple-teams-b6b069
+  company: Stryker
+  role: Software Engineering Intern - Multiple Teams
+  location: Fort Wayne, IN
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: stryker-software-engineering-intern-software-engineering-c38416
+  company: Stryker
+  role: Software Engineering Intern - Software Engineering
+  location: Portage, MI
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zshah101
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: stryker-software-engineering-intern-multiple-teams-52d68d
+  company: Stryker
+  role: Software Engineering Intern - Multiple Teams
+  location: Fremont, CA
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null

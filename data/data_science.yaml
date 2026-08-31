@@ -2431,3 +2431,37 @@
   date_added: '2026-08-29'
   last_verified: '2026-08-31'
   possible_duplicate_of: null
+- id: stryker-data-analytics-intern-multiple-teams-e4ef05
+  company: Stryker
+  role: Data Analytics Intern - Multiple Teams
+  location: Portage, MI
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Data-Analytics---Michigan_R572601
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: johnson-johnson-quality-data-science-co-op-md-q-c-digital-solutions-685e01
+  company: Johnson & Johnson
+  role: Quality Data Science Co-op - MD Q&C Digital Solutions
+  location: Cincinnati, OH
+  link: https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Quality-Data-Science-Co-op--Spring-2027_R-095792
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null

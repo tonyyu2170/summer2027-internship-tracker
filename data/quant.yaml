@@ -215,7 +215,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -233,7 +233,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -252,7 +252,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -271,7 +271,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -328,7 +328,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -346,7 +346,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -497,7 +497,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -580,7 +580,7 @@
   - custom
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -917,7 +917,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -936,7 +936,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -955,7 +955,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -974,7 +974,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -992,7 +992,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -1010,7 +1010,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -1028,7 +1028,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1046,7 +1046,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1064,7 +1064,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1082,7 +1082,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -1100,7 +1100,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -1118,7 +1118,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
@@ -1136,7 +1136,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
@@ -3653,7 +3653,7 @@
   sources:
   - github_tracker:northwesternfintech
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
 - id: voloridge-quantitative-researcher-intern-c7030e
   company: Voloridge
@@ -3669,7 +3669,7 @@
   sources:
   - github_tracker:northwesternfintech
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-phd-85e7be
   company: Susquehanna International Group (SIG)

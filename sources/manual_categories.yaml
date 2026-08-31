@@ -1974,3 +1974,28 @@ https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/Systems-Verificati
 https://micron.wd1.myworkdayjobs.com/external/job/MTI---WASHINGTON--DC---25-Mass---Office/Intern---Government-and-Public-Affairs_JR110027: __drop__
 https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/USIS-Technology-Intern_J00178784: swe
 https://jobs.lever.co/thea.energy/a2396f89-49c9-4ff4-adc5-37b91e227df5/apply: __drop__
+
+# scrape 2026-08-31 (evening, cloud run): simplifyjobs re-listed BP's whole
+# Supply, Trading & Shipping summer programme under its upstream "quant"
+# bucket, which map_upstream_category takes at face value, so five reqs were
+# created in data/quant.yaml. This is the same family the 2026-08-26 run
+# already ruled out of scope (an oil-major commercial trading/finance
+# programme, not quantitative research or trading) and the direct sibling of
+# the Chevron Supply & Trading TRIP Program drops recorded above; suppressed
+# here so the same reqs stop being recreated every run.
+#
+# RQ114738 and RQ112380 are literally the reqs already dropped on 2026-08-26
+# — they came back on the bpEarlyCareers board rather than
+# bpPrivateExternalCareersSite, and with/without a -1 suffix, so their
+# normalized links no longer matched the existing entry. Both boards' forms
+# are recorded now.
+#
+# check_categories.py independently flags three of the five quant -> __drop__
+# or -> data_science; the two it cannot judge (RQ115344 "Commercial",
+# RQ112380-1 truncated upstream to a bare "Summer Intern") are the same
+# programme's sibling reqs and are dropped on that basis, not on their titles.
+https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Texas---Houston/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Houston--TX_RQ112380: __drop__
+https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Houston--TX_RQ112380-1: __drop__
+https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Illinois---Chicago/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ114738: __drop__
+https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Illinois---Chicago/Summer-Internship---Supply--Trading----Shipping---Commercial---Chicago--IL_RQ115344: __drop__
+https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Internship---Supply--Trading----Shipping---Trading--Origination----Analytics--Houston--TX_RQ115366: __drop__

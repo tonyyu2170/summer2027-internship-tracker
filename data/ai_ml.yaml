@@ -5238,11 +5238,59 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-29'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: tiktok-machine-learning-engineer-intern-e-commerce-knowledge-graph-f6016b
+  company: TikTok
+  role: Machine Learning Engineer Intern - E-Commerce Knowledge Graph
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7676652813409552645
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: tiktok-machine-learning-engineer-intern-e-commerce-knowledge-graph-b5e259
+  company: TikTok
+  role: Machine Learning Engineer Intern - E-Commerce Knowledge Graph
+  location: Seattle, WA
+  link: https://lifeattiktok.com/search/7676650607912601861
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: ge-aerospace-applied-ai-intern-ba10c8
+  company: GE Aerospace
+  role: Applied AI Intern
+  location: Evendale, OH
+  link: https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Applied-AI-Engineer-Intern---Summer-2027--May-June-Start-_R5039302-1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null

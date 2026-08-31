@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-31 00:16 EST — 1378 open roles._
+_Last updated: 2026-08-31 11:40 EST — 1384 open roles. Last scrape: +10 new, 4 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,6 +22,11 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Stryker | Software Engineering Intern - Multiple Teams | [Apply](<https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624>) | 2026-08-31 | Summer 2027 | BS/MS |
+| Stryker | Software Engineering Intern - Software Engineering | [Apply](<https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1>) | 2026-08-31 | Summer 2027 | BS/MS |
+| Stryker | Software Engineering Intern - Multiple Teams | [Apply](<https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631>) | 2026-08-31 | Summer 2027 | BS/MS |
+| Stryker | Software Engineering Intern - Software Engineering | [Apply](<https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1>) | 2026-08-31 | Summer 2027 | BS/MS |
+| Qorvo | Full-Stack Web Developer Intern | [Apply](<https://careers.qorvo.com/job/Richardson-Full-Stack-Web-Developer-Intern-TX-75080/1424716200/?ats=successfactors>) | 2026-08-31 | Summer 2027 | BS/MS/PhD |
 | Game Plan Tech | Software Engineering Intern | [Apply](<https://jobs.gusto.com/postings/game-plan-tech-llc-software-engineering-intern-bc91da14-6a89-4532-9ee0-367e0f51f3ea>) | 2026-08-31 | Summer 2027 | BS |
 | Penn Mutual | Software Engineer Co-op | [Apply](<https://pennmutual.wd1.myworkdayjobs.com/en-US/_penn-careers/job/Remote---United-States/Software-Engineer-Co-op_R-100662>) | 2026-08-29 | Summer 2027 | BS |
 | Penn Mutual | Software Engineer Co-op | [Apply](<https://pennmutual.wd1.myworkdayjobs.com/en-US/_penn-careers/job/Remote---United-States/Software-Engineer-Co-op_R-100664>) | 2026-08-29 | Summer 2027 | BS |
@@ -32,8 +37,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Hewlett Packard Enterprise | Software Engineer Intern | [Apply](<https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Software-Engineer-Intern_1213625>) | 2026-08-29 | Summer 2027 | BS |
 | Charles Schwab | Technology 2027 Intern - Software Engineering | [Apply](<https://career-schwab.icims.com/jobs/126228/technology-2027-intern---software-engineering/job>) | 2026-08-29 | Summer 2027 | BS |
 | Northwood Space | Software Engineering Intern (2027 Sum... | [Apply](<https://jobs.ashbyhq.com/northwoodspace/ce3d4b73-461e-4128-a6f1-f933897e8119>) | 2026-08-29 | Summer 2027 | BS |
-| Charles Schwab | Software Engineering Intern - Technology | [Apply](<https://career-schwab.icims.com/jobs/126228/job?mobile=true&needsRedirect=false>) | 2026-08-29 | Summer 2027 | BS |
-| Intuit | Software Engineer Intern - Full Stack | [Apply](<https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864>) | 2026-08-29 | Summer 2027 | BS/MS/PhD |
 | HNTB | Intern Engineer - Summer 2027 | [Apply](<https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Indianapolis-IN/Intern-Engineer---Summer-2027_R-31386-1>) | 2026-08-29 | Summer 2027 | BS |
 | Persona AI | Robotics Software Internship, Manipul... | [Apply](<https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc>) | 2026-08-29 | Summer 2027 | BS |
 | Conagra Brands | Cybersecurity Internship - Summer 2027 | [Apply](<https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Cybersecurity-Internship---Summer-2027_Req-039965>) | 2026-08-29 | Summer 2027 | BS |
@@ -314,7 +317,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Teledyne | Software Engineer Intern - NHRC ⚠️dup?(teledyne-software-engineer-intern-nhrc-792479) | [Apply](<https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2>) | 2026-08-13 | Summer 2027 | BS |
 | Teledyne | Software Engineer Intern - NHRC | [Apply](<https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193>) | 2026-08-13 | Summer 2027 | BS |
 | Specter Aerospace | Full Stack Developer Co-op | [Apply](<https://specteraerospace.bamboohr.com/careers/122/>) | 2026-08-13 | Summer 2027 | BS |
-| RRS Group | Software Engineer Intern - Placement Year | [Apply](<https://jobs.smartrecruiters.com/RRSGroup/744000142513209>) | 2026-08-13 | Summer 2027 | BS |
 | Palantir | Year at Palantir - Forward Deployed S... | [Apply](<https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d>) | 2026-08-12 | Summer 2027 | BS |
 | Hermeus | Software Engineering Intern (Command ... | [Apply](<https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67>) | 2026-08-12 | Summer 2027 | BS |
 | Hermeus | Flight Software Engineering Intern - ... | [Apply](<https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440>) | 2026-08-12 | Summer 2027 | BS |
@@ -825,6 +827,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Johnson & Johnson | Quality Data Science Co-op - MD Q&C Digital Solutions | [Apply](<https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Quality-Data-Science-Co-op--Spring-2027_R-095792>) | 2026-08-31 | Summer 2027 | BS/MS |
+| Stryker | Data Analytics Intern - Multiple Teams | [Apply](<https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Data-Analytics---Michigan_R572601>) | 2026-08-31 | Summer 2027 | BS/MS |
 | Northwood Space | Supply Chain Data & Analytics Intern ... | [Apply](<https://jobs.ashbyhq.com/northwoodspace/69f99cd7-3ce7-413a-8cfe-29b7ccbc1490>) | 2026-08-29 | Summer 2027 | BS |
 | Leidos | Data Science Intern | [Apply](<https://leidos.wd5.myworkdayjobs.com/External/job/San-Diego-CA/Data-Science-Intern_R-00190740>) | 2026-08-29 | Summer 2027 | BS |
 | Conagra Brands | Data Management (DMO) Internship - Su... | [Apply](<https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Data-Management--DMO--Internship---Summer-2027_Req-039968>) | 2026-08-29 | Summer 2027 | BS |
@@ -951,7 +955,9 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
-| Charles Schwab | Data Engineering Intern - Data Engineering | [Apply](<https://career-schwab.icims.com/jobs/126227/job?mobile=true&needsRedirect=false>) | 2026-08-29 | Summer 2027 | BS |
+| GE Aerospace | Applied AI Intern | [Apply](<https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Applied-AI-Engineer-Intern---Summer-2027--May-June-Start-_R5039302-1>) | 2026-08-31 | Summer 2027 | BS |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Knowledge Graph | [Apply](<https://lifeattiktok.com/search/7676650607912601861>) | 2026-08-31 | Summer 2027 | PhD |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Knowledge Graph | [Apply](<https://lifeattiktok.com/search/7676652813409552645>) | 2026-08-31 | Summer 2027 | PhD |
 | Booz Allen Hamilton | AI Software Developer Intern | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/AI-Software-Developer-Intern_R0248115>) | 2026-08-29 | Summer 2027 | BS |
 | Philips | Data AI/ML Engineer Intern - Image Guided Therapy Devices - Software R&D | [Apply](<https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404>) | 2026-08-28 | Summer 2027 | BS |
 | Iberdrola Group | Technology – Cyber & Data Intern | [Apply](<https://iberdrola.wd3.myworkdayjobs.com/iberdrola/job/United-States-Of-America-Connecticut-Orange/XMLNAME-2027-Technology--Cyber---Data-Internship-Program_R-32747>) | 2026-08-28 | Summer 2027 | BS/MS |
