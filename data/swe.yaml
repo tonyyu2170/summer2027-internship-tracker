@@ -7709,7 +7709,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-software-engineer-790572
   company: Palantir
@@ -7725,7 +7725,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
 - id: rtx-co-op-aftermarket-engineer-d40e26
   company: RTX
@@ -11406,7 +11406,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -13066,6 +13066,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null
@@ -13084,6 +13086,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null
@@ -13102,6 +13106,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null
@@ -13120,6 +13126,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null
@@ -13137,6 +13145,167 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: rtx-tcma-systems-engineering-intern-sum-d3e0f3
+  company: RTX
+  role: TCMA Systems Engineering Intern - Sum...
+  location: Huntsville, AL
+  link: https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/TCMA-Systems-Engineering-Intern---Summer-2027-Onsite_01867372
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: amentum-software-engineering-intern-fb7326
+  company: Amentum
+  role: Software Engineering Intern
+  location: Cocoa Beach, FL
+  link: https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-FL-Cocoa-Beach/Software-Engineering-Intern_R0169322
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: trane-technologies-automation-engineering-co-op-1255a0
+  company: Trane Technologies
+  role: Automation Engineering Co-op
+  location: La Crosse, WI
+  link: https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/La-Crosse-Wisconsin/Automation-Engineering-Co-op_JR-8912
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: elanco-junior-it-engineer-information-tech-be7e9c
+  company: Elanco
+  role: Junior IT Engineer – Information Tech...
+  location: Indianapolis, IN
+  link: https://elanco.wd5.myworkdayjobs.com/External_Career/job/Indianapolis-IN/Junior-IT-Engineer---Information-Technology-Intern--Summer-2027-_R0026986-1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: trane-technologies-2027-energy-engineering-intern-15f388
+  company: Trane Technologies
+  role: 2027 Energy Engineering Intern
+  location: San Antonio, TX
+  link: https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/San-Antonio-Texas/XMLNAME-2027-Energy-Engineering-Intern_JR-13321
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: trane-technologies-2027-energy-engineering-intern-826271
+  company: Trane Technologies
+  role: 2027 Energy Engineering Intern
+  location: Livonia, MI
+  link: https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Livonia-Michigan/XMLNAME-2027-Energy-Engineering-Intern_JR-15089
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: trane-technologies-2027-energy-engineering-intern-remote-17e910
+  company: Trane Technologies
+  role: 2027 Energy Engineering Intern (Remote)
+  location: Davidson, NC
+  link: https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Davidson-North-Carolina/XMLNAME-2027-Energy-Engineering-Intern_JR-15126-1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: delta-dental-internship-application-development-939cb9
+  company: Delta Dental
+  role: Internship - Application Development
+  location: Okemos, MI
+  link: https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101436
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: awetomaton-platform-engineering-intern-819220
+  company: Awetomaton
+  role: Platform Engineering Intern
+  location: Beavercreek, OH
+  link: https://job-boards.greenhouse.io/awetomaton/jobs/5394046008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: draftkings-software-engineer-intern-summer-2027-518707
+  company: DraftKings
+  role: Software Engineer Intern (Summer 2027)
+  location: Boston, MA
+  link: https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
   date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null

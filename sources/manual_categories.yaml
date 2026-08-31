@@ -1999,3 +1999,43 @@ https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-o
 https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Illinois---Chicago/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ114738: __drop__
 https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Illinois---Chicago/Summer-Internship---Supply--Trading----Shipping---Commercial---Chicago--IL_RQ115344: __drop__
 https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Internship---Supply--Trading----Shipping---Trading--Origination----Analytics--Houston--TX_RQ115366: __drop__
+#
+# 2026-08-31 scheduled run: fifteen zapplyjobs/chieler rows whose upstream
+# titles are truncated past the word that would have dropped them by rule
+# ("... Finance & Risk", "... Sales Internship Program", "... Financial
+# Reporting"). All are out of scope for the six tracked categories --
+# quality, materials science, financial reporting, technical sales,
+# sourcing/procurement, commodity-trading finance & risk, real-estate
+# business, wealth-management sales, construction management, pricing &
+# revenue management and menu planning. The BP entries are siblings of the
+# same programme already dropped above; RQ115340 is Calgary, Canada and so
+# fails the US-only filter besides. Two further rows from this run
+# (Oshkosh Design Intern - Electrical (Year Round), Federal Reserve
+# Economic Research Analyst (RA) - Summer 2027) are deliberately NOT
+# recorded here -- see the PR body; they need Tony's call, not a guess.
+https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Murfreesboro-Tennessee-United-States/Quality-Intern_R49883: __drop__
+https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Pittsburgh-Pennsylvania-United-States/Co-op-Material-Scientist-New-Kensington--PA---Fall-2026_585816: __drop__
+https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring---Summer-2027-Intern---Financial-Reporting_R12191: __drop__
+https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Oklahoma-City-Oklahoma/XMLNAME-2027-Technical-Sales-Intern---Equipment_JR-11838: __drop__
+https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Carrollton-Texas/XMLNAME-2027-Technical-Sales-Intern---Equipment_JR-12807: __drop__
+https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Carrollton-Texas/XMLNAME-2027-Technical-Sales-Intern---Controls_JR-13314: __drop__
+https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/OH-Dublin-Cardinal-Place/Sourcing-Internship--Summer-2027-_20185922-1: __drop__
+https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Illinois---Chicago/Summer-Internship---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ115370: __drop__
+https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Texas---Houston/Summer-Internship---Supply--Trading----Shipping-Finance---Risk---Houston--TX_RQ115372: __drop__
+https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/Canada---Calgary/Summer-Internship---Supply--Trading----Shipping---Calgary_RQ115340: __drop__
+https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Multifamily-Business-Intern---Summer-2027_JR17561: __drop__
+https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Global-Wealth--Sales-Internship-Program_R-124802-1: __drop__
+https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/WDI-Construction-Management-Intern--Spring-2027_10158251: __drop__
+https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Celebration-FL-USA/Disney-Signature-Experiences-Pricing---Revenue-Management-Intern--Spring-2027_10158469-1: __drop__
+https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/WDI-Menu-Planning-Intern--Spring-2027_10159160-1: __drop__
+#
+# Same run: three rows this merge did add to swe.yaml, removed by hand and
+# suppressed here. CIBC 2617782-1 is a Spring 2027 term co-op (upstream
+# stamped it Summer 2027); CapTech 744000146449269 is "Software Engineering
+# Associate Consultant", which classify_role drops on `consult` once the
+# title is untruncated; Olsson 5396192008 is a water/wastewater civil
+# engineering internship that reaches swe only through the bare `engineer`
+# match.
+https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782-1: __drop__
+https://jobs.smartrecruiters.com/CapTechConsulting/744000146449269: __drop__
+https://job-boards.greenhouse.io/olsson/jobs/5396192008: __drop__

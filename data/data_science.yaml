@@ -2445,6 +2445,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null
@@ -2462,6 +2464,23 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
+  possible_duplicate_of: null
+- id: cardinal-health-data-analytics-internship-summer-2-9140e0
+  company: Cardinal Health
+  role: Data & Analytics Internship (Summer 2...
+  location: Dublin, OH
+  link: https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/OH-Dublin-Cardinal-Place/Data---Analytics-Internship--Summer-2027-_20185913
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-08-31'
   last_verified: '2026-08-31'
   possible_duplicate_of: null

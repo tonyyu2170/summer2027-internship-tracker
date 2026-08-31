@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-31 11:40 EST — 1384 open roles. Last scrape: +10 new, 4 closed._
+_Last updated: 2026-08-31 16:11 EST — 1394 open roles. Last scrape: +11 new, 1 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,6 +22,16 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| DraftKings | Software Engineer Intern (Summer 2027) | [Apply](<https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928>) | 2026-08-31 | Summer 2027 | BS |
+| Awetomaton | Platform Engineering Intern | [Apply](<https://job-boards.greenhouse.io/awetomaton/jobs/5394046008>) | 2026-08-31 | Summer 2027 | BS |
+| Delta Dental | Internship - Application Development | [Apply](<https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101436>) | 2026-08-31 | Summer 2027 | BS |
+| Trane Technologies | 2027 Energy Engineering Intern (Remote) | [Apply](<https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Davidson-North-Carolina/XMLNAME-2027-Energy-Engineering-Intern_JR-15126-1>) | 2026-08-31 | Summer 2027 | BS |
+| Trane Technologies | 2027 Energy Engineering Intern | [Apply](<https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Livonia-Michigan/XMLNAME-2027-Energy-Engineering-Intern_JR-15089>) | 2026-08-31 | Summer 2027 | BS |
+| Trane Technologies | 2027 Energy Engineering Intern | [Apply](<https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/San-Antonio-Texas/XMLNAME-2027-Energy-Engineering-Intern_JR-13321>) | 2026-08-31 | Summer 2027 | BS |
+| Elanco | Junior IT Engineer – Information Tech... | [Apply](<https://elanco.wd5.myworkdayjobs.com/External_Career/job/Indianapolis-IN/Junior-IT-Engineer---Information-Technology-Intern--Summer-2027-_R0026986-1>) | 2026-08-31 | Summer 2027 | BS |
+| Trane Technologies | Automation Engineering Co-op | [Apply](<https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/La-Crosse-Wisconsin/Automation-Engineering-Co-op_JR-8912>) | 2026-08-31 | Summer 2027 | BS |
+| Amentum | Software Engineering Intern | [Apply](<https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-FL-Cocoa-Beach/Software-Engineering-Intern_R0169322>) | 2026-08-31 | Summer 2027 | BS |
+| RTX | TCMA Systems Engineering Intern - Sum... | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/TCMA-Systems-Engineering-Intern---Summer-2027-Onsite_01867372>) | 2026-08-31 | Summer 2027 | BS |
 | Stryker | Software Engineering Intern - Multiple Teams | [Apply](<https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624>) | 2026-08-31 | Summer 2027 | BS/MS |
 | Stryker | Software Engineering Intern - Software Engineering | [Apply](<https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1>) | 2026-08-31 | Summer 2027 | BS/MS |
 | Stryker | Software Engineering Intern - Multiple Teams | [Apply](<https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631>) | 2026-08-31 | Summer 2027 | BS/MS |
@@ -109,7 +119,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | The Hartford | Data Engineer Intern - Technology, Data, AI, and Operations | [Apply](<https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Charlotte-_R2626648>) | 2026-08-26 | Summer 2027 | BS/MS |
 | The Hartford | Data Engineer Intern - Technology, Data, AI, and Operations | [Apply](<https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Chicago-IL/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Chicago-_R2626650>) | 2026-08-26 | Summer 2027 | BS/MS |
 | The Federal Reserve System | Technical Intern - Federal Reserve - National IT | [Apply](<https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Richmond-VA/Federal-Reserve-Summer-2027-Technical-Internship_R-0000033194>) | 2026-08-26 | Summer 2027 | BS |
-| Parsons | Software Intern - Summer 2027 | [Apply](<https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Denver/Software-Intern--Summer-2027-_R185388>) | 2026-08-26 | Summer 2027 | BS |
 | AbbVie | 2027 Business Technology Solutions In... | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990014860211>) | 2026-08-26 | Summer 2027 | BS |
 | AbbVie | 2027 Business Technology Solutions In... ⚠️dup?(abbvie-2027-business-technology-solutions-in-b14ba0) | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990014860456>) | 2026-08-26 | Summer 2027 | BS |
 | AbbVie | 2027 Business Technology Solutions In... | [Apply](<https://jobs.smartrecruiters.com/AbbVie/3743990014860391>) | 2026-08-26 | Summer 2027 | BS |
@@ -827,6 +836,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Cardinal Health | Data & Analytics Internship (Summer 2... | [Apply](<https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/OH-Dublin-Cardinal-Place/Data---Analytics-Internship--Summer-2027-_20185913>) | 2026-08-31 | Summer 2027 | BS |
 | Johnson & Johnson | Quality Data Science Co-op - MD Q&C Digital Solutions | [Apply](<https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Quality-Data-Science-Co-op--Spring-2027_R-095792>) | 2026-08-31 | Summer 2027 | BS/MS |
 | Stryker | Data Analytics Intern - Multiple Teams | [Apply](<https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Data-Analytics---Michigan_R572601>) | 2026-08-31 | Summer 2027 | BS/MS |
 | Northwood Space | Supply Chain Data & Analytics Intern ... | [Apply](<https://jobs.ashbyhq.com/northwoodspace/69f99cd7-3ce7-413a-8cfe-29b7ccbc1490>) | 2026-08-29 | Summer 2027 | BS |
