@@ -132,7 +132,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-30'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null
 - id: cvs-health-actuarial-corporate-internship-8367d1
   company: CVS Health
@@ -181,4 +181,20 @@
   - github_tracker:zapplyjobs
   date_added: '2026-08-29'
   last_verified: '2026-08-29'
+  possible_duplicate_of: null
+- id: the-travelers-companies-actuarial-leadership-development-prog-28a30a
+  company: The Travelers Companies
+  role: Actuarial Leadership Development Prog...
+  location: Hartford, CT
+  link: https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Actuarial-Leadership-Development-Program--ALDP--Intern_R-52299
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-31'
+  last_verified: '2026-08-31'
   possible_duplicate_of: null

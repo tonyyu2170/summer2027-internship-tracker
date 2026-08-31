@@ -1,6 +1,6 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-08-30 16:04 EST — 1367 open roles. Last scrape: +0 new, 1 closed._
+_Last updated: 2026-08-31 00:16 EST — 1378 open roles._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
@@ -22,6 +22,15 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Game Plan Tech | Software Engineering Intern | [Apply](<https://jobs.gusto.com/postings/game-plan-tech-llc-software-engineering-intern-bc91da14-6a89-4532-9ee0-367e0f51f3ea>) | 2026-08-31 | Summer 2027 | BS |
+| Penn Mutual | Software Engineer Co-op | [Apply](<https://pennmutual.wd1.myworkdayjobs.com/en-US/_penn-careers/job/Remote---United-States/Software-Engineer-Co-op_R-100662>) | 2026-08-29 | Summer 2027 | BS |
+| Penn Mutual | Software Engineer Co-op | [Apply](<https://pennmutual.wd1.myworkdayjobs.com/en-US/_penn-careers/job/Remote---United-States/Software-Engineer-Co-op_R-100664>) | 2026-08-29 | Summer 2027 | BS |
+| Motorola Solutions | Mission Critical Networks Software Engineer - 2027 Co-op | [Apply](<https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782>) | 2026-08-29 | Summer 2027 | BS |
+| HP | Software and Engineering Intern Roles - Imaging and Print ⚠️dup?(hp-software-and-engineering-intern-roles-imaging-and-print-1c2658) | [Apply](<https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142>) | 2026-08-29 | Summer 2027 | BS |
+| HP | Software and Engineering Intern Roles - Imaging and Print | [Apply](<https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1>) | 2026-08-29 | Summer 2027 | BS |
+| Hewlett Packard Enterprise | Cloud Engineer Intern | [Apply](<https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Cloud-Engineer-Intern_1213629>) | 2026-08-29 | Summer 2027 | BS |
+| Hewlett Packard Enterprise | Software Engineer Intern | [Apply](<https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Software-Engineer-Intern_1213625>) | 2026-08-29 | Summer 2027 | BS |
+| Charles Schwab | Technology 2027 Intern - Software Engineering | [Apply](<https://career-schwab.icims.com/jobs/126228/technology-2027-intern---software-engineering/job>) | 2026-08-29 | Summer 2027 | BS |
 | Northwood Space | Software Engineering Intern (2027 Sum... | [Apply](<https://jobs.ashbyhq.com/northwoodspace/ce3d4b73-461e-4128-a6f1-f933897e8119>) | 2026-08-29 | Summer 2027 | BS |
 | Charles Schwab | Software Engineering Intern - Technology | [Apply](<https://career-schwab.icims.com/jobs/126228/job?mobile=true&needsRedirect=false>) | 2026-08-29 | Summer 2027 | BS |
 | Intuit | Software Engineer Intern - Full Stack | [Apply](<https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864>) | 2026-08-29 | Summer 2027 | BS/MS/PhD |
@@ -1209,6 +1218,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Hewlett Packard Enterprise | Firmware Engineer Intern | [Apply](<https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Firmware-Engineer-Intern_1213627>) | 2026-08-29 | Summer 2027 | BS |
 | Northwood Space | RF Engineering Intern (2027 Summer In... | [Apply](<https://jobs.ashbyhq.com/northwoodspace/f086c92a-7e4b-4799-8f2a-2ad8b13111ca>) | 2026-08-29 | Summer 2027 | BS |
 | Northwood Space | Electrical Engineering Intern (2027 S... | [Apply](<https://jobs.ashbyhq.com/northwoodspace/1bc230b1-5ad2-44b8-ad61-e80a730e5026>) | 2026-08-29 | Summer 2027 | BS |
 | Northwood Space | Mechanical Engineering Intern (2027 S... | [Apply](<https://jobs.ashbyhq.com/northwoodspace/6081eebf-7021-4a3f-a34f-78c91c94fcd3>) | 2026-08-29 | Summer 2027 | BS |
@@ -1414,6 +1424,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| The Travelers Companies | Actuarial Leadership Development Prog... | [Apply](<https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Actuarial-Leadership-Development-Program--ALDP--Intern_R-52299>) | 2026-08-31 | Summer 2027 | BS |
 | Manulife | Summer Intern 2027 – Actuarial US | [Apply](<https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Actuarial-US_JR26081417-1>) | 2026-08-29 | Summer 2027 | BS |
 | Elevance Health | Actuarial Intern - Summer 2027 | [Apply](<https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Actuarial-Intern---Summer-2027_JR204425>) | 2026-08-27 | Summer 2027 | BS |
 | CVS Health | Actuarial Corporate Internship | [Apply](<https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Actuarial-Corporate-Internship_R1015250>) | 2026-08-19 | Summer 2027 | BS |
