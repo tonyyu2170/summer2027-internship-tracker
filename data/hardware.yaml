@@ -4235,6 +4235,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -4286,3 +4288,35 @@
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: shield-ai-summer-2027-electrical-engineering-636b11
+- id: cae-mechanical-engineering-intern-4a7a3f
+  company: CAE
+  role: Mechanical Engineering Intern
+  location: Arlington, TX
+  link: https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Mechanical-Engineering-Intern_123480
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: cae-mechanical-engineering-intern-76e5ae
+- id: olsson-electrical-engineering-internship-f-c40d4c
+  company: Olsson
+  role: Electrical Engineering Internship - F...
+  location: Lincoln, NE
+  link: https://job-boards.greenhouse.io/olsson/jobs/5394106008
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null

@@ -4988,3 +4988,67 @@
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
+- id: pimco-quant-research-analyst-intern-client-solutions-analytics-e701d5
+  company: PIMCO
+  role: Quant Research Analyst Intern - Client Solutions & Analytics
+  location: Newport Beach, CA
+  link: https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Masters-Quant-Research-Analyst--Client-Solutions---Analytics--US_R106816
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: pimco-quantitative-portfolio-management-intern-6a1568
+  company: PIMCO
+  role: Quantitative Portfolio Management Intern
+  location: Newport Beach, CA
+  link: https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-PhD-Summer-Intern---Quantitative-Portfolio-Management_R106830
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: pimco-quant-research-analyst-intern-client-solutions-analytics-58d8b9
+  company: PIMCO
+  role: Quant Research Analyst Intern - Client Solutions & Analytics
+  location: Newport Beach, CA
+  link: https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---PhD-Quant-Research-Analyst--Client-Solutions---Analytics--US_R106815
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: pimco-quantitative-research-analyst-intern-portfolio-management-ecbf5f
+  company: PIMCO
+  role: Quantitative Research Analyst Intern - Portfolio Management
+  location: Newport Beach, CA
+  link: https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-PhD-Summer-Intern---Portfolio-Management--Quantitative-Research-Analyst_R106749
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
