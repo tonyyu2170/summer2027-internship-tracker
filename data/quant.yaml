@@ -4955,3 +4955,36 @@
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
+- id: merchants-bank-of-indiana-capital-markets-intern-single-family-55383b
+  company: Merchants Bank of Indiana
+  role: Capital Markets Intern - Single-Family
+  location: Carmel, IN
+  link: https://recruiting.paylocity.com/Recruiting/Jobs/Details/4464116
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: first-national-bank-capital-markets-intern-158312
+  company: First National Bank
+  role: Capital Markets Intern
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Capital-Markets-Intern_2026-02010
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null

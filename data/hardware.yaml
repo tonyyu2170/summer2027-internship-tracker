@@ -3987,6 +3987,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -4003,6 +4004,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -4134,3 +4136,153 @@
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
+- id: bytedance-cloud-acceleration-research-intern-dpu-ai-infra-2276cb
+  company: ByteDance
+  role: Cloud Acceleration Research Intern - DPU & AI Infra
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7679562740656933125/detail
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: aerotech-electrical-computer-engineering-intern-co-op-25bb4b
+  company: Aerotech
+  role: Electrical/Computer Engineering Intern Co-op
+  location: Pittsburgh, PA
+  link: https://aerotech.applytojob.com/apply/FrPUDToawu/ElectricalComputer-Engineering-Internship-Or-Coop-2027
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: bytedance-cloud-acceleration-research-intern-dpu-ai-infra-6ea179
+  company: ByteDance
+  role: Cloud Acceleration Research Intern - DPU & AI Infra
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7679552807864879365/detail
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: eaton-firmware-engineer-intern-co-op-research-development-engineering-4cb4de
+  company: Eaton
+  role: Firmware Engineer Intern/Co-op - Research & Development Engineering
+  location: Moon Twp, PA
+  link: https://eaton.eightfold.ai/careers/job/687238596754
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: textron-firmware-engineer-intern-weapons-1cd2bc
+  company: Textron
+  role: Firmware Engineer Intern - Weapons
+  location: Hunt Valley, MD
+  link: https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342606
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: vermeer-embedded-software-engineer-intern-2a83c9
+  company: Vermeer
+  role: Embedded Software Engineer Intern
+  location: Pella, IA
+  link: https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/Embedded-Software-Engineer-Internship-Summer-2027_REQ-22165
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: aerovironment-electrical-engineering-intern-db4275
+  company: AeroVironment
+  role: Electrical Engineering Intern
+  location: Simi Valley, CA
+  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Electrical-Engineering-Intern_8588
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: shield-ai-summer-2027-electrical-engineering-636b11
+  company: Shield AI
+  role: Summer 2027 - Electrical Engineering ...
+  location: Dallas, TX
+  link: https://jobs.lever.co/shieldai/8c6cfcee-c6da-4a73-9bdf-3ef098ff59e6
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: shield-ai-summer-2027-electrical-engineering-687528
+  company: Shield AI
+  role: Summer 2027 - Electrical Engineering ...
+  location: Dallas, TX
+  link: https://jobs.lever.co/shieldai/200a293f-71ce-4982-a100-ac4b500c4cf7
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: shield-ai-summer-2027-electrical-engineering-636b11

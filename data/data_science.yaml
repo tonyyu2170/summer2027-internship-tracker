@@ -2501,6 +2501,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -2518,6 +2519,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -2535,6 +2537,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -2623,6 +2626,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -2708,6 +2712,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -2724,6 +2729,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -2740,6 +2746,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -2756,6 +2764,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -2772,6 +2781,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -2788,6 +2798,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -2836,6 +2847,312 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-analytics-intern-enterprise-technology-services-32933a
+  company: American Express
+  role: Data Analytics Intern - Enterprise Technology Services
+  location: Phoenix, AZ
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012703
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: travelers-business-insights-analytics-intern-bi-a-ldp-96bc82
+  company: Travelers
+  role: Business Insights & Analytics Intern - BI&A LDP
+  location: Hartford, CT
+  link: https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Business-Insights---Analytics-Leadership-Development-Program--BI-A-LDP--Intern_R-52304
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: trane-technologies-ai-analytics-intern-ae9f8e
+  company: Trane Technologies
+  role: AI & Analytics Intern
+  location: Minneapolis, MN
+  link: https://careers.tranetechnologies.com/global/en/job/JR-7591
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-analytics-intern-enterprise-technology-services-185172
+  company: American Express
+  role: Data Analytics Intern - Enterprise Technology Services
+  location: Charlotte, NC
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012784
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-analytics-intern-enterprise-technology-services-8832f4
+  company: American Express
+  role: Data Analytics Intern - Enterprise Technology Services
+  location: Palo Alto, CA
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011818
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-analytics-intern-enterprise-technology-services-db4587
+  company: American Express
+  role: Data Analytics Intern - Enterprise Technology Services
+  location: Palo Alto, CA
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012782
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-8832f4
+- id: american-express-data-analytics-intern-us-consumer-services-0c8ea2
+  company: American Express
+  role: Data Analytics Intern - US Consumer Services
+  location: New York, NY
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011607
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-analytics-intern-enterprise-technology-services-8a36fa
+  company: American Express
+  role: Data Analytics Intern - Enterprise Technology Services
+  location: Phoenix, AZ
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012729
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-32933a
+- id: american-express-data-analytics-intern-enterprise-technology-services-64dd6e
+  company: American Express
+  role: Data Analytics Intern - Enterprise Technology Services
+  location: New York, NY
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011813
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-science-intern-finance-72fb85
+  company: American Express
+  role: Data Science Intern - Finance
+  location: New York, NY
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013190
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-analytics-intern-enterprise-technology-services-b99b5d
+  company: American Express
+  role: Data Analytics Intern - Enterprise Technology Services
+  location: New York, NY
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012783
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-64dd6e
+- id: american-express-data-analytics-intern-enterprise-technology-services-731168
+  company: American Express
+  role: Data Analytics Intern - Enterprise Technology Services
+  location: Charlotte, NC
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011807
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-185172
+- id: american-express-data-science-intern-finance-24a6a0
+  company: American Express
+  role: Data Science Intern - Finance
+  location: New York, NY
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013191
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: american-express-data-science-intern-finance-72fb85
+- id: first-national-bank-retail-administration-analytics-intern-ac5659
+  company: First National Bank
+  role: Retail Administration Analytics Intern
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Retail-Administration-Analytics-Intern_2026-02039
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: bluecross-blueshield-of-nebraska-data-intern-data-science-data-analytics-2d6f57
+  company: BlueCross BlueShield of Nebraska
+  role: Data Intern - Data Science - Data Analytics
+  location: Omaha, NE
+  link: https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE/job/Omaha-NE/Data-Intern--Summer-2027_JR101406
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: edison-international-data-analytics-intern-data-science-applied-math-130d62
+  company: Edison International
+  role: Data Analytics Intern - Data Science - Applied Math
+  location: Pomona, CA
+  link: https://apply.edisoncareers.com/job/Rosemead-2027-Summer-Internship-Data-AnalyticsScienceApplied-Math-(PomonaRosemead)-CA-91770/1425207700/?ats=successfactors
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: edison-international-summer-internship-data-analytics-science-applied-math-738b5b
+  company: Edison International
+  role: Summer Internship - Data Analytics/Science/Applied Math
+  location: Santa Ana, CA
+  link: https://apply.edisoncareers.com/job/Westminster-2027-Summer-Internship-Data-AnalyticsScienceApplied-Math-Santa-AnaWestminsterIrvineFullerton-CA-92683-5240/1425175800/?ats=successfactors
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: edison-international-data-analytics-intern-data-science-applied-math-1f4c5a
+  company: Edison International
+  role: Data Analytics Intern - Data Science/Applied Math
+  location: Pomona, CA
+  link: https://apply.edisoncareers.com/job/Rosemead-2027-Summer-Internship-Data-AnalyticsScienceApplied-Math-(PomonaRosemead)-1-CA-91770/1425208900/?ats=successfactors
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null

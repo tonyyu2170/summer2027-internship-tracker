@@ -4542,8 +4542,9 @@
   sources:
   - github_tracker:speedyapply
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-security-identity-intern-opportunities-for-university-students-redmond-9833be
   company: Microsoft
@@ -4576,8 +4577,9 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: tiktok-software-development-engineer-in-test-intern-global-e-commerce-2027-summer-0d8dc3
   company: TikTok
@@ -7709,7 +7711,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-13'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: palantir-year-at-palantir-software-engineer-790572
   company: Palantir
@@ -10052,7 +10054,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -13230,7 +13232,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-31'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: trane-technologies-2027-energy-engineering-intern-826271
   company: Trane Technologies
@@ -13262,7 +13264,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-31'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: delta-dental-internship-application-development-939cb9
   company: Delta Dental
@@ -13400,6 +13402,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13418,6 +13421,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13451,6 +13455,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13469,6 +13475,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13485,6 +13492,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13501,6 +13509,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13517,6 +13526,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13534,6 +13544,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13550,6 +13562,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13566,6 +13579,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13582,6 +13596,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13599,6 +13614,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13617,6 +13633,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13635,6 +13652,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13652,6 +13670,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13666,9 +13685,10 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13734,6 +13754,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13751,6 +13772,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13769,6 +13791,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -13861,6 +13884,450 @@
   location: Dodge Center, MN
   link: https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786
   date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: aerotech-software-engineering-intern-co-op-enterprise-development-team-application-development-team-2ed5d8
+  company: Aerotech
+  role: Software Engineering Intern Co-op - Enterprise Development Team - Application
+    Development Team
+  location: Pittsburgh, PA
+  link: https://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: westinghouse-electric-company-computer-engineering-software-engineering-intern-b2545e
+  company: Westinghouse Electric Company
+  role: Computer Engineering / Software Engineering Intern
+  location: Rock Hill, SC
+  link: https://careers.westinghousenuclear.com/job/Rock-Hill-Summer-Intern-Computer-Engineering-Software-Engineering-SC-29730/1425163200/?ats=successfactors
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: cvent-software-engineer-intern-summer-2027-0946c2
+  company: Cvent
+  role: Software Engineer Intern - Summer 2027
+  location: Tysons, VA
+  link: https://careers.cvent.com/jobs/10806?icims=1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: merchants-bank-of-indiana-business-technology-intern-application-development-eea9e4
+  company: Merchants Bank of Indiana
+  role: Business Technology Intern - Application Development
+  location: Carmel, IN
+  link: https://recruiting.paylocity.com/Recruiting/Jobs/Details/4464054
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: merchants-bank-of-indiana-business-technology-intern-summer-2027-a34594
+  company: Merchants Bank of Indiana
+  role: Business Technology Intern - Summer 2027
+  location: Carmel, IN
+  link: https://recruiting.paylocity.com/Recruiting/Jobs/Details/4464029
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: rtx-software-engineer-intern-584590
+  company: RTX
+  role: Software Engineer Intern
+  location: Aurora, CO
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Engineering-Intern--Summer-2027-_01870410
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: travelers-engineering-development-intern-9a7f9d
+  company: Travelers
+  role: Engineering Development Intern
+  location: Hunt Valley, MD
+  link: https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Engineering-Development-Program--EDP----Intern_R-52270
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: whatnot-software-engineer-intern-f5a8ea
+  company: WhatNot
+  role: Software Engineer Intern
+  location: Seattle, WA
+  link: https://jobs.ashbyhq.com/whatnot/928ffdca-b316-40ce-b82b-94b570919bcd/application?embed=true
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: sierra-software-engineer-intern-e5fa99
+  company: Sierra
+  role: Software Engineer Intern
+  location: San Francisco, CA
+  link: https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e/application?embed=true
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: tc-energy-engineering-intern-395282
+  company: TC Energy
+  role: Engineering Intern
+  location: Charleston, WV
+  link: https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Charleston-West-Virginia/Student-Intern--Engineering_JR-10741
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: bluecross-blueshield-of-nebraska-digital-experience-information-systems-intern-4f4033
+  company: BlueCross BlueShield of Nebraska
+  role: Digital Experience Information Systems Intern
+  location: Omaha, NE
+  link: https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE/job/Omaha-NE/IS-Intern--Summer-2027_JR101404
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: edison-international-computer-science-intern-4b61a0
+  company: Edison International
+  role: Computer Science Intern
+  location: Santa Ana, CA
+  link: https://apply.edisoncareers.com/job/Santa-Ana-2027-Summer-Internship-Computer-Science-(Santa-Ana)-CA-92705/1425158700/?ats=successfactors
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: textron-software-engineer-co-op-uncrewed-land-air-f92ccd
+  company: Textron
+  role: Software Engineer Co-op - Uncrewed Land & Air
+  location: Hunt Valley, MD
+  link: https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342650
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: textron-software-engineer-intern-8776d4
+  company: Textron
+  role: Software Engineer Intern
+  location: Waterboro, ME
+  link: https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342550
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: textron-software-engineer-intern-electronic-systems-1175bb
+  company: Textron
+  role: Software Engineer Intern - Electronic Systems
+  location: Hunt Valley, MD
+  link: https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342688
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: textron-software-engineer-intern-crewed-land-3b27d2
+  company: Textron
+  role: Software Engineer Intern - Crewed Land
+  location: Slidell, LA
+  link: https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342915
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: tc-energy-engineering-intern-engineering-a9e361
+  company: TC Energy
+  role: Engineering Intern - Engineering
+  location: Houston, TX
+  link: https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Houston-Office-TC-Energy-Cente/Student-Intern--Engineering_JR-10742
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-engineer-intern-enterprise-technology-services-35cf33
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Phoenix, AZ
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012333
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-engineer-intern-enterprise-technology-services-d3f00d
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Sunrise, FL
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011831
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-engineer-intern-enterprise-technology-services-d61851
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Charlotte, NC
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011828
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-engineer-intern-enterprise-technology-services-a2e6b9
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Sunrise, FL
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012781
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-d3f00d
+- id: american-express-data-engineer-intern-enterprise-technology-services-0216a2
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Phoenix, AZ
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012339
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-35cf33
+- id: american-express-data-engineer-intern-enterprise-technology-services-93902c
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Charlotte, NC
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012764
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-d61851
+- id: edison-international-software-data-engineering-intern-b1f3ac
+  company: Edison International
+  role: Software/Data Engineering Intern
+  location: Chino, CA
+  link: https://apply.edisoncareers.com/job/Chino-2027-Summer-Internship-SoftwareData-Engineering-(Chino)-CA-91710/1424663800/?ats=successfactors
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: rtx-software-engineer-intern-58c3af
+  company: RTX
+  role: Software Engineer Intern
+  location: Cedar Rapids, IA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: textron-software-engineer-intern-sea-systems-8a4c05
+  company: Textron
+  role: Software Engineer Intern - Sea Systems
+  location: Hunt Valley, MD
+  link: https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342935
+  date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:

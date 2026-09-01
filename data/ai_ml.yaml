@@ -2890,8 +2890,9 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ml-infra-2027-start-phd-c63f8f
   company: TikTok
@@ -5314,6 +5315,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -5331,6 +5333,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -5348,6 +5351,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -5418,6 +5422,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -5434,6 +5439,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -5450,6 +5456,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-01'
   last_verified: '2026-09-01'
   possible_duplicate_of: null
@@ -5507,6 +5514,146 @@
   location: Northbrook, IL
   link: https://medline.wd5.myworkdayjobs.com/en-US/Medline/job/Northbrook-Illinois/RPA---Agentic-AI-Software-Technologies-Intern---Summer-2027_R2617378
   date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: bytedance-research-intern-ai-compute-a6ba66
+  company: ByteDance
+  role: Research Intern - AI Compute
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7679892629651310901/detail
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: bytedance-research-intern-ai-compute-860466
+  company: ByteDance
+  role: Research Intern - AI Compute
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7679892316538063157/detail
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: johns-hopkins-applied-physics-laboratory-signal-processing-intern-multiple-teams-289e45
+  company: Johns Hopkins Applied Physics Laboratory
+  role: Signal Processing Intern - Multiple Teams
+  location: Laurel, MD
+  link: https://careers.jhuapl.edu/jobs/59875?icims=1
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: adobe-machine-learning-engineer-intern-a813a3
+  company: Adobe
+  role: Machine Learning Engineer Intern
+  location: Seattle, WA
+  link: https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: american-express-data-management-intern-global-merchant-network-services-451e43
+  company: American Express
+  role: Data Management Intern - Global Merchant & Network Services
+  location: Phoenix, AZ
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012668
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: edison-international-intern-multiple-teams-238996
+  company: Edison International
+  role: Intern - Multiple Teams
+  location: Santa Ana, CA
+  link: https://apply.edisoncareers.com/job/Westminster-2027-Summer-Internship-Data-AnalyticsScienceApplied-Math-Santa-AnaWestminsterIrvineFullerton-CA-92683-5240/1425178600/?ats=successfactors
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: the-federal-reserve-system-research-intern-research-group-ed2f11
+  company: The Federal Reserve System
+  role: Research Intern - Research Group
+  location: New York, NY
+  link: https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Research-Group---Junior-Intern_R-0000033023
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-01'
+  last_verified: '2026-09-01'
+  possible_duplicate_of: null
+- id: the-federal-reserve-system-statistics-intern-bc1473
+  company: The Federal Reserve System
+  role: Statistics Intern
+  location: New York, NY
+  link: https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Statistics---Sophomore-Intern_R-0000033027
+  date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:
