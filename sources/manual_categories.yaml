@@ -2039,3 +2039,110 @@ https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/WDI-Menu
 https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782-1: __drop__
 https://jobs.smartrecruiters.com/CapTechConsulting/744000146449269: __drop__
 https://job-boards.greenhouse.io/olsson/jobs/5396192008: __drop__
+#
+# 2026-09-01 scheduled run: 20 tracker postings no rule could classify.
+# Most are upstream-truncated titles (zapplyjobs cuts the role text), so the
+# untruncated title from the link slug is what these judgments rest on.
+#
+# Kept — the discipline is unambiguous once untruncated:
+#   UPS "Information Security ... Internship" -> swe (54 security roles
+#     already live in swe.yaml, incl. "Information Security Engineer Intern").
+#   Nike "Artificial Intelligence, Data & Machine Learning Engineering" ->
+#     ai_ml; the rules match `\bai\b`/`machine learning`, but the truncated
+#     "Artificial Intelligence, D..." reached neither.
+#   Waymo "2027 Summer Intern, MS/PhD, Data Scie[nce]" -> data_science.
+#   RTX "...Electrical Engineer Intern - Summer 2027" -> hardware.
+#   Micron HBM design architecture / DRAM process integration (x2) / EDE thin
+#     films equipment engineering -> hardware (semiconductor).
+#   Oshkosh "Design Intern - Electrical (Year Round)" -> hardware; no
+#     "engineer" in the title, so the electrical discipline rule never fired.
+https://hcmportal.wd5.myworkdayjobs.com/Search/job/US---UPS-TECHNOLOGY-HEADQUARTERS--DATACENTER-NJRAR/UPS-Information-Security-Summer-2027-Internship---NJ_R26029761: swe
+https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Artificial-Intelligence--Data----Machine-Learning-Engineering-Undergraduate-Internship_R-91110: ai_ml
+https://careers.withwaymo.com/jobs?gh_jid=8167323: data_science
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/Advanced-Effector-Guidance-Systems-Electrical-Engineer-Intern--Summer-2027-_01870393: hardware
+https://micron.wd1.myworkdayjobs.com/external/job/Richardson-TX/Intern----Design-Architecture--HBM_JR110177: hardware
+https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---DRAM-Process-Integration_JR110655: hardware
+https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---ADV-DRAM-Process-Integration-Engineer_JR109595: hardware
+https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---EDE-Thin-Films-Equipment-Engineering_JR108977: hardware
+https://oshkoshcorporation.wd5.myworkdayjobs.com/oshkosh/job/Appleton-Wisconsin-United-States/Design-Intern---Electrical--Year-Round-_R49969: hardware
+#
+# Dropped — off-scope for a six-category technical listing:
+#   Epic Games "Level Design Intern" (game level design, not engineering).
+#   Nike "Strategic Planning Graduate Internship" (business strategy).
+#   Ameriprise "Financial Advisor in Training" (advisory/sales, not quant).
+#   Trane "2027 Construction Project Management Intern" x2 (construction PM).
+#   Moderna "Intern, CMC Development" (Chemistry, Manufacturing & Controls).
+#   RBC x2 — both are TORONTO, Ontario, Canada and both slugs read
+#     "2027 Winter ... 4 Months": non-US and not a Summer 2027 term, so they
+#     fail two scope rules independently of their subject matter.
+https://epicgames.com/careers/jobs/6173450004?gh_jid=6173450004: __drop__
+https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Strategic-Planning-Graduate-Internship_R-91142: __drop__
+https://ameriprise.wd5.myworkdayjobs.com/ameriprise/job/Minneapolis-Minnesota/Financial-Advisor-in-Training-Intern_R26_3498: __drop__
+https://tranetechnologies.wd12.myworkdayjobs.com/trane_technologies_careers/job/Atlanta-Georgia/XMLNAME-2027-Construction-Project-Management-Intern_JR-9969-1: __drop__
+https://tranetechnologies.wd12.myworkdayjobs.com/trane_technologies_careers/job/Knoxville-Tennessee/XMLNAME-2027-Construction-Project-Management-Intern_JR-9972-1: __drop__
+https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Norwood-Massachusetts/Intern--CMC-Development--Summer-2027-_R19683: __drop__
+https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--ALM-Risk-Data---Automation-Analyst-Intern--4-Months-_R-0000186330: __drop__
+https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--MCCR-Strategic-Delivery-Intern--4-Months-_R-0000185971-2: __drop__
+#
+# Low-confidence calls — flagged in the PR body; flip the value here if the
+# judgment is wrong, no other edit needed:
+#   Vertiv "IT Quality Assurance Intern (Summer 2...)" -> swe. Oracle Cloud
+#     link has no slug, so the title is all there is; read as software QA
+#     rather than the IT-support family that drops elsewhere in this file.
+#   Sony "Account Management & Business Analytics Intern" -> __drop__. The
+#     untruncated title contains "Analytics" and would have classified as
+#     data_science on the rules alone, but account management is a business
+#     role, not a data-science internship.
+#   Centific "Technical Intern - Masters or PhD" (Remote Work USA) ->
+#     __drop__. No discipline named anywhere in the title or slug, so it
+#     cannot be placed in one of the six categories with any confidence.
+https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279193: swe
+https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Account-Management---Business-Analytics-Intern_JR-119543: __drop__
+https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/Technical-Intern--Masters-or-PhD-_JR108346-1: __drop__
+#
+# 2026-09-01 scheduled run: rows this run's merge added that
+# check_categories then flagged as off-scope. Deleted from data/ and
+# suppressed here (deletion alone re-imports them next run).
+# Protiviti x2 and PwC are consulting; BP x2 is a finance & risk role
+# in commodity trading, not quant; Olsson is civil engineering (the
+# same Olsson internship already suppressed above, on a second link).
+? https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Illinois---Chicago/Summer-Internship---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ115370-1
+: __drop__
+? https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Internship---Supply--Trading----Shipping-Finance---Risk---Houston--TX_RQ115372-1
+: __drop__
+https://job-boards.greenhouse.io/olsson/jobs/5396116008: __drop__
+? https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Financial-Crimes-Unit-Data---Analytics-Tech-Consulting-Intern---Summer-2027_757242WD
+: __drop__
+? https://roberthalf.wd1.myworkdayjobs.com/ProtivitiNA/job/ATLANTA---PEACHTREE-RD/Atlanta-Technology-Consulting-Intern---2027_JR-258798-2
+: __drop__
+? https://roberthalf.wd1.myworkdayjobs.com/ProtivitiNA/job/NEW-YORK-CITY/New-York-Technology-Consulting-Intern---2027_JR-258932
+: __drop__
+#
+# 2026-09-01 scheduled run: rows this run added that a manual skim
+# caught. Trane x3 'Energy Engineering Intern' and Motorola's 'Supplier
+# Development Engineering Intern' reach swe only through the bare
+# `engineer` match and are neither software nor electronics; PwC's
+# 'Deals - DTDS - Contracts Intern' is a commercial/legal role that the
+# upstream tracker filed under AI/ML; Draper's slug reads
+# 'Optics-Physics-Sensor-Engineering-Co-op--Spring-2027-', i.e. a Spring
+# 2027 term the tracker stamped Summer 2027 (same case as the CIBC
+# co-op suppressed above).
+? https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Optics-Physics-Sensor-Engineering-Co-op--Spring-2027-_JR002884
+: __drop__
+https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Elgin-IL/Supplier-Development-Engineering-Intern_R68263: __drop__
+? https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Deals---DTDS---Contracts-Intern---Summer-2027_757235WD
+: __drop__
+? https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Chesapeake-Virginia/XMLNAME-2027-Energy-Engineering-Intern_JR-15161-1
+: __drop__
+? https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Maitland-Florida/XMLNAME-2027-Energy-Engineering-Intern_JR-10526-1
+: __drop__
+? https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Nashville-Tennessee/XMLNAME-2027-Energy-Engineering-Intern_JR-15288-1
+: __drop__
+#
+# 2026-09-01 scheduled run: deliberate placement, recorded so
+# check_categories stops re-reporting it. Brunswick's "Mercury Marine: NVH
+# Engineering Intern" is noise/vibration/harshness work on marine engines —
+# a mechanical discipline, which the rules route to hardware; it reached swe
+# only through the bare `engineer` match, since "NVH" is not a word any
+# discipline pattern names.
+https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--NVH-Engineering-Intern_JR-051456: hardware
