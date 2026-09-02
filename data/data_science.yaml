@@ -16,21 +16,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: meta-research-scientist-intern-nmr-analysis-automation-7506d4
-  company: Meta
-  role: Research Scientist Intern - NMR Analysis Automation
-  location: Redmond, WA
-  link: https://www.metacareers.com/jobs/1418337243438665
-  date_posted: '2026-07-03'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
 - id: jump-trading-campus-data-engineer-intern-bfb324
   company: Jump Trading
   role: Campus Data Engineer - Intern
@@ -359,7 +344,7 @@
   role: Data Science PhD Intern
   location: Kirkland, WA
   link: https://job-boards.greenhouse.io/docugami/jobs/4192122003
-  date_posted: '2020-10-08'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - PhD
@@ -736,6 +721,11 @@
   sources:
   - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - company:boeing
+  - company:the-boeing-company
   date_added: '2026-08-08'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -824,27 +814,6 @@
   - github_tracker:chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-11'
-  possible_duplicate_of: null
-- id: the-boeing-company-data-analytics-intern-ffa406
-  company: The Boeing Company
-  role: Data Analytics Intern
-  location: Ridley Park, PA
-  link: https://boeing.wd1.myworkdayjobs.com/INTERN/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  - company:boeing
-  - company:the-boeing-company
-  date_added: '2026-08-09'
-  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: pnc-financial-services-data-modeling-and-analytics-undergr-d11d55
   company: PNC Financial Services
@@ -991,24 +960,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
   last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: conocophillips-trading-analytics-intern-990235
-  company: ConocoPhillips
-  role: Trading Analytics Intern
-  location: Houston, TX
-  link: https://conocophillips.wd1.myworkdayjobs.com/External/job/Houston-TX/Intern--Trading-Analytics-2027_REQ-006429
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-12'
-  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: tiktok-data-science-intern-advertisement-team-ae4794
   company: TikTok
@@ -1189,24 +1140,6 @@
   date_added: '2026-08-11'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: bloom-energy-2027-summer-internship-bloom-energy-5a3913
-  company: Bloom Energy
-  role: 2027 Summer Internship - Bloom Energy
-  location: San Jose, CA / Newark, DE
-  link: https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/XMLNAME-2027-Summer-Internship---Bloom-Energy_JR-24214
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - company:bloom-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: bluecross-blueshield-of-nebraska-data-intern-summer-2027-2d6f57
   company: BlueCross BlueShield of Nebraska
   role: 'Data Intern: Summer 2027'
@@ -1222,66 +1155,6 @@
   - company:bluecross-blueshield-of-nebraska
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: boeing-boeing-summer-2027-internship-program-paid-data-analytics-intern-60de38
-  company: Boeing
-  role: Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern
-  location: USA - Everett, WA / USA - Saint Charles, MO / USA - Huntsville, AL / USA
-    - Charleston, SC / USA - Oklahoma City, OK / USA - Berkeley, MO / USA - Huntington
-    Beach, CA / USA - Hazelwood, MO / USA - El Segundo, CA / USA - Herndon, VA / USA
-    - Plano, TX / USA - Arlington, VA / USA - Ridley Park, PA / USA - Tukwila, WA
-    / USA - North Charleston, SC / USA - Fairfax, VA / USA - Colorado Springs, CO
-    / USA - Chicago, IL / USA - Seal Beach, CA / USA - Mukilteo, WA / USA - Long Beach,
-    CA / USA - Atlanta, GA / USA - Renton, WA / USA - Dallas, TX / USA - Seattle,
-    WA / USA - Auburn, WA / USA - Bellevue, WA / USA - San Antonio, TX / USA - Kent,
-    WA / USA - Mesa, AZ
-  link: https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:boeing
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: brg-2027-summer-associate-intern-938577
-  company: BRG
-  role: 2027 Summer Associate (Intern)
-  location: Washington, DC / Tampa, FL / New York, NY / Chicago, IL / Houston, TX
-    / Boston, MA / Emeryville, CA / Pittsburgh, PA / Los Angeles, CA
-  link: https://thinkbrg.wd5.myworkdayjobs.com/BRG_External_Career_Site/job/Washington-DC/XMLNAME-2027-Summer-Associate--Intern-_JR100976
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:brg
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: caterpillar-2027-summer-corporate-intern-pricing-f62277
-  company: Caterpillar
-  role: 2027 Summer Corporate Intern - Pricing
-  location: Peoria, IL / Mossville, IL / Cary, NC
-  link: https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Pricing_R0000380150
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:caterpillar
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1336,23 +1209,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: continental-resources-it-intern-summer-2027-22ccdd
-  company: Continental Resources
-  role: IT Intern (Summer 2027)
-  location: Oklahoma City, OK
-  link: https://clr.wd5.myworkdayjobs.com/CLR_Careers/job/Oklahoma-City-OK/IT-Intern--Summer-2027-_R02593-1
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:continental-resources
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: continental-resources-data-analyst-intern-summer-2027-afcb82
   company: Continental Resources
   role: Data Analyst Intern (Summer 2027)
@@ -1392,22 +1248,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: draftkings-analyst-intern-referral-summer-2027-b11675
-  company: DraftKings
-  role: Analyst Intern-Referral (Summer 2027)
-  location: Boston, MA
-  link: https://draftkings.wd1.myworkdayjobs.com/Employee_Referral_Portal/job/Boston-MA/Analyst-Intern-Referral--Summer-2027-_JR14931
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:draftkings
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: federal-reserve-system-internship-analyst-summer-2027-f55214
   company: Federal Reserve System
   role: Internship, Analyst – Summer 2027
@@ -1426,109 +1266,9 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: federal-reserve-system-internship-supervision-and-risk-management-srm-summer-2027-denver-186e40
-  company: Federal Reserve System
-  role: Internship, Supervision and Risk Management (SRM)- Summer 2027- Denver
-  location: Denver, CO
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/Denver-CO/Internship--Supervision-and-Risk-Management--SRM---Summer-2027--Denver_R-0000033268
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-internship-supervision-and-risk-management-srm-summer-2027-omaha-43ccbe
-  company: Federal Reserve System
-  role: Internship, Supervision and Risk Management (SRM)- Summer 2027- Omaha
-  location: Omaha, NE
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/Omaha-NE/Internship--Supervision-and-Risk-Management--SRM---Summer-2027--Omaha_R-0000033267-1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-internship-supervision-and-risk-management-srm-summer-2027-oklahoma-city-2ea26d
-  company: Federal Reserve System
-  role: Internship, Supervision and Risk Management (SRM)- Summer 2027- Oklahoma City
-  location: Oklahoma City, OK
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/Oklahoma-City-OK/Internship--Supervision-and-Risk-Management--SRM---Summer-2027--Oklahoma-City_R-0000033264-1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-internship-supervision-and-risk-management-srm-summer-2027-kansas-city-615572
-  company: Federal Reserve System
-  role: Internship, Supervision and Risk Management (SRM)- Summer 2027- Kansas City
-  location: Kansas City, MO
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/Kansas-City-MO/Internship--Supervision-and-Risk-Management--SRM---Summer-2027--Kansas-City_R-0000033269-1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-federal-reserve-summer-business-2027-internship-4b6ed8
-  company: Federal Reserve System
-  role: Federal Reserve Summer Business 2027 Internship
-  location: Richmond, VA
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/Richmond-VA/Federal-Reserve-Summer-Business-2027-Internship_R-0000033190
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-corporate-group-sophomore-eacd38
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Corporate Group - Sophomore
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Corporate-Group---Sophomore_R-0000033121
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: federal-reserve-system-2027-summer-intern-statistics-sophomore-intern-bc1473
   company: Federal Reserve System
-  role: 2027 Summer Intern -  Statistics - Sophomore Intern
+  role: 2027 Summer Intern - Statistics - Sophomore Intern
   location: New York, NY
   link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Statistics---Sophomore-Intern_R-0000033027
   date_posted: '2026-09-01'
@@ -1544,93 +1284,9 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-technology-group-sophomore-569798
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Technology Group - Sophomore
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Technology-Group---Sophomore_R-0000033071-1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-technology-group-junior-a36a16
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Technology Group - Junior
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Technology-Group---Junior_R-0000033072
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-supervision-group-graduate-fd422e
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Supervision Group - Graduate
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Supervision-Group---Graduate_R-0000033118
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-supervision-group-junior-05dfb7
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Supervision Group - Junior
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Supervision-Group---Junior_R-0000033104
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-supervision-group-sophomore-83f4d3
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Supervision Group - Sophomore
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Supervision-Group---Sophomore_R-0000033102-1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: federal-reserve-system-2027-summer-intern-research-group-junior-intern-ed2f11
   company: Federal Reserve System
-  role: 2027 Summer Intern -  Research Group - Junior Intern
+  role: 2027 Summer Intern - Research Group - Junior Intern
   location: New York, NY
   link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Research-Group---Junior-Intern_R-0000033023
   date_posted: '2026-09-01'
@@ -1642,183 +1298,6 @@
   sources:
   - company:federal-reserve-system
   - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-audit-group-sophomore-intern-c8a8ac
-  company: Federal Reserve System
-  role: 2027 Summer Intern -  Audit Group - Sophomore Intern
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Audit-Group---Sophomore-Intern_R-0000033010
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-audit-group-junior-intern-e357c0
-  company: Federal Reserve System
-  role: 2027 Summer Intern -  Audit Group - Junior Intern
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Audit-Group---Junior-Intern_R-0000033011
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-risk-group-sophomore-intern-b5a257
-  company: Federal Reserve System
-  role: 2027 Summer Intern -  Risk Group - Sophomore Intern
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Risk-Group---Sophomore-Intern_R-0000033020
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-research-group-sophomore-intern-99897e
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Research Group - Sophomore Intern
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Research-Group---Sophomore-Intern_R-0000033024
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-people-engagement-group-junior-14390a
-  company: Federal Reserve System
-  role: 2027 Summer Intern - People & Engagement Group - Junior
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---People---Engagement-Group---Junior_R-0000033122
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-people-engagement-group-graduate-90a7f4
-  company: Federal Reserve System
-  role: 2027 Summer Intern - People & Engagement Group - Graduate
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---People---Engagement-Group---Graduate_R-0000033123
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-group-shared-services-sophomore-intern-a69435
-  company: Federal Reserve System
-  role: 2027 Summer Intern -Group Shared Services- Sophomore Intern
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern--Research--Group-Shared-Services--Sophomore-Intern_R-0000033025
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-markets-group-chicago-graduate-intern-b799ba
-  company: Federal Reserve System
-  role: 2027 Summer Intern -  Markets Group - Chicago -Graduate Intern
-  location: Chicago, IL
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/XMLNAME-2027-Summer-Intern----Markets-Group---Chicago--Graduate-Intern_R-0000033031
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-markets-group-chicago-junior-intern-937a9a
-  company: Federal Reserve System
-  role: 2027 Summer Intern -  Markets Group - Chicago - Junior Intern
-  location: Chicago, IL
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/XMLNAME-2027-Summer-Intern----Markets-Group---Chicago---Junior-Intern_R-0000033030
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-executive-office-process-simplification-automation-sophomore-2a01ee
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Executive Office -  Process Simplification & Automation
-    - Sophomore
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Executive-Office----Process-Simplification---Automation---Sophomore_R-0000033100
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-executive-office-strategy-operating-services-junior-a6a9f4
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Executive Office - Strategy & Operating Services- Junior
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Executive-Office---Strategy---Operating-Services--Junior_R-0000033101
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1839,42 +1318,9 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-markets-group-new-york-junior-intern-fdc31d
-  company: Federal Reserve System
-  role: 2027 Summer Intern -  Markets Group - New York - Junior Intern
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Markets-Group---New-York---Junior-Intern_R-0000033032
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-executive-office-process-simplification-automation-junior-8a21b3
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Executive Office - Process Simplification & Automation
-    - Junior
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Executive-Office---Process-Simplification---Automation---Junior_R-0000033200
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:federal-reserve-system
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: federal-reserve-system-2027-summer-intern-markets-group-new-york-innovation-center-graduate-intern-75b03b
   company: Federal Reserve System
-  role: 2027 Summer Intern -  Markets Group - New York Innovation Center - Graduate
+  role: 2027 Summer Intern - Markets Group - New York Innovation Center - Graduate
     Intern
   location: New York, NY
   link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Markets-Group---New-York-Innovation-Center---Graduate-Intern_R-0000033034
@@ -1926,124 +1372,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: gartner-north-america-summer-2027-sales-internship-029f38
-  company: Gartner
-  role: North America Summer 2027 Sales Internship
-  location: Fort Myers, FL / Irving, TX
-  link: https://gartner.wd5.myworkdayjobs.com/EXT/job/Fort-Myers-FL/North-America-Summer-2027-Sales-Internship_112992
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:gartner
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: gartner-summer-2027-it-intern-may-2028-graduates-0ed4dd
-  company: Gartner
-  role: Summer 2027 IT Intern (May 2028 Graduates)
-  location: Stamford, CT
-  link: https://gartner.wd5.myworkdayjobs.com/EXT/job/Stamford-CT/Summer-2027-IT-Intern--May-2028-Graduates-_113095
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:gartner
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: huntington-bancshares-summer-2027-technology-internship-0732a8
-  company: Huntington Bancshares
-  role: Summer 2027 Technology Internship
-  location: Columbus, OH
-  link: https://huntington.wd12.myworkdayjobs.com/HNBcareers/job/Columbus-OH/Summer-2027-Technology-Internship_R0075222
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:huntington-bancshares
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: huntington-bancshares-summer-2027-audit-internship-92c16a
-  company: Huntington Bancshares
-  role: Summer 2027 Audit Internship
-  location: Columbus, OH / Minnetonka, MN
-  link: https://huntington.wd12.myworkdayjobs.com/HNBcareers/job/Columbus-OH/Summer-2027-Audit-Internship_R0075312
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:huntington-bancshares
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: huntington-bancshares-summer-2027-insurance-internship-b4566d
-  company: Huntington Bancshares
-  role: Summer 2027 Insurance Internship
-  location: Columbus, OH / Charlotte, NC
-  link: https://huntington.wd12.myworkdayjobs.com/HNBcareers/job/Columbus-OH/XMLNAME-2027-Summer-Insurance-Internship_R0075422
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:huntington-bancshares
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: huntington-bancshares-summer-2027-commercial-banking-internship-ae3663
-  company: Huntington Bancshares
-  role: Summer 2027 Commercial Banking Internship
-  location: Columbus, OH / Chicago, IL / Detroit, MI / Charlotte, NC / Houston, TX
-  link: https://huntington.wd12.myworkdayjobs.com/HNBcareers/job/Columbus-OH/Summer-2027-Commercial-Banking-Internship_R0075257
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:huntington-bancshares
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: huntington-bancshares-summer-2027-regional-banking-internship-28a1fd
-  company: Huntington Bancshares
-  role: Summer 2027 Regional Banking Internship
-  location: Austin, TX / Pittsburgh, PA / Denver, CO / Charlotte, NC / Atlanta, GA
-    / Cleveland, OH / Macon, GA / Grand Rapids, OH
-  link: https://huntington.wd12.myworkdayjobs.com/HNBcareers/job/Austin-TX/Summer-2027-Regional-Banking-Internship_R0075414
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:huntington-bancshares
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: huntington-bancshares-summer-2027-data-and-analytics-internship-926f75
   company: Huntington Bancshares
   role: Summer 2027 Data and Analytics Internship
@@ -2060,58 +1388,6 @@
   - company:huntington-bancshares
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: huntington-bancshares-summer-2027-risk-and-credit-internship-10beeb
-  company: Huntington Bancshares
-  role: Summer 2027 Risk and Credit Internship
-  location: Columbus, OH
-  link: https://huntington.wd12.myworkdayjobs.com/HNBcareers/job/Columbus-OH/Summer-2027-Risk-and-Credit-Internship_R0075321
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:huntington-bancshares
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: ingredion-process-innovation-development-intern-984407
-  company: Ingredion
-  role: Process Innovation & Development Intern
-  location: Bridgewater, NJ
-  link: https://ingredion.wd1.myworkdayjobs.com/IngredionCareers/job/Bridgewater-NJ/Process-Innovation---Development-Intern_Req-40124
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:ingredion
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: ingredion-r-d-intern-protein-fortification-analytical-characterization-b53388
-  company: Ingredion
-  role: R&D Intern, Protein Fortification & Analytical Characterization
-  location: Bridgewater, NJ
-  link: https://ingredion.wd1.myworkdayjobs.com/IngredionCareers/job/Bridgewater-NJ/R-D-Intern--Protein-Fortification---Analytical-Characterization_Req-40208-1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - company:ingredion
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2172,89 +1448,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: johnson-johnson-research-development-leadership-development-program-rdldp-summer-2027-internship-d4cd86
-  company: Johnson & Johnson
-  role: Research & Development Leadership Development Program (RDLDP)- Summer 2027
-    Internship
-  location: Santa Clara, CA / Jacksonville, FL / Raritan, NJ / Cincinnati, OH / Redwood
-    City, CA / Irvine, CA
-  link: https://jj.wd5.myworkdayjobs.com/JJ/job/Santa-Clara-California-United-States-of-America/Research---Development-Leadership-Development-Program--RDLDP---Summer-2027-Internship_R-096476
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  - PhD
-  status: open
-  sources:
-  - company:johnson-johnson
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: keybank-2027-summer-commercial-bank-internship-buffalo-credit-c60b09
-  company: KeyBank
-  role: 2027 Summer Commercial Bank Internship - Buffalo (Credit)
-  location: Buffalo, NY
-  link: https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Buffalo-NY/XMLNAME-2027-Summer-Commercial-Bank-Internship---Buffalo--Credit-_R-41394
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:keybank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: keybank-2027-summer-commercial-bank-internship-cleveland-3ba23b
-  company: KeyBank
-  role: 2027 Summer Commercial Bank Internship - Cleveland
-  location: Cleveland, OH
-  link: https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Commercial-Bank-Internship---Cleveland_R-41393-1
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:keybank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: keybank-2027-summer-commercial-bank-internship-cleveland-credit-c0ac9e
-  company: KeyBank
-  role: 2027 Summer Commercial Bank Internship - Cleveland (Credit)
-  location: Cleveland, OH
-  link: https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Commercial-Bank-Internship---Cleveland--Credit-_R-41396
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:keybank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: keybank-2027-summer-internal-audit-internship-remote-e2220e
-  company: KeyBank
-  role: 2027 Summer Internal Audit Internship- Remote
-  location: Remote (US)
-  link: https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Remote-United-States/XMLNAME-2027-Summer-Internal-Audit-Inernship--Remote_R-41376
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:keybank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: keybank-2027-summer-key-technology-services-data-track-internship-cleveland-81856a
   company: KeyBank
   role: '2027 Summer Key Technology & Services: Data Track Internship- Cleveland'
@@ -2270,23 +1463,6 @@
   - company:keybank
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: keybank-2027-summer-key-technology-services-security-business-strategy-track-internship-cleveland-0ccb97
-  company: KeyBank
-  role: '2027 Summer Key Technology & Services: Security, Business & Strategy Track
-    Internship- Cleveland'
-  location: Brooklyn, OH
-  link: https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Security--Business---Strategy-Track-Internship--Cleveland_R-41390
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:keybank
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2381,6 +1557,7 @@
   sources:
   - company:northwood-space
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2554,23 +1731,6 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: wells-fargo-quantitative-analytics-intern-risk-analytics-and-decision-sciences-216372
-  company: Wells Fargo
-  role: Quantitative Analytics Intern - Risk Analytics and Decision Sciences
-  location: Charlotte, NC
-  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-PhD----Early-Careers_R-569912
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
   status: open
   sources:
   - github_tracker:simplifyjobs
@@ -3036,23 +2196,6 @@
   degree:
   - BS
   - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: wells-fargo-quantitative-analytics-intern-applied-computational-intelligence-fb7c50
-  company: Wells Fargo
-  role: Quantitative Analytics Intern - Applied Computational Intelligence
-  location: Charlotte, NC
-  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-PhD----Early-Careers_R-571703
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
   status: open
   sources:
   - github_tracker:simplifyjobs
@@ -4033,6 +3176,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - company:twg-global
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4051,6 +3195,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - company:twg-global
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4158,10 +3303,10 @@
   possible_duplicate_of: null
 - id: bosch-group-calibration-process-data-science-inte-d24461
   company: Bosch Group
-  role: Calibration Process Data Science Inte...
+  role: Calibration Process Data Science Intern (8 months/40 hours per week)
   location: Farmington Hills, MI
   link: https://jobs.smartrecruiters.com/BoschGroup/744000146546699
-  date_posted: '2026-09-01'
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -4194,22 +3339,6 @@
   location: Austin, TX
   link: https://job-boards.greenhouse.io/integra/jobs/5406109008
   date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: northwood-space-supply-chain-data-analytics-intern-233849
-  company: Northwood Space
-  role: Supply Chain Data & Analytics Intern ...
-  location: Torrance, CA
-  link: https://jobs.ashbyhq.com/northwoodspace/69f99cd7-3ce7-413a-8cfe-29b7ccbc1490
-  date_posted: '2026-08-29'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -4254,7 +3383,7 @@
   possible_duplicate_of: null
 - id: brunswick-global-supply-chain-analytics-insig-8d5694
   company: Brunswick
-  role: Global Supply Chain Analytics & Insig...
+  role: Global Supply Chain Analytics & Insights Intern
   location: Fond du Lac, WI
   link: https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Global-Supply-Chain-Analytics---Insights-Intern_JR-051419
   date_posted: '2026-08-27'
@@ -4270,10 +3399,10 @@
   possible_duplicate_of: null
 - id: brunswick-mercury-marine-power-bi-ops-analytic-801326
   company: Brunswick
-  role: 'Mercury Marine: Power BI/Ops Analytic...'
+  role: 'Mercury Marine: Power BI/Ops Analytics Co-op'
   location: Fond du Lac, WI
   link: https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Power-BI-Ops-Analytics-Co-op_JR-051236
-  date_posted: '2026-08-26'
+  date_posted: '2026-08-25'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -4368,40 +3497,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: twg-global-ai-data-science-intern-solt-summer-2027-1617bf
-  company: TWG Global
-  role: AI Data Science Intern (SOLT) - Summer 2027
-  location: Santa Monica, CA
-  link: https://apply.workable.com/twgai/j/263B34D737/
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  - PhD
-  status: open
-  sources:
-  - company:twg-global
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: twg-global-ai-data-science-intern-maqr-summer-2027-80fbc6
-  company: TWG Global
-  role: AI Data Science Intern (MAQR) - Summer 2027
-  location: Santa Monica, CA
-  link: https://apply.workable.com/twgai/j/AC536E5EE2/
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:twg-global
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: workiva-spring-summer-intern-sales-analytics-69453d
   company: Workiva
   role: Spring & Summer Intern - Sales Analytics
@@ -4418,19 +3513,111 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: workiva-spring-2027-intern-data-analytics-59911b
-  company: Workiva
-  role: Spring 2027 Intern - Data Analytics
-  location: Remote (US)
-  link: https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring-2027-Intern---Data-Analytics_R12319
-  date_posted: '2026-08-27'
+- id: stryker-summer-2027-internship-statistical-programming-california-1f320d
+  company: Stryker
+  role: Summer 2027 Internship - Statistical Programming - California
+  location: Irvine, CA
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:stryker
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bp-trading-origination-analytics-and-operations-intern-supply-trading-shipping-trading-origination-analytics-operations-eef6fa
+  company: BP
+  role: Trading, Origination, Analytics, and Operations Intern - Supply, Trading,
+    & Shipping - Trading, Origination, Analytics, & Operations
+  location: Houston, TX
+  link: https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Internship---Supply--Trading----Shipping---Trading--Origination----Analytics--Houston--TX_RQ115366
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
-  - company:workiva
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: first-national-bank-summer-2027-data-management-intern-f15dd2
+  company: First National Bank
+  role: Summer 2027 Data Management Intern
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2026-Data-Management-Intern---Pittsburgh--PA_2026-01833
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:first-national-bank
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: ryan-companies-business-intelligence-intern-mission-critical-dd587b
+  company: Ryan Companies
+  role: Business Intelligence Intern - Mission Critical
+  location: Des Moines, IA
+  link: https://ryancompanies.wd5.myworkdayjobs.com/ryancompanies/job/Minneapolis/Business-Intelligence-Intern--Mission-Critical_R-101961
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: iberdrola-group-technology-cyber-data-intern-f3db07
+  company: Iberdrola Group
+  role: Technology – Cyber & Data Intern
+  location: Boston, MA
+  link: https://iberdrola.wd3.myworkdayjobs.com/iberdrola/job/United-States-Of-America-Connecticut-Orange/XMLNAME-2027-Technology--Cyber---Data-Internship-Program_R-32747
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: post-holdings-business-intelligence-intern-summer-2027-1c8990
+  company: Post Holdings
+  role: Business Intelligence Intern - Summer 2027
+  location: Lakeville, MN
+  link: https://jobs.postholdings.com/jobs/31924?icims=1
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null

@@ -1318,7 +1318,7 @@
   role: ML PhD Intern - LLMs & Generative AI
   location: Seattle, WA
   link: https://job-boards.greenhouse.io/truveta/jobs/5712997004
-  date_posted: '2025-12-11'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - PhD
@@ -1335,7 +1335,7 @@
   role: Machine Learning Engineer Intern
   location: South San Francisco, CA
   link: https://boards.greenhouse.io/neuralink/jobs/6594261003?gh_jid=6594261003
-  date_posted: '2025-06-14'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -1352,7 +1352,7 @@
   role: ML Research Intern
   location: Mountain View, CA
   link: https://job-boards.greenhouse.io/samayaai/jobs/4652765007
-  date_posted: '2025-03-16'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -3513,23 +3513,6 @@
   date_added: '2026-08-12'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: grant-thornton-tax-technology-intern-summer-2027-20edb9
-  company: Grant Thornton
-  role: Tax Technology Intern - Summer 2027
-  location: Bellevue, WA
-  link: https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/114405
-  date_posted: '2026-02-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-15'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: sel-software-engineering-intern-ai-focus-0671a6
   company: SEL
   role: Software Engineering Intern - AI Focus
@@ -3595,39 +3578,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: aecom-traction-power-intern-hiring-event-with-aecom-philadelphia-d6198d
-  company: AECOM
-  role: Traction Power Intern - Hiring Event with AECOM - Philadelphia
-  location: Philadelphia, PA
-  link: https://jobs.smartrecruiters.com/AECOM2/744000145646049-traction-power-intern-hiring-event-with-aecom-philadelphia
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:aecom
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: aecom-construction-intern-aecom-hunt-74a7ef
-  company: AECOM
-  role: Construction Intern - AECOM Hunt
-  location: Indianapolis, IN
-  link: https://jobs.smartrecruiters.com/AECOM2/744000145581129-construction-intern-aecom-hunt
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:aecom
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: aerovironment-summer-2027-machine-learning-intern-a9a6eb
   company: AeroVironment
   role: Summer 2027 Machine Learning Intern
@@ -3644,38 +3594,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: amgen-undergrad-intern-u-s-value-access-summer-2027-4a56b3
-  company: Amgen
-  role: Undergrad intern - U.S. Value & Access (Summer 2027)
-  location: Remote (US)
-  link: https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-intern---US-Value---Access--Summer-2027-_R-253424
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:amgen
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: amgen-mba-intern-commercial-leadership-program-summer-2027-b79d20
-  company: Amgen
-  role: MBA Intern – Commercial Leadership Program (Summer 2027)
-  location: Remote (US)
-  link: https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/MBA-Intern---Commercial-Leadership-Program--Summer-2027-_R-254479
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:amgen
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3711,247 +3629,6 @@
   - company:booz-allen
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: cno-financial-group-tax-intern-2027-summer-remote-69a9bf
-  company: 'CNO Financial Group '
-  role: Tax Intern 2027 Summer - REMOTE
-  location: Carmel, IN
-  link: https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Tax-Intern-2027-Summer---REMOTE_JR170482
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:cno-financial-group
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: cno-financial-group-summer-2027-intern-wellness-and-people-focus-intern-hybrid-carmel-in-or-chicago-il-d86ccb
-  company: 'CNO Financial Group '
-  role: Summer 2027 Intern Wellness and People Focus Intern - HYBRID – (Carmel, IN
-    or Chicago, IL)
-  location: Carmel, IN
-  link: https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Summer-2027-Intern-Wellness-and-People-Focus-Intern-2027_JR170447
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:cno-financial-group
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: cno-financial-group-summer-2027-fixed-income-credit-research-intern-onsite-carmel-in-9dfa8c
-  company: 'CNO Financial Group '
-  role: Summer 2027 Fixed Income Credit Research Intern - ONSITE Carmel, IN
-  location: Carmel, IN
-  link: https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Summer-2027-Fixed-Income-Credit-Research-Intern---ONSITE-Carmel--IN_JR170423
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:cno-financial-group
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: conagra-brands-sales-internship-summer-2027-4f71a2
-  company: Conagra Brands
-  role: Sales Internship - Summer 2027
-  location: Chicago, IL
-  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Chicago-Illinois/Sales-Internship---Summer-2027_Req-039781
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:conagra-brands
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: conagra-brands-tax-internship-summer-2027-c56b0b
-  company: Conagra Brands
-  role: Tax Internship - Summer 2027
-  location: Omaha, NE
-  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Tax-Internship---Summer-2027_Req-039799-1
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:conagra-brands
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: conagra-brands-automation-internship-summer-2027-39cf6a
-  company: Conagra Brands
-  role: Automation Internship - Summer 2027
-  location: Omaha, NE
-  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Automation-Internship---Summer-2027_Req-039966-1
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:conagra-brands
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: conagra-brands-r-d-intern-summer-2027-1d428c
-  company: Conagra Brands
-  role: R&D Intern - Summer 2027
-  location: Omaha, NE
-  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/R-D-Intern---Summer-2027_Req-039360
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:conagra-brands
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: conagra-brands-fp-a-internship-summer-2027-76a52e
-  company: Conagra Brands
-  role: FP&A Internship - Summer 2027
-  location: Chicago, IL
-  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Chicago-Illinois/FP-A-Internship---Summer-2027_Req-039834
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:conagra-brands
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: conagra-brands-business-services-internship-summer-2027-b49c3a
-  company: Conagra Brands
-  role: Business Services Internship - Summer 2027
-  location: Omaha, NE
-  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Business-Services-Internship---Summer-2027_Req-039791-1
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:conagra-brands
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: conagra-brands-internal-audit-internship-summer-2027-3cbba1
-  company: Conagra Brands
-  role: Internal Audit Internship - Summer 2027
-  location: Omaha, NE
-  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Internal-Audit-Internship---Summer-2027_Req-039797
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:conagra-brands
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: conagra-brands-demand-science-internship-summer-2027-d50dd7
-  company: Conagra Brands
-  role: Demand Science Internship - Summer 2027
-  location: Chicago, IL
-  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Chicago-Illinois/Demand-Science-Internship---Summer-2027_Req-039860
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:conagra-brands
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: conagra-brands-r-d-intern-summer-2027-chicago-3b9fa9
-  company: Conagra Brands
-  role: R&D Intern - Summer 2027 (Chicago)
-  location: Chicago, IL
-  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Chicago-Illinois/R-D-Intern---Summer-2027--Chicago-_Req-039361
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:conagra-brands
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: conagra-brands-data-management-dmo-internship-summer-2027-a80a4b
-  company: Conagra Brands
-  role: Data Management (DMO) Internship - Summer 2027
-  location: Omaha, NE
-  link: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Data-Management--DMO--Internship---Summer-2027_Req-039968
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:conagra-brands
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: continental-intern-sales-summer-2027-truck-tire-950c2d
-  company: Continental
-  role: Intern - Sales, Summer 2027 - Truck Tire
-  location: Fort Mill, SC
-  link: https://jobs.smartrecruiters.com/Continental/744000142951649-intern-sales-summer-2027-truck-tire
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:continental
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: continental-intern-sales-summer-2027-plt-45a533
-  company: Continental
-  role: Intern - Sales, Summer 2027 - PLT
-  location: Fort Mill, SC
-  link: https://jobs.smartrecruiters.com/Continental/744000142950629-intern-sales-summer-2027-plt
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:continental
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4010,38 +3687,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: diamondback-energy-summer-2027-it-intern-973fe9
-  company: Diamondback Energy
-  role: Summer 2027 IT Intern
-  location: Oklahoma City, OK / Midland, TX
-  link: https://diamondbackenergy.wd12.myworkdayjobs.com/DBE/job/Oklahoma-City-OK/Summer-2027-IT-Intern_R100853
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:diamondback-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: diamondback-energy-summer-2027-landman-intern-58e3d4
-  company: Diamondback Energy
-  role: Summer 2027 Landman Intern
-  location: Midland, TX
-  link: https://diamondbackenergy.wd12.myworkdayjobs.com/DBE/job/Midland-TX/Summer-2027-Landman-Intern_R100808
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:diamondback-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: diamondback-energy-summer-2027-geoscience-intern-6af922
   company: Diamondback Energy
   role: Summer 2027 Geoscience Intern
@@ -4060,268 +3705,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: diamondback-energy-summer-2027-corporate-development-intern-3bdca9
-  company: Diamondback Energy
-  role: Summer 2027 Corporate Development Intern
-  location: Dallas, TX
-  link: https://diamondbackenergy.wd12.myworkdayjobs.com/DBE/job/Dallas-TX/Summer-2027-Corporate-Development-Intern_R100837
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:diamondback-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: diamondback-energy-summer-2027-landman-intern-viper-78270f
-  company: Diamondback Energy
-  role: Summer 2027 Landman Intern (Viper)
-  location: Midland, TX
-  link: https://diamondbackenergy.wd12.myworkdayjobs.com/DBE/job/Midland-TX/Summer-2027-Viper-Landman-Intern_R100843
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:diamondback-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: duke-energy-information-technology-internship-summer-2027-61a991
-  company: Duke Energy
-  role: Information Technology Internship Summer 2027
-  location: Charlotte, NC
-  link: https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Charlotte-NC/Information-Technology-Internship-Summer-2027_R41222-1
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:duke-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: duke-energy-aviation-internship-summer-2027-197afc
-  company: Duke Energy
-  role: Aviation Internship - Summer 2027
-  location: Charlotte, NC
-  link: https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Charlotte-NC/Aviation-Internship---Summer-2027_R41272
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:duke-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: duke-energy-project-management-internship-summer-2027-3ab076
-  company: Duke Energy
-  role: Project Management Internship - Summer 2027
-  location: Charlotte, NC / Terrell, NC / Lake Mary, FL
-  link: https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Charlotte-NC/Project-Management-Internship---Summer-2027_R41243
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:duke-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: duke-energy-project-management-construction-pmc-business-analyst-intern-summer-2027-39e1ce
-  company: Duke Energy
-  role: Project Management & Construction (PMC) – Business Analyst Intern - Summer
-    2027
-  location: Charlotte, NC
-  link: https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Charlotte-NC/Project-Management---Construction--PMC----Business-Analyst-Intern---Summer-2027_R41265
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:duke-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: duke-energy-design-thinking-facilitation-internship-summer-2027-dac9cc
-  company: Duke Energy
-  role: Design Thinking Facilitation Internship - Summer 2027
-  location: Charlotte, NC
-  link: https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Charlotte-NC/Design-Thinking-Facilitation-Internship---Summer-2027_R41263
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:duke-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: duke-energy-substation-line-tech-internship-carolinas-summer-2027-926502
-  company: Duke Energy
-  role: Substation / Line Tech Internship (Carolinas) - Summer 2027
-  location: Leland, NC / Raleigh, NC / Florence, SC
-  link: https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Leland-NC/Substation---Line-Tech-Internship--Carolinas----Summer-2027_R41173
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:duke-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: duke-energy-environmental-health-safety-internship-summer-2027-3023cc
-  company: Duke Energy
-  role: Environmental Health & Safety Internship - Summer 2027
-  location: Charlotte, NC / Crystal River, FL / Huntersville, NC
-  link: https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Charlotte-NC/Environmental-Health---Safety-Internship---Summer-2027_R41181
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:duke-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: duke-energy-relay-tech-midwest-internship-summer-2027-0c3324
-  company: Duke Energy
-  role: Relay Tech (Midwest) Internship - Summer 2027
-  location: Plainfield, IN / Cincinnati, OH
-  link: https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Plainfield-IN/Relay-Tech--Midwest--Internship---Summer-2027_R41185
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:duke-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: duke-energy-relay-tech-carolinas-internship-summer-2027-4be13b
-  company: Duke Energy
-  role: Relay Tech (Carolinas) Internship - Summer 2027
-  location: Charlotte, NC / Aberdeen, NC / Sanford, NC / Leland, NC / Asheville, NC
-    / Oxford, NC / Florence, SC / New Bern, NC / Raleigh, NC / Garner, NC / Goldsboro,
-    NC
-  link: https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Charlotte-NC/Relay-Tech--Carolinas--Internship---Summer-2027_R41170
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:duke-energy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: elanco-quality-assurance-intern-clinton-indiana-summer-2027-cf03eb
-  company: Elanco
-  role: Quality Assurance Intern – Clinton, Indiana (Summer 2027)
-  location: Clinton, IN
-  link: https://elanco.wd5.myworkdayjobs.com/External_Career/job/Clinton-IN/Quality-Assurance-Intern---Clinton--Indiana--Summer-2027-_R0026895
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:elanco
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: elanco-operational-excellence-intern-elwood-kansas-summer-2027-db4de1
-  company: Elanco
-  role: Operational Excellence Intern – Elwood, Kansas (Summer 2027)
-  location: Elwood, KS
-  link: https://elanco.wd5.myworkdayjobs.com/External_Career/job/Elwood-KS/Operational-Excellence-Intern---Elwood--Kansas--Summer-2027-_R0026902
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:elanco
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: elanco-quality-assurance-intern-elwood-ks-summer-2027-689c21
-  company: Elanco
-  role: Quality Assurance Intern – Elwood, KS (Summer 2027)
-  location: Elwood, KS
-  link: https://elanco.wd5.myworkdayjobs.com/External_Career/job/Elwood-KS/Quality-Assurance-Intern---Elwood--KS--Summer-2027-_R0026917
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:elanco
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: elanco-health-safety-and-environment-intern-elwood-kansas-summer-2027-80bd2b
-  company: Elanco
-  role: Health, Safety, and Environment Intern – Elwood, Kansas (Summer 2027)
-  location: Elwood, KS
-  link: https://elanco.wd5.myworkdayjobs.com/External_Career/job/Elwood-KS/Health--Safety--and-Environment-Intern---Elwood--Kansas--Summer-2027-_R0026900
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:elanco
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-digital-channels-intern-4a29e4
-  company: First National Bank
-  role: Summer 2027 Digital Channels Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Digital-Channels-Intern_2026-01837
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: first-national-bank-summer-2027-capital-markets-intern-158312
   company: First National Bank
   role: Summer 2027 Capital Markets Intern
@@ -4336,153 +3719,6 @@
   sources:
   - company:first-national-bank
   - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-digital-channels-intern-d050bb
-  company: First National Bank
-  role: Summer 2027 Digital Channels Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Digital-Channels-Intern_2026-01836
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: first-national-bank-summer-2027-digital-channels-intern-4a29e4
-- id: first-national-bank-summer-2027-treasury-management-intern-046a60
-  company: First National Bank
-  role: Summer 2027 Treasury Management Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Treasury-Management-Intern_2026-02029
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-credit-risk-intern-191db8
-  company: First National Bank
-  role: Summer 2027 Credit Risk Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Credit-Risk-Intern_2026-01841
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-wholesale-banking-intern-4581d4
-  company: First National Bank
-  role: Summer 2027 Wholesale Banking Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Wholesale-Banking-Intern_2026-02038
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-loan-review-intern-b711e4
-  company: First National Bank
-  role: Summer 2027 Loan Review Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Loan-Review-Intern_2026-01913
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-digital-channels-intern-f5433c
-  company: First National Bank
-  role: Summer 2027 Digital Channels Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Digital-Channels-Intern_2026-01845
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: first-national-bank-summer-2027-digital-channels-intern-4a29e4
-- id: first-national-bank-summer-2027-data-management-intern-f15dd2
-  company: First National Bank
-  role: Summer 2027 Data Management Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2026-Data-Management-Intern---Pittsburgh--PA_2026-01833
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:first-national-bank
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-business-solutions-intern-f480f7
-  company: First National Bank
-  role: Summer 2027 Business Solutions Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Business-Solutions-Intern_2026-01852
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-application-analyst-intern-30ccd2
-  company: First National Bank
-  role: Summer 2027 Application Analyst Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Application-Analyst-Intern_2026-01958
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4504,70 +3740,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: first-national-bank-summer-2027-audit-intern-pittsburgh-pa-ded1c7
-  company: First National Bank
-  role: Summer 2027 Audit Intern - Pittsburgh, PA
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Audit-Intern---Pittsburgh--PA_2026-01819
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-anti-money-laundering-intern-0e1b34
-  company: First National Bank
-  role: Summer 2027 Anti-Money Laundering Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Anti-Money-Laundering-Intern_2026-01914
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-operational-risk-management-intern-54e8de
-  company: First National Bank
-  role: Summer 2027 Operational Risk Management Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Operational-Risk-Management-Intern_2026-01928
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-operational-risk-management-intern-444486
-  company: First National Bank
-  role: Summer 2027 Operational Risk Management Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Operational-Risk-Management-Intern_2026-01859
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: first-national-bank-summer-2027-operational-risk-management-intern-54e8de
 - id: first-national-bank-summer-2027-ai-ml-modeler-intern-a39bdc
   company: First National Bank
   role: Summer 2027 AI/ML Modeler Intern
@@ -4584,54 +3756,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-it-field-services-intern-d110c0
-  company: First National Bank
-  role: Summer 2027 IT Field Services Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-IT-Field-Services-Intern_2026-01944
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-it-asset-management-intern-9cbbe5
-  company: First National Bank
-  role: Summer 2027 IT Asset Management Intern
-  location: Hermitage, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-IT-Asset-Management-Intern_2026-01959
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-project-management-intern-pittsburgh-pa-6f9620
-  company: First National Bank
-  role: Summer 2027 Project Management Intern - Pittsburgh, PA
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Project-Management-Intern---Pittsburgh--PA_2026-01820
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:first-national-bank
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4654,73 +3778,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: general-motors-2027-summer-intern-global-workplace-safety-f20782
-  company: General Motors
-  role: 2027 Summer Intern - Global Workplace Safety
-  location: Warren, MI
-  link: https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Global-Workplace-Safety_JR-202619201
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:general-motors
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: general-motors-2027-summer-intern-global-workplace-safety-ergonomics-024f92
-  company: General Motors
-  role: 2027 Summer Intern – Global Workplace Safety (Ergonomics)
-  location: Warren, MI
-  link: https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Global-Workplace-Safety--Ergonomics-_JR-202619337
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:general-motors
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hitachi-2027-summer-business-intern-raleigh-70f048
-  company: Hitachi
-  role: 2027 Summer Business Intern - Raleigh
-  location: Raleigh, NC
-  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/XMLNAME-2027-Summer-Business-Intern---Raleigh_R0142569
-  date_posted: '2026-08-22'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:hitachi
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hitachi-2027-summer-intern-south-boston-dc44ac
-  company: Hitachi
-  role: 2027 Summer Intern - South Boston
-  location: South Boston, VA
-  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/South-Boston-Virginia-United-States-of-America/XMLNAME-2027-Summer-Intern---South-Boston_R0142882
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:hitachi
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: hitachi-2027-summer-business-intern-alamo-e0a1b4
   company: Hitachi
   role: 2027 Summer Business Intern - Alamo
@@ -4736,23 +3793,6 @@
   sources:
   - company:hitachi
   - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hitachi-2027-summer-intern-bland-va-b1b2d9
-  company: Hitachi
-  role: 2027 Summer Intern - Bland, VA
-  location: Bland, VA
-  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Bland-Virginia-United-States-of-America/XMLNAME-2027-Summer-Intern---Bland--VA_R0143634
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:hitachi
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4774,23 +3814,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: hitachi-2027-summer-intern-mt-pleasant-pa-c585c4
-  company: Hitachi
-  role: 2027 Summer Intern - Mt Pleasant, PA
-  location: Mount Pleasant, PA
-  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Mount-Pleasant-Pennsylvania-United-States-of-America/XMLNAME-2027-Summer-Intern---Mt-Pleasant--PA_R0142899
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:hitachi
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: hitachi-2027-summer-health-safety-environmental-internship-jefferson-city-425cb8
   company: Hitachi
   role: 2027 Summer Health Safety Environmental Internship-Jefferson City
@@ -4809,129 +3832,12 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: hntb-intern-technician-summer-2027-74d7d2
-  company: HNTB
-  role: Intern Technician - Summer 2027
-  location: Kansas City, MO / Oklahoma City, OK / Overland Park, KS / Des Moines,
-    IA / St. Louis, MO
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Kansas-City-MO/Intern-Technician---Summer-2027_R-31350
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:hntb
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hntb-intern-planner-summer-2027-79e672
-  company: HNTB
-  role: Intern Planner - Summer 2027
-  location: Kansas City, MO / Oklahoma City, OK / Overland Park, KS / Des Moines,
-    IA / St. Louis, MO
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Kansas-City-MO/Intern-Planner---Summer-2027_R-31352
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:hntb
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hntb-planning-intern-summer-2027-ac7913
-  company: HNTB
-  role: Planning Intern - Summer 2027
-  location: Chicago, IL
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Chicago-IL/Planning-Intern---Summer-2027_R-31365
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:hntb
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hntb-technology-intern-summer-2027-22b88d
-  company: HNTB
-  role: Technology Intern - Summer 2027
-  location: Chicago, IL
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Chicago-IL/Technology-Intern---Summer-2027_R-31400
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:hntb
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hntb-landscape-architect-intern-summer-2027-3c9549
-  company: HNTB
-  role: Landscape Architect Intern - Summer 2027
-  location: Kansas City, MO / Oklahoma City, OK / Overland Park, KS / Des Moines,
-    IA / St. Louis, MO
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Kansas-City-MO/Landscape-Architect-Intern---Summer-2027_R-31364
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:hntb
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hntb-strategic-technology-intern-summer-2027-423042
-  company: HNTB
-  role: Strategic Technology Intern - Summer 2027
-  location: Tampa, FL / Tallahassee, FL
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Tampa-FL/Strategic-Technology-Intern---Summer-2027_R-31411
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:hntb
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: hntb-design-build-intern-technician-summer-2027-2235b6
   company: HNTB
   role: Design Build Intern Technician - Summer 2027
   location: Kansas City, MO
   link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Kansas-City-MO/Design-Build-Intern-Technician---Summer-2027_R-31320
   date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:hntb
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hntb-architect-intern-summer-2027-for-current-recent-hntb-interns-only-7453a1
-  company: HNTB
-  role: Architect Intern (Summer 2027) (For Current & Recent HNTB Interns Only)
-  location: Kansas City, MO / Los Angeles, CA / Tampa, FL / New York, NY / Miami,
-    FL / Seattle, WA / Denver, CO
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Kansas-City-MO/Architect-Intern--Summer-2027---For-Current---Recent-HNTB-Interns-Only-_R-31213
-  date_posted: '2026-08-27'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -4960,410 +3866,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: hntb-returning-construction-services-intern-mad-summer-2027-for-current-previous-hntb-interns-only-f0c303
-  company: HNTB
-  role: Returning Construction Services Intern - MAD Summer 2027 (For current/previous
-    HNTB interns only)
-  location: Philadelphia, PA / Harrisburg, PA / Pittsburgh, PA / Fairmont, WV / Baltimore,
-    MD / Raleigh, NC / Charlotte, NC / Virginia Beach, VA / Scott Depot, WV / North
-    Charleston, SC / Washington, DC / Arlington, VA / King of Prussia, PA
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Philadelphia-PA-Pennsylvania/Returning-Construction-Services-Intern---MAD-Summer-2027--For-current-previous-HNTB-interns-only-_R-31135
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:hntb
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-orlando-fl-87755f
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Orlando, FL
-  location: Orlando, FL
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Orlando-FL/Capital-Markets-Summer-2027-Internship---Orlando--FL_REQ532428
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-jacksonville-fl-5b40a6
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Jacksonville, FL
-  location: Jacksonville, FL
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Jacksonville-FL/Capital-Markets-Summer-2027-Internship---Jacksonville--FL_REQ532423
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-tampa-fl-acafd9
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Tampa, FL
-  location: Tampa, FL
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Tampa-FL/Capital-Markets-Summer-2027-Internship---Tampa--FL_REQ532419
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-hotels-and-hospitality-summer-2027-internship-chicago-il-0713d7
-  company: Jones Lang LaSalle (JLL)
-  role: Hotels and Hospitality Summer 2027 Internship - Chicago, IL
-  location: Chicago, IL
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Chicago-IL/Hotels-and-Hospitality-Summer-2027-Internship---Chicago--IL_REQ531742
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-nnn-lease-summer-2027-internship-dallas-tx-87dbb5
-  company: Jones Lang LaSalle (JLL)
-  role: NNN Lease Summer 2027 Internship - Dallas, TX
-  location: Dallas, TX
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Dallas-TX/Capital-Markets-Summer-2027-Internship---Dallas--TX_REQ530555
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-corporate-capital-and-nnn-lease-capital-markets-summer-2027-internship-chicago-il-fde054
-  company: Jones Lang LaSalle (JLL)
-  role: Corporate Capital and NNN Lease Capital Markets Summer 2027 Internship - Chicago,
-    IL
-  location: Chicago, IL
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Chicago-IL/Corporate-Capital-and-NNN-Lease-Capital-Markets-Summer-2027-Internship---Chicago--IL_REQ530530
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-century-city-la-27b644
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Century City, LA
-  location: Los Angeles, CA
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Los-Angeles-CA/Capital-Markets-Summer-2027-Internship---Century-City--LA_REQ530570
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-san-antonio-tx-525b36
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - San Antonio, TX
-  location: SAN ANTONIO, TX
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/SAN-ANTONIO-TX/Capital-Markets-Summer-2027-Internship---San-Antonio--TX_REQ530580
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-austin-tx-8edfb6
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Austin, TX
-  location: Austin, TX
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Austin-TX/Capital-Markets-Summer-2027-Internship---Austin--TX_REQ530579
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-washington-dc-b6d1af
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Washington, DC
-  location: Washington, DC
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Washington-DC/Capital-Markets-Summer-2027-Internship---Washington--DC_REQ530230
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-chicago-il-53cd47
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Chicago, IL
-  location: Chicago, IL
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Chicago-IL/Capital-Markets-Summer-2027-Internship---Chicago--IL_REQ530231
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-indianapolis-in-424542
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Indianapolis, IN
-  location: Indianapolis, IN
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Indianapolis-IN/Capital-Markets-Summer-2027-Internship---Indianapolis--IN_REQ530233
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-analyst-summer-2027-internship-salt-lake-city-ut-6d74c0
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Analyst Summer 2027 Internship - Salt Lake City, UT
-  location: Salt Lake City, UT
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Salt-Lake-City-UT/Capital-Markets-Analyst-Summer-2027-Internship---Salt-Lake-City--UT_REQ530571
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-morristown-nj-4023cd
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Morristown, NJ
-  location: Morristown, NJ
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Morristown-NJ/Capital-Markets-Summer-2027-Internship---Morristown--NJ_REQ529778
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-boston-ma-309097
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Boston, MA
-  location: Boston, MA
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Boston-MA/Capital-Markets-Summer-2027-Internship---Boston--MA_REQ530236
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-minneapolis-mn-a6368e
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Minneapolis, MN
-  location: Minneapolis, MN
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Minneapolis-MN/Capital-Markets-Summer-2027-Internship---Minneapolis--MN_REQ530234
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-miami-fl-b47846
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Miami, FL
-  location: Miami, FL
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Miami-FL/Capital-Markets-Summer-2027-Internship---Miami--FL_REQ530237
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-denver-co-6c1ea9
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Denver, CO
-  location: Denver, CO
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Denver-CO/Capital-Markets-Summer-2027-Internship---Denver--CO_REQ530239
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-san-francisco-ca-c21182
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - San Francisco, CA
-  location: San Francisco, CA
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/San-Francisco-CA/Capital-Markets-Summer-2027-Internship---San-Francisco--CA_REQ530240
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-philadelphia-pa-ab355f
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Philadelphia, PA
-  location: Philadelphia, PA
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Philadelphia-PA/Capital-Markets-Summer-2027-Internship---Philadelphia--PA_REQ530577
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-orlando-fl-36f30b
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Orlando, FL
-  location: Orlando, FL
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Orlando-FL/Capital-Markets-Summer-2027-Internship---Orlando--FL_REQ530581
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-orlando-fl-87755f
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-phoenix-az-87d331
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Phoenix, AZ
-  location: Phoenix, AZ
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Phoenix-AZ/Capital-Markets-Summer-2027-Internship---Phoenix--AZ_REQ530583
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-san-diego-ca-9e98a9
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - San Diego, CA
-  location: San Diego, CA
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/San-Diego-CA/Capital-Markets-Summer-2027-Internship---San-Diego--CA_REQ530207-1
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-orange-county-ca-447b8e
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - Orange County, CA
-  location: Irvine, CA
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/Irvine-CA/Capital-Markets-Summer-2027-Internship---Orange-County--CA_REQ529972-1
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-new-york-574701
   company: Jones Lang LaSalle (JLL)
   role: Capital Markets Summer 2027 Internship - New York
@@ -5377,297 +3879,6 @@
   status: open
   sources:
   - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: lawrence-livermore-national-laboratory-llnl-computing-graduate-student-intern-summer-2027-1a1166
-  company: Lawrence Livermore National Laboratory (LLNL)
-  role: Computing Graduate Student Intern - Summer 2027
-  location: Livermore, CA
-  link: https://jobs.smartrecruiters.com/LLNL/3743990014982439-computing-graduate-student-intern-summer-2027
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:lawrence-livermore-national-laboratory-llnl
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: lawrence-livermore-national-laboratory-llnl-computing-undergraduate-student-intern-summer-2027-690a1f
-  company: Lawrence Livermore National Laboratory (LLNL)
-  role: Computing Undergraduate Student Intern - Summer 2027
-  location: Livermore, CA
-  link: https://jobs.smartrecruiters.com/LLNL/3743990014982059-computing-undergraduate-student-intern-summer-2027
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:lawrence-livermore-national-laboratory-llnl
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-quality-greenville-sc-f9cd85
-  company: Michelin
-  role: Summer 2027 Internship - Quality (Greenville, SC)
-  location: GREENVILLE, SC
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/GREENVILLE-SC/Summer-2027-Internship---Quality--Greenville--SC-_R-2026029849
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-digital-greenville-sc-91d503
-  company: Michelin
-  role: 'Summer 2027 Internship: Digital (Greenville, SC)'
-  location: GREENVILLE, SC
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/GREENVILLE-SC/Summer-2027-Internship--Digital--Greenville--SC-_R-2026028956
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-progress-covington-ga-aa84a4
-  company: Michelin
-  role: 'Summer 2027 Internship: Progress (Covington, GA)'
-  location: COVINGTON, GA
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/COVINGTON-GA/Summer-2027-Internship--Progress--Covington--GA-_R-2026030994
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-progress-peosta-ia-5e1a02
-  company: Michelin
-  role: 'Summer 2027 Internship: Progress (Peosta, IA)'
-  location: PEOSTA, IA
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/PEOSTA-IA/Summer-2027-Internship--Progress--Peosta--IA-_R-2026030724
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-quality-norwood-nc-a7f880
-  company: Michelin
-  role: 'Summer 2027 Internship: Quality  (Norwood, NC)'
-  location: NORWOOD, NC
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/NORWOOD-NC/Summer-2027-Internship--Quality---Norwood--NC-_R-2026030632
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-progress-norwood-nc-c635e4
-  company: Michelin
-  role: 'Summer 2027 Internship: Progress (Norwood, NC)'
-  location: NORWOOD, NC
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/NORWOOD-NC/Summer-2027-Internship--Progress--Norwood--NC-_R-2026030843
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-sales-greenville-sc-b1deef
-  company: Michelin
-  role: 'Summer 2027 Internship: Sales (Greenville, SC)'
-  location: GREENVILLE, SC
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/GREENVILLE-SC/Summer-2027-Internship--Sales--Greenville--SC-_R-2026029811
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-quality-anderson-sc-4a9290
-  company: Michelin
-  role: 'Summer 2027 Internship: Quality (Anderson, SC)'
-  location: ANDERSON, SC
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/ANDERSON-SC/Summer-2027-Internship--Quality--Anderson--SC-_R-2026030953
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-quality-peosta-ia-6806c8
-  company: Michelin
-  role: 'Summer 2027 Internship: Quality (Peosta, IA)'
-  location: PEOSTA, IA
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/PEOSTA-IA/Summer-2027-Internship--Quality--Peosta--IA-_R-2026030702
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-progress-junction-city-ks-4dd20f
-  company: Michelin
-  role: 'Summer 2027 Internship: Progress (Junction City, KS)'
-  location: JUNCTION CITY, KS
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/JUNCTION-CITY-KS/Summer-2027-Internship--Progress--Junction-City--KS-_R-2026030674
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-summer-2027-internship-it-is-greenville-sc-134cc6
-  company: Michelin
-  role: 'Summer 2027 Internship: IT/ IS Greenville, SC'
-  location: GREENVILLE, SC
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/GREENVILLE-SC/Summer-2027-Internship--IT--IS-Greenville--SC_R-2026030362
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: michelin-2027-summer-intern-9a4481
-  company: Michelin
-  role: 2027 Summer Intern
-  location: Midland City, AL
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Midland-City-AL/XMLNAME-2027-Summer-Intern_R-2026030998
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:michelin
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: moderna-intern-cmc-development-summer-2027-1c7213
-  company: Moderna
-  role: Intern, CMC Development (Summer 2027)
-  location: Norwood, MA
-  link: https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Norwood-Massachusetts/Intern--CMC-Development--Summer-2027-_R19683
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:moderna
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: mosaic-tax-co-op-intern-summer-2027-a23548
-  company: Mosaic
-  role: Tax Co-Op/Intern - Summer 2027
-  location: US - Plymouth, MN
-  link: https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Plymouth-MN/Tax-Accounting-Co-Op-Intern---Summer-2027_64409
-  date_posted: '2026-07-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:mosaic
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-commissioning-student-internship-51830d
-  company: Olsson
-  role: Commissioning Student Internship
-  location: Kansas City, MO
-  link: https://job-boards.greenhouse.io/olsson/jobs/5408599008
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:olsson
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-structural-drafting-internship-industrial-facilities-d505d2
-  company: Olsson
-  role: Structural Drafting Internship - Industrial Facilities
-  location: Des Moines, IA
-  link: https://job-boards.greenhouse.io/olsson/jobs/5408530008
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:olsson
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -5702,87 +3913,6 @@
   sources:
   - company:olsson
   - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-student-internship-landscape-architecture-afbd62
-  company: Olsson
-  role: Student Internship - Landscape Architecture
-  location: Kansas City, NE
-  link: https://job-boards.greenhouse.io/olsson/jobs/5405639008
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:olsson
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-student-internship-survey-593837
-  company: Olsson
-  role: Student Internship - Survey
-  location: North Kansas City, MO
-  link: https://job-boards.greenhouse.io/olsson/jobs/5407709008
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:olsson
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-student-internship-survey-d8ab9d
-  company: Olsson
-  role: Student Internship - Survey
-  location: Overland Park, KS
-  link: https://job-boards.greenhouse.io/olsson/jobs/5407752008
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:olsson
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-student-internship-survey-64f2c5
-  company: Olsson
-  role: Student Internship - Survey
-  location: Manhattan, KS
-  link: https://job-boards.greenhouse.io/olsson/jobs/5407757008
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:olsson
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-student-internship-survey-cc7c02
-  company: Olsson
-  role: Student Internship - Survey
-  location: Fayetteville, AR
-  link: https://job-boards.greenhouse.io/olsson/jobs/5411404008
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:olsson
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -5824,103 +3954,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: poet-merchandiser-intern-midwest-summer-2027-82bc89
-  company: POET
-  role: Merchandiser Intern - Midwest - Summer 2027
-  location: Emmetsburg, IA
-  link: https://poet.wd1.myworkdayjobs.com/POET/job/Emmetsburg-IA/Merchandiser-Intern---Midwest---Summer-2027_R101656
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:poet
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: poet-business-support-analyst-intern-summer-2027-d26b34
-  company: POET
-  role: Business Support Analyst Intern - Summer 2027
-  location: Wichita, KS
-  link: https://poet.wd1.myworkdayjobs.com/POET/job/Wichita-KS/Business-Support-Analyst-Intern---Summer-2027_R101647
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:poet
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: sierra-intern-agent-development-summer-2027-350f53
-  company: Sierra
-  role: Intern, Agent Development (Summer 2027)
-  location: San Francisco, CA
-  link: https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:sierra
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: situsamc-asset-management-intern-atlanta-e60f26
-  company: SitusAMC
-  role: Asset Management Intern- Atlanta
-  location: Atlanta, GA
-  link: https://situsamc.wd1.myworkdayjobs.com/SitusAMC/job/Atlanta-GA/Asset-Management-Intern--Atlanta_JR03084
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:situsamc
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: situsamc-asset-management-intern-dallas-c6da5b
-  company: SitusAMC
-  role: Asset Management Intern - Dallas
-  location: Dallas, TX
-  link: https://situsamc.wd1.myworkdayjobs.com/SitusAMC/job/Dallas-Tx/Asset-Management-Intern---Dallas_JR03088
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:situsamc
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: situsamc-asset-management-intern-plymouth-meeting-cdda8f
-  company: SitusAMC
-  role: Asset Management Intern- Plymouth Meeting
-  location: Plymouth Meeting, PA
-  link: https://situsamc.wd1.myworkdayjobs.com/SitusAMC/job/Plymouth-Meeting-PA/Asset-Management-Intern--Plymouth-Meeting_JR03086
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:situsamc
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: tarrant-regional-water-district-summer-2027-energy-intern-t047-011775
   company: Tarrant Regional Water District
   role: Summer 2027 Energy Intern (T047)
@@ -5954,74 +3987,6 @@
   status: open
   sources:
   - company:td-bank
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: uhy-2027-summer-cas-internship-west-des-moines-ed94e6
-  company: UHY
-  role: 2027 Summer CAS Internship - West Des Moines
-  location: West Des Moines, IA
-  link: https://uhyus.wd12.myworkdayjobs.com/uhy/job/West-Des-Moines-IA/XMLNAME-2027-Summer-CAS-Internship---West-Des-Moines_JR102037-1
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:uhy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: uhy-2027-summer-tax-internship-west-des-moines-f3a15b
-  company: UHY
-  role: 2027 Summer Tax Internship - West Des Moines
-  location: West Des Moines, IA
-  link: https://uhyus.wd12.myworkdayjobs.com/uhy/job/West-Des-Moines-IA/XMLNAME-2027-Summer-Tax-Internship---West-Des-Moines_JR102036-1
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:uhy
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: tiktok-data-engineer-intern-data-platform-global-live-77eec8
-  company: TikTok
-  role: Data Engineer Intern (Data Platform Global Live) - 2027 Summer
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7674032146438162693
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: ryan-companies-business-intelligence-intern-mission-critical-dd587b
-  company: Ryan Companies
-  role: Business Intelligence Intern - Mission Critical
-  location: Des Moines, IA
-  link: https://ryancompanies.wd5.myworkdayjobs.com/ryancompanies/job/Minneapolis/Business-Intelligence-Intern--Mission-Critical_R-101961
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -6340,23 +4305,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: devon-energy-technology-intern-data-engineering-f129bf
-  company: Devon Energy
-  role: Technology Intern - Data Engineering
-  location: Houston, TX
-  link: https://wd5.myworkdaysite.com/en-US/recruiting/devonenergy/Careers/job/Oklahoma-City-OK/Technology-Summer-Intern-2027_R26264-1
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: amd-machine-learning-intern-co-op-multiple-teams-c4434b
   company: AMD
   role: Machine Learning Intern/Co-op - Multiple Teams
@@ -6384,23 +4332,6 @@
   term: Summer 2027
   degree:
   - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: amd-product-development-engineer-intern-co-op-e21b23
-  company: AMD
-  role: Product Development Engineer Intern/Co-op
-  location: San Jose, CA
-  link: https://careers.amd.com/jobs/91227?icims=1
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
   status: open
   sources:
   - github_tracker:simplifyjobs
@@ -6441,46 +4372,12 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: blackstone-data-engineer-summer-analyst-blackstone-technology-innovations-bf89ea
-  company: Blackstone
-  role: Data Engineer Summer Analyst - Blackstone Technology & Innovations
-  location: Miami, FL
-  link: https://blackstone.wd1.myworkdayjobs.com/zh-CN/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Technology-and-Innovations--Data-Engineer-Summer-Analyst_45022
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: marsh-government-health-consulting-informatics-intern-college-program-bbe829
   company: Marsh
   role: Government Health Consulting Informatics Intern - College Program
   location: Phoenix, AZ
   link: https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/Phoenix---E-Camelback/Government-Health-Consulting-Informatics-Summer-Intern---College-Program-2027_R_362073
   date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: springs-window-fashions-textile-engineering-intern-summer-2027-bcfe58
-  company: Springs Window Fashions
-  role: Textile Engineering Intern - Summer 2027
-  location: Middleton, WI
-  link: https://careers-springswindowfashions.icims.com/jobs/12881/job?mobile=true&needsRedirect=false
-  date_posted: '2026-08-22'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -6563,41 +4460,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: the-hartford-data-engineer-intern-tech-data-program-128a50
-  company: The Hartford
-  role: Data Engineer Intern - Tech & Data Program
-  location: Columbus, OH
-  link: https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Columbus-OH/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Columbus-_R2626610
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: amd-research-engineering-intern-co-op-amd-research-b31c87
-  company: AMD
-  role: Research Engineering Intern/Co-op - AMD Research
-  location: Secaucus, NJ
-  link: https://careers.amd.com/jobs/90926?icims=1
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: dtcc-data-solutions-intern-internship-program-8ffdce
   company: DTCC
   role: Data Solutions Intern - Internship Program
@@ -6633,116 +4495,12 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: repsol-reservoir-engineer-intern-1dc853
-  company: Repsol
-  role: Reservoir Engineer Intern
-  location: The Woodlands, TX
-  link: https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Reservoir-Engineer-Intern_83636-1
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: auto-owners-insurance-data-engineering-intern-summer-2027-87dac5
-  company: Auto-Owners Insurance
-  role: Data Engineering Intern - Summer 2027
-  location: Lansing, MI
-  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: verisk-ai-intern-summer-internship-program-7f09e3
   company: Verisk
   role: AI Intern - Summer Internship Program
   location: Jersey City, NJ
   link: https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4682
   date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: repsol-reservoir-engineer-intern-2b3600
-  company: Repsol
-  role: Reservoir Engineer Intern
-  location: The Woodlands, TX
-  link: https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Reservoir-Engineering-Intern_83945-1
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: repsol-reservoir-engineer-intern-1dc853
-- id: repsol-production-allocation-engineering-intern-608964
-  company: Repsol
-  role: Production Allocation Engineering Intern
-  location: The Woodlands, TX
-  link: https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Production-Allocation-Engineering-Intern_83947-1
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: repsol-development-planning-engineer-intern-5db1a8
-  company: Repsol
-  role: Development Planning Engineer Intern
-  location: The Woodlands, TX
-  link: https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Development-Planning-Engineering-Intern_83951-1
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: procter-gamble-research-development-scientist-engineer-intern-freshmen-sophomores-and-juniors-70d589
-  company: Procter & Gamble
-  role: Research & Development Scientist/Engineer Intern - Freshmen, Sophomores, And
-    Juniors
-  location: St Bernard, OH
-  link: https://pg.wd5.myworkdayjobs.com/1000/job/Mason/Research---Development-Scientist-Engineer-Intern-Summer-2027---Freshmen--Sophomores--and-Juniors_R000157846
-  date_posted: '2026-08-24'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -6818,58 +4576,6 @@
   term: Summer 2027
   degree:
   - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: the-walt-disney-company-pricing-product-development-intern-spring-2027-00a5cc
-  company: The Walt Disney Company
-  role: Pricing & Product Development Intern - Spring 2027
-  location: Lake Buena Vista, FL
-  link: https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Pricing---Product-Development-Intern--Spring-2027_10158266
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: iberdrola-group-technology-cyber-data-intern-f3db07
-  company: Iberdrola Group
-  role: Technology – Cyber & Data Intern
-  location: Boston, MA
-  link: https://iberdrola.wd3.myworkdayjobs.com/iberdrola/job/United-States-Of-America-Connecticut-Orange/XMLNAME-2027-Technology--Cyber---Data-Internship-Program_R-32747
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: csx-engineering-intern-positive-train-control-paid-bdcee2
-  company: CSX
-  role: Engineering Intern - Positive Train Control - Paid
-  location: Jacksonville, FL
-  link: https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/job/54826
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
   status: open
   sources:
   - github_tracker:simplifyjobs
@@ -7070,139 +4776,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: american-express-data-engineer-intern-enterprise-technology-services-35cf33
-  company: American Express
-  role: Data Engineer Intern - Enterprise Technology Services
-  location: Phoenix, AZ
-  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012333
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: american-express-data-engineer-intern-enterprise-technology-services-d3f00d
-  company: American Express
-  role: Data Engineer Intern - Enterprise Technology Services
-  location: Sunrise, FL
-  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011831
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: american-express-data-engineer-intern-enterprise-technology-services-d61851
-  company: American Express
-  role: Data Engineer Intern - Enterprise Technology Services
-  location: Charlotte, NC
-  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011828
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: american-express-data-engineer-intern-enterprise-technology-services-a2e6b9
-  company: American Express
-  role: Data Engineer Intern - Enterprise Technology Services
-  location: Sunrise, FL
-  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012781
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-d3f00d
-- id: american-express-data-engineer-intern-enterprise-technology-services-0216a2
-  company: American Express
-  role: Data Engineer Intern - Enterprise Technology Services
-  location: Phoenix, AZ
-  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012339
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-35cf33
-- id: american-express-data-engineer-intern-enterprise-technology-services-93902c
-  company: American Express
-  role: Data Engineer Intern - Enterprise Technology Services
-  location: Charlotte, NC
-  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012764
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-d61851
-- id: edison-international-software-data-engineering-intern-b1f3ac
-  company: Edison International
-  role: Software/Data Engineering Intern
-  location: Chino, CA
-  link: https://apply.edisoncareers.com/job/Chino-2027-Summer-Internship-SoftwareData-Engineering-(Chino)-CA-91710/1424663800/?ats=successfactors
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: nisource-engineering-intern-99f312
-  company: NiSource
-  role: Engineering Intern
-  location: Valparaiso, IN
-  link: https://nisource.wd1.myworkdayjobs.com/NiSource/job/Valparaiso-Central-Stores/Intern-Engineering-NIPSCO_R00943339
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: first-national-bank-ai-and-innovation-intern-4a2262
   company: First National Bank
   role: AI and Innovation Intern
@@ -7236,23 +4809,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: pella-data-engineer-intern-summer-2027-e044db
-  company: Pella
-  role: Data Engineer Intern - Summer 2027
-  location: Pella, IA
-  link: https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253304
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7292,23 +4848,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: johns-hopkins-applied-physics-laboratory-engineer-sw-developer-analyst-intern-maritime-force-engagement-control-f702ce
-  company: Johns Hopkins Applied Physics Laboratory
-  role: Engineer/SW Developer/Analyst Intern - Maritime Force Engagement Control
-  location: Laurel, MD
-  link: https://careers.jhuapl.edu/jobs/59598?icims=1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: aig-summer-intern-data-office-b0b536
   company: AIG
   role: Summer Intern - Data Office
@@ -7324,23 +4863,6 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: philips-data-engineering-co-op-4c515d
-  company: Philips
-  role: Data Engineering Co-op
-  location: Reedsville, PA
-  link: https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Reedsville-Pennsylvania-United-States/Co-op-Data-Engineering-Reedsville--PA-July-December-2027_587486
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7363,59 +4885,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: post-holdings-data-engineer-intern-78f31a
-  company: Post Holdings
-  role: Data Engineer Intern
-  location: Lakeville, MN
-  link: https://jobs.postholdings.com/jobs/31960?icims=1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: post-holdings-business-intelligence-intern-summer-2027-1c8990
-  company: Post Holdings
-  role: Business Intelligence Intern - Summer 2027
-  location: Lakeville, MN
-  link: https://jobs.postholdings.com/jobs/31924?icims=1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: clarios-forward-deployed-engineer-intern-summer-2027-7347cd
-  company: Clarios
-  role: Forward Deployed Engineer Intern - Summer 2027
-  location: Milwaukee, WI
-  link: https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/Forward-Deployed-Engineering-Intern--Summer-2027-_WD49962
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: geico-artificial-intelligence-applied-research-machine-learning-intern-phd-3e822c
   company: Geico
   role: Artificial Intelligence Applied Research & Machine Learning Intern - PhD
@@ -7426,24 +4895,6 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: corning-raw-material-engineering-intern-summer-2027-224c79
-  company: Corning
-  role: Raw Material Engineering Intern - Summer 2027
-  location: Painted Post, NY
-  link: https://corningjobs.corning.com/job/Painted-Post-Raw-Material-Engineering-Intern-Summer-2027-NY-14870/1425513800/?ats=successfactors
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
   status: open
   sources:
   - github_tracker:simplifyjobs
@@ -7488,46 +4939,11 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: aig-summer-intern-data-office-825b98
-  company: AIG
-  role: Summer Intern - Data Office
-  location: Charlotte, NC
-  link: https://aig.wd1.myworkdayjobs.com/en-US/early_careers/job/GA-Atlanta/XMLNAME-2027-Early-Careers--Summer-Intern--Data-Office---United-States--Atlanta--GA--Charlotte--NC--Parsippany--NJ--Jersey-City--NJ---New-York--NY_JR2603655
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: aig-summer-intern-data-office-b0b536
 - id: southern-star-central-gas-pipeline-gis-analyst-intern-de3f0d
   company: Southern Star Central Gas Pipeline
   role: GIS Analyst Intern
   location: Owensboro, KY
   link: https://careers-sscgp.icims.com/jobs/3036/job?mobile=true&needsRedirect=false
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: corning-optical-fiber-and-cable-engineer-intern-summer-2027-7855b8
-  company: Corning
-  role: Optical Fiber and Cable Engineer Intern - Summer 2027
-  location: Charlotte, NC
-  link: https://corningjobs.corning.com/job/Charlotte-Optical-Fiber-and-Cable-Engineering-Intern-Summer-2027-NC-28216/1425615400/?ats=successfactors
   date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
@@ -7574,41 +4990,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: ragle-inc-data-engineering-intern-7e71c9
-  company: Ragle Inc
-  role: Data Engineering Intern
-  location: North Richland Hills, TX
-  link: https://ragleinc.applytojob.com/apply/bOx8uiciOs/Data-Engineering-Intern-Summer-2027
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: lawrence-livermore-national-laboratory-llnl-computing-undergraduate-student-intern-early-internship-program-b340a8
-  company: Lawrence Livermore National Laboratory (LLNL)
-  role: Computing Undergraduate Student Intern - Early Internship Program
-  location: Livermore, CA
-  link: https://jobs.smartrecruiters.com/LLNL/3743990014981656
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
+  - company:twg-global
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7618,56 +5000,6 @@
   location: Sun Prairie, WI
   link: https://job-boards.greenhouse.io/compeerfinancial/jobs/5406940008
   date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: grant-thornton-tax-technology-intern-summer-2027-37765b
-  company: Grant Thornton
-  role: Tax Technology Intern - Summer 2027
-  location: Bellevue, WA
-  link: https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115822
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: grant-thornton-tax-technology-intern-summer-2027-20edb9
-- id: corning-digital-it-intern-analyst-enterprise-data-management-3cb3dd
-  company: Corning
-  role: Digital & IT Intern - Analyst - Enterprise Data Management
-  location: Charlotte, NC
-  link: https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Enterprise-Data-Management-Summer-2027-NC-28216/1425715900/?ats=successfactors
-  date_posted: '2026-09-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: panasonic-holdings-data-engineering-intern-696b16
-  company: Panasonic Holdings
-  role: Data Engineering Intern
-  location: Bridgeton, MO
-  link: https://careers.na.panasonic.com/jobs/50772?icims=1
-  date_posted: '2026-09-02'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -7863,7 +5195,7 @@
   possible_duplicate_of: null
 - id: micron-technology-intern-ai-systems-and-infrastructur-5bf226
   company: Micron Technology
-  role: Intern - AI Systems and Infrastructur...
+  role: Intern - AI Systems and Infrastructure Engineering
   location: Austin, TX
   link: https://micron.wd1.myworkdayjobs.com/external/job/Austin-TX/Intern---AI-Systems-and-Infrastructure-Engineering_JR109990
   date_posted: '2026-08-31'
@@ -7879,7 +5211,8 @@
   possible_duplicate_of: null
 - id: nike-nike-inc-artificial-intelligence-d-55e88b
   company: Nike
-  role: NIKE, Inc. Artificial Intelligence, D...
+  role: NIKE, Inc. Artificial Intelligence, Data, & Machine Learning Engineering Undergraduate
+    Internship
   location: Beaverton, OR
   link: https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Artificial-Intelligence--Data----Machine-Learning-Engineering-Undergraduate-Internship_R-91110
   date_posted: '2026-09-01'
@@ -7895,7 +5228,7 @@
   possible_duplicate_of: null
 - id: workiva-summer-2027-intern-machine-learning-b5ac7b
   company: Workiva
-  role: Summer 2027 Intern - Machine Learning...
+  role: Summer 2027 Intern - Machine Learning Engineering
   location: Remote (US)
   link: https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1
   date_posted: '2026-08-27'
@@ -8041,7 +5374,7 @@
   possible_duplicate_of: null
 - id: certik-blockchain-security-expert-intern-a-eb5a22
   company: CertiK
-  role: Blockchain Security Expert Intern - A...
+  role: Blockchain Security Expert Intern - AI Track
   location: New York, NY / Remote (US)
   link: https://jobs.lever.co/certik/1f446b66-1fae-4c31-9352-cde86e254754
   date_posted: '2026-09-02'
@@ -8052,23 +5385,6 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: the-hartford-tech-data-program-summer-2027-software-engineer-intern-charlotte-b863e4
-  company: The Hartford
-  role: Tech & Data Program Summer 2027 - Software Engineer Intern (Charlotte)
-  location: Charlotte, NC
-  link: https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -8109,11 +5425,63 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: twg-global-ai-engineering-intern-summer-2027-5b96aa
-  company: TWG Global
-  role: AI Engineering Intern - Summer 2027
-  location: Santa Monica, CA
-  link: https://apply.workable.com/twgai/j/772CD136FF/
+- id: bytedance-research-scientist-intern-distributed-nosql-database-systems-30c298
+  company: ByteDance
+  role: Research Scientist Intern (Distributed NoSQL Database Systems) - 2027 Start
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7668371456348326149/detail
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - chieler
+  - github_tracker:chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: tiktok-software-engineer-intern-2d5519
+  company: TikTok
+  role: Software Engineer Intern (TikTok AI Search & Visual Search Infra Team) - 2027
+    Summer
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7676276048527214901
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: ecolab-digital-ai-technology-intern-c48375
+  company: Ecolab
+  role: Digital & AI Technology Intern
+  location: Naperville, IL
+  link: https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Saint-Paul/Digital---AI-Technology-Intern_R00303249
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: microsoft-software-engineer-intern-ai-and-ml-projects-0b6f9f
+  company: Microsoft
+  role: Software Engineer Intern - AI and ML Projects
+  location: Mountain View, CA
+  link: https://apply.careers.microsoft.com/careers/job/1970393556972687
   date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
@@ -8122,7 +5490,109 @@
   - MS
   status: open
   sources:
-  - company:twg-global
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: microsoft-software-engineer-intern-ai-and-ml-cda265
+  company: Microsoft
+  role: Software Engineer Intern - AI and ML
+  location: Boston, MA
+  link: https://apply.careers.microsoft.com/careers/job/1970393556972698
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-research-intern-ai-native-databases-af2f77
+  company: ByteDance
+  role: Research Intern (AI-Native Databases) - 2027 Start
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7678450462765254965/detail
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-research-intern-ai-native-databases-18ded0
+  company: ByteDance
+  role: Research Intern (AI-Native Databases) - 2027 Start
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7678451067500529925/detail
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: meta-research-scientist-intern-nmr-analysis-automation-7506d4
+  company: Meta
+  role: Research Scientist Intern - NMR Analysis Automation
+  location: Redmond, WA
+  link: https://www.metacareers.com/jobs/1418337243438665
+  date_posted: '2026-07-03'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bytedance-cloud-acceleration-research-intern-dpu-ai-infra-2276cb
+  company: ByteDance
+  role: Cloud Acceleration Research Intern (DPU & AI Infra) - 2027 Start
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7679562740656933125/detail
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-cloud-acceleration-research-intern-dpu-ai-infra-6ea179
+  company: ByteDance
+  role: Cloud Acceleration Research Intern (DPU & AI Infra) - 2027 Start
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7679552807864879365/detail
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
