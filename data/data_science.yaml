@@ -533,22 +533,6 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: marmon-holdings-data-engineering-intern-co-op-255c42
-  company: Marmon Holdings
-  role: Data Engineering Intern Co-op
-  location: Milwaukee, WI
-  link: https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453-1
-  date_posted: '2026-05-16'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: marmon-holdings-data-engineering-intern-co-op-9401f4
   company: Marmon Holdings
   role: Data Engineering Intern/Co-op
@@ -566,54 +550,6 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: integra-fec-fall-data-scientist-intern-phd-c89985
-  company: Integra FEC
-  role: (FALL) Data Scientist Intern - PhD
-  location: Austin, TX
-  link: https://job-boards.greenhouse.io/integra/jobs/5134592008
-  date_posted: '2026-04-28'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: integra-fec-fall-data-analyst-intern-4d6ba0
-  company: Integra FEC
-  role: (FALL) Data Analyst Intern
-  location: Austin, TX
-  link: https://job-boards.greenhouse.io/integra/jobs/5134522008
-  date_posted: '2026-04-28'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: baker-hughes-intern-systems-data-analysis-ce-0bdc55
-  company: Baker Hughes
-  role: Intern – Systems & Data Analysis – Ce...
-  location: Celle, DE
-  link: https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/DE-CELLE-BAKER-HUGHES-STRASSE-1/Werkstudent-fr-System--und-Datenanalyse-2026--Celle-_R158064
-  date_posted: '2026-07-16'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: american-express-campus-undergraduate-summer-internship-strategy-analytics-credit-fraud-risk-497517
   company: American Express
   role: Campus Undergraduate Summer Internship - Strategy & Analytics - Credit & Fraud
@@ -648,27 +584,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: the-boeing-company-data-analytics-intern-2b55f7
-  company: The Boeing Company
-  role: Data Analytics Intern
-  location: Ridley Park, PA
-  link: https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  - company:boeing
-  - company:the-boeing-company
   date_added: '2026-08-08'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -790,7 +705,7 @@
   company: Microsoft
   role: 'Software Engineer: Data Platform/Analytics Intern Opportunities for University
     Students - Redmond'
-  location: Washington, DC
+  location: Redmond, WA
   link: https://apply.careers.microsoft.com/careers/job/1970393556922931
   date_posted: '2026-08-04'
   date_estimated: false
@@ -800,21 +715,6 @@
   status: open
   sources:
   - github_tracker:speedyapply
-  date_added: '2026-08-08'
-  last_verified: '2026-08-11'
-  possible_duplicate_of: null
-- id: microsoft-software-engineer-intern-data-platform-analytics-b1ffd2
-  company: Microsoft
-  role: Software Engineer Intern, Data Platform/Analytics
-  location: Redmond, WA
-  link: https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922931
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
@@ -936,12 +836,17 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  - company:boeing
+  - company:the-boeing-company
   date_added: '2026-08-09'
   last_verified: '2026-08-15'
-  possible_duplicate_of: the-boeing-company-data-analytics-intern-2b55f7
+  possible_duplicate_of: null
 - id: pnc-financial-services-data-modeling-and-analytics-undergr-d11d55
   company: PNC Financial Services
-  role: Data, Modeling, and Analytics Undergr...
+  role: Data, Modeling, and Analytics Undergraduate Intern
   location: Pittsburgh, PA
   link: https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Data--Modeling--and-Analytics-Undergraduate-Intern_R231526-1
   date_posted: '2026-08-04'
@@ -958,7 +863,7 @@
   possible_duplicate_of: null
 - id: bytedance-data-lake-infrastructure-and-data-analytics-research-engineer-intern-applied-machine-learning-ark-9d250a
   company: ByteDance
-  role: Data Lake Infrastructure &amp; Data Analytics Research Engineer Intern (AML-Ark-US)
+  role: Data Lake Infrastructure & Data Analytics Research Engineer Intern (AML-Ark-US)
     - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7671109787509213445/detail
@@ -1031,7 +936,7 @@
   possible_duplicate_of: null
 - id: bytedance-data-lake-infrastructure-data-analytics-research-engineer-intern-applied-machine-learning-ark-5530fd
   company: ByteDance
-  role: Data Lake Infrastructure &amp; Data Analytics Research Engineer Intern (AML-Ark-US)
+  role: Data Lake Infrastructure & Data Analytics Research Engineer Intern (AML-Ark-US)
     - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672394389001816325/detail
@@ -1252,5 +1157,21 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: re-spec-inc-student-engineering-intern-data-sci-95300c
+  company: RE/SPEC Inc.
+  role: Student Engineering Intern - Data Science
+  location: Rapid City, SD
+  link: https://jobs.smartrecruiters.com/RESPECInc/744000107100902
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
   last_verified: '2026-08-15'
   possible_duplicate_of: null

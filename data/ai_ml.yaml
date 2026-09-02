@@ -190,7 +190,7 @@
   role: AI Software Engineering Intern
   location: Phoenix, AZ
   link: https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641
-  date_posted: '2026-07-29'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -202,13 +202,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: intel-ai-software-engineering-intern-4a977c
   company: Intel
   role: AI Software Engineering Intern
   location: Hillsboro, OR
   link: https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639
-  date_posted: '2026-07-29'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -220,7 +220,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: exowatt-software-engineering-intern-agent-platform-ai-695290
   company: Exowatt
   role: Software Engineering Intern - Agent Platform - AI
@@ -734,7 +734,7 @@
   possible_duplicate_of: null
 - id: tencent-hunyuan-multimodal-algorithm-researcher-intern-omni-modal-bfb175
   company: Tencent
-  role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal​​
+  role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal
   location: Palo Alto, CA
   link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-Intern-Omni-Modal---_R107051
   date_posted: '2026-07-02'
@@ -749,7 +749,7 @@
   possible_duplicate_of: null
 - id: tencent-hunyuan-multimodal-algorithm-researcher-intern-omni-modal-ad40cf
   company: Tencent
-  role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal​​
+  role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal
   location: Palo Alto, CA
   link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-intern-Omni-Modal---_R106650
   date_posted: '2026-07-02'
@@ -1032,8 +1032,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: constellation-space-graduate-phd-research-intern-machine-learning-1617bd
   company: Constellation Space
@@ -1210,7 +1211,7 @@
   possible_duplicate_of: null
 - id: terranox-ai-summer-intern-ai-ml-engineering-a6eab1
   company: Terranox AI
-  role: Summer Intern - AI/ML Engineering 🇺🇸
+  role: Summer Intern - AI/ML Engineering
   location: San Francisco, CA
   link: https://www.workatastartup.com/jobs/94631
   date_posted: '2026-05-14'
@@ -1361,24 +1362,6 @@
   last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
-- id: intuitive-computer-vision-engineering-intern-c3873f
-  company: Intuitive
-  role: Computer Vision Engineering Intern - ...
-  location: Sunnyvale, CA
-  link: https://jobs.smartrecruiters.com/Intuitive/744000133458290
-  date_posted: '2026-06-22'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: bytedance-applied-research-intern-ai-safety-s-3a3777
   company: ByteDance
   role: Applied Research Intern- AI Safety Security -Global Tech Research Program-2027
@@ -1435,7 +1418,7 @@
   date_estimated: false
 - id: bosch-group-research-intern-world-action-model-cb0362
   company: Bosch Group
-  role: Research Intern – World-Action Model ...
+  role: Research Intern – World-Action Model / VLA for Autonomous Driving
   location: Sunnyvale, CA
   link: https://jobs.smartrecruiters.com/BoschGroup/744000136313549
   date_posted: '2026-07-07'
@@ -1519,7 +1502,7 @@
   date_estimated: true
 - id: nissan-autonomous-driving-applications-resea-7521e8
   company: Nissan
-  role: Autonomous Driving Applications Resea...
+  role: Autonomous Driving Applications Research Intern
   location: Santa Clara, CA
   link: https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/Autonomous-Driving-Applications-Research-Intern_R00209383
   date_posted: '2026-07-09'
@@ -1588,7 +1571,7 @@
   date_estimated: false
 - id: axiomatic-ai-internship-research-uncertainty-q-0cd516
   company: Axiomatic AI
-  role: Internship - Research  (Uncertainty Q...
+  role: Internship - Research (Uncertainty Q...
   location: Boston, MA
   link: https://job-boards.eu.greenhouse.io/axiomaticai/jobs/4845020101
   date_posted: '2026-07-23'
@@ -1827,25 +1810,6 @@
   last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
-- id: fti-consulting-technology-intern-technology-76df5d
-  company: FTI Consulting
-  role: Technology Intern - Technology
-  location: Houston, TX
-  link: https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareersPrivate/job/United-States/XMLNAME-2027-Intern---Technology_JR260339
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: fti-consulting-technology-intern-b8204d
   company: FTI Consulting
   role: Technology Intern
@@ -1907,7 +1871,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-foundations-intelligence-service-32184c
   company: TikTok
-  role: Research Scientist Intern (Data-TnS-Algo-Foundations &amp; Intelligence Service)
+  role: Research Scientist Intern (Data-TnS-Algo-Foundations & Intelligence Service)
     - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662677746436524293
@@ -2401,7 +2365,7 @@
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: cno-financial-group-artificial-intelligence-information-technology-intern-ai-76fcd0
-  company: 'CNO Financial Group '
+  company: CNO Financial Group
   role: Artificial Intelligence Information Technology Intern - AI
   location: Carmel, IN
   link: https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389
@@ -2457,7 +2421,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-ads-signal-measurement-6df6f2
   company: TikTok
-  role: Machine Learning Engineer Intern (Ads Signal &amp; Measurement) - 2027 Summer
+  role: Machine Learning Engineer Intern (Ads Signal & Measurement) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669700361976809733
   date_posted: '2026-08-04'
@@ -2623,7 +2587,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-engineer-intern-agentic-systems-ai-infrastructure-generalized-architecture-518bf1
   company: TikTok
-  role: Research Engineer Intern, Agentic Systems &amp; AI Infrastructure  (TikTok-Generalized
+  role: Research Engineer Intern, Agentic Systems & AI Infrastructure (TikTok-Generalized
     Arch) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7667934792727906565
@@ -2699,7 +2663,7 @@
   possible_duplicate_of: null
 - id: tiktok-data-engineer-intern-ads-targeting-c3e6b9
   company: TikTok
-  role: Data Engineering Project Intern  (Ads Targeting) - 2027 Start
+  role: Data Engineering Project Intern (Ads Targeting) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668533140146817333
   date_posted: '2026-08-05'
@@ -2755,8 +2719,8 @@
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-511a28
   company: ByteDance
-  role: Research Scientist Intern (Video Quality Analysis &amp; Coding Strategy) -
-    2027 Start
+  role: Research Scientist Intern (Video Quality Analysis & Coding Strategy) - 2027
+    Start
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670375041041320245/detail
   date_posted: '2026-08-06'
@@ -2874,7 +2838,7 @@
   company: Microsoft
   role: 'Software Engineer: AI/ML & LLM Intern Opportunities for University Students
     - Redmond'
-  location: Washington, DC
+  location: Redmond, WA
   link: https://apply.careers.microsoft.com/careers/job/1970393556922929
   date_posted: '2026-08-04'
   date_estimated: false
@@ -2884,8 +2848,10 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:vanshb03
+  - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ml-infra-2027-start-phd-c63f8f
   company: TikTok
@@ -2921,23 +2887,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: microsoft-software-engineer-intern-ai-ml-llm-8365ba
-  company: Microsoft
-  role: Software Engineer Intern, AI/ML & LLM
-  location: Redmond, WA
-  link: https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922929
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: modal-ml-research-intern-6636a4
   company: Modal
   role: ML Research Intern
@@ -2958,7 +2907,7 @@
   possible_duplicate_of: null
 - id: nelnet-agentic-ai-intern-marketing-and-comm-cd8bbb
   company: Nelnet
-  role: Agentic AI Intern- Marketing and Comm...
+  role: Agentic AI Intern- Marketing and Communications
   location: Lincoln, NE
   link: https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Agentic-AI-Intern--Marketing-and-Communications_R22919
   date_posted: '2026-07-31'
@@ -3023,7 +2972,7 @@
   possible_duplicate_of: null
 - id: bytedance-research-intern-sdn-traffic-intellig-3ab4b5
   company: ByteDance
-  role: Research Intern (SDN Traffic Intelligence &amp; Control) - 2027 Start
+  role: Research Intern (SDN Traffic Intelligence & Control) - 2027 Start
   location: San Jose, CA
   link: https://joinbytedance.com/search/7668118098724079877
   date_posted: '2026-08-08'
@@ -3210,40 +3159,8 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: ge-vernova-digital-technology-intern-d73d93
-  company: GE Vernova
-  role: Digital Technology Intern
-  location: Greenville, SC
-  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-2
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: ge-vernova-digital-technology-intern-c5f332
-- id: marvell-applied-machine-learning-scientist-in-aa33ed
-  company: Marvell
-  role: Applied Machine Learning Scientist In...
-  location: Santa Clara, CA
-  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Applied-Machine-Learning-Scientist-Intern---PhD_2502662-1
-  date_posted: '2026-07-10'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: cno-financial-group-enterprise-architecture-it-intern-remote-b7799b
-  company: 'CNO Financial Group '
+  company: CNO Financial Group
   role: Enterprise Architecture IT Intern - REMOTE
   location: Carmel, IN
   link: https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/IT-Intern_JR170390
@@ -3260,8 +3177,8 @@
   possible_duplicate_of: null
 - id: bytedance-ai-infrastructure-engineer-intern-co-42cd1f
   company: ByteDance
-  role: AI Infrastructure Engineer Intern (Compute Efficiency &amp; Scheduling) -
-    2027 Summer
+  role: AI Infrastructure Engineer Intern (Compute Efficiency & Scheduling) - 2027
+    Summer
   location: Seattle, WA
   link: https://joinbytedance.com/search/7668802157205965109
   date_posted: '2026-08-09'
@@ -3277,7 +3194,7 @@
   possible_duplicate_of: null
 - id: xpeng-motors-2027-campus-recruiting-general-intell-d48445
   company: XPENG Motors
-  role: 2027 Campus Recruiting General Intell...
+  role: 2027 Campus Recruiting General Intelligence Center Internship Position
   location: Santa Clara, CA
   link: https://job-boards.greenhouse.io/xpengmotors/jobs/8680036002
   date_posted: '2026-08-05'
@@ -3293,7 +3210,7 @@
   possible_duplicate_of: null
 - id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-116983
   company: ByteDance
-  role: Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern
+  role: Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern
     (AML-Ark-US) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7671105026009925893/detail
@@ -3332,7 +3249,7 @@
   possible_duplicate_of: null
 - id: bytedance-agent-evaluation-evolution-machine-learning-engineer-intern-applied-machine-learning-ark-24d044
   company: ByteDance
-  role: Agent Evaluation &amp; Evolution Machine Learning Engineer Intern (AML-Ark-US)
+  role: Agent Evaluation & Evolution Machine Learning Engineer Intern (AML-Ark-US)
     - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7671096345243535669/detail
@@ -3424,7 +3341,7 @@
   possible_duplicate_of: null
 - id: bytedance-agent-evaluation-evolution-machine-learning-engineer-intern-applied-machine-learning-ark-b5bc69
   company: ByteDance
-  role: Agent Evaluation &amp; Evolution Machine Learning Engineer Intern (AML-Ark-US)
+  role: Agent Evaluation & Evolution Machine Learning Engineer Intern (AML-Ark-US)
     - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672391300141877557/detail
@@ -3463,7 +3380,7 @@
   possible_duplicate_of: null
 - id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-c4e170
   company: ByteDance
-  role: Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern
+  role: Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern
     (AML-Ark-US) - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672392998231050549/detail
@@ -3638,7 +3555,7 @@
   possible_duplicate_of: null
 - id: mercedes-benz-r-d-north-america-ai-program-manager-intern-4d7648
   company: Mercedes-Benz R&D North America
-  role: ​​AI Program Manager Intern​
+  role: AI Program Manager Intern
   location: San Jose, CA
   link: https://jobs.lever.co/MBRDNA/a5501534-a21b-4e47-a249-37dac374210f
   date_posted: '2026-08-15'

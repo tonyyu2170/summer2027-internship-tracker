@@ -108,7 +108,7 @@ https://www.redventures.com/careers/positions/open?gh_jid=7733251: __drop__
 : __drop__
 https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334390: __drop__
 https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334396: __drop__
-https://job-boards.greenhouse.io/figureai/jobs/4702104006: hardware
+https://job-boards.greenhouse.io/figureai/jobs/4702104006: __drop__
 ? https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Technology---Innovation-Organization-Electrical-Engineering-Internship_3167270-1
 : swe
 https://parsons.wd5.myworkdayjobs.com/search/job/US---MD-Field-Location/CNO-Development-Intern-Co-op_R184352: swe
@@ -132,41 +132,23 @@ https://lifeattiktok.com/search/7637047421538404613: __drop__
 https://lifeattiktok.com/search/7646621925436131637: __drop__
 https://lifeattiktok.com/search/7654431844394322229: __drop__
 # both link forms per req id (slug-based family guess above was unreliable)
-https://joinbytedance.com/search/7533045355162044690: __drop__
 https://joinbytedance.com/search/7534878965941766408: __drop__
-https://joinbytedance.com/search/7535171166420453639: __drop__
-https://joinbytedance.com/search/7535951608832657682: __drop__
-https://joinbytedance.com/search/7535953226975054098: __drop__
-https://joinbytedance.com/search/7538942403488188680: __drop__
-https://joinbytedance.com/search/7543005612200970503: __drop__
 https://joinbytedance.com/search/7595733632086591797: __drop__
-https://joinbytedance.com/search/7600174040255007029: __drop__
 https://joinbytedance.com/search/7610543185362372917: __drop__
-https://joinbytedance.com/search/7625759034518128901: __drop__
 https://joinbytedance.com/search/7629500062003218741: __drop__
 https://joinbytedance.com/search/7631599293708126517: __drop__
 https://joinbytedance.com/search/7637047421538404613: __drop__
-https://joinbytedance.com/search/7642762054696896773: __drop__
 https://joinbytedance.com/search/7646621925436131637: __drop__
 https://joinbytedance.com/search/7654431844394322229: __drop__
-https://joinbytedance.com/search/7665037087551129909: __drop__
 https://lifeattiktok.com/search/7533045355162044690: __drop__
-https://lifeattiktok.com/search/7534878965941766408: __drop__
 https://lifeattiktok.com/search/7535171166420453639: __drop__
 https://lifeattiktok.com/search/7535951608832657682: __drop__
 https://lifeattiktok.com/search/7535953226975054098: __drop__
 https://lifeattiktok.com/search/7538942403488188680: __drop__
 https://lifeattiktok.com/search/7543005612200970503: __drop__
-https://lifeattiktok.com/search/7595733632086591797: __drop__
 https://lifeattiktok.com/search/7600174040255007029: __drop__
-https://lifeattiktok.com/search/7610543185362372917: __drop__
 https://lifeattiktok.com/search/7625759034518128901: __drop__
-https://lifeattiktok.com/search/7629500062003218741: __drop__
-https://lifeattiktok.com/search/7631599293708126517: __drop__
-https://lifeattiktok.com/search/7637047421538404613: __drop__
 https://lifeattiktok.com/search/7642762054696896773: __drop__
-https://lifeattiktok.com/search/7646621925436131637: __drop__
-https://lifeattiktok.com/search/7654431844394322229: __drop__
 https://lifeattiktok.com/search/7665037087551129909: __drop__
 # 2026-08-09 custom-host verification: live pages say a non-2027 term.
 http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008: __drop__
@@ -198,7 +180,6 @@ https://job-boards.greenhouse.io/astranis/jobs/4699071006: __drop__
 https://job-boards.greenhouse.io/eulerity/jobs/4694300006: __drop__
 https://job-boards.greenhouse.io/figureai/jobs/4606072006: __drop__
 https://job-boards.greenhouse.io/figureai/jobs/4676467006: __drop__
-https://job-boards.greenhouse.io/figureai/jobs/4702104006: __drop__
 https://job-boards.greenhouse.io/msfcareers/jobs/5271141008: __drop__
 https://job-boards.greenhouse.io/vardaspace/jobs/7670782003: __drop__
 https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1: __drop__
@@ -315,7 +296,7 @@ https://magna.wd3.myworkdayjobs.com/Magna/job/Southfield-Michigan-US/Intern---En
 https://magna.wd3.myworkdayjobs.com/en-US/magna/job/Goleta-California-US/Intern---Infrared-Imaging---Algorithms_R00247602: hardware
 https://manh.wd5.myworkdayjobs.com/en-US/campus/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_16931: ai_ml
 ? https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453-1
-: data_science
+: __drop__
 ? https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453
 : data_science
 https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Engineering-Internship--Summer-2027-_R1346: data_science
@@ -363,8 +344,8 @@ https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328: quan
 https://www.drw.com/work-at-drw/listings/venture-capital-analyst-intern-3467348: __drop__
 https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&gh_src=f4cuomjz1us: quant
 https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-c-or-python-summer-2027/: quant
-https://www.imc.com/us/careers/jobs/4823924101: quant
-https://www.imc.com/us/careers/jobs/4907430101: quant
+https://www.imc.com/us/careers/jobs/4823924101: __drop__
+https://www.imc.com/us/careers/jobs/4907430101: __drop__
 https://www.imc.com/us/careers/jobs/4912874101: quant
 https://www.janestreet.com/join-jane-street/position/8599644002/: quant
 https://www.janestreet.com/join-jane-street/position/8611307002/: quant
@@ -471,9 +452,9 @@ https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Technology-
 
 # Added by the scheduled cloud scrape, 2026-08-11 (zapplyjobs rows parked in unclassified.json).
 # LLNL Computing intern (grad) - HPC/software, Livermore CA
-https://jobs.smartrecruiters.com/llnl/3743990013801396: swe
+https://jobs.smartrecruiters.com/llnl/3743990013801396: __drop__
 # LLNL Computing intern (undergrad) - HPC/software, Livermore CA
-https://jobs.smartrecruiters.com/llnl/3743990013801386: swe
+https://jobs.smartrecruiters.com/llnl/3743990013801386: __drop__
 # IT business analyst, not SWE; cf. 'Business Systems Administration Internship' drop
 https://jobs.smartrecruiters.com/NorthwesternMutual/85751624: __drop__
 # generic university research intern, no tracked discipline
@@ -566,7 +547,7 @@ https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67: __drop__
 ? https://warnerbros.wd5.myworkdayjobs.com/global/job/GA-Atlanta-1050-Techwood-Drive-NW/Research---Analytics-Internships--ATL---Fall-2026_R000107483
 : __drop__
 # auto apply_ats_corrections: category adjudication.
-https://apply.workable.com/tmeic-corporation-americas/j/68E556E5CA/apply: hardware
+https://apply.workable.com/tmeic-corporation-americas/j/68E556E5CA/apply: __drop__
 ? https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Facilities-Engineering_JR2026521015-1
 : __drop__
 ? https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Engineering-Intern_JR2026520439-1
@@ -679,3 +660,61 @@ https://careers-berrydunn.icims.com/jobs/3973/job?mobile=true&needsRedirect=fals
 https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279223: __drop__
 ? https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Radar-Digital-Products-Engineering-Intern--Summer-2027-_01866243
 : hardware
+# 2026-09-01 data audit: off-cycle / non-internship rows and superseded
+# link forms of deduplicated postings (deletion alone re-imports).
+? https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306
+: __drop__
+? https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275
+: __drop__
+https://boards.greenhouse.io/embed/job_app?token=8049938: __drop__
+? https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1
+: __drop__
+https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Technology-Internship-Program---Summer-2027_R244387-1: __drop__
+https://careers-kimley-horn.icims.com/jobs/25761/job?mobile=true&needsRedirect=false: __drop__
+https://careers.appian.com/jobs/8041237-software-engineering-intern: __drop__
+https://careers.formlabs.com/job/7890746/apply/?gh_jid=7890746: __drop__
+? https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareersPrivate/job/United-States/XMLNAME-2027-Intern---Technology_JR260339
+: __drop__
+? https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-2
+: __drop__
+? https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Niskayuna/Engineering-Intern---Power-Conversion---Storage-AI-Tool-Developer--2027_R5049957-1
+: __drop__
+? https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential/job/Richmond-Virginia/Genworth-Actuarial-Development-Program-Intern---Summer-2027_REQ-260272
+: __drop__
+? https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-1
+: __drop__
+https://job-boards.greenhouse.io/integra/jobs/5134522008: __drop__
+https://job-boards.greenhouse.io/integra/jobs/5134592008: __drop__
+https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724/apply: __drop__
+https://jobs.smartrecruiters.com/BoschGroup/744000121016953: __drop__
+? https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Applied-Machine-Learning-Scientist-Intern---PhD_2502662-1
+: __drop__
+https://twosigma.avature.net/careers/JobDetail/13945: __drop__
+? https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--Masters----Early-Careers_R-568270
+: __drop__
+? https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279
+: __drop__
+? https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--Masters----Early-Careers_R-568259
+: __drop__
+https://www.flowtraders.com/careers/job-description/8047166: __drop__
+https://www.google.com/about/careers/applications/jobs/results/85564713261245126: __drop__
+? https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027?utm_source=github-vansh-ouckah
+: __drop__
+https://www.imc.com/us/careers/jobs/4823923101: __drop__
+https://www.imc.com/us/careers/jobs/4823945101: __drop__
+https://www.imc.com/us/careers/jobs/4907399101: __drop__
+https://www.imc.com/us/careers/jobs/4907400101: __drop__
+https://www.janestreet.com/join-jane-street/position/8419303002: __drop__
+https://www.oldmissioncapital.com/careers/?gh_jid=7796180003: __drop__
+https://www.pathai.com/careers/8623056002?gh_jid=8623056002: __drop__
+https://www.pathai.com/careers/8651564002?gh_jid=8651564002: __drop__
+https://www.tower-research.com/open-positions/?gh_jid=8024128: __drop__
+https://www.tower-research.com/open-positions/?gh_jid=8044334: __drop__
+? https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/DE-CELLE-BAKER-HUGHES-STRASSE-1/Praktikum--Bachelor--und-Masterarbeit--Maschinenbau-und-Mechatronik-2026--Celle-_R158055
+: __drop__
+? https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/DE-CELLE-BAKER-HUGHES-STRASSE-1/Werkstudent-fr-System--und-Datenanalyse-2026--Celle-_R158064
+: __drop__
+https://jobs.smartrecruiters.com/Intuitive/744000133458290: __drop__
+https://jobs.smartrecruiters.com/Sandisk/744000136097669: __drop__
+? https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Mentor-Ohio/Custom-Packaging-Design-Engineer-Co-Op--Spring-2027-_R12878
+: __drop__

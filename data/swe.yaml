@@ -12,6 +12,11 @@
   - github_tracker
   - github_tracker:sndsh404
   - github_tracker:chieler
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -466,25 +471,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: google-software-engineering-intern-bs-summer-2027-1e300e
-  company: Google
-  role: Software Engineering Intern - BS - Summer 2027
-  location: Mountain View, CA
-  link: https://www.google.com/about/careers/applications/jobs/results/85564713261245126
-  date_posted: '2026-07-21'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: mathtech-web-application-developer-intern-2b5af6
   company: Mathtech
   role: Web Application Developer Intern
@@ -541,7 +527,7 @@
   role: Software Engineering Intern
   location: Dallas, TX
   link: https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079
-  date_posted: '2026-08-07'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -553,7 +539,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: ge-healthcare-edison-engineering-development-program-intern-software-537e26
   company: GE HealthCare
   role: Edison Engineering Development Program Intern - Software
@@ -693,7 +679,7 @@
   role: Teleoperation Software Engineering Internship
   location: Houston, TX
   link: https://jobs.ashbyhq.com/persona.ai/6078fafd-ba34-4c89-b260-7eb15be3cb9c
-  date_posted: '2026-07-30'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -705,7 +691,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: serval-software-engineer-intern-6afd5e
   company: Serval
   role: Software Engineer Intern
@@ -887,25 +873,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
   possible_duplicate_of: null
-- id: anduril-2027-software-engineer-intern-f05175
-  company: Anduril
-  role: 2027 Software Engineer Intern
-  location: Atlanta, GA
-  link: https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007
-  date_posted: '2026-06-10'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  - github_tracker:zshah101
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: centerfield-software-engineer-intern-1d8295
   company: Centerfield
   role: Software Engineer Intern
@@ -1317,27 +1284,9 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: anduril-software-engineer-intern-fbf8a2
-  company: Anduril
-  role: Software Engineer Intern
-  location: Atlanta, GA
-  link: https://job-boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007
-  date_posted: '2026-06-10'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-07-23'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: starsling-software-engineer-intern-78c3a4
   company: StarSling
-  role: Software Engineer Intern 🇺🇸
+  role: Software Engineer Intern
   location: San Mateo, CA
   link: https://www.workatastartup.com/jobs/95003
   date_posted: '2026-05-19'
@@ -1354,7 +1303,7 @@
   possible_duplicate_of: null
 - id: abundant-software-engineering-intern-research-focused-a27502
   company: Abundant
-  role: Software Engineering Intern, Research Focused 🇺🇸
+  role: Software Engineering Intern, Research Focused
   location: San Francisco, CA
   link: https://www.workatastartup.com/jobs/94634
   date_posted: '2026-05-14'
@@ -1421,7 +1370,7 @@
   possible_duplicate_of: null
 - id: dedalus-labs-forward-deployed-engineer-intern-b424b7
   company: Dedalus Labs
-  role: Forward Deployed Engineer Intern 🇺🇸
+  role: Forward Deployed Engineer Intern
   location: San Francisco, CA
   link: https://www.workatastartup.com/jobs/94400
   date_posted: '2026-05-09'
@@ -1486,7 +1435,7 @@
   possible_duplicate_of: null
 - id: poshmark-cloud-platform-engineer-intern-growth-dc52bc
   company: Poshmark
-  role: Cloud Platform Engineer Intern, Growth 🛂
+  role: Cloud Platform Engineer Intern, Growth
   location: Redwood City, CA
   link: https://jobs.ashbyhq.com/poshmark/062b84e6-1633-43ae-870b-83cb62893caa
   date_posted: '2026-04-20'
@@ -1502,7 +1451,7 @@
   possible_duplicate_of: null
 - id: fiserv-application-development-intern-ad0c1c
   company: Fiserv
-  role: Application Development Intern 🛂
+  role: Application Development Intern
   location: Alpharetta, GA
   link: https://careers.fiserv.com/us/en/job/FFFYJUSR10390264EXTERNALENUS/Application-Development-Summer-Intern
   date_posted: '2026-04-20'
@@ -1519,7 +1468,7 @@
   possible_duplicate_of: null
 - id: fiserv-technology-intern-b8eebb
   company: Fiserv
-  role: Technology Intern 🛂
+  role: Technology Intern
   location: Columbus, OH
   link: https://careers.fiserv.com/us/en/job/FFFYJUSR10390344EXTERNALENUS/Technology-Summer-Intern
   date_posted: '2026-04-20'
@@ -1744,7 +1693,7 @@
 - id: cadence-university-software-intern-12de74
   company: Cadence (University)
   role: Software Intern
-  location: SAN JOSE, CA
+  location: San Jose, CA
   link: https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Software-Intern_R53282
   date_posted: '2026-07-09'
   term: Summer 2027
@@ -1831,7 +1780,7 @@
   role: Security Operations (Cybersecurity) i...
   location: Westbrook, ME
   link: https://idexx.wd1.myworkdayjobs.com/IDEXX/job/Westbrook-ME/Security-Operations--Cybersecurity--internship_J-053268
-  date_posted: '2026-08-03'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -1842,7 +1791,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: circleback-software-engineering-intern-summer-2-26e7bd
   company: Circleback
   role: Software Engineer Intern
@@ -1913,6 +1862,7 @@
   - github_tracker
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
+  - github_tracker:northwesternfintech
   date_added: '2026-07-23'
   last_verified: '2026-08-12'
   possible_duplicate_of: null
@@ -2024,7 +1974,7 @@
   role: Database Engineering Intern
   location: Dallas, TX
   link: https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636
-  date_posted: '2026-08-07'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2036,7 +1986,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: hewlett-packard-hp-software-engineering-intern-device-experiences-2f807f
   company: Hewlett Packard (HP)
   role: Software Engineering Intern, Device Experiences
@@ -2319,7 +2269,7 @@
   possible_duplicate_of: null
 - id: anduril-software-engineer-intern-apps-reviewed-from-aug-2026-8e5113
   company: Anduril
-  role: Software Engineer Intern (apps reviewed from Aug 2026)
+  role: Software Engineer Intern
   location: Costa Mesa, CA
   link: https://job-boards.greenhouse.io/andurilindustries/jobs/5148079007
   date_posted: '2026-06-10'
@@ -2329,8 +2279,16 @@
   status: open
   sources:
   - github_tracker:sndsh404
+  - github_tracker
+  - github_tracker:speedyapply
+  - github_tracker:zshah101
+  - github_tracker:zapplyjobs
+  - github_tracker:vanshb03
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: false
 - id: cloudfit-software-summer-intern-early-interest-software-ai-ml-cyber-dca96d
@@ -2387,7 +2345,7 @@
 - id: nidec-software-engineer-co-op-e4f614
   company: Nidec
   role: Software Engineer Co-Op
-  location: St. Louis - WPE, MO
+  location: St. Louis, MO
   link: https://nidec.wd1.myworkdayjobs.com/en-US/nidec/job/North-AmericaUSAMissouriSt-Louis---WPE-MO/Software-Engineer-Co-Op_R0015871
   date_posted: '2026-06-10'
   term: Summer 2027
@@ -2520,23 +2478,6 @@
   date_added: '2026-07-24'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: anduril-software-engineer-intern-844a26
-  company: Anduril
-  role: Software Engineer Intern
-  location: Boston, MA
-  link: https://boards.greenhouse.io/andurilindustries/jobs/5148079007
-  date_posted: '2026-06-10'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: palantir-forward-deployed-software-engineer-internship-us-government-067c1b
   company: Palantir
   role: Forward Deployed Software Engineer – Internship - US Government
@@ -2585,23 +2526,6 @@
   last_verified: '2026-08-11'
   possible_duplicate_of: null
   date_estimated: false
-- id: google-software-engineering-intern-f883c1
-  company: Google
-  role: Software Engineering Intern
-  location: Mountain View, CA
-  link: https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027?utm_source=github-vansh-ouckah
-  date_posted: '2026-07-24'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-07-24'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: akuna-capital-software-engineer-intern-c-net-desktop-31c020
   company: Akuna Capital
   role: Software Engineer Intern, C# .NET Desktop
@@ -2615,6 +2539,12 @@
   sources:
   - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker
+  - github_tracker:northwesternfintech
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-07-24'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -2632,6 +2562,12 @@
   sources:
   - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker
+  - github_tracker:northwesternfintech
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-07-24'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -2649,6 +2585,13 @@
   sources:
   - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker
+  - github_tracker:zshah101
+  - github_tracker:northwesternfintech
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-07-24'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -2666,6 +2609,10 @@
   sources:
   - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  - github_tracker:northwesternfintech
   date_added: '2026-07-24'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -2683,6 +2630,14 @@
   sources:
   - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker
+  - github_tracker:zshah101
+  - github_tracker:northwesternfintech
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:sndsh404
   date_added: '2026-07-24'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -2776,23 +2731,6 @@
   date_added: '2026-07-25'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: jane-street-software-engineer-winter-co-op-34623b
-  company: Jane Street
-  role: Software Engineer Winter Co-Op
-  location: New York City, NY
-  link: https://www.janestreet.com/join-jane-street/position/8419303002
-  date_posted: '2026-07-24'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  date_added: '2026-07-25'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: charles-river-analytics-software-qa-tester-intern-co-op-06c64c
   company: Charles River Analytics
   role: Software QA Tester Intern/Co-op
@@ -2860,7 +2798,7 @@
   date_estimated: true
 - id: marmon-holdings-digital-production-engineering-intern-24f251
   company: Marmon Holdings
-  role: Digital Production Engineering Intern...
+  role: Digital Production Engineering Intern OR Student Co-Op
   location: Milwaukee, WI
   link: https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Milwaukee-WI/Digital-Production-Engineering-Intern-OR-Student-Co-Op_JR0000037451
   date_posted: '2026-03-04'
@@ -2926,7 +2864,7 @@
   date_estimated: true
 - id: microchip-technology-intern-equipment-engineering-technic-28e659
   company: Microchip Technology
-  role: Intern- Equipment Engineering Technic...
+  role: Intern- Equipment Engineering Technician (Wet Process)
   location: Gresham, OR
   link: https://microchiphr.wd5.myworkdayjobs.com/External/job/OR---Gresham/Intern--Equipment-Engineering-Technician--Wet-Process-_R2124-25
   date_posted: '2026-07-13'
@@ -3338,8 +3276,8 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-d0d748
   company: TikTok
-  role: Software Engineer Intern (TikTok-Generalized Arch-Code Intelligence &amp;
-    Quality Validation) - 2027 Summer
+  role: Software Engineer Intern (TikTok-Generalized Arch-Code Intelligence & Quality
+    Validation) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935738376227077
   date_posted: '2026-08-03'
@@ -3637,25 +3575,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: capital-one-technology-intern-3a0751
-  company: Capital One
-  role: Technology Intern
-  location: Plano, TX
-  link: https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Technology-Internship-Program---Summer-2027_R244387-1
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - chieler
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: chicago-trading-company-software-engineer-intern-592222
   company: Chicago Trading Company
   role: Software Engineer Intern
@@ -3690,6 +3609,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-08'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -3943,7 +3863,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-a54de1
   company: TikTok
-  role: Software Engineer Intern (AI Agent &amp; Global Revenue Platform) - 2027 Summer
+  role: Software Engineer Intern (AI Agent & Global Revenue Platform) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669712589169117445
   date_posted: '2026-08-04'
@@ -4318,8 +4238,7 @@
   possible_duplicate_of: null
 - id: bytedance-network-software-engineer-intern-network-observation-2c86db
   company: ByteDance
-  role: Network Software Development Engineer Intern(Network  Observation) - 2027
-    Summer
+  role: Network Software Development Engineer Intern(Network Observation) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670772641439041797/detail
   date_posted: '2026-08-07'
@@ -4534,7 +4453,7 @@
   company: Microsoft
   role: 'Software Engineer: Security & Identity Intern Opportunities for University
     Students - Redmond'
-  location: Washington, DC
+  location: Redmond, WA
   link: https://apply.careers.microsoft.com/careers/job/1970393556922930
   date_posted: '2026-08-04'
   date_estimated: false
@@ -4544,14 +4463,16 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:vanshb03
+  - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-cloud-distributed-backend-intern-opportunities-for-university-students-redmond-3cba0f
   company: Microsoft
   role: 'Software Engineer: Cloud & Distributed Backend Intern Opportunities for University
     Students - Redmond'
-  location: Washington, DC
+  location: Redmond, WA
   link: https://apply.careers.microsoft.com/careers/job/1970393556922923
   date_posted: '2026-08-04'
   date_estimated: false
@@ -4561,8 +4482,10 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:vanshb03
+  - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: tiktok-software-development-engineer-in-test-intern-global-e-commerce-2027-summer-0d8dc3
   company: TikTok
@@ -4818,22 +4741,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: spacex-summer-2027-software-engineering-internship-co-op-b6887b
-  company: SpaceX
-  role: Summer 2027 Software Engineering Internship/Co-op
-  location: Bastrop, TX
-  link: https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-08'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: microchip-intern-engineering-software-development-ee7cc8
   company: Microchip
   role: Intern-Engineering - Software Development
@@ -4935,22 +4842,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: bosch-adas-software-engineering-intern-6abbba
-  company: Bosch
-  role: ADAS Software Engineering Intern
-  location: Plymouth, MI
-  link: https://jobs.smartrecruiters.com/BoschGroup/744000140317669-adas-software-engineering-intern?oga=true
-  date_posted: '2026-07-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-08'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: bosch-powertrain-controls-software-engineering-intern-6-months-999be8
   company: Bosch
   role: Powertrain Controls Software Engineering Intern - 6-Months
@@ -4966,23 +4857,6 @@
   - github_tracker:speedyapply
   date_added: '2026-08-08'
   last_verified: '2026-08-11'
-  possible_duplicate_of: null
-- id: pathai-software-engineering-co-op-mlops-september-december-2026-38320b
-  company: PathAI
-  role: 'Software Engineering Co-op MLOps: September - December 2026'
-  location: Boston, MA
-  link: https://www.pathai.com/careers/8651564002?gh_jid=8651564002
-  date_posted: '2026-07-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-08'
-  last_verified: '2026-08-12'
   possible_duplicate_of: null
 - id: sri-international-drexel-university-co-op-software-engineering-full-stack-development-35d576
   company: SRI International
@@ -5102,40 +4976,9 @@
   sources:
   - github_tracker:vanshb03
   - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: microsoft-software-engineer-intern-security-identity-d01c40
-  company: Microsoft
-  role: Software Engineer Intern, Security & Identity
-  location: Redmond, WA
-  link: https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922930
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: microsoft-software-engineer-intern-cloud-distributed-backend-91e424
-  company: Microsoft
-  role: Software Engineer Intern, Cloud & Distributed Backend
-  location: Redmond, WA
-  link: https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922923
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - chieler
   date_added: '2026-08-08'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
@@ -5199,7 +5042,7 @@
   possible_duplicate_of: null
 - id: bosch-group-project-management-test-engineering-539375
   company: Bosch Group
-  role: Project Management / Test Engineering...
+  role: Project Management / Test Engineering Intern
   location: Plymouth, MI
   link: https://jobs.smartrecruiters.com/BoschGroup/744000141334799
   date_posted: '2026-08-03'
@@ -5215,7 +5058,7 @@
   possible_duplicate_of: null
 - id: uline-network-engineer-internship-summer-af6189
   company: Uline
-  role: Network Engineer Internship - Summer ...
+  role: Network Engineer Internship - Summer 2027
   location: Pleasant Prairie, WI
   link: https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Network-Engineer-Internship---Summer-2027_R265689
   date_posted: '2026-08-03'
@@ -5244,24 +5087,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-08-12'
-  possible_duplicate_of: null
-- id: menasha-corporation-custom-packaging-design-engineer-co-o-76fc48
-  company: Menasha Corporation
-  role: Custom Packaging Design Engineer Co-O...
-  location: Mentor, OH
-  link: https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Mentor-Ohio/Custom-Packaging-Design-Engineer-Co-Op--Spring-2027-_R12878
-  date_posted: '2026-05-16'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-08'
-  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: plusai-research-engineer-intern-control-03794c
   company: PlusAI
@@ -5418,25 +5243,9 @@
   date_added: '2026-08-09'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: carnegie-mellon-university-rf-cyber-lab-intern-4ab1cb
-  company: Carnegie Mellon University
-  role: RF Cyber Lab Intern
-  location: Pittsburgh, PA
-  link: https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/RF-Cyber-Lab-Intern_2024547
-  date_posted: '2026-07-10'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-08-11'
-  possible_duplicate_of: null
 - id: pentair-it-cybersecurity-leadership-development-internship-program-summer-2027-1a055c
   company: Pentair
-  role: IT & Cybersecurity Leadership Development Internship Program -  Summer 2027
+  role: IT & Cybersecurity Leadership Development Internship Program - Summer 2027
   location: Golden Valley, MN
   link: https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700
   date_posted: '2026-08-04'
@@ -5469,7 +5278,7 @@
   possible_duplicate_of: null
 - id: abbvie-2027-business-technology-solutions-in-f9abde
   company: AbbVie
-  role: 2027 Business Technology Solutions In...
+  role: 2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate)
   location: North Chicago, IL
   link: https://jobs.smartrecruiters.com/AbbVie/3743990014410464
   date_posted: '2026-08-04'
@@ -5485,7 +5294,7 @@
   possible_duplicate_of: null
 - id: magna-iot-systems-engineer-co-op-4-month-d2833c
   company: Magna
-  role: IoT Systems Engineer - Co-op (4 month...
+  role: IoT Systems Engineer - Co-op (4 months) - Starting September
   location: Milton, CA
   link: https://magna.wd3.myworkdayjobs.com/Magna/job/Milton-Ontario-CA/Manufacturing-Engineer---Co-op--4-months-_R00252235
   date_posted: '2026-08-02'
@@ -5557,7 +5366,7 @@
   possible_duplicate_of: null
 - id: hntb-returning-intern-engineer-summer-2027-southeast-division-for-current-previous-hntb-interns-only-5c1e07
   company: HNTB
-  role: Returning Intern Engineer  - Summer 2027 (Southeast Division) (For Current/Previous
+  role: Returning Intern Engineer - Summer 2027 (Southeast Division) (For Current/Previous
     HNTB Interns ONLY)
   location: Atlanta, GA / Lake Mary, FL / Orlando, FL / Bartow, FL / Tampa, FL / Jacksonville,
     FL / Chipley, FL / Fort Lauderdale, FL / Miami, FL / Tallahassee, FL
@@ -5985,9 +5794,10 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-08-10'
   last_verified: '2026-08-15'
-  possible_duplicate_of: bosch-adas-software-engineering-intern-6abbba
+  possible_duplicate_of: null
 - id: dv-trading-software-engineer-intern-summer-2027-dv-commodities-163cb8
   company: DV Trading
   role: Software Engineer Intern - Summer 2027 (DV Commodities)
@@ -6028,23 +5838,6 @@
   date_added: '2026-08-11'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: appian-software-engineering-intern-9d4b40
-  company: Appian
-  role: Software Engineering Intern
-  location: McLean, VA
-  link: https://careers.appian.com/jobs/8041237-software-engineering-intern
-  date_posted: '2026-07-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-08-11'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: appian-software-engineering-intern-172919
 - id: capital-one-cyber-security-intern-078a1f
   company: Capital One
   role: Cyber Security Intern
@@ -6145,7 +5938,7 @@
   possible_duplicate_of: null
 - id: codeage-web-developer-intern-wordpress-and-a1693c
   company: Codeage
-  role: Web Developer Intern - WordPress and ...
+  role: Web Developer Intern - WordPress and Woocommerce
   location: Beverly Hills, CA
   link: https://jobs.smartrecruiters.com/Codeage/743999669081604
   date_posted: '2026-08-11'
@@ -6161,7 +5954,7 @@
   possible_duplicate_of: null
 - id: bosch-group-powertrain-controls-software-engineer-6d0e5c
   company: Bosch Group
-  role: Powertrain Controls Software Engineer...
+  role: Powertrain Controls Software Engineering Intern (6-Months, Full-Time)
   location: Farmington Hills, MI
   link: https://jobs.smartrecruiters.com/BoschGroup/744000142898574
   date_posted: '2026-08-11'
@@ -6173,28 +5966,13 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:chieler
-  date_added: '2026-08-11'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: re-spec-inc-student-engineering-intern-data-sci-95300c
-  company: RE/SPEC Inc.
-  role: Student Engineering Intern - Data Sci...
-  location: Rapid City, SD
-  link: https://jobs.smartrecruiters.com/RESPECInc/744000107100902
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
   date_added: '2026-08-11'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: re-spec-inc-student-engineering-intern-cavern-g-2304dc
   company: RE/SPEC Inc.
-  role: Student Engineering Intern - Cavern G...
+  role: Student Engineering Intern - Cavern Geomechanics
   location: Rapid City, SD
   link: https://jobs.smartrecruiters.com/RESPECInc/744000107082695
   date_posted: '2026-08-11'
@@ -6210,25 +5988,9 @@
   possible_duplicate_of: null
 - id: smiths-group-customer-reliability-engineer-intern-9a5383
   company: Smiths Group
-  role: Customer Reliability Engineer Intern ...
+  role: Customer Reliability Engineer Intern (PT)
   location: Port Arthur, TX
   link: https://jobs.smartrecruiters.com/SmithsGroup2/744000135011634
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-11'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: sandisk-field-application-engineer-new-colle-6345e4
-  company: Sandisk
-  role: Field Application Engineer (New Colle...
-  location: Milpitas, CA
-  link: https://jobs.smartrecruiters.com/Sandisk/744000136097669
   date_posted: '2026-08-11'
   date_estimated: false
   term: Summer 2027
@@ -6261,38 +6023,6 @@
   role: Cyber-Security Internship
   location: Milwaukee, WI
   link: https://jobs.smartrecruiters.com/NorthwesternMutual/85751642
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-11'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: llnl-computing-graduate-student-intern-f-5afb2d
-  company: LLNL
-  role: Computing Graduate Student Intern - F...
-  location: Livermore, CA
-  link: https://jobs.smartrecruiters.com/llnl/3743990013801396
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-11'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: llnl-computing-undergraduate-student-inter-3bff41
-  company: LLNL
-  role: Computing Undergraduate Student Inter...
-  location: Livermore, CA
-  link: https://jobs.smartrecruiters.com/llnl/3743990013801386
   date_posted: '2026-08-11'
   date_estimated: false
   term: Summer 2027
@@ -6378,24 +6108,6 @@
   date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: general-dynamics-information-technology-software-developer-intern-6b3497
-- id: kimley-horn-software-developer-intern-d95898
-  company: Kimley-Horn
-  role: Software Developer Intern
-  location: Cary, NC
-  link: https://careers-kimley-horn.icims.com/jobs/25761/job?mobile=true&needsRedirect=false
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: rtx-software-engineer-intern-148c74
   company: RTX
   role: Software Engineer Intern
@@ -6489,72 +6201,6 @@
   date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: bosch-powertrain-controls-software-engineering-intern-6-months-full-time-02580a
-  company: Bosch
-  role: Powertrain Controls Software Engineering Intern - 6-Months - Full-Time
-  location: Farmington Hills, MI
-  link: https://jobs.smartrecruiters.com/BoschGroup/744000142898574-powertrain-controls-software-engineering-intern-6-months-full-time-?oga=true
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: pathai-software-engineering-co-op-september-december-2026-06d5bd
-  company: PathAI
-  role: 'Software Engineering Co-op: September - December 2026'
-  location: Boston, MA
-  link: https://www.pathai.com/careers/8623056002?gh_jid=8623056002
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-12'
-  possible_duplicate_of: null
-- id: blue-origin-2026-intern-conversion-aerospace-software-apps-engineer-i-ca4929
-  company: Blue Origin
-  role: 2026 Intern Conversion - Aerospace Software Apps Engineer I
-  location: Seattle, WA
-  link: https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Aerospace-Software-Apps-Engineer-I_R70306
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
-- id: blue-origin-2026-intern-conversion-software-development-engineer-i-af031e
-  company: Blue Origin
-  role: 2026 Intern Conversion - Software Development Engineer I
-  location: Seattle, WA
-  link: https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Software-Development-Engineer-I_R70275
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: null
 - id: general-dynamics-mission-systems-cybersecurity-software-intern-engineer-c17a3d
   company: General Dynamics Mission Systems
   role: Cybersecurity Software Intern Engineer
@@ -6590,22 +6236,6 @@
   date_added: '2026-08-12'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: hp-enterprise-operations-software-internship-512164
-  company: HP
-  role: Enterprise Operations Software Internship
-  location: Spring, TX
-  link: https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-1
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-12'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: hp-enterprise-operations-software-internship-3081d7
 - id: kimley-horn-software-developer-intern-298a0c
   company: Kimley-Horn
   role: Software Developer Intern
@@ -6619,9 +6249,12 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-08-12'
   last_verified: '2026-08-15'
-  possible_duplicate_of: kimley-horn-software-developer-intern-d95898
+  possible_duplicate_of: null
 - id: quantbot-technologies-software-engineer-summer-internship-2027-new-york-2c3f75
   company: Quantbot Technologies
   role: Software Engineer Summer Internship - 2027 - New York
@@ -6674,7 +6307,7 @@
   possible_duplicate_of: null
 - id: western-digital-summer-2027-intern-software-enginee-ee3cc8
   company: Western Digital
-  role: Summer 2027 Intern - Software Enginee...
+  role: Summer 2027 Intern - Software Engineering
   location: San Jose, CA
   link: https://jobs.smartrecruiters.com/WesternDigital/744000143171017
   date_posted: '2026-08-12'
@@ -6708,7 +6341,7 @@
   possible_duplicate_of: null
 - id: palantir-deployment-strategist-internship-u-5c4bb8
   company: Palantir
-  role: Deployment Strategist, Internship - U...
+  role: Deployment Strategist, Internship - US Government
   location: Honolulu, HI
   link: https://jobs.lever.co/palantir/a49d4181-a289-435a-b581-7f5af0497c8e
   date_posted: '2026-08-12'
@@ -6825,22 +6458,6 @@
   date_added: '2026-08-15'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: ge-vernova-engineering-intern-3037fd
-  company: GE Vernova
-  role: Engineering Intern
-  location: Niskayuna, NY
-  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Niskayuna/Engineering-Intern---Power-Conversion---Storage-AI-Tool-Developer--2027_R5049957-1
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-08-15'
-  last_verified: '2026-08-15'
-  possible_duplicate_of: ge-vernova-engineering-intern-818986
 - id: northrop-grumman-software-engineer-intern-aeronautics-systems-d8c376
   company: Northrop Grumman
   role: Software Engineer Intern - Aeronautics Systems
@@ -7342,7 +6959,7 @@
   possible_duplicate_of: null
 - id: applied-materials-2026-2027-process-engineer-co-op-do-b05746
   company: Applied Materials
-  role: 2026-2027 Process Engineer Co-op - Do...
+  role: 2026-2027 Process Engineer Co-op - Doctorate (Gloucester, MA)
   location: Gloucester, MA
   link: https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-2027-Process-Engineer-Co-op---Doctorate--Gloucester--MA-_R2626230
   date_posted: '2026-08-14'
@@ -7509,5 +7126,29 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-15'
+  last_verified: '2026-08-15'
+  possible_duplicate_of: null
+- id: imc-trading-software-engineer-intern-f62566
+  company: IMC Trading
+  role: Software Engineer Intern
+  location: Chicago, IL
+  link: https://job-boards.eu.greenhouse.io/imc/jobs/4823924101
+  date_posted: '2026-06-28'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:sndsh404
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - custom
+  - github_tracker:northwesternfintech
+  - github_tracker:vanshb03
+  date_added: '2026-07-23'
   last_verified: '2026-08-15'
   possible_duplicate_of: null
