@@ -353,3 +353,10 @@ def test_ic_design_and_rf_titles_route_to_hardware():
 ])
 def test_recurring_tracker_families_resolve_deterministically(role, expected):
     assert classify_role(role) == expected
+
+
+def test_computing_is_swe():
+    # LLNL's "Computing Graduate Student Intern" matched no rule and was
+    # filed under its watch-list category on 2026-09-02.
+    from categorize import classify_role
+    assert classify_role("Computing Graduate Student Intern - Summer 2027") == "swe"

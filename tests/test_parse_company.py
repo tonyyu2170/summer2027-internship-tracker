@@ -352,3 +352,15 @@ def test_parse_workable_jobs_applies_intern_term_and_us_rules():
         ("ML Intern", "Remote (US)", ["BS"], None),
     ]
     assert dict(drops) == {"non_us_location": 1, "term_unmatched": 1, "role_unmatched": 1}
+
+
+def test_board_posting_cleans_title_whitespace():
+    from parse_company import parse_greenhouse_board
+    payload = {"jobs": [{
+        "title": "Actuarial Intern  - Summer 2027 ",
+        "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/1",
+        "location": {"name": "New York, NY"},
+        "content": "Summer 2027 internship",
+    }]}
+    postings, _ = parse_greenhouse_board(payload, {"company": "Acme", "source_entity": "company:acme"})
+    assert postings[0]["role"] == "Actuarial Intern - Summer 2027"

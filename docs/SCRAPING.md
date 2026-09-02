@@ -89,8 +89,12 @@ same rules the tracker path uses. A `DROP` verdict drops the posting
 (`category_drop`); a confident verdict files it under *that* category, so one
 source can write several reports (`company_acme_data_science.json` alongside
 `company_acme_swe.json`) and a source clears its report in every category
-before a run; only an unclassifiable role falls back to the watch-list
-category. Measured on the first full Workday pass this cut 145 hits to ~65.
+before a run. A role no rule (or `sources/manual_categories.yaml` entry)
+places is dropped and counted as `unclassified_role` — never filed under the
+watch-list category. That fallback put 292 Sales / Tax / Audit / Claims /
+EHS interns into swe, ai_ml and actuarial on 2026-09-02; the per-company
+counter in `scrape_state.yaml` is where to look for a family that deserves a
+rule. Measured on the first full Workday pass this cut 145 hits to ~65.
 Residual imprecision is categorize.py's, not the board path's — `internship
 program` is a DROP alternative, so "Technology Internship Program" drops,
 while a bare `engineer` match sends civil/mechanical interns to swe.
@@ -413,10 +417,11 @@ way, which is invisible if you only read the top of a section.
    re-import the old posting as a second row.
 4. `python3 scripts/check_integrity.py`, then commit.
 
-Covers SmartRecruiters, Greenhouse and Lever only. **Workday is excluded on
-purpose**: `normalize_link` collapses neither its `-N` requisition instance
-suffixes nor its board aliases, so every such row would fail an exact link
-comparison and fake a repost. For the same reason `repost_verify._link_key`
+Covers SmartRecruiters, Greenhouse and Lever only. **Workday is excluded**:
+it was excluded because `normalize_link` collapsed neither its `-N`
+requisition instance suffixes nor its site aliases; since 2026-09-02 it
+collapses both (one key per tenant + requisition id), so wiring Workday here
+is now possible but not done. `repost_verify._link_key`
 folds Greenhouse's two hostnames (`boards.` / `job-boards.greenhouse.io`) and
 its `gh_jid` param for comparison only — a live run called Neuralink job
 `6594422003` a repost of itself before that was added. Nothing here ever

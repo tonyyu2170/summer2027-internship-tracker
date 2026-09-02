@@ -216,3 +216,40 @@ def test_incoming_date_after_date_added_does_not_upgrade_estimate():
         rows, [_report([_posting(date_posted="2026-07-10")])], "2026-08-01")
     assert rows3[0]["date_posted"] == "2026-07-10"
     assert rows3[0]["date_estimated"] is False
+
+
+# --- 2026-09-02 audit: gates that every source must pass ---------------------
+
+def test_off_cycle_title_is_dropped_for_every_source(capsys):
+    drops = []
+    rows, summary = merge_category(
+        [], [_report([_posting(role="Spring 2027 Intern - Data Analytics", link="https://x.com/1"),
+                      _posting(role="Summer 2027 Intern - Data Analytics", link="https://x.com/2")])],
+        TODAY, on_drop=lambda src, stage: drops.append(stage))
+    assert [r["role"] for r in rows] == ["Summer 2027 Intern - Data Analytics"]
+    assert drops == ["off_cycle_title"]
+    assert "off-cycle" in capsys.readouterr().out
+
+
+def test_pre_cycle_or_future_date_posted_becomes_an_estimate():
+    rows, _ = merge_category(
+        [], [_report([_posting(date_posted="2025-07-17", link="https://x.com/1"),
+                      _posting(date_posted="2026-07-30", link="https://x.com/2"),
+                      _posting(date_posted="2026-07-01", link="https://x.com/3")])], TODAY)
+    by_link = {r["link"]: r for r in rows}
+    assert by_link["https://x.com/1"]["date_posted"] == TODAY and by_link["https://x.com/1"]["date_estimated"]
+    assert by_link["https://x.com/2"]["date_posted"] == TODAY and by_link["https://x.com/2"]["date_estimated"]
+    assert by_link["https://x.com/3"]["date_posted"] == "2026-07-01" and not by_link["https://x.com/3"]["date_estimated"]
+
+
+def test_truncated_title_is_replaced_by_a_fuller_one_for_the_same_link():
+    existing, _ = merge_category(
+        [], [_report([_posting(role="Quant Trading Inte...")], entity="github_tracker:zapplyjobs")], TODAY)
+    rows, _ = merge_category(
+        existing, [_report([_posting(role="Quant Trading Intern - Summer 2027", source="simplify")])], TODAY)
+    assert rows[0]["role"] == "Quant Trading Intern - Summer 2027"
+    assert rows[0]["id"] == existing[0]["id"]          # identity untouched
+    # a truncated incoming title never overwrites a full one
+    rows, _ = merge_category(
+        rows, [_report([_posting(role="Quant Trading Inte...", source="zapply")])], TODAY)
+    assert rows[0]["role"] == "Quant Trading Intern - Summer 2027"

@@ -41,7 +41,7 @@ Two sides meeting at one JSON contract:
 
 ### Dedup key
 
-Primary: the **normalized application link** (`normalize_link` — strips tracking params, lowercases scheme+host, drops trailing slash). Fallback, only when a source has no extractable link: a normalized `(company, role, location)` triple — this is **never auto-merged**; it's added as a new row with `possible_duplicate_of` set and surfaced in the run summary for manual review, since a bare triple carries real false-merge risk. (In practice, most triple-flagged pairs turn out to be genuinely distinct postings, not duplicates — don't delete on a flag alone.)
+Primary: the **normalized application link** (`normalize_link` — strips tracking params, lowercases scheme+host, drops trailing slash; collapses one requisition's link shapes per ATS — a Workday link keys on tenant + requisition id, so site aliases and `-N` instance suffixes are one posting; Ashby/Lever/Greenhouse/Workable slugs case-fold; iCIMS keys on `/jobs/<id>`). Fallback, only when a source has no extractable link: a normalized `(company, role, location)` triple — this is **never auto-merged**; it's added as a new row with `possible_duplicate_of` set and surfaced in the run summary for manual review, since a bare triple carries real false-merge risk. (In practice, most triple-flagged pairs turn out to be genuinely distinct postings, not duplicates — don't delete on a flag alone.)
 
 ### Status / closing
 
@@ -53,6 +53,7 @@ Applied via `canonicalize_location`/`is_us_location` (word-boundary matching, no
 
 ### A few non-obvious behaviors worth knowing
 
+- `merge_category` is where the policy gates live for every source: an off-cycle title (`parse_tracker._is_off_cycle`), a non-US location, and a `date_posted` outside `[CYCLE_START, today]` (turned into an estimate). A re-found link also gets its title restored when the stored one is truncated (`extends_truncated`). Company boards never file a role under the watch-list category — a title no rule or `manual_categories.yaml` entry places is dropped as `unclassified_role`.
 - `run_scrape_merge.py` validates and can drop only rows *newly created that run* against `ROW_SCHEMA`. Existing rows loaded from disk are never auto-deleted for failing schema — a malformed hand-edit is kept as-is (with a warning) rather than silently removing a previously-tracked listing.
 - `merge.py` looks up existing rows via `.get("id")`, not bracket-indexing, so a hand-corrupted row missing `id` degrades gracefully instead of crashing the category's run.
 - `run_scrape_merge.py` keeps a *new* link that two reports file under different categories in one run in exactly one of them (`classify_role`'s verdict, else the first report in sorted order; counted as `cross_category_duplicate`). Without this a full tracker re-parse landed 46 same-id twins (2026-09-02). A link already on disk in another category is still only reported by `check_integrity`, never moved.

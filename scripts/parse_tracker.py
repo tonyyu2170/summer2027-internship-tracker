@@ -262,6 +262,10 @@ _BARE_NON_SUMMER = re.compile(r"\b(?:fall|winter|spring)\b", re.I)
 _SEASON_YEAR_NEAR = re.compile(
     rf"\b{_SEASON}\b.{{0,20}}?\b20\d\d\b|\b20\d\d\b.{{0,20}}?\b{_SEASON}\b", re.I)
 _YEAR_START = re.compile(r"\b(20\d\d)\s+start\b", re.I)
+# "Summer & Fall 2027", "Spring/Summer 2027", "Spring - Summer": one term
+# spanning several seasons, sharing one (optional) trailing year.
+_SEASON_LIST = re.compile(
+    rf"\b{_SEASON}\b(?:\s*(?:[&/+,-]|and|to|through|thru)\s*\b{_SEASON}\b)+\s*(20\d\d)?", re.I)
 
 
 def _is_off_cycle(role):
@@ -276,6 +280,9 @@ def _is_off_cycle(role):
         Engineer - 2026", "apps reviewed from Aug 2026") -- roles routinely
         carry a year for reasons unrelated to the cycle
     """
+    seasons = _SEASON_LIST.search(role)
+    if seasons and "summer" in seasons.group(0).lower() and seasons.group(1) in (None, "2027"):
+        return False        # "Summer & Fall 2027" co-op, "Spring & Summer Intern"
     adjacent = [m.group(0).lower().replace(" ", "") for m in _OFF_CYCLE.finditer(role)]
     if "summer2027" in adjacent:
         # Names the cycle we track, possibly alongside others

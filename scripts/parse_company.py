@@ -4,6 +4,7 @@ import re
 from collections import Counter
 
 from normalize import canonicalize_location
+from parse_tracker import _clean_text
 
 _JSON_LD = re.compile(
     r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
@@ -106,7 +107,9 @@ def _degree_from(text: str) -> list:
 def _board_posting(source, role, location, link, text, date_posted=None):
     posting = {
         "company": source["company"],
-        "role": role,
+        # Boards ship titles with doubled spaces, trailing blanks and
+        # U+202F (Michelin, Fed, Medtronic — 30 rows on 2026-09-02).
+        "role": _clean_text(role),
         "location": location,
         "link": link,
         "term": "Summer 2027",

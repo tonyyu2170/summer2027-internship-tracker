@@ -175,11 +175,10 @@ def test_run_files_company_postings_under_their_classified_category(tmp_path):
     out_dir = tmp_path / "reports"
     _write_config(config_path, {"swe": [
         {"company": "Acme", "ats": "greenhouse", "url": "acme"}]})
-    # A swe-watch-list board carrying a data-science role and an unclassifiable
-    # one: the first is filed where it belongs, the second falls back.
+    # A swe-watch-list board carrying a data-science role: it is filed where
+    # classify_role says, not under the company's watch-list category.
     payload = _greenhouse_board("Data Science Intern - Summer 2027",
-                                "Software Engineer Intern",
-                                "Rotational Program Intern")
+                                "Software Engineer Intern")
 
     run("swe", out_dir, config_path, tmp_path / "state.yaml", fetch=lambda _: payload)
 
@@ -187,8 +186,7 @@ def test_run_files_company_postings_under_their_classified_category(tmp_path):
     assert ds["category"] == "data_science"
     assert [p["role"] for p in ds["postings"]] == ["Data Science Intern - Summer 2027"]
     swe = json.loads((out_dir / "company_acme_swe.json").read_text())
-    assert sorted(p["role"] for p in swe["postings"]) == [
-        "Rotational Program Intern", "Software Engineer Intern"]
+    assert [p["role"] for p in swe["postings"]] == ["Software Engineer Intern"]
 
 
 def test_run_skips_a_link_already_tracked_where_classify_role_would_file_it(
@@ -378,3 +376,36 @@ def test_fetch_workable_pages_the_list_then_details_us_intern_hits():
     assert [j["link"] for j in out["jobs"]] == ["https://apply.workable.com/acme/j/A1/",
                                                 "https://apply.workable.com/acme/j/D4/"]
     assert _normalize_source({"ats": "workable", "company": "X", "url": "https://apply.workable.com"})["provider"] == "_unwired"
+
+
+def test_run_never_files_an_unclassifiable_role_under_the_watch_list_category(tmp_path):
+    """A watch-list board is the company's whole intern programme. Falling
+    back to the watch-list category filed 292 Sales / Audit / Tax / EHS
+    interns as swe, ai_ml and actuarial rows in the 2026-09-02 merge."""
+    config_path = tmp_path / "companies.yaml"
+    out_dir = tmp_path / "reports"
+    _write_config(config_path, {"swe": [
+        {"company": "Acme", "ats": "greenhouse", "url": "acme"}]})
+    payload = _greenhouse_board("Transaction Tax Intern - Summer 2027",
+                                "Software Engineer Intern")
+
+    drops = run("swe", out_dir, config_path, tmp_path / "state.yaml", fetch=lambda _: payload)
+
+    assert drops["company:acme"]["unclassified_role"] == 1
+    swe = json.loads((out_dir / "company_acme_swe.json").read_text())
+    assert [p["role"] for p in swe["postings"]] == ["Software Engineer Intern"]
+
+
+def test_run_consults_manual_categories_for_a_role_no_rule_classifies(tmp_path, monkeypatch):
+    config_path = tmp_path / "companies.yaml"
+    out_dir = tmp_path / "reports"
+    _write_config(config_path, {"swe": [
+        {"company": "Acme", "ats": "greenhouse", "url": "acme"}]})
+    payload = _greenhouse_board("Rotational Program Intern")
+    monkeypatch.setattr("fetch_companies.manual_link_categories", lambda: {
+        "https://job-boards.greenhouse.io/acme/jobs/0": "data_science"})
+
+    run("swe", out_dir, config_path, tmp_path / "state.yaml", fetch=lambda _: payload)
+
+    ds = json.loads((out_dir / "company_acme_data_science.json").read_text())
+    assert [p["role"] for p in ds["postings"]] == ["Rotational Program Intern"]

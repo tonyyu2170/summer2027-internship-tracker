@@ -19,7 +19,7 @@ from urllib.parse import urlsplit
 import certifi
 import yaml
 
-from categorize import DROP, classify_role, known_link_categories
+from categorize import DROP, classify_role, known_link_categories, manual_link_categories
 from normalize import normalize_link
 from parse_company import (
     is_intern_title,
@@ -389,6 +389,7 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
 
     out_dir.mkdir(parents=True, exist_ok=True)
     known = known_link_categories()
+    manual = manual_link_categories()
     drop_counts = _load_drop_counts(out_dir / "drop_counts.json")
     state = yaml.safe_load(state_path.read_text()) if state_path.exists() else {}
     state = state or {}
@@ -444,17 +445,22 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
         # merge refreshes the existing row.
         # A watch-list board is the company's whole intern programme, so most
         # of what it returns is off-scope for this tracker (supply chain, HR,
-        # sales). The watch-list category says where a company's rows *live*,
+        # sales). The watch-list category says where a company is *watched*,
         # not what any one role is — so categorize.py decides, exactly as it
-        # does for the tracker path, and only falls back to the watch-list
-        # category when it can't tell.
+        # does for the tracker path, then the hand-kept overlay. A role
+        # neither can place is dropped and counted, never filed under the
+        # watch-list category: that fallback put 292 Sales / Tax / Audit /
+        # EHS interns into swe, ai_ml and actuarial on 2026-09-02.
         by_category = defaultdict(list)
         for posting in postings:
-            resolved = classify_role(posting["role"])
+            resolved = classify_role(posting["role"]) or manual.get(normalize_link(posting["link"]))
             if resolved == DROP:
                 drop_counts[entity]["category_drop"] += 1
                 continue
-            target = resolved or category
+            if not resolved:
+                drop_counts[entity]["unclassified_role"] += 1
+                continue
+            target = resolved
             # Compared against `target`, not the watch-list category:
             # classify_role can move a posting out of the category its company
             # is watched under, and a guard that checked the watch-list

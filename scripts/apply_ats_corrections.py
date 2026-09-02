@@ -24,7 +24,7 @@ from merge import _slug
 from normalize import normalize_link
 
 # actions that prove the posting was authoritatively seen this run
-_RESOLVED = {"confirm", "set_date", "close"}
+_RESOLVED = {"confirm", "set_date", "close", "set_role"}
 
 
 def apply_corrections(rows_by_category, actions, today):
@@ -42,7 +42,7 @@ def apply_corrections(rows_by_category, actions, today):
                 index[row["id"]] = row
     summary = {k: [] for k in (
         "confirmed", "date_fixed", "closed", "deleted", "reposted",
-        "recategorized", "kept", "dropped",
+        "recategorized", "kept", "dropped", "retitled",
         "unknown", "skipped", "unrecognized_action")}
     deleted, verified, moved = set(), set(), {}
     for a in actions:
@@ -73,6 +73,12 @@ def apply_corrections(rows_by_category, actions, today):
         elif act == "close":
             row["status"] = "closed"
             summary["closed"].append(rid)
+        elif act == "set_role":
+            if not a.get("new"):
+                summary["unrecognized_action"].append(rid)
+                continue
+            row["role"] = a["new"]
+            summary["retitled"].append(rid)
         elif act == "repost":
             # The role was re-listed under a new requisition id, so the row
             # points at a superseded posting and carries its stale date.
@@ -210,7 +216,7 @@ def run(corrections_path, data_dir=None, readme_path=None, overrides_path=None):
     # but last_verified) would drag every such row into the gate and let one
     # stale typo anywhere in the dataset block the whole verification.
     touched = set()
-    for kind in ("confirmed", "date_fixed", "closed", "reposted"):
+    for kind in ("confirmed", "date_fixed", "closed", "reposted", "retitled"):
         touched.update(summary[kind])
     before_errors = {}
     for rows in rows_by_category.values():

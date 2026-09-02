@@ -86,7 +86,7 @@ _RULES = [
     # "Technology Intern", "Digital Technology Intern", "IT Infrastructure
     # Intern", "Information Security Co-op" recur in chieler/zapplyjobs and
     # parked 40+ rows per scrape while unclassified.
-    ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend|cyber|malware|algorithm|application development|computer science"
+    ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend|cyber|malware|algorithm|application development|computer science|\bcomputing\b"
             r"|\btechnology intern(?:ship)?\b(?!.*program)|digital technology|information technology|\bit intern|it infrastructure"
             r"|information security|information systems|devops|\bpython\b|mobile app"),
     # Out-of-scope families, checked last so any in-scope keyword above wins
@@ -109,12 +109,12 @@ _RULES = [
            r"|communication|publicity"
            r"|relationship manager|investor engage|business development"
            r"|aerospace|payload|\bgnc\b|guidance, navigation|propulsion"
-           # Company watch-list boards are a company's whole intern programme,
-           # and fetch_companies falls back to the watch-list category when no
-           # rule matches — so an unclassifiable title lands in whatever
-           # category the company is watched under (Uline's warehouse and
-           # sales interns filed as swe, Caterpillar's EHS intern as
-           # data_science). These resolve them deterministically instead.
+           # Company watch-list boards are a company's whole intern programme.
+           # fetch_companies used to fall back to the watch-list category when
+           # no rule matched (Uline's warehouse and sales interns filed as swe,
+           # Caterpillar's EHS intern as data_science); since 2026-09-02 an
+           # unmatched title is dropped and counted instead, and these keep
+           # the recurring families deterministic.
            r"|warehouse management|sales analyst|\binspector\b"
            r"|project controls|health and safety"
            r"|internship program|talent community|^\s*intern\s*$"),

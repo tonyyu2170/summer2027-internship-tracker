@@ -721,3 +721,25 @@ def test_parse_cvrve_json_decodes_entities_in_title():
                        "terms": ["Summer 2027"], "active": True}])
     p = parse_cvrve_json(raw, term_field="terms", term_value="Summer 2027")[0]
     assert p["role"] == "ML Intern (Ads & Measurement)"
+
+
+@pytest.mark.parametrize("role", [
+    # A season list that includes summer and names 2027 (or no year) is a
+    # Summer 2027 term, however the seasons are joined.
+    "Software Engineer Co-op - Summer & Fall 2027",
+    "Spring & Summer Intern - Sales Analytics",
+    "Systems Engineering Co-op (Spring - Summer 2027)",
+    "Spring/Summer 2027 Engineering Intern",
+])
+def test_season_lists_naming_summer_2027_are_eligible(role):
+    assert not _is_off_cycle(role)
+
+
+@pytest.mark.parametrize("role", [
+    "Spring/Summer 2026 Engineering Intern",
+    "Fall/Winter 2026 Co-op",
+    "Spring 2027 Intern - Data Analytics",
+    "Power Electronics Engineering Intern (Spring)",
+])
+def test_season_lists_without_summer_2027_stay_off_cycle(role):
+    assert _is_off_cycle(role)
