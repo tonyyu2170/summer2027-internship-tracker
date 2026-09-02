@@ -36,7 +36,7 @@ ROOT = Path(__file__).resolve().parent.parent
 COMPANIES = ROOT / "sources" / "companies.yaml"
 CANDIDATES = ROOT / "scratch" / "candidates_mined.json"
 CATEGORIES = ["swe", "quant", "data_science", "ai_ml", "hardware", "actuarial"]
-WIRED = {"greenhouse", "lever", "ashby", "workday", "smartrecruiters"}
+WIRED = {"greenhouse", "lever", "ashby", "workday", "smartrecruiters", "workable"}
 _SSL_CTX = ssl.create_default_context(cafile=certifi.where())
 # Discovery GETs a company's own careers page, which routinely bot-blocks the
 # scraper UA; this is a one-off identity sniff, not a scrape.
@@ -143,7 +143,8 @@ def _board_url(ats, token):
     return {"greenhouse": f"https://boards.greenhouse.io/{token}",
             "lever": f"https://jobs.lever.co/{token}",
             "ashby": f"https://jobs.ashbyhq.com/{token}",
-            "smartrecruiters": f"https://jobs.smartrecruiters.com/{token}"}[ats]
+            "smartrecruiters": f"https://jobs.smartrecruiters.com/{token}",
+            "workable": f"https://apply.workable.com/{token}"}[ats]
 
 
 def board_key(entry: dict):
@@ -218,6 +219,10 @@ def probe_board(found: dict, get=None, post=None) -> dict:
             return {"status": "ok", "jobs": payload["totalFound"], "intern_jobs": None, "name": None}
         if ats == "workday":
             return _probe_workday(found, post)
+        if ats == "workable":
+            payload = post(f"https://apply.workable.com/api/v3/accounts/{token}/jobs",
+                           {"query": "", "location": [], "department": [], "worktype": [], "remote": []})
+            return _ok(payload["results"], None, key="title")
     except (urllib.error.URLError, ValueError, KeyError, TypeError) as exc:
         return {"status": "fail", "error": _err(exc)}
     return {"status": "fail", "error": f"no probe for ats {ats!r}"}
@@ -321,7 +326,7 @@ def cmd_verify(argv):
 
     def work(item):
         category, entry = item
-        if entry["ats"] in ("workday", "smartrecruiters"):
+        if entry["ats"] in ("workday", "smartrecruiters", "workable"):
             found = identify_board(entry["url"])
             if found and entry["ats"] == "workday":
                 found.update({k: entry[k] for k in ("tenant", "site") if k in entry})

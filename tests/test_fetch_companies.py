@@ -347,3 +347,34 @@ def test_with_backoff_retries_only_429_and_gives_up_after_the_delays():
     with pytest.raises(urllib.error.HTTPError):
         _with_backoff(always, "src", sleep=slept.append)
     assert len(slept) == 2 + len(_RETRY_DELAYS)
+
+
+def test_fetch_workable_pages_the_list_then_details_us_intern_hits():
+    from fetch_companies import _fetch_workable, _normalize_source
+    src = _normalize_source({"ats": "workable", "company": "Acme", "url": "https://apply.workable.com/acme"})
+    assert src["provider"] == "workable_api" and src["slug"] == "acme"
+    pages = {None: {"results": [
+                 {"title": "SWE Intern", "shortcode": "A1", "location": {"countryCode": "US"}},
+                 {"title": "SWE Intern", "shortcode": "B2", "location": {"countryCode": "GB"}},
+                 {"title": "Staff Engineer", "shortcode": "C3", "location": {"countryCode": "US"}}],
+             "nextPage": "tok"},
+             "tok": {"results": [{"title": "Data Intern", "shortcode": "D4",
+                                  "location": {"countryCode": "DE"}, "locations": [{"countryCode": "US"}]}],
+                     "nextPage": None}}
+    posted, got = [], []
+
+    def post(url, body):
+        posted.append((url, body.get("token")))
+        return pages[body.get("token")]
+
+    def get(url):
+        got.append(url)
+        return {"title": url.rsplit("/", 1)[1]}
+    out = _fetch_workable(src, post=post, get=get)
+    assert posted == [("https://apply.workable.com/api/v3/accounts/acme/jobs", None),
+                      ("https://apply.workable.com/api/v3/accounts/acme/jobs", "tok")]
+    assert got == ["https://apply.workable.com/api/v2/accounts/acme/jobs/A1",
+                   "https://apply.workable.com/api/v2/accounts/acme/jobs/D4"]
+    assert [j["link"] for j in out["jobs"]] == ["https://apply.workable.com/acme/j/A1/",
+                                                "https://apply.workable.com/acme/j/D4/"]
+    assert _normalize_source({"ats": "workable", "company": "X", "url": "https://apply.workable.com"})["provider"] == "_unwired"

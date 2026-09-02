@@ -28,6 +28,7 @@ from parse_company import (
     parse_lever_postings,
     parse_phenom_job_page,
     parse_smartrecruiters_postings,
+    parse_workable_jobs,
     parse_workday_cxs,
     parse_workday_search,
 )
@@ -44,6 +45,7 @@ _PARSERS = {
     "lever_api": parse_lever_postings,
     "ashby_api": parse_ashby_board,
     "smartrecruiters_api": parse_smartrecruiters_postings,
+    "workable_api": parse_workable_jobs,
 }
 
 # Legacy watch-list entries ({company, ats, url}) map onto implicit API
@@ -52,9 +54,11 @@ _ATS_PROVIDERS = {"greenhouse": "greenhouse_board",
                   "lever": "lever_api",
                   "ashby": "ashby_api",
                   "workday": "workday_search",
-                  "smartrecruiters": "smartrecruiters_api"}
+                  "smartrecruiters": "smartrecruiters_api",
+                  "workable": "workable_api"}
 
 _SMARTRECRUITERS_HOST = "jobs.smartrecruiters.com"
+_WORKABLE_HOST = "apply.workable.com"
 _SMARTRECRUITERS_PAGE = 100
 
 # Workday's search ranks rather than filters, so a bare "intern" matches most
@@ -73,6 +77,15 @@ def _workday_site(url: str):
     if not parts.netloc.lower().endswith(".myworkdayjobs.com") or not segments:
         return None
     return {"tenant": parts.netloc.split(".")[0], "site": segments[0]}
+
+
+def _workable_slug(url: str):
+    """Account slug for an `apply.workable.com/{slug}` board URL, or None."""
+    parts = urlsplit(url)
+    segments = [segment for segment in parts.path.split("/") if segment]
+    if parts.netloc.lower() != _WORKABLE_HOST or not segments:
+        return None
+    return segments[0]
 
 
 def _smartrecruiters_board(url: str):
@@ -109,6 +122,12 @@ def _normalize_source(source: dict):
         # since a blanket "-" -> "_" would break a genuinely hyphenated tenant.
         site.update({key: source[key] for key in ("tenant", "site") if key in source})
         normalized.update(site, search_text=_WORKDAY_SEARCH_TEXT)
+    if normalized["provider"] == "workable_api":
+        slug = _workable_slug(source["url"])
+        if not slug:
+            normalized["provider"] = "_unwired"
+            return normalized
+        normalized["slug"] = slug
     if normalized["provider"] == "smartrecruiters_api":
         # Same reason as the Workday derivation above: an off-shape watch-list
         # URL degrades to unwired here rather than aborting the category.
@@ -280,6 +299,47 @@ def _with_backoff(fetch, source, sleep=time.sleep):
     return fetch(source)
 
 
+def _fetch_workable(source: dict, post=None, get=None) -> dict:
+    """Page one Workable board (v3 list, `token` paging), then pull the v2
+    detail behind each US intern-titled hit. Like SmartRecruiters, the list
+    carries a structured location but no description."""
+    post, get = post or _json_post_api, get or _get_json_api
+    base = f"https://{_WORKABLE_HOST}/api"
+    rows, token = [], None
+    while True:
+        body = {"query": "", "location": [], "department": [], "worktype": [], "remote": []}
+        if token:
+            body["token"] = token
+        payload = post(f"{base}/v3/accounts/{source['slug']}/jobs", body)
+        page = payload.get("results")
+        if not isinstance(page, list):
+            raise ValueError("invalid Workable jobs response")
+        rows.extend(page)
+        token = payload.get("nextPage")
+        if not token or not page:
+            break
+    jobs = []
+    for row in rows:
+        places = [row.get("location") or {}] + [l for l in row.get("locations") or [] if isinstance(l, dict)]
+        if not is_intern_title(row.get("title") or "") or not row.get("shortcode"):
+            continue
+        if not any(place.get("countryCode") == "US" for place in places):
+            continue
+        detail = get(f"{base}/v2/accounts/{source['slug']}/jobs/{row['shortcode']}")
+        detail["link"] = f"https://{_WORKABLE_HOST}/{source['slug']}/j/{row['shortcode']}/"
+        jobs.append(detail)
+    return {"jobs": jobs}
+
+
+def _json_post_api(url: str, payload: dict):
+    """POST JSON with a JSON Accept header (Workable's v3 list endpoint)."""
+    request = urllib.request.Request(
+        url, data=json.dumps(payload).encode("utf-8"),
+        headers={**_HEADERS, "Accept": "application/json", "Content-Type": "application/json"})
+    with urllib.request.urlopen(request, timeout=30, context=_SSL_CTX) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
 def _fetch_source(source: dict):
     provider = source["provider"]
     if provider == "phenom_job_page":
@@ -298,6 +358,8 @@ def _fetch_source(source: dict):
                          f"{source['url']}?includeCompensation=false")
     if provider == "smartrecruiters_api":
         return _fetch_smartrecruiters(source)
+    if provider == "workable_api":
+        return _fetch_workable(source)
     raise ValueError(f"unsupported provider {source['provider']!r}")
 
 

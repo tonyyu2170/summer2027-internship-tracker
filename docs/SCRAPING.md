@@ -126,6 +126,14 @@ structured location, so the intern-title pre-filter also checks
 `location.country == "us"`, which is what keeps the detail leg cheap: 307
 intern-titled hits across the nine boards reduce to 54 detail fetches.
 
+**Workable** (wired 2026-09-02) is the SmartRecruiters shape again: the v3
+list (`POST apply.workable.com/api/v3/accounts/{slug}/jobs`, `token` paging)
+carries a structured location but no description, so intern-titled rows with
+a US `countryCode` are pre-filtered there and the v2 job detail is pulled for
+the Summer-2027 evidence. Watch-list shape: `{ats: workable, url:
+'https://apply.workable.com/{slug}'}`; a bare `apply.workable.com` URL is
+unwired. 143 postings in the Simplify export sat on Workable boards.
+
 **Growing the watch-list** (added 2026-09-01): `scripts/probe_boards.py` is
 the network shim for `sources/companies.yaml` itself. `discover` fetches every
 `custom` / `verified: false` entry's careers page and sniffs the real board

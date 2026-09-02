@@ -327,3 +327,28 @@ def test_parse_workday_search_rejects_a_drifted_payload():
     import pytest
     with pytest.raises(ValueError):
         parse_workday_search({"jobPostings": []}, BOARD_SOURCE)
+
+
+def test_parse_workable_jobs_applies_intern_term_and_us_rules():
+    from parse_company import parse_workable_jobs
+    src = {"company": "Acme", "source_entity": "company:acme"}
+    us = {"countryCode": "US", "city": "Austin", "region": "Texas"}
+    jobs = [
+        {"title": "Software Engineer Intern", "description": "<p>Summer 2027 internship</p>",
+         "requirements": "<p>Pursuing a BS or MS</p>", "location": us, "published": "2026-08-30T00:00:00.000Z",
+         "link": "https://apply.workable.com/acme/j/AAA/"},
+        {"title": "ML Intern", "description": "Summer 2027", "location": {"countryCode": "US"},
+         "remote": True, "workplace": "remote", "link": "https://apply.workable.com/acme/j/BBB/"},
+        {"title": "Data Intern", "description": "Summer 2027", "location": {"countryCode": "CA", "city": "Toronto", "region": "Ontario"},
+         "link": "https://apply.workable.com/acme/j/CCC/"},
+        {"title": "Platform Intern", "description": "Fall 2026 co-op", "location": us,
+         "link": "https://apply.workable.com/acme/j/DDD/"},
+        {"title": "Senior Engineer", "description": "Summer 2027", "location": us,
+         "link": "https://apply.workable.com/acme/j/EEE/"},
+    ]
+    postings, drops = parse_workable_jobs({"jobs": jobs}, src)
+    assert [(p["role"], p["location"], p["degree"], p.get("date_posted")) for p in postings] == [
+        ("Software Engineer Intern", "Austin, TX", ["BS", "MS"], "2026-08-30"),
+        ("ML Intern", "Remote (US)", ["BS"], None),
+    ]
+    assert dict(drops) == {"non_us_location": 1, "term_unmatched": 1, "role_unmatched": 1}

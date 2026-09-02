@@ -37,7 +37,7 @@ Two sides meeting at one JSON contract:
 - **Orchestration:** `scripts/run_scrape_merge.py` is the single serialized writer. It loads fetch-report JSON files, groups by category, calls `merge_category` once per category, validates and filters new rows, rewrites that category's `data/*.yaml`, then calls `render(...)` to regenerate `README.md`. It never touches git.
 - **Fragile, source-specific scraping** lives entirely outside the tested core, in the procedure documented at `docs/SCRAPING.md` — never mix network code into `normalize.py`, `merge.py`, etc.
 - **Fetch-report contract:** scraping subagents return parsed postings only; they never write `data/*.yaml` or `sources/companies.yaml` directly. One fetch-report JSON per source entity goes to `scratch/fetch_reports/` (git-ignored), then `run_scrape_merge.py` runs as the one serialized pass — this single-writer-per-file step is what prevents write races.
-- **Data layout:** one YAML file per category under `data/` (`swe.yaml`, `quant.yaml`, `data_science.yaml`, `ai_ml.yaml`, `hardware.yaml`, `actuarial.yaml`); `sources/companies.yaml` is the per-category company watch-list (`ats`: greenhouse | lever | workday | custom).
+- **Data layout:** one YAML file per category under `data/` (`swe.yaml`, `quant.yaml`, `data_science.yaml`, `ai_ml.yaml`, `hardware.yaml`, `actuarial.yaml`); `sources/companies.yaml` is the per-category company watch-list (`ats`: greenhouse | lever | ashby | workday | smartrecruiters | workable | icims | custom; the first six are pulled by `fetch_companies.py`).
 
 ### Dedup key
 
