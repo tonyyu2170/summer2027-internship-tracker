@@ -191,7 +191,7 @@
   role: AI Software Engineering Intern
   location: Phoenix, AZ
   link: https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641
-  date_posted: '2026-07-29'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -200,29 +200,28 @@
   - github_tracker
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
-  - github_tracker:chieler
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: intel-ai-software-engineering-intern-4a977c
   company: Intel
   role: AI Software Engineering Intern
   location: Hillsboro, OR
   link: https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639
-  date_posted: '2026-07-29'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-27'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: exowatt-software-engineering-intern-agent-platform-ai-695290
   company: Exowatt
   role: Software Engineering Intern - Agent Platform - AI
@@ -309,14 +308,14 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-24'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: microsoft-applied-science-phd-microsoft-ai-internship-opportunities-redmond-b3f5d6
   company: Microsoft
   role: 'Applied Science: PhD Microsoft AI Internship Opportunities - Redmond'
   location: Washington, DC
   link: https://apply.careers.microsoft.com/careers/job/1970393556868271
-  date_posted: '2026-08-27'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - PhD
@@ -325,9 +324,9 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: meta-research-scientist-intern-monetization-computer-vision-phd-41a185
   company: Meta
   role: Research Scientist Intern - Monetization Computer Vision - PhD
@@ -441,7 +440,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-30'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: jump-trading-campus-ai-research-engineer-deep-learning-intern-78f1fe
   company: Jump Trading
@@ -458,7 +457,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: jump-trading-campus-ai-research-engineer-research-automation-intern-5ce7cd
   company: Jump Trading
@@ -476,7 +475,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: opusclip-ai-research-intern-a51a0a
   company: OpusClip
@@ -504,11 +503,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: ss-c-healthcare-ai-automation-intern-ef967b
   company: SS&C
@@ -539,7 +538,7 @@
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: output-biosciences-research-intern-phd-machine-learning-e3770a
@@ -586,7 +585,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-25'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: adaptive-ai-product-operations-intern-f047ad
   company: Adaptive
@@ -612,12 +611,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: cpi-card-group-intern-ai-automation-process-analyst-354a2f
@@ -629,11 +628,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: xsolla-ai-first-engineering-intern-4404e4
   company: Xsolla
@@ -685,7 +684,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: firework-ai-content-intern-6d255d
@@ -697,12 +696,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: cotiviti-intern-ai-engineer-800380
@@ -737,7 +736,7 @@
   possible_duplicate_of: null
 - id: tencent-hunyuan-multimodal-algorithm-researcher-intern-omni-modal-bfb175
   company: Tencent
-  role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal​​
+  role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal
   location: Palo Alto, CA
   link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-Intern-Omni-Modal---_R107051
   date_posted: '2026-07-02'
@@ -748,11 +747,11 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: tencent-hunyuan-multimodal-algorithm-researcher-intern-omni-modal-ad40cf
   company: Tencent
-  role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal​​
+  role: Hunyuan Multimodal Algorithm Researcher Intern- Omni-Modal
   location: Palo Alto, CA
   link: https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-intern-Omni-Modal---_R106650
   date_posted: '2026-07-02'
@@ -763,7 +762,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: nelnet-intern-ai-engineer-110df6
   company: Nelnet
@@ -781,7 +780,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-24'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: cotiviti-intern-generative-ai-research-engineer-e2606f
   company: Cotiviti
@@ -840,12 +839,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: eragon-applied-ai-intern-705205
   company: Eragon
@@ -889,12 +888,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-28'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: plus-deep-learning-research-intern-2b207c
@@ -953,11 +952,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: quadric-ai-inference-engineer-intern-model-pruning-bc24ec
@@ -984,12 +983,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: eluvio-last-minute-ai-machine-learning-summer-internship-gen-ai-multimodal-7efd7d
@@ -1035,8 +1034,9 @@
   status: open
   sources:
   - github_tracker
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: constellation-space-graduate-phd-research-intern-machine-learning-1617bd
   company: Constellation Space
@@ -1052,7 +1052,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-29'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: tifin-ai-engineering-intern-0fd9b2
@@ -1083,7 +1083,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: asm-global-automation-ai-technology-experience-intern-07541e
   company: ASM Global
@@ -1098,7 +1098,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: cotiviti-intern-generative-ai-agentic-ai-research-ad8464
   company: Cotiviti
@@ -1128,7 +1128,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: workato-intern-ai-engineering-3d23aa
@@ -1145,7 +1145,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-29'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: interdigital-generative-ai-implementation-intern-5f6e5f
   company: InterDigital
@@ -1161,7 +1161,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: penn-state-ai-ml-research-and-development-intern-412d07
   company: Penn State
@@ -1213,7 +1213,7 @@
   possible_duplicate_of: null
 - id: terranox-ai-summer-intern-ai-ml-engineering-a6eab1
   company: Terranox AI
-  role: Summer Intern - AI/ML Engineering 🇺🇸
+  role: Summer Intern - AI/ML Engineering
   location: San Francisco, CA
   link: https://www.workatastartup.com/jobs/94631
   date_posted: '2026-05-14'
@@ -1288,12 +1288,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: fortinet-ai-intern-d9de77
@@ -1310,7 +1310,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: truveta-ml-phd-intern-llms-generative-ai-4e5d78
@@ -1318,7 +1318,7 @@
   role: ML PhD Intern - LLMs & Generative AI
   location: Seattle, WA
   link: https://job-boards.greenhouse.io/truveta/jobs/5712997004
-  date_posted: '2025-12-11'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - PhD
@@ -1327,7 +1327,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-29'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: neuralink-machine-learning-engineer-intern-3205d9
@@ -1335,7 +1335,7 @@
   role: Machine Learning Engineer Intern
   location: South San Francisco, CA
   link: https://boards.greenhouse.io/neuralink/jobs/6594261003?gh_jid=6594261003
-  date_posted: '2025-06-14'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -1344,7 +1344,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-28'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: samaya-ai-ml-research-intern-2a424e
@@ -1352,7 +1352,7 @@
   role: ML Research Intern
   location: Mountain View, CA
   link: https://job-boards.greenhouse.io/samayaai/jobs/4652765007
-  date_posted: '2025-03-16'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -1361,27 +1361,9 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-28'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
-- id: intuitive-computer-vision-engineering-intern-c3873f
-  company: Intuitive
-  role: Computer Vision Engineering Intern - ...
-  location: Sunnyvale, CA
-  link: https://jobs.smartrecruiters.com/Intuitive/744000133458290
-  date_posted: '2026-06-22'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-08-24'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: bytedance-applied-research-intern-ai-safety-s-3a3777
   company: ByteDance
   role: Applied Research Intern- AI Safety Security -Global Tech Research Program-2027
@@ -1416,7 +1398,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-29'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-trust-and-b4cc95
   company: TikTok
@@ -1438,7 +1420,7 @@
   date_estimated: false
 - id: bosch-group-research-intern-world-action-model-cb0362
   company: Bosch Group
-  role: Research Intern – World-Action Model ...
+  role: Research Intern – World-Action Model / VLA for Autonomous Driving
   location: Sunnyvale, CA
   link: https://jobs.smartrecruiters.com/BoschGroup/744000136313549
   date_posted: '2026-07-07'
@@ -1450,7 +1432,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: tencent-hunyuan-multimodal-reinforcement-lear-f69dd7
@@ -1467,7 +1449,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-20'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: tencent-research-internship-reinforcement-l-587c8b
   company: Tencent
@@ -1522,7 +1504,7 @@
   date_estimated: true
 - id: nissan-autonomous-driving-applications-resea-7521e8
   company: Nissan
-  role: Autonomous Driving Applications Resea...
+  role: Autonomous Driving Applications Research Intern
   location: Santa Clara, CA
   link: https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/Autonomous-Driving-Applications-Research-Intern_R00209383
   date_posted: '2026-07-09'
@@ -1546,13 +1528,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: newsbreak-research-intern-agent-rl-training-bf51c7
@@ -1569,7 +1551,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-26'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: plusai-research-engineer-intern-mapping-75fcbf
@@ -1581,17 +1563,17 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: axiomatic-ai-internship-research-uncertainty-q-0cd516
   company: Axiomatic AI
-  role: Internship - Research  (Uncertainty Q...
+  role: Internship - Research (Uncertainty Q...
   location: Boston, MA
   link: https://job-boards.eu.greenhouse.io/axiomaticai/jobs/4845020101
   date_posted: '2026-07-23'
@@ -1620,7 +1602,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: bot-auto-intern-deep-learning-engineer-944a25
@@ -1654,7 +1636,7 @@
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: tenstorrent-cpu-ai-workload-analysis-intern-8f6a10
   company: Tenstorrent
@@ -1686,7 +1668,7 @@
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: los-alamos-national-laboratory-computing-ai-division-undergraduate-student-cs-math-stats-fa6991
   company: Los Alamos National Laboratory
@@ -1746,11 +1728,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zshah101
   date_added: '2026-07-24'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: lila-sciences-co-op-machine-learning-for-digital-twins-bc4b46
   company: Lila Sciences
@@ -1795,7 +1777,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: campbell-soup-company-agentic-ai-engineer-co-op-ee0647
@@ -1811,7 +1793,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: campbell-soup-company-business-analyst-co-op-da-ai-a715e6
@@ -1827,28 +1809,9 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
-- id: fti-consulting-technology-intern-technology-76df5d
-  company: FTI Consulting
-  role: Technology Intern - Technology
-  location: Houston, TX
-  link: https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareersPrivate/job/United-States/XMLNAME-2027-Intern---Technology_JR260339
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: fti-consulting-technology-intern-b8204d
   company: FTI Consulting
   role: Technology Intern
@@ -1910,7 +1873,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-foundations-intelligence-service-32184c
   company: TikTok
-  role: Research Scientist Intern (Data-TnS-Algo-Foundations &amp; Intelligence Service)
+  role: Research Scientist Intern (Data-TnS-Algo-Foundations & Intelligence Service)
     - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662677746436524293
@@ -2404,7 +2367,7 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: cno-financial-group-artificial-intelligence-information-technology-intern-ai-76fcd0
-  company: 'CNO Financial Group '
+  company: CNO Financial Group
   role: Artificial Intelligence Information Technology Intern - AI
   location: Carmel, IN
   link: https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389
@@ -2460,7 +2423,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-ads-signal-measurement-6df6f2
   company: TikTok
-  role: Machine Learning Engineer Intern (Ads Signal &amp; Measurement) - 2027 Summer
+  role: Machine Learning Engineer Intern (Ads Signal & Measurement) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669700361976809733
   date_posted: '2026-08-04'
@@ -2626,7 +2589,7 @@
   possible_duplicate_of: null
 - id: tiktok-research-engineer-intern-agentic-systems-ai-infrastructure-generalized-architecture-518bf1
   company: TikTok
-  role: Research Engineer Intern, Agentic Systems &amp; AI Infrastructure  (TikTok-Generalized
+  role: Research Engineer Intern, Agentic Systems & AI Infrastructure (TikTok-Generalized
     Arch) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7667934792727906565
@@ -2702,7 +2665,7 @@
   possible_duplicate_of: null
 - id: tiktok-data-engineer-intern-ads-targeting-c3e6b9
   company: TikTok
-  role: Data Engineering Project Intern  (Ads Targeting) - 2027 Start
+  role: Data Engineering Project Intern (Ads Targeting) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668533140146817333
   date_posted: '2026-08-05'
@@ -2730,7 +2693,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -2759,8 +2722,8 @@
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-511a28
   company: ByteDance
-  role: Research Scientist Intern (Video Quality Analysis &amp; Coding Strategy) -
-    2027 Start
+  role: Research Scientist Intern (Video Quality Analysis & Coding Strategy) - 2027
+    Start
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670375041041320245/detail
   date_posted: '2026-08-06'
@@ -2771,7 +2734,6 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2853,7 +2815,6 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   - company:the-nuclear-company
-  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2880,7 +2841,7 @@
   company: Microsoft
   role: 'Software Engineer: AI/ML & LLM Intern Opportunities for University Students
     - Redmond'
-  location: Washington, DC
+  location: Redmond, WA
   link: https://apply.careers.microsoft.com/careers/job/1970393556922929
   date_posted: '2026-08-04'
   date_estimated: false
@@ -2890,6 +2851,8 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:vanshb03
+  - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-09-02'
@@ -2921,26 +2884,9 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: microsoft-software-engineer-intern-ai-ml-llm-8365ba
-  company: Microsoft
-  role: Software Engineer Intern, AI/ML & LLM
-  location: Redmond, WA
-  link: https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922929
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-08-08'
   last_verified: '2026-09-02'
@@ -2965,7 +2911,7 @@
   possible_duplicate_of: null
 - id: nelnet-agentic-ai-intern-marketing-and-comm-cd8bbb
   company: Nelnet
-  role: Agentic AI Intern- Marketing and Comm...
+  role: Agentic AI Intern- Marketing and Communications
   location: Lincoln, NE
   link: https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Agentic-AI-Intern--Marketing-and-Communications_R22919
   date_posted: '2026-07-31'
@@ -2977,7 +2923,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: plusai-machine-learning-engineer-intern-sc-04233a
   company: PlusAI
@@ -2989,11 +2935,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: plusai-deep-learning-research-intern-multi-c9e544
   company: PlusAI
@@ -3005,12 +2951,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-26'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: cloudflare-u-s-public-policy-and-ai-innovation-836e8f
   company: Cloudflare
@@ -3022,15 +2968,15 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: bytedance-research-intern-sdn-traffic-intellig-3ab4b5
   company: ByteDance
-  role: Research Intern (SDN Traffic Intelligence &amp; Control) - 2027 Start
+  role: Research Intern (SDN Traffic Intelligence & Control) - 2027 Start
   location: San Jose, CA
   link: https://joinbytedance.com/search/7668118098724079877
   date_posted: '2026-08-08'
@@ -3148,7 +3094,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-24'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: applied-intuition-research-intern-3d-vision-and-generation-self-driving-0cfcb6
   company: Applied Intuition
@@ -3220,41 +3166,8 @@
   date_added: '2026-08-08'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: ge-vernova-digital-technology-intern-d73d93
-  company: GE Vernova
-  role: Digital Technology Intern
-  location: Greenville, SC
-  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-2
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-09'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: ge-vernova-digital-technology-intern-c5f332
-- id: marvell-applied-machine-learning-scientist-in-aa33ed
-  company: Marvell
-  role: Applied Machine Learning Scientist In...
-  location: Santa Clara, CA
-  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Applied-Machine-Learning-Scientist-Intern---PhD_2502662-1
-  date_posted: '2026-07-10'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-09'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: cno-financial-group-enterprise-architecture-it-intern-remote-b7799b
-  company: 'CNO Financial Group '
+  company: CNO Financial Group
   role: Enterprise Architecture IT Intern - REMOTE
   location: Carmel, IN
   link: https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/IT-Intern_JR170390
@@ -3263,16 +3176,16 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:cno-financial-group
   date_added: '2026-08-09'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: bytedance-ai-infrastructure-engineer-intern-co-42cd1f
   company: ByteDance
-  role: AI Infrastructure Engineer Intern (Compute Efficiency &amp; Scheduling) -
-    2027 Summer
+  role: AI Infrastructure Engineer Intern (Compute Efficiency & Scheduling) - 2027
+    Summer
   location: Seattle, WA
   link: https://joinbytedance.com/search/7668802157205965109
   date_posted: '2026-08-09'
@@ -3284,14 +3197,14 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-18'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: xpeng-motors-2027-campus-recruiting-general-intell-d48445
   company: XPENG Motors
-  role: 2027 Campus Recruiting General Intell...
+  role: 2027 Campus Recruiting General Intelligence Center Internship Position
   location: Santa Clara, CA
   link: https://job-boards.greenhouse.io/xpengmotors/jobs/8680036002
-  date_posted: '2026-08-05'
+  date_posted: '2026-08-04'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -3300,11 +3213,11 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-116983
   company: ByteDance
-  role: Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern
+  role: Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern
     (AML-Ark-US) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7671105026009925893/detail
@@ -3319,7 +3232,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  - github_tracker:zapplyjobs
   date_added: '2026-08-10'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3344,7 +3256,7 @@
   possible_duplicate_of: null
 - id: bytedance-agent-evaluation-evolution-machine-learning-engineer-intern-applied-machine-learning-ark-24d044
   company: ByteDance
-  role: Agent Evaluation &amp; Evolution Machine Learning Engineer Intern (AML-Ark-US)
+  role: Agent Evaluation & Evolution Machine Learning Engineer Intern (AML-Ark-US)
     - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7671096345243535669/detail
@@ -3436,7 +3348,7 @@
   possible_duplicate_of: null
 - id: bytedance-agent-evaluation-evolution-machine-learning-engineer-intern-applied-machine-learning-ark-b5bc69
   company: ByteDance
-  role: Agent Evaluation &amp; Evolution Machine Learning Engineer Intern (AML-Ark-US)
+  role: Agent Evaluation & Evolution Machine Learning Engineer Intern (AML-Ark-US)
     - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672391300141877557/detail
@@ -3476,7 +3388,7 @@
   possible_duplicate_of: null
 - id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-c4e170
   company: ByteDance
-  role: Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern
+  role: Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern
     (AML-Ark-US) - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672392998231050549/detail
@@ -3601,23 +3513,6 @@
   date_added: '2026-08-12'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: grant-thornton-tax-technology-intern-summer-2027-20edb9
-  company: Grant Thornton
-  role: Tax Technology Intern - Summer 2027
-  location: Bellevue, WA
-  link: https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/114405
-  date_posted: '2026-02-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-15'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: sel-software-engineering-intern-ai-focus-0671a6
   company: SEL
   role: Software Engineering Intern - AI Focus
@@ -3631,10 +3526,8 @@
   status: open
   sources:
   - github_tracker:speedyapply
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-09-01'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: bytedance-research-intern-ai-compute-efficienc-a124a4
   company: ByteDance
@@ -3650,14 +3543,14 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-18'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: mercedes-benz-r-d-north-america-ai-program-manager-intern-4d7648
   company: Mercedes-Benz R&D North America
-  role: ​​AI Program Manager Intern​
+  role: AI Program Manager Intern
   location: San Jose, CA
   link: https://jobs.lever.co/MBRDNA/a5501534-a21b-4e47-a249-37dac374210f
-  date_posted: '2026-08-15'
+  date_posted: '2026-06-01'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -3668,220 +3561,433 @@
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: booz-allen-hamilton-ai-ran-telecommunications-engineer-in-5d6794
-  company: Booz Allen Hamilton
-  role: AI RAN Telecommunications Engineer In...
-  location: McLean, VA
-  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246415
-  date_posted: '2026-08-12'
+- id: advanced-space-2027-machine-learning-summer-internship-91875e
+  company: Advanced Space
+  role: 2027 Machine Learning Summer Internship
+  location: Westminster, CO
+  link: https://job-boards.greenhouse.io/advancedspace/jobs/4324875009
+  date_posted: '2026-08-24'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-12'
-  last_verified: '2026-08-25'
+  - company:advanced-space
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: bp-geoscience-intern-geoscientist-caefc9
-  company: BP
-  role: Geoscience Intern - Geoscientist
+- id: aerovironment-summer-2027-machine-learning-intern-a9a6eb
+  company: AeroVironment
+  role: Summer 2027 Machine Learning Intern
+  location: Minneapolis, MN / Centreville, VA
+  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Minneapolis-MN/Summer-2027-Machine-Learning-Intern_8389
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:aerovironment
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bluecross-blueshield-of-nebraska-is-intern-ai-automation-managed-services-summer-2027-5fbee2
+  company: BlueCross BlueShield of Nebraska
+  role: 'IS Intern: AI & Automation (Managed Services) Summer 2027'
+  location: Omaha, NE
+  link: https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE/job/Omaha-NE/IS-Intern--Summer-2027_JR101411
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:bluecross-blueshield-of-nebraska
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: booz-allen-university-applied-ai-intern-e44de5
+  company: Booz Allen
+  role: University - Applied AI Intern
+  location: Washington, DC
+  link: https://bah.wd1.myworkdayjobs.com/Confidential/job/Washington-DC/University---Applied-AI-Intern_R0248111
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:booz-allen
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: dev-technology-group-ai-agentic-solution-engineer-intern-summer-2027-5624c7
+  company: Dev Technology Group
+  role: AI/Agentic Solution Engineer Intern (Summer 2027)
+  location: Reston, VA
+  link: https://job-boards.greenhouse.io/devtechnology/jobs/8728292002
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:dev-technology-group
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: dev-technology-group-ai-ml-intern-summer-2027-6501d1
+  company: Dev Technology Group
+  role: AI/ML Intern (Summer 2027)
+  location: Reston, VA
+  link: https://job-boards.greenhouse.io/devtechnology/jobs/8726074002
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:dev-technology-group
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: dev-technology-group-microsoft-power-platform-ai-intern-summer-2027-da386f
+  company: Dev Technology Group
+  role: Microsoft Power Platform & AI Intern (Summer 2027)
+  location: Reston, VA
+  link: https://job-boards.greenhouse.io/devtechnology/jobs/8726259002
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:dev-technology-group
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: diamondback-energy-summer-2027-geoscience-intern-6af922
+  company: Diamondback Energy
+  role: Summer 2027 Geoscience Intern
+  location: Midland, TX
+  link: https://diamondbackenergy.wd12.myworkdayjobs.com/DBE/job/Midland-TX/Summer-2027-Geoscience-Intern_R100829
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:diamondback-energy
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: first-national-bank-summer-2027-capital-markets-intern-158312
+  company: First National Bank
+  role: Summer 2027 Capital Markets Intern
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Capital-Markets-Intern_2026-02010
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:first-national-bank
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: first-national-bank-summer-2027-systems-analyst-intern-5bd54f
+  company: First National Bank
+  role: Summer 2027 Systems Analyst Intern
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Systems-Analyst-Intern_2026-02021
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:first-national-bank
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: first-national-bank-summer-2027-ai-ml-modeler-intern-a39bdc
+  company: First National Bank
+  role: Summer 2027 AI/ML Modeler Intern
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-AI-ML-Modeler-Intern_2026-01851
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:first-national-bank
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: ge-aerospace-applied-ai-engineer-intern-summer-2027-may-june-start-ba10c8
+  company: GE Aerospace
+  role: Applied AI Engineer Intern – Summer 2027 (May/June Start)
+  location: Remote (US)
+  link: https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Applied-AI-Engineer-Intern---Summer-2027--May-June-Start-_R5039302-1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:ge-aerospace
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hitachi-2027-summer-business-intern-alamo-e0a1b4
+  company: Hitachi
+  role: 2027 Summer Business Intern - Alamo
+  location: Alamo, TN
+  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Alamo-Tennessee-United-States-of-America/XMLNAME-2027-Summer-Business-Intern---Alamo_R0142894
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:hitachi
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hitachi-2027-summer-intern-crystal-springs-888b81
+  company: Hitachi
+  role: 2027 Summer Intern - Crystal Springs
+  location: Crystal Springs, MS
+  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Crystal-Springs-Mississippi-United-States-of-America/XMLNAME-2027-Summer-Intern---Crystal-Springs_R0143801
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:hitachi
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hitachi-2027-summer-health-safety-environmental-internship-jefferson-city-425cb8
+  company: Hitachi
+  role: 2027 Summer Health Safety Environmental Internship-Jefferson City
+  location: Jefferson City, MO
+  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Jefferson-City-Missouri-United-States-of-America/XMLNAME-2027-Summer-Health-Safety-Environmental-Internship-Jefferson-City_R0143630
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:hitachi
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hntb-design-build-intern-technician-summer-2027-2235b6
+  company: HNTB
+  role: Design Build Intern Technician - Summer 2027
+  location: Kansas City, MO
+  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Kansas-City-MO/Design-Build-Intern-Technician---Summer-2027_R-31320
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:hntb
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hntb-strategic-technology-intern-summer-2027-sed-division-for-current-former-hntb-interns-only-646e9f
+  company: HNTB
+  role: Strategic Technology Intern – Summer 2027- SED Division (For Current/Former
+    HNTB Interns Only)
+  location: Tallahassee, FL / Tampa, FL
+  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Tallahassee-FL/Strategic-Technology-Intern---Summer-2027--SED-Division--For-Current-Former-HNTB-Interns-Only-_R-31092
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:hntb
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-new-york-574701
+  company: Jones Lang LaSalle (JLL)
+  role: Capital Markets Summer 2027 Internship - New York
+  location: New York, NY
+  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/New-York-NY/Capital-Markets-Summer-2027-Internship---New-York_REQ528322
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:jones-lang-lasalle-jll
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-student-internship-environmental-sciences-a6d291
+  company: Olsson
+  role: Student Internship - Environmental Sciences
+  location: North Kansas City, MO
+  link: https://job-boards.greenhouse.io/olsson/jobs/5412829008
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:olsson
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-student-internship-environmental-sciences-geology-4a8bc7
+  company: Olsson
+  role: Student Internship - Environmental Sciences/Geology
+  location: Omaha, NE
+  link: https://job-boards.greenhouse.io/olsson/jobs/5412915008
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:olsson
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: persona-ai-machine-learning-internship-manipulation-e68cc6
+  company: Persona AI
+  role: Machine Learning Internship, Manipulation
   location: Houston, TX
-  link: https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Intern---Geoscientist---Houston-TX_RQ114816
-  date_posted: '2026-08-14'
+  link: https://jobs.ashbyhq.com/persona.ai/ed9a7425-9798-471e-b46a-fefd59570630
+  date_posted: '2026-07-31'
   date_estimated: false
   term: Summer 2027
   degree:
   - MS
   - PhD
-  status: closed
+  status: open
   sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-15'
+  - company:persona-ai
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: campbell-soup-company-business-analyst-co-op-da-ai-84c705
-  company: Campbell Soup Company
-  role: Business Analyst (Co-op), DA&AI
-  location: Remote (US)
-  link: https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65914
-  date_posted: '2026-07-14'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-13'
-  last_verified: '2026-08-30'
-  possible_duplicate_of: null
-- id: campbell-soup-company-business-analyst-co-op-da-ai-922186
-  company: Campbell Soup Company
-  role: Business Analyst (Co-op), DA&AI
-  location: Remote (US)
-  link: https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65913
-  date_posted: '2026-07-14'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-13'
-  last_verified: '2026-08-30'
-  possible_duplicate_of: null
-- id: deloitte-ai-and-data-engineering-summer-scholar-intern-government-public-services-213bff
-  company: Deloitte
-  role: AI and Data Engineering Summer Scholar Intern - Government & Public Services
-  location: Austin, TX
-  link: https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Summer-Scholar-AI-and-Data-Engineering/362479
-  date_posted: '2026-08-11'
+- id: philips-intern-data-ai-ml-engineering-plymouth-mn-summer-2027-82778c
+  company: Philips
+  role: Intern – Data AI/ML Engineering – Plymouth, MN – Summer 2027
+  location: Plymouth, MN
+  link: https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404
+  date_posted: '2026-08-28'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
+  - MS
   status: open
   sources:
+  - company:philips
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-12'
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: field-ai-robotics-research-intern-robot-learn-f126d1
-  company: Field AI
-  role: Robotics Research Intern, Robot Learn...
-  location: Pittsburgh, PA
-  link: https://jobs.lever.co/field-ai/a03d3102-4ebf-4557-9e0e-537ead53e24f
-  date_posted: '2026-08-12'
+- id: tarrant-regional-water-district-summer-2027-energy-intern-t047-011775
+  company: Tarrant Regional Water District
+  role: Summer 2027 Energy Intern (T047)
+  location: Fort Worth, TX
+  link: https://trwd.wd1.myworkdayjobs.com/TRWDCareers/job/Fort-Worth-TX/Summer-2027-Energy-Intern--T047-_JR100217
+  date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-24'
-  possible_duplicate_of: null
-- id: field-ai-robotics-research-internship-humanoi-49ed33
-  company: Field AI
-  role: Robotics Research Internship, Humanoi...
-  location: Boston, MA
-  link: https://jobs.lever.co/field-ai/2a2c8f00-3a28-481b-882c-33cb0ec4a3a0
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-24'
-  possible_duplicate_of: null
-- id: field-ai-robotics-research-internship-locomoti-4cb187
-  company: Field AI
-  role: Robotics Research Internship-Locomoti...
-  location: Irvine, CA
-  link: https://jobs.lever.co/field-ai/ce04c5b3-17c3-49aa-b833-a6bebbf9d23f
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-24'
-  possible_duplicate_of: null
-- id: toyota-research-institute-human-interactive-driving-intern-wo-cb5d03
-  company: Toyota Research Institute
-  role: Human Interactive Driving Intern – Wo...
-  location: Los Altos, CA
-  link: https://jobs.lever.co/tri/63d61db3-ac43-4c0d-8b9b-5006e3b92149
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bytedance-research-intern-ai-compute-efficienc-5f3992
-  company: ByteDance
-  role: Research Intern (AI Compute Efficienc...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7668804309487749429
-  date_posted: '2026-08-16'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-16'
-  last_verified: '2026-08-16'
-  possible_duplicate_of: null
-- id: bytedance-research-intern-bytebrain-aiops-2-f868cc
-  company: ByteDance
-  role: Research Intern (ByteBrain-AIOps) - 2...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7667380188619131189
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-17'
-  last_verified: '2026-08-17'
-  possible_duplicate_of: null
-- id: bytedance-ai-creator-operations-intern-capcut-df9009
-  company: ByteDance
-  role: AI Creator Operations Intern (CapCut)...
-  location: Los Angeles, CA
-  link: https://joinbytedance.com/search/7673715653065525509
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-17'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: w-w-grainger-business-systems-analyst-intern-458617
-  company: W.W. Grainger
-  role: Business Systems Analyst Intern
-  location: Chicago, IL
-  link: https://jobs.grainger.com/job/CHICAGO-GTG-Intern-Business-Systems-Analyst-IL-60654-4203/1419931200/?ats=successfactors
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
+  - company:tarrant-regional-water-district
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-17'
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: td-bank-2027-summer-internship-graduate-leadership-program-retail-banking-strategy-ai-bd1599
+  company: TD Bank
+  role: 2027 Summer Internship Graduate Leadership Program- Retail Banking Strategy
+    & AI
+  location: New York, NY / 5201 North Lois Avenue, FL / Charlotte, NC / Mt Laurel
+    - 6000 Atrium Way, NJ
+  link: https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/XMLNAME-2027-Summer-Graduate-Leadership-Internship-Program---Retail-Distribution_R_1508518-1
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:td-bank
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-a52b20
@@ -3897,11 +4003,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
   - github_tracker:vanshb03
-  date_added: '2026-08-18'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-7ee728
@@ -3917,11 +4021,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
   - github_tracker:vanshb03
-  date_added: '2026-08-18'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-e86ee5
@@ -3937,10 +4039,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:zshah101
   - github_tracker:vanshb03
-  date_added: '2026-08-18'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-28f75a
@@ -3956,11 +4056,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
   - github_tracker:vanshb03
-  date_added: '2026-08-18'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-991ef2
@@ -3976,65 +4074,10 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:zshah101
   - github_tracker:vanshb03
-  date_added: '2026-08-18'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: american-express-ai-engineer-intern-enterprise-technology-services-28f75a
-- id: bytedance-research-intern-ai-infra-compute-b039a1
-  company: ByteDance
-  role: Research Intern (AI Infra Compute) - ...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7667379221434796341
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-18'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: toyota-research-institute-robotics-research-intern-post-training-56c24d
-  company: Toyota Research Institute
-  role: Robotics Research Intern - Post-Training
-  location: Los Altos, CA
-  link: https://jobs.lever.co/tri/186808f9-464c-4f22-9d7d-4372ef272ff0
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-18'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: american-express-ai-engineer-intern-enterprise-technology-services-b4356a
-  company: American Express
-  role: AI Engineer Intern - Enterprise Technology Services
-  location: New York, NY
-  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011698
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  - github_tracker:vanshb03
-  date_added: '2026-08-18'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-717447
   company: American Express
   role: AI Engineer Intern - Enterprise Technology Services
@@ -4048,53 +4091,15 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:zshah101
   - github_tracker:vanshb03
-  date_added: '2026-08-18'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: american-express-ai-engineer-intern-enterprise-technology-services-eac109
-  company: American Express
-  role: AI Engineer Intern - Enterprise Technology Services
-  location: Atlanta, GA
-  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:zshah101
-  - github_tracker:vanshb03
-  date_added: '2026-08-18'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: arkansas-center-for-data-sciences-align-ai-software-development-intern-c6c755
-  company: Arkansas Center for Data Sciences
-  role: Align AI Software Development Intern
-  location: Bentonville, AR
-  link: https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  date_added: '2026-08-18'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: dimensional-fund-advisors-global-client-group-intern-data-and-tools-undergraduate-and-master-s-a00461
+  possible_duplicate_of: american-express-ai-engineer-intern-enterprise-technology-services-7ee728
+- id: dimensional-fund-advisors-global-client-group-operations-insights-intern-undergraduate-master-s-dbafd2
   company: Dimensional Fund Advisors
-  role: Global Client Group Intern - Data and Tools - Undergraduate and Master's
+  role: Global Client Group Operations Insights Intern - Undergraduate & Master's
   location: Austin, TX
-  link: https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Global-Client-Group---Data-and-Tools--Undergraduate---Master-s-_2026-9003
+  link: https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Global-Client-Group---Insights--Undergraduate---Master-s-_2026-9002
   date_posted: '2026-08-18'
   date_estimated: false
   term: Summer 2027
@@ -4105,84 +4110,12 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: humana-technology-intern-011e52
-  company: Humana
-  role: Technology Intern
-  location: Louisville, KY
-  link: https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Humana-Technology-Internship---Summer-2027_R-424692-1
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:vanshb03
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bytedance-gpu-ai-application-platform-engineer-cfc1bc
-  company: ByteDance
-  role: GPU/AI Application Platform Engineer ...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7668475133954197765
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bytedance-ai-llm-network-research-intern-high-a3419e
-  company: ByteDance
-  role: AI/LLM Network Research Intern (High ...
-  location: Seattle, WA
-  link: https://joinbytedance.com/search/7670281454740818181
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: continental-resources-geoscience-intern-f1ba85
-  company: Continental Resources
-  role: Geoscience Intern
-  location: Oklahoma City, OK
-  link: https://clr.wd5.myworkdayjobs.com/CLR_Careers/job/Oklahoma-City-OK/Geoscience-Intern--Summer-2027-_R02592-1
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: bytedance-machine-learning-engineer-intern-e-commerce-risk-control-phd-1f4b70
   company: ByteDance
-  role: Machine Learning Engineer Intern - E-Commerce Risk Control - PhD
+  role: Machine Learning Engineer Intern (E-Commerce Risk Control)- 2027 Start
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7675478684795881781/detail
   date_posted: '2026-08-19'
@@ -4194,14 +4127,12 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: bytedance-machine-learning-engineer-intern-e-commerce-risk-control-phd-2863bc
   company: ByteDance
-  role: Machine Learning Engineer Intern - E-Commerce Risk Control - PhD
+  role: Machine Learning Engineer Intern (E-Commerce Risk Control)- 2027 Start
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7675477254269765941/detail
   date_posted: '2026-08-19'
@@ -4214,7 +4145,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-ph-d-research-autonomous-vehicles-intern-1b26b6
@@ -4227,12 +4158,11 @@
   term: Summer 2027
   degree:
   - PhD
-  status: closed
+  status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-generative-ai-ph-d-research-intern-c23ddc
@@ -4248,10 +4178,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-large-language-models-intern-research-9bd7b3
@@ -4267,9 +4195,25 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: nvidia-ph-d-research-graphics-and-simulation-intern-graphics-and-simulation-39f29e
+  company: NVIDIA
+  role: Ph.D. Research Graphics and Simulation Intern - Graphics and Simulation
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Graphics-and-Simulation_JR2023835
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-deep-learning-computer-architecture-intern-df45c2
@@ -4287,9 +4231,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-computer-vision-and-deep-learning-intern-778318
@@ -4302,67 +4245,16 @@
   term: Summer 2027
   degree:
   - PhD
-  status: closed
+  status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: microsoft-ai-software-engineering-intern-416734
-  company: Microsoft
-  role: AI Software Engineering Intern
-  location: Washington, DC
-  link: https://apply.careers.microsoft.com/careers/job/1970393556962891
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
-  last_verified: '2026-08-30'
-  possible_duplicate_of: null
-- id: allium-engineering-intern-general-ai-7b59e4
-  company: Allium
-  role: Engineering Intern - General / AI
-  location: New York, NY
-  link: https://jobs.ashbyhq.com/allium/5d697ce5-b820-45c0-a101-86a05e1fb15e
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: fundwell-ai-innovation-internship-75ee49
-  company: Fundwell
-  role: AI Innovation Internship
-  location: New York, NY
-  link: https://jobs.ashbyhq.com/fundwell/2d91136d-b54d-4ed0-93de-22c7839a3982
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-mlops-intern-global-site-reliability-engineering-341fc3
   company: TikTok
-  role: Machine Learning MLOps Intern - Global Site Reliability Engineering
+  role: Machine Learning MLOps Intern (Global SRE) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7670875283026053381
   date_posted: '2026-08-19'
@@ -4374,50 +4266,13 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-20'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: verition-fund-management-technology-intern-d62c04
-  company: Verition Fund Management
-  role: Technology Intern
-  location: Greenwich, CT
-  link: https://www.verition.com/open-positions?gh_jid=5214784007
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-20'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bytedance-ai-llm-network-research-intern-high-fd347a
-  company: ByteDance
-  role: AI/LLM Network Research Intern (High ...
-  location: San Jose, CA
-  link: https://joinbytedance.com/search/7669969771686775045
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-20'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e911cd
   company: TikTok
-  role: Machine Learning Engineer Intern
+  role: Machine Learning Engineer Intern (E-Commerce Supply Chain & Logistics-LLM/Agent)
+    - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7675847556668295429
   date_posted: '2026-08-20'
@@ -4429,13 +4284,13 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-20'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-supply-chain-logistics-llm-agent-phd-af24f2
   company: TikTok
-  role: Machine Learning Engineer Intern - E-Commerce Supply Chain & Logistics-LLM/Agent
-    - PhD
+  role: Machine Learning Engineer Intern (E-Commerce Supply Chain & Logistics-LLM/Agent)
+    - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7675845333947812149
   date_posted: '2026-08-20'
@@ -4446,152 +4301,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-20'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: rtx-systems-technology-intern-322c2d
-  company: RTX
-  role: Systems Technology Intern
-  location: Tucson, AZ
-  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Systems-Technology-Intern----Summer-2027-_01868533
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: cno-financial-group-reporting-analyst-intern-0e66ec
-  company: CNO Financial Group
-  role: Reporting Analyst Intern
-  location: Carmel, IN
-  link: https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Summer-2027-Reporting-Analyst-Intern-2027---REMOTE-from-any-US-based-location_JR170455
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: crowe-machine-learning-intern-ffe7a4
-  company: Crowe
-  role: Machine Learning Intern
-  location: Chicago, IL
-  link: https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/Machine-Learning-Intern_R-71005
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: persona-ai-machine-learning-intern-manipulation-e68cc6
-  company: Persona AI
-  role: Machine Learning Intern, Manipulation
-  location: Houston, TX
-  link: https://jobs.ashbyhq.com/persona.ai/ed9a7425-9798-471e-b46a-fefd59570630
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: american-fidelity-agentic-ai-internship-okc-local-only-0747e9
-  company: American Fidelity
-  role: Agentic AI Internship (OKC Local Only)
-  location: Oklahoma City, OK
-  link: https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/IT-Intern-1_JR1016
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: auto-owners-insurance-predictive-modeler-intern-summer-2027-8a0937
-  company: Auto-Owners Insurance
-  role: Predictive Modeler Intern - Summer 2027
-  location: Lansing, MI
-  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Predictive-Modeler-Intern---Summer-2022_R_3833
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: imeg-innovation-services-intern-c28aa4
-  company: IMEG
-  role: Innovation Services Intern
-  location: St. Louis, MO
-  link: https://wd1.myworkdaysite.com/recruiting/imeg/Imeg_Careers/job/St-Louis-MO/Innovation-Services-Intern---St-Louis--MO_R-16449-1
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: lawrence-livermore-national-laboratory-llnl-computational-engineering-graduate-intern-98ed6e
-  company: Lawrence Livermore National Laboratory (LLNL)
-  role: Computational Engineering Graduate Intern
-  location: Livermore, CA
-  link: https://jobs.smartrecruiters.com/LLNL/3743990014730886
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-machine-learning-intern-co-op-multiple-teams-c4434b
@@ -4608,8 +4319,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-machine-learning-intern-co-op-machine-learning-artificial-intelligence-8ecdb5
@@ -4626,8 +4336,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-machine-learning-intern-co-op-machine-learning-artificial-intelligence-1bf304
@@ -4643,9 +4352,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
-  possible_duplicate_of: null
+  possible_duplicate_of: amd-machine-learning-intern-co-op-machine-learning-artificial-intelligence-8ecdb5
 - id: amd-machine-learning-intern-co-op-artificial-intelligence-a80c34
   company: AMD
   role: Machine Learning Intern/Co-op - Artificial Intelligence
@@ -4660,32 +4369,14 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: millennium-applied-ai-engineer-intern-ef89eb
-  company: Millennium
-  role: Applied AI Engineer Intern
-  location: Miami, FL
-  link: https://career.mlp.com/careers/job/755957778848
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: ecolab-digital-ai-technology-intern-c48375
-  company: Ecolab
-  role: Digital & AI Technology Intern
-  location: Naperville, IL
-  link: https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Saint-Paul/Digital---AI-Technology-Intern_R00303249
+- id: marsh-government-health-consulting-informatics-intern-college-program-bbe829
+  company: Marsh
+  role: Government Health Consulting Informatics Intern - College Program
+  location: Phoenix, AZ
+  link: https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/Phoenix---E-Camelback/Government-Health-Consulting-Informatics-Summer-Intern---College-Program-2027_R_362073
   date_posted: '2026-08-21'
   date_estimated: false
   term: Summer 2027
@@ -4695,8 +4386,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-22'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: springs-window-fashions-ai-analyst-intern-consumer-business-unit-1eb5e7
@@ -4713,45 +4403,10 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-22'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: microsoft-ai-software-engineering-intern-edge-c477a9
-  company: Microsoft
-  role: AI Software Engineering Intern - Edge
-  location: Washington, DC
-  link: https://apply.careers.microsoft.com/careers/job/1970393556979054
-  date_posted: '2026-08-22'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-22'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: audax-group-ai-engineer-co-op-284b98
-  company: Audax Group
-  role: AI Engineer Co-Op
-  location: Boston, MA
-  link: https://job-boards.greenhouse.io/audaxgroup/jobs/4722801005
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: google-research-intern-phd-e45d13
+- id: google-research-intern-phd-fbf609
   company: Google
   role: Research Intern - PhD
   location: Palo Alto, CA
@@ -4761,31 +4416,12 @@
   term: Summer 2027
   degree:
   - PhD
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: freddie-mac-single-family-data-intern-e536e6
-  company: Freddie Mac
-  role: Single-Family Data Intern
-  location: McLean, VA
-  link: https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Single-Family-Data-Intern--Summer-2027_JR17545
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
   status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-25'
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: procter-gamble-data-ai-engineering-intern-bd9ee7
@@ -4802,93 +4438,27 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-25'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: intuitive-computer-vision-engineering-intern-fd61ea
-  company: Intuitive
-  role: Computer Vision Engineering Intern - ...
-  location: Sunnyvale, CA
-  link: https://jobs.smartrecruiters.com/Intuitive/744000145329669
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-25'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: intuitive-computer-vision-engineering-intern-c3873f
-- id: wex-phd-intern-ai-ml-nlp-engineer-d5bcb3
-  company: Wex
-  role: PhD Intern, AI/ML/NLP Engineer
-  location: Remote (US)
-  link: https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/US---Remote/PhD-Intern--AI-ML-NLP-Engineer_R22834
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: advanced-space-2027-machine-learning-summer-internship-91875e
-  company: Advanced Space
-  role: 2027 Machine Learning Summer Internship
-  location: Westminster, CO
-  link: https://job-boards.greenhouse.io/advancedspace/jobs/4324875009
+- id: micron-technology-advanced-spectroscopy-and-nanoscale-materials-characterization-intern-1df716
+  company: Micron Technology
+  role: Advanced Spectroscopy and Nanoscale Materials Characterization Intern
+  location: Boise, ID
+  link: https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/XMLNAME-2027-Summer-Intern--Advanced-Spectroscopy-and-Nanoscale-Materials-Characterization_JR109071
   date_posted: '2026-08-24'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  date_added: '2026-08-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: amd-research-engineering-intern-co-op-amd-research-b31c87
-  company: AMD
-  role: Research Engineering Intern/Co-op - AMD Research
-  location: Secaucus, NJ
-  link: https://careers.amd.com/jobs/90926?icims=1
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
+  - MS
   - PhD
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-25'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bosch-group-ai-security-research-intern-47456d
-  company: Bosch Group
-  role: AI Security Research Intern
-  location: Pittsburgh, PA
-  link: https://jobs.smartrecruiters.com/BoschGroup/744000145507908
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-25'
-  last_verified: '2026-08-27'
   possible_duplicate_of: null
 - id: dtcc-data-solutions-intern-internship-program-8ffdce
   company: DTCC
@@ -4903,14 +4473,13 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-26'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: tiktok-ai-infrastructure-engineer-intern-recommendation-llm-097b1b
   company: TikTok
-  role: AI Infrastructure Engineer Intern - Recommendation & LLM
+  role: AI Infra Engineer Intern (Recommendation & LLM) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7672671220798818613
   date_posted: '2026-08-26'
@@ -4923,8 +4492,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-26'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: verisk-ai-intern-summer-internship-program-7f09e3
@@ -4938,106 +4506,11 @@
   degree:
   - BS
   - MS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  date_added: '2026-08-27'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: ameren-meteorology-intern-crisis-management-72ccd0
-  company: Ameren
-  role: Meteorology Intern - Crisis Management
-  location: Peoria, IL
-  link: https://ameren.wd1.myworkdayjobs.com/External/job/Peoria-IL/Crisis-Management-Data---Analytics-Intern_033895-1
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-27'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: leidos-software-engineer-intern-artificial-intelligence-327539
-  company: Leidos
-  role: Software Engineer Intern - Artificial Intelligence
-  location: Remote (US)
-  link: https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00190648
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  - github_tracker:speedyapply
-  date_added: '2026-08-27'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: netflix-machine-learning-ai-infrastructure-en-09be7d
-  company: Netflix
-  role: Machine Learning/AI Infrastructure En...
-  location: Los Gatos, CA
-  link: https://explore.jobs.netflix.net/careers/job/790317917022
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-27'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: netflix-machine-learning-ai-scientist-phd-int-3dadbf
-  company: Netflix
-  role: Machine Learning/AI Scientist PhD Int...
-  location: Los Gatos, CA
-  link: https://explore.jobs.netflix.net/careers/job/790317916733
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-27'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: procter-gamble-research-development-scientist-engineer-intern-freshmen-sophomores-and-juniors-70d589
-  company: Procter & Gamble
-  role: Research & Development Scientist/Engineer Intern - Freshmen, Sophomores, And
-    Juniors
-  location: St Bernard, OH
-  link: https://pg.wd5.myworkdayjobs.com/1000/job/Mason/Research---Development-Scientist-Engineer-Intern-Summer-2027---Freshmen--Sophomores--and-Juniors_R000157846
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-27'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: manulife-financial-ai-intern-ai-322150
@@ -5054,28 +4527,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
   - github_tracker:zshah101
-  date_added: '2026-08-28'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: booz-allen-applied-ai-intern-university-e44de5
-  company: Booz Allen
-  role: Applied AI Intern - University
-  location: Washington, DC
-  link: https://bah.wd1.myworkdayjobs.com/Confidential/job/Washington-DC/University---Applied-AI-Intern_R0248111
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-28'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: grant-thornton-ai-data-technology-intern-summer-2027-0665f8
@@ -5092,9 +4545,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zshah101
-  date_added: '2026-08-28'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: finastra-ai-engineer-intern-summer-2027-98ff95
@@ -5112,8 +4563,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-28'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: wells-fargo-applied-computational-intelligence-intern-aci-masters-early-careers-6ba2a0
@@ -5129,127 +4579,13 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-28'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: workiva-summer-2027-intern-machine-learning-b5ac7b
-  company: Workiva
-  role: Summer 2027 Intern - Machine Learning...
-  location: Remote (US)
-  link: https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  date_added: '2026-08-28'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: iberdrola-group-technology-cyber-data-intern-f3db07
-  company: Iberdrola Group
-  role: Technology – Cyber & Data Intern
-  location: Boston, MA
-  link: https://iberdrola.wd3.myworkdayjobs.com/iberdrola/job/United-States-Of-America-Connecticut-Orange/XMLNAME-2027-Technology--Cyber---Data-Internship-Program_R-32747
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-28'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: deloitte-ai-innovation-summer-scholar-intern-ai-innovation-6df3f4
-  company: Deloitte
-  role: AI Innovation Summer Scholar Intern - AI Innovation
-  location: McLean, VA
-  link: https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-AI-Innovation/364696
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-28'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: booz-allen-hamilton-ai-software-developer-intern-fd6905
-  company: Booz Allen Hamilton
-  role: AI Software Developer Intern
-  location: San Diego, CA
-  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/AI-Software-Developer-Intern_R0248115
-  date_posted: '2026-08-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:speedyapply
-  date_added: '2026-08-29'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: philips-data-ai-ml-engineer-intern-image-guided-therapy-devices-software-r-d-82778c
-  company: Philips
-  role: Data AI/ML Engineer Intern - Image Guided Therapy Devices - Software R&D
-  location: Plymouth, MN
-  link: https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  date_added: '2026-08-29'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: charles-schwab-data-engineering-intern-data-engineering-5934a0
-  company: Charles Schwab
-  role: Data Engineering Intern - Data Engineering
-  location: Austin, TX
-  link: https://career-schwab.icims.com/jobs/126227/job?mobile=true&needsRedirect=false
-  date_posted: '2026-08-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-29'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-knowledge-graph-f6016b
   company: TikTok
-  role: Machine Learning Engineer Intern - E-Commerce Knowledge Graph
+  role: Machine Learning Engineer Intern (E-Commerce Knowledge Graph) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7676652813409552645
   date_posted: '2026-08-31'
@@ -5260,14 +4596,13 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-31'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-knowledge-graph-b5e259
   company: TikTok
-  role: Machine Learning Engineer Intern - E-Commerce Knowledge Graph
+  role: Machine Learning Engineer Intern (E-Commerce Knowledge Graph) - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7676650607912601861
   date_posted: '2026-08-31'
@@ -5279,26 +4614,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-31'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: ge-aerospace-applied-ai-intern-ba10c8
-  company: GE Aerospace
-  role: Applied AI Intern
-  location: Evendale, OH
-  link: https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Applied-AI-Engineer-Intern---Summer-2027--May-June-Start-_R5039302-1
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-31'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: grant-thornton-ai-data-technology-intern-summer-2027-5e1e4a
@@ -5315,8 +4631,25 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: protiviti-technology-consulting-intern-2027-61c517
+  company: Protiviti
+  role: Technology Consulting Intern - 2027
+  location: New York, NY
+  link: https://roberthalf.wd1.myworkdayjobs.com/ProtivitiNA/job/NEW-YORK-CITY/New-York-Technology-Consulting-Intern---2027_JR-258932
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: grant-thornton-ai-data-technology-intern-summer-2027-52e52b
@@ -5333,8 +4666,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: grant-thornton-ai-data-technology-intern-summer-2027-9ba22f
@@ -5351,32 +4683,14 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: fifth-third-bank-enterprise-data-office-co-op-7a6cf2
-  company: Fifth Third Bank
-  role: Enterprise Data Office Co-op
-  location: Cincinnati, OH
-  link: https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Cincinnati-OH/Enterprise-Data-Office-College-Co-op---Summer-2027---Cincinnati_R72261
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: blackhawk-network-holdings-technology-intern-e4b8e0
-  company: Blackhawk Network Holdings
-  role: Technology Intern
-  location: Pleasanton, CA
-  link: https://careers-blackhawknetwork.icims.com/jobs/26867/job?mobile=true&needsRedirect=false
+- id: protiviti-technology-consulting-intern-0d96b9
+  company: Protiviti
+  role: Technology Consulting Intern
+  location: Atlanta, GA
+  link: https://roberthalf.wd1.myworkdayjobs.com/ProtivitiNA/job/ATLANTA---PEACHTREE-RD/Atlanta-Technology-Consulting-Intern---2027_JR-258798-2
   date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
@@ -5387,27 +4701,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bosch-home-comfort-calibration-process-optimization-intern-2892b5
-  company: Bosch Home Comfort
-  role: Calibration Process Optimization Intern
-  location: Farmington Hills, MI
-  link: https://jobs.smartrecruiters.com/BoschGroup/744000146526409
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: bosch-home-comfort-ai-application-intern-93c6e1
@@ -5425,117 +4719,12 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: pricewaterhousecoopers-pwc-geographic-information-systems-intern-f36ea7
-  company: PricewaterhouseCoopers (PwC)
-  role: Geographic Information Systems Intern
-  location: Boston, MA
-  link: https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Technology-Consulting---Geographic-Information-Systems-Intern---Summer-2027_757257WD
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: pricewaterhousecoopers-pwc-digital-assurance-transparency-intern-multiple-teams-7fc301
-  company: PricewaterhouseCoopers (PwC)
-  role: Digital Assurance & Transparency Intern - Multiple Teams
-  location: San Francisco, CA
-  link: https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Digital-Assurance---Transparency--DAT----Tech---Intern---Summer-2027_756925WD
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: micron-technology-intern-ai-systems-and-infrastructur-5bf226
-  company: Micron Technology
-  role: Intern - AI Systems and Infrastructur...
-  location: Austin, TX
-  link: https://micron.wd1.myworkdayjobs.com/external/job/Austin-TX/Intern---AI-Systems-and-Infrastructure-Engineering_JR109990
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: nike-nike-inc-artificial-intelligence-d-55e88b
-  company: Nike
-  role: NIKE, Inc. Artificial Intelligence, D...
-  location: Beaverton, OR
-  link: https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Artificial-Intelligence--Data----Machine-Learning-Engineering-Undergraduate-Internship_R-91110
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: certik-blockchain-security-expert-intern-a-eb5a22
-  company: CertiK
-  role: Blockchain Security Expert Intern - A...
-  location: New York, NY / Remote (US)
-  link: https://jobs.lever.co/certik/1f446b66-1fae-4c31-9352-cde86e254754
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: medline-rpa-agentic-ai-software-technologies-intern-summer-2027-f8a209
-  company: Medline
-  role: RPA & Agentic AI Software Technologies Intern - Summer 2027
-  location: Northbrook, IL
-  link: https://medline.wd5.myworkdayjobs.com/en-US/Medline/job/Northbrook-Illinois/RPA---Agentic-AI-Software-Technologies-Intern---Summer-2027_R2617378
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:speedyapply
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: bytedance-research-intern-ai-compute-a6ba66
   company: ByteDance
-  role: Research Intern - AI Compute
+  role: Research Intern (AI Compute) - 2027 Start
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7679892629651310901/detail
   date_posted: '2026-08-31'
@@ -5547,13 +4736,12 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: bytedance-research-intern-ai-compute-860466
   company: ByteDance
-  role: Research Intern - AI Compute
+  role: Research Intern (AI Compute) - 2027 Start
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7679892316538063157/detail
   date_posted: '2026-08-31'
@@ -5565,27 +4753,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: johns-hopkins-applied-physics-laboratory-signal-processing-intern-multiple-teams-289e45
-  company: Johns Hopkins Applied Physics Laboratory
-  role: Signal Processing Intern - Multiple Teams
-  location: Laurel, MD
-  link: https://careers.jhuapl.edu/jobs/59875?icims=1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: adobe-machine-learning-engineer-intern-a813a3
@@ -5605,98 +4773,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: american-express-data-management-intern-global-merchant-network-services-451e43
-  company: American Express
-  role: Data Management Intern - Global Merchant & Network Services
-  location: Phoenix, AZ
-  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012668
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: edison-international-intern-multiple-teams-238996
-  company: Edison International
-  role: Intern - Multiple Teams
-  location: Santa Ana, CA
-  link: https://apply.edisoncareers.com/job/Westminster-2027-Summer-Internship-Data-AnalyticsScienceApplied-Math-Santa-AnaWestminsterIrvineFullerton-CA-92683-5240/1425178600/?ats=successfactors
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: the-federal-reserve-system-research-intern-research-group-ed2f11
-  company: The Federal Reserve System
-  role: Research Intern - Research Group
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Research-Group---Junior-Intern_R-0000033023
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: the-federal-reserve-system-statistics-intern-bc1473
-  company: The Federal Reserve System
-  role: Statistics Intern
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Statistics---Sophomore-Intern_R-0000033027
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: iat-insurance-group-data-integration-intern-8ab01a
-  company: IAT Insurance Group
-  role: Data & Integration Intern
-  location: Milwaukee, WI
-  link: https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Milwaukee-WI/Data---Integration-Internship_JR100404
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: first-national-bank-ai-and-innovation-intern-4a2262
@@ -5712,10 +4789,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:zshah101
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-01'
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: clarios-it-digital-ai-intern-summer-2027-589953
@@ -5731,97 +4807,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
-  - github_tracker:zshah101
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bluecross-blueshield-of-nebraska-is-intern-ai-automation-managed-services-summer-2027-5fbee2
-  company: BlueCross BlueShield of Nebraska
-  role: 'IS Intern: AI & Automation (Managed Services) Summer 2027'
-  location: Omaha, NE
-  link: https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE/job/Omaha-NE/IS-Intern--Summer-2027_JR101411
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: rtx-digital-technology-intern-1e3be2
-  company: RTX
-  role: Digital Technology Intern
-  location: McKinney, TX
-  link: https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/Digital-Technology-Intern--Summer-2027-_01871045
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: dev-technology-group-microsoft-power-platform-ai-intern-summer-2027-da386f
-  company: Dev Technology Group
-  role: Microsoft Power Platform & AI Intern - Summer 2027
-  location: Reston, VA
-  link: https://job-boards.greenhouse.io/devtechnology/jobs/8726259002
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: dev-technology-group-ai-ml-intern-summer-2027-6501d1
-  company: Dev Technology Group
-  role: AI/ML Intern - Summer 2027
-  location: Reston, VA
-  link: https://job-boards.greenhouse.io/devtechnology/jobs/8726074002
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: pella-data-engineer-intern-summer-2027-e044db
-  company: Pella
-  role: Data Engineer Intern - Summer 2027
-  location: Pella, IA
-  link: https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253304
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -5861,37 +4848,21 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: tarrant-regional-water-district-energy-intern-011775
-  company: Tarrant Regional Water District
-  role: Energy Intern
-  location: Fort Worth, TX
-  link: https://trwd.wd1.myworkdayjobs.com/TRWDCareers/job/Fort-Worth-TX/Summer-2027-Energy-Intern--T047-_JR100217
+- id: aig-summer-intern-data-office-b0b536
+  company: AIG
+  role: Summer Intern - Data Office
+  location: Charlotte, NC
+  link: https://aig.wd1.myworkdayjobs.com/aig/job/GA-Atlanta/XMLNAME-2027-Early-Careers--Summer-Intern--Data-Office---United-States--Atlanta--GA--Charlotte--NC--Parsippany--NJ--Jersey-City--NJ---New-York--NY_JR2603655-1
   date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
+  - MS
   status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: philips-data-engineering-co-op-4c515d
-  company: Philips
-  role: Data Engineering Co-op
-  location: Reedsville, PA
-  link: https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Reedsville-Pennsylvania-United-States/Co-op-Data-Engineering-Reedsville--PA-July-December-2027_587486
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -5911,42 +4882,6 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: post-holdings-data-engineer-intern-78f31a
-  company: Post Holdings
-  role: Data Engineer Intern
-  location: Lakeville, MN
-  link: https://jobs.postholdings.com/jobs/31960?icims=1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: clarios-forward-deployed-engineer-intern-summer-2027-7347cd
-  company: Clarios
-  role: Forward Deployed Engineer Intern - Summer 2027
-  location: Milwaukee, WI
-  link: https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/Forward-Deployed-Engineering-Intern--Summer-2027-_WD49962
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -6004,23 +4939,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: aig-summer-intern-data-office-825b98
-  company: AIG
-  role: Summer Intern - Data Office
-  location: Charlotte, NC
-  link: https://aig.wd1.myworkdayjobs.com/en-US/early_careers/job/GA-Atlanta/XMLNAME-2027-Early-Careers--Summer-Intern--Data-Office---United-States--Atlanta--GA--Charlotte--NC--Parsippany--NJ--Jersey-City--NJ---New-York--NY_JR2603655
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: southern-star-central-gas-pipeline-gis-analyst-intern-de3f0d
   company: Southern Star Central Gas Pipeline
   role: GIS Analyst Intern
@@ -6072,58 +4990,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: ragle-inc-data-engineering-intern-7e71c9
-  company: Ragle Inc
-  role: Data Engineering Intern
-  location: North Richland Hills, TX
-  link: https://ragleinc.applytojob.com/apply/bOx8uiciOs/Data-Engineering-Intern-Summer-2027
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: lawrence-livermore-national-laboratory-llnl-computing-undergraduate-student-intern-early-internship-program-b340a8
-  company: Lawrence Livermore National Laboratory (LLNL)
-  role: Computing Undergraduate Student Intern - Early Internship Program
-  location: Livermore, CA
-  link: https://jobs.smartrecruiters.com/LLNL/3743990014981656
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: lawrence-livermore-national-laboratory-llnl-computing-intern-summer-undergraduate-internship-program-690a1f
-  company: Lawrence Livermore National Laboratory (LLNL)
-  role: Computing Intern - Summer Undergraduate Internship Program
-  location: Livermore, CA
-  link: https://jobs.smartrecruiters.com/LLNL/3743990014982059
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
+  - company:twg-global
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -6133,211 +5000,6 @@
   location: Sun Prairie, WI
   link: https://job-boards.greenhouse.io/compeerfinancial/jobs/5406940008
   date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: medline-business-systems-intern-summer-2027-85dc19
-  company: Medline
-  role: Business Systems Intern - Summer 2027
-  location: Northbrook, IL
-  link: https://medline.wd5.myworkdayjobs.com/en-US/Medline/job/Northbrook-Illinois/IT-Business-Systems-Intern---Summer-2027_R2617626
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: grant-thornton-tax-technology-intern-summer-2027-37765b
-  company: Grant Thornton
-  role: Tax Technology Intern - Summer 2027
-  location: Bellevue, WA
-  link: https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115822
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: grant-thornton-tax-technology-intern-summer-2027-20edb9
-- id: aerovironment-summer-2027-machine-learning-intern-a9a6eb
-  company: AeroVironment
-  role: Summer 2027 Machine Learning Intern
-  location: Minneapolis, MN
-  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Minneapolis-MN/Summer-2027-Machine-Learning-Intern_8389
-  date_posted: '2026-09-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-ai-ml-modeler-intern-a39bdc
-  company: First National Bank
-  role: Summer 2027 AI/ML Modeler Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-AI-ML-Modeler-Intern_2026-01851
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: ingredion-digital-innovation-intern-3d2640
-  company: Ingredion
-  role: Digital Innovation Intern
-  location: Bridgewater, NJ
-  link: https://ingredion.wd1.myworkdayjobs.com/IngredionCareers/job/Bridgewater-NJ/Digital-Innovation-Intern_Req-40180-1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-systems-analyst-intern-consumer-and-commercial-banking-technology-5bd54f
-  company: First National Bank
-  role: Systems Analyst Intern - Consumer and Commercial Banking Technology
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Systems-Analyst-Intern_2026-02021
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-data-management-intern-data-quality-and-governance-f15dd2
-  company: First National Bank
-  role: Data Management Intern - Data Quality and Governance
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2026-Data-Management-Intern---Pittsburgh--PA_2026-01833
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-data-engineer-intern-469cb0
-  company: First National Bank
-  role: Data Engineer Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01714
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-data-engineering-intern-105d65
-  company: First National Bank
-  role: Data Engineering Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01713
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: first-national-bank-data-engineering-intern-a1c7b9
-  company: First National Bank
-  role: Data Engineering Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01712
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: corning-digital-it-intern-analyst-enterprise-data-management-3cb3dd
-  company: Corning
-  role: Digital & IT Intern - Analyst - Enterprise Data Management
-  location: Charlotte, NC
-  link: https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Enterprise-Data-Management-Summer-2027-NC-28216/1425715900/?ats=successfactors
-  date_posted: '2026-09-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: panasonic-holdings-data-engineering-intern-696b16
-  company: Panasonic Holdings
-  role: Data Engineering Intern
-  location: Bridgeton, MO
-  link: https://careers.na.panasonic.com/jobs/50772?icims=1
-  date_posted: '2026-09-02'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -6366,12 +5028,12 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: michelin-data-engineering-intern-5b4696
-  company: Michelin
-  role: Data Engineering Intern
-  location: Ardmore, OK
-  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/ARDMORE-OK/Summer-2027-Internship--Data-Engineering---Ardmore--OK-_R-2026030979
-  date_posted: '2026-09-01'
+- id: johnson-johnson-materials-engineer-co-op-153878
+  company: Johnson & Johnson
+  role: Materials Engineer Co-op
+  location: Jacksonville, FL
+  link: https://jj.wd5.myworkdayjobs.com/JJ/job/Jacksonville-Florida-United-States-of-America/Materials-Engineering-Co-op_R-094380
+  date_posted: '2026-08-18'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -6383,11 +5045,176 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: the-federal-reserve-system-graduate-intern-markets-group-new-york-innovation-center-75b03b
-  company: The Federal Reserve System
-  role: Graduate Intern - Markets Group - New York Innovation Center
+- id: medline-rpa-agentic-ai-software-technologies-intern-summer-2027-f8a209
+  company: Medline
+  role: RPA & Agentic AI Software Technologies Intern - Summer 2027
+  location: Northbrook, IL
+  link: https://medline.wd5.myworkdayjobs.com/en-US/medline/job/Northbrook-Illinois/RPA---Agentic-AI-Software-Technologies-Intern---Summer-2027_R2617378
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: booz-allen-ai-software-developer-intern-fd6905
+  company: Booz Allen
+  role: AI Software Developer Intern
+  location: San Diego, CA
+  link: https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/San-Diego-CA/AI-Software-Developer-Intern_R0248115
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: simis-aerospace-aviation-artificial-intelligence-developer-intern-39ad68
+  company: SimIS
+  role: Aerospace/Aviation Artificial Intelligence Developer - Intern
+  location: Suffolk, VA
+  link: http://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern
+  date_posted: '2026-08-23'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: eulerity-website-developer-technical-content-marketing-intern-ai-automation-268021
+  company: Eulerity
+  role: Website Developer & Technical Content Marketing Intern - AI & Automation
+  location: New York City, NY
+  link: https://job-boards.greenhouse.io/eulerity/jobs/4706780006
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: arkansas-center-for-data-sciences-align-ai-software-development-intern-c6c755
+  company: Arkansas Center for Data Sciences
+  role: Align AI Software Development Intern
+  location: Bentonville, AR
+  link: https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: american-express-ai-engineer-intern-enterprise-technology-services-eac109
+  company: American Express
+  role: AI Engineer Intern, Enterprise Technology Services
+  location: Atlanta, GA
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:vanshb03
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: american-express-ai-engineer-intern-enterprise-technology-services-b4356a
+  company: American Express
+  role: AI Engineer Intern, Enterprise Technology Services
   location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Markets-Group---New-York-Innovation-Center---Graduate-Intern_R-0000033034
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011698
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:vanshb03
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: millennium-applied-ai-engineer-intern-ef89eb
+  company: Millennium
+  role: Applied AI Engineer Intern
+  location: Miami, FL
+  link: https://career.mlp.com/careers/job/755957778848
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:vanshb03
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-gpu-ai-application-platform-engineer-cfc1bc
+  company: ByteDance
+  role: GPU/AI Application Platform Engineer Intern (Server Platform) - 2027 Start
+  location: San Jose, CA
+  link: https://joinbytedance.com/search/7668475133954197765
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: micron-technology-intern-ai-systems-and-infrastructur-5bf226
+  company: Micron Technology
+  role: Intern - AI Systems and Infrastructure Engineering
+  location: Austin, TX
+  link: https://micron.wd1.myworkdayjobs.com/external/job/Austin-TX/Intern---AI-Systems-and-Infrastructure-Engineering_JR109990
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: nike-nike-inc-artificial-intelligence-d-55e88b
+  company: Nike
+  role: NIKE, Inc. Artificial Intelligence, Data, & Machine Learning Engineering Undergraduate
+    Internship
+  location: Beaverton, OR
+  link: https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Artificial-Intelligence--Data----Machine-Learning-Engineering-Undergraduate-Internship_R-91110
   date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
@@ -6395,7 +5222,377 @@
   - BS
   status: open
   sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: workiva-summer-2027-intern-machine-learning-b5ac7b
+  company: Workiva
+  role: Summer 2027 Intern - Machine Learning Engineering
+  location: Remote (US)
+  link: https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  - company:workiva
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: audax-group-ai-engineer-co-op-284b98
+  company: Audax Group
+  role: AI Engineer Co-Op
+  location: Boston, MA
+  link: https://job-boards.greenhouse.io/audaxgroup/jobs/4722801005
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: crowe-machine-learning-intern-ffe7a4
+  company: Crowe
+  role: Machine Learning Intern
+  location: Chicago, IL
+  link: https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/Machine-Learning-Intern_R-71005
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: allium-engineering-intern-general-ai-7b59e4
+  company: Allium
+  role: Engineering Intern - General / AI
+  location: New York, NY
+  link: https://jobs.ashbyhq.com/allium/5d697ce5-b820-45c0-a101-86a05e1fb15e
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-ai-llm-network-research-intern-high-fd347a
+  company: ByteDance
+  role: AI/LLM Network Research Intern (High Speed Network) - 2027 Start
+  location: San Jose, CA
+  link: https://joinbytedance.com/search/7669969771686775045
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: netflix-machine-learning-ai-scientist-phd-int-3dadbf
+  company: Netflix
+  role: Machine Learning/AI Scientist PhD Int...
+  location: Los Gatos, CA
+  link: https://explore.jobs.netflix.net/careers/job/790317916733
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: iterative-health-research-intern-cedar-park-tx-dfb999
+  company: Iterative Health
+  role: Research Intern - Cedar Park, TX
+  location: Cedar Park, TX
+  link: https://job-boards.greenhouse.io/iterativehealth/jobs/4705744006
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-ai-creator-operations-intern-capcut-df9009
+  company: ByteDance
+  role: AI Creator Operations Intern (CapCut) - 2027 Start
+  location: Los Angeles, CA
+  link: https://joinbytedance.com/search/7673715653065525509
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: fundwell-ai-innovation-internship-75ee49
+  company: Fundwell
+  role: AI Innovation Internship
+  location: New York, NY
+  link: https://jobs.ashbyhq.com/fundwell/2d91136d-b54d-4ed0-93de-22c7839a3982
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: certik-blockchain-security-expert-intern-a-eb5a22
+  company: CertiK
+  role: Blockchain Security Expert Intern - AI Track
+  location: New York, NY / Remote (US)
+  link: https://jobs.lever.co/certik/1f446b66-1fae-4c31-9352-cde86e254754
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: aerovironment-summer-2027-gnc-autonomy-intern-964339
+  company: AeroVironment
+  role: Summer 2027 GNC / Autonomy Intern
+  location: Simi Valley, CA / Huntsville, AL / Pottstown, PA / Herndon, VA / Moorpark,
+    CA / San Luis Obispo, CA / Annapolis Junction, MD / Germantown, MD / Albuquerque,
+    NM / Minneapolis, MN / Arlington, VA / Melbourne, FL / Petaluma, CA / San Diego,
+    CA
+  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-GNC---Autonomy-Intern_8610
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:aerovironment
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: rystad-energy-analyst-intern-summer-2027-b66e4f
+  company: Rystad Energy
+  role: Analyst Intern - Summer 2027
+  location: Houston, TX
+  link: https://apply.workable.com/rystad-energy/j/74A4CBBC6B/
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:rystad-energy
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-research-scientist-intern-distributed-nosql-database-systems-30c298
+  company: ByteDance
+  role: Research Scientist Intern (Distributed NoSQL Database Systems) - 2027 Start
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7668371456348326149/detail
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - chieler
+  - github_tracker:chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: tiktok-software-engineer-intern-2d5519
+  company: TikTok
+  role: Software Engineer Intern (TikTok AI Search & Visual Search Infra Team) - 2027
+    Summer
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7676276048527214901
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
   - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: ecolab-digital-ai-technology-intern-c48375
+  company: Ecolab
+  role: Digital & AI Technology Intern
+  location: Naperville, IL
+  link: https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Saint-Paul/Digital---AI-Technology-Intern_R00303249
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: microsoft-software-engineer-intern-ai-and-ml-projects-0b6f9f
+  company: Microsoft
+  role: Software Engineer Intern - AI and ML Projects
+  location: Mountain View, CA
+  link: https://apply.careers.microsoft.com/careers/job/1970393556972687
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: microsoft-software-engineer-intern-ai-and-ml-cda265
+  company: Microsoft
+  role: Software Engineer Intern - AI and ML
+  location: Boston, MA
+  link: https://apply.careers.microsoft.com/careers/job/1970393556972698
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-research-intern-ai-native-databases-af2f77
+  company: ByteDance
+  role: Research Intern (AI-Native Databases) - 2027 Start
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7678450462765254965/detail
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-research-intern-ai-native-databases-18ded0
+  company: ByteDance
+  role: Research Intern (AI-Native Databases) - 2027 Start
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7678451067500529925/detail
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: meta-research-scientist-intern-nmr-analysis-automation-7506d4
+  company: Meta
+  role: Research Scientist Intern - NMR Analysis Automation
+  location: Redmond, WA
+  link: https://www.metacareers.com/jobs/1418337243438665
+  date_posted: '2026-07-03'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  date_added: '2026-07-23'
+  last_verified: '2026-07-23'
+  possible_duplicate_of: null
+- id: bytedance-cloud-acceleration-research-intern-dpu-ai-infra-2276cb
+  company: ByteDance
+  role: Cloud Acceleration Research Intern (DPU & AI Infra) - 2027 Start
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7679562740656933125/detail
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-cloud-acceleration-research-intern-dpu-ai-infra-6ea179
+  company: ByteDance
+  role: Cloud Acceleration Research Intern (DPU & AI Infra) - 2027 Start
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7679552807864879365/detail
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null

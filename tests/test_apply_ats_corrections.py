@@ -432,3 +432,19 @@ def test_possible_duplicate_of_survives_a_recategorize():
         TODAY)
     assert new["swe"][0]["possible_duplicate_of"] == "mover"
     assert new["hardware"][0]["id"] == "mover"
+
+
+def test_set_role_replaces_the_title_and_counts_as_verified():
+    rows = {"swe": [_row(role="SWE Inte...")]}
+    new, summary = apply_corrections(
+        rows, [_action(action="set_role", old="SWE Inte...", new="SWE Intern - Summer 2027")], TODAY)
+    assert new["swe"][0]["role"] == "SWE Intern - Summer 2027"
+    assert new["swe"][0]["last_verified"] == TODAY
+    assert summary["retitled"] == ["r1"]
+
+
+def test_set_role_without_a_new_value_is_rejected():
+    rows = {"swe": [_row(role="SWE Inte...")]}
+    new, summary = apply_corrections(rows, [_action(action="set_role", old="SWE Inte...")], TODAY)
+    assert new["swe"][0]["role"] == "SWE Inte..."
+    assert summary["unrecognized_action"] == ["r1"]

@@ -10,12 +10,12 @@ The signal is the company's own posting list: a tracked link that no longer
 appears in it, next to an untracked listing entry with the same title, is a
 repost. `check_reposts.py` does the fetching; this module only decides.
 
-**Workday is deliberately out of scope.** `normalize_link` does not collapse
-its `-N` requisition instance suffixes or its board aliases (see
-docs/superpowers/plans/2026-08-09-full-link-verification.md), so Workday rows
-routinely fail an exact link comparison and would fake a repost apiece.
-SmartRecruiters, Greenhouse and Lever all expose an authoritative company-level
-listing with clean ids.
+**Workday is out of scope.** It was excluded while `normalize_link` did not
+collapse its `-N` requisition instance suffixes or its site aliases; since
+2026-09-02 it keys Workday links on tenant + requisition id, so a Workday
+listing comparison would now hold, but none is wired. SmartRecruiters,
+Greenhouse and Lever all expose an authoritative company-level listing with
+clean ids.
 """
 import json
 import re

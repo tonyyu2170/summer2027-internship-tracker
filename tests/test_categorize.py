@@ -1,6 +1,8 @@
+import pytest
 import yaml
 
 from categorize import (
+    DROP,
     classify_role,
     map_upstream_category,
     assign_category,
@@ -289,7 +291,7 @@ def test_drop_rules_do_not_match_program_or_team_names():
         "Model - Global Frontier Tech Recruitment Program - 2027 Start") == "ai_ml"
     assert classify_role(
         "Research Scientist Intern (TikTok-Data-Content Intelligence) - 2027 Start"
-    ) is None
+    ) == "ai_ml"
     assert classify_role("2027 Campus Recruiting Robotics Cente...") is None
 
 
@@ -322,3 +324,39 @@ def test_applied_scientist_does_not_claim_physical_science_titles():
     assert classify_role(
         "Applied Scientist Intern - Business Integrity - Global Frontier Tech "
         "Recruitment Program - 2027 Start") == "ai_ml"
+
+
+def test_ic_design_and_rf_titles_route_to_hardware():
+    # 2026-09-01: Neuralink's restored "Analog and Mixed-Signal IC Design
+    # Engineer Intern" title fell through to swe on the bare `engineer` match.
+    assert classify_role("Analog and Mixed-Signal IC Design Engineer Intern") == "hardware"
+    assert classify_role("Digital IC Design Engineer Intern") == "hardware"
+    assert classify_role("RF Engineer Intern") == "hardware"
+
+
+@pytest.mark.parametrize("role, expected", [
+    ("Technology Intern", "swe"),
+    ("Digital Technology Intern - Summer 2027", "swe"),
+    ("IT Infrastructure Intern - Summer 2027", "swe"),
+    ("Information Security Co-op - Identity & Access Management", "swe"),
+    ("Artificial Intelligence Intern", "ai_ml"),
+    ("Large Language Models Intern - Research", "ai_ml"),
+    ("Ph.D. Research Autonomous Vehicles Intern", "ai_ml"),
+    ("Perception Intern - Summer 2027", "ai_ml"),
+    ("Trading Analyst Intern", "quant"),
+    ("Trading Intern - Summer 2027 - DV Commodities", "quant"),
+    ("Commercial Intern - Supply, Trading, & Shipping", DROP),
+    ("Data Intern - Key Technology & Services - Data Track", "data_science"),
+    ("Statistics Intern", "data_science"),
+    ("Predictive Modeler Intern - Summer 2027", "data_science"),
+    ("Technology Internship Program", DROP),
+])
+def test_recurring_tracker_families_resolve_deterministically(role, expected):
+    assert classify_role(role) == expected
+
+
+def test_computing_is_swe():
+    # LLNL's "Computing Graduate Student Intern" matched no rule and was
+    # filed under its watch-list category on 2026-09-02.
+    from categorize import classify_role
+    assert classify_role("Computing Graduate Student Intern - Summer 2027") == "swe"

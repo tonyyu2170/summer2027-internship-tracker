@@ -73,6 +73,7 @@ def test_suppression_links_cover_both_forms_for_bytedance_tiktok():
 
 def test_title_helpers():
     assert page_title("<title>  A  B | Careers at C</title>") == "A B"
+    assert page_title("<title>Ads &amp; Signal Intern | TikTok</title>") == "Ads & Signal Intern"
     assert clean_role("ML Intern - 2027 Summer (BS/MS)") == "ML Intern - 2027 Summer"
     assert title_term_year("SWE Intern - 2026 Start") == "2026"
     assert title_term_year("SWE Intern - 2027 Summer") == "2027"

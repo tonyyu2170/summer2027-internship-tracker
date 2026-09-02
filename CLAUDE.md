@@ -22,6 +22,8 @@ python3 scripts/check_ats.py [category ...]                 # ATS-API verificati
 python3 scripts/apply_ats_corrections.py scratch/ats_corrections.json   # apply corrections; then check_integrity + commit
 python3 scripts/check_reposts.py [category ...]             # find roles re-listed under a new req id -> scratch/repost_corrections.json
 python3 scripts/check_categories.py                         # rows sitting in a category their role no longer classifies to -> scratch/category_corrections.json
+python3 scripts/probe_boards.py discover|mine|candidates|verify|apply   # watch-list board discovery/verification (see docs/SCRAPING.md "Growing the watch-list")
+python3 scripts/generate_dashboard.py                       # docs/dashboard.html — one-page market view of data/ (pure; publish it as an artifact to share)
 ```
 (`apply_ats_corrections.py` is the shared applier for all three `check_*.py` correction files — pass whichever `scratch/*_corrections.json` was produced.)
 
@@ -35,11 +37,11 @@ Two sides meeting at one JSON contract:
 - **Orchestration:** `scripts/run_scrape_merge.py` is the single serialized writer. It loads fetch-report JSON files, groups by category, calls `merge_category` once per category, validates and filters new rows, rewrites that category's `data/*.yaml`, then calls `render(...)` to regenerate `README.md`. It never touches git.
 - **Fragile, source-specific scraping** lives entirely outside the tested core, in the procedure documented at `docs/SCRAPING.md` — never mix network code into `normalize.py`, `merge.py`, etc.
 - **Fetch-report contract:** scraping subagents return parsed postings only; they never write `data/*.yaml` or `sources/companies.yaml` directly. One fetch-report JSON per source entity goes to `scratch/fetch_reports/` (git-ignored), then `run_scrape_merge.py` runs as the one serialized pass — this single-writer-per-file step is what prevents write races.
-- **Data layout:** one YAML file per category under `data/` (`swe.yaml`, `quant.yaml`, `data_science.yaml`, `ai_ml.yaml`, `hardware.yaml`, `actuarial.yaml`); `sources/companies.yaml` is the per-category company watch-list (`ats`: greenhouse | lever | workday | custom).
+- **Data layout:** one YAML file per category under `data/` (`swe.yaml`, `quant.yaml`, `data_science.yaml`, `ai_ml.yaml`, `hardware.yaml`, `actuarial.yaml`); `sources/companies.yaml` is the per-category company watch-list (`ats`: greenhouse | lever | ashby | workday | smartrecruiters | workable | icims | custom; the first six are pulled by `fetch_companies.py`).
 
 ### Dedup key
 
-Primary: the **normalized application link** (`normalize_link` — strips tracking params, lowercases scheme+host, drops trailing slash). Fallback, only when a source has no extractable link: a normalized `(company, role, location)` triple — this is **never auto-merged**; it's added as a new row with `possible_duplicate_of` set and surfaced in the run summary for manual review, since a bare triple carries real false-merge risk. (In practice, most triple-flagged pairs turn out to be genuinely distinct postings, not duplicates — don't delete on a flag alone.)
+Primary: the **normalized application link** (`normalize_link` — strips tracking params, lowercases scheme+host, drops trailing slash; collapses one requisition's link shapes per ATS — a Workday link keys on tenant + requisition id, so site aliases and `-N` instance suffixes are one posting; Ashby/Lever/Greenhouse/Workable slugs case-fold; iCIMS keys on `/jobs/<id>`). Fallback, only when a source has no extractable link: a normalized `(company, role, location)` triple — this is **never auto-merged**; it's added as a new row with `possible_duplicate_of` set and surfaced in the run summary for manual review, since a bare triple carries real false-merge risk. (In practice, most triple-flagged pairs turn out to be genuinely distinct postings, not duplicates — don't delete on a flag alone.)
 
 ### Status / closing
 
@@ -51,8 +53,11 @@ Applied via `canonicalize_location`/`is_us_location` (word-boundary matching, no
 
 ### A few non-obvious behaviors worth knowing
 
+- `merge_category` is where the policy gates live for every source: an off-cycle title (`parse_tracker._is_off_cycle`), a non-US location, and a `date_posted` outside `[CYCLE_START, today]` (turned into an estimate). A re-found link also gets its title restored when the stored one is truncated (`extends_truncated`). Company boards never file a role under the watch-list category — a title no rule or `manual_categories.yaml` entry places is dropped as `unclassified_role`.
 - `run_scrape_merge.py` validates and can drop only rows *newly created that run* against `ROW_SCHEMA`. Existing rows loaded from disk are never auto-deleted for failing schema — a malformed hand-edit is kept as-is (with a warning) rather than silently removing a previously-tracked listing.
 - `merge.py` looks up existing rows via `.get("id")`, not bracket-indexing, so a hand-corrupted row missing `id` degrades gracefully instead of crashing the category's run.
+- `run_scrape_merge.py` keeps a *new* link that two reports file under different categories in one run in exactly one of them (`classify_role`'s verdict, else the first report in sorted order; counted as `cross_category_duplicate`). Without this a full tracker re-parse landed 46 same-id twins (2026-09-02). A link already on disk in another category is still only reported by `check_integrity`, never moved.
+- `fetch_companies.py` caps concurrent Workday pulls at 4 and retries HTTP 429 after 15/30/60s: at ~950 Workday boards the 16-thread prefetch rate-limited 113 tenants in one run.
 - `generate_readme.py` escapes `|`/newlines in scraped text and uses angle-bracket link destinations (`[Apply](<url>)`) so scraped company/role/location text can't corrupt the Markdown table. Same-date rows render newest-scraped-first (tie-broken by list position, since `merge.py` always appends new rows to the end).
 
 ## Hard rules

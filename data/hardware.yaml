@@ -1,23 +1,3 @@
-- id: akuna-capital-hardware-engineer-68d0c9
-  company: Akuna Capital
-  role: Hardware Engineer
-  location: Chicago, IL
-  link: https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880
-  date_posted: '2026-07-13'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  - github_tracker:northwesternfintech
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: citadel-securities-hardware-engineer-fpga-2c9948
   company: Citadel Securities
   role: Hardware Engineer (FPGA)
@@ -33,7 +13,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: false
 - id: drw-fpga-engineer-1147ab
@@ -41,7 +21,7 @@
   role: FPGA Engineer
   location: Chicago, IL
   link: https://www.drw.com/work-at-drw/listings/fpga-intern-3484423
-  date_posted: '2026-07-31'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -53,32 +33,13 @@
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-  date_estimated: false
-- id: imc-trading-hardware-engineer-fd5c49
-  company: IMC Trading
-  role: Hardware Engineer
-  location: Chicago, IL
-  link: https://www.imc.com/us/careers/jobs/4823945101
-  date_posted: '2026-07-24'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:northwesternfintech
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-fpga-engineer-7bf9ea
   company: Jane Street
   role: FPGA Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8624440002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -91,7 +52,7 @@
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: second-order-effects-electrical-engineering-intern-summer-2027-13520f
   company: Second Order Effects
   role: Electrical Engineering Intern (Summer 2027)
@@ -126,6 +87,8 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:northwesternfintech
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -174,7 +137,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:speedyapply
@@ -233,7 +196,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: odys-aviation-robotics-embedded-systems-intern-7dfd83
@@ -250,7 +213,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: magna-intern-infrared-imaging-algorithms-5f8afd
@@ -266,7 +229,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: astreya-ai-infrastructure-dc-design-intern-c37bc5
   company: Astreya
@@ -369,7 +332,7 @@
   possible_duplicate_of: null
 - id: general-astronautics-engineering-intern-5a95b5
   company: General Astronautics
-  role: Engineering Intern 🇺🇸
+  role: Engineering Intern
   location: San Francisco, CA
   link: https://www.workatastartup.com/jobs/94206
   date_posted: '2026-05-09'
@@ -449,7 +412,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: formlabs-manufacturing-test-software-intern-f-46b7bf
@@ -494,12 +457,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: contoro-robotics-robotics-engineer-intern-test-val-6834ae
@@ -511,12 +474,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: huntsman-mechanical-engineering-intern-1a4dee
@@ -533,7 +496,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-18'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: huntsman-electrical-engineering-intern-259c59
@@ -550,7 +513,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-18'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: schweitzer-engineering-laboratories-engineering-intern-d4c302
@@ -568,7 +531,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: ge-aerospace-unison-engineering-intern-summer-2027-44d6fa
@@ -576,7 +539,7 @@
   role: Unison Engineering Intern - Summer 2027
   location: Jacksonville, FL
   link: https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Summer-2027_R5037097
-  date_posted: '2026-08-19'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -586,9 +549,9 @@
   - link_checker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-26'
+  last_verified: '2026-07-25'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: teledyne-mechanical-engineering-intern-36b5c0
   company: Teledyne
   role: Mechanical Engineering Intern
@@ -620,7 +583,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: agilent-technologies-electrical-engineering-intern-48b475
@@ -637,7 +600,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: wsp-electrical-engineering-intern-substa-58615e
@@ -700,12 +663,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-10'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: crane-co-sustaining-engineering-intern-caa526
@@ -722,7 +685,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: curtiss-wright-mechanical-engineering-intern-b5590f
@@ -790,7 +753,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: marmon-holdings-mechanical-engineer-intern-afb7a2
@@ -807,7 +770,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: generac-mechanical-design-engineering-intern-7c0f07
@@ -824,7 +787,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: borgwarner-validation-intern-year-round-633d76
@@ -832,7 +795,7 @@
   role: Validation Intern (Year-Round)
   location: Kokomo, IN
   link: https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Validation-Intern--Year-Round-_R2026-1958-1
-  date_posted: '2026-08-05'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -841,15 +804,15 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-20'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: borgwarner-validation-intern-year-round-8fc9f4
   company: BorgWarner
   role: Validation Intern (Year-Round)
   location: Kokomo, IN
   link: https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Validation-Intern--Year-Round-_R2026-1960
-  date_posted: '2026-08-19'
+  date_posted: '2026-07-09'
   term: Summer 2027
   degree:
   - BS
@@ -858,9 +821,9 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-26'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
-  date_estimated: false
+  date_estimated: true
 - id: nidec-electrical-engineer-intern-dbd5bf
   company: Nidec
   role: Electrical Engineer Intern
@@ -875,7 +838,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-18'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: anduril-2027-mechanical-engineer-intern-8420b9
@@ -892,7 +855,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: anduril-2027-electrical-engineer-intern-610c50
@@ -909,7 +872,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-mechanical-design-engineering-intern-fced6a
@@ -926,7 +889,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: base-power-hardware-engineering-intern-becbe7
@@ -1016,7 +979,7 @@
   date_estimated: true
 - id: neuralink-firmware-engineer-intern-robotics-an-a0c189
   company: Neuralink
-  role: Firmware Engineer Intern, Robotics an...
+  role: Firmware Engineer Intern, Robotics and Surgery Engineering
   location: South San Francisco, CA
   link: https://boards.greenhouse.io/neuralink/jobs/6648992003?gh_jid=6648992003
   date_posted: '2026-07-23'
@@ -1028,7 +991,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: astranis-hardware-design-intern-software-defi-9ae03f
@@ -1068,7 +1031,7 @@
   date_estimated: true
 - id: marvell-design-dsp-verification-intern-phd-061746
   company: Marvell
-  role: Design/DSP/Verification Intern - PhD ...
+  role: Design/DSP/Verification Intern - PhD Degree
   location: Santa Clara, CA
   link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-DSP-Verification-Intern---PhD-Degree_2502786-1
   date_posted: '2026-07-09'
@@ -1080,7 +1043,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: true
 - id: ambarella-asic-design-engineer-intern-7b4044
@@ -1097,7 +1060,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-21'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   date_estimated: true
 - id: astreya-dc-design-engineer-intern-76acb7
@@ -1131,12 +1094,12 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: neuralink-analog-and-mixed-signal-ic-design-eng-e44ab4
   company: Neuralink
-  role: Analog and Mixed-Signal IC Design Eng...
+  role: Analog and Mixed-Signal IC Design Engineer Intern
   location: South San Francisco, CA
   link: https://boards.greenhouse.io/neuralink/jobs/7565469003?gh_jid=7565469003
   date_posted: '2026-02-18'
@@ -1148,7 +1111,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-26'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: sila-nanotechnologies-battery-simulation-computational-sc-11628a
@@ -1173,7 +1136,7 @@
   role: Digital IC Design Engineer Intern
   location: South San Francisco, CA
   link: https://boards.greenhouse.io/neuralink/jobs/7090489003?gh_jid=7090489003
-  date_posted: '2025-11-11'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -1182,7 +1145,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-25'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: drw-fpga-intern-c33664
@@ -1199,7 +1162,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: unison-ge-aerospace-engineering-intern-summer-2027-943d1e
@@ -1282,7 +1245,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-30'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: microchip-technology-equipment-engineering-technician-intern-metrology-8e84c1
@@ -1298,7 +1261,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: teledyne-computer-engineer-intern-49e329
   company: Teledyne
@@ -1314,22 +1277,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-18'
-  possible_duplicate_of: null
-- id: pennsylvania-state-university-research-and-development-engineer-intern-bd1764
-  company: Pennsylvania State University
-  role: Research and Development Engineer Intern
-  location: Freeport, PA
-  link: https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Freeport-PA/Research-and-Development-Engineering-Intern_REQ_0000064925-1
-  date_posted: '2026-06-13'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:chieler
-  date_added: '2026-07-24'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: magna-systems-engineer-intern-526992
   company: Magna
@@ -1360,7 +1308,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-19'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: optiver-fpga-engineer-intern-d78281
   company: Optiver
@@ -1388,10 +1336,15 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker
+  - github_tracker:zapplyjobs
+  - github_tracker:northwesternfintech
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-07-24'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1413,22 +1366,6 @@
   date_added: '2026-07-25'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: formlabs-hardware-r-d-engineering-intern-fall-c4943b
-  company: Formlabs
-  role: Hardware R&D Engineering Intern (Fall...
-  location: Somerville, MA
-  link: https://careers.formlabs.com/job/7890746/apply/?gh_jid=7890746
-  date_posted: '2026-07-25'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
-  date_estimated: true
 - id: virtu-financial-hardware-engineer-intern-fpga-290bc8
   company: Virtu Financial
   role: Hardware Engineer Intern - FPGA
@@ -1540,7 +1477,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-21'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: sri-international-drexel-university-co-op-embedded-software-engineering-8b6916
   company: SRI International
@@ -1552,11 +1489,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-08-12'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: windborne-systems-firmware-intern-34f5bd
   company: WindBorne Systems
@@ -1576,7 +1513,7 @@
   possible_duplicate_of: null
 - id: draper-embedded-quality-fielded-systems-in-3852bd
   company: Draper
-  role: Embedded Quality & Fielded Systems In...
+  role: Embedded Quality & Fielded Systems Intern
   location: Cambridge, MA
   link: https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718
   date_posted: '2026-08-05'
@@ -1640,11 +1577,11 @@
   - zapplyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-10'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: xpeng-motors-2027-campus-recruiting-robotics-cente-03b021
   company: XPENG Motors
-  role: 2027 Campus Recruiting Robotics Cente...
+  role: 2027 Campus Recruiting Robotics Center Internship Position
   location: Santa Clara, CA
   link: https://job-boards.greenhouse.io/xpengmotors/jobs/8681156002
   date_posted: '2026-08-04'
@@ -1657,7 +1594,7 @@
   - zapplyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: nxp-digital-physical-design-p-r-intern-733f8c
   company: NXP
@@ -1691,7 +1628,7 @@
   - zapplyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: flexion-robotics-research-intern-481152
   company: Flexion Robotics
@@ -1708,7 +1645,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-24'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: etched-performance-tools-intern-aa8ef8
   company: Etched
@@ -1747,7 +1684,7 @@
   possible_duplicate_of: null
 - id: motorola-solutions-r-d-intern-wireless-systems-enginee-2acbe7
   company: Motorola Solutions
-  role: R&D Intern - Wireless Systems Enginee...
+  role: R&D Intern - Wireless Systems Engineer - 2026
   location: Los Angeles, CA
   link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/R-D-Intern---Wireless-Systems-Engineer---2026_R62376
   date_posted: '2026-07-10'
@@ -1759,7 +1696,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-19'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: western-digital-summer-2027-intern-hardware-engineering-693580
   company: Western Digital
@@ -1811,23 +1748,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-17'
-  possible_duplicate_of: null
-  date_estimated: false
-- id: baker-hughes-intern-mechanical-engineering-mec-5f51dc
-  company: Baker Hughes
-  role: Intern – Mechanical Engineering & Mec...
-  location: Celle, DE
-  link: https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/DE-CELLE-BAKER-HUGHES-STRASSE-1/Praktikum--Bachelor--und-Masterarbeit--Maschinenbau-und-Mechatronik-2026--Celle-_R158055
-  date_posted: '2026-07-16'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-18'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: motorola-solutions-intern-mechanical-engineer-2026-61e529
@@ -1848,7 +1769,7 @@
   date_estimated: true
 - id: draper-mechanical-engineering-system-packa-dcc05e
   company: Draper
-  role: Mechanical Engineering & System Packa...
+  role: Mechanical Engineering & System Packaging Intern
   location: Cambridge, MA
   link: https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Mechanical-Engineering---System-Packaging-Intern_JR002767
   date_posted: '2026-08-05'
@@ -1860,7 +1781,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-20'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: cae-mechanical-engineering-intern-76e5ae
   company: CAE
@@ -1908,7 +1829,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-20'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: rtx-mechanical-engineering-intern-summer-2027-409629
   company: RTX
@@ -2021,11 +1942,11 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-21'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: field-ai-mechanical-engineer-robotics-hardwar-229f34
   company: Field AI
-  role: Mechanical Engineer, Robotics Hardwar...
+  role: Mechanical Engineer, Robotics Hardware - Part-Time Internship
   location: Irvine, CA
   link: https://jobs.lever.co/field-ai/88f05d6e-ee93-4fc5-80cd-efe6854e22bc
   date_posted: '2026-08-10'
@@ -2039,22 +1960,6 @@
   date_added: '2026-08-10'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: shield-ai-electrical-engineering-spring-co-op-debc16
-  company: Shield AI
-  role: Electrical Engineering Spring Co-op (...
-  location: Dallas, TX
-  link: https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724/apply
-  date_posted: '2026-04-15'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: rtx-raytheon-electrical-engineering-inter-fbf377
   company: RTX
   role: Raytheon Electrical Engineering Inter...
@@ -2149,7 +2054,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-21'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: rtx-materials-processes-and-mechanical-disciplines-engineering-intern-summer-2027-onsite-6a6006
   company: RTX
@@ -2183,7 +2088,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
-  track: Development
   date_estimated: true
 - id: optiver-fpga-engineer-intern-summer-2027-chicago-b3a3b7
   company: Optiver
@@ -2200,7 +2104,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-23'
   possible_duplicate_of: null
-  track: Development
   date_estimated: true
 - id: vertiv-software-engineer-intern-9f5873
   company: Vertiv
@@ -2222,7 +2125,7 @@
   possible_duplicate_of: null
 - id: nrel-post-undergraduate-intern-year-round-62132f
   company: NREL
-  role: Post-Undergraduate Intern (Year-Round...
+  role: Post-Undergraduate Intern (Year-Round) - Separations Engineering
   location: Golden, CO
   link: https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Post-Undergraduate-Intern--Year-Round----Separations-Engineering_R14447
   date_posted: '2026-08-10'
@@ -2234,7 +2137,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-12'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: rockwell-automation-embedded-software-engineer-co-op-17f11a
   company: Rockwell Automation
@@ -2252,25 +2155,9 @@
   date_added: '2026-08-10'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: rockwell-automation-embedded-software-engineer-co-op-ea27ba
-  company: Rockwell Automation
-  role: Embedded Software Engineer Co-op
-  location: Mayfield Heights, OH
-  link: https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473-1
-  date_posted: '2026-08-10'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-08-10'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: rockwell-automation-embedded-software-engineer-co-op-17f11a
 - id: reframe-systems-mechanical-engineer-internship-summe-1a17db
   company: Reframe Systems
-  role: Mechanical Engineer Internship (Summe...
+  role: Mechanical Engineer Internship (Summer 27)
   location: Andover, MA
   link: https://jobs.ashbyhq.com/reframesystems/c4db63dc-4023-44f7-b971-d94cc730ab9f
   date_posted: '2026-08-11'
@@ -2282,40 +2169,6 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bosch-group-2026-mechanical-engineering-internati-cdb84a
-  company: Bosch Group
-  role: 2026 Mechanical Engineering Internati...
-  location: Charleston, SC
-  link: https://jobs.smartrecruiters.com/BoschGroup/744000121016953
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-11'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: tmeic-corporation-americas-engineer-intern-spring-2027-8772dc
-  company: TMEIC Corporation Americas
-  role: Engineer Intern - Spring 2027
-  location: Houston, TX
-  link: https://apply.workable.com/tmeic-corporation-americas/j/68E556E5CA/apply
-  date_posted: '2026-08-12'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-12'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: draper-mechanical-engineering-system-packa-27423f
@@ -2332,11 +2185,11 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-21'
+  last_verified: '2026-08-15'
   possible_duplicate_of: draper-mechanical-engineering-system-packa-d98ded
 - id: solopulse-radar-digital-signal-processing-dsp-1c21af
   company: SoloPulse
-  role: Radar Digital Signal Processing (DSP)...
+  role: Radar Digital Signal Processing (DSP) Intern/Co-Op
   location: Peachtree Corners, GA
   link: https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9
   date_posted: '2026-08-12'
@@ -2387,7 +2240,7 @@
   role: Mechanical Design Engineering Intern
   location: Fort Lauderdale, FL
   link: https://jobs.smartrecruiters.com/BoschGroup/744000123481879
-  date_posted: '2026-08-11'
+  date_posted: '2026-04-28'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -2429,7 +2282,6 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2465,7 +2317,6 @@
   sources:
   - github_tracker:speedyapply
   - github_tracker:chieler
-  - github_tracker:zapplyjobs
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
   possible_duplicate_of: generac-intern-firmware-engineering-c86e1e
@@ -2474,7 +2325,7 @@
   role: Mechanical Engineering Intern
   location: Fort Lauderdale, FL
   link: https://jobs.smartrecruiters.com/BoschGroup/744000126065755
-  date_posted: '2026-08-15'
+  date_posted: '2026-05-12'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -2483,7 +2334,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: rivian-and-volkswagen-group-technologies-electrical-design-engineering-intern-b68ebb
   company: Rivian and Volkswagen Group Technologies
@@ -2495,11 +2346,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-21'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: field-ai-electrical-engineer-robotics-hardwar-2c9fe0
   company: Field AI
@@ -2511,11 +2362,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-20'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: interdigital-ph-d-intern-6g-wireless-systems-s-150dc0
   company: InterDigital
@@ -2530,146 +2381,1183 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
-  - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-08-26'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: plusai-robotics-systems-intern-sensor-plat-dda507
-  company: PlusAI
-  role: Robotics Systems Intern - Sensor Plat...
-  location: Santa Clara, CA
-  link: https://jobs.lever.co/plus-2/c6560f15-5446-442a-878d-b7c72606149b
-  date_posted: '2026-08-12'
-  date_estimated: false
+- id: carnegie-mellon-university-rf-cyber-lab-intern-4ab1cb
+  company: Carnegie Mellon University
+  role: RF Cyber Lab Intern
+  location: Pittsburgh, PA
+  link: https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/RF-Cyber-Lab-Intern_2024547
+  date_posted: '2026-07-10'
+  date_estimated: true
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
   - github_tracker:zapplyjobs
-  date_added: '2026-08-12'
-  last_verified: '2026-08-12'
+  date_added: '2026-08-09'
+  last_verified: '2026-08-11'
   possible_duplicate_of: null
-- id: rtx-modeling-simulation-analysis-intern-ac8418
-  company: RTX
-  role: Modeling, Simulation & Analysis Intern
-  location: Tucson, AZ
-  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-9020--9020-S-Rita-Rd--BLDG-9020/Modeling--Simulation---Analysis-Intern_01866254
-  date_posted: '2026-08-12'
+- id: aerovironment-summer-2027-aeromechanical-engineering-intern-0ed011
+  company: AeroVironment
+  role: Summer 2027 Aeromechanical Engineering Intern
+  location: Simi Valley, CA / Dayton, OH / Huntsville, AL / Pottstown, PA / Sunrise,
+    FL / Herndon, VA / Moorpark, CA / San Luis Obispo, CA / Annapolis Junction, MD
+    / Germantown, MD / Lawrence, KS / Albuquerque, NM / Minneapolis, MN / Centreville,
+    VA / Austin, TX / Melbourne, FL / Petaluma, CA / San Diego, CA
+  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Aeromechanical-Engineering-Intern_8387
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:aerovironment
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: aerovironment-summer-2027-mechanical-engineering-intern-61d33d
+  company: AeroVironment
+  role: Summer 2027 Mechanical Engineering Intern
+  location: Simi Valley, CA / Dayton, OH / Huntsville, AL / Pottstown, PA / Sunrise,
+    FL / Herndon, VA / Moorpark, CA / San Luis Obispo, CA / Annapolis Junction, MD
+    / Germantown, MD / Albuquerque, NM / Minneapolis, MN / Arlington, VA / Petaluma,
+    CA / Melbourne, FL / San Diego, CA
+  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Mechanical-Engineering-Intern_8558
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:aerovironment
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: aerovironment-summer-2027-embedded-software-engineering-intern-23132f
+  company: AeroVironment
+  role: Summer 2027 Embedded Software Engineering Intern
+  location: Simi Valley, CA / Dayton, OH / Huntsville, AL / Pottstown, PA / Sunrise,
+    FL / Moorpark, CA / San Luis Obispo, CA / Annapolis Junction, MD / Lawrence, KS
+    / Albuquerque, NM / Centreville, VA / Minneapolis, MN / Arlington, VA / Petaluma,
+    CA / Melbourne, FL / San Diego, CA
+  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8388
+  date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
   - MS
-  status: closed
+  status: open
   sources:
+  - company:aerovironment
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-13'
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: boom-supersonic-engineering-and-tech-intern-bf998c
-  company: Boom Supersonic
-  role: Engineering and Tech Intern
-  location: Centennial, CO
-  link: https://ats.rippling.com/boom-supersonic/jobs/4053f749-3d30-4d71-a64c-5fa79e162bbf
-  date_posted: '2026-08-16'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-17'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: rtx-systems-engineering-intern-3f21f4
-  company: RTX
-  role: Systems Engineering Intern
-  location: Portsmouth, RI
-  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-RI-PORTSMOUTH-PS1--1847-W-Main-Rd--NIMITZ-BLDG/XMLNAME-2027-Portsmouth-Systems-Engineering-Intern_01867557
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  date_added: '2026-08-18'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: avery-dennison-rfid-applications-engineer-co-op-summer-2027-plus-one-semester-a1b8a9
-  company: Avery Dennison
-  role: RFID Applications Engineer Co-op - Summer 2027 - Plus one semester
-  location: Miamisburg, OH
-  link: https://jobs.smartrecruiters.com/AveryDennison/744000144153141
-  date_posted: '2026-08-18'
+- id: blue-origin-summer-2027-corporate-strategy-intern-graduate-c4a906
+  company: Blue Origin
+  role: Summer 2027 Corporate Strategy Intern - Graduate
+  location: Arlington, VA
+  link: https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Arlington-VA/Summer-2027-Corporate-Strategy-Intern---Graduate_R71501
+  date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
+  - company:blue-origin
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: wabtec-digital-intern-9e2fdd
-  company: Wabtec
-  role: Digital Intern
-  location: Erie, PA
-  link: https://jobs.smartrecruiters.com/Wabtec/3743990014655843
-  date_posted: '2026-08-18'
+- id: blue-origin-summer-2027-structural-mechanical-engineering-internship-undergraduate-7d5b0c
+  company: Blue Origin
+  role: Summer 2027 Structural & Mechanical Engineering Internship - Undergraduate
+  location: Van Horn, TX / Space Coast, FL / Huntsville, AL / Denver, CO / Los Angeles,
+    CA
+  link: https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Structural---Mechanical-Engineering-Internship---Undergraduate_R71444
+  date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
+  - company:blue-origin
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: wabtec-engineering-intern-66b658
-  company: Wabtec
-  role: Engineering Intern
-  location: Erie, PA
-  link: https://jobs.smartrecruiters.com/Wabtec/3743990014652807
-  date_posted: '2026-08-18'
+- id: blue-origin-summer-2027-structural-mechanical-systems-engineering-internship-graduate-3f665b
+  company: Blue Origin
+  role: Summer 2027 Structural & Mechanical Systems Engineering Internship - Graduate
+  location: Van Horn, TX / Space Coast, FL / Huntsville, AL / Denver, CO / Los Angeles,
+    CA
+  link: https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Structural---Mechanical-Systems-Engineering-Internship---Graduate_R71445
+  date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-19'
+  - company:blue-origin
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: amentum-mechanical-engineering-intern-38f215
-  company: Amentum
+- id: blue-origin-summer-2027-electrical-systems-engineering-internship-graduate-f91c89
+  company: Blue Origin
+  role: Summer 2027 Electrical Systems Engineering Internship - Graduate
+  location: Space Coast, FL / Huntsville, AL / Denver, CO / Los Angeles, CA
+  link: https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Electrical-Systems-Engineering-Internship---Graduate_R71437
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:blue-origin
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: blue-origin-summer-2027-electrical-systems-engineering-internship-undergraduate-f03720
+  company: Blue Origin
+  role: Summer 2027 Electrical Systems Engineering Internship - Undergraduate
+  location: Space Coast, FL / Huntsville, AL / Denver, CO
+  link: https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Electrical-Systems-Engineering-Internship---Undergraduate_R71438
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:blue-origin
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: blue-origin-summer-2027-return-internship-undergraduate-1dd427
+  company: Blue Origin
+  role: Summer 2027 Return Internship - Undergraduate
+  location: Van Horn, TX / Space Coast, FL / Huntsville, AL
+  link: https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Return-Internship---Undergraduate_R71401
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:blue-origin
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: blue-origin-summer-2027-return-internship-graduate-e724b2
+  company: Blue Origin
+  role: Summer 2027 Return Internship - Graduate
+  location: Van Horn, TX / Space Coast, FL / Huntsville, AL / Denver, CO
+  link: https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Return-Internship---Graduate_R71399
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:blue-origin
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: brunswick-mechanical-engineer-co-op-intern-72d344
+  company: Brunswick
+  role: Mechanical Engineer Co-op/Intern
+  location: Lowell, MI
+  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Lowell-MI/Mechanical-Engineer-Co-op-Intern_JR-051322
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:brunswick
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: general-motors-2027-summer-manufacturing-intern-mechanical-engineer-568241
+  company: General Motors
+  role: 2027 Summer Manufacturing Intern – Mechanical Engineer
+  location: Arlington, TX
+  link: https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Arlington-Texas-United-States-of-America/XMLNAME-2027-Summer-Manufacturing-Intern---Mechanical--Engineer_JR-202619303
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-motors
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hermeus-structures-mechanical-engineering-intern-spring-summer-2027-546d43
+  company: Hermeus
+  role: Structures/Mechanical Engineering Intern - Spring/Summer 2027
+  location: Atlanta, GA
+  link: https://jobs.lever.co/hermeus/60b5d40a-1065-4bd2-8c72-6b2fb69d4761
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:hermeus
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hewlett-packard-hp-technology-innovation-organization-electrical-engineering-internship-cdedc7
+  company: Hewlett Packard (HP)
+  role: Technology & Innovation Organization Electrical Engineering Internship
+  location: Corvallis, OR
+  link: https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Corvallis-Oregon-United-States-of-America/Technology---Innovation-Organization-Electrical-Engineering-Internship_3167270
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:hewlett-packard-hp
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hitachi-2027-summer-electrical-engineering-intern-raleigh-4634f5
+  company: Hitachi
+  role: 2027 Summer Electrical Engineering Intern- Raleigh
+  location: Raleigh, NC
+  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/XMLNAME-2027-Summer-Electrical-Engineering-Intern--Raleigh_R0142463
+  date_posted: '2026-08-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:hitachi
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hitachi-2027-summer-mechanical-engineering-intern-raleigh-fbeeb0
+  company: Hitachi
+  role: 2027 Summer Mechanical Engineering Intern - Raleigh
+  location: Raleigh, NC
+  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/XMLNAME-2027-Summer-Mechanical-Engineering-Intern---Raleigh_R0142887
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:hitachi
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hntb-intern-electrical-engineer-summer-2027-01e111
+  company: HNTB
+  role: Intern Electrical Engineer - Summer 2027
+  location: Kansas City, MO / Overland Park, KS
+  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Kansas-City-MO/Intern-Electrical-Engineer---Summer-2027_R-31347
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:hntb
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: intuitive-manufacturing-equipment-supplier-engineering-intern-mechanical-or-biomedical-engineering-majors-e4b400
+  company: Intuitive
+  role: Manufacturing/Equipment/Supplier Engineering Intern (Mechanical or Biomedical
+    Engineering Majors)
+  location: Sunnyvale, CA
+  link: https://jobs.smartrecruiters.com/Intuitive/744000146769634-manufacturing-equipment-supplier-engineering-intern-mechanical-or-biomedical-engineering-majors-
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - company:intuitive
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: intuitive-mechanical-engineering-intern-363dbb
+  company: Intuitive
   role: Mechanical Engineering Intern
-  location: Scoville, ID
-  link: https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-ID-Scoville/Mechanical-Engineering-Intern_R0168396-1
+  location: Sunnyvale, CA
+  link: https://jobs.smartrecruiters.com/Intuitive/744000146769559-mechanical-engineering-intern
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - company:intuitive
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: johnson-johnson-electrical-engineering-co-op-summer-2027-dd8c5e
+  company: Johnson & Johnson
+  role: Electrical Engineering Co-Op, Summer 2027
+  location: Cincinnati, OH
+  link: https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Electrical-Engineering-Co-Op--Summer-2027_R-096736
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:johnson-johnson
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: kairos-power-electrical-engineering-internship-summer-2027-dae88d
+  company: Kairos Power
+  role: Electrical Engineering Internship - Summer 2027
+  location: Alameda, TN
+  link: https://job-boards.greenhouse.io/kairospower/jobs/6123657004
+  date_posted: '2026-07-23'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:kairos-power
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: kairos-power-mechanical-and-manufacturing-engineering-internship-summer-2027-690e9f
+  company: Kairos Power
+  role: Mechanical and Manufacturing Engineering Internship - Summer 2027
+  location: Alameda, TN
+  link: https://job-boards.greenhouse.io/kairospower/jobs/6123676004
+  date_posted: '2026-07-23'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:kairos-power
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: michelin-summer-2027-internship-mechanical-engineer-emporia-ks-7563b2
+  company: Michelin
+  role: 'Summer 2027 Internship: Mechanical Engineer (Emporia, KS)'
+  location: Emporia, KS
+  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/EMPORIA-KS/XMLNAME-2027-Summer-Mechanical-Engineer--Emporia--KS-_R-2026030587
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:michelin
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: mosaic-electrical-engineer-co-op-intern-summer-2027-02760e
+  company: Mosaic
+  role: Electrical Engineer Co-Op/Intern - Summer 2027
+  location: US - Bartow, FL / US - Tampa, FL
+  link: https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Bartow-FL/Electrical-Engineer-Co-Op-Intern---Summer-2027_64428
+  date_posted: '2026-07-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:mosaic
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: motorola-solutions-electrical-engineer-intern-summer-2027-42e92d
+  company: Motorola Solutions
+  role: Electrical Engineer Intern - Summer 2027
+  location: Plantation, FL
+  link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67780
   date_posted: '2026-08-19'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
+  - MS
   status: open
   sources:
+  - company:motorola-solutions
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: motorola-solutions-2027-summer-intern-electrical-engineer-901e8a
+  company: Motorola Solutions
+  role: 2027 Summer Intern - Electrical Engineer
+  location: Plantation, FL
+  link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/XMLNAME-2027-Summer-Intern---Electrical-Engineer_R67856
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:motorola-solutions
   - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
-  last_verified: '2026-08-26'
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: motorola-solutions-outbound-sales-representative-2027-internship-5fd313
+  company: Motorola Solutions
+  role: Outbound Sales Representative (2027 Internship)
+  location: Allen, TX
+  link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Outbound-Sales-Representative--2027-Internship-_R67607
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:motorola-solutions
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: northrop-grumman-2027-intern-electronics-avionics-engineering-413e81
+  company: Northrop Grumman
+  role: 2027 Intern - Electronics (Avionics) Engineering
+  location: Oklahoma City, OK
+  link: https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Oklahoma-Oklahoma-City/XMLNAME-2027-Intern---Electronics--Avionics--Engineering_R10248658-1
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:northrop-grumman
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: northwood-space-rf-engineering-intern-2027-summer-internship-76199d
+  company: Northwood Space
+  role: RF Engineering Intern (2027 Summer Internship)
+  location: Torrance, CA
+  link: https://jobs.ashbyhq.com/NorthwoodSpace/f086c92a-7e4b-4799-8f2a-2ad8b13111ca
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:northwood-space
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: northwood-space-electrical-engineering-intern-2027-summer-internship-9ad31b
+  company: Northwood Space
+  role: Electrical Engineering Intern (2027 Summer Internship)
+  location: Torrance, CA
+  link: https://jobs.ashbyhq.com/NorthwoodSpace/1bc230b1-5ad2-44b8-ad61-e80a730e5026
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:northwood-space
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: northwood-space-embedded-software-engineering-intern-2027-summer-internship-daf44f
+  company: Northwood Space
+  role: Embedded Software Engineering Intern (2027 Summer Internship)
+  location: Torrance, CA
+  link: https://jobs.ashbyhq.com/NorthwoodSpace/d0cca9dd-ea90-4c3b-94b4-17761932d11c
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:northwood-space
+  - github_tracker:simplifyjobs
+  - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: northwood-space-mechanical-engineering-intern-2027-summer-internship-d4df3c
+  company: Northwood Space
+  role: Mechanical Engineering Intern (2027 Summer Internship)
+  location: Torrance, CA
+  link: https://jobs.ashbyhq.com/NorthwoodSpace/6081eebf-7021-4a3f-a34f-78c91c94fcd3
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:northwood-space
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-electrical-engineering-internship-data-center-facilities-641334
+  company: Olsson
+  role: Electrical Engineering Internship - Data Center Facilities
+  location: Fort Worth, NE
+  link: https://job-boards.greenhouse.io/olsson/jobs/5395994008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:olsson
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-electrical-engineering-internship-federal-infrastructure-c263b4
+  company: Olsson
+  role: Electrical Engineering Internship - Federal Infrastructure
+  location: North Kansas City, KS
+  link: https://job-boards.greenhouse.io/olsson/jobs/5396125008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:olsson
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-electrical-engineering-internship-industrial-facilities-8100df
+  company: Olsson
+  role: Electrical Engineering Internship - Industrial Facilities
+  location: Lincoln, NE
+  link: https://job-boards.greenhouse.io/olsson/jobs/5407194008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:olsson
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-electrical-engineering-internship-instrumentation-and-controls-0e9a24
+  company: Olsson
+  role: Electrical Engineering Internship - Instrumentation and Controls
+  location: Lincoln, NE
+  link: https://job-boards.greenhouse.io/olsson/jobs/5407776008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:olsson
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-electrical-engineering-internship-substation-and-power-generation-574341
+  company: Olsson
+  role: Electrical Engineering Internship - Substation and Power Generation
+  location: Lincoln, NE
+  link: https://job-boards.greenhouse.io/olsson/jobs/5410973008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:olsson
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-electrical-engineering-internship-substation-and-power-generation-628ac4
+  company: Olsson
+  role: Electrical Engineering Internship - Substation and Power Generation
+  location: Fayetteville, AR
+  link: https://job-boards.greenhouse.io/olsson/jobs/5411131008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:olsson
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-mechanical-engineering-internship-data-center-facilities-87ccf6
+  company: Olsson
+  role: Mechanical Engineering Internship - Data Center Facilities
+  location: Dallas, OK
+  link: https://job-boards.greenhouse.io/olsson/jobs/5396012008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:olsson
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-mechanical-engineering-internship-federal-infrastructure-bea2e1
+  company: Olsson
+  role: Mechanical Engineering Internship - Federal Infrastructure
+  location: Overland Park, KS
+  link: https://job-boards.greenhouse.io/olsson/jobs/5396095008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:olsson
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-mechanical-engineering-internship-industrial-facilities-1684cb
+  company: Olsson
+  role: Mechanical Engineering Internship - Industrial Facilities
+  location: Lincoln, NE
+  link: https://job-boards.greenhouse.io/olsson/jobs/5407109008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:olsson
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-mechanical-engineering-internship-substation-and-power-generation-06c601
+  company: Olsson
+  role: Mechanical Engineering Internship - Substation and Power Generation
+  location: Fayetteville, AR
+  link: https://job-boards.greenhouse.io/olsson/jobs/5411244008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:olsson
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: oshkosh-quality-intern-summer-2027-4c9e9e
+  company: Oshkosh
+  role: Quality Intern (Summer 2027)
+  location: Murfreesboro, TN
+  link: https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Murfreesboro-Tennessee-United-States/Quality-Intern_R49883
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:oshkosh
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: oshkosh-engineer-intern-electrical-summer-2027-bded6a
+  company: Oshkosh
+  role: Engineer Intern - Electrical (Summer 2027)
+  location: Bradenton, FL
+  link: https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Bradenton-Florida-United-States/Engineer-Intern---Mechanical--Summer-2027-_R49821
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:oshkosh
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: oshkosh-engineer-intern-mechanical-summer-2027-9de6ce
+  company: Oshkosh
+  role: Engineer Intern - Mechanical (Summer 2027)
+  location: Appleton, WI
+  link: https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Appleton-Wisconsin-United-States/Engineer-Intern---Mechanical--Summer-2027-_R49741
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:oshkosh
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: oshkosh-engineer-intern-mechanical-summer-2027-36741f
+  company: Oshkosh
+  role: Engineer Intern - Mechanical (Summer 2027)
+  location: Dodge Center, MN
+  link: https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Mechanical--Summer-2027-_R49782
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:oshkosh
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: oshkosh-engineer-intern-electrical-summer-2027-1b169c
+  company: Oshkosh
+  role: Engineer Intern - Electrical (Summer 2027)
+  location: Roy, UT
+  link: https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Roy-Utah-United-States/Engineer-Intern---Electrical--Summer-2027-_R49805
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:oshkosh
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: oshkosh-engineer-intern-electrical-summer-2027-d9498e
+  company: Oshkosh
+  role: Engineer Intern - Electrical (Summer 2027)
+  location: Garner, IA
+  link: https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Garner-Iowa-United-States/Engineer-Intern---Electrical--Summer-2027-_R49814
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:oshkosh
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: oshkosh-engineer-intern-mechanical-summer-2027-14f736
+  company: Oshkosh
+  role: Engineer Intern - Mechanical (Summer 2027)
+  location: Garner, IA
+  link: https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Garner-Iowa-United-States/Engineer-Intern---Mechanical--Summer-2027-_R49815
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:oshkosh
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: oshkosh-telematics-intern-summer-2027-375f0d
+  company: Oshkosh
+  role: Telematics Intern (Summer 2027)
+  location: Orlando, FL
+  link: https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Orlando-Florida-United-States/Telematics-Intern--Summer-2027-_R49827
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:oshkosh
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: persona-ai-electrical-engineering-internship-e66c90
+  company: Persona AI
+  role: Electrical Engineering Internship
+  location: Pensacola, TX
+  link: https://jobs.ashbyhq.com/persona.ai/a68c0823-0b61-4741-9fbc-a1f6d701e4ed
+  date_posted: '2026-07-30'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:persona-ai
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: rtx-electrical-engineering-intern-summer-2027-1c18fa
+  company: RTX
+  role: Electrical Engineering Intern (Summer 2027)
+  location: El Segundo, CA
+  link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Electrical-Engineering-Intern--Summer-2027-_01868034
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:rtx
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: rtx-antenna-electrical-design-engineer-intern-summer-2027-onsite-37113e
+  company: RTX
+  role: Antenna Electrical Design Engineer Intern (Summer 2027)(Onsite)
+  location: Mckinney, TX
+  link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Antenna-Electrical-Design-Engineer-Intern--Summer-2027--Onsite-_01866691
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:rtx
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: rtx-electrical-engineering-intern-summer-2027-02dd43
+  company: RTX
+  role: Electrical Engineering Intern (Summer 2027)
+  location: El Segundo, CA
+  link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Electrical-Engineering-Intern--Summer-2027-_01867428
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:rtx
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: rtx-electrical-engineering-intern-summer-2027-1c18fa
+- id: rtx-mechanical-engineering-internship-summer-2027-01615d
+  company: RTX
+  role: Mechanical Engineering Internship (Summer 2027)
+  location: Tewksbury, MA / Andover, MA
+  link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Mechanical-Engineering-Internship--Summer-2027-_01870151
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:rtx
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: rtx-advanced-effector-guidance-systems-electrical-engineer-intern-summer-2027-cef09c
+  company: RTX
+  role: Advanced Effector Guidance Systems Electrical Engineer Intern (Summer 2027)
+  location: Tucson, AZ
+  link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/Advanced-Effector-Guidance-Systems-Electrical-Engineer-Intern--Summer-2027-_01870393
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:rtx
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: shield-ai-summer-2027-electrical-engineering-co-op-june-2027-636b11
+  company: Shield AI
+  role: Summer 2027 - Electrical Engineering Co-op (June 2027)
+  location: Dallas, TX
+  link: https://jobs.lever.co/shieldai/8c6cfcee-c6da-4a73-9bdf-3ef098ff59e6
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:shield-ai
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: shield-ai-summer-2027-electrical-engineering-intern-687528
+  company: Shield AI
+  role: Summer 2027 - Electrical Engineering Intern
+  location: Dallas, TX
+  link: https://jobs.lever.co/shieldai/200a293f-71ce-4982-a100-ac4b500c4cf7
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:shield-ai
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: stanley-black-decker-electrical-engineering-intern-summer-2027-6f360e
+  company: Stanley Black & Decker
+  role: Electrical Engineering Intern Summer 2027
+  location: Towson, MD
+  link: https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Electrical-Engineering-Intern-Summer-2027_REQ-1000052018
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:stanley-black-decker
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: stanley-black-decker-mechanical-engineering-intern-summer-2027-d3e616
+  company: Stanley Black & Decker
+  role: Mechanical Engineering Intern Summer 2027
+  location: Towson, MD
+  link: https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Mechanical-Engineering-Intern-Summer-2027_REQ-1000052017
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:stanley-black-decker
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: stryker-summer-2027-internship-electrical-engineering-california-c29813
+  company: Stryker
+  role: Summer 2027 Internship - Electrical Engineering - California
+  location: San Jose, CA / Fremont, CA
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/San-Jose-California/Summer-2027-Internship---Electrical-Engineering---California_R572604
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:stryker
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: stryker-summer-2027-internship-electrical-engineering-michigan-86ee3a
+  company: Stryker
+  role: Summer 2027 Internship - Electrical Engineering - Michigan
+  location: Portage, MI
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Electrical-Engineering---Michigan_R572609
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:stryker
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: stryker-summer-2027-internship-mechanical-engineering-arizona-9bdd6e
+  company: Stryker
+  role: Summer 2027 Internship - Mechanical Engineering - Arizona
+  location: Tempe, AZ
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Tempe-Arizona/Summer-2027-Internship---Mechanical-Engineering---Arizona_R572599
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:stryker
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: stryker-summer-2027-internship-mechanical-engineering-michigan-972042
+  company: Stryker
+  role: Summer 2027 Internship - Mechanical Engineering - Michigan
+  location: Portage, MI
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Mechanical-Engineering---Michigan_R572603
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:stryker
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: stryker-summer-2027-internship-mechanical-engineering-illinois-02b7c5
+  company: Stryker
+  role: Summer 2027 Internship - Mechanical Engineering - Illinois
+  location: Cary, IL
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Cary-Illinois/Summer-2027-Internship---Mechanical-Engineering---Illinois_R572602
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:stryker
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: stryker-summer-2027-internship-mechanical-engineering-california-75c392
+  company: Stryker
+  role: Summer 2027 Internship - Mechanical Engineering - California
+  location: San Jose, CA / Fremont, CA
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/San-Jose-California/Summer-2027-Internship---Mechanical-Engineering---California_R572600
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:stryker
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: stryker-summer-2027-internship-mechanical-engineering-new-jersey-691537
+  company: Stryker
+  role: Summer 2027 Internship - Mechanical Engineering - New Jersey
+  location: Mahwah, NJ
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Mahwah-New-Jersey/Summer-2027-Internship---Mechanical-Engineering---New-Jersey_R572605-1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:stryker
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: wabtec-summer-2027-digital-internship-9e2fdd
+  company: Wabtec
+  role: Summer 2027 Digital Internship
+  location: Erie, PA
+  link: https://jobs.smartrecruiters.com/Wabtec/3743990014655843-summer-2027-digital-internship
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:wabtec
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-hardware-asic-design-intern-hardware-10f6d3
   company: NVIDIA
@@ -2688,7 +3576,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-hardware-engineering-intern-ddfa8d
@@ -2706,10 +3594,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-computer-architecture-and-systems-intern-research-03e767
@@ -2726,7 +3612,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-hardware-physical-design-vlsi-intern-c0f58e
@@ -2745,8 +3631,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-hardware-verification-intern-383e3c
@@ -2765,45 +3650,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: nvidia-computer-architecture-intern-da2167
-  company: NVIDIA
-  role: Computer Architecture Intern
-  location: Santa Clara, CA
-  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: nvidia-ph-d-engineering-intern-62b11d
-  company: NVIDIA
-  role: Ph.D. Engineering Intern
-  location: Santa Clara, CA
-  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Summer-Internships--PhD-Engineering_JR2023856
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-ph-d-research-hardware-intern-4a086d
@@ -2820,7 +3667,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-hardware-design-for-test-intern-dft-9bb917
@@ -2834,12 +3681,11 @@
   degree:
   - MS
   - PhD
-  status: closed
+  status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: nvidia-mixed-signal-design-intern-d8d450
@@ -2859,207 +3705,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: zipline-long-range-platform-embedded-firmware-intern-summer-2027-890b17
-  company: Zipline
-  role: Long Range Platform Embedded Firmware Intern - Summer 2027
-  location: South San Francisco, CA
-  link: https://www.zipline.com/open-roles?gh_jid=7891459003
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: motorola-solutions-electrical-engineer-intern-summer-2027-42e92d
-  company: Motorola Solutions
-  role: Electrical Engineer Intern - Summer 2027
-  location: Plantation, FL
-  link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67780
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
-  last_verified: '2026-08-28'
-  possible_duplicate_of: null
-- id: motorola-solutions-electrical-engineer-intern-summer-2027-650bc1
-  company: Motorola Solutions
-  role: Electrical Engineer Intern - Summer 2027
-  location: Plantation, FL
-  link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67781
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
-  last_verified: '2026-08-24'
-  possible_duplicate_of: null
-- id: base-power-hardware-sourcing-intern-148308
-  company: Base Power
-  role: Hardware Sourcing Intern
-  location: Austin, TX
-  link: https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: rtx-electrical-engineering-intern-815ab0
-  company: RTX
-  role: Electrical Engineering Intern
-  location: Tewksbury, MA
-  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/RDP-Engineering-Intern--Summer-2027-_01864281
-  date_posted: '2026-08-14'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-20'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: crane-co-mechanical-engineering-co-op-9f2710
-  company: Crane Co.
-  role: Mechanical Engineering CO-OP
-  location: Elyria, OH
-  link: https://cranecompany.wd5.myworkdayjobs.com/Careers/job/Elyria-Ohio/Mechanical-Engineering-CO-OP_JR102190
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-20'
-  last_verified: '2026-08-20'
-  possible_duplicate_of: null
-- id: general-matter-summer-2027-internship-electrical-e-cfd305
-  company: General Matter
-  role: Summer 2027 Internship - Electrical E...
-  location: Los Angeles, CA
-  link: https://job-boards.greenhouse.io/generalmatter/jobs/5376052008
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-20'
-  last_verified: '2026-08-28'
-  possible_duplicate_of: null
-- id: diversified-automation-hardware-engineering-co-op-b55b4a
-  company: Diversified Automation
-  role: Hardware Engineering Co-Op
-  location: Louisville, KY
-  link: https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: brunswick-electrical-engineer-intern-db9e90
-  company: Brunswick
-  role: Electrical Engineer Intern
-  location: Edgewater, FL
-  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Edgewater-FL/Electrical-Engineer-Intern_JR-050891
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-21'
-  last_verified: '2026-08-24'
-  possible_duplicate_of: null
-- id: brunswick-bbg-tech-center-mechanical-engineer-bc54dd
-  company: Brunswick
-  role: BBG Tech Center - Mechanical Engineer...
-  location: Edgewater, FL
-  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Edgewater-FL/BBG-Tech-Center---Mechanical-Engineering-Intern_JR-050976-1
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: micron-technology-intern-hbm-soc-rtl-design-engineer-d8f53d
-  company: Micron Technology
-  role: Intern - HBM SoC RTL Design Engineer
-  location: Folsom, CA
-  link: https://micron.wd1.myworkdayjobs.com/external/job/Folsom-CA/Intern---HBM-SoC-RTL-Design-Engineer_JR109290
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: amd-research-engineer-intern-co-op-amd-research-43cd29
-  company: AMD
-  role: Research Engineer Intern/Co-op - AMD Research
-  location: San Jose, CA
-  link: https://careers.amd.com/jobs/90925?icims=1
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-hardware-design-verification-engineer-co-op-intern-632cc5
@@ -3076,8 +3722,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-hardware-engineer-intern-co-op-hardware-engineering-f36999
@@ -3094,8 +3739,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-firmware-engineer-intern-co-op-3939f1
@@ -3112,8 +3756,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-firmware-engineering-intern-co-op-undergrad-d673c7
@@ -3126,12 +3769,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: closed
+  status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-hardware-engineering-intern-co-op-undergrad-2435d0
@@ -3148,8 +3790,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-hardware-design-verification-engineer-co-op-intern-0a859a
@@ -3165,9 +3806,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
-  possible_duplicate_of: null
+  possible_duplicate_of: amd-hardware-design-verification-engineer-co-op-intern-632cc5
 - id: amd-hardware-design-verification-engineer-intern-co-op-b3a9bd
   company: AMD
   role: Hardware Design Verification Engineer Intern/Co-op
@@ -3182,43 +3823,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: amd-field-applications-engineer-intern-masters-a839f8
-  company: AMD
-  role: Field Applications Engineer Intern - Masters
-  location: San Jose, CA
-  link: https://careers.amd.com/jobs/91239?icims=1
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: amd-product-development-engineering-intern-co-op-5ba78c
-  company: AMD
-  role: Product Development Engineering Intern/Co-op
-  location: San Jose, CA
-  link: https://careers.amd.com/jobs/91228?icims=1
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-firmware-engineer-co-op-intern-fa3d50
@@ -3235,7 +3840,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-hardware-engineer-intern-co-op-8b23c2
@@ -3252,8 +3857,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-firmware-engineer-intern-co-op-ab50e0
@@ -3269,9 +3873,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
-  possible_duplicate_of: null
+  possible_duplicate_of: amd-firmware-engineer-intern-co-op-3939f1
 - id: amd-hardware-design-verification-engineering-intern-co-op-cf6c12
   company: AMD
   role: Hardware Design Verification Engineering Intern/Co-op
@@ -3282,177 +3886,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: amd-product-development-engineer-intern-co-op-e21b23
-  company: AMD
-  role: Product Development Engineer Intern/Co-op
-  location: San Jose, CA
-  link: https://careers.amd.com/jobs/91227?icims=1
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
   status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: e-space-embedded-software-engineering-intern-ad5bef
-  company: E-Space
-  role: Embedded Software Engineering Intern
-  location: Arlington, TX
-  link: https://jobs.lever.co/espace/1e189295-a315-414d-8c0b-686f204e3cb3
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: moog-intern-electrical-engineering-91f728
-  company: Moog
-  role: Intern, Electrical Engineering
-  location: Buffalo, NY
-  link: https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Electrical-Engineering_R-26-19569
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-21'
-  last_verified: '2026-08-28'
-  possible_duplicate_of: null
-- id: analog-devices-process-sustaining-engineering-intern-6da3a7
-  company: Analog Devices
-  role: Process Sustaining Engineering Intern
-  location: Chelmsford Alpha, MA
-  link: https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Chelmsford-Alpha/Process-Sustaining-Engineering-Intern_R265319-1
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-21'
-  last_verified: '2026-08-31'
-  possible_duplicate_of: null
-- id: general-matter-summer-2027-internship-electrical-e-2478ca
-  company: General Matter
-  role: Summer 2027 Internship - Electrical E...
-  location: Los Angeles, CA
-  link: https://job-boards.greenhouse.io/generalmatter/jobs/5376639008
-  date_posted: '2026-08-22'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-22'
-  last_verified: '2026-08-31'
-  possible_duplicate_of: general-matter-summer-2027-internship-electrical-e-cfd305
-- id: analog-devices-analog-design-engineer-intern-79478d
-  company: Analog Devices
-  role: Analog Design Engineer Intern
-  location: Wilmington, MA
-  link: https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297
-  date_posted: '2026-08-22'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-22'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: globalfoundries-quantum-technology-services-intern-s-7c2141
-  company: GlobalFoundries
-  role: Quantum Technology Services Intern (S...
-  location: New York, NY
-  link: https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Quantum-Technology-Services-Intern--Summer-2027-_JR-2604439
-  date_posted: '2026-08-23'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-23'
-  last_verified: '2026-08-24'
-  possible_duplicate_of: null
-- id: analog-devices-digital-design-engineer-intern-a0708d
-  company: Analog Devices
-  role: Digital Design Engineer Intern
-  location: Durham, NC
-  link: https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: brunswick-electro-mechanical-engineering-intern-ade4d8
-  company: Brunswick
-  role: Electro - Mechanical Engineering Intern
-  location: Menomonee Falls, WI
-  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Menomonee-Falls-WI/Electro---Mechanical-Engineering-Intern_JR-051298
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-24'
-  last_verified: '2026-08-26'
-  possible_duplicate_of: null
-- id: brunswick-mechanical-engineer-co-op-intern-72d344
-  company: Brunswick
-  role: Mechanical Engineer Co-op/Intern
-  location: Lowell, MI
-  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Lowell-MI/Mechanical-Engineer-Co-op-Intern_JR-051322
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-24'
-  last_verified: '2026-08-26'
   possible_duplicate_of: null
 - id: daktronics-hardware-design-co-op-intern-firmware-057fed
   company: Daktronics
@@ -3468,7 +3907,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-25'
+  - github_tracker:speedyapply
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-asic-package-engineering-intern-co-op-92912c
@@ -3485,8 +3925,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-25'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-asic-package-engineer-intern-co-op-c7cbe7
@@ -3503,8 +3942,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-25'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: amd-asic-package-engineering-intern-co-op-845fb2
@@ -3520,9 +3958,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  date_added: '2026-08-25'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
-  possible_duplicate_of: null
+  possible_duplicate_of: amd-asic-package-engineering-intern-co-op-92912c
 - id: amd-asic-package-engineering-co-op-intern-3fd44a
   company: AMD
   role: ASIC Package Engineering Co-op/Intern
@@ -3537,123 +3975,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: morse-corp-co-op-opportunities-embedded-software-engineer-graduate-co-op-ca3b0a
-  company: MORSE Corp Co-op Opportunities
-  role: Embedded Software Engineer Graduate Co-op
-  location: Cambridge, MA
-  link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968523003
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: morse-corp-co-op-opportunities-embedded-software-engineer-co-op-647b88
-  company: MORSE Corp Co-op Opportunities
-  role: Embedded Software Engineer Co-op
-  location: Cambridge, MA
-  link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968605003
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: daktronics-firmware-hardware-design-co-op-intern-1f0397
-  company: Daktronics
-  role: Firmware/Hardware Design Co-op Intern
-  location: Brookings, SD
-  link: https://careers-daktronics.icims.com/jobs/7518/firmware-hardware-design-co-op-intern/job
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: nomagic-engineering-intern-software-or-hardware-fd77cf
-  company: Nomagic
-  role: Engineering Intern - Software or Hardware
-  location: Alpharetta, GA
-  link: https://jobs.lever.co/Nomagic/c7a6445d-3fd8-4bf1-90c0-ec01c2bef2af
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  date_added: '2026-08-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: brunswick-mechanical-engineering-intern-dea57e
-  company: Brunswick
-  role: Mechanical Engineering Intern
-  location: Menomonee Falls, WI
-  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Menomonee-Falls-WI/Mechanical-Engineering-Intern_JR-051231
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-25'
-  last_verified: '2026-08-28'
-  possible_duplicate_of: null
-- id: brunswick-electrical-engineering-intern-72ea6b
-  company: Brunswick
-  role: Electrical Engineering Intern
-  location: Menomonee Falls, WI
-  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Menomonee-Falls-WI/Electrical-Engineering-Intern_JR-051233
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-25'
-  last_verified: '2026-08-25'
-  possible_duplicate_of: null
-- id: moog-intern-hardware-engineering-30bd07
-  company: Moog
-  role: Intern, Hardware Engineering
-  location: Mineral Wells, TX
-  link: https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Mineral-Wells-TX/Intern--Hardware-Engineering_R-26-19417
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-25'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: verkada-embedded-software-engineer-intern-7883b2
@@ -3670,63 +3992,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zshah101
   - github_tracker:speedyapply
-  date_added: '2026-08-26'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: aerovironment-mechanical-engineering-intern-b601c3
-  company: AeroVironment
-  role: Mechanical Engineering Intern
-  location: Sunrise, FL
-  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Sunrise-FL/Mechanical-Engineering-Intern_8472
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-26'
-  last_verified: '2026-08-31'
-  possible_duplicate_of: null
-- id: qts-data-center-infrastructure-management-intern-dcim-b4035e
-  company: QTS
-  role: Data Center Infrastructure Management Intern - DCIM
-  location: Ashburn, VA
-  link: https://qtsdatacenters.wd5.myworkdayjobs.com/qts/job/Suwanee-GA/Summer-2027-Internship--Data-Center-Infrastructure-Management--DCIM-_R2026-1892
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-26'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: qts-summer-2027-internship-internal-data-center-infrastructure-projects-3d3295
-  company: QTS
-  role: 'Summer 2027 Internship: Internal Data Center Infrastructure Projects'
-  location: Irving, TX
-  link: https://qtsdatacenters.wd5.myworkdayjobs.com/qts/job/Irving-TX/Summer-2027-Internship--Internal-Data-Center-Infrastructure-Projects_R2026-1906
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  date_added: '2026-08-26'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: vertiv-firmware-engineer-intern-summer-2027-929ae7
@@ -3744,58 +4012,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-08-27'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: rtx-electrical-engineer-intern-co-op-c8ec19
-  company: RTX
-  role: Electrical Engineer Intern Co-Op
-  location: Tucson, AZ
-  link: https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Electrical-Engineer-Intern-Co-Op_01868699
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-27'
-  last_verified: '2026-08-31'
-  possible_duplicate_of: null
-- id: hntb-intern-electrical-engineer-summer-2027-6f7358
-  company: HNTB
-  role: Intern Electrical Engineer - Summer 2027
-  location: Kansas City, MO
-  link: https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Kansas-City-MO/Intern-Electrical-Engineer---Summer-2027_R-31347-1
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-27'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: brunswick-mercury-marine-mechanical-engineerin-658984
-  company: Brunswick
-  role: 'Mercury Marine: Mechanical Engineerin...'
-  location: Fond du Lac, WI
-  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Mechanical-Engineering-Intern_JR-051390
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-27'
-  last_verified: '2026-08-31'
   possible_duplicate_of: null
 - id: axon-embedded-engineer-intern-a69c24
   company: Axon
@@ -3811,47 +4029,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-27'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: leidos-computer-engineering-co-op-5cb13c
-  company: Leidos
-  role: Computer Engineering Co-op
-  location: Bethesda, MD
-  link: https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Computer-Engineering-Co-op_R-00190756
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-28'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: cesiumastro-embedded-software-engineer-intern-a5457b
-  company: CesiumAstro
-  role: Embedded Software Engineer Intern
-  location: Austin, TX
-  link: https://jobs.lever.co/CesiumAstro/a4f5cae0-43fc-434f-9e14-1b5caacb6bc7/apply
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:speedyapply
-  date_added: '2026-08-28'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: vertiv-power-management-intern-summer-2027-e39f03
@@ -3868,130 +4046,10 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-28'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: zipline-embedded-engineering-intern-summer-2027-807241
-  company: Zipline
-  role: Embedded Engineering Intern - Summer 2027
-  location: South San Francisco, CA
-  link: https://www.zipline.com/open-roles?gh_jid=7978843003
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-29'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: northwood-space-embedded-software-engineering-intern-dd199e
-  company: Northwood Space
-  role: Embedded Software Engineering Intern ...
-  location: Torrance, CA
-  link: https://jobs.ashbyhq.com/northwoodspace/d0cca9dd-ea90-4c3b-94b4-17761932d11c
-  date_posted: '2026-08-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  - github_tracker:speedyapply
-  date_added: '2026-08-29'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: northwood-space-mechanical-engineering-intern-2027-s-ec935f
-  company: Northwood Space
-  role: Mechanical Engineering Intern (2027 S...
-  location: Torrance, CA
-  link: https://jobs.ashbyhq.com/northwoodspace/6081eebf-7021-4a3f-a34f-78c91c94fcd3
-  date_posted: '2026-08-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-29'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: northwood-space-electrical-engineering-intern-2027-s-b35455
-  company: Northwood Space
-  role: Electrical Engineering Intern (2027 S...
-  location: Torrance, CA
-  link: https://jobs.ashbyhq.com/northwoodspace/1bc230b1-5ad2-44b8-ad61-e80a730e5026
-  date_posted: '2026-08-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-29'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: northwood-space-rf-engineering-intern-2027-summer-in-8f83f3
-  company: Northwood Space
-  role: RF Engineering Intern (2027 Summer In...
-  location: Torrance, CA
-  link: https://jobs.ashbyhq.com/northwoodspace/f086c92a-7e4b-4799-8f2a-2ad8b13111ca
-  date_posted: '2026-08-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-29'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: hewlett-packard-enterprise-firmware-engineer-intern-1f6650
-  company: Hewlett Packard Enterprise
-  role: Firmware Engineer Intern
-  location: Spring, TX
-  link: https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Firmware-Engineer-Intern_1213627
-  date_posted: '2026-08-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-31'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: oshkosh-telematics-intern-375f0d
-  company: Oshkosh
-  role: Telematics Intern
-  location: Orlando, FL
-  link: https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Orlando-Florida-United-States/Telematics-Intern--Summer-2027-_R49827
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hudson-river-trading-hardware-engineer-intern-2b3faa
+- id: hudson-river-trading-hardware-engineer-intern-1bda05
   company: Hudson River Trading
   role: Hardware Engineer Intern
   location: New York, NY
@@ -4005,154 +4063,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: draper-sensor-electrical-engineering-co-op-49c8c4
-  company: Draper
-  role: Sensor Electrical Engineering Co-op (...
-  location: Cambridge, MA
-  link: https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Sensor-Electrical-Engineering-Co-op--Spring-2027-_JR002885
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: motorola-solutions-2027-summer-intern-electrical-engineer-901e8a
-  company: Motorola Solutions
-  role: 2027 Summer Intern - Electrical Engineer
-  location: Plantation, FL
-  link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/XMLNAME-2027-Summer-Intern---Electrical-Engineer_R67856
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: persona-ai-electrical-engineering-internship-e66c90
-  company: Persona AI
-  role: Electrical Engineering Internship
-  location: Pensacola, TX
-  link: https://jobs.ashbyhq.com/persona.ai/a68c0823-0b61-4741-9fbc-a1f6d701e4ed
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-mechanical-engineering-internship-s-06c601
-  company: Olsson
-  role: Mechanical Engineering Internship - S...
-  location: Fayetteville, AR
-  link: https://job-boards.greenhouse.io/olsson/jobs/5411244008
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: olsson-electrical-engineering-internship-d-641334
-  company: Olsson
-  role: Electrical Engineering Internship - D...
-  location: Fort Worth, TX
-  link: https://job-boards.greenhouse.io/olsson/jobs/5395994008
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: olsson-electrical-engineering-internship-s-574341
-  company: Olsson
-  role: Electrical Engineering Internship - S...
-  location: Lincoln, NE
-  link: https://job-boards.greenhouse.io/olsson/jobs/5410973008
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: micron-technology-intern-design-architecture-hbm-a2f692
-  company: Micron Technology
-  role: Intern  - Design Architecture, HBM
-  location: Richardson, TX
-  link: https://micron.wd1.myworkdayjobs.com/external/job/Richardson-TX/Intern----Design-Architecture--HBM_JR110177
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: brunswick-mercury-marine-nvh-engineering-intern-567542
-  company: Brunswick
-  role: 'Mercury Marine: NVH Engineering Intern'
-  location: Fond du Lac, WI
-  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--NVH-Engineering-Intern_JR-051456
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bytedance-cloud-acceleration-research-intern-dpu-ai-infra-2276cb
-  company: ByteDance
-  role: Cloud Acceleration Research Intern - DPU & AI Infra
-  location: Seattle, WA
-  link: https://jobs.bytedance.com/en/position/7679562740656933125/detail
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: aerotech-electrical-computer-engineering-intern-co-op-25bb4b
@@ -4170,25 +4081,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bytedance-cloud-acceleration-research-intern-dpu-ai-infra-6ea179
-  company: ByteDance
-  role: Cloud Acceleration Research Intern - DPU & AI Infra
-  location: San Jose, CA
-  link: https://jobs.bytedance.com/en/position/7679552807864879365/detail
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: eaton-firmware-engineer-intern-co-op-research-development-engineering-4cb4de
@@ -4205,8 +4098,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: textron-firmware-engineer-intern-weapons-1cd2bc
@@ -4223,8 +4115,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: vermeer-embedded-software-engineer-intern-2a83c9
@@ -4240,91 +4131,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  - github_tracker:chieler
   - github_tracker:speedyapply
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: aerovironment-electrical-engineering-intern-db4275
-  company: AeroVironment
-  role: Electrical Engineering Intern
-  location: Simi Valley, CA
-  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Electrical-Engineering-Intern_8588
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-01'
-  possible_duplicate_of: null
-- id: shield-ai-summer-2027-electrical-engineering-636b11
-  company: Shield AI
-  role: Summer 2027 - Electrical Engineering ...
-  location: Dallas, TX
-  link: https://jobs.lever.co/shieldai/8c6cfcee-c6da-4a73-9bdf-3ef098ff59e6
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: shield-ai-summer-2027-electrical-engineering-687528
-  company: Shield AI
-  role: Summer 2027 - Electrical Engineering ...
-  location: Dallas, TX
-  link: https://jobs.lever.co/shieldai/200a293f-71ce-4982-a100-ac4b500c4cf7
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: shield-ai-summer-2027-electrical-engineering-636b11
-- id: cae-mechanical-engineering-intern-4a7a3f
-  company: CAE
-  role: Mechanical Engineering Intern
-  location: Arlington, TX
-  link: https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Mechanical-Engineering-Intern_123480
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: cae-mechanical-engineering-intern-76e5ae
-- id: olsson-electrical-engineering-internship-f-c40d4c
-  company: Olsson
-  role: Electrical Engineering Internship - F...
-  location: Lincoln, NE
-  link: https://job-boards.greenhouse.io/olsson/jobs/5394106008
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: stanley-black-decker-embedded-software-engineering-intern-1d2137
@@ -4341,15 +4150,112 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: aerovironment-summer-2027-embedded-software-enginee-23132f
-  company: AeroVironment
-  role: Summer 2027 Embedded Software Enginee...
-  location: Simi Valley, CA
-  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8388
+- id: boston-scientific-r-d-hardware-engineer-intern-interns-graduates-8980b6
+  company: Boston Scientific
+  role: R&D Hardware Engineer Intern - Interns/Graduates
+  location: Arden Hills, MN
+  link: https://bostonscientific.eightfold.ai/careers/job/563602813483105
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: hewlett-packard-enterprise-firmware-engineer-intern-1f6650
+  company: Hewlett Packard Enterprise
+  role: Firmware Engineer Intern
+  location: Spring, TX
+  link: https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Firmware-Engineer-Intern_1213627
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: zipline-embedded-engineering-intern-summer-2027-ea224b
+  company: Zipline
+  role: Embedded Engineering Intern - Summer 2027
+  location: South San Francisco, CA
+  link: https://www.zipline.com/open-roles?gh_jid=7978843003
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: morse-corp-co-op-opportunities-embedded-software-engineer-graduate-co-op-ca3b0a
+  company: MORSE Corp Co-op Opportunities
+  role: Embedded Software Engineer Graduate Co-op
+  location: Cambridge, MA
+  link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968523003
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: morse-corp-co-op-opportunities-embedded-software-engineer-co-op-647b88
+  company: MORSE Corp Co-op Opportunities
+  role: Embedded Software Engineer Co-op
+  location: Cambridge, MA
+  link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968605003
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: nomagic-engineering-intern-software-or-hardware-fd77cf
+  company: Nomagic
+  role: Engineering Intern - Software or Hardware
+  location: Alpharetta, GA
+  link: https://jobs.lever.co/Nomagic/c7a6445d-3fd8-4bf1-90c0-ec01c2bef2af
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: diversified-automation-hardware-engineering-co-op-b55b4a
+  company: Diversified Automation
+  role: Hardware Engineering Co-Op
+  location: Louisville, KY
+  link: https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146
   date_posted: '2026-09-02'
   date_estimated: false
   term: Summer 2027
@@ -4358,12 +4264,10 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: formlabs-hardware-r-d-engineering-intern-wint-06de32
+- id: formlabs-hardware-r-d-engineering-intern-wint-977c34
   company: Formlabs
   role: Hardware R&D Engineering Intern (Wint...
   location: Somerville, MA
@@ -4379,59 +4283,91 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: aerovironment-summer-2027-aeromechanical-engineerin-0ed011
-  company: AeroVironment
-  role: Summer 2027 Aeromechanical Engineerin...
-  location: Simi Valley, CA
-  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Aeromechanical-Engineering-Intern_8387
-  date_posted: '2026-09-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: aerovironment-summer-2027-mechanical-engineering-in-61d33d
-  company: AeroVironment
-  role: Summer 2027 Mechanical Engineering In...
-  location: Simi Valley, CA
-  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Mechanical-Engineering-Intern_8558
-  date_posted: '2026-09-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: intuitive-mechanical-engineering-intern-363dbb
-  company: Intuitive
-  role: Mechanical Engineering Intern
-  location: Sunnyvale, CA
-  link: https://jobs.smartrecruiters.com/Intuitive/744000146769559
-  date_posted: '2026-09-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-electrical-engineering-internship-f-4c7508
+- id: olsson-electrical-engineering-internship-f-c40d4c
   company: Olsson
-  role: Electrical Engineering Internship - F...
-  location: Oklahoma City, OK
-  link: https://job-boards.greenhouse.io/olsson/jobs/5396167008
+  role: Electrical Engineering Internship - Facilities
+  location: Lincoln, NE
+  link: https://job-boards.greenhouse.io/olsson/jobs/5394106008
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: cae-mechanical-engineering-intern-4a7a3f
+  company: CAE
+  role: Mechanical Engineering Intern
+  location: Arlington, TX
+  link: https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Mechanical-Engineering-Intern_123480
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: cae-mechanical-engineering-intern-76e5ae
+- id: brunswick-bbg-tech-center-mechanical-engineer-bc54dd
+  company: Brunswick
+  role: BBG Tech Center - Mechanical Engineering Intern
+  location: Edgewater, FL
+  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Edgewater-FL/BBG-Tech-Center---Mechanical-Engineering-Intern_JR-050976-1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: micron-technology-intern-design-architecture-hbm-a2f692
+  company: Micron Technology
+  role: Intern - Design Architecture, HBM
+  location: Richardson, TX
+  link: https://micron.wd1.myworkdayjobs.com/external/job/Richardson-TX/Intern----Design-Architecture--HBM_JR110177
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: micron-technology-intern-hbm-soc-rtl-design-engineer-d8f53d
+  company: Micron Technology
+  role: Intern - HBM SoC RTL Design Engineer
+  location: Folsom, CA
+  link: https://micron.wd1.myworkdayjobs.com/external/job/Folsom-CA/Intern---HBM-SoC-RTL-Design-Engineer_JR109290
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: base-power-hardware-sourcing-intern-148308
+  company: Base Power
+  role: Hardware Sourcing Intern
+  location: Austin, TX
+  link: https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10
   date_posted: '2026-09-02'
   date_estimated: false
   term: Summer 2027
@@ -4443,7 +4379,7 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: formlabs-hardware-systems-integration-intern-f9d3bf
+- id: formlabs-hardware-systems-integration-intern-b443c8
   company: Formlabs
   role: Hardware Systems Integration Intern (...
   location: Somerville, MA
@@ -4459,12 +4395,109 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: brunswick-mercury-marine-mechatronics-intern-e68c89
-  company: Brunswick
-  role: 'Mercury Marine: Mechatronics Intern'
-  location: Fond du Lac, WI
-  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Mechatronics-Intern_JR-051269
+- id: general-matter-summer-2027-internship-electrical-engineering-cfd305
+  company: General Matter
+  role: Summer 2027 Internship - Electrical Engineering
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5376052008
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-matter
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: general-matter-summer-2027-internship-electrical-engineering-buildings-2478ca
+  company: General Matter
+  role: Summer 2027 Internship - Electrical Engineering (Buildings)
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5376639008
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-matter
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: general-matter-summer-2027-internship-electrical-i-c-engineering-41482c
+  company: General Matter
+  role: Summer 2027 Internship - Electrical I&C Engineering
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5376057008
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-matter
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: general-matter-summer-2027-internship-mechanical-engineering-hvac-d585dc
+  company: General Matter
+  role: Summer 2027 Internship - Mechanical Engineering (HVAC)
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5377104008
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-matter
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: rtx-mechanical-engineering-intern-summer-2027-0718a9
+  company: RTX
+  role: Mechanical Engineering Intern (Summer 2027)
+  location: Huntsville, AL
+  link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AL-HUNTSVILLE-315--315-Bob-Heath-Dr--BOB-HEATH/Mechanical-Engineering-Intern--Summer-2027-_01871548
   date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:rtx
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-electrical-engineering-internship-f-4c7508
+  company: Olsson
+  role: Electrical Engineering Internship - Facilities
+  location: Oklahoma City, OK
+  link: https://job-boards.greenhouse.io/olsson/jobs/5396167008
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: aerovironment-electrical-engineering-intern-db4275
+  company: AeroVironment
+  role: Electrical Engineering Intern
+  location: Simi Valley, CA
+  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Electrical-Engineering-Intern_8588
+  date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -4486,23 +4519,6 @@
   degree:
   - BS
   - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: boston-scientific-r-d-hardware-engineer-intern-interns-graduates-8980b6
-  company: Boston Scientific
-  role: R&D Hardware Engineer Intern - Interns/Graduates
-  location: Arden Hills, MN
-  link: https://bostonscientific.eightfold.ai/careers/job/563602813483105
-  date_posted: '2026-09-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
   status: open
   sources:
   - github_tracker:simplifyjobs

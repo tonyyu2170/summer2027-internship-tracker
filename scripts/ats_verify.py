@@ -11,7 +11,7 @@ import re
 from datetime import datetime, timedelta, timezone
 
 from link_check import workday_cxs_url
-from normalize import _NON_US_RE
+from normalize import _NON_US_RE, extends_truncated
 
 _UUID = r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
 # Regional boards (job-boards.eu.greenhouse.io) are served by the same
@@ -105,7 +105,7 @@ def api_url(link: str):
 def extract(ats, status, body, link="", today=None):
     """Normalize one probe of an api_url into
     {"locations": [str], "country": str|None,
-     "date_posted": "YYYY-MM-DD"|None, "closed": bool},
+     "date_posted": "YYYY-MM-DD"|None, "closed": bool, "title": str|None},
     or None for "couldn't tell" (ambiguous HTTP status, or a payload that
     doesn't parse as expected — format drift is never guessed at).
 
@@ -121,13 +121,16 @@ def extract(ats, status, body, link="", today=None):
         if ats == "ashby":
             return None
         return {"locations": [], "country": None, "date_posted": None,
-                "closed": True}
+                "closed": True, "title": None}
     if not (200 <= status < 300) or not body:
         return None
     try:
-        return _EXTRACTORS[ats](body, link, today)
+        ext = _EXTRACTORS[ats](body, link, today)
     except Exception:
         return None
+    if ext is not None:
+        ext.setdefault("title", None)
+    return ext
 
 
 _POSTED_DAYS_RE = re.compile(r"(\d+)(\+?)\s*days?\s+ago", re.I)
@@ -158,6 +161,7 @@ def _extract_workday(body, link, today):
         "country": (info.get("country") or {}).get("descriptor"),
         "date_posted": _workday_date(info.get("postedOn") or "", today),
         "closed": False,
+        "title": info.get("title"),
     }
 
 
@@ -170,6 +174,7 @@ def _extract_greenhouse(body, link, today):
         "country": None,          # greenhouse carries country only in the text
         "date_posted": (j.get("first_published") or "")[:10] or None,
         "closed": False,
+        "title": j.get("title"),
     }
 
 
@@ -187,6 +192,7 @@ def _extract_lever(body, link, today):
         "date_posted": (datetime.fromtimestamp(created / 1000, tz=timezone.utc)
                         .date().isoformat() if created else None),
         "closed": False,
+        "title": j.get("text"),
     }
 
 
@@ -210,7 +216,7 @@ def _extract_ashby(body, link, today):
         # the org's own board no longer serves this posting id — that is the
         # board's authoritative "gone", not scrape disappearance
         return {"locations": [], "country": None, "date_posted": None,
-                "closed": True}
+                "closed": True, "title": None}
     address = ((job.get("address") or {}).get("postalAddress") or {})
     locations = []
     locality, region = address.get("addressLocality"), address.get("addressRegion")
@@ -226,6 +232,7 @@ def _extract_ashby(body, link, today):
         "country": address.get("addressCountry"),
         "date_posted": (job.get("publishedAt") or "")[:10] or None,
         "closed": job.get("isListed") is False,
+        "title": job.get("title"),
     }
 
 
@@ -248,6 +255,7 @@ def _extract_smartrecruiters(body, link, today):
         "country": country,
         "date_posted": (j.get("releasedDate") or "")[:10] or None,
         "closed": False,
+        "title": j.get("name"),
     }
 
 
@@ -286,6 +294,7 @@ def _from_jsonld(item):
         "country": country,
         "date_posted": (item.get("datePosted") or "")[:10] or None,
         "closed": False,
+        "title": item.get("title"),
     }
 
 
@@ -326,7 +335,17 @@ def decide(row, ext):
         # Palantir role whose API date was 2016-10-06. Anything before the
         # cycle is not a posting date, so leave the row's own value alone.
         api_date = None
+    if api_date and api_date > (row.get("date_added") or api_date):
+        # Workday's "Posted N Days Ago" tracks the latest re-post or edit, and
+        # a date after this repo first saw the row cannot be its posting
+        # date (2026-09-01 audit: 27 rows carried one). Leave the row alone.
+        api_date = None
     if api_date and (api_date != row["date_posted"] or row.get("date_estimated")):
         actions.append({"action": "set_date",
                         "old": row["date_posted"], "new": api_date})
+    title = (ext.get("title") or "").strip()
+    if extends_truncated(row.get("role"), title):
+        # A tracker cut the title ("Supply Chain Data & Analytics Inte...");
+        # the board's own title is authoritative for the same posting.
+        actions.append({"action": "set_role", "old": row["role"], "new": title})
     return actions or [{"action": "confirm"}]

@@ -1,3 +1,4 @@
+import pytest
 import json
 from pathlib import Path
 
@@ -174,11 +175,10 @@ def test_run_files_company_postings_under_their_classified_category(tmp_path):
     out_dir = tmp_path / "reports"
     _write_config(config_path, {"swe": [
         {"company": "Acme", "ats": "greenhouse", "url": "acme"}]})
-    # A swe-watch-list board carrying a data-science role and an unclassifiable
-    # one: the first is filed where it belongs, the second falls back.
+    # A swe-watch-list board carrying a data-science role: it is filed where
+    # classify_role says, not under the company's watch-list category.
     payload = _greenhouse_board("Data Science Intern - Summer 2027",
-                                "Software Engineer Intern",
-                                "Rotational Program Intern")
+                                "Software Engineer Intern")
 
     run("swe", out_dir, config_path, tmp_path / "state.yaml", fetch=lambda _: payload)
 
@@ -186,8 +186,7 @@ def test_run_files_company_postings_under_their_classified_category(tmp_path):
     assert ds["category"] == "data_science"
     assert [p["role"] for p in ds["postings"]] == ["Data Science Intern - Summer 2027"]
     swe = json.loads((out_dir / "company_acme_swe.json").read_text())
-    assert sorted(p["role"] for p in swe["postings"]) == [
-        "Rotational Program Intern", "Software Engineer Intern"]
+    assert [p["role"] for p in swe["postings"]] == ["Software Engineer Intern"]
 
 
 def test_run_skips_a_link_already_tracked_where_classify_role_would_file_it(
@@ -208,8 +207,8 @@ def test_run_skips_a_link_already_tracked_where_classify_role_would_file_it(
                                 "Quantitative Researcher Intern")
     # Both links are already tracked under quant, the watch-list category.
     monkeypatch.setattr("fetch_companies.known_link_categories", lambda: {
-        "https://boards.greenhouse.io/acme/jobs/0": "quant",
-        "https://boards.greenhouse.io/acme/jobs/1": "quant"})
+        "https://job-boards.greenhouse.io/acme/jobs/0": "quant",
+        "https://job-boards.greenhouse.io/acme/jobs/1": "quant"})
 
     drops = run("quant", out_dir, config_path, tmp_path / "state.yaml",
                 fetch=lambda _: payload)
@@ -321,3 +320,92 @@ def test_fetch_workday_search_caps_a_runaway_search():
 
     assert payload["truncated"] is True
     assert len(payload["jobs"]) == 100
+
+
+def test_with_backoff_retries_only_429_and_gives_up_after_the_delays():
+    import urllib.error
+    from fetch_companies import _RETRY_DELAYS, _with_backoff
+    calls, slept = [], []
+
+    def flaky(source):
+        calls.append(source)
+        if len(calls) < 3:
+            raise urllib.error.HTTPError("u", 429, "slow down", {}, None)
+        return {"jobs": []}
+    assert _with_backoff(flaky, "src", sleep=slept.append) == {"jobs": []}
+    assert slept == list(_RETRY_DELAYS[:2]) and len(calls) == 3
+
+    def dead(source):
+        raise urllib.error.HTTPError("u", 404, "gone", {}, None)
+    with pytest.raises(urllib.error.HTTPError):
+        _with_backoff(dead, "src", sleep=slept.append)
+    assert slept == list(_RETRY_DELAYS[:2])   # a 404 never sleeps
+
+    always = lambda source: (_ for _ in ()).throw(urllib.error.HTTPError("u", 429, "x", {}, None))
+    with pytest.raises(urllib.error.HTTPError):
+        _with_backoff(always, "src", sleep=slept.append)
+    assert len(slept) == 2 + len(_RETRY_DELAYS)
+
+
+def test_fetch_workable_pages_the_list_then_details_us_intern_hits():
+    from fetch_companies import _fetch_workable, _normalize_source
+    src = _normalize_source({"ats": "workable", "company": "Acme", "url": "https://apply.workable.com/acme"})
+    assert src["provider"] == "workable_api" and src["slug"] == "acme"
+    pages = {None: {"results": [
+                 {"title": "SWE Intern", "shortcode": "A1", "location": {"countryCode": "US"}},
+                 {"title": "SWE Intern", "shortcode": "B2", "location": {"countryCode": "GB"}},
+                 {"title": "Staff Engineer", "shortcode": "C3", "location": {"countryCode": "US"}}],
+             "nextPage": "tok"},
+             "tok": {"results": [{"title": "Data Intern", "shortcode": "D4",
+                                  "location": {"countryCode": "DE"}, "locations": [{"countryCode": "US"}]}],
+                     "nextPage": None}}
+    posted, got = [], []
+
+    def post(url, body):
+        posted.append((url, body.get("token")))
+        return pages[body.get("token")]
+
+    def get(url):
+        got.append(url)
+        return {"title": url.rsplit("/", 1)[1]}
+    out = _fetch_workable(src, post=post, get=get)
+    assert posted == [("https://apply.workable.com/api/v3/accounts/acme/jobs", None),
+                      ("https://apply.workable.com/api/v3/accounts/acme/jobs", "tok")]
+    assert got == ["https://apply.workable.com/api/v2/accounts/acme/jobs/A1",
+                   "https://apply.workable.com/api/v2/accounts/acme/jobs/D4"]
+    assert [j["link"] for j in out["jobs"]] == ["https://apply.workable.com/acme/j/A1/",
+                                                "https://apply.workable.com/acme/j/D4/"]
+    assert _normalize_source({"ats": "workable", "company": "X", "url": "https://apply.workable.com"})["provider"] == "_unwired"
+
+
+def test_run_never_files_an_unclassifiable_role_under_the_watch_list_category(tmp_path):
+    """A watch-list board is the company's whole intern programme. Falling
+    back to the watch-list category filed 292 Sales / Audit / Tax / EHS
+    interns as swe, ai_ml and actuarial rows in the 2026-09-02 merge."""
+    config_path = tmp_path / "companies.yaml"
+    out_dir = tmp_path / "reports"
+    _write_config(config_path, {"swe": [
+        {"company": "Acme", "ats": "greenhouse", "url": "acme"}]})
+    payload = _greenhouse_board("Transaction Tax Intern - Summer 2027",
+                                "Software Engineer Intern")
+
+    drops = run("swe", out_dir, config_path, tmp_path / "state.yaml", fetch=lambda _: payload)
+
+    assert drops["company:acme"]["unclassified_role"] == 1
+    swe = json.loads((out_dir / "company_acme_swe.json").read_text())
+    assert [p["role"] for p in swe["postings"]] == ["Software Engineer Intern"]
+
+
+def test_run_consults_manual_categories_for_a_role_no_rule_classifies(tmp_path, monkeypatch):
+    config_path = tmp_path / "companies.yaml"
+    out_dir = tmp_path / "reports"
+    _write_config(config_path, {"swe": [
+        {"company": "Acme", "ats": "greenhouse", "url": "acme"}]})
+    payload = _greenhouse_board("Rotational Program Intern")
+    monkeypatch.setattr("fetch_companies.manual_link_categories", lambda: {
+        "https://job-boards.greenhouse.io/acme/jobs/0": "data_science"})
+
+    run("swe", out_dir, config_path, tmp_path / "state.yaml", fetch=lambda _: payload)
+
+    ds = json.loads((out_dir / "company_acme_data_science.json").read_text())
+    assert [p["role"] for p in ds["postings"]] == ["Rotational Program Intern"]

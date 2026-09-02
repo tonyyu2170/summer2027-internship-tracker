@@ -7,6 +7,9 @@ import json
 import re
 import ssl
 import sys
+import threading
+import time
+import urllib.error
 import urllib.request
 from collections import Counter, defaultdict
 from datetime import date
@@ -16,7 +19,7 @@ from urllib.parse import urlsplit
 import certifi
 import yaml
 
-from categorize import DROP, classify_role, known_link_categories
+from categorize import DROP, classify_role, known_link_categories, manual_link_categories
 from normalize import normalize_link
 from parse_company import (
     is_intern_title,
@@ -25,6 +28,7 @@ from parse_company import (
     parse_lever_postings,
     parse_phenom_job_page,
     parse_smartrecruiters_postings,
+    parse_workable_jobs,
     parse_workday_cxs,
     parse_workday_search,
 )
@@ -41,6 +45,7 @@ _PARSERS = {
     "lever_api": parse_lever_postings,
     "ashby_api": parse_ashby_board,
     "smartrecruiters_api": parse_smartrecruiters_postings,
+    "workable_api": parse_workable_jobs,
 }
 
 # Legacy watch-list entries ({company, ats, url}) map onto implicit API
@@ -49,9 +54,11 @@ _ATS_PROVIDERS = {"greenhouse": "greenhouse_board",
                   "lever": "lever_api",
                   "ashby": "ashby_api",
                   "workday": "workday_search",
-                  "smartrecruiters": "smartrecruiters_api"}
+                  "smartrecruiters": "smartrecruiters_api",
+                  "workable": "workable_api"}
 
 _SMARTRECRUITERS_HOST = "jobs.smartrecruiters.com"
+_WORKABLE_HOST = "apply.workable.com"
 _SMARTRECRUITERS_PAGE = 100
 
 # Workday's search ranks rather than filters, so a bare "intern" matches most
@@ -70,6 +77,15 @@ def _workday_site(url: str):
     if not parts.netloc.lower().endswith(".myworkdayjobs.com") or not segments:
         return None
     return {"tenant": parts.netloc.split(".")[0], "site": segments[0]}
+
+
+def _workable_slug(url: str):
+    """Account slug for an `apply.workable.com/{slug}` board URL, or None."""
+    parts = urlsplit(url)
+    segments = [segment for segment in parts.path.split("/") if segment]
+    if parts.netloc.lower() != _WORKABLE_HOST or not segments:
+        return None
+    return segments[0]
 
 
 def _smartrecruiters_board(url: str):
@@ -106,6 +122,12 @@ def _normalize_source(source: dict):
         # since a blanket "-" -> "_" would break a genuinely hyphenated tenant.
         site.update({key: source[key] for key in ("tenant", "site") if key in source})
         normalized.update(site, search_text=_WORKDAY_SEARCH_TEXT)
+    if normalized["provider"] == "workable_api":
+        slug = _workable_slug(source["url"])
+        if not slug:
+            normalized["provider"] = "_unwired"
+            return normalized
+        normalized["slug"] = slug
     if normalized["provider"] == "smartrecruiters_api":
         # Same reason as the Workday derivation above: an off-shape watch-list
         # URL degrades to unwired here rather than aborting the category.
@@ -257,6 +279,67 @@ def _fetch_smartrecruiters(source: dict, get=None) -> dict:
     return {"jobs": jobs}
 
 
+# Workday rate-limits CXS per client IP across tenants: pulling ~950 boards
+# through 16 threads at once 429'd 113 of them (2026-09-02). Cap concurrent
+# Workday pulls and back off on 429 instead of losing the board for the run.
+_WORKDAY_SLOTS = threading.Semaphore(4)
+_RETRY_DELAYS = (15, 30, 60)
+
+
+def _with_backoff(fetch, source, sleep=time.sleep):
+    """Call fetch(source), retrying an HTTP 429 after each delay in
+    _RETRY_DELAYS; any other error propagates at once."""
+    for delay in _RETRY_DELAYS:
+        try:
+            return fetch(source)
+        except urllib.error.HTTPError as exc:
+            if exc.code != 429:
+                raise
+            sleep(delay)
+    return fetch(source)
+
+
+def _fetch_workable(source: dict, post=None, get=None) -> dict:
+    """Page one Workable board (v3 list, `token` paging), then pull the v2
+    detail behind each US intern-titled hit. Like SmartRecruiters, the list
+    carries a structured location but no description."""
+    post, get = post or _json_post_api, get or _get_json_api
+    base = f"https://{_WORKABLE_HOST}/api"
+    rows, token = [], None
+    while True:
+        body = {"query": "", "location": [], "department": [], "worktype": [], "remote": []}
+        if token:
+            body["token"] = token
+        payload = post(f"{base}/v3/accounts/{source['slug']}/jobs", body)
+        page = payload.get("results")
+        if not isinstance(page, list):
+            raise ValueError("invalid Workable jobs response")
+        rows.extend(page)
+        token = payload.get("nextPage")
+        if not token or not page:
+            break
+    jobs = []
+    for row in rows:
+        places = [row.get("location") or {}] + [l for l in row.get("locations") or [] if isinstance(l, dict)]
+        if not is_intern_title(row.get("title") or "") or not row.get("shortcode"):
+            continue
+        if not any(place.get("countryCode") == "US" for place in places):
+            continue
+        detail = get(f"{base}/v2/accounts/{source['slug']}/jobs/{row['shortcode']}")
+        detail["link"] = f"https://{_WORKABLE_HOST}/{source['slug']}/j/{row['shortcode']}/"
+        jobs.append(detail)
+    return {"jobs": jobs}
+
+
+def _json_post_api(url: str, payload: dict):
+    """POST JSON with a JSON Accept header (Workable's v3 list endpoint)."""
+    request = urllib.request.Request(
+        url, data=json.dumps(payload).encode("utf-8"),
+        headers={**_HEADERS, "Accept": "application/json", "Content-Type": "application/json"})
+    with urllib.request.urlopen(request, timeout=30, context=_SSL_CTX) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
 def _fetch_source(source: dict):
     provider = source["provider"]
     if provider == "phenom_job_page":
@@ -275,6 +358,8 @@ def _fetch_source(source: dict):
                          f"{source['url']}?includeCompensation=false")
     if provider == "smartrecruiters_api":
         return _fetch_smartrecruiters(source)
+    if provider == "workable_api":
+        return _fetch_workable(source)
     raise ValueError(f"unsupported provider {source['provider']!r}")
 
 
@@ -304,6 +389,7 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
 
     out_dir.mkdir(parents=True, exist_ok=True)
     known = known_link_categories()
+    manual = manual_link_categories()
     drop_counts = _load_drop_counts(out_dir / "drop_counts.json")
     state = yaml.safe_load(state_path.read_text()) if state_path.exists() else {}
     state = state or {}
@@ -359,17 +445,22 @@ def run(category: str, out_dir=None, config_path=None, state_path=None, fetch=No
         # merge refreshes the existing row.
         # A watch-list board is the company's whole intern programme, so most
         # of what it returns is off-scope for this tracker (supply chain, HR,
-        # sales). The watch-list category says where a company's rows *live*,
+        # sales). The watch-list category says where a company is *watched*,
         # not what any one role is — so categorize.py decides, exactly as it
-        # does for the tracker path, and only falls back to the watch-list
-        # category when it can't tell.
+        # does for the tracker path, then the hand-kept overlay. A role
+        # neither can place is dropped and counted, never filed under the
+        # watch-list category: that fallback put 292 Sales / Tax / Audit /
+        # EHS interns into swe, ai_ml and actuarial on 2026-09-02.
         by_category = defaultdict(list)
         for posting in postings:
-            resolved = classify_role(posting["role"])
+            resolved = classify_role(posting["role"]) or manual.get(normalize_link(posting["link"]))
             if resolved == DROP:
                 drop_counts[entity]["category_drop"] += 1
                 continue
-            target = resolved or category
+            if not resolved:
+                drop_counts[entity]["unclassified_role"] += 1
+                continue
+            target = resolved
             # Compared against `target`, not the watch-list category:
             # classify_role can move a posting out of the category its company
             # is watched under, and a guard that checked the watch-list
@@ -422,7 +513,11 @@ def _prefetched(config_path=None):
 
     def one(s):
         try:
-            results[s["source_entity"]] = ("ok", _fetch_source(s))
+            if s["provider"] in ("workday_search", "workday_cxs"):
+                with _WORKDAY_SLOTS:
+                    results[s["source_entity"]] = ("ok", _with_backoff(_fetch_source, s))
+            else:
+                results[s["source_entity"]] = ("ok", _with_backoff(_fetch_source, s))
         except Exception as exc:
             results[s["source_entity"]] = ("err", exc)
 

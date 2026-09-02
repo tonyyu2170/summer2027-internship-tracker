@@ -1,184 +1,3 @@
-- id: akuna-capital-quantitative-developer-eb8994
-  company: Akuna Capital
-  role: Quantitative Developer
-  location: Chicago, IL
-  link: https://www.akunacapital.com/careers/job/8021481/?gh_jid=8021481
-  date_posted: '2026-07-13'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  - github_tracker:northwesternfintech
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: false
-- id: akuna-capital-quantitative-researcher-25b3ea
-  company: Akuna Capital
-  role: Quantitative Researcher
-  location: Chicago, IL
-  link: https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614
-  date_posted: '2026-07-13'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  - github_tracker:northwesternfintech
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  - github_tracker:zshah101
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Research
-  date_estimated: false
-- id: akuna-capital-software-engineer-c-07a1c1
-  company: Akuna Capital
-  role: Software Engineer (C++)
-  location: Chicago, IL
-  link: https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847
-  date_posted: '2026-07-13'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:zshah101
-  - github_tracker:northwesternfintech
-  - github_tracker:speedyapply
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: false
-- id: akuna-capital-software-engineer-python-6f6dea
-  company: Akuna Capital
-  role: Software Engineer (Python)
-  location: Chicago, IL
-  link: https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853
-  date_posted: '2026-07-13'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:zshah101
-  - github_tracker:northwesternfintech
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: false
-- id: akuna-capital-software-engineer-c-net-44545a
-  company: Akuna Capital
-  role: Software Engineer (C# .NET)
-  location: Chicago, IL
-  link: https://www.akunacapital.com/careers/job/8018886/?gh_jid=8018886
-  date_posted: '2026-07-13'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:northwesternfintech
-  - github_tracker:speedyapply
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: false
-- id: akuna-capital-software-engineer-full-stack-web-975720
-  company: Akuna Capital
-  role: Software Engineer (Full Stack Web)
-  location: Chicago, IL
-  link: https://www.akunacapital.com/careers/job/8018893/?gh_jid=8018893
-  date_posted: '2026-07-13'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:northwesternfintech
-  - github_tracker:speedyapply
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: false
-- id: akuna-capital-software-engineer-platform-753c74
-  company: Akuna Capital
-  role: Software Engineer (Platform)
-  location: Chicago, IL
-  link: https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856
-  date_posted: '2026-07-13'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  - github_tracker:zshah101
-  - github_tracker:northwesternfintech
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: false
-- id: aquatic-software-engineer-387eea
-  company: Aquatic
-  role: Software Engineer
-  location: Chicago, IL
-  link: https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002
-  date_posted: '2026-04-01'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:northwesternfintech
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  - github_tracker:sndsh404
-  - github_tracker:suryaharikrishnan
-  - github_tracker:vanshb03
-  - github_tracker:zshah101
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: false
 - id: aquatic-quantitative-researcher-857973
   company: Aquatic
   role: Quantitative Researcher
@@ -215,7 +34,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -233,7 +52,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -252,7 +71,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -271,7 +90,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -328,7 +147,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Trading
   date_estimated: true
@@ -346,7 +165,7 @@
   - github_tracker
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -376,7 +195,7 @@
   role: Quantitative Researcher
   location: Chicago, IL
   link: https://www.drw.com/work-at-drw/listings/quantitative-research-intern-3413670
-  date_posted: '2026-07-31'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -390,13 +209,13 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
-  date_estimated: false
+  date_estimated: true
 - id: drw-software-engineer-3fd2b0
   company: DRW
   role: Software Engineer
   location: Chicago, IL
   link: https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328
-  date_posted: '2026-07-31'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -410,7 +229,7 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: false
+  date_estimated: true
 - id: five-rings-quantitative-trader-316f53
   company: Five Rings
   role: Quantitative Trader
@@ -483,24 +302,6 @@
   possible_duplicate_of: null
   track: Development
   date_estimated: false
-- id: flow-traders-quantitative-trader-66e07c
-  company: Flow Traders
-  role: Quantitative Trader
-  location: New York, NY
-  link: https://www.flowtraders.com/careers/job-description/8047166
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:northwesternfintech
-  date_added: '2026-07-23'
-  last_verified: '2026-08-31'
-  possible_duplicate_of: null
-  track: Trading
-  date_estimated: true
 - id: hudson-river-trading-quantitative-researcher-696bd5
   company: Hudson River Trading
   role: Quantitative Researcher
@@ -565,11 +366,11 @@
   possible_duplicate_of: null
   track: Development
   date_estimated: false
-- id: imc-trading-quantitative-trader-b45a2d
-  company: IMC Trading
+- id: jane-street-quantitative-trader-2c53cb
+  company: Jane Street
   role: Quantitative Trader
-  location: Chicago, IL
-  link: https://www.imc.com/us/careers/jobs/4823923101
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8617344002/
   date_posted: '2026-07-23'
   term: Summer 2027
   degree:
@@ -578,87 +379,6 @@
   sources:
   - github_tracker
   - custom
-  - github_tracker:northwesternfintech
-  date_added: '2026-07-23'
-  last_verified: '2026-08-31'
-  possible_duplicate_of: null
-  track: Trading
-  date_estimated: true
-- id: imc-trading-quantitative-researcher-44d4ec
-  company: IMC Trading
-  role: Quantitative Researcher
-  location: Chicago, IL
-  link: https://www.imc.com/us/careers/jobs/4907399101
-  date_posted: '2026-07-24'
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker
-  - custom
-  - github_tracker:northwesternfintech
-  - github_tracker:vanshb03
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Research
-  date_estimated: false
-- id: imc-trading-quantitative-researcher-46ed6a
-  company: IMC Trading
-  role: Quantitative Researcher
-  location: Chicago, IL
-  link: https://www.imc.com/us/careers/jobs/4907400101
-  date_posted: '2026-07-24'
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker
-  - custom
-  - github_tracker:northwesternfintech
-  - github_tracker:vanshb03
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Research
-  date_estimated: false
-- id: imc-trading-software-engineer-58efe6
-  company: IMC Trading
-  role: Software Engineer
-  location: Chicago, IL
-  link: https://www.imc.com/us/careers/jobs/4823924101
-  date_posted: '2026-07-07'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - custom
-  - github_tracker:northwesternfintech
-  - github_tracker:chieler
-  - github_tracker:vanshb03
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: false
-- id: jane-street-quantitative-trader-2c53cb
-  company: Jane Street
-  role: Quantitative Trader
-  location: New York, NY
-  link: https://www.janestreet.com/join-jane-street/position/8617344002/
-  date_posted: '2026-07-24'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - custom
   - github_tracker:speedyapply
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
@@ -666,13 +386,13 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-quantitative-researcher-6fbe73
   company: Jane Street
   role: Quantitative Researcher
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8498547002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -687,13 +407,13 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-quantitative-researcher-ml-1f186b
   company: Jane Street
   role: Quantitative Researcher (ML)
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8384490002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -708,7 +428,7 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-software-engineer-47066e
   company: Jane Street
   role: Software Engineer
@@ -725,31 +445,6 @@
   - github_tracker:northwesternfintech
   - github_tracker:speedyapply
   - github_tracker:vanshb03
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: false
-- id: old-mission-software-engineer-96879a
-  company: Old Mission
-  role: Software Engineer
-  location: Chicago, IL
-  link: https://www.oldmissioncapital.com/careers/?gh_jid=7796180003
-  date_posted: '2026-07-15'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:northwesternfintech
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:vanshb03
-  - github_tracker:zapplyjobs
-  - github_tracker:zshah101
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -917,7 +612,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -936,7 +631,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -955,7 +650,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
@@ -974,16 +669,16 @@
   - github_tracker:northwesternfintech
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
   date_estimated: false
 - id: sig-quantitative-trader-5dbfec
   company: SIG
-  role: Quantitative Trader
+  role: Quantitative Trader Intern
   location: Chicago, IL
   link: https://careers.sig.com/quantitative-trading-internships-co-ops/jobs/10849
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-30'
   term: Summer 2027
   degree:
   - BS
@@ -991,35 +686,39 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: true
+  date_estimated: false
 - id: sig-quantitative-trader-da8405
   company: SIG
-  role: Quantitative Trader
+  role: Quantitative Trader Intern
   location: New York, NY
   link: https://careers.sig.com/quantitative-trading-internships-co-ops/jobs/10718
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-30'
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: true
+  date_estimated: false
 - id: sig-quantitative-researcher-792349
   company: SIG
-  role: Quantitative Researcher
+  role: Quantitative Research Intern
   location: Bala Cynwyd, PA
   link: https://careers.sig.com/quantitative-systematic-trading-quantitative-research/jobs/10819
-  date_posted: '2026-07-23'
+  date_posted: '2026-04-21'
   term: Summer 2027
   degree:
   - MS
@@ -1027,17 +726,18 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: sig-quantitative-researcher-f65880
   company: SIG
-  role: Quantitative Researcher
+  role: Quantitative Research Intern
   location: New York, NY
   link: https://careers.sig.com/phds-postdocs/jobs/10820
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-29'
   term: Summer 2027
   degree:
   - MS
@@ -1045,17 +745,18 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: sig-quantitative-researcher-59d025
   company: SIG
-  role: Quantitative Researcher
+  role: 'Quantitative Research Intern - PhD: Summer 2027'
   location: Bala Cynwyd, PA
   link: https://careers.sig.com/phds-postdocs/jobs/10817
-  date_posted: '2026-07-23'
+  date_posted: '2026-04-21'
   term: Summer 2027
   degree:
   - PhD
@@ -1063,17 +764,19 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: sig-quantitative-researcher-2d0ab5
   company: SIG
-  role: Quantitative Researcher
+  role: Quantitative Research Intern
   location: New York, NY
   link: https://careers.sig.com/phds-postdocs/jobs/10818
-  date_posted: '2026-07-23'
+  date_posted: '2026-06-29'
   term: Summer 2027
   degree:
   - PhD
@@ -1081,17 +784,19 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
-  date_estimated: true
+  date_estimated: false
 - id: sig-software-engineer-quantitative-strategy-developer-04341b
   company: SIG
-  role: Software Engineer (Quantitative Strategy Developer)
+  role: Quantitative Strategy Developer Intern
   location: Bala Cynwyd, PA
   link: https://careers.sig.com/intern-co-op/jobs/10838
-  date_posted: '2026-07-23'
+  date_posted: '2026-07-07'
   term: Summer 2027
   degree:
   - BS
@@ -1099,17 +804,23 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:sndsh404
+  - github_tracker:chieler
+  - github_tracker:vanshb03
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
+  - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: sig-software-engineer-trading-system-engineering-a6ac14
   company: SIG
-  role: Software Engineer (Trading System Engineering)
+  role: Trading System Engineering Intern
   location: Bala Cynwyd, PA
   link: https://careers.sig.com/intern-co-op-technology/jobs/10837
-  date_posted: '2026-07-23'
+  date_posted: '2026-05-22'
   term: Summer 2027
   degree:
   - BS
@@ -1117,28 +828,14 @@
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
+  - github_tracker:sndsh404
+  - github_tracker:vanshb03
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
-- id: transmarketgroup-quantitative-trader-b27205
-  company: TransMarketGroup
-  role: Quantitative Trader
-  location: Chicago, IL
-  link: https://job-boards.greenhouse.io/transmarketgroup/jobs/5151569007
-  date_posted: '2026-06-02'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:northwesternfintech
-  date_added: '2026-07-23'
-  last_verified: '2026-08-31'
-  possible_duplicate_of: null
-  track: Trading
   date_estimated: false
 - id: walleye-capital-software-engineer-risk-technology-6d161c
   company: Walleye Capital
@@ -1243,6 +940,9 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1260,6 +960,8 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1283,7 +985,6 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   - github_tracker:zshah101
-  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1301,6 +1002,8 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1318,23 +1021,14 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: akuna-capital-software-engineer-intern-summer-2027-python-c-full-stack-c-net-b4eac5
-  company: Akuna Capital
-  role: Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET)
-  location: Chicago, IL
-  link: https://akunacapital.com/careers/job/8018847/
-  date_posted: '2026-07-14'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:sndsh404
+  - github_tracker:northwesternfintech
+  - github_tracker:speedyapply
   - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:vanshb03
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1361,7 +1055,7 @@
   role: Quantitative Researcher Intern
   location: Boston, MA
   link: https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Quantitative-Researcher-Intern--Summer-2027_R1505
-  date_posted: '2026-08-07'
+  date_posted: '2026-07-10'
   term: Summer 2027
   degree:
   - BS
@@ -1416,6 +1110,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:northwesternfintech
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1442,7 +1137,7 @@
   track: Research
 - id: tower-research-capital-quantitative-trader-intern-04531f
   company: Tower Research Capital
-  role: Quantitative Trader Intern
+  role: Quantitative Trader/Researcher Intern - Summer 2027
   location: New York, NY
   link: https://job-boards.greenhouse.io/towerresearchcapital/jobs/8024128
   date_posted: '2026-07-05'
@@ -1453,6 +1148,10 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1471,6 +1170,11 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - github_tracker:speedyapply
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1489,31 +1193,13 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
-- id: imc-trading-software-engineer-intern-f62566
-  company: IMC Trading
-  role: Software Engineer Intern
-  location: Chicago, IL
-  link: https://job-boards.eu.greenhouse.io/imc/jobs/4823924101
-  date_posted: '2026-06-28'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  - github_tracker:sndsh404
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: imc-trading-quantitative-research-intern-bs-ms-6db1c0
   company: IMC Trading
   role: Quantitative Research Intern (BS / MS)
@@ -1532,6 +1218,9 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   - github_tracker:zshah101
+  - custom
+  - github_tracker:northwesternfintech
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1555,6 +1244,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   - github_tracker:chieler
+  - custom
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1577,6 +1267,8 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:zshah101
+  - custom
+  - github_tracker:northwesternfintech
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1641,7 +1333,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:zshah101
-  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1753,48 +1444,12 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: true
-- id: susquehanna-quantitative-strategy-developer-intern-3006c7
-  company: Susquehanna
-  role: Quantitative Strategy Developer Intern
-  location: Bala Cynwyd, PA
-  link: https://careers.sig.com/jobs/10838
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:sndsh404
-  - github_tracker:chieler
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: true
-- id: susquehanna-trading-system-engineering-intern-c9b7fe
-  company: Susquehanna
-  role: Trading System Engineering Intern
-  location: Bala Cynwyd, PA
-  link: https://careers.sig.com/jobs/10837
-  date_posted: '2026-05-22'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:sndsh404
-  - github_tracker:vanshb03
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: cubist-systematic-strategies-quantitative-developer-intern-f53f1c
   company: Cubist Systematic Strategies
   role: Quantitative Developer Intern
   location: New York, NY
   link: https://job-boards.greenhouse.io/point72/jobs/7297613002
-  date_posted: '2026-07-23'
+  date_posted: '2026-05-23'
   term: Summer 2027
   degree:
   - BS
@@ -1802,12 +1457,14 @@
   sources:
   - github_tracker
   - github_tracker:sndsh404
+  - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: true
+  date_estimated: false
 - id: jump-trading-campus-software-engineer-intern-295be1
   company: Jump Trading
   role: Campus Software Engineer - Intern
@@ -1913,7 +1570,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   track: Development
 - id: d-e-shaw-co-software-developer-ph-d-intern-new-york-summer-2027-e83404
@@ -1930,7 +1587,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-08-27'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   track: Development
 - id: virtu-financial-internship-software-engineer-99c39c
@@ -1995,27 +1652,6 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-- id: tower-research-capital-quantitative-developer-intern-summer-2027-3556aa
-  company: Tower Research Capital
-  role: Quantitative Developer Intern - Summer 2027
-  location: Chicago, IL
-  link: https://www.tower-research.com/open-positions/?gh_jid=8044334
-  date_posted: '2026-07-06'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
 - id: stevens-capital-management-developer-internship-6c78cb
   company: Stevens Capital Management
   role: Developer Internship
@@ -2064,7 +1700,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-21'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   track: Trading
 - id: citadel-quantitative-research-engineer-phd-intern-us-f00ebe
@@ -2148,8 +1784,11 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   track: Research
 - id: optiver-quantitative-research-intern-phd-summer-2027-2274af
@@ -2319,7 +1958,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -2338,30 +1977,10 @@
   - custom
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
-- id: tower-research-capital-quantitative-trader-intern-summer-2027-3f1648
-  company: Tower Research Capital
-  role: Quantitative Trader Intern - Summer 2027
-  location: Chicago, IL
-  link: https://www.tower-research.com/open-positions/?gh_jid=8024128
-  date_posted: '2026-07-06'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zshah101
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Trading
 - id: tower-research-capital-quantitative-trader-intern-phd-9e55c4
   company: Tower Research Capital
   role: Quantitative Trader Intern - PhD
@@ -2376,7 +1995,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   track: Trading
 - id: stevens-capital-management-quantitative-research-analyst-internship-29a025
@@ -2462,24 +2081,10 @@
   - github_tracker
   - github_tracker:vanshb03
   - github_tracker:chieler
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Development
-- id: susquehanna-investment-group-quantitative-strategy-developer-intern-a33568
-  company: Susquehanna Investment Group
-  role: Quantitative Strategy Developer Intern
-  location: Bala Cynwyd, PA
-  link: https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us
-  date_posted: '2026-07-07'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:vanshb03
-  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:speedyapply
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2506,18 +2111,26 @@
   company: Aquatic Capital
   role: Software Engineer Intern
   location: Chicago, IL
-  link: https://job-boards.greenhouse.io/embed/job_app?for=aquaticcapitalmanagement&token=8489233002
-  date_posted: '2026-05-22'
+  link: https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002
+  date_posted: '2026-04-01'
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:vanshb03
+  - github_tracker:northwesternfintech
+  - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:sndsh404
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
+  date_estimated: false
 - id: point72-investment-analyst-intern-point72-academy-67aede
   company: Point72
   role: Investment Analyst Intern, Point72 Academy
@@ -2582,13 +2195,13 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-19'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
   track: Development
   date_estimated: true
 - id: imc-trading-quantitative-research-intern-phd-450eb7
   company: IMC Trading
-  role: Quantitative Research Intern (PhD) - ...
+  role: Quantitative Research Intern (PhD) - Summer 2027
   location: Chicago, IL
   link: https://job-boards.eu.greenhouse.io/imc/jobs/4907400101
   date_posted: '2026-07-01'
@@ -2601,6 +2214,9 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - custom
+  - github_tracker:northwesternfintech
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2611,7 +2227,7 @@
   role: Quantitative Research Intern (NLP)
   location: New York, NY
   link: https://boards.greenhouse.io/point72/jobs/8018862002?gh_jid=8018862002
-  date_posted: '2025-06-14'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2620,35 +2236,16 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-24'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
-- id: point72-summer-2027-quantitative-research-int-1e1785
-  company: Point72
-  role: Summer 2027 Quantitative Research Int...
-  location: New York, NY
-  link: https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002
-  date_posted: '2024-08-15'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:zapplyjobs
-  - github_tracker:zshah101
-  date_added: '2026-07-23'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  track: Research
-  date_estimated: false
 - id: point72-quantitative-research-intern-b1a72c
   company: Point72
   role: Quantitative Research Intern
   location: New York, NY
   link: https://boards.greenhouse.io/point72/jobs/7297667002?gh_jid=7297667002
-  date_posted: '2024-08-18'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2657,20 +2254,20 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-24'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
 - id: optiver-institutional-trader-intern-2027-sta-31d32d
   company: Optiver
-  role: Institutional Trader Intern (2027 Sta...
+  role: Institutional Trader Intern (2027 Start - Chicago)
   location: Chicago, IL
   link: https://job-boards.greenhouse.io/optiverprivate/jobs/8402208002
   date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
-  status: closed
+  status: open
   sources:
   - github_tracker
   - github_tracker:suryaharikrishnan
@@ -2749,23 +2346,6 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   date_estimated: true
-- id: imc-trading-machine-learning-research-intern-summer-2027-chicago-41bc99
-  company: IMC Trading
-  role: Machine Learning Research Intern - Summer 2027 - Chicago
-  location: Chicago, IL
-  link: https://www.imc.com/us/careers/jobs/4907430101
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - custom
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
-  track: Research
-  date_estimated: true
 - id: imc-trading-machine-learning-research-intern-summer-2027-amsterdam-93cc10
   company: IMC Trading
   role: Machine Learning Research Intern - Summer 2027 - Amsterdam
@@ -2788,7 +2368,7 @@
   role: Machine Learning Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8611307002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2802,13 +2382,13 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-cybersecurity-analyst-a6e6ba
   company: Jane Street
   role: Cybersecurity Analyst
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8632723002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2820,13 +2400,13 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-data-engineer-b91e6b
   company: Jane Street
   role: Data Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8631973002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2840,13 +2420,13 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-fundamental-research-analyst-7c44d9
   company: Jane Street
   role: Fundamental Research Analyst
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8347286002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2858,13 +2438,13 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-linux-engineer-57b54f
   company: Jane Street
   role: Linux Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8626260002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2877,13 +2457,13 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-network-engineer-0425e2
   company: Jane Street
   role: Network Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8620793002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2896,13 +2476,13 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-sales-and-trading-80a5b3
   company: Jane Street
   role: Sales and Trading
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8347385002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2914,7 +2494,7 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-strategy-and-product-4ab7f9
   company: Jane Street
   role: Strategy and Product
@@ -2936,7 +2516,7 @@
   role: Trading Desk Operations Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8621450002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2949,13 +2529,13 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-windows-engineer-bf08d7
   company: Jane Street
   role: Windows Engineer
   location: New York, NY
   link: https://www.janestreet.com/join-jane-street/position/8628843002/
-  date_posted: '2026-07-24'
+  date_posted: '2026-07-23'
   term: Summer 2027
   degree:
   - BS
@@ -2968,7 +2548,7 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Development
-  date_estimated: false
+  date_estimated: true
 - id: jane-street-it-operations-engineer-b927a2
   company: Jane Street
   role: IT Operations Engineer
@@ -3088,23 +2668,6 @@
   date_added: '2026-07-24'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: transmarketgroup-devops-sre-engineer-2d6488
-  company: TransMarketGroup
-  role: DevOps/SRE Engineer
-  location: Chicago, IL
-  link: https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007
-  date_posted: '2026-06-02'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:northwesternfintech
-  date_added: '2026-07-24'
-  last_verified: '2026-08-09'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: false
 - id: ellipsis-labs-software-engineer-2027-interns-013d37
   company: Ellipsis Labs
   role: Software Engineer - 2027 Interns
@@ -3157,23 +2720,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   - github_tracker:chieler
-  date_added: '2026-07-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: jump-trading-campus-quantitative-researcher-intern-phd-c37c46
-  company: Jump Trading
-  role: Campus Quantitative Researcher Intern - PhD
-  location: Chicago, IL
-  link: https://boards.greenhouse.io/embed/job_app?token=8049938
-  date_posted: '2026-07-08'
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
+  - company:castleton-commodities-international
   date_added: '2026-07-24'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3194,59 +2741,11 @@
   date_added: '2026-07-24'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: susquehanna-international-group-sig-quantitative-trader-intern-bf294e
-  company: Susquehanna International Group (SIG)
-  role: Quantitative Trader Intern
-  location: New York, NY
-  link: https://careers-sig.icims.com/jobs/10718/job?mobile=true&needsRedirect=false
-  date_posted: '2026-06-30'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: susquehanna-international-group-sig-quantitative-trader-intern-c566b8
-  company: Susquehanna International Group (SIG)
-  role: Quantitative Trader Intern
-  location: Chicago, IL
-  link: https://careers-sig.icims.com/jobs/10849/job?mobile=true&needsRedirect=false
-  date_posted: '2026-06-30'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-8e39ca
   company: Susquehanna International Group (SIG)
   role: Quantitative Systematic Trading Intern
   location: New York, NY
   link: https://careers-sig.icims.com/jobs/10824/job?mobile=true&needsRedirect=false
-  date_posted: '2026-06-29'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: susquehanna-international-group-sig-quantitative-research-intern-37871c
-  company: Susquehanna International Group (SIG)
-  role: Quantitative Research Intern
-  location: New York, NY
-  link: https://careers-sig.icims.com/jobs/10818/job?mobile=true&needsRedirect=false
   date_posted: '2026-06-29'
   term: Summer 2027
   degree:
@@ -3306,38 +2805,8 @@
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: susquehanna-international-group-sig-quantitative-strategy-developer-intern-5fe1a0
-  company: Susquehanna International Group (SIG)
-  role: Quantitative Strategy Developer Intern
-  location: Bala Cynwyd, PA
-  link: https://careers-sig.icims.com/jobs/10838/job?mobile=true&needsRedirect=false
-  date_posted: '2026-04-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: susquehanna-international-group-sig-trading-system-engineering-intern-3ce7b9
-  company: Susquehanna International Group (SIG)
-  role: Trading System Engineering Intern
-  location: Bala Cynwyd, PA
-  link: https://careers-sig.icims.com/jobs/10837/job?mobile=true&needsRedirect=false
-  date_posted: '2026-04-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
+  - github_tracker
+  - github_tracker:northwesternfintech
   date_added: '2026-07-24'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3350,38 +2819,6 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: susquehanna-international-group-sig-quantitative-research-intern-phd-summer-2027-d69598
-  company: Susquehanna International Group (SIG)
-  role: 'Quantitative Research Intern - PhD: Summer 2027'
-  location: Bala Cynwyd, PA
-  link: https://careers-sig.icims.com/jobs/10817/job?mobile=true&needsRedirect=false
-  date_posted: '2026-04-21'
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:suryaharikrishnan
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-master-s-summer-2027-11105c
-  company: Susquehanna International Group (SIG)
-  role: 'Quantitative Systematic Trading Intern - Master''s: Summer 2027'
-  location: Bala Cynwyd, PA
-  link: https://careers-sig.icims.com/jobs/10823/job?mobile=true&needsRedirect=false
-  date_posted: '2026-04-21'
-  term: Summer 2027
-  degree:
-  - MS
   status: open
   sources:
   - github_tracker:suryaharikrishnan
@@ -3410,7 +2847,7 @@
   role: Markets Quantitative Analyst Summer Internship 2027 New York
   location: New York, NY
   link: https://barclays.wd3.myworkdayjobs.com/en-US/external_career_site_barclays/job/745-7th-Avenue-New-York/Markets-Quantitative-Analyst-Summer-Internship-2027-New-York_JR-0000083408
-  date_posted: '2025-12-02'
+  date_posted: '2026-07-24'
   term: Summer 2027
   degree:
   - BS
@@ -3421,6 +2858,7 @@
   date_added: '2026-07-24'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
+  date_estimated: true
 - id: hudson-river-trading-algorithm-development-quantitative-research-intern-51141c
   company: Hudson River Trading
   role: Algorithm Development & Quantitative Research Intern
@@ -3446,9 +2884,16 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:vanshb03
+  - github_tracker
+  - github_tracker:speedyapply
+  - github_tracker:northwesternfintech
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-07-24'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3462,9 +2907,15 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:vanshb03
+  - github_tracker
+  - github_tracker:speedyapply
+  - github_tracker:northwesternfintech
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-07-24'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3488,21 +2939,6 @@
   date_added: '2026-07-24'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: susquehanna-international-group-sig-quantitative-research-intern-ee2bfa
-  company: Susquehanna International Group (SIG)
-  role: Quantitative Research Intern
-  location: Bala Cynwyd, PA
-  link: https://careers-sig.icims.com/jobs/10819/job?mobile=true&needsRedirect=false
-  date_posted: '2026-04-21'
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-07-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: prudential-financial-private-credit-investment-analyst-program-0f2464
   company: Prudential Financial
   role: Private Credit – Investment Analyst Program
@@ -3521,45 +2957,11 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: false
-- id: pgim-private-credit-investment-analyst-program-673a87
-  company: PGIM
-  role: Private Credit – Investment Analyst Program
-  location: San Francisco, CA
-  link: https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Private-Credit--Summer-Investment-Analyst-Program_R-124649
-  date_posted: '2026-07-24'
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-07-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-  date_estimated: false
 - id: pgim-real-estate-equity-investment-analyst-program-e2255d
   company: PGIM
   role: Real Estate Equity Investment Analyst Program
   location: San Francisco, CA
   link: https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Real-Estate--Equity-Summer-Investment-Analyst-Program_R-124634
-  date_posted: '2026-07-19'
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-07-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: prudential-financial-real-estate-equity-investment-analyst-program-f1c84e
-  company: Prudential Financial
-  role: Real Estate Equity Investment Analyst Program
-  location: San Francisco, CA
-  link: https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Real-Estate--Equity-Summer-Investment-Analyst-Program_R-124634-2
   date_posted: '2026-07-19'
   term: Summer 2027
   degree:
@@ -3653,7 +3055,7 @@
   sources:
   - github_tracker:northwesternfintech
   date_added: '2026-08-08'
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: voloridge-quantitative-researcher-intern-c7030e
   company: Voloridge
@@ -3668,40 +3070,6 @@
   status: open
   sources:
   - github_tracker:northwesternfintech
-  date_added: '2026-08-08'
-  last_verified: '2026-08-31'
-  possible_duplicate_of: null
-- id: susquehanna-international-group-sig-quantitative-systematic-trading-intern-phd-85e7be
-  company: Susquehanna International Group (SIG)
-  role: Quantitative Systematic Trading Intern - PhD
-  location: New York, NY
-  link: https://careers-sig.icims.com/jobs/10822/job?mobile=true&needsRedirect=false
-  date_posted: '2026-06-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: susquehanna-international-group-sig-quantitative-research-intern-decb9c
-  company: Susquehanna International Group (SIG)
-  role: Quantitative Research Intern
-  location: New York, NY
-  link: https://careers-sig.icims.com/jobs/10820/job?mobile=true&needsRedirect=false
-  date_posted: '2026-06-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
   date_added: '2026-08-08'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3819,7 +3187,6 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:vanshb03
   - github_tracker:chieler
-  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3954,22 +3321,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: susquehanna-international-group-quantitative-strategy-developer-internship-summer-2027-fe465d
-  company: Susquehanna International Group
-  role: 'Quantitative Strategy Developer Internship: Summer 2027'
-  location: Bala Cynwyd, PA
-  link: https://careers-sig.icims.com/jobs/10838/quantitative-strategy-developer-internship%3a-summer-2027/job
-  date_posted: '2026-04-23'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-08-08'
-  last_verified: '2026-08-21'
-  possible_duplicate_of: null
 - id: drw-quantitative-trading-analyst-intern-64db71
   company: DRW
   role: Quantitative Trading Analyst Intern
@@ -4020,7 +3371,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-25'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
 - id: transmarket-group-algorithmic-trader-intern-4d42a2
   company: TransMarket Group
@@ -4054,35 +3405,15 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-20'
+  last_verified: '2026-08-15'
   possible_duplicate_of: null
-- id: two-sigma-quantitative-researcher-intern-caffe0
-  company: Two Sigma
-  role: Quantitative Researcher Intern
-  location: New York, NY
-  link: https://twosigma.avature.net/careers/JobDetail/13945
-  date_posted: '2026-08-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-09'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: two-sigma-quantitative-researcher-intern-aecb8b
 - id: infinitequant-quantitative-researcher-internship-summer-2027-57d0b8
   company: InfiniteQuant
   role: Quantitative Researcher - Internship - Summer 2027
   location: New York, NY
   link: https://jobs.smartrecruiters.com/InfiniteQuant/744000142560129-quantitative-researcher-internship-summer-2027
-  date_posted: '2026-08-10'
-  date_estimated: false
+  date_posted: '2026-08-09'
+  date_estimated: true
   term: Summer 2027
   degree:
   - MS
@@ -4132,22 +3463,6 @@
   date_added: '2026-08-10'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: cubist-systematic-strategies-quantitative-developer-intern-b81ec6
-  company: Cubist Systematic Strategies
-  role: Quantitative Developer Intern
-  location: New York, NY
-  link: https://job-boards.greenhouse.io/embed/job_app?for=point72&jr_id=6a07069024dcb03739f1ec72&token=7297613002
-  date_posted: '2026-05-23'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-08-11'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: cubist-systematic-strategies-quantitative-developer-intern-f53f1c
 - id: quantbot-technologies-quantitative-developer-intern-91fba2
   company: Quantbot Technologies
   role: Quantitative Developer Intern
@@ -4257,6 +3572,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
@@ -4274,8 +3590,8 @@
   status: closed
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4293,7 +3609,6 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4311,59 +3626,11 @@
   status: closed
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
-  company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
-  location: CHARLOTTE, NC
-  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--Masters----Early-Careers_R-568270
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-15'
-  last_verified: '2026-08-25'
-  possible_duplicate_of: null
-- id: wells-fargo-2027-quantitative-analytics-summer-in-959624
-  company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
-  location: CHARLOTTE, NC
-  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--PhD----Early-Careers_R-568279
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-15'
-  last_verified: '2026-08-20'
-  possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
-- id: wells-fargo-2027-quantitative-analytics-summer-in-f6f112
-  company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
-  location: CHARLOTTE, NC
-  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--Masters----Early-Careers_R-568259
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-15'
-  last_verified: '2026-08-27'
-  possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-c9a4b5
 - id: infinitequant-quantitative-developer-internship-summer-2027-606c92
   company: InfiniteQuant
   role: Quantitative Developer - Internship - Summer 2027
@@ -4397,6 +3664,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
@@ -4414,6 +3682,7 @@
   status: closed
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
   possible_duplicate_of: wells-fargo-quantitative-analytics-intern-multiple-teams-b8e266
@@ -4433,6 +3702,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   - github_tracker:chieler
+  - company:keybank
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4450,46 +3720,95 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
   date_added: '2026-08-15'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: pgim-public-credit-summer-investment-analyst-intern-portfolio-analysis-group-aabb0d
-  company: PGIM
-  role: Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group
-  location: Newark, NJ
-  link: https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Public-Credit--Summer-Investment-Analyst-Program--Portfolio-Analysis-Group-_R-124835
-  date_posted: '2026-08-14'
+- id: freddie-mac-risk-management-graduate-intern-quantitative-summer-2027-90cc5a
+  company: Freddie Mac
+  role: Risk Management Graduate Intern – Quantitative Summer 2027
+  location: McLean, VA
+  link: https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Risk-Management-Graduate-Intern---Quantitative-Summer-2027_JR17553
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - company:freddie-mac
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: infinitequant-quantitative-developer-internship-summer-2027-2cb3cb
+  company: InfiniteQuant
+  role: Quantitative Developer - Internship - Summer 2027
+  location: New York, NY
+  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134-quantitative-developer-internship-summer-2027
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:infinitequant
+  - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: infinitequant-quantitative-researcher-internship-summer-2027-88f68b
+  company: InfiniteQuant
+  role: Quantitative Researcher - Internship - Summer 2027
+  location: New York, NY
+  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000145264634-quantitative-researcher-internship-summer-2027
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - company:infinitequant
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: infinitequant-quantitative-researcher-internship-summer-2027-57d0b8
+- id: readystate-asset-management-investment-intern-summer-2027-2028-558477
+  company: Readystate Asset Management
+  role: Investment Intern (Summer 2027 & 2028)
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/readystate/jobs/4171077008
+  date_posted: '2026-09-02'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - company:readystate-asset-management
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: optiver-trading-automation-and-operations-intern-a9d0e3
+  company: Optiver
+  role: Trading Automation and Operations Intern
+  location: Chicago, IL
+  link: https://www.optiver.com/join-us/jobs/8489582002/?gh_jid=8489582002
+  date_posted: '2026-07-16'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
   - MS
+  - PhD
   status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-15'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: prudential-financial-public-credit-summer-investment-analyst-intern-portfolio-analysis-group-09c2e5
-  company: Prudential Financial
-  role: Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group
-  location: Newark, NJ
-  link: https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Public-Credit--Summer-Investment-Analyst-Program--Portfolio-Analysis-Group-_R-124835-2
-  date_posted: '2026-08-14'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-15'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: dv-trading-trading-intern-summer-2027-dv-commodities-b2a2ba
@@ -4505,27 +3824,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-18'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: readystate-asset-management-investment-intern-summer-2027-2028-558477
-  company: Readystate Asset Management
-  role: Investment Intern - Summer 2027 & 2028
-  location: Chicago, IL
-  link: https://job-boards.greenhouse.io/readystate/jobs/4171077008
-  date_posted: '2026-08-13'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-18'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: wells-fargo-quantitative-analytics-intern-multiple-teams-bb7d21
@@ -4541,133 +3841,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  date_added: '2026-08-18'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: wells-fargo-quantitative-analytics-intern-multiple-teams-0a06ab
-- id: wells-fargo-2027-quantitative-analytics-summer-in-52fefb
-  company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
-  location: CHARLOTTE, NC
-  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-Masters----Early-Careers_R-569402
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-18'
-  last_verified: '2026-08-27'
-  possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-f6f112
-- id: point72-quantitative-developer-intern-678962
-  company: Point72
-  role: Quantitative Developer Intern
-  location: New York, NY
-  link: https://boards.greenhouse.io/point72/jobs/8721562002?gh_jid=8721562002
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  - github_tracker:speedyapply
-  date_added: '2026-08-18'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: point72-quantitative-developer-intern-251025
-- id: xantium-quantitative-developer-intern-a092e7
-  company: Xantium
-  role: Quantitative Developer Intern
-  location: London, NY
-  link: https://job-boards.greenhouse.io/xantium/jobs/4360768009
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-18'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: xantium-quantitative-researcher-internship-dbf816
-  company: Xantium
-  role: Quantitative Researcher Internship
-  location: London, NY
-  link: https://job-boards.greenhouse.io/xantium/jobs/4371217009
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-18'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: infinitequant-quantitative-developer-internship-summer-2027-015b79
-  company: InfiniteQuant
-  role: Quantitative Developer - Internship - Summer 2027
-  location: Remote (US)
-  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000144281579
-  date_posted: '2026-08-19'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:zshah101
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-19'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: infinitequant-quantitative-developer-internship-summer-2027-606c92
-- id: wells-fargo-2027-quantitative-analytics-summer-in-20d06e
-  company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
-  location: CHARLOTTE, NC
-  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-PhD----Early-Careers_R-569912
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-20'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: wells-fargo-quantitative-analytics-intern-risk-analytics-and-decision-sciences-216372
-  company: Wells Fargo
-  role: Quantitative Analytics Intern - Risk Analytics and Decision Sciences
-  location: Charlotte, NC
-  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-PhD----Early-Careers_R-569912
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-20'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: pimco-trading-analyst-intern-668d66
   company: PIMCO
   role: Trading Analyst Intern
@@ -4681,80 +3857,10 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-21'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: millennium-quantitative-developer-intern-1e3c52
-  company: Millennium
-  role: Quantitative Developer Intern
-  location: New York, NY
-  link: https://career.mlp.com/careers/job/755957819661
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  - github_tracker:chieler
-  date_added: '2026-08-21'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: infinitequant-quantitative-developer-internship-summer-2027-40dfd2
-  company: InfiniteQuant
-  role: Quantitative Developer - Internship - Summer 2027
-  location: Remote (US)
-  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000145205764
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:zshah101
-  date_added: '2026-08-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: infinitequant-quantitative-developer-internship-summer-2027-015b79
-- id: freddie-mac-quantitative-risk-management-intern-90cc5a
-  company: Freddie Mac
-  role: Quantitative Risk Management Intern
-  location: McLean, VA
-  link: https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Risk-Management-Graduate-Intern---Quantitative-Summer-2027_JR17553
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:zapplyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: infinitequant-quantitative-developer-internship-summer-2027-2cb3cb
-  company: InfiniteQuant
-  role: Quantitative Developer - Internship - Summer 2027
-  location: Remote (US)
-  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  - github_tracker:simplifyjobs
-  date_added: '2026-08-24'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: infinitequant-quantitative-developer-internship-summer-2027-40dfd2
 - id: bny-trading-intern-trading-645be8
   company: BNY
   role: Trading Intern - Trading
@@ -4769,67 +3875,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: freddie-mac-capital-markets-intern-summer-2027-2d617a
-  company: Freddie Mac
-  role: Capital Markets Intern - Summer 2027
-  location: McLean, VA
-  link: https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Capital-Markets-Intern---Summer-2027_JR17560
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: optiver-trading-automation-and-operations-intern-d2bbaa
-  company: Optiver
-  role: Trading Automation and Operations Intern
-  location: Chicago, IL
-  link: https://www.optiver.com/join-us/jobs/8489582002/?gh_jid=8489582002
-  date_posted: '2026-07-16'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-25'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: dv-trading-futures-options-trading-analyst-intern-summer-2027-7b1c45
-  company: DV Trading
-  role: Futures & Options Trading Analyst Intern - Summer 2027
-  location: New York, NY
-  link: https://job-boards.greenhouse.io/dvtrading/jobs/4722749005
-  date_posted: '2026-08-26'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-26'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: fannie-mae-treasury-capital-markets-intern-quantitative-research-track-e89b8e
@@ -4845,96 +3891,27 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-26'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: goldman-sachs-summer-associate-intern-c7829e
-  company: Goldman Sachs
-  role: Summer Associate Intern
-  location: New York, NY
-  link: https://higher.gs.com/roles/171552?type=students
-  date_posted: '2026-08-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-08-27'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: goldman-sachs-associate-intern-the-core-quantitative-strats-722850
-  company: Goldman Sachs
-  role: Associate Intern - The Core Quantitative Strats
-  location: Dallas, TX
-  link: https://higher.gs.com/roles/171546?type=students
-  date_posted: '2026-08-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-27'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: wells-fargo-2027-quantitative-analytics-summer-in-6ece98
-  company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
-  location: CHARLOTTE, NC
-  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-PhD----Early-Careers_R-571703
-  date_posted: '2026-08-27'
+- id: whitewater-midstream-trading-operations-intern-summer-2027-fc0f8d
+  company: WhiteWater Midstream
+  role: Trading Operations Intern - Summer 2027
+  location: Austin, TX
+  link: https://job-boards.greenhouse.io/whitewatermidstream/jobs/5221723007
+  date_posted: '2026-08-26'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
   status: open
   sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-27'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: wells-fargo-2027-quantitative-analytics-summer-in-e6beff
-  company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
-  location: CHARLOTTE, NC
-  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-Masters----Early-Careers_R-571698
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-08-27'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: wells-fargo-quantitative-analytics-intern-applied-computational-intelligence-fb7c50
-  company: Wells Fargo
-  role: Quantitative Analytics Intern - Applied Computational Intelligence
-  location: Charlotte, NC
-  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-PhD----Early-Careers_R-571703
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-08-28'
+  - company:whitewater-midstream
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: td-bank-quantitative-associate-quantitative-rotation-program-d92569
@@ -4952,14 +3929,14 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: merchants-bank-of-indiana-capital-markets-intern-single-family-55383b
-  company: Merchants Bank of Indiana
-  role: Capital Markets Intern - Single-Family
-  location: Carmel, IN
-  link: https://recruiting.paylocity.com/Recruiting/Jobs/Details/4464116
+- id: bp-finance-risk-intern-supply-trading-shipping-fa3851
+  company: BP
+  role: Finance & Risk Intern - Supply, Trading, & Shipping
+  location: Chicago, IL
+  link: https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Illinois---Chicago/Summer-Internship---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ115370-1
   date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
@@ -4969,16 +3946,15 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: first-national-bank-capital-markets-intern-158312
-  company: First National Bank
-  role: Capital Markets Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Capital-Markets-Intern_2026-02010
-  date_posted: '2026-09-01'
+- id: bp-finance-risk-intern-supply-trading-shipping-bae7c9
+  company: BP
+  role: Finance & Risk Intern - Supply, Trading, & Shipping
+  location: Houston, TX
+  link: https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Texas---Houston/Summer-Internship---Supply--Trading----Shipping-Finance---Risk---Houston--TX_RQ115372
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -4986,8 +3962,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  date_added: '2026-09-01'
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: pimco-quant-research-analyst-intern-client-solutions-analytics-e701d5
@@ -5003,11 +3979,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
-  - github_tracker:zshah101
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: pimco-quantitative-portfolio-management-intern-6a1568
@@ -5023,9 +3997,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: pimco-quant-research-analyst-intern-client-solutions-analytics-58d8b9
@@ -5042,9 +4015,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
-  possible_duplicate_of: null
+  possible_duplicate_of: pimco-quant-research-analyst-intern-client-solutions-analytics-e701d5
 - id: pimco-quantitative-research-analyst-intern-portfolio-management-ecbf5f
   company: PIMCO
   role: Quantitative Research Analyst Intern - Portfolio Management
@@ -5058,9 +4031,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
-  - github_tracker:chieler
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-01'
+  date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: oppenheimer-co-inc-equities-sales-trading-intern-business-segments-and-corporate-infrastructure-5fc720
@@ -5073,6 +4045,174 @@
   term: Summer 2027
   degree:
   - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: point72-quantitative-developer-intern-6cb397
+  company: Point72
+  role: Quantitative Developer Intern
+  location: New York City, NY
+  link: https://boards.greenhouse.io/point72/jobs/8721562002?gh_jid=8721562002
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: millennium-quantitative-developer-intern-1e3c52
+  company: Millennium
+  role: Quantitative Developer Intern
+  location: New York, NY
+  link: https://career.mlp.com/careers/job/755957819661
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:vanshb03
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: wells-fargo-2027-quantitative-analytics-summer-in-6ece98
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: Charlotte, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-PhD----Early-Careers_R-571703
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: wells-fargo-2027-quantitative-analytics-summer-in-e6beff
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: Charlotte, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-Masters----Early-Careers_R-571698
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-6ece98
+- id: wells-fargo-2027-quantitative-analytics-summer-in-20d06e
+  company: Wells Fargo
+  role: 2027 Quantitative Analytics Summer In...
+  location: Charlotte, NC
+  link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-PhD----Early-Careers_R-569912
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-6ece98
+- id: xantium-quantitative-developer-intern-a092e7
+  company: Xantium
+  role: Quantitative Developer Intern
+  location: New York, NY
+  link: https://job-boards.greenhouse.io/xantium/jobs/4360768009
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  - company:xantium
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: xantium-quantitative-researcher-intern-dbf816
+  company: Xantium
+  role: Quantitative Researcher Intern
+  location: New York, NY
+  link: https://job-boards.greenhouse.io/xantium/jobs/4371217009
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  - company:xantium
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: conocophillips-trading-analytics-intern-990235
+  company: ConocoPhillips
+  role: Trading Analytics Intern
+  location: Houston, TX
+  link: https://conocophillips.wd1.myworkdayjobs.com/External/job/Houston-TX/Intern--Trading-Analytics-2027_REQ-006429
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-12'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: wells-fargo-quantitative-analytics-intern-risk-analytics-and-decision-sciences-216372
+  company: Wells Fargo
+  role: Quantitative Analytics Intern - Risk Analytics and Decision Sciences
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-PhD----Early-Careers_R-569912
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: wells-fargo-quantitative-analytics-intern-applied-computational-intelligence-fb7c50
+  company: Wells Fargo
+  role: Quantitative Analytics Intern - Applied Computational Intelligence
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-PhD----Early-Careers_R-571703
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
   status: open
   sources:
   - github_tracker:simplifyjobs

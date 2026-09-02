@@ -3,6 +3,7 @@
 Pure and network-free, so it lives on the tested side of the boundary
 docs/SCRAPING.md draws. scripts/fetch_trackers.py does the fetching and
 calls in here. Four format families cover all nine trackers."""
+import html as _html
 import json
 import re
 import yaml
@@ -79,8 +80,8 @@ def parse_cvrve_json(text, term_field, term_value, term_out=None):
             continue
         locations = e.get("locations") or []
         posting = {
-            "company": e.get("company_name"),
-            "role": e.get("title"),
+            "company": _clean_text(e.get("company_name")),
+            "role": _clean_text(e.get("title")),
             "location": _resolve_us_location(locations[0]) if locations else None,
             "link": e.get("url"),
             "term": term_out,
@@ -112,8 +113,8 @@ def parse_zshah_json(text, season):
         if e.get("season") != season:
             continue
         posting = {
-            "company": e.get("company"),
-            "role": e.get("title"),
+            "company": _clean_text(e.get("company")),
+            "role": _clean_text(e.get("title")),
             "location": _resolve_us_location(e.get("location")),
             "link": e.get("url"),
             "term": season,
@@ -241,6 +242,17 @@ _DASH_VALUES = {"-", "--", "---", "—"}
 _HREF = re.compile(r'href="([^"]+)"')
 _MD_LINK = re.compile(r"\[[^\]]*\]\((<?)([^)>\s]+)")
 _TAG = re.compile(r"<[^>]+>")
+_ZERO_WIDTH = re.compile(r"[\u200b-\u200d\u2060\ufeff]")
+
+
+def _clean_text(value):
+    """Tag-stripped, entity-decoded text with zero-width characters removed
+    and whitespace collapsed. Trackers copy titles straight out of ATS HTML,
+    so "&amp;" and U+200B reach us verbatim (14 and 3 live rows, 2026-09-01)."""
+    if value is None:
+        return None
+    text = _ZERO_WIDTH.sub("", _html.unescape(_TAG.sub("", str(value))))
+    return re.sub(r"\s+", " ", text).strip()
 _SEASON = r"(?:summer|fall|winter|spring)"
 _OFF_CYCLE = re.compile(rf"\b{_SEASON}\s*20\d\d\b", re.I)
 _YEAR = re.compile(r"\b20\d\d\b")
@@ -250,6 +262,10 @@ _BARE_NON_SUMMER = re.compile(r"\b(?:fall|winter|spring)\b", re.I)
 _SEASON_YEAR_NEAR = re.compile(
     rf"\b{_SEASON}\b.{{0,20}}?\b20\d\d\b|\b20\d\d\b.{{0,20}}?\b{_SEASON}\b", re.I)
 _YEAR_START = re.compile(r"\b(20\d\d)\s+start\b", re.I)
+# "Summer & Fall 2027", "Spring/Summer 2027", "Spring - Summer": one term
+# spanning several seasons, sharing one (optional) trailing year.
+_SEASON_LIST = re.compile(
+    rf"\b{_SEASON}\b(?:\s*(?:[&/+,-]|and|to|through|thru)\s*\b{_SEASON}\b)+\s*(20\d\d)?", re.I)
 
 
 def _is_off_cycle(role):
@@ -264,6 +280,9 @@ def _is_off_cycle(role):
         Engineer - 2026", "apps reviewed from Aug 2026") -- roles routinely
         carry a year for reasons unrelated to the cycle
     """
+    seasons = _SEASON_LIST.search(role)
+    if seasons and "summer" in seasons.group(0).lower() and seasons.group(1) in (None, "2027"):
+        return False        # "Summer & Fall 2027" co-op, "Spring & Summer Intern"
     adjacent = [m.group(0).lower().replace(" ", "") for m in _OFF_CYCLE.finditer(role)]
     if "summer2027" in adjacent:
         # Names the cycle we track, possibly alongside others
@@ -388,12 +407,12 @@ def parse_pipe_table(text, reference_date):
             link = _extract_link(cells[header["link"]])
             if not link:
                 continue
-            company = _TAG.sub("", cells[header["company"]]).strip().strip("*")
+            company = _clean_text(cells[header["company"]]).strip("*")
             if company in ("↳", "|↳", ""):
                 company = last_company
             else:
                 last_company = company
-            role = _TAG.sub("", cells[header["role"]]).strip()
+            role = _clean_text(cells[header["role"]])
             closed = "🔒" in role
             role = role.replace("🔒", "").replace("🛂", "").replace("🇺🇸", "")
             role = role.replace("🔥", "").replace("🎓", "").strip()

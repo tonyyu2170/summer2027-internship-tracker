@@ -11,6 +11,7 @@ the 2026-08-09 full-repo verification pass:
   SSR); a missing title there is AMBIGUOUS, never evidence of death.
 - Only hard HTTP 404/410 counts as dead. 403/406/timeouts are bot-blocking.
 """
+import html as _html
 import re
 from urllib.parse import urlsplit
 
@@ -63,7 +64,7 @@ def page_title(html: str) -> str:
     m = _TITLE.search(html)
     if not m:
         return ""
-    return re.sub(r"\s+", " ", m.group(1).split("|")[0]).strip()
+    return re.sub(r"\s+", " ", _html.unescape(m.group(1)).split("|")[0]).strip()
 
 
 def clean_role(title: str) -> str:

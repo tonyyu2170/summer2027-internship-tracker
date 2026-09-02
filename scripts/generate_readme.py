@@ -186,7 +186,9 @@ def render(data_dir=None, readme_path=None, last_run=None) -> Path:
         "## Contents",
         "",
     ]
-    out += [f"- [{title}](#{_anchor(title)})" for _, title, _ in CATEGORIES]
+    out += [f"- [{title}](#{_anchor(title)}) "
+            f"({sum(1 for r in rows_by_category[stem] if r.get('status') != 'closed')} open)"
+            for stem, title, _ in CATEGORIES]
     out += [f"- [{title}](#{_anchor(title)})" for _, title in OPPORTUNITY_KINDS]
     out += [
         "",

@@ -89,8 +89,12 @@ same rules the tracker path uses. A `DROP` verdict drops the posting
 (`category_drop`); a confident verdict files it under *that* category, so one
 source can write several reports (`company_acme_data_science.json` alongside
 `company_acme_swe.json`) and a source clears its report in every category
-before a run; only an unclassifiable role falls back to the watch-list
-category. Measured on the first full Workday pass this cut 145 hits to ~65.
+before a run. A role no rule (or `sources/manual_categories.yaml` entry)
+places is dropped and counted as `unclassified_role` — never filed under the
+watch-list category. That fallback put 292 Sales / Tax / Audit / Claims /
+EHS interns into swe, ai_ml and actuarial on 2026-09-02; the per-company
+counter in `scrape_state.yaml` is where to look for a family that deserves a
+rule. Measured on the first full Workday pass this cut 145 hits to ~65.
 Residual imprecision is categorize.py's, not the board path's — `internship
 program` is a DROP alternative, so "Technology Internship Program" drops,
 while a bare `engineer` match sends civil/mechanical interns to swe.
@@ -125,6 +129,34 @@ the whole board is paged at 100/request. Unlike Workday, list rows carry a
 structured location, so the intern-title pre-filter also checks
 `location.country == "us"`, which is what keeps the detail leg cheap: 307
 intern-titled hits across the nine boards reduce to 54 detail fetches.
+
+**Workable** (wired 2026-09-02) is the SmartRecruiters shape again: the v3
+list (`POST apply.workable.com/api/v3/accounts/{slug}/jobs`, `token` paging)
+carries a structured location but no description, so intern-titled rows with
+a US `countryCode` are pre-filtered there and the v2 job detail is pulled for
+the Summer-2027 evidence. Watch-list shape: `{ats: workable, url:
+'https://apply.workable.com/{slug}'}`; a bare `apply.workable.com` URL is
+unwired. 143 postings in the Simplify export sat on Workable boards.
+
+**Growing the watch-list** (added 2026-09-01): `scripts/probe_boards.py` is
+the network shim for `sources/companies.yaml` itself. `discover` fetches every
+`custom` / `verified: false` entry's careers page and sniffs the real board
+behind it (embed script, iframe, "see openings" link, or a redirect to
+Workday/SmartRecruiters); `mine` turns the cvrve tracker exports (this cycle's
+and last cycle's lists — last summer's postings name the boards that will carry
+next summer's) plus `data/*.yaml` links into candidate boards not yet on the
+list, US-located and categorised by `map_upstream_category`; `candidates
+FILE.json` probes any `{company, category, url}` list the same way. Every
+board is confirmed against its public API before it is written (greenhouse
+`boards-api`, lever `api.lever.co`, ashby `posting-api`, Workday CXS search,
+SmartRecruiters `postings`), a hyphenated Workday vanity host is retried as
+the underscored tenant and pinned, and `apply RESULTS.json` rewrites the
+watch-list line-by-line (a discovery replaces its own line, a candidate
+appends to its category), deduping on board identity — tenant/site or token —
+so RTX and Raytheon can't both wire the same board. Outcomes go to
+`scratch/probe_<command>.json`; `verify` re-probes every wired board and is
+how a dead board gets found. First pass (2026-09-01): 107 of 537 custom
+entries fronted a scrapeable board.
 
 **iCIMS is deliberately unwired.** Probed 2026-08-09: `careers-{slug}.icims.com`
 serves an Angular-rendered `iCIMS_JobsTable` page, the `searchRss=1` parameter
@@ -385,10 +417,11 @@ way, which is invisible if you only read the top of a section.
    re-import the old posting as a second row.
 4. `python3 scripts/check_integrity.py`, then commit.
 
-Covers SmartRecruiters, Greenhouse and Lever only. **Workday is excluded on
-purpose**: `normalize_link` collapses neither its `-N` requisition instance
-suffixes nor its board aliases, so every such row would fail an exact link
-comparison and fake a repost. For the same reason `repost_verify._link_key`
+Covers SmartRecruiters, Greenhouse and Lever only. **Workday is excluded**:
+it was excluded because `normalize_link` collapsed neither its `-N`
+requisition instance suffixes nor its site aliases; since 2026-09-02 it
+collapses both (one key per tenant + requisition id), so wiring Workday here
+is now possible but not done. `repost_verify._link_key`
 folds Greenhouse's two hostnames (`boards.` / `job-boards.greenhouse.io`) and
 its `gh_jid` param for comparison only — a live run called Neuralink job
 `6594422003` a repost of itself before that was added. Nothing here ever

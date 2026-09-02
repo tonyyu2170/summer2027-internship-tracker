@@ -85,7 +85,7 @@ def _workday_body(**info):
 def test_extract_404_means_closed_for_posting_scoped_families():
     ext = extract("workday", 404, None, today=TODAY)
     assert ext == {"locations": [], "country": None, "date_posted": None,
-                   "closed": True}
+                   "closed": True, "title": None}
 
 
 def test_extract_ambiguous_status_is_none():
@@ -433,3 +433,48 @@ def test_decide_never_proposes_a_location_change(locations, stored):
     actions = decide(_row(location=stored), _ext(locations=locations))
     assert all(a["action"] not in ("set_location", "location_unresolved")
                for a in actions)
+
+
+def test_decide_ignores_api_date_after_date_added():
+    # 2026-09-01 audit: Workday's "Posted N Days Ago" follows the latest
+    # re-post, so an API date after the row was first seen is not a posting
+    # date and must not become a set_date.
+    ext = _ext(locations=["New York, NY"], date_posted="2026-07-20")
+    assert decide(_row(date_added="2026-07-05"), ext) == [{"action": "confirm"}]
+    assert decide(_row(date_added="2026-07-20"), ext)[0]["action"] == "set_date"
+
+
+# --- 2026-09-02 audit: restore titles a tracker truncated ---------------------
+
+def test_extract_carries_the_posting_title():
+    gh = json.dumps({"id": 1, "title": "Software Engineering Intern - Summer 2027",
+                     "location": {"name": "Austin, TX"}, "first_published": "2026-08-01T00:00:00Z"})
+    assert extract("greenhouse", 200, gh)["title"] == "Software Engineering Intern - Summer 2027"
+    wd = json.dumps({"jobPostingInfo": {"title": "Intern - AI Systems", "location": "Boise, ID",
+                                        "postedOn": "Posted Today"}})
+    assert extract("workday", 200, wd, today=date(2026, 9, 2))["title"] == "Intern - AI Systems"
+    lv = json.dumps({"id": "x", "text": "Data Intern", "categories": {"location": "NYC"}})
+    assert extract("lever", 200, lv)["title"] == "Data Intern"
+    sr = json.dumps({"id": "1", "name": "Calibration Intern", "location": {"city": "Plymouth", "region": "MI", "country": "us"}})
+    assert extract("smartrecruiters", 200, sr)["title"] == "Calibration Intern"
+    assert extract("greenhouse", 404, "")["title"] is None
+
+
+def test_extract_ashby_carries_the_matched_jobs_title():
+    link = "https://jobs.ashbyhq.com/acme/0d5b9e8b-2a2d-4f6b-9c1e-7f3a1b2c3d4e"
+    body = json.dumps({"jobs": [{"id": "0d5b9e8b-2a2d-4f6b-9c1e-7f3a1b2c3d4e", "title": "Supply Chain Data & Analytics Intern (2027 Summer Internship)",
+                                 "location": "Los Angeles, CA", "isListed": True}]})
+    assert extract("ashby", 200, body, link=link)["title"].startswith("Supply Chain Data")
+
+
+def test_decide_restores_a_truncated_title_from_the_api():
+    row = _row(role="Supply Chain Data & Analytics Inte...")
+    ext = _ext(title="Supply Chain Data & Analytics Intern (2027 Summer Internship)")
+    assert {"action": "set_role", "old": row["role"],
+            "new": "Supply Chain Data & Analytics Intern (2027 Summer Internship)"} in decide(row, ext)
+
+
+def test_decide_leaves_a_full_or_unrelated_title_alone():
+    assert decide(_row(role="SWE Intern"), _ext(title="SWE Intern - Summer 2027")) == [{"action": "confirm"}]
+    assert decide(_row(role="SWE Inte..."), _ext(title="Data Intern")) == [{"action": "confirm"}]
+    assert decide(_row(role="SWE Inte..."), _ext()) == [{"action": "confirm"}]

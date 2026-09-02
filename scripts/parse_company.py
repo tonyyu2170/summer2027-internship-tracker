@@ -4,6 +4,7 @@ import re
 from collections import Counter
 
 from normalize import canonicalize_location
+from parse_tracker import _clean_text
 
 _JSON_LD = re.compile(
     r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
@@ -106,7 +107,9 @@ def _degree_from(text: str) -> list:
 def _board_posting(source, role, location, link, text, date_posted=None):
     posting = {
         "company": source["company"],
-        "role": role,
+        # Boards ship titles with doubled spaces, trailing blanks and
+        # U+202F (Michelin, Fed, Medtronic — 30 rows on 2026-09-02).
+        "role": _clean_text(role),
         "location": location,
         "link": link,
         "term": "Summer 2027",
@@ -267,6 +270,42 @@ _WD_SITE_CODE = re.compile(r"^US-([A-Z]{2})-(.+?)(?:\s*~.*)?$")
 _WD_COUNTRY_STATE_CITY = re.compile(r"^United States-([^-]+)-(.+)$")
 _WD_TRAILING_COUNTRY = re.compile(r",\s*United States(?: of America)?$", re.IGNORECASE)
 _WD_TRAILING_SITE = re.compile(r"\s*\([^()]*\)$")
+
+
+def parse_workable_jobs(payload: dict, source: dict) -> tuple[list[dict], Counter]:
+    """Parse Workable job details (v2 `jobs/{shortcode}`) into fetch-report
+    postings. The fetch layer pre-filters the v3 list by intern title and US
+    country code, attaches each job's apply `link`, and pulls the detail,
+    which is where the description (and so the Summer-2027 evidence) lives."""
+    jobs = payload.get("jobs")
+    if not isinstance(jobs, list):
+        raise ValueError("Workable response is missing jobs")
+    postings, drops = [], Counter()
+    for job in jobs:
+        if not isinstance(job, dict):
+            drops["malformed_posting"] += 1
+            continue
+        role = job.get("title")
+        body = _text((job.get("description") or "") + " " + (job.get("requirements") or ""))
+        location = _filter_board_job(source, role, _workable_place(job), job.get("link"), body, drops)
+        if not location:
+            continue
+        postings.append(_board_posting(source, role, location, job["link"], body, job.get("published")))
+    return postings, drops
+
+
+def _workable_place(job: dict) -> str:
+    """'City, Region' for the first US location, 'Remote' for a US remote
+    role, else '' (which canonicalize_location rejects)."""
+    places = [job.get("location") or {}] + [l for l in job.get("locations") or [] if isinstance(l, dict)]
+    for place in places:
+        if place.get("countryCode") != "US":
+            continue
+        if place.get("city") and place.get("region"):
+            return f"{place['city']}, {place['region']}"
+        if job.get("remote") or job.get("workplace") == "remote":
+            return "Remote"
+    return ""
 
 
 def _workday_place(raw: str, us: bool) -> str | None:
