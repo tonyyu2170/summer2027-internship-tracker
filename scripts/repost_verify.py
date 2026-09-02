@@ -92,21 +92,22 @@ def parse_listing(ats: str, body: str) -> list:
     raise ValueError(f"unsupported ats {ats!r}")
 
 
+_GH_JOB_ID = re.compile(r"(?:greenhouse\.io/[^?#]*/jobs/|[?&]gh_jid=)(\d+)", re.I)
+
+
 def _link_key(link):
     """Identity of a posting for comparison only — never written back.
 
-    `normalize_link` is the repo-wide canonical form and stays authoritative
-    for stored links; it just doesn't collapse Greenhouse's two hostnames
-    (`boards.` vs `job-boards.greenhouse.io`) or its `gh_jid` param, so the
-    same job read from a board listing and from a tracker looks like two
-    postings. Widening normalize_link itself would rewrite ids across all of
-    data/ (the deferred board-alias work), so the fix lives here."""
+    A Greenhouse job is its numeric id wherever it is served: the board URL
+    (`job-boards.greenhouse.io/<board>/jobs/<id>`) and a company site that
+    embeds the board (`?gh_jid=<id>`) are one posting — Tower Research's
+    listing carries the latter as absolute_url while trackers hold the
+    former, and a live run called that a repost of itself. `normalize_link`
+    deliberately keeps the two apart (a company page can list many reqs), so
+    the fold lives here, where only same-board rows are compared."""
     key = normalize_link(link or "")
-    key = re.sub(r"^(https?://)job-boards\.greenhouse\.io/", r"\1boards.greenhouse.io/",
-                 key, flags=re.I)
-    if "greenhouse.io/" in key.lower():
-        key = key.split("?", 1)[0]
-    return key
+    m = _GH_JOB_ID.search(key)
+    return f"gh:{m.group(1)}" if m else key
 
 
 def _title_key(text):
