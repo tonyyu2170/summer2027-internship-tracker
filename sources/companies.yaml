@@ -161,7 +161,7 @@ swe:
   - {ats: custom, company: JPMorganChase, url: 'https://jpmorganchase.com/careers'}
   - {ats: custom, company: Goldman Sachs, url: 'https://goldmansachs.com/careers'}
   - {ats: custom, company: Morgan Stanley, url: 'https://morganstanley.com/careers'}
-  - {ats: custom, company: Bank of America, url: 'https://bankofamerica.com/careers'}
+  - {ats: workday, company: Bank of America, url: 'https://ghr.wd1.myworkdayjobs.com/lateral-us'}
   - {ats: custom, company: Discover, url: 'https://discover.com/careers'}
   - {ats: workday, company: Visa, url: 'https://visa.wd5.myworkdayjobs.com/Visa'}
   - {ats: custom, company: Mastercard, url: 'https://mastercard.com/careers', verified: false}
@@ -1495,7 +1495,7 @@ ai_ml:
   - {ats: ashby, company: ElevenLabs, url: elevenlabs}
   - {ats: ashby, company: Suno, url: suno}
   - {ats: ashby, company: Luma AI, url: lumaai}
-  - {ats: custom, company: Hugging Face, url: 'https://huggingface.co/careers'}
+  - {ats: workable, company: Hugging Face, url: 'https://apply.workable.com/huggingface'}
   - {ats: custom, company: Surge AI, url: 'https://surgehq.ai/careers'}
   - {ats: ashby, company: Mercor, url: mercor}
   - {ats: ashby, company: Fireworks AI, url: fireworks}
