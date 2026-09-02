@@ -22,7 +22,7 @@ CATEGORIES = [("swe", "Software Engineering"), ("quant", "Quantitative Finance")
 LABEL = dict(CATEGORIES)
 WEEKS = 16
 TOP_COMPANIES = 12
-NEWEST = 40
+NEWEST = 80
 ATS_ORDER = ["workday", "greenhouse", "ashby", "lever", "smartrecruiters", "icims", "custom"]
 
 # Categorical slots in fixed order (dataviz reference palette, validated
@@ -110,8 +110,9 @@ def _trunc(text, n):
     return text if len(text) <= n else text[: n - 1] + "…"
 
 
-def hbars(items, color, width=560, row=26, label_w=170):
-    """Horizontal bars: items = [(label, value)], color(label) -> css color."""
+def hbars(items, color, width=560, row=26, label_w=170, cat=None):
+    """Horizontal bars: items = [(label, value)], color(label) -> css color,
+    cat(label) -> category stem for the filter (or None)."""
     if not items:
         return '<p class="empty">No data yet.</p>'
     vmax = max(v for _, v in items) or 1
@@ -123,6 +124,7 @@ def hbars(items, color, width=560, row=26, label_w=170):
         out.append(
             f'<text x="{label_w - 10}" y="{y + 16}" text-anchor="end" class="lbl">{_e(_trunc(str(label), 26))}</text>'
             f'<rect x="{label_w}" y="{y + 4}" width="{w}" height="{row - 10}" rx="4" fill="{color(label)}" '
+            f'{f"data-cat=\"{cat(label)}\" " if cat and cat(label) else ""}'
             f'data-tip="{_e(f"{label}: {value}")}"></rect>'
             f'<text x="{label_w + w + 8}" y="{y + 16}" class="val">{value}</text>')
     out.append("</svg>")
@@ -154,7 +156,7 @@ def stacked_weeks(weeks, width=560, height=220):
             y -= seg
             tip = f"Week of {monday:%b %-d}: {n} {LABEL[cat]} · {totals[i]} total"
             out.append(f'<rect x="{x:.1f}" y="{y + 1:.1f}" width="{bar_w:.1f}" height="{max(seg - 2, 1):.1f}" '
-                       f'fill="var(--c{_SLOT[cat]})" data-tip="{_e(tip)}"></rect>')
+                       f'fill="var(--c{_SLOT[cat]})" data-cat="{cat}" data-tip="{_e(tip)}"></rect>')
         if i % (2 if width >= 900 else 4) == (1 if width >= 900 else 3) or i == len(weeks) - 1:
             out.append(f'<text x="{x + bar_w / 2:.1f}" y="{height - 10}" text-anchor="middle" class="tick">{monday:%b %-d}</text>')
     out.append("</svg>")
@@ -182,11 +184,11 @@ def _theme(bg, surface, ink, ink2, muted, rule, accent, grid, slots):
     return tokens + " ".join(f"--c{i + 1}:{c};" for i, c in enumerate(slots))
 
 
-# One accent (desaturated, links and focus only) that is not one of the six
-# category hues, so a single-series chart never reads as "the swe series":
-# those bars take the secondary ink instead.
-_LIGHT_THEME = ("#f5f6f8", "#eceef2", "#191c21", "#565d69", "#858c99", "#d9dde4", "#2c6e8e", "#e6e9ee")
-_DARK_THEME = ("#15171b", "#1d2025", "#eceef1", "#b3b9c3", "#7c8391", "#2a2e35", "#6fb0cc", "#23272d")
+# Cool neutrals with one blue-family accent for links, focus and the active
+# filter; single-series bars take the secondary ink so they never read as
+# the swe category, whose slot is also blue.
+_LIGHT_THEME = ("#f6f7f9", "#eceef2", "#181b20", "#4f5866", "#7f8794", "#d8dce3", "#2456a8", "#e5e8ed")
+_DARK_THEME = ("#141619", "#1c1f24", "#eceef1", "#b1b8c3", "#7a8290", "#2a2e35", "#7fa6ea", "#23272d")
 
 
 def render_dashboard(data_dir=None, sources_dir=None, today=None, now=None):
@@ -201,12 +203,16 @@ def render_dashboard(data_dir=None, sources_dir=None, today=None, now=None):
     cat_of_label = {LABEL[c]: c for c, _ in CATEGORIES}
     legend = "".join(f'<span class="key"><i style="background:{_cat_color(c)}"></i>{LABEL[c]}</span>'
                      for c, _ in CATEGORIES)
+    chips = '<button type="button" class="chip on" data-cat="">All</button>' + "".join(
+        f'<button type="button" class="chip" data-cat="{c}"><i style="background:{_cat_color(c)}"></i>{LABEL[c]}</button>'
+        for c, _ in CATEGORIES)
     week_rows = [(f"{w:%Y-%m-%d}", *[c.get(cat, 0) for cat, _ in CATEGORIES], sum(c.values()))
                  for w, c in s["weeks"]]
     newest = "".join(
-        f'<tr><td class="num">{_e(r.get("date_posted"))}{"~" if r.get("date_estimated") else ""}</td>'
+        f'<tr data-cat="{r["category"]}" data-text="{_e((r["company"] + " " + r["role"]).lower())}">'
+        f'<td class="num">{_e(r.get("date_posted"))}{"~" if r.get("date_estimated") else ""}</td>'
         f'<td>{_e(r["company"])}</td><td>{_e(r["role"])}</td>'
-        f'<td><span class="chip"><i style="background:{_cat_color(r["category"])}"></i>{LABEL[r["category"]]}</span></td>'
+        f'<td><span class="tag"><i style="background:{_cat_color(r["category"])}"></i>{LABEL[r["category"]]}</span></td>'
         f'<td class="num">{_e("/".join(r.get("degree") or []))}</td>'
         f'<td><a href="{_e(r["link"])}" target="_blank" rel="noopener">Apply</a></td></tr>'
         for r in s["newest"])
@@ -223,13 +229,13 @@ def render_dashboard(data_dir=None, sources_dir=None, today=None, now=None):
     light, dark = _theme(*_LIGHT_THEME, _LIGHT), _theme(*_DARK_THEME, _DARK)
     breakdowns = [
         _panel("Open roles by category", "Closed roles are kept in the data but not counted here.",
-               hbars(cat_items, lambda l: _cat_color(cat_of_label[l])),
+               hbars(cat_items, lambda l: _cat_color(cat_of_label[l]), cat=lambda l: cat_of_label.get(l)),
                _table(["Category", "Open roles"], [(_e(l), n) for l, n in cat_items])),
         _panel("Companies with the most open roles", f'Top {TOP_COMPANIES} of {s["companies"]:,} companies with an open role.',
                hbars(s["top_companies"], neutral),
                _table(["Company", "Open roles"], [(_e(c), n) for c, n in s["top_companies"]])),
         _panel("Boards watched, by applicant tracking system",
-               "Career boards on the watch-list. Workday, Greenhouse, Ashby, Lever and SmartRecruiters are pulled by the scrape; custom and iCIMS are not.",
+               "Career boards on the watch-list. Workday, Greenhouse, Ashby, Lever, SmartRecruiters and Workable are pulled by the scrape; custom and iCIMS are not.",
                hbars(s["ats"], neutral), _table(["ATS", "Boards"], [(_e(a), n) for a, n in s["ats"]])),
         _panel("Where open listings come from", "Sources that reported each open role. A role can come from several.",
                hbars(s["sources"], neutral), _table(["Source", "Open roles"], [(_e(a), n) for a, n in s["sources"]])),
@@ -240,80 +246,120 @@ def render_dashboard(data_dir=None, sources_dir=None, today=None, now=None):
                    f'<div class="legend">{legend}</div>' + stacked_weeks(s["weeks"], width=1120, height=240),
                    _table(["Week of", *[l for _, l in CATEGORIES], "Total"], week_rows))
     return f"""<title>Summer 2027 Internship Radar</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Fira+Code:wght@400;500&display=swap">
 <style>
-:root {{ color-scheme: light; {light} }}
+:root {{ color-scheme: light; {light} --ease-out: cubic-bezier(0.23, 1, 0.32, 1); --sans: "Fira Sans", "Helvetica Neue", Arial, sans-serif; --mono: "Fira Code", ui-monospace, Menlo, monospace; }}
 @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ color-scheme: dark; {dark} }} }}
 :root[data-theme="dark"] {{ color-scheme: dark; {dark} }}
-body {{ margin:0; background:var(--bg); color:var(--ink); font-family:"Geist", "Helvetica Neue", Arial, sans-serif; font-size:14px; line-height:1.5; }}
-.wrap {{ max-width:1180px; margin:0 auto; padding:28px 24px 64px; }}
+body {{ margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); font-size:14px; line-height:1.5; }}
+.wrap {{ max-width:1180px; margin:0 auto; padding:24px 24px 64px; }}
 .skip {{ position:absolute; left:-999px; top:8px; background:var(--ink); color:var(--bg); padding:6px 10px; border-radius:4px; }}
 .skip:focus {{ left:8px; }}
-h1 {{ font-weight:600; font-size:26px; letter-spacing:-0.02em; margin:0 0 4px; text-wrap:balance; }}
-h2 {{ font-weight:600; font-size:15px; letter-spacing:-0.01em; margin:0 0 2px; }}
-.status {{ color:var(--ink2); margin:0 0 28px; max-width:70ch; }}
-.figures {{ display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:16px 28px; border-top:1px solid var(--rule); padding-top:14px; margin-bottom:36px; }}
-.figure {{ display:flex; flex-direction:column; gap:2px; min-width:0; }}
+h1 {{ font-weight:600; font-size:24px; letter-spacing:-0.015em; margin:0 0 4px; text-wrap:balance; }}
+h2 {{ font-weight:600; font-size:15px; margin:0 0 2px; }}
+.status {{ color:var(--ink2); margin:0 0 18px; max-width:72ch; }}
+.figures {{ display:grid; grid-template-columns:repeat(auto-fit, minmax(176px, 1fr)); gap:12px 24px; border-top:1px solid var(--rule); padding-top:12px; margin-bottom:22px; }}
+.figure {{ display:flex; flex-direction:column; gap:1px; min-width:0; }}
 .label {{ font-size:12.5px; color:var(--ink2); font-weight:500; }}
-.big {{ font-family:"Geist Mono", ui-monospace, Menlo, monospace; font-weight:500; font-size:30px; line-height:1.15; letter-spacing:-0.02em; font-variant-numeric:tabular-nums; }}
+.big {{ font-family:var(--mono); font-weight:500; font-size:28px; line-height:1.15; font-variant-numeric:tabular-nums; }}
 .sub {{ color:var(--muted); font-size:12px; }}
-.trend {{ margin-bottom:32px; }}
-.grid {{ display:grid; grid-template-columns:repeat(auto-fit, minmax(440px, 1fr)); gap:28px 40px; }}
-.panel {{ border-top:1px solid var(--rule); padding-top:12px; min-width:0; }}
-.note {{ margin:0 0 12px; color:var(--ink2); font-size:12.5px; max-width:70ch; }}
-.legend {{ display:flex; flex-wrap:wrap; gap:6px 16px; margin:0 0 10px; font-size:12px; color:var(--ink2); }}
-.key i, .chip i {{ display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:6px; vertical-align:0; }}
+.filters {{ display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin:0 0 24px; }}
+.filters .lead {{ font-size:12.5px; color:var(--ink2); margin-right:4px; }}
+.chip {{ font:inherit; font-size:12.5px; font-weight:500; color:var(--ink2); background:transparent; border:1px solid var(--rule); border-radius:4px; padding:4px 9px; cursor:pointer; display:inline-flex; align-items:center; gap:6px; transition:background-color 120ms var(--ease-out), border-color 120ms var(--ease-out), color 120ms var(--ease-out), transform 160ms var(--ease-out); }}
+.chip i, .key i, .tag i {{ display:inline-block; width:9px; height:9px; border-radius:2px; flex:none; }}
+.chip.on {{ color:var(--ink); border-color:var(--ink2); background:var(--surface); }}
+.chip:active {{ transform:scale(0.97); }}
+.filters input {{ font:inherit; font-size:13px; color:var(--ink); background:var(--surface); border:1px solid var(--rule); border-radius:4px; padding:5px 9px; margin-left:auto; min-width:220px; transition:border-color 120ms var(--ease-out); }}
+.filters input::placeholder {{ color:var(--muted); }}
+.filters input:focus {{ outline:none; border-color:var(--accent); box-shadow:0 0 0 2px color-mix(in srgb, var(--accent) 25%, transparent); }}
+.trend {{ margin-bottom:26px; }}
+.grid {{ display:grid; grid-template-columns:repeat(auto-fit, minmax(440px, 1fr)); gap:22px 36px; }}
+.panel {{ border-top:1px solid var(--rule); padding-top:10px; min-width:0; }}
+.note {{ margin:0 0 10px; color:var(--ink2); font-size:12.5px; max-width:70ch; }}
+.legend {{ display:flex; flex-wrap:wrap; gap:6px 16px; margin:0 0 8px; font-size:12px; color:var(--ink2); }}
+.key, .tag {{ display:inline-flex; align-items:center; gap:6px; white-space:nowrap; }}
 svg.chart {{ width:100%; height:auto; display:block; overflow:visible; }}
-svg .lbl {{ font-size:12px; fill:var(--ink); font-family:"Geist", "Helvetica Neue", Arial, sans-serif; }}
-svg .val, svg .tick {{ font-size:11px; fill:var(--ink2); font-family:"Geist Mono", ui-monospace, Menlo, monospace; }}
+svg .lbl {{ font-size:12px; fill:var(--ink); font-family:var(--sans); }}
+svg .val, svg .tick {{ font-size:11px; fill:var(--ink2); font-family:var(--mono); }}
 svg .grid {{ stroke:var(--grid); stroke-width:1; }}
 svg .axis {{ stroke:var(--rule); stroke-width:1; }}
-svg rect[data-tip] {{ transition:opacity 160ms ease; }}
-svg rect[data-tip]:hover {{ opacity:0.75; }}
-details.tbl {{ margin-top:10px; font-size:12px; }}
+svg rect[data-tip] {{ transition:opacity 150ms var(--ease-out); }}
+main[data-filter] svg rect[data-cat] {{ opacity:0.22; }}
+main[data-filter="swe"] svg rect[data-cat="swe"], main[data-filter="quant"] svg rect[data-cat="quant"], main[data-filter="data_science"] svg rect[data-cat="data_science"], main[data-filter="ai_ml"] svg rect[data-cat="ai_ml"], main[data-filter="hardware"] svg rect[data-cat="hardware"], main[data-filter="actuarial"] svg rect[data-cat="actuarial"] {{ opacity:1; }}
+details.tbl {{ margin-top:8px; font-size:12px; }}
 details.tbl summary {{ color:var(--accent); cursor:pointer; width:max-content; }}
-details.tbl summary:hover {{ text-decoration:underline; }}
-table {{ border-collapse:collapse; width:100%; margin-top:8px; }}
-th, td {{ text-align:left; padding:7px 10px; vertical-align:top; }}
+table {{ border-collapse:collapse; width:100%; margin-top:6px; }}
+th, td {{ text-align:left; padding:6px 10px; vertical-align:top; }}
 th {{ font-size:12px; color:var(--ink2); font-weight:500; border-bottom:1px solid var(--rule); }}
+tbody td {{ transition:background-color 120ms var(--ease-out); }}
 tbody tr:nth-child(even) td {{ background:var(--surface); }}
-td.num {{ font-family:"Geist Mono", ui-monospace, Menlo, monospace; font-size:12.5px; white-space:nowrap; }}
-.chip {{ white-space:nowrap; }}
-.newest {{ margin-top:36px; border-top:1px solid var(--rule); padding-top:12px; overflow-x:auto; }}
+td.num {{ font-family:var(--mono); font-size:12.5px; white-space:nowrap; }}
+.newest {{ margin-top:26px; border-top:1px solid var(--rule); padding-top:10px; overflow-x:auto; }}
 .newest table {{ min-width:760px; }}
-a {{ color:var(--accent); text-decoration:none; transition:color 160ms ease; }}
-a:hover {{ text-decoration:underline; }}
-a:active {{ transform:translateY(1px); display:inline-block; }}
-a:focus-visible, summary:focus-visible {{ outline:2px solid var(--accent); outline-offset:2px; border-radius:2px; }}
-#tip {{ position:fixed; pointer-events:none; background:var(--ink); color:var(--bg); padding:6px 9px; border-radius:4px; font-size:12px; font-family:"Geist Mono", ui-monospace, Menlo, monospace; white-space:nowrap; z-index:2; }}
-footer {{ margin-top:40px; color:var(--muted); font-size:12px; max-width:80ch; border-top:1px solid var(--rule); padding-top:12px; }}
+.newest tr[hidden] {{ display:none; }}
+.newest .count {{ font-family:var(--mono); font-size:12px; color:var(--muted); }}
+.newest .none {{ color:var(--muted); padding:14px 10px; }}
+a {{ color:var(--accent); text-decoration:none; transition:color 120ms var(--ease-out); }}
+a:focus-visible, summary:focus-visible, .chip:focus-visible {{ outline:2px solid var(--accent); outline-offset:2px; border-radius:2px; }}
+@media (hover: hover) and (pointer: fine) {{
+  a:hover, details.tbl summary:hover {{ text-decoration:underline; }}
+  .chip:hover {{ color:var(--ink); border-color:var(--ink2); }}
+  svg rect[data-tip]:hover {{ opacity:0.75; }}
+  main[data-filter] svg rect[data-tip]:hover {{ opacity:0.6; }}
+  tbody tr:hover td {{ background:color-mix(in srgb, var(--accent) 9%, var(--bg)); }}
+}}
+#tip {{ position:fixed; pointer-events:none; background:var(--ink); color:var(--bg); padding:5px 8px; border-radius:4px; font-size:12px; font-family:var(--mono); white-space:nowrap; z-index:20; opacity:0; transition:opacity 120ms var(--ease-out); }}
+#tip.on {{ opacity:1; }}
+footer {{ margin-top:36px; color:var(--muted); font-size:12px; max-width:80ch; border-top:1px solid var(--rule); padding-top:10px; }}
 .empty {{ color:var(--muted); }}
 @media (prefers-reduced-motion: reduce) {{ *, *::before, *::after {{ transition:none !important; }} }}
-@media (max-width: 640px) {{ .wrap {{ padding:20px 16px 48px; }} .grid {{ grid-template-columns:1fr; }} }}
+@media (max-width: 640px) {{ .wrap {{ padding:18px 14px 48px; }} .grid {{ grid-template-columns:1fr; }} .filters input {{ margin-left:0; width:100%; }} }}
 </style>
 <a class="skip" href="#newest">Skip to the newest roles</a>
 <main class="wrap">
 <h1>Summer 2027 Internship Radar</h1>
-<p class="status">US-only market listing across six categories, regenerated from the tracker's data files on {stamp}.{_e(last_run)}</p>
+<p class="status">US-only market listing across six categories, regenerated from the tracker's data files on <time style="white-space:nowrap">{stamp}</time>.{_e(last_run)}</p>
 <div class="figures">{figures_html}</div>
+<div class="filters" role="group" aria-label="Filter the page by category"><span class="lead">Category</span>{chips}<input type="search" id="q" placeholder="Search company or role" aria-label="Search the newest roles by company or role"></div>
 <div class="trend">{trend}</div>
 <div class="grid">{"".join(breakdowns)}</div>
 <section class="newest" id="newest"><h2>Newest open roles</h2>
-<p class="note">{NEWEST} most recent by posting date. A ~ marks a date estimated from when the role was first seen.</p>
-<table><thead><tr><th>Posted</th><th>Company</th><th>Role</th><th>Category</th><th>Degree</th><th></th></tr></thead><tbody>{newest}</tbody></table></section>
+<p class="note">{NEWEST} most recent by posting date. A ~ marks a date estimated from when the role was first seen. <span class="count" id="count"></span></p>
+<table><thead><tr><th>Posted</th><th>Company</th><th>Role</th><th>Category</th><th>Degree</th><th></th></tr></thead><tbody id="rows">{newest}</tbody></table>
+<p class="none" id="none" hidden>No roles match this filter.</p></section>
 <footer>Every row is a US-located Summer 2027 internship from the GitHub trackers and the direct company boards the tracker scrapes. Individual locations are not tracked. Source: data/*.yaml and sources/companies.yaml in the repository. The README is the full listing.</footer>
 </main>
-<div id="tip" hidden></div>
+<div id="tip" aria-hidden="true"></div>
 <script>
 (function () {{
+  var main = document.querySelector('main'), rows = document.querySelectorAll('#rows tr'),
+      count = document.getElementById('count'), none = document.getElementById('none'),
+      q = document.getElementById('q'), chips = document.querySelectorAll('.chip'), cat = '';
+  function apply() {{
+    var text = q.value.trim().toLowerCase(), shown = 0;
+    rows.forEach(function (tr) {{
+      var ok = (!cat || tr.dataset.cat === cat) && (!text || tr.dataset.text.indexOf(text) !== -1);
+      tr.hidden = !ok; if (ok) shown++;
+    }});
+    count.textContent = 'Showing ' + shown + ' of ' + rows.length + '.';
+    none.hidden = shown > 0;
+    if (cat) main.dataset.filter = cat; else delete main.dataset.filter;
+  }}
+  chips.forEach(function (chip) {{
+    chip.addEventListener('click', function () {{
+      cat = chip.dataset.cat; chips.forEach(function (c) {{ c.classList.toggle('on', c === chip); }}); apply();
+    }});
+  }});
+  q.addEventListener('input', apply);
+  apply();
   var tip = document.getElementById('tip');
   document.addEventListener('mouseover', function (e) {{
     var t = e.target.closest && e.target.closest('[data-tip]');
-    if (!t) {{ tip.hidden = true; return; }}
-    tip.textContent = t.getAttribute('data-tip'); tip.hidden = false;
+    if (!t) {{ tip.classList.remove('on'); return; }}
+    tip.textContent = t.getAttribute('data-tip'); tip.classList.add('on');
   }});
   document.addEventListener('mousemove', function (e) {{
-    if (tip.hidden) return;
+    if (!tip.classList.contains('on')) return;
     var x = e.clientX + 14, y = e.clientY + 14;
     if (x + tip.offsetWidth > window.innerWidth - 8) x = e.clientX - tip.offsetWidth - 14;
     tip.style.left = x + 'px'; tip.style.top = y + 'px';

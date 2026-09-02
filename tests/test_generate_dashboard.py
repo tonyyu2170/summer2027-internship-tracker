@@ -48,3 +48,5 @@ def test_render_dashboard_writes_a_self_contained_page(tmp_path):
     assert 'href="https://x/1"' in page and "https://x/3" not in page   # closed row not listed
     assert "<script src=" not in page                                     # no external libraries
     assert page.count("<svg") == 6 and "data-tip=" in page
+    assert 'data-cat="swe"' in page and 'class="chip" data-cat="quant"' in page   # filterable
+    assert 'id="q"' in page and "prefers-reduced-motion" in page
