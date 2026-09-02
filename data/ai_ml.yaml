@@ -4056,6 +4056,7 @@
   status: open
   sources:
   - company:diamondback-energy
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4334,6 +4335,7 @@
   status: open
   sources:
   - company:first-national-bank
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4648,6 +4650,7 @@
   - company:ge-aerospace
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4732,6 +4735,7 @@
   status: open
   sources:
   - company:hitachi
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4766,6 +4770,7 @@
   status: open
   sources:
   - company:hitachi
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4800,6 +4805,7 @@
   status: open
   sources:
   - company:hitachi
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4950,6 +4956,7 @@
   status: open
   sources:
   - company:hntb
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -5677,6 +5684,7 @@
   status: open
   sources:
   - company:olsson
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -5693,6 +5701,7 @@
   status: open
   sources:
   - company:olsson
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -5811,6 +5820,7 @@
   - company:philips
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -6279,7 +6289,7 @@
   possible_duplicate_of: null
 - id: tiktok-machine-learning-mlops-intern-global-site-reliability-engineering-341fc3
   company: TikTok
-  role: Machine Learning MLOps Intern - Global Site Reliability Engineering
+  role: Machine Learning MLOps Intern (Global SRE) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7670875283026053381
   date_posted: '2026-08-19'
@@ -6513,6 +6523,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7055,6 +7066,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7223,6 +7235,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7327,6 +7340,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7398,6 +7412,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7708,9 +7723,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7727,6 +7743,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7791,6 +7808,7 @@
   status: open
   sources:
   - github_tracker:vanshb03
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7807,6 +7825,7 @@
   status: open
   sources:
   - github_tracker:vanshb03
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7888,6 +7907,7 @@
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - company:workiva
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -8048,6 +8068,61 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: aerovironment-summer-2027-gnc-autonomy-intern-964339
+  company: AeroVironment
+  role: Summer 2027 GNC / Autonomy Intern
+  location: Simi Valley, CA / Huntsville, AL / Pottstown, PA / Herndon, VA / Moorpark,
+    CA / San Luis Obispo, CA / Annapolis Junction, MD / Germantown, MD / Albuquerque,
+    NM / Minneapolis, MN / Arlington, VA / Melbourne, FL / Petaluma, CA / San Diego,
+    CA
+  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-GNC---Autonomy-Intern_8610
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:aerovironment
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: rystad-energy-analyst-intern-summer-2027-b66e4f
+  company: Rystad Energy
+  role: Analyst Intern - Summer 2027
+  location: Houston, TX
+  link: https://apply.workable.com/rystad-energy/j/74A4CBBC6B/
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:rystad-energy
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: twg-global-ai-engineering-intern-summer-2027-5b96aa
+  company: TWG Global
+  role: AI Engineering Intern - Summer 2027
+  location: Santa Monica, CA
+  link: https://apply.workable.com/twgai/j/772CD136FF/
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:twg-global
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null

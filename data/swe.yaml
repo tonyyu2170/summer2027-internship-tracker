@@ -7495,6 +7495,7 @@
   status: open
   sources:
   - company:avery-dennison
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7560,6 +7561,7 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7576,6 +7578,8 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7592,6 +7596,8 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7608,6 +7614,8 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -7624,6 +7632,7 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -8211,6 +8220,7 @@
   status: open
   sources:
   - company:fifth-third-bank
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -8227,6 +8237,7 @@
   status: open
   sources:
   - company:first-national-bank
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -8243,6 +8254,7 @@
   status: open
   sources:
   - company:first-national-bank
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: first-national-bank-summer-2027-data-engineering-intern-a1c7b9
@@ -8259,6 +8271,7 @@
   status: open
   sources:
   - company:first-national-bank
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: first-national-bank-summer-2027-data-engineering-intern-a1c7b9
@@ -8325,6 +8338,7 @@
   status: open
   sources:
   - company:freddie-mac
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -8375,6 +8389,7 @@
   status: open
   sources:
   - company:freddie-mac
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -8549,6 +8564,7 @@
   sources:
   - company:hermeus
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -8687,6 +8703,7 @@
   status: open
   sources:
   - company:hitachi
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -8704,6 +8721,7 @@
   status: open
   sources:
   - company:hitachi
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -9022,6 +9040,7 @@
   sources:
   - company:johnson-johnson
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -9274,6 +9293,7 @@
   status: open
   sources:
   - company:lawrence-livermore-national-laboratory-llnl
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -9364,6 +9384,7 @@
   status: open
   sources:
   - company:mastercard
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -9397,6 +9418,7 @@
   status: open
   sources:
   - company:medline
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -9610,6 +9632,7 @@
   status: open
   sources:
   - company:michelin
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -9811,6 +9834,7 @@
   status: open
   sources:
   - company:northrop-grumman
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -9879,6 +9903,7 @@
   status: open
   sources:
   - company:northwood-space
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -10088,6 +10113,7 @@
   sources:
   - company:oshkosh
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -10105,6 +10131,7 @@
   sources:
   - company:oshkosh
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -10172,6 +10199,7 @@
   status: open
   sources:
   - company:persona-ai
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -10386,6 +10414,7 @@
   status: open
   sources:
   - company:poet
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -10590,6 +10619,7 @@
   status: open
   sources:
   - company:qts
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -10728,6 +10758,7 @@
   status: open
   sources:
   - company:rtx
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -10745,6 +10776,7 @@
   sources:
   - company:rtx
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -10761,6 +10793,7 @@
   status: open
   sources:
   - company:rtx
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -10812,6 +10845,7 @@
   sources:
   - company:rtx
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -11454,6 +11488,7 @@
   status: open
   sources:
   - company:uline
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -11521,6 +11556,7 @@
   status: open
   sources:
   - company:wabtec
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -12164,7 +12200,8 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-2d5519
   company: TikTok
-  role: Software Engineer Intern
+  role: Software Engineer Intern (TikTok AI Search & Visual Search Infra Team) - 2027
+    Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7676276048527214901
   date_posted: '2026-08-22'
@@ -13245,6 +13282,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -13301,6 +13339,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -13318,6 +13357,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: google-software-engineer-intern-multiple-teams-5777ef
@@ -13337,6 +13377,7 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - company:hp-iq
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -13357,6 +13398,7 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - company:hp-iq
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -13377,6 +13419,7 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - company:hp-iq
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -13396,6 +13439,7 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - company:hp-iq
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14227,6 +14271,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14316,6 +14361,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14593,6 +14639,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14638,9 +14685,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14757,6 +14805,8 @@
   sources:
   - github_tracker:speedyapply
   - github_tracker:zshah101
+  - company:hp-iq
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14790,6 +14840,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14807,6 +14858,7 @@
   sources:
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14939,6 +14991,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15068,6 +15121,7 @@
   sources:
   - github_tracker:speedyapply
   - github_tracker:zshah101
+  - company:workiva
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15293,6 +15347,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15342,6 +15397,8 @@
   sources:
   - github_tracker:speedyapply
   - github_tracker:zshah101
+  - company:general-matter
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15451,9 +15508,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15468,9 +15526,10 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15535,6 +15594,7 @@
   status: open
   sources:
   - github_tracker:vanshb03
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15548,9 +15608,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:vanshb03
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15936,6 +15997,7 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - company:awetomaton
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15952,6 +16014,8 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - company:hp-iq
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15968,6 +16032,8 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - company:hp-iq
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -16096,6 +16162,7 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -16144,6 +16211,7 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - company:conagra-brands
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -16157,9 +16225,143 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: awetomaton-it-intern-b9b180
+  company: Awetomaton
+  role: IT Intern
+  location: Beavercreek, OH
+  link: https://job-boards.greenhouse.io/awetomaton/jobs/5394074008
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:awetomaton
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: boeing-boeing-summer-2027-internship-program-paid-information-digital-technology-security-idt-s-513941
+  company: Boeing
+  role: Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology
+    & Security (IDT&S)
+  location: USA - Everett, WA / USA - Saint Charles, MO / USA - Mukilteo, WA / USA
+    - Berkeley, MO / USA - Hazelwood, MO / USA - El Segundo, CA / USA - Renton, WA
+    / USA - Seattle, WA / USA - Auburn, WA / USA - Bellevue, WA / USA - Kent, WA /
+    USA - Plano, TX / USA - Arlington, VA / USA - Ridley Park, PA / USA - Tukwila,
+    WA / USA - Mesa, AZ / USA - North Charleston, SC
+  link: https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Information-Digital-Technology---Security--IDT-S-_JR2026520791-1
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:boeing
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: general-matter-summer-2027-internship-architectural-engineering-43811d
+  company: General Matter
+  role: Summer 2027 Internship - Architectural Engineering
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5377117008
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-matter
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: general-matter-summer-2027-internship-environmental-health-safety-ehs-1fcfa0
+  company: General Matter
+  role: Summer 2027 Internship - Environmental, Health & Safety (EHS)
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5376633008
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-matter
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: workiva-spring-summer-2027-intern-security-grc-e95ab5
+  company: Workiva
+  role: Spring & Summer 2027 Intern - Security & GRC
+  location: Remote (US)
+  link: https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring---Summer-2027-Intern---Security---GRC_R12353
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:workiva
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: workiva-spring-summer-2027-intern-financial-reporting-883874
+  company: Workiva
+  role: Spring & Summer 2027 Intern - Financial Reporting
+  location: Remote (US)
+  link: https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring---Summer-2027-Intern---Financial-Reporting_R12191
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:workiva
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: workiva-spring-2027-intern-commercial-strategy-c43a6a
+  company: Workiva
+  role: Spring 2027 Intern - Commercial Strategy
+  location: Remote (US)
+  link: https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring-2027-Intern---Commercial-Strategy_R12317
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:workiva
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: workiva-spring-2027-intern-sales-development-account-intelligence-1bfd11
+  company: Workiva
+  role: Spring 2027 Intern - Sales Development (Account Intelligence)
+  location: Remote (US)
+  link: https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring-2027-Intern---Sales-Development--Account-Intelligence-_R12189
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:workiva
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null

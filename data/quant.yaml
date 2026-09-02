@@ -2749,6 +2749,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   - github_tracker:chieler
+  - company:castleton-commodities-international
   date_added: '2026-07-24'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3971,9 +3972,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:freddie-mac
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3991,6 +3993,7 @@
   sources:
   - company:infinitequant
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4007,6 +4010,7 @@
   status: open
   sources:
   - company:infinitequant
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: infinitequant-quantitative-researcher-internship-summer-2027-57d0b8
@@ -4036,9 +4040,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:readystate-asset-management
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4160,6 +4165,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - company:whitewater-midstream
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4279,6 +4285,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4312,6 +4319,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: pimco-quant-research-analyst-intern-client-solutions-analytics-e701d5
@@ -4442,6 +4450,8 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - company:xantium
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4458,6 +4468,8 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - company:xantium
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null

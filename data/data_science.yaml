@@ -1246,6 +1246,7 @@
   status: open
   sources:
   - company:boeing
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1331,6 +1332,7 @@
   status: open
   sources:
   - company:continental-resources
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1420,6 +1422,7 @@
   status: open
   sources:
   - company:federal-reserve-system
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1638,6 +1641,7 @@
   status: open
   sources:
   - company:federal-reserve-system
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1831,6 +1835,7 @@
   status: open
   sources:
   - company:federal-reserve-system
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -1881,6 +1886,7 @@
   status: open
   sources:
   - company:federal-reserve-system
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2123,6 +2129,7 @@
   status: open
   sources:
   - company:ingredion
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2142,6 +2149,7 @@
   - company:johnson-johnson
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2160,6 +2168,7 @@
   status: open
   sources:
   - company:johnson-johnson
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2371,6 +2380,7 @@
   status: open
   sources:
   - company:northwood-space
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2423,6 +2433,7 @@
   status: open
   sources:
   - company:verdantas
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2618,6 +2629,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - company:cno-financial-group
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2771,6 +2783,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2788,6 +2801,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2822,6 +2836,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2858,6 +2873,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - company:freddie-mac
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2911,6 +2927,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3271,6 +3288,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3391,6 +3409,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3494,6 +3513,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4290,9 +4310,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4306,9 +4327,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4322,9 +4344,93 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-business-intelligence-developer-internship-summer-2027-db3c9f
+  company: Auto-Owners
+  role: Business Intelligence Developer Internship - Summer 2027
+  location: Lansing, MI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: twg-global-ai-data-science-intern-solt-summer-2027-1617bf
+  company: TWG Global
+  role: AI Data Science Intern (SOLT) - Summer 2027
+  location: Santa Monica, CA
+  link: https://apply.workable.com/twgai/j/263B34D737/
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - company:twg-global
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: twg-global-ai-data-science-intern-maqr-summer-2027-80fbc6
+  company: TWG Global
+  role: AI Data Science Intern (MAQR) - Summer 2027
+  location: Santa Monica, CA
+  link: https://apply.workable.com/twgai/j/AC536E5EE2/
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - company:twg-global
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: workiva-spring-summer-intern-sales-analytics-69453d
+  company: Workiva
+  role: Spring & Summer Intern - Sales Analytics
+  location: Remote (US)
+  link: https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring---Summer-Intern---Sales-Analytics_R12356
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:workiva
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: workiva-spring-2027-intern-data-analytics-59911b
+  company: Workiva
+  role: Spring 2027 Intern - Data Analytics
+  location: Remote (US)
+  link: https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring-2027-Intern---Data-Analytics_R12319
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:workiva
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null

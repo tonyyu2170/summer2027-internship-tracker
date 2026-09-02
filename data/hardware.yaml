@@ -245,7 +245,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: astreya-ai-infrastructure-dc-design-intern-b48bbf
   company: Astreya
@@ -261,7 +261,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: quadric-ai-kernel-engineer-intern-kernel-optimization-8d79fd
   company: Quadric
@@ -2248,7 +2248,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: rtx-2027-returning-intern-microwave-semiconductor-engineer-b31682
   company: RTX
@@ -2587,6 +2587,7 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2604,6 +2605,7 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2669,6 +2671,7 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2685,6 +2688,7 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2718,6 +2722,7 @@
   status: open
   sources:
   - company:general-motors
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2820,6 +2825,7 @@
   status: open
   sources:
   - company:hitachi
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2855,6 +2861,7 @@
   status: open
   sources:
   - company:intuitive
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2891,6 +2898,7 @@
   status: open
   sources:
   - company:johnson-johnson
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3072,6 +3080,7 @@
   status: open
   sources:
   - company:northwood-space
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3106,6 +3115,7 @@
   status: open
   sources:
   - company:northwood-space
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3300,6 +3310,7 @@
   status: open
   sources:
   - company:oshkosh
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3546,6 +3557,7 @@
   status: open
   sources:
   - company:rtx
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3562,6 +3574,7 @@
   status: open
   sources:
   - company:rtx
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3661,6 +3674,7 @@
   status: open
   sources:
   - company:stanley-black-decker
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3677,6 +3691,7 @@
   status: open
   sources:
   - company:stanley-black-decker
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3868,6 +3883,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4031,6 +4047,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4762,6 +4779,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4986,6 +5004,70 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: general-matter-summer-2027-internship-electrical-engineering-cfd305
+  company: General Matter
+  role: Summer 2027 Internship - Electrical Engineering
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5376052008
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-matter
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: general-matter-summer-2027-internship-electrical-engineering-buildings-2478ca
+  company: General Matter
+  role: 'Summer 2027 Internship - Electrical Engineering (Buildings) '
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5376639008
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-matter
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: general-matter-summer-2027-internship-electrical-i-c-engineering-41482c
+  company: General Matter
+  role: Summer 2027 Internship - Electrical I&C Engineering
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5376057008
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-matter
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: general-matter-summer-2027-internship-mechanical-engineering-hvac-d585dc
+  company: General Matter
+  role: 'Summer 2027 Internship - Mechanical Engineering (HVAC) '
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5377104008
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:general-matter
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
