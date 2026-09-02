@@ -31,7 +31,7 @@
   - aggregator
   - company:the-hartford
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: true
 - id: cigna-actuarial-internship-summer-2027-826fee
@@ -49,7 +49,7 @@
   - github_tracker:zapplyjobs
   - company:cigna
   date_added: '2026-08-08'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: cigna-risk-underwriting-summer-internship-842d01
   company: Cigna
@@ -83,7 +83,7 @@
   - github_tracker:zapplyjobs
   - company:national-interstate-insurance
   date_added: '2026-08-09'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: genworth-financial-genworth-actuarial-development-program-intern-summer-2027-e80534
   company: Genworth Financial
@@ -101,7 +101,7 @@
   - aggregator
   - company:genworth
   date_added: '2026-08-09'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: northwestern-mutual-actuarial-summer-internship-7d25e9
   company: Northwestern Mutual
@@ -117,5 +117,677 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-179621
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Columbia, MO
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Columbia-MO/Claims-Representative-Internship---Summer-2027_R_14409
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-business-quality-analyst-internship-summer-2027-43e9a6
+  company: Auto-Owners
+  role: Business/Quality Analyst Internship - Summer 2027
+  location: Lansing, MI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Quality-Analyst-Internship---Summer-2027_R_14407
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-d8a9eb
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: West Branch, MI / Traverse City, MI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/West-Branch-MI/Claims-Representative-Internship---Summer-2027_R_14401
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-personal-lines-underwriting-internship-summer-2027-512dc8
+  company: Auto-Owners
+  role: Personal Lines Underwriting Internship - Summer 2027
+  location: Traverse City, MI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Traverse-City-MI/Personal-Lines-Underwriting-Internship---Summer-2027_R_14399
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-personal-underwriting-internship-summer-2027-9dd0ed
+  company: Auto-Owners
+  role: Personal Underwriting Internship - Summer 2027
+  location: Peoria, IL
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Peoria-IL/Personal-Underwriting-Internship---Summer-2027_R_14402
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-0202fe
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Akron, OH
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Akron-OH/Claims-Representative-Internship---Summer-2027_R_14394
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-personal-lines-underwriting-internship-summer-2027-b72d57
+  company: Auto-Owners
+  role: Personal Lines Underwriting Internship - Summer 2027
+  location: Lansing, MI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Personal-Lines-Underwriting-Internship---Summer-2027_R_14387
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-home-office-underwriting-audit-internship-summer-2027-ed3c5a
+  company: Auto-Owners
+  role: Home Office Underwriting/Audit Internship - Summer 2027
+  location: Lansing, MI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Home-Office-Underwriting-Audit-Internship---Summer-2027_R_14361
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-user-experience-internship-summer-2027-69d1ad
+  company: Auto-Owners
+  role: User Experience Internship - Summer 2027
+  location: Lansing, MI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/User-Experience-Internship---Summer-2027_R_14385
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-underwriting-internship-summer-2027-94423a
+  company: Auto-Owners
+  role: Underwriting Internship - Summer 2027
+  location: Pittsburgh, PA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Pittsburgh-PA/Underwriting-Internship---Summer-2027_R_14384
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-construction-project-internship-summer-2027-35d48c
+  company: Auto-Owners
+  role: Construction Project Internship - Summer 2027
+  location: Lansing, MI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Construction-Project-Internship---Summer-2027_R_14382
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-1d0519
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Lima, OH / Columbus, OH
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lima-OH/Claims-Representative-Internship---Summer-2027_R_14379
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-987de4
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Pittsburgh, PA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Pittsburgh-PA/Claims-Representative-Internship---Summer-2027_R_14380
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-personal-lines-underwriting-internship-summer-2027-780bd9
+  company: Auto-Owners
+  role: Personal Lines Underwriting Internship - Summer 2027
+  location: Appleton, WI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Appleton-WI/Personal-Lines-Underwriting-Internship---Summer-2027_R_14377
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-67f4d9
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: West Des Moines, IA / Cedar Rapids, IA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/West-Des-Moines-IA/Claims-Representative-Internship---Summer-2027_R_14375
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-f804bc
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: West Des Moines, IA / Cedar Rapids, IA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/West-Des-Moines-IA/Claims-Representative-Internship---Summer-2027_R_14376
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: auto-owners-claims-representative-internship-summer-2027-67f4d9
+- id: auto-owners-personal-lines-underwriting-internship-summer-2027-cf8b16
+  company: Auto-Owners
+  role: Personal Lines Underwriting Internship - Summer 2027
+  location: West Des Moines, IA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/West-Des-Moines-IA/Personal-Lines-Underwriting-Internship---Summer-2027_R_14378
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-e1341b
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Fargo, ND
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Fargo-ND/Claims-Representative-Internship---Summer-2027_R_14369
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-8a4955
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Sioux Falls, SD
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Sioux-Falls-SD/Claims-Representative-Internship---Summer-2027_R_14370
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-1462e0
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Eau Claire, WI / Appleton, WI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Eau-Claire-WI/Claims-Representative-Internship---Summer-2027_R_14373
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-commercial-lines-underwriting-internship-summer-2027-72a82d
+  company: Auto-Owners
+  role: Commercial Lines Underwriting Internship - Summer 2027
+  location: Fargo, ND
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Fargo-ND/Commercial-Lines-Underwriting-Internship---Summer-2027_R_14372
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-2bd017
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Lima, OH
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lima-OH/Claims-Representative-Internship---Summer-2027_R_14359
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-9616bb
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Little Rock, AR
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Little-Rock-AR/Claims-Representative-Internship---Summer-2027_R_14374
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-42db12
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Jackson, TN
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Jackson-TN/Claims-Representative-Internship---Summer-2027_R_14356
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-805da8
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Brentwood, TN
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Brentwood-TN/Claims-Representative-Internship---Summer-2027_R_14357
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-13dfed
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Forest, VA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Forest-VA/Claims-Representative-Internship---Summer-2027_R_14351
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-30476f
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Greenville, SC
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Greenville-SC/Claims-Representative-Internship---Summer-2027_R_14353
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-001e66
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Columbia, SC
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Columbia-SC/Claims-Representative-Internship---Summer-2027_R_14352
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-personal-lines-underwriting-internship-summer-2027-f67632
+  company: Auto-Owners
+  role: Personal Lines Underwriting Internship - Summer 2027
+  location: Forest, VA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Forest-VA/Personal-Lines-Underwriting-Internship---Summer-2027_R_14338
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-personal-lines-underwriting-internship-summer-2027-7ea6aa
+  company: Auto-Owners
+  role: Personal Lines Underwriting Internship - Summer 2027
+  location: Charlotte, NC
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Charlotte-NC/Personal-Lines-Underwriting-Internship---Summer-2027_R_14336
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-personal-lines-underwriting-internship-summer-2027-4129a6
+  company: Auto-Owners
+  role: Personal Lines Underwriting Internship - Summer 2027
+  location: Columbia, SC
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Columbia-SC/Personal-Lines-Underwriting-Internship---Summer-2027_R_14337
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-underwriting-internship-summer-2027-4f51a0
+  company: Auto-Owners
+  role: Underwriting Internship - Summer 2027
+  location: Duluth, GA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Duluth-GA/Underwriting-Internship---Summer-2027_R_14304
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-044509
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Tallahassee, FL
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Tallahassee-FL/Claims-Representative-Internship---Summer-2027_R_14303
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-underwriting-internship-summer-2027-bea420
+  company: Auto-Owners
+  role: Underwriting Internship - Summer 2027
+  location: Tallahassee, FL
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Tallahassee-FL/Underwriting-Internship---Summer-2027_R_14308
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-underwriting-internship-summer-2027-6b8343
+  company: Auto-Owners
+  role: Underwriting Internship - Summer 2027
+  location: Tallahassee, FL
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Tallahassee-FL/Underwriting-Internship---Summer-2027_R_14310
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: auto-owners-underwriting-internship-summer-2027-bea420
+- id: auto-owners-claims-representative-internship-summer-2027-6d8900
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Duluth, GA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Duluth-GA/Claims-Representative-Internship---Summer-2027_R_14296
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-316855
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Macon, GA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Macon-GA/Claims-Representative-Internship---Summer-2027_R_14300
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-b97dfb
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Stonecrest, GA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Stonecrest-GA/Claims-Representative-Internship---Summer-2027_R_14302
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: auto-owners-claims-representative-internship-summer-2027-a7c722
+  company: Auto-Owners
+  role: Claims Representative Internship - Summer 2027
+  location: Duluth, GA
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Duluth-GA/Claims-Representative-Internship---Summer-2027_R_14295
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:auto-owners
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: auto-owners-claims-representative-internship-summer-2027-6d8900
+- id: national-interstate-insurance-internal-audit-intern-summer-2027-ad1644
+  company: National Interstate Insurance
+  role: Internal Audit Intern - Summer 2027
+  location: Cincinnati, OH
+  link: https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Internal-Audit-Intern---Summer-2027_R9399
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:national-interstate-insurance
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: trustage-actuarial-internship-summer-2027-hybrid-b8e81f
+  company: TruStage
+  role: Actuarial Internship - Summer 2027 - Hybrid
+  location: Madison, WI
+  link: https://trustage.wd1.myworkdayjobs.com/TruStage/job/Madison-WI/Actuarial-Internship---Summer-2027---Hybrid_R-012126
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:trustage
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: voya-summer-2027-actuarial-intern-5ff8fe
+  company: Voya
+  role: Summer 2027 Actuarial Intern
+  location: Remote (US)
+  link: https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/United-States-Remote/Summer-2027-Actuarial-Intern_JR0033152
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:voya
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
