@@ -433,3 +433,12 @@ def test_decide_never_proposes_a_location_change(locations, stored):
     actions = decide(_row(location=stored), _ext(locations=locations))
     assert all(a["action"] not in ("set_location", "location_unresolved")
                for a in actions)
+
+
+def test_decide_ignores_api_date_after_date_added():
+    # 2026-09-01 audit: Workday's "Posted N Days Ago" follows the latest
+    # re-post, so an API date after the row was first seen is not a posting
+    # date and must not become a set_date.
+    ext = _ext(locations=["New York, NY"], date_posted="2026-07-20")
+    assert decide(_row(date_added="2026-07-05"), ext) == [{"action": "confirm"}]
+    assert decide(_row(date_added="2026-07-20"), ext)[0]["action"] == "set_date"

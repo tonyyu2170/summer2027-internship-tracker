@@ -326,6 +326,11 @@ def decide(row, ext):
         # Palantir role whose API date was 2016-10-06. Anything before the
         # cycle is not a posting date, so leave the row's own value alone.
         api_date = None
+    if api_date and api_date > (row.get("date_added") or api_date):
+        # Workday's "Posted N Days Ago" tracks the latest re-post or edit, and
+        # a date after this repo first saw the row cannot be its posting
+        # date (2026-09-01 audit: 27 rows carried one). Leave the row alone.
+        api_date = None
     if api_date and (api_date != row["date_posted"] or row.get("date_estimated")):
         actions.append({"action": "set_date",
                         "old": row["date_posted"], "new": api_date})
