@@ -409,3 +409,18 @@ def test_legend_mentions_opportunity_status_badges(tmp_path):
     legend = next(l for l in text.splitlines() if l.startswith("**Legend**"))
     assert "⏳" in legend
     assert "⚪ Unknown" in legend
+
+
+def test_contents_lists_each_category_with_its_open_count(tmp_path):
+    data_dir = tmp_path / "data"
+    data_dir.mkdir()
+    rows = [_row(id="a", link="https://x.com/a", status="open"),
+            _row(id="b", link="https://x.com/b", status="closed"),
+            _row(id="c", link="https://x.com/c", status="open")]
+    for stem in ("swe", "quant", "data_science", "ai_ml", "hardware", "actuarial"):
+        (data_dir / f"{stem}.yaml").write_text(yaml.safe_dump(rows if stem == "swe" else []))
+    readme = tmp_path / "README.md"
+    render(data_dir, readme)
+    text = readme.read_text()
+    assert "- [Software Engineering](#software-engineering) (2 open)" in text
+    assert "- [Actuarial](#actuarial) (0 open)" in text
