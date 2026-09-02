@@ -791,3 +791,35 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
+- id: national-life-group-actuarial-intern-summer-2027-13a873
+  company: National Life Group
+  role: Actuarial Intern  - Summer 2027
+  location: Addison, VT
+  link: https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4376293009
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:national-life-group
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: rli-corp-actuarial-intern-summer-2027-06e2ae
+  company: RLI Corp
+  role: Actuarial Intern - Summer 2027
+  location: Peoria, IL
+  link: https://wd1.myworkdaysite.com/recruiting/rlicorp/RLI_Corp_Careers/job/Peoria-IL/Actuarial-Intern---Summer-2027_R1800
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:rli-corp
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null

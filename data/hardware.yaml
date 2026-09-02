@@ -5068,6 +5068,55 @@
   status: open
   sources:
   - company:general-matter
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: rtx-mechanical-engineering-intern-summer-2027-0718a9
+  company: RTX
+  role: Mechanical Engineering Intern (Summer 2027)
+  location: Huntsville, AL
+  link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AL-HUNTSVILLE-315--315-Bob-Heath-Dr--BOB-HEATH/Mechanical-Engineering-Intern--Summer-2027-_01871548
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:rtx
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: olsson-electrical-engineering-internship-f-4c7508
+  company: Olsson
+  role: Electrical Engineering Internship - F...
+  location: Oklahoma City, OK
+  link: https://job-boards.greenhouse.io/olsson/jobs/5396167008
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: aerovironment-electrical-engineering-intern-db4275
+  company: AeroVironment
+  role: Electrical Engineering Intern
+  location: Simi Valley, CA
+  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Electrical-Engineering-Intern_8588
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null

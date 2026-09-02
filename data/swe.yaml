@@ -1182,7 +1182,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: false
 - id: latent-defense-software-engineer-intern-0fcd95
@@ -7391,6 +7391,7 @@
   - company:aerovironment
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -16362,6 +16363,22 @@
   status: open
   sources:
   - company:workiva
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: trane-technologies-2027-energy-engineering-intern-826271
+  company: Trane Technologies
+  role: 2027 Energy Engineering Intern
+  location: Livonia, MI
+  link: https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Livonia-Michigan/XMLNAME-2027-Energy-Engineering-Intern_JR-15089
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null

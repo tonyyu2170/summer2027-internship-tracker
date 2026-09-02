@@ -1,17 +1,17 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-09-02 07:52 EST — 1972 open roles. Last scrape: +20 new, 11 closed._
+_Last updated: 2026-09-02 08:32 EST — 1978 open roles. Last scrape: +6 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
 ## Contents
 
-- [Software Engineering](#software-engineering) (794 open)
+- [Software Engineering](#software-engineering) (795 open)
 - [Quantitative Finance](#quantitative-finance) (190 open)
 - [Data Science](#data-science) (242 open)
 - [AI/ML](#aiml) (425 open)
-- [Hardware Engineering](#hardware-engineering) (272 open)
-- [Actuarial](#actuarial) (49 open)
+- [Hardware Engineering](#hardware-engineering) (275 open)
+- [Actuarial](#actuarial) (51 open)
 - [Programs](#programs)
 - [Research](#research)
 - [Competitions](#competitions)
@@ -177,6 +177,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Ameriprise Financial | Technology Intern | [Apply](<https://ameriprise.wd5.myworkdayjobs.com/Ameriprise/job/Minneapolis-Minnesota/Technology-Intern_R26_3537>) | 2026-09-01 | Summer 2027 | BS |
 | AeroVironment | Summer 2027 Software Engineering Intern | [Apply](<https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Software-Engineering-Intern_8611>) | 2026-09-01 | Summer 2027 | BS/MS |
 | AECOM | Engineering Intern - Hiring Event with AECOM - New York City | [Apply](<https://jobs.smartrecruiters.com/AECOM2/744000146735424-engineering-intern-hiring-event-with-aecom-new-york-city>) | 2026-09-01 | Summer 2027 | BS |
+| Trane Technologies | 2027 Energy Engineering Intern | [Apply](<https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Livonia-Michigan/XMLNAME-2027-Energy-Engineering-Intern_JR-15089>) | 2026-08-31 | Summer 2027 | BS |
 | Workiva | Spring 2027 Intern - Sales Development (Account Intelligence) | [Apply](<https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring-2027-Intern---Sales-Development--Account-Intelligence-_R12189>) | 2026-08-31 | Summer 2027 | BS |
 | Workiva | Spring 2027 Intern - Commercial Strategy | [Apply](<https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring-2027-Intern---Commercial-Strategy_R12317>) | 2026-08-31 | Summer 2027 | BS |
 | Workiva | Spring & Summer 2027 Intern - Financial Reporting | [Apply](<https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring---Summer-2027-Intern---Financial-Reporting_R12191>) | 2026-08-31 | Summer 2027 | BS |
@@ -1701,6 +1702,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Olsson | Electrical Engineering Internship - F... | [Apply](<https://job-boards.greenhouse.io/olsson/jobs/5396167008>) | 2026-09-02 | Summer 2027 | BS |
+| RTX | Mechanical Engineering Intern (Summer 2027) | [Apply](<https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AL-HUNTSVILLE-315--315-Bob-Heath-Dr--BOB-HEATH/Mechanical-Engineering-Intern--Summer-2027-_01871548>) | 2026-09-02 | Summer 2027 | BS |
 | Formlabs | Hardware Systems Integration Intern (... | [Apply](<https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004>) | 2026-09-02 | Summer 2027 | BS |
 | Base Power | Hardware Sourcing Intern | [Apply](<https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10>) | 2026-09-02 | Summer 2027 | BS |
 | Olsson | Electrical Engineering Internship - F... | [Apply](<https://job-boards.greenhouse.io/olsson/jobs/5394106008>) | 2026-09-02 | Summer 2027 | BS |
@@ -1708,6 +1711,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Diversified Automation | Hardware Engineering Co-Op | [Apply](<https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146>) | 2026-09-02 | Summer 2027 | BS |
 | Boston Scientific | R&D Hardware Engineer Intern - Interns/Graduates | [Apply](<https://bostonscientific.eightfold.ai/careers/job/563602813483105>) | 2026-09-02 | Summer 2027 | BS |
 | Hermeus | Structures/Mechanical Engineering Intern - Spring/Summer 2027 | [Apply](<https://jobs.lever.co/hermeus/60b5d40a-1065-4bd2-8c72-6b2fb69d4761>) | 2026-09-02 | Summer 2027 | BS |
+| AeroVironment | Electrical Engineering Intern | [Apply](<https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Electrical-Engineering-Intern_8588>) | 2026-09-01 | Summer 2027 | BS |
 | General Matter | Summer 2027 Internship - Mechanical Engineering (HVAC)  | [Apply](<https://job-boards.greenhouse.io/generalmatter/jobs/5377104008>) | 2026-09-01 | Summer 2027 | BS |
 | CAE | Mechanical Engineering Intern ⚠️dup?(cae-mechanical-engineering-intern-76e5ae) | [Apply](<https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Mechanical-Engineering-Intern_123480>) | 2026-09-01 | Summer 2027 | BS |
 | Stanley Black & Decker | Embedded Software Engineering Intern | [Apply](<https://sbdinc.wd1.myworkdayjobs.com/en-US/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Embedded-Engineering-Summer-Intern-2027_REQ-1000052019>) | 2026-09-01 | Summer 2027 | BS |
@@ -2022,6 +2026,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Auto-Owners | Claims Representative Internship - Summer 2027 | [Apply](<https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Duluth-GA/Claims-Representative-Internship---Summer-2027_R_14296>) | 2026-08-27 | Summer 2027 | BS |
 | Voya | Summer 2027 Actuarial Intern | [Apply](<https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/United-States-Remote/Summer-2027-Actuarial-Intern_JR0033152>) | 2026-08-24 | Summer 2027 | BS |
 | National Interstate Insurance | Internal Audit Intern - Summer 2027 | [Apply](<https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Internal-Audit-Intern---Summer-2027_R9399>) | 2026-08-20 | Summer 2027 | BS |
+| National Life Group | Actuarial Intern  - Summer 2027 | [Apply](<https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4376293009>) | 2026-08-19 | Summer 2027 | BS |
+| RLI Corp | Actuarial Intern - Summer 2027 | [Apply](<https://wd1.myworkdaysite.com/recruiting/rlicorp/RLI_Corp_Careers/job/Peoria-IL/Actuarial-Intern---Summer-2027_R1800>) | 2026-08-17 | Summer 2027 | BS |
 | Northwestern Mutual | Actuarial Summer Internship | [Apply](<https://jobs.smartrecruiters.com/NorthwesternMutual/743999658679004>) | 2026-08-11 | Summer 2027 | BS |
 | Cigna | Risk & Underwriting Summer Internship... | [Apply](<https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Risk---Underwriting-Summer-Internship-Program_26008897>) | 2026-08-07 | Summer 2027 | BS |
 | Cigna | Actuarial Internship - Summer 2027 | [Apply](<https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2027_26006087>) | 2026-08-05 | Summer 2027 | BS |
