@@ -165,7 +165,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: gritt-robotics-ml-cloud-infrastructure-engineer-intern-25ffc7
@@ -183,7 +183,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: intel-ai-software-engineering-intern-922c6b
   company: Intel
@@ -200,7 +200,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: intel-ai-software-engineering-intern-4a977c
@@ -212,13 +212,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: exowatt-software-engineering-intern-agent-platform-ai-695290
@@ -288,7 +288,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: databricks-phd-genai-research-scientist-intern-43d2da
@@ -489,7 +489,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: cadent-enterprise-ai-intern-89f80d
@@ -501,11 +501,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: ss-c-healthcare-ai-automation-intern-ef967b
   company: SS&C
@@ -536,7 +536,7 @@
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: output-biosciences-research-intern-phd-machine-learning-e3770a
@@ -609,12 +609,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: cpi-card-group-intern-ai-automation-process-analyst-354a2f
@@ -626,11 +626,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: xsolla-ai-first-engineering-intern-4404e4
   company: Xsolla
@@ -648,7 +648,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: xsolla-ai-first-engineering-intern-6c3c72
@@ -666,7 +666,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: faraday-future-finance-ai-automation-intern-150d72
@@ -682,7 +682,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: firework-ai-content-intern-6d255d
@@ -694,12 +694,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: cotiviti-intern-ai-engineer-800380
@@ -745,7 +745,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: tencent-hunyuan-multimodal-algorithm-researcher-intern-omni-modal-ad40cf
   company: Tencent
@@ -760,7 +760,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: nelnet-intern-ai-engineer-110df6
   company: Nelnet
@@ -825,7 +825,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: scale-ai-ai-builder-intern-e12b31
@@ -837,12 +837,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: eragon-applied-ai-intern-705205
   company: Eragon
@@ -859,7 +859,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: pony-ai-research-intern-deep-learning-4304fd
   company: Pony.ai
@@ -886,12 +886,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: plus-deep-learning-research-intern-2b207c
@@ -950,11 +950,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: quadric-ai-inference-engineer-intern-model-pruning-bc24ec
@@ -981,12 +981,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: eluvio-last-minute-ai-machine-learning-summer-internship-gen-ai-multimodal-7efd7d
@@ -1034,7 +1034,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: constellation-space-graduate-phd-research-intern-machine-learning-1617bd
   company: Constellation Space
@@ -1050,7 +1050,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: tifin-ai-engineering-intern-0fd9b2
@@ -1081,7 +1081,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: asm-global-automation-ai-technology-experience-intern-07541e
   company: ASM Global
@@ -1096,7 +1096,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: cotiviti-intern-generative-ai-agentic-ai-research-ad8464
   company: Cotiviti
@@ -1126,7 +1126,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: workato-intern-ai-engineering-3d23aa
@@ -1159,7 +1159,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: penn-state-ai-ml-research-and-development-intern-412d07
   company: Penn State
@@ -1286,12 +1286,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: fortinet-ai-intern-d9de77
@@ -1325,7 +1325,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: neuralink-machine-learning-engineer-intern-3205d9
@@ -1342,7 +1342,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: samaya-ai-ml-research-intern-2a424e
@@ -1359,7 +1359,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: bytedance-applied-research-intern-ai-safety-s-3a3777
@@ -1430,7 +1430,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: tencent-hunyuan-multimodal-reinforcement-lear-f69dd7
@@ -1481,7 +1481,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: sony-research-intern-on-generative-and-pro-b08a86
   company: Sony
@@ -1514,7 +1514,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: together-ai-systems-research-engineer-intern-gp-9de310
@@ -1526,13 +1526,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: newsbreak-research-intern-agent-rl-training-bf51c7
@@ -1549,7 +1549,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: plusai-research-engineer-intern-mapping-75fcbf
@@ -1561,12 +1561,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: axiomatic-ai-internship-research-uncertainty-q-0cd516
@@ -1600,7 +1600,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: bot-auto-intern-deep-learning-engineer-944a25
@@ -1618,7 +1618,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: nio-ai-robotics-researcher-intern-dexterous-manipulation-1914ad
   company: Nio
@@ -1634,7 +1634,7 @@
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: tenstorrent-cpu-ai-workload-analysis-intern-8f6a10
   company: Tenstorrent
@@ -1666,7 +1666,7 @@
   - github_tracker
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: los-alamos-national-laboratory-computing-ai-division-undergraduate-student-cs-math-stats-fa6991
   company: Los Alamos National Laboratory
@@ -1699,7 +1699,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: tenstorrent-software-engineering-intern-power-modeling-ai-tools-53620e
   company: Tenstorrent
@@ -1715,7 +1715,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: lila-sciences-co-op-ls-ai-ml-scientist-for-protein-engineering-6d9989
   company: Lila Sciences
@@ -1726,11 +1726,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zshah101
   date_added: '2026-07-24'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: lila-sciences-co-op-machine-learning-for-digital-twins-bc4b46
   company: Lila Sciences
@@ -1775,7 +1775,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: campbell-soup-company-agentic-ai-engineer-co-op-ee0647
@@ -1791,7 +1791,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: campbell-soup-company-business-analyst-co-op-da-ai-a715e6
@@ -1807,7 +1807,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: fti-consulting-technology-intern-b8204d
@@ -1828,7 +1828,7 @@
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: two-sigma-ai-research-scientist-intern-2027-summer-df6624
   company: Two Sigma
@@ -2354,7 +2354,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -2362,7 +2362,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: cno-financial-group-artificial-intelligence-information-technology-intern-ai-76fcd0
   company: CNO Financial Group
@@ -2615,14 +2615,14 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-global-e-commerce-search-03670e
   company: TikTok
@@ -2813,7 +2813,7 @@
   - github_tracker:chieler
   - company:the-nuclear-company
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: royal-bank-of-canada-capital-markets-quant-summer-associate-quantitative-technology-services-ef6a3f
   company: Royal Bank of Canada
@@ -2880,12 +2880,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: modal-ml-research-intern-6636a4
   company: Modal
@@ -2903,7 +2903,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: nelnet-agentic-ai-intern-marketing-and-comm-cd8bbb
   company: Nelnet
@@ -2919,7 +2919,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: plusai-machine-learning-engineer-intern-sc-04233a
   company: PlusAI
@@ -2931,11 +2931,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: plusai-deep-learning-research-intern-multi-c9e544
   company: PlusAI
@@ -2947,12 +2947,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: cloudflare-u-s-public-policy-and-ai-innovation-836e8f
   company: Cloudflare
@@ -2964,11 +2964,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: bytedance-research-intern-sdn-traffic-intellig-3ab4b5
   company: ByteDance
@@ -3002,7 +3002,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-content-intelligence-030098
   company: TikTok
@@ -3053,7 +3053,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: architect-labs-member-of-technical-staff-research-intern-fe4601
   company: Architect Labs
@@ -3070,7 +3070,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: pika-research-intern-bs-ms-phd-745f19
   company: Pika
@@ -3089,7 +3089,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: applied-intuition-research-intern-3d-vision-and-generation-self-driving-0cfcb6
   company: Applied Intuition
@@ -3106,7 +3106,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: applied-intuition-research-intern-reinforcement-learning-self-driving-91eb42
   company: Applied Intuition
@@ -3123,7 +3123,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: institute-of-foundation-models-inference-optimization-intern-performance-modeling-d075a3
   company: Institute of Foundation Models
@@ -3140,7 +3140,7 @@
   - chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: quadrillion-research-intern-75d2a5
   company: Quadrillion
@@ -3157,7 +3157,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: cno-financial-group-enterprise-architecture-it-intern-remote-b7799b
   company: CNO Financial Group
@@ -3169,11 +3169,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:cno-financial-group
   date_added: '2026-08-09'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: bytedance-ai-infrastructure-engineer-intern-co-42cd1f
   company: ByteDance
@@ -3197,7 +3197,7 @@
   role: 2027 Campus Recruiting General Intelligence Center Internship Position
   location: Santa Clara, CA
   link: https://job-boards.greenhouse.io/xpengmotors/jobs/8680036002
-  date_posted: '2026-08-05'
+  date_posted: '2026-08-04'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -3206,7 +3206,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-116983
   company: ByteDance
@@ -3319,7 +3319,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: quantbot-technologies-machine-learning-research-engineer-intern-2d85b3
   company: Quantbot Technologies
@@ -3502,7 +3502,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: grant-thornton-tax-technology-intern-summer-2027-20edb9
   company: Grant Thornton
@@ -3558,7 +3558,7 @@
   role: AI Program Manager Intern
   location: San Jose, CA
   link: https://jobs.lever.co/MBRDNA/a5501534-a21b-4e47-a249-37dac374210f
-  date_posted: '2026-08-15'
+  date_posted: '2026-06-01'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -3567,5 +3567,5 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null

@@ -83,7 +83,7 @@
   - github_tracker:zapplyjobs
   - company:capital-one
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: capital-one-current-phd-data-science-internship-summer-2027-b09df0
   company: Capital One
@@ -104,7 +104,7 @@
   - github_tracker:zapplyjobs
   - company:capital-one
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: ensemble-health-partners-data-scientist-intern-fa4cd5
   company: Ensemble Health Partners
@@ -120,7 +120,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: connectprep-data-analyst-internship-d8af88
   company: ConnectPrep
@@ -151,7 +151,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: centerfield-data-science-intern-d02167
@@ -163,13 +163,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-12'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: magnera-corporation-it-data-analyst-intern-41a8c3
@@ -181,11 +181,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-07-23'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: ev-realty-intern-data-analytics-99f549
   company: EV Realty
@@ -200,7 +200,7 @@
   sources:
   - github_tracker
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: bank-of-china-limited-new-york-branch-internal-audit-department-data-analytics-audit-intern-20fa15
@@ -233,7 +233,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: bank-of-china-limited-new-york-branch-internal-audit-department-data-analytics-audit-intern-f76a97
@@ -283,7 +283,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: ardian-data-scientist-intern-a125af
@@ -300,7 +300,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: nrel-graduate-year-round-intern-geospat-4b701b
@@ -334,7 +334,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: evolver-applied-data-science-intern-b3beed
@@ -351,7 +351,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: false
 - id: docugami-data-science-phd-intern-5f8265
@@ -368,7 +368,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
   date_estimated: true
 - id: hirevue-data-science-intern-fully-remote-us-9edf01
@@ -386,7 +386,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: rfcuny-data-analyst-intern-ff0187
   company: RFCUNY
@@ -448,7 +448,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: caterpillar-corporate-intern-digital-and-analytics-summer-2027-80d243
   company: Caterpillar
@@ -531,7 +531,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: marmon-holdings-data-engineering-intern-co-op-9401f4
   company: Marmon Holdings
@@ -548,7 +548,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: american-express-campus-undergraduate-summer-internship-strategy-analytics-credit-fraud-risk-497517
   company: American Express
@@ -699,7 +699,7 @@
   - github_tracker:zshah101
   - company:the-nuclear-company
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-data-platform-analytics-intern-opportunities-for-university-students-redmond-ef32c1
   company: Microsoft
@@ -747,11 +747,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: federal-reserve-system-graduate-intern-statistical-analysis-b2f8e0
   company: Federal Reserve System
@@ -770,7 +770,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: calstart-zero-emission-data-research-intern-d18720
   company: CALSTART
@@ -787,7 +787,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: louisiana-blue-data-modeler-intern-55f88d
   company: Louisiana Blue
@@ -842,7 +842,7 @@
   - company:boeing
   - company:the-boeing-company
   date_added: '2026-08-09'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: pnc-financial-services-data-modeling-and-analytics-undergr-d11d55
   company: PNC Financial Services
@@ -859,7 +859,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-09'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: bytedance-data-lake-infrastructure-and-data-analytics-research-engineer-intern-applied-machine-learning-ark-9d250a
   company: ByteDance
@@ -932,7 +932,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: bytedance-data-lake-infrastructure-data-analytics-research-engineer-intern-applied-machine-learning-ark-5530fd
   company: ByteDance
@@ -983,11 +983,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: conocophillips-trading-analytics-intern-990235
   company: ConocoPhillips
@@ -1005,7 +1005,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: tiktok-data-science-intern-advertisement-team-ae4794
   company: TikTok
@@ -1074,7 +1074,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
 - id: wec-energy-group-renewables-data-analytics-intern-26aaae
   company: WEC Energy Group
@@ -1164,7 +1164,7 @@
   role: Student Engineering Intern - Data Science
   location: Rapid City, SD
   link: https://jobs.smartrecruiters.com/RESPECInc/744000107100902
-  date_posted: '2026-08-11'
+  date_posted: '2026-02-03'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -1173,5 +1173,5 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-01'
   possible_duplicate_of: null
