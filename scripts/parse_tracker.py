@@ -3,6 +3,7 @@
 Pure and network-free, so it lives on the tested side of the boundary
 docs/SCRAPING.md draws. scripts/fetch_trackers.py does the fetching and
 calls in here. Four format families cover all nine trackers."""
+import html as _html
 import json
 import re
 import yaml
@@ -79,8 +80,8 @@ def parse_cvrve_json(text, term_field, term_value, term_out=None):
             continue
         locations = e.get("locations") or []
         posting = {
-            "company": e.get("company_name"),
-            "role": e.get("title"),
+            "company": _clean_text(e.get("company_name")),
+            "role": _clean_text(e.get("title")),
             "location": _resolve_us_location(locations[0]) if locations else None,
             "link": e.get("url"),
             "term": term_out,
@@ -112,8 +113,8 @@ def parse_zshah_json(text, season):
         if e.get("season") != season:
             continue
         posting = {
-            "company": e.get("company"),
-            "role": e.get("title"),
+            "company": _clean_text(e.get("company")),
+            "role": _clean_text(e.get("title")),
             "location": _resolve_us_location(e.get("location")),
             "link": e.get("url"),
             "term": season,
@@ -241,6 +242,17 @@ _DASH_VALUES = {"-", "--", "---", "—"}
 _HREF = re.compile(r'href="([^"]+)"')
 _MD_LINK = re.compile(r"\[[^\]]*\]\((<?)([^)>\s]+)")
 _TAG = re.compile(r"<[^>]+>")
+_ZERO_WIDTH = re.compile(r"[\u200b-\u200d\u2060\ufeff]")
+
+
+def _clean_text(value):
+    """Tag-stripped, entity-decoded text with zero-width characters removed
+    and whitespace collapsed. Trackers copy titles straight out of ATS HTML,
+    so "&amp;" and U+200B reach us verbatim (14 and 3 live rows, 2026-09-01)."""
+    if value is None:
+        return None
+    text = _ZERO_WIDTH.sub("", _html.unescape(_TAG.sub("", str(value))))
+    return re.sub(r"\s+", " ", text).strip()
 _SEASON = r"(?:summer|fall|winter|spring)"
 _OFF_CYCLE = re.compile(rf"\b{_SEASON}\s*20\d\d\b", re.I)
 _YEAR = re.compile(r"\b20\d\d\b")
@@ -388,12 +400,12 @@ def parse_pipe_table(text, reference_date):
             link = _extract_link(cells[header["link"]])
             if not link:
                 continue
-            company = _TAG.sub("", cells[header["company"]]).strip().strip("*")
+            company = _clean_text(cells[header["company"]]).strip("*")
             if company in ("↳", "|↳", ""):
                 company = last_company
             else:
                 last_company = company
-            role = _TAG.sub("", cells[header["role"]]).strip()
+            role = _clean_text(cells[header["role"]])
             closed = "🔒" in role
             role = role.replace("🔒", "").replace("🛂", "").replace("🇺🇸", "")
             role = role.replace("🔥", "").replace("🎓", "").strip()

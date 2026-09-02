@@ -40,7 +40,8 @@ def _discipline(words):
 # and the bug fixed by hand in 0fdf5dd. data_science precedes ai_ml so
 # "Data Scientist" wins over a bare AI match.
 _RULES = [
-    ("hardware", r"hardware|fpga|\basic\b|firmware|silicon|verilog|\brtl\b|embedded|\bpcb\b|analog design|wireless systems|design verification|digital logic"),
+    ("hardware", r"hardware|fpga|\basic\b|firmware|silicon|verilog|\brtl\b|embedded|\bpcb\b|analog design|wireless systems|design verification|digital logic"
+                 r"|\bic design|mixed.signal|\brf\b"),
     ("actuarial", r"actuar"),
     (DROP, r"investment bank|\bibd\b|consult"),
     ("quant", r"quantitative|\bquant\b(?!ity)"),

@@ -322,3 +322,11 @@ def test_applied_scientist_does_not_claim_physical_science_titles():
     assert classify_role(
         "Applied Scientist Intern - Business Integrity - Global Frontier Tech "
         "Recruitment Program - 2027 Start") == "ai_ml"
+
+
+def test_ic_design_and_rf_titles_route_to_hardware():
+    # 2026-09-01: Neuralink's restored "Analog and Mixed-Signal IC Design
+    # Engineer Intern" title fell through to swe on the bare `engineer` match.
+    assert classify_role("Analog and Mixed-Signal IC Design Engineer Intern") == "hardware"
+    assert classify_role("Digital IC Design Engineer Intern") == "hardware"
+    assert classify_role("RF Engineer Intern") == "hardware"

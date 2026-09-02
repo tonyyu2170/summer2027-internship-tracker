@@ -201,3 +201,18 @@ def test_missing_id_on_existing_row_found_by_link_does_not_crash():
     assert len(rows) == 1
     assert rows[0]["status"] == "closed"
     assert summary["closed"] == []
+
+
+def test_incoming_date_after_date_added_does_not_upgrade_estimate():
+    # 2026-09-01 audit: 30 rows carried date_posted later than date_added
+    # because a tracker's own add-date was taken as the posting date.
+    rows, _ = merge_category([], [_report([_posting()])], TODAY)
+    assert rows[0]["date_added"] == TODAY and rows[0]["date_estimated"] is True
+    rows2, _ = merge_category(
+        rows, [_report([_posting(date_posted="2026-07-30")])], "2026-08-01")
+    assert rows2[0]["date_posted"] == TODAY
+    assert rows2[0]["date_estimated"] is True
+    rows3, _ = merge_category(
+        rows, [_report([_posting(date_posted="2026-07-10")])], "2026-08-01")
+    assert rows3[0]["date_posted"] == "2026-07-10"
+    assert rows3[0]["date_estimated"] is False

@@ -62,8 +62,13 @@ def merge_category(existing_rows, fetch_reports, today, on_drop=None):
                 # already real, and an incoming date that's itself flagged
                 # estimated (date_estimated: true) doesn't count as "real"
                 # -- that would just trade one guess for another.
+                # A "real" date later than the day this repo first saw the
+                # link contradicts the row itself (the posting already
+                # existed); that's a tracker's own add-date, not a posting
+                # date, so it doesn't count either.
                 incoming_date = p.get("date_posted")
-                if incoming_date and not p.get("date_estimated") and row.get("date_estimated"):
+                if incoming_date and not p.get("date_estimated") and row.get("date_estimated") \
+                        and incoming_date <= (row.get("date_added") or incoming_date):
                     row["date_posted"] = incoming_date
                     row["date_estimated"] = False
                 continue

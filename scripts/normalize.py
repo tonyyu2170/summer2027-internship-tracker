@@ -10,6 +10,7 @@ _TRACKING_PARAMS = {
     "iis",    # LinkedIn inbound-source tag — safe to strip; Susquehanna
     "lang",   # display language — Susquehanna
     "mode",   # only value in data is "apply"; job id is in the path — Susquehanna
+    "oga",    # SmartRecruiters apply-flow flag; job id is in the path — Bosch
 }
 
 
@@ -56,6 +57,10 @@ def normalize_link(url: str) -> str:
     parts = urlsplit(url.strip())
     scheme = (parts.scheme or "https").lower()
     netloc = parts.netloc.lower()
+    if netloc.startswith("www."):
+        netloc = netloc[4:]           # www. and bare host serve the same page
+    if netloc == "boards.greenhouse.io":
+        netloc = "job-boards.greenhouse.io"   # legacy host; Greenhouse redirects
     path = parts.path.rstrip("/")
     # ByteDance/TikTok serve one requisition under two link forms; trackers
     # emit both (verified 2026-08-09: 14 same-req-id duplicate pairs).
@@ -66,11 +71,25 @@ def normalize_link(url: str) -> str:
     elif m and netloc == "lifeattiktok.com":
         path = f"/position/{m.group(1)}"
     path = _canonical_path(netloc, path)
-    kept = sorted(
+    kept = [
         (k, v) for k, v in parse_qsl(parts.query, keep_blank_values=False)
         if k.lower() not in _TRACKING_PARAMS
-    )
-    return urlunsplit((scheme, netloc, path, urlencode(kept), ""))
+    ]
+    q = dict(kept)
+    # One requisition, several link shapes (verified 2026-09-01: 40+
+    # same-req duplicate pairs). Collapse each onto the board's own page.
+    if netloc == "job-boards.greenhouse.io" and path == "/embed/job_app" \
+            and q.get("for") and q.get("token"):
+        path = f"/{q['for']}/jobs/{q['token']}"
+        kept = [(k, v) for k, v in kept if k not in ("for", "token")]
+    elif netloc == "apply.careers.microsoft.com" and path == "/careers" and q.get("pid"):
+        path, kept = f"/careers/job/{q['pid']}", []
+    # A gh_jid that just repeats the req id already in the path adds nothing;
+    # one that differs (a company page listing many reqs) is the identity.
+    kept = [(k, v) for k, v in kept
+            if not (k == "gh_jid" and v
+                    and re.search(rf"(?<![0-9]){re.escape(v)}(?![0-9])", path))]
+    return urlunsplit((scheme, netloc, path, urlencode(sorted(kept)), ""))
 
 
 _LEGAL_SUFFIX = re.compile(

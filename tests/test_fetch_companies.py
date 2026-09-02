@@ -208,8 +208,8 @@ def test_run_skips_a_link_already_tracked_where_classify_role_would_file_it(
                                 "Quantitative Researcher Intern")
     # Both links are already tracked under quant, the watch-list category.
     monkeypatch.setattr("fetch_companies.known_link_categories", lambda: {
-        "https://boards.greenhouse.io/acme/jobs/0": "quant",
-        "https://boards.greenhouse.io/acme/jobs/1": "quant"})
+        "https://job-boards.greenhouse.io/acme/jobs/0": "quant",
+        "https://job-boards.greenhouse.io/acme/jobs/1": "quant"})
 
     drops = run("quant", out_dir, config_path, tmp_path / "state.yaml",
                 fetch=lambda _: payload)

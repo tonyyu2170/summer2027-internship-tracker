@@ -4,7 +4,7 @@ from normalize import normalize_link, normalize_company, canonicalize_location, 
 def test_normalize_link_strips_tracking_and_trailing_slash():
     a = normalize_link("HTTPS://Boards.Greenhouse.io/janestreet/jobs/123/?utm_source=x&gh_src=y")
     b = normalize_link("https://boards.greenhouse.io/janestreet/jobs/123")
-    assert a == b == "https://boards.greenhouse.io/janestreet/jobs/123"
+    assert a == b == "https://job-boards.greenhouse.io/janestreet/jobs/123"
 
 
 def test_normalize_link_keeps_meaningful_query_sorted():
@@ -155,3 +155,31 @@ def test_iis_lang_mode_are_stripped():
 def test_identity_survives_alongside_tracking():
     assert normalize_link("https://boards.greenhouse.io/x/jobs/1?gh_jid=598&jr_id=69fa") \
         == normalize_link("https://boards.greenhouse.io/x/jobs/1?gh_jid=598")
+
+
+def test_normalize_link_collapses_greenhouse_host_embed_and_redundant_gh_jid():
+    # 2026-09-01 data audit: same-req rows split across the legacy
+    # boards. host, the embed/job_app form, a redundant gh_jid and www.
+    canon = normalize_link("https://job-boards.greenhouse.io/point72/jobs/7297613002")
+    assert normalize_link(
+        "https://boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002") == canon
+    assert normalize_link(
+        "https://boards.greenhouse.io/embed/job_app?for=point72&jr_id=6a07&token=7297613002") == canon
+    # an embed with no board token can't be mapped and stays distinct
+    assert normalize_link("https://boards.greenhouse.io/embed/job_app?token=8049938") != canon
+    # a gh_jid that is NOT the path's own id still distinguishes reqs
+    assert normalize_link("https://boards.greenhouse.io/x/jobs/1?gh_jid=7964062") \
+        != normalize_link("https://boards.greenhouse.io/x/jobs/1?gh_jid=8059837")
+    assert normalize_link("https://akunacapital.com/careers/job/8021481/?gh_jid=8021481") \
+        == normalize_link("https://www.akunacapital.com/careers/job/8021481/")
+    assert normalize_link("https://x.com/careers/job/1234/?gh_jid=123") \
+        != normalize_link("https://x.com/careers/job/1234")
+
+
+def test_normalize_link_strips_smartrecruiters_oga_and_microsoft_search_form():
+    assert normalize_link(
+        "https://jobs.smartrecruiters.com/BoschGroup/744000140317669-adas-intern?oga=true") \
+        == normalize_link("https://jobs.smartrecruiters.com/BoschGroup/744000140317669")
+    assert normalize_link(
+        "https://apply.careers.microsoft.com/careers?query=intern&start=0&pid=1970393556922929") \
+        == normalize_link("https://apply.careers.microsoft.com/careers/job/1970393556922929")

@@ -702,3 +702,22 @@ def test_parse_pipe_table_zapplyjobs_real_fixture_covers_every_age_format():
     unknown = by_link["https://job-boards.greenhouse.io/pdtpartners/jobs/8077685"]
     assert "date_posted" not in unknown
     assert "date_estimated" not in unknown
+
+
+def test_parse_pipe_table_decodes_entities_and_strips_zero_width():
+    text = """
+| Company | Role | Location | Link |
+| --- | --- | --- | --- |
+| Tencent\u200b | \u200bAlgorithm Intern - Ads &amp; Signal  (Omni)\u200b | Palo Alto, CA | <a href="https://e.com/1">Apply</a> |
+"""
+    p = parse_pipe_table(text, REF)[0]
+    assert p["company"] == "Tencent"
+    assert p["role"] == "Algorithm Intern - Ads & Signal (Omni)"
+
+
+def test_parse_cvrve_json_decodes_entities_in_title():
+    raw = json.dumps([{"company_name": "TikTok", "title": "ML Intern (Ads &amp; Measurement)",
+                       "locations": ["San Jose, CA"], "url": "https://e.com/2",
+                       "terms": ["Summer 2027"], "active": True}])
+    p = parse_cvrve_json(raw, term_field="terms", term_value="Summer 2027")[0]
+    assert p["role"] == "ML Intern (Ads & Measurement)"
