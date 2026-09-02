@@ -55,6 +55,8 @@ Applied via `canonicalize_location`/`is_us_location` (word-boundary matching, no
 
 - `run_scrape_merge.py` validates and can drop only rows *newly created that run* against `ROW_SCHEMA`. Existing rows loaded from disk are never auto-deleted for failing schema — a malformed hand-edit is kept as-is (with a warning) rather than silently removing a previously-tracked listing.
 - `merge.py` looks up existing rows via `.get("id")`, not bracket-indexing, so a hand-corrupted row missing `id` degrades gracefully instead of crashing the category's run.
+- `run_scrape_merge.py` keeps a *new* link that two reports file under different categories in one run in exactly one of them (`classify_role`'s verdict, else the first report in sorted order; counted as `cross_category_duplicate`). Without this a full tracker re-parse landed 46 same-id twins (2026-09-02). A link already on disk in another category is still only reported by `check_integrity`, never moved.
+- `fetch_companies.py` caps concurrent Workday pulls at 4 and retries HTTP 429 after 15/30/60s: at ~950 Workday boards the 16-thread prefetch rate-limited 113 tenants in one run.
 - `generate_readme.py` escapes `|`/newlines in scraped text and uses angle-bracket link destinations (`[Apply](<url>)`) so scraped company/role/location text can't corrupt the Markdown table. Same-date rows render newest-scraped-first (tie-broken by list position, since `merge.py` always appends new rows to the end).
 
 ## Hard rules
