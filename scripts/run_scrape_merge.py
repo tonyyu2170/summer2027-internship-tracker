@@ -16,7 +16,9 @@ from pathlib import Path
 from datetime import date, datetime
 from collections import Counter, defaultdict
 
+from categorize import classify_role
 from merge import merge_category
+from normalize import normalize_link
 from schema import validate_row
 from check_integrity import check_integrity
 from generate_readme import render, ROOT, CATEGORIES
@@ -94,6 +96,39 @@ def _drop_invalid_rows(rows: list, summary: dict, on_drop=None) -> list:
     return kept
 
 
+def _dedupe_across_categories(by_cat: dict, on_drop=None) -> None:
+    """Keep each incoming link in one category only.
+
+    merge_category dedupes within a category, and fetch_trackers' known-link
+    guard only sees links already in data/, so two sources filing the same
+    new posting under different categories in one run (a tracker's upstream
+    category vs. classify_role on a slightly different title) used to land
+    two rows with the same id. The classifier's own verdict on the role wins
+    when it names one of the contending categories; otherwise the first
+    report in sorted order keeps the link. Mutates by_cat in place.
+    """
+    seen = {}
+    for category, reports in by_cat.items():
+        for report in reports:
+            for posting in report.get("postings", []):
+                seen.setdefault(normalize_link(posting["link"]), []).append(
+                    (category, report, posting))
+    for link, hits in seen.items():
+        categories = {category for category, _, _ in hits}
+        if len(categories) < 2:
+            continue
+        verdict = classify_role(hits[0][2].get("role"))
+        keep = verdict if verdict in categories else hits[0][0]
+        kept = False
+        for category, report, posting in hits:
+            if category == keep and not kept:
+                kept = True
+                continue
+            report["postings"].remove(posting)
+            if on_drop:
+                on_drop(report.get("source_entity", "unknown"), "cross_category_duplicate")
+
+
 def _load_rows(path: Path) -> list:
     return (yaml.safe_load(path.read_text()) or []) if path.exists() else []
 
@@ -139,6 +174,7 @@ def run(reports_dir, data_dir=None, readme_path=None, state_path=None):
                 "the tracker supports only the configured README categories"
             )
         by_cat[report["category"]].append(_filter_postings(report, record_drop))
+    _dedupe_across_categories(by_cat, record_drop)
 
     # Merge into a buffer first. The integrity check has to see the whole
     # post-merge picture before anything is persisted, so the write loop runs

@@ -346,9 +346,12 @@ def _posting(**kw):
     return p
 
 
-def test_run_reports_cross_category_duplicate_link_and_keeps_both_rows(tmp_path):
-    """Two incoming reports in different categories carrying the same link.
-    merge_category dedupes only within a category, so it cannot see this."""
+def test_run_files_a_new_link_arriving_in_two_categories_once(tmp_path):
+    """Two incoming reports in different categories carrying the same NEW
+    link. merge_category dedupes only within a category, so the run itself
+    keeps the link in one category (classify_role's verdict, else the first
+    report) instead of landing two rows with the same id. A link already on
+    disk in another category is still only reported (next test)."""
     data_dir = _empty_data_dir(tmp_path)
     reports_dir = tmp_path / "reports"
     reports_dir.mkdir()
@@ -362,10 +365,11 @@ def test_run_reports_cross_category_duplicate_link_and_keeps_both_rows(tmp_path)
 
     summaries = run(reports_dir, data_dir, tmp_path / "README.md")
 
-    assert any("duplicate link" in v for v in summaries["_integrity"])
-    # Reported, never auto-deleted: both rows must survive on disk.
+    assert not any("duplicate link" in v for v in summaries["_integrity"])
+    # Neither report names a category classify_role can confirm, so the
+    # first report (sorted order: a.json, swe) keeps the link.
     assert len(yaml.safe_load((data_dir / "swe.yaml").read_text())) == 1
-    assert len(yaml.safe_load((data_dir / "quant.yaml").read_text())) == 1
+    assert len(yaml.safe_load((data_dir / "quant.yaml").read_text())) == 0
 
 
 def test_run_reports_duplicate_against_an_untouched_category_on_disk(tmp_path):
@@ -410,3 +414,22 @@ def test_run_reports_no_violations_on_a_clean_run(tmp_path):
     summaries = run(reports_dir, data_dir, tmp_path / "README.md")
 
     assert summaries["_integrity"] == []
+
+
+def test_run_keeps_a_link_filed_under_two_categories_in_one_run_only_once(tmp_path):
+    data_dir = _empty_data_dir(tmp_path)
+    reports_dir = tmp_path / "reports"
+    reports_dir.mkdir()
+    posting = {"company": "Amex", "role": "AI Engineer Intern", "location": "New York, NY",
+               "link": "https://x.com/ai", "term": "Summer 2027", "degree": ["BS"], "source": "t"}
+    (reports_dir / "a_swe.json").write_text(json.dumps(
+        {"category": "swe", "source_entity": "github_tracker:a", "postings": [posting]}))
+    (reports_dir / "b_ai_ml.json").write_text(json.dumps(
+        {"category": "ai_ml", "source_entity": "github_tracker:b",
+         "postings": [{**posting, "role": "AI Engineer Intern, Enterprise Tech"}]}))
+
+    run(reports_dir, data_dir, tmp_path / "README.md")
+
+    swe = yaml.safe_load((data_dir / "swe.yaml").read_text())
+    ai_ml = yaml.safe_load((data_dir / "ai_ml.yaml").read_text())
+    assert (len(swe), len(ai_ml)) == (0, 1)          # classify_role says ai_ml
