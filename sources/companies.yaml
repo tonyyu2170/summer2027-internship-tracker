@@ -973,6 +973,9 @@ swe:
   - {ats: workday, company: OPENLANE, url: 'https://kar.wd1.myworkdayjobs.com/OPENLANE_Careers', verified: false}
   - {ats: workday, company: Professional Case Management, url: 'https://procasemanagement.wd1.myworkdayjobs.com/PCM', verified: false}
   - {ats: lever, company: Sprinter Health, url: SprinterHealth, verified: false}
+  - {ats: greenhouse, company: Kalshi, url: kalshi}
+  - {ats: ashby, company: Polymarket, url: polymarket}
+  - {ats: custom, company: Trading Technologies, url: 'https://www.tradingtechnologies.com/careers/', verified: false}
 quant:
   - {ats: custom, company: Jane Street, url: 'https://www.janestreet.com/join-jane-street/open-roles/'}
   - {ats: custom, company: Citadel Securities, url: 'https://www.citadelsecurities.com/careers/details/'}
@@ -1089,6 +1092,49 @@ quant:
   - {ats: greenhouse, company: Xantium, url: xantium}
   - {ats: workable, company: Capula, url: 'https://apply.workable.com/capula-investment-management-ltd'}
   - {ats: greenhouse, company: Interactive Brokers, url: ibkr, verified: false}
+  - {ats: greenhouse, company: Man Group, url: mangroup}
+  - {ats: greenhouse, company: Magnetar Capital, url: magnetar}
+  - {ats: greenhouse, company: Engineers Gate, url: engineersgate}
+  - {ats: greenhouse, company: Clear Street, url: clearstreet}
+  - {ats: greenhouse, company: Simplex Trading, url: simplextrading}
+  - {ats: greenhouse, company: Crabel Capital Management, url: crabel}
+  - {ats: greenhouse, company: Tanius Technology, url: tanius}
+  - {ats: greenhouse, company: B2C2, url: b2c2}
+  - {ats: lever, company: Valkyrie Trading, url: valkyrietrading}
+  - {ats: ashby, company: Keyrock, url: keyrock}
+  - {ats: greenhouse, company: Tudor Investment Corporation, url: tudorgroup}
+  - {ats: ashby, company: Teza Technologies, url: teza-technologies}
+  - {ats: greenhouse, company: Auros, url: aurosglobal}
+  - {ats: greenhouse, company: Graham Capital Management, url: grahamcapitalmanagement}
+  - {ats: greenhouse, company: Capstone Investment Advisors, url: capstoneinvestmentadvisors}
+  - {ats: greenhouse, company: Quantbot Technologies, url: quantbot-technologies}
+  - {ats: ashby, company: Talos, url: Talos-Trading}
+  - {ats: greenhouse, company: Qube Research & Technologies, url: quberesearchandtechnologies}
+  - {ats: ashby, company: Scientech Research, url: scientech-research}
+  - {ats: lever, company: Wintermute, url: wintermute-trading}
+  - {ats: greenhouse, company: Acadian Asset Management, url: acadianassetmanagementllc}
+  - {ats: workday, company: AllianceBernstein, url: 'https://abglobal.wd1.myworkdayjobs.com/abcampuscareers'}
+  - {ats: workday, company: Mizuho Americas, url: 'https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas'}
+  - {ats: workday, company: MUFG, url: 'https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers'}
+  - {ats: workday, company: Fortress Investment Group, url: 'https://fortress.wd503.myworkdayjobs.com/Careers'}
+  - {ats: greenhouse, company: Winton, url: winton}
+  - {ats: greenhouse, company: HBK Capital Management, url: hbkcapitalmanagement}
+  - {ats: greenhouse, company: Quadrature Capital, url: quadraturecapital}
+  - {ats: greenhouse, company: GSR, url: gsrmarkets}
+  - {ats: greenhouse, company: Galaxy Digital, url: galaxydigitalservices}
+  - {ats: workable, company: Trexquant Investment, url: 'https://apply.workable.com/trexquant'}
+  - {ats: workable, company: Caxton Associates, url: 'https://apply.workable.com/caxton'}
+  - {ats: custom, company: Brevan Howard, url: 'https://wd3.myworkdaysite.com/recruiting/brevanhoward/BH_ExternalCareers', verified: false}
+  - {ats: custom, company: Deutsche Bank, url: 'https://db.recsolu.com/job_boards/1?locale=en', verified: false}
+  - {ats: custom, company: Nomura, url: 'https://www.nomura.com/americas/careers/', verified: false}
+  - {ats: custom, company: Ellington Management Group, url: 'https://www.ellington.com/careers/', verified: false}
+  - {ats: icims, company: GTS, url: 'https://careers-gtsx.icims.com'}
+  - {ats: custom, company: XR Trading, url: 'https://www.xrtrading.com/careers/', verified: false}
+  - {ats: custom, company: Verition Fund Management, url: 'https://www.verition.com/careers', verified: false}
+  - {ats: custom, company: Hudson Bay Capital Management, url: 'https://www.hudsonbaycapital.com/careers', verified: false}
+  - {ats: custom, company: Tibra Capital, url: 'https://www.tibra.com/careers/', verified: false}
+  - {ats: custom, company: Systematica Investments, url: 'https://www.systematica.com/careers/', verified: false}
+  - {ats: custom, company: Cumberland (DRW), url: 'https://www.drw.com/work-at-drw/listings', verified: false}
 data_science:
   - {ats: icims, company: Affinius Capital, url: 'https://careers-affiniuscapital.icims.com'}
   - {ats: custom, company: AlixPartners, url: 'https://www.alixpartners.com'}
@@ -2364,6 +2410,7 @@ hardware:
   - {ats: greenhouse, company: 10x Genomics, url: 10xgenomics, verified: false}
   - {ats: workday, company: Symbotic, url: 'https://symbotic.wd1.myworkdayjobs.com/Symbotic', verified: false}
   - {ats: workday, company: Legrand, url: 'https://milestone.wd1.myworkdayjobs.com/Milestone_External', verified: false}
+  - {ats: ashby, company: Exegy, url: exegy}
 actuarial:
   - company: Oliver Wyman
     provider: phenom_job_page
