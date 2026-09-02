@@ -41,7 +41,7 @@ swe:
   - {ats: workday, company: CAE, url: 'https://cae.wd3.myworkdayjobs.com/career'}
   - {ats: lever, company: CALSTART, url: calstart}
   - {ats: workday, company: Capital One, url: 'https://capitalone.wd12.myworkdayjobs.com/Capital_One'}
-  - {ats: workday, company: Carnegie Mellon University, url: 'https://cmu.wd5.myworkdayjobs.com/cmu'}
+  - {ats: workday, company: Carnegie Mellon University, url: 'https://cmu.wd5.myworkdayjobs.com/cmu', verified: false}
   - {ats: ashby, company: Centerfield, url: centerfield}
   - {ats: greenhouse, company: Charles River Analytics, url: charlesriveranalytics90}
   - {ats: workday, company: Chevron, url: 'https://chevron.wd5.myworkdayjobs.com/university'}
@@ -84,7 +84,7 @@ swe:
   - {ats: ashby, company: Homebase, url: homebase}
   - {ats: custom, company: HyperLight, url: 'https://apply.workable.com'}
   - {ats: custom, company: IDEXX, url: 'https://careers.idexx.com/us/en'}
-  - {ats: greenhouse, company: iHerb, url: iherb}
+  - {ats: greenhouse, company: iHerb, url: iherb, verified: false}
   - {ats: greenhouse, company: Impact, url: impact}
   - {ats: workday, company: Ivy Tech Community College, url: 'https://ivytech.wd1.myworkdayjobs.com/ivy_tech_careers'}
   - {ats: icims, company: Joby Aviation, url: 'https://careers-jobyaviation.icims.com'}
@@ -156,7 +156,7 @@ swe:
   - {ats: custom, company: Vertiv, url: 'https://egup.fa.us2.oraclecloud.com'}
   - {ats: custom, company: VetsEZ, url: 'https://vetsez.breezy.hr'}
   - {ats: smartrecruiters, company: Western Digital, url: 'https://jobs.smartrecruiters.com/WesternDigital'}
-  - {ats: ashby, company: Apple, url: apple}
+  - {ats: ashby, company: Apple, url: apple, verified: false}
   - {ats: custom, company: Netflix, url: 'https://netflix.com/careers'}
   - {ats: custom, company: JPMorganChase, url: 'https://jpmorganchase.com/careers'}
   - {ats: custom, company: Goldman Sachs, url: 'https://goldmansachs.com/careers'}
@@ -202,7 +202,7 @@ swe:
   - {ats: workday, company: Apollo Global, url: 'https://athene.wd5.myworkdayjobs.com/Apollo_Careers'}
   - {ats: custom, company: Carlyle, url: 'https://carlyle.com/careers', verified: false}
   - {ats: custom, company: Ares Management, url: 'https://aresmgmt.com/careers', verified: false}
-  - {ats: ashby, company: ICE, url: ice}
+  - {ats: ashby, company: ICE, url: ice, verified: false}
   - {ats: workday, company: Nasdaq, url: 'https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site'}
   - {ats: custom, company: Cboe, url: 'https://cboe.com/careers'}
   - {ats: custom, company: OCC, url: 'https://theocc.com/careers', verified: false}
@@ -241,7 +241,7 @@ swe:
   - {ats: custom, company: Dell, url: 'https://dell.com/careers'}
   - {ats: custom, company: Cisco, url: 'https://cisco.com/careers', verified: false}
   - {ats: custom, company: Autodesk, url: 'https://autodesk.com/careers', verified: false}
-  - {ats: ashby, company: PTC, url: ptc}
+  - {ats: ashby, company: PTC, url: ptc, verified: false}
   - {ats: custom, company: Ansys, url: 'https://ansys.com/careers'}
   - {ats: custom, company: MathWorks, url: 'https://mathworks.com/careers', verified: false}
   - {ats: custom, company: Wolfram, url: 'https://wolfram.com/careers'}
@@ -282,7 +282,7 @@ swe:
   - {ats: greenhouse, company: HubSpot, url: hubspot}
   - {ats: workday, company: Zendesk, url: 'https://zendesk.wd1.myworkdayjobs.com/zendesk'}
   - {ats: greenhouse, company: Intercom, url: intercom}
-  - {ats: ashby, company: Front, url: front}
+  - {ats: ashby, company: Front, url: front, verified: false}
   - {ats: custom, company: Gong, url: 'https://gong.io/careers'}
   - {ats: lever, company: Outreach, url: outreach}
   - {ats: greenhouse, company: Salesloft, url: salesloft}
@@ -365,7 +365,7 @@ swe:
   - {ats: workday, company: Nike, url: 'https://nike.wd1.myworkdayjobs.com/nke'}
   - {ats: greenhouse, company: Stitch Fix, url: stitchfix}
   - {ats: greenhouse, company: Faire, url: faire}
-  - {ats: ashby, company: Whatnot, url: whatnot}
+  - {ats: ashby, company: Whatnot, url: whatnot, verified: false}
   - {ats: greenhouse, company: Mercari US, url: mercari}
   - {ats: custom, company: Warby Parker, url: 'https://warbyparker.com/careers', verified: false}
   - {ats: custom, company: Peloton, url: 'https://onepeloton.com/careers', verified: false}
@@ -374,11 +374,11 @@ swe:
   - {ats: greenhouse, company: Oura, url: oura}
   - {ats: greenhouse, company: Calm, url: calm}
   - {ats: greenhouse, company: Headspace, url: hs}
-  - {ats: ashby, company: Ro, url: ro}
+  - {ats: ashby, company: Ro, url: ro, verified: false}
   - {ats: custom, company: Hims & Hers, url: 'https://hims.com/careers', verified: false}
   - {ats: ashby, company: Cedar, url: cedar}
   - {ats: greenhouse, company: Zocdoc, url: zocdoc}
-  - {ats: ashby, company: Color, url: color}
+  - {ats: ashby, company: Color, url: color, verified: false}
   - {ats: workday, company: Devoted Health, url: 'https://devoted.wd1.myworkdayjobs.com/Devoted'}
   - {ats: ashby, company: Headway, url: headway}
   - {ats: custom, company: Spring Health, url: 'https://springhealth.com/careers'}
@@ -401,8 +401,8 @@ swe:
   - {ats: custom, company: Disney, url: 'https://thewaltdisneycompany.com'}
   - {ats: custom, company: Paramount, url: 'https://paramount.com/careers', verified: false}
   - {ats: greenhouse, company: Fox, url: fox}
-  - {ats: ashby, company: The New York Times, url: nytco}
-  - {ats: ashby, company: The Washington Post, url: washingtonpost}
+  - {ats: ashby, company: The New York Times, url: nytco, verified: false}
+  - {ats: ashby, company: The Washington Post, url: washingtonpost, verified: false}
   - {ats: ashby, company: Substack, url: substack}
   - {ats: ashby, company: Patreon, url: patreon}
   - {ats: greenhouse, company: GoFundMe, url: gofundme}
@@ -411,7 +411,7 @@ swe:
   - {ats: greenhouse, company: SeatGeek, url: seatgeek}
   - {ats: custom, company: DraftKings, url: 'https://draftkings.com'}
   - {ats: greenhouse, company: FanDuel, url: fanduel}
-  - {ats: greenhouse, company: Underdog, url: underdogfantasy}
+  - {ats: greenhouse, company: Underdog, url: underdogfantasy, verified: false}
   - {ats: greenhouse, company: PrizePicks, url: prizepicks}
   - {ats: custom, company: Ford, url: 'https://ford.com/careers', verified: false}
   - {ats: custom, company: General Motors, url: 'https://gm.com/careers', verified: false}
@@ -445,7 +445,7 @@ swe:
   - {ats: greenhouse, company: Blend, url: blend}
   - {ats: greenhouse, company: Hippo, url: hippo70}
   - {ats: custom, company: Lemonade, url: 'https://lemonade.com'}
-  - {ats: ashby, company: Root Insurance, url: joinroot}
+  - {ats: ashby, company: Root Insurance, url: joinroot, verified: false}
   - {ats: custom, company: Next Insurance, url: 'https://nextinsurance.com/careers'}
   - {ats: custom, company: Coalition, url: 'https://coalitioninc.com/careers'}
   - {ats: greenhouse, company: At-Bay, url: atbay}
@@ -459,7 +459,7 @@ swe:
   - {ats: custom, company: Starbucks, url: 'https://starbucks.com/careers', verified: false}
   - {ats: custom, company: Domino's, url: 'https://dominos.com'}
   - {ats: custom, company: Toast, url: 'https://toasttab.com/careers', verified: false}
-  - {ats: ashby, company: Olo, url: olo}
+  - {ats: ashby, company: Olo, url: olo, verified: false}
   - {ats: custom, company: Delta Air Lines, url: 'https://delta.com/careers', verified: false}
   - {ats: custom, company: United Airlines, url: 'https://united.com/careers', verified: false}
   - {ats: custom, company: American Airlines, url: 'https://aa.com/careers', verified: false}
@@ -1100,7 +1100,7 @@ data_science:
   - {ats: custom, company: Qlik, url: 'https://qlik.com/careers'}
   - {ats: custom, company: Domo, url: 'https://domo.com/careers'}
   - {ats: greenhouse, company: Starburst, url: starburst}
-  - {ats: greenhouse, company: ClickHouse, url: clickhouse}
+  - {ats: greenhouse, company: ClickHouse, url: clickhouse, verified: false}
   - {ats: ashby, company: Materialize, url: materialize}
   - {ats: custom, company: SAS, url: 'https://sas.com/careers'}
   - {ats: custom, company: Posit, url: 'https://posit.co'}
@@ -1467,7 +1467,7 @@ ai_ml:
   - {ats: custom, company: Skild AI, url: 'https://skild.ai'}
   - {ats: greenhouse, company: World Labs, url: worldlabs}
   - {ats: greenhouse, company: Waymo, url: waymo}
-  - {ats: ashby, company: C3 AI, url: c3}
+  - {ats: ashby, company: C3 AI, url: c3, verified: false}
   - {ats: custom, company: H2O.ai, url: 'https://h2o.ai/careers'}
   - {ats: greenhouse, company: Domino Data Lab, url: dominodatalab}
   - {ats: greenhouse, company: Recursion, url: recursionpharmaceuticals}
@@ -2031,7 +2031,7 @@ hardware:
   - {ats: workday, company: Juniper Networks, url: 'https://hpe.wd5.myworkdayjobs.com/Jobsathpe'}
   - {ats: custom, company: Arista Networks, url: 'https://arista.com/careers'}
   - {ats: custom, company: Keysight, url: 'https://keysight.com/careers', verified: false}
-  - {ats: ashby, company: NI, url: ni}
+  - {ats: ashby, company: NI, url: ni, verified: false}
   - {ats: custom, company: Tektronix, url: 'https://tek.com/careers'}
   - {ats: custom, company: Garmin, url: 'https://garmin.com/careers'}
   - {ats: custom, company: Bose, url: 'https://bose.com'}
@@ -2089,7 +2089,7 @@ hardware:
   - {ats: custom, company: Sanmina, url: 'https://sanmina.com/careers'}
   - {ats: custom, company: Celestica US, url: 'https://celestica.com/careers'}
   - {ats: custom, company: Amphenol, url: 'https://amphenol.com/careers', verified: false}
-  - {ats: ashby, company: TE Connectivity, url: te}
+  - {ats: ashby, company: TE Connectivity, url: te, verified: false}
   - {ats: custom, company: Molex, url: 'https://molex.com/careers', verified: false}
   - {ats: custom, company: Vicor, url: 'https://vicorpower.com/careers'}
   - {ats: custom, company: Monolithic Power Systems, url: 'https://monolithicpower.com/careers'}
@@ -2312,7 +2312,7 @@ actuarial:
   - {ats: custom, company: State Farm, url: 'https://statefarm.com/careers'}
   - {ats: custom, company: Progressive, url: 'https://progressive.com/careers', verified: false}
   - {ats: custom, company: GEICO, url: 'https://geico.com/careers'}
-  - {ats: ashby, company: The Cigna Group, url: thecignagroup}
+  - {ats: ashby, company: The Cigna Group, url: thecignagroup, verified: false}
   - {ats: custom, company: CVS Health, url: 'https://cvshealth.com/careers'}
   - {ats: custom, company: UnitedHealth Group, url: 'https://unitedhealthgroup.com/careers'}
   - {ats: custom, company: Humana, url: 'https://humana.com/careers', verified: false}
@@ -2321,7 +2321,7 @@ actuarial:
   - {ats: custom, company: Molina Healthcare, url: 'https://molinahealthcare.com/careers'}
   - {ats: workday, company: HCSC, url: 'https://hcsc.wd1.myworkdayjobs.com/HCSC_External'}
   - {ats: custom, company: Highmark Health, url: 'https://highmark.com'}
-  - {ats: ashby, company: RGA, url: rgare}
+  - {ats: ashby, company: RGA, url: rgare, verified: false}
   - {ats: custom, company: Munich Re US, url: 'https://munichre.com/careers'}
   - {ats: custom, company: Swiss Re, url: 'https://swissre.com/careers', verified: false}
   - {ats: custom, company: Gen Re, url: 'https://genre.com/careers'}
@@ -2356,7 +2356,7 @@ actuarial:
   - {ats: custom, company: Zurich NA, url: 'https://zurichna.com/careers'}
   - {ats: workday, company: AIG, url: 'https://aig.wd1.myworkdayjobs.com/aig'}
   - {ats: custom, company: Markel, url: 'https://markel.com/careers'}
-  - {ats: ashby, company: W. R. Berkley, url: berkley}
+  - {ats: ashby, company: W. R. Berkley, url: berkley, verified: false}
   - {ats: custom, company: CNA, url: 'https://cna.com/careers', verified: false}
   - {ats: greenhouse, company: The Hanover, url: hanover}
   - {ats: custom, company: Selective, url: 'https://selective.com/careers'}
