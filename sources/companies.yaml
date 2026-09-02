@@ -164,7 +164,7 @@ swe:
   - {ats: custom, company: Morgan Stanley, url: 'https://morganstanley.com/careers'}
   - {ats: custom, company: Bank of America, url: 'https://bankofamerica.com/careers'}
   - {ats: custom, company: Discover, url: 'https://discover.com/careers'}
-  - {ats: custom, company: Visa, url: 'https://visa.com/careers'}
+  - {ats: workday, company: Visa, url: 'https://visa.wd5.myworkdayjobs.com/Visa'}
   - {ats: custom, company: Mastercard, url: 'https://mastercard.com/careers', verified: false}
   - {ats: custom, company: PayPal, url: 'https://paypal.com/careers', verified: false}
   - {ats: greenhouse, company: Block, url: block}
@@ -184,27 +184,27 @@ swe:
   - {ats: custom, company: Circle, url: 'https://circle.com/careers'}
   - {ats: greenhouse, company: Fireblocks, url: fireblocks}
   - {ats: custom, company: Chainalysis, url: 'https://chainalysis.com/careers'}
-  - {ats: custom, company: Anchorage Digital, url: 'https://anchorage.com/careers'}
-  - {ats: custom, company: Wealthfront, url: 'https://wealthfront.com/careers'}
+  - {ats: lever, company: Anchorage Digital, url: anchorage}
+  - {ats: lever, company: Wealthfront, url: wealthfront}
   - {ats: greenhouse, company: Betterment, url: betterment}
   - {ats: custom, company: Addepar, url: 'https://addepar.com/careers'}
   - {ats: greenhouse, company: Carta, url: carta}
-  - {ats: custom, company: iCapital, url: 'https://icapital.com/careers'}
+  - {ats: greenhouse, company: iCapital, url: icapitalnetwork}
   - {ats: custom, company: BlackRock, url: 'https://blackrock.com/careers'}
   - {ats: custom, company: Fidelity, url: 'https://fidelity.com/careers', verified: false}
   - {ats: custom, company: Vanguard, url: 'https://vanguard.com/careers'}
-  - {ats: custom, company: State Street, url: 'https://statestreet.com/careers'}
+  - {ats: workday, company: State Street, url: 'https://statestreet.wd1.myworkdayjobs.com/Global'}
   - {ats: custom, company: BNY, url: 'https://bny.com/careers'}
-  - {ats: custom, company: Northern Trust, url: 'https://northerntrust.com/careers'}
+  - {ats: workday, company: Northern Trust, url: 'https://ntrs.wd1.myworkdayjobs.com/northerntrust'}
   - {ats: custom, company: Charles Schwab, url: 'https://schwab.com'}
   - {ats: custom, company: PIMCO, url: 'https://pimco.com'}
   - {ats: custom, company: Blackstone, url: 'https://blackstone.com/careers', verified: false}
   - {ats: custom, company: KKR, url: 'https://kkr.com/careers'}
-  - {ats: custom, company: Apollo Global, url: 'https://apollo.com/careers'}
+  - {ats: workday, company: Apollo Global, url: 'https://athene.wd5.myworkdayjobs.com/Apollo_Careers'}
   - {ats: custom, company: Carlyle, url: 'https://carlyle.com/careers', verified: false}
   - {ats: custom, company: Ares Management, url: 'https://aresmgmt.com/careers', verified: false}
   - {ats: ashby, company: ICE, url: ice}
-  - {ats: custom, company: Nasdaq, url: 'https://nasdaq.com/careers'}
+  - {ats: workday, company: Nasdaq, url: 'https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site'}
   - {ats: custom, company: Cboe, url: 'https://cboe.com/careers'}
   - {ats: custom, company: OCC, url: 'https://theocc.com/careers', verified: false}
   - {ats: custom, company: FINRA, url: 'https://finra.org/careers'}
@@ -213,30 +213,30 @@ swe:
   - {ats: custom, company: Moody's, url: 'https://moodys.com/careers'}
   - {ats: custom, company: FactSet, url: 'https://factset.com/careers'}
   - {ats: custom, company: Bloomberg, url: 'https://bloomberg.com/careers', verified: false}
-  - {ats: custom, company: LSEG, url: 'https://lseg.com/careers'}
+  - {ats: workday, company: LSEG, url: 'https://lseg.wd3.myworkdayjobs.com/Careers'}
   - {ats: custom, company: MarketAxess, url: 'https://marketaxess.com/careers'}
   - {ats: custom, company: Tradeweb, url: 'https://tradeweb.com/careers', verified: false}
-  - {ats: custom, company: Broadridge, url: 'https://broadridge.com/careers'}
+  - {ats: workday, company: Broadridge, url: 'https://broadridge.wd5.myworkdayjobs.com/Careers'}
   - {ats: custom, company: Clearwater Analytics, url: 'https://clearwateranalytics.com/careers'}
-  - {ats: custom, company: Arcesium, url: 'https://arcesium.com/careers'}
+  - {ats: greenhouse, company: Arcesium, url: arcesiumllc}
   - {ats: ashby, company: Dimensional, url: dimensional}
   - {ats: custom, company: USAA, url: 'https://usaa.com/careers'}
   - {ats: custom, company: Truist, url: 'https://truist.com/careers'}
   - {ats: custom, company: Fifth Third, url: 'https://53.com/careers'}
   - {ats: custom, company: Citizens, url: 'https://citizensbank.com'}
-  - {ats: custom, company: M&T Bank, url: 'https://mtb.com/careers'}
+  - {ats: workday, company: M&T Bank, url: 'https://mtb.wd5.myworkdayjobs.com/MTB'}
   - {ats: custom, company: Huntington, url: 'https://huntington.com/careers', verified: false}
-  - {ats: custom, company: Ally, url: 'https://ally.com/careers'}
+  - {ats: workday, company: Ally, url: 'https://ally.wd1.myworkdayjobs.com/Ally'}
   - {ats: custom, company: Synchrony, url: 'https://synchrony.com'}
   - {ats: custom, company: Jefferies, url: 'https://jefferies.com/careers'}
   - {ats: custom, company: TIAA, url: 'https://tiaa.org/careers', verified: false}
-  - {ats: custom, company: Empower, url: 'https://empower.com/careers'}
-  - {ats: custom, company: Wellington, url: 'https://wellington.com/careers/'}
+  - {ats: workday, company: Empower, url: 'https://empower.wd12.myworkdayjobs.com/empower'}
+  - {ats: workday, company: Wellington, url: 'https://wellington.wd5.myworkdayjobs.com/External'}
   - {ats: custom, company: SAP America, url: 'https://sap.com/careers', verified: false}
   - {ats: custom, company: Adobe, url: 'https://adobe.com/careers', verified: false}
   - {ats: custom, company: Intuit, url: 'https://intuit.com/careers', verified: false}
   - {ats: custom, company: ServiceNow, url: 'https://servicenow.com/careers', verified: false}
-  - {ats: custom, company: Workday, url: 'https://workday.com/careers'}
+  - {ats: workday, company: Workday, url: 'https://workday.wd5.myworkdayjobs.com/Workday'}
   - {ats: custom, company: IBM, url: 'https://ibm.com/careers'}
   - {ats: custom, company: HPE, url: 'https://hpe.com/careers', verified: false}
   - {ats: custom, company: Dell, url: 'https://dell.com/careers'}
@@ -250,16 +250,16 @@ swe:
   - {ats: custom, company: athenahealth, url: 'https://athenahealth.com/careers', verified: false}
   - {ats: custom, company: Veeva, url: 'https://veeva.com/careers'}
   - {ats: custom, company: Guidewire, url: 'https://guidewire.com/careers'}
-  - {ats: custom, company: Palo Alto Networks, url: 'https://paloaltonetworks.com/careers'}
-  - {ats: custom, company: CrowdStrike, url: 'https://crowdstrike.com/careers'}
+  - {ats: workday, company: Palo Alto Networks, url: 'https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers'}
+  - {ats: workday, company: CrowdStrike, url: 'https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers'}
   - {ats: greenhouse, company: Zscaler, url: zscaler}
   - {ats: greenhouse, company: Okta, url: okta}
   - {ats: custom, company: CyberArk, url: 'https://cyberark.com/careers'}
   - {ats: custom, company: SentinelOne, url: 'https://sentinelone.com/careers'}
   - {ats: custom, company: Rapid7, url: 'https://rapid7.com/careers'}
-  - {ats: custom, company: Tenable, url: 'https://tenable.com/careers'}
-  - {ats: custom, company: Qualys, url: 'https://qualys.com/careers'}
-  - {ats: custom, company: Proofpoint, url: 'https://proofpoint.com/careers'}
+  - {ats: greenhouse, company: Tenable, url: tenableinc}
+  - {ats: workday, company: Qualys, url: 'https://qualys.wd5.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Proofpoint, url: 'https://proofpoint.wd5.myworkdayjobs.com/proofpointcareers'}
   - {ats: ashby, company: Wiz, url: wiz}
   - {ats: ashby, company: Snyk, url: snyk}
   - {ats: custom, company: Datadog, url: 'https://datadoghq.com/careers'}
@@ -267,7 +267,7 @@ swe:
   - {ats: custom, company: Dynatrace, url: 'https://dynatrace.com/careers'}
   - {ats: custom, company: Splunk, url: 'https://splunk.com/careers'}
   - {ats: greenhouse, company: Elastic, url: elastic}
-  - {ats: custom, company: Grafana Labs, url: 'https://grafana.com/careers'}
+  - {ats: greenhouse, company: Grafana Labs, url: grafanalabs}
   - {ats: greenhouse, company: PagerDuty, url: pagerduty}
   - {ats: custom, company: Atlassian, url: 'https://atlassian.com/careers'}
   - {ats: greenhouse, company: Asana, url: asana}
@@ -275,17 +275,17 @@ swe:
   - {ats: greenhouse, company: Airtable, url: airtable}
   - {ats: ashby, company: Linear, url: linear}
   - {ats: custom, company: Zoom, url: 'https://zoom.us/careers'}
-  - {ats: custom, company: RingCentral, url: 'https://ringcentral.com/careers'}
+  - {ats: workday, company: RingCentral, url: 'https://ringcentral.wd1.myworkdayjobs.com/RingCentral_Careers'}
   - {ats: greenhouse, company: Twilio, url: twilio}
   - {ats: greenhouse, company: Braze, url: braze}
   - {ats: greenhouse, company: Iterable, url: iterable}
   - {ats: greenhouse, company: Klaviyo, url: klaviyo}
   - {ats: greenhouse, company: HubSpot, url: hubspot}
-  - {ats: custom, company: Zendesk, url: 'https://zendesk.com/careers'}
-  - {ats: custom, company: Intercom, url: 'https://intercom.com/careers'}
+  - {ats: workday, company: Zendesk, url: 'https://zendesk.wd1.myworkdayjobs.com/zendesk'}
+  - {ats: greenhouse, company: Intercom, url: intercom}
   - {ats: ashby, company: Front, url: front}
   - {ats: custom, company: Gong, url: 'https://gong.io/careers'}
-  - {ats: custom, company: Outreach, url: 'https://outreach.io/careers'}
+  - {ats: lever, company: Outreach, url: outreach}
   - {ats: greenhouse, company: Salesloft, url: salesloft}
   - {ats: custom, company: Highspot, url: 'https://highspot.com/careers'}
   - {ats: custom, company: Seismic, url: 'https://seismic.com/careers'}
@@ -318,10 +318,10 @@ swe:
   - {ats: ashby, company: Docker, url: docker}
   - {ats: custom, company: GitHub, url: 'https://github.com/careers'}
   - {ats: greenhouse, company: GitLab, url: gitlab}
-  - {ats: custom, company: Sourcegraph, url: 'https://sourcegraph.com/careers'}
+  - {ats: greenhouse, company: Sourcegraph, url: sourcegraph91}
   - {ats: greenhouse, company: Postman, url: postman}
-  - {ats: custom, company: Kong, url: 'https://konghq.com/careers'}
-  - {ats: custom, company: Apollo GraphQL, url: 'https://apollographql.com/careers'}
+  - {ats: ashby, company: Kong, url: kong}
+  - {ats: ashby, company: Apollo GraphQL, url: apollo-graphql}
   - {ats: greenhouse, company: Chainguard, url: chainguard}
   - {ats: ashby, company: Teleport, url: goteleport}
   - {ats: greenhouse, company: Tailscale, url: tailscale}
@@ -333,7 +333,7 @@ swe:
   - {ats: custom, company: Grubhub, url: 'https://grubhub.com/careers'}
   - {ats: custom, company: Gopuff, url: 'https://gopuff.com/careers', verified: false}
   - {ats: greenhouse, company: Airbnb, url: airbnb}
-  - {ats: custom, company: Expedia Group, url: 'https://expediagroup.com/careers'}
+  - {ats: workday, company: Expedia Group, url: 'https://expedia.wd108.myworkdayjobs.com/search'}
   - {ats: custom, company: Booking.com US, url: 'https://booking.com/careers'}
   - {ats: greenhouse, company: Tripadvisor, url: tripadvisor}
   - {ats: ashby, company: Hopper, url: hopper}
@@ -341,7 +341,7 @@ swe:
   - {ats: custom, company: Turo, url: 'https://turo.com/careers', verified: false}
   - {ats: greenhouse, company: Pinterest, url: pinterest}
   - {ats: custom, company: Snap, url: 'https://snap.com/jobs'}
-  - {ats: custom, company: Reddit, url: 'https://redditinc.com/careers'}
+  - {ats: greenhouse, company: Reddit, url: reddit}
   - {ats: greenhouse, company: Discord, url: discord}
   - {ats: custom, company: Spotify US, url: 'https://spotify.com/careers'}
   - {ats: custom, company: Electronic Arts, url: 'https://ea.com/careers'}
@@ -349,21 +349,21 @@ swe:
   - {ats: greenhouse, company: Riot Games, url: riotgames}
   - {ats: greenhouse, company: Epic Games, url: epicgames}
   - {ats: custom, company: Unity, url: 'https://unity.com/careers'}
-  - {ats: custom, company: PlayStation, url: 'https://playstation.com/careers'}
+  - {ats: greenhouse, company: PlayStation, url: siei}
   - {ats: custom, company: Shopify US, url: 'https://shopify.com/careers'}
   - {ats: custom, company: Etsy, url: 'https://etsy.com/careers'}
   - {ats: custom, company: eBay, url: 'https://ebay.com/careers'}
   - {ats: custom, company: Wayfair, url: 'https://wayfair.com/careers'}
   - {ats: custom, company: Chewy, url: 'https://chewy.com/careers'}
   - {ats: custom, company: Walmart Global Tech, url: 'https://walmart.com/jobs'}
-  - {ats: custom, company: Target, url: 'https://target.com/careers'}
+  - {ats: workday, company: Target, url: 'https://target.wd5.myworkdayjobs.com/targetcareers'}
   - {ats: custom, company: Best Buy, url: 'https://bestbuy.com/careers', verified: false}
-  - {ats: custom, company: Home Depot, url: 'https://homedepot.com/careers'}
+  - {ats: workday, company: Home Depot, url: 'https://homedepot.wd5.myworkdayjobs.com/CareerDepot'}
   - {ats: custom, company: Lowe's, url: 'https://lowes.com/careers', verified: false}
   - {ats: custom, company: Costco, url: 'https://costco.com/careers'}
   - {ats: custom, company: Kroger, url: 'https://kroger.com/careers', verified: false}
   - {ats: custom, company: Nordstrom, url: 'https://nordstrom.com'}
-  - {ats: custom, company: Nike, url: 'https://nike.com/careers'}
+  - {ats: workday, company: Nike, url: 'https://nike.wd1.myworkdayjobs.com/nke'}
   - {ats: greenhouse, company: Stitch Fix, url: stitchfix}
   - {ats: greenhouse, company: Faire, url: faire}
   - {ats: ashby, company: Whatnot, url: whatnot}
@@ -372,33 +372,33 @@ swe:
   - {ats: custom, company: Peloton, url: 'https://onepeloton.com/careers', verified: false}
   - {ats: ashby, company: Strava, url: strava}
   - {ats: ashby, company: Whoop, url: whoop}
-  - {ats: custom, company: Oura, url: 'https://ouraring.com/careers'}
+  - {ats: greenhouse, company: Oura, url: oura}
   - {ats: greenhouse, company: Calm, url: calm}
-  - {ats: custom, company: Headspace, url: 'https://headspace.com/careers'}
+  - {ats: greenhouse, company: Headspace, url: hs}
   - {ats: ashby, company: Ro, url: ro}
   - {ats: custom, company: Hims & Hers, url: 'https://hims.com/careers', verified: false}
   - {ats: ashby, company: Cedar, url: cedar}
   - {ats: greenhouse, company: Zocdoc, url: zocdoc}
   - {ats: ashby, company: Color, url: color}
-  - {ats: custom, company: Devoted Health, url: 'https://devoted.com/careers'}
+  - {ats: workday, company: Devoted Health, url: 'https://devoted.wd1.myworkdayjobs.com/Devoted'}
   - {ats: ashby, company: Headway, url: headway}
   - {ats: custom, company: Spring Health, url: 'https://springhealth.com/careers'}
   - {ats: ashby, company: Lyra Health, url: lyrahealth}
-  - {ats: custom, company: Included Health, url: 'https://includedhealth.com/careers'}
+  - {ats: lever, company: Included Health, url: includedhealth}
   - {ats: greenhouse, company: Omada Health, url: omadahealth}
   - {ats: greenhouse, company: Sword Health, url: swordhealth}
-  - {ats: custom, company: Hinge Health, url: 'https://hingehealth.com/careers'}
+  - {ats: ashby, company: Hinge Health, url: hinge-health}
   - {ats: greenhouse, company: Maven Clinic, url: mavenclinic}
   - {ats: ashby, company: Commure, url: commure}
   - {ats: custom, company: Innovaccer, url: 'https://innovaccer.com/careers'}
   - {ats: custom, company: Health Catalyst, url: 'https://healthcatalyst.com'}
   - {ats: custom, company: MEDITECH, url: 'https://meditech.com/careers'}
-  - {ats: custom, company: WellSky, url: 'https://wellsky.com/careers'}
-  - {ats: custom, company: PointClickCare, url: 'https://pointclickcare.com/careers'}
-  - {ats: custom, company: Notable, url: 'https://notablehealth.com/careers'}
+  - {ats: workday, company: WellSky, url: 'https://wellsky.wd1.myworkdayjobs.com/WellSkyCareers'}
+  - {ats: lever, company: PointClickCare, url: pointclickcare}
+  - {ats: ashby, company: Notable, url: notable}
   - {ats: custom, company: Verizon, url: 'https://verizon.com/careers', verified: false}
   - {ats: custom, company: AT&T, url: 'https://att.com/careers', verified: false}
-  - {ats: custom, company: T-Mobile, url: 'https://t-mobile.com/careers'}
+  - {ats: workday, company: T-Mobile, url: 'https://tmobile.wd1.myworkdayjobs.com/External'}
   - {ats: custom, company: Disney, url: 'https://thewaltdisneycompany.com'}
   - {ats: custom, company: Paramount, url: 'https://paramount.com/careers', verified: false}
   - {ats: greenhouse, company: Fox, url: fox}
@@ -408,7 +408,7 @@ swe:
   - {ats: ashby, company: Patreon, url: patreon}
   - {ats: greenhouse, company: GoFundMe, url: gofundme}
   - {ats: custom, company: Eventbrite, url: 'https://eventbrite.com/careers'}
-  - {ats: custom, company: StubHub, url: 'https://stubhub.com/careers'}
+  - {ats: greenhouse, company: StubHub, url: stubhubinc}
   - {ats: greenhouse, company: SeatGeek, url: seatgeek}
   - {ats: custom, company: DraftKings, url: 'https://draftkings.com'}
   - {ats: greenhouse, company: FanDuel, url: fanduel}
@@ -416,18 +416,18 @@ swe:
   - {ats: greenhouse, company: PrizePicks, url: prizepicks}
   - {ats: custom, company: Ford, url: 'https://ford.com/careers', verified: false}
   - {ats: custom, company: General Motors, url: 'https://gm.com/careers', verified: false}
-  - {ats: custom, company: Toyota North America, url: 'https://toyota.com/careers'}
+  - {ats: workday, company: Toyota North America, url: 'https://toyota.wd503.myworkdayjobs.com/TMNA'}
   - {ats: custom, company: FedEx, url: 'https://fedex.com/careers'}
   - {ats: custom, company: UPS, url: 'https://ups.com/careers', verified: false}
   - {ats: greenhouse, company: Flexport, url: flexport}
   - {ats: greenhouse, company: Motive, url: gomotive}
   - {ats: greenhouse, company: project44, url: project44}
   - {ats: greenhouse, company: FourKites, url: fourkites}
-  - {ats: custom, company: EasyPost, url: 'https://easypost.com/careers'}
+  - {ats: lever, company: EasyPost, url: easypost-2}
   - {ats: custom, company: ShipBob, url: 'https://shipbob.com/careers'}
-  - {ats: custom, company: Stord, url: 'https://stord.com/careers'}
+  - {ats: workday, company: Stord, url: 'https://stord.wd503.myworkdayjobs.com/Stord_External_Career'}
   - {ats: greenhouse, company: Vannevar Labs, url: vannevarlabs}
-  - {ats: custom, company: Booz Allen, url: 'https://boozallen.com/careers'}
+  - {ats: workday, company: Booz Allen, url: 'https://bah.wd1.myworkdayjobs.com/BAH_Jobs'}
   - {ats: custom, company: CACI, url: 'https://caci.com'}
   - {ats: custom, company: SAIC, url: 'https://saic.com/careers', verified: false}
   - {ats: custom, company: Peraton, url: 'https://peraton.com/careers'}
@@ -437,14 +437,14 @@ swe:
   - {ats: greenhouse, company: Udemy, url: udemy}
   - {ats: greenhouse, company: Khan Academy, url: khanacademy}
   - {ats: custom, company: Quizlet, url: 'https://quizlet.com/careers', verified: false}
-  - {ats: custom, company: Brilliant, url: 'https://brilliant.org/careers'}
+  - {ats: lever, company: Brilliant, url: brilliant}
   - {ats: ashby, company: Rev, url: rev}
   - {ats: custom, company: Vimeo, url: 'https://vimeo.com/careers'}
   - {ats: ashby, company: Mux, url: mux}
   - {ats: ashby, company: LiveKit, url: livekit}
   - {ats: custom, company: Compass, url: 'https://compass.com/careers'}
   - {ats: greenhouse, company: Blend, url: blend}
-  - {ats: custom, company: Hippo, url: 'https://hippo.com/careers'}
+  - {ats: greenhouse, company: Hippo, url: hippo70}
   - {ats: custom, company: Lemonade, url: 'https://lemonade.com'}
   - {ats: ashby, company: Root Insurance, url: joinroot}
   - {ats: custom, company: Next Insurance, url: 'https://nextinsurance.com/careers'}
@@ -454,7 +454,7 @@ swe:
   - {ats: greenhouse, company: Ethos, url: ethos}
   - {ats: custom, company: Applied Systems, url: 'https://appliedsystems.com/careers'}
   - {ats: custom, company: Vertafore, url: 'https://vertafore.com/careers'}
-  - {ats: custom, company: Duck Creek, url: 'https://duckcreek.com/careers'}
+  - {ats: workday, company: Duck Creek, url: 'https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers'}
   - {ats: custom, company: Procore, url: 'https://procore.com/careers'}
   - {ats: custom, company: Bentley Systems, url: 'https://bentley.com/careers'}
   - {ats: custom, company: Starbucks, url: 'https://starbucks.com/careers', verified: false}
@@ -486,7 +486,7 @@ quant:
   - {ats: greenhouse, company: Chicago Trading Company, url: chicagotradingcampus}
   - {ats: custom, company: Citadel, url: 'https://www.citadel.com'}
   - {ats: custom, company: Citadel Securities, url: 'https://www.citadelsecurities.com'}
-  - {ats: custom, company: Citi, url: 'https://jobs.citi.com'}
+  - {ats: workday, company: Citi, url: 'https://citi.wd5.myworkdayjobs.com/2'}
   - {ats: workday, company: CME Group, url: 'https://cmegroup.wd1.myworkdayjobs.com/cme_careers'}
   - {ats: greenhouse, company: Cubist Systematic Strategies, url: point72}
   - {ats: custom, company: D. E. Shaw, url: 'https://www.deshaw.com'}
@@ -525,14 +525,14 @@ quant:
   - {ats: greenhouse, company: Tower Research Capital, url: towerresearchcapital}
   - {ats: greenhouse, company: TransMarket Group, url: transmarketgroup}
   - {ats: greenhouse, company: TransMarketGroup, url: transmarketgroup}
-  - {ats: custom, company: Trillium, url: 'https://www.trlm.com'}
+  - {ats: greenhouse, company: Trillium, url: trillium}
   - {ats: custom, company: Two Sigma, url: 'https://careers.twosigma.com'}
   - {ats: greenhouse, company: University of Virginia Investment Management Company (UVIMCO), url: uvimco}
   - {ats: greenhouse, company: Virtu Financial, url: virtu}
   - {ats: custom, company: Voloridge, url: 'https://www.voloridge.com'}
   - {ats: greenhouse, company: Voloridge Investment Management, url: voloridgeinvestmentmanagement}
   - {ats: greenhouse, company: Walleye Capital, url: walleyecapital-external-students}
-  - {ats: custom, company: XTX Markets, url: 'https://xtxmarkets.com/careers'}
+  - {ats: greenhouse, company: XTX Markets, url: xtxmarketstechnologies}
   - {ats: greenhouse, company: Squarepoint Capital, url: squarepointcapital}
   - {ats: ashby, company: The Voleon Group, url: voleon}
   - {ats: greenhouse, company: WorldQuant, url: worldquant}
@@ -543,7 +543,7 @@ quant:
   - {ats: custom, company: Wolverine Trading, url: 'https://wolve.com/careers', verified: false}
   - {ats: custom, company: PEAK6, url: 'https://peak6.com/careers'}
   - {ats: greenhouse, company: Geneva Trading, url: genevatrading}
-  - {ats: custom, company: Headlands Technologies, url: 'https://headlandstech.com/careers'}
+  - {ats: greenhouse, company: Headlands Technologies, url: headlandstechnologiesllc}
   - {ats: greenhouse, company: Gelber Group, url: gelbergroup}
   - {ats: custom, company: Quantlab, url: 'https://quantlab.com/careers', verified: false}
   - {ats: greenhouse, company: Vatic Labs, url: vaticlabs}
@@ -584,19 +584,19 @@ data_science:
   - {ats: workday, company: The Boeing Company, url: 'https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS'}
   - {ats: custom, company: Wells Fargo, url: 'https://wd1.myworkdaysite.com'}
   - {ats: ashby, company: Snowflake, url: snowflake}
-  - {ats: custom, company: Nielsen, url: 'https://nielsen.com/careers'}
+  - {ats: smartrecruiters, company: Nielsen, url: 'https://jobs.smartrecruiters.com/TheNielsenCompany'}
   - {ats: greenhouse, company: '84.51', url: '8451'}
   - {ats: custom, company: Epsilon, url: 'https://epsilon.com/careers'}
   - {ats: custom, company: Experian, url: 'https://experian.com/careers'}
   - {ats: custom, company: TransUnion, url: 'https://transunion.com/careers', verified: false}
-  - {ats: custom, company: FICO, url: 'https://fico.com/careers'}
+  - {ats: workday, company: FICO, url: 'https://fico.wd1.myworkdayjobs.com/External'}
   - {ats: custom, company: Verisk, url: 'https://verisk.com/careers'}
   - {ats: custom, company: CoStar, url: 'https://costargroup.com/careers', verified: false}
   - {ats: custom, company: Zillow, url: 'https://zillow.com/careers', verified: false}
   - {ats: custom, company: Opendoor, url: 'https://opendoor.com/careers'}
   - {ats: greenhouse, company: Gallup, url: gallup}
   - {ats: ashby, company: Morning Consult, url: morningconsult}
-  - {ats: custom, company: IQVIA, url: 'https://iqvia.com/careers'}
+  - {ats: workday, company: IQVIA, url: 'https://iqvia.wd1.myworkdayjobs.com/IQVIA'}
   - {ats: custom, company: Flatiron Health, url: 'https://flatiron.com/careers'}
   - {ats: greenhouse, company: Komodo Health, url: komodohealth}
   - {ats: custom, company: Datavant, url: 'https://datavant.com/jobs'}
@@ -622,9 +622,9 @@ data_science:
   - {ats: custom, company: Anaconda, url: 'https://anaconda.com/careers'}
   - {ats: greenhouse, company: Dremio, url: dremio}
   - {ats: custom, company: Teradata, url: 'https://teradata.com/careers', verified: false}
-  - {ats: custom, company: Cloudera, url: 'https://cloudera.com/careers'}
+  - {ats: workday, company: Cloudera, url: 'https://cloudera.wd5.myworkdayjobs.com/External_Career'}
   - {ats: custom, company: Informatica, url: 'https://informatica.com/careers'}
-  - {ats: custom, company: Alteryx, url: 'https://alteryx.com/careers'}
+  - {ats: workday, company: Alteryx, url: 'https://alteryx.wd108.myworkdayjobs.com/AlteryxCareers'}
 ai_ml:
   - {ats: ashby, company: Adaptive, url: adaptivesecurity}
   - {ats: ashby, company: Applied Intuition, url: applied}
@@ -700,10 +700,10 @@ ai_ml:
   - {ats: ashby, company: Cohere, url: cohere}
   - {ats: ashby, company: Perplexity, url: perplexity}
   - {ats: ashby, company: Character.AI, url: character}
-  - {ats: custom, company: Runway, url: 'https://runwayml.com/careers'}
+  - {ats: ashby, company: Runway, url: runway-ml}
   - {ats: ashby, company: ElevenLabs, url: elevenlabs}
   - {ats: ashby, company: Suno, url: suno}
-  - {ats: custom, company: Luma AI, url: 'https://lumalabs.ai/careers'}
+  - {ats: ashby, company: Luma AI, url: lumaai}
   - {ats: custom, company: Hugging Face, url: 'https://huggingface.co/careers'}
   - {ats: custom, company: Surge AI, url: 'https://surgehq.ai/careers'}
   - {ats: ashby, company: Mercor, url: mercor}
@@ -723,7 +723,7 @@ ai_ml:
   - {ats: ashby, company: Abridge, url: abridge}
   - {ats: ashby, company: OpenEvidence, url: openevidence}
   - {ats: ashby, company: Ambience Healthcare, url: ambiencehealthcare}
-  - {ats: custom, company: Anysphere (Cursor), url: 'https://cursor.com/careers'}
+  - {ats: ashby, company: Anysphere (Cursor), url: cursor}
   - {ats: custom, company: Windsurf, url: 'https://windsurf.com/careers'}
   - {ats: ashby, company: Replit, url: replit}
   - {ats: ashby, company: Poolside, url: poolside}
@@ -738,11 +738,11 @@ ai_ml:
   - {ats: ashby, company: C3 AI, url: c3}
   - {ats: custom, company: H2O.ai, url: 'https://h2o.ai/careers'}
   - {ats: greenhouse, company: Domino Data Lab, url: dominodatalab}
-  - {ats: custom, company: Recursion, url: 'https://recursion.com/careers'}
+  - {ats: greenhouse, company: Recursion, url: recursionpharmaceuticals}
   - {ats: ashby, company: Insitro, url: insitro}
   - {ats: greenhouse, company: Isomorphic Labs, url: isomorphiclabs}
   - {ats: custom, company: Tempus, url: 'https://tempus.com/careers', verified: false}
-  - {ats: custom, company: Verily, url: 'https://verily.com/careers'}
+  - {ats: workday, company: Verily, url: 'https://verily.wd1.myworkdayjobs.com/Verily_Careers'}
   - {ats: ashby, company: Writer, url: writer}
   - {ats: custom, company: Contextual AI, url: 'https://contextual.ai/careers'}
   - {ats: custom, company: Kumo, url: 'https://kumo.ai/careers'}
@@ -750,7 +750,7 @@ ai_ml:
   - {ats: greenhouse, company: Otter.ai, url: otter}
   - {ats: greenhouse, company: Descript, url: descript}
   - {ats: greenhouse, company: Kodiak Robotics, url: kodiak}
-  - {ats: custom, company: Torc Robotics, url: 'https://torc.ai/careers'}
+  - {ats: greenhouse, company: Torc Robotics, url: torcrobotics}
   - {ats: greenhouse, company: Databento, url: databento}
 hardware:
   - {ats: workday, company: Agilent Technologies, url: 'https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers'}
@@ -817,7 +817,7 @@ hardware:
   - {ats: custom, company: Micron, url: 'https://micron.com/careers'}
   - {ats: custom, company: onsemi, url: 'https://onsemi.com/careers', verified: false}
   - {ats: custom, company: Qorvo, url: 'https://qorvo.com/careers', verified: false}
-  - {ats: custom, company: Lattice Semiconductor, url: 'https://latticesemi.com/careers'}
+  - {ats: workday, company: Lattice Semiconductor, url: 'https://latticesemi.wd5.myworkdayjobs.com/latticesemiconductorscareers'}
   - {ats: custom, company: Synaptics, url: 'https://synaptics.com/careers'}
   - {ats: custom, company: MACOM, url: 'https://macom.com/careers'}
   - {ats: custom, company: Rambus, url: 'https://rambus.com/careers'}
@@ -825,32 +825,32 @@ hardware:
   - {ats: custom, company: Credo, url: 'https://credosemi.com/careers'}
   - {ats: custom, company: Synopsys, url: 'https://synopsys.com/careers'}
   - {ats: custom, company: Arm, url: 'https://arm.com'}
-  - {ats: custom, company: SiFive, url: 'https://sifive.com/careers'}
+  - {ats: workday, company: SiFive, url: 'https://sifive.wd1.myworkdayjobs.com/sifivecareers'}
   - {ats: custom, company: Groq, url: 'https://groq.com/careers'}
   - {ats: ashby, company: Cerebras, url: cerebras}
   - {ats: custom, company: SambaNova, url: 'https://sambanova.ai/careers'}
-  - {ats: custom, company: d-Matrix, url: 'https://d-matrix.ai/careers'}
+  - {ats: ashby, company: d-Matrix, url: d-Matrix}
   - {ats: greenhouse, company: Lightmatter, url: lightmatter}
   - {ats: custom, company: Ayar Labs, url: 'https://ayarlabs.com/careers'}
   - {ats: greenhouse, company: PsiQuantum, url: psiquantum}
   - {ats: greenhouse, company: IonQ, url: ionq}
-  - {ats: custom, company: Rigetti, url: 'https://rigetti.com/careers'}
+  - {ats: lever, company: Rigetti, url: rigetti}
   - {ats: custom, company: Quantinuum, url: 'https://quantinuum.com/careers'}
-  - {ats: custom, company: Atom Computing, url: 'https://atom-computing.com/careers'}
-  - {ats: custom, company: QuEra, url: 'https://quera.com/careers'}
+  - {ats: lever, company: Atom Computing, url: atomcomputing}
+  - {ats: greenhouse, company: QuEra, url: queracomputinginc}
   - {ats: custom, company: GlobalFoundries, url: 'https://gf.com/careers'}
   - {ats: custom, company: SK hynix America, url: 'https://skhynix.com/careers', verified: false}
   - {ats: custom, company: Seagate, url: 'https://seagate.com/careers'}
-  - {ats: custom, company: KLA, url: 'https://kla.com/careers'}
+  - {ats: workday, company: KLA, url: 'https://kla.wd1.myworkdayjobs.com/Search'}
   - {ats: custom, company: Applied Materials, url: 'https://appliedmaterials.com/careers', verified: false}
   - {ats: custom, company: Lam Research, url: 'https://lamresearch.com/careers'}
   - {ats: custom, company: ASML US, url: 'https://asml.com/careers'}
   - {ats: custom, company: Teradyne, url: 'https://teradyne.com/careers'}
-  - {ats: custom, company: FormFactor, url: 'https://formfactor.com/careers'}
+  - {ats: workday, company: FormFactor, url: 'https://formfactor.wd1.myworkdayjobs.com/FFI-Careers'}
   - {ats: custom, company: Coherent, url: 'https://coherent.com/careers'}
-  - {ats: custom, company: Lumentum, url: 'https://lumentum.com/careers'}
+  - {ats: workday, company: Lumentum, url: 'https://lumentum.wd5.myworkdayjobs.com/LITE'}
   - {ats: custom, company: Ciena, url: 'https://ciena.com/careers', verified: false}
-  - {ats: custom, company: Juniper Networks, url: 'https://juniper.net/careers'}
+  - {ats: workday, company: Juniper Networks, url: 'https://hpe.wd5.myworkdayjobs.com/Jobsathpe'}
   - {ats: custom, company: Arista Networks, url: 'https://arista.com/careers'}
   - {ats: custom, company: Keysight, url: 'https://keysight.com/careers', verified: false}
   - {ats: ashby, company: NI, url: ni}
@@ -863,9 +863,9 @@ hardware:
   - {ats: custom, company: Firefly Aerospace, url: 'https://fireflyspace.com/careers'}
   - {ats: custom, company: Relativity Space, url: 'https://relativityspace.com/careers'}
   - {ats: ashby, company: Planet, url: planet}
-  - {ats: custom, company: Maxar, url: 'https://maxar.com/careers'}
+  - {ats: workday, company: Maxar, url: 'https://maxar.wd1.myworkdayjobs.com/Vantor'}
   - {ats: custom, company: Sierra Space, url: 'https://sierraspace.com/careers', verified: false}
-  - {ats: custom, company: Axiom Space, url: 'https://axiomspace.com/careers'}
+  - {ats: workday, company: Axiom Space, url: 'https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site'}
   - {ats: custom, company: Vast, url: 'https://vastspace.com/careers'}
   - {ats: custom, company: Impulse Space, url: 'https://impulsespace.com/careers'}
   - {ats: greenhouse, company: Ursa Major, url: ursamajor}
@@ -885,26 +885,26 @@ hardware:
   - {ats: greenhouse, company: Nuro, url: nuro}
   - {ats: custom, company: Honeywell, url: 'https://honeywell.com/careers'}
   - {ats: custom, company: Emerson, url: 'https://emerson.com/careers'}
-  - {ats: custom, company: Rockwell Automation, url: 'https://rockwellautomation.com/careers'}
+  - {ats: workday, company: Rockwell Automation, url: 'https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation'}
   - {ats: custom, company: Eaton, url: 'https://eaton.com/careers', verified: false}
   - {ats: custom, company: John Deere, url: 'https://deere.com/careers'}
   - {ats: custom, company: iRobot, url: 'https://irobot.com'}
-  - {ats: custom, company: Boston Dynamics, url: 'https://bostondynamics.com/careers'}
+  - {ats: workday, company: Boston Dynamics, url: 'https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics'}
   - {ats: greenhouse, company: Agility Robotics, url: agilityrobotics}
   - {ats: greenhouse, company: Wing, url: wing}
   - {ats: greenhouse, company: Magic Leap, url: magicleap}
   - {ats: custom, company: Archer Aviation, url: 'https://archer.com/careers'}
   - {ats: custom, company: BETA Technologies, url: 'https://beta.team/careers'}
-  - {ats: custom, company: Wisk, url: 'https://wisk.aero/careers'}
+  - {ats: workday, company: Wisk, url: 'https://wisk.wd108.myworkdayjobs.com/Wisk_Careers'}
   - {ats: ashby, company: Form Energy, url: formenergy}
-  - {ats: custom, company: Commonwealth Fusion, url: 'https://cfs.energy/careers'}
-  - {ats: custom, company: Helion, url: 'https://helionenergy.com/careers'}
+  - {ats: lever, company: Commonwealth Fusion, url: cfsenergy}
+  - {ats: ashby, company: Helion, url: helion}
   - {ats: greenhouse, company: Oklo, url: oklo}
-  - {ats: custom, company: TerraPower, url: 'https://terrapower.com/careers'}
-  - {ats: custom, company: X-energy, url: 'https://x-energy.com/careers'}
+  - {ats: greenhouse, company: TerraPower, url: terrapowerllc}
+  - {ats: workday, company: X-energy, url: 'https://xenergy.wd5.myworkdayjobs.com/X-energyUS'}
   - {ats: custom, company: Textron, url: 'https://textron.com/careers'}
   - {ats: custom, company: Trimble, url: 'https://trimble.com/careers'}
-  - {ats: custom, company: Zebra Technologies, url: 'https://zebra.com/careers'}
+  - {ats: workday, company: Zebra Technologies, url: 'https://zebra.wd501.myworkdayjobs.com/Zebra_careers'}
   - {ats: custom, company: Corning, url: 'https://corning.com/careers', verified: false}
   - {ats: greenhouse, company: Flex, url: flex}
   - {ats: custom, company: Jabil, url: 'https://jabil.com'}
@@ -915,12 +915,12 @@ hardware:
   - {ats: custom, company: Molex, url: 'https://molex.com/careers', verified: false}
   - {ats: custom, company: Vicor, url: 'https://vicorpower.com/careers'}
   - {ats: custom, company: Monolithic Power Systems, url: 'https://monolithicpower.com/careers'}
-  - {ats: custom, company: Allegro MicroSystems, url: 'https://allegromicro.com/careers'}
-  - {ats: custom, company: Semtech, url: 'https://semtech.com/careers'}
+  - {ats: workday, company: Allegro MicroSystems, url: 'https://allegromicro.wd5.myworkdayjobs.com/AllegroCareers'}
+  - {ats: workday, company: Semtech, url: 'https://semtech.wd1.myworkdayjobs.com/SemtechCareers'}
   - {ats: custom, company: SiTime, url: 'https://sitime.com'}
   - {ats: custom, company: Navitas, url: 'https://navitassemi.com/careers'}
-  - {ats: custom, company: Wolfspeed, url: 'https://wolfspeed.com/careers'}
-  - {ats: custom, company: Axcelis, url: 'https://axcelis.com/careers'}
+  - {ats: workday, company: Wolfspeed, url: 'https://cree.wd108.myworkdayjobs.com/EXT'}
+  - {ats: workday, company: Axcelis, url: 'https://axcelis.wd1.myworkdayjobs.com/axcelis'}
   - {ats: custom, company: Onto Innovation, url: 'https://ontoinnovation.com/careers'}
   - {ats: custom, company: MKS Instruments, url: 'https://mks.com/careers', verified: false}
   - {ats: custom, company: Entegris, url: 'https://entegris.com/careers', verified: false}
@@ -969,13 +969,13 @@ actuarial:
   - {ats: custom, company: MetLife, url: 'https://metlife.com/careers'}
   - {ats: custom, company: MassMutual, url: 'https://massmutual.com/careers', verified: false}
   - {ats: custom, company: New York Life, url: 'https://newyorklife.com/careers'}
-  - {ats: custom, company: Guardian Life, url: 'https://guardianlife.com/careers'}
+  - {ats: workday, company: Guardian Life, url: 'https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers'}
   - {ats: custom, company: Principal, url: 'https://principal.com/careers'}
   - {ats: custom, company: Nationwide, url: 'https://nationwide.com/careers'}
-  - {ats: custom, company: Travelers, url: 'https://travelers.com/careers'}
+  - {ats: workday, company: Travelers, url: 'https://travelers.wd5.myworkdayjobs.com/External'}
   - {ats: custom, company: Liberty Mutual, url: 'https://libertymutual.com/careers'}
   - {ats: custom, company: Chubb, url: 'https://chubb.com/careers'}
-  - {ats: custom, company: Allstate, url: 'https://allstate.com/careers'}
+  - {ats: workday, company: Allstate, url: 'https://allstate.wd5.myworkdayjobs.com/allstate_careers'}
   - {ats: custom, company: State Farm, url: 'https://statefarm.com/careers'}
   - {ats: custom, company: Progressive, url: 'https://progressive.com/careers', verified: false}
   - {ats: custom, company: GEICO, url: 'https://geico.com/careers'}
@@ -984,9 +984,9 @@ actuarial:
   - {ats: custom, company: UnitedHealth Group, url: 'https://unitedhealthgroup.com/careers'}
   - {ats: custom, company: Humana, url: 'https://humana.com/careers', verified: false}
   - {ats: custom, company: Centene, url: 'https://centene.com/careers', verified: false}
-  - {ats: custom, company: Elevance Health, url: 'https://elevancehealth.com/careers'}
+  - {ats: workday, company: Elevance Health, url: 'https://elevancehealth.wd1.myworkdayjobs.com/ANT'}
   - {ats: custom, company: Molina Healthcare, url: 'https://molinahealthcare.com/careers'}
-  - {ats: custom, company: HCSC, url: 'https://hcsc.com/careers'}
+  - {ats: workday, company: HCSC, url: 'https://hcsc.wd1.myworkdayjobs.com/HCSC_External'}
   - {ats: custom, company: Highmark Health, url: 'https://highmark.com'}
   - {ats: ashby, company: RGA, url: rgare}
   - {ats: custom, company: Munich Re US, url: 'https://munichre.com/careers'}
@@ -997,31 +997,31 @@ actuarial:
   - {ats: custom, company: PartnerRe, url: 'https://partnerre.com/careers', verified: false}
   - {ats: custom, company: Transamerica, url: 'https://transamerica.com/careers'}
   - {ats: custom, company: Lincoln Financial, url: 'https://lincolnfinancial.com/careers'}
-  - {ats: custom, company: Pacific Life, url: 'https://pacificlife.com/careers'}
-  - {ats: custom, company: Securian, url: 'https://securian.com/careers'}
+  - {ats: workday, company: Pacific Life, url: 'https://pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers'}
+  - {ats: workday, company: Securian, url: 'https://hq.wd12.myworkdayjobs.com/Securian_External'}
   - {ats: custom, company: Symetra, url: 'https://symetra.com/careers', verified: false}
-  - {ats: custom, company: Unum, url: 'https://unum.com/careers'}
+  - {ats: workday, company: Unum, url: 'https://unum.wd1.myworkdayjobs.com/External'}
   - {ats: custom, company: Ameritas, url: 'https://ameritas.com/careers'}
   - {ats: custom, company: Mutual of Omaha, url: 'https://mutualofomaha.com/careers'}
   - {ats: custom, company: Sammons Financial, url: 'https://sammonsfinancialgroup.com/careers'}
   - {ats: custom, company: Global Atlantic, url: 'https://globalatlantic.com/careers'}
-  - {ats: custom, company: Athene, url: 'https://athene.com/careers', verified: false}
+  - {ats: workday, company: Athene, url: 'https://athene.wd5.myworkdayjobs.com/athene_careers'}
   - {ats: custom, company: F&G, url: 'https://fglife.com'}
-  - {ats: custom, company: Corebridge, url: 'https://corebridgefinancial.com/careers'}
+  - {ats: workday, company: Corebridge, url: 'https://corebridgefinancial.wd1.myworkdayjobs.com/CorebridgeFinancial'}
   - {ats: custom, company: Brighthouse, url: 'https://brighthousefinancial.com/careers', verified: false}
   - {ats: custom, company: Sun Life US, url: 'https://sunlife.com/careers', verified: false}
   - {ats: custom, company: John Hancock, url: 'https://johnhancock.com/careers', verified: false}
   - {ats: custom, company: Erie Insurance, url: 'https://erieinsurance.com/careers'}
   - {ats: custom, company: Amica, url: 'https://amica.com/careers', verified: false}
   - {ats: custom, company: American Family, url: 'https://amfam.com/careers', verified: false}
-  - {ats: custom, company: Auto-Owners, url: 'https://auto-owners.com/careers'}
+  - {ats: workday, company: Auto-Owners, url: 'https://aoins.wd5.myworkdayjobs.com/AutoOwners'}
   - {ats: custom, company: Cincinnati Financial, url: 'https://cinfin.com/careers'}
   - {ats: ashby, company: Sentry Insurance, url: sentry}
   - {ats: custom, company: Grange Insurance, url: 'https://grangeinsurance.com/careers', verified: false}
   - {ats: custom, company: EMC Insurance, url: 'https://emcins.com/careers', verified: false}
   - {ats: custom, company: FM, url: 'https://fm.com/careers', verified: false}
   - {ats: custom, company: Zurich NA, url: 'https://zurichna.com/careers'}
-  - {ats: custom, company: AIG, url: 'https://aig.com/careers'}
+  - {ats: workday, company: AIG, url: 'https://aig.wd1.myworkdayjobs.com/aig'}
   - {ats: custom, company: Markel, url: 'https://markel.com/careers'}
   - {ats: ashby, company: W. R. Berkley, url: berkley}
   - {ats: custom, company: CNA, url: 'https://cna.com/careers', verified: false}
@@ -1029,11 +1029,11 @@ actuarial:
   - {ats: custom, company: Selective, url: 'https://selective.com/careers'}
   - {ats: custom, company: Assurant, url: 'https://assurant.com'}
   - {ats: custom, company: Oscar Health, url: 'https://hioscar.com/careers'}
-  - {ats: custom, company: Voya, url: 'https://voya.com/careers'}
-  - {ats: custom, company: TruStage, url: 'https://trustage.com/careers'}
+  - {ats: workday, company: Voya, url: 'https://godirect.wd5.myworkdayjobs.com/voya_jobs'}
+  - {ats: workday, company: TruStage, url: 'https://trustage.wd1.myworkdayjobs.com/TruStage'}
   - {ats: custom, company: Legal & General America, url: 'https://lgamerica.com/careers'}
-  - {ats: custom, company: Protective Life, url: 'https://protective.com/careers'}
+  - {ats: lever, company: Protective Life, url: protective}
   - {ats: custom, company: Western & Southern, url: 'https://westernsouthern.com/careers'}
-  - {ats: custom, company: Penn Mutual, url: 'https://pennmutual.com/careers'}
+  - {ats: workday, company: Penn Mutual, url: 'https://pennmutual.wd1.myworkdayjobs.com/_penn-careers'}
   - {ats: custom, company: OneAmerica, url: 'https://oneamerica.com/careers'}
   - {ats: custom, company: Thrivent, url: 'https://thrivent.com/careers', verified: false}

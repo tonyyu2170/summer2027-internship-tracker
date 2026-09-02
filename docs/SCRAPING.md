@@ -126,6 +126,26 @@ structured location, so the intern-title pre-filter also checks
 `location.country == "us"`, which is what keeps the detail leg cheap: 307
 intern-titled hits across the nine boards reduce to 54 detail fetches.
 
+**Growing the watch-list** (added 2026-09-01): `scripts/probe_boards.py` is
+the network shim for `sources/companies.yaml` itself. `discover` fetches every
+`custom` / `verified: false` entry's careers page and sniffs the real board
+behind it (embed script, iframe, "see openings" link, or a redirect to
+Workday/SmartRecruiters); `mine` turns the cvrve tracker exports (this cycle's
+and last cycle's lists — last summer's postings name the boards that will carry
+next summer's) plus `data/*.yaml` links into candidate boards not yet on the
+list, US-located and categorised by `map_upstream_category`; `candidates
+FILE.json` probes any `{company, category, url}` list the same way. Every
+board is confirmed against its public API before it is written (greenhouse
+`boards-api`, lever `api.lever.co`, ashby `posting-api`, Workday CXS search,
+SmartRecruiters `postings`), a hyphenated Workday vanity host is retried as
+the underscored tenant and pinned, and `apply RESULTS.json` rewrites the
+watch-list line-by-line (a discovery replaces its own line, a candidate
+appends to its category), deduping on board identity — tenant/site or token —
+so RTX and Raytheon can't both wire the same board. Outcomes go to
+`scratch/probe_<command>.json`; `verify` re-probes every wired board and is
+how a dead board gets found. First pass (2026-09-01): 107 of 537 custom
+entries fronted a scrapeable board.
+
 **iCIMS is deliberately unwired.** Probed 2026-08-09: `careers-{slug}.icims.com`
 serves an Angular-rendered `iCIMS_JobsTable` page, the `searchRss=1` parameter
 returns HTML rather than a feed, and job-detail pages carry no JSON-LD. There
