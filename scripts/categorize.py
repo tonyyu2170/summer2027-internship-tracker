@@ -44,9 +44,14 @@ _RULES = [
                  r"|\bic design|mixed.signal|\brf\b"),
     ("actuarial", r"actuar"),
     (DROP, r"investment bank|\bibd\b|consult"),
-    ("quant", r"quantitative|\bquant\b(?!ity)"),
-    ("data_science", r"data scien|data analy|analytics|business intelligence"),
+    # `trading`/`trader` is the trading-firm family (DV Trading, PIMCO, BNY
+    # desks); a "Supply, Trading & Shipping" commercial intern is not.
+    ("quant", r"quantitative|\bquant\b(?!ity)|^(?!.*(?:supply|shipping)).*(?:\btrading\b|\btrader\b)"),
+    ("data_science", r"data scien|data analy|analytics|business intelligence"
+                     r"|\bdata intern|data management intern|data services intern|statistic|predictive model|reporting analyst"),
     ("ai_ml", r"machine learning|deep learning|reinforcement learning|\bml\b|\bai\b|\bnlp\b|computer vision"
+              r"|artificial intelligence|large language|\bllm\b|research scientist|ph\.?d\.? research"
+              r"|computational intelligence|\bperception\b|\bautonomy\b"
               r"|applied scientist(?!.*\b(?:materials|chemist\w*|chemical|optics|polymer|metallurg\w*)\b)"),
     # Non-software engineering disciplines, checked just before swe so its
     # bare `engineer` match can't claim them (RTX/Bosch/HNTB mechanical,
@@ -77,14 +82,20 @@ _RULES = [
     # Science Intern" matches nothing else here, so it fell through to the
     # out-of-scope family below and Gulfstream's CS intern dropped on the
     # `materials` in its subtitle.
-    ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend|cyber|malware|algorithm|application development|computer science"),
+    # The generic enterprise technology family (banks, airlines, insurers):
+    # "Technology Intern", "Digital Technology Intern", "IT Infrastructure
+    # Intern", "Information Security Co-op" recur in chieler/zapplyjobs and
+    # parked 40+ rows per scrape while unclassified.
+    ("swe", r"software|\bswe\b|engineer|developer|programmer|full.?stack|backend|frontend|cyber|malware|algorithm|application development|computer science"
+            r"|\btechnology intern(?:ship)?\b(?!.*program)|digital technology|information technology|\bit intern|it infrastructure"
+            r"|information security|information systems|devops|\bpython\b|mobile app"),
     # Out-of-scope families, checked last so any in-scope keyword above wins
     # first ("Supply Chain Software Engineer" is swe, "Quantitative Finance"
     # is quant). A role left as None re-blocks every unattended merge under
     # the scheduled scrape, so families that recur in zapplyjobs/chieler must
     # resolve deterministically; one-off oddballs belong in
     # sources/manual_categories.yaml instead of new patterns here.
-    (DROP, r"\bproduct\b|supply chain|logistic|purchasing|procurement|distribution"
+    (DROP, r"\bproduct\b|\bsupply\b|logistic|purchasing|procurement|distribution"
            r"|human resources|\bhr\b|recruiting intern|recruiting coordinator|\brecruiter\b|\btalent\b"
            r"|accounting|\bfinance\b|financial analys|credit analyst|venture capital|investment services|wealth management"
            r"|marketing|market research|\bbrand\b|social media|\bmedia\b|editorial"

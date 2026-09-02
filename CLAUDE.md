@@ -23,6 +23,7 @@ python3 scripts/apply_ats_corrections.py scratch/ats_corrections.json   # apply 
 python3 scripts/check_reposts.py [category ...]             # find roles re-listed under a new req id -> scratch/repost_corrections.json
 python3 scripts/check_categories.py                         # rows sitting in a category their role no longer classifies to -> scratch/category_corrections.json
 python3 scripts/probe_boards.py discover|mine|candidates|verify|apply   # watch-list board discovery/verification (see docs/SCRAPING.md "Growing the watch-list")
+python3 scripts/generate_dashboard.py                       # docs/dashboard.html — one-page market view of data/ (pure; publish it as an artifact to share)
 ```
 (`apply_ats_corrections.py` is the shared applier for all three `check_*.py` correction files — pass whichever `scratch/*_corrections.json` was produced.)
 

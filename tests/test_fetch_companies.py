@@ -1,3 +1,4 @@
+import pytest
 import json
 from pathlib import Path
 
@@ -321,3 +322,28 @@ def test_fetch_workday_search_caps_a_runaway_search():
 
     assert payload["truncated"] is True
     assert len(payload["jobs"]) == 100
+
+
+def test_with_backoff_retries_only_429_and_gives_up_after_the_delays():
+    import urllib.error
+    from fetch_companies import _RETRY_DELAYS, _with_backoff
+    calls, slept = [], []
+
+    def flaky(source):
+        calls.append(source)
+        if len(calls) < 3:
+            raise urllib.error.HTTPError("u", 429, "slow down", {}, None)
+        return {"jobs": []}
+    assert _with_backoff(flaky, "src", sleep=slept.append) == {"jobs": []}
+    assert slept == list(_RETRY_DELAYS[:2]) and len(calls) == 3
+
+    def dead(source):
+        raise urllib.error.HTTPError("u", 404, "gone", {}, None)
+    with pytest.raises(urllib.error.HTTPError):
+        _with_backoff(dead, "src", sleep=slept.append)
+    assert slept == list(_RETRY_DELAYS[:2])   # a 404 never sleeps
+
+    always = lambda source: (_ for _ in ()).throw(urllib.error.HTTPError("u", 429, "x", {}, None))
+    with pytest.raises(urllib.error.HTTPError):
+        _with_backoff(always, "src", sleep=slept.append)
+    assert len(slept) == 2 + len(_RETRY_DELAYS)

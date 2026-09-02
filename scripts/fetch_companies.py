@@ -7,6 +7,9 @@ import json
 import re
 import ssl
 import sys
+import threading
+import time
+import urllib.error
 import urllib.request
 from collections import Counter, defaultdict
 from datetime import date
@@ -257,6 +260,26 @@ def _fetch_smartrecruiters(source: dict, get=None) -> dict:
     return {"jobs": jobs}
 
 
+# Workday rate-limits CXS per client IP across tenants: pulling ~950 boards
+# through 16 threads at once 429'd 113 of them (2026-09-02). Cap concurrent
+# Workday pulls and back off on 429 instead of losing the board for the run.
+_WORKDAY_SLOTS = threading.Semaphore(4)
+_RETRY_DELAYS = (15, 30, 60)
+
+
+def _with_backoff(fetch, source, sleep=time.sleep):
+    """Call fetch(source), retrying an HTTP 429 after each delay in
+    _RETRY_DELAYS; any other error propagates at once."""
+    for delay in _RETRY_DELAYS:
+        try:
+            return fetch(source)
+        except urllib.error.HTTPError as exc:
+            if exc.code != 429:
+                raise
+            sleep(delay)
+    return fetch(source)
+
+
 def _fetch_source(source: dict):
     provider = source["provider"]
     if provider == "phenom_job_page":
@@ -422,7 +445,11 @@ def _prefetched(config_path=None):
 
     def one(s):
         try:
-            results[s["source_entity"]] = ("ok", _fetch_source(s))
+            if s["provider"] in ("workday_search", "workday_cxs"):
+                with _WORKDAY_SLOTS:
+                    results[s["source_entity"]] = ("ok", _with_backoff(_fetch_source, s))
+            else:
+                results[s["source_entity"]] = ("ok", _with_backoff(_fetch_source, s))
         except Exception as exc:
             results[s["source_entity"]] = ("err", exc)
 
