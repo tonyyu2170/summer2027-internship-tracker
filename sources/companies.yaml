@@ -2473,3 +2473,82 @@ actuarial:
   - {ats: workday, company: Penn Mutual, url: 'https://pennmutual.wd1.myworkdayjobs.com/_penn-careers'}
   - {ats: custom, company: OneAmerica, url: 'https://oneamerica.com/careers'}
   - {ats: custom, company: Thrivent, url: 'https://thrivent.com/careers', verified: false}
+  - {ats: workday, company: Kemper, url: 'https://kemper.wd5.myworkdayjobs.com/Kemper_Careers'}
+  - {ats: workday, company: Horizon Blue Cross Blue Shield of New Jersey, url: 'https://bcbsnj.wd5.myworkdayjobs.com/hc'}
+  - {ats: workday, company: QBE North America, url: 'https://qbe.wd3.myworkdayjobs.com/QBE-Careers'}
+  - {ats: workday, company: Arkansas Blue Cross and Blue Shield, url: 'https://arkbluecross.wd1.myworkdayjobs.com/ABCBS_External_Careers'}
+  - {ats: workday, company: Independent Health, url: 'https://ih.wd1.myworkdayjobs.com/IHA_Careers'}
+  - {ats: workday, company: Point32Health, url: 'https://point32health.wd5.myworkdayjobs.com/THP'}
+  - {ats: workday, company: BlueCross BlueShield of South Carolina, url: 'https://ourhrconnect.wd501.myworkdayjobs.com/SCBlues'}
+  - {ats: workday, company: Prime Therapeutics, url: 'https://primetherapeutics.wd1.myworkdayjobs.com/PrimeTherapeuticsCareers'}
+  - {ats: workday, company: Blue Cross NC, url: 'https://bcbsnc.wd5.myworkdayjobs.com/BCBSNC'}
+  - {ats: workday, company: MedImpact, url: 'https://medimpact.wd5.myworkdayjobs.com/MedImpact'}
+  - {ats: workday, company: Blue Cross and Blue Shield of Kansas City, url: 'https://bcbskc.wd1.myworkdayjobs.com/BCBS_External_Career_Site'}
+  - {ats: workday, company: Texas Mutual Insurance, url: 'https://texasmutual.wd1.myworkdayjobs.com/texas_mutual_careers'}
+  - {ats: workday, company: Hiscox USA, url: 'https://hiscox.wd3.myworkdayjobs.com/Hiscox_External_Site'}
+  - {ats: workday, company: AXIS Capital, url: 'https://axiscapital.wd1.myworkdayjobs.com/axiscareers'}
+  - {ats: workday, company: SAIF Corporation, url: 'https://saif.wd5.myworkdayjobs.com/SAIF'}
+  - {ats: workday, company: Tokio Marine HCC, url: 'https://tmhcc.wd108.myworkdayjobs.com/External'}
+  - {ats: workday, company: National Indemnity Company, url: 'https://nationalindemnity.wd5.myworkdayjobs.com/NICO'}
+  - {ats: workday, company: Starr Insurance, url: 'https://starrcompanies.wd1.myworkdayjobs.com/careers'}
+  - {ats: workday, company: Coverys, url: 'https://coverys.wd1.myworkdayjobs.com/External_Site'}
+  - {ats: workday, company: ProAssurance, url: 'https://proassurance.wd5.myworkdayjobs.com/ProAssurance'}
+  - {ats: workday, company: Presbyterian Healthcare Services, url: 'https://phsorg.wd1.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Alignment Health, url: 'https://alignmenthealthcare.wd12.myworkdayjobs.com/ahc_external'}
+  - {ats: workday, company: PacificSource, url: 'https://pacificsource.wd5.myworkdayjobs.com/PacificSource'}
+  - {ats: workday, company: Evolent, url: 'https://evolent.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: The Mutual Group, url: 'https://themutualgroup.wd108.myworkdayjobs.com/TMG'}
+  - {ats: workday, company: Healthfirst, url: 'https://healthfirst.wd1.myworkdayjobs.com/Healthfirst'}
+  - {ats: workday, company: Shelter Insurance, url: 'https://shelterinsurance.wd5.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Blue Cross Blue Shield of Massachusetts, url: 'https://bcbsma.wd5.myworkdayjobs.com/BCBSMA'}
+  - {ats: workday, company: RLI Corp, url: 'https://rlicorp.wd1.myworkdayjobs.com/RLI_Corp_Careers'}
+  - {ats: workday, company: Reliance Matrix, url: 'https://rsli.wd503.myworkdayjobs.com/RSLIJobs'}
+  - {ats: workday, company: Encova Insurance, url: 'https://encova.wd1.myworkdayjobs.com/Search'}
+  - {ats: workday, company: Arbella Insurance, url: 'https://arbella.wd5.myworkdayjobs.com/Arbella'}
+  - {ats: workday, company: Hagerty, url: 'https://hagerty.wd5.myworkdayjobs.com/hagerty'}
+  - {ats: workday, company: NAIC, url: 'https://naic.wd115.myworkdayjobs.com/NAIC'}
+  - {ats: greenhouse, company: Pinnacol Assurance, url: pinnacolassurance}
+  - {ats: greenhouse, company: Pie Insurance, url: pieinsurance}
+  - {ats: greenhouse, company: Farmers Mutual Hail, url: farmersmutualhailinsurancecompany}
+  - {ats: greenhouse, company: National Life Group, url: nationallifeinsurancecompany}
+  - {ats: ashby, company: Openly, url: openly}
+  - {ats: smartrecruiters, company: Wellmark Blue Cross and Blue Shield, url: 'https://jobs.smartrecruiters.com/WellmarkInc'}
+  - {ats: icims, company: Federated Insurance, url: 'https://careers-federatedinsurance.icims.com'}
+  - {ats: icims, company: AmTrust Financial, url: 'https://careers-amtrustgroup.icims.com'}
+  - {ats: icims, company: Navitus Health Solutions, url: 'https://careers-navitus.icims.com'}
+  - {ats: icims, company: Wakely Consulting Group, url: 'https://careers-wakely.icims.com'}
+  - {ats: custom, company: Zenith Insurance, url: 'https://career-opportunities-thezenith.icims.com', verified: false}
+  - {ats: icims, company: Kentucky Farm Bureau Insurance, url: 'https://careers-kyfb.icims.com'}
+  - {ats: icims, company: West Bend Insurance, url: 'https://careers-thesilverlining.icims.com'}
+  - {ats: icims, company: Grinnell Mutual, url: 'https://careers-grinnellmutual.icims.com'}
+  - {ats: custom, company: NFP, url: 'https://nfpus-careers-aon.icims.com', verified: false}
+  - {ats: custom, company: Blue Cross Blue Shield of Michigan, url: 'https://www.bcbsm.com/about-us/careers/', verified: false}
+  - {ats: custom, company: AF Group, url: 'https://www.afgroup.com/careers/', verified: false}
+  - {ats: custom, company: Westfield Insurance, url: 'https://fa-exdv-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers', verified: false}
+  - {ats: custom, company: Blue Shield of California, url: 'https://careers.blueshieldca.com/', verified: false}
+  - {ats: custom, company: HealthPartners, url: 'https://www.healthpartners.com/careers/', verified: false}
+  - {ats: custom, company: Florida Blue, url: 'https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/floridablue', verified: false}
+  - {ats: custom, company: Penn National Insurance, url: 'https://www.pennnationalinsurance.com/careers', verified: false}
+  - {ats: custom, company: Equitable, url: 'https://equitable.taleo.net/careersection/eqh_1/jobsearch.ftl', verified: false}
+  - {ats: custom, company: Segal, url: 'https://segalco.taleo.net/careersection/segalextwqm1011/jobsearch.ftl', verified: false}
+  - {ats: custom, company: Kaiser Permanente, url: 'https://www.kaiserpermanentejobs.org/', verified: false}
+  - {ats: custom, company: Aflac, url: 'https://careers.aflac.com/', verified: false}
+  - {ats: custom, company: Allianz Life, url: 'https://careers.allianz.com/US/go/Allianz-US-Life/5140601/', verified: false}
+  - {ats: custom, company: Hannover Re US, url: 'https://jobs.hannover-re.com/', verified: false}
+  - {ats: custom, company: Acuity Insurance, url: 'https://www.acuity.com/careers', verified: false}
+  - {ats: custom, company: Safety National, url: 'https://www.safetynational.com/careers/', verified: false}
+  - {ats: custom, company: Intact Insurance Specialty Solutions, url: 'https://www.intactspecialty.com/careers', verified: false}
+  - {ats: custom, company: Nassau Financial Group, url: 'https://www.nfg.com/careers', verified: false}
+  - {ats: custom, company: Mutual of America, url: 'https://www.mutualofamerica.com/careers', verified: false}
+  - {ats: custom, company: Utica National Insurance Group, url: 'https://www.uticanational.com/careers', verified: false}
+  - {ats: custom, company: Pekin Insurance, url: 'https://www.pekininsurance.com/careers', verified: false}
+  - {ats: custom, company: Security Benefit, url: 'https://www.securitybenefit.com/careers', verified: false}
+  - {ats: custom, company: Missouri Employers Mutual, url: 'https://www.mem-ins.com/careers/', verified: false}
+  - {ats: custom, company: Church Mutual, url: 'https://myjobs.adp.com/churchmutual/cx/job-listing', verified: false}
+  - {ats: custom, company: Employers Holdings, url: 'https://employers.csod.com', verified: false}
+  - {ats: custom, company: Farmers Insurance, url: 'https://careerschat.farmers.com/us/en', verified: false}
+  - {ats: custom, company: Lockton, url: 'https://careers.lockton.com/', verified: false}
+  - {ats: custom, company: Gallagher, url: 'https://www.ajg.com/careers/', verified: false}
+  - {ats: custom, company: Deloitte, url: 'https://www2.deloitte.com/us/en/careers/careers.html', verified: false}
+  - {ats: custom, company: EY, url: 'https://www.ey.com/en_us/careers', verified: false}
+  - {ats: custom, company: KPMG, url: 'https://www.kpmguscareers.com/', verified: false}
