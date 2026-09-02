@@ -341,7 +341,9 @@ def cmd_discover(argv):
     def work(item):
         category, entry = item
         found, error = discover(entry["url"])
-        outcome = _judge(entry["company"], found, error, known)
+        # A custom entry whose URL already names a board must not count as
+        # a duplicate of itself.
+        outcome = _judge(entry["company"], found, error, known - {board_key(entry)})
         return {"kind": "discover", "category": category, "entry": entry, "found": found, "outcome": outcome}
     _run(items, work, "discover")
 

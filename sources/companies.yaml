@@ -94,7 +94,6 @@ swe:
   - {ats: ashby, company: kos.ai, url: kos.ai}
   - {ats: workday, company: Kudu Dynamics, url: 'https://leidos.wd5.myworkdayjobs.com/External'}
   - {ats: ashby, company: Latent Defense, url: latent%20defense}
-  - {ats: workday, company: Leidos, url: 'https://leidos.wd5.myworkdayjobs.com/external'}
   - {ats: workday, company: LiveRamp, url: 'https://liveramp.wd5.myworkdayjobs.com/LiveRampCareers'}
   - {ats: custom, company: LufCo, url: 'https://lufco.breezy.hr'}
   - {ats: ashby, company: Mariana Minerals, url: marianaminerals}
@@ -115,7 +114,6 @@ swe:
   - {ats: workday, company: Northrop Grumman, url: 'https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site'}
   - {ats: custom, company: Oracle, url: 'https://eeho.fa.us2.oraclecloud.com'}
   - {ats: lever, company: Palantir, url: palantir}
-  - {ats: lever, company: Palantir Technologies, url: palantir}
   - {ats: custom, company: Paragon, url: 'https://www.workatastartup.com'}
   - {ats: custom, company: PathAI, url: 'https://www.pathai.com'}
   - {ats: greenhouse, company: PDT Partners, url: pdtpartners}
@@ -941,7 +939,7 @@ quant:
   - {ats: ashby, company: Anthelion Capital, url: anthelioncap}
   - {ats: custom, company: AQR Capital Management, url: 'https://careers.aqr.com'}
   - {ats: greenhouse, company: Aquatic, url: aquaticcapitalmanagement}
-  - {ats: greenhouse, company: Aquatic Capital, url: embed}
+  - {ats: greenhouse, company: Aquatic Capital, url: aquaticcapitalmanagement}
   - {ats: workday, company: Arrowstreet Capital, url: 'https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers'}
   - {ats: workday, company: Barclays, url: 'https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays'}
   - {ats: custom, company: Capula, url: 'https://apply.workable.com'}
@@ -971,7 +969,6 @@ quant:
   - {ats: custom, company: Optiver, url: 'https://www.optiver.com'}
   - {ats: workday, company: PanAgora, url: 'https://empower.wd12.myworkdayjobs.com/PanAgora'}
   - {ats: workday, company: PGIM, url: 'https://pru.wd5.myworkdayjobs.com/pgim_careers'}
-  - {ats: greenhouse, company: Point72, url: point72}
   - {ats: workday, company: Prudential Financial, url: 'https://pru.wd5.myworkdayjobs.com/Careers'}
   - {ats: greenhouse, company: Quantic, url: walleyecapital-external-students}
   - {ats: greenhouse, company: Radix Trading, url: radixuniversity}
@@ -987,14 +984,12 @@ quant:
   - {ats: custom, company: Tower Research, url: 'https://tower-research.com'}
   - {ats: greenhouse, company: Tower Research Capital, url: towerresearchcapital}
   - {ats: greenhouse, company: TransMarket Group, url: transmarketgroup}
-  - {ats: greenhouse, company: TransMarketGroup, url: transmarketgroup}
   - {ats: greenhouse, company: Trillium, url: trillium}
   - {ats: custom, company: Two Sigma, url: 'https://careers.twosigma.com'}
   - {ats: greenhouse, company: University of Virginia Investment Management Company (UVIMCO), url: uvimco}
   - {ats: greenhouse, company: Virtu Financial, url: virtu}
   - {ats: custom, company: Voloridge, url: 'https://www.voloridge.com'}
   - {ats: greenhouse, company: Voloridge Investment Management, url: voloridgeinvestmentmanagement}
-  - {ats: greenhouse, company: Walleye Capital, url: walleyecapital-external-students}
   - {ats: greenhouse, company: XTX Markets, url: xtxmarketstechnologies}
   - {ats: greenhouse, company: Squarepoint Capital, url: squarepointcapital}
   - {ats: ashby, company: The Voleon Group, url: voleon}
@@ -1072,7 +1067,6 @@ data_science:
   - {ats: custom, company: Primetals Technologies, url: 'https://mhicareers.com'}
   - {ats: custom, company: Rivian, url: 'https://careers.rivian.com'}
   - {ats: workday, company: Synchrony Financial, url: 'https://synchronyfinancial.wd5.myworkdayjobs.com/University'}
-  - {ats: workday, company: The Boeing Company, url: 'https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS'}
   - {ats: custom, company: Wells Fargo, url: 'https://wd1.myworkdaysite.com'}
   - {ats: ashby, company: Snowflake, url: snowflake}
   - {ats: smartrecruiters, company: Nielsen, url: 'https://jobs.smartrecruiters.com/TheNielsenCompany'}
@@ -1414,14 +1408,12 @@ ai_ml:
   - {ats: workday, company: Nissan, url: 'https://alliance.wd3.myworkdayjobs.com/nissanjobs'}
   - {ats: ashby, company: OpusClip, url: opusclip}
   - {ats: ashby, company: Output Biosciences, url: output}
-  - {ats: workday, company: Penn State, url: 'https://psu.wd1.myworkdayjobs.com/psu_staff'}
   - {ats: ashby, company: Pika, url: pika}
-  - {ats: lever, company: Plus, url: plus-2}
   - {ats: greenhouse, company: Samaya AI, url: samayaai}
   - {ats: greenhouse, company: Scale AI, url: scaleai}
   - {ats: workday, company: Sony, url: 'https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers'}
   - {ats: workday, company: SS&C, url: 'https://ssctech.wd1.myworkdayjobs.com/ssctechnologies'}
-  - {ats: greenhouse, company: StepStone Group, url: embed}
+  - {ats: greenhouse, company: StepStone Group, url: stepstone}
   - {ats: workday, company: Tencent, url: 'https://tencent.wd1.myworkdayjobs.com/Tencent_Careers'}
   - {ats: greenhouse, company: Tenstorrent, url: tenstorrentuniversity}
   - {ats: custom, company: Terranox AI, url: 'https://www.workatastartup.com'}
@@ -1950,7 +1942,6 @@ hardware:
   - {ats: custom, company: ASM, url: 'https://www.asm.com'}
   - {ats: greenhouse, company: Astranis, url: astranis}
   - {ats: workday, company: Astreya, url: 'https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities'}
-  - {ats: ashby, company: Base Power, url: base-power}
   - {ats: workday, company: Bio-Techne, url: 'https://biotechne.wd5.myworkdayjobs.com/Biotechne'}
   - {ats: workday, company: BorgWarner, url: 'https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers'}
   - {ats: workday, company: Centific, url: 'https://centific.wd1.myworkdayjobs.com/Centific_Global'}
@@ -1974,19 +1965,15 @@ hardware:
   - {ats: workday, company: Magna, url: 'https://magna.wd3.myworkdayjobs.com/magna'}
   - {ats: workday, company: Microchip, url: 'https://microchiphr.wd5.myworkdayjobs.com/external'}
   - {ats: workday, company: Motorola Solutions, url: 'https://motorolasolutions.wd5.myworkdayjobs.com/careers'}
-  - {ats: workday, company: National Laboratory of the Rockies, url: 'https://nrel.wd5.myworkdayjobs.com/NLR'}
   - {ats: greenhouse, company: Neuralink, url: neuralink}
   - {ats: workday, company: Nidec, url: 'https://nidec.wd1.myworkdayjobs.com/nidec'}
   - {ats: workday, company: Nightwing, url: 'https://nwis.wd12.myworkdayjobs.com/nw'}
   - {ats: workday, company: NXP, url: 'https://nxp.wd3.myworkdayjobs.com/Careers'}
   - {ats: ashby, company: Odys Aviation, url: odys-aviation}
-  - {ats: workday, company: Pennsylvania State University, url: 'https://psu.wd1.myworkdayjobs.com/PSU_Staff'}
   - {ats: custom, company: Quadric, url: 'https://apply.workable.com'}
-  - {ats: workday, company: Schweitzer Engineering Laboratories, url: 'https://selinc.wd1.myworkdayjobs.com/SEL'}
   - {ats: custom, company: Second Order Effects, url: 'https://jobs.gem.com'}
   - {ats: greenhouse, company: Sila Nanotechnologies, url: silananotechnologies}
   - {ats: custom, company: Skyworks, url: 'https://careers.skyworksinc.com'}
-  - {ats: workday, company: Solar Turbines, url: 'https://cat.wd5.myworkdayjobs.com/solarturbines'}
   - {ats: workday, company: Spectrum Control, url: 'https://spectrumcontrol.wd1.myworkdayjobs.com/spectrumcontrol'}
   - {ats: icims, company: SRI International, url: 'https://careers-sri.icims.com'}
   - {ats: workday, company: Teledyne, url: 'https://flir.wd1.myworkdayjobs.com/flircareers'}
@@ -1998,7 +1985,6 @@ hardware:
   - {ats: custom, company: Unison (GE Aerospace), url: 'https://careers.geaerospace.com'}
   - {ats: ashby, company: WindBorne Systems, url: windborne-systems}
   - {ats: custom, company: WSP, url: 'https://emit.fa.ca3.oraclecloud.com'}
-  - {ats: greenhouse, company: XPENG Motors, url: xpengmotors}
   - {ats: custom, company: Zipline, url: 'https://www.zipline.com'}
   - {ats: custom, company: NVIDIA, url: 'https://nvidia.com/careers'}
   - {ats: custom, company: AMD, url: 'https://amd.com/careers'}
