@@ -2411,6 +2411,65 @@ hardware:
   - {ats: workday, company: Symbotic, url: 'https://symbotic.wd1.myworkdayjobs.com/Symbotic', verified: false}
   - {ats: workday, company: Legrand, url: 'https://milestone.wd1.myworkdayjobs.com/Milestone_External', verified: false}
   - {ats: ashby, company: Exegy, url: exegy}
+  - {ats: greenhouse, company: FuriosaAI, url: furiosaai}
+  - {ats: greenhouse, company: Epirus, url: epirus}
+  - {ats: greenhouse, company: Butterfly Network, url: butterflynetwork}
+  - {ats: greenhouse, company: Roku, url: roku}
+  - {ats: greenhouse, company: Motional, url: motional}
+  - {ats: greenhouse, company: Divergent Technologies, url: divergent}
+  - {ats: greenhouse, company: ChargePoint, url: chargepoint}
+  - {ats: greenhouse, company: Path Robotics, url: pathrobotics}
+  - {ats: ashby, company: REGENT, url: regent}
+  - {ats: lever, company: Lumotive, url: lumotive}
+  - {ats: lever, company: Eliyan, url: eliyan}
+  - {ats: lever, company: Bright Machines, url: brightmachines}
+  - {ats: lever, company: Dexterity, url: dexterity}
+  - {ats: lever, company: Loft Orbital, url: loftorbital}
+  - {ats: greenhouse, company: Electric Hydrogen, url: eh2}
+  - {ats: ashby, company: Flux, url: flux}
+  - {ats: greenhouse, company: Albedo, url: albedo}
+  - {ats: greenhouse, company: Anello Photonics, url: anellophotonics}
+  - {ats: greenhouse, company: HawkEye 360, url: hawkeye360}
+  - {ats: lever, company: Q-CTRL, url: q-ctrl}
+  - {ats: lever, company: JMA Wireless, url: jmawireless}
+  - {ats: ashby, company: Netgear, url: netgear}
+  - {ats: greenhouse, company: Ambiq, url: ambiqmicroinc}
+  - {ats: greenhouse, company: Ubiquiti, url: ubiquiti}
+  - {ats: workday, company: Dexcom, url: 'https://dexcom.wd1.myworkdayjobs.com/Dexcom'}
+  - {ats: workday, company: Abbott, url: 'https://abbott.wd5.myworkdayjobs.com/AbbottCareers'}
+  - {ats: workday, company: Illumina, url: 'https://illumina.wd1.myworkdayjobs.com/illumina-careers'}
+  - {ats: workday, company: Mavenir, url: 'https://mavenir.wd1.myworkdayjobs.com/Mavenir_Careers'}
+  - {ats: workday, company: Badger Meter, url: 'https://badgermeter.wd5.myworkdayjobs.com/US_CareerSite'}
+  - {ats: workday, company: Sunrun, url: 'https://sunrun.wd5.myworkdayjobs.com/Sunrun_Careers'}
+  - {ats: jobvite, company: Power Integrations, url: 'https://jobs.jobvite.com/power-integrations'}
+  - {ats: jobvite, company: Samtec, url: 'https://jobs.jobvite.com/samtec'}
+  - {ats: custom, company: MaxLinear, url: 'https://careersus-maxlinear.icims.com/jobs/search?ss=1', verified: false}
+  - {ats: custom, company: Ouster, url: 'https://ouster.applytojob.com/apply', verified: false}
+  - {ats: custom, company: Infineon Technologies, url: 'https://infineon.eightfold.ai/careerhub', verified: false}
+  - {ats: custom, company: Boston Scientific, url: 'https://jobs.bostonscientific.com/', verified: false}
+  - {ats: custom, company: Ericsson, url: 'https://jobs.ericsson.com/', verified: false}
+  - {ats: custom, company: Shure, url: 'https://careershub-shure.icims.com/', verified: false}
+  - {ats: custom, company: Lumileds, url: 'https://careers.jobvite.com/lumileds', verified: false}
+  - {ats: custom, company: CommScope, url: 'https://jobs.commscope.com/', verified: false}
+  - {ats: custom, company: Gulfstream, url: 'https://careers.gulfstream.com/', verified: false}
+  - {ats: custom, company: Hubbell, url: 'https://careers.hubbell.com/', verified: false}
+  - {ats: custom, company: PACCAR, url: 'https://jobs.paccar.com/', verified: false}
+  - {ats: custom, company: ZF Group, url: 'https://jobs.zf.com/', verified: false}
+  - {ats: custom, company: Nexteer Automotive, url: 'https://www.nexteer.com/careers/', verified: false}
+  - {ats: custom, company: Harley-Davidson, url: 'https://jobs.harley-davidson.com/', verified: false}
+  - {ats: custom, company: Banner Engineering, url: 'https://recruiting.ultipro.com/ban1010/JobBoard/e9066a66-c3b9-e25c-d036-116705c05e46', verified: false}
+  - {ats: custom, company: Kratos Defense, url: 'https://careers.kratosdefense.com/', verified: false}
+  - {ats: custom, company: Amkor Technology, url: 'https://amkor.com/careers/', verified: false}
+  - {ats: custom, company: Supermicro, url: 'https://www.supermicro.com/en/about/careers', verified: false}
+  - {ats: custom, company: SkyWater Technology, url: 'https://www.skywatertechnology.com/careers/', verified: false}
+  - {ats: custom, company: OmniVision, url: 'https://www.ovt.com/careers/', verified: false}
+  - {ats: custom, company: MediaTek USA, url: 'https://careers.mediatek.com/', verified: false}
+  - {ats: custom, company: Kulicke & Soffa, url: 'https://www.kns.com/careers/', verified: false}
+  - {ats: custom, company: Masimo, url: 'https://www.masimo.com/company/careers/', verified: false}
+  - {ats: custom, company: Enphase Energy, url: 'https://enphase.com/en-us/careers', verified: false}
+  - {ats: custom, company: Advanced Energy, url: 'https://www.advancedenergy.com/careers/', verified: false}
+  - {ats: custom, company: Photronics, url: 'https://www.photronics.com/careers/', verified: false}
+  - {ats: custom, company: Ichor Systems, url: 'https://www.ichorsystems.com/careers/', verified: false}
 actuarial:
   - company: Oliver Wyman
     provider: phenom_job_page
