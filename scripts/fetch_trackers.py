@@ -8,6 +8,7 @@ rest deterministically; hand only rows no rule could categorize to the
 session via scratch/fetch_reports/unclassified.json. Writes fetch reports
 only — never data/*.yaml. Run scripts/run_scrape_merge.py afterward."""
 import json
+import os
 import ssl
 import sys
 import urllib.request
@@ -34,7 +35,11 @@ from parse_tracker import (
 )
 
 ROOT = Path(__file__).resolve().parent.parent
-_SSL_CTX = ssl.create_default_context(cafile=certifi.where())
+# An egress proxy that re-terminates TLS (the scheduled cloud runs go through
+# one) signs with a CA that certifi doesn't carry; it exports SSL_CERT_FILE.
+# Honor that when it's set, else fall back to certifi as before.
+_SSL_CTX = ssl.create_default_context(
+    cafile=os.environ.get("SSL_CERT_FILE") or certifi.where())
 _HEADERS = {"User-Agent": "internship-tracker-scraper", "Accept": "*/*"}
 
 
