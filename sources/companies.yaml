@@ -1,5 +1,6 @@
 # Per-category company watch-list for direct career-site scraping.
-# Expanded to ~1000 companies 2026-08-09 (Tony's request). Entries with
+# Expanded to ~1000 companies 2026-08-09 (Tony's request) and to ~2350 on
+# 2026-09-01 via scripts/probe_boards.py (mined from tracker exports). Entries with
 # provider: are wired for fetch_companies.py; plain {company, ats, url}
 # entries are the watch-list (url = greenhouse/lever/ashby token, or a
 # careers URL). verified: false = live probe could not confirm the link
@@ -468,6 +469,468 @@ swe:
   - {ats: custom, company: Alaska Airlines, url: 'https://alaskaair.com/careers'}
   - {ats: custom, company: JetBlue, url: 'https://jetblue.com'}
   - {ats: custom, company: NextEra Energy, url: 'https://nexteraenergy.com/careers'}
+  - {ats: workday, company: RTX, url: 'https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway'}
+  - {ats: workday, company: NVIDIA, url: 'https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite'}
+  - {ats: workday, company: CACI, url: 'https://caci.wd1.myworkdayjobs.com/external'}
+  - {ats: workday, company: Fiserv, url: 'https://fiserv.wd5.myworkdayjobs.com/ext'}
+  - {ats: workday, company: Philips, url: 'https://philips.wd3.myworkdayjobs.com/jobs-and-careers'}
+  - {ats: workday, company: Jabil, url: 'https://jabil.wd5.myworkdayjobs.com/Jabil_Careers'}
+  - {ats: workday, company: Parsons, url: 'https://parsons.wd5.myworkdayjobs.com/search'}
+  - {ats: greenhouse, company: Verkada, url: verkada}
+  - {ats: greenhouse, company: Meridian Partners, url: morsecorpcoop}
+  - {ats: workday, company: CCC Intelligent Solutions, url: 'https://cccis.wd1.myworkdayjobs.com/broadbean_external'}
+  - {ats: workday, company: Fidelity Investments, url: 'https://fmr.wd1.myworkdayjobs.com/targeted'}
+  - {ats: smartrecruiters, company: Visa, url: 'https://jobs.smartrecruiters.com/Visa'}
+  - {ats: workday, company: General Dynamics Information Technology, url: 'https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent'}
+  - {ats: lever, company: AI Fund, url: AIFund}
+  - {ats: workday, company: RSM, url: 'https://rsm.wd1.myworkdayjobs.com/RSMCareers'}
+  - {ats: workday, company: Cadence Design Systems, url: 'https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern'}
+  - {ats: ashby, company: Fab2, url: fab2}
+  - {ats: workday, company: Resmed, url: 'https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers'}
+  - {ats: workday, company: University System of New Hampshire, url: 'https://usnh.wd5.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: KION Group, url: 'https://kiongroup.wd3.myworkdayjobs.com/kiongroup'}
+  - {ats: workday, company: Delta Dental, url: 'https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan'}
+  - {ats: greenhouse, company: Toshiba Global Commerce, url: toshibaglobalcommercesolutions}
+  - {ats: lever, company: Field AI, url: field-ai}
+  - {ats: lever, company: Actian, url: actian}
+  - {ats: workday, company: The Boeing Company, url: 'https://boeing.wd1.myworkdayjobs.com/INTERN'}
+  - {ats: workday, company: Avnet, url: 'https://avnet.wd1.myworkdayjobs.com/external'}
+  - {ats: lever, company: Analytic Partners, url: analyticpartners}
+  - {ats: workday, company: F5, url: 'https://ffive.wd5.myworkdayjobs.com/f5jobs'}
+  - {ats: workday, company: Fifth Third Bank, url: 'https://fifththird.wd5.myworkdayjobs.com/53careers'}
+  - {ats: greenhouse, company: Varda Space, url: vardaspace}
+  - {ats: workday, company: Ingram Micro, url: 'https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro'}
+  - {ats: workday, company: Premier, url: 'https://premierinc.wd1.myworkdayjobs.com/external_professional'}
+  - {ats: greenhouse, company: Voyager Technologies, url: voyagertechnologiesinc}
+  - {ats: smartrecruiters, company: RR Donnelley, url: 'https://jobs.smartrecruiters.com/RRDonnelley'}
+  - {ats: workday, company: OCLC, url: 'https://oclc.wd1.myworkdayjobs.com/OCLC_Careers'}
+  - {ats: workday, company: Cadence Design Systems, url: 'https://cadence.wd1.myworkdayjobs.com/University_Talent'}
+  - {ats: workday, company: Medtronic, url: 'https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers'}
+  - {ats: workday, company: Accenture, url: 'https://accenture.wd103.myworkdayjobs.com/AccentureCareers'}
+  - {ats: workday, company: Expedia Group, url: 'https://expedia.wd108.myworkdayjobs.com/private'}
+  - {ats: smartrecruiters, company: Mapjects, url: 'https://jobs.smartrecruiters.com/Mapjectscom'}
+  - {ats: smartrecruiters, company: NBCUniversal, url: 'https://jobs.smartrecruiters.com/NBCUniversal3'}
+  - {ats: workday, company: Rocket Mortgage, url: 'https://quickenloans.wd5.myworkdayjobs.com/rocket_careers'}
+  - {ats: workday, company: Thermo Fisher Scientific, url: 'https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers'}
+  - {ats: workday, company: Cisco, url: 'https://cisco.wd5.myworkdayjobs.com/cisco_careers'}
+  - {ats: workday, company: Wex, url: 'https://wexinc.wd5.myworkdayjobs.com/WEXInc'}
+  - {ats: workday, company: Monolithic Power Systems, url: 'https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers'}
+  - {ats: workday, company: Robert Half, url: 'https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers'}
+  - {ats: workday, company: AssetMark, url: 'https://assetmark.wd5.myworkdayjobs.com/AssetMark_Careers'}
+  - {ats: workday, company: Freddie Mac, url: 'https://freddiemac.wd5.myworkdayjobs.com/External'}
+  - {ats: workday, company: Globus Medical, url: 'https://globusmedical.wd5.myworkdayjobs.com/GMED_Careers'}
+  - {ats: workday, company: Manulife Financial, url: 'https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs'}
+  - {ats: workday, company: Stryker, url: 'https://stryker.wd1.myworkdayjobs.com/StrykerCareers'}
+  - {ats: workday, company: US Foods, url: 'https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal'}
+  - {ats: workday, company: United Parcel Service (UPS), url: 'https://hcmportal.wd5.myworkdayjobs.com/Search'}
+  - {ats: workday, company: VSP Vision, url: 'https://vsp.wd1.myworkdayjobs.com/vspvisioncareers'}
+  - {ats: workday, company: Vanderlande Industries, url: 'https://vanderlande.wd3.myworkdayjobs.com/careers'}
+  - {ats: workday, company: ABC Fitness, url: 'https://abcfinancial.wd5.myworkdayjobs.com/abcfinancialservices'}
+  - {ats: workday, company: CSAA Insurance Group, url: 'https://aaaie.wd1.myworkdayjobs.com/CSAACareers2'}
+  - {ats: workday, company: Ohio State University, url: 'https://osu.wd1.myworkdayjobs.com/OSUCareers'}
+  - {ats: workday, company: Torch Technologies, url: 'https://starfish.wd501.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Unisys, url: 'https://unisys.wd5.myworkdayjobs.com/External'}
+  - {ats: greenhouse, company: Compeer Financial, url: compeerfinancial}
+  - {ats: workday, company: Blue Cross Blue Shield, url: 'https://bcbsa.wd1.myworkdayjobs.com/careers'}
+  - {ats: greenhouse, company: Cambridge Mobile Telematics, url: cmt}
+  - {ats: smartrecruiters, company: Kioxia, url: 'https://jobs.smartrecruiters.com/Kioxia'}
+  - {ats: greenhouse, company: Klaviyo, url: klaviyocampus}
+  - {ats: workday, company: Lowe's, url: 'https://lowes.wd5.myworkdayjobs.com/LWS_External_CS'}
+  - {ats: workday, company: Medline, url: 'https://medline.wd5.myworkdayjobs.com/Medline'}
+  - {ats: workday, company: Revvity, url: 'https://revvity.wd103.myworkdayjobs.com/External'}
+  - {ats: workday, company: Ryder System, url: 'https://ryder.wd5.myworkdayjobs.com/RyderCareers'}
+  - {ats: smartrecruiters, company: USM Business Systems, url: 'https://jobs.smartrecruiters.com/USM2'}
+  - {ats: workday, company: ZOLL Medical Corporation, url: 'https://zoll.wd5.myworkdayjobs.com/ZOLLMedicalCorp'}
+  - {ats: workday, company: American Fidelity, url: 'https://americanfidelity.wd5.myworkdayjobs.com/External'}
+  - {ats: workday, company: CWAN, url: 'https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers'}
+  - {ats: workday, company: Genuine Parts Company, url: 'https://genpt.wd1.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Itron, url: 'https://itron.wd5.myworkdayjobs.com/Early_Careers'}
+  - {ats: greenhouse, company: NICE, url: nice}
+  - {ats: workday, company: Strategic Education, url: 'https://strayer.wd1.myworkdayjobs.com/SEI'}
+  - {ats: workday, company: Waystar, url: 'https://waystar.wd1.myworkdayjobs.com/Waystar'}
+  - {ats: workday, company: CIBC, url: 'https://cibc.wd3.myworkdayjobs.com/search'}
+  - {ats: workday, company: Ensora Health, url: 'https://therapybrands.wd1.myworkdayjobs.com/EnsoraHealth'}
+  - {ats: workday, company: Thales, url: 'https://thales.wd3.myworkdayjobs.com/Careers'}
+  - {ats: smartrecruiters, company: 3S Business Corporation, url: 'https://jobs.smartrecruiters.com/3SBusinessCorporationInc1'}
+  - {ats: workday, company: Apex Fintech Solutions, url: 'https://peak6group.wd1.myworkdayjobs.com/apexfintechsolutions'}
+  - {ats: workday, company: AspenTech, url: 'https://aspentech.wd5.myworkdayjobs.com/aspentech'}
+  - {ats: workday, company: Axos Bank, url: 'https://axos.wd5.myworkdayjobs.com/Axos'}
+  - {ats: greenhouse, company: Commvault, url: commvault}
+  - {ats: greenhouse, company: Dark Wolf Solutions, url: darkwolfsolutions}
+  - {ats: workday, company: Deluxe, url: 'https://deluxe.wd5.myworkdayjobs.com/USA_CAN'}
+  - {ats: greenhouse, company: EarnIn, url: earnin}
+  - {ats: workday, company: Equinix, url: 'https://equinix.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Intapp, url: 'https://intapp.wd1.myworkdayjobs.com/Intapp'}
+  - {ats: greenhouse, company: Intrinsic, url: intrinsicrobotics}
+  - {ats: smartrecruiters, company: Kanshe Infotech, url: 'https://jobs.smartrecruiters.com/Learnkwikcom'}
+  - {ats: workday, company: MKS Instruments, url: 'https://mksinst.wd1.myworkdayjobs.com/MKSCareersUniversity'}
+  - {ats: ashby, company: Pebl, url: pebl}
+  - {ats: workday, company: Pitney Bowes, url: 'https://pitneybowes.wd1.myworkdayjobs.com/pbcareers'}
+  - {ats: workday, company: Primerica, url: 'https://primerica.wd1.myworkdayjobs.com/pri'}
+  - {ats: workday, company: QTS, url: 'https://qtsdatacenters.wd5.myworkdayjobs.com/qts'}
+  - {ats: workday, company: Radiance Technologies, url: 'https://radiancetech.wd12.myworkdayjobs.com/Radiance_External'}
+  - {ats: ashby, company: Socure, url: socure}
+  - {ats: greenhouse, company: Sonatus, url: sonatus}
+  - {ats: workday, company: Stewart, url: 'https://stewart.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: 'University of Nevada, Reno', url: 'https://nshe.wd1.myworkdayjobs.com/UNR-external'}
+  - {ats: workday, company: Ameriprise Financial, url: 'https://ameriprise.wd5.myworkdayjobs.com/Ameriprise'}
+  - {ats: greenhouse, company: BillionToOne, url: billiontoone}
+  - {ats: workday, company: CIBC, url: 'https://cibc.wd3.myworkdayjobs.com/campus'}
+  - {ats: greenhouse, company: Horace Mann, url: horacemannservicecorporation}
+  - {ats: workday, company: Manulife Financial, url: 'https://manulife.wd3.myworkdayjobs.com/MFCJH_adminJobs'}
+  - {ats: workday, company: Rochester Regional Health, url: 'https://rrhs.wd5.myworkdayjobs.com/RRH'}
+  - {ats: smartrecruiters, company: Northwestern Mutual, url: 'https://jobs.smartrecruiters.com/NorthwesternMutual'}
+  - {ats: greenhouse, company: Alarm.com, url: alarmcom}
+  - {ats: lever, company: AllTrails, url: alltrails}
+  - {ats: greenhouse, company: Astera Labs, url: asteraearlycareer2026}
+  - {ats: greenhouse, company: Atlas Energy Solutions, url: atlassand}
+  - {ats: lever, company: Best Egg, url: BestEgg}
+  - {ats: greenhouse, company: Bracebridge Capital, url: bracebridgecapital}
+  - {ats: workday, company: Chamberlain Group, url: 'https://chamberlain.wd1.myworkdayjobs.com/Chamberlain_Group'}
+  - {ats: workday, company: Dell Technologies, url: 'https://dell.wd1.myworkdayjobs.com/External'}
+  - {ats: greenhouse, company: Digs, url: digs}
+  - {ats: workday, company: 'DuCharme, McMillen & Associates', url: 'https://dmainc.wd5.myworkdayjobs.com/dma'}
+  - {ats: workday, company: EisnerAmper, url: 'https://eisneramper.wd1.myworkdayjobs.com/EisnerAmperEarlyCareers'}
+  - {ats: workday, company: Finra, url: 'https://finra.wd1.myworkdayjobs.com/FINRA'}
+  - {ats: workday, company: Gen, url: 'https://gen.wd1.myworkdayjobs.com/careers'}
+  - {ats: workday, company: Greenheck Group, url: 'https://greenheckgroup.wd5.myworkdayjobs.com/external'}
+  - {ats: greenhouse, company: Impiricus, url: impiricus}
+  - {ats: greenhouse, company: LG Electronics, url: lgelectronics}
+  - {ats: workday, company: M&T Bank, url: 'https://mtb.wd5.myworkdayjobs.com/Campus'}
+  - {ats: workday, company: Marsh, url: 'https://mmc.wd1.myworkdayjobs.com/mmc'}
+  - {ats: workday, company: MassMutual Ascend, url: 'https://massmutual.wd1.myworkdayjobs.com/MMAscendCareers'}
+  - {ats: workday, company: Mercer University, url: 'https://merceruniversity.wd1.myworkdayjobs.com/student'}
+  - {ats: workday, company: SailPoint, url: 'https://sailpoint.wd1.myworkdayjobs.com/SailPoint'}
+  - {ats: workday, company: Salesforce, url: 'https://salesforce.wd12.myworkdayjobs.com/futureforce_newgradroles'}
+  - {ats: workday, company: Santander, url: 'https://santander.wd3.myworkdayjobs.com/SantanderCareers'}
+  - {ats: workday, company: Sartorius, url: 'https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers'}
+  - {ats: workday, company: Sierra Space, url: 'https://sierraspace.wd1.myworkdayjobs.com/Sierra_Space_External_Career_Site'}
+  - {ats: workday, company: Skechers, url: 'https://skechers.wd5.myworkdayjobs.com/One-career-site'}
+  - {ats: greenhouse, company: Snorkel AI, url: snorkelai}
+  - {ats: workday, company: Southern New Hampshire University, url: 'https://snhu.wd503.myworkdayjobs.com/External_Career_Site'}
+  - {ats: greenhouse, company: Sparksoft, url: sparksoftcorporation}
+  - {ats: workday, company: Starz, url: 'https://starz.wd5.myworkdayjobs.com/Starz'}
+  - {ats: greenhouse, company: Strata Decision Technology, url: stratacareers}
+  - {ats: workday, company: TC Energy, url: 'https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC'}
+  - {ats: workday, company: Trimble, url: 'https://trimble.wd1.myworkdayjobs.com/TrimbleCareers'}
+  - {ats: workday, company: Truist Bank, url: 'https://truist.wd1.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: U.S. Bank, url: 'https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers'}
+  - {ats: workday, company: Uhaul, url: 'https://uhaul.wd1.myworkdayjobs.com/UhaulJobs'}
+  - {ats: ashby, company: UiPath, url: uipath}
+  - {ats: greenhouse, company: Virtru, url: virtru}
+  - {ats: ashby, company: Vital Lyfe, url: vital-lyfe}
+  - {ats: workday, company: Washpost, url: 'https://washpost.wd5.myworkdayjobs.com/washingtonpostcareers'}
+  - {ats: workday, company: Zeiss, url: 'https://zeissgroup.wd3.myworkdayjobs.com/External'}
+  - {ats: greenhouse, company: iSpot.tv, url: ispottv}
+  - {ats: lever, company: Aledade, url: aledade}
+  - {ats: workday, company: Assurant, url: 'https://assurant.wd1.myworkdayjobs.com/Assurant_Careers'}
+  - {ats: workday, company: AutoNation, url: 'https://autonation.wd5.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Cambridge Associates, url: 'https://cambridgeassociates.wd5.myworkdayjobs.com/Cambridge_Associates'}
+  - {ats: workday, company: Cubic, url: 'https://cubic.wd1.myworkdayjobs.com/cubic_USA_careers'}
+  - {ats: smartrecruiters, company: Felix Magazine, url: 'https://jobs.smartrecruiters.com/LuxeMediaLLC'}
+  - {ats: greenhouse, company: Gelber Group, url: gelberhandshake}
+  - {ats: workday, company: Liberty University, url: 'https://liberty.wd5.myworkdayjobs.com/lu_job_board_staff'}
+  - {ats: smartrecruiters, company: LinkedIn, url: 'https://jobs.smartrecruiters.com/LinkedIn3'}
+  - {ats: workday, company: BlueScope, url: 'https://bluescopenac.wd5.myworkdayjobs.com/BNACareers'}
+  - {ats: workday, company: Cadence Design Systems, url: 'https://cadence.wd1.myworkdayjobs.com/OpenEye_Careers'}
+  - {ats: greenhouse, company: Freeform, url: freeformfuturecorp}
+  - {ats: lever, company: Nextech Systems, url: nextech}
+  - {ats: workday, company: Pluralsight, url: 'https://pluralsight.wd1.myworkdayjobs.com/Careers'}
+  - {ats: smartrecruiters, company: AG Technologies, url: 'https://jobs.smartrecruiters.com/AGTechnologies1'}
+  - {ats: workday, company: Acushnet Holdings, url: 'https://acushnetgolf.wd12.myworkdayjobs.com/ACU'}
+  - {ats: ashby, company: AeroVect, url: AeroVect}
+  - {ats: ashby, company: Airspace Intelligence, url: airspace-intelligence.com}
+  - {ats: lever, company: Allegiant Air, url: allegiantair}
+  - {ats: workday, company: Arch Capital Group, url: 'https://archgroup.wd1.myworkdayjobs.com/careers'}
+  - {ats: workday, company: Arlo, url: 'https://arlo.wd12.myworkdayjobs.com/external_careers'}
+  - {ats: workday, company: Autostore, url: 'https://autostore.wd3.myworkdayjobs.com/autostore'}
+  - {ats: workday, company: Availity, url: 'https://availity.wd1.myworkdayjobs.com/availity_careers_us'}
+  - {ats: workday, company: Baird, url: 'https://baird.wd1.myworkdayjobs.com/careers'}
+  - {ats: greenhouse, company: BambooHR, url: bamboohr17}
+  - {ats: workday, company: Bank of America, url: 'https://ghr.wd1.myworkdayjobs.com/us-emplsv'}
+  - {ats: greenhouse, company: Bluestaq, url: bluestaq}
+  - {ats: workday, company: Bread Financial, url: 'https://alliancedata.wd5.myworkdayjobs.com/breadfinancial_us'}
+  - {ats: smartrecruiters, company: California ISO, url: 'https://jobs.smartrecruiters.com/CaliforniaISO'}
+  - {ats: workday, company: Citi, url: 'https://citi.wd5.myworkdayjobs.com/Citi_Early_Careers_Events_Site'}
+  - {ats: workday, company: Clayton, url: 'https://claytonhomes.wd1.myworkdayjobs.com/ClaytonCareers'}
+  - {ats: greenhouse, company: Clockwork Systems, url: clockworksystems}
+  - {ats: greenhouse, company: CloudKitchens, url: css}
+  - {ats: lever, company: Cloudforce, url: go-cloudforce}
+  - {ats: greenhouse, company: Detroit Lions, url: detroitlions}
+  - {ats: lever, company: Energy Vault, url: EnergyVault}
+  - {ats: workday, company: Epicor, url: 'https://epicorsoftware.wd5.myworkdayjobs.com/epicorjobs'}
+  - {ats: workday, company: Etsy, url: 'https://etsy.wd5.myworkdayjobs.com/Etsy_Careers'}
+  - {ats: workday, company: FMC Corporation, url: 'https://fmc.wd12.myworkdayjobs.com/FMC'}
+  - {ats: workday, company: Fenwick & West, url: 'https://fenwick.wd1.myworkdayjobs.com/Fenwick_External_Careers'}
+  - {ats: ashby, company: Flock Safety, url: Flock%20Safety}
+  - {ats: ashby, company: GameChanger, url: gamechanger}
+  - {ats: greenhouse, company: Ginkgo Bioworks, url: ginkgobioworks}
+  - {ats: workday, company: Highmark Health, url: 'https://highmarkhealth.wd1.myworkdayjobs.com/highmark'}
+  - {ats: greenhouse, company: Horizon Industries, url: horizonindustrieslimited}
+  - {ats: workday, company: Howard Hughes Medical Institute (HHMI), url: 'https://hhmi.wd1.myworkdayjobs.com/external'}
+  - {ats: greenhouse, company: IEM, url: industrialelectricmanufacturing}
+  - {ats: workday, company: Integrity, url: 'https://integritymarketing.wd1.myworkdayjobs.com/Integrity'}
+  - {ats: workday, company: Jonas Software, url: 'https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareUSA'}
+  - {ats: ashby, company: Kira, url: kira}
+  - {ats: ashby, company: Kognitos, url: Kognitos}
+  - {ats: ashby, company: LINQ, url: linqapp}
+  - {ats: workday, company: McKesson, url: 'https://mckesson.wd3.myworkdayjobs.com/External_Careers'}
+  - {ats: lever, company: Multiply Labs, url: multiplylabs}
+  - {ats: workday, company: Multnomah County, url: 'https://multco.wd1.myworkdayjobs.com/multco_jobs'}
+  - {ats: greenhouse, company: National Information Solutions Cooperative (NISC), url: testnisc}
+  - {ats: lever, company: NextGen Federal Systems, url: nextgenfed}
+  - {ats: workday, company: NiSource, url: 'https://nisource.wd1.myworkdayjobs.com/NiSource'}
+  - {ats: workday, company: Nordson, url: 'https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers'}
+  - {ats: greenhouse, company: OTR Solutions, url: otrcapital1}
+  - {ats: workday, company: OneMain Financial, url: 'https://myhrhome.wd1.myworkdayjobs.com/OneMainCareers'}
+  - {ats: ashby, company: Ontic, url: Ontic}
+  - {ats: workday, company: Otsuka Pharmaceutical, tenant: vhr_otsuka, url: 'https://vhr-otsuka.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Ovintiv, url: 'https://ovintiv.wd3.myworkdayjobs.com/ovintivcareers'}
+  - {ats: greenhouse, company: PMG, url: pmg}
+  - {ats: greenhouse, company: Perpay, url: perpay}
+  - {ats: greenhouse, company: RF-SMART, url: rfsmart}
+  - {ats: workday, company: RXO, url: 'https://rxo.wd501.myworkdayjobs.com/rxojobs'}
+  - {ats: greenhouse, company: Redwood Materials, url: redwoodmaterials}
+  - {ats: greenhouse, company: Rendezvous Robotics, url: rendezvousrobotics}
+  - {ats: workday, company: Resolve Tech Solutions, url: 'https://resolvetech.wd1.myworkdayjobs.com/rts'}
+  - {ats: workday, company: Rogers Behavioral Health, url: 'https://rogersbh.wd1.myworkdayjobs.com/rbhcareer'}
+  - {ats: greenhouse, company: SK Hynix Memory Solution, url: skhynixmemorysolutionsamericainc}
+  - {ats: workday, company: STRS Ohio, url: 'https://strsoh.wd1.myworkdayjobs.com/STRS_Jobs'}
+  - {ats: greenhouse, company: SanMar, url: sanmar}
+  - {ats: greenhouse, company: Scopely, url: scopely}
+  - {ats: smartrecruiters, company: ServiceNow, url: 'https://jobs.smartrecruiters.com/ServiceNow'}
+  - {ats: workday, company: Signify, url: 'https://lighting.wd3.myworkdayjobs.com/jobs-and-careers'}
+  - {ats: workday, company: Snyk, url: 'https://snyk.wd103.myworkdayjobs.com/External'}
+  - {ats: greenhouse, company: Solid Power, url: solidpower}
+  - {ats: greenhouse, company: SpecterOps, url: specterops}
+  - {ats: workday, company: Sprinklr, url: 'https://sprinklr.wd1.myworkdayjobs.com/careers'}
+  - {ats: greenhouse, company: StockX, url: stockx}
+  - {ats: workday, company: TD Bank, url: 'https://td.wd3.myworkdayjobs.com/TD_Bank_Careers'}
+  - {ats: workday, company: TNS, url: 'https://tnsi.wd1.myworkdayjobs.com/Search'}
+  - {ats: ashby, company: Taara, url: taaraconnect}
+  - {ats: ashby, company: Tessera Labs, url: tessera-labs}
+  - {ats: smartrecruiters, company: Treehouse Strategy and Communications, url: 'https://jobs.smartrecruiters.com/TreehouseStrategyAndCommunicatio'}
+  - {ats: workday, company: University of Maryland - College Park, url: 'https://umd.wd1.myworkdayjobs.com/UMCP'}
+  - {ats: ashby, company: Valstad, url: valstad}
+  - {ats: lever, company: Veeva Systems, url: veeva}
+  - {ats: lever, company: Wade Trim, url: wadetrim}
+  - {ats: workday, company: Athena Health, url: 'https://athenahealth.wd1.myworkdayjobs.com/External'}
+  - {ats: greenhouse, company: Cartesian, url: cartesiansystems}
+  - {ats: workday, company: DXC Technology, url: 'https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs'}
+  - {ats: workday, company: Elekta, url: 'https://elekta.wd3.myworkdayjobs.com/Elekta_Careers'}
+  - {ats: greenhouse, company: Northspyre, url: northspyre}
+  - {ats: workday, company: Peter Millar, url: 'https://petermillarllc.wd12.myworkdayjobs.com/PMI'}
+  - {ats: ashby, company: Saronic, url: saronic}
+  - {ats: workday, company: Vertex Pharmaceuticals, url: 'https://vrtx.wd501.myworkdayjobs.com/vertex_intern'}
+  - {ats: smartrecruiters, company: Codeage, url: 'https://jobs.smartrecruiters.com/Codeage'}
+  - {ats: ashby, company: Exa, url: exa}
+  - {ats: ashby, company: Hypercubic, url: hypercubic}
+  - {ats: workday, company: AAA Club Alliance, url: 'https://aaaie.wd1.myworkdayjobs.com/csaacareers'}
+  - {ats: greenhouse, company: ALKU, url: alku}
+  - {ats: workday, company: AMN Healthcare, url: 'https://amn.wd1.myworkdayjobs.com/amn_careers'}
+  - {ats: workday, company: AT&T, url: 'https://att.wd1.myworkdayjobs.com/ATTCollegeSpecialInvite'}
+  - {ats: greenhouse, company: AbelsonTaylor, url: abelsontaylor}
+  - {ats: smartrecruiters, company: Accel Learning, url: 'https://jobs.smartrecruiters.com/AccelLearning'}
+  - {ats: workday, company: Ace Hardware, url: 'https://acehardware.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Advance Auto Parts, url: 'https://advanceauto.wd5.myworkdayjobs.com/advanceexternalcareers'}
+  - {ats: greenhouse, company: Advanced Space, url: advancedspace}
+  - {ats: workday, company: Air Products, url: 'https://airproducts.wd5.myworkdayjobs.com/AP0001'}
+  - {ats: workday, company: Allegion, url: 'https://allegion.wd5.myworkdayjobs.com/careers'}
+  - {ats: ashby, company: Alloy Enterprises, url: alloyenterprises}
+  - {ats: workday, company: Alston & Bird Law Firm, url: 'https://alston.wd1.myworkdayjobs.com/ExternalCareer'}
+  - {ats: workday, company: American Family Insurance Group, url: 'https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers'}
+  - {ats: lever, company: AnaVation, url: anavationllc}
+  - {ats: workday, company: Anheuser-Busch, url: 'https://abinbev.wd1.myworkdayjobs.com/USA'}
+  - {ats: lever, company: Anomali, url: anomali}
+  - {ats: lever, company: Aprio, url: Aprio}
+  - {ats: greenhouse, company: Argmax, url: argmax}
+  - {ats: lever, company: ArteraAI, url: artera}
+  - {ats: workday, company: AssetWorks, url: 'https://volarisgroup.wd3.myworkdayjobs.com/AssetWorks'}
+  - {ats: greenhouse, company: BTI360, url: bti36021}
+  - {ats: greenhouse, company: Babel Street, url: babelstreet}
+  - {ats: smartrecruiters, company: Barkback, url: 'https://jobs.smartrecruiters.com/barkbackLlc'}
+  - {ats: workday, company: Barr, url: 'https://barr.wd1.myworkdayjobs.com/barrcareers'}
+  - {ats: workday, company: Belk, url: 'https://belk.wd1.myworkdayjobs.com/careers'}
+  - {ats: workday, company: BigCommerce, url: 'https://bigcommerce.wd12.myworkdayjobs.com/Commerce'}
+  - {ats: ashby, company: Binance, url: binance.us}
+  - {ats: workday, company: BlackRock, url: 'https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional'}
+  - {ats: smartrecruiters, company: BlinqLABS, url: 'https://jobs.smartrecruiters.com/Blinqlabs'}
+  - {ats: ashby, company: Blockhouse, url: blockhouse}
+  - {ats: greenhouse, company: Box, url: boxinc}
+  - {ats: workday, company: Brown & Brown Insurance, url: 'https://bbinsurance.wd1.myworkdayjobs.com/careers'}
+  - {ats: greenhouse, company: Bugcrowd, url: bugcrowd}
+  - {ats: workday, company: Caliber, url: 'https://calibercollision.wd1.myworkdayjobs.com/caliber'}
+  - {ats: workday, company: Carrier Global, url: 'https://carrier.wd5.myworkdayjobs.com/jobs'}
+  - {ats: workday, company: Center for Internet Security (CIS), url: 'https://cisecurity.wd1.myworkdayjobs.com/CIS_External_Career_Site'}
+  - {ats: workday, company: Circle, url: 'https://circle.wd1.myworkdayjobs.com/Circle'}
+  - {ats: ashby, company: Clipboard Health, url: clipboard}
+  - {ats: ashby, company: Collaborative Robotics, url: cobot}
+  - {ats: workday, company: Commerce Bank, url: 'https://commercebank.wd1.myworkdayjobs.com/CommerceJobs'}
+  - {ats: ashby, company: Compa, url: compa}
+  - {ats: smartrecruiters, company: Comtech, url: 'https://jobs.smartrecruiters.com/ComtechLLC2'}
+  - {ats: greenhouse, company: Constant Contact, url: constantcontact}
+  - {ats: greenhouse, company: Construction Resources, url: constructionresources}
+  - {ats: smartrecruiters, company: Cornerstone Building Brands, url: 'https://jobs.smartrecruiters.com/CornerstoneBuildingBrandsCareers'}
+  - {ats: ashby, company: Coverdash, url: coverdash}
+  - {ats: ashby, company: Creatify, url: embedding-vc}
+  - {ats: ashby, company: Creatify Lab, url: creatify}
+  - {ats: workday, company: Criteo, url: 'https://criteo.wd3.myworkdayjobs.com/Criteo_Career_Site'}
+  - {ats: smartrecruiters, company: Crown Innovations, url: 'https://jobs.smartrecruiters.com/CrownInnovationsInc'}
+  - {ats: greenhouse, company: Custom Computer Specialists, url: customcomputerspecialists}
+  - {ats: greenhouse, company: DRW, url: drwuniversityjobs}
+  - {ats: workday, company: Dee Zee, url: 'https://deezee.wd108.myworkdayjobs.com/DeeZee_Careers'}
+  - {ats: smartrecruiters, company: Deegit, url: 'https://jobs.smartrecruiters.com/DeegitInc3'}
+  - {ats: ashby, company: Delinea, url: delinea}
+  - {ats: greenhouse, company: DevRev, url: devrev}
+  - {ats: ashby, company: Ditto, url: ditto}
+  - {ats: ashby, company: Ditto AI, url: dittoai}
+  - {ats: workday, company: Driscoll's, url: 'https://driscolls.wd5.myworkdayjobs.com/driscolls'}
+  - {ats: ashby, company: ETHGlobal, url: ethglobal}
+  - {ats: smartrecruiters, company: EVERSANA, url: 'https://jobs.smartrecruiters.com/EVERSANA1'}
+  - {ats: workday, company: Echo Global Logistics, url: 'https://echo.wd1.myworkdayjobs.com/Echo_Logistics'}
+  - {ats: workday, company: Ecolab, url: 'https://ecolab.wd1.myworkdayjobs.com/ecolab_external'}
+  - {ats: greenhouse, company: Elevations Credit Union, url: elevationscreditunion}
+  - {ats: smartrecruiters, company: Encephalo Investments, url: 'https://jobs.smartrecruiters.com/EncephaloInvestments'}
+  - {ats: lever, company: Endpoint Clinical, url: endpointclinical}
+  - {ats: workday, company: Erickson Senior Living, url: 'https://erickson.wd108.myworkdayjobs.com/external'}
+  - {ats: workday, company: FOX, url: 'https://fox.wd1.myworkdayjobs.com/Domestic'}
+  - {ats: workday, company: FanThreeSixty, tenant: osv_tifec, url: 'https://osv-tifec.wd5.myworkdayjobs.com/fanthreesixty'}
+  - {ats: ashby, company: Farsight, url: farsight}
+  - {ats: lever, company: Firemon, url: firemon}
+  - {ats: workday, company: FirstDay Foundation, url: 'https://nphosting.wd5.myworkdayjobs.com/FDFCareers'}
+  - {ats: workday, company: Florida Institute of Technology, url: 'https://floridatech.wd5.myworkdayjobs.com/FloridaTechCareers'}
+  - {ats: workday, company: Flowserve, url: 'https://flowserve.wd1.myworkdayjobs.com/applied'}
+  - {ats: greenhouse, company: Forward Networks, url: forwardnetworks}
+  - {ats: smartrecruiters, company: Freshworks, url: 'https://jobs.smartrecruiters.com/Freshworks'}
+  - {ats: workday, company: Frost, url: 'https://frostbank.wd5.myworkdayjobs.com/External'}
+  - {ats: greenhouse, company: GCM Grosvenor, url: gcmgrosvenor}
+  - {ats: greenhouse, company: Garda Capital Partners, url: gardacp}
+  - {ats: ashby, company: Gen Digital, url: gen-digital}
+  - {ats: lever, company: GenBio AI, url: genbio}
+  - {ats: ashby, company: GoLinks, url: golinks}
+  - {ats: ashby, company: Great Question, url: greatquestion}
+  - {ats: workday, company: GuideStone, url: 'https://guidestone.wd1.myworkdayjobs.com/guidestone'}
+  - {ats: workday, company: Guidewire, url: 'https://guidewire.wd5.myworkdayjobs.com/external'}
+  - {ats: ashby, company: Hippocratic AI, url: Hippocratic%20AI}
+  - {ats: smartrecruiters, company: Horizon Technologies, url: 'https://jobs.smartrecruiters.com/HorizonTechnologiesInc'}
+  - {ats: greenhouse, company: HumanSignal, url: humansignal}
+  - {ats: smartrecruiters, company: Huxley, url: 'https://jobs.smartrecruiters.com/ComputerFutures3'}
+  - {ats: workday, company: IGS Energy, url: 'https://igsenergy.wd1.myworkdayjobs.com/IGS'}
+  - {ats: lever, company: Ideas United, url: ideasunited}
+  - {ats: smartrecruiters, company: Inbulks, url: 'https://jobs.smartrecruiters.com/InbulksCorp'}
+  - {ats: greenhouse, company: Incident IQ, url: incidentiq}
+  - {ats: greenhouse, company: Inspire Medical Systems, url: inspiremedicalsystemsinc}
+  - {ats: smartrecruiters, company: Interco, url: 'https://jobs.smartrecruiters.com/Interco'}
+  - {ats: workday, company: International Mission Board, url: 'https://golimitless.wd1.myworkdayjobs.com/Staff_External_career_site'}
+  - {ats: workday, company: Invesco, url: 'https://invesco.wd1.myworkdayjobs.com/IVZearlycareers'}
+  - {ats: greenhouse, company: Ivalua, url: ivalua}
+  - {ats: greenhouse, company: Juvare, url: juvare}
+  - {ats: workday, company: KSM, url: 'https://ksmcpa.wd12.myworkdayjobs.com/ksmcareers'}
+  - {ats: smartrecruiters, company: Kanshe Infotech, url: 'https://jobs.smartrecruiters.com/KansheInfotech'}
+  - {ats: workday, company: Ken Garff Auto Group, url: 'https://kengarff.wd1.myworkdayjobs.com/external_site'}
+  - {ats: greenhouse, company: KnowBe4, url: knowbe4}
+  - {ats: greenhouse, company: Koddi, url: koddi}
+  - {ats: lever, company: LTA Research, url: ltaresearch}
+  - {ats: greenhouse, company: LaunchDarkly, url: launchdarkly}
+  - {ats: lever, company: Lightcast, url: economicmodeling}
+  - {ats: greenhouse, company: Lightspeed Systems, url: lightspeedsystems}
+  - {ats: workday, company: Live Oak Bank, url: 'https://liveoakbancshares.wd1.myworkdayjobs.com/Live_Oak'}
+  - {ats: greenhouse, company: LogicGate, url: logicgate}
+  - {ats: smartrecruiters, company: MAXISIQ, url: 'https://jobs.smartrecruiters.com/IOMAXISLLC'}
+  - {ats: workday, company: MGIC, url: 'https://mgic.wd5.myworkdayjobs.com/mgic'}
+  - {ats: workday, company: Marigold, url: 'https://campaignmonitor.wd5.myworkdayjobs.com/marigold'}
+  - {ats: ashby, company: Maxima, url: maxima}
+  - {ats: workday, company: McKesson, url: 'https://mckesson.wd3.myworkdayjobs.com/sourcer_on_req'}
+  - {ats: smartrecruiters, company: McWane, url: 'https://jobs.smartrecruiters.com/McWaneInc'}
+  - {ats: greenhouse, company: Medical Informatics Engineering, url: medicalinformaticsengineering}
+  - {ats: workday, company: MillerKnoll, url: 'https://millerknoll.wd1.myworkdayjobs.com/MillerKnoll'}
+  - {ats: greenhouse, company: Minitab, url: minitab}
+  - {ats: workday, company: Modernizing Medicine, url: 'https://modmed.wd501.myworkdayjobs.com/ModMed12'}
+  - {ats: ashby, company: Monarch Money, url: monarchmoney}
+  - {ats: ashby, company: Monogram, url: monogram}
+  - {ats: ashby, company: NOX METALS, url: nox-metals}
+  - {ats: greenhouse, company: National Information Solutions Cooperative (NISC), url: nisc}
+  - {ats: workday, company: Newrez, url: 'https://newrez.wd1.myworkdayjobs.com/NRZ'}
+  - {ats: greenhouse, company: Newton Research, url: newtonresearch}
+  - {ats: greenhouse, company: Nex, url: nex}
+  - {ats: greenhouse, company: Nooks, url: nooks}
+  - {ats: workday, company: Nordstrom, url: 'https://nordstrom.wd501.myworkdayjobs.com/nordstrom_careers'}
+  - {ats: workday, company: Northeastern University, url: 'https://northeastern.wd1.myworkdayjobs.com/careers'}
+  - {ats: workday, company: OCC, url: 'https://theocc.wd5.myworkdayjobs.com/careers'}
+  - {ats: greenhouse, company: Obsidian Security, url: obsidiansecurity}
+  - {ats: greenhouse, company: OfferUp, url: offerup}
+  - {ats: greenhouse, company: Onapsis, url: onapsis}
+  - {ats: ashby, company: Outmarket AI, url: outmarket}
+  - {ats: greenhouse, company: Parachute Health, url: parachutehealth}
+  - {ats: greenhouse, company: PatientPoint, url: patientpoint}
+  - {ats: ashby, company: Phil, url: phil}
+  - {ats: ashby, company: Phonely, url: phonely}
+  - {ats: workday, company: Pine Rest, url: 'https://pinerest.wd5.myworkdayjobs.com/PineRest'}
+  - {ats: workday, company: Piper Sandler, url: 'https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers'}
+  - {ats: greenhouse, company: Praxent, url: praxent}
+  - {ats: greenhouse, company: Premier Automation, url: premierautomation}
+  - {ats: greenhouse, company: Presence, url: presencelearning}
+  - {ats: smartrecruiters, company: Proximate Technologies, url: 'https://jobs.smartrecruiters.com/ProximateTechnologiesInc1'}
+  - {ats: greenhouse, company: QGenda, url: qgenda}
+  - {ats: workday, company: QuidelOrtho, url: 'https://orthoclinical.wd1.myworkdayjobs.com/Search'}
+  - {ats: workday, company: RGA Reinsurance Company, url: 'https://rgare.wd1.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: RIB Software, url: 'https://aveva.wd3.myworkdayjobs.com/RIB_Careers'}
+  - {ats: greenhouse, company: Rackner, url: rackner}
+  - {ats: ashby, company: RapDev, url: rapdev}
+  - {ats: ashby, company: Realm, url: realmalliance}
+  - {ats: lever, company: Redhorse, url: redhorsecorp}
+  - {ats: smartrecruiters, company: RegDesk, url: 'https://jobs.smartrecruiters.com/RegDeskInc'}
+  - {ats: workday, company: Relativity, url: 'https://kcura.wd1.myworkdayjobs.com/External_Career_Site'}
+  - {ats: ashby, company: Remedy Scientific, url: Remedy%20Scientific}
+  - {ats: greenhouse, company: Rise8, url: rise8}
+  - {ats: workday, company: Rite Hite, url: 'https://ritehite.wd12.myworkdayjobs.com/RHH'}
+  - {ats: ashby, company: Riveron, url: riveron}
+  - {ats: ashby, company: Rivet Industries, url: rivet}
+  - {ats: workday, company: Ryan, url: 'https://ryan.wd1.myworkdayjobs.com/RyanCareers'}
+  - {ats: greenhouse, company: SHEIN, url: shein}
+  - {ats: smartrecruiters, company: SOMFY Group, url: 'https://jobs.smartrecruiters.com/somfygroup'}
+  - {ats: smartrecruiters, company: STCU, url: 'https://jobs.smartrecruiters.com/STCU1'}
+  - {ats: greenhouse, company: STR, url: systemstechnologyresearch}
+  - {ats: workday, company: Sarasota County, url: 'https://scgov.wd5.myworkdayjobs.com/SCGOV'}
+  - {ats: smartrecruiters, company: Skyward, url: 'https://jobs.smartrecruiters.com/Skyward1'}
+  - {ats: ashby, company: Spacial AI, url: spacial}
+  - {ats: greenhouse, company: Strand Therapeutics, url: strandtherapeutics}
+  - {ats: lever, company: Synthego, url: synthego}
+  - {ats: smartrecruiters, company: System Canada Technologies, url: 'https://jobs.smartrecruiters.com/systemCanadaTechnologies'}
+  - {ats: workday, company: T.D. Williamson, url: 'https://tdwilliamson.wd1.myworkdayjobs.com/TDWCareers'}
+  - {ats: ashby, company: TELUS Digital, url: telus-digital}
+  - {ats: workday, company: Techtronic Industries, url: 'https://tti.wd1.myworkdayjobs.com/tti_pe'}
+  - {ats: lever, company: Tekton, url: tekton}
+  - {ats: workday, company: Tencent, url: 'https://tencent.wd1.myworkdayjobs.com/Lightspeed'}
+  - {ats: greenhouse, company: Tenon, url: tenon}
+  - {ats: ashby, company: TensorWave, url: tensorwave}
+  - {ats: workday, company: Texas Capital Bank, url: 'https://texascapitalbank.wd12.myworkdayjobs.com/Careers'}
+  - {ats: ashby, company: The Browser Company, url: the%20browser%20company}
+  - {ats: workday, company: Tricentis, url: 'https://tricentis.wd1.myworkdayjobs.com/tricentis_careers'}
+  - {ats: ashby, company: Triumph, url: triumph-arcade}
+  - {ats: greenhouse, company: Typeface, url: typeface}
+  - {ats: greenhouse, company: Udemy, url: udemybedi}
+  - {ats: workday, company: University Corporation for Atmospheric Research, url: 'https://ucar.wd5.myworkdayjobs.com/UCAR_Careers'}
+  - {ats: ashby, company: Unwrap, url: Unwrap}
+  - {ats: workday, company: Vera Bradley, url: 'https://verabradley.wd5.myworkdayjobs.com/vbcareers'}
+  - {ats: greenhouse, company: Verisign, url: verisign}
+  - {ats: greenhouse, company: Vestwell, url: vestwell}
+  - {ats: workday, company: Viridien, url: 'https://cgg.wd103.myworkdayjobs.com/viridiencareers'}
+  - {ats: workday, company: Wash U, url: 'https://wustl.wd1.myworkdayjobs.com/external'}
+  - {ats: workday, company: Western Union, url: 'https://westernunion.wd5.myworkdayjobs.com/WesternUnionJobs'}
+  - {ats: workday, company: World Kinect, url: 'https://wfscorp.wd5.myworkdayjobs.com/wfscareers'}
+  - {ats: workday, company: Wounded Warrior Project, url: 'https://woundedwarriorproject.wd5.myworkdayjobs.com/wwp'}
+  - {ats: greenhouse, company: Wurl, url: wurljobs}
+  - {ats: greenhouse, company: Xebia, url: xebiausa}
+  - {ats: ashby, company: Zettabyte, url: zettabyte-space}
+  - {ats: lever, company: Zus Health, url: zushealth}
+  - {ats: smartrecruiters, company: iFLIP4, url: 'https://jobs.smartrecruiters.com/iFLIP4'}
+  - {ats: workday, company: iHeartMedia, url: 'https://iheartmedia.wd5.myworkdayjobs.com/External_iHM'}
+  - {ats: lever, company: Machina Labs, url: MachinaLabs}
+  - {ats: workday, company: Ticketmaster, url: 'https://livenation.wd503.myworkdayjobs.com/TMExternalSite'}
+  - {ats: ashby, company: Circleback, url: circleback}
+  - {ats: workday, company: Penn State University, url: 'https://psu.wd1.myworkdayjobs.com/Student'}
+  - {ats: smartrecruiters, company: RRS Group, url: 'https://jobs.smartrecruiters.com/RRSGroup'}
 quant:
   - {ats: custom, company: Jane Street, url: 'https://www.janestreet.com/join-jane-street/open-roles/'}
   - {ats: custom, company: Citadel Securities, url: 'https://www.citadelsecurities.com/careers/details/'}
@@ -553,6 +1016,34 @@ quant:
   - {ats: custom, company: TGS, url: 'https://tgsmc.com'}
   - {ats: custom, company: Group One Trading, url: 'https://groupone.com'}
   - {ats: greenhouse, company: 3Red Partners, url: 3redpartners}
+  - {ats: workday, company: BP, url: 'https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite'}
+  - {ats: greenhouse, company: IMC Trading, url: imc}
+  - {ats: workday, company: BP, url: 'https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers'}
+  - {ats: workday, company: thyssenkrupp, url: 'https://thyssenkruppmaterialsna.wd12.myworkdayjobs.com/1'}
+  - {ats: workday, company: PIMCO, url: 'https://pimco.wd1.myworkdayjobs.com/pimco-careers'}
+  - {ats: greenhouse, company: DRW, url: drweng}
+  - {ats: greenhouse, company: Chicago Trading Company, url: ctccampusboard}
+  - {ats: workday, company: MFS, url: 'https://mfs.wd1.myworkdayjobs.com/MFS-Careers'}
+  - {ats: workday, company: PEAK6, url: 'https://peak6group.wd1.myworkdayjobs.com/CapMan'}
+  - {ats: workday, company: MiQ, url: 'https://miqdigital.wd3.myworkdayjobs.com/MiQ_Careers'}
+  - {ats: greenhouse, company: Optiver, url: optiverprivate}
+  - {ats: workday, company: American Century Investments, url: 'https://americancentury.wd5.myworkdayjobs.com/AmericanCenturyInvestments'}
+  - {ats: greenhouse, company: BlackEdge Capital, url: blackedgecapital}
+  - {ats: greenhouse, company: Maven Securities, url: emergingtalent}
+  - {ats: workday, company: Raymond James Financial, url: 'https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers'}
+  - {ats: workday, company: BP, url: 'https://bpinternational.wd3.myworkdayjobs.com/bpCareers'}
+  - {ats: greenhouse, company: Cortland, url: cortland}
+  - {ats: workday, company: Guggenheim, url: 'https://guggenheiminvestment.wd5.myworkdayjobs.com/External'}
+  - {ats: workday, company: Jain Global, url: 'https://jainglobal.wd5.myworkdayjobs.com/ExternalSite'}
+  - {ats: smartrecruiters, company: Louis Dreyfus Company, url: 'https://jobs.smartrecruiters.com/LouisDreyfusCompany'}
+  - {ats: workday, company: Neuberger Berman, url: 'https://nb.wd1.myworkdayjobs.com/NBCareers'}
+  - {ats: workday, company: PricewaterhouseCoopers (PwC), url: 'https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers'}
+  - {ats: greenhouse, company: Readystate Asset Management, url: readystate}
+  - {ats: workday, company: Texas Permanent School Fund Corporation, url: 'https://texaspsf.wd501.myworkdayjobs.com/TexasPSFCareers'}
+  - {ats: smartrecruiters, company: VWH Capital Management, url: 'https://jobs.smartrecruiters.com/VWHCapitalManagementLP'}
+  - {ats: greenhouse, company: Weiss Asset Management, url: weissassetmanagement}
+  - {ats: greenhouse, company: Flow Traders, url: flowtraders}
+  - {ats: greenhouse, company: Old Mission, url: oldmissioncapital}
 data_science:
   - {ats: icims, company: Affinius Capital, url: 'https://careers-affiniuscapital.icims.com'}
   - {ats: custom, company: AlixPartners, url: 'https://www.alixpartners.com'}
@@ -625,6 +1116,255 @@ data_science:
   - {ats: workday, company: Cloudera, url: 'https://cloudera.wd5.myworkdayjobs.com/External_Career'}
   - {ats: custom, company: Informatica, url: 'https://informatica.com/careers'}
   - {ats: workday, company: Alteryx, url: 'https://alteryx.wd108.myworkdayjobs.com/AlteryxCareers'}
+  - {ats: workday, company: Johnson & Johnson, url: 'https://jj.wd5.myworkdayjobs.com/JJ'}
+  - {ats: workday, company: Samsung, url: 'https://sec.wd3.myworkdayjobs.com/Samsung_Careers'}
+  - {ats: workday, company: PricewaterhouseCoopers (PwC), url: 'https://pwc.wd3.myworkdayjobs.com/US_Entry_Level_Careers'}
+  - {ats: workday, company: Roche, url: 'https://roche.wd3.myworkdayjobs.com/roche-ext'}
+  - {ats: greenhouse, company: SharkNinja, url: sharkninjaoperatingllc}
+  - {ats: workday, company: Bloom Energy, url: 'https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers'}
+  - {ats: workday, company: AAA Club Alliance, url: 'https://ace.wd5.myworkdayjobs.com/careers'}
+  - {ats: workday, company: LPL Financial Holdings, url: 'https://lplfinancial.wd1.myworkdayjobs.com/university'}
+  - {ats: workday, company: BeOne, url: 'https://beigene.wd5.myworkdayjobs.com/beigene'}
+  - {ats: smartrecruiters, company: Red Bull, url: 'https://jobs.smartrecruiters.com/RedBull'}
+  - {ats: workday, company: Warner Bros., url: 'https://warnerbros.wd5.myworkdayjobs.com/global'}
+  - {ats: workday, company: First American, url: 'https://firstam.wd1.myworkdayjobs.com/firstamericancareers'}
+  - {ats: workday, company: Intermountain Healthcare, url: 'https://imh.wd108.myworkdayjobs.com/IntermountainCareers'}
+  - {ats: workday, company: Live Nation Entertainment, url: 'https://livenation.wd503.myworkdayjobs.com/LNExternalSite'}
+  - {ats: greenhouse, company: Integra FEC, url: integrainterns}
+  - {ats: workday, company: DraftKings, url: 'https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal'}
+  - {ats: workday, company: Marmon Holdings, url: 'https://marmon.wd501.myworkdayjobs.com/Marmon_Careers'}
+  - {ats: greenhouse, company: Prolaio, url: prolaio}
+  - {ats: workday, company: Vanguard, url: 'https://vanguard.wd5.myworkdayjobs.com/vanguard_external'}
+  - {ats: workday, company: Vanguard, url: 'https://vanguard.wd5.myworkdayjobs.com/contractors_restricted'}
+  - {ats: workday, company: Zayo, url: 'https://zayo.wd1.myworkdayjobs.com/zayo_careers'}
+  - {ats: workday, company: CSL, url: 'https://csl.wd1.myworkdayjobs.com/CSL_External'}
+  - {ats: workday, company: City of Baltimore, url: 'https://baltimorecity.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Prairie View A&M University, url: 'https://tamus.wd1.myworkdayjobs.com/pvamu_external'}
+  - {ats: workday, company: Bank of Montreal, url: 'https://bmo.wd3.myworkdayjobs.com/External'}
+  - {ats: workday, company: Cleveland Clinic, url: 'https://ccf.wd1.myworkdayjobs.com/ClevelandClinicCareers'}
+  - {ats: workday, company: BMO, url: 'https://bmo.wd3.myworkdayjobs.com/Campus'}
+  - {ats: workday, company: Booz Allen, url: 'https://bah.wd1.myworkdayjobs.com/Confidential'}
+  - {ats: workday, company: CVS Health, url: 'https://cvshealth.wd1.myworkdayjobs.com/Private_Postings_Intern_Conversion_ONLY'}
+  - {ats: workday, company: Denver, url: 'https://denver.wd1.myworkdayjobs.com/CCD-denver-denvergov-CSC_Jobs-Civil_service_jobs-Police_Jobs-Fire_Jobs'}
+  - {ats: workday, company: Elevance Health, url: 'https://elevancehealth.wd1.myworkdayjobs.com/ELV-ET'}
+  - {ats: smartrecruiters, company: MSX International, url: 'https://jobs.smartrecruiters.com/MSXInternational'}
+  - {ats: workday, company: Ribbon, tenant: vhr_genband, url: 'https://vhr-genband.wd1.myworkdayjobs.com/ribboncareers'}
+  - {ats: smartrecruiters, company: ATPCO, url: 'https://jobs.smartrecruiters.com/ATPCO1'}
+  - {ats: greenhouse, company: BlueLabs Analytics, url: bluelabsanalyticsinc}
+  - {ats: workday, company: LabCorp, url: 'https://labcorp.wd1.myworkdayjobs.com/external'}
+  - {ats: workday, company: Accuray, url: 'https://accuray.wd5.myworkdayjobs.com/external'}
+  - {ats: workday, company: KeyBank, url: 'https://keybank.wd5.myworkdayjobs.com/External_Career_Site'}
+  - {ats: workday, company: BJ's Wholesale Club, url: 'https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers'}
+  - {ats: greenhouse, company: Breeze Airways, url: breezeairways}
+  - {ats: workday, company: Fidelity Investments, url: 'https://fmr.wd1.myworkdayjobs.com/fidelitycareers'}
+  - {ats: workday, company: Global Partners, url: 'https://global.wd1.myworkdayjobs.com/globalpartnerscareers'}
+  - {ats: workday, company: Group 1001, url: 'https://group1001wd.wd5.myworkdayjobs.com/careers'}
+  - {ats: workday, company: Iron Mountain, url: 'https://ironmountain.wd5.myworkdayjobs.com/iron-mountain-jobs'}
+  - {ats: workday, company: Mastercard, url: 'https://mastercard.wd1.myworkdayjobs.com/Campus'}
+  - {ats: greenhouse, company: RA Capital Management, url: racapitalmanagementllc}
+  - {ats: workday, company: S&P Global, url: 'https://spgi.wd5.myworkdayjobs.com/SPGI_Careers'}
+  - {ats: workday, company: Tandem Diabetes Care, url: 'https://tandemdiabetes.wd12.myworkdayjobs.com/tandemdiabetes'}
+  - {ats: workday, company: Vantage Data Centers, url: 'https://vantagedc.wd1.myworkdayjobs.com/Vantage'}
+  - {ats: workday, company: Xylem, url: 'https://xylem.wd5.myworkdayjobs.com/xylem-careers'}
+  - {ats: workday, company: Dollar Tree, url: 'https://dollartree.wd5.myworkdayjobs.com/dollartreeus'}
+  - {ats: smartrecruiters, company: Solidigm, url: 'https://jobs.smartrecruiters.com/Solidigm'}
+  - {ats: workday, company: doTERRA, url: 'https://doterra.wd1.myworkdayjobs.com/doTERRACareers'}
+  - {ats: workday, company: Cambridge Associates, url: 'https://cambridgeassociates.wd5.myworkdayjobs.com/Handshake'}
+  - {ats: workday, company: Aristocrat Leisure, url: 'https://aristocrat.wd3.myworkdayjobs.com/aristocratexternalcareerssite'}
+  - {ats: workday, company: Blue Cross and Blue Shield of Rhode Island, url: 'https://bcbsri.wd1.myworkdayjobs.com/BCBSRICareers'}
+  - {ats: greenhouse, company: Celonis, url: celonis}
+  - {ats: workday, company: Cox, url: 'https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1'}
+  - {ats: workday, company: Fannie Mae, url: 'https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers'}
+  - {ats: workday, company: GEHA, url: 'https://geha.wd5.myworkdayjobs.com/GEHACareers'}
+  - {ats: greenhouse, company: Gametime, url: gametimeunited}
+  - {ats: workday, company: Gilead Sciences, url: 'https://gilead.wd1.myworkdayjobs.com/gileadcareers'}
+  - {ats: greenhouse, company: Phoenix Contact, url: phoenixcontact}
+  - {ats: greenhouse, company: Relay, url: relaypro}
+  - {ats: workday, company: SCAN, url: 'https://scanhealthplan.wd108.myworkdayjobs.com/scancareers'}
+  - {ats: workday, company: Sallie Mae, tenant: sallie_mae, url: 'https://sallie-mae.wd5.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Sharecare, url: 'https://sharecare.wd1.myworkdayjobs.com/Sharecare_Careers'}
+  - {ats: workday, company: Stride, url: 'https://strideinc.wd1.myworkdayjobs.com/SK'}
+  - {ats: workday, company: Sun Life, url: 'https://sunlife.wd3.myworkdayjobs.com/Campus'}
+  - {ats: workday, company: Thomson Reuters, url: 'https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site'}
+  - {ats: workday, company: U.S. Venture, url: 'https://usventure.wd1.myworkdayjobs.com/usvexternal'}
+  - {ats: workday, company: Blue Cross and Blue Shield of Minnesota, url: 'https://bcbsmn.wd5.myworkdayjobs.com/bluecrossmn'}
+  - {ats: workday, company: Boston Medical Center, url: 'https://bmc.wd1.myworkdayjobs.com/BMC'}
+  - {ats: workday, company: Sonoco, url: 'https://sonoco.wd1.myworkdayjobs.com/CorporateCareers'}
+  - {ats: workday, company: The Boyd Group, url: 'https://boydgroup.wd1.myworkdayjobs.com/boydcareers'}
+  - {ats: workday, company: American Cancer Society, url: 'https://acs.wd5.myworkdayjobs.com/acscareers'}
+  - {ats: workday, company: American Electric Power, url: 'https://aep.wd1.myworkdayjobs.com/AEPCareerSite'}
+  - {ats: workday, company: American Red Cross, url: 'https://americanredcross.wd1.myworkdayjobs.com/american_red_cross_careers'}
+  - {ats: workday, company: AriensCo, url: 'https://arienscompany.wd5.myworkdayjobs.com/external'}
+  - {ats: workday, company: Ascensus, url: 'https://ascensushr.wd1.myworkdayjobs.com/ascensuscareers'}
+  - {ats: workday, company: Atrium Health, url: 'https://aah.wd5.myworkdayjobs.com/External'}
+  - {ats: greenhouse, company: Bandwidth, url: bandwidth}
+  - {ats: workday, company: BlueCross BlueShield of Nebraska, url: 'https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE'}
+  - {ats: workday, company: COUNTRY Financial, url: 'https://countryfinancial.wd5.myworkdayjobs.com/COUNTRYCorporateExternal'}
+  - {ats: workday, company: Camping World, url: 'https://campingworld.wd5.myworkdayjobs.com/Jobs'}
+  - {ats: workday, company: Canadian Tire, url: 'https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site'}
+  - {ats: workday, company: Cardinal Health, url: 'https://cardinalhealth.wd1.myworkdayjobs.com/EXT'}
+  - {ats: workday, company: Chemours, url: 'https://chemours.wd103.myworkdayjobs.com/Chemours'}
+  - {ats: workday, company: Cinemark Theatres, url: 'https://cinemark.wd1.myworkdayjobs.com/cinemark'}
+  - {ats: workday, company: Circle K, url: 'https://circlek.wd3.myworkdayjobs.com/circlekstorejobs'}
+  - {ats: workday, company: Cohesity, url: 'https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers'}
+  - {ats: workday, company: Continental Resources, url: 'https://clr.wd5.myworkdayjobs.com/CLR_Careers'}
+  - {ats: workday, company: CoxHealth, url: 'https://coxhealth.wd5.myworkdayjobs.com/CoxHealth_External'}
+  - {ats: workday, company: DriveTime, url: 'https://drivetime.wd1.myworkdayjobs.com/DriveTime'}
+  - {ats: greenhouse, company: Excel Sports Management, url: excelsportsmanagement}
+  - {ats: workday, company: First Bank & Trust, url: 'https://bankeasy.wd5.myworkdayjobs.com/bank-easy-job-openings'}
+  - {ats: workday, company: First Quality, url: 'https://firstquality.wd5.myworkdayjobs.com/firstquality'}
+  - {ats: workday, company: Flexera, url: 'https://flexerasoftware.wd1.myworkdayjobs.com/FlexeraSoftware'}
+  - {ats: workday, company: Fullsteam, url: 'https://fullsteam.wd1.myworkdayjobs.com/external'}
+  - {ats: greenhouse, company: Geotab, url: internshiplist2000}
+  - {ats: workday, company: Greene Tweed, url: 'https://gtweed.wd1.myworkdayjobs.com/Careers'}
+  - {ats: lever, company: Greenlight, url: greenlight}
+  - {ats: greenhouse, company: Hone Health, url: honehealth}
+  - {ats: workday, company: Jefferson Health, url: 'https://jeffersonhealth.wd5.myworkdayjobs.com/ThomasJeffersonExternal'}
+  - {ats: workday, company: Johnson Brothers Liquor Company, url: 'https://johnsonbrothers.wd5.myworkdayjobs.com/johnsonbrothers'}
+  - {ats: workday, company: Loft, url: 'https://knitwellgroup.wd1.myworkdayjobs.com/US_Corporate_Jobs'}
+  - {ats: greenhouse, company: Lumos, url: lumosfiber}
+  - {ats: workday, company: Magnite, tenant: osv_rubicon, url: 'https://osv-rubicon.wd5.myworkdayjobs.com/MagniteCareers'}
+  - {ats: workday, company: Masco, url: 'https://masco.wd1.myworkdayjobs.com/Masco'}
+  - {ats: workday, company: McAfee, url: 'https://mcafee.wd1.myworkdayjobs.com/external'}
+  - {ats: workday, company: MiTek, url: 'https://mii.wd5.myworkdayjobs.com/MiTek'}
+  - {ats: greenhouse, company: Mobilityware, url: mobilityware}
+  - {ats: greenhouse, company: Pure Storage, url: purestorage}
+  - {ats: workday, company: Richemont, url: 'https://richemont.wd3.myworkdayjobs.com/richemont'}
+  - {ats: workday, company: Schnucks, url: 'https://schnucks.wd5.myworkdayjobs.com/SchnucksCareers'}
+  - {ats: workday, company: Shake Shack, url: 'https://shakeshack.wd5.myworkdayjobs.com/External'}
+  - {ats: greenhouse, company: SonoThera, url: sonothera}
+  - {ats: greenhouse, company: SupplyHouse.com, url: supplyhouse}
+  - {ats: lever, company: Telligen, url: telligen}
+  - {ats: workday, company: Texas A&M University System, url: 'https://tamus.wd1.myworkdayjobs.com/System-wide_External'}
+  - {ats: workday, company: USAA, url: 'https://usaa.wd1.myworkdayjobs.com/USAAJOBSWD'}
+  - {ats: workday, company: University of Chicago, url: 'https://uchicago.wd5.myworkdayjobs.com/External'}
+  - {ats: workday, company: VF, url: 'https://vfc.wd5.myworkdayjobs.com/vfc_careers'}
+  - {ats: workday, company: Velera, url: 'https://velera.wd5.myworkdayjobs.com/VeleraCareers'}
+  - {ats: workday, company: Virtua Health, url: 'https://virtua.wd1.myworkdayjobs.com/Virtua_Health_External_Career_Site'}
+  - {ats: lever, company: Voltus, url: voltus}
+  - {ats: workday, company: Woodward Governor, url: 'https://woodward.wd5.myworkdayjobs.com/woodward'}
+  - {ats: workday, company: AAA Club Alliance, url: 'https://aaamidatlantic.wd5.myworkdayjobs.com/aaamidatlantic'}
+  - {ats: smartrecruiters, company: Augsburg University, url: 'https://jobs.smartrecruiters.com/AugsburgUniversity-MinneapolisMN'}
+  - {ats: workday, company: Bloomberg Industry Group, url: 'https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site'}
+  - {ats: smartrecruiters, company: City of Philadelphia, url: 'https://jobs.smartrecruiters.com/CityofPhiladelphia'}
+  - {ats: workday, company: DraftKings, url: 'https://draftkings.wd1.myworkdayjobs.com/Employee_Referral_Portal'}
+  - {ats: workday, company: Global Infrastructure, url: 'https://gi.wd1.myworkdayjobs.com/Global_Infrastructure'}
+  - {ats: workday, company: Gordon Food Service, url: 'https://gfs.wd5.myworkdayjobs.com/usprivate-gfs'}
+  - {ats: workday, company: PSECU, url: 'https://psecu.wd12.myworkdayjobs.com/PSECU'}
+  - {ats: workday, company: Signet Jewelers, url: 'https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers'}
+  - {ats: workday, company: Syneos Health, url: 'https://syneoshealth.wd12.myworkdayjobs.com/Syneos_Health_External_Site'}
+  - {ats: greenhouse, company: Uber Freight, url: uberfreight}
+  - {ats: workday, company: Welocalize, url: 'https://welocalize.wd1.myworkdayjobs.com/welocalize'}
+  - {ats: smartrecruiters, company: Westgate Resorts, url: 'https://jobs.smartrecruiters.com/WestgateResorts'}
+  - {ats: workday, company: Ingredion, url: 'https://ingredion.wd1.myworkdayjobs.com/IngredionCareers'}
+  - {ats: workday, company: Polaris, url: 'https://polaris.wd5.myworkdayjobs.com/PolarisJobs'}
+  - {ats: greenhouse, company: 1-800 Contacts, url: 1800contacts}
+  - {ats: workday, company: 3M, url: 'https://3m.wd1.myworkdayjobs.com/Search'}
+  - {ats: workday, company: 7-Eleven, url: 'https://my7elevenhr.wd12.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: AAA Mountainwest Group, url: 'https://ncnu.wd1.myworkdayjobs.com/aaa_ncnu_careers'}
+  - {ats: greenhouse, company: ACLU Kentucky, url: acluinternships}
+  - {ats: workday, company: Allied Solutions, url: 'https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External'}
+  - {ats: workday, company: AltaGas, url: 'https://wgl.wd5.myworkdayjobs.com/altagas'}
+  - {ats: workday, company: Altar'd State, url: 'https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood'}
+  - {ats: workday, company: American Cancer Society Cancer Action Network, url: 'https://acs.wd5.myworkdayjobs.com/acscan'}
+  - {ats: greenhouse, company: American Institutes for Research, url: americaninstitutesforresearch}
+  - {ats: greenhouse, company: Arevon, url: arevonenergyimpltest}
+  - {ats: workday, company: Ascend Performance Materials, url: 'https://ascendperformancematerials.wd1.myworkdayjobs.com/ascend'}
+  - {ats: workday, company: Axis Communications AB, url: 'https://axis.wd3.myworkdayjobs.com/external_career_site'}
+  - {ats: workday, company: BRG, url: 'https://thinkbrg.wd5.myworkdayjobs.com/BRG_External_Career_Site'}
+  - {ats: workday, company: Beth Israel Lahey Health, url: 'https://bilh.wd1.myworkdayjobs.com/External'}
+  - {ats: lever, company: BioAgilytix, url: bioagilytix}
+  - {ats: workday, company: Blue Cross Blue Shield of Arizona, url: 'https://bcbsaz.wd1.myworkdayjobs.com/bcbsazcareers'}
+  - {ats: greenhouse, company: Brevium, url: brevium}
+  - {ats: lever, company: ButcherBox, url: butcherbox}
+  - {ats: workday, company: C&S Wholesale Grocers, url: 'https://cswg.wd1.myworkdayjobs.com/cs_careers'}
+  - {ats: workday, company: CVS Health, url: 'https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers'}
+  - {ats: workday, company: Canadian Solar, url: 'https://canadiansolar.wd5.myworkdayjobs.com/CanadianSolar'}
+  - {ats: workday, company: Capital Group, url: 'https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers'}
+  - {ats: workday, company: Carter's, url: 'https://carters.wd1.myworkdayjobs.com/CartersCareers'}
+  - {ats: greenhouse, company: Cobalt, url: cobaltio}
+  - {ats: workday, company: Corewell Health, url: 'https://spectrumhealth.wd5.myworkdayjobs.com/CorewellHealthCareers'}
+  - {ats: greenhouse, company: Correlation One, url: expertnetwork}
+  - {ats: greenhouse, company: DH Pace, url: dhpace}
+  - {ats: lever, company: Daniels Health, url: daniels-sharpsmart}
+  - {ats: workday, company: Deckers Brands, url: 'https://deckers.wd5.myworkdayjobs.com/Deckers'}
+  - {ats: workday, company: Direct Supply, url: 'https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers'}
+  - {ats: greenhouse, company: Doctors Without Borders, url: msfcareers}
+  - {ats: greenhouse, company: Double Good, url: doublegood}
+  - {ats: workday, company: Everest, url: 'https://everestre.wd5.myworkdayjobs.com/careers'}
+  - {ats: greenhouse, company: Everlaw, url: everlaw}
+  - {ats: workday, company: Exclusive Networks, url: 'https://exclusivenetworks.wd103.myworkdayjobs.com/Exclusive-Networks-Career'}
+  - {ats: workday, company: FNBO, url: 'https://firstnational.wd12.myworkdayjobs.com/fnbocareers'}
+  - {ats: workday, company: First Financial, url: 'https://ffin.wd1.myworkdayjobs.com/First_Financial_Bank'}
+  - {ats: greenhouse, company: Foley Hoag, url: foleyhoag}
+  - {ats: greenhouse, company: Four Hands, url: fourhands}
+  - {ats: greenhouse, company: GSD&M, url: gsdm}
+  - {ats: workday, company: Gartner, url: 'https://gartner.wd5.myworkdayjobs.com/EXT'}
+  - {ats: workday, company: Geisinger, url: 'https://geisinger.wd5.myworkdayjobs.com/geisingerexternal'}
+  - {ats: workday, company: Gentex Corporation, url: 'https://gentex.wd5.myworkdayjobs.com/Gentex'}
+  - {ats: smartrecruiters, company: Global Channel Management, url: 'https://jobs.smartrecruiters.com/GlobalChannelManagementInc'}
+  - {ats: greenhouse, company: Golden Pet Brands, url: goldenpetbrands}
+  - {ats: workday, company: Goosehead Insurance, url: 'https://goosehead.wd503.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Henry Schein, url: 'https://henryschein.wd1.myworkdayjobs.com/External_Careers'}
+  - {ats: workday, company: Hilb Group, url: 'https://hilbgroup.wd5.myworkdayjobs.com/HG-Careers'}
+  - {ats: workday, company: Howden, url: 'https://hyperiongrp.wd3.myworkdayjobs.com/Hyperion_External'}
+  - {ats: workday, company: Huntington Bancshares, url: 'https://huntington.wd12.myworkdayjobs.com/HNBcareers'}
+  - {ats: workday, company: IJM, url: 'https://ijm.wd5.myworkdayjobs.com/careers-ijm'}
+  - {ats: greenhouse, company: IVX Health, url: ivxhealth}
+  - {ats: lever, company: Ibility, url: ibility}
+  - {ats: workday, company: Inmar Intelligence, url: 'https://inmar.wd1.myworkdayjobs.com/inmarcareers'}
+  - {ats: workday, company: Invesco, url: 'https://invesco.wd1.myworkdayjobs.com/IVZ'}
+  - {ats: greenhouse, company: Iovance Biotherapeutics, url: iovancebiotherapeutics}
+  - {ats: workday, company: Lamb Weston, url: 'https://lambweston.wd1.myworkdayjobs.com/lamb_external'}
+  - {ats: workday, company: Lamb Weston, url: 'https://lambweston.wd1.myworkdayjobs.com/CTE'}
+  - {ats: greenhouse, company: Layer Health, url: layerhealth}
+  - {ats: lever, company: Lexeo Therapeutics, url: lexeotx}
+  - {ats: workday, company: Lonza, url: 'https://lonza.wd3.myworkdayjobs.com/lonza_careers'}
+  - {ats: workday, company: MSIG USA, url: 'https://msigna.wd5.myworkdayjobs.com/gbl'}
+  - {ats: workday, company: Marriott Vacations Worldwide, url: 'https://mymvw.wd5.myworkdayjobs.com/mvw'}
+  - {ats: greenhouse, company: MedElite, url: medelitellc}
+  - {ats: greenhouse, company: Meriton, url: meriton}
+  - {ats: greenhouse, company: MetOx International, url: metoxinternationalinc}
+  - {ats: workday, company: MultiCare Health System, url: 'https://multicare.wd1.myworkdayjobs.com/multicare'}
+  - {ats: greenhouse, company: Muon Space, url: muonspace}
+  - {ats: workday, company: NBT Bank, url: 'https://nbtbancorp.wd12.myworkdayjobs.com/NBT-B'}
+  - {ats: workday, company: National Interstate Insurance, url: 'https://gaig.wd1.myworkdayjobs.com/National_Interstate_External'}
+  - {ats: lever, company: Neighbor, url: neighbor}
+  - {ats: smartrecruiters, company: NielsenIQ, url: 'https://jobs.smartrecruiters.com/NielsenIQ'}
+  - {ats: greenhouse, company: OBE, url: oldcastlebuildingenvelope}
+  - {ats: greenhouse, company: OH.io, url: ohio}
+  - {ats: greenhouse, company: Point C, url: pointc}
+  - {ats: greenhouse, company: Realtor.com, url: rdccareers}
+  - {ats: ashby, company: Rundoo, url: rundoo}
+  - {ats: greenhouse, company: SchoolMint, url: schoolmint}
+  - {ats: workday, company: Sedgwick Claims Management Services, url: 'https://sedgwick.wd1.myworkdayjobs.com/Sedgwick'}
+  - {ats: workday, company: Sentry Insurance, url: 'https://sentryinsurance.wd1.myworkdayjobs.com/SentryCareers'}
+  - {ats: smartrecruiters, company: Spring Venture Group, url: 'https://jobs.smartrecruiters.com/SpringVentureGroup1'}
+  - {ats: workday, company: Standard Insurance, url: 'https://standard.wd1.myworkdayjobs.com/search'}
+  - {ats: workday, company: State of Wisconsin Investment Board, url: 'https://swib.wd12.myworkdayjobs.com/ext'}
+  - {ats: greenhouse, company: Tastylive, url: tastylive}
+  - {ats: greenhouse, company: Tecovas, url: tecovas}
+  - {ats: greenhouse, company: The Health Management Academy, url: thehealthmanagementacademy}
+  - {ats: workday, company: TransUnion, url: 'https://transunion.wd5.myworkdayjobs.com/TransUnion'}
+  - {ats: workday, company: Trellix, url: 'https://trellix.wd1.myworkdayjobs.com/EnterpriseCareers'}
+  - {ats: workday, company: Triumph, url: 'https://tbkbank.wd1.myworkdayjobs.com/tfin'}
+  - {ats: workday, company: Tutor Perini Corporation, url: 'https://tutorperini.wd12.myworkdayjobs.com/external'}
+  - {ats: workday, company: UL Standards & Engagement, url: 'https://ulse.wd5.myworkdayjobs.com/ulsecareers'}
+  - {ats: workday, company: US Acute Care Solutions, url: 'https://usacs.wd1.myworkdayjobs.com/usacscareers'}
+  - {ats: greenhouse, company: UnitedMasters, url: unitedmasterstranslation}
+  - {ats: greenhouse, company: Vera Institute of Justice, url: verainstituteofjustice}
+  - {ats: workday, company: Verdantas, url: 'https://verdantas.wd108.myworkdayjobs.com/Verdantas'}
+  - {ats: workday, company: Vitalant, url: 'https://vitalant.wd12.myworkdayjobs.com/Careers'}
+  - {ats: greenhouse, company: Vixxo, url: vixxo}
+  - {ats: workday, company: VyStar Credit Union, url: 'https://vystarcu.wd1.myworkdayjobs.com/careers'}
+  - {ats: greenhouse, company: World Surf League, url: worldsurfleague}
+  - {ats: workday, company: YMCA of Metropolitan Atlanta, url: 'https://ymcaatlanta.wd1.myworkdayjobs.com/ymca-careers'}
+  - {ats: greenhouse, company: Zone 5 Technologies, url: zone5technologies}
+  - {ats: greenhouse, company: tastytrade, url: tastytrade}
+  - {ats: workday, company: Barry-Wehmiller, url: 'https://barrywehmiller.wd1.myworkdayjobs.com/BWConfidential'}
+  - {ats: workday, company: Clorox, url: 'https://clorox.wd1.myworkdayjobs.com/InviteClorox'}
+  - {ats: greenhouse, company: Correlation One, url: correlationone}
+  - {ats: workday, company: T-Mobile, url: 'https://tmobile.wd1.myworkdayjobs.com/contractorconversion'}
 ai_ml:
   - {ats: ashby, company: Adaptive, url: adaptivesecurity}
   - {ats: ashby, company: Applied Intuition, url: applied}
@@ -752,6 +1492,458 @@ ai_ml:
   - {ats: greenhouse, company: Kodiak Robotics, url: kodiak}
   - {ats: greenhouse, company: Torc Robotics, url: torcrobotics}
   - {ats: greenhouse, company: Databento, url: databento}
+  - {ats: workday, company: The Walt Disney Company, url: 'https://disney.wd5.myworkdayjobs.com/disneycareerdc'}
+  - {ats: workday, company: Micron Technology, url: 'https://micron.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: The Walt Disney Company, url: 'https://disney.wd5.myworkdayjobs.com/disneycareer'}
+  - {ats: workday, company: Applied Materials, url: 'https://amat.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Genentech, url: 'https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE'}
+  - {ats: workday, company: KLA, url: 'https://kla.wd1.myworkdayjobs.com/UR'}
+  - {ats: smartrecruiters, company: Lawrence Livermore National Laboratory (LLNL), url: 'https://jobs.smartrecruiters.com/LLNL'}
+  - {ats: smartrecruiters, company: Veolia, url: 'https://jobs.smartrecruiters.com/VeoliaEnvironnementSA'}
+  - {ats: lever, company: Zoox, url: zoox}
+  - {ats: workday, company: University of Texas at Austin, url: 'https://utaustin.wd1.myworkdayjobs.com/utstudent'}
+  - {ats: greenhouse, company: Samsung Research America, url: samsungresearchamericainternship}
+  - {ats: workday, company: Bose, url: 'https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers'}
+  - {ats: workday, company: ASML, url: 'https://asml.wd3.myworkdayjobs.com/asmlext1'}
+  - {ats: workday, company: University of Virginia, url: 'https://uva.wd1.myworkdayjobs.com/uvastudentjobs'}
+  - {ats: workday, company: Crowe, url: 'https://crowe.wd12.myworkdayjobs.com/external_careers'}
+  - {ats: workday, company: GE Vernova, url: 'https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite'}
+  - {ats: workday, company: AeroVironment, url: 'https://avav.wd1.myworkdayjobs.com/avav'}
+  - {ats: workday, company: General Motors, url: 'https://generalmotors.wd5.myworkdayjobs.com/Careers_GM'}
+  - {ats: greenhouse, company: Alo Yoga, url: aloyoga}
+  - {ats: smartrecruiters, company: AECOM, url: 'https://jobs.smartrecruiters.com/AECOM2'}
+  - {ats: workday, company: American University, url: 'https://american.wd1.myworkdayjobs.com/au'}
+  - {ats: workday, company: Zoom, url: 'https://zoom.wd5.myworkdayjobs.com/zoom'}
+  - {ats: workday, company: The Aerospace Corporation, url: 'https://aero.wd5.myworkdayjobs.com/external'}
+  - {ats: lever, company: Toyota Research Institute, url: tri}
+  - {ats: workday, company: ICF International, url: 'https://icf.wd5.myworkdayjobs.com/icfexternal_career_site'}
+  - {ats: workday, company: First National Bank, url: 'https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP'}
+  - {ats: workday, company: Onto Innovation, url: 'https://onto.wd1.myworkdayjobs.com/onto_careers'}
+  - {ats: workday, company: Adobe, url: 'https://adobe.wd5.myworkdayjobs.com/external_experienced'}
+  - {ats: workday, company: EPRI, tenant: vhr_epri, url: 'https://vhr-epri.wd1.myworkdayjobs.com/epricareers'}
+  - {ats: workday, company: University of Arkansas, url: 'https://uasys.wd5.myworkdayjobs.com/uasys'}
+  - {ats: workday, company: HNTB, url: 'https://hntb.wd5.myworkdayjobs.com/hntb_university_careers'}
+  - {ats: workday, company: Hitachi, url: 'https://hitachi.wd1.myworkdayjobs.com/hitachi'}
+  - {ats: workday, company: Bank of Montreal, url: 'https://bmo.wd3.myworkdayjobs.com/Privileged'}
+  - {ats: workday, company: Cincinnati Children’s Hospital and Medical Center, url: 'https://cincinnatichildrens.wd5.myworkdayjobs.com/careersatcincinnatichildrens'}
+  - {ats: workday, company: Analytical Mechanics Associates, url: 'https://amainc.wd12.myworkdayjobs.com/ama_careers'}
+  - {ats: workday, company: Jones Lang LaSalle (JLL), url: 'https://jll.wd1.myworkdayjobs.com/jllcareers'}
+  - {ats: workday, company: The Hartford, url: 'https://thehartford.wd5.myworkdayjobs.com/Careers_External'}
+  - {ats: workday, company: Vertex Pharmaceuticals, url: 'https://vrtx.wd501.myworkdayjobs.com/vertex_careers'}
+  - {ats: workday, company: Tencent, url: 'https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform'}
+  - {ats: workday, company: City of Austin, url: 'https://austintexas.wd5.myworkdayjobs.com/COA_Careers'}
+  - {ats: workday, company: Entegris, url: 'https://entegris.wd1.myworkdayjobs.com/entegriscareers'}
+  - {ats: workday, company: Eversource Energy, url: 'https://eversource.wd1.myworkdayjobs.com/ExternalSite'}
+  - {ats: workday, company: KLA, url: 'https://kla.wd1.myworkdayjobs.com/AnnArbor'}
+  - {ats: workday, company: Merck, url: 'https://msd.wd5.myworkdayjobs.com/searchjobs'}
+  - {ats: workday, company: Sony Pictures Entertainment, url: 'https://spe.wd1.myworkdayjobs.com/SonyPicturesEntertainment'}
+  - {ats: workday, company: Southwest Airlines, url: 'https://swa.wd1.myworkdayjobs.com/external'}
+  - {ats: workday, company: Howard University, url: 'https://howard.wd1.myworkdayjobs.com/HU'}
+  - {ats: workday, company: Procter & Gamble, url: 'https://pg.wd5.myworkdayjobs.com/1000'}
+  - {ats: workday, company: Assurant, url: 'https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting'}
+  - {ats: workday, company: Environmental Defense Fund, tenant: osv_edf, url: 'https://osv-edf.wd5.myworkdayjobs.com/Confidential'}
+  - {ats: greenhouse, company: Flagship Pioneering, url: fspco-op012325}
+  - {ats: workday, company: Mass General Brigham, url: 'https://massgeneralbrigham.wd1.myworkdayjobs.com/mgbexternal'}
+  - {ats: workday, company: Sanofi, url: 'https://sanofi.wd3.myworkdayjobs.com/SanofiCareers'}
+  - {ats: greenhouse, company: Scout Motors, url: scoutmotors}
+  - {ats: lever, company: Woven, url: woven-by-toyota}
+  - {ats: workday, company: Moderna, url: 'https://modernatx.wd1.myworkdayjobs.com/M_tx'}
+  - {ats: workday, company: SWBC, url: 'https://swbc.wd1.myworkdayjobs.com/swbccareers'}
+  - {ats: workday, company: Repsol, url: 'https://repsol.wd3.myworkdayjobs.com/Repsol'}
+  - {ats: workday, company: AstraZeneca, url: 'https://astrazeneca.wd3.myworkdayjobs.com/Careers'}
+  - {ats: smartrecruiters, company: Atria Group, url: 'https://jobs.smartrecruiters.com/AtriaGroupLLC'}
+  - {ats: workday, company: Biogen, url: 'https://biibhr.wd3.myworkdayjobs.com/external'}
+  - {ats: workday, company: Cambium Learning Group, url: 'https://cambiumlearning.wd1.myworkdayjobs.com/camb'}
+  - {ats: workday, company: Franklin Templeton, url: 'https://franklintempleton.wd5.myworkdayjobs.com/invitation-only'}
+  - {ats: lever, company: Mercedes-Benz, url: MBRDNA}
+  - {ats: workday, company: Premera Blue Cross, url: 'https://premera.wd5.myworkdayjobs.com/premera'}
+  - {ats: greenhouse, company: Samsung, url: samsungsemiconductor}
+  - {ats: workday, company: Tempus, url: 'https://tempus.wd5.myworkdayjobs.com/Tempus_Careers'}
+  - {ats: greenhouse, company: Abacus Insights, url: abacusinsights}
+  - {ats: workday, company: Ancestry, url: 'https://ancestry.wd501.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Argonne National Laboratory, url: 'https://argonne.wd1.myworkdayjobs.com/EDU_PUB'}
+  - {ats: greenhouse, company: Audax Group, url: audaxgroup}
+  - {ats: workday, company: City of Charlotte, url: 'https://charlottenc.wd12.myworkdayjobs.com/citgov'}
+  - {ats: greenhouse, company: Climate Corps, url: cc}
+  - {ats: workday, company: Dairyland Power Cooperative, url: 'https://dairynet.wd1.myworkdayjobs.com/DPCcareers'}
+  - {ats: workday, company: Dow Chemical Company, url: 'https://dow.wd1.myworkdayjobs.com/ExternalCareers'}
+  - {ats: workday, company: Edwards Lifesciences, url: 'https://edwards.wd5.myworkdayjobs.com/edwardscareers'}
+  - {ats: workday, company: EverCommerce, url: 'https://evercommerce.wd1.myworkdayjobs.com/evercommerce_careers'}
+  - {ats: smartrecruiters, company: Experian, url: 'https://jobs.smartrecruiters.com/Experian'}
+  - {ats: workday, company: Geico, url: 'https://geico.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Genmab, url: 'https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site'}
+  - {ats: workday, company: Hendrick Motorsports, url: 'https://hendrick.wd5.myworkdayjobs.com/HMSCareers'}
+  - {ats: greenhouse, company: Legend Biotech, url: legendcareers}
+  - {ats: workday, company: Nationwide Children's Hospital, url: 'https://nationwidechildrens.wd5.myworkdayjobs.com/NCHCareers'}
+  - {ats: workday, company: Regions Bank, url: 'https://regions.wd5.myworkdayjobs.com/regions_careers'}
+  - {ats: smartrecruiters, company: Sajix, url: 'https://jobs.smartrecruiters.com/SajixSoftwareSolutionPrivateLimited'}
+  - {ats: workday, company: State of Nebraska, url: 'https://son.wd108.myworkdayjobs.com/NebraskaStateCareers'}
+  - {ats: workday, company: Texas A&M International University, url: 'https://tamus.wd1.myworkdayjobs.com/TAMIU_Student_Employment'}
+  - {ats: smartrecruiters, company: The Wonderful Company, url: 'https://jobs.smartrecruiters.com/TheWonderfulCompany'}
+  - {ats: workday, company: Varex Imaging Corporation, url: 'https://vareximaging.wd103.myworkdayjobs.com/External_Career_Site'}
+  - {ats: smartrecruiters, company: Continental, url: 'https://jobs.smartrecruiters.com/Continental'}
+  - {ats: workday, company: Salesforce, url: 'https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships'}
+  - {ats: workday, company: Worcester Polytechnic Institute, url: 'https://wpi.wd5.myworkdayjobs.com/WPI_External_Career_Site'}
+  - {ats: greenhouse, company: AirCapture, url: aircapture}
+  - {ats: greenhouse, company: Antora Energy, url: antora}
+  - {ats: workday, company: Brigham Young University - Provo, url: 'https://byu.wd1.myworkdayjobs.com/byu-careers'}
+  - {ats: workday, company: Brookhaven Lab, url: 'https://bnl.wd1.myworkdayjobs.com/externa'}
+  - {ats: workday, company: Centerstone, url: 'https://centerstone.wd5.myworkdayjobs.com/centerstonecareers'}
+  - {ats: workday, company: Chipotle Mexican Grill, url: 'https://chipotle.wd5.myworkdayjobs.com/ChipotleCareers'}
+  - {ats: workday, company: Cooper Standard, url: 'https://cooperstandard.wd1.myworkdayjobs.com/CooperStandard'}
+  - {ats: workday, company: CoorsTek, url: 'https://coorstek.wd1.myworkdayjobs.com/CoorsTekCareers'}
+  - {ats: workday, company: Dimensional Fund Advisors, url: 'https://dimensional.wd5.myworkdayjobs.com/dfa_careers'}
+  - {ats: greenhouse, company: Eikon Therapeutics, url: eikontherapeutics}
+  - {ats: workday, company: Ercot, url: 'https://ercot.wd1.myworkdayjobs.com/ercot_careers'}
+  - {ats: workday, company: Excellus BCBS, url: 'https://lthc.wd1.myworkdayjobs.com/ExcellusBCBSCareers'}
+  - {ats: workday, company: Ferrovial, url: 'https://ferrovial.wd3.myworkdayjobs.com/ferrovial_career_site'}
+  - {ats: greenhouse, company: Fussball Club Cincinnati LLC (“FC Cincinnati”), url: fccincinnati}
+  - {ats: lever, company: HRL Laboratories, url: dodmg}
+  - {ats: workday, company: Humana, url: 'https://humana.wd5.myworkdayjobs.com/humana_external_career_site'}
+  - {ats: smartrecruiters, company: RESPEC, url: 'https://jobs.smartrecruiters.com/RESPECInc'}
+  - {ats: workday, company: Red Hat, url: 'https://redhat.wd5.myworkdayjobs.com/jobs'}
+  - {ats: workday, company: SitusAMC, url: 'https://situsamc.wd1.myworkdayjobs.com/SitusAMC'}
+  - {ats: workday, company: Viatris, url: 'https://viatris.wd5.myworkdayjobs.com/External'}
+  - {ats: workday, company: Xcel Energy, url: 'https://xcelenergy.wd1.myworkdayjobs.com/External'}
+  - {ats: greenhouse, company: Yes Energy, url: yesenergy}
+  - {ats: workday, company: Zillow, url: 'https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External'}
+  - {ats: workday, company: Ameresco, url: 'https://ameresco.wd5.myworkdayjobs.com/Ameresco'}
+  - {ats: greenhouse, company: Seurat Technologies, url: seurat}
+  - {ats: greenhouse, company: The Allen Institute for AI, url: thealleninstitute}
+  - {ats: greenhouse, company: Two Six Technologies, url: twosixtechnologies}
+  - {ats: workday, company: ConocoPhillips, url: 'https://conocophillips.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Michelin, url: 'https://michelinhr.wd3.myworkdayjobs.com/Michelin'}
+  - {ats: workday, company: Acxiom, url: 'https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA'}
+  - {ats: lever, company: Age of Learning, url: aofl}
+  - {ats: workday, company: Air Liquide, url: 'https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer'}
+  - {ats: workday, company: Amcor, url: 'https://amcor.wd5.myworkdayjobs.com/amcor_external_career_site'}
+  - {ats: workday, company: AskBio, url: 'https://askbio.wd12.myworkdayjobs.com/AskBio'}
+  - {ats: workday, company: AtkinsRéalis, url: 'https://slihrms.wd3.myworkdayjobs.com/careers'}
+  - {ats: greenhouse, company: Auctane, url: auctane}
+  - {ats: greenhouse, company: BlackSky, url: blacksky}
+  - {ats: workday, company: Carpenter Technology, url: 'https://cartech.wd5.myworkdayjobs.com/CTCExternal'}
+  - {ats: workday, company: Clarios, url: 'https://clarios.wd5.myworkdayjobs.com/clarioscareers'}
+  - {ats: greenhouse, company: Clearway Energy, url: clearwayjobs}
+  - {ats: workday, company: Credit Acceptance Careers, url: 'https://creditacceptance.wd5.myworkdayjobs.com/Credit_Acceptance'}
+  - {ats: workday, company: Dentsu, url: 'https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL'}
+  - {ats: greenhouse, company: Dev Technology Group, url: devtechnology}
+  - {ats: workday, company: Energy Northwest, url: 'https://energynorthwest.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Freese and Nichols, url: 'https://freese.wd1.myworkdayjobs.com/Freese_Nichols_External'}
+  - {ats: ashby, company: G2, url: G2}
+  - {ats: workday, company: International Rescue Committee (IRC), url: 'https://theirc.wd1.myworkdayjobs.com/External_Careers'}
+  - {ats: greenhouse, company: Kairos Power, url: kairospower}
+  - {ats: workday, company: LexisNexis Risk Solutions, url: 'https://relx.wd3.myworkdayjobs.com/RiskSolutions'}
+  - {ats: greenhouse, company: MERGE, url: mergeworld}
+  - {ats: workday, company: Maersk, url: 'https://maersk.wd3.myworkdayjobs.com/maersk_careers'}
+  - {ats: ashby, company: Meshy, url: meshy}
+  - {ats: workday, company: Mosaic, url: 'https://mosaic.wd5.myworkdayjobs.com/mosaic'}
+  - {ats: workday, company: ONEOK, url: 'https://oneok.wd1.myworkdayjobs.com/ONEOK_Early_Careers'}
+  - {ats: workday, company: PTC, url: 'https://ptc.wd1.myworkdayjobs.com/ptc'}
+  - {ats: workday, company: Protiviti, url: 'https://roberthalf.wd1.myworkdayjobs.com/protivitiexperiencedcareers'}
+  - {ats: greenhouse, company: RoboForce, url: roboforce}
+  - {ats: workday, company: Royal Bank of Canada, url: 'https://rbc.wd3.myworkdayjobs.com/rbcglobal1'}
+  - {ats: workday, company: Sarepta, url: 'https://sarepta.wd5.myworkdayjobs.com/sarepta_external'}
+  - {ats: workday, company: Smith+Nephew, url: 'https://smithnephew.wd5.myworkdayjobs.com/External'}
+  - {ats: lever, company: Sunwater Capital, url: sunwatercapital}
+  - {ats: workday, company: Tokyo Electron, url: 'https://tel.wd3.myworkdayjobs.com/tel-careers'}
+  - {ats: workday, company: Vistra, url: 'https://vst.wd5.myworkdayjobs.com/vistra_careers'}
+  - {ats: greenhouse, company: WhiteWater Midstream, url: whitewatermidstream}
+  - {ats: lever, company: zaimler, url: zaimler}
+  - {ats: greenhouse, company: Armada, url: armada}
+  - {ats: workday, company: Auto Club Group, url: 'https://acg.wd1.myworkdayjobs.com/Careers'}
+  - {ats: greenhouse, company: EnergyHub, url: energyhub}
+  - {ats: smartrecruiters, company: Harvard University, url: 'https://jobs.smartrecruiters.com/HarvardUniversity'}
+  - {ats: ashby, company: 1X, url: 1x}
+  - {ats: workday, company: AES, url: 'https://aes.wd1.myworkdayjobs.com/AES_US'}
+  - {ats: lever, company: AHEAD, url: thinkahead}
+  - {ats: workday, company: AT&T, url: 'https://att.wd1.myworkdayjobs.com/ATTCollege'}
+  - {ats: greenhouse, company: Ad Council, url: adcouncil}
+  - {ats: workday, company: Amynta Group, url: 'https://amynta.wd5.myworkdayjobs.com/global'}
+  - {ats: workday, company: Applied Fluid Power, url: 'https://applied.wd501.myworkdayjobs.com/applied'}
+  - {ats: workday, company: Arizona State University, url: 'https://asuep.wd5.myworkdayjobs.com/ASUEP'}
+  - {ats: workday, company: Arizona State University, url: 'https://asu.wd1.myworkdayjobs.com/ASUStaffCareers'}
+  - {ats: greenhouse, company: AvePoint, url: avepoint}
+  - {ats: greenhouse, company: Avride, url: avride}
+  - {ats: workday, company: Blackstone, url: 'https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers'}
+  - {ats: workday, company: Blue Cross and Blue Shield of Kansas, url: 'https://bcbsks.wd1.myworkdayjobs.com/External'}
+  - {ats: greenhouse, company: Blue Sky Innovators, url: blueskyinnovators}
+  - {ats: workday, company: C.H. Guenther, url: 'https://chg.wd5.myworkdayjobs.com/US_External_Career_Site'}
+  - {ats: workday, company: CoStar Group, url: 'https://costar.wd1.myworkdayjobs.com/Costar_Campus'}
+  - {ats: workday, company: Compassion International, url: 'https://compassion.wd5.myworkdayjobs.com/CompassionCareersPrivateLink'}
+  - {ats: workday, company: Core & Main, url: 'https://coreandmain.wd1.myworkdayjobs.com/coreandmain'}
+  - {ats: workday, company: Cushman & Wakefield, url: 'https://cw.wd1.myworkdayjobs.com/external'}
+  - {ats: workday, company: Dallas College, url: 'https://dallascollege.wd1.myworkdayjobs.com/Dallas_College_Careers'}
+  - {ats: lever, company: Democratic Governors Association, url: dga}
+  - {ats: workday, company: Duke Energy, url: 'https://dukeenergy.wd1.myworkdayjobs.com/search'}
+  - {ats: workday, company: Entrust, url: 'https://entrust.wd1.myworkdayjobs.com/entrustcareers'}
+  - {ats: workday, company: Exact Sciences, url: 'https://exactsciences.wd1.myworkdayjobs.com/Exact_Sciences'}
+  - {ats: smartrecruiters, company: Expeditors, url: 'https://jobs.smartrecruiters.com/Expeditors'}
+  - {ats: smartrecruiters, company: Fannie Mae, url: 'https://jobs.smartrecruiters.com/FannieMae1SB'}
+  - {ats: workday, company: Finastra, url: 'https://finastra.wd3.myworkdayjobs.com/FINC'}
+  - {ats: workday, company: Florida Atlantic University, url: 'https://fau.wd1.myworkdayjobs.com/FAU'}
+  - {ats: workday, company: Freudenberg Group, url: 'https://freudenberg.wd3.myworkdayjobs.com/freudenberg-group'}
+  - {ats: greenhouse, company: GRVTY, url: grvty}
+  - {ats: greenhouse, company: Glydways, url: glydways}
+  - {ats: workday, company: GoodRx, url: 'https://goodrx.wd1.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Granite Construction, url: 'https://granite.wd1.myworkdayjobs.com/careers'}
+  - {ats: workday, company: Graybar, url: 'https://graybar.wd1.myworkdayjobs.com/Careers'}
+  - {ats: lever, company: Grid, url: Grid}
+  - {ats: workday, company: Guidehouse, url: 'https://guidehouse.wd1.myworkdayjobs.com/external'}
+  - {ats: workday, company: Harris Central Appraisal District, url: 'https://hcad.wd5.myworkdayjobs.com/HCADCareers'}
+  - {ats: workday, company: Harris Computer, url: 'https://harriscomputer.wd3.myworkdayjobs.com/1'}
+  - {ats: workday, company: Heidelberg Materials, url: 'https://heidelbergmaterials.wd3.myworkdayjobs.com/global_hm_career_site'}
+  - {ats: greenhouse, company: ID.me, url: idmeuniversityrecruiting}
+  - {ats: workday, company: Iowa State University, url: 'https://isu.wd1.myworkdayjobs.com/IowaStateJobs'}
+  - {ats: workday, company: Jackson, url: 'https://jackson.wd1.myworkdayjobs.com/Jackson_Careers'}
+  - {ats: workday, company: Jade Global, url: 'https://jadeglobal.wd5.myworkdayjobs.com/jade_careers'}
+  - {ats: lever, company: Lendbuzz, url: lendbuzz}
+  - {ats: workday, company: Logitech, url: 'https://logitech.wd5.myworkdayjobs.com/Logitech'}
+  - {ats: greenhouse, company: MEMIC, url: memic}
+  - {ats: greenhouse, company: Madison Energy Infrastructure, url: madisonenergyinfrastructure}
+  - {ats: workday, company: Medical University of South Carolina, url: 'https://musc.wd1.myworkdayjobs.com/MUSC'}
+  - {ats: workday, company: Miami University, url: 'https://miamioh.wd5.myworkdayjobs.com/miamioh-staff'}
+  - {ats: workday, company: Momentive, url: 'https://momentive.wd1.myworkdayjobs.com/MC'}
+  - {ats: workday, company: Nationwide, url: 'https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career'}
+  - {ats: workday, company: O'Reilly Auto Parts, url: 'https://oreillyauto.wd1.myworkdayjobs.com/oreilly'}
+  - {ats: workday, company: Occidental Petroleum Corporation (Oxy), url: 'https://oxy.wd5.myworkdayjobs.com/UniversityRelations'}
+  - {ats: workday, company: Oklahoma State Government, url: 'https://okgov.wd1.myworkdayjobs.com/okgovjobs'}
+  - {ats: greenhouse, company: Olsson, url: olsson}
+  - {ats: greenhouse, company: Pacvue, url: pacvue}
+  - {ats: workday, company: Patterson, url: 'https://pattersoncompanies.wd501.myworkdayjobs.com/PDCO'}
+  - {ats: lever, company: Quantum Workplace, url: QuantumWorkplace}
+  - {ats: workday, company: Rakuten Advertising, url: 'https://rakuten.wd1.myworkdayjobs.com/RakutenAdvertising'}
+  - {ats: workday, company: Realty Income, url: 'https://realtyincome.wd108.myworkdayjobs.com/realty_income_careers'}
+  - {ats: workday, company: SEI, url: 'https://seic.wd1.myworkdayjobs.com/SEI_Global_Services'}
+  - {ats: greenhouse, company: Simple Technology Solutions, url: simpletechnologysolutions}
+  - {ats: greenhouse, company: Skyryse, url: skyryse}
+  - {ats: greenhouse, company: Sono Bello, url: sonobello}
+  - {ats: workday, company: Sonos, url: 'https://sonos.wd1.myworkdayjobs.com/Sonos'}
+  - {ats: workday, company: Stevens Institute of Technology, url: 'https://stevens.wd5.myworkdayjobs.com/External'}
+  - {ats: workday, company: TD Synnex, url: 'https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers'}
+  - {ats: workday, company: Taylor Corporation, url: 'https://taylor.wd1.myworkdayjobs.com/external'}
+  - {ats: workday, company: Tyson Foods, url: 'https://tysonfoods.wd5.myworkdayjobs.com/TSN'}
+  - {ats: workday, company: UMB, url: 'https://umb.wd1.myworkdayjobs.com/UMBExternal'}
+  - {ats: workday, company: University of Arkansas, url: 'https://uasys.wd5.myworkdayjobs.com/UAF_External_Career_Site'}
+  - {ats: workday, company: University of Texas - Austin, url: 'https://utaustin.wd1.myworkdayjobs.com/UTstaff'}
+  - {ats: workday, company: Vizient, url: 'https://vizient.wd1.myworkdayjobs.com/Vizient_Careers'}
+  - {ats: greenhouse, company: Wasabi Technologies, url: wasabi}
+  - {ats: workday, company: Webster Bank, url: 'https://websteronline.wd12.myworkdayjobs.com/WebsterExternalCareerSite'}
+  - {ats: greenhouse, company: Xaira Therapeutics, url: xairatherapeutics}
+  - {ats: ashby, company: Yotta Labs, url: yotta}
+  - {ats: ashby, company: Zello, url: Zello}
+  - {ats: workday, company: Zoetis, url: 'https://zoetis.wd5.myworkdayjobs.com/zoetis'}
+  - {ats: greenhouse, company: edmentum, url: edmentum}
+  - {ats: greenhouse, company: ezCater, url: ezcaterinc}
+  - {ats: workday, company: Cerence, url: 'https://cerence.wd5.myworkdayjobs.com/Cerence'}
+  - {ats: workday, company: Imerys, url: 'https://imerys.wd3.myworkdayjobs.com/imerys_career2'}
+  - {ats: workday, company: Interdigital, url: 'https://interdigital.wd5.myworkdayjobs.com/InterDigital_Career'}
+  - {ats: workday, company: Jackson, url: 'https://jackson.wd1.myworkdayjobs.com/jackson_campus'}
+  - {ats: greenhouse, company: Jumio, url: jumio}
+  - {ats: workday, company: Ryan, url: 'https://ryan.wd1.myworkdayjobs.com/Students-Graduates'}
+  - {ats: workday, company: ibotta, url: 'https://ibotta.wd1.myworkdayjobs.com/Ibotta'}
+  - {ats: lever, company: Crest Industries, url: crestoperations}
+  - {ats: workday, company: FTI Consulting, url: 'https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers'}
+  - {ats: workday, company: APM Terminals, url: 'https://maersk.wd3.myworkdayjobs.com/APMT_Careers'}
+  - {ats: ashby, company: Adaption Labs, url: adaption}
+  - {ats: greenhouse, company: AgWest Farm Credit, url: agwestfarmcredit}
+  - {ats: workday, company: Airbus, url: 'https://ag.wd3.myworkdayjobs.com/Airbus'}
+  - {ats: workday, company: Alation, url: 'https://alation.wd503.myworkdayjobs.com/ExternalSite'}
+  - {ats: workday, company: Albemarle, url: 'https://albemarle.wd5.myworkdayjobs.com/External'}
+  - {ats: smartrecruiters, company: Allegis Global Solutions, url: 'https://jobs.smartrecruiters.com/AllegisGlobalSolutions'}
+  - {ats: workday, company: Amgen, url: 'https://amgen.wd1.myworkdayjobs.com/careers'}
+  - {ats: workday, company: Ankura Consulting Group, url: 'https://ankura.wd5.myworkdayjobs.com/ankura'}
+  - {ats: smartrecruiters, company: Apex Clean Energy, url: 'https://jobs.smartrecruiters.com/ApexCleanEnergy'}
+  - {ats: greenhouse, company: Apex Companies, url: apexcompanies}
+  - {ats: lever, company: Appen, url: appen-2}
+  - {ats: greenhouse, company: Archer, url: archer56}
+  - {ats: workday, company: Arizona State University, url: 'https://asuep.wd5.myworkdayjobs.com/ASUFoundation'}
+  - {ats: workday, company: Arkansas Children's, url: 'https://archildrens.wd1.myworkdayjobs.com/external_career_site'}
+  - {ats: smartrecruiters, company: Ask IT Consulting, url: 'https://jobs.smartrecruiters.com/AskITConsulting'}
+  - {ats: workday, company: Avaap, url: 'https://avaap.wd501.myworkdayjobs.com/AvaapCareers'}
+  - {ats: greenhouse, company: Aypa Power, url: aypapower}
+  - {ats: workday, company: BCBST, url: 'https://bcbst.wd1.myworkdayjobs.com/external'}
+  - {ats: workday, company: Baker Tilly, url: 'https://bakertilly.wd5.myworkdayjobs.com/BTCareers'}
+  - {ats: ashby, company: Basis Research Institute, url: basis-research}
+  - {ats: greenhouse, company: BetterHelp, url: betterhelpcom}
+  - {ats: workday, company: Blue Cross of Idaho, url: 'https://bcidaho.wd5.myworkdayjobs.com/BCI'}
+  - {ats: lever, company: BlueRock Therapeutics, url: bluerocktx}
+  - {ats: workday, company: Bob's Discount Furniture, url: 'https://bobsdf.wd1.myworkdayjobs.com/bobs_careers'}
+  - {ats: workday, company: Brandeis University, url: 'https://brandeis.wd5.myworkdayjobs.com/Jobs'}
+  - {ats: greenhouse, company: BrightAI, url: brightai}
+  - {ats: workday, company: Brock University, url: 'https://brocku.wd3.myworkdayjobs.com/brocku_careers'}
+  - {ats: workday, company: Brooks Automation, url: 'https://brooksauto.wd1.myworkdayjobs.com/Brooks_External_Site'}
+  - {ats: workday, company: CHEP, url: 'https://brambles.wd5.myworkdayjobs.com/Brambles_Careers'}
+  - {ats: workday, company: CLEAResult, url: 'https://clearesult.wd1.myworkdayjobs.com/CLEAResult_External_Careers'}
+  - {ats: workday, company: Cable One, url: 'https://cableone.wd1.myworkdayjobs.com/Cable_One_External_Careers'}
+  - {ats: workday, company: Cambria, url: 'https://cambria.wd1.myworkdayjobs.com/cambria_careers'}
+  - {ats: workday, company: CareSource, url: 'https://caresource.wd1.myworkdayjobs.com/caresource'}
+  - {ats: lever, company: Catalist, url: catalist}
+  - {ats: greenhouse, company: Checkr, url: checkr}
+  - {ats: workday, company: Choice Hotels, url: 'https://choicehotels.wd5.myworkdayjobs.com/External'}
+  - {ats: workday, company: City Of Olathe, url: 'https://olatheks.wd1.myworkdayjobs.com/olatheks'}
+  - {ats: workday, company: City of Aurora, url: 'https://auroragov.wd1.myworkdayjobs.com/careers'}
+  - {ats: workday, company: City of Largo, url: 'https://largo.wd1.myworkdayjobs.com/external'}
+  - {ats: smartrecruiters, company: Clinical Ink, url: 'https://jobs.smartrecruiters.com/ClinicalInk'}
+  - {ats: greenhouse, company: Cognitiv, url: cognitiv}
+  - {ats: greenhouse, company: Cohere Health, url: coherehealth}
+  - {ats: workday, company: Colonial Pipeline Company, url: 'https://colpipe.wd1.myworkdayjobs.com/Search'}
+  - {ats: workday, company: Compassion International, url: 'https://compassion.wd5.myworkdayjobs.com/compassioncareers'}
+  - {ats: workday, company: Conagra Brands, url: 'https://conagrabrands.wd1.myworkdayjobs.com/Careers_US'}
+  - {ats: greenhouse, company: Concentric, url: concentric}
+  - {ats: greenhouse, company: Conner Strong & Buckelew, url: connerstrongbuckelew}
+  - {ats: workday, company: Corteva, url: 'https://corteva.wd5.myworkdayjobs.com/corteva'}
+  - {ats: greenhouse, company: Critical Mass, url: criticalmass}
+  - {ats: ashby, company: Crusoe, url: Crusoe}
+  - {ats: workday, company: Customers Bank, url: 'https://customersbank.wd1.myworkdayjobs.com/customersbankcareers'}
+  - {ats: workday, company: Daimler Truck, url: 'https://dtna.wd5.myworkdayjobs.com/dtna_affiliate'}
+  - {ats: workday, company: Diamondback Energy, url: 'https://diamondbackenergy.wd12.myworkdayjobs.com/DBE'}
+  - {ats: workday, company: Dick's Sporting Goods, url: 'https://dickssportinggoods.wd1.myworkdayjobs.com/DSG'}
+  - {ats: workday, company: DotDash Meredith, url: 'https://meredith.wd5.myworkdayjobs.com/EXT'}
+  - {ats: greenhouse, company: Echodyne, url: echodynecorp}
+  - {ats: workday, company: Elanco, url: 'https://elanco.wd5.myworkdayjobs.com/External_Career'}
+  - {ats: workday, company: Elsevier, url: 'https://relx.wd3.myworkdayjobs.com/ElsevierJobs'}
+  - {ats: workday, company: Enbridge, url: 'https://enbridge.wd3.myworkdayjobs.com/enbridge_careers'}
+  - {ats: workday, company: Endeavor Health, url: 'https://nshs.wd1.myworkdayjobs.com/ns-eeh'}
+  - {ats: workday, company: Epiq Systems, url: 'https://epiqsystems.wd503.myworkdayjobs.com/Epiq_Careers'}
+  - {ats: workday, company: FHLBank Topeka, url: 'https://fhlbtopeka.wd1.myworkdayjobs.com/FHLBT'}
+  - {ats: greenhouse, company: Fairlife, url: fairlife}
+  - {ats: workday, company: Federal Home Loan Bank of Indianapolis, url: 'https://fhlbi.wd1.myworkdayjobs.com/FHLBI_Careers'}
+  - {ats: lever, company: Fehr & Peers, url: fehrandpeers}
+  - {ats: greenhouse, company: Flagship Pioneering, url: flagshippioneeringinc}
+  - {ats: greenhouse, company: Fortera, url: forteracorporation}
+  - {ats: workday, company: Fortrea, url: 'https://fortrea.wd1.myworkdayjobs.com/Fortrea'}
+  - {ats: workday, company: GAF, url: 'https://gafsgi.wd5.myworkdayjobs.com/GAF_Careers'}
+  - {ats: workday, company: GIA, url: 'https://gia.wd1.myworkdayjobs.com/GIA'}
+  - {ats: ashby, company: GenMD, url: genmd}
+  - {ats: greenhouse, company: GenScript, url: genscript}
+  - {ats: ashby, company: Glimpse Engineering, url: glimp-se}
+  - {ats: greenhouse, company: Globalization Partners, url: globalizationpartners}
+  - {ats: workday, company: Gordon Food Service, url: 'https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs'}
+  - {ats: lever, company: Gr0, url: gr0}
+  - {ats: workday, company: Grand Canyon University, url: 'https://gcu.wd1.myworkdayjobs.com/GCU'}
+  - {ats: greenhouse, company: Grassroots Analytics, url: grassrootsanalytics}
+  - {ats: ashby, company: GrayMatter Robotics, url: graymatter-robotics}
+  - {ats: lever, company: Great Gray, url: great-gray-group}
+  - {ats: workday, company: Greystar Worldwide, url: 'https://greystar.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: HUB, url: 'https://hubinternational.wd1.myworkdayjobs.com/HUBInternational'}
+  - {ats: workday, company: Hewlett Packard Enterprise, url: 'https://hpe.wd5.myworkdayjobs.com/acjobsite'}
+  - {ats: ashby, company: Higharc, url: higharc}
+  - {ats: workday, company: Hilcorp, url: 'https://hec.wd5.myworkdayjobs.com/hilcorp_energy_company'}
+  - {ats: smartrecruiters, company: Huck Adventures, url: 'https://jobs.smartrecruiters.com/HuckAdventures'}
+  - {ats: workday, company: IAT Insurance Group, url: 'https://iatinsurancegroup.wd1.myworkdayjobs.com/iat'}
+  - {ats: smartrecruiters, company: IFS, url: 'https://jobs.smartrecruiters.com/IFS1'}
+  - {ats: workday, company: Iberdrola Group, url: 'https://iberdrola.wd3.myworkdayjobs.com/iberdrola'}
+  - {ats: workday, company: Imerys, url: 'https://imerys.wd3.myworkdayjobs.com/imerys-careers'}
+  - {ats: smartrecruiters, company: Infojini, url: 'https://jobs.smartrecruiters.com/InfojiniInc1'}
+  - {ats: workday, company: Insperity, url: 'https://insperity.wd12.myworkdayjobs.com/NSP'}
+  - {ats: workday, company: International Monetary Fund, url: 'https://imf.wd5.myworkdayjobs.com/IMF'}
+  - {ats: ashby, company: Internship, url: interplay}
+  - {ats: greenhouse, company: Invisible Technologies AI, url: agency}
+  - {ats: workday, company: JM Family, url: 'https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external'}
+  - {ats: workday, company: Jefferson County Colorado, url: 'https://jefferson.wd5.myworkdayjobs.com/external'}
+  - {ats: smartrecruiters, company: Jobs for Humanity, url: 'https://jobs.smartrecruiters.com/JobsForHumanity'}
+  - {ats: workday, company: Johns Manville (JM), url: 'https://jm.wd103.myworkdayjobs.com/External'}
+  - {ats: ashby, company: Juniper Square, url: junipersquare}
+  - {ats: workday, company: Koppers, url: 'https://koppers.wd5.myworkdayjobs.com/Koppers'}
+  - {ats: workday, company: Kyndryl, url: 'https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers'}
+  - {ats: workday, company: LPL Financial Holdings, url: 'https://lplfinancial.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Las Vegas Valley Water District, url: 'https://lvvwd.wd1.myworkdayjobs.com/lvvwdwaterjobs'}
+  - {ats: ashby, company: Leland, url: leland}
+  - {ats: workday, company: Light & Wonder, url: 'https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers'}
+  - {ats: ashby, company: Lydian, url: lydian}
+  - {ats: workday, company: MRI Software, url: 'https://mrisoftware.wd501.myworkdayjobs.com/External_CareerSite'}
+  - {ats: workday, company: MSI, url: 'https://baldwin.wd1.myworkdayjobs.com/MSI'}
+  - {ats: greenhouse, company: Major League Baseball, url: philliesbaseballoperations}
+  - {ats: greenhouse, company: Major League Baseball, url: baltimoreorioles}
+  - {ats: workday, company: Maricopa County, url: 'https://maricopa.wd1.myworkdayjobs.com/MC_External'}
+  - {ats: ashby, company: Maxinsights, url: maxinsights}
+  - {ats: greenhouse, company: McKinney, url: jobsmckinneycom}
+  - {ats: workday, company: Moss & Associates, url: 'https://mosscm.wd1.myworkdayjobs.com/moss_careers'}
+  - {ats: workday, company: Munters, url: 'https://munters.wd3.myworkdayjobs.com/external_careers'}
+  - {ats: workday, company: NRECA International, url: 'https://nreca.wd1.myworkdayjobs.com/external'}
+  - {ats: ashby, company: NTT DATA AIVista, url: ntt-data-aivista}
+  - {ats: workday, company: New Balance, url: 'https://newbalance.wd1.myworkdayjobs.com/careers'}
+  - {ats: lever, company: New Jersey Innovation Authority, url: NJStateOfficeofInnovation}
+  - {ats: greenhouse, company: Newsela, url: newsela}
+  - {ats: workday, company: Nexstar, url: 'https://nexstar.wd5.myworkdayjobs.com/nexstar'}
+  - {ats: workday, company: Novogradac, url: 'https://novoco.wd108.myworkdayjobs.com/Novogradac'}
+  - {ats: ashby, company: Obvious, url: obvious}
+  - {ats: workday, company: Occidental Petroleum, url: 'https://oxy.wd5.myworkdayjobs.com/Corporate'}
+  - {ats: ashby, company: Odyssey, url: odysseyml}
+  - {ats: lever, company: Oleria Security, url: oleria-security}
+  - {ats: ashby, company: Oligo Space, url: oligo}
+  - {ats: lever, company: OraSure Technologies, url: dnagenotek}
+  - {ats: workday, company: Oregon State Government, url: 'https://oregon.wd5.myworkdayjobs.com/sor_external_career_site'}
+  - {ats: smartrecruiters, company: Oxfam International, url: 'https://jobs.smartrecruiters.com/OxfamAmerica2'}
+  - {ats: workday, company: PHI Air Medical, url: 'https://phigroup.wd12.myworkdayjobs.com/phihealthcareers'}
+  - {ats: workday, company: PHINIA, url: 'https://phinia.wd5.myworkdayjobs.com/PHINIA_Careers'}
+  - {ats: greenhouse, company: PLS, url: plscareers}
+  - {ats: workday, company: POET, url: 'https://poet.wd1.myworkdayjobs.com/POET'}
+  - {ats: greenhouse, company: Palmetto Clean Technology, url: palmettocleantech}
+  - {ats: workday, company: Papa John's, url: 'https://papajohns.wd1.myworkdayjobs.com/papajohnscareers'}
+  - {ats: ashby, company: Parallel Web Systems, url: parallel}
+  - {ats: ashby, company: Parspec, url: parspec}
+  - {ats: greenhouse, company: Per Scholas, url: perscholashires}
+  - {ats: greenhouse, company: Piaggio Fast Forward, url: piaggiofastforward}
+  - {ats: lever, company: PingWind, url: pingwind}
+  - {ats: lever, company: Pivot Energy, url: pivotenergy}
+  - {ats: ashby, company: Pivot Robotics, url: pivotrobotics}
+  - {ats: greenhouse, company: Planet, url: planetlabs}
+  - {ats: ashby, company: Pluralis Research, url: pluralis-research}
+  - {ats: ashby, company: Prime Intellect, url: PrimeIntellect}
+  - {ats: greenhouse, company: Profluent, url: profluent}
+  - {ats: workday, company: Protiviti, url: 'https://roberthalf.wd1.myworkdayjobs.com/ProtivitiNA'}
+  - {ats: workday, company: RELX, url: 'https://relx.wd3.myworkdayjobs.com/relx'}
+  - {ats: lever, company: RWS, url: rws}
+  - {ats: smartrecruiters, company: Ramboll, url: 'https://jobs.smartrecruiters.com/Ramboll3'}
+  - {ats: ashby, company: Reality Defender, url: realitydefender}
+  - {ats: lever, company: Redwood Credit Union, url: redwoodcu}
+  - {ats: lever, company: Reli, url: shopreli}
+  - {ats: greenhouse, company: Rhombus Power, url: rhombuspower}
+  - {ats: lever, company: Robust.ai, url: robust-ai}
+  - {ats: workday, company: Ryan Companies, url: 'https://ryancompanies.wd5.myworkdayjobs.com/ryancompanies'}
+  - {ats: workday, company: S&T Bank, url: 'https://stbancorp.wd5.myworkdayjobs.com/ST_Bank_Careers'}
+  - {ats: smartrecruiters, company: SA Technologies, url: 'https://jobs.smartrecruiters.com/SATechnologiesInc4'}
+  - {ats: workday, company: SEKO Logistics, url: 'https://sekologistics.wd503.myworkdayjobs.com/Seko_Logistics'}
+  - {ats: lever, company: SF Giants, url: sfgiants}
+  - {ats: workday, company: SHI International, url: 'https://shi.wd12.myworkdayjobs.com/shicareers'}
+  - {ats: workday, company: Saint Leo University, url: 'https://saintleo.wd503.myworkdayjobs.com/SLU'}
+  - {ats: workday, company: Salesforce, url: 'https://salesforce.wd12.myworkdayjobs.com/Salesforce_Research'}
+  - {ats: workday, company: Semtech, url: 'https://semtech.wd1.myworkdayjobs.com/SemtechJobs'}
+  - {ats: ashby, company: Sereact, url: sereact}
+  - {ats: workday, company: Shaw Industries Group, url: 'https://shawinc.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Simmons Bank, url: 'https://simmonsbank.wd5.myworkdayjobs.com/SimmonsCareers'}
+  - {ats: greenhouse, company: Smartly.io, url: smartlyio}
+  - {ats: workday, company: Smithfield Foods, url: 'https://smithfieldfoods.wd1.myworkdayjobs.com/Careers'}
+  - {ats: ashby, company: Socket, url: socket}
+  - {ats: workday, company: St. Louis University, url: 'https://slu.wd5.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Synchrony Financial, url: 'https://synchronyfinancial.wd5.myworkdayjobs.com/careers'}
+  - {ats: lever, company: Tahoe Therapeutics, url: tahoebio-ai}
+  - {ats: workday, company: Tarrant Regional Water District, url: 'https://trwd.wd1.myworkdayjobs.com/TRWDCareers'}
+  - {ats: workday, company: The Andersons, url: 'https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers'}
+  - {ats: lever, company: Thea Energy, url: thea.energy}
+  - {ats: workday, company: Transamerica, url: 'https://transamerica.wd5.myworkdayjobs.com/US'}
+  - {ats: workday, company: UHY, url: 'https://uhyus.wd12.myworkdayjobs.com/uhy'}
+  - {ats: greenhouse, company: USAFacts, url: usafacts}
+  - {ats: workday, company: Underwriters Laboratories, url: 'https://ulse.wd5.myworkdayjobs.com/ulricareers'}
+  - {ats: workday, company: Unilever, url: 'https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals'}
+  - {ats: workday, company: United Therapeutics Corporation, tenant: vhr_unither, url: 'https://vhr-unither.wd5.myworkdayjobs.com/External'}
+  - {ats: workday, company: Universal Music Group Careers, url: 'https://umusic.wd5.myworkdayjobs.com/umgus'}
+  - {ats: ashby, company: Veeda AI, url: veeda-labs}
+  - {ats: workday, company: Verizon Communications, url: 'https://verizon.wd12.myworkdayjobs.com/verizon-careers'}
+  - {ats: ashby, company: Verne Robotics, url: Verne%20Robotics}
+  - {ats: workday, company: Volaris Group, url: 'https://volarisgroup.wd3.myworkdayjobs.com/volaris'}
+  - {ats: greenhouse, company: Vulcan Elements, url: vulcanelements}
+  - {ats: workday, company: WGU, url: 'https://wgu.wd5.myworkdayjobs.com/External'}
+  - {ats: ashby, company: Wealth.com, url: wealth-com}
+  - {ats: ashby, company: Weave, url: weave}
+  - {ats: ashby, company: WebAI, url: webai}
+  - {ats: workday, company: Williams, url: 'https://williams.wd5.myworkdayjobs.com/External'}
+  - {ats: workday, company: AES, url: 'https://aes.wd1.myworkdayjobs.com/aes_clean_energy'}
+  - {ats: workday, company: AIG, url: 'https://aig.wd1.myworkdayjobs.com/early_careers'}
+  - {ats: workday, company: Kyndryl, url: 'https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers'}
+  - {ats: ashby, company: Mistral AI, url: mistral.ai}
+  - {ats: workday, company: Royal Bank of Canada, url: 'https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1'}
 hardware:
   - {ats: workday, company: Agilent Technologies, url: 'https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers'}
   - {ats: ashby, company: 'Apex Technology, Inc.', url: apex-technology-inc}
@@ -928,6 +2120,161 @@ hardware:
   - {ats: custom, company: Ultra Clean, url: 'https://uct.com/careers', verified: false}
   - {ats: custom, company: Cohu, url: 'https://cohu.com/careers'}
   - {ats: custom, company: Advantest America, url: 'https://advantest.com/careers'}
+  - {ats: workday, company: Amentum, url: 'https://pae.wd1.myworkdayjobs.com/amentum_careers'}
+  - {ats: workday, company: ABB, url: 'https://abb.wd3.myworkdayjobs.com/external_career_page'}
+  - {ats: smartrecruiters, company: Sandisk, url: 'https://jobs.smartrecruiters.com/Sandisk'}
+  - {ats: workday, company: Analog Devices, url: 'https://analogdevices.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: HARMAN International, url: 'https://harman.wd3.myworkdayjobs.com/HARMAN'}
+  - {ats: ashby, company: Skydio, url: skydio}
+  - {ats: workday, company: Johnson Controls, url: 'https://jci.wd5.myworkdayjobs.com/JCI'}
+  - {ats: workday, company: Blue Origin, url: 'https://blueorigin.wd5.myworkdayjobs.com/blueorigin'}
+  - {ats: workday, company: Marvell, url: 'https://marvell.wd1.myworkdayjobs.com/MarvellCareers2'}
+  - {ats: workday, company: Altera Corporation, url: 'https://altera.wd1.myworkdayjobs.com/altera'}
+  - {ats: workday, company: Protech Automotive Solutions, url: 'https://calibercollision.wd1.myworkdayjobs.com/protech'}
+  - {ats: workday, company: Ciena, url: 'https://ciena.wd5.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Fresenius Medical Care, url: 'https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme'}
+  - {ats: workday, company: Viavi Solutions, url: 'https://viavisolutions.wd1.myworkdayjobs.com/careers'}
+  - {ats: workday, company: Baxter International, url: 'https://baxter.wd1.myworkdayjobs.com/baxter'}
+  - {ats: ashby, company: Rivian and Volkswagen Group Technologies, url: rivianvw.tech}
+  - {ats: workday, company: Regal Rexnord, url: 'https://regalrexnord.wd1.myworkdayjobs.com/careers'}
+  - {ats: workday, company: Becton Dickinson, url: 'https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA'}
+  - {ats: workday, company: GlobalFoundries, url: 'https://globalfoundries.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Oshkosh, url: 'https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh'}
+  - {ats: workday, company: Hewlett Packard (HP), url: 'https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite'}
+  - {ats: workday, company: Valeo, url: 'https://valeo.wd3.myworkdayjobs.com/valeo_jobs'}
+  - {ats: workday, company: Calix, url: 'https://calix.wd1.myworkdayjobs.com/External'}
+  - {ats: workday, company: Insulet Corporation, url: 'https://insulet.wd5.myworkdayjobs.com/insuletcareers'}
+  - {ats: workday, company: Flextronics International, url: 'https://flextronics.wd1.myworkdayjobs.com/Careers'}
+  - {ats: workday, company: Rockwell Automation, url: 'https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers'}
+  - {ats: greenhouse, company: DiDi Global, url: didi}
+  - {ats: greenhouse, company: SK hynix, url: skhynixamerica}
+  - {ats: workday, company: Stanley Black & Decker, url: 'https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site'}
+  - {ats: smartrecruiters, company: Wabtec, url: 'https://jobs.smartrecruiters.com/Wabtec'}
+  - {ats: lever, company: CesiumAstro, url: CesiumAstro}
+  - {ats: workday, company: Fresenius Kabi, url: 'https://freseniusglobal.wd3.myworkdayjobs.com/FK_Careers'}
+  - {ats: greenhouse, company: Harbinger Motors, url: harbingermotors}
+  - {ats: ashby, company: Hawk-Eye Innovations, url: hawkeyeinnovations}
+  - {ats: greenhouse, company: Impinj, url: impinjexternal}
+  - {ats: ashby, company: Northwood Space, url: NorthwoodSpace}
+  - {ats: workday, company: Sierra Nevada Corporation, url: 'https://snc.wd1.myworkdayjobs.com/snc_external_career_site'}
+  - {ats: workday, company: University of Rochester, url: 'https://rochester.wd5.myworkdayjobs.com/UR_Staff'}
+  - {ats: workday, company: Fermilab, url: 'https://fermilab.wd5.myworkdayjobs.com/FermilabCareers'}
+  - {ats: workday, company: Vermeer, url: 'https://vermeer.wd5.myworkdayjobs.com/externalcareersite'}
+  - {ats: workday, company: Aptiv, url: 'https://aptiv.wd5.myworkdayjobs.com/aptiv_careers'}
+  - {ats: workday, company: TRUMPF, url: 'https://trumpf.wd3.myworkdayjobs.com/TRUMPF_Students'}
+  - {ats: greenhouse, company: Terran Orbital, url: terranorbitalcorporation}
+  - {ats: workday, company: Ultra, url: 'https://ultra.wd3.myworkdayjobs.com/ultra-careers'}
+  - {ats: workday, company: Novanta, url: 'https://novanta.wd5.myworkdayjobs.com/Novanta-Careers'}
+  - {ats: workday, company: Alcon, url: 'https://alcon.wd5.myworkdayjobs.com/careers_alcon'}
+  - {ats: workday, company: Copeland, url: 'https://copeland.wd5.myworkdayjobs.com/copeland_external_careers_page'}
+  - {ats: workday, company: Littelfuse, url: 'https://littelfuse.wd1.myworkdayjobs.com/Littelfuse-Careers'}
+  - {ats: workday, company: Louisiana State University (LSU), url: 'https://lsu.wd1.myworkdayjobs.com/lsuwaiver'}
+  - {ats: lever, company: Saronic, url: saronic}
+  - {ats: workday, company: Slate Auto, url: 'https://recar.wd108.myworkdayjobs.com/SLATEcareers'}
+  - {ats: workday, company: TSC, url: 'https://tsc.wd12.myworkdayjobs.com/TSC-Careers'}
+  - {ats: smartrecruiters, company: Avery Dennison, url: 'https://jobs.smartrecruiters.com/AveryDennison'}
+  - {ats: ashby, company: Heron Power, url: heron-power}
+  - {ats: workday, company: Argonne National Laboratory, url: 'https://argonne.wd1.myworkdayjobs.com/Argonne_Careers'}
+  - {ats: workday, company: Barry-Wehmiller, url: 'https://barrywehmiller.wd1.myworkdayjobs.com/BWCareers'}
+  - {ats: greenhouse, company: Calyxo, url: calyxo}
+  - {ats: workday, company: Danaher Corporation, url: 'https://danaher.wd1.myworkdayjobs.com/DanaherJobs'}
+  - {ats: workday, company: Graco, url: 'https://graco.wd501.myworkdayjobs.com/Graco_Careers'}
+  - {ats: workday, company: LivaNova, url: 'https://livanova.wd5.myworkdayjobs.com/search'}
+  - {ats: workday, company: Plug Power, url: 'https://plugpower.wd5.myworkdayjobs.com/Plug_Power_Inc'}
+  - {ats: workday, company: Rolls-Royce, url: 'https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate'}
+  - {ats: workday, company: The Toro Company, url: 'https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers'}
+  - {ats: workday, company: Ultra Intelligence and Communications, url: 'https://ultra.wd3.myworkdayjobs.com/uiccareers'}
+  - {ats: lever, company: WeRide, url: weride}
+  - {ats: workday, company: nVent, url: 'https://nvent.wd5.myworkdayjobs.com/nVent'}
+  - {ats: workday, company: Cognex, url: 'https://cognex.wd1.myworkdayjobs.com/External_Career_Site'}
+  - {ats: workday, company: Itron, url: 'https://itron.wd5.myworkdayjobs.com/Itron'}
+  - {ats: lever, company: SoloPulse, url: solopulseco}
+  - {ats: workday, company: ALFA LAVAL, url: 'https://alfalaval.wd3.myworkdayjobs.com/Alfa_Laval_jobs'}
+  - {ats: ashby, company: ALSO, url: Ridealso}
+  - {ats: greenhouse, company: Aevex Aerospace, url: aevexaerospace}
+  - {ats: greenhouse, company: Alamar Biosciences, url: alamarbiosciences}
+  - {ats: greenhouse, company: Amp Robotics, url: ampsortation}
+  - {ats: workday, company: Becton Dickinson, url: 'https://bdx.wd1.myworkdayjobs.com/US_EARLY_TALENT_SITE'}
+  - {ats: workday, company: Creation Technologies, url: 'https://creationtech.wd1.myworkdayjobs.com/Creation'}
+  - {ats: workday, company: ENOVIS, url: 'https://enovis.wd5.myworkdayjobs.com/enovis'}
+  - {ats: greenhouse, company: Efficient Computer, url: efficientcomputer}
+  - {ats: greenhouse, company: Formic, url: formic}
+  - {ats: greenhouse, company: Graphcore, url: graphcore}
+  - {ats: ashby, company: H3X Technologies, url: h3x-technologies}
+  - {ats: workday, company: IDEX, url: 'https://idexcorp.wd5.myworkdayjobs.com/idex_careers'}
+  - {ats: greenhouse, company: Locus Robotics, url: locusrobotics}
+  - {ats: greenhouse, company: Lunar Energy, url: lunarenergy}
+  - {ats: ashby, company: Overview Energy, url: overviewenergy}
+  - {ats: lever, company: Pivotal Software, url: pivotal}
+  - {ats: workday, company: Rehlko, url: 'https://rehlko.wd12.myworkdayjobs.com/Reh'}
+  - {ats: smartrecruiters, company: STEM Expert, url: 'https://jobs.smartrecruiters.com/StemXpert1'}
+  - {ats: lever, company: Skyways, url: skyways}
+  - {ats: greenhouse, company: Space Kinetic, url: spacekinetic}
+  - {ats: lever, company: SunSource, url: sunsrce}
+  - {ats: workday, company: Texas Rangers, url: 'https://rangersmlb.wd5.myworkdayjobs.com/Rangers'}
+  - {ats: workday, company: The Kinetic Group, url: 'https://thekineticgroup.wd1.myworkdayjobs.com/EXTERNAL_TKG'}
+  - {ats: ashby, company: Turion Space, url: turion-space}
+  - {ats: greenhouse, company: Ultima Genomics, url: ultimagenomics}
+  - {ats: workday, company: Veralto, url: 'https://veralto.wd1.myworkdayjobs.com/hachjobs'}
+  - {ats: workday, company: Vishay Intertechnology, url: 'https://vishay.wd3.myworkdayjobs.com/VishayCareers'}
+  - {ats: workday, company: Yai, url: 'https://yai.wd5.myworkdayjobs.com/careers'}
+  - {ats: workday, company: Johnson Controls, url: 'https://jci.wd5.myworkdayjobs.com/JCI_Confidential'}
+  - {ats: smartrecruiters, company: Société Générale de Surveillance (SGS), url: 'https://jobs.smartrecruiters.com/SGS'}
+  - {ats: greenhouse, company: 10Beauty, url: 10beauty}
+  - {ats: greenhouse, company: AMAROK Security, url: amarok}
+  - {ats: workday, company: Adtran, url: 'https://adtran.wd3.myworkdayjobs.com/adtran'}
+  - {ats: lever, company: Alertus Technologies, url: alertus}
+  - {ats: greenhouse, company: Axon, url: axon}
+  - {ats: workday, company: CSA Group, url: 'https://csagroup.wd3.myworkdayjobs.com/csagroup'}
+  - {ats: workday, company: ChampionX, url: 'https://championx.wd1.myworkdayjobs.com/championx_external'}
+  - {ats: ashby, company: Charge Robotics, url: charge-robotics}
+  - {ats: lever, company: Cirque du Soleil, url: cirquedusoleil}
+  - {ats: smartrecruiters, company: Collabera, url: 'https://jobs.smartrecruiters.com/Collabera2'}
+  - {ats: greenhouse, company: Comstock Companies, url: comstock}
+  - {ats: lever, company: E-Space, url: espace}
+  - {ats: workday, company: Envista, url: 'https://envista.wd1.myworkdayjobs.com/envistacareers'}
+  - {ats: ashby, company: Epia Neuro, url: epianeuro}
+  - {ats: lever, company: Extreme Networks, url: extremenetworks}
+  - {ats: ashby, company: Eyebot, url: eyebot}
+  - {ats: workday, company: Faith Technologies, url: 'https://faithtechnologies.wd1.myworkdayjobs.com/fti'}
+  - {ats: greenhouse, company: HELLBENDER, url: hellbenderinc}
+  - {ats: workday, company: Hottinger Brüel & Kjaer (HBK), url: 'https://spectris.wd3.myworkdayjobs.com/HBK_Careers'}
+  - {ats: greenhouse, company: Hudl, url: hudl}
+  - {ats: smartrecruiters, company: Integrated Resources, url: 'https://jobs.smartrecruiters.com/IntegratedResourcesINC'}
+  - {ats: workday, company: Johnson Electric, url: 'https://johnsonelectric.wd3.myworkdayjobs.com/Career_JE'}
+  - {ats: smartrecruiters, company: KOSTAL Group, url: 'https://jobs.smartrecruiters.com/KOSTALGroup'}
+  - {ats: lever, company: Long Wall, url: longwall}
+  - {ats: greenhouse, company: Lucid Bots, url: lucidbots}
+  - {ats: workday, company: Lytx Careers, url: 'https://lytx.wd1.myworkdayjobs.com/Lytx'}
+  - {ats: smartrecruiters, company: MAT Holdings, url: 'https://jobs.smartrecruiters.com/MATHoldings'}
+  - {ats: ashby, company: Mach Industries, url: mach}
+  - {ats: greenhouse, company: Maybell Quantum Industries, url: maybellquantum}
+  - {ats: lever, company: Nomagic, url: Nomagic}
+  - {ats: ashby, company: Normal Computing, url: normalcomputing}
+  - {ats: ashby, company: Osmo, url: osmo}
+  - {ats: workday, company: Particle Measuring Systems, url: 'https://spectris.wd3.myworkdayjobs.com/PMS_Careers'}
+  - {ats: greenhouse, company: Pendar Technologies, url: pendartechnologies}
+  - {ats: ashby, company: Periodic Labs, url: periodic-labs}
+  - {ats: workday, company: ReCor Medical, tenant: vhr_otsuka, url: 'https://vhr-otsuka.wd1.myworkdayjobs.com/RecorExternal'}
+  - {ats: ashby, company: Reflect Orbital, url: reflect-orbital}
+  - {ats: smartrecruiters, company: Renesas Electronics, url: 'https://jobs.smartrecruiters.com/RenesasElectronics'}
+  - {ats: greenhouse, company: Rugged Robotics, url: ruggedrobotics}
+  - {ats: workday, company: Saab, url: 'https://saabusa.wd1.myworkdayjobs.com/saab_careers'}
+  - {ats: greenhouse, company: Salient Motion, url: salientmotion}
+  - {ats: workday, company: Silicon Laboratories, url: 'https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers'}
+  - {ats: workday, company: St. Luke's University Health Network, url: 'https://sluhn.wd1.myworkdayjobs.com/SLUHN'}
+  - {ats: workday, company: 'TKO Group Holdings, Inc', url: 'https://wwecorp.wd5.myworkdayjobs.com/tko'}
+  - {ats: greenhouse, company: Technergetics, url: technergetics}
+  - {ats: lever, company: Teleo, url: teleo}
+  - {ats: workday, company: Terex, url: 'https://terex.wd1.myworkdayjobs.com/terexcareers'}
+  - {ats: workday, company: The Boeing Company, url: 'https://boeing.wd1.myworkdayjobs.com/external_subsidiary'}
+  - {ats: greenhouse, company: VSC Fire & Security, url: vscfiresecurityinc}
+  - {ats: workday, company: Varian, url: 'https://onehealthineers.wd3.myworkdayjobs.com/SHSJB'}
+  - {ats: workday, company: WWE, url: 'https://wwecorp.wd5.myworkdayjobs.com/wwecorp'}
+  - {ats: greenhouse, company: Workstream, url: workstream}
+  - {ats: workday, company: Faith Technologies, url: 'https://faithtechnologies.wd1.myworkdayjobs.com/FTI_Engineering'}
+  - {ats: workday, company: Asahi Kasei Corporation, url: 'https://akamerica.wd501.myworkdayjobs.com/aka'}
+  - {ats: ashby, company: Reframe Systems, url: reframesystems}
 actuarial:
   - company: Oliver Wyman
     provider: phenom_job_page
