@@ -126,7 +126,9 @@ _US_STATES = {
 }
 _STATE_ABBREVS = set(_US_STATES.values())
 _NON_US = ("emea", "apac", "uk", "europe", "canada", "india", "london",
-           "singapore", "toronto", "ontario", "on")
+           "singapore", "toronto", "ontario", "on", "quebec", "qc",
+           "british columbia", "bc", "alberta", "manitoba", "saskatchewan",
+           "nova scotia", "new brunswick", "newfoundland")
 _NON_US_RE = re.compile(r"\b(?:" + "|".join(_NON_US) + r")\b")
 
 
@@ -144,6 +146,11 @@ def canonicalize_location(loc: str) -> str | None:
         return None if _NON_US_RE.search(low) else "Remote (US)"
     parts = [p.strip() for p in s.split(",")]
     if len(parts) < 2:
+        return None
+    # "Milton, Ontario, CA": the country code would otherwise read as
+    # California. Only the middle parts are checked, so a US city that
+    # happens to share a name with a non-US place still resolves.
+    if _NON_US_RE.search(" ".join(parts[1:-1]).lower()):
         return None
     city, tail = parts[0], parts[-1]
     if tail.upper() in _STATE_ABBREVS:

@@ -87,6 +87,15 @@ def test_canonicalize_location_rejects_non_us():
     assert canonicalize_location("London, UK") is None
 
 
+def test_canonicalize_location_country_code_ca_is_not_california():
+    assert canonicalize_location("Milton, Ontario, CA") is None
+    assert canonicalize_location("Vancouver, BC, CA") is None
+    assert canonicalize_location("Montreal, Quebec, CA") is None
+    # Middle parts only: US shapes with an extra region segment still resolve.
+    assert canonicalize_location("Irvine, Orange County, CA") == "Irvine, CA"
+    assert canonicalize_location("Ontario, CA") == "Ontario, CA"
+
+
 def test_canonicalize_location_keeps_a_source_owned_multi_location_posting():
     assert canonicalize_location("New York, NY / Boston, Massachusetts") == \
         "New York, NY / Boston, MA"
