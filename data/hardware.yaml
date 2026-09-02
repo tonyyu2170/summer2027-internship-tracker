@@ -4325,7 +4325,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-01'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: stanley-black-decker-embedded-software-engineering-intern-1d2137
   company: Stanley Black & Decker
@@ -4341,6 +4341,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4357,6 +4358,8 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -4483,6 +4486,23 @@
   degree:
   - BS
   - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: boston-scientific-r-d-hardware-engineer-intern-interns-graduates-8980b6
+  company: Boston Scientific
+  role: R&D Hardware Engineer Intern - Interns/Graduates
+  location: Arden Hills, MN
+  link: https://bostonscientific.eightfold.ai/careers/job/563602813483105
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
   status: open
   sources:
   - github_tracker:simplifyjobs

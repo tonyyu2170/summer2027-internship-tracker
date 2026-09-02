@@ -802,8 +802,9 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-08-11'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-intern-data-platform-analytics-b1ffd2
   company: Microsoft
@@ -2023,7 +2024,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
@@ -3413,6 +3414,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -3550,6 +3553,75 @@
   term: Summer 2027
   degree:
   - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: northern-trust-technology-intern-data-science-and-analytics-1b0f1a
+  company: Northern Trust
+  role: Technology Intern - Data Science and Analytics
+  location: Chicago, IL
+  link: https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Technology-Intern---Data-Science-and-Analytics_R160865-1
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: textron-data-product-analytics-intern-a3e10e
+  company: Textron
+  role: Data Product & Analytics Intern
+  location: Augusta, GA
+  link: https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=343181
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: boston-scientific-research-data-science-intern-active-implantable-systems-9afd62
+  company: Boston Scientific
+  role: Research Data Science Intern - Active Implantable Systems
+  location: Arden Hills, MN
+  link: https://bostonscientific.eightfold.ai/careers/job/563602813483103
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: boston-scientific-research-algorithm-data-science-intern-interns-graduates-73e97c
+  company: Boston Scientific
+  role: Research Algorithm & Data Science Intern - Interns/Graduates
+  location: Arden Hills, MN
+  link: https://bostonscientific.eightfold.ai/careers/job/563602813483110
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
   status: open
   sources:
   - github_tracker:simplifyjobs

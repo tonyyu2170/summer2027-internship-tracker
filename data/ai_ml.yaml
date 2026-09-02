@@ -5820,6 +5820,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -5889,6 +5891,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -5943,6 +5946,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -6186,6 +6190,8 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -6202,6 +6208,194 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: ingredion-digital-innovation-intern-3d2640
+  company: Ingredion
+  role: Digital Innovation Intern
+  location: Bridgewater, NJ
+  link: https://ingredion.wd1.myworkdayjobs.com/IngredionCareers/job/Bridgewater-NJ/Digital-Innovation-Intern_Req-40180-1
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: first-national-bank-systems-analyst-intern-consumer-and-commercial-banking-technology-5bd54f
+  company: First National Bank
+  role: Systems Analyst Intern - Consumer and Commercial Banking Technology
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Systems-Analyst-Intern_2026-02021
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: first-national-bank-data-management-intern-data-quality-and-governance-f15dd2
+  company: First National Bank
+  role: Data Management Intern - Data Quality and Governance
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2026-Data-Management-Intern---Pittsburgh--PA_2026-01833
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: first-national-bank-data-engineer-intern-469cb0
+  company: First National Bank
+  role: Data Engineer Intern
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01714
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: first-national-bank-data-engineering-intern-105d65
+  company: First National Bank
+  role: Data Engineering Intern
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01713
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: first-national-bank-data-engineering-intern-a1c7b9
+  company: First National Bank
+  role: Data Engineering Intern
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01712
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: corning-digital-it-intern-analyst-enterprise-data-management-3cb3dd
+  company: Corning
+  role: Digital & IT Intern - Analyst - Enterprise Data Management
+  location: Charlotte, NC
+  link: https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Enterprise-Data-Management-Summer-2027-NC-28216/1425715900/?ats=successfactors
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: panasonic-holdings-data-engineering-intern-696b16
+  company: Panasonic Holdings
+  role: Data Engineering Intern
+  location: Bridgeton, MO
+  link: https://careers.na.panasonic.com/jobs/50772?icims=1
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: textron-aftermarket-analyst-intern-42c29f
+  company: Textron
+  role: Aftermarket Analyst Intern
+  location: Cartersville, GA
+  link: https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=343153
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: michelin-data-engineering-intern-5b4696
+  company: Michelin
+  role: Data Engineering Intern
+  location: Ardmore, OK
+  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/ARDMORE-OK/Summer-2027-Internship--Data-Engineering---Ardmore--OK-_R-2026030979
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: the-federal-reserve-system-graduate-intern-markets-group-new-york-innovation-center-75b03b
+  company: The Federal Reserve System
+  role: Graduate Intern - Markets Group - New York Innovation Center
+  location: New York, NY
+  link: https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Markets-Group---New-York-Innovation-Center---Graduate-Intern_R-0000033034
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null

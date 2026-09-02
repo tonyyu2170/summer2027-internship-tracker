@@ -161,6 +161,7 @@
   - github_tracker
   - github_tracker:sndsh404
   - github_tracker:vanshb03
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -8173,7 +8174,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-18'
-  last_verified: '2026-08-18'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: keybank-2027-summer-key-technology-services-43132d
   company: KeyBank
@@ -8286,7 +8287,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11287,7 +11288,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11306,7 +11307,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -13237,7 +13238,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-31'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: trane-technologies-2027-energy-engineering-intern-826271
   company: Trane Technologies
@@ -13868,7 +13869,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zshah101
   date_added: '2026-09-01'
@@ -14088,6 +14089,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-01'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14753,6 +14755,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14771,6 +14774,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14788,6 +14792,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14805,6 +14810,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14855,6 +14861,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14889,6 +14896,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15066,6 +15075,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15155,6 +15165,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15172,6 +15183,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15226,6 +15239,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15343,6 +15358,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15391,6 +15407,8 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15457,6 +15475,8 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -15519,7 +15539,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -15556,6 +15576,293 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: first-national-bank-application-development-intern-35c351
+  company: First National Bank
+  role: Application Development Intern
+  location: Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Application-Development-Intern_2026-01847
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: ameriprise-financial-asset-management-technology-intern-data-enablement-5115ac
+  company: Ameriprise Financial
+  role: Asset Management Technology Intern - Data Enablement
+  location: Boston, MA
+  link: https://ameriprise.wd5.myworkdayjobs.com/en-US/Ameriprise/job/Boston-Massachusetts/Asset-Management-Technology-Intern---Data-Enablement_R26_3538
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: vermeer-software-engineer-intern-it-6134d1
+  company: Vermeer
+  role: Software Engineer Intern - IT
+  location: Pella, IA
+  link: https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/IT-Software-Engineer-Internship-Summer-2027_REQ-22178
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: rtx-software-engineer-intern-ccc5c1
+  company: RTX
+  role: Software Engineer Intern
+  location: Melbourne, FL
+  link: https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Summer-2027-_01871423
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: northern-trust-technology-intern-software-engineering-2d034c
+  company: Northern Trust
+  role: Technology Intern - Software Engineering
+  location: Chicago, IL
+  link: https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: textron-software-engineer-intern-22b23a
+  company: Textron
+  role: Software Engineer Intern
+  location: Augusta, GA
+  link: https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=343299
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: john-deere-product-engineering-intern-8302a7
+  company: John Deere
+  role: Product Engineering Intern
+  location: Fargo, ND
+  link: https://johndeere.eightfold.ai/careers/job/137482769212
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: tesla-physics-engine-development-engineer-intern-optimus-75aad5
+  company: Tesla
+  role: Physics Engine Development Engineer Intern - Optimus
+  location: Palo Alto, CA
+  link: https://www.tesla.com/careers/search/job/282147
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: johns-hopkins-applied-physics-laboratory-mission-systems-engineering-intern-18d9b8
+  company: Johns Hopkins Applied Physics Laboratory
+  role: Mission Systems Engineering Intern
+  location: Laurel, MD
+  link: https://careers.jhuapl.edu/jobs/59883?icims=1
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-research-intern-ai-native-databases-af2f77
+  company: ByteDance
+  role: Research Intern - AI-Native Databases
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7678450462765254965/detail
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: bytedance-research-intern-ai-native-databases-18ded0
+  company: ByteDance
+  role: Research Intern - AI-Native Databases
+  location: Seattle, WA
+  link: https://jobs.bytedance.com/en/position/7678451067500529925/detail
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: palantir-software-engineer-internship-produ-a7c411
+  company: Palantir
+  role: Software Engineer, Internship - Produ...
+  location: New York, NY
+  link: https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: aerovironment-software-engineering-intern-0d6525
+  company: AeroVironment
+  role: Software Engineering Intern
+  location: Sunrise, FL
+  link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Sunrise-FL/Software-Engineering-Intern_8589
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-cyber-8d6bc3
+  company: Booz Allen Hamilton
+  role: University - 2027 Summer Games Cyber ...
+  location: Fort Walton Beach, FL
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Cyber-Security-Intern---Ft-Walton-Beach--FL_R0248416
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-cyber-f55bdf
+  company: Booz Allen Hamilton
+  role: University - 2027 Summer Games Cyber ...
+  location: Annapolis Junction, MD
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Cyber-Security-Intern---Annapolis-Junction--MD_R0248414
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-2027-summer-games-cyber-5369b7
+  company: Booz Allen Hamilton
+  role: University - 2027 Summer Games Cyber ...
+  location: Huntsville, AL
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Cyber-Security-Intern---Huntsville--AL_R0248412
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: stryker-summer-2027-internship-statistical-programming-california-1f320d
+  company: Stryker
+  role: Summer 2027 Internship - Statistical Programming - California
+  location: Irvine, CA
+  link: https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null

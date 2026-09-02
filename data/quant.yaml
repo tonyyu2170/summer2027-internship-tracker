@@ -5063,3 +5063,20 @@
   date_added: '2026-09-01'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
+- id: oppenheimer-co-inc-equities-sales-trading-intern-business-segments-and-corporate-infrastructure-5fc720
+  company: Oppenheimer & Co. Inc.
+  role: Equities Sales & Trading Intern - Business Segments and Corporate Infrastructure
+  location: New York, NY
+  link: https://opco.hrmdirect.com/employment/job-opening.php?req=3799625
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null

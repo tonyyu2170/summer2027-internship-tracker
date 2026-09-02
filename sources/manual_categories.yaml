@@ -5,16 +5,33 @@
 # Add entries by hand (or in-session) when a scheduled run parks new
 # rows in scratch/fetch_reports/unclassified.json.
 https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Mebane/Operational-Excellence-Intern---Summer-2027_JR00044366: __drop__
+? https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Ohio---Columbus/Abbott-Nutrition-Consumer-Sales-Internship-Summer-2027_31160319
+: __drop__
+? https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Ohio---Columbus/Abbott-Nutrition-Inside-Sales-Internship-Health-Care-Professionals--HCP--Summer-2027_31160320
+: __drop__
+https://apply.careers.microsoft.com/careers/job/1970393556978904: __drop__
 https://apply.workable.com/healthcorpsorg/j/DD52981B55/apply: __drop__
 https://argonne.wd1.myworkdayjobs.com/EDU_PUB/job/Lemont-IL-USA/Business-Systems-Administration-Internship_413528: __drop__
+? https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Mt-Vernon---IN/Summer-Internships-in-Mt-Vernon--IN--Undergraduates-_R-259130
+: __drop__
 https://ats.rippling.com/naxo/jobs/09e22a83-c30d-47ce-903d-f684e17f656c: __drop__
 https://austintexas.wd5.myworkdayjobs.com/COA_Careers/job/Fire-Headquarters/Research-Analyst-Internship_JR104634: __drop__
 ? https://bankeasy.wd5.myworkdayjobs.com/bank-easy-job-openings/job/Brookings-SD-East/SharePoint-Power-Platform-Intern_R-100780
 : swe
 https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Birmingham-One-Snow-Hill/UK-Corporate-Banking-Summer-Internship-Programme-2027-Birmingham_JR-0000124204: __drop__
+? https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/International-Corporate-Banking-Analyst-Summer-Internship-Program-2027-New-York-City_JR-0000124507
+: __drop__
 ? https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Corporate---Baton-Rouge-LA/CW-Provider-Reimbursement-Intern_R11964
 : __drop__
 https://beesweetcitrus.applytojob.com/apply/MMbyNj6r3a/Data-Processing-Intern: __drop__
+? https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Arlington-VA/Summer-2027-Corporate-Strategy-Intern---Graduate_R71501
+: __drop__
+? https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Education-Programs-and-Outreach-Intern---Undergraduate_R71515
+: __drop__
+? https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Return-Internship---Graduate_R71399
+: __drop__
+? https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Return-Internship---Undergraduate_R71401
+: __drop__
 ? https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Card-Products-Internship--Fall-2026-Co-op-Internship--Toronto--CA-_R260023035
 : __drop__
 https://boards.greenhouse.io/flagshippioneeringinc/jobs/8580062002?gh_jid=8580062002: __drop__
@@ -46,12 +63,15 @@ https://conocophillips.wd1.myworkdayjobs.com/External/job/Houston-TX/Intern--Geo
 https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2620019: __drop__
 https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14393: __drop__
 https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/35331: __drop__
+https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/35613: __drop__
 https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/88869: __drop__
 https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/IN-DL-NEW-DELHI-WM2--Asset-Area-No-8--WORLDMARK-2-Unit-No-505--506-5th-Flr/CA-Intern--Industrial-Trainee-_01862649: __drop__
 https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-OBG--400-Main-St--BLDG-OBG/Commercial-Engines-Intern--Summer-2027-_01870332: __drop__
 https://gresearch.wd103.myworkdayjobs.com/G-Research/job/London-UK/Natural-Language-Processing-Internship_R3686: __drop__
 https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009402: __drop__
 https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Alamo-Tennessee-United-States-of-America/XMLNAME-2027-Summer-Business-Intern---Alamo_R0142894: __drop__
+? https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Crystal-Springs-Mississippi-United-States-of-America/XMLNAME-2027-Summer-Intern---Crystal-Springs_R0143801
+: __drop__
 https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Jefferson-City-Missouri-United-States-of-America/XMLNAME-2027-Summer-Health-Safety-Environmental-Internship-Jefferson-City_R0143630: __drop__
 ? https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Dallas-TX/Returning-Planning-Intern--Summer-2027--Central-Division--For-Current-Former-HNTB-Interns-Only-_R-31088-1
 : __drop__
@@ -59,6 +79,8 @@ https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Jefferson-City-Missouri-United
 : __drop__
 https://iheartmedia.wd5.myworkdayjobs.com/External_iHM/job/Virtual-FL/Research-Intern_Req37325: __drop__
 https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Global-Strategies_R-15053-1: __drop__
+https://jj.wd5.myworkdayjobs.com/JJ/job/Jacksonville-Florida-United-States-of-America/Materials-Engineering-Co-op_R-094380: __drop__
+https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/TSA-Group-Co-Op_R-096238: __drop__
 https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Georgia---Commerce/Time-Studies-Intern_JR104747: __drop__
 https://job-boards.greenhouse.io/billiontoone/jobs/4729470005: __drop__
 https://job-boards.greenhouse.io/charlesriverassociates/jobs/8160288: __drop__
@@ -67,9 +89,12 @@ https://job-boards.greenhouse.io/charlesriverassociates/jobs/8120616: __drop__
 https://job-boards.greenhouse.io/drweng/jobs/7992670: __drop__
 https://job-boards.greenhouse.io/excelsportsmanagement/jobs/4718768005: __drop__
 https://job-boards.greenhouse.io/figureai/jobs/4694889006: __drop__
+https://job-boards.greenhouse.io/generalmatter/jobs/5377119008: __drop__
 https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5301639008: swe
 https://job-boards.greenhouse.io/knowbe4/jobs/8660687002: __drop__
 https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8598324002: swe
+https://job-boards.greenhouse.io/olsson/jobs/5412829008: __drop__
+https://job-boards.greenhouse.io/olsson/jobs/5412915008: __drop__
 https://job-boards.greenhouse.io/vardaspace/jobs/7824772003: __drop__
 https://jobs.apple.com/en-us/details/200676091/mba-internships: __drop__
 https://jobs.ashbyhq.com/applied/bb953f29-0059-4a40-aa9e-3a8c88733902: ai_ml
@@ -80,6 +105,7 @@ https://jobs.ashbyhq.com/kastle/2c764341-e028-4736-a1a7-0d5faf16e592/application
 https://jobs.ashbyhq.com/northwoodspace/632f463c-94a4-4e83-839d-825e63b75788: __drop__
 https://jobs.ashbyhq.com/northwoodspace/1951df5b-c84e-47d9-860d-53e5d3045f6f: __drop__
 https://jobs.lever.co/field-ai/8a3b5d4b-f88f-4704-bfdd-74e8dcd30704/apply: swe
+https://jobs.lever.co/hermeus/7a0408e7-700c-4206-85d6-62f71f625652: __drop__
 https://jobs.smartrecruiters.com/BoschGroup/744000134840254: __drop__
 https://jobs.smartrecruiters.com/BoschGroup/744000142167069: __drop__
 https://jobs.smartrecruiters.com/Canva/6000000001292768: ai_ml
@@ -103,6 +129,7 @@ https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Inter
 ? https://nrel.wd5.myworkdayjobs.com/NLR/job/Remote/XMLNAME--Associate-Undergraduate--Intern---Carbon-Management-and-Large-Energy-Systems_R14405
 : __drop__
 https://osv-edf.wd5.myworkdayjobs.com/en-US/Confidential/job/Remote---US-Home/Climate---Health-Intern_REQ-002561: __drop__
+https://parsons.wd5.myworkdayjobs.com/search/job/US---CA-San-Bernardino/Project-Management-Intern_R185641: __drop__
 https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-MBA-Summer-Intern---Account-Manager--US_R106826: __drop__
 https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-PhD-Summer-Intern---Portfolio-Management--Quantitative-Research-Analyst_R106749: quant
 https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Asset-Management-Group-Undergraduate-Intern_R230880-1: __drop__
