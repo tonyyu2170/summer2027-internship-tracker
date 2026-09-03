@@ -136,3 +136,14 @@ def test_find_reposts_ignores_truncated_titles():
                 "title": "Quantitative Researcher - Internship",
                 "date_posted": "2026-08-10"}]
     assert find_reposts(rows, entries) == []
+
+
+def test_greenhouse_job_id_is_the_identity_across_board_and_company_site_forms():
+    # Tower Research sets its Greenhouse absolute_url to its own site, so the
+    # listing shows ?gh_jid=N while the tracked row holds the board URL for
+    # the same N. check_reposts called that a repost of itself (2026-09-02).
+    rows = [{"id": "r1", "role": "Quantitative Trader Intern",
+             "link": "https://job-boards.greenhouse.io/towerresearchcapital/jobs/8024128"}]
+    entries = [{"link": "https://www.tower-research.com/open-positions/?gh_jid=8024128",
+                "title": "Quantitative Trader Intern", "date_posted": "2026-08-12"}]
+    assert find_reposts(rows, entries) == []

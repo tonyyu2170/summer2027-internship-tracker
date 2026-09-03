@@ -16,7 +16,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: November-cohort applications closed July 26 (passed as of 2026-08-07). Multiple
     cohorts per year; next round not yet posted here.
 - id: mats-research-mats-ml-alignment-theory-scholars
@@ -36,7 +36,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Page states applications for Winter 2027 will open in mid-August. Multiple
     cohorts per year rather than a single summer cycle.
 - id: spar-kairos-project-spar-supervised-program-for-alignment-research
@@ -56,7 +56,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Part-time (5-40 hrs/week), remote, 3-month research projects; recurs across
     Spring/Summer/Fall cohorts.
 - id: ai-safety-camp-ai-safety-camp-research-incubator
@@ -76,7 +76,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 16-day virtual Research Incubator cohort ran Aug 15-30, 2026; recurring program
     but no clear literal open/closed signal text found at time of check.
 - id: brown-university-department-of-computer-science-ai-for-computational-creativity-nsf-reu-site
@@ -96,7 +96,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Page states students interested in Summer 2027 should check back in late
     fall 2026.
 - id: marshall-university-nsf-reu-undergraduate-research-in-data-analytics-urda
@@ -117,7 +117,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Active "Apply Now!" link to NSF ETAP portal but page does not clearly state
     which summer cycle it governs - manual check advised before relying on it for
     Summer 2027.
@@ -138,7 +138,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Summer 2026 window was Jan 20 - Mar 25, 2026, already past. Recurs annually.
 - id: university-of-wisconsin-eau-claire-nsf-reu-high-performance-computing
   name: NSF REU — High-Performance Computing
@@ -157,7 +157,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Funded to host cohorts each summer 2025-2027, so a Summer 2027 round is expected;
     opening date not yet posted.
 - id: mit-mit-summer-research-program-msrp
@@ -177,7 +177,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Summer 2026 cycle ran Sept 26, 2025 to Jan 20, 2026; both past. Recurs annually;
     Summer 2027 dates not yet posted.
 - id: caltech-summer-undergraduate-research-fellowships-surf
@@ -197,7 +197,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Page explicitly states the SURF 2027 application opens November 1 and is
     due March 1.
 - id: uc-berkeley-eecs-summer-undergraduate-program-in-engineering-research-at-berkeley-superb-ai4e
@@ -217,7 +217,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Live page still displays the 2025 cycle as of Aug 2026 - may not be updated
     yet. Flagged for manual re-check closer to application season.
 - id: computing-research-association-cra-wp-distributed-research-experiences-for-undergraduates-dreu
@@ -237,7 +237,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: General track deadline Jan 31, 2026; AI & Quantum track deadline April 15,
     2026 - both past. Recurs annually.
 - id: us-department-of-energy-office-of-science-science-undergraduate-laboratory-internships-suli
@@ -257,7 +257,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: The 2026-09-30 deadline is for the Spring 2027 term, not Summer 2027 - separate
     Spring/Summer/Fall cycles; Summer 2027 window not yet posted. Status inferred
     from the stated future deadline.
@@ -278,7 +278,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Extended 2026 deadline was March 6, 2026, already past. Host institution
     and location rotate by year.
 - id: duke-university-data
@@ -298,7 +298,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 2026 program ran May 18-July 24, 2026. No live open/closed text and no Summer
     2027 deadline posted yet.
 - id: american-economic-association-2026-hosted-at-american-university-american-economic-association-summer-training-program-aeasp
@@ -318,7 +318,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 8-week training program in micro/math/econometrics/research methods - training-adjacent
     rather than a research fellowship proper. 2026 deadline Jan 31, 2026 past; host
     rotates.
@@ -338,7 +338,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Department did not offer REU/SPUR for Summer 2026 and hopes to host in Summer
     2027 depending on funding; update promised early December 2026. Genuinely uncertain
     whether Summer 2027 will run.
@@ -361,6 +361,6 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 2026 window was March 17 - April 7, 2026, already past. Recurs annually with
     a similar winter/spring window.

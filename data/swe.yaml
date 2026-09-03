@@ -612,7 +612,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: copart-software-engineering-intern-cce1c8
   company: Copart
@@ -1148,7 +1148,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: false
 - id: rainmaker-software-engineering-intern-29f798
@@ -1201,7 +1201,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: false
 - id: auctor-software-engineering-intern-a01e27
@@ -1252,7 +1252,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: false
 - id: rakuten-international-software-engineer-intern-df0cea
@@ -1661,7 +1661,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: cisive-software-development-intern-ddd585
   company: Cisive
@@ -1677,7 +1677,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: true
 - id: cisive-intern-software-developer-22aad2
@@ -1694,7 +1694,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: true
 - id: neighborly-application-developer-intern-1d4e40
@@ -1818,7 +1818,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: false
 - id: transmarket-group-devops-sre-intern-69f226
@@ -1837,7 +1837,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:northwesternfintech
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: false
 - id: plusai-systems-engineering-intern-627951
@@ -1957,7 +1957,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: true
 - id: hewlett-packard-hp-software-engineering-intern-device-experiences-2f807f
@@ -2159,7 +2159,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-07-24'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: datasite-forward-deployed-engineer-intern-ac03d3
   company: Datasite
@@ -2465,7 +2465,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: true
 - id: palantir-technologies-software-engineer-intern-717a1c
@@ -2850,7 +2850,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: false
 - id: axon-software-engineering-intern-cf3adc
@@ -4548,7 +4548,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: kastle-software-engineer-intern-be311b
   company: Kastle
@@ -4828,7 +4828,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: bosch-powertrain-controls-software-engineering-intern-6-months-999be8
   company: Bosch
@@ -5043,7 +5043,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: uline-network-engineer-internship-summer-af6189
   company: Uline
@@ -5059,13 +5059,13 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: penn-state-university-research-and-development-engineering-fc2a0e
+- id: penn-state-university-research-and-development-engineer-intern-ec2530
   company: Penn State University
   role: Research and Development Engineer Intern
   location: Freeport, PA
-  link: https://psu.wd1.myworkdayjobs.com/Student/job/Freeport-PA/Research-and-Development-Engineering-Intern_REQ_0000064925
+  link: https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Freeport-PA/Research-and-Development-Engineering-Intern_REQ_0000064925-1
   date_posted: '2026-06-13'
   date_estimated: false
   term: Summer 2027
@@ -5076,7 +5076,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: plusai-research-engineer-intern-control-03794c
   company: PlusAI
@@ -5177,7 +5177,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: ivy-tech-community-college-federal-work-study-website-development-intern-fbc73c
   company: Ivy Tech Community College
@@ -5194,7 +5194,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: pentair-it-cybersecurity-leadership-development-internship-program-summer-2027-1a055c
   company: Pentair
@@ -5227,7 +5227,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: abbvie-2027-business-technology-solutions-in-f9abde
   company: AbbVie
@@ -5243,7 +5243,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-08-09'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: leidos-engineering-intern-3284ac
   company: Leidos
@@ -5336,7 +5336,7 @@
   sources:
   - company:hntb
   date_added: '2026-08-09'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: medtronic-engineering-intern-summer-2027-07329a
   company: Medtronic
@@ -5541,7 +5541,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-08-12'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: ing-summer-2027-internship-tech-information-security-a2b000
   company: ING
@@ -5840,7 +5840,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: ing-internship-software-engineer-b93453
   company: ING
@@ -6278,7 +6278,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: palantir-deployment-strategist-internship-u-5c4bb8
   company: Palantir
@@ -6942,7 +6942,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: jabil-engineering-co-op-c0e62c
   company: Jabil
@@ -9597,7 +9597,7 @@
   role: Plant Engineering Intern - Summer 2027
   location: Lake Crystal, MN
   link: https://poet.wd1.myworkdayjobs.com/POET/job/Lake-Crystal-MN/Plant-Engineering-Intern---Summer-2027_R101662
-  date_posted: '2026-08-31'
+  date_posted: '2026-09-02'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -9661,7 +9661,7 @@
   role: Process Engineering Intern - Summer 2027
   location: Sioux Falls, SD
   link: https://poet.wd1.myworkdayjobs.com/POET/job/Sioux-Falls-SD/Process-Engineering-Intern---Summer-2027_R101679
-  date_posted: '2026-09-01'
+  date_posted: '2026-09-02'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -11038,7 +11038,7 @@
   role: Software Engineer Intern - Tech & Data Program
   location: Hartford, CT
   link: https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1
-  date_posted: '2026-08-24'
+  date_posted: '2026-08-27'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -11321,7 +11321,7 @@
   role: Software Engineer Intern - Technology & Data
   location: Columbus, OH
   link: https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Columbus-OH/Tech---Data-Summer-Program-2027---Software-Engineer-Intern--Columbus-_R2626609
-  date_posted: '2026-08-25'
+  date_posted: '2026-08-27'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -11430,7 +11430,7 @@
   role: Technical Intern - Federal Reserve - National IT
   location: Richmond, VA
   link: https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Richmond-VA/Federal-Reserve-Summer-2027-Technical-Internship_R-0000033194
-  date_posted: '2026-08-26'
+  date_posted: '2026-08-28'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -11448,7 +11448,7 @@
   role: Software Developer Intern - Summer 2027
   location: Lansing, MI
   link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Software-Developer-Internship_R_2121
-  date_posted: '2026-08-27'
+  date_posted: '2026-08-26'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -11597,7 +11597,7 @@
   role: Software Engineer Intern - US - Summer 2027
   location: Durham, NC
   link: https://jobs.ashbyhq.com/telus-digital/32ee6ede-d3cf-4827-b7af-f8d64f2bca11/application?embed=true
-  date_posted: '2026-08-27'
+  date_posted: '2026-08-28'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -11831,7 +11831,7 @@
   role: Software Engineer Intern
   location: Beaverton, OR
   link: https://nike.wd1.myworkdayjobs.com/nke/job/Beaverton-Oregon/NIKE--Inc-Software-Engineering-Undergraduate-Internship_R-91111
-  date_posted: '2026-08-31'
+  date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -12238,7 +12238,7 @@
   role: Software Engineer Intern
   location: San Francisco, CA
   link: https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e/application?embed=true
-  date_posted: '2026-09-01'
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13075,24 +13075,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: general-motors-electrical-sdv-intern-global-manufacturing-c42ecb
-  company: General Motors
-  role: Electrical & SDV Intern - Global Manufacturing
-  location: Warren, MI
-  link: https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Global-Manufacturing-Electrical---SDV_JR-202619352
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: vermeer-software-engineer-intern-it-6134d1
   company: Vermeer
   role: Software Engineer Intern - IT
@@ -13255,7 +13237,7 @@
   role: 'NVIDIA 2027 Internships: Systems Software Engineering'
   location: Santa Clara, CA
   link: https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492
-  date_posted: '2026-08-20'
+  date_posted: '2026-08-19'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13391,7 +13373,7 @@
   role: Software Engineering Intern - Product & Developer Productivity - Summer 2027
   location: San Francisco, CA
   link: https://job-boards.greenhouse.io/hpiq/jobs/6114890004
-  date_posted: '2026-09-02'
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13430,7 +13412,7 @@
   role: Software Engineering Intern
   location: Cocoa Beach, FL
   link: https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-FL-Cocoa-Beach/Software-Engineering-Intern_R0169322
-  date_posted: '2026-09-01'
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13448,7 +13430,7 @@
   role: 'Mercury Marine: Software Controls Engineering Intern'
   location: Fond du Lac, WI
   link: https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine--Software-Controls-Engineering-Intern_JR-051436
-  date_posted: '2026-09-01'
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13468,7 +13450,7 @@
   role: 2027 Spring Term Software Engineer Co-op - Chicago - Northeastern University
   location: Chicago, IL
   link: https://cibc.wd3.myworkdayjobs.com/en-US/campus/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782
-  date_posted: '2026-09-01'
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13485,7 +13467,7 @@
   role: Software Engineer Intern - Summer 2027
   location: Boston, MA
   link: https://draftkings.wd1.myworkdayjobs.com/en-US/campus_career_portal/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14929
-  date_posted: '2026-09-01'
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13503,7 +13485,7 @@
   role: Software Engineer Intern
   location: Remote (US)
   link: https://igsenergy.wd1.myworkdayjobs.com/en-US/igs/job/Ohio-Remote/Software-Engineer-Intern_R6263
-  date_posted: '2026-09-01'
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13536,7 +13518,7 @@
   role: Software Engineer Intern
   location: Menomonee Falls, WI
   link: https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Menomonee-Falls-WI/Software-Engineer-Intern_JR-051426-1
-  date_posted: '2026-08-29'
+  date_posted: '2026-08-28'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13552,7 +13534,7 @@
   role: Software Engineering Intern
   location: Champaign, IL
   link: https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051449
-  date_posted: '2026-08-29'
+  date_posted: '2026-08-28'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13571,7 +13553,7 @@
   role: Software Engineer Intern
   location: Spring, TX
   link: https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Software-Engineer-Intern_1213625
-  date_posted: '2026-08-29'
+  date_posted: '2026-08-28'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13587,7 +13569,7 @@
   role: Cloud Engineer Intern
   location: Spring, TX
   link: https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Cloud-Engineer-Intern_1213629
-  date_posted: '2026-08-29'
+  date_posted: '2026-08-28'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13603,7 +13585,7 @@
   role: Mission Critical Networks Software Engineer - 2027 Co-op
   location: Schaumburg, IL
   link: https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782
-  date_posted: '2026-08-29'
+  date_posted: '2026-08-28'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13620,7 +13602,7 @@
   role: Co-op - Software Test Automation Engineer - Orange - OH - January 2027
   location: Austintown, OH
   link: https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Orange-OH-Ohio-United-States/Co-op---Software-Test-Automation-Engineer---Orange--OH---January-2027_581888
-  date_posted: '2026-08-29'
+  date_posted: '2026-08-28'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13641,7 +13623,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
   date_added: '2026-09-02'
@@ -13671,7 +13653,7 @@
   role: Software Engineer - Observability - Co-op
   location: Draper, UT
   link: https://ancestry.wd501.myworkdayjobs.com/en-US/careers/job/Draper-Utah/Software-Engineer---Observability--Co-op_R003434
-  date_posted: '2026-08-27'
+  date_posted: '2026-08-26'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13687,7 +13669,7 @@
   role: Phone as a Key Software Engineering - Intern
   location: Plymouth, MI
   link: https://jobs.smartrecruiters.com/BoschGroup/744000145785190-phone-as-a-key-software-engineering-intern?oga=true
-  date_posted: '2026-08-27'
+  date_posted: '2026-08-26'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13704,7 +13686,7 @@
   role: Software engineering Intern
   location: New York City, NY
   link: https://jobs.ashbyhq.com/maximor/3ff6e57d-5430-4836-b6f0-19044d8ee6d8
-  date_posted: '2026-08-27'
+  date_posted: '2026-08-25'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13721,7 +13703,7 @@
   role: Software Engineering Intern
   location: Champaign, IL
   link: https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316
-  date_posted: '2026-08-26'
+  date_posted: '2026-08-31'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13739,7 +13721,7 @@
   role: Software Engineering Intern
   location: Tulsa, OK
   link: https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Tulsa-OK/Software-Engineering-Intern_JR-051321
-  date_posted: '2026-08-26'
+  date_posted: '2026-08-25'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13756,7 +13738,7 @@
   role: Python Software Engineer Graduate Co-op
   location: Arlington, VA
   link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003
-  date_posted: '2026-08-26'
+  date_posted: '2026-08-24'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13772,7 +13754,7 @@
   role: Python Software Engineer Co-op
   location: Arlington, VA
   link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003
-  date_posted: '2026-08-26'
+  date_posted: '2026-08-24'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13788,7 +13770,7 @@
   role: Full Stack Software Engineer Graduate Co-op
   location: Arlington, VA
   link: https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003
-  date_posted: '2026-08-26'
+  date_posted: '2026-08-24'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13804,7 +13786,7 @@
   role: GE Vernova GridOS Software Test Engineer - Intern - Summer 2027
   location: Atlanta, GA
   link: https://gevernova.wd5.myworkdayjobs.com/en-US/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-GridOS--Software-Test-Engineer---Intern---Summer-2027_R5049907-1
-  date_posted: '2026-08-25'
+  date_posted: '2026-08-24'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13820,7 +13802,7 @@
   role: IT Engineering Internship - Software - Platform - & Network
   location: Cincinnati, OH
   link: https://pg.wd5.myworkdayjobs.com/en-US/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering-Internship--Software--Platform----Network-_R000157503
-  date_posted: '2026-08-25'
+  date_posted: '2026-08-24'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13836,7 +13818,7 @@
   role: Software Engineering Intern
   location: New York City, NY
   link: https://jobs.ashbyhq.com/ambrook/e458b046-aa7f-4022-bca5-63cdfd495456
-  date_posted: '2026-08-23'
+  date_posted: '2026-08-21'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13870,7 +13852,7 @@
   role: Innovations Intern - Full Stack/Front End Engineering
   location: New York City, NY
   link: https://job-boards.greenhouse.io/syskahennessy/jobs/8147733
-  date_posted: '2026-08-23'
+  date_posted: '2026-08-21'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13921,7 +13903,7 @@
   role: Summer 2027 Internship - Software Engineering
   location: Los Angeles, CA
   link: https://job-boards.greenhouse.io/generalmatter/jobs/5377118008
-  date_posted: '2026-08-21'
+  date_posted: '2026-08-19'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13942,7 +13924,7 @@
   role: Software Engineer Intern - Backend - Rust
   location: New York City, NY
   link: https://jobs.ashbyhq.com/n1/afe7deb5-9cfd-4926-bcb4-058d418592a6
-  date_posted: '2026-08-21'
+  date_posted: '2026-08-19'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13959,7 +13941,7 @@
   role: Software Engineering Intern
   location: New York City, NY
   link: https://jobs.ashbyhq.com/phoebe-work/1ffe3e63-2163-447e-a8b0-1fff8b87e0ca
-  date_posted: '2026-08-21'
+  date_posted: '2026-08-20'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -13976,7 +13958,7 @@
   role: Site Reliability Engineer Intern
   location: Dallas, TX
   link: https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631
-  date_posted: '2026-08-20'
+  date_posted: '2026-08-19'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -14009,7 +13991,7 @@
   role: Software Engineering Intern
   location: Dallas, TX
   link: https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510
-  date_posted: '2026-08-15'
+  date_posted: '2026-08-14'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -14026,7 +14008,7 @@
   role: Software Engineering Intern
   location: Dallas, TX
   link: https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109441
-  date_posted: '2026-08-08'
+  date_posted: '2026-08-07'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -14129,7 +14111,7 @@
   role: Software Engineer Intern, CenterWell and Humana Military
   location: Louisville, KY
   link: https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Humana-Technology-Internship---Summer-2027_R-424692-1
-  date_posted: '2026-08-21'
+  date_posted: '2026-08-18'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -14297,7 +14279,7 @@
   role: Data Engineer Co-Op
   location: Boston, MA
   link: https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005
-  date_posted: '2026-08-26'
+  date_posted: '2026-08-24'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -14414,7 +14396,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
@@ -14425,7 +14407,7 @@
   role: Controls Engineering Co-op
   location: Louisville, KY
   link: https://jobs.lever.co/diversified-automation/02ac2964-5362-4ff2-934c-b122ba26c365
-  date_posted: '2026-09-02'
+  date_posted: '2026-08-13'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -14555,23 +14537,6 @@
   - company:hp-iq
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-civil-engineering-internship-federal-infrastructure-site-design-ebd83c
-  company: Olsson
-  role: Civil Engineering Internship - Federal Infrastructure Site Design
-  location: North Kansas City, MO
-  link: https://job-boards.greenhouse.io/olsson/jobs/5396116008
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -14865,7 +14830,7 @@
   role: Summer 2027 Technology Internship
   location: Columbus, OH
   link: https://huntington.wd12.myworkdayjobs.com/HNBcareers/job/Columbus-OH/Summer-2027-Technology-Internship_R0075222
-  date_posted: '2026-09-01'
+  date_posted: '2026-09-02'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -15072,7 +15037,7 @@
   role: Data Engineer Intern - Tech & Data Program
   location: Columbus, OH
   link: https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Columbus-OH/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Columbus-_R2626610
-  date_posted: '2026-08-24'
+  date_posted: '2026-08-27'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -15109,7 +15074,7 @@
   role: Reservoir Engineer Intern
   location: The Woodlands, TX
   link: https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Reservoir-Engineer-Intern_83636-1
-  date_posted: '2026-08-26'
+  date_posted: '2026-08-27'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -15806,7 +15771,7 @@
   role: Software Engineer Intern
   location: Cedar Rapids, IA
   link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019
-  date_posted: '2026-08-31'
+  date_posted: '2026-09-02'
   date_estimated: false
   term: Summer 2027
   degree:

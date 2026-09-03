@@ -22,13 +22,13 @@ _last_fetch:
       category_drop: 16
       closed_marker_untracked: 54
 _last_program_check:
-  closed: 26
-  fetch_failed: 4
+  ran_at: 2026-09-02 11:43
   open: 7
-  ran_at: 2026-08-08 12:03
-  transitioned: []
-  unknown: 21
   upcoming: 1
+  closed: 26
+  unknown: 21
+  fetch_failed: 7
+  transitioned: []
 _last_run:
   new: 12
   closed: 5

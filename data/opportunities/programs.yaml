@@ -14,7 +14,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 12-week summer pre-internship program for freshmen/sophomores from underrepresented
     backgrounds. No Ignite-specific open/closed status text on page.
 - id: microsoft-explore-microsoft
@@ -34,7 +34,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 12-week program; umbrella page covers separate first-year and second-year
     application tracks. No open/closed status text found on the page itself.
 - id: optiver-optiver-futurefocus
@@ -53,7 +53,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Five-day discovery program (trading/quant research and technology tracks).
     Persistent "Apply now" CTA is page chrome, not a reliable open-only signal.
 - id: jane-street-focus
@@ -74,7 +74,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Multi-day program; travel, accommodation, and stipend provided. Page directs
     visitors to "sign up to be notified about upcoming sessions".
 - id: jane-street-insight
@@ -94,7 +94,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Multi-day program across software engineering, trading, and strategy/product
     tracks; sessions run in NYC, London, and Hong Kong.
 - id: goldman-sachs-possibilities-summits
@@ -114,7 +114,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Virtual interactive-workshop series; recurs annually, next cohort not yet
     posted.
 - id: sponsors-for-educational-opportunity-seo-seo-career
@@ -134,7 +134,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Rolling, year-round admissions into paid-internship pipeline (Wall St., real
     estate, tech). Multiple "Apply Now" CTAs but no explicit open/closed statement.
 - id: hudson-river-trading-inside-hrt
@@ -154,7 +154,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Three-day spring program (workshops, tech talks, networking).
 - id: hudson-river-trading-explore-hrt
   name: Explore HRT
@@ -173,7 +173,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Spring program - tech talks, 1:1 mentorship, look into HRT's trading infrastructure.
 - id: point72-point72-academy
   name: Point72 Academy
@@ -192,7 +192,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 'Status inferred, not a literal page quote: the page''s own timeline table
     put the 2027 Summer Internship window at Winter 2026 (opens) to Early Summer 2026
     (closes); since today is 2026-08-07, that window has already passed.'
@@ -213,7 +213,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 'Page: "only locations where this program is currently open will be displayed"
     - availability varies by location, not a clean site-wide signal.'
 - id: imc-trading-launchpad
@@ -233,7 +233,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Three-day discovery program (software engineering and quant trading tracks);
     no open/closed status text found.
 - id: management-leadership-for-tomorrow-mlt-mlt-career-prep
@@ -254,7 +254,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 18-month coaching/development program. Tiered priority deadlines - Finance
     2026-08-01, Consulting 2026-09-01, SWE/Tech & Corporate Management 2026-11-01,
     general 2026-12-01, final 2027-01-15.
@@ -275,7 +275,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 2026 conference Sept 16-18 in Atlanta; recurs annually. The year-less /registration/
     URL served stale 2025 content; the /2026-registration/ URL is current.
 - id: national-society-of-black-engineers-nsbe-nsbe-annual-convention
@@ -295,7 +295,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 'Status inferred, not literal page text: the 2026 convention (March 18-22,
     2026) already occurred as of 2026-08-07; late-registration window on page is stale.
     Recurs annually; 2027 registration not yet posted.'
@@ -316,7 +316,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 'One-week paid program held in August before junior year. Page: "Applications
     for our 2026 program are now closed. Check back later for more information on
     our 2027 BEL program."'
@@ -337,7 +337,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Page text ("Applications for our 2025 program are now closed... check back...
     2026 Consulting Kickstart") appears stale relative to 2026-08-07 - reads like
     an un-refreshed prior cycle.
@@ -358,7 +358,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: Page also noted a since-passed 2026 portal close date (May 29, 2026), consistent
     with the closed status as of today.
 - id: society-of-hispanic-professional-engineers-shpe-shpe-national-convention
@@ -377,7 +377,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: 2026 convention Oct 28-31, Indianapolis ("STEM for the BOLD"). Page only
     offered a "Sign Up to be Notified!" link - no explicit registration open/closed
     language, no eligibility text captured.
@@ -397,7 +397,7 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: JS-rendered React job board; fetch confirmed the page is real and owned by
     sig.com but returned only navigation chrome, no program-specific text.
 - id: google-student-training-in-engineering-program-step
@@ -417,6 +417,6 @@
   sources:
   - llm_discovery
   date_added: '2026-08-08'
-  last_checked: '2026-08-08'
+  last_checked: '2026-09-02'
   notes: JS-rendered Google Careers SPA; fetch confirmed the page is real but returned
     only navigation chrome, no STEP-specific status text.

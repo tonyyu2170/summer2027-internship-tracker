@@ -1958,7 +1958,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
   date_estimated: false
@@ -1977,7 +1977,7 @@
   - custom
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Trading
   date_estimated: false
@@ -2236,7 +2236,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -2254,7 +2254,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   possible_duplicate_of: null
   track: Research
   date_estimated: true
@@ -3940,41 +3940,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
-- id: bp-finance-risk-intern-supply-trading-shipping-fa3851
-  company: BP
-  role: Finance & Risk Intern - Supply, Trading, & Shipping
-  location: Chicago, IL
-  link: https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Illinois---Chicago/Summer-Internship---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ115370-1
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: bp-finance-risk-intern-supply-trading-shipping-bae7c9
-  company: BP
-  role: Finance & Risk Intern - Supply, Trading, & Shipping
-  location: Houston, TX
-  link: https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Texas---Houston/Summer-Internship---Supply--Trading----Shipping-Finance---Risk---Houston--TX_RQ115372
-  date_posted: '2026-08-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: pimco-quant-research-analyst-intern-client-solutions-analytics-e701d5
   company: PIMCO
   role: Quant Research Analyst Intern - Client Solutions & Analytics
@@ -4070,7 +4035,7 @@
   role: Quantitative Developer Intern
   location: New York City, NY
   link: https://boards.greenhouse.io/point72/jobs/8721562002?gh_jid=8721562002
-  date_posted: '2026-08-19'
+  date_posted: '2026-08-17'
   date_estimated: false
   term: Summer 2027
   degree:
