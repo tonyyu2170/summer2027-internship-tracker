@@ -1198,3 +1198,35 @@ https://www.zipline.com/open-roles/7985004003?gh_jid=7985004003: __drop__
 # Dropped by the scheduled cloud scrape, 2026-09-03 (off-scope roles).
 https://careers-springswindowfashions.icims.com/jobs/12896/job?mobile=true&needsRedirect=false: __drop__
 https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Enterprise-Operations-Intern_2026-01839: __drop__
+# Scheduled cloud scrape, 2026-09-03 evening: 16 parked postings resolved.
+# In scope (title truncated upstream; full title read off the job URL):
+https://careers.withwaymo.com/jobs?gh_jid=8174099: swe
+? https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Irving-Texas/XMLNAME-2027-Summer-Corporate-Intern---Information-Technology_R0000383086-1
+: swe
+? https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Analog-and-Power-Design-Electrical-Engineering-Intern--Summer-2027-_01871778
+: hardware
+# Off-scope (finance, HR, contracts, sourcing, technician, bio/petroleum, content):
+? https://aig.wd1.myworkdayjobs.com/AIG/job/NY-New-York/XMLNAME-2027-Early-Careers--Summer-Intern--Finance--United-States--New-York--NY_JR2603641-1
+: __drop__
+? https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Arden---North-Carolina---USA/IT-Technician-Intern_R2026-2600
+: __drop__
+? https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Texas---Houston/Summer-Intern---Reservoir-Engineer---Houston--TX_RQ114655
+: __drop__
+? https://brunswick.wd1.myworkdayjobs.com/search/job/Edgewater-FL/Brunswick-Boat-Group-Technology-Center-Advanced-Research---Storytelling-Intern_JR-051131
+: __drop__
+https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Fargo-North-Dakota-United-States/FP---A-Intern_R1316840: __drop__
+https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218257: __drop__
+? https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Wilmington-NC-USA/GE-Vernova-Hitachi-Nuclear-Energy-Sourcing-Intern---Summer-2027_R5051833-2
+: __drop__
+? https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-WINDSOR-LOCKS-B1A--1-Hamilton-Rd--BLDG-1A/Contracts-Coop--Spring-Summer-2027-_01869963
+: __drop__
+? https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-WA-EVERETT-11404--11404-Commando-Rd--COMMANDO/Contracts-Coop---Spring-Summer-2027-_01871994
+: __drop__
+? https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/Early-Stage-Innovation-R-D-Co-Op_R-095530
+: __drop__
+https://job-boards.greenhouse.io/fspco-op012325/jobs/8781861002: __drop__
+https://kla.wd1.myworkdayjobs.com/Search/job/USA-MI-Ann-Arbor-KLA/Human-Resource-Intern_2639645-1: __drop__
+https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---ID1/Intern--Equipment-Technician_JR111002: __drop__
+# Off-scope: insurance product/pricing analyst, mis-filed as ai_ml by the tracker's own category.
+? https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Summer-2027-State-Product-Analyst-Intern---Personal-Lines_099794
+: __drop__

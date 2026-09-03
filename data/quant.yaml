@@ -3769,7 +3769,7 @@
   term: Summer 2027
   degree:
   - MS
-  status: open
+  status: closed
   sources:
   - company:infinitequant
   - github_tracker:simplifyjobs
@@ -3824,7 +3824,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3858,7 +3858,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3876,7 +3876,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4413,3 +4413,35 @@
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: infinitequant-quantitative-developer-internship-summer-2027-606c92
+- id: goldman-sachs-associate-intern-the-core-quantitative-strats-722850
+  company: Goldman Sachs
+  role: Associate Intern - The Core Quantitative Strats
+  location: Dallas, TX
+  link: https://higher.gs.com/roles/171546?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: nucor-commodity-markets-analyst-intern-1f6c8f
+  company: Nucor
+  role: Commodity Markets Analyst Intern
+  location: Cincinnati, OH
+  link: https://jobs.nucor.com/job/Cincinnati-Commodity-Markets-Analyst-Intern-(Summer-2027)-OH-45202/1420210100/?ats=successfactors
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null

@@ -1204,7 +1204,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:continental-resources
   - github_tracker:simplifyjobs
@@ -1636,7 +1636,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:verdantas
   - github_tracker:simplifyjobs
@@ -1825,7 +1825,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -1845,7 +1845,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3503,6 +3503,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -3793,7 +3794,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3865,6 +3866,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -3900,6 +3902,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -3969,6 +3973,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -3983,9 +3988,10 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -3999,9 +4005,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -4018,6 +4025,23 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: momentive-data-science-intern-enterprise-reporting-analytics-604fd9
+  company: Momentive
+  role: Data Science Intern - Enterprise Reporting & Analytics
+  location: Niskayuna, NY
+  link: https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Enterprise-Reporting---Analytics---Data-Science_R9807-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null

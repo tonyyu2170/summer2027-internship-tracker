@@ -6644,7 +6644,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -7412,7 +7412,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:avery-dennison
   - github_tracker:simplifyjobs
@@ -8672,6 +8672,7 @@
   sources:
   - company:lawrence-livermore-national-laboratory-llnl
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -8686,7 +8687,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:lawrence-livermore-national-laboratory-llnl
   - github_tracker:simplifyjobs
@@ -8901,7 +8902,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:medtronic
   - github_tracker:simplifyjobs
@@ -9626,8 +9627,9 @@
   status: open
   sources:
   - company:poet
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: poet-plant-engineering-intern-summer-2027-ae39fd
   company: POET
@@ -9774,7 +9776,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:qts
   - github_tracker:simplifyjobs
@@ -9920,7 +9922,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:rtx
   - github_tracker:simplifyjobs
@@ -10255,7 +10257,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:wabtec
   - github_tracker:simplifyjobs
@@ -10332,7 +10334,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -10350,7 +10352,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -10368,7 +10370,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -10638,7 +10640,7 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -10743,6 +10745,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -10862,7 +10865,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11010,7 +11013,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -14191,7 +14194,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:vanshb03
   - github_tracker:simplifyjobs
@@ -14282,8 +14285,9 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: aerovironment-software-engineering-intern-0d6525
   company: AeroVironment
@@ -15704,7 +15708,7 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -16692,6 +16696,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -16710,6 +16715,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -16727,6 +16733,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: mckesson-software-engineer-intern-8d7863
@@ -16795,6 +16802,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -16899,6 +16909,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -16913,9 +16924,63 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: edison-international-computer-science-intern-1c49c7
+  company: Edison International
+  role: Computer Science Intern
+  location: Alhambra, CA
+  link: https://apply.edisoncareers.com/job/Alhambra-2027-Summer-Internship-Computer-Science-(AlhambraRosemeadPomona)-CA-91803-0000/1425151100/?ats=successfactors
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: momentive-software-development-intern-f9ca1e
+  company: Momentive
+  role: Software Development Intern
+  location: Niskayuna, NY
+  link: https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: regions-bank-technology-intern-multiple-teams-806ddf
+  company: Regions Bank
+  role: Technology Intern - Multiple Teams
+  location: Hoover, AL
+  link: https://regions.wd5.myworkdayjobs.com/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/XMLNAME-2027-ETP-Intern---Technology--Operations--Digital--and-Data---Technology_R105425
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
