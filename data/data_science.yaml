@@ -14,7 +14,7 @@
   - link_checker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: jump-trading-campus-data-engineer-intern-bfb324
   company: Jump Trading
@@ -47,7 +47,7 @@
   - github_tracker:chieler
   - github_tracker:sndsh404
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: capital-one-current-master-s-data-science-internship-summer-2027-c8c307
   company: Capital One
@@ -68,7 +68,7 @@
   - github_tracker:zapplyjobs
   - company:capital-one
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: capital-one-current-phd-data-science-internship-summer-2027-b09df0
   company: Capital One
@@ -89,7 +89,7 @@
   - github_tracker:zapplyjobs
   - company:capital-one
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: ensemble-health-partners-data-scientist-intern-fa4cd5
   company: Ensemble Health Partners
@@ -235,7 +235,7 @@
   - github_tracker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: capital-one-data-analyst-intern-fd11e0
   company: Capital One
@@ -253,7 +253,7 @@
   - link_checker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: equifax-data-analytics-intern-6be1cd
   company: Equifax
@@ -320,7 +320,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
   date_estimated: false
 - id: evolver-applied-data-science-intern-b3beed
@@ -450,7 +450,7 @@
   - github_tracker:sndsh404
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: castleton-commodities-international-data-engineering-intern-98e166
   company: Castleton Commodities International
@@ -461,14 +461,14 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   - github_tracker:vanshb03
   date_added: '2026-07-24'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: alixpartners-data-scientist-intern-124339
   company: AlixPartners
@@ -485,7 +485,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: wells-fargo-corporate-risk-development-program-intern-core-risk-early-careers-175e8a
   company: Wells Fargo
@@ -501,7 +501,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: susquehanna-international-group-sig-electricity-natural-gas-analyst-intern-fa588e
   company: Susquehanna International Group (SIG)
@@ -517,7 +517,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: marmon-holdings-data-engineering-intern-co-op-9401f4
   company: Marmon Holdings
@@ -534,7 +534,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-campus-undergraduate-summer-internship-strategy-analytics-credit-fraud-risk-497517
   company: American Express
@@ -553,7 +553,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-undergraduate-intern-strategy-analytics-092d7e
   company: American Express
@@ -571,7 +571,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: uline-financial-data-analyst-intern-a601f2
   company: Uline
@@ -591,7 +591,7 @@
   - github_tracker:chieler
   - company:uline
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: tiktok-data-science-intern-integrity-and-safety-9cc0c4
   company: TikTok
@@ -610,7 +610,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: tiktok-data-science-intern-tiktok-live-b6f743
   company: TikTok
@@ -629,7 +629,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: tiktok-data-science-intern-tiktok-product-437403
   company: TikTok
@@ -648,7 +648,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: tiktok-data-scientist-intern-vod-data-563d2d
   company: TikTok
@@ -667,7 +667,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: the-nuclear-company-data-science-intern-ede193
   company: The Nuclear Company
@@ -686,7 +686,7 @@
   - github_tracker:zshah101
   - company:the-nuclear-company
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-data-platform-analytics-intern-opportunities-for-university-students-redmond-ef32c1
   company: Microsoft
@@ -706,7 +706,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: boeing-data-analytics-intern-bdaa98
   company: Boeing
@@ -728,7 +728,7 @@
   - company:boeing
   - company:the-boeing-company
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: cloudflare-marketing-programs-and-analytics-inte-a85654
   company: Cloudflare
@@ -763,7 +763,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: calstart-zero-emission-data-research-intern-d18720
   company: CALSTART
@@ -780,7 +780,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: louisiana-blue-data-modeler-intern-55f88d
   company: Louisiana Blue
@@ -831,7 +831,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-09'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: bytedance-data-lake-infrastructure-and-data-analytics-research-engineer-intern-applied-machine-learning-ark-9d250a
   company: ByteDance
@@ -852,7 +852,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: sargent-lundy-ai-automation-intern-enterprise-data-analytics-63cf00
   company: Sargent & Lundy
@@ -870,7 +870,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: citadel-sector-data-scientist-intern-b05c18
   company: Citadel
@@ -888,7 +888,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: northwestern-mutual-analytics-internship-21aebb
   company: Northwestern Mutual
@@ -904,7 +904,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: bytedance-data-lake-infrastructure-data-analytics-research-engineer-intern-applied-machine-learning-ark-5530fd
   company: ByteDance
@@ -925,7 +925,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: motorola-supply-chain-data-analyst-intern-08134d
   company: Motorola
@@ -944,7 +944,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: lucid-motors-data-analyst-intern-9728d5
   company: Lucid Motors
@@ -978,7 +978,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: vertiv-sales-data-analytics-intern-summer-2027-e4b53b
   company: Vertiv
@@ -996,7 +996,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: vertiv-sales-data-analytics-intern-7efcc6
   company: Vertiv
@@ -1013,7 +1013,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: the-nuclear-company-data-science-machine-learning-fellow-intern-302ab5
   company: The Nuclear Company
@@ -1035,7 +1035,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: wec-energy-group-renewables-data-analytics-intern-26aaae
   company: WEC Energy Group
@@ -1053,7 +1053,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: vertiv-planning-analytics-intern-summer-2027-a17f00
   company: Vertiv
@@ -1071,7 +1071,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: guidewell-mutual-enterprise-analytics-intern-5a593a
   company: GuideWell Mutual
@@ -1089,7 +1089,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: crowe-data-analytics-developer-intern-7677cf
   company: Crowe
@@ -1107,7 +1107,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: delta-dental-internship-knowledge-science-624873
   company: Delta Dental
@@ -1139,7 +1139,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: bluecross-blueshield-of-nebraska-data-intern-summer-2027-2d6f57
   company: BlueCross BlueShield of Nebraska
@@ -1158,7 +1158,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: caterpillar-2027-summer-intern-information-technology-e4c5c6
   company: Caterpillar
@@ -1191,7 +1191,7 @@
   - company:conagra-brands
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: continental-resources-geoscience-intern-summer-2027-f1ba85
   company: Continental Resources
@@ -1211,7 +1211,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: continental-resources-data-analyst-intern-summer-2027-afcb82
   company: Continental Resources
@@ -1232,7 +1232,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: draftkings-data-science-intern-referral-summer-2027-c41981
   company: DraftKings
@@ -1250,8 +1250,9 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: federal-reserve-system-internship-analyst-summer-2027-f55214
   company: Federal Reserve System
@@ -1271,7 +1272,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: federal-reserve-system-2027-summer-intern-statistics-sophomore-intern-bc1473
   company: Federal Reserve System
@@ -1290,7 +1291,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: federal-reserve-system-2027-summer-intern-research-group-junior-intern-ed2f11
   company: Federal Reserve System
@@ -1309,7 +1310,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: federal-reserve-system-2027-summer-intern-markets-group-new-york-graduate-intern-533125
   company: Federal Reserve System
@@ -1328,7 +1329,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: federal-reserve-system-2027-summer-intern-markets-group-new-york-innovation-center-graduate-intern-75b03b
   company: Federal Reserve System
@@ -1346,8 +1347,9 @@
   - company:federal-reserve-system
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: first-national-bank-summer-2027-corporate-analytics-intern-09727c
   company: First National Bank
@@ -1366,7 +1368,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: first-national-bank-summer-2027-retail-administration-analytics-intern-ac5659
   company: First National Bank
@@ -1385,7 +1387,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: huntington-bancshares-summer-2027-data-and-analytics-internship-926f75
   company: Huntington Bancshares
@@ -1405,7 +1407,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: ingredion-digital-innovation-intern-3d2640
   company: Ingredion
@@ -1423,8 +1425,9 @@
   - company:ingredion
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: johnson-johnson-data-science-co-op-summer-2027-1a8f7f
   company: Johnson & Johnson
@@ -1445,7 +1448,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: johnson-johnson-design-and-development-co-op-summer-2027-eacc24
   company: Johnson & Johnson
@@ -1464,7 +1467,7 @@
   - company:johnson-johnson
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: keybank-2027-summer-key-technology-services-data-track-internship-cleveland-81856a
   company: KeyBank
@@ -1483,7 +1486,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: kudu-dynamics-data-engineering-analytics-intern-056a17
   company: Kudu Dynamics
@@ -1503,7 +1506,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: mastercard-data-scientist-intern-summer-2027-st-louis-mo-us-260ff1
   company: Mastercard
@@ -1524,7 +1527,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: mastercard-data-scientist-intern-summer-2027-st-louis-mo-us-ec1f35
   company: Mastercard
@@ -1545,7 +1548,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: mastercard-data-scientist-intern-summer-2027-st-louis-mo-us-260ff1
 - id: medline-it-business-intelligence-development-analytics-intern-summer-2027-c3faad
   company: Medline
@@ -1564,7 +1567,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: northwood-space-supply-chain-data-analytics-intern-2027-summer-internship-94638b
   company: Northwood Space
@@ -1584,7 +1587,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: qts-summer-2027-internship-process-analytics-technology-delivery-team-c4b09a
   company: QTS
@@ -1621,7 +1624,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: verdantas-data-analytics-intern-summer-2027-f77306
   company: Verdantas
@@ -1640,7 +1643,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: whitewater-midstream-data-science-intern-summer-2027-ce742e
   company: WhiteWater Midstream
@@ -1661,7 +1664,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: deutsche-bank-technology-data-and-innovation-intern-technology-data-and-innovation-9d2d16
   company: Deutsche Bank
@@ -1680,7 +1683,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: wec-energy-group-energy-analytics-intern-a20cc0
   company: WEC Energy Group
@@ -1699,7 +1702,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: arthur-j-gallagher-co-data-analytics-intern-fae17d
   company: Arthur J. Gallagher & Co.
@@ -1717,7 +1720,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-data-analytics-intern-global-servicing-financial-crimes-risk-controls-a56632
   company: American Express
@@ -1735,7 +1738,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: regions-bank-technology-operations-digital-and-data-analytics-intern-06ee4b
   company: Regions Bank
@@ -1753,7 +1756,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: allegheny-county-business-analytics-intern-ffaf18
   company: Allegheny County
@@ -1771,7 +1774,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: fannie-mae-data-science-intern-analytics-modeling-program-5ea444
   company: Fannie Mae
@@ -1791,7 +1794,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: philips-data-scientist-co-op-7a0cc6
   company: Philips
@@ -1810,7 +1813,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: cno-financial-group-reporting-analyst-intern-0e66ec
   company: CNO Financial Group
@@ -1829,7 +1832,7 @@
   - company:cno-financial-group
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: auto-owners-insurance-predictive-modeler-intern-summer-2027-8a0937
   company: Auto-Owners Insurance
@@ -1848,7 +1851,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: amd-data-analyst-intern-co-op-481a6b
   company: AMD
@@ -1866,7 +1869,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: amd-data-analyst-intern-co-op-d7df0e
   company: AMD
@@ -1883,7 +1886,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: amd-data-analyst-intern-co-op-c24e24
   company: AMD
@@ -1899,7 +1902,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: amd-data-analyst-intern-co-op-d7df0e
 - id: amd-data-analyst-intern-co-op-b30b00
   company: AMD
@@ -1915,7 +1918,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: amd-data-analyst-intern-co-op-481a6b
 - id: blackstone-data-science-summer-analyst-381ed8
   company: Blackstone
@@ -1933,7 +1936,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: springs-window-fashions-dealer-business-operations-analytics-intern-summer-2027-04a05b
   company: Springs Window Fashions
@@ -1951,7 +1954,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: springs-window-fashions-data-analyst-intern-consumer-business-unit-98f484
   company: Springs Window Fashions
@@ -1969,7 +1972,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: bny-data-science-intern-engineering-f24428
   company: BNY
@@ -1989,7 +1992,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: bny-data-science-intern-engineering-5e1a50
   company: BNY
@@ -2009,7 +2012,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: bny-data-science-intern-engineering-7f7468
   company: BNY
@@ -2028,7 +2031,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: bny-data-science-intern-engineering-432893
   company: BNY
@@ -2048,7 +2051,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: polaris-predictive-data-science-intern-digital-it-24f93d
   company: Polaris
@@ -2068,7 +2071,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: freddie-mac-single-family-data-intern-e536e6
   company: Freddie Mac
@@ -2087,7 +2090,7 @@
   - company:freddie-mac
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: procter-gamble-data-scientist-intern-c4d371
   company: Procter & Gamble
@@ -2105,7 +2108,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: the-hartford-data-engineer-intern-technology-data-ai-and-operations-fa497f
   company: The Hartford
@@ -2125,7 +2128,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: cigna-group-legal-operations-financial-data-ai-analytics-intern-7594c0
   company: Cigna Group
@@ -2144,7 +2147,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: the-hartford-data-engineer-intern-technology-data-ai-and-operations-943a44
   company: The Hartford
@@ -2164,7 +2167,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: the-hartford-data-engineer-intern-technology-data-ai-and-operations-33add8
   company: The Hartford
@@ -2185,7 +2188,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: caci-software-developer-data-scientist-intern-summer-2027-eea435
   company: CACI
@@ -2204,7 +2207,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-university-7b0373
   company: Booz Allen
@@ -2223,7 +2226,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-university-6b4a70
   company: Booz Allen
@@ -2241,7 +2244,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: marsh-summer-analyst-data-and-analytics-f72e24
   company: Marsh
@@ -2259,7 +2262,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-university-summer-games-b465da
   company: Booz Allen
@@ -2278,7 +2281,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-summer-games-c62691
   company: Booz Allen
@@ -2297,7 +2300,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-summer-games-f62795
   company: Booz Allen
@@ -2315,7 +2318,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-university-878ff3
   company: Booz Allen
@@ -2333,7 +2336,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-university-50a823
   company: Booz Allen
@@ -2352,7 +2355,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: johnson-johnson-quality-data-science-co-op-md-q-c-digital-solutions-685e01
   company: Johnson & Johnson
@@ -2370,7 +2373,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: exelon-data-science-intern-data-science-analytics-180974
   company: Exelon
@@ -2389,7 +2392,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: state-farm-financial-operations-data-analytics-intern-adb570
   company: State Farm
@@ -2407,7 +2410,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: the-home-depot-data-science-intern-ccd465
   company: The Home Depot
@@ -2425,7 +2428,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: the-home-depot-data-science-analytics-intern-793bb5
   company: The Home Depot
@@ -2443,7 +2446,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: cardinal-health-data-and-analytics-intern-summer-2027-9140e0
   company: Cardinal Health
@@ -2462,7 +2465,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: compeer-financial-data-analytics-intern-a7379d
   company: Compeer Financial
@@ -2481,7 +2484,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: waymo-data-science-intern-commercialization-testing-9ab36f
   company: Waymo
@@ -2501,7 +2504,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: c3-ai-data-scientist-intern-summer-2027-2ca4d7
   company: C3.ai
@@ -2520,7 +2523,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: draftkings-analytics-intern-summer-2027-1e610d
   company: DraftKings
@@ -2538,7 +2541,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: draftkings-analytics-intern-summer-2027-39ec5d
   company: DraftKings
@@ -2554,7 +2557,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: draftkings-analytics-intern-summer-2027-1e610d
 - id: robert-bosch-venture-capital-calibration-process-data-science-intern-8-months-40-hours-per-week-85502e
   company: Robert Bosch Venture Capital
@@ -2573,7 +2576,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: regions-bank-human-resources-data-and-analytics-intern-373a80
   company: Regions Bank
@@ -2591,7 +2594,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: pricewaterhousecoopers-pwc-diligence-analytics-intern-deals-13be35
   company: PricewaterhouseCoopers (PwC)
@@ -2609,7 +2612,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: arch-capital-group-data-and-analytics-intern-8bbf3d
   company: Arch Capital Group
@@ -2628,7 +2631,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: pricewaterhousecoopers-pwc-deals-analytics-intern-dtds-062709
   company: PricewaterhouseCoopers (PwC)
@@ -2646,7 +2649,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: pricewaterhousecoopers-pwc-market-information-and-data-analytics-intern-multiple-teams-82334d
   company: PricewaterhouseCoopers (PwC)
@@ -2664,7 +2667,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: pricewaterhousecoopers-pwc-business-analytics-intern-mida-0780d1
   company: PricewaterhouseCoopers (PwC)
@@ -2682,7 +2685,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-data-analytics-intern-enterprise-technology-services-32933a
   company: American Express
@@ -2700,7 +2703,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: travelers-business-insights-analytics-intern-bi-a-ldp-96bc82
   company: Travelers
@@ -2720,7 +2723,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: trane-technologies-ai-analytics-intern-ae9f8e
   company: Trane Technologies
@@ -2738,7 +2741,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-data-analytics-intern-enterprise-technology-services-185172
   company: American Express
@@ -2755,7 +2758,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-data-analytics-intern-enterprise-technology-services-8832f4
   company: American Express
@@ -2772,7 +2775,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-data-analytics-intern-enterprise-technology-services-db4587
   company: American Express
@@ -2788,7 +2791,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-8832f4
 - id: american-express-data-analytics-intern-us-consumer-services-0c8ea2
   company: American Express
@@ -2806,7 +2809,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-data-analytics-intern-enterprise-technology-services-8a36fa
   company: American Express
@@ -2822,7 +2825,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-32933a
 - id: american-express-data-analytics-intern-enterprise-technology-services-64dd6e
   company: American Express
@@ -2839,7 +2842,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-data-management-intern-global-merchant-network-services-451e43
   company: American Express
@@ -2857,7 +2860,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-data-science-intern-finance-72fb85
   company: American Express
@@ -2876,7 +2879,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-data-analytics-intern-enterprise-technology-services-b99b5d
   company: American Express
@@ -2892,7 +2895,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-64dd6e
 - id: american-express-data-analytics-intern-enterprise-technology-services-731168
   company: American Express
@@ -2908,7 +2911,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-185172
 - id: american-express-data-science-intern-finance-24a6a0
   company: American Express
@@ -2926,7 +2929,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: american-express-data-science-intern-finance-72fb85
 - id: edison-international-data-analytics-intern-data-science-applied-math-130d62
   company: Edison International
@@ -2945,7 +2948,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: edison-international-summer-internship-data-analytics-science-applied-math-738b5b
   company: Edison International
@@ -2963,7 +2966,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: edison-international-data-analytics-intern-data-science-applied-math-1f4c5a
   company: Edison International
@@ -2982,7 +2985,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: iat-insurance-group-data-integration-intern-8ab01a
   company: IAT Insurance Group
@@ -3000,7 +3003,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: american-express-data-science-intern-global-decision-science-credit-fraud-risk-c051e7
   company: American Express
@@ -3019,7 +3022,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: first-national-bank-data-science-intern-f6d26c
   company: First National Bank
@@ -3038,7 +3041,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-university-summer-games-e48217
   company: Booz Allen
@@ -3054,8 +3057,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-24ca40
   company: Booz Allen
@@ -3072,8 +3076,9 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-university-6f9fc1
   company: Booz Allen
@@ -3091,7 +3096,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: booz-allen-data-scientist-intern-2027-summer-games-94a2ee
   company: Booz Allen
@@ -3109,7 +3114,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: western-southern-financial-group-data-engineering-and-analytics-intern-summer-2027-28e797
   company: Western & Southern Financial Group
@@ -3125,8 +3130,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: draftkings-data-science-intern-summer-2027-566002
   company: DraftKings
@@ -3138,13 +3144,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: western-southern-financial-group-digital-analytics-intern-spring-or-summer-2027-a31766
   company: Western & Southern Financial Group
@@ -3160,8 +3166,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: post-holdings-data-science-intern-summer-2027-6a4d66
   company: Post Holdings
@@ -3178,8 +3185,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: perpay-analytics-intern-751d22
   company: Perpay
@@ -3196,8 +3204,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: united-airlines-air-traffic-strategy-data-analytics-intern-summer-2027-6bef61
   company: United Airlines
@@ -3213,8 +3222,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: john-deere-data-analytics-intern-7db9f8
   company: John Deere
@@ -3232,8 +3242,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: twg-global-data-science-intern-maqr-943db6
   company: TWG Global
@@ -3250,8 +3261,9 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - company:twg-global
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: twg-global-data-science-intern-solt-3fccf4
   company: TWG Global
@@ -3269,8 +3281,9 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - company:twg-global
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: united-parcel-service-finance-analytics-intern-global-finance-61d3c2
   company: United Parcel Service
@@ -3286,8 +3299,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: northern-trust-technology-intern-data-science-and-analytics-1b0f1a
   company: Northern Trust
@@ -3304,8 +3318,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: textron-data-product-analytics-intern-a3e10e
   company: Textron
@@ -3321,8 +3336,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: boston-scientific-research-data-science-intern-active-implantable-systems-9afd62
   company: Boston Scientific
@@ -3338,8 +3354,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: boston-scientific-research-algorithm-data-science-intern-interns-graduates-73e97c
   company: Boston Scientific
@@ -3355,8 +3372,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: auto-owners-insurance-intern-analytics-web-systems-developer-331d35
   company: Auto-Owners Insurance
@@ -3373,7 +3391,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: bosch-group-calibration-process-data-science-inte-d24461
   company: Bosch Group
@@ -3389,7 +3407,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: integra-fec-summer-data-scientist-intern-phd-7c538e
   company: Integra FEC
@@ -3405,7 +3423,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: integra-fec-summer-data-analyst-intern-1205f3
   company: Integra FEC
@@ -3421,7 +3439,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: leidos-data-science-intern-ec1d6a
   company: Leidos
@@ -3438,7 +3456,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: micron-technology-intern-marketing-analytics-bee09a
   company: Micron Technology
@@ -3454,7 +3472,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: brunswick-global-supply-chain-analytics-insig-8d5694
   company: Brunswick
@@ -3470,7 +3488,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: brunswick-mercury-marine-power-bi-ops-analytic-801326
   company: Brunswick
@@ -3486,7 +3504,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: audax-group-data-analytics-co-op-3a6fb3
   company: Audax Group
@@ -3502,7 +3520,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: vanguard-college-to-corporate-it-internship-data-analyst-nc-5a5516
   company: Vanguard
@@ -3520,7 +3538,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: vanguard-college-to-corporate-it-internship-data-science-nc-d17e9e
   company: Vanguard
@@ -3538,7 +3556,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: vanguard-college-to-corporate-it-internship-data-science-pa-a80de0
   company: Vanguard
@@ -3556,7 +3574,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: auto-owners-business-intelligence-developer-internship-summer-2027-db3c9f
   company: Auto-Owners
@@ -3573,8 +3591,9 @@
   sources:
   - company:auto-owners
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: workiva-spring-summer-intern-sales-analytics-69453d
   company: Workiva
@@ -3591,7 +3610,7 @@
   - company:workiva
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: stryker-summer-2027-internship-statistical-programming-california-1f320d
   company: Stryker
@@ -3609,7 +3628,7 @@
   - company:stryker
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: bp-trading-origination-analytics-and-operations-intern-supply-trading-shipping-trading-origination-analytics-operations-eef6fa
   company: BP
@@ -3628,7 +3647,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: first-national-bank-summer-2027-data-management-intern-f15dd2
   company: First National Bank
@@ -3646,8 +3665,9 @@
   - company:first-national-bank
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: ryan-companies-business-intelligence-intern-mission-critical-dd587b
   company: Ryan Companies
@@ -3666,7 +3686,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: iberdrola-group-technology-cyber-data-intern-f3db07
   company: Iberdrola Group
@@ -3685,7 +3705,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: post-holdings-business-intelligence-intern-summer-2027-1c8990
   company: Post Holdings
@@ -3701,6 +3721,41 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: allied-solutions-data-science-intern-948164
+  company: Allied Solutions
+  role: Data Science Intern
+  location: Carmel, IN
+  link: https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/Data-Science-Intern_R-011077
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: mastercard-data-scientist-intern-summer-2027-st-louis-mo-us-fa2015
+  company: Mastercard
+  role: Data Scientist Intern, Summer 2027 – St. Louis, MO, US
+  location: O'Fallon, MO
+  link: https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
