@@ -1265,7 +1265,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:federal-reserve-system
   - github_tracker:simplifyjobs
@@ -1303,7 +1303,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:federal-reserve-system
   - github_tracker:simplifyjobs
@@ -1322,7 +1322,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:federal-reserve-system
   - github_tracker:simplifyjobs
@@ -1342,7 +1342,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:federal-reserve-system
   - github_tracker:simplifyjobs
@@ -1498,7 +1498,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:kudu-dynamics
   - github_tracker:simplifyjobs
@@ -2257,7 +2257,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -2404,7 +2404,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -2679,7 +2679,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -2735,7 +2735,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -2960,7 +2960,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3218,7 +3218,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3350,7 +3350,7 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3592,6 +3592,8 @@
   - company:auto-owners
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -3623,10 +3625,12 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:stryker
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -3641,7 +3645,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3699,7 +3703,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3739,6 +3743,8 @@
   sources:
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -3756,6 +3762,262 @@
   sources:
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: baird-capital-markets-compliance-data-analytics-intern-f3be02
+  company: Baird
+  role: Capital Markets Compliance Data & Analytics Intern
+  location: Milwaukee, WI
+  link: https://baird.wd1.myworkdayjobs.com/careers/job/WI-Milwaukee/Internship---Capital-Markets-Compliance-Data---Analytics--Year-Round-_R2026962-2
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: united-airlines-operations-data-analytics-intern-summer-2027-b445a4
+  company: United Airlines
+  role: Operations Data & Analytics Intern - Summer 2027
+  location: Chicago, IL
+  link: https://careers.united.com/us/en/job/WHQ00026620
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: nisource-people-analytics-intern-9007c6
+  company: NiSource
+  role: People Analytics Intern
+  location: Columbus, OH
+  link: https://nisource.wd1.myworkdayjobs.com/NiSource/job/Columbus-OH---Arena-District/Intern-People-Analytics_R00943381
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: cigna-group-analytics-leadership-development-intern-aldp-413053
+  company: Cigna Group
+  role: Analytics Leadership Development Intern - ALDP
+  location: Bloomfield, CT
+  link: https://cigna.wd5.myworkdayjobs.com/cignacareers/job/CT-Bloomfield-900-Cottage-Grove-Rd-Wilde-Bldg/Analytics-Leadership-Development-Program--ALDP--Summer-Internship_26010711
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: shure-web-analytics-intern-70e708
+  company: Shure
+  role: Web Analytics Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/5027/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: mckesson-data-analyst-intern-2d3f0d
+  company: McKesson
+  role: Data Analyst Intern
+  location: Columbus, OH
+  link: https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-OH-Columbus/Data-Analyst-Intern---Summer-2027_JR0150844
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: xcel-energy-gas-electric-design-analytics-and-process-improvement-intern-mn-4cdec2
+  company: Xcel Energy
+  role: Gas & Electric Design Analytics and Process Improvement Intern - MN
+  location: Minneapolis, MN
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55418/Gas---Electric-Design-Analytics-and-Process-Improvement-Intern---MN_JR115641
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: hd-supply-artificial-intelligence-and-data-science-intern-artificial-intelligence-data-science-114c80
+  company: HD Supply
+  role: Artificial Intelligence and Data Science Intern - Artificial Intelligence
+    & Data Science
+  location: Atlanta, GA
+  link: https://hdsupply.wd1.myworkdayjobs.com/External/job/Atlanta-GA-US/Graduate-Intern--Artificial-Intelligence---Data-Science---Summer-2027_R26004952
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: fannie-mae-finance-analytics-intern-analytics-modeling-program-7cc97a
+  company: Fannie Mae
+  role: Finance Analytics Intern - Analytics & Modeling Program
+  location: Washington, DC
+  link: https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Washington-DC/Campus---Finance-Analytics-Intern--Analytics---Modeling-Program-_JR2814
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: vermeer-data-analytics-intern-21e1a3
+  company: Vermeer
+  role: Data Analytics Intern
+  location: Pella, IA
+  link: https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/Data-Analytics-Internship-Summer-2027_REQ-22164
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: clorox-sales-analyst-intern-customer-analytics-189f59
+  company: Clorox
+  role: Sales Analyst Intern - Customer Analytics
+  location: Mason, OH
+  link: https://clorox.wd1.myworkdayjobs.com/InviteClorox/job/Mason-OH---USA/Sales---Customer-Analytics-Intern-Summer-2027_JR23359
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: vertiv-business-analytics-intern-summer-2027-4f1d79
+  company: Vertiv
+  role: Business Analytics Intern - Summer 2027
+  location: Westerville, OH
+  link: https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278794
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: united-airlines-operations-strategy-analytics-intern-summer-2027-24f96a
+  company: United Airlines
+  role: Operations Strategy & Analytics Intern - Summer 2027
+  location: Chicago, IL
+  link: https://careers.united.com/us/en/job/WHQ00026619
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: united-airlines-tech-ops-analytics-business-intelligence-intern-summer-2027-730581
+  company: United Airlines
+  role: Tech Ops Analytics & Business Intelligence Intern - Summer 2027
+  location: Chicago, IL
+  link: https://careers.united.com/us/en/job/WHQ00026447
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: jabil-supply-chain-data-analyst-intern-1180ca
+  company: Jabil
+  role: Supply Chain Data Analyst Intern
+  location: St. Petersburg/Tampa, FL
+  link: https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Supply-Chain-Data-Analyst-Intern_J2462080
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null

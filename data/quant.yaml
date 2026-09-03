@@ -682,7 +682,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
@@ -760,7 +760,7 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:northwesternfintech
@@ -2750,7 +2750,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
@@ -3751,7 +3751,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:infinitequant
   - github_tracker:zshah101
@@ -3913,7 +3913,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3933,7 +3933,7 @@
   degree:
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4023,7 +4023,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4272,3 +4272,144 @@
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
+- id: garda-capital-partners-trading-analyst-intern-rates-602f31
+  company: Garda Capital Partners
+  role: Trading Analyst Intern - Rates
+  location: New York, NY
+  link: https://job-boards.greenhouse.io/gardacp/jobs/4934006004
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: royal-bank-of-canada-quantitative-analyst-summer-associate-quantitative-technology-services-4df270
+  company: Royal Bank of Canada
+  role: Quantitative Analyst Summer Associate - Quantitative Technology Services
+  location: New York, NY
+  link: https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/New-York-New-York-United-States-of-America/XMLNAME-2027-Capital-Markets--Quants-Summer-Associate--Quantitative-Technology-Services_R-0000186729-1
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: deutsche-bank-quant-intern-strategic-analytics-8b9e7b
+  company: Deutsche Bank
+  role: Quant Intern - Strategic Analytics
+  location: New York, NY
+  link: https://db.recsolu.com/external/requisitions/o6Cp44Ol7NVnH0MbcO81eA
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: deutsche-bank-quantitative-trading-intern-fixed-income-currencies-2d40b8
+  company: Deutsche Bank
+  role: Quantitative Trading Intern - Fixed Income & Currencies
+  location: New York, NY
+  link: https://db.recsolu.com/external/requisitions/gtKeu9-kQinTxakrqIWSRg
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: garda-capital-partners-trading-analyst-intern-credit-3ff399
+  company: Garda Capital Partners
+  role: Trading Analyst Intern - Credit
+  location: New York, NY
+  link: https://job-boards.greenhouse.io/gardacp/jobs/6163540004
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: garda-capital-partners-trading-analyst-intern-mortgages-4b8dc3
+  company: Garda Capital Partners
+  role: Trading Analyst Intern - Mortgages
+  location: New York, NY
+  link: https://job-boards.greenhouse.io/gardacp/jobs/6179468004
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: dtcc-model-risk-management-intern-2027-internship-program-956b4a
+  company: DTCC
+  role: Model Risk Management Intern - 2027 Internship Program
+  location: Jersey City, NJ
+  link: https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214401
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: infinitequant-quantitative-developer-internship-summer-2027-42a468
+  company: InfiniteQuant
+  role: Quantitative Developer - Internship - Summer 2027
+  location: Remote (US)
+  link: https://jobs.smartrecruiters.com/InfiniteQuant/744000147163879
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: infinitequant-quantitative-developer-internship-summer-2027-606c92

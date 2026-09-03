@@ -4425,6 +4425,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   - github_tracker:vanshb03
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -7391,7 +7392,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:anheuser-busch
   - github_tracker:simplifyjobs
@@ -7480,7 +7481,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:blue-origin
   - github_tracker:simplifyjobs
@@ -8108,7 +8109,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:hermeus
   - github_tracker:simplifyjobs
@@ -8129,7 +8130,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:hermeus
   - github_tracker:zshah101
@@ -8240,7 +8241,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:hitachi
   - github_tracker:simplifyjobs
@@ -8667,11 +8668,12 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:lawrence-livermore-national-laboratory-llnl
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: lawrence-livermore-national-laboratory-llnl-computational-engineering-division-graduate-intern-summer-2027-98ed6e
   company: Lawrence Livermore National Laboratory (LLNL)
@@ -8820,7 +8822,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:medline
   - github_tracker:simplifyjobs
@@ -8970,7 +8972,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:michelin
   - github_tracker:simplifyjobs
@@ -9701,7 +9703,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:poet
   - github_tracker:simplifyjobs
@@ -9827,7 +9829,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:rtx
   - github_tracker:simplifyjobs
@@ -9846,7 +9848,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:rtx
   - github_tracker:simplifyjobs
@@ -9864,7 +9866,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:rtx
   - github_tracker:simplifyjobs
@@ -9899,7 +9901,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:rtx
   - github_tracker:simplifyjobs
@@ -9972,7 +9974,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:rtx
   - github_tracker:simplifyjobs
@@ -11143,7 +11145,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11477,7 +11479,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11572,7 +11574,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11608,7 +11610,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11665,7 +11667,7 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11860,7 +11862,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11878,7 +11880,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
@@ -11998,7 +12000,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12076,7 +12078,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
@@ -12195,7 +12197,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12213,7 +12215,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12248,7 +12250,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12266,7 +12268,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12305,7 +12307,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12431,7 +12433,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12449,7 +12451,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12468,7 +12470,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12751,7 +12753,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - company:hntb
@@ -12862,7 +12864,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12901,7 +12903,7 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12938,7 +12940,7 @@
   term: Summer 2027
   degree:
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -13035,7 +13037,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -13262,7 +13264,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -13507,7 +13509,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
@@ -13611,7 +13613,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
   - github_tracker:simplifyjobs
@@ -15157,7 +15159,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -15210,7 +15212,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -15248,7 +15250,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -15266,7 +15268,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -15412,7 +15414,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -15523,7 +15525,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -15578,7 +15580,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
@@ -15594,7 +15596,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -15738,7 +15740,7 @@
   term: Summer 2027
   degree:
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -15827,7 +15829,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -16032,7 +16034,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -16083,9 +16085,11 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -16102,6 +16106,8 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -16408,6 +16414,8 @@
   sources:
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null
@@ -16424,6 +16432,490 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: booz-allen-systems-engineer-intern-summer-games-557c9c
+  company: Booz Allen
+  role: Systems Engineer Intern - Summer Games
+  location: Fort Walton Beach, FL
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Systems-Engineer-Intern---Ft-Walton-Beach--FL_R0248388
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: booz-allen-systems-engineer-intern-university-2027-summer-games-26b802
+  company: Booz Allen
+  role: Systems Engineer Intern - University - 2027 Summer Games
+  location: Annapolis Junction, MD
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: rtx-methods-intern-hot-section-engineering-6108df
+  company: RTX
+  role: Methods Intern - Hot Section Engineering
+  location: East Hartford, CT
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Methods-Intern---Hot-Section-Engineering--Summer-2027---Onsite-_01870611
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: rtx-methods-intern-hot-section-engineering-6c1cd2
+- id: rtx-software-engineer-intern-1f1222
+  company: RTX
+  role: Software Engineer Intern
+  location: Annapolis, MD
+  link: https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-904--2551-Riva-Rd--BLDG-904/Software-Engineering-Intern--Summer-2027-_01870699
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: rtx-software-engineer-intern-f010e9
+- id: shure-application-software-engineer-intern-c338c3
+  company: Shure
+  role: Application Software Engineer Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/4955/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: shure-application-systems-development-intern-motive-mix-2400b9
+  company: Shure
+  role: Application Systems Development Intern - Motive Mix
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/5021/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: shure-cloud-software-engineer-intern-97bbb1
+  company: Shure
+  role: Cloud Software Engineer Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/4976/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: shure-mobile-applications-intern-android-dfd1c2
+  company: Shure
+  role: Mobile Applications Intern - Android
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/5006/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: shure-cloud-applications-development-intern-991d44
+  company: Shure
+  role: Cloud Applications Development Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/4965/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: shure-application-software-development-intern-483c87
+  company: Shure
+  role: Application Software Development Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/5020/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: shure-software-engineer-intern-a6dd21
+  company: Shure
+  role: Software Engineer Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/4996/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: shure-mobile-applications-intern-ios-7f25ff
+  company: Shure
+  role: Mobile Applications Intern - iOS
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/5007/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: shure-automated-test-software-engineering-intern-220d35
+  company: Shure
+  role: Automated Test Software Engineering Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/4964/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: mckesson-software-engineer-intern-1909bf
+  company: McKesson
+  role: Software Engineer Intern
+  location: Irving, TX
+  link: https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-GA-Atlanta/Software-Engineer-Intern---Summer-2027_JR0153235
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: mckesson-software-development-intern-summer-2027-d75826
+  company: McKesson
+  role: Software Development Intern - Summer 2027
+  location: Irving, TX
+  link: https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-TX-Irving/Software-Development-Intern---Summer-2027_JR0152635
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: mckesson-software-engineer-intern-8d7863
+  company: McKesson
+  role: Software Engineer Intern
+  location: Longmont, CO
+  link: https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152742
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: mckesson-software-engineer-intern-1048fa
+  company: McKesson
+  role: Software Engineer Intern
+  location: Longmont, CO
+  link: https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152469
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: mckesson-software-engineer-intern-8d7863
+- id: intel-software-engineer-intern-1e2332
+  company: Intel
+  role: Software Engineer Intern
+  location: Austin, TX
+  link: https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: intel-software-engineer-intern-a08c4f
+  company: Intel
+  role: Software Engineer Intern
+  location: Austin, TX
+  link: https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Bachelor-s_JR0286834
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: shure-unified-communications-technology-intern-242032
+  company: Shure
+  role: Unified Communications Technology Intern
+  location: Skokie, IL
+  link: https://careersus-shure.icims.com/jobs/5002/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: northrop-grumman-software-engineer-intern-eca941
+  company: Northrop Grumman
+  role: Software Engineer Intern
+  location: Linthicum Heights, MD
+  link: https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: hermeus-software-engineer-intern-command-control-afb1de
+  company: Hermeus
+  role: Software Engineer Intern - Command & Control
+  location: Atlanta, GA
+  link: https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796/apply
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: kinder-morgan-intern-it-5d0583
+  company: Kinder Morgan
+  role: Intern - IT
+  location: Colorado Springs, CO
+  link: https://careers.kindermorgan.com/jobs/6171?icims=1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: national-information-solutions-cooperative-software-development-intern-4394e3
+  company: National Information Solutions Cooperative
+  role: Software Development Intern
+  location: Lake St Louis, MO
+  link: https://job-boards.greenhouse.io/testnisc/jobs/8174090
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: national-information-solutions-cooperative-software-development-intern-378639
+  company: National Information Solutions Cooperative
+  role: Software Development Intern
+  location: Lake St Louis, MO
+  link: https://job-boards.greenhouse.io/testnisc/jobs/8174088
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: national-information-solutions-cooperative-software-development-intern-4394e3
+- id: national-information-solutions-cooperative-software-development-intern-9f6e5d
+  company: National Information Solutions Cooperative
+  role: Software Development Intern
+  location: Lake St Louis, MO
+  link: https://job-boards.greenhouse.io/nisc/jobs/8092699
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: national-information-solutions-cooperative-software-development-intern-4394e3
+- id: national-information-solutions-cooperative-software-development-intern-527821
+  company: National Information Solutions Cooperative
+  role: Software Development Intern
+  location: Mandan, ND
+  link: https://job-boards.greenhouse.io/testnisc/jobs/8174096
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null
+- id: rtx-software-engineer-co-op-summer-fall-2027-73e325
+  company: RTX
+  role: Software Engineer Co-op - Summer/Fall 2027
+  location: Cedar Rapids, IA
+  link: https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
   last_verified: '2026-09-03'
   possible_duplicate_of: null

@@ -183,3 +183,20 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
+- id: western-southern-financial-group-actuarial-intern-summer-2027-97f0f0
+  company: Western & Southern Financial Group
+  role: Actuarial Intern - Summer 2027
+  location: Cincinnati, OH
+  link: https://careers-westernsouthern.icims.com/jobs/25106/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-03'
+  possible_duplicate_of: null

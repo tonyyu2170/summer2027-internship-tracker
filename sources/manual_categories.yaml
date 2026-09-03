@@ -1168,3 +1168,33 @@ https://www.careers.zurich.com/job/Toronto-IT-Data-Governance-Intern-ON/13709983
 : __drop__
 ? https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Torrance-CA/Actuation-Engineer-Intern--Fall-2026-_R-26-19755
 : __drop__
+# Added by the scheduled cloud scrape, 2026-09-03.
+? https://abb.wd3.myworkdayjobs.com/external_career_page/job/Fort-Smith-Arkansas-United-States-of-America/Sales-Digital-Tools---Technology-Intern--Summer-2027_JR00045318
+: __drop__
+? https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Illinois---Champaign/Research-Park-Intern---Student-Researcher_31128619
+: __drop__
+? https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---Boise/Data-Management---Reporting-Intern_R12057
+: data_science
+? https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/General-Management-Corporate-Internship---Summer-2027_R1025480
+: __drop__
+? https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Group-School-Sales-Corporate-Internship_R1030436
+: __drop__
+https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Enterprise-Intelligence-Intern_R26_0000029138: data_science
+https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007497: __drop__
+https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Technical-Sales---Intern--Bachelor-s_JR0286835: __drop__
+https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Technical-Sales---Intern--Graduate_JR0286831: __drop__
+https://job-boards.greenhouse.io/generalmatter/jobs/5377122008: __drop__
+https://jobs.ashbyhq.com/simple-ai/134f24dc-d97b-480e-84b9-e2cd4d92a59b: __drop__
+? https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Enterprise-Reporting---Analytics---Data-Science_R9807-1
+: data_science
+https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Healthcare-Marketing_R9733: __drop__
+? https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Strategic-Project-Continuous-Improvement_R9787
+: __drop__
+? https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Data-Advisory-Analyst--Hybrid--Onsite---Remote-_R282115
+: data_science
+https://www.zipline.com/open-roles/7982302003?gh_jid=7982302003: __drop__
+https://www.zipline.com/open-roles/7982502003?gh_jid=7982502003: __drop__
+https://www.zipline.com/open-roles/7985004003?gh_jid=7985004003: __drop__
+# Dropped by the scheduled cloud scrape, 2026-09-03 (off-scope roles).
+https://careers-springswindowfashions.icims.com/jobs/12896/job?mobile=true&needsRedirect=false: __drop__
+https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Enterprise-Operations-Intern_2026-01839: __drop__
