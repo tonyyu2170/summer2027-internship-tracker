@@ -2625,7 +2625,7 @@
   - company:general-motors
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-03'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: hermeus-structures-mechanical-engineering-intern-spring-summer-2027-546d43
   company: Hermeus
@@ -4517,7 +4517,7 @@
   - company:general-matter
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-03'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: rtx-mechanical-engineering-intern-summer-2027-0718a9
   company: RTX
@@ -4757,7 +4757,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -5400,7 +5400,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -5437,10 +5437,11 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -5476,6 +5477,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -5508,6 +5510,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -5524,6 +5527,10 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -5604,6 +5611,8 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -5612,6 +5621,110 @@
   role: Intern - Memory & System Architecture...
   location: Folsom, CA
   link: https://micron.wd1.myworkdayjobs.com/external/job/Folsom-CA/Intern---Memory---System-Architecture-Research_JR110475
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: rtx-electrical-engineer-intern-summer-2027-852d61
+  company: RTX
+  role: Electrical Engineer Intern - Summer 2027
+  location: Cedar Rapids, IA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Electrical-Engineer-Intern--Summer-2027-_01864998
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: tesla-embedded-software-engineer-intern-optimus-d44416
+  company: Tesla
+  role: Embedded Software Engineer Intern - Optimus
+  location: Palo Alto, CA
+  link: https://www.tesla.com/careers/search/job/282340
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: entergy-engineering-intern-755ae2
+  company: Entergy
+  role: Engineering Intern
+  location: New Orleans, LA
+  link: https://jobs.entergy.com/job/New-Orleans-Student,-Intern-Engineering-Summer-2027-Loui/1426672400/?ats=successfactors
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: ge-vernova-hardware-engineer-co-op-critical-infrastructure-communications-da47ea
+  company: GE Vernova
+  role: Hardware Engineer Co-op - Critical Infrastructure Communications
+  location: Rochester, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Grid-Solutions---Hardware-Engineering-Co-op--Critical-Infrastructure-Communications----Summar-Fall-2027_R5051649-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: ge-vernova-hardware-engineer-intern-critical-infrastructure-communications-ec00aa
+  company: GE Vernova
+  role: Hardware Engineer Intern - Critical Infrastructure Communications
+  location: Rochester, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Grid-Solutions---Hardware-Engineering-Intern--Critical-Infrastructure-Communications----Spring-Summer-2027_R5051647-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: taara-coherent-optical-systems-internship-82ea5d
+  company: Taara
+  role: Coherent Optical Systems Internship
+  location: Sunnyvale, CA
+  link: https://jobs.ashbyhq.com/taaraconnect/06d29a2a-9913-4c52-b1ba-9236ca086acb
   date_posted: '2026-09-04'
   date_estimated: false
   term: Summer 2027

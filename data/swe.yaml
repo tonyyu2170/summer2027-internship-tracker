@@ -4242,7 +4242,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4261,7 +4261,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -5660,7 +5660,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -6097,7 +6097,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6928,8 +6928,10 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-08-15'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: applied-materials-2026-2027-process-engineer-co-op-do-b05746
   company: Applied Materials
@@ -10831,7 +10833,7 @@
   degree:
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -10850,7 +10852,7 @@
   degree:
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -13742,6 +13744,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -14942,7 +14945,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -16499,7 +16502,7 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:chieler
@@ -17041,6 +17044,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17057,6 +17061,8 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17073,6 +17079,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17089,6 +17096,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17105,6 +17113,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17137,6 +17146,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17169,6 +17179,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17201,6 +17212,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17233,6 +17245,8 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17281,6 +17295,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17297,6 +17312,7 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17313,6 +17329,7 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17329,6 +17346,8 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17345,6 +17364,9 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17361,6 +17383,8 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17377,6 +17401,8 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17393,6 +17419,8 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17409,6 +17437,383 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: motorola-android-platform-software-engineer-intern-summer-2027-2ef3f3
+  company: Motorola
+  role: Android Platform Software Engineer Intern - Summer 2027
+  location: Schaumburg, IL
+  link: https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: saab-software-engineer-co-op-3cb0f7
+  company: Saab
+  role: Software Engineer Co-op
+  location: East Syracuse, NY
+  link: https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: adobe-software-engineer-intern-8bbf34
+  company: Adobe
+  role: Software Engineer Intern
+  location: Seattle, WA
+  link: https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: skyward-software-engineer-intern-492f8b
+  company: Skyward
+  role: Software Engineer Intern
+  location: Stevens Point, WI
+  link: https://jobs.smartrecruiters.com/Skyward1/744000147320799
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: waymo-software-engineering-intern-behavior-test-ms-1dd5e2
+  company: Waymo
+  role: Software Engineering Intern - Behavior Test - MS
+  location: San Francisco, CA
+  link: https://careers.withwaymo.com/jobs?gh_jid=8174504
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: waymo-intern-f4b91c
+  company: Waymo
+  role: Intern
+  location: Mountain View, CA
+  link: https://careers.withwaymo.com/jobs?gh_jid=8174099
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: innovative-systems-software-engineer-intern-co-op-d98a90
+  company: Innovative Systems
+  role: Software Engineer Intern/Co-op
+  location: Pittsburgh, PA
+  link: http://innovativesystems.applytojob.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: amazon-software-development-engineer-intern-robotics-4a90b7
+  company: Amazon
+  role: Software Development Engineer Intern - Robotics
+  location: Seattle, WA
+  link: https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: ge-vernova-software-engineer-co-op-critical-infrastructure-communication-4d3bc7
+  company: GE Vernova
+  role: Software Engineer Co-op - Critical Infrastructure Communication
+  location: Rochester, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Software-Engineering---Co-op---Spring-Summer-2027_R5051780-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: ge-vernova-cic-systems-engineer-co-op-712c68
+  company: GE Vernova
+  role: CIC Systems Engineer Co-op
+  location: Rochester, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-CIC-Systems-Engineer-Co-op---Spring---Summer-2027_R5051807-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: ge-vernova-cic-systems-engineer-co-op-8e9582
+  company: GE Vernova
+  role: CIC Systems Engineer Co-op
+  location: Rochester, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-CIC-Systems-Engineer-Co-op---Summer-Fall-2027_R5051597-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: ge-vernova-software-engineering-co-op-critical-infrastructure-communication-engineering-0dad1d
+  company: GE Vernova
+  role: Software Engineering Co-op - Critical Infrastructure Communication Engineering
+  location: Rochester, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Software-Engineering---Co-op--Summer---Fall_R5051794-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: drivetime-software-engineer-intern-summer-2027-7c0fdc
+  company: DriveTime
+  role: Software Engineer Intern - Summer 2027
+  location: Tempe, AZ
+  link: https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: rsm-application-development-intern-summer-2027-9184b4
+  company: RSM
+  role: Application Development Intern - Summer 2027
+  location: Des Moines, IA
+  link: https://rsm.wd1.myworkdayjobs.com/RSMCareers/job/Des-Moines/Application-Development-Intern---Summer-2027_JR120736
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: primer-software-engineer-intern-full-stack-d7096f
+  company: Primer
+  role: Software Engineer Intern - Full Stack
+  location: San Francisco, CA
+  link: https://jobs.ashbyhq.com/primer/edd1667b-6323-444a-adc1-40bae5b9a3b0/application?embed=true
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: aqr-capital-management-engineering-summer-analyst-intern-353750
+  company: AQR Capital Management
+  role: Engineering Summer Analyst Intern
+  location: Greenwich, CT
+  link: https://careers.aqr.com/jobs?gh_jid=7926647&gh_jid=7926647
+  date_posted: '2026-05-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: corning-digital-and-information-technology-intern-analyst-1e6eba
+  company: Corning
+  role: Digital and Information Technology Intern - Analyst
+  location: Concord, NC
+  link: https://corningjobs.corning.com/job/Concord-Digital-&-IT-Intern,-Analyst,-Concord-Manufacturing-Summer-2027-NC-28026/1425549000/?ats=successfactors
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: llnl-national-security-engineering-divisio-b1f5f4
+  company: LLNL
+  role: National Security Engineering Divisio...
+  location: Livermore, CA
+  link: https://jobs.smartrecruiters.com/llnl/3743990014731656
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: llnl-national-security-engineering-divisio-71dc37
+  company: LLNL
+  role: National Security Engineering Divisio...
+  location: Livermore, CA
+  link: https://jobs.smartrecruiters.com/llnl/3743990014731646
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: llnl-national-security-engineering-divisio-b1f5f4
+- id: the-exploration-company-summer-2027-internship-engineering-a31416
+  company: The Exploration Company
+  role: Summer 2027 Internship (Engineering)
+  location: Houston, TX
+  link: https://jobs.ashbyhq.com/the-exploration-company/2493c3ce-e861-4a66-97a1-df97ff016cd4
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: drivetime-database-engineer-intern-47cf9b
+  company: DriveTime
+  role: Database Engineer Intern
+  location: Tempe, AZ
+  link: https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: corning-digital-it-intern-analyst-manufacturing-e30a72
+  company: Corning
+  role: Digital & IT Intern - Analyst - Manufacturing
+  location: Glendale, AZ
+  link: https://corningjobs.corning.com/job/Glendale-Digital-&-IT-Intern,-Analyst,-Phoenix-Manufacturing-Summer-2027-AZ-85301/1425543900/?ats=successfactors
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null

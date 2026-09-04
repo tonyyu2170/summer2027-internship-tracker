@@ -219,7 +219,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-03'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
   date_estimated: true
 - id: exowatt-software-engineering-intern-agent-platform-ai-695290
@@ -2753,7 +2753,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:chieler
   - github_tracker:simplifyjobs
@@ -3250,7 +3250,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3381,7 +3381,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3880,7 +3880,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:hntb
   - github_tracker:simplifyjobs
@@ -3969,7 +3969,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:philips
   - github_tracker:simplifyjobs
@@ -4290,7 +4290,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6010,7 +6010,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6082,7 +6082,7 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6104,6 +6104,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -6138,6 +6139,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -6156,6 +6158,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -6188,6 +6191,92 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: tiktok-ai-ml-infrastructure-engineer-intern-data-arch-tiktok-live-7cb835
+  company: TikTok
+  role: AI/ML Infrastructure Engineer Intern - Data-Arch-Tiktok Live
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7670876223732762933
+  date_posted: '2026-08-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: caterpillar-corporate-intern-autonomy-intelligent-systems-engineering-d8c0d2
+  company: Caterpillar
+  role: Corporate Intern - Autonomy & Intelligent Systems Engineering
+  location: Peoria, IL
+  link: https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: skydio-autonomy-engineer-intern-computer-vision-deep-learning-summer-2027-0b7af2
+  company: Skydio
+  role: Autonomy Engineer Intern - Computer Vision / Deep Learning - Summer 2027
+  location: San Mateo, CA
+  link: https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9/application?embed=true
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: corning-digital-it-intern-analyst-data-ai-platform-engineering-249239
+  company: Corning
+  role: Digital & IT Intern - Analyst - Data & AI Platform Engineering
+  location: Charlotte, NC
+  link: https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Data-&-AI-Platform-Engineering-Summer-2027-NC-28216/1425716600/?ats=successfactors
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: corning-digital-it-intern-manufacturing-ai-ml-26f78c
+  company: Corning
+  role: Digital & IT Intern - Manufacturing AI/ML
+  location: Charlotte, NC
+  link: https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Manufacturing-AIML-Summer-2027-NC-28216/1425708000/?ats=successfactors
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null

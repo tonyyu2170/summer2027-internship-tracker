@@ -1287,3 +1287,39 @@ https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Syste
 # (non-internship) req, and Nike Air Manufacturing Innovation engineering.
 https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Lake-Mary-FL/Returning-New-Grad-Engineer-I--For-current-previous-HNTB-interns-ONLY-_R-31448-1: __drop__
 https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Air-MI-Engineering-Undergraduate-Internship_R-91417-1: __drop__
+# Parked by the scheduled cloud scrape, 2026-09-04 (evening run). Upstream
+# titles arrive truncated, so the `internship program` / `financial analys` /
+# sales rules never see the words that would have placed them.
+# Out of scope for a six-category listing:
+https://troweprice.wd5.myworkdayjobs.com/TRowePrice/job/Baltimore-MD/XMLNAME-2027-Digital-Assets-Strategy-Internship-Program_83497: __drop__
+https://troweprice.wd5.myworkdayjobs.com/TRowePrice/job/Owings-Mills-MD/XMLNAME-2027-Controllers---Global-Tax-Group-Internship-Program_82683: __drop__
+https://troweprice.wd5.myworkdayjobs.com/TRowePrice/job/Owings-Mills-MD/XMLNAME-2027-Financial-Planning---Analysis-Internship-Program_82681: __drop__
+https://guidehouse.wd1.myworkdayjobs.com/External/job/US---GA-Atlanta/Intern---Energy-Providers---Campus-2027_44256: __drop__
+https://abb.wd3.myworkdayjobs.com/external_career_page/job/Quincy-Massachusetts-USA/Electrification-Sales-Intern----Summer-2027_JR00045168: __drop__
+https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-MA-Quincy/Electrification-Sales-Intern---Summer-2027_JR00045169: __drop__
+https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Strategic-Planning-Graduate-Internship_R-91142: __drop__
+# Same Comcast req family as the wd5 entries above; this one arrives on the
+# wd115 tenant, which normalizes to a different key.
+https://comcast.wd115.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-3601-S-Broad-St/Group-Sales-Intern_R442051: __drop__
+# Underwriting is an insurance function distinct from actuarial work, and the
+# `actuar` rule is deliberately narrow.
+https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Richfield-OH-USA/Underwriting-Intern--Summer-2027_R9499-1: __drop__
+# In scope: Taara (Alphabet's free-space optical link spinout) coherent
+# optical systems is photonics hardware; the optical discipline rule requires
+# the word "engineer", which this title lacks.
+https://jobs.ashbyhq.com/taaraconnect/06d29a2a-9913-4c52-b1ba-9236ca086acb: hardware
+# Microsoft's Applied Science intern family is ML/AI research; the ai_ml rule
+# keys on "applied scientist", and the truncated title reads "Applied Science".
+https://apply.careers.microsoft.com/careers/job/1970393556986141: ai_ml
+# Dropped by the scheduled cloud scrape, 2026-09-04 (evening run):
+# check_categories drift on this run's own new rows — off-scope operations,
+# consulting and product roles at Uline and Wipfli.
+https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Executive-Operations-Analyst-Internship---Summer-2027_R265821: __drop__
+https://careers-wipfli.icims.com/jobs/8295/job?mobile=true&needsRedirect=false: __drop__
+https://careers-wipfli.icims.com/jobs/8307/job?mobile=true&needsRedirect=false: __drop__
+https://careers-wipfli.icims.com/jobs/8305/job?mobile=true&needsRedirect=false: __drop__
+https://careers-wipfli.icims.com/jobs/8304/job?mobile=true&needsRedirect=false: __drop__
+# Dropped by the scheduled cloud scrape, 2026-09-04 (evening run): a full-time
+# entry-level/new-grad req, not an internship (title arrives truncated as
+# "Software Engineer I, Entry-Level (Gra...").
+https://job-boards.greenhouse.io/doordashusa/jobs/8163709: __drop__

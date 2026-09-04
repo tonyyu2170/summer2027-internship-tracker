@@ -3033,7 +3033,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3696,7 +3696,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4469,6 +4469,133 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: aqr-capital-management-portfolio-implementation-trading-and-portfolio-finance-analyst-intern-ddf7bb
+  company: AQR Capital Management
+  role: Portfolio Implementation – Trading and Portfolio Finance Analyst Intern
+  location: Greenwich, CT
+  link: https://careers.aqr.com/jobs?gh_jid=7895562&gh_jid=7895562
+  date_posted: '2026-05-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: t-rowe-price-global-trading-intern-0dac32
+  company: T. Rowe Price
+  role: Global Trading Intern
+  location: Baltimore, MD
+  link: https://troweprice.wd5.myworkdayjobs.com/en-US/TRowePrice/job/Baltimore-MD/XMLNAME-2027-Global-Trading-Internship-Program_82718
+  date_posted: '2026-07-23'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: aqr-capital-management-quantitative-prediction-markets-research-summer-analyst-intern-ba10c5
+  company: AQR Capital Management
+  role: Quantitative Prediction Markets Research Summer Analyst Intern
+  location: Greenwich, CT
+  link: https://careers.aqr.com/jobs?gh_jid=8122378&gh_jid=8122378
+  date_posted: '2026-08-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: aqr-capital-management-research-and-portfolio-management-engineering-summer-analyst-intern-8f1807
+  company: AQR Capital Management
+  role: Research and Portfolio Management Engineering Summer Analyst Intern
+  location: Greenwich, CT
+  link: https://careers.aqr.com/jobs?gh_jid=7957728&gh_jid=7957728
+  date_posted: '2026-05-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: aqr-capital-management-risk-summer-analyst-intern-e57321
+  company: AQR Capital Management
+  role: Risk Summer Analyst Intern
+  location: Greenwich, CT
+  link: https://careers.aqr.com/jobs?gh_jid=7926692&gh_jid=7926692
+  date_posted: '2026-05-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: aqr-capital-management-research-summer-analyst-intern-3c30f8
+  company: AQR Capital Management
+  role: Research Summer Analyst Intern
+  location: Greenwich, CT
+  link: https://careers.aqr.com/jobs?gh_jid=7895583&gh_jid=7895583
+  date_posted: '2026-05-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: aqr-capital-management-portfolio-solutions-group-summer-analyst-intern-portfolio-solutions-group-7cc3fd
+  company: AQR Capital Management
+  role: Portfolio Solutions Group Summer Analyst Intern - Portfolio Solutions Group
+  location: Greenwich, CT
+  link: https://careers.aqr.com/jobs?gh_jid=8041362&gh_jid=8041362
+  date_posted: '2026-07-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
