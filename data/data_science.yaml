@@ -1485,6 +1485,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -1579,7 +1580,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:northwood-space
   - github_tracker:simplifyjobs
@@ -2609,7 +2610,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3265,6 +3266,7 @@
   - github_tracker:suryaharikrishnan
   - company:twg-global
   - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -3285,6 +3287,7 @@
   - github_tracker:suryaharikrishnan
   - company:twg-global
   - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -3966,7 +3969,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4182,6 +4185,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -4237,6 +4241,72 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: united-parcel-service-business-analytics-intern-americas-region-9f184c
+  company: United Parcel Service
+  role: Business Analytics Intern - Americas Region
+  location: Atlanta, GA
+  link: https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---UPS-CORPORATE-OFFICES-GACOR/Americas-Region-Business-Analytics-Summer-2027-Intern_R26030513
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: csx-sales-marketing-analytics-intern-paid-2cfdc3
+  company: CSX
+  role: Sales & Marketing Analytics Intern - Paid
+  location: Jacksonville, FL
+  link: https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/job/54839
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: ragle-inc-data-analytics-intern-f115bc
+  company: Ragle Inc
+  role: Data Analytics Intern
+  location: North Richland Hills, TX
+  link: https://ragleinc.applytojob.com/apply/H0xLKtFZlq/Data-Analytics-Intern-Summer-2027
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: invesco-early-career-intern-corporate-funct-e302fd
+  company: Invesco
+  role: Early Career Intern - Corporate Funct...
+  location: Atlanta, GA
+  link: https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Corporate-Functions-Data-Office_R-15350-1
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null

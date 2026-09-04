@@ -1323,3 +1323,32 @@ https://careers-wipfli.icims.com/jobs/8304/job?mobile=true&needsRedirect=false: 
 # entry-level/new-grad req, not an internship (title arrives truncated as
 # "Software Engineer I, Entry-Level (Gra...").
 https://job-boards.greenhouse.io/doordashusa/jobs/8163709: __drop__
+# scheduled scrape 2026-09-04: per-link judgments for zapplyjobs rows no rule placed.
+? https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/Category-Analyst-Intern--Summer-2027-_WD50036
+: __drop__
+https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/SDET-Intern_JR111190: swe
+https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115857: __drop__
+https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/35738: __drop__
+? https://elanco.wd5.myworkdayjobs.com/External_Career/job/Fort-Dodge-IA/Quality-Assurance-Intern---Fort-Dodge--Iowa--Summer-2027-_R0027087
+: __drop__
+? https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bellevue/GE-Vernova---Power-Systems-Intern---Summer-2027_R5050147-3
+: hardware
+? https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Salem-VA-USA/GE-Vernova-Electrical-Intern---Summer-2027_R5051964-2
+: hardware
+? https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Wilmington-NC-USA/GE-Vernova---Advanced-Nuclear-Project-Management-Intern---Summer-2027_R5051631
+: __drop__
+https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Remote---Texas-United-States/I3X-Intern_R0143620: __drop__
+https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Remote---Texas-United-States/I3X-Intern_R0143621: __drop__
+? https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Corporate-Functions-Data-Office_R-15350-1
+: data_science
+? https://jj.wd5.myworkdayjobs.com/jj/job/Warsaw-Indiana-United-States-of-America/DePuy-Synthes-R-D-Lab-Co-op-Orthopedics_R-094145-1
+: __drop__
+https://job-boards.greenhouse.io/amarok/jobs/6182531004: __drop__
+https://jobs.ashbyhq.com/apex-technology-inc/d0630c64-6d20-4d15-ba75-aa125f0a3f49: hardware
+? https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Operations-Track-Internship--Cleveland_R-41383
+: __drop__
+https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Overland-Park-KS/Surveillance-Intern_R-42011: __drop__
+https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Catalyst-Internship_R23038: __drop__
+# scheduled scrape 2026-09-04: off-scope rows removed by the quality pass.
+https://directv.wd1.myworkdayjobs.com/careers/job/Clarksburg-MD/DIRECTV-for-Business-Product-Development-Intern_R260276: __drop__
+https://directv.wd1.myworkdayjobs.com/careers/job/El-Segundo-CA/Customer-Operations-Intern_R260273: __drop__

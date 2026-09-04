@@ -2913,7 +2913,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:northwood-space
   - github_tracker:simplifyjobs
@@ -5733,6 +5733,40 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: shure-electrical-engineer-intern-digital-circuitry-test-automation-e7e4b2
+  company: Shure
+  role: Electrical Engineer Intern - Digital Circuitry & Test Automation
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/5028/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: globalfoundries-rf-technology-development-automation-engineer-intern-summer-2027-9e44a2
+  company: GlobalFoundries
+  role: RF Technology Development Automation Engineer Intern - Summer 2027
+  location: Malta, NY
+  link: https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/RF-Technology-Development-Automation-Engineering-Intern--Summer-2027-_JR-2604272
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null

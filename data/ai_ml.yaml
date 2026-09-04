@@ -3656,6 +3656,7 @@
   - company:dev-technology-group
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -3731,7 +3732,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:first-national-bank
   - github_tracker:simplifyjobs
@@ -4985,6 +4986,7 @@
   - github_tracker:suryaharikrishnan
   - company:twg-global
   - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -5687,7 +5689,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6028,7 +6030,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6226,6 +6228,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -6243,6 +6246,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -6260,6 +6264,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -6269,6 +6274,56 @@
   location: Charlotte, NC
   link: https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Manufacturing-AIML-Summer-2027-NC-28216/1425708000/?ats=successfactors
   date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: united-airlines-pricing-revenue-management-intern-fa921d
+  company: United Airlines
+  role: Pricing & Revenue Management Intern
+  location: Chicago, IL
+  link: https://careers.united.com/us/en/job/WHQ00026532
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: deloitte-data-ai-solutions-engineering-summer-scholar-intern-d8bceb
+  company: Deloitte
+  role: Data & AI Solutions Engineering Summer Scholar Intern
+  location: Atlanta, GA
+  link: https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-Data-AI-Solutions-Engineering/363475
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: ge-vernova-ai-digitization-co-op-hdnu-global-operations-50400d
+  company: GE Vernova
+  role: AI Digitization Co-op - HDNU Global Operations
+  location: Schenectady, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Atlanta/GE-Vernova-HDNU-Global-Operations---AI-Digitization-Co-op---Spring-Summer-2027_R5049275-2
+  date_posted: '2026-09-04'
   date_estimated: false
   term: Summer 2027
   degree:

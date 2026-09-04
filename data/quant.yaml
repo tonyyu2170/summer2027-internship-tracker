@@ -4599,3 +4599,132 @@
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
+- id: goldman-sachs-summer-analyst-intern-7bb41e
+  company: Goldman Sachs
+  role: Summer Analyst Intern
+  location: New York, NY
+  link: https://higher.gs.com/roles/171550?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: goldman-sachs-quantitative-strats-analyst-intern-americas-investment-banking-88ed4c
+  company: Goldman Sachs
+  role: Quantitative Strats Analyst Intern - Americas - Investment Banking
+  location: Dallas, TX
+  link: https://higher.gs.com/roles/171548?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: goldman-sachs-quantitative-strategist-intern-americas-e9b59b
+  company: Goldman Sachs
+  role: Quantitative Strategist Intern - Americas
+  location: Dallas, TX
+  link: https://higher.gs.com/roles/171532?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: barclays-quantitative-finance-associate-intern-c4bda0
+  company: Barclays
+  role: Quantitative Finance Associate Intern
+  location: New York, NY
+  link: https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Quantitative-Finance-Associate-Summer-Internship-Program-2027-New-York_JR-0000128099
+  date_posted: '2026-08-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: aqr-capital-management-arbitrage-research-summer-analyst-intern-aqr-arbitrage-5b1cb4
+  company: AQR Capital Management
+  role: Arbitrage Research Summer Analyst Intern - AQR Arbitrage
+  location: Greenwich, CT
+  link: https://careers.aqr.com/jobs?gh_jid=8156993&gh_jid=8156993
+  date_posted: '2026-08-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: citi-quantitative-risk-management-summer-analyst-intern-functions-aca66a
+  company: Citi
+  role: Quantitative Risk Management Summer Analyst Intern - Functions
+  location: Getzville, NY
+  link: https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Functions---Quantitative-Risk-Management--Summer-Analyst--Buffalo---USA--2027_26990039
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: citi-quantitative-risk-management-summer-analyst-intern-functions-b56b62
+  company: Citi
+  role: Quantitative Risk Management Summer Analyst Intern - Functions
+  location: Irving, TX
+  link: https://citi.wd5.myworkdayjobs.com/2/job/Irving-Texas-United-States/Functions---Quantitative-Risk-Management--Summer-Analyst--Irving---USA--2027_26990048
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: citi-quantitative-risk-management-summer-analyst-intern-b364cd
+  company: Citi
+  role: Quantitative Risk Management Summer Analyst Intern
+  location: Tampa, FL
+  link: https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Functions---Quantitative-Risk-Management--Summer-Analyst--Tampa---USA--2027_26990051
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null

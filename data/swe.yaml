@@ -129,6 +129,7 @@
   - github_tracker:sndsh404
   - github_tracker:vanshb03
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-07-23'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -5489,8 +5490,9 @@
   status: open
   sources:
   - company:uline
+  - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-global-e-commerce-search-830bf9
   company: TikTok
@@ -7543,7 +7545,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:blue-origin
   - github_tracker:simplifyjobs
@@ -8014,7 +8016,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:freddie-mac
   - github_tracker:simplifyjobs
@@ -8488,6 +8490,7 @@
   sources:
   - company:keybank
   - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -9626,7 +9629,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:poet
   - github_tracker:simplifyjobs
@@ -10625,7 +10628,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -10887,7 +10890,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -11544,7 +11547,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12798,7 +12801,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -12816,7 +12819,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -13065,7 +13068,7 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -13218,7 +13221,7 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -13894,6 +13897,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17456,6 +17460,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17473,6 +17480,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17491,6 +17499,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17508,6 +17517,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17525,6 +17536,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17541,6 +17555,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17576,6 +17593,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17594,6 +17612,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17627,6 +17646,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17645,6 +17665,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17663,6 +17684,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17732,6 +17755,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17797,6 +17821,8 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-04'
   last_verified: '2026-09-04'
   possible_duplicate_of: null
@@ -17806,6 +17832,207 @@
   location: Glendale, AZ
   link: https://corningjobs.corning.com/job/Glendale-Digital-&-IT-Intern,-Analyst,-Phoenix-Manufacturing-Summer-2027-AZ-85301/1425543900/?ats=successfactors
   date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: goldman-sachs-summer-analyst-intern-americas-engineering-5b6b27
+  company: Goldman Sachs
+  role: Summer Analyst Intern - Americas - Engineering
+  location: New York, NY
+  link: https://higher.gs.com/roles/171564?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: goldman-sachs-summer-analyst-intern-americas-engineering-904d14
+  company: Goldman Sachs
+  role: Summer Analyst Intern - Americas - Engineering
+  location: Salt Lake City, UT
+  link: https://higher.gs.com/roles/171565?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: goldman-sachs-summer-analyst-intern-engineering-9c2724
+  company: Goldman Sachs
+  role: Summer Analyst Intern - Engineering
+  location: Dallas, TX
+  link: https://higher.gs.com/roles/171553?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: vanguard-it-intern-application-development-87fc03
+  company: Vanguard
+  role: IT Intern - Application Development
+  location: Charlotte, NC
+  link: https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Application-Development--NC-_177681-1
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: vanguard-it-intern-investment-systems-a8f96d
+  company: Vanguard
+  role: IT Intern - Investment Systems
+  location: Malvern, PA
+  link: https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Investment-Systems--PA-_177685-1
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: vanguard-application-development-intern-9b7f4f
+  company: Vanguard
+  role: Application Development Intern
+  location: Dallas, TX
+  link: https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Application-Development---TX-_181846
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: john-deere-information-technology-intern-technology-4ba5ab
+  company: John Deere
+  role: Information Technology Intern - Technology
+  location: Moline, IL
+  link: https://johndeere.eightfold.ai/careers/job/137482633322
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: td-bank-software-engineer-intern-software-engineering-rotational-program-836d2b
+  company: TD Bank
+  role: Software Engineer Intern - Software Engineering Rotational Program
+  location: New York, NY
+  link: https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/XMLNAME-2027-Summer-Analyst---Software-Engineering-Rotational-Program--New-York-City-_R_1508053
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: principal-financial-group-software-engineer-intern-summer-2027-eb1bf5
+  company: Principal Financial Group
+  role: Software Engineer Intern - Summer 2027
+  location: Charlotte, NC
+  link: https://careers.principal.com/jobs/52513?icims=1
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: westinghouse-electric-company-enovia-plm-developer-intern-enovia-plm-0445bf
+  company: Westinghouse Electric Company
+  role: Enovia PLM Developer Intern - Enovia PLM
+  location: Cranberry Township, PA
+  link: https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Enovia-PLM-NC/1426858600/?ats=successfactors
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: westinghouse-electric-company-application-development-intern-1bc440
+  company: Westinghouse Electric Company
+  role: Application Development Intern
+  location: Cranberry Township, PA
+  link: https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Application-Development-NC/1426859800/?ats=successfactors
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: ernst-young-data-and-technology-intern-multiple-teams-0abd1e
+  company: Ernst & Young
+  role: Data and Technology Intern - Multiple Teams
+  location: Miami, FL
+  link: https://eyglobal.yello.co/jobs/gqy0pJfAkXrlECgDBjqcIw?job_board_id=c1riT--B2O-KySgYWsZO1Q
+  date_posted: '2026-09-04'
   date_estimated: false
   term: Summer 2027
   degree:
