@@ -117,7 +117,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-09-04'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: trustage-actuarial-internship-summer-2027-hybrid-b8e81f
   company: TruStage
@@ -199,7 +199,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-09-04'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: manulife-summer-intern-2027-actuarial-us-04b366
   company: Manulife
@@ -233,5 +233,5 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
-  last_verified: '2026-09-04'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
