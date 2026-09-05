@@ -3057,7 +3057,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -3374,7 +3374,7 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -4409,6 +4409,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -4426,6 +4429,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -4439,9 +4444,10 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -4458,6 +4464,25 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: applied-materials-data-analyst-intern-global-technical-learning-center-14108a
+  company: Applied Materials
+  role: Data Analyst Intern - Global Technical Learning Center
+  location: Albany, NY
+  link: https://amat.wd1.myworkdayjobs.com/External/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null

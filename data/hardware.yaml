@@ -5444,6 +5444,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-04'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -5849,6 +5850,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -5965,6 +5967,8 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -5983,6 +5987,173 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-design-verification-intern-bs-summer-2027-542a77
+  company: Marvell
+  role: Design Verification Intern - BS - Summer 2027
+  location: Morrisville, NC
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Design-Verification-Intern--BS---Summer-2027_2604505
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-software-engineering-intern-firmware-ai-engineering-c1251b
+  company: Solidigm
+  role: Software Engineering Intern - Firmware & AI Engineering
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/Solidigm/744000147613769
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-hardware-product-development-engineering-intern-03dc1e
+  company: Solidigm
+  role: Hardware & Product Development Engineering Intern
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/Solidigm/744000147613839
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-hardware-electrical-validation-and-product-engineering-intern-validation-d6450b
+  company: Solidigm
+  role: Hardware, Electrical Validation and Product Engineering Intern - Validation
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/Solidigm/744000147613779
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-software-development-firmware-engineering-intern-multiple-teams-43edff
+  company: Solidigm
+  role: Software Development & Firmware Engineering Intern - Multiple Teams
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/Solidigm/744000147613629
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-2027-graduate-software-firmware-ai-379e4c
+  company: Solidigm
+  role: 2027 Graduate Software, Firmware & AI...
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/solidigm/744000147613769
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: applied-materials-summer-2027-mechanical-engineer-inter-c907fb
+  company: Applied Materials
+  role: Summer 2027 Mechanical Engineer Inter...
+  location: Austin, TX
+  link: https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Summer-2027-Mechanical-Engineer-Intern--Bachelor-s--Austin--TX-_R2628093
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-2027-undergraduate-hardware-product-3ab6a2
+  company: Solidigm
+  role: 2027 Undergraduate Hardware & Product...
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/solidigm/744000147613839
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-2027-graduate-hardware-validation-a-13b29c
+  company: Solidigm
+  role: 2027 Graduate Hardware, Validation, a...
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/solidigm/744000147613779
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-ph-d-intern-analog-mixed-signal-f49ccb
+  company: Marvell
+  role: Ph.D. Intern - Analog, Mixed Signal &...
+  location: Santa Clara, CA
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/PhD-Intern---Analog--Mixed-Signal---Circuit-Design_2604142
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null

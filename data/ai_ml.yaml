@@ -219,7 +219,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-04'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: true
 - id: exowatt-software-engineering-intern-agent-platform-ai-695290
@@ -6052,7 +6052,7 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6467,6 +6467,8 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
