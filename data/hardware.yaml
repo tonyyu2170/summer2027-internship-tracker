@@ -31,7 +31,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: true
 - id: jane-street-fpga-engineer-7bf9ea
@@ -50,7 +50,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: true
 - id: second-order-effects-electrical-engineering-intern-summer-2027-13520f
@@ -68,7 +68,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: imc-trading-hardware-engineer-intern-36c34e
   company: IMC Trading
@@ -79,7 +79,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker
   - github_tracker:sndsh404
@@ -90,7 +90,7 @@
   - github_tracker:northwesternfintech
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: nightwing-software-hardware-engineering-intern-5060d4
@@ -109,7 +109,7 @@
   - github_tracker:vanshb03
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: fluxergy-firmware-engineer-intern-275a35
   company: Fluxergy
@@ -126,7 +126,7 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: base-power-company-firmware-engineering-intern-70783e
   company: Base Power Company
@@ -161,7 +161,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: terranova-embedded-systems-intern-360285
@@ -178,7 +178,7 @@
   - github_tracker
   - github_tracker:speedyapply
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: neuralink-electrical-engineer-intern-implant-embedded-systems-9ad358
@@ -294,7 +294,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: etched-firmware-intern-34f1f8
   company: Etched
@@ -312,7 +312,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: apex-technology-inc-software-engineering-intern-embedded-systems-ae38f0
   company: Apex Technology, Inc.
@@ -328,7 +328,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: general-astronautics-engineering-intern-5a95b5
   company: General Astronautics
@@ -345,7 +345,7 @@
   - link_checker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: tetramem-software-engineer-intern-embedded-4009fa
   company: TETRAMEM
@@ -361,7 +361,7 @@
   - github_tracker
   - github_tracker:vanshb03
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: moog-intern-test-engineering-8c8483
   company: Moog
@@ -871,8 +871,10 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-mechanical-design-engineering-intern-fced6a
@@ -906,7 +908,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-electronics-engineering-intern-8d175b
@@ -923,7 +925,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: human-computer-lab-intern-electrical-engineer-aa8d73
@@ -940,7 +942,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: layup-parts-electrical-engineering-intern-ffe66c
@@ -957,7 +959,7 @@
   - github_tracker
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: figure-ai-integration-and-test-mechanical-eng-3b11bf
@@ -1180,7 +1182,7 @@
   - link_checker
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: tsmc-arizona-engineering-intern-12-roles-process-equipment-cim-software-78811d
@@ -1197,7 +1199,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: spectrum-control-engineering-intern-8f527f
@@ -1230,7 +1232,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: solar-turbines-gas-turbine-products-engineering-intern-06c469
   company: Solar Turbines
@@ -1325,7 +1327,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: akuna-capital-hardware-engineer-intern-162e4f
   company: Akuna Capital
@@ -1346,7 +1348,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-24'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: optiver-fpga-engineer-intern-748c5a
@@ -1364,7 +1366,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: virtu-financial-hardware-engineer-intern-fpga-290bc8
   company: Virtu Financial
@@ -1383,7 +1385,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: hpr-hyannis-port-research-fpga-engineer-intern-c736f2
   company: HPR (Hyannis Port Research)
@@ -1404,7 +1406,7 @@
   - company:hpr-hyannis-port-research
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: spacex-silicon-engineer-intern-co-op-4fcd2f
   company: SpaceX
@@ -1423,7 +1425,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: bytedance-asic-design-engineer-intern-video-silicon-ip-020d49
   company: ByteDance
@@ -1442,7 +1444,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: microsoft-research-intern-firmware-security-e7ae53
   company: Microsoft
@@ -1509,7 +1511,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: draper-embedded-quality-fielded-systems-in-3852bd
   company: Draper
@@ -1526,7 +1528,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:speedyapply
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: skyworks-analog-ic-design-co-op-a63a95
   company: Skyworks
@@ -1543,7 +1545,7 @@
   - vanshb03
   - github_tracker:vanshb03
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: contoro-robotics-robotics-test-validation-intern-9704cf
   company: Contoro Robotics
@@ -1559,8 +1561,9 @@
   sources:
   - zapplyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: bosch-group-wireless-systems-research-intern-b6b391
   company: Bosch Group
@@ -1627,8 +1630,9 @@
   sources:
   - zapplyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: flexion-robotics-research-intern-481152
   company: Flexion Robotics
@@ -1661,8 +1665,9 @@
   sources:
   - chieler
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: national-laboratory-of-the-rockies-focused-ion-beam-electron-microscopy-and-autonomous-characterization-intern-multiple-teams-790299
   company: National Laboratory of the Rockies
@@ -1680,7 +1685,7 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: motorola-solutions-r-d-intern-wireless-systems-enginee-2acbe7
   company: Motorola Solutions
@@ -1717,7 +1722,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-09'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: smiths-group-mechanical-engineering-co-op-94713a
   company: Smiths Group
@@ -1732,7 +1737,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-07-25'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
   date_estimated: false
 - id: smiths-group-mechanical-engineering-co-op-9ab00d
@@ -1958,7 +1963,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: rtx-raytheon-electrical-engineering-inter-fbf377
   company: RTX
@@ -2053,8 +2058,9 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-10'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: rtx-materials-processes-and-mechanical-disciplines-engineering-intern-summer-2027-onsite-6a6006
   company: RTX
@@ -2121,7 +2127,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: nrel-post-undergraduate-intern-year-round-62132f
   company: NREL
@@ -2153,7 +2159,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: reframe-systems-mechanical-engineer-internship-summe-1a17db
   company: Reframe Systems
@@ -2169,7 +2175,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: draper-mechanical-engineering-system-packa-27423f
   company: Draper
@@ -2201,7 +2207,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: microchip-technology-intern-engineering-mems-design-65cc9e
   company: Microchip Technology
@@ -2216,8 +2222,9 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: rtx-2027-returning-intern-microwave-semiconductor-engineer-b31682
   company: RTX
@@ -2249,7 +2256,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: bytedance-asic-design-engineer-intern-video-silicon-ip-9ba5fe
   company: ByteDance
@@ -2265,7 +2272,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: rtx-radar-digital-products-engineering-intern-ae94ec
   company: RTX
@@ -2283,7 +2290,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: rtx-electrical-computer-aided-design-engineer-intern-3520d5
   company: RTX
@@ -2295,13 +2302,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: generac-intern-firmware-engineering-a5e421
   company: Generac
@@ -2318,7 +2325,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: generac-intern-firmware-engineering-c86e1e
 - id: bosch-group-mechanical-engineering-intern-8e96dc
   company: Bosch Group
@@ -2418,7 +2425,7 @@
   - company:aerovironment
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: aerovironment-summer-2027-mechanical-engineering-intern-61d33d
   company: AeroVironment
@@ -2438,7 +2445,7 @@
   - company:aerovironment
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: aerovironment-summer-2027-embedded-software-engineering-intern-23132f
   company: AeroVironment
@@ -2460,8 +2467,10 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: blue-origin-summer-2027-corporate-strategy-intern-graduate-c4a906
   company: Blue Origin
@@ -2478,7 +2487,7 @@
   - company:blue-origin
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: blue-origin-summer-2027-structural-mechanical-engineering-internship-undergraduate-7d5b0c
   company: Blue Origin
@@ -2496,7 +2505,7 @@
   - company:blue-origin
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: blue-origin-summer-2027-structural-mechanical-systems-engineering-internship-graduate-3f665b
   company: Blue Origin
@@ -2512,8 +2521,9 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: blue-origin-summer-2027-electrical-systems-engineering-internship-graduate-f91c89
   company: Blue Origin
@@ -2528,8 +2538,9 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: blue-origin-summer-2027-electrical-systems-engineering-internship-undergraduate-f03720
   company: Blue Origin
@@ -2544,8 +2555,9 @@
   status: open
   sources:
   - company:blue-origin
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: blue-origin-summer-2027-return-internship-undergraduate-1dd427
   company: Blue Origin
@@ -2595,8 +2607,9 @@
   status: open
   sources:
   - company:brunswick
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: general-motors-2027-summer-manufacturing-intern-mechanical-engineer-568241
   company: General Motors
@@ -2613,7 +2626,7 @@
   - company:general-motors
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: hermeus-structures-mechanical-engineering-intern-spring-summer-2027-546d43
   company: Hermeus
@@ -2681,7 +2694,7 @@
   - company:hitachi
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: hntb-intern-electrical-engineer-summer-2027-01e111
   company: HNTB
@@ -2753,8 +2766,10 @@
   sources:
   - company:johnson-johnson
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: kairos-power-electrical-engineering-internship-summer-2027-dae88d
   company: Kairos Power
@@ -2899,12 +2914,14 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:northwood-space
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: northwood-space-electrical-engineering-intern-2027-summer-internship-9ad31b
   company: Northwood Space
@@ -2920,8 +2937,11 @@
   status: open
   sources:
   - company:northwood-space
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: northwood-space-embedded-software-engineering-intern-2027-summer-internship-daf44f
   company: Northwood Space
@@ -2940,8 +2960,11 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: northwood-space-mechanical-engineering-intern-2027-summer-internship-d4df3c
   company: Northwood Space
@@ -3136,7 +3159,7 @@
   - company:oshkosh
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: oshkosh-engineer-intern-electrical-summer-2027-bded6a
   company: Oshkosh
@@ -3250,7 +3273,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: persona-ai-electrical-engineering-internship-e66c90
   company: Persona AI
@@ -3267,8 +3290,11 @@
   sources:
   - company:persona-ai
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: rtx-electrical-engineering-intern-summer-2027-1c18fa
   company: RTX
@@ -3284,8 +3310,11 @@
   sources:
   - company:rtx
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: rtx-antenna-electrical-design-engineer-intern-summer-2027-onsite-37113e
   company: RTX
@@ -3302,7 +3331,7 @@
   - company:rtx
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: rtx-electrical-engineering-intern-summer-2027-02dd43
   company: RTX
@@ -3368,7 +3397,7 @@
   - company:shield-ai
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: shield-ai-summer-2027-electrical-engineering-intern-687528
   company: Shield AI
@@ -3385,7 +3414,7 @@
   - company:shield-ai
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: stanley-black-decker-electrical-engineering-intern-summer-2027-6f360e
   company: Stanley Black & Decker
@@ -3402,7 +3431,7 @@
   - company:stanley-black-decker
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: stanley-black-decker-mechanical-engineering-intern-summer-2027-d3e616
   company: Stanley Black & Decker
@@ -3419,7 +3448,7 @@
   - company:stanley-black-decker
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: stryker-summer-2027-internship-electrical-engineering-california-c29813
   company: Stryker
@@ -3551,13 +3580,13 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - company:wabtec
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: nvidia-hardware-asic-design-intern-hardware-10f6d3
   company: NVIDIA
@@ -3577,7 +3606,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: nvidia-hardware-engineering-intern-ddfa8d
   company: NVIDIA
@@ -3595,8 +3624,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: nvidia-computer-architecture-and-systems-intern-research-03e767
   company: NVIDIA
@@ -3613,7 +3643,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: nvidia-hardware-physical-design-vlsi-intern-c0f58e
   company: NVIDIA
@@ -3627,12 +3657,12 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: nvidia-hardware-verification-intern-383e3c
   company: NVIDIA
@@ -3646,12 +3676,12 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: nvidia-ph-d-research-hardware-intern-4a086d
   company: NVIDIA
@@ -3668,7 +3698,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: nvidia-hardware-design-for-test-intern-dft-9bb917
   company: NVIDIA
@@ -3685,8 +3715,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: nvidia-mixed-signal-design-intern-d8d450
   company: NVIDIA
@@ -3706,7 +3737,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-hardware-design-verification-engineer-co-op-intern-632cc5
   company: AMD
@@ -3722,8 +3753,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-hardware-engineer-intern-co-op-hardware-engineering-f36999
   company: AMD
@@ -3739,8 +3771,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-firmware-engineer-intern-co-op-3939f1
   company: AMD
@@ -3756,8 +3789,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-firmware-engineering-intern-co-op-undergrad-d673c7
   company: AMD
@@ -3773,8 +3807,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-hardware-engineering-intern-co-op-undergrad-2435d0
   company: AMD
@@ -3790,8 +3825,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-hardware-design-verification-engineer-co-op-intern-0a859a
   company: AMD
@@ -3807,7 +3843,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: amd-hardware-design-verification-engineer-co-op-intern-632cc5
 - id: amd-hardware-design-verification-engineer-intern-co-op-b3a9bd
   company: AMD
@@ -3824,7 +3860,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-firmware-engineer-co-op-intern-fa3d50
   company: AMD
@@ -3841,7 +3877,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-hardware-engineer-intern-co-op-8b23c2
   company: AMD
@@ -3857,8 +3893,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-firmware-engineer-intern-co-op-ab50e0
   company: AMD
@@ -3874,7 +3911,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: amd-firmware-engineer-intern-co-op-3939f1
 - id: amd-hardware-design-verification-engineering-intern-co-op-cf6c12
   company: AMD
@@ -3890,8 +3927,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: daktronics-hardware-design-co-op-intern-firmware-057fed
   company: Daktronics
@@ -3909,7 +3947,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:speedyapply
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-asic-package-engineering-intern-co-op-92912c
   company: AMD
@@ -3925,8 +3963,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-asic-package-engineer-intern-co-op-c7cbe7
   company: AMD
@@ -3942,8 +3981,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: amd-asic-package-engineering-intern-co-op-845fb2
   company: AMD
@@ -3959,7 +3999,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: amd-asic-package-engineering-intern-co-op-92912c
 - id: amd-asic-package-engineering-co-op-intern-3fd44a
   company: AMD
@@ -3976,7 +4016,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: verkada-embedded-software-engineer-intern-7883b2
   company: Verkada
@@ -3994,8 +4034,10 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: vertiv-firmware-engineer-intern-summer-2027-929ae7
   company: Vertiv
@@ -4012,8 +4054,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: axon-embedded-engineer-intern-a69c24
   company: Axon
@@ -4029,8 +4072,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: vertiv-power-management-intern-summer-2027-e39f03
   company: Vertiv
@@ -4046,8 +4090,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: hudson-river-trading-hardware-engineer-intern-1bda05
   company: Hudson River Trading
@@ -4063,8 +4108,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: aerotech-electrical-computer-engineering-intern-co-op-25bb4b
   company: Aerotech
@@ -4081,8 +4127,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: eaton-firmware-engineer-intern-co-op-research-development-engineering-4cb4de
   company: Eaton
@@ -4098,8 +4145,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: textron-firmware-engineer-intern-weapons-1cd2bc
   company: Textron
@@ -4115,8 +4163,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: vermeer-embedded-software-engineer-intern-2a83c9
   company: Vermeer
@@ -4133,8 +4182,10 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: stanley-black-decker-embedded-software-engineering-intern-1d2137
   company: Stanley Black & Decker
@@ -4150,8 +4201,11 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: boston-scientific-r-d-hardware-engineer-intern-interns-graduates-8980b6
   company: Boston Scientific
@@ -4163,12 +4217,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: hewlett-packard-enterprise-firmware-engineer-intern-1f6650
   company: Hewlett Packard Enterprise
@@ -4184,7 +4239,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: zipline-embedded-engineering-intern-summer-2027-ea224b
   company: Zipline
@@ -4200,8 +4255,9 @@
   sources:
   - github_tracker:speedyapply
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: morse-corp-co-op-opportunities-embedded-software-engineer-graduate-co-op-ca3b0a
   company: MORSE Corp Co-op Opportunities
@@ -4217,7 +4273,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: morse-corp-co-op-opportunities-embedded-software-engineer-co-op-647b88
   company: MORSE Corp Co-op Opportunities
@@ -4233,7 +4289,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: nomagic-engineering-intern-software-or-hardware-fd77cf
   company: Nomagic
@@ -4248,8 +4304,9 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: diversified-automation-hardware-engineering-co-op-b55b4a
   company: Diversified Automation
@@ -4265,7 +4322,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: formlabs-hardware-r-d-engineering-intern-wint-977c34
   company: Formlabs
@@ -4281,7 +4338,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: olsson-electrical-engineering-internship-f-c40d4c
   company: Olsson
@@ -4313,7 +4370,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: cae-mechanical-engineering-intern-76e5ae
 - id: brunswick-bbg-tech-center-mechanical-engineer-bc54dd
   company: Brunswick
@@ -4345,7 +4402,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: micron-technology-intern-hbm-soc-rtl-design-engineer-d8f53d
   company: Micron Technology
@@ -4360,8 +4417,9 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: base-power-hardware-sourcing-intern-148308
   company: Base Power
@@ -4377,7 +4435,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: formlabs-hardware-systems-integration-intern-b443c8
   company: Formlabs
@@ -4405,11 +4463,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - company:general-matter
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: general-matter-summer-2027-internship-electrical-engineering-buildings-2478ca
   company: General Matter
@@ -4458,7 +4518,7 @@
   - company:general-matter
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-04'
   possible_duplicate_of: null
 - id: rtx-mechanical-engineering-intern-summer-2027-0718a9
   company: RTX
@@ -4473,8 +4533,9 @@
   status: open
   sources:
   - company:rtx
+  - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: olsson-electrical-engineering-internship-f-4c7508
   company: Olsson
@@ -4506,7 +4567,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
   possible_duplicate_of: null
 - id: corning-optical-fiber-and-cable-engineer-intern-summer-2027-7855b8
   company: Corning
@@ -4519,12 +4580,13 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: general-motors-electrical-sdv-intern-global-manufacturing-c42ecb
   company: General Motors
@@ -4537,10 +4599,1586 @@
   degree:
   - BS
   - MS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: onlogic-firmware-engineering-co-op-78c6f7
+  company: OnLogic
+  role: Firmware Engineering Co-op
+  location: Cary, NC
+  link: https://apply.workable.com/onlogic-inc/j/10EC1527D8/
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: general-matter-summer-2027-internship-embedded-sof-9f5cdb
+  company: General Matter
+  role: Summer 2027 Internship - Embedded Software Engineering
+  location: Los Angeles, CA
+  link: https://job-boards.greenhouse.io/generalmatter/jobs/5377131008
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:speedyapply
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: intuitive-mechanical-engineering-intern-c0a3b9
+  company: Intuitive
+  role: Mechanical Engineering Intern
+  location: Sunnyvale, CA
+  link: https://jobs.smartrecruiters.com/Intuitive/744000147091674
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: allegion-mechanical-engineering-intern-access-69b80b
+  company: Allegion
+  role: Mechanical Engineering Intern, Access...
+  location: Farmington, CT
+  link: https://allegion.wd5.myworkdayjobs.com/careers/job/Farmington-CT/Mechanical-Engineering-Intern--Access-Technologies---Farmington--Connecticut_JR37466-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: engenious-design-systems-architecture-intern-9e07c9
+  company: Engenious Design
+  role: Systems Architecture Intern
+  location: Prairie Village, KS
+  link: http://engeniousdesign.applytojob.com/apply/U4TbKXcygp/Internship-2027-SystemsArchitecture
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: rtx-spectrum-dominance-intern-133b4f
+  company: RTX
+  role: Spectrum Dominance Intern
+  location: Arlington County, VA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-VA-ARLINGTON-111--1300-17Th-St-N--BBN-ARLINGTON/Spectrum-Dominance-Intern--Summer-2027-_01868863
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
   status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: textron-integration-test-engineer-intern-marine-e968fa
+  company: Textron
+  role: Integration Test Engineer Intern - Marine
+  location: New Orleans, LA
+  link: https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342674
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: eaton-electrical-engineer-intern-co-op-research-development-engineering-2476f4
+  company: Eaton
+  role: Electrical Engineer Intern/Co-op - Research & Development Engineering
+  location: Moon Twp, PA
+  link: https://eaton.eightfold.ai/careers/job/687238596674
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: rtx-electrical-engineer-intern-ab99d6
+  company: RTX
+  role: Electrical Engineer Intern
+  location: Cedar Rapids, IA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Electrical-Engineering-Intern--Summer-2027-_01864197
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: vermeer-test-engineer-intern-2c2593
+  company: Vermeer
+  role: Test Engineer Intern
+  location: Pella, IA
+  link: https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Shop-48/Test-Engineering-Internship-Summer-2027_REQ-22120
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: shure-automated-test-engineer-intern-hardware-e5d345
+  company: Shure
+  role: Automated Test Engineer Intern - Hardware
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/4960/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: shure-fpga-development-intern-f6b5e1
+  company: Shure
+  role: FPGA Development Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/4985/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: rtx-electrical-engineer-intern-b6dfb6
+  company: RTX
+  role: Electrical Engineer Intern
+  location: Melbourne, FL
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Electrical-Engineer-Intern--Summer-2027-_01868065
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: shure-audio-dsp-engineer-intern-69c163
+  company: Shure
+  role: Audio DSP Engineer Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/4971/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: shure-embedded-software-intern-d149d6
+  company: Shure
+  role: Embedded Software Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/5018/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:speedyapply
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: shure-audio-test-engineering-intern-3af0db
+  company: Shure
+  role: Audio Test Engineering Intern
+  location: Skokie, IL
+  link: https://careersus-shure.icims.com/jobs/4973/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: intel-platform-hardware-and-systems-engineering-intern-bachelor-s-4d88cd
+  company: Intel
+  role: Platform Hardware and Systems Engineering Intern - Bachelor's
+  location: Austin, TX
+  link: https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Bachelor-s_JR0286827
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: intel-silicon-hardware-engineering-intern-graduate-e4a3d1
+  company: Intel
+  role: Silicon Hardware Engineering Intern - Graduate
+  location: Austin, TX
+  link: https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Graduate_JR0286830
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: intel-platform-hardware-and-systems-engineering-intern-c69143
+  company: Intel
+  role: Platform Hardware and Systems Engineering Intern
+  location: Austin, TX
+  link: https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Graduate_JR0286828
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: shure-electrical-engineer-intern-pro-audio-circuitry-6b69bc
+  company: Shure
+  role: Electrical Engineer Intern - Pro Audio Circuitry
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/5017/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: shure-digital-signal-processing-intern-5cde12
+  company: Shure
+  role: Digital Signal Processing Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/4957/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: stryten-system-engineer-intern-21c13c
+  company: Stryten
+  role: System Engineer Intern
+  location: Alpharetta, GA
+  link: https://jobs.stryten.com/jobs/5799?icims=1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: stryten-electrical-engineer-intern-57dd1b
+  company: Stryten
+  role: Electrical Engineer Intern
+  location: Alpharetta, GA
+  link: https://jobs.stryten.com/jobs/5800?icims=1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: stryten-industrial-or-mechanical-engineering-intern-45aa9d
+  company: Stryten
+  role: Industrial or Mechanical Engineering Intern
+  location: Salina, KS
+  link: https://jobs.stryten.com/jobs/5809?icims=1
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: v2x-electrical-engineer-intern-hardware-engineering-36e244
+  company: V2X
+  role: Electrical Engineer Intern - Hardware Engineering
+  location: Indianapolis, IN
+  link: https://careers.gov2x.com/jobs/62685?icims=1
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: sensata-electrical-engineer-intern-a1c70f
+  company: Sensata
+  role: Electrical Engineer Intern
+  location: South Burlington, VT
+  link: https://sensata.wd1.myworkdayjobs.com/en-US/Sensata-Careers/job/Dynapower-South-Burlington-VT/Electrical-Engineer-Intern--Dynapower----Summer-2027_IRC98423
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: globalfoundries-sige-hbt-device-modelling-intern-summer-2027-3112f0
+  company: GlobalFoundries
+  role: SiGe HBT Device Modelling Intern - Summer 2027
+  location: Essex Junction, VT
+  link: https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/SiGe-HBT-Device-Modelling-Intern--Summer-2027-_JR-2604271
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: ge-appliances-electrical-engineer-co-op-826c88
+  company: GE Appliances
+  role: Electrical Engineer Co-op
+  location: Louisville, KY
+  link: https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Electrical-Engineering-Co-op-Summer-2027_REQ-26429
+  date_posted: '2026-08-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: axon-2027-us-electrical-engineering-internship-1ac658
+  company: Axon
+  role: 2027 US Electrical Engineering Internship
+  location: Scottsdale, AZ
+  link: https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837252003
+  date_posted: '2026-08-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: imeg-electrical-engineer-intern-bcaf53
+  company: IMEG
+  role: Electrical Engineer Intern
+  location: Chicago, IL
+  link: https://wd1.myworkdaysite.com/recruiting/imeg/Imeg_Careers/job/Chicago-IL/Electrical-Engineering-Intern---Chicago--IL_R-16476
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: amd-product-development-engineer-intern-co-op-b88be9
+  company: AMD
+  role: Product Development Engineer Intern/Co-op
+  location: Rochester, NY
+  link: https://careers.amd.com/jobs/90790?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: amd-product-development-engineering-intern-co-op-ab424a
+  company: AMD
+  role: Product Development Engineering Intern/Co-op
+  location: Rochester, NY
+  link: https://careers.amd.com/jobs/91230?icims=1
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: imeg-electrical-engineer-intern-4de2e9
+  company: IMEG
+  role: Electrical Engineer Intern
+  location: Germantown, MD
+  link: https://wd1.myworkdaysite.com/recruiting/imeg/Imeg_Careers/job/Germantown-MD/Electrical-Engineering-Intern---Germantown--MD_R-16437
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: imeg-electrical-engineer-intern-9ee543
+  company: IMEG
+  role: Electrical Engineer Intern
+  location: Denver, CO
+  link: https://wd1.myworkdaysite.com/recruiting/imeg/Imeg_Careers/job/Denver-Metro-CO/Electrical-Engineering-Intern---Greenwood-Village--CO_R-16556
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: imeg-electrical-engineer-intern-b784bb
+  company: IMEG
+  role: Electrical Engineer Intern
+  location: Naperville, IL
+  link: https://wd1.myworkdaysite.com/recruiting/imeg/Imeg_Careers/job/Naperville-IL/Electrical-Engineering-Intern--Naperville--IL_R-16470
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: nvidia-digital-circuit-design-intern-1a70ba
+  company: NVIDIA
+  role: Digital Circuit Design Intern
+  location: Santa Clara, CA
+  link: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504
+  date_posted: '2026-08-19'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: garmin-electrical-design-engineer-intern-a925cc
+  company: Garmin
+  role: Electrical Design Engineer Intern
+  location: Olathe, KS
+  link: https://careers.garmin.com/jobs/19643?icims=1
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: imeg-electrical-engineer-intern-dbb468
+  company: IMEG
+  role: Electrical Engineer Intern
+  location: Rock Island, IL
+  link: https://wd1.myworkdaysite.com/recruiting/imeg/Imeg_Careers/job/Rock-Island-IL/Electrical-Engineering-Intern---Rock-Island--IL_R-16376
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: imeg-electrical-engineer-intern-education-867d30
+  company: IMEG
+  role: Electrical Engineer Intern - Education
+  location: Rock Island, IL
+  link: https://wd1.myworkdaysite.com/recruiting/imeg/Imeg_Careers/job/Rock-Island-IL/Electrical-Engineering-Intern---Rock-Island--IL_R-16364
+  date_posted: '2026-08-18'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: brunswick-electrical-engineer-intern-f90da9
+  company: Brunswick
+  role: Electrical Engineer Intern
+  location: Edgewater, FL
+  link: https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Edgewater-FL/Electrical-Engineer-Intern_JR-050891
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: ge-aerospace-systems-engineer-intern-electrical-engineering-computer-engineering-science-avionics-d8a543
+  company: GE Aerospace
+  role: Systems Engineer Intern - Electrical Engineering & Computer Engineering/Science
+    - Avionics
+  location: Grand Rapids, MI
+  link: https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Summer-2027_R5030118-1
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: ge-aerospace-engines-engineering-intern-computer-or-software-engineering-715cbd
+  company: GE Aerospace
+  role: Engines Engineering Intern - Computer or Software Engineering
+  location: Lynn, MA
+  link: https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Engines-Engineering-Intern---Computer-or-Software-Engineering---US---Summer-2027_R5029622-1
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: imeg-electrical-engineer-intern-d440e1
+  company: IMEG
+  role: Electrical Engineer Intern
+  location: Naperville, IL
+  link: https://wd1.myworkdaysite.com/recruiting/imeg/Imeg_Careers/job/Naperville-IL/Electrical-Engineering-Intern---Naperville--IL_R-16450
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: imeg-electrical-engineer-intern-b784bb
+- id: imeg-electrical-engineer-intern-20b55a
+  company: IMEG
+  role: Electrical Engineer Intern
+  location: Minneapolis, MN
+  link: https://wd1.myworkdaysite.com/recruiting/imeg/Imeg_Careers/job/Minneapolis-MN/Electrical-Engineering-Intern---Minneapolis--MN_R-16464
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: vertiv-electrical-engineer-intern-energy-storage-27b67f
+  company: Vertiv
+  role: Electrical Engineer Intern - Energy Storage
+  location: Delaware, OH
+  link: https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279271
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: intel-silicon-hardware-engineering-intern-bachelor-s-2ad38f
+  company: Intel
+  role: Silicon Hardware Engineering Intern - Bachelor's
+  location: Austin, TX
+  link: https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Bachelor-s_JR0286829
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: intel-system-technology-phd-intern-research-engineer-8df9bb
+  company: Intel
+  role: System Technology PhD Intern - Research Engineer
+  location: Austin, TX
+  link: https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/System-Technology---Research-Engineer--PhD-Intern-_JR0286791
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: globalfoundries-silicon-photonics-advanced-packaging-intern-ab482b
+  company: GlobalFoundries
+  role: Silicon Photonics Advanced Packaging Intern
+  location: Malta, NY
+  link: https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Silicon-Photonics-Advanced-Packaging-Intern--Summer-2027-_JR-2604270
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: susquehanna-international-group-fpga-engineer-intern-d90e12
+  company: Susquehanna International Group
+  role: FPGA Engineer Intern
+  location: Bala Cynwyd, PA
+  link: https://careers-sig.icims.com/jobs/11446/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: bytedance-intelligent-sensing-intern-global-frontier-tech-recruitment-program-561c1f
+  company: ByteDance
+  role: Intelligent Sensing Intern - Global Frontier Tech Recruitment Program
+  location: San Jose, CA
+  link: https://jobs.bytedance.com/en/position/7629210458173556997/detail
+  date_posted: '2026-06-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: reflect-orbital-embedded-firmware-engineering-intern-99d361
+  company: Reflect Orbital
+  role: Embedded Firmware Engineering Intern
+  location: Hawthorne, CA
+  link: https://jobs.ashbyhq.com/reflect-orbital/d5ade048-5555-4a77-b002-d117254b6e6b
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: apex-technology-software-engineering-internship-embedded-systems-spring-or-summer-2027-5c998f
+  company: Apex Technology
+  role: Software Engineering Internship - Embedded Systems - Spring or Summer 2027
+  location: Los Angeles, CA
+  link: https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: radiance-technologies-electrical-engineering-intern-442f45
+  company: Radiance Technologies
+  role: Electrical Engineering Intern
+  location: Huntsville, AL
+  link: https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Huntsville-AL/Electrical-Engineering-Intern_HR102394
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: sierra-nevada-corporation-mechanical-engineering-intern-summer-31d81d
+  company: Sierra Nevada Corporation
+  role: Mechanical Engineering Intern (Summer...
+  location: Hagerstown, MD
+  link: https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Mechanical-Engineering-Intern--Summer-2027-_R0030748
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: sierra-nevada-corporation-mechanical-engineering-intern-summer-35a763
+  company: Sierra Nevada Corporation
+  role: Mechanical Engineering Intern (Summer...
+  location: Lone Tree, CO
+  link: https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/Mechanical-Engineering-Intern--Summer-2027-_R0030745
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: brunswick-electro-mechanical-engineering-intern-4e8019
+  company: Brunswick
+  role: Electro - Mechanical Engineering Intern
+  location: Menomonee Falls, WI
+  link: https://brunswick.wd1.myworkdayjobs.com/search/job/Menomonee-Falls-WI/Electro---Mechanical-Engineering-Intern_JR-051298
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: booz-allen-hamilton-university-summer-2027-electronic-w-2d3f34
+  company: Booz Allen Hamilton
+  role: University - Summer 2027 Electronic W...
+  location: Beavercreek, OH
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Beavercreek-OH/University---Summer-2027-Electronic-Warfare-FPGA-Engineering-Intern_R0248465-1
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: micron-technology-intern-memory-system-architecture-14cc68
+  company: Micron Technology
+  role: Intern - Memory & System Architecture...
+  location: Folsom, CA
+  link: https://micron.wd1.myworkdayjobs.com/external/job/Folsom-CA/Intern---Memory---System-Architecture-Research_JR110475
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: rtx-electrical-engineer-intern-summer-2027-852d61
+  company: RTX
+  role: Electrical Engineer Intern - Summer 2027
+  location: Cedar Rapids, IA
+  link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Electrical-Engineer-Intern--Summer-2027-_01864998
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: tesla-embedded-software-engineer-intern-optimus-d44416
+  company: Tesla
+  role: Embedded Software Engineer Intern - Optimus
+  location: Palo Alto, CA
+  link: https://www.tesla.com/careers/search/job/282340
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: entergy-engineering-intern-755ae2
+  company: Entergy
+  role: Engineering Intern
+  location: New Orleans, LA
+  link: https://jobs.entergy.com/job/New-Orleans-Student,-Intern-Engineering-Summer-2027-Loui/1426672400/?ats=successfactors
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: ge-vernova-hardware-engineer-co-op-critical-infrastructure-communications-da47ea
+  company: GE Vernova
+  role: Hardware Engineer Co-op - Critical Infrastructure Communications
+  location: Rochester, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Grid-Solutions---Hardware-Engineering-Co-op--Critical-Infrastructure-Communications----Summar-Fall-2027_R5051649-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: ge-vernova-hardware-engineer-intern-critical-infrastructure-communications-ec00aa
+  company: GE Vernova
+  role: Hardware Engineer Intern - Critical Infrastructure Communications
+  location: Rochester, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Grid-Solutions---Hardware-Engineering-Intern--Critical-Infrastructure-Communications----Spring-Summer-2027_R5051647-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: taara-coherent-optical-systems-internship-82ea5d
+  company: Taara
+  role: Coherent Optical Systems Internship
+  location: Sunnyvale, CA
+  link: https://jobs.ashbyhq.com/taaraconnect/06d29a2a-9913-4c52-b1ba-9236ca086acb
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: shure-electrical-engineer-intern-digital-circuitry-test-automation-e7e4b2
+  company: Shure
+  role: Electrical Engineer Intern - Digital Circuitry & Test Automation
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/5028/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: globalfoundries-rf-technology-development-automation-engineer-intern-summer-2027-9e44a2
+  company: GlobalFoundries
+  role: RF Technology Development Automation Engineer Intern - Summer 2027
+  location: Malta, NY
+  link: https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/RF-Technology-Development-Automation-Engineering-Intern--Summer-2027-_JR-2604272
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-04'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: nokia-optical-test-co-op-eb7c7a
+  company: Nokia
+  role: Optical Test Co-op
+  location: San Jose, CA
+  link: https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40023
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-firmware-engineer-intern-b27821
+  company: Marvell
+  role: Firmware Engineer Intern
+  location: Santa Clara, CA
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer-Intern--MS---Summer-2027_2604513
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:speedyapply
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-design-for-test-intern-205631
+  company: Marvell
+  role: Design for Test Intern
+  location: Morrisville, NC
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Morrisville-NC/Design-for-Test-Intern--BS---Summer-2027_2604511-1
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-analog-design-intern-ms-5d508f
+  company: Marvell
+  role: Analog Design Intern - MS
+  location: Santa Clara, CA
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Analog-Design-Intern--MS---Summer-2027_2604510-1
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-ic-validation-engineer-intern-ms-multiple-teams-f6cba9
+  company: Marvell
+  role: IC Validation Engineer Intern - MS - Multiple Teams
+  location: Irvine, CA
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/IC-Validation-Engineer-Intern--MS---Summer-2027_2604515
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-firmware-engineer-intern-ed9076
+  company: Marvell
+  role: Firmware Engineer Intern
+  location: Santa Clara, CA
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer-Intern--BS---Summer-2027_2604461
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-functional-validation-intern-bs-7e42de
+  company: Marvell
+  role: Functional Validation Intern - BS
+  location: Santa Clara, CA
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Westborough-MA/Functional-Validation-Intern--BS---Summer-2027_2604514
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: hewlett-packard-enterprise-asic-firmware-and-diagnostic-intern-9bb712
+  company: Hewlett Packard Enterprise
+  role: ASIC Firmware and Diagnostic Intern
+  location: Chippewa Falls, WI
+  link: https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/ASIC-Firmware-and-Diagnostic-Intern_1213415
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: zipline-embedded-engineering-intern-summer-2027-cf699d
+  company: Zipline
+  role: Embedded Engineering Intern - Summer 2027
+  location: South San Francisco, CA
+  link: https://www.zipline.com/open-roles/7978843003?gh_jid=7978843003
+  date_posted: '2026-08-28'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: zipline-embedded-engineering-intern-summer-2027-ea224b
+- id: reflect-orbital-electrical-engineering-intern-522ff2
+  company: Reflect Orbital
+  role: Electrical Engineering Intern
+  location: Hawthorne, CA
+  link: https://jobs.ashbyhq.com/reflect-orbital/a0f12586-4821-4683-8983-c268e621ca0e
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-design-verification-intern-ms-summ-2e0a63
+  company: Marvell
+  role: Design Verification Intern, MS - Summ...
+  location: Santa Clara, CA
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-Verification-Intern--MS---Summer-2027_2604506-1
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: cdm-smith-electrical-engineer-intern-summer-2027-2c632f
+  company: CDM Smith
+  role: Electrical Engineer Intern - Summer 2027
+  location: Latham, NY
+  link: https://careers.cdmsmith.com/jobs/4398?icims=1
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-design-verification-intern-bs-summer-2027-542a77
+  company: Marvell
+  role: Design Verification Intern - BS - Summer 2027
+  location: Morrisville, NC
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Design-Verification-Intern--BS---Summer-2027_2604505
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-software-engineering-intern-firmware-ai-engineering-c1251b
+  company: Solidigm
+  role: Software Engineering Intern - Firmware & AI Engineering
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/Solidigm/744000147613769
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-hardware-product-development-engineering-intern-03dc1e
+  company: Solidigm
+  role: Hardware & Product Development Engineering Intern
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/Solidigm/744000147613839
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-hardware-electrical-validation-and-product-engineering-intern-validation-d6450b
+  company: Solidigm
+  role: Hardware, Electrical Validation and Product Engineering Intern - Validation
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/Solidigm/744000147613779
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-software-development-firmware-engineering-intern-multiple-teams-43edff
+  company: Solidigm
+  role: Software Development & Firmware Engineering Intern - Multiple Teams
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/Solidigm/744000147613629
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-2027-graduate-software-firmware-ai-379e4c
+  company: Solidigm
+  role: 2027 Graduate Software, Firmware & AI...
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/solidigm/744000147613769
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: applied-materials-summer-2027-mechanical-engineer-inter-c907fb
+  company: Applied Materials
+  role: Summer 2027 Mechanical Engineer Inter...
+  location: Austin, TX
+  link: https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Summer-2027-Mechanical-Engineer-Intern--Bachelor-s--Austin--TX-_R2628093
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-2027-undergraduate-hardware-product-3ab6a2
+  company: Solidigm
+  role: 2027 Undergraduate Hardware & Product...
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/solidigm/744000147613839
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: solidigm-2027-graduate-hardware-validation-a-13b29c
+  company: Solidigm
+  role: 2027 Graduate Hardware, Validation, a...
+  location: Rancho Cordova, CA
+  link: https://jobs.smartrecruiters.com/solidigm/744000147613779
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: marvell-ph-d-intern-analog-mixed-signal-f49ccb
+  company: Marvell
+  role: Ph.D. Intern - Analog, Mixed Signal &...
+  location: Santa Clara, CA
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/PhD-Intern---Analog--Mixed-Signal---Circuit-Design_2604142
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: microsoft-firmware-engineering-intern-7f8aad
+  company: Microsoft
+  role: Firmware Engineering INTERN
+  location: Washington, DC
+  link: https://apply.careers.microsoft.com/careers/job/1970393556981972
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null

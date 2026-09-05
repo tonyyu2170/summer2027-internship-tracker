@@ -117,7 +117,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-11'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
 - id: trustage-actuarial-internship-summer-2027-hybrid-b8e81f
   company: TruStage
@@ -182,4 +182,56 @@
   - company:rli-corp
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
+  possible_duplicate_of: null
+- id: western-southern-financial-group-actuarial-intern-summer-2027-97f0f0
+  company: Western & Southern Financial Group
+  role: Actuarial Intern - Summer 2027
+  location: Cincinnati, OH
+  link: https://careers-westernsouthern.icims.com/jobs/25106/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: manulife-summer-intern-2027-actuarial-us-04b366
+  company: Manulife
+  role: Summer Intern 2027 – Actuarial US
+  location: Boston, MA
+  link: https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Actuarial-US_JR26081417-1
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-04'
+  possible_duplicate_of: null
+- id: crum-forster-insurance-actuarial-data-science-or-product-services-intern-commercial-lines-d8d682
+  company: Crum & Forster Insurance
+  role: Actuarial, Data Science or Product Services Intern - Commercial Lines
+  location: Morristown, NJ
+  link: https://careers-cfins.icims.com/jobs/5108/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-03'
+  last_verified: '2026-09-05'
   possible_duplicate_of: null
