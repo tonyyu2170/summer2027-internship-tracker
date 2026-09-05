@@ -4777,6 +4777,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -4812,6 +4813,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -4831,6 +4833,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -4849,6 +4852,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null

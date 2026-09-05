@@ -1,16 +1,16 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-09-05 11:35 EST — 1786 open roles. Last scrape: +13 new, 11 closed._
+_Last updated: 2026-09-05 16:03 EST — 1799 open roles. Last scrape: +13 new, 0 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
 ## Contents
 
-- [Software Engineering](#software-engineering) (812 open)
+- [Software Engineering](#software-engineering) (824 open)
 - [Quantitative Finance](#quantitative-finance) (183 open)
 - [Data Science](#data-science) (195 open)
 - [AI/ML](#aiml) (283 open)
-- [Hardware Engineering](#hardware-engineering) (300 open)
+- [Hardware Engineering](#hardware-engineering) (301 open)
 - [Actuarial](#actuarial) (13 open)
 - [Programs](#programs)
 - [Research](#research)
@@ -22,11 +22,14 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Zipline | Aircraft Software Integration Intern - Summer 2027 | [Apply](<https://www.zipline.com/open-roles/7986848003?gh_jid=7986848003>) | 2026-09-05 | Summer 2027 | BS |
+| Juicebox | Software Engineer Intern | [Apply](<https://jobs.ashbyhq.com/juicebox/1af7ec98-9c2e-4101-868e-58e6f35cd23a>) | 2026-09-05 | Summer 2027 | BS |
+| Apex Technology | Simulation Software Engineering Internship - Spring or Summer 2027 | [Apply](<https://jobs.ashbyhq.com/apex-technology-inc/d3e21f84-3637-4521-833d-fd07b3ca5f2e>) | 2026-09-05 | Summer 2027 | BS |
 | Solidigm | 2027 Undergraduate Software Developme... | [Apply](<https://jobs.smartrecruiters.com/solidigm/744000147613629>) | 2026-09-05 | Summer 2027 | BS |
 | Marvell | Physical Design Engineer Intern, BS -... | [Apply](<https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Physical-Design-Engineer-Intern--BS---Summer-2027_2604517-1>) | 2026-09-05 | Summer 2027 | BS |
 | Marvell | Physical Design Engineer Intern, MS -... | [Apply](<https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Physical-Design-Engineer-Intern--MS---Summer-2027_2604518-1>) | 2026-09-05 | Summer 2027 | BS |
 | Garner Health | Software Engineering Intern | [Apply](<https://job-boards.greenhouse.io/garnerhealth/jobs/6164698004>) | 2026-09-05 | Summer 2027 | BS |
-| Rivian and Volkswagen Group Technologies | Software Engineering Intern - Connect... | [Apply](<https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2>) | 2026-09-05 | Summer 2027 | BS |
+| Rivian and Volkswagen Group Technologies | Software Engineering Intern - Connected Systems - January - August 2027 | [Apply](<https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2>) | 2026-09-05 | Summer 2027 | BS |
 | ByteDance | Site Reliability Engineer Intern (Dat... | [Apply](<https://joinbytedance.com/search/7672922352988342533>) | 2026-09-05 | Summer 2027 | BS |
 | The Exploration Company | Summer 2027 Internship - Software | [Apply](<https://jobs.ashbyhq.com/the-exploration-company/86270058-8eec-4692-b49d-97ce59fd54ac>) | 2026-09-05 | Summer 2027 | BS |
 | Skillz | Co-op - Software Engineer | [Apply](<https://job-boards.greenhouse.io/skillzinc/jobs/8168006>) | 2026-09-05 | Summer 2027 | BS |
@@ -34,6 +37,13 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Apex Technology | Software Engineering Internship - Test & Automation - Spring or Summer 2027 | [Apply](<https://jobs.ashbyhq.com/apex-technology-inc/692bb497-59ba-44df-bacf-fffd2f7c6344>) | 2026-09-05 | Summer 2027 | BS |
 | Apex Technology | Ground Software Engineering Internship - Spring or Summer 2027 | [Apply](<https://jobs.ashbyhq.com/apex-technology-inc/2d5ad921-241f-4e7a-b9ff-9d01763da88c>) | 2026-09-05 | Summer 2027 | BS |
 | Amazon | Software Development Engineer Intern - ROBOTICS - 2027 | [Apply](<https://www.amazon.jobs/jobs/10529525/apply>) | 2026-09-05 | Summer 2027 | BS |
+| Allegion | Summer Intern - Engineering - OpEx Di... | [Apply](<https://allegion.wd5.myworkdayjobs.com/careers/job/Olathe-KS/Summer-Intern---Engineering---OpEx-Distribution_JR37417-1>) | 2026-09-04 | Summer 2027 | BS |
+| Simon Property Group | Intern - Front End Developer - Computer Science - Web Development - or Information Sciences Majors | [Apply](<https://simon.wd1.myworkdayjobs.com/en-US/simon/job/Indianapolis-IN/Intern---Front-End-Developer--Computer-Science--Web-Development--or-Information-Sciences-Majors-_R13975>) | 2026-09-04 | Summer 2027 | BS |
+| PayPal | Software Engineer Intern | [Apply](<https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Software-Engineer-Intern_R0137285>) | 2026-09-04 | Summer 2027 | BS |
+| Microchip | Intern - Engineering - Device Software and Test | [Apply](<https://microchiphr.wd5.myworkdayjobs.com/en-US/external/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26>) | 2026-09-04 | Summer 2027 | BS |
+| Johnson Controls | Software/Controls Engineering Grad Intern | [Apply](<https://jci.wd5.myworkdayjobs.com/en-US/jci/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1>) | 2026-09-04 | Summer 2027 | BS |
+| CNA Insurance | Technology Internship Program - Software Engineering | [Apply](<https://cna.wd1.myworkdayjobs.com/en-US/cna_careers/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107>) | 2026-09-04 | Summer 2027 | BS |
+| Charles Schwab | 2027 Technology Intern - Site Reliability Engineering | [Apply](<https://career-schwab.icims.com/jobs/126229/2027-technology-intern---site-reliability-engineering/job>) | 2026-09-04 | Summer 2027 | BS |
 | Hy-Vee | Cyber Security Intern- Summer 2027 | [Apply](<https://hyvee.wd1.myworkdayjobs.com/HyVeeCareers/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153>) | 2026-09-04 | Summer 2027 | BS |
 | SEL | Software Engineering Intern - Power Systems | [Apply](<https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Idaho---Boise/Software-Engineering-Intern---Power-Systems_2026-22933>) | 2026-09-04 | Summer 2027 | BS |
 | Cadence | Software Intern | [Apply](<https://cadence.wd1.myworkdayjobs.com/en-US/external_careers/job/SAN-JOSE/Software-Intern_R56258>) | 2026-09-04 | Summer 2027 | BS |
@@ -139,6 +149,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Western & Southern Financial Group | Software Engineering Intern - Full Year 2027 | [Apply](<https://careers-westernsouthern.icims.com/jobs/25222/software-engineering-intern-%28full-year-2027%29/job>) | 2026-09-03 | Summer 2027 | BS |
 | Valon Tech | Software Engineer Intern | [Apply](<https://jobs.ashbyhq.com/valon/b5a62c0c-823c-42dd-8cb5-e4b1455bcc64>) | 2026-09-03 | Summer 2027 | BS |
 | IEX Group | Software Development Engineer in Test Intern | [Apply](<https://iex.io/careers/apply?gh_jid=8172248>) | 2026-09-03 | Summer 2027 | BS |
+| Stoke Space | Summer 2027 Internship - Software | [Apply](<https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6176786004>) | 2026-09-02 | Summer 2027 | BS |
 | Clearwater Analytics | Software Development Intern | [Apply](<https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Boise/Software-Development-Intern_R12098>) | 2026-09-02 | Summer 2027 | BS |
 | Clearwater Analytics | Software Development Intern | [Apply](<https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12188>) | 2026-09-02 | Summer 2027 | BS |
 | Clearwater Analytics | Salesforce Developer Intern | [Apply](<https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Boise/Salesforce-Developer-Intern_R12215>) | 2026-09-02 | Summer 2027 | BS |
@@ -179,6 +190,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Textron | Software Engineer Intern | [Apply](<https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=343299>) | 2026-09-02 | Summer 2027 | BS |
 | POET | Plant Engineering Intern - Summer 2027 | [Apply](<https://poet.wd1.myworkdayjobs.com/POET/job/Lake-Crystal-MN/Plant-Engineering-Intern---Summer-2027_R101662>) | 2026-09-02 | Summer 2027 | BS |
 | Duke Energy | Engineering Internship & Co-op Program - Summer 2027 | [Apply](<https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Charlotte-NC/Engineering-Internship---Co-op-Program---Summer-2027_R41226>) | 2026-09-02 | Summer 2027 | BS/MS |
+| Greenheck Group | Engineering Co-op | [Apply](<https://greenheckgroup.wd5.myworkdayjobs.com/external/job/Tulsa-OK/Engineering-Co-op-Opportunities--OK-_JR104348>) | 2026-09-01 | Summer 2027 | BS |
 | John Deere | Information Technology Intern - Technology | [Apply](<https://johndeere.eightfold.ai/careers/job/137482633322>) | 2026-09-01 | Summer 2027 | BS/MS |
 | Vanguard | Application Development Intern | [Apply](<https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Application-Development---TX-_181846>) | 2026-09-01 | Summer 2027 | BS/MS |
 | Corning | Digital & IT Intern - Analyst - Manufacturing | [Apply](<https://corningjobs.corning.com/job/Glendale-Digital-&-IT-Intern,-Analyst,-Phoenix-Manufacturing-Summer-2027-AZ-85301/1425543900/?ats=successfactors>) | 2026-09-01 | Summer 2027 | BS/MS |
@@ -1523,6 +1535,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Microsoft | Firmware Engineering INTERN | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556981972>) | 2026-09-05 | Summer 2027 | BS |
 | Solidigm | 2027 Graduate Hardware, Validation, a... | [Apply](<https://jobs.smartrecruiters.com/solidigm/744000147613779>) | 2026-09-05 | Summer 2027 | BS |
 | Solidigm | 2027 Undergraduate Hardware & Product... | [Apply](<https://jobs.smartrecruiters.com/solidigm/744000147613839>) | 2026-09-05 | Summer 2027 | BS |
 | Applied Materials | Summer 2027 Mechanical Engineer Inter... | [Apply](<https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Summer-2027-Mechanical-Engineer-Intern--Bachelor-s--Austin--TX-_R2628093>) | 2026-09-05 | Summer 2027 | BS |

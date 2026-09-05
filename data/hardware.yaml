@@ -5816,6 +5816,8 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -5868,6 +5870,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -5885,6 +5888,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zapplyjobs
+  - github_tracker:speedyapply
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -5987,6 +5991,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -6022,6 +6027,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -6039,6 +6045,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -6057,6 +6064,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -6074,6 +6082,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
@@ -6154,6 +6163,22 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-09-05'
+  last_verified: '2026-09-05'
+  possible_duplicate_of: null
+- id: microsoft-firmware-engineering-intern-7f8aad
+  company: Microsoft
+  role: Firmware Engineering INTERN
+  location: Washington, DC
+  link: https://apply.careers.microsoft.com/careers/job/1970393556981972
+  date_posted: '2026-09-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
   date_added: '2026-09-05'
   last_verified: '2026-09-05'
   possible_duplicate_of: null
