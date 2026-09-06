@@ -4437,6 +4437,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-03'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -4759,6 +4760,7 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-05'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -4873,5 +4875,24 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-09-05'
+  last_verified: '2026-09-06'
+  possible_duplicate_of: null
+- id: goldman-sachs-quantitative-strategist-intern-asset-and-wealth-management-quantitative-strats-428152
+  company: Goldman Sachs
+  role: Quantitative Strategist Intern - Asset and Wealth Management - Quantitative
+    Strats
+  location: Salt Lake City, UT
+  link: https://higher.gs.com/roles/171549?type=students
+  date_posted: '2026-08-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-06'
   last_verified: '2026-09-06'
   possible_duplicate_of: null

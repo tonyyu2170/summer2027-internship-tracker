@@ -6331,7 +6331,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-09-05'
+  last_verified: '2026-09-06'
   possible_duplicate_of: machina-labs-robotic-process-engineer-intern-197d6a
 - id: crest-industries-cis-cs-internship-f26223
   company: Crest Industries
@@ -11554,6 +11554,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -11724,6 +11725,7 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -12983,6 +12985,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   - github_tracker:speedyapply
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -13002,6 +13005,8 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -13021,6 +13026,8 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -13040,6 +13047,8 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -14534,8 +14543,9 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-06'
   possible_duplicate_of: null
 - id: booz-allen-hamilton-university-2027-summer-games-cyber-f55bdf
   company: Booz Allen Hamilton
@@ -14551,8 +14561,9 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-06'
   possible_duplicate_of: null
 - id: booz-allen-hamilton-university-2027-summer-games-cyber-5369b7
   company: Booz Allen Hamilton
@@ -14567,8 +14578,9 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-06'
   possible_duplicate_of: null
 - id: wavetronix-computer-science-internship-summer-2027-a9e47b
   company: Wavetronix
@@ -16209,7 +16221,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-09-03'
-  last_verified: '2026-09-03'
+  last_verified: '2026-09-06'
   possible_duplicate_of: null
 - id: gpc-customer-software-development-intern-1f59b7
   company: GPC
@@ -16635,6 +16647,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:speedyapply
   date_added: '2026-09-03'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -18725,6 +18738,7 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:zapplyjobs
   date_added: '2026-09-05'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -18742,6 +18756,7 @@
   sources:
   - github_tracker:speedyapply
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-05'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -18880,7 +18895,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-09-05'
-  last_verified: '2026-09-05'
+  last_verified: '2026-09-06'
   possible_duplicate_of: null
 - id: talentpluto-full-stack-engineering-intern-efd1fe
   company: talentpluto
@@ -19260,12 +19275,14 @@
   status: open
   sources:
   - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:zshah101
   date_added: '2026-09-05'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
 - id: allegion-summer-intern-engineering-opex-di-261e4a
   company: Allegion
-  role: Summer Intern - Engineering - OpEx Di...
+  role: Summer Intern - Engineering - OpEx Distribution
   location: Olathe, KS
   link: https://allegion.wd5.myworkdayjobs.com/careers/job/Olathe-KS/Summer-Intern---Engineering---OpEx-Distribution_JR37417-1
   date_posted: '2026-09-04'
@@ -19277,7 +19294,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-05'
-  last_verified: '2026-09-05'
+  last_verified: '2026-09-06'
   possible_duplicate_of: null
 - id: goldman-sachs-summer-analyst-intern-engineering-3e3ccf
   company: Goldman Sachs
@@ -19310,6 +19327,70 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-09-06'
+  last_verified: '2026-09-06'
+  possible_duplicate_of: null
+- id: clearwater-analytics-software-development-intern-c51fc4
+  company: Clearwater Analytics
+  role: Software Development Intern
+  location: Chicago, IL
+  link: https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12187
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-06'
+  last_verified: '2026-09-06'
+  possible_duplicate_of: null
+- id: clearwater-analytics-software-development-intern-35d09c
+  company: Clearwater Analytics
+  role: Software Development Intern
+  location: Chicago, IL
+  link: https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12186
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-09-06'
+  last_verified: '2026-09-06'
+  possible_duplicate_of: null
+- id: palantir-year-at-palantir-forward-deployed-software-engineer-internship-usg-c8e66a
+  company: Palantir
+  role: Year at Palantir - Forward Deployed Software Engineer, Internship - USG
+  location: New York, NY
+  link: https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333
+  date_posted: '2026-09-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-06'
+  last_verified: '2026-09-06'
+  possible_duplicate_of: null
+- id: booz-allen-university-2027-summer-games-cyber-security-intern-honolulu-hi-b989e3
+  company: Booz Allen
+  role: University - 2027 Summer Games Cyber Security Intern - Honolulu, HI
+  location: Honolulu, HI
+  link: https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Cyber-Security-Intern---Honolulu--HI_R0248411
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
   date_added: '2026-09-06'
   last_verified: '2026-09-06'
   possible_duplicate_of: null

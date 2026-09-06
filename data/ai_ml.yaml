@@ -6526,6 +6526,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-09-06'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
@@ -6542,6 +6543,7 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-09-06'
   last_verified: '2026-09-06'
   possible_duplicate_of: null
