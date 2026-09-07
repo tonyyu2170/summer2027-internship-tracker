@@ -219,7 +219,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-09-06'
+  last_verified: '2026-09-07'
   possible_duplicate_of: null
   date_estimated: true
 - id: exowatt-software-engineering-intern-agent-platform-ai-695290
@@ -6342,7 +6342,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -6491,5 +6491,142 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-06'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-asset-strategy-budget-integration-intern-1c6002
+  company: Xcel Energy
+  role: Asset Strategy & Budget Integration Intern
+  location: Henderson, CO
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Henderson-CO-80640/Asset-Strategy---Budget-Integration-Intern--CO_JR115564-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-resource-planning-intern-304ac1
+  company: Xcel Energy
+  role: Resource Planning Intern
+  location: Denver, CO
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/Resource-Planning-Intern--CO_JR115820-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-renewable-and-demand-response-intern-b738af
+  company: Xcel Energy
+  role: Renewable and Demand Response Intern
+  location: Denver, CO
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/Renewable-and-Demand-Response-Intern--CO_JR115433-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-gis-intern-457486
+  company: Xcel Energy
+  role: GIS Intern
+  location: Minneapolis, MN
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55401/GIS-Intern---MN_JR115658
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-wildfire-analyst-intern-82d5cc
+  company: Xcel Energy
+  role: Wildfire Analyst Intern
+  location: Denver, CO
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/Wildfire-Analyst-Intern--CO_JR115413-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: nxp-semiconductors-embedded-machine-learning-radar-processing-intern-summer-2027-cd5542
+  company: NXP Semiconductors
+  role: Embedded Machine Learning & Radar Processing Intern - Summer 2027
+  location: San Jose, CA
+  link: https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/Embedded-Machine-Learning---Radar-Processing-Intern---Summer-2027_R-10065534
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-ai-automation-intern-regulatory-35c354
+  company: Xcel Energy
+  role: AI & Automation Intern - Regulatory
+  location: Denver, CO
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI---Automation-Intern--CO_JR115739-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-ai-solutions-development-intern-82a1ff
+  company: Xcel Energy
+  role: AI Solutions Development Intern
+  location: Minneapolis, MN
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI-Solutions-Development-Intern-CO--MN_JR116329-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
   last_verified: '2026-09-07'
   possible_duplicate_of: null

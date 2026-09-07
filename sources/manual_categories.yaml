@@ -1447,3 +1447,16 @@ https://jobs.uhsinc.com/jobs/367247?icims=1: swe
 ? https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Analytic-Consulting-Advisor-Internship_100235
 : __drop__
 https://repsol.wd3.myworkdayjobs.com/Repsol/job/Alaska/Subsurface-Engineering-Intern_84011-1: __drop__
+? https://nxp.wd3.myworkdayjobs.com/Careers/job/Austin-Oakhill-Office/Analog-Validation-Intern---Summer-2027_R-10065558
+: hardware
+? https://nxp.wd3.myworkdayjobs.com/Careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Summer-2027_R-10065551
+: hardware
+? https://nxp.wd3.myworkdayjobs.com/Careers/job/Austin-Oakhill-Office/Demand-Planning-Intern---Summer-2027_R-10064588
+: __drop__
+? https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Market-Access-Strategy--LCS-_R26-5069-1
+: __drop__
+# scheduled run 2026-09-07: off-scope utility roles filed into ai_ml by tracker category.
+https://xcelenergy.wd1.myworkdayjobs.com/External/job/Golden-CO-80401/Renewable-Operation-Center-Intern--CO_JR115736-1: __drop__
+https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55418/Energy-Supply-Renewable-Intern---MN_JR115609-1: __drop__
+? https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55418/Reporting-and-Compliance-Analyst-Intern---MN_JR115608-1
+: __drop__

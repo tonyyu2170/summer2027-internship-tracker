@@ -19062,7 +19062,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -19413,5 +19413,62 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: icf-international-software-developer-intern-ab6d44
+  company: ICF International
+  role: Software Developer Intern
+  location: Reston, VA
+  link: https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: tokyo-electron-automation-developer-analyst-intern-25e266
+  company: Tokyo Electron
+  role: Automation Developer/Analyst Intern
+  location: Austin, TX
+  link: https://tel.wd3.myworkdayjobs.com/tel-careers/job/Austin-RiverSouth/Automation-Developer-Analyst-Intern_R26-01497
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: tokyo-electron-data-platforms-engineer-intern-f6b49f
+  company: Tokyo Electron
+  role: Data Platforms Engineer Intern
+  location: Austin, TX
+  link: https://tel.wd3.myworkdayjobs.com/tel-careers/job/Austin-RiverSouth/Data-Platforms-Engineer-Summer-2027-Intern_R26-01498
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
   last_verified: '2026-09-07'
   possible_duplicate_of: null

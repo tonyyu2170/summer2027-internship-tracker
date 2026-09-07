@@ -235,3 +235,19 @@
   date_added: '2026-09-03'
   last_verified: '2026-09-07'
   possible_duplicate_of: null
+- id: ameriprise-financial-actuarial-intern-1d05e3
+  company: Ameriprise Financial
+  role: Actuarial Intern
+  location: Minneapolis, MN
+  link: https://ameriprise.wd5.myworkdayjobs.com/Ameriprise/job/Minneapolis-Minnesota/Actuarial-Intern_R26_3572
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null

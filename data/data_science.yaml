@@ -4510,3 +4510,157 @@
   date_added: '2026-09-05'
   last_verified: '2026-09-07'
   possible_duplicate_of: null
+- id: xcel-energy-power-generation-analytics-intern-0aabb9
+  company: Xcel Energy
+  role: Power Generation Analytics Intern
+  location: Henderson, CO
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Henderson-CO-80640/Power-Generation-Analytics-Intern--CO_JR115734-2
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-data-science-intern-a8ac98
+  company: Xcel Energy
+  role: Data Science Intern
+  location: Minneapolis, MN
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/Data-Science-Intern-CO--MN_JR116327-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-data-scientist-intern-7cf87a
+  company: Xcel Energy
+  role: Data Scientist Intern
+  location: Minneapolis, MN
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55401/Data-Scientist-Intern---MN--CO_JR115668-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-data-analyst-intern-43aa42
+  company: Xcel Energy
+  role: Data Analyst Intern
+  location: Denver, CO
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80223/Reliability-Data-Analyst-Intern--CO_JR115833
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: nxp-semiconductors-data-science-structured-problem-solving-intern-summer-2027-491eca
+  company: NXP Semiconductors
+  role: Data Science / Structured Problem Solving Intern - Summer 2027
+  location: Austin, TX
+  link: https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Ed-Bluestein-Office/Data-Science---Structured-Problem-Solving-Intern---Summer-2027_R-10065037
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: nxp-semiconductors-data-analytics-engineer-intern-summer-2027-b8d068
+  company: NXP Semiconductors
+  role: Data Analytics Engineer Intern - Summer 2027
+  location: Austin, TX
+  link: https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Data-Analytics-Engineer-Intern---Summer-2027_R-10065538
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-gas-data-intern-416b46
+  company: Xcel Energy
+  role: Gas Data Intern
+  location: Denver, CO
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80223/Gas-Data-Intern--CO_JR116314-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: xcel-energy-grid-data-intern-c0dd2f
+  company: Xcel Energy
+  role: Grid Data Intern
+  location: Minneapolis, MN
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55418/Grid-Data-Intern---MN_JR115742-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: tokyo-electron-business-intelligence-analyst-intern-889009
+  company: Tokyo Electron
+  role: Business Intelligence Analyst Intern
+  location: Austin, TX
+  link: https://tel.wd3.myworkdayjobs.com/tel-careers/job/Austin-RiverSouth/Business-Intelligence-Analyst-Summer-2027-Intern_R26-01504
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-07'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
