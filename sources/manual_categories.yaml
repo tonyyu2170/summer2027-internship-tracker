@@ -1253,3 +1253,29 @@ https://psu.wd1.myworkdayjobs.com/Student/job/Freeport-PA/Research-and-Developme
 # auto verify_links: live page says a non-2027 term.
 ? https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-Data-AI-Solutions-Engineering/363475
 : __drop__
+# Scrape 2026-09-10: title-level adjudication for newly parked tracker rows.
+https://genpt.wd1.myworkdayjobs.com/en-US/careers/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134: swe
+https://joinbytedance.com/search/7679888555519527221: ai_ml
+https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Madison/Digital-Design-Intern_R4045659-1: hardware
+https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/UX-Design-Internship---Minneapolis--MN--Starting-Summer--2027-_R0000451077: __drop__
+https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-ME-NORTH-BERWICK-113--113-Wells-St--WELLS-Rte-9/Structures-Intern--Summer-2027---Onsite-_01872690: __drop__
+https://jobs.smartrecruiters.com/NBCUniversal3/744000145605599: __drop__
+https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Governance--Risk---Analysis_R0054675: __drop__
+https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Tax-Intern--Summer-2027-_R9535: __drop__
+https://labcorp.wd1.myworkdayjobs.com/external/job/Indianapolis-IN/Intern---Genomics-Lab_2630755: __drop__
+https://labcorp.wd1.myworkdayjobs.com/external/job/Itasca-IL/Intern---Lab_2630983: __drop__
+https://labcorp.wd1.myworkdayjobs.com/external/job/Phoenix-AZ/Intern---Lab_2631415: __drop__
+https://lplfinancial.wd1.myworkdayjobs.com/university/job/Tempe/Internship-Summer-2027-Wealth-Advisor-Group_R-052554: __drop__
+"https://careers-canada-secure.icims.com/jobs/1954/job?mobile=true&needsRedirect=false": __drop__
+https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32324: __drop__
+https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32314: __drop__
+https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32293: __drop__
+https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32310: __drop__
+https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32396: __drop__
+https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Stafford/Research---Innovation---Intern_R5052249: __drop__
+https://recruiting.paylocity.com/Recruiting/Jobs/Details/4488075: __drop__
+https://aramcoservices.applytojob.com/apply/rbnifQQ0X6/Research-And-Development-Houston-Research-Center-2027-Summer-Student-Program: __drop__
+https://aramcoservices.applytojob.com/apply/ycFkgdZtKy/Research-And-Development-Detroit-Research-Center-2027-Summer-Student-Program: __drop__
+https://hbfuller.wd1.myworkdayjobs.com/Careers/job/St-Paul-Minnesota-USA/R-D-Intern_R26_0000002124: __drop__
+# auto verify_links: live page says a non-2027 term.
+https://jobs.smartrecruiters.com/solidigm/744000148610610: __drop__
