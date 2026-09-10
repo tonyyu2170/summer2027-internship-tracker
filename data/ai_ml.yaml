@@ -5595,42 +5595,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: western-southern-financial-group-actuarial-intern-summer-2027-97f0f0
-  company: Western & Southern Financial Group
-  role: Actuarial Intern - Summer 2027
-  location: Cincinnati, OH
-  link: https://careers-westernsouthern.icims.com/jobs/25106/job?mobile=true&needsRedirect=false
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: first-national-bank-enterprise-operations-intern-multiple-teams-44e8b4
-  company: First National Bank
-  role: Enterprise Operations Intern - Multiple Teams
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Enterprise-Operations-Intern_2026-01839
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
 - id: shure-artificial-intelligence-engineer-intern-a42983
   company: Shure
   role: Artificial Intelligence Engineer Intern
@@ -5669,43 +5633,6 @@
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: shure-data-engineer-intern-2ff07f
-  company: Shure
-  role: Data Engineer Intern
-  location: Niles, IL
-  link: https://careersus-shure.icims.com/jobs/4982/job?mobile=true&needsRedirect=false
-  date_posted: '2026-09-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: shure-quality-data-engineering-intern-1e53cd
-  company: Shure
-  role: Quality Data Engineering Intern
-  location: Niles, IL
-  link: https://careersus-shure.icims.com/jobs/4995/job?mobile=true&needsRedirect=false
-  date_posted: '2026-09-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
 - id: shure-artificial-intelligence-specialist-intern-operations-cd19bc
   company: Shure
   role: Artificial Intelligence Specialist Intern - Operations
@@ -5721,23 +5648,6 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: repsol-subsurface-engineering-intern-bdc7f7
-  company: Repsol
-  role: Subsurface Engineering Intern
-  location: Anchorage, AK
-  link: https://repsol.wd3.myworkdayjobs.com/Repsol/job/Alaska/Subsurface-Engineering-Intern_84011-1
-  date_posted: '2026-09-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
   - github_tracker:chieler
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
@@ -5761,73 +5671,6 @@
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: national-information-solutions-cooperative-data-engineer-intern-c003dd
-  company: National Information Solutions Cooperative
-  role: Data Engineer Intern
-  location: Mandan, ND
-  link: https://job-boards.greenhouse.io/testnisc/jobs/8167886
-  date_posted: '2026-09-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: national-information-solutions-cooperative-data-engineer-intern-18613f
-  company: National Information Solutions Cooperative
-  role: Data Engineer Intern
-  location: Lake St Louis, MO
-  link: https://job-boards.greenhouse.io/testnisc/jobs/8167884
-  date_posted: '2026-09-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: national-information-solutions-cooperative-data-engineer-intern-56c238
-  company: National Information Solutions Cooperative
-  role: Data Engineer Intern
-  location: Lake St Louis, MO
-  link: https://job-boards.greenhouse.io/nisc/jobs/8167858
-  date_posted: '2026-09-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: national-information-solutions-cooperative-data-engineer-intern-18613f
-- id: national-information-solutions-cooperative-data-engineer-intern-da18cb
-  company: National Information Solutions Cooperative
-  role: Data Engineer Intern
-  location: Lake St Louis, MO
-  link: https://job-boards.greenhouse.io/testnisc/jobs/8167883
-  date_posted: '2026-09-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: national-information-solutions-cooperative-data-engineer-intern-18613f
 - id: nvidia-robotics-intern-ph-d-research-6823e4
   company: NVIDIA
   role: Robotics Intern - Ph.D. Research
@@ -5838,42 +5681,6 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: springs-window-fashions-sustainability-data-specialist-intern-commercial-marketing-c39c08
-  company: Springs Window Fashions
-  role: Sustainability Data Specialist Intern - Commercial Marketing
-  location: Long Island City, NY
-  link: https://careers-springswindowfashions.icims.com/jobs/12896/job?mobile=true&needsRedirect=false
-  date_posted: '2026-08-22'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: nationwide-state-product-analyst-intern-personal-lines-7c2a51
-  company: Nationwide
-  role: State Product Analyst Intern - Personal Lines
-  location: Des Moines, IA
-  link: https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Summer-2027-State-Product-Analyst-Intern---Personal-Lines_099794
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
   status: open
   sources:
   - github_tracker:simplifyjobs
@@ -5954,24 +5761,6 @@
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: uline-international-operations-analyst-intern-618d0e
-  company: Uline
-  role: International Operations Analyst Intern
-  location: Waukegan, IL
-  link: https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/International-Operations-Analyst-Internship---Summer-2027_R265918
-  date_posted: '2026-08-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
 - id: tiktok-ai-ml-infrastructure-engineer-intern-data-arch-tiktok-live-7cb835
   company: TikTok
   role: Recommendation Architecture AI/ML Infrastructure Engineer Intern (Data-Arch-TikTok
@@ -6029,68 +5818,12 @@
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: drivetime-database-engineer-intern-47cf9b
-  company: DriveTime
-  role: Database Engineer Intern
-  location: Tempe, AZ
-  link: https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300
-  date_posted: '2026-09-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zshah101
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: uline-executive-operations-analyst-intern-summer-2027-51579c
-  company: Uline
-  role: Executive Operations Analyst Intern - Summer 2027
-  location: Waukegan, IL
-  link: https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Executive-Operations-Analyst-Internship---Summer-2027_R265821
-  date_posted: '2026-08-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
 - id: corning-digital-it-intern-analyst-data-ai-platform-engineering-249239
   company: Corning
   role: Digital & IT Intern - Analyst - Data & AI Platform Engineering
   location: Charlotte, NC
   link: https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Data-&-AI-Platform-Engineering-Summer-2027-NC-28216/1425716600/?ats=successfactors
   date_posted: '2026-09-02'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: corning-digital-it-intern-analyst-manufacturing-e30a72
-  company: Corning
-  role: Digital & IT Intern - Analyst - Manufacturing
-  location: Glendale, AZ
-  link: https://corningjobs.corning.com/job/Glendale-Digital-&-IT-Intern,-Analyst,-Phoenix-Manufacturing-Summer-2027-AZ-85301/1425543900/?ats=successfactors
-  date_posted: '2026-09-01'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -6123,44 +5856,6 @@
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: ernst-young-data-and-technology-intern-multiple-teams-0abd1e
-  company: Ernst & Young
-  role: Data and Technology Intern - Multiple Teams
-  location: Miami, FL
-  link: https://eyglobal.yello.co/jobs/gqy0pJfAkXrlECgDBjqcIw?job_board_id=c1riT--B2O-KySgYWsZO1Q
-  date_posted: '2026-09-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: directv-product-development-intern-directv-for-business-8f5011
-  company: DIRECTV
-  role: Product Development Intern - DIRECTV for Business
-  location: Clarksburg, MD
-  link: https://directv.wd1.myworkdayjobs.com/careers/job/Clarksburg-MD/DIRECTV-for-Business-Product-Development-Intern_R260276
-  date_posted: '2026-09-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
 - id: nationwide-generative-ai-intern-5cc516
   company: Nationwide
   role: Generative AI Intern
@@ -6171,43 +5866,6 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: nationwide-analytic-consulting-advisor-intern-36d0ab
-  company: Nationwide
-  role: Analytic Consulting Advisor Intern
-  location: Columbus, OH
-  link: https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Analytic-Consulting-Advisor-Internship_100235
-  date_posted: '2026-09-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: hunt-oil-company-reservoir-engineer-intern-28fb1f
-  company: Hunt Oil Company
-  role: Reservoir Engineer Intern
-  location: Dallas, TX
-  link: https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1058
-  date_posted: '2026-09-04'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
   status: open
   sources:
   - github_tracker:simplifyjobs
@@ -6227,191 +5885,6 @@
   degree:
   - BS
   - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: xcel-energy-renewable-operations-center-intern-bd4ffb
-  company: Xcel Energy
-  role: Renewable Operations Center Intern
-  location: Golden, CO
-  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Golden-CO-80401/Renewable-Operation-Center-Intern--CO_JR115736-1
-  date_posted: '2026-09-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: xcel-energy-gas-data-intern-416b46
-  company: Xcel Energy
-  role: Gas Data Intern
-  location: Denver, CO
-  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80223/Gas-Data-Intern--CO_JR116314-1
-  date_posted: '2026-09-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: xcel-energy-grid-data-intern-c0dd2f
-  company: Xcel Energy
-  role: Grid Data Intern
-  location: Minneapolis, MN
-  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55418/Grid-Data-Intern---MN_JR115742-1
-  date_posted: '2026-09-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: xcel-energy-energy-supply-renewable-intern-mn-3affa1
-  company: Xcel Energy
-  role: Energy Supply Renewable Intern - MN
-  location: Minneapolis, MN
-  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55418/Energy-Supply-Renewable-Intern---MN_JR115609-1
-  date_posted: '2026-09-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: xcel-energy-reporting-and-compliance-analyst-intern-08c69e
-  company: Xcel Energy
-  role: Reporting and Compliance Analyst Intern
-  location: Minneapolis, MN
-  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55418/Reporting-and-Compliance-Analyst-Intern---MN_JR115608-1
-  date_posted: '2026-09-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: tokyo-electron-data-platforms-engineer-intern-f6b49f
-  company: Tokyo Electron
-  role: Data Platforms Engineer Intern
-  location: Austin, TX
-  link: https://tel.wd3.myworkdayjobs.com/tel-careers/job/Austin-RiverSouth/Data-Platforms-Engineer-Summer-2027-Intern_R26-01498
-  date_posted: '2026-09-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: tokyo-electron-business-intelligence-analyst-intern-889009
-  company: Tokyo Electron
-  role: Business Intelligence Analyst Intern
-  location: Austin, TX
-  link: https://tel.wd3.myworkdayjobs.com/tel-careers/job/Austin-RiverSouth/Business-Intelligence-Analyst-Summer-2027-Intern_R26-01504
-  date_posted: '2026-09-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: nxp-semiconductors-embedded-machine-learning-radar-processing-intern-summer-2027-cd5542
-  company: NXP Semiconductors
-  role: Embedded Machine Learning & Radar Processing Intern - Summer 2027
-  location: San Jose, CA
-  link: https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/Embedded-Machine-Learning---Radar-Processing-Intern---Summer-2027_R-10065534
-  date_posted: '2026-09-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: merck-digital-strategy-insights-intern-global-supplier-management-group-300273
-  company: Merck
-  role: Digital Strategy & Insights Intern - Global Supplier Management Group
-  location: Rahway, NJ
-  link: https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Supplier-Management-Group-Digital-Strategy---Insights--DS-I----Intern_R416016
-  date_posted: '2026-09-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: merck-information-science-intern-future-talent-program-8ac232
-  company: Merck
-  role: Information Science Intern - Future Talent Program
-  location: Rahway, NJ
-  link: https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Information-Science---Intern_R413651
-  date_posted: '2026-09-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
   status: open
   sources:
   - github_tracker:simplifyjobs
@@ -6458,24 +5931,6 @@
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: merck-business-intelligence-intern-research-lab-54b61f
-  company: Merck
-  role: Business Intelligence Intern - Research Lab
-  location: North Wales, PA
-  link: https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Business-Intelligence---Intern_R412411
-  date_posted: '2026-09-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
 - id: capital-one-applied-research-intern-6d6e5b
   company: Capital One
   role: Applied Research Intern
@@ -6491,24 +5946,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: philips-service-contracts-lifecycle-operations-intern-38dd06
-  company: Philips
-  role: Service Contracts Lifecycle Operations Intern
-  location: Nashville, TN
-  link: https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern--Service-Contracts-Lifecycle-Operations--Nashville--TN-Summer-2027_591619
-  date_posted: '2026-09-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
@@ -6679,24 +6116,6 @@
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: country-financial-auto-product-analyst-intern-a135e1
-  company: COUNTRY Financial
-  role: Auto Product Analyst Intern
-  location: Bloomington, IL
-  link: https://countryfinancial.wd5.myworkdayjobs.com/COUNTRYCorporateInternships/job/Bloomington-IL/Auto-Product-Analyst-Intern_R26_0000000995
-  date_posted: '2026-09-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
 - id: medpace-feasibility-informatics-intern-co-op-b00c69
   company: Medpace
   role: Feasibility Informatics Intern/Co-op
@@ -6713,44 +6132,6 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: medpace-clinical-informatics-intern-15a63f
-  company: Medpace
-  role: Clinical Informatics Intern
-  location: Cincinnati, OH
-  link: https://careers.medpace.com/jobs/12988?icims=1
-  date_posted: '2026-09-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: coinbase-data-engineer-intern-7c934f
-  company: Coinbase
-  role: Data Engineer Intern
-  location: San Francisco, CA
-  link: https://boards.greenhouse.io/embed/job_app?token=8175459
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
@@ -6802,42 +6183,6 @@
   degree:
   - BS
   - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: gallup-data-engineering-intern-fcde9b
-  company: Gallup
-  role: Data Engineering Intern
-  location: Omaha, NE
-  link: https://job-boards.greenhouse.io/gallup/jobs/4395454009
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: allen-control-systems-systems-engineering-intern-43a8f9
-  company: Allen Control Systems
-  role: Systems Engineering Intern
-  location: Austin, TX
-  link: https://jobs.ashbyhq.com/allen-control-systems/9945f76d-6d03-45f0-b431-fc69d31f5476/application?embed=true
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
   status: open
   sources:
   - github_tracker:simplifyjobs
@@ -6998,159 +6343,6 @@
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: coinbase-data-engineer-intern-005a79
-  company: Coinbase
-  role: Data Engineer Intern
-  location: Hybrid - San Francisco, CA
-  link: https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459
-  date_posted: '2026-09-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: navy-federal-associate-data-engineer-intern-c589d6
-  company: Navy Federal
-  role: Associate Data Engineer Intern
-  location: Vienna, VA
-  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32292
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-10'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: navy-federal-business-intelligence-analyst-intern-098e76
-  company: Navy Federal
-  role: Business Intelligence Analyst Intern
-  location: Vienna, VA
-  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32290
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-10'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: navy-federal-business-intelligence-analyst-summer-associate-intern-264bea
-  company: Navy Federal
-  role: Business Intelligence Analyst Summer Associate Intern
-  location: Vienna, VA
-  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32330
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-10'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: navy-federal-business-intelligence-analyst-intern-527b15
-  company: Navy Federal
-  role: Business Intelligence Analyst Intern
-  location: Vienna, VA
-  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32351
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-10'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: navy-federal-business-intelligence-analyst-intern-098e76
-- id: navy-federal-business-intelligence-analyst-intern-a1f4b6
-  company: Navy Federal
-  role: Business Intelligence Analyst Intern
-  location: Winchester, VA
-  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32031
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-10'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: navy-federal-business-intelligence-analyst-intern-72b3a2
-  company: Navy Federal
-  role: Business Intelligence Analyst Intern
-  location: Vienna, VA
-  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32080
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-10'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: navy-federal-business-intelligence-analyst-intern-098e76
-- id: navy-federal-data-engineer-intern-a099f4
-  company: Navy Federal
-  role: Data Engineer Intern
-  location: Vienna, VA
-  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32265
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-10'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: navy-federal-business-intelligence-analyst-intern-2602b6
-  company: Navy Federal
-  role: Business Intelligence Analyst Intern
-  location: Vienna, VA
-  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32354
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-10'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: navy-federal-business-intelligence-analyst-intern-098e76
 - id: verizon-communications-ai-ml-engineering-intern-consumer-group-7ed4d8
   company: Verizon Communications
   role: AI/ML Engineering Intern - Consumer Group
@@ -7167,23 +6359,6 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   - github_tracker:zshah101
-  date_added: '2026-09-10'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: navy-federal-business-intelligence-analyst-intern-consumer-lending-4722b5
-  company: Navy Federal
-  role: Business Intelligence Analyst Intern - Consumer Lending
-  location: Pensacola, FL
-  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32321
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
   date_added: '2026-09-10'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
@@ -7333,5 +6508,133 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-10'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null
+- id: navy-federal-payments-ai-engineer-intern-72aaab
+  company: Navy Federal
+  role: Payments AI Engineer Intern
+  location: Pensacola, FL
+  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32400
+  date_posted: '2026-09-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-10'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null
+- id: navy-federal-ai-engineer-intern-8698f6
+  company: Navy Federal
+  role: AI Engineer Intern
+  location: Vienna, VA
+  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32261
+  date_posted: '2026-09-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-10'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null
+- id: ge-vernova-ai-digitization-co-op-hdnu-global-operations-50400d
+  company: GE Vernova
+  role: AI Digitization Co-op - HDNU Global Operations
+  location: Schenectady, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Atlanta/GE-Vernova-HDNU-Global-Operations---AI-Digitization-Co-op---Spring-Summer-2027_R5049275-2
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-09'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null
+- id: nokia-ai-agent-development-co-op-17fa50
+  company: Nokia
+  role: AI Agent Development Co-op
+  location: San Jose, CA
+  link: https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39978
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-09'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null
+- id: xcel-energy-ai-automation-intern-regulatory-35c354
+  company: Xcel Energy
+  role: AI & Automation Intern - Regulatory
+  location: Denver, CO
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI---Automation-Intern--CO_JR115739-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-09-09'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null
+- id: xcel-energy-ai-solutions-development-intern-82a1ff
+  company: Xcel Energy
+  role: AI Solutions Development Intern
+  location: Minneapolis, MN
+  link: https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI-Solutions-Development-Intern-CO--MN_JR116329-1
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-09'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null
+- id: boeing-artificial-intelligence-software-engineer-intern-graduate-researcher-program-d8ac9d
+  company: Boeing
+  role: Artificial Intelligence Software Engineer Intern - Graduate Researcher Program
+  location: Tukwila, WA
+  link: https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687
+  date_posted: '2026-09-08'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:speedyapply
+  date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null

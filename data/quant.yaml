@@ -4940,3 +4940,20 @@
   date_added: '2026-09-10'
   last_verified: '2026-09-10'
   possible_duplicate_of: clearwater-analytics-quant-developer-intern-c26129
+- id: wells-fargo-quantitative-analytics-intern-applied-computational-intelligence-cc30f6
+  company: Wells Fargo
+  role: Quantitative Analytics Intern - Applied Computational Intelligence
+  location: Charlotte, NC
+  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-Masters----Early-Careers_R-574030
+  date_posted: '2026-09-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  date_added: '2026-09-09'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null

@@ -106,6 +106,14 @@ def test_find_reposts_ignores_rows_still_live():
     assert find_reposts(rows, entries) == []
 
 
+def test_smartrecruiters_company_case_is_the_same_posting():
+    rows = [_row("solidigm", "Hardware Validation Intern",
+                 "https://jobs.smartrecruiters.com/solidigm/744000147613779")]
+    entries = [{"link": "https://jobs.smartrecruiters.com/Solidigm/744000147613779",
+                "title": "Hardware Validation Intern", "date_posted": "2026-09-05"}]
+    assert find_reposts(rows, entries) == []
+
+
 def test_find_reposts_refuses_to_guess_when_titles_fan_out():
     # Copart had 9 identical 'Software Engineering Intern' rows; guessing
     # which absent row maps to which new posting would be garbage.

@@ -93,6 +93,8 @@ def parse_listing(ats: str, body: str) -> list:
 
 
 _GH_JOB_ID = re.compile(r"(?:greenhouse\.io/[^?#]*/jobs/|[?&]gh_jid=)(\d+)", re.I)
+_SR_JOB_ID = re.compile(r"^https?://jobs\.smartrecruiters\.com/[^/]+/(\d+)(?:-|/|$)",
+                        re.I)
 
 
 def _link_key(link):
@@ -107,7 +109,10 @@ def _link_key(link):
     the fold lives here, where only same-board rows are compared."""
     key = normalize_link(link or "")
     m = _GH_JOB_ID.search(key)
-    return f"gh:{m.group(1)}" if m else key
+    if m:
+        return f"gh:{m.group(1)}"
+    m = _SR_JOB_ID.match(key)
+    return f"sr:{m.group(1)}" if m else key
 
 
 def _title_key(text):

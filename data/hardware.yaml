@@ -5121,25 +5121,6 @@
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: ge-aerospace-engines-engineering-intern-computer-or-software-engineering-715cbd
-  company: GE Aerospace
-  role: Engines Engineering Intern - Computer or Software Engineering
-  location: Lynn, MA
-  link: https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Engines-Engineering-Intern---Computer-or-Software-Engineering---US---Summer-2027_R5029622-1
-  date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
 - id: globalfoundries-silicon-photonics-advanced-packaging-intern-ab482b
   company: GlobalFoundries
   role: Silicon Photonics Advanced Packaging Intern
@@ -5828,27 +5809,6 @@
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
-- id: chaos-industries-software-engineer-intern-badb80
-  company: CHAOS Industries
-  role: Software Engineer Intern
-  location: El Segundo, CA
-  link: https://job-boards.greenhouse.io/chaosindustries/jobs/5226636007
-  date_posted: '2026-09-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:speedyapply
-  - github_tracker:zshah101
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
 - id: bedrock-robotics-sensor-hardware-test-engineer-intern-60141e
   company: Bedrock Robotics
   role: Sensor Hardware Test Engineer Intern
@@ -5940,23 +5900,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  date_added: '2026-09-09'
-  last_verified: '2026-09-10'
-  possible_duplicate_of: null
-- id: rtx-software-engineering-co-op-97caa8
-  company: RTX
-  role: Software Engineering Co-op
-  location: Cedar Rapids, IA
-  link: https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Co-op--Fall-Spring-2027-_01872683
-  date_posted: '2026-09-08'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
   date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
@@ -6574,5 +6517,63 @@
   sources:
   - github_tracker:zshah101
   date_added: '2026-09-10'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null
+- id: globalfoundries-rf-technology-development-automation-engineer-intern-summer-2027-9e44a2
+  company: GlobalFoundries
+  role: RF Technology Development Automation Engineer Intern - Summer 2027
+  location: Malta, NY
+  link: https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/RF-Technology-Development-Automation-Engineering-Intern--Summer-2027-_JR-2604272
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-09'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null
+- id: cdm-smith-electrical-engineer-intern-summer-2027-2c632f
+  company: CDM Smith
+  role: Electrical Engineer Intern - Summer 2027
+  location: Latham, NY
+  link: https://careers.cdmsmith.com/jobs/4398?icims=1
+  date_posted: '2026-09-04'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-09'
+  last_verified: '2026-09-10'
+  possible_duplicate_of: null
+- id: nxp-semiconductors-embedded-machine-learning-radar-processing-intern-summer-2027-cd5542
+  company: NXP Semiconductors
+  role: Embedded Machine Learning & Radar Processing Intern - Summer 2027
+  location: San Jose, CA
+  link: https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/Embedded-Machine-Learning---Radar-Processing-Intern---Summer-2027_R-10065534
+  date_posted: '2026-09-07'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-09'
   last_verified: '2026-09-10'
   possible_duplicate_of: null
