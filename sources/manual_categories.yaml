@@ -1282,6 +1282,39 @@ https://jobs.smartrecruiters.com/solidigm/744000148610610: __drop__
 # auto apply_ats_corrections: category adjudication.
 ? https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---North-Charleston-SC/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Applied-Mathematician-Intern_JR2026523704
 : ai_ml
+# Scrape 2026-09-11: source-page verification and title-level adjudication
+# for newly parked tracker rows. Keep only roles demonstrated to fit one of
+# the six tracked technical categories; the rest are non-US, wrong-term, or
+# outside the listing's scope.
+"https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Test-Automation-Intern---Summer-2027_R202682348-1": swe
+"https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20280126": data_science
+"https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20280129": data_science
+"https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-MIDDLETOWN-220A--Aircraft-Rd--BLDG-220A/Advanced-Measurement-Str-Data-Recording-Summer-Intern--Onsite-_01872890": hardware
+"https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-L--400-Main-St--BLDG-L/Commercial-Structures-Intern--Summer-2027--Onsite-_01871999": __drop__
+"https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---General-Motors-Economics-Intern_JR-202619691": __drop__
+"https://jj.wd5.myworkdayjobs.com/jj/job/Jacksonville-Florida-United-States-of-America/XMLNAME-2027-Jax-R-D-Internship--STEM--Eng-Chem-_R-099052": __drop__
+"https://labcorp.wd1.myworkdayjobs.com/external/job/San-Diego-CA/Intern---Anatomic-Pathology_2631842": __drop__
+"https://labcorp.wd1.myworkdayjobs.com/external/job/Birmingham-AL/Intern---Lab_2630751": __drop__
+"https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Pharma-Technical-Development---Device-Development_202608-122145": __drop__
+"https://momentive.wd1.myworkdayjobs.com/MC/job/US-WV-Friendly/Summer-2027-Strategic-Project-Intern---Continuous-Improvement_R9766": __drop__
+"https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Waterford/Summer-2027-Intern---IT-Digital-Workplace-Services_R9778": __drop__
+"https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Vehicle-and-Ground-Concepts-Undergraduate-Intern_R016433": __drop__
+"https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Sales-Associate--INDG--Summer-2027_144388": __drop__
+"https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---PDM---Process-Development--Bio-Pivotal-Cell-Culture_R0054774": __drop__
+"https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/XMLNAME-2027-Guidance-Navigation-and-Control-Intern-Dulles-VA_R10246322": __drop__
+"https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/R-D-Co-Op_R-097655": __drop__
+"https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298782": ai_ml
+"https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301904": data_science
+"https://careers.garmin.com/jobs/20125?icims=1": __drop__
+"https://barr.wd1.myworkdayjobs.com/barrcareers/job/Salt-Lake-City-UT/Internship---GIS-Specialist--Hybrid-_R-102305-1": __drop__
+"https://job-boards.greenhouse.io/themjcos/jobs/5420406008": __drop__
+"https://apply.careers.microsoft.com/careers/job/1970393556991724": __drop__
+"https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Marketplace-Intelligence-Internship---Summer-2027_R_14506": __drop__
+"https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Glasgow-Campus/XMLNAME-2027-Technology-Analyst-Summer-Internship-Programme-Glasgow_JR-0000129503": __drop__
+"https://careers.gulfstream.com/job/Savannah-Spring-2027-IEF-Flight-Sciences-SWAPP-Collegiate-Intern-GA-31401/1428204100/?ats=successfactors": __drop__
+"https://jobs.l3harris.com/job/Waco-Intern,-Configuration-Management-TX-76705/1422798600/?ats=successfactors": __drop__
+"https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677": __drop__
+"https://jobs.smartrecruiters.com/PilotCompany/744000148577368": swe
 https://careers-springswindowfashions.icims.com/jobs/12896/job?mobile=true&needsRedirect=false: __drop__
 https://careers-wipfli.icims.com/jobs/8295/job?mobile=true&needsRedirect=false: __drop__
 https://careers-wipfli.icims.com/jobs/8304/job?mobile=true&needsRedirect=false: __drop__
@@ -1341,4 +1374,8 @@ https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342674: hardwa
 https://xcelenergy.wd1.myworkdayjobs.com/External/job/Golden-CO-80401/Renewable-Operation-Center-Intern--CO_JR115736-1: __drop__
 https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55418/Energy-Supply-Renewable-Intern---MN_JR115609-1: __drop__
 ? https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55418/Reporting-and-Compliance-Analyst-Intern---MN_JR115608-1
+: __drop__
+# auto verify_links: live page says a non-2027 term.
+https://jobs.smartrecruiters.com/solidigm/744000148621589: __drop__
+? https://myhrhome.wd1.myworkdayjobs.com/en-US/onemaincareers/job/Evansville-IN/Software-Developer-Intern---Document-Shared-Services--Part-Time-_R2608-52284
 : __drop__
