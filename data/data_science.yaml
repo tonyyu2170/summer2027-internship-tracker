@@ -5795,3 +5795,90 @@
   date_added: '2026-09-11'
   last_verified: '2026-09-11'
   possible_duplicate_of: null
+- id: johns-hopkins-applied-physics-laboratory-software-engineer-data-scientist-ontologist-intern-threat-analytic-systems-a2d820
+  company: Johns Hopkins Applied Physics Laboratory
+  role: Software Engineer/Data Scientist/Ontologist Intern - Threat Analytic Systems
+  location: Laurel, MD
+  link: https://careers.jhuapl.edu/jobs/59997?icims=1
+  date_posted: '2026-09-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-11'
+  last_verified: '2026-09-11'
+  possible_duplicate_of: null
+- id: barnes-thornburg-information-technology-data-intern-13bc0a
+  company: Barnes & Thornburg
+  role: Information Technology Data Intern
+  location: Indianapolis, IN
+  link: https://jobs.ashbyhq.com/barnes/1881dbc0-846e-4805-968f-4e27d663f7b0/application?embed=true
+  date_posted: '2026-09-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-11'
+  last_verified: '2026-09-11'
+  possible_duplicate_of: null
+- id: navy-federal-business-intelligence-analyst-intern-9771ac
+  company: Navy Federal
+  role: Business Intelligence Analyst Intern
+  location: Winchester, VA
+  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32455
+  date_posted: '2026-09-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-11'
+  last_verified: '2026-09-11'
+  possible_duplicate_of: null
+- id: usaa-data-intern-future-leaders-program-c2561a
+  company: USAA
+  role: Data Intern - Future Leaders Program
+  location: Charlotte, NC
+  link: https://usaa.wd1.myworkdayjobs.com/en-US/USAAJOBSWD/job/San-Antonio-Home-Office-I/Future-Leaders-Program---Data-Intern_R0120824
+  date_posted: '2026-09-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-11'
+  last_verified: '2026-09-11'
+  possible_duplicate_of: null
+- id: the-mj-companies-enterprise-data-intern-2bf2e7
+  company: The MJ Companies
+  role: Enterprise Data Intern
+  location: Carmel, IN
+  link: https://job-boards.greenhouse.io/themjcos/jobs/5418283008
+  date_posted: '2026-09-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-11'
+  last_verified: '2026-09-11'
+  possible_duplicate_of: null

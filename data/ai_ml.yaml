@@ -6679,109 +6679,6 @@
   date_added: '2026-09-11'
   last_verified: '2026-09-11'
   possible_duplicate_of: null
-- id: barnes-thornburg-information-technology-data-intern-13bc0a
-  company: Barnes & Thornburg
-  role: Information Technology Data Intern
-  location: Indianapolis, IN
-  link: https://jobs.ashbyhq.com/barnes/1881dbc0-846e-4805-968f-4e27d663f7b0/application?embed=true
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-11'
-  last_verified: '2026-09-11'
-  possible_duplicate_of: null
-- id: delta-dental-of-iowa-marketing-analyst-intern-a67375
-  company: Delta Dental of Iowa
-  role: Marketing Analyst Intern
-  location: Johnston, IA
-  link: https://recruiting.paylocity.com/Recruiting/Jobs/Details/4491864
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-11'
-  last_verified: '2026-09-11'
-  possible_duplicate_of: null
-- id: hmh-digital-services-engineering-intern-207ccd
-  company: HMH
-  role: Digital Services Engineering Intern
-  location: Houston, TX
-  link: https://hmhw.wd12.myworkdayjobs.com/hmh_careers/job/Houston-TX/Digital-Services-Engineering-Intern_JR102387
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-11'
-  last_verified: '2026-09-11'
-  possible_duplicate_of: null
-- id: immuta-product-research-intern-f797a7
-  company: Immuta
-  role: Product Research Intern
-  location: College Park, MD
-  link: https://jobs.lever.co/immuta/18aabf0a-8b27-4b7d-8a96-6995a7f8847b/apply
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-11'
-  last_verified: '2026-09-11'
-  possible_duplicate_of: null
-- id: navy-federal-business-intelligence-analyst-intern-9771ac
-  company: Navy Federal
-  role: Business Intelligence Analyst Intern
-  location: Winchester, VA
-  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32455
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  date_added: '2026-09-11'
-  last_verified: '2026-09-11'
-  possible_duplicate_of: null
-- id: usaa-data-intern-future-leaders-program-c2561a
-  company: USAA
-  role: Data Intern - Future Leaders Program
-  location: Charlotte, NC
-  link: https://usaa.wd1.myworkdayjobs.com/en-US/USAAJOBSWD/job/San-Antonio-Home-Office-I/Future-Leaders-Program---Data-Intern_R0120824
-  date_posted: '2026-09-10'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-11'
-  last_verified: '2026-09-11'
-  possible_duplicate_of: null
 - id: cox-data-governance-and-management-intern-c2c759
   company: Cox
   role: Data Governance and Management Intern
@@ -6924,23 +6821,6 @@
   date_added: '2026-09-11'
   last_verified: '2026-09-11'
   possible_duplicate_of: null
-- id: the-mj-companies-enterprise-data-intern-2bf2e7
-  company: The MJ Companies
-  role: Enterprise Data Intern
-  location: Carmel, IN
-  link: https://job-boards.greenhouse.io/themjcos/jobs/5418283008
-  date_posted: '2026-09-10'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-11'
-  last_verified: '2026-09-11'
-  possible_duplicate_of: null
 - id: johns-hopkins-applied-physics-laboratory-engineering-science-intern-tailored-autonomous-systems-80fc9f
   company: Johns Hopkins Applied Physics Laboratory
   role: Engineering/Science Intern - Tailored Autonomous Systems
@@ -7040,6 +6920,59 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
+  date_added: '2026-09-11'
+  last_verified: '2026-09-11'
+  possible_duplicate_of: null
+- id: dv-trading-ai-engineer-intern-a14376
+  company: DV Trading
+  role: AI Engineer Intern
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/dvtrading/jobs/4732429005
+  date_posted: '2026-09-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-11'
+  last_verified: '2026-09-11'
+  possible_duplicate_of: null
+- id: tradeweb-ai-software-engineer-intern-c7297c
+  company: Tradeweb
+  role: AI Software Engineer Intern
+  location: Jersey City, NJ
+  link: https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301902
+  date_posted: '2026-09-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-11'
+  last_verified: '2026-09-11'
+  possible_duplicate_of: null
+- id: cox-ai-automation-intern-5076f4
+  company: Cox
+  role: AI/Automation Intern
+  location: Atlanta, GA
+  link: https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342
+  date_posted: '2026-09-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-11'
   last_verified: '2026-09-11'
   possible_duplicate_of: null
