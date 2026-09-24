@@ -1,25 +1,20 @@
 _last_fetch:
   drops:
     github_tracker:chieler:
-      category_drop: 419
+      category_drop: 422
     github_tracker:simplifyjobs:
-      category_drop: 330
-      closed_marker_untracked: 395
-    github_tracker:sndsh404:
-      category_drop: 23
+      category_drop: 360
+      closed_marker_untracked: 377
     github_tracker:speedyapply:
-      category_drop: 10
+      category_drop: 9
     github_tracker:suryaharikrishnan:
-      category_drop: 308
-      closed_marker_untracked: 343
-    github_tracker:vanshb03:
-      category_drop: 17
-      closed_marker_untracked: 26
+      category_drop: 336
+      closed_marker_untracked: 339
     github_tracker:zapplyjobs:
-      category_drop: 221
+      category_drop: 225
     github_tracker:zshah101:
-      category_drop: 14
-      closed_marker_untracked: 59
+      category_drop: 15
+      closed_marker_untracked: 50
 _last_program_check:
   closed: 26
   fetch_failed: 7
@@ -29,47 +24,36 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 1068
-  closed: 68
-  ran_at: 2026-09-22 22:53
+  new: 117
+  closed: 53
+  ran_at: 2026-09-23 23:07
   drops:
     github_tracker:chieler:
-      category_drop: 419
-      missing_field: 1830
+      category_drop: 422
+      missing_field: 1204
     github_tracker:simplifyjobs:
-      closed_marker_untracked: 395
-      category_drop: 330
-      missing_field: 210
-      cross_category_duplicate: 24
-    github_tracker:sndsh404:
-      category_drop: 23
-      missing_field: 2
+      closed_marker_untracked: 377
+      category_drop: 360
+      missing_field: 209
     github_tracker:speedyapply:
-      category_drop: 10
-      missing_field: 9
-      cross_category_duplicate: 6
+      category_drop: 9
+      missing_field: 6
     github_tracker:suryaharikrishnan:
-      category_drop: 308
-      closed_marker_untracked: 343
-      missing_field: 182
-      cross_category_duplicate: 26
-    github_tracker:vanshb03:
-      closed_marker_untracked: 26
-      category_drop: 17
-      missing_field: 8
+      category_drop: 336
+      closed_marker_untracked: 339
+      missing_field: 181
     github_tracker:zapplyjobs:
-      category_drop: 221
-      missing_field: 179
+      category_drop: 225
+      missing_field: 176
     github_tracker:zshah101:
-      closed_marker_untracked: 59
-      category_drop: 14
-      missing_field: 149
-      cross_category_duplicate: 11
+      closed_marker_untracked: 50
+      category_drop: 15
+      missing_field: 93
 chieler:
   path: README.md
-  row_count: 3027
-  scraped_at: '2026-09-22'
-  sha: 31b09c3aecc44694dba033b2ee28480e08dcc798
+  row_count: 3118
+  scraped_at: '2026-09-23'
+  sha: 0b5079521b4c71dc531e62965c7ae8623ed829bd
 company_sources:
   company:abb:
     last_success: '2026-09-02'
@@ -602,9 +586,9 @@ northwesternfintech:
   sha: e893de31b7cda543bb63f8b45c8f36766e4c9861
 simplifyjobs:
   path: .github/scripts/listings.json
-  row_count: 3008
-  scraped_at: '2026-09-22'
-  sha: 76c98cca8f59fbc63f2e04c262b9be35fc4f1279
+  row_count: 3061
+  scraped_at: '2026-09-23'
+  sha: 864bcad68a468c7054f2a6507253b72cb964f5dd
 sndsh404:
   path: README.md
   row_count: 112
@@ -612,14 +596,14 @@ sndsh404:
   sha: f2d77c85c3f847c0b9ca221e21a8fbd1c10e7599
 speedyapply:
   path: README.md
-  row_count: 621
-  scraped_at: '2026-09-22'
-  sha: e8b7d4e7cf4f6886a7c2732d87ce24b1bc2b3aee
+  row_count: 650
+  scraped_at: '2026-09-23'
+  sha: 3045ff8b3e03e4db5bef486321f99ad8f216d532
 suryaharikrishnan:
   path: data/listings.json
-  row_count: 2649
-  scraped_at: '2026-09-22'
-  sha: d0ca9dc0071a84fd0624ed24a3f7abe7f229a343
+  row_count: 2704
+  scraped_at: '2026-09-23'
+  sha: 6f3cc7f9ef67a90e2a8892d3ec7598082b5ded1c
 vanshb03:
   path: .github/scripts/listings.json
   row_count: 265
@@ -627,11 +611,11 @@ vanshb03:
   sha: 609cac4e49c775f77cd419c76026251a4b62163b
 zapplyjobs:
   path: README.md
-  row_count: 540
-  scraped_at: '2026-09-22'
-  sha: 4bf6019ade4ad4d592ce3fc6f6caa22e764e32a1
+  row_count: 539
+  scraped_at: '2026-09-23'
+  sha: 1308ffb9721b877d7b5f7cd654ce6ee17273f78c
 zshah101:
   path: data/jobs.json
-  row_count: 736
-  scraped_at: '2026-09-22'
-  sha: cfafb381cefdd34b4f4d0411f5a680fedc684255
+  row_count: 749
+  scraped_at: '2026-09-23'
+  sha: 95a4de2d5bf40c743894403f14b74387ff3bf7cf
