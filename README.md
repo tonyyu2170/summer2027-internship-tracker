@@ -1,15 +1,15 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-09-25 23:17 EST — 2953 open roles. Last scrape: +108 new, 57 closed._
+_Last updated: 2026-09-25 23:55 EST — 2953 open roles._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
 ## Contents
 
-- [Software Engineering](#software-engineering) (1411 open)
-- [Quantitative Finance](#quantitative-finance) (212 open)
-- [Data Science](#data-science) (416 open)
-- [AI/ML](#aiml) (439 open)
+- [Software Engineering](#software-engineering) (1357 open)
+- [Quantitative Finance](#quantitative-finance) (211 open)
+- [Data Science](#data-science) (474 open)
+- [AI/ML](#aiml) (436 open)
 - [Hardware Engineering](#hardware-engineering) (460 open)
 - [Actuarial](#actuarial) (15 open)
 - [Programs](#programs)
@@ -22,8 +22,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
-| Pacific Life | Data Engineering Intern | [Apply](<https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Data-Engineering-Internship_R17828>) | 2026-09-25 | Summer 2027 | BS/MS |
-| Western National Insurance | Data Engineering Intern - Data & Integrations | [Apply](<https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537849>) | 2026-09-25 | Summer 2027 | BS |
 | Zurn Elkay Water Solutions | IT Infrastructure Intern (Summer 2027) | [Apply](<https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020162>) | 2026-09-25 | Summer 2027 | BS |
 | Zurn Elkay Water Solutions | IT Infrastructure Intern (Summer 2027) | [Apply](<https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160>) | 2026-09-25 | Summer 2027 | BS |
 | KLA | Applications Engineering Intern | [Apply](<https://zapply.jobs/l/d/workday-kla-search-2641540?s=gh-internships-2027>) | 2026-09-25 | Summer 2027 | BS |
@@ -59,7 +57,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Johnson & Johnson | Software Engineering Co-Op | [Apply](<https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277>) | 2026-09-24 | Summer 2027 | BS |
 | Ciena | Software Intern | [Apply](<https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/WaveLogic-Software-Intern--Summer-2027-_R031695>) | 2026-09-24 | Summer 2027 | BS |
 | RTX | Software Engineer Intern | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Intern--Summer-2027-_01873687>) | 2026-09-24 | Summer 2027 | BS/MS |
-| Enterprise Holdings | Data Engineer Intern - IT | [Apply](<https://us-erac.icims.com/jobs/567651/job?mobile=true&needsRedirect=false>) | 2026-09-24 | Summer 2027 | BS |
 | Motorola Solutions | 2027 Intern - SoC Digital Engineer | [Apply](<https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69149?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | NREL | Post-Undergraduate Intern (Year-Round) - Separations Engineering | [Apply](<https://zapply.jobs/l/d/workday-nrel-nlr-R14447?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | Motorola Solutions | CPE SW E2E Triage Intern - Summer 2027 | [Apply](<https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68165?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
@@ -69,7 +66,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | MKS Instruments | 2027 University of Oregon Applications Engineering Graduate Intern | [Apply](<https://zapply.jobs/l/d/workday-mksinst-mkscareersuniversity-R20515?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | MKS Instruments | 2027 University of Oregon R&D Engineering Graduate intern | [Apply](<https://zapply.jobs/l/d/workday-mksinst-mkscareersuniversity-R20528?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | Reflect Orbital | Mission Operations Engineering Intern | [Apply](<https://zapply.jobs/l/d/ashby-reflect-orbital-7ec00657-344f-4a53-b1b2-b6623a8b95bc?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
-| The Hartford | Tech & Data Program Summer 2027 – Data Engineer Intern (Hartford) | [Apply](<https://zapply.jobs/l/d/workday-thehartford-careers-external-R2626103?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | Reflect Orbital | Ground Software Engineering Intern | [Apply](<https://zapply.jobs/l/d/ashby-reflect-orbital-c394615d-26c6-4435-ad84-3ca3269c2952?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | The Hartford | Tech & Data Program Summer 2027 - Software Engineer Intern (Hartford) | [Apply](<https://zapply.jobs/l/d/workday-thehartford-careers-external-R2626105?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | Rocket Lab | Test Engineering Intern Summer 2027 | [Apply](<https://zapply.jobs/l/d/greenhouse-rocketlab-8003529003?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
@@ -108,9 +104,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Johnson & Johnson | Heart Recovery Software R&D Co-Op | [Apply](<https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Halethorpe-Maryland-United-States-of-America/Heart-Recovery-Software-R-D-Co-Op_R-101393>) | 2026-09-23 | Summer 2027 | BS |
 | Microsoft | Software Engineer: Intern Opportunity for University Students | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393557004819>) | 2026-09-23 | Summer 2027 | BS |
 | Northrop Grumman | Software Engineer Intern | [Apply](<https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359>) | 2026-09-23 | Summer 2027 | BS/MS |
-| Figma | Data Engineer Intern (2027) | [Apply](<https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004>) | 2026-09-23 | Summer 2027 | BS |
-| Jabil | Data Engineer Intern | [Apply](<https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Data-Engineering-Intern_J2465581>) | 2026-09-23 | Summer 2027 | BS |
-| West Bend Insurance | Data Solution Engineer Intern | [Apply](<https://careers-thesilverlining.icims.com/jobs/3786/job?mobile=true&needsRedirect=false>) | 2026-09-23 | Summer 2027 | BS |
 | RTX | Factory Enablement Digital Engineer Co-op | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Factory-Enablement-Digital-Engineer--Spring-Summer-Co-op-_01876474>) | 2026-09-23 | Summer 2027 | BS/MS |
 | Insulet Corporation | Intern, DevOps Engineer: June-August 2027 (Onsite) | [Apply](<https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202>) | 2026-09-23 | Summer 2027 | BS |
 | Muon Space | Junior Help Desk Intern (Summer 2027) | [Apply](<https://zapply.jobs/l/d/greenhouse-muonspace-5247733007?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
@@ -126,8 +119,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Smiths Group | Engineering Intern | [Apply](<https://zapply.jobs/l/d/sr-SmithsGroup2-744000151387389?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
 | Leidos | Lunar Terrain Vehicle – Engineering Intern | [Apply](<https://zapply.jobs/l/d/workday-leidos-external-R-00192848?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
 | Leidos | Laser Air Monitoring System – Engineering Intern | [Apply](<https://zapply.jobs/l/d/workday-leidos-external-R-00192851?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
-| Figma | Data Engineer Intern (2027) | [Apply](<https://zapply.jobs/l/d/greenhouse-figma-6178851004?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
-| Jabil | Data Engineering Intern | [Apply](<https://zapply.jobs/l/d/workday-jabil-jabil-careers-J2465581?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
 | Waymo | 2027 Summer Intern, MS/PhD, Software Engineer | [Apply](<https://zapply.jobs/l/d/greenhouse-waymo-8224729?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
 | SeatGeek | Software Engineer - Internship | [Apply](<https://zapply.jobs/l/d/greenhouse-seatgeek-8227553?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
 | SWBC | Application Security Intern | [Apply](<https://zapply.jobs/l/d/workday-swbc-swbccareers-R0015572?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
@@ -167,7 +158,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Allegion | Summer Intern - Software Engineer | [Apply](<https://allegion.wd5.myworkdayjobs.com/en-US/careers/job/Carmel-IN/Summer-Intern---Software-Engineer_JR37747-2>) | 2026-09-22 | Summer 2027 | BS |
 | RTX | Software Engineer Intern | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-G--400-Main-St--BLDG-G/Summer-2027-Software-Engineering-Intern--Onsite-_01873645>) | 2026-09-22 | Summer 2027 | BS |
 | Astranis | Flight Software Intern - Summer 2027 | [Apply](<https://job-boards.greenhouse.io/astranis/jobs/4704598006>) | ~2026-09-22 | Summer 2027 | BS |
-| West Bend Insurance | IT Data Engineer Intern | [Apply](<https://careers-thesilverlining.icims.com/jobs/3759/job?mobile=true&needsRedirect=false>) | 2026-09-22 | Summer 2027 | BS |
 | Waymo | Software Engineer Intern - MS/PhD - Simulation | [Apply](<https://careers.withwaymo.com/jobs?gh_jid=8221851>) | 2026-09-22 | Summer 2027 | MS/PhD |
 | JLL | Jr. Reliability & Asset Management Engineer - Summer 2027 Internship - New Brunswick, NJ | [Apply](<https://zapply.jobs/l/d/workday-jll-jllcareers-REQ534202?s=gh-internships-2027>) | 2026-09-22 | Summer 2027 | BS |
 | Allegion | Summer Intern – Software Operations Engineer | [Apply](<https://zapply.jobs/l/d/workday-allegion-careers-JR37722?s=gh-internships-2027>) | 2026-09-22 | Summer 2027 | BS |
@@ -213,8 +203,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | AeroVironment | Software Engineering Intern | [Apply](<https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Simi-Valley-CA/Software-Engineering-Intern_8813>) | 2026-09-21 | Summer 2027 | BS |
 | Optiver | Software Engineer Co-Op - January - April 2027 | [Apply](<https://job-boards.greenhouse.io/optiverprivate/jobs/8784302002>) | 2026-09-21 | Summer 2027 | BS |
 | RTX | Software Engineer Intern | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineering-Intern--Summer-2027-_01875725>) | 2026-09-21 | Summer 2027 | BS/MS |
-| Live Oak Bank | Data Engineer Intern - Multiple Teams | [Apply](<https://liveoakbancshares.wd1.myworkdayjobs.com/en-US/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--Data-Engineering_R-002634>) | 2026-09-21 | Summer 2027 | BS |
-| Lazard | Data Engineer Intern | [Apply](<https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6605>) | 2026-09-21 | Summer 2027 | BS/MS |
 | Live Oak Bank | Summer 2027 Intern: Information Security | [Apply](<https://liveoakbancshares.wd1.myworkdayjobs.com/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--Information-Security_R-002647>) | 2026-09-21 | Summer 2027 | BS |
 | Booz Allen | University - 2027 Summer Games Cyber Security Intern - McLean, VA ⚠️dup?(booz-allen-university-2027-summer-games-cyber-security-intern-mclean-va-049495) | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0249878>) | 2026-09-21 | Summer 2027 | BS |
 | Booz Allen | University - 2027 Summer Games Cyber Security Intern - McLean, VA ⚠️dup?(booz-allen-university-2027-summer-games-cyber-security-intern-mclean-va-049495) | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0249832>) | 2026-09-21 | Summer 2027 | BS |
@@ -284,7 +272,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Tyler Technologies | Software Development Intern | [Apply](<https://jobs.jobvite.com/tylertech/job/oAVOAfwD?nl=1&nl=1&fr=false>) | 2026-09-18 | Summer 2027 | BS |
 | Tesla | Internship - Software Engineering - People Products - Summer 2027 | [Apply](<https://www.tesla.com/careers/search/job/284004>) | 2026-09-18 | Summer 2027 | BS |
 | Amazon | Software Development Engineer Intern - Summer | [Apply](<https://amazon.jobs/en/jobs/10552937/software-development-engineer-internship-summer-2027-usa>) | 2026-09-18 | Summer 2027 | BS |
-| Gordon Food Service | Data Engineering Intern - Atlanta Tech Hub - Data Engineering | [Apply](<https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Atlanta-Georgia/Data-Engineering-Internship_R-57330>) | 2026-09-17 | Summer 2027 | BS |
 | REV Robotics | Software Engineering INTERN 2027 | [Apply](<https://ats.rippling.com/rev-robotics/jobs/9f4e5d99-0bba-4e03-8018-e312810a3dba>) | 2026-09-17 | Summer 2027 | BS |
 | Leidos | Research Engineer Intern | [Apply](<https://zapply.jobs/l/d/workday-leidos-external-R-00192500?s=gh-internships-2027>) | 2026-09-17 | Summer 2027 | BS |
 | Rocket Lab | R&D Engineering Intern Summer 2027 | [Apply](<https://zapply.jobs/l/d/greenhouse-rocketlab-7996576003?s=gh-internships-2027>) | 2026-09-17 | Summer 2027 | BS |
@@ -362,11 +349,9 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | CSC Generation | Software Engineer - Legacy Applications & Modernization - Intern/Part Time | [Apply](<https://jobs.lever.co/cscgeneration-2/3a04b45f-a2eb-438a-a8ac-b07324223813>) | 2026-09-15 | Summer 2027 | BS |
 | RTX | Software Engineer Intern | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-905--2551-Riva-Rd--BLDG-905/Software-Engineer-Intern--Summer-2027-_01873556>) | 2026-09-15 | Summer 2027 | BS/MS |
 | Lunar Outpost | Simulation Engineering Intern | [Apply](<https://lunaroutpost.bamboohr.com/careers/390/>) | 2026-09-15 | Summer 2027 | BS |
-| APEX Analytix | Data Engineering Intern - Summer 2027 | [Apply](<https://ats.rippling.com/apexanalytix-careers/jobs/52353bce-cb36-423f-ae0a-f2057ef3b5d9>) | 2026-09-15 | Summer 2027 | BS/MS |
 | The Aerospace Corporation | 2027 Aerospace Software Engineer Undergraduate Intern | [Apply](<https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605>) | 2026-09-15 | Summer 2027 | BS |
 | Monolithic Power Systems | Product Marketing Engineer Intern- Server Telecom | [Apply](<https://zapply.jobs/l/d/workday-monolithicpower-mps-careers-R-1965?s=gh-internships-2027>) | 2026-09-15 | Summer 2027 | BS |
 | AspenTech | Power System Engineering Intern - Digital Grid Management - Summer 2027 | [Apply](<https://zapply.jobs/l/d/workday-aspentech-aspentech-R9458?s=gh-internships-2027>) | 2026-09-15 | Summer 2027 | BS |
-| TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Data Engineer | [Apply](<https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510797?s=gh-internships-2027>) | 2026-09-15 | Summer 2027 | BS |
 | SingleStore | Software Engineer Intern | [Apply](<https://job-boards.greenhouse.io/singlestore/jobs/8154399>) | 2026-09-15 | Summer 2027 | BS |
 | SimVentions | 2027 Software Development Intern | [Apply](<https://careers-simventions.icims.com/jobs/1631/2027-software-development-intern/job>) | 2026-09-15 | Summer 2027 | BS |
 | Oshkosh | Software Engineering Intern | [Apply](<https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493>) | 2026-09-15 | Summer 2027 | BS |
@@ -395,11 +380,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | DoorDash | Software Engineer Intern - Summer 2027 | [Apply](<https://job-boards.greenhouse.io/doordashusa/jobs/8171041>) | 2026-09-15 | Summer 2027 | BS/MS |
 | WEX | DevOps & Backend Software Engineer Intern - Undergraduate | [Apply](<https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/DevOps---Backend-Software-Engineer-Intern--Undergraduate-_R22584>) | 2026-09-14 | Summer 2027 | BS |
 | North Atlantic Industries | Software Engineer Intern | [Apply](<https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501273>) | 2026-09-14 | Summer 2027 | BS |
-| ibotta | Data Engineer Intern | [Apply](<https://jobs.ashbyhq.com/ibotta/666cac72-9e06-46ee-aea0-576f766338b2/application?embed=true>) | 2026-09-14 | Summer 2027 | BS |
-| Ernst & Young | Data Engineer Intern - Multiple Teams | [Apply](<https://eyglobal.yello.co/jobs/nuM1c7MBNjknCC8oSMvZMg?job_board_id=c1riT--B2O-KySgYWsZO1Q>) | 2026-09-14 | Summer 2027 | BS/MS |
 | Gordon Food Service | Category Technology Intern - MMSC | [Apply](<https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/MMSC-Category-Technology-Internship_R-57187>) | 2026-09-14 | Summer 2027 | BS |
-| Principal Financial Group | Data Engineer Intern | [Apply](<https://careers.principal.com/jobs/52561?icims=1>) | 2026-09-14 | Summer 2027 | BS |
-| Guardian Life | Data Engineering Intern - Digital & Technology | [Apply](<https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Data-Engineering_R000110202>) | 2026-09-14 | Summer 2027 | BS |
 | Robinhood | Software Engineering Intern, Backend (Summer 2027) | [Apply](<https://boards.greenhouse.io/robinhood/jobs/8123225?t=gh_src=&gh_jid=8123225>) | 2026-09-14 | Summer 2027 | BS |
 | VIAVI | Software Engineering Co-Op | [Apply](<https://viavisolutions.wd1.myworkdayjobs.com/en-US/careers/job/Germantown-MD-USA/Software-Engineering-Co-Op_260005140-1>) | 2026-09-14 | Summer 2027 | BS |
 | Robinhood | Software Engineering Intern - iOS - Summer 2027 | [Apply](<https://boards.greenhouse.io/robinhood/jobs/8142959?t=gh_src=&gh_jid=8142959>) | 2026-09-14 | Summer 2027 | BS |
@@ -447,20 +428,16 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Principal Financial Group | Software Engineer Intern - Summer 2027 | [Apply](<https://careers.principal.com/jobs/52512?icims=1>) | 2026-09-14 | Summer 2027 | BS |
 | URBN | Software Engineer Intern | [Apply](<https://homeoffice-na-urbn.icims.com/jobs/30602/job?mobile=true&needsRedirect=false>) | 2026-09-14 | Summer 2027 | BS |
 | Guardian Life | Application Development Intern - Digital & Technology | [Apply](<https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Application-Development_R000110209>) | 2026-09-14 | Summer 2027 | BS |
-| TD Bank | Data Engineer Intern - Global Technology & Solutions | [Apply](<https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797>) | 2026-09-13 | Summer 2027 | BS |
 | TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Cyber Security | [Apply](<https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cyber-Security_R_1510795>) | 2026-09-13 | Summer 2027 | BS |
 | TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Cloud/DevOps | [Apply](<https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cloud-DevOps_R_1510799>) | 2026-09-13 | Summer 2027 | BS |
 | AutoStore | Co-Op - Software Engineering | [Apply](<https://autostore.wd3.myworkdayjobs.com/en-US/autostore/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692>) | 2026-09-13 | Summer 2027 | BS |
 | TD Bank | Software Engineer Intern - Global Technology & Solutions | [Apply](<https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Software-Engineer--SWE-_R_1510796-1>) | 2026-09-13 | Summer 2027 | BS |
-| Constellation Energy | IT Data Engineering Intern | [Apply](<https://jobs.constellationenergy.com/jobs/138716?icims=1>) | 2026-09-12 | Summer 2027 | BS/MS |
 | Microsoft | Software Engineering Intern - CTJ - TS | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556983223>) | 2026-09-12 | Summer 2027 | BS |
 | Microsoft | Software Engineering Intern - CTJ - TS | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393556983221>) | 2026-09-12 | Summer 2027 | BS |
 | AnaVation | Computer Science Intern - Summer 2027 | [Apply](<https://jobs.lever.co/anavationllc/4a82ae00-30f0-410c-bf3c-f1cdd18739e7/apply>) | 2026-09-12 | Summer 2027 | BS |
 | Klaviyo | Software Engineer Intern - Summer 2027 | [Apply](<https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003>) | 2026-09-12 | Summer 2027 | BS |
 | Constellation Energy | Information Technology Software Development Intern | [Apply](<https://jobs.constellationenergy.com/jobs/138708?icims=1>) | 2026-09-12 | Summer 2027 | BS/MS |
 | Garmin | Software Engineer Intern | [Apply](<https://careers.garmin.com/jobs/20135?icims=1>) | 2026-09-11 | Summer 2027 | BS |
-| MegazoneCloud | Data Engineer Co-op 2027 | [Apply](<https://jobs.ashbyhq.com/megazone/fde09888-986f-4207-88fe-3ff5b921a1fa>) | 2026-09-11 | Summer 2027 | BS |
-| Perpay | Data Engineering Intern | [Apply](<https://job-boards.greenhouse.io/perpay/jobs/4076965007>) | 2026-09-11 | Summer 2027 | MS |
 | talentpluto | Full Stack Engineering Intern ⚠️dup?(talentpluto-full-stack-engineering-intern-efd1fe) | [Apply](<https://apply.workable.com/talentpluto/j/717116FEE8/>) | 2026-09-11 | Summer 2027 | BS |
 | Ragle | Software Engineer Intern ⚠️dup?(ragle-inc-software-engineer-intern-7f97f5) | [Apply](<http://ragleinc.applytojob.com/apply/lonTfWhOqm/Software-Engineer-Intern>) | 2026-09-11 | Summer 2027 | BS |
 | Quantinuum | Layout Automation Developer Intern - 993 | [Apply](<https://jobs.eu.lever.co/quantinuum/550a6e3c-2556-4ac3-8cc4-862cb0681dc0>) | 2026-09-11 | Summer 2027 | BS |
@@ -527,10 +504,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | RTX | Software Engineering Co-op ⚠️dup?(rtx-software-engineering-co-op-c42684) | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op---Spring-Summer-2027-_01872230>) | 2026-09-09 | Summer 2027 | BS |
 | RTX | Software Engineering Co-op | [Apply](<https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op--Summer-Fall-2027-_01872236>) | 2026-09-09 | Summer 2027 | BS |
 | HMH | Digital Services Engineering Intern | [Apply](<https://hmhw.wd12.myworkdayjobs.com/hmh_careers/job/Houston-TX/Digital-Services-Engineering-Intern_JR102387>) | 2026-09-09 | Summer 2027 | BS/MS |
-| Navy Federal | Data Engineer Intern | [Apply](<https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32265>) | 2026-09-09 | Summer 2027 | BS/MS |
-| Navy Federal | Associate Data Engineer Intern | [Apply](<https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32292>) | 2026-09-09 | Summer 2027 | BS/MS |
-| Gallup | Data Engineering Intern | [Apply](<https://job-boards.greenhouse.io/gallup/jobs/4395454009>) | 2026-09-09 | Summer 2027 | BS |
-| Coinbase | Data Engineer Intern | [Apply](<https://boards.greenhouse.io/embed/job_app?token=8175459>) | 2026-09-09 | Summer 2027 | BS |
 | Collier Aerospace | Software Engineering Intern - Web Applications (Summer 2027) | [Apply](<https://ats.rippling.com/collieraerospace/jobs/4981b0ba-5b6f-4ebe-95c0-9d1cda036b77>) | 2026-09-09 | Summer 2027 | BS |
 | TTM Technologies | Software Engineering Internship ⚠️dup?(ttm-technologies-software-engineering-internship-c0633d) | [Apply](<https://ttmtech.wd5.myworkdayjobs.com/en-US/jobs/job/Farmingdale-NY/Software-Engineering-Internship_R17948>) | 2026-09-09 | Summer 2027 | BS |
 | Siemens Healthineers | Software Engineering Co-op - Hoffman Estates - IL | [Apply](<https://onehealthineers.wd3.myworkdayjobs.com/en-US/shsjb/job/HES/Software-Engineering-Co-op---Hoffman-Estates--IL_R-30649>) | 2026-09-09 | Summer 2027 | BS |
@@ -573,7 +546,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Navy Federal | Security Workflow Engineer Intern | [Apply](<https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32382>) | 2026-09-09 | Summer 2027 | BS/MS/PhD |
 | Gallup | Software Engineer Intern - Summer 2027 | [Apply](<https://job-boards.greenhouse.io/gallup/jobs/4395897009>) | 2026-09-09 | Summer 2027 | BS/MS |
 | Coinbase | Software Engineer Intern | [Apply](<https://boards.greenhouse.io/embed/job_app?token=8168315>) | 2026-09-09 | Summer 2027 | BS |
-| Coinbase | Data Engineer Intern | [Apply](<https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459>) | 2026-09-08 | Summer 2027 | BS |
 | AArete | Data Architecture & Engineering Intern | [Apply](<https://jobs.jobvite.com/aarete/job/otGLAfwe?nl=1&nl=1&fr=false>) | 2026-09-08 | Summer 2027 | BS |
 | U.S. Bank | 2027 Information Security Summer Intern | [Apply](<https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Cincinnati-OH/XMLNAME-2027-Information-Security-Summer-Intern_2026-0025770>) | 2026-09-08 | Summer 2027 | BS |
 | Meijer | Information Security Intern- Summer 2027 | [Apply](<https://meijer.wd5.myworkdayjobs.com/Meijer/job/Grand-Rapids-MI/Information-Security-Intern--Summer-2027_R000698302>) | 2026-09-08 | Summer 2027 | BS |
@@ -694,10 +666,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Reflect Orbital | Flight Software Engineering Intern | [Apply](<https://jobs.ashbyhq.com/reflect-orbital/d2ad1427-89aa-404d-8678-7b8e6dace5e2>) | 2026-09-04 | Summer 2027 | BS |
 | Oceanus Marine Technologies | Software Engineering Intern | [Apply](<https://jobs.ashbyhq.com/oceanus/c16078ab-131c-461e-9049-b094633ae41b>) | 2026-09-04 | Summer 2027 | BS |
 | Hadrian | Software Engineer Intern | [Apply](<https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e>) | 2026-09-04 | Summer 2027 | BS |
-| National Information Solutions Cooperative | Data Engineer Intern ⚠️dup?(national-information-solutions-cooperative-data-engineer-intern-18613f) | [Apply](<https://job-boards.greenhouse.io/testnisc/jobs/8167883>) | 2026-09-03 | Summer 2027 | BS |
-| National Information Solutions Cooperative | Data Engineer Intern ⚠️dup?(national-information-solutions-cooperative-data-engineer-intern-18613f) | [Apply](<https://job-boards.greenhouse.io/nisc/jobs/8167858>) | 2026-09-03 | Summer 2027 | BS |
-| National Information Solutions Cooperative | Data Engineer Intern | [Apply](<https://job-boards.greenhouse.io/testnisc/jobs/8167884>) | 2026-09-03 | Summer 2027 | BS |
-| Shure | Data Engineer Intern | [Apply](<https://careersus-shure.icims.com/jobs/4982/job?mobile=true&needsRedirect=false>) | 2026-09-03 | Summer 2027 | BS/MS |
 | Reflect Orbital | Avionics Engineering Intern | [Apply](<https://jobs.ashbyhq.com/reflect-orbital/d1fc01d9-3f74-49bd-a227-6871089c8216>) | 2026-09-03 | Summer 2027 | BS |
 | Stryker | Commercial Operations Software Engineering Intern - Flower Mound - TX | [Apply](<https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Flower-Mound-Texas/Commercial-Operations-Software-Engineering-Intern---Flower-Mound--TX_R572941>) | 2026-09-03 | Summer 2027 | BS |
 | PepsiCo | 2027 Summer Intern: Technology Software Development & Engineering | [Apply](<https://uscampus-pepsico.icims.com/jobs/466510/2027-summer-intern%3a-technology-software-development-%26-engineering/job>) | 2026-09-03 | Summer 2027 | BS |
@@ -809,19 +777,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Textron | Software Engineer Intern - Sea Systems | [Apply](<https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342935>) | 2026-09-01 | Summer 2027 | BS |
 | Emerson Electric | Software Engineer Co-op - January 2027 - May 2027 | [Apply](<https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009454>) | 2026-09-01 | Summer 2027 | BS |
 | Lawrence Livermore National Laboratory (LLNL) | Computing Undergraduate Student Intern - Early Internship Program | [Apply](<https://jobs.smartrecruiters.com/LLNL/3743990014981656>) | 2026-09-01 | Summer 2027 | BS |
-| Ragle Inc | Data Engineering Intern | [Apply](<https://ragleinc.applytojob.com/apply/bOx8uiciOs/Data-Engineering-Intern-Summer-2027>) | 2026-09-01 | Summer 2027 | BS/MS |
 | Clarios | Forward Deployed Engineer Intern - Summer 2027 | [Apply](<https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/Forward-Deployed-Engineering-Intern--Summer-2027-_WD49962>) | 2026-09-01 | Summer 2027 | BS |
-| Post Holdings | Data Engineer Intern | [Apply](<https://jobs.postholdings.com/jobs/31960?icims=1>) | 2026-09-01 | Summer 2027 | BS/MS |
-| Philips | Data Engineering Co-op | [Apply](<https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Reedsville-Pennsylvania-United-States/Co-op-Data-Engineering-Reedsville--PA-July-December-2027_587486>) | 2026-09-01 | Summer 2027 | BS |
 | Johns Hopkins Applied Physics Laboratory | Engineer/SW Developer/Analyst Intern - Maritime Force Engagement Control | [Apply](<https://careers.jhuapl.edu/jobs/59598?icims=1>) | 2026-09-01 | Summer 2027 | BS |
-| Pella | Data Engineer Intern - Summer 2027 | [Apply](<https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253304>) | 2026-09-01 | Summer 2027 | BS |
-| Edison International | Software/Data Engineering Intern | [Apply](<https://apply.edisoncareers.com/job/Chino-2027-Summer-Internship-SoftwareData-Engineering-(Chino)-CA-91710/1424663800/?ats=successfactors>) | 2026-09-01 | Summer 2027 | BS |
-| American Express | Data Engineer Intern - Enterprise Technology Services ⚠️dup?(american-express-data-engineer-intern-enterprise-technology-services-d61851) | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012764>) | 2026-09-01 | Summer 2027 | MS |
-| American Express | Data Engineer Intern - Enterprise Technology Services ⚠️dup?(american-express-data-engineer-intern-enterprise-technology-services-35cf33) | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012339>) | 2026-09-01 | Summer 2027 | MS |
-| American Express | Data Engineer Intern - Enterprise Technology Services ⚠️dup?(american-express-data-engineer-intern-enterprise-technology-services-d3f00d) | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012781>) | 2026-09-01 | Summer 2027 | MS |
-| American Express | Data Engineer Intern - Enterprise Technology Services | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011828>) | 2026-09-01 | Summer 2027 | BS |
-| American Express | Data Engineer Intern - Enterprise Technology Services | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011831>) | 2026-09-01 | Summer 2027 | BS |
-| American Express | Data Engineer Intern - Enterprise Technology Services | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012333>) | 2026-09-01 | Summer 2027 | BS |
 | Lawrence Livermore National Laboratory (LLNL) | Computing Undergraduate Student Intern - Summer 2027 | [Apply](<https://jobs.smartrecruiters.com/LLNL/3743990014982059-computing-undergraduate-student-intern-summer-2027>) | 2026-09-01 | Summer 2027 | BS |
 | Lawrence Livermore National Laboratory (LLNL) | Computing Graduate Student Intern - Summer 2027 | [Apply](<https://jobs.smartrecruiters.com/LLNL/3743990014982439-computing-graduate-student-intern-summer-2027>) | 2026-09-01 | Summer 2027 | BS |
 | HP IQ | Software Engineering Intern, Connectivity (Summer 2027) | [Apply](<https://job-boards.greenhouse.io/hpiq/jobs/6176783004>) | 2026-09-01 | Summer 2027 | BS |
@@ -891,9 +848,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Hitachi | 2027 Summer Engineering Intern - Alamo | [Apply](<https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Alamo-Tennessee-United-States-of-America/XMLNAME-2027-Summer-Engineering-Intern---Alamo_R0142889>) | 2026-09-01 | Summer 2027 | BS/MS |
 | Hermeus | Subsystem Test Engineering Intern - Spring/Summer 2027 | [Apply](<https://jobs.lever.co/hermeus/643fd7b7-9015-43a1-aa2b-a54f117b403c>) | 2026-09-01 | Summer 2027 | BS |
 | First National Bank | Summer 2027 Application Development Intern | [Apply](<https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Application-Development-Intern_2026-01847>) | 2026-09-01 | Summer 2027 | BS |
-| First National Bank | Summer 2027 Data Engineering Intern ⚠️dup?(first-national-bank-summer-2027-data-engineering-intern-a1c7b9) | [Apply](<https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01713>) | 2026-09-01 | Summer 2027 | BS |
-| First National Bank | Summer 2027 Data Engineering Intern ⚠️dup?(first-national-bank-summer-2027-data-engineering-intern-a1c7b9) | [Apply](<https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01714>) | 2026-09-01 | Summer 2027 | BS |
-| First National Bank | Summer 2027 Data Engineering Intern | [Apply](<https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01712>) | 2026-09-01 | Summer 2027 | BS |
 | DraftKings | Software Engineer Intern-Referral (Summer 2027) | [Apply](<https://draftkings.wd1.myworkdayjobs.com/Employee_Referral_Portal/job/Boston-MA/Software-Engineer-Intern-Referral--Summer-2027-_JR14932>) | 2026-09-01 | Summer 2027 | BS |
 | Blue Origin | Summer 2027 Avionics Software Internship - Undergraduate | [Apply](<https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Avionics-Software-Internship---Undergraduate_R71424>) | 2026-09-01 | Summer 2027 | BS |
 | Blue Origin | Summer 2027 Software Developer Internship - Undergraduate | [Apply](<https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Undergraduate_R71425>) | 2026-09-01 | Summer 2027 | BS |
@@ -1013,7 +967,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Booz Allen | University - 2027 Summer Games Cyber Security Intern - McLean, VA | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034>) | 2026-08-27 | Summer 2027 | BS |
 | Booz Allen | University - 2027 Summer Games Cyber Security Intern | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047>) | 2026-08-27 | Summer 2027 | BS |
 | Air Products | Summer Intern- IT & Cyber Audit (2027) | [Apply](<https://airproducts.wd5.myworkdayjobs.com/AP0001/job/Allentown-Pennsylvania/Summer-Intern--IT---Cyber-Audit--2027-_JR-2026-21954>) | 2026-08-27 | Summer 2027 | BS |
-| Manulife | Summer Intern 2027 - Data Engineering | [Apply](<https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Data-Engineering_JR26081679>) | 2026-08-27 | Summer 2027 | BS |
 | Commerce Bank | IT Intern - Summer 2027 | [Apply](<https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern---IT--Summer-2027-_38395>) | 2026-08-27 | Summer 2027 | BS |
 | Tesla | Software Engineer Intern - Vehicle Software - Summer 2027 | [Apply](<https://www.tesla.com/careers/search/job/281097>) | 2026-08-27 | Summer 2027 | BS |
 | Manulife Financial | Software Engineering Intern | [Apply](<https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Software-Engineering_JR26081680>) | 2026-08-27 | Summer 2027 | BS |
@@ -1027,7 +980,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | talentpluto | Full Stack Engineering Intern | [Apply](<https://apply.workable.com/talentpluto/j/290A067DC5/>) | 2026-08-26 | Summer 2027 | BS |
 | Repsol | Development Planning Engineer Intern | [Apply](<https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Development-Planning-Engineering-Intern_83951-1>) | 2026-08-26 | Summer 2027 | BS/MS |
 | Repsol | Reservoir Engineer Intern ⚠️dup?(repsol-reservoir-engineer-intern-1dc853) | [Apply](<https://repsol.wd3.myworkdayjobs.com/Repsol/job/Houston/Reservoir-Engineering-Intern_83945-1>) | 2026-08-26 | Summer 2027 | BS |
-| Auto-Owners Insurance | Data Engineering Intern - Summer 2027 | [Apply](<https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318>) | 2026-08-26 | Summer 2027 | BS/MS |
 | General Matter | Summer 2027 Internship - Architectural Engineering | [Apply](<https://job-boards.greenhouse.io/generalmatter/jobs/5377117008>) | 2026-08-26 | Summer 2027 | BS |
 | Wavetronix | Computer Science Internship Summer 2027 | [Apply](<https://wavetronix.breezy.hr/p/565668353504-computer-science-internship-summer-2027>) | 2026-08-26 | Summer 2027 | BS |
 | Bosch | Phone as a Key Software Engineering - Intern | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000145785190-phone-as-a-key-software-engineering-intern?oga=true>) | 2026-08-26 | Summer 2027 | BS |
@@ -1071,7 +1023,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | HNTB | Intern Engineer - Summer 2027 | [Apply](<https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Minneapolis-MN/Intern-Engineer---Summer-2027_R-31319>) | 2026-08-25 | Summer 2027 | BS |
 | MSA Safety | Software Engineer Intern - Product Development - Summer 2027 | [Apply](<https://careers.msasafety.com/jobs/9993?icims=1>) | 2026-08-24 | Summer 2027 | BS |
 | Garmin | Software Engineer Intern | [Apply](<https://careers.garmin.com/jobs/19693?icims=1>) | 2026-08-24 | Summer 2027 | BS |
-| Audax Group | Data Engineer Co-Op | [Apply](<https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005>) | 2026-08-24 | Summer 2027 | BS |
 | P&G - Procter & Gamble | IT Engineering Internship - Software - Platform - & Network | [Apply](<https://pg.wd5.myworkdayjobs.com/en-US/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering-Internship--Software--Platform----Network-_R000157503>) | 2026-08-24 | Summer 2027 | BS |
 | GE Vernova | GE Vernova GridOS Software Test Engineer - Intern - Summer 2027 | [Apply](<https://gevernova.wd5.myworkdayjobs.com/en-US/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-GridOS--Software-Test-Engineer---Intern---Summer-2027_R5049907-1>) | 2026-08-24 | Summer 2027 | BS |
 | MORSE Corp Co-op Opportunities | Full Stack Software Engineer Graduate Co-op | [Apply](<https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003>) | 2026-08-24 | Summer 2027 | BS |
@@ -1102,7 +1053,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Springs Window Fashions | Textile Engineering Intern - Summer 2027 | [Apply](<https://careers-springswindowfashions.icims.com/jobs/12881/job?mobile=true&needsRedirect=false>) | 2026-08-22 | Summer 2027 | BS |
 | Databricks | Software Engineering Intern - 2027 Start - Winter | [Apply](<https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002>) | 2026-08-22 | Summer 2027 | BS |
 | AMD | Product Development Engineering Intern/Co-op | [Apply](<https://careers.amd.com/jobs/91228?icims=1>) | 2026-08-21 | Summer 2027 | MS |
-| Blackstone | Data Engineer Summer Analyst - Blackstone Technology & Innovations | [Apply](<https://blackstone.wd1.myworkdayjobs.com/zh-CN/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Technology-and-Innovations--Data-Engineer-Summer-Analyst_45022>) | 2026-08-21 | Summer 2027 | BS |
 | AMD | Product Development Engineer Intern/Co-op | [Apply](<https://careers.amd.com/jobs/91227?icims=1>) | 2026-08-21 | Summer 2027 | BS |
 | Diamondback Energy | Summer 2027 IT Intern | [Apply](<https://diamondbackenergy.wd12.myworkdayjobs.com/DBE/job/Oklahoma-City-OK/Summer-2027-IT-Intern_R100853>) | 2026-08-21 | Summer 2027 | BS |
 | American Express | Cybersecurity Intern ⚠️dup?(american-express-cybersecurity-intern-85ea3f) | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012460>) | 2026-08-21 | Summer 2027 | BS |
@@ -1118,7 +1068,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Lawrence Livermore National Laboratory (LLNL) | National Security Engineering Division (NSED) Undergraduate Intern - Summer 2027 | [Apply](<https://jobs.smartrecruiters.com/LLNL/3743990014731656-national-security-engineering-division-nsed-undergraduate-intern-summer-2027>) | 2026-08-21 | Summer 2027 | BS |
 | Hewlett Packard (HP) | Enterprise Operations Engineering Internship | [Apply](<https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Engineering-Internship_3166958>) | 2026-08-21 | Summer 2027 | BS/MS |
 | Diamondback Energy | Summer 2027 Engineering Intern | [Apply](<https://diamondbackenergy.wd12.myworkdayjobs.com/DBE/job/Midland-TX/Summer-2027-Engineering-Intern_R100824>) | 2026-08-21 | Summer 2027 | BS |
-| Devon Energy | Technology Intern - Data Engineering | [Apply](<https://wd5.myworkdaysite.com/en-US/recruiting/devonenergy/Careers/job/Oklahoma-City-OK/Technology-Summer-Intern-2027_R26264-1>) | 2026-08-20 | Summer 2027 | BS |
 | METECS | Summer Software Internship | [Apply](<http://metecs.applytojob.com/apply/XTBhKHIVhQ/Summer-Software-Internship>) | 2026-08-20 | Summer 2027 | BS |
 | Phoebe | Software Engineering Intern | [Apply](<https://jobs.ashbyhq.com/phoebe-work/1ffe3e63-2163-447e-a8b0-1fff8b87e0ca>) | 2026-08-20 | Summer 2027 | BS |
 | TikTok | Software Engineer Intern (TikTok Search Architecture) - 2027 Fall | [Apply](<https://lifeattiktok.com/search/7675524738811218229>) | 2026-08-20 | Summer 2027 | BS |
@@ -1151,7 +1100,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | GE Aerospace | Engines Engineering Intern - Computer or Software Engineering | [Apply](<https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Engines-Engineering-Intern---Computer-or-Software-Engineering---US---Summer-2027_R5029622-1>) | 2026-08-17 | Summer 2027 | BS/MS |
 | Vanguard | IT Intern - Investment Systems | [Apply](<https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Investment-Systems--PA-_177685-1>) | 2026-08-17 | Summer 2027 | BS/MS |
 | Vanguard | IT Intern - Application Development | [Apply](<https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Application-Development--NC-_177681-1>) | 2026-08-17 | Summer 2027 | BS/MS |
-| TikTok | Data Engineer Intern (Data Platform Global Live) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7674032146438162693>) | 2026-08-17 | Summer 2027 | BS/MS |
 | Conagra Brands | IT Infrastructure Internship - Summer 2027 | [Apply](<https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788>) | 2026-08-17 | Summer 2027 | BS |
 | Dee Zee | Software Development Intern | [Apply](<https://deezee.wd108.myworkdayjobs.com/DeeZee_Careers/job/Des-Moines/Software-Development-Intern_REQ00368>) | 2026-08-17 | Summer 2027 | BS |
 | American Express | Software Engineer Intern - Enterprise Technology Services | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784>) | 2026-08-17 | Summer 2027 | BS |
@@ -1206,8 +1154,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Bosch Group | Powertrain Controls Software Engineering Intern (6-Months, Full-Time) | [Apply](<https://jobs.smartrecruiters.com/BoschGroup/744000142898574>) | 2026-08-11 | Summer 2027 | BS |
 | Codeage | Web Developer Intern - WordPress and Woocommerce | [Apply](<https://jobs.smartrecruiters.com/Codeage/743999669081604>) | 2026-08-11 | Summer 2027 | BS |
 | RE/SPEC Inc. | Student Software Engineering Intern | [Apply](<https://jobs.smartrecruiters.com/RESPECInc/744000012676985>) | 2026-08-11 | Summer 2027 | BS |
-| LPL Financial Holdings | Data Engineer Intern - Data | [Apply](<https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914>) | 2026-08-10 | Summer 2027 | BS/MS |
-| TikTok | Data Engineer Intern (Monetization Data) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7671232204182276405>) | 2026-08-10 | Summer 2027 | BS/MS |
 | ING | INTERNSHIP SOFTWARE ENGINEER | [Apply](<https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/INTERNSHIP-SOFTWARE-ENGINEER_REQ-10119555>) | 2026-08-10 | Summer 2027 | BS |
 | LPL Financial Holdings | Software Engineer Intern | [Apply](<https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921>) | 2026-08-10 | Summer 2027 | BS/MS |
 | DV Trading | Software Engineer Intern - Summer 2027 (DV Commodities) | [Apply](<https://job-boards.greenhouse.io/dvtrading/jobs/4719119005>) | 2026-08-10 | Summer 2027 | BS |
@@ -1543,7 +1489,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Jane Street | Network Engineer | [Apply](<https://www.janestreet.com/join-jane-street/position/8620793002/>) | ~2026-07-23 | Summer 2027 | BS |
 | Jane Street | Linux Engineer | [Apply](<https://www.janestreet.com/join-jane-street/position/8626260002/>) | ~2026-07-23 | Summer 2027 | BS |
 | Jane Street | Fundamental Research Analyst | [Apply](<https://www.janestreet.com/join-jane-street/position/8347286002/>) | ~2026-07-23 | Summer 2027 | BS |
-| Jane Street | Data Engineer | [Apply](<https://www.janestreet.com/join-jane-street/position/8631973002/>) | ~2026-07-23 | Summer 2027 | BS |
 | Jane Street | Cybersecurity Analyst | [Apply](<https://www.janestreet.com/join-jane-street/position/8632723002/>) | ~2026-07-23 | Summer 2027 | BS |
 | Jane Street | Machine Learning Engineer | [Apply](<https://www.janestreet.com/join-jane-street/position/8611307002/>) | ~2026-07-23 | Summer 2027 | BS |
 | IMC Trading | Machine Learning Research Intern - Summer 2027 - Amsterdam | [Apply](<https://www.imc.com/us/careers/jobs/4912874101>) | ~2026-07-23 | Summer 2027 | BS |
@@ -1659,6 +1604,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 
 | Company | Role | Link | Date Posted | Term | Degree |
 | --- | --- | --- | --- | --- | --- |
+| Pacific Life | Data Engineering Intern | [Apply](<https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Data-Engineering-Internship_R17828>) | 2026-09-25 | Summer 2027 | BS/MS |
+| Western National Insurance | Data Engineering Intern - Data & Integrations | [Apply](<https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537849>) | 2026-09-25 | Summer 2027 | BS |
 | TRC Companies | GIS Intern | [Apply](<https://careers.trccompanies.com/jobs/26961?icims=1>) | 2026-09-25 | Summer 2027 | BS/MS/PhD |
 | Cerity Partners | Investment Data & Technology Intern - Central Solutions | [Apply](<https://ceritypartners.wd12.myworkdayjobs.com/ceritypartnerscareers/job/New-York-City-NY/Investment-Data---Technology-Analyst-Internship_R929>) | 2026-09-25 | Summer 2027 | BS |
 | American Century Investments | Enterprise Data Intern | [Apply](<https://americancentury.wd5.myworkdayjobs.com/AmericanCenturyInvestments/job/Kansas-City-Missouri/Enterprise-Data-Intern_R0005751>) | 2026-09-25 | Summer 2027 | BS |
@@ -1667,6 +1614,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Red Ventures | Data Science Intern - Launch Program | [Apply](<https://www.redventures.com/careers/positions/open?gh_jid=8233284>) | 2026-09-25 | Summer 2027 | BS/MS |
 | GCM Grosvenor | Fund Data Reporting and Analytics Intern | [Apply](<https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8003490003>) | 2026-09-25 | Summer 2027 | BS |
 | Atlassian | Data Scientist Intern | [Apply](<https://campus-americas.icims.com/jobs/26271/data-scientist-intern%2c-2027-summer-u.s./job>) | 2026-09-25 | Summer 2027 | MS |
+| Enterprise Holdings | Data Engineer Intern - IT | [Apply](<https://us-erac.icims.com/jobs/567651/job?mobile=true&needsRedirect=false>) | 2026-09-24 | Summer 2027 | BS |
+| The Hartford | Tech & Data Program Summer 2027 – Data Engineer Intern (Hartford) | [Apply](<https://zapply.jobs/l/d/workday-thehartford-careers-external-R2626103?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | Radiance Technologies | 2027 Modeling, Analytics, & Simulation Sciences (MASS) Engineer Intern | [Apply](<https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102439?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | Radiance Technologies | 2027 Modeling, Analytics, & Simulation Sciences (MASS) Engineer Intern | [Apply](<https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102440?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | Radiance Technologies | 2027 Modeling, Analytics, & Simulation Sciences (MASS) Engineer Intern | [Apply](<https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102441?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
@@ -1682,6 +1631,11 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Brunswick | Mercury Marine: Advanced Manufacturing/Operations Analytics Engineering Co-op | [Apply](<https://zapply.jobs/l/d/workday-brunswick-search-JR-051238?s=gh-internships-2027>) | 2026-09-24 | Summer 2027 | BS |
 | State Farm | Data Science Intern - Magnet Program | [Apply](<https://jobs.statefarm.com/jobs/46353?icims=1>) | 2026-09-24 | Summer 2027 | MS |
 | CHS | Data Analyst Intern | [Apply](<https://careers.chsinc.com/job/Inver-Grove-Heights-Data-Analyst-Intern-MN-55077-1721/1433568700/?ats=successfactors>) | 2026-09-24 | Summer 2027 | BS |
+| Figma | Data Engineer Intern (2027) | [Apply](<https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004>) | 2026-09-23 | Summer 2027 | BS |
+| Jabil | Data Engineer Intern | [Apply](<https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Data-Engineering-Intern_J2465581>) | 2026-09-23 | Summer 2027 | BS |
+| West Bend Insurance | Data Solution Engineer Intern | [Apply](<https://careers-thesilverlining.icims.com/jobs/3786/job?mobile=true&needsRedirect=false>) | 2026-09-23 | Summer 2027 | BS |
+| Figma | Data Engineer Intern (2027) | [Apply](<https://zapply.jobs/l/d/greenhouse-figma-6178851004?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
+| Jabil | Data Engineering Intern | [Apply](<https://zapply.jobs/l/d/workday-jabil-jabil-careers-J2465581?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
 | Zekelman Industries | Business Intelligence Intern - Program Development | [Apply](<https://zekelman.wd12.myworkdayjobs.com/Careers/job/Troy-MI/Intern--Business-Intelligence_JR002769>) | 2026-09-23 | Summer 2027 | BS |
 | Vertex Pharmaceuticals | Vertex Spring Co-Op 2027, Analytical Development, Statistics | [Apply](<https://zapply.jobs/l/d/workday-vrtx-vertex-careers-REQ-30506?s=gh-internships-2027>) | ~2026-09-23 | Summer 2027 | BS |
 | Muon Space | Applied Science Intern (Summer 2027) | [Apply](<https://zapply.jobs/l/d/greenhouse-muonspace-5244641007?s=gh-internships-2027>) | 2026-09-23 | Summer 2027 | BS |
@@ -1692,6 +1646,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Excellus BCBS | College Intern - Digital Analytics | [Apply](<https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Digital-Analytics_JR104050-2>) | 2026-09-23 | Summer 2027 | BS |
 | Excellus BCBS | College Intern - Healthcare Statistical Analytics | [Apply](<https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Healthcare-Statistical-Analytics_JR104054-1>) | 2026-09-23 | Summer 2027 | BS |
 | Excellus BCBS | Healthcare Analytics Intern - Healthcare Analytics | [Apply](<https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Healthcare-Analytics_JR104059-2>) | 2026-09-23 | Summer 2027 | BS |
+| West Bend Insurance | IT Data Engineer Intern | [Apply](<https://careers-thesilverlining.icims.com/jobs/3759/job?mobile=true&needsRedirect=false>) | 2026-09-22 | Summer 2027 | BS |
 | Rippling | Data Science Intern - Summer 2027 | [Apply](<https://ats.rippling.com/rippling/jobs/f255bf03-9173-4c0a-8a18-7cc43c27ded8>) | 2026-09-22 | Summer 2027 | BS |
 | Vertex Pharmaceuticals | Vertex Spring Co-Op 2027, Predictive Models | [Apply](<https://zapply.jobs/l/d/workday-vrtx-vertex-careers-REQ-30501?s=gh-internships-2027>) | ~2026-09-22 | Summer 2027 | BS |
 | Stryker | Data Analytics Intern | [Apply](<https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Data-Engineering-Intern_R572901>) | 2026-09-22 | Summer 2027 | BS/MS |
@@ -1701,6 +1656,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Klaviyo | People Analytics Co-op | [Apply](<https://job-boards.greenhouse.io/klaviyocampus/jobs/8002711003>) | 2026-09-22 | Summer 2027 | BS |
 | Electronic Arts | Analytics Intern | [Apply](<https://jobs.ea.com/en_US/careers/JobDetail/Analytics-Intern/216252>) | 2026-09-22 | Summer 2027 | BS/MS |
 | Epic Games | Data Science Intern | [Apply](<https://epicgames.com/careers/jobs/6202675004?gh_jid=6202675004>) | 2026-09-22 | Summer 2027 | BS |
+| Live Oak Bank | Data Engineer Intern - Multiple Teams | [Apply](<https://liveoakbancshares.wd1.myworkdayjobs.com/en-US/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--Data-Engineering_R-002634>) | 2026-09-21 | Summer 2027 | BS |
+| Lazard | Data Engineer Intern | [Apply](<https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6605>) | 2026-09-21 | Summer 2027 | BS/MS |
 | Erie Insurance Group | Data Intern 2 | [Apply](<https://jobs.erieinsurance.com/job/Erie-Intern-II-(Data)-PA-16506/1432176200/?ats=successfactors>) | 2026-09-21 | Summer 2027 | BS |
 | Zimmer Biomet Holdings | Data Management Intern | [Apply](<https://careers.zimmerbiomet.com/us/en/job/12746>) | 2026-09-21 | Summer 2027 | BS |
 | Viking Global | Data Science Intern | [Apply](<https://job-boards.greenhouse.io/vikingglobalinvestors/jobs/6202755004>) | 2026-09-21 | Summer 2027 | MS/PhD |
@@ -1729,6 +1686,9 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Waymo | Product Data Science Intern | [Apply](<https://careers.withwaymo.com/jobs?gh_jid=8199365>) | 2026-09-18 | Summer 2027 | PhD |
 | American Family Insurance Group | Internal Data and Analytics Intern - Summer 2027 | [Apply](<https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Internal-Data-and-Analytics-Intern---Summer-2027_R39401>) | 2026-09-18 | Summer 2027 | BS/MS/PhD |
 | Altar'd State | IT Analytics Intern | [Apply](<https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Spring-2027-IT-Analytics-Intern_SOSJ12499>) | 2026-09-18 | Summer 2027 | BS |
+| Amgen | Grad Intern – Data Engineer – Technology, AI & Data (Summer 2027) | [Apply](<https://zapply.jobs/l/d/workday-amgen-careers-R-255742?s=gh-internships-2027>) | 2026-09-17 | Summer 2027 | BS |
+| Amgen | Undergrad Intern – Data Engineer – Technology, AI & Data (Summer 2027) | [Apply](<https://zapply.jobs/l/d/workday-amgen-careers-R-255708?s=gh-internships-2027>) | 2026-09-17 | Summer 2027 | BS |
+| Gordon Food Service | Data Engineering Intern - Atlanta Tech Hub - Data Engineering | [Apply](<https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Atlanta-Georgia/Data-Engineering-Internship_R-57330>) | 2026-09-17 | Summer 2027 | BS |
 | Gordon Food Service | Vendor & Customer Master Data Intern - Master Data | [Apply](<https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Vendor---Customer-Master-Data-Internship_R-57341>) | 2026-09-17 | Summer 2027 | BS |
 | OCC | Data Intern - Data | [Apply](<https://theocc.wd5.myworkdayjobs.com/careers/job/Chicago---125-S-Franklin/Summer-Intern---Data_REQ-4844>) | 2026-09-17 | Summer 2027 | BS |
 | The Hartford | Data Science Intern - Summer 2027 | [Apply](<https://zapply.jobs/l/d/workday-thehartford-careers-external-R2627114?s=gh-internships-2027>) | 2026-09-17 | Summer 2027 | BS |
@@ -1751,6 +1711,8 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | GM financial | Data Science Intern | [Apply](<https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260839>) | 2026-09-16 | Summer 2027 | BS/MS |
 | Charter Manufacturing | Automation & Analytics Intern | [Apply](<https://chartermfg.wd5.myworkdayjobs.com/Charter_Careers/job/Charter-Wire---Menomonee-Valley---Milwaukee-WI/Automation---Analytics-Intern--Year-Round-_R08112>) | 2026-09-16 | Summer 2027 | BS |
 | Lawrence Livermore National Laboratory (LLNL) | Data Science Undergraduate Student Intern - Summer 2027 | [Apply](<https://jobs.smartrecruiters.com/LLNL/3743990015289136>) | 2026-09-16 | Summer 2027 | BS |
+| APEX Analytix | Data Engineering Intern - Summer 2027 | [Apply](<https://ats.rippling.com/apexanalytix-careers/jobs/52353bce-cb36-423f-ae0a-f2057ef3b5d9>) | 2026-09-15 | Summer 2027 | BS/MS |
+| TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Data Engineer | [Apply](<https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510797?s=gh-internships-2027>) | 2026-09-15 | Summer 2027 | BS |
 | Tighe & Bond | GIS Intern - Geographic Information Systems | [Apply](<https://careers-tighebond.icims.com/jobs/1892/job?mobile=true&needsRedirect=false>) | 2026-09-15 | Summer 2027 | BS |
 | LabCorp | Intern – Financial Analytics & Technology | [Apply](<https://zapply.jobs/l/d/workday-labcorp-external-2630761?s=gh-internships-2027>) | 2026-09-15 | Summer 2027 | BS |
 | TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Data Analyst | [Apply](<https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510800?s=gh-internships-2027>) | 2026-09-15 | Summer 2027 | BS |
@@ -1782,6 +1744,10 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | QTS | Tableau Analytics and Business Intelligence Intern | [Apply](<https://qtsdatacenters.wd5.myworkdayjobs.com/qts/job/Overland-Park-KS/Summer-2027-Internship--Tableau-Analytics-and-Business-Intelligence_R2026-2090>) | 2026-09-15 | Summer 2027 | BS/MS |
 | HF Sinclair | IT Data Analytics Intern | [Apply](<https://careers.hfsinclair.com/job/Dallas-IT-Data-Analytics-Intern-TX-75219/1430072400/?ats=successfactors>) | 2026-09-15 | Summer 2027 | BS/MS |
 | HF Sinclair | Reporting & Analytics Intern | [Apply](<https://careers.hfsinclair.com/job/Dallas-Reporting-&-Analytics-Intern-TX-75219/1430067400/?ats=successfactors>) | 2026-09-15 | Summer 2027 | BS/MS |
+| ibotta | Data Engineer Intern | [Apply](<https://jobs.ashbyhq.com/ibotta/666cac72-9e06-46ee-aea0-576f766338b2/application?embed=true>) | 2026-09-14 | Summer 2027 | BS |
+| Ernst & Young | Data Engineer Intern - Multiple Teams | [Apply](<https://eyglobal.yello.co/jobs/nuM1c7MBNjknCC8oSMvZMg?job_board_id=c1riT--B2O-KySgYWsZO1Q>) | 2026-09-14 | Summer 2027 | BS/MS |
+| Principal Financial Group | Data Engineer Intern | [Apply](<https://careers.principal.com/jobs/52561?icims=1>) | 2026-09-14 | Summer 2027 | BS |
+| Guardian Life | Data Engineering Intern - Digital & Technology | [Apply](<https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Data-Engineering_R000110202>) | 2026-09-14 | Summer 2027 | BS |
 | Highgate | Data Services Intern - Summer 2027 | [Apply](<https://externalhourly-highgate.icims.com/jobs/82546/job?hub=7&mobile=true&needsRedirect=false>) | 2026-09-14 | Summer 2027 | BS/MS |
 | Gordon Food Service | Material Master Data Intern | [Apply](<https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Material-Master-Data-Internship_R-57186>) | 2026-09-14 | Summer 2027 | BS |
 | Johnson & Johnson | Business Intelligence Co-op | [Apply](<https://jj.wd5.myworkdayjobs.com/JJ/job/Irving-Texas-United-States-of-America/Business-Intelligence-Co-Op_R-097003-1>) | 2026-09-14 | Summer 2027 | BS |
@@ -1805,7 +1771,11 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Robinhood | People Insights & Analytics Intern - Summer 2027 | [Apply](<https://boards.greenhouse.io/robinhood/jobs/8198255>) | 2026-09-14 | Summer 2027 | MS |
 | Principal Financial Group | Data and Analytics Intern - Multiple Teams | [Apply](<https://careers.principal.com/jobs/52574?icims=1>) | 2026-09-14 | Summer 2027 | BS |
 | URBN | Data Science Intern | [Apply](<https://homeoffice-na-urbn.icims.com/jobs/30444/job?mobile=true&needsRedirect=false>) | 2026-09-14 | Summer 2027 | BS |
+| TD Bank | Data Engineer Intern - Global Technology & Solutions | [Apply](<https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797>) | 2026-09-13 | Summer 2027 | BS |
 | TD Bank | Data Analyst Intern - Global Technology & Solutions | [Apply](<https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Analyst_R_1510800>) | 2026-09-13 | Summer 2027 | BS |
+| Constellation Energy | IT Data Engineering Intern | [Apply](<https://jobs.constellationenergy.com/jobs/138716?icims=1>) | 2026-09-12 | Summer 2027 | BS/MS |
+| MegazoneCloud | Data Engineer Co-op 2027 | [Apply](<https://jobs.ashbyhq.com/megazone/fde09888-986f-4207-88fe-3ff5b921a1fa>) | 2026-09-11 | Summer 2027 | BS |
+| Perpay | Data Engineering Intern | [Apply](<https://job-boards.greenhouse.io/perpay/jobs/4076965007>) | 2026-09-11 | Summer 2027 | MS |
 | Citizens Financial Group | Data Management Intern - Multiple Teams | [Apply](<https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/49277>) | 2026-09-11 | Summer 2027 | BS |
 | Munich Airport NJ | FM Software and Data Analyst Internship | [Apply](<http://munichairportusholdingllc.applytojob.com/apply/Fi3oDpdaO3/FM-Software-And-Data-Analyst-Internship>) | 2026-09-11 | Summer 2027 | BS |
 | Baird | IT Data & Analytics Intern | [Apply](<https://baird.wd1.myworkdayjobs.com/careers/job/WI-Milwaukee/Internship---IT-Data---Analytics--Year-Round-_R20261012-1>) | 2026-09-11 | Summer 2027 | BS |
@@ -1841,6 +1811,10 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Danaher | Data Analytics Intern | [Apply](<https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Logan-Utah-United-States/Data-Analytics-Intern-Summer-2027_R1317525>) | 2026-09-10 | Summer 2027 | BS |
 | Walmart | Data Science Intern 3 | [Apply](<https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/Summer-2027-Intern---Data-Science-III_R-2630030>) | 2026-09-10 | Summer 2027 | BS |
 | Constellation Energy | Business Performance & Analytics Intern | [Apply](<https://jobs.constellationenergy.com/jobs/138770?icims=1>) | 2026-09-10 | Summer 2027 | BS/MS |
+| Navy Federal | Data Engineer Intern | [Apply](<https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32265>) | 2026-09-09 | Summer 2027 | BS/MS |
+| Navy Federal | Associate Data Engineer Intern | [Apply](<https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32292>) | 2026-09-09 | Summer 2027 | BS/MS |
+| Gallup | Data Engineering Intern | [Apply](<https://job-boards.greenhouse.io/gallup/jobs/4395454009>) | 2026-09-09 | Summer 2027 | BS |
+| Coinbase | Data Engineer Intern | [Apply](<https://boards.greenhouse.io/embed/job_app?token=8175459>) | 2026-09-09 | Summer 2027 | BS |
 | Navy Federal | Business Intelligence Analyst Intern ⚠️dup?(navy-federal-business-intelligence-analyst-intern-a1f4b6) | [Apply](<https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32455>) | 2026-09-09 | Summer 2027 | BS |
 | Barnes & Thornburg | Information Technology Data Intern | [Apply](<https://jobs.ashbyhq.com/barnes/1881dbc0-846e-4805-968f-4e27d663f7b0/application?embed=true>) | 2026-09-09 | Summer 2027 | BS |
 | Navy Federal | Business Intelligence Analyst Intern - Consumer Lending | [Apply](<https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32321>) | 2026-09-09 | Summer 2027 | BS |
@@ -1864,6 +1838,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Coinbase | Analytics Engineer Intern | [Apply](<https://boards.greenhouse.io/embed/job_app?token=8175471>) | 2026-09-09 | Summer 2027 | BS |
 | Coinbase | Data Science Intern - Strategy, Execution, & Analytics - Platform | [Apply](<https://boards.greenhouse.io/embed/job_app?token=8175462>) | 2026-09-09 | Summer 2027 | BS/MS |
 | Coinbase | People Analytics Intern | [Apply](<https://boards.greenhouse.io/embed/job_app?token=8175517>) | 2026-09-09 | Summer 2027 | BS |
+| Coinbase | Data Engineer Intern | [Apply](<https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459>) | 2026-09-08 | Summer 2027 | BS |
 | Merck | Business Intelligence Intern - Research Lab | [Apply](<https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Business-Intelligence---Intern_R412411>) | 2026-09-08 | Summer 2027 | BS |
 | Coinbase | Analytics Engineer Intern | [Apply](<https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471>) | 2026-09-08 | Summer 2027 | BS |
 | Coinbase | Data Science Intern | [Apply](<https://www.coinbase.com/careers/positions/8175462?gh_jid=8175462>) | 2026-09-08 | Summer 2027 | BS |
@@ -1903,6 +1878,10 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Johns Hopkins Applied Physics Laboratory | Sensor Systems Intern - Data Analytics | [Apply](<https://careers.jhuapl.edu/jobs/59958?icims=1>) | 2026-09-04 | Summer 2027 | BS/MS/PhD |
 | Premier | Data Science Intern | [Apply](<https://premierinc.wd1.myworkdayjobs.com/external_professional/job/Charlotte-NC/Data-Science-Intern_R0008481>) | 2026-09-04 | Summer 2027 | BS |
 | Motorola Solutions | Supply Chain Data Analyst Internship 2027 | [Apply](<https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Supply-Chain-Data-Analyst-Internship-2027_R67543-1>) | 2026-09-04 | Summer 2027 | BS |
+| National Information Solutions Cooperative | Data Engineer Intern ⚠️dup?(national-information-solutions-cooperative-data-engineer-intern-18613f) | [Apply](<https://job-boards.greenhouse.io/testnisc/jobs/8167883>) | 2026-09-03 | Summer 2027 | BS |
+| National Information Solutions Cooperative | Data Engineer Intern ⚠️dup?(national-information-solutions-cooperative-data-engineer-intern-18613f) | [Apply](<https://job-boards.greenhouse.io/nisc/jobs/8167858>) | 2026-09-03 | Summer 2027 | BS |
+| National Information Solutions Cooperative | Data Engineer Intern | [Apply](<https://job-boards.greenhouse.io/testnisc/jobs/8167884>) | 2026-09-03 | Summer 2027 | BS |
+| Shure | Data Engineer Intern | [Apply](<https://careersus-shure.icims.com/jobs/4982/job?mobile=true&needsRedirect=false>) | 2026-09-03 | Summer 2027 | BS/MS |
 | DriveTime | Data Science Intern - Summer 2027 | [Apply](<https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Science-Intern--Summer-2027-_R16301>) | 2026-09-03 | Summer 2027 | BS/MS |
 | DriveTime | Analytics Intern - Summer 2027 | [Apply](<https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Analytics-Intern--Summer-2027-_R16295>) | 2026-09-03 | Summer 2027 | BS/MS |
 | Hormel Foods | Enterprise Analytics Intern - Campus Recruiting | [Apply](<https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/35350>) | 2026-09-03 | Summer 2027 | BS |
@@ -1920,6 +1899,20 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Allied Solutions | Data Science Intern | [Apply](<https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/Data-Science-Intern_R-011077>) | 2026-09-02 | Summer 2027 | BS |
 | Auto-Owners | Business Intelligence Developer Internship - Summer 2027 | [Apply](<https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417>) | 2026-09-02 | Summer 2027 | BS/MS |
 | Textron | Data Product & Analytics Intern | [Apply](<https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=343181>) | 2026-09-02 | Summer 2027 | BS |
+| Ragle Inc | Data Engineering Intern | [Apply](<https://ragleinc.applytojob.com/apply/bOx8uiciOs/Data-Engineering-Intern-Summer-2027>) | 2026-09-01 | Summer 2027 | BS/MS |
+| Post Holdings | Data Engineer Intern | [Apply](<https://jobs.postholdings.com/jobs/31960?icims=1>) | 2026-09-01 | Summer 2027 | BS/MS |
+| Philips | Data Engineering Co-op | [Apply](<https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Reedsville-Pennsylvania-United-States/Co-op-Data-Engineering-Reedsville--PA-July-December-2027_587486>) | 2026-09-01 | Summer 2027 | BS |
+| Pella | Data Engineer Intern - Summer 2027 | [Apply](<https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253304>) | 2026-09-01 | Summer 2027 | BS |
+| Edison International | Software/Data Engineering Intern | [Apply](<https://apply.edisoncareers.com/job/Chino-2027-Summer-Internship-SoftwareData-Engineering-(Chino)-CA-91710/1424663800/?ats=successfactors>) | 2026-09-01 | Summer 2027 | BS |
+| American Express | Data Engineer Intern - Enterprise Technology Services ⚠️dup?(american-express-data-engineer-intern-enterprise-technology-services-d61851) | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012764>) | 2026-09-01 | Summer 2027 | MS |
+| American Express | Data Engineer Intern - Enterprise Technology Services ⚠️dup?(american-express-data-engineer-intern-enterprise-technology-services-35cf33) | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012339>) | 2026-09-01 | Summer 2027 | MS |
+| American Express | Data Engineer Intern - Enterprise Technology Services ⚠️dup?(american-express-data-engineer-intern-enterprise-technology-services-d3f00d) | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012781>) | 2026-09-01 | Summer 2027 | MS |
+| American Express | Data Engineer Intern - Enterprise Technology Services | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011828>) | 2026-09-01 | Summer 2027 | BS |
+| American Express | Data Engineer Intern - Enterprise Technology Services | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011831>) | 2026-09-01 | Summer 2027 | BS |
+| American Express | Data Engineer Intern - Enterprise Technology Services | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012333>) | 2026-09-01 | Summer 2027 | BS |
+| First National Bank | Summer 2027 Data Engineering Intern ⚠️dup?(first-national-bank-summer-2027-data-engineering-intern-a1c7b9) | [Apply](<https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01713>) | 2026-09-01 | Summer 2027 | BS |
+| First National Bank | Summer 2027 Data Engineering Intern ⚠️dup?(first-national-bank-summer-2027-data-engineering-intern-a1c7b9) | [Apply](<https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01714>) | 2026-09-01 | Summer 2027 | BS |
+| First National Bank | Summer 2027 Data Engineering Intern | [Apply](<https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01712>) | 2026-09-01 | Summer 2027 | BS |
 | United Parcel Service | Business Analytics Intern - Americas Region | [Apply](<https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---UPS-CORPORATE-OFFICES-GACOR/Americas-Region-Business-Analytics-Summer-2027-Intern_R26030513>) | 2026-09-01 | Summer 2027 | BS |
 | Baird | Capital Markets Compliance Data & Analytics Intern | [Apply](<https://baird.wd1.myworkdayjobs.com/careers/job/WI-Milwaukee/Internship---Capital-Markets-Compliance-Data---Analytics--Year-Round-_R2026962-2>) | 2026-09-01 | Summer 2027 | BS |
 | Post Holdings | Business Intelligence Intern - Summer 2027 | [Apply](<https://jobs.postholdings.com/jobs/31924?icims=1>) | 2026-09-01 | Summer 2027 | BS |
@@ -1990,6 +1983,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Booz Allen | Data Scientist Intern - Summer Games | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132>) | 2026-08-28 | Summer 2027 | BS |
 | Booz Allen | Data Scientist Intern - Summer Games | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143>) | 2026-08-28 | Summer 2027 | BS |
 | Huntington Bancshares | Summer 2027 Data and Analytics Internship | [Apply](<https://huntington.wd12.myworkdayjobs.com/HNBcareers/job/Columbus-OH/Summer-2027-Data-and-Analytics-Internship_R0075377>) | 2026-08-28 | Summer 2027 | BS/MS |
+| Manulife | Summer Intern 2027 - Data Engineering | [Apply](<https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Data-Engineering_JR26081679>) | 2026-08-27 | Summer 2027 | BS |
 | Vertiv | Business Analytics Intern - Summer 2027 | [Apply](<https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278794>) | 2026-08-27 | Summer 2027 | BS |
 | Brunswick | Global Supply Chain Analytics & Insights Intern | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Global-Supply-Chain-Analytics---Insights-Intern_JR-051419>) | 2026-08-27 | Summer 2027 | BS |
 | Micron Technology | Intern - Marketing Analytics | [Apply](<https://micron.wd1.myworkdayjobs.com/external/job/Meridian-ID/Intern---Marketing-Analytics_JR109458>) | 2026-08-27 | Summer 2027 | BS |
@@ -1997,12 +1991,14 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Booz Allen | Data Scientist Intern - University | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037>) | 2026-08-27 | Summer 2027 | BS |
 | Booz Allen | Data Scientist Intern - University | [Apply](<https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University---2027-Summer-Games-Data-Scientist-Intern---San-Diego--CA_R0248045>) | 2026-08-27 | Summer 2027 | BS |
 | The Hartford | Data Engineer Intern - Technology, Data, AI, and Operations | [Apply](<https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Hartford-_R2626103-1>) | 2026-08-27 | Summer 2027 | BS |
+| Auto-Owners Insurance | Data Engineering Intern - Summer 2027 | [Apply](<https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318>) | 2026-08-26 | Summer 2027 | BS/MS |
 | Auto-Owners Insurance | Intern - Analytics Web Systems Developer | [Apply](<https://aoins.wd5.myworkdayjobs.com/en-US/autoowners/job/Lansing-MI/Intern---Analytics-Web-Systems-Developer_R_14272>) | 2026-08-26 | Summer 2027 | BS |
 | WhiteWater Midstream | Data Science Intern - Summer 2027 | [Apply](<https://job-boards.greenhouse.io/whitewatermidstream/jobs/5217853007>) | 2026-08-26 | Summer 2027 | BS/MS |
 | QTS | Summer 2027 Internship: Process Analytics - Technology Delivery Team | [Apply](<https://qtsdatacenters.wd5.myworkdayjobs.com/QTS/job/Suwanee-GA/Summer-2027-Internship--Process-Analytics---Technology-Delivery-Team_R2026-1907>) | 2026-08-26 | Summer 2027 | BS/MS |
 | Brunswick | Mercury Marine: Power BI/Ops Analytics Co-op | [Apply](<https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Power-BI-Ops-Analytics-Co-op_JR-051236>) | 2026-08-25 | Summer 2027 | BS |
 | Cigna Group | Legal Operations Financial Data & AI Analytics Intern | [Apply](<https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Legal-Operations-Financial--Data---AI-Analytics-Intern_25016386>) | 2026-08-25 | Summer 2027 | BS |
 | Polaris | Predictive Data Science Intern - Digital & IT | [Apply](<https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Medina-MN-USA/Digital---IT---Predictive-Data-Science-Internship---Summer-2027_R30525>) | 2026-08-25 | Summer 2027 | BS/MS |
+| Audax Group | Data Engineer Co-Op | [Apply](<https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005>) | 2026-08-24 | Summer 2027 | BS |
 | Ryan Companies | Business Intelligence Intern - Mission Critical | [Apply](<https://ryancompanies.wd5.myworkdayjobs.com/ryancompanies/job/Minneapolis/Business-Intelligence-Intern--Mission-Critical_R-101961>) | 2026-08-24 | Summer 2027 | BS/MS |
 | Audax Group | Data Analytics Co-Op | [Apply](<https://job-boards.greenhouse.io/audaxgroup/jobs/4722880005>) | 2026-08-24 | Summer 2027 | BS |
 | Procter & Gamble | Data Scientist Intern | [Apply](<https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Data-Scientist--Master-s-Degree--Internship_R000157504>) | 2026-08-24 | Summer 2027 | MS |
@@ -2013,14 +2009,17 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | BNY | Data Science Intern - Engineering | [Apply](<https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81238>) | 2026-08-24 | Summer 2027 | BS |
 | Springs Window Fashions | Data Analyst Intern - Consumer Business Unit | [Apply](<https://careers-springswindowfashions.icims.com/jobs/12874/job?mobile=true&needsRedirect=false>) | 2026-08-22 | Summer 2027 | BS |
 | Springs Window Fashions | Dealer Business Operations & Analytics Intern - Summer 2027 | [Apply](<https://careers-springswindowfashions.icims.com/jobs/12886/job?mobile=true&needsRedirect=false>) | 2026-08-22 | Summer 2027 | BS |
+| Blackstone | Data Engineer Summer Analyst - Blackstone Technology & Innovations | [Apply](<https://blackstone.wd1.myworkdayjobs.com/zh-CN/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Technology-and-Innovations--Data-Engineer-Summer-Analyst_45022>) | 2026-08-21 | Summer 2027 | BS |
 | LPL Financial Holdings | Data Analytics Intern - FAR Program | [Apply](<https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Intern-2027---FAR-Program---Data-Analytics_R-052053>) | 2026-08-21 | Summer 2027 | BS |
 | AMD | Data Analyst Intern/Co-op ⚠️dup?(amd-data-analyst-intern-co-op-481a6b) | [Apply](<https://careers.amd.com/jobs/91175?icims=1>) | 2026-08-21 | Summer 2027 | BS |
 | AMD | Data Analyst Intern/Co-op ⚠️dup?(amd-data-analyst-intern-co-op-d7df0e) | [Apply](<https://careers.amd.com/jobs/91179?icims=1>) | 2026-08-21 | Summer 2027 | MS |
 | AMD | Data Analyst Intern/Co-op | [Apply](<https://careers.amd.com/jobs/90895?icims=1>) | 2026-08-21 | Summer 2027 | BS |
 | AMD | Data Analyst Intern/Co-op | [Apply](<https://careers.amd.com/jobs/91183?icims=1>) | 2026-08-21 | Summer 2027 | MS |
+| Devon Energy | Technology Intern - Data Engineering | [Apply](<https://wd5.myworkdaysite.com/en-US/recruiting/devonenergy/Careers/job/Oklahoma-City-OK/Technology-Summer-Intern-2027_R26264-1>) | 2026-08-20 | Summer 2027 | BS |
 | Fannie Mae | Data Science Intern - Analytics & Modeling Program | [Apply](<https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Washington-DC/Campus---Data-Science-Intern--Analytics---Modeling-Program-_JR2815>) | 2026-08-20 | Summer 2027 | BS/MS |
 | American Express | Data Analytics Intern - Global Servicing - Financial Crimes Risk & Controls | [Apply](<https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012627>) | 2026-08-18 | Summer 2027 | BS |
 | Continental Resources | Data Analyst Intern (Summer 2027) | [Apply](<https://clr.wd5.myworkdayjobs.com/CLR_Careers/job/Oklahoma-City-OK/Data-Analyst-Intern--Summer-2027-_R02591-1>) | 2026-08-18 | Summer 2027 | BS/MS |
+| TikTok | Data Engineer Intern (Data Platform Global Live) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7674032146438162693>) | 2026-08-17 | Summer 2027 | BS/MS |
 | Arthur J. Gallagher & Co. | Data Analytics Intern | [Apply](<https://jobs.ajg.com/jobs/57701?icims=1>) | 2026-08-17 | Summer 2027 | BS |
 | WEC Energy Group | Energy Analytics Intern | [Apply](<https://careers.wecenergygroup.com/We_Energies/job/Milwaukee-Intern-Energy-Analytics-WI-53203/1420267800/?ats=successfactors>) | 2026-08-17 | Summer 2027 | BS/MS |
 | Deutsche Bank | Technology, Data and Innovation Intern - Technology, Data and Innovation | [Apply](<https://db.recsolu.com/external/requisitions/utrM7YhSIN2pudx_g6Rh2w>) | 2026-08-17 | Summer 2027 | BS/MS |
@@ -2036,9 +2035,12 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Caterpillar | 2027 Summer Intern - Information Technology | [Apply](<https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Nashville-Tennessee/XMLNAME-2027-Summer-Intern---Information-Technology_R0000387802>) | 2026-08-11 | Summer 2027 | BS |
 | ByteDance | Data Lake Infrastructure & Data Analytics Research Engineer Intern (AML-Ark-US) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7672394389001816325/detail>) | 2026-08-11 | Summer 2027 | BS/MS |
 | Northwestern Mutual | Analytics Internship | [Apply](<https://jobs.smartrecruiters.com/NorthwesternMutual/85751677>) | 2026-08-11 | Summer 2027 | BS |
+| LPL Financial Holdings | Data Engineer Intern - Data | [Apply](<https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914>) | 2026-08-10 | Summer 2027 | BS/MS |
+| TikTok | Data Engineer Intern (Monetization Data) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7671232204182276405>) | 2026-08-10 | Summer 2027 | BS/MS |
 | Citadel | Sector Data Scientist Intern | [Apply](<https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/>) | 2026-08-10 | Summer 2027 | BS |
 | ByteDance | Data Lake Infrastructure & Data Analytics Research Engineer Intern (AML-Ark-US) - 2027 Summer | [Apply](<https://jobs.bytedance.com/en/position/7671109787509213445/detail>) | 2026-08-10 | Summer 2027 | BS/MS |
 | The Nuclear Company | Data Science Intern | [Apply](<https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383244008>) | 2026-08-07 | Summer 2027 | BS/MS |
+| TikTok | Data Engineering Project Intern (Ads Targeting) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7668533140146817333>) | 2026-08-05 | Summer 2027 | BS/MS |
 | Boeing | Data Analytics Intern | [Apply](<https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/details/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1?q=JR2026520976>) | 2026-08-05 | Summer 2027 | BS |
 | TikTok | Data Scientist Intern (VOD Data) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7670287013157095733>) | 2026-08-05 | Summer 2027 | BS/MS |
 | TikTok | Data Science Intern (TikTok Product) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7669683639101884725>) | 2026-08-05 | Summer 2027 | BS/MS |
@@ -2050,6 +2052,7 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Uline | Financial Data Analyst Intern | [Apply](<https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Financial-Data-Analyst-Internship---Summer-2027_R265665>) | 2026-08-03 | Summer 2027 | BS |
 | CALSTART | Zero-Emission Data & Research Intern | [Apply](<https://jobs.lever.co/calstart/faf839b1-8c62-4fcf-991c-71750d8fc909/apply>) | 2026-07-30 | Summer 2027 | BS |
 | Louisiana Blue | Data Modeler Intern | [Apply](<https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Corporate---Baton-Rouge-LA/CW-Data-Modeler-Intern_R11956>) | 2026-07-29 | Summer 2027 | BS |
+| Jane Street | Data Engineer | [Apply](<https://www.janestreet.com/join-jane-street/position/8631973002/>) | ~2026-07-23 | Summer 2027 | BS |
 | T. Rowe Price | Technology and Data Intern | [Apply](<https://troweprice.wd5.myworkdayjobs.com/en-US/TRowePrice/job/Baltimore-MD/XMLNAME-2027-Technology-and-Data-Internship_82677>) | 2026-07-23 | Summer 2027 | BS |
 | Primetals Technologies | Data Science Internship - Governance | [Apply](<https://mhicareers.com/job/Lake-Mary-Data-Science-Internship-(Governance)-FL-32746/1401009733/?ats=successfactors>) | 2026-07-23 | Summer 2027 | BS |
 | Docugami | Data Science PhD Intern | [Apply](<https://job-boards.greenhouse.io/docugami/jobs/4192122003>) | ~2026-07-23 | Summer 2027 | PhD |
@@ -2162,8 +2165,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Together AI | Research Intern - Model Shaping | [Apply](<https://job-boards.greenhouse.io/togetherai/jobs/5238466007>) | 2026-09-18 | Summer 2027 | BS/MS/PhD |
 | Together AI | Research Intern - Frontier Agents | [Apply](<https://job-boards.greenhouse.io/togetherai/jobs/5238468007>) | 2026-09-18 | Summer 2027 | PhD |
 | TikTok | Machine Learning Engineer Intern (E-Commerce Recommendation Mall) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7686283601340369205>) | 2026-09-18 | Summer 2027 | PhD |
-| Amgen | Grad Intern – Data Engineer – Technology, AI & Data (Summer 2027) | [Apply](<https://zapply.jobs/l/d/workday-amgen-careers-R-255742?s=gh-internships-2027>) | 2026-09-17 | Summer 2027 | BS |
-| Amgen | Undergrad Intern – Data Engineer – Technology, AI & Data (Summer 2027) | [Apply](<https://zapply.jobs/l/d/workday-amgen-careers-R-255708?s=gh-internships-2027>) | 2026-09-17 | Summer 2027 | BS |
 | Howmet Aerospace | Artificial Intelligence Intern - AI | [Apply](<https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/119494>) | 2026-09-17 | Summer 2027 | BS |
 | OCC | AI Research & Engineering Intern | [Apply](<https://theocc.wd5.myworkdayjobs.com/careers/job/Chicago---125-S-Franklin/Year-Round-Intern---AI-Research---Engineering_REQ-4833>) | 2026-09-17 | Summer 2027 | BS |
 | Geneva Trading | AI Engineer Intern | [Apply](<https://job-boards.greenhouse.io/genevatrading/jobs/5240107007>) | 2026-09-17 | Summer 2027 | BS/MS/PhD |
@@ -2384,7 +2385,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Canva | PhD Research Scientist Intern | [Apply](<https://jobs.smartrecruiters.com/Canva/6000000001291655>) | 2026-08-06 | Summer 2027 | PhD |
 | ByteDance | Research Scientist Intern (Video Quality Analysis & Coding Strategy) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7670375041041320245/detail>) | 2026-08-06 | Summer 2027 | PhD |
 | ByteDance | Research Scientist Intern (Multimedia Streaming) - 2027 Start | [Apply](<https://jobs.bytedance.com/en/position/7670354800621603125/detail>) | 2026-08-06 | Summer 2027 | PhD |
-| TikTok | Data Engineering Project Intern (Ads Targeting) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7668533140146817333>) | 2026-08-05 | Summer 2027 | BS/MS |
 | TikTok | Machine Learning Engineer Intern (Data-Global E-Commerce-Search) - 2027 Summer | [Apply](<https://lifeattiktok.com/search/7668396597746862341>) | 2026-08-05 | Summer 2027 | BS/MS |
 | TikTok | Machine Learning Engineer Intern (Data-Global E-Commerce-Search) - 2027 Start | [Apply](<https://lifeattiktok.com/search/7668415591670417717>) | 2026-08-05 | Summer 2027 | PhD |
 | TikTok | Machine Learning Infrastructure Engineer Intern - Ads Infrastructure | [Apply](<https://lifeattiktok.com/search/7668881813744191749>) | 2026-08-04 | Summer 2027 | BS/MS |

@@ -30,6 +30,51 @@ def test_classify_role_basic_categories():
     assert classify_role("Software Engineer Intern") == "swe"
 
 
+@pytest.mark.parametrize("role", [
+    "Data Engineer Intern",
+    "Data Engineering Intern",
+    "Data Solution Engineer Intern",
+    "Data Solutions Engineer Intern",
+    "Data Engineer Intern - Technology, AI & Data",
+])
+def test_data_engineering_routes_to_data_science(role):
+    assert classify_role(role) == "data_science"
+    assert map_upstream_category("software", role) == "data_science"
+    assert assign_category({"role": role, "upstream_category": "software"}, {}) == "data_science"
+
+
+def test_data_engineering_keeps_higher_priority_scope_rules():
+    assert classify_role("Consulting Data Engineer Intern") == DROP
+    assert map_upstream_category("consulting", "Consulting Data Engineer Intern") == DROP
+    assert classify_role("Software Engineer Intern - Data Platform") == "swe"
+
+
+def test_tracker_data_engineering_overrides_explicit_software_category(tmp_path, monkeypatch):
+    import fetch_trackers
+
+    sources = tmp_path / "sources"
+    sources.mkdir()
+    (sources / "github_trackers.yaml").write_text(yaml.safe_dump([
+        {"handle": "example", "repo": "example/repo", "path": "jobs.json", "branch": "main"}
+    ]))
+    (sources / "scrape_state.yaml").write_text("{}\n")
+    monkeypatch.setattr(fetch_trackers, "ROOT", tmp_path)
+    monkeypatch.setattr(fetch_trackers, "_latest_sha", lambda *args: "new-sha")
+    monkeypatch.setattr(fetch_trackers, "_parse", lambda cfg: [{
+        "company": "Example", "role": "Data Engineer Intern", "category": "swe",
+        "location": "New York, NY", "link": "https://example.com/jobs/data-engineer",
+        "term": "Summer 2027", "degree": ["BS"],
+    }])
+    monkeypatch.setattr(fetch_trackers, "known_link_categories", lambda: {})
+    monkeypatch.setattr(fetch_trackers, "known_link_locations", lambda: {})
+    monkeypatch.setattr(fetch_trackers, "manual_link_categories", lambda: {})
+
+    reports = tmp_path / "reports"
+    fetch_trackers.run(reports)
+    assert (reports / "example_data_science.json").exists()
+    assert not (reports / "example_swe.json").exists()
+
+
 def test_classify_role_routes_electronics_disciplines_to_hardware():
     # swe's bare `engineer` used to claim all of these.
     assert classify_role("Mechanical Engineering Intern (Summer 2027)") == "hardware"

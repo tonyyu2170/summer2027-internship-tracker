@@ -2721,25 +2721,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-09-25'
   possible_duplicate_of: null
-- id: tiktok-data-engineer-intern-ads-targeting-c3e6b9
-  company: TikTok
-  role: Data Engineering Project Intern (Ads Targeting) - 2027 Start
-  location: San Jose, CA
-  link: https://lifeattiktok.com/search/7668533140146817333
-  date_posted: '2026-08-05'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-09-25'
-  possible_duplicate_of: null
 - id: tiktok-llm-post-training-engineer-intern-research-product-c41e07
   company: TikTok
   role: LLM Post-training Engineer Intern - Research & Product
@@ -5940,24 +5921,6 @@
   date_added: '2026-09-03'
   last_verified: '2026-09-25'
   possible_duplicate_of: null
-- id: national-information-solutions-cooperative-data-engineer-intern-c003dd
-  company: National Information Solutions Cooperative
-  role: Data Engineer Intern
-  location: Mandan, ND
-  link: https://job-boards.greenhouse.io/testnisc/jobs/8167886
-  date_posted: '2026-09-03'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-03'
-  last_verified: '2026-09-25'
-  possible_duplicate_of: null
 - id: johns-hopkins-applied-physics-laboratory-acoustic-algorithm-development-engineer-intern-c924f1
   company: Johns Hopkins Applied Physics Laboratory
   role: Acoustic Algorithm Development Engineer Intern
@@ -6301,24 +6264,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
-  last_verified: '2026-09-25'
-  possible_duplicate_of: null
-- id: charles-schwab-data-engineering-intern-data-engineering-7f21d8
-  company: Charles Schwab
-  role: Data Engineering Intern - Data Engineering
-  location: Austin, TX
-  link: https://career-schwab.icims.com/jobs/126227/job?mobile=true&needsRedirect=false
-  date_posted: '2026-08-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-05'
   last_verified: '2026-09-25'
   possible_duplicate_of: null
 - id: nationwide-generative-ai-intern-5cc516
@@ -9569,38 +9514,6 @@
   location: San Jose, CA
   link: https://zapply.jobs/l/d/phenom-cisco-2026802?s=gh-internships-2027
   date_posted: '2026-09-23'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-24'
-  last_verified: '2026-09-25'
-  possible_duplicate_of: null
-- id: amgen-undergrad-intern-data-engineer-technology-ai-data-summer-2027-d849b7
-  company: Amgen
-  role: Undergrad Intern – Data Engineer – Technology, AI & Data (Summer 2027)
-  location: Remote (US)
-  link: https://zapply.jobs/l/d/workday-amgen-careers-R-255708?s=gh-internships-2027
-  date_posted: '2026-09-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-24'
-  last_verified: '2026-09-25'
-  possible_duplicate_of: null
-- id: amgen-grad-intern-data-engineer-technology-ai-data-summer-2027-09c649
-  company: Amgen
-  role: Grad Intern – Data Engineer – Technology, AI & Data (Summer 2027)
-  location: Remote (US)
-  link: https://zapply.jobs/l/d/workday-amgen-careers-R-255742?s=gh-internships-2027
-  date_posted: '2026-09-17'
   date_estimated: false
   term: Summer 2027
   degree:

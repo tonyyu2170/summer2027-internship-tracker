@@ -8927,3 +8927,1248 @@
   date_added: '2026-09-25'
   last_verified: '2026-09-25'
   possible_duplicate_of: null
+- id: tiktok-data-engineer-intern-monetization-data-a8e279
+  company: TikTok
+  role: Data Engineer Intern (Monetization Data) - 2027 Summer
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7671232204182276405
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-08-10'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: lpl-financial-holdings-data-engineer-intern-data-474e4f
+  company: LPL Financial Holdings
+  role: Data Engineer Intern - Data
+  location: Austin, TX
+  link: https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914
+  date_posted: '2026-08-10'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  date_added: '2026-08-11'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: first-national-bank-summer-2027-data-engineering-intern-a1c7b9
+  company: First National Bank
+  role: Summer 2027 Data Engineering Intern
+  location: Hermitage, PA / Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01712
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:first-national-bank
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: first-national-bank-summer-2027-data-engineering-intern-469cb0
+  company: First National Bank
+  role: Summer 2027 Data Engineering Intern
+  location: Hermitage, PA / Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01714
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:first-national-bank
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: first-national-bank-summer-2027-data-engineering-intern-a1c7b9
+- id: first-national-bank-summer-2027-data-engineering-intern-105d65
+  company: First National Bank
+  role: Summer 2027 Data Engineering Intern
+  location: Hermitage, PA / Pittsburgh, PA
+  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Hermitage-PA/Summer-2027-Data-Engineering-Intern_2026-01713
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - company:first-national-bank
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: first-national-bank-summer-2027-data-engineering-intern-a1c7b9
+- id: mastercard-data-engineering-intern-summer-2027-st-louis-mo-us-bf9f0c
+  company: Mastercard
+  role: Data Engineering Intern, Summer 2027 – St. Louis, MO, US
+  location: O'Fallon, MO
+  link: https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284901
+  date_posted: '2026-08-31'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: closed
+  sources:
+  - company:mastercard
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: michelin-summer-2027-internship-data-engineering-ardmore-ok-5b4696
+  company: Michelin
+  role: 'Summer 2027 Internship: Data Engineering (Ardmore, OK)'
+  location: Ardmore, OK
+  link: https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/ARDMORE-OK/Summer-2027-Internship--Data-Engineering---Ardmore--OK-_R-2026030979
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - company:michelin
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: manulife-summer-intern-2027-data-engineering-913f31
+  company: Manulife
+  role: Summer Intern 2027 - Data Engineering
+  location: Boston, MA
+  link: https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Data-Engineering_JR26081679
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-07'
+  possible_duplicate_of: null
+- id: audax-group-data-engineer-co-op-7c9e94
+  company: Audax Group
+  role: Data Engineer Co-Op
+  location: Boston, MA
+  link: https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005
+  date_posted: '2026-08-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-06'
+  possible_duplicate_of: null
+- id: tiktok-data-engineer-intern-data-platform-global-live-77eec8
+  company: TikTok
+  role: Data Engineer Intern (Data Platform Global Live) - 2027 Summer
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7674032146438162693
+  date_posted: '2026-08-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: devon-energy-technology-intern-data-engineering-f129bf
+  company: Devon Energy
+  role: Technology Intern - Data Engineering
+  location: Houston, TX
+  link: https://wd5.myworkdaysite.com/en-US/recruiting/devonenergy/Careers/job/Oklahoma-City-OK/Technology-Summer-Intern-2027_R26264-1
+  date_posted: '2026-08-20'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: blackstone-data-engineer-summer-analyst-blackstone-technology-innovations-bf89ea
+  company: Blackstone
+  role: Data Engineer Summer Analyst - Blackstone Technology & Innovations
+  location: Miami, FL
+  link: https://blackstone.wd1.myworkdayjobs.com/zh-CN/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Technology-and-Innovations--Data-Engineer-Summer-Analyst_45022
+  date_posted: '2026-08-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: the-hartford-data-engineer-intern-tech-data-program-128a50
+  company: The Hartford
+  role: Data Engineer Intern - Tech & Data Program
+  location: Columbus, OH
+  link: https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Columbus-OH/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Columbus-_R2626610
+  date_posted: '2026-08-27'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: auto-owners-insurance-data-engineering-intern-summer-2027-87dac5
+  company: Auto-Owners Insurance
+  role: Data Engineering Intern - Summer 2027
+  location: Lansing, MI
+  link: https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318
+  date_posted: '2026-08-26'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: american-express-data-engineer-intern-enterprise-technology-services-35cf33
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Phoenix, AZ
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012333
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: american-express-data-engineer-intern-enterprise-technology-services-d3f00d
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Sunrise, FL
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011831
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: american-express-data-engineer-intern-enterprise-technology-services-d61851
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Charlotte, NC
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011828
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: american-express-data-engineer-intern-enterprise-technology-services-a2e6b9
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Sunrise, FL
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012781
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-d3f00d
+- id: american-express-data-engineer-intern-enterprise-technology-services-0216a2
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Phoenix, AZ
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012339
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-35cf33
+- id: american-express-data-engineer-intern-enterprise-technology-services-93902c
+  company: American Express
+  role: Data Engineer Intern - Enterprise Technology Services
+  location: Charlotte, NC
+  link: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012764
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-d61851
+- id: edison-international-software-data-engineering-intern-b1f3ac
+  company: Edison International
+  role: Software/Data Engineering Intern
+  location: Chino, CA
+  link: https://apply.edisoncareers.com/job/Chino-2027-Summer-Internship-SoftwareData-Engineering-(Chino)-CA-91710/1424663800/?ats=successfactors
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: pella-data-engineer-intern-summer-2027-e044db
+  company: Pella
+  role: Data Engineer Intern - Summer 2027
+  location: Pella, IA
+  link: https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253304
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: philips-data-engineering-co-op-4c515d
+  company: Philips
+  role: Data Engineering Co-op
+  location: Reedsville, PA
+  link: https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Reedsville-Pennsylvania-United-States/Co-op-Data-Engineering-Reedsville--PA-July-December-2027_587486
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: post-holdings-data-engineer-intern-78f31a
+  company: Post Holdings
+  role: Data Engineer Intern
+  location: Lakeville, MN
+  link: https://jobs.postholdings.com/jobs/31960?icims=1
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: ragle-inc-data-engineering-intern-7e71c9
+  company: Ragle Inc
+  role: Data Engineering Intern
+  location: North Richland Hills, TX
+  link: https://ragleinc.applytojob.com/apply/bOx8uiciOs/Data-Engineering-Intern-Summer-2027
+  date_posted: '2026-09-01'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: panasonic-holdings-data-engineering-intern-696b16
+  company: Panasonic Holdings
+  role: Data Engineering Intern
+  location: Bridgeton, MO
+  link: https://careers.na.panasonic.com/jobs/50772?icims=1
+  date_posted: '2026-09-02'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-02'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: td-bank-2027-summer-internship-program-global-technology-solutions-data-engineer-7aabe1
+  company: TD Bank
+  role: 2027 Summer Internship Program - Global Technology & Solutions - Data Engineer
+  location: Mount Laurel, NJ
+  link: https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510797?s=gh-internships-2027
+  date_posted: '2026-09-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-22'
+  last_verified: '2026-09-22'
+  possible_duplicate_of: null
+- id: shure-data-engineer-intern-2ff07f
+  company: Shure
+  role: Data Engineer Intern
+  location: Niles, IL
+  link: https://careersus-shure.icims.com/jobs/4982/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: national-information-solutions-cooperative-data-engineer-intern-18613f
+  company: National Information Solutions Cooperative
+  role: Data Engineer Intern
+  location: Lake St Louis, MO
+  link: https://job-boards.greenhouse.io/testnisc/jobs/8167884
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: national-information-solutions-cooperative-data-engineer-intern-56c238
+  company: National Information Solutions Cooperative
+  role: Data Engineer Intern
+  location: Lake St Louis, MO
+  link: https://job-boards.greenhouse.io/nisc/jobs/8167858
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: national-information-solutions-cooperative-data-engineer-intern-18613f
+- id: national-information-solutions-cooperative-data-engineer-intern-da18cb
+  company: National Information Solutions Cooperative
+  role: Data Engineer Intern
+  location: Lake St Louis, MO
+  link: https://job-boards.greenhouse.io/testnisc/jobs/8167883
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  date_added: '2026-09-03'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: national-information-solutions-cooperative-data-engineer-intern-18613f
+- id: coinbase-data-engineer-intern-7c934f
+  company: Coinbase
+  role: Data Engineer Intern
+  location: San Francisco, CA
+  link: https://boards.greenhouse.io/embed/job_app?token=8175459
+  date_posted: '2026-09-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: gallup-data-engineering-intern-fcde9b
+  company: Gallup
+  role: Data Engineering Intern
+  location: Omaha, NE
+  link: https://job-boards.greenhouse.io/gallup/jobs/4395454009
+  date_posted: '2026-09-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: navy-federal-associate-data-engineer-intern-c589d6
+  company: Navy Federal
+  role: Associate Data Engineer Intern
+  location: Vienna, VA
+  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32292
+  date_posted: '2026-09-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: navy-federal-data-engineer-intern-a099f4
+  company: Navy Federal
+  role: Data Engineer Intern
+  location: Vienna, VA
+  link: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32265
+  date_posted: '2026-09-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: citizens-financial-group-data-engineer-intern-enterprise-technology-security-0042be
+  company: Citizens Financial Group
+  role: Data Engineer Intern - Enterprise Technology & Security
+  location: Plano, TX
+  link: https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/49285
+  date_posted: '2026-09-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  - github_tracker:zshah101
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: perpay-data-engineering-intern-f72ce7
+  company: Perpay
+  role: Data Engineering Intern
+  location: Philadelphia, PA
+  link: https://job-boards.greenhouse.io/perpay/jobs/4076965007
+  date_posted: '2026-09-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: amgen-data-engineer-intern-2b51b2
+  company: Amgen
+  role: Data Engineer Intern
+  location: Remote (US)
+  link: https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742
+  date_posted: '2026-09-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: amgen-data-engineer-intern-technology-medical-organizations-d033cc
+  company: Amgen
+  role: Data Engineer Intern - Technology & Medical Organizations
+  location: Remote (US)
+  link: https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708
+  date_posted: '2026-09-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: constellation-energy-it-data-engineering-intern-b582c4
+  company: Constellation Energy
+  role: IT Data Engineering Intern
+  location: Baltimore, MD
+  link: https://jobs.constellationenergy.com/jobs/138716?icims=1
+  date_posted: '2026-09-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: td-bank-data-engineer-intern-global-technology-solutions-fb831e
+  company: TD Bank
+  role: Data Engineer Intern - Global Technology & Solutions
+  location: Mt Laurel Township, NJ
+  link: https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797
+  date_posted: '2026-09-13'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: guardian-life-data-engineering-intern-digital-technology-0c24ad
+  company: Guardian Life
+  role: Data Engineering Intern - Digital & Technology
+  location: Holmdel, NJ
+  link: https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Data-Engineering_R000110202
+  date_posted: '2026-09-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: principal-financial-group-data-engineer-intern-2383f3
+  company: Principal Financial Group
+  role: Data Engineer Intern
+  location: Des Moines, IA
+  link: https://careers.principal.com/jobs/52561?icims=1
+  date_posted: '2026-09-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: ernst-young-data-engineer-intern-multiple-teams-2057b1
+  company: Ernst & Young
+  role: Data Engineer Intern - Multiple Teams
+  location: Chicago, IL
+  link: https://eyglobal.yello.co/jobs/nuM1c7MBNjknCC8oSMvZMg?job_board_id=c1riT--B2O-KySgYWsZO1Q
+  date_posted: '2026-09-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: ibotta-data-engineer-intern-b0fe09
+  company: ibotta
+  role: Data Engineer Intern
+  location: Denver, CO
+  link: https://jobs.ashbyhq.com/ibotta/666cac72-9e06-46ee-aea0-576f766338b2/application?embed=true
+  date_posted: '2026-09-14'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: apex-analytix-data-engineering-intern-summer-2027-7d91fd
+  company: APEX Analytix
+  role: Data Engineering Intern - Summer 2027
+  location: Greensboro, NC
+  link: https://ats.rippling.com/apexanalytix-careers/jobs/52353bce-cb36-423f-ae0a-f2057ef3b5d9
+  date_posted: '2026-09-15'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: gordon-food-service-data-engineering-intern-atlanta-tech-hub-data-engineering-18f868
+  company: Gordon Food Service
+  role: Data Engineering Intern - Atlanta Tech Hub - Data Engineering
+  location: Atlanta, GA
+  link: https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Atlanta-Georgia/Data-Engineering-Internship_R-57330
+  date_posted: '2026-09-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: lazard-data-engineer-intern-c5459d
+  company: Lazard
+  role: Data Engineer Intern
+  location: New York, NY
+  link: https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6605
+  date_posted: '2026-09-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: boston-scientific-data-engineer-intern-f8e005
+  company: Boston Scientific
+  role: Data Engineer Intern
+  location: Maple Grove, MN
+  link: https://bostonscientific.eightfold.ai/careers/job/563602813501949
+  date_posted: '2026-09-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: live-oak-bank-data-engineer-intern-multiple-teams-6ea8fd
+  company: Live Oak Bank
+  role: Data Engineer Intern - Multiple Teams
+  location: Wilmington, NC
+  link: https://liveoakbancshares.wd1.myworkdayjobs.com/en-US/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--Data-Engineering_R-002634
+  date_posted: '2026-09-21'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: west-bend-insurance-it-data-engineer-intern-15d350
+  company: West Bend Insurance
+  role: IT Data Engineer Intern
+  location: Madison, WI
+  link: https://careers-thesilverlining.icims.com/jobs/3759/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-22'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: megazonecloud-data-engineer-co-op-2027-256a6a
+  company: MegazoneCloud
+  role: Data Engineer Co-op 2027
+  location: Rochester, NY
+  link: https://jobs.ashbyhq.com/megazone/fde09888-986f-4207-88fe-3ff5b921a1fa
+  date_posted: '2026-09-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: coinbase-data-engineer-intern-005a79
+  company: Coinbase
+  role: Data Engineer Intern
+  location: Hybrid - San Francisco, CA
+  link: https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459
+  date_posted: '2026-09-08'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: amgen-grad-intern-data-engineer-amgen-s-technology-medical-organizations-summer-2027-9bcacf
+  company: Amgen
+  role: Grad Intern – Data Engineer – Amgen’s Technology & Medical Organizations (Summer
+    2027)
+  location: Remote (US)
+  link: https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725
+  date_posted: '2026-09-11'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-22'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: jabil-data-engineering-intern-a2b405
+  company: Jabil
+  role: Data Engineering Intern
+  location: St. Petersburg/Tampa, FL
+  link: https://zapply.jobs/l/d/workday-jabil-jabil-careers-J2465581?s=gh-internships-2027
+  date_posted: '2026-09-23'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-23'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: figma-data-engineer-intern-2027-4a0766
+  company: Figma
+  role: Data Engineer Intern (2027)
+  location: San Francisco, NY
+  link: https://zapply.jobs/l/d/greenhouse-figma-6178851004?s=gh-internships-2027
+  date_posted: '2026-09-23'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-23'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: west-bend-insurance-data-solution-engineer-intern-246c66
+  company: West Bend Insurance
+  role: Data Solution Engineer Intern
+  location: Madison, WI
+  link: https://careers-thesilverlining.icims.com/jobs/3786/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-23'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-23'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: jabil-data-engineer-intern-858f5b
+  company: Jabil
+  role: Data Engineer Intern
+  location: Tampa, FL
+  link: https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Data-Engineering-Intern_J2465581
+  date_posted: '2026-09-23'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-23'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: figma-data-engineer-intern-2027-3501ce
+  company: Figma
+  role: Data Engineer Intern (2027)
+  location: San Francisco, NY
+  link: https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004
+  date_posted: '2026-09-23'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  - github_tracker:chieler
+  date_added: '2026-09-23'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: the-hartford-tech-data-program-summer-2027-data-engineer-intern-hartford-97d603
+  company: The Hartford
+  role: Tech & Data Program Summer 2027 – Data Engineer Intern (Hartford)
+  location: Hartford, CT
+  link: https://zapply.jobs/l/d/workday-thehartford-careers-external-R2626103?s=gh-internships-2027
+  date_posted: '2026-09-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-24'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: enterprise-holdings-data-engineer-intern-it-f3a239
+  company: Enterprise Holdings
+  role: Data Engineer Intern - IT
+  location: St. Louis, MO
+  link: https://us-erac.icims.com/jobs/567651/job?mobile=true&needsRedirect=false
+  date_posted: '2026-09-24'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-24'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: western-national-insurance-data-engineering-intern-data-integrations-071b01
+  company: Western National Insurance
+  role: Data Engineering Intern - Data & Integrations
+  location: Edina, MN
+  link: https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537849
+  date_posted: '2026-09-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-25'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: pacific-life-data-engineering-intern-f116e9
+  company: Pacific Life
+  role: Data Engineering Intern
+  location: Newport Beach, CA
+  link: https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Data-Engineering-Internship_R17828
+  date_posted: '2026-09-25'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-25'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: tiktok-data-engineer-intern-ads-targeting-c3e6b9
+  company: TikTok
+  role: Data Engineering Project Intern (Ads Targeting) - 2027 Start
+  location: San Jose, CA
+  link: https://lifeattiktok.com/search/7668533140146817333
+  date_posted: '2026-08-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-08'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: national-information-solutions-cooperative-data-engineer-intern-c003dd
+  company: National Information Solutions Cooperative
+  role: Data Engineer Intern
+  location: Mandan, ND
+  link: https://job-boards.greenhouse.io/testnisc/jobs/8167886
+  date_posted: '2026-09-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-03'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: charles-schwab-data-engineering-intern-data-engineering-7f21d8
+  company: Charles Schwab
+  role: Data Engineering Intern - Data Engineering
+  location: Austin, TX
+  link: https://career-schwab.icims.com/jobs/126227/job?mobile=true&needsRedirect=false
+  date_posted: '2026-08-29'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-09-05'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: amgen-undergrad-intern-data-engineer-technology-ai-data-summer-2027-d849b7
+  company: Amgen
+  role: Undergrad Intern – Data Engineer – Technology, AI & Data (Summer 2027)
+  location: Remote (US)
+  link: https://zapply.jobs/l/d/workday-amgen-careers-R-255708?s=gh-internships-2027
+  date_posted: '2026-09-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-24'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: amgen-grad-intern-data-engineer-technology-ai-data-summer-2027-09c649
+  company: Amgen
+  role: Grad Intern – Data Engineer – Technology, AI & Data (Summer 2027)
+  location: Remote (US)
+  link: https://zapply.jobs/l/d/workday-amgen-careers-R-255742?s=gh-internships-2027
+  date_posted: '2026-09-17'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-24'
+  last_verified: '2026-09-25'
+  possible_duplicate_of: null
+- id: jane-street-data-engineer-b91e6b
+  company: Jane Street
+  role: Data Engineer
+  location: New York, NY
+  link: https://www.janestreet.com/join-jane-street/position/8631973002/
+  date_posted: '2026-07-23'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - custom
+  - github_tracker:speedyapply
+  - github_tracker:chieler
+  - github_tracker:vanshb03
+  date_added: '2026-07-23'
+  last_verified: '2026-09-22'
+  possible_duplicate_of: null
+  date_estimated: true

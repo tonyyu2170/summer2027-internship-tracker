@@ -23,6 +23,7 @@ from categorize import (
     assign_category,
     known_link_categories,
     known_link_locations,
+    is_data_engineering_role,
     manual_link_categories,
     DROP,
 )
@@ -165,7 +166,9 @@ def run(out_dir=None):
             # first time.
             explicit_category = p.pop("category", None)
             existing_category = known.get(normalize_link(link)) if link else None
-            category = existing_category or explicit_category or assign_category(p, known)
+            category = (existing_category or
+                        ("data_science" if is_data_engineering_role(p.get("role", "")) else None)
+                        or explicit_category or assign_category(p, known))
             if category == DROP:
                 drop_counts[f"github_tracker:{handle}"]["category_drop"] += 1
                 continue

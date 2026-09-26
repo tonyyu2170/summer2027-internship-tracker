@@ -22,6 +22,7 @@ DROP = "__drop__"
 # TikTok's "Code Intelligence & Quality Validation" backend role.
 _NOT_SOFTWARE = (r"^(?!.*(?:software|developer|programmer|full.?stack|backend"
                  r"|front.?end|\bswe\b|computer science))")
+_DATA_ENGINEERING = r"\bdata engineer(?:ing)?\b|\bdata solutions? engineer\b"
 
 
 def _discipline(words):
@@ -48,7 +49,7 @@ _RULES = [
     # desks); a "Supply, Trading & Shipping" commercial intern is not.
     ("quant", r"quantitative|\bquant\b(?!ity)|^(?!.*(?:supply|shipping)).*(?:\btrading\b|\btrader\b)"),
     ("data_science", r"data scien|data analy|analytics|business intelligence"
-                     r"|\bdata intern|data management intern|data services intern|statistic|predictive model|reporting analyst"),
+                     r"|\bdata intern|data management intern|data services intern|statistic|predictive model|reporting analyst|" + _DATA_ENGINEERING),
     ("ai_ml", r"machine learning|deep learning|reinforcement learning|\bml\b|\bai\b|\bnlp\b|computer vision"
               r"|artificial intelligence|large language|\bllm\b|research scientist|ph\.?d\.? research"
               r"|computational intelligence|\bperception\b|\bautonomy\b"
@@ -144,12 +145,19 @@ def classify_role(role: str) -> str | None:
     return None
 
 
+def is_data_engineering_role(role: str) -> bool:
+    return (bool(re.search(_DATA_ENGINEERING, role or "", re.I))
+            and classify_role(role) == "data_science")
+
+
 def map_upstream_category(value: str, role: str) -> str | None:
     """Map a tracker's own category string onto a local category.
 
     Returns DROP for upstream categories with no local equivalent. Unknown
     values fall through to classify_role rather than being dropped —
     upstream repos add and rename categories without notice."""
+    if is_data_engineering_role(role):
+        return "data_science"
     key = (value or "").strip().lower()
     if key in _AI_DATA:
         return "data_science" if re.search(
@@ -213,6 +221,8 @@ def assign_category(posting: dict, known: dict) -> str | None:
         existing = known.get(normalize_link(link))
         if existing:
             return existing
+    if is_data_engineering_role(posting.get("role", "")):
+        return "data_science"
     if posting.get("upstream_category"):
         return map_upstream_category(posting["upstream_category"], posting.get("role", ""))
     return classify_role(posting.get("role", ""))

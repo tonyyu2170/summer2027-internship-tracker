@@ -2404,26 +2404,6 @@
   possible_duplicate_of: null
   track: Development
   date_estimated: true
-- id: jane-street-data-engineer-b91e6b
-  company: Jane Street
-  role: Data Engineer
-  location: New York, NY
-  link: https://www.janestreet.com/join-jane-street/position/8631973002/
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - custom
-  - github_tracker:speedyapply
-  - github_tracker:chieler
-  - github_tracker:vanshb03
-  date_added: '2026-07-23'
-  last_verified: '2026-09-22'
-  possible_duplicate_of: null
-  track: Development
-  date_estimated: true
 - id: jane-street-fundamental-research-analyst-7c44d9
   company: Jane Street
   role: Fundamental Research Analyst
