@@ -113,7 +113,7 @@ https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/
 https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334396: __drop__
 https://job-boards.greenhouse.io/figureai/jobs/4702104006: __drop__
 ? https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Technology---Innovation-Organization-Electrical-Engineering-Internship_3167270-1
-: swe
+: hardware
 https://parsons.wd5.myworkdayjobs.com/search/job/US---MD-Field-Location/CNO-Development-Intern-Co-op_R184352: swe
 # 2026-08-09 verification pass: live titles say a non-2027 term.
 https://joinbytedance.com/search/7533045355162044690: __drop__
@@ -186,7 +186,7 @@ https://job-boards.greenhouse.io/figureai/jobs/4676467006: __drop__
 https://job-boards.greenhouse.io/msfcareers/jobs/5271141008: __drop__
 https://job-boards.greenhouse.io/vardaspace/jobs/7670782003: __drop__
 https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1: __drop__
-https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08: __drop__
+https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08: ai_ml
 https://jobs.ashbyhq.com/rivianvw.tech/14734be2-9c81-4aab-bfa6-7dbbe95c94a6/application: __drop__
 https://jobs.ashbyhq.com/rivianvw.tech/3864f83a-7b29-4c96-b00e-436d60c0508a/application: __drop__
 https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c/application: __drop__
@@ -272,7 +272,7 @@ https://job-boards.greenhouse.io/appian/jobs/8088498: __drop__
 https://job-boards.greenhouse.io/drweng/jobs/7992936: quant
 https://job-boards.greenhouse.io/embed/job_app?for=aquaticcapitalmanagement&token=8489233002: quant
 https://job-boards.greenhouse.io/oldmissioncapital/jobs/7796180003: quant
-https://job-boards.greenhouse.io/scm/jobs/721888: quant
+https://job-boards.greenhouse.io/scm/jobs/721888: swe
 https://job-boards.greenhouse.io/sevenresearch/jobs/4895047008: quant
 https://job-boards.greenhouse.io/togetherai/jobs/5157559007: ai_ml
 https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007: quant
@@ -349,12 +349,12 @@ https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&gh_src=f4cuomjz1u
 https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-c-or-python-summer-2027/: quant
 https://www.imc.com/us/careers/jobs/4823924101: __drop__
 https://www.imc.com/us/careers/jobs/4907430101: __drop__
-https://www.imc.com/us/careers/jobs/4912874101: quant
+https://www.imc.com/us/careers/jobs/4912874101: __drop__
 https://www.janestreet.com/join-jane-street/position/8599644002/: quant
 https://www.janestreet.com/join-jane-street/position/8611307002/: quant
 https://www.janestreet.com/join-jane-street/position/8620793002/: quant
 https://www.janestreet.com/join-jane-street/position/8621450002/: quant
-https://www.janestreet.com/join-jane-street/position/8621552002/: quant
+https://www.janestreet.com/join-jane-street/position/8621552002/: __drop__
 https://www.janestreet.com/join-jane-street/position/8626260002/: quant
 https://www.janestreet.com/join-jane-street/position/8628843002/: quant
 https://www.janestreet.com/join-jane-street/position/8631973002/: data_science
@@ -383,7 +383,7 @@ https://job-boards.greenhouse.io/xpengmotors/jobs/8680036002: ai_ml
 ? https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---Process-Pathfinding--DRAM-Dry-Etch_JR107347
 : hardware
 ? https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Post-Undergraduate-Intern--Year-Round----Separations-Engineering_R14447
-: hardware
+: __drop__
 https://joinbytedance.com/search/7670359288608114949: swe
 https://joinbytedance.com/search/7668590365398993205: __drop__
 ? https://cranecompany.wd5.myworkdayjobs.com/Careers/job/Cincinnati-Ohio/Quality-Intern_JR102021
@@ -670,7 +670,7 @@ https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20
 : __drop__
 https://boards.greenhouse.io/embed/job_app?token=8049938: __drop__
 ? https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1
-: __drop__
+: data_science
 https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Technology-Internship-Program---Summer-2027_R244387-1: __drop__
 https://careers-kimley-horn.icims.com/jobs/25761/job?mobile=true&needsRedirect=false: __drop__
 https://careers.appian.com/jobs/8041237-software-engineering-intern: __drop__
@@ -680,17 +680,17 @@ https://careers.formlabs.com/job/7890746/apply/?gh_jid=7890746: __drop__
 ? https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-2
 : __drop__
 ? https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Niskayuna/Engineering-Intern---Power-Conversion---Storage-AI-Tool-Developer--2027_R5049957-1
-: __drop__
+: ai_ml
 ? https://gnw.wd1.myworkdayjobs.com/Genworth_Confidential/job/Richmond-Virginia/Genworth-Actuarial-Development-Program-Intern---Summer-2027_REQ-260272
-: __drop__
+: actuarial
 ? https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-1
-: __drop__
+: swe
 https://job-boards.greenhouse.io/integra/jobs/5134522008: __drop__
 https://job-boards.greenhouse.io/integra/jobs/5134592008: __drop__
 https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724/apply: __drop__
 https://jobs.smartrecruiters.com/BoschGroup/744000121016953: __drop__
 ? https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Applied-Machine-Learning-Scientist-Intern---PhD_2502662-1
-: __drop__
+: ai_ml
 https://twosigma.avature.net/careers/JobDetail/13945: __drop__
 ? https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Capital-Markets--Masters----Early-Careers_R-568270
 : __drop__
@@ -711,7 +711,7 @@ https://www.oldmissioncapital.com/careers/?gh_jid=7796180003: __drop__
 https://www.pathai.com/careers/8623056002?gh_jid=8623056002: __drop__
 https://www.pathai.com/careers/8651564002?gh_jid=8651564002: __drop__
 https://www.tower-research.com/open-positions/?gh_jid=8024128: __drop__
-https://www.tower-research.com/open-positions/?gh_jid=8044334: __drop__
+https://www.tower-research.com/open-positions/?gh_jid=8044334: quant
 ? https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/DE-CELLE-BAKER-HUGHES-STRASSE-1/Praktikum--Bachelor--und-Masterarbeit--Maschinenbau-und-Mechatronik-2026--Celle-_R158055
 : __drop__
 ? https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/DE-CELLE-BAKER-HUGHES-STRASSE-1/Werkstudent-fr-System--und-Datenanalyse-2026--Celle-_R158064
@@ -902,7 +902,7 @@ https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywe
 ? https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Technology-2027-Summer-Internship_R-095602
 : swe
 ? https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Design-and-Development-Co-Op--Summer-2027_R-096727
-: __drop__
+: hardware
 https://jj.wd5.myworkdayjobs.com/jj/job/Raritan-New-Jersey-United-States-of-America/TSA-Group-Co-Op_R-096238: __drop__
 https://job-boards.greenhouse.io/advancedspace/jobs/4333179009: swe
 https://job-boards.greenhouse.io/dvtrading/jobs/4719134005: quant
@@ -1021,7 +1021,7 @@ https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Calgary/May-2027---S
 ? https://qtsdatacenters.wd5.myworkdayjobs.com/qts/job/Irving-TX/Summer-2027-Internship--Internal-Data-Center-Infrastructure-Projects_R2026-1906
 : __drop__
 ? https://qtsdatacenters.wd5.myworkdayjobs.com/qts/job/Suwanee-GA/Summer-2027-Internship--Data-Center-Infrastructure-Management--DCIM-_R2026-1892
-: __drop__
+: swe
 https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Kansas-City-MO/Internship--Analyst---Summer-2027_R-0000033129-1: __drop__
 ? https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Research-Group---Junior-Intern_R-0000033023
 : __drop__
@@ -1129,8 +1129,8 @@ https://job-boards.greenhouse.io/olsson/jobs/5396116008: __drop__
 : __drop__
 ? https://roberthalf.wd1.myworkdayjobs.com/ProtivitiNA/job/NEW-YORK-CITY/New-York-Technology-Consulting-Intern---2027_JR-258932
 : __drop__
-# auto apply_ats_corrections: superseded by a repost.
-https://psu.wd1.myworkdayjobs.com/Student/job/Freeport-PA/Research-and-Development-Engineering-Intern_REQ_0000064925: __drop__
+# 2026-10-02 review: sonar transducer engineering fits Hardware; same employer requisition across site aliases.
+https://psu.wd1.myworkdayjobs.com/Student/job/Freeport-PA/Research-and-Development-Engineering-Intern_REQ_0000064925: hardware
 # scheduled run 2026-09-03: judgments for rows parked in unclassified.json.
 https://andersen.wd12.myworkdayjobs.com/Andersen_External_Career_Site/job/Bayport-MN/Sustainability-Intern_R-8207: __drop__
 https://apply.careers.microsoft.com/careers/job/1970393556986140: ai_ml
@@ -2521,3 +2521,23 @@ https://job-boards.greenhouse.io/affirm/jobs/8008645003: swe
 ? https://mfs.wd1.myworkdayjobs.com/en-US/MFS-Careers/job/Boston/Summer-2027-Enterprise-Data-Management-Intern--June---August-_MFS-231987
 : data_science
 https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Armonk/XMLNAME-2027-Co-op-Precision-Medicine-Operations_R51082-1: __drop__
+# January–June co-op outside Summer 2027; employer requisition verified in the 2026-10-02 corpus audit.
+https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18027?s=gh-internships-2027: __drop__
+# January–June co-op outside Summer 2027; employer requisition verified in the 2026-10-02 corpus audit.
+? https://insulet.wd5.myworkdayjobs.com/en-US/insuletcareers/job/Acton-Massachusetts/Co-op--DevOps-Engineer--January---June-2027--Hybrid-_REQ-2026-18027
+: __drop__
+# year-round laboratory role outside Summer 2027 and six categories; employer requisition verified in the 2026-10-02 corpus audit.
+https://zapply.jobs/l/d/workday-nrel-nlr-R14447?s=gh-internships-2027: __drop__
+# January–June co-op outside Summer 2027; employer requisition verified in the 2026-10-02 corpus audit.
+https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18026?s=gh-internships-2027: __drop__
+# January–June co-op outside Summer 2027; employer requisition verified in the 2026-10-02 corpus audit.
+? https://insulet.wd5.myworkdayjobs.com/en-US/insuletcareers/job/Acton-Massachusetts/Co-op--Software-Development-Engineer-in-Test--January---June-2027--Hybrid-_REQ-2026-18026
+: __drop__
+# non-US Amsterdam role; employer requisition verified in the 2026-10-02 corpus audit.
+https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/INTERNSHIP-SOFTWARE-ENGINEER_REQ-10119555: __drop__
+# non-US Amsterdam role; employer requisition verified in the 2026-10-02 corpus audit.
+? https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Graduate-Internship---NFR-AI-Agent-Developer-1_REQ-10117758
+: __drop__
+# non-US Amsterdam role; employer requisition verified in the 2026-10-02 corpus audit.
+? https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/AI---Finance-Transformation-Intern_REQ-10118227
+: __drop__

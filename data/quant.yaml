@@ -1653,24 +1653,6 @@
   last_verified: '2026-10-02'
   possible_duplicate_of: null
   track: Development
-- id: stevens-capital-management-developer-internship-6c78cb
-  company: Stevens Capital Management
-  role: Developer Internship
-  location: Radnor, PA
-  link: https://job-boards.greenhouse.io/scm/jobs/721888
-  date_posted: '2026-05-24'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  - github_tracker:zapplyjobs
-  date_added: '2026-07-23'
-  last_verified: '2026-09-07'
-  possible_duplicate_of: null
-  track: Development
 - id: citadel-machine-learning-researcher-phd-intern-us-6b1743
   company: Citadel
   role: Machine Learning Researcher - PhD Intern - US
@@ -1979,6 +1961,7 @@
   - github_tracker
   - custom
   - github_tracker:zapplyjobs
+  - github_tracker:vanshb03
   date_added: '2026-07-23'
   last_verified: '2026-09-02'
   possible_duplicate_of: null
@@ -2349,23 +2332,6 @@
   last_verified: '2026-07-23'
   possible_duplicate_of: null
   date_estimated: true
-- id: imc-trading-machine-learning-research-intern-summer-2027-amsterdam-93cc10
-  company: IMC Trading
-  role: Machine Learning Research Intern - Summer 2027 - Amsterdam
-  location: Chicago, IL
-  link: https://www.imc.com/us/careers/jobs/4912874101
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - custom
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
-  track: Research
-  date_estimated: true
 - id: jane-street-machine-learning-engineer-970fae
   company: Jane Street
   role: Machine Learning Engineer
@@ -2477,22 +2443,6 @@
   last_verified: '2026-09-22'
   possible_duplicate_of: null
   track: Trading
-  date_estimated: true
-- id: jane-street-strategy-and-product-4ab7f9
-  company: Jane Street
-  role: Strategy and Product
-  location: New York, NY
-  link: https://www.janestreet.com/join-jane-street/position/8621552002/
-  date_posted: '2026-07-23'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - custom
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
-  possible_duplicate_of: null
   date_estimated: true
 - id: jane-street-trading-desk-operations-engineer-8ba5e3
   company: Jane Street
@@ -3304,22 +3254,6 @@
   date_added: '2026-08-08'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
-- id: drw-quantitative-trading-analyst-intern-64db71
-  company: DRW
-  role: Quantitative Trading Analyst Intern
-  location: Chicago, IL
-  link: https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090
-  date_posted: '2026-07-31'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:vanshb03
-  date_added: '2026-08-08'
-  last_verified: '2026-09-22'
-  possible_duplicate_of: drw-quantitative-trading-analyst-intern-968162
 - id: capula-trading-and-research-intern-7ae0a9
   company: Capula
   role: Trading and Research Intern
@@ -3668,7 +3602,7 @@
   - github_tracker:zapplyjobs
   date_added: '2026-08-15'
   last_verified: '2026-10-02'
-  possible_duplicate_of: wells-fargo-quantitative-analytics-intern-multiple-teams-b8e266
+  possible_duplicate_of: null
 - id: keybank-analytics-and-quantitative-modeling-intern-analytics-quantitative-modeling-a89ef2
   company: KeyBank
   role: Analytics and Quantitative Modeling Intern - Analytics & Quantitative Modeling
@@ -3762,7 +3696,7 @@
   - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: infinitequant-quantitative-researcher-internship-summer-2027-57d0b8
+  possible_duplicate_of: null
 - id: readystate-asset-management-investment-intern-summer-2027-2028-558477
   company: Readystate Asset Management
   role: Investment Intern (Summer 2027 & 2028)
@@ -3833,7 +3767,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: wells-fargo-quantitative-analytics-intern-multiple-teams-0a06ab
+  possible_duplicate_of: null
 - id: pimco-trading-analyst-intern-668d66
   company: PIMCO
   role: Trading Analyst Intern
@@ -3980,7 +3914,7 @@
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: pimco-quant-research-analyst-intern-client-solutions-analytics-e701d5
+  possible_duplicate_of: null
 - id: pimco-quantitative-research-analyst-intern-portfolio-management-ecbf5f
   company: PIMCO
   role: Quantitative Research Analyst Intern - Portfolio Management
@@ -4052,52 +3986,64 @@
   possible_duplicate_of: null
 - id: wells-fargo-2027-quantitative-analytics-summer-in-6ece98
   company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
+  role: 2027 Quantitative Analytics Summer Internship - Applied Computational Intelligence
+    (ACI PhD)
   location: Charlotte, NC
   link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-PhD----Early-Careers_R-571703
   date_posted: '2026-08-27'
   date_estimated: false
   term: Summer 2027
   degree:
-  - BS
+  - PhD
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-07'
+  last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: wells-fargo-2027-quantitative-analytics-summer-in-e6beff
   company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
+  role: 2027 Quantitative Analytics Summer Internship - Applied Computational Intelligence
+    (ACI Masters)
   location: Charlotte, NC
   link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-Masters----Early-Careers_R-571698
   date_posted: '2026-08-27'
   date_estimated: false
   term: Summer 2027
   degree:
-  - BS
+  - MS
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-07'
-  possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-6ece98
+  last_verified: '2026-10-02'
+  possible_duplicate_of: null
 - id: wells-fargo-2027-quantitative-analytics-summer-in-20d06e
   company: Wells Fargo
-  role: 2027 Quantitative Analytics Summer In...
+  role: 2027 Quantitative Analytics Summer Internship - Risk Analytics and Decision
+    Sciences (RADS PhD)
   location: Charlotte, NC
   link: https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-PhD----Early-Careers_R-569912
   date_posted: '2026-08-26'
   date_estimated: false
   term: Summer 2027
   degree:
-  - BS
+  - PhD
   status: open
   sources:
   - github_tracker:zapplyjobs
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-09-03'
-  possible_duplicate_of: wells-fargo-2027-quantitative-analytics-summer-in-6ece98
+  last_verified: '2026-10-02'
+  possible_duplicate_of: null
 - id: xantium-quantitative-developer-intern-a092e7
   company: Xantium
   role: Quantitative Developer Intern
@@ -4154,42 +4100,6 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: wells-fargo-quantitative-analytics-intern-risk-analytics-and-decision-sciences-216372
-  company: Wells Fargo
-  role: Quantitative Analytics Intern - Risk Analytics and Decision Sciences
-  location: Charlotte, NC
-  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Risk-Analytics-and-Decision-Sciences--RADS-PhD----Early-Careers_R-569912
-  date_posted: '2026-08-20'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-02'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: wells-fargo-quantitative-analytics-intern-applied-computational-intelligence-fb7c50
-  company: Wells Fargo
-  role: Quantitative Analytics Intern - Applied Computational Intelligence
-  location: Charlotte, NC
-  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-PhD----Early-Careers_R-571703
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-02'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: clearwater-analytics-quant-developer-intern-dae3a5
@@ -4406,7 +4316,7 @@
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
   last_verified: '2026-10-02'
-  possible_duplicate_of: infinitequant-quantitative-developer-internship-summer-2027-606c92
+  possible_duplicate_of: null
 - id: goldman-sachs-associate-intern-the-core-quantitative-strats-722850
   company: Goldman Sachs
   role: Associate Intern - The Core Quantitative Strats
@@ -5254,6 +5164,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -5272,6 +5183,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -5360,7 +5272,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: occ-quantitative-risk-management-intern-abaf18
+  possible_duplicate_of: null
 - id: occ-quantitative-risk-management-intern-d750a1
   company: OCC
   role: Quantitative Risk Management Intern
@@ -5377,7 +5289,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: occ-quantitative-risk-management-intern-abaf18
+  possible_duplicate_of: null
 - id: bank-of-montreal-mfe-associate-global-markets-8f48ae
   company: Bank of Montreal
   role: MFE Associate - Global Markets
@@ -5564,40 +5476,6 @@
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: blackrock-2027-quantitative-masters-internship-program-technology-analytics-modeling-new-york-90ce17
-  company: BlackRock
-  role: 2027 Quantitative Masters Internship Program - Technology - Analytics & Modeling
-    - New York
-  location: New York, NY
-  link: https://zapply.jobs/l/d/workday-blackrock-blackrock-professional-R266477?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-27'
-  possible_duplicate_of: null
-- id: blackrock-2027-quantitative-masters-internship-program-technology-analytics-modeling-san-francisco-6542fd
-  company: BlackRock
-  role: 2027 Quantitative Masters Internship Program - Technology - Analytics & Modeling
-    - San Francisco
-  location: San Francisco, CA
-  link: https://zapply.jobs/l/d/workday-blackrock-blackrock-professional-R266476?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-27'
   possible_duplicate_of: null
 - id: freddie-mac-multifamily-graduate-intern-quantitative-summer-2027-5682fc
   company: Freddie Mac
@@ -5865,3 +5743,68 @@
   date_added: '2026-10-02'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
+- id: transmarket-group-devops-sre-intern-69f226
+  company: TransMarket Group
+  role: DevOps/SRE Intern
+  location: Chicago, IL
+  link: https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007?gh_jid=5151577007
+  date_posted: '2026-06-02'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker
+  - github_tracker:zshah101
+  - github_tracker:zapplyjobs
+  - github_tracker:northwesternfintech
+  date_added: '2026-07-23'
+  last_verified: '2026-09-02'
+  possible_duplicate_of: null
+  date_estimated: false
+- id: akuna-capital-platform-engineer-intern-d573e9
+  company: Akuna Capital
+  role: Platform Engineer Intern
+  location: Chicago, IL
+  link: https://akunacapital.com/careers/job/8018856/?gh_jid=8018856&utm_source=github-vansh-ouckah
+  date_posted: '2026-07-24'
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:vanshb03
+  - github_tracker:chieler
+  - github_tracker
+  - github_tracker:zapplyjobs
+  - github_tracker:zshah101
+  - github_tracker:northwesternfintech
+  date_added: '2026-07-24'
+  last_verified: '2026-10-02'
+  possible_duplicate_of: null
+  date_estimated: false
+- id: akuna-capital-software-engineer-intern-c-de21d8
+  company: Akuna Capital
+  role: Software Engineer Intern, C++
+  location: Chicago, IL
+  link: https://akunacapital.com/careers/job/8018847/?gh_jid=8018847&utm_source=github-vansh-ouckah
+  date_posted: '2026-07-24'
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:vanshb03
+  - github_tracker:chieler
+  - github_tracker
+  - github_tracker:zshah101
+  - github_tracker:northwesternfintech
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
+  - github_tracker:sndsh404
+  date_added: '2026-07-24'
+  last_verified: '2026-10-02'
+  possible_duplicate_of: null
+  date_estimated: false

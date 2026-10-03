@@ -298,22 +298,6 @@
   date_added: '2026-07-23'
   last_verified: '2026-07-25'
   possible_duplicate_of: null
-- id: ing-graduate-internship-nfr-ai-agent-developer-edfcdb
-  company: ING
-  role: Graduate Internship - NFR AI Agent Developer
-  location: Waco, TX
-  link: https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Graduate-Internship---NFR-AI-Agent-Developer-1_REQ-10117758
-  date_posted: '2026-07-10'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  - github_tracker:speedyapply
-  date_added: '2026-07-23'
-  last_verified: '2026-07-25'
-  possible_duplicate_of: null
 - id: halo-industries-software-engineer-intern-machine-learning-workflow-25a035
   company: Halo Industries
   role: Software Engineer Intern - Machine Learning Workflow
@@ -615,21 +599,6 @@
   - github_tracker
   date_added: '2026-07-23'
   last_verified: '2026-08-08'
-  possible_duplicate_of: null
-- id: ing-ai-finance-transformation-intern-5f51cf
-  company: ING
-  role: AI & Finance Transformation Intern
-  location: Waco, TX
-  link: https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/AI---Finance-Transformation-Intern_REQ-10118227
-  date_posted: '2026-07-16'
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker
-  date_added: '2026-07-23'
-  last_verified: '2026-07-23'
   possible_duplicate_of: null
 - id: datarobot-agentic-ai-intern-fd3419
   company: DataRobot
@@ -1875,26 +1844,6 @@
   last_verified: '2026-09-02'
   possible_duplicate_of: null
   date_estimated: true
-- id: fti-consulting-technology-intern-b8204d
-  company: FTI Consulting
-  role: Technology Intern
-  location: Houston, TX
-  link: https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Technology_JR260339-1
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:vanshb03
-  date_added: '2026-08-08'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
 - id: two-sigma-ai-research-scientist-intern-2027-summer-df6624
   company: Two Sigma
   role: AI Research Scientist Intern - 2027 Summer
@@ -2667,25 +2616,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  date_added: '2026-08-08'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: ge-vernova-digital-technology-intern-c5f332
-  company: GE Vernova
-  role: Digital Technology Intern
-  location: Greenville, SC
-  link: https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-3
-  date_posted: '2026-08-07'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  - github_tracker:zapplyjobs
   date_added: '2026-08-08'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -3743,44 +3673,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
-- id: diamondback-energy-summer-2027-geoscience-intern-6af922
-  company: Diamondback Energy
-  role: Summer 2027 Geoscience Intern
-  location: Midland, TX
-  link: https://diamondbackenergy.wd12.myworkdayjobs.com/DBE/job/Midland-TX/Summer-2027-Geoscience-Intern_R100829
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: closed
-  sources:
-  - company:diamondback-energy
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: first-national-bank-summer-2027-capital-markets-intern-158312
-  company: First National Bank
-  role: Summer 2027 Capital Markets Intern
-  location: Pittsburgh, PA
-  link: https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Capital-Markets-Intern_2026-02010
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - company:first-national-bank
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  date_added: '2026-09-02'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
 - id: first-national-bank-summer-2027-systems-analyst-intern-5bd54f
   company: First National Bank
   role: Summer 2027 Systems Analyst Intern
@@ -3839,147 +3731,6 @@
   - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: hitachi-2027-summer-business-intern-alamo-e0a1b4
-  company: Hitachi
-  role: 2027 Summer Business Intern - Alamo
-  location: Alamo, TN
-  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Alamo-Tennessee-United-States-of-America/XMLNAME-2027-Summer-Business-Intern---Alamo_R0142894
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:hitachi
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hitachi-2027-summer-intern-crystal-springs-888b81
-  company: Hitachi
-  role: 2027 Summer Intern - Crystal Springs
-  location: Crystal Springs, MS
-  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Crystal-Springs-Mississippi-United-States-of-America/XMLNAME-2027-Summer-Intern---Crystal-Springs_R0143801
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:hitachi
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hitachi-2027-summer-health-safety-environmental-internship-jefferson-city-425cb8
-  company: Hitachi
-  role: 2027 Summer Health Safety Environmental Internship-Jefferson City
-  location: Jefferson City, MO
-  link: https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Jefferson-City-Missouri-United-States-of-America/XMLNAME-2027-Summer-Health-Safety-Environmental-Internship-Jefferson-City_R0143630
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - company:hitachi
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: hntb-design-build-intern-technician-summer-2027-2235b6
-  company: HNTB
-  role: Design Build Intern Technician - Summer 2027
-  location: Kansas City, MO
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Kansas-City-MO/Design-Build-Intern-Technician---Summer-2027_R-31320
-  date_posted: '2026-08-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:hntb
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-04'
-  possible_duplicate_of: null
-- id: hntb-strategic-technology-intern-summer-2027-sed-division-for-current-former-hntb-interns-only-646e9f
-  company: HNTB
-  role: Strategic Technology Intern – Summer 2027- SED Division (For Current/Former
-    HNTB Interns Only)
-  location: Tallahassee, FL / Tampa, FL
-  link: https://hntb.wd5.myworkdayjobs.com/HNTB_University_Careers/job/Tallahassee-FL/Strategic-Technology-Intern---Summer-2027--SED-Division--For-Current-Former-HNTB-Interns-Only-_R-31092
-  date_posted: '2026-08-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - company:hntb
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: jones-lang-lasalle-jll-capital-markets-summer-2027-internship-new-york-574701
-  company: Jones Lang LaSalle (JLL)
-  role: Capital Markets Summer 2027 Internship - New York
-  location: New York, NY
-  link: https://jll.wd1.myworkdayjobs.com/jllcareers/job/New-York-NY/Capital-Markets-Summer-2027-Internship---New-York_REQ528322
-  date_posted: '2026-08-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:jones-lang-lasalle-jll
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-student-internship-environmental-sciences-a6d291
-  company: Olsson
-  role: Student Internship - Environmental Sciences
-  location: North Kansas City, MO
-  link: https://job-boards.greenhouse.io/olsson/jobs/5412829008
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:olsson
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: olsson-student-internship-environmental-sciences-geology-4a8bc7
-  company: Olsson
-  role: Student Internship - Environmental Sciences/Geology
-  location: Omaha, NE
-  link: https://job-boards.greenhouse.io/olsson/jobs/5412915008
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:olsson
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
   possible_duplicate_of: null
 - id: persona-ai-machine-learning-internship-manipulation-e68cc6
   company: Persona AI
@@ -4156,7 +3907,7 @@
   - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-ai-engineer-intern-enterprise-technology-services-28f75a
+  possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-717447
   company: American Express
   role: AI Engineer Intern - Enterprise Technology Services
@@ -4175,7 +3926,7 @@
   - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-ai-engineer-intern-enterprise-technology-services-7ee728
+  possible_duplicate_of: null
 - id: bytedance-machine-learning-engineer-intern-e-commerce-risk-control-phd-1f4b70
   company: ByteDance
   role: Machine Learning Engineer Intern (E-Commerce Risk Control)- 2027 Start
@@ -4428,7 +4179,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: amd-machine-learning-intern-co-op-machine-learning-artificial-intelligence-8ecdb5
+  possible_duplicate_of: null
 - id: amd-machine-learning-intern-co-op-artificial-intelligence-a80c34
   company: AMD
   role: Machine Learning Intern/Co-op - Artificial Intelligence
@@ -4607,24 +4358,6 @@
   term: Summer 2027
   degree:
   - BS
-  - MS
-  status: closed
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-02'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: wells-fargo-applied-computational-intelligence-intern-aci-masters-early-careers-6ba2a0
-  company: Wells Fargo
-  role: Applied Computational Intelligence Intern - ACI Masters - Early Careers
-  location: Charlotte, NC
-  link: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-Masters----Early-Careers_R-571698
-  date_posted: '2026-08-27'
-  date_estimated: false
-  term: Summer 2027
-  degree:
   - MS
   status: closed
   sources:
@@ -5449,26 +5182,6 @@
   - company:aerovironment
   date_added: '2026-09-02'
   last_verified: '2026-09-02'
-  possible_duplicate_of: null
-- id: rystad-energy-analyst-intern-summer-2027-b66e4f
-  company: Rystad Energy
-  role: Analyst Intern - Summer 2027
-  location: Houston, TX
-  link: https://apply.workable.com/rystad-energy/j/74A4CBBC6B/
-  date_posted: '2026-08-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: closed
-  sources:
-  - company:rystad-energy
-  - github_tracker:chieler
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-distributed-nosql-database-systems-30c298
   company: ByteDance
@@ -6631,6 +6344,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -6669,24 +6383,6 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
-  date_added: '2026-09-22'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: coinbase-machine-learning-engineer-intern-8cc0a4
-  company: Coinbase
-  role: Machine Learning Engineer Intern
-  location: San Francisco, CA
-  link: https://boards.greenhouse.io/embed/job_app?token=8175441
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - PhD
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -7048,6 +6744,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -7252,6 +6949,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -7273,6 +6971,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -7641,6 +7340,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -8006,7 +7706,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: national-information-solutions-cooperative-intern-software-development-ai-development-795538
+  possible_duplicate_of: null
 - id: cyvl-software-engineering-intern-swe-ml-summer-2027-0857b9
   company: Cyvl
   role: Software Engineering Intern - SWE/ML - Summer 2027
@@ -8115,6 +7815,7 @@
   - github_tracker:chieler
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -8150,23 +7851,6 @@
   date_added: '2026-09-22'
   last_verified: '2026-09-30'
   possible_duplicate_of: null
-- id: nike-nike-inc-artificial-intelligence-data-machine-learning-engineering-undergraduate-internship-d2c90d
-  company: Nike
-  role: NIKE, Inc. Artificial Intelligence, Data, & Machine Learning Engineering Undergraduate
-    Internship
-  location: Beaverton, OR
-  link: https://zapply.jobs/l/d/workday-nike-nke-R-91110?s=gh-internships-2027
-  date_posted: '2026-09-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-30'
-  possible_duplicate_of: nike-nike-inc-artificial-intelligence-d-55e88b
 - id: xpeng-motors-ai-research-intern-predictive-world-model-e1ae8f
   company: XPENG Motors
   role: AI Research Intern – Predictive World Model
@@ -8215,77 +7899,12 @@
   date_added: '2026-09-22'
   last_verified: '2026-09-28'
   possible_duplicate_of: null
-- id: gecko-robotics-ai-machine-learning-engineering-intern-b82afa
-  company: Gecko Robotics
-  role: AI/Machine Learning Engineering Intern
-  location: New York, NY
-  link: https://zapply.jobs/l/d/ashby-gecko-robotics-c097505b-0a28-4a33-a917-268f463641e8?s=gh-internships-2027
-  date_posted: '2026-09-16'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-28'
-  possible_duplicate_of: null
-- id: q2-2027-summer-internship-machine-learning-engineer-7eba8c
-  company: Q2
-  role: 2027 Summer Internship - Machine Learning Engineer
-  location: Austin, TX
-  link: https://zapply.jobs/l/d/workday-q2ebanking-q2-REQ-12797?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-25'
-  possible_duplicate_of: null
-- id: amgen-undergrad-intern-machine-learning-engineer-technology-ai-data-summer-2027-b0b1ff
-  company: Amgen
-  role: Undergrad Intern – Machine Learning Engineer – Technology, AI & Data (Summer
-    2027)
-  location: Remote (US)
-  link: https://zapply.jobs/l/d/workday-amgen-careers-R-255709?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-23'
-  possible_duplicate_of: null
 - id: wex-data-ai-intern-graduate-master-s-9eb3e0
   company: Wex
   role: Data & AI Intern (Graduate/Master’s)
   location: Remote (US)
   link: https://zapply.jobs/l/d/workday-wexinc-wexinc-R22551?s=gh-internships-2027
   date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-22'
-  possible_duplicate_of: null
-- id: aerovironment-summer-2027-autonomy-robotics-engineering-intern-5ac7db
-  company: AeroVironment
-  role: Summer 2027 Autonomy & Robotics Engineering Intern
-  location: Moorpark, CA
-  link: https://zapply.jobs/l/d/workday-avav-avav-8551?s=gh-internships-2027
-  date_posted: '2026-09-21'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -8311,22 +7930,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-09-25'
-  possible_duplicate_of: null
-- id: sony-research-intern-on-generative-and-protective-ai-for-content-creation-eabf82
-  company: Sony
-  role: Research Intern on Generative and Protective AI for Content Creation
-  location: Remote (US)
-  link: https://zapply.jobs/l/d/workday-sonyglobal-sonyglobalcareers-JR-119335?s=gh-internships-2027
-  date_posted: '2026-09-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-27'
   possible_duplicate_of: null
 - id: upstart-applied-scientist-intern-907ee1
   company: Upstart
@@ -8424,22 +8027,6 @@
   date_added: '2026-09-22'
   last_verified: '2026-09-25'
   possible_duplicate_of: null
-- id: bytedance-research-intern-frontier-ai-systems-2027-start-phd-70cc5a
-  company: ByteDance
-  role: Research Intern (Frontier AI Systems) - 2027 Start (PhD)
-  location: San Jose, CA
-  link: https://zapply.jobs/l/d/bytedance-7679894132806650165?s=gh-internships-2027
-  date_posted: '2026-09-22'
-  date_estimated: true
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-25'
-  possible_duplicate_of: bytedance-research-intern-frontier-ai-systems-2027-start-phd-8885de
 - id: bytedance-cloud-acceleration-research-intern-dpu-ai-infra-2027-start-phd-be7eaf
   company: ByteDance
   role: Cloud Acceleration Research Intern (DPU & AI Infra) - 2027 Start (PhD)
@@ -8518,6 +8105,9 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -9194,6 +8784,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-23'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -9266,6 +8857,7 @@
   sources:
   - github_tracker:speedyapply
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-23'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -9300,39 +8892,8 @@
   status: open
   sources:
   - github_tracker:speedyapply
-  date_added: '2026-09-23'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: kla-algorithm-engineering-intern-ai-computer-vision-software-engineering-b607dd
-  company: KLA
-  role: Algorithm Engineering Intern (AI, Computer Vision & Software Engineering)
-  location: Milpitas, CA
-  link: https://zapply.jobs/l/d/workday-kla-search-2641392?s=gh-internships-2027
-  date_posted: '2026-09-22'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
   - github_tracker:zapplyjobs
-  date_added: '2026-09-23'
-  last_verified: '2026-09-27'
-  possible_duplicate_of: null
-- id: waymo-2027-summer-intern-ms-phd-road-understanding-ml-engineer-160102
-  company: Waymo
-  role: 2027 Summer Intern, MS/PhD, Road Understanding, ML Engineer
-  location: Mountain View, CA
-  link: https://zapply.jobs/l/d/greenhouse-waymo-8224746?s=gh-internships-2027
-  date_posted: '2026-09-23'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-23'
+  date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: amd-ai-engineering-intern-c3e834
@@ -9580,6 +9141,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-25'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -9658,6 +9220,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-25'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -9735,7 +9298,7 @@
   company: Brunswick
   role: Reinforcement Learning Intern
   location: Champaign, IL
-  link: https://zapply.jobs/l/d/workday-brunswick-search-JR-051449?s=gh-internships-2027
+  link: https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051449
   date_posted: '2026-09-25'
   date_estimated: false
   term: Summer 2027
@@ -9744,7 +9307,11 @@
   status: open
   sources:
   - github_tracker:zapplyjobs
-  date_added: '2026-09-25'
+  - github_tracker:speedyapply
+  - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-09-02'
   last_verified: '2026-09-27'
   possible_duplicate_of: null
 - id: tencent-game-research-development-intern-engine-research-59c1db
@@ -9794,38 +9361,6 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-26'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: doordash-machine-learning-intern-phd-summer-2027-ef66fc
-  company: DoorDash
-  role: Machine Learning Intern (PhD) - Summer 2027
-  location: San Francisco, CA
-  link: https://zapply.jobs/l/d/greenhouse-doordashusa-8233953?s=gh-internships-2027
-  date_posted: '2026-09-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-27'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: doordash-machine-learning-intern-masters-summer-2027-7c5b85
-  company: DoorDash
-  role: Machine Learning Intern (Masters) - Summer 2027
-  location: San Francisco, CA
-  link: https://zapply.jobs/l/d/greenhouse-doordashusa-8204111?s=gh-internships-2027
-  date_posted: '2026-09-23'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-27'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: crowe-msft-ai-business-solutions-implementation-intern-a4c8bb
@@ -9968,22 +9503,6 @@
   date_added: '2026-09-28'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
-- id: lyft-applied-scientist-intern-summer-2027-cfde4e
-  company: Lyft
-  role: Applied Scientist Intern (Summer 2027)
-  location: San Francisco, CA
-  link: https://zapply.jobs/l/d/greenhouse-lyft-8843341002?s=gh-internships-2027
-  date_posted: '2026-09-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-28'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
 - id: micron-technology-intern-memory-systems-architecture-ai-d123d2
   company: Micron Technology
   role: Intern – Memory Systems Architecture & AI
@@ -10068,7 +9587,8 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
-  date_added: '2026-09-29'
+  - github_tracker:zapplyjobs
+  date_added: '2026-09-28'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: q2-machine-learning-engineer-intern-e38670
@@ -10087,6 +9607,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-29'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -10330,22 +9851,6 @@
   role: 2027 Summer Intern, AI Engineer (Reston, VA)
   location: Reston, VA
   link: https://zapply.jobs/l/d/workday-icf-icfexternal-career-site-R2603312?s=gh-internships-2027
-  date_posted: '2026-09-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-30'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: q2-2027-summer-internship-machine-learning-engineer-e694f8
-  company: Q2
-  role: 2027 Summer Internship - Machine Learning Engineer
-  location: Cary, NC
-  link: https://zapply.jobs/l/d/workday-q2ebanking-q2-REQ-12800?s=gh-internships-2027
   date_posted: '2026-09-29'
   date_estimated: false
   term: Summer 2027
@@ -10715,5 +10220,44 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-10-02'
+  last_verified: '2026-10-02'
+  possible_duplicate_of: null
+- id: persona-ai-autonomy-software-engineering-internship-world-modeling-363d58
+  company: Persona AI
+  role: Autonomy Software Engineering Internship, World Modeling
+  location: Houston, TX
+  link: https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08
+  date_posted: '2026-08-03'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  - PhD
+  status: open
+  sources:
+  - company:persona-ai
+  - github_tracker:zapplyjobs
+  - github_tracker:chieler
+  - github_tracker:speedyapply
+  date_added: '2026-09-02'
+  last_verified: '2026-10-02'
+  possible_duplicate_of: null
+- id: ge-vernova-engineering-intern-818986
+  company: GE Vernova
+  role: Engineering Intern
+  location: Niskayuna, NY
+  link: https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Niskayuna/Engineering-Intern---Power-Conversion---Storage-AI-Tool-Developer--2027_R5049957-2
+  date_posted: '2026-08-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: closed
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
+  date_added: '2026-08-15'
   last_verified: '2026-10-02'
   possible_duplicate_of: null

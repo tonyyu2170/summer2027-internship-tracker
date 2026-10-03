@@ -1162,22 +1162,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
-- id: caterpillar-2027-summer-intern-information-technology-e4c5c6
-  company: Caterpillar
-  role: 2027 Summer Intern - Information Technology
-  location: Nashville, TN
-  link: https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Nashville-Tennessee/XMLNAME-2027-Summer-Intern---Information-Technology_R0000387802
-  date_posted: '2026-08-11'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - company:caterpillar
-  date_added: '2026-09-02'
-  last_verified: '2026-09-02'
-  possible_duplicate_of: null
 - id: conagra-brands-analytics-internship-summer-2027-2ce90e
   company: Conagra Brands
   role: Analytics Internship - Summer 2027
@@ -1194,26 +1178,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
   last_verified: '2026-09-07'
-  possible_duplicate_of: null
-- id: continental-resources-geoscience-intern-summer-2027-f1ba85
-  company: Continental Resources
-  role: Geoscience Intern (Summer 2027)
-  location: Oklahoma City, OK
-  link: https://clr.wd5.myworkdayjobs.com/CLR_Careers/job/Oklahoma-City-OK/Geoscience-Intern--Summer-2027-_R02592-1
-  date_posted: '2026-08-18'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: closed
-  sources:
-  - company:continental-resources
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: continental-resources-data-analyst-intern-summer-2027-afcb82
   company: Continental Resources
@@ -1256,26 +1220,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
-- id: federal-reserve-system-internship-analyst-summer-2027-f55214
-  company: Federal Reserve System
-  role: Internship, Analyst – Summer 2027
-  location: Kansas City, MO
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/Kansas-City-MO/Internship--Analyst---Summer-2027_R-0000033129-1
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: closed
-  sources:
-  - company:federal-reserve-system
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
 - id: federal-reserve-system-2027-summer-intern-statistics-sophomore-intern-bc1473
   company: Federal Reserve System
   role: 2027 Summer Intern - Statistics - Sophomore Intern
@@ -1292,44 +1236,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  date_added: '2026-09-02'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-research-group-junior-intern-ed2f11
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Research Group - Junior Intern
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern----Research-Group---Junior-Intern_R-0000033023
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - company:federal-reserve-system
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
-  date_added: '2026-09-02'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: federal-reserve-system-2027-summer-intern-markets-group-new-york-graduate-intern-533125
-  company: Federal Reserve System
-  role: 2027 Summer Intern - Markets Group - New York - Graduate Intern
-  location: New York, NY
-  link: https://rb.wd5.myworkdayjobs.com/FRS/job/New-York-NY/XMLNAME-2027-Summer-Intern---Markets-Group---New-York---Graduate-Intern_R-0000033033
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: closed
-  sources:
-  - company:federal-reserve-system
-  - github_tracker:simplifyjobs
-  - github_tracker:chieler
-  - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -1452,25 +1358,6 @@
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
-- id: johnson-johnson-design-and-development-co-op-summer-2027-eacc24
-  company: Johnson & Johnson
-  role: Design and Development Co-Op, Summer 2027
-  location: Cincinnati, OH
-  link: https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Design-and-Development-Co-Op--Summer-2027_R-096727
-  date_posted: '2026-09-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  - PhD
-  status: open
-  sources:
-  - company:johnson-johnson
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-07'
-  possible_duplicate_of: null
 - id: keybank-2027-summer-key-technology-services-data-track-internship-cleveland-81856a
   company: KeyBank
   role: '2027 Summer Key Technology & Services: Data Track Internship- Cleveland'
@@ -1552,7 +1439,7 @@
   - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: mastercard-data-scientist-intern-summer-2027-st-louis-mo-us-260ff1
+  possible_duplicate_of: null
 - id: medline-it-business-intelligence-development-analytics-intern-summer-2027-c3faad
   company: Medline
   role: IT Business Intelligence Development/Analytics Intern - Summer 2027
@@ -1907,7 +1794,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: amd-data-analyst-intern-co-op-d7df0e
+  possible_duplicate_of: null
 - id: amd-data-analyst-intern-co-op-b30b00
   company: AMD
   role: Data Analyst Intern/Co-op
@@ -1923,7 +1810,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: amd-data-analyst-intern-co-op-481a6b
+  possible_duplicate_of: null
 - id: blackstone-data-science-summer-analyst-381ed8
   company: Blackstone
   role: Data Science Summer Analyst
@@ -2124,7 +2011,7 @@
   term: Summer 2027
   degree:
   - BS
-  status: closed
+  status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -2570,7 +2457,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: draftkings-analytics-intern-summer-2027-1e610d
+  possible_duplicate_of: null
 - id: robert-bosch-venture-capital-calibration-process-data-science-intern-8-months-40-hours-per-week-85502e
   company: Robert Bosch Venture Capital
   role: Calibration Process Data Science Intern - 8 months/40 hours per week
@@ -2805,7 +2692,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-8832f4
+  possible_duplicate_of: null
 - id: american-express-data-analytics-intern-us-consumer-services-0c8ea2
   company: American Express
   role: Data Analytics Intern - US Consumer Services
@@ -2839,7 +2726,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-32933a
+  possible_duplicate_of: null
 - id: american-express-data-analytics-intern-enterprise-technology-services-64dd6e
   company: American Express
   role: Data Analytics Intern - Enterprise Technology Services
@@ -2909,7 +2796,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-64dd6e
+  possible_duplicate_of: null
 - id: american-express-data-analytics-intern-enterprise-technology-services-731168
   company: American Express
   role: Data Analytics Intern - Enterprise Technology Services
@@ -2925,7 +2812,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-data-analytics-intern-enterprise-technology-services-185172
+  possible_duplicate_of: null
 - id: american-express-data-science-intern-finance-24a6a0
   company: American Express
   role: Data Science Intern - Finance
@@ -2943,7 +2830,7 @@
   - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-data-science-intern-finance-72fb85
+  possible_duplicate_of: null
 - id: edison-international-data-analytics-intern-data-science-applied-math-130d62
   company: Edison International
   role: Data Analytics Intern - Data Science - Applied Math
@@ -4102,7 +3989,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-04'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-data-science-intern-global-decision-science-credit-fraud-risk-c051e7
+  possible_duplicate_of: null
 - id: motorola-solutions-supply-chain-data-analyst-internship-accf7b
   company: Motorola Solutions
   role: Supply Chain Data Analyst Internship 2027
@@ -4991,43 +4878,6 @@
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
-- id: coinbase-data-science-intern-strategy-execution-analytics-platform-f1dedf
-  company: Coinbase
-  role: Data Science Intern - Strategy, Execution, & Analytics - Platform
-  location: San Francisco, CA
-  link: https://boards.greenhouse.io/embed/job_app?token=8175462
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-22'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: coinbase-analytics-engineer-intern-5ea72f
-  company: Coinbase
-  role: Analytics Engineer Intern
-  location: San Francisco, CA
-  link: https://boards.greenhouse.io/embed/job_app?token=8175471
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-22'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
 - id: gallup-data-science-intern-summer-2027-bb301e
   company: Gallup
   role: Data Science Intern - Summer 2027
@@ -5135,7 +4985,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: navy-federal-data-scientist-intern-817ee4
+  possible_duplicate_of: null
 - id: navy-federal-data-scientist-intern-316962
   company: Navy Federal
   role: Data Scientist Intern
@@ -5169,7 +5019,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: navy-federal-data-scientist-intern-817ee4
+  possible_duplicate_of: null
 - id: peraton-data-science-intern-d205bf
   company: Peraton
   role: Data Science Intern
@@ -5240,7 +5090,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: navy-federal-data-scientist-intern-316962
+  possible_duplicate_of: null
 - id: constellation-energy-business-performance-analytics-intern-66cfb5
   company: Constellation Energy
   role: Business Performance & Analytics Intern
@@ -5570,7 +5420,7 @@
   - github_tracker:zshah101
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: citizens-financial-group-data-science-intern-multiple-teams-4bfb3e
+  possible_duplicate_of: null
 - id: citizens-financial-group-data-analyst-intern-multiple-teams-7fb15f
   company: Citizens Financial Group
   role: Data Analyst Intern - Multiple Teams
@@ -5586,7 +5436,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: citizens-financial-group-data-analyst-intern-multiple-teams-fc1b5b
+  possible_duplicate_of: null
 - id: the-friedkin-group-it-data-analytics-intern-business-systems-ai-f09ed6
   company: The Friedkin Group
   role: IT Data Analytics Intern - Business Systems & AI
@@ -5734,6 +5584,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -5754,6 +5605,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -5790,6 +5642,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -5893,11 +5746,12 @@
   term: Summer 2027
   degree:
   - MS
-  status: closed
+  status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -6434,6 +6288,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -6453,6 +6308,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -6564,7 +6420,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: draftkings-analytics-intern-summer-2027-39ec5d
+  possible_duplicate_of: null
 - id: onsemi-data-and-visualization-intern-d5f5a2
   company: onsemi
   role: Data and Visualization Intern
@@ -6598,7 +6454,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: draftkings-analytics-intern-summer-2027-39ec5d
+  possible_duplicate_of: null
 - id: smith-nephew-data-science-intern-ai-center-of-excellence-35d608
   company: Smith+Nephew
   role: Data Science Intern - AI Center of Excellence
@@ -6672,6 +6528,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -6691,6 +6548,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -6966,7 +6824,7 @@
   - github_tracker:chieler
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: booz-allen-data-scientist-intern-2d89c0
+  possible_duplicate_of: null
 - id: figma-data-science-intern-e2d931
   company: Figma
   role: Data Science Intern
@@ -6980,6 +6838,7 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -7144,7 +7003,7 @@
   - github_tracker:zshah101
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: booz-allen-data-scientist-intern-2d89c0
+  possible_duplicate_of: null
 - id: epic-games-data-science-intern-a93b89
   company: Epic Games
   role: Data Science Intern
@@ -7396,23 +7255,7 @@
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-09-23'
-  possible_duplicate_of: booz-allen-hamilton-university-2027-summer-games-data-scientist-intern-mclean-va-6107a1
-- id: premier-data-science-intern-d4ab6e
-  company: Premier
-  role: Data Science Intern
-  location: Charlotte, NC
-  link: https://zapply.jobs/l/d/workday-premierinc-external-professional-R0008481?s=gh-internships-2027
-  date_posted: '2026-09-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-10-01'
-  possible_duplicate_of: premier-data-science-intern-4e8e4a
+  possible_duplicate_of: null
 - id: coinbase-internal-audit-analytics-intern-552828
   company: Coinbase
   role: Internal Audit Analytics Intern
@@ -7477,22 +7320,6 @@
   date_added: '2026-09-22'
   last_verified: '2026-09-30'
   possible_duplicate_of: null
-- id: figma-phd-intern-data-science-2027-16981d
-  company: Figma
-  role: PhD Intern, Data Science (2027)
-  location: San Francisco, NY
-  link: https://zapply.jobs/l/d/greenhouse-figma-6200626004?s=gh-internships-2027
-  date_posted: '2026-09-21'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-30'
-  possible_duplicate_of: null
 - id: cigna-data-scientist-intern-master-s-program-hybrid-nj-tx-or-mo-d1bf98
   company: Cigna
   role: 'Data Scientist Intern- Master''s Program (Hybrid: NJ, TX, or MO)'
@@ -7509,54 +7336,6 @@
   date_added: '2026-09-22'
   last_verified: '2026-09-30'
   possible_duplicate_of: null
-- id: generac-data-science-intern-summer-2027-5d5ea0
-  company: Generac
-  role: Data Science Intern - Summer 2027
-  location: Waukesha, WI
-  link: https://zapply.jobs/l/d/workday-generac-external-JR17001?s=gh-internships-2027
-  date_posted: '2026-09-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-29'
-  possible_duplicate_of: null
-- id: the-hartford-data-science-intern-summer-2027-e89df6
-  company: The Hartford
-  role: Data Science Intern - Summer 2027
-  location: Hartford, CT
-  link: https://zapply.jobs/l/d/workday-thehartford-careers-external-R2627114?s=gh-internships-2027
-  date_posted: '2026-09-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-29'
-  possible_duplicate_of: null
-- id: aspentech-data-science-intern-summer-2027-bedford-ma-3375fd
-  company: AspenTech
-  role: Data Science Intern - Summer 2027 - Bedford, MA
-  location: Bedford, MA
-  link: https://zapply.jobs/l/d/workday-aspentech-aspentech-R9459?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-28'
-  possible_duplicate_of: null
 - id: baxter-international-associate-data-scientist-co-op-c8a945
   company: Baxter International
   role: Associate Data Scientist Co-op
@@ -7572,22 +7351,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-09-28'
-  possible_duplicate_of: null
-- id: q2-2027-summer-internship-data-science-f36715
-  company: Q2
-  role: 2027 Summer Internship - Data Science
-  location: Austin, TX
-  link: https://zapply.jobs/l/d/workday-q2ebanking-q2-REQ-12796?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-27'
   possible_duplicate_of: null
 - id: llnl-data-science-institute-graduate-student-intern-summer-2027-1164df
   company: LLNL
@@ -7637,38 +7400,6 @@
   date_added: '2026-09-22'
   last_verified: '2026-09-27'
   possible_duplicate_of: null
-- id: amgen-undergrad-intern-data-scientist-technology-ai-data-summer-2027-6b7287
-  company: Amgen
-  role: Undergrad Intern – Data Scientist – Technology, AI & Data (Summer 2027)
-  location: Remote (US)
-  link: https://zapply.jobs/l/d/workday-amgen-careers-R-255704?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-23'
-  possible_duplicate_of: null
-- id: amgen-grad-intern-data-scientist-technology-ai-data-summer-2027-60d0bf
-  company: Amgen
-  role: Grad Intern – Data Scientist – Technology, AI & Data (Summer 2027)
-  location: Remote (US)
-  link: https://zapply.jobs/l/d/workday-amgen-careers-R-255722?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
 - id: dow-jones-summer-2027-internship-program-marketing-data-science-intern-e5b8a0
   company: Dow Jones
   role: Summer 2027 Internship Program - Marketing Data Science Intern
@@ -7717,38 +7448,6 @@
   date_added: '2026-09-22'
   last_verified: '2026-09-23'
   possible_duplicate_of: null
-- id: figma-data-science-intern-2027-ba6624
-  company: Figma
-  role: Data Science Intern (2027)
-  location: San Francisco, NY
-  link: https://zapply.jobs/l/d/greenhouse-figma-6178857004?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-23'
-  possible_duplicate_of: null
-- id: robinhood-peoplex-insights-analytics-intern-summer-2027-3c92b7
-  company: Robinhood
-  role: PeopleX Insights & Analytics Intern (Summer 2027)
-  location: Menlo Park, CA
-  link: https://zapply.jobs/l/d/greenhouse-robinhood-8198255?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-09-23'
-  possible_duplicate_of: null
 - id: td-bank-2027-summer-internship-program-global-technology-solutions-data-analyst-ebf049
   company: TD Bank
   role: 2027 Summer Internship Program - Global Technology & Solutions - Data Analyst
@@ -7764,22 +7463,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-09-23'
-  possible_duplicate_of: null
-- id: labcorp-intern-financial-analytics-technology-5bb90d
-  company: LabCorp
-  role: Intern – Financial Analytics & Technology
-  location: Remote (US)
-  link: https://zapply.jobs/l/d/workday-labcorp-external-2630761?s=gh-internships-2027
-  date_posted: '2026-09-15'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-22'
-  last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: vertex-pharmaceuticals-vertex-spring-co-op-2027-predictive-models-5974bd
   company: Vertex Pharmaceuticals
@@ -7811,6 +7494,8 @@
   sources:
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -7827,6 +7512,9 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -7844,9 +7532,10 @@
   sources:
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: figma-data-science-intern-2027-ba6624
+  possible_duplicate_of: null
 - id: rippling-data-science-intern-summer-2027-b36081
   company: Rippling
   role: Data Science Intern - Summer 2027
@@ -7923,17 +7612,18 @@
 - id: t-rowe-price-technology-and-data-intern-6bc935
   company: T. Rowe Price
   role: Technology and Data Intern
-  location: Owings Mills, MD
-  link: https://troweprice.wd5.myworkdayjobs.com/en-US/TRowePrice/job/Baltimore-MD/XMLNAME-2027-Technology-and-Data-Internship_82677
+  location: Baltimore, MD
+  link: https://troweprice.gr8people.com/jobs/21965/2027-technology-and-data-internship
   date_posted: '2026-07-23'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
-  status: closed
+  status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -8006,7 +7696,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: navy-federal-business-intelligence-analyst-intern-098e76
+  possible_duplicate_of: null
 - id: navy-federal-business-intelligence-analyst-intern-a1f4b6
   company: Navy Federal
   role: Business Intelligence Analyst Intern
@@ -8040,7 +7730,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: navy-federal-business-intelligence-analyst-intern-098e76
+  possible_duplicate_of: null
 - id: navy-federal-business-intelligence-analyst-intern-2602b6
   company: Navy Federal
   role: Business Intelligence Analyst Intern
@@ -8056,7 +7746,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: navy-federal-business-intelligence-analyst-intern-098e76
+  possible_duplicate_of: null
 - id: navy-federal-business-intelligence-analyst-intern-consumer-lending-4722b5
   company: Navy Federal
   role: Business Intelligence Analyst Intern - Consumer Lending
@@ -8108,7 +7798,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
-  possible_duplicate_of: navy-federal-business-intelligence-analyst-intern-a1f4b6
+  possible_duplicate_of: null
 - id: usaa-data-intern-future-leaders-program-c2561a
   company: USAA
   role: Data Intern - Future Leaders Program
@@ -8742,24 +8432,6 @@
   date_added: '2026-09-25'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
-- id: atlassian-data-scientist-intern-a97ee9
-  company: Atlassian
-  role: Data Scientist Intern
-  location: Seattle, WA
-  link: https://campus-americas.icims.com/jobs/26271/data-scientist-intern%2c-2027-summer-u.s./job
-  date_posted: '2026-09-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - MS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-25'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
 - id: gcm-grosvenor-fund-data-reporting-and-analytics-intern-85f125
   company: GCM Grosvenor
   role: Fund Data Reporting and Analytics Intern
@@ -8794,6 +8466,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-25'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -8814,22 +8487,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  date_added: '2026-09-25'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: red-ventures-2027-launch-program-data-science-intern-100fb4
-  company: Red Ventures
-  role: '2027 Launch Program: Data Science Intern'
-  location: Charlotte, NC
-  link: https://zapply.jobs/l/d/greenhouse-redventures-8233284?s=gh-internships-2027
-  date_posted: '2026-09-25'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
   date_added: '2026-09-25'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -9011,7 +8668,7 @@
   - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: first-national-bank-summer-2027-data-engineering-intern-a1c7b9
+  possible_duplicate_of: null
 - id: first-national-bank-summer-2027-data-engineering-intern-105d65
   company: First National Bank
   role: Summer 2027 Data Engineering Intern
@@ -9030,7 +8687,7 @@
   - github_tracker:chieler
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: first-national-bank-summer-2027-data-engineering-intern-a1c7b9
+  possible_duplicate_of: null
 - id: mastercard-data-engineering-intern-summer-2027-st-louis-mo-us-bf9f0c
   company: Mastercard
   role: Data Engineering Intern, Summer 2027 – St. Louis, MO, US
@@ -9268,7 +8925,7 @@
   - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-d3f00d
+  possible_duplicate_of: null
 - id: american-express-data-engineer-intern-enterprise-technology-services-0216a2
   company: American Express
   role: Data Engineer Intern - Enterprise Technology Services
@@ -9286,7 +8943,7 @@
   - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-35cf33
+  possible_duplicate_of: null
 - id: american-express-data-engineer-intern-enterprise-technology-services-93902c
   company: American Express
   role: Data Engineer Intern - Enterprise Technology Services
@@ -9304,7 +8961,7 @@
   - github_tracker:zshah101
   date_added: '2026-09-02'
   last_verified: '2026-10-02'
-  possible_duplicate_of: american-express-data-engineer-intern-enterprise-technology-services-d61851
+  possible_duplicate_of: null
 - id: edison-international-software-data-engineering-intern-b1f3ac
   company: Edison International
   role: Software/Data Engineering Intern
@@ -9482,7 +9139,7 @@
   - github_tracker:simplifyjobs
   date_added: '2026-09-03'
   last_verified: '2026-10-02'
-  possible_duplicate_of: national-information-solutions-cooperative-data-engineer-intern-18613f
+  possible_duplicate_of: null
 - id: national-information-solutions-cooperative-data-engineer-intern-da18cb
   company: National Information Solutions Cooperative
   role: Data Engineer Intern
@@ -9497,24 +9154,6 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-03'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: national-information-solutions-cooperative-data-engineer-intern-18613f
-- id: coinbase-data-engineer-intern-7c934f
-  company: Coinbase
-  role: Data Engineer Intern
-  location: San Francisco, CA
-  link: https://boards.greenhouse.io/embed/job_app?token=8175459
-  date_posted: '2026-09-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:simplifyjobs
-  - github_tracker:suryaharikrishnan
-  - github_tracker:chieler
-  date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: gallup-data-engineering-intern-fcde9b
@@ -9621,12 +9260,13 @@
   degree:
   - BS
   - MS
-  status: closed
+  status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -9640,11 +9280,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: closed
+  status: open
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:zshah101
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -9899,6 +9540,9 @@
   status: open
   sources:
   - github_tracker:zshah101
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-09-22'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -9937,22 +9581,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-09-23'
   last_verified: '2026-10-01'
-  possible_duplicate_of: null
-- id: figma-data-engineer-intern-2027-4a0766
-  company: Figma
-  role: Data Engineer Intern (2027)
-  location: San Francisco, NY
-  link: https://zapply.jobs/l/d/greenhouse-figma-6178851004?s=gh-internships-2027
-  date_posted: '2026-09-23'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-23'
-  last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: west-bend-insurance-data-solution-engineer-intern-246c66
   company: West Bend Insurance
@@ -10004,23 +9632,8 @@
   sources:
   - github_tracker:zshah101
   - github_tracker:chieler
-  date_added: '2026-09-23'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: the-hartford-tech-data-program-summer-2027-data-engineer-intern-hartford-97d603
-  company: The Hartford
-  role: Tech & Data Program Summer 2027 – Data Engineer Intern (Hartford)
-  location: Hartford, CT
-  link: https://zapply.jobs/l/d/workday-thehartford-careers-external-R2626103?s=gh-internships-2027
-  date_posted: '2026-09-24'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
   - github_tracker:zapplyjobs
-  date_added: '2026-09-24'
+  date_added: '2026-09-23'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: enterprise-holdings-data-engineer-intern-it-f3a239
@@ -10133,38 +9746,6 @@
   date_added: '2026-09-05'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
-- id: amgen-undergrad-intern-data-engineer-technology-ai-data-summer-2027-d849b7
-  company: Amgen
-  role: Undergrad Intern – Data Engineer – Technology, AI & Data (Summer 2027)
-  location: Remote (US)
-  link: https://zapply.jobs/l/d/workday-amgen-careers-R-255708?s=gh-internships-2027
-  date_posted: '2026-09-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-24'
-  last_verified: '2026-09-25'
-  possible_duplicate_of: null
-- id: amgen-grad-intern-data-engineer-technology-ai-data-summer-2027-09c649
-  company: Amgen
-  role: Grad Intern – Data Engineer – Technology, AI & Data (Summer 2027)
-  location: Remote (US)
-  link: https://zapply.jobs/l/d/workday-amgen-careers-R-255742?s=gh-internships-2027
-  date_posted: '2026-09-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-24'
-  last_verified: '2026-09-25'
-  possible_duplicate_of: null
 - id: jane-street-data-engineer-b91e6b
   company: Jane Street
   role: Data Engineer
@@ -10233,22 +9814,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-09-28'
   last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: t-rowe-price-2027-technology-and-data-internship-0e6b32
-  company: T. Rowe Price
-  role: 2027 Technology and Data Internship
-  location: Baltimore, MD
-  link: https://zapply.jobs/l/d/workday-troweprice-troweprice-82677?s=gh-internships-2027
-  date_posted: '2026-09-28'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-28'
-  last_verified: '2026-09-29'
   possible_duplicate_of: null
 - id: tc-energy-measurement-services-intern-1fe7ce
   company: TC Energy
@@ -10357,6 +9922,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:zapplyjobs
   date_added: '2026-09-29'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -10429,22 +9995,6 @@
   - github_tracker:zapplyjobs
   date_added: '2026-09-29'
   last_verified: '2026-09-29'
-  possible_duplicate_of: null
-- id: robinhood-data-science-intern-summer-2027-bceb17
-  company: Robinhood
-  role: Data Science Intern (Summer 2027)
-  location: Menlo Park, CA
-  link: https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&gh_jid=8241738
-  date_posted: '2026-09-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zshah101
-  date_added: '2026-09-29'
-  last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: verizon-communications-business-intelligence-intern-fiber-engineering-operations-transformation-business-enablement-974f3d
   company: Verizon Communications
@@ -10642,22 +10192,6 @@
   date_added: '2026-09-30'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
-- id: q2-2027-summer-internship-data-science-fd75d7
-  company: Q2
-  role: 2027 Summer Internship - Data Science
-  location: Cary, NC
-  link: https://zapply.jobs/l/d/workday-q2ebanking-q2-REQ-12799?s=gh-internships-2027
-  date_posted: '2026-09-29'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-30'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
 - id: verizon-irving-v-teamer-for-a-day-verizon-data-science-summer-2027-internship-809fe0
   company: Verizon
   role: 'Irving V Teamer for a Day: Verizon Data Science Summer 2027 Internship'
@@ -10721,7 +10255,8 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  date_added: '2026-10-01'
+  - github_tracker:zshah101
+  date_added: '2026-09-29'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
 - id: southwest-airlines-digital-testing-optimization-intern-f57519
@@ -10757,6 +10292,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-10-01'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -10775,6 +10311,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-10-01'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -10811,6 +10348,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-10-01'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -10923,6 +10461,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-10-01'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -10978,6 +10517,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
+  - github_tracker:zapplyjobs
   date_added: '2026-10-01'
   last_verified: '2026-10-02'
   possible_duplicate_of: null
@@ -11014,69 +10554,6 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
-  date_added: '2026-10-01'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: cigna-product-analytics-summer-intern-start-date-may-24-2027-837c70
-  company: Cigna
-  role: 'Product Analytics Summer Intern - Start Date: May 24, 2027'
-  location: Morris Plains, NJ
-  link: https://zapply.jobs/l/d/workday-cigna-cignacareers-26010180?s=gh-internships-2027
-  date_posted: '2026-10-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-10-01'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: southwest-airlines-summer-2027-data-engineer-internship-e1a9ed
-  company: Southwest Airlines
-  role: Summer 2027 Data Engineer Internship
-  location: Dallas, TX
-  link: https://zapply.jobs/l/d/workday-swa-external-R-2026-73271?s=gh-internships-2027
-  date_posted: '2026-10-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-10-01'
-  last_verified: '2026-10-01'
-  possible_duplicate_of: null
-- id: southwest-airlines-safety-analytics-summer-2027-intern-d54dbb
-  company: Southwest Airlines
-  role: Safety Analytics Summer 2027 Intern
-  location: Dallas, TX
-  link: https://zapply.jobs/l/d/workday-swa-external-R-2026-73047?s=gh-internships-2027
-  date_posted: '2026-10-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-10-01'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: southwest-airlines-summer-2027-customer-experience-analytics-data-science-internship-476eec
-  company: Southwest Airlines
-  role: Summer 2027 Customer Experience & Analytics Data Science Internship
-  location: Dallas, TX
-  link: https://zapply.jobs/l/d/workday-swa-external-R-2026-73023?s=gh-internships-2027
-  date_posted: '2026-10-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
   - github_tracker:zapplyjobs
   date_added: '2026-10-01'
   last_verified: '2026-10-02'
@@ -11118,38 +10595,6 @@
   role: SCS - Advanced Analytics Intern - 2027
   location: Cleveland, OH
   link: https://zapply.jobs/l/d/workday-rb-frs-R-0000033622?s=gh-internships-2027
-  date_posted: '2026-10-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-10-01'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: freddie-mac-multifamily-capital-markets-analytics-engineering-intern-summer-2027-52f51e
-  company: Freddie Mac
-  role: Multifamily Capital Markets Analytics & Engineering Intern - Summer 2027
-  location: McLean, VA
-  link: https://zapply.jobs/l/d/workday-freddiemac-external-JR17690?s=gh-internships-2027
-  date_posted: '2026-10-01'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-10-01'
-  last_verified: '2026-10-02'
-  possible_duplicate_of: null
-- id: seatgeek-data-analyst-internship-03d45b
-  company: SeatGeek
-  role: Data Analyst - Internship
-  location: New York, NY
-  link: https://zapply.jobs/l/d/greenhouse-seatgeek-8247554?s=gh-internships-2027
   date_posted: '2026-10-01'
   date_estimated: false
   term: Summer 2027
