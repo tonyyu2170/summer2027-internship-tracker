@@ -1,20 +1,20 @@
 _last_fetch:
   drops:
     github_tracker:chieler:
-      category_drop: 380
+      category_drop: 359
     github_tracker:simplifyjobs:
-      category_drop: 398
-      closed_marker_untracked: 429
+      category_drop: 402
+      closed_marker_untracked: 456
     github_tracker:speedyapply:
-      category_drop: 24
+      category_drop: 25
     github_tracker:suryaharikrishnan:
-      category_drop: 371
-      closed_marker_untracked: 378
+      category_drop: 372
+      closed_marker_untracked: 402
     github_tracker:zapplyjobs:
-      category_drop: 240
+      category_drop: 237
     github_tracker:zshah101:
       category_drop: 19
-      closed_marker_untracked: 68
+      closed_marker_untracked: 67
 _last_program_check:
   closed: 26
   fetch_failed: 7
@@ -24,39 +24,36 @@ _last_program_check:
   unknown: 21
   upcoming: 1
 _last_run:
-  new: 106
-  closed: 39
-  ran_at: 2026-10-03 20:05
+  new: 123
+  closed: 88
+  ran_at: 2026-10-05 20:06
   drops:
     github_tracker:chieler:
-      category_drop: 380
-      missing_field: 1176
+      category_drop: 359
+      missing_field: 1115
     github_tracker:simplifyjobs:
-      closed_marker_untracked: 429
-      category_drop: 398
-      missing_field: 197
-      cross_category_duplicate: 2
+      closed_marker_untracked: 456
+      category_drop: 402
+      missing_field: 189
     github_tracker:speedyapply:
-      category_drop: 24
-      missing_field: 4
+      category_drop: 25
+      missing_field: 3
     github_tracker:suryaharikrishnan:
-      category_drop: 371
-      closed_marker_untracked: 378
-      missing_field: 181
-      cross_category_duplicate: 1
+      closed_marker_untracked: 402
+      category_drop: 372
+      missing_field: 171
     github_tracker:zapplyjobs:
-      category_drop: 240
-      missing_field: 165
+      category_drop: 237
+      missing_field: 179
     github_tracker:zshah101:
-      closed_marker_untracked: 68
+      closed_marker_untracked: 67
       category_drop: 19
-      missing_field: 107
-      cross_category_duplicate: 1
+      missing_field: 116
 chieler:
   path: README.md
-  row_count: 3062
-  scraped_at: '2026-10-03'
-  sha: fd401c36c663e223d5b698657811dc2afc66939e
+  row_count: 2901
+  scraped_at: '2026-10-05'
+  sha: d50598fc464ad0f363668511b34bf869f7cea3ad
 company_sources:
   company:abb:
     last_success: '2026-09-02'
@@ -589,9 +586,9 @@ northwesternfintech:
   sha: e893de31b7cda543bb63f8b45c8f36766e4c9861
 simplifyjobs:
   path: .github/scripts/listings.json
-  row_count: 3426
-  scraped_at: '2026-10-03'
-  sha: c3f723381cb76b3cf35b06c4ac781d0be87a286d
+  row_count: 3520
+  scraped_at: '2026-10-05'
+  sha: 89a124fbb06c33639d32a4ae66c9947a3ef71ec2
 sndsh404:
   path: README.md
   row_count: 112
@@ -599,14 +596,14 @@ sndsh404:
   sha: f2d77c85c3f847c0b9ca221e21a8fbd1c10e7599
 speedyapply:
   path: README.md
-  row_count: 707
-  scraped_at: '2026-10-03'
-  sha: 5184c5f76c097f7e8767f89e45c932ac2af4a1f5
+  row_count: 708
+  scraped_at: '2026-10-05'
+  sha: bb386710725c9f62cf271bbba2cedafaa2b0f14f
 suryaharikrishnan:
   path: data/listings.json
-  row_count: 3023
-  scraped_at: '2026-10-03'
-  sha: 2c8db8b990a4db63e0d5532f0ce2daa6716987bf
+  row_count: 3076
+  scraped_at: '2026-10-05'
+  sha: 3ca9436ccf5989173ba4318d058d5ba063a0b2bf
 vanshb03:
   path: .github/scripts/listings.json
   row_count: 265
@@ -614,11 +611,11 @@ vanshb03:
   sha: 609cac4e49c775f77cd419c76026251a4b62163b
 zapplyjobs:
   path: README.md
-  row_count: 544
-  scraped_at: '2026-10-03'
-  sha: 35606dbaad4856c125f2c01e6c779fdb5f31ada2
+  row_count: 543
+  scraped_at: '2026-10-05'
+  sha: 398bf850b0f51baef4ac36be1a41f53540ee917e
 zshah101:
   path: data/jobs.json
-  row_count: 899
-  scraped_at: '2026-10-03'
-  sha: f2569f84d789568a0c3904bcb1ef993dde322d51
+  row_count: 912
+  scraped_at: '2026-10-05'
+  sha: bfadf4b5149b98ecf2e0fe9d98856d3e016c23a5
