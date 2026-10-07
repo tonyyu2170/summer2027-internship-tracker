@@ -15,7 +15,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:speedyapply
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-software-engineering-intern-ms-phd-sys-intel-ml-770747
   company: Waymo
@@ -35,7 +35,7 @@
   - github_tracker:chieler
   - github_tracker:speedyapply
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: rockwell-automation-ai-software-engineer-intern-b32387
   company: Rockwell Automation
@@ -54,12 +54,11 @@
   - github_tracker:chieler
   - github_tracker:speedyapply
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-student-researcher-multimodal-interaction-world-model-seed-67c396
   company: ByteDance
-  role: Student Researcher (Multimodal Interaction and World Model - Seed) - 2027
-    Start
+  role: Student Researcher (Multimodal Interaction and World Model - Seed) - 2027 Start
   location: San Jose, CA
   link: https://joinbytedance.com/search/7623548747208739077
   date_posted: '2026-06-28'
@@ -104,7 +103,7 @@
   - github_tracker:sndsh404
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-tiktok-recommendation-nextgen-llm-phd-5eb06c
   company: TikTok
@@ -122,12 +121,11 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-business-integrity-phd-9bfbc8
   company: TikTok
-  role: Applied Scientist Intern - Business Integrity - Global Frontier Tech Recruitment
-    Program - 2027 Start
+  role: Applied Scientist Intern - Business Integrity - Global Frontier Tech Recruitment Program - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7631063087262419205
   date_posted: '2026-04-21'
@@ -143,8 +141,7 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-monetization-genai-phd-71fde1
   company: TikTok
-  role: Applied Scientist Intern - Monetization GenAI - Global Frontier Tech Recruitment
-    Program - 2027 Start
+  role: Applied Scientist Intern - Monetization GenAI - Global Frontier Tech Recruitment Program - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7631062649025857797
   date_posted: '2026-04-21'
@@ -160,8 +157,7 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-monetization-technology-phd-0f1cb8
   company: TikTok
-  role: Applied Scientist Intern - Monetization Technology - Global Frontier Tech
-    Recruitment Program - 2027 Start
+  role: Applied Scientist Intern - Monetization Technology - Global Frontier Tech Recruitment Program - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7629248119245261061
   date_posted: '2026-04-16'
@@ -177,8 +173,8 @@
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-e-commerce-recommendation-llm-phd-98002d
   company: TikTok
-  role: Research Scientist Intern– E-commerce Recommendation(LLM Applications) - Global
-    Frontier Tech Recruitment Program - 2027 Start
+  role: Research Scientist Intern– E-commerce Recommendation(LLM Applications) - Global Frontier Tech Recruitment Program
+    - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7629187524074342709
   date_posted: '2026-04-16'
@@ -223,7 +219,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
   date_estimated: false
 - id: gritt-robotics-ml-cloud-infrastructure-engineer-intern-25ffc7
@@ -242,7 +238,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: intel-ai-software-engineering-intern-922c6b
   company: Intel
@@ -365,8 +361,9 @@
   sources:
   - github_tracker
   - github_tracker:zapplyjobs
+  - github_tracker:chieler
   date_added: '2026-07-23'
-  last_verified: '2026-07-25'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
   date_estimated: true
 - id: meta-research-scientist-intern-monetization-computer-vision-phd-41a185
@@ -387,8 +384,7 @@
   possible_duplicate_of: null
 - id: meta-research-scientist-intern-state-estimation-for-dexterous-manipulation-phd-54dceb
   company: Meta
-  role: Research Scientist Intern - State Estimation for Dexterous Manipulation -
-    PhD
+  role: Research Scientist Intern - State Estimation for Dexterous Manipulation - PhD
   location: Redmond, WA
   link: https://www.metacareers.com/jobs/2774289902955470
   date_posted: '2026-06-13'
@@ -418,8 +414,8 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-trust-and-safety-multimodal-foundation-model-global-frontier-tech-recruitment-program-2027-start-phd-d31b44
   company: TikTok
-  role: Applied Scientist Intern - Trust and Safety - Multimodal Foundation Model
-    - Global Frontier Tech Recruitment Program - 2027 Start - PhD
+  role: Applied Scientist Intern - Trust and Safety - Multimodal Foundation Model - Global Frontier Tech Recruitment Program
+    - 2027 Start - PhD
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7633670871815670069
   date_posted: '2026-04-28'
@@ -432,12 +428,12 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-tiktok-search-generative-ai-llm-global-frontier-tech-recruitment-program-2027-start-phd-5b77be
   company: TikTok
-  role: Research Scientist Intern – TikTok Search / Generative AI (LLM) - Global Frontier
-    Tech Recruitment Program - 2027 Start
+  role: Research Scientist Intern – TikTok Search / Generative AI (LLM) - Global Frontier Tech Recruitment Program - 2027
+    Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7629250876813642037
   date_posted: '2026-04-16'
@@ -450,12 +446,12 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-e-commerce-recommendation-llm-applications-global-frontier-tech-recruitment-program-2027-start-phd-1be6cd
   company: TikTok
-  role: Research Scientist Intern- E-commerce Recommendation- LLM Applications - Global
-    Frontier Tech Recruitment Program - 2027 Start - PhD
+  role: Research Scientist Intern- E-commerce Recommendation- LLM Applications - Global Frontier Tech Recruitment Program
+    - 2027 Start - PhD
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7629188397976586501
   date_posted: '2026-04-16'
@@ -1238,7 +1234,7 @@
   - github_tracker:vanshb03
   - github_tracker:simplifyjobs
   date_added: '2026-07-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: terranox-ai-summer-intern-ai-ml-engineering-a6eab1
   company: Terranox AI
@@ -1395,8 +1391,7 @@
   date_estimated: true
 - id: bytedance-applied-research-intern-ai-safety-s-3a3777
   company: ByteDance
-  role: Applied Research Intern- AI Safety Security -Global Tech Research Program-2027
-    Start
+  role: Applied Research Intern- AI Safety Security -Global Tech Research Program-2027 Start
   location: San Jose, CA
   link: https://joinbytedance.com/search/7645070235035044101
   date_posted: '2026-07-23'
@@ -1431,8 +1426,8 @@
   possible_duplicate_of: null
 - id: tiktok-applied-scientist-intern-trust-and-b4cc95
   company: TikTok
-  role: Applied Scientist Intern - Trust and Safety (Multimodal Foundation Model)
-    - Global Frontier Tech Recruitment Program - 2027 Start
+  role: Applied Scientist Intern - Trust and Safety (Multimodal Foundation Model) - Global Frontier Tech Recruitment Program
+    - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/position/7633668456744503557
   date_posted: '2026-04-28'
@@ -1446,7 +1441,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
   date_estimated: false
 - id: bosch-group-research-intern-world-action-model-cb0362
@@ -1732,7 +1727,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-07-24'
-  last_verified: '2026-09-29'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tenstorrent-software-engineering-intern-power-modeling-ai-tools-53620e
   company: Tenstorrent
@@ -1794,7 +1789,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-07-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: campbell-soup-company-agentic-ai-engineer-co-op-4bbe1e
   company: Campbell Soup Company
@@ -1862,12 +1857,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-trust-and-safety-380f75
   company: TikTok
-  role: Research Scientist Intern (Trust and Safety - CV/NLP/Multimodal LLM) - 2027
-    Start
+  role: Research Scientist Intern (Trust and Safety - CV/NLP/Multimodal LLM) - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7662672903447988485
   date_posted: '2026-08-03'
@@ -1881,12 +1875,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-foundations-intelligence-service-32184c
   company: TikTok
-  role: Research Scientist Intern (Data-TnS-Algo-Foundations & Intelligence Service)
-    - 2027 Start
+  role: Research Scientist Intern (Data-TnS-Algo-Foundations & Intelligence Service) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662677746436524293
   date_posted: '2026-08-03'
@@ -1901,12 +1894,11 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-basic-ranking-25be14
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027
-    Start
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667339583362025781
   date_posted: '2026-08-03'
@@ -1920,12 +1912,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-recommendation-2bb674
   company: TikTok
-  role: (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation) -
-    2027 Summer
+  role: (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7662653087863081221
   date_posted: '2026-08-03'
@@ -1939,7 +1930,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-scientist-intern-recommendation-87ed67
   company: TikTok
@@ -1957,12 +1948,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-794421
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027
-    Summer
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Basic Ranking) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667338938890930437
   date_posted: '2026-08-03'
@@ -1976,12 +1966,11 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-search-search-quality-82ee2d
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - 2027
-    Start
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7665475888805611781
   date_posted: '2026-08-03'
@@ -1995,7 +1984,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-trust-and-safety-3c64f5
   company: TikTok
@@ -2013,12 +2002,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-search-quality-4a20a3
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - Summer
-    2027
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Search Quality) - Summer 2027
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7665475460339665157
   date_posted: '2026-08-03'
@@ -2033,12 +2021,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-neural-graphics-and-world-models-3565d3
   company: TikTok
-  role: Research Scientist Intern (TikTok-Neural Graphics and World Models) - 2027
-    Start
+  role: Research Scientist Intern (TikTok-Neural Graphics and World Models) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667935738840090933
   date_posted: '2026-08-03'
@@ -2053,12 +2040,11 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-8abe31
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027
-    Summer
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667350291952765237
   date_posted: '2026-08-03'
@@ -2071,12 +2057,11 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-search-visual-search-bf8f1b
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027
-    Start
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Visual Search) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667349591727278341
   date_posted: '2026-08-03'
@@ -2090,12 +2075,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-scientist-intern-content-ecology-llm-application-bf1ae0
   company: TikTok
-  role: Machine Learning Scientist Intern (TikTok - Content Ecology - LLM application)
-    - 2027 Start
+  role: Machine Learning Scientist Intern (TikTok - Content Ecology - LLM application) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667933770625599749
   date_posted: '2026-08-03'
@@ -2109,12 +2093,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-d447df
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation) - 2027
-    Summer
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7667346576033777925
   date_posted: '2026-08-03'
@@ -2127,7 +2110,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-artificial-intelligence-engineer-intern-client-architecture-919674
   company: TikTok
@@ -2146,7 +2129,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-scientist-intern-df486d
   company: TikTok
@@ -2164,7 +2147,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-recommendation-2daace
   company: TikTok
@@ -2183,12 +2166,11 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-generative-ai-researcher-intern-intelligent-creation-vision-and-graphics-92b290
   company: TikTok
-  role: Generative AI Researcher Intern (Intelligent Creation-Vision and Graphics)
-    - 2027 Start
+  role: Generative AI Researcher Intern (Intelligent Creation-Vision and Graphics) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668183035989281029
   date_posted: '2026-08-03'
@@ -2202,7 +2184,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: jp-morgan-chase-data-ai-intern-analyst-e60f35
   company: JP Morgan Chase
@@ -2222,7 +2204,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: jp-morgan-chase-data-internship-data-ai-program-96ad08
   company: JP Morgan Chase
@@ -2242,7 +2224,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-multi-modal-agentic-databases-14220d
   company: ByteDance
@@ -2262,7 +2244,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-ai-perception-intern-pico-2565c9
   company: ByteDance
@@ -2281,12 +2263,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-monetization-technology-business-integrity-04804f
   company: TikTok
-  role: Research Scientist Intern (Monetization Technology - Business Integrity) -
-    2027 Start
+  role: Research Scientist Intern (Monetization Technology - Business Integrity) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668204438271969589
   date_posted: '2026-08-03'
@@ -2301,12 +2282,11 @@
   - chieler
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-engineer-intern-monetization-technology-business-integrity-4998e4
   company: TikTok
-  role: Research Engineer Intern (Monetization Technology - Business Integrity) -
-    2027 Summer
+  role: Research Engineer Intern (Monetization Technology - Business Integrity) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668202602270951733
   date_posted: '2026-08-03'
@@ -2319,12 +2299,11 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-scientist-intern-monetization-technology-business-integrity-b35c69
   company: TikTok
-  role: Research Scientist Intern (Monetization Technology - Business Integrity) -
-    2027 Summer
+  role: Research Scientist Intern (Monetization Technology - Business Integrity) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668202600147552517
   date_posted: '2026-08-03'
@@ -2337,7 +2316,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: stepstone-group-ai-intern-a2985b
   company: StepStone Group
@@ -2355,7 +2334,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: uline-business-intelligence-developer-intern-ffb7c9
   company: Uline
@@ -2376,7 +2355,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: cno-financial-group-artificial-intelligence-information-technology-intern-ai-76fcd0
   company: CNO Financial Group
@@ -2395,12 +2374,11 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-5c7e5c
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Local Service) - 2027
-    Summer
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Local Service) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7668379675467761925
   date_posted: '2026-08-04'
@@ -2413,7 +2391,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-commercial-ai-crm-and-transaction-93e9cc
   company: TikTok
@@ -2431,7 +2409,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-ads-signal-measurement-6df6f2
   company: TikTok
@@ -2449,12 +2427,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-performance-monetization-ef3a91
   company: TikTok
-  role: (General Hire) Machine Learning Engineer Intern (Performance Monetization)
-    - 2027 Summer
+  role: (General Hire) Machine Learning Engineer Intern (Performance Monetization) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669693163422845237
   date_posted: '2026-08-04'
@@ -2468,7 +2445,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-lead-ads-608557
   company: TikTok
@@ -2486,7 +2463,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-commerce-ads-summer-2027-e37b1d
   company: TikTok
@@ -2506,7 +2483,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-search-ads-b3b303
   company: TikTok
@@ -2524,7 +2501,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-brand-ads-656a4e
   company: TikTok
@@ -2542,12 +2519,11 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-performance-monetization-f89997
   company: TikTok
-  role: (General Hire) Machine Learning Engineer Intern (Performance Monetization)
-    - 2027 Start
+  role: (General Hire) Machine Learning Engineer Intern (Performance Monetization) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7669693205558561077
   date_posted: '2026-08-04'
@@ -2559,7 +2535,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-app-ads-and-gaming-fd0565
   company: TikTok
@@ -2577,12 +2553,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-search-recommendation-global-e-commerce-b2cb49
   company: TikTok
-  role: Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation-Global
-    E-Commerce) - 2027 Summer
+  role: Machine Learning Engineer Intern (TikTok-Data-Search-Recommendation-Global E-Commerce) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7668383643375257909
   date_posted: '2026-08-04'
@@ -2597,12 +2572,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-research-engineer-intern-agentic-systems-ai-infrastructure-generalized-architecture-518bf1
   company: TikTok
-  role: Research Engineer Intern, Agentic Systems & AI Infrastructure (TikTok-Generalized
-    Arch) - 2027 Summer
+  role: Research Engineer Intern, Agentic Systems & AI Infrastructure (TikTok-Generalized Arch) - 2027 Summer
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7667934792727906565
   date_posted: '2026-08-03'
@@ -2617,7 +2591,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-data-global-e-commerce-search-03670e
   company: TikTok
@@ -2635,7 +2609,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-search-98bd04
   company: TikTok
@@ -2654,7 +2628,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-llm-post-training-engineer-intern-research-product-c41e07
   company: TikTok
@@ -2672,7 +2646,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-multimedia-streaming-16300b
   company: ByteDance
@@ -2692,12 +2666,11 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-research-scientist-intern-511a28
   company: ByteDance
-  role: Research Scientist Intern (Video Quality Analysis & Coding Strategy) - 2027
-    Start
+  role: Research Scientist Intern (Video Quality Analysis & Coding Strategy) - 2027 Start
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670375041041320245/detail
   date_posted: '2026-08-06'
@@ -2709,12 +2682,11 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-applied-machine-learning-production-engineer-intern-aml-production-engineer-26bd7b
   company: ByteDance
-  role: Applied Machine Learning Production Engineer Intern (AML-Production Engineer)
-    - 2027 Summer
+  role: Applied Machine Learning Production Engineer Intern (AML-Production Engineer) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7670009669494704437/detail
   date_posted: '2026-08-06'
@@ -2731,12 +2703,11 @@
   - github_tracker:vanshb03
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-machine-learning-research-scientist-intern-seed-ai-for-science-atomistic-ai-221962
   company: ByteDance
-  role: Machine Learning Research Scientist Intern (Seed AI for Science - Atomistic
-    AI) - 2027 Start
+  role: Machine Learning Research Scientist Intern (Seed AI for Science - Atomistic AI) - 2027 Start
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7670855041951795509/detail
   date_posted: '2026-08-07'
@@ -2751,7 +2722,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: general-dynamics-information-technology-artificial-intelligence-machine-learning-intern-f6ddc2
   company: General Dynamics Information Technology
@@ -2770,7 +2741,7 @@
   - github_tracker:zshah101
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: the-nuclear-company-ai-ml-engineer-intern-4ff0d8
   company: The Nuclear Company
@@ -2790,7 +2761,7 @@
   - github_tracker:chieler
   - company:the-nuclear-company
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: royal-bank-of-canada-capital-markets-quant-summer-associate-quantitative-technology-services-ef6a3f
   company: Royal Bank of Canada
@@ -2809,12 +2780,11 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-ai-ml-llm-intern-opportunities-for-university-students-redmond-3f132b
   company: Microsoft
-  role: 'Software Engineer: AI/ML & LLM Intern Opportunities for University Students
-    - Redmond'
+  role: 'Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond'
   location: Redmond, WA
   link: https://apply.careers.microsoft.com/careers/job/1970393556922929
   date_posted: '2026-08-04'
@@ -2829,7 +2799,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-ml-infra-2027-start-phd-c63f8f
   company: TikTok
@@ -2846,7 +2816,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-08-08'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: intel-ai-software-engineer-graduate-intern-9aa68f
   company: Intel
@@ -3158,8 +3128,7 @@
   possible_duplicate_of: null
 - id: bytedance-ai-infrastructure-engineer-intern-co-42cd1f
   company: ByteDance
-  role: AI Infrastructure Engineer Intern (Compute Efficiency & Scheduling) - 2027
-    Summer
+  role: AI Infrastructure Engineer Intern (Compute Efficiency & Scheduling) - 2027 Summer
   location: Seattle, WA
   link: https://joinbytedance.com/search/7668802157205965109
   date_posted: '2026-08-09'
@@ -3191,8 +3160,7 @@
   possible_duplicate_of: null
 - id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-116983
   company: ByteDance
-  role: Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern
-    (AML-Ark-US) - 2027 Summer
+  role: Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern (AML-Ark-US) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7671105026009925893/detail
   date_posted: '2026-08-10'
@@ -3207,7 +3175,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-10'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-machine-learning-engineer-intern-240982
   company: ByteDance
@@ -3226,12 +3194,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-10'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-agent-evaluation-evolution-machine-learning-engineer-intern-applied-machine-learning-ark-24d044
   company: ByteDance
-  role: Agent Evaluation & Evolution Machine Learning Engineer Intern (AML-Ark-US)
-    - 2027 Summer
+  role: Agent Evaluation & Evolution Machine Learning Engineer Intern (AML-Ark-US) - 2027 Summer
   location: San Jose, CA
   link: https://jobs.bytedance.com/en/position/7671096345243535669/detail
   date_posted: '2026-08-10'
@@ -3247,7 +3214,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-10'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: altamira-technologies-research-and-development-intern-5fb2b7
   company: Altamira Technologies
@@ -3265,7 +3232,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: hiebing-ai-agent-developer-intern-08803a
   company: Hiebing
@@ -3300,7 +3267,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-10'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: quantbot-technologies-machine-learning-research-engineer-intern-2d85b3
   company: Quantbot Technologies
@@ -3318,12 +3285,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-agent-evaluation-evolution-machine-learning-engineer-intern-applied-machine-learning-ark-b5bc69
   company: ByteDance
-  role: Agent Evaluation & Evolution Machine Learning Engineer Intern (AML-Ark-US)
-    - 2027 Summer
+  role: Agent Evaluation & Evolution Machine Learning Engineer Intern (AML-Ark-US) - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672391300141877557/detail
   date_posted: '2026-08-11'
@@ -3338,7 +3304,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-machine-learning-engineer-intern-aml-engine-orchestration-7daea9
   company: ByteDance
@@ -3358,12 +3324,11 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-c4e170
   company: ByteDance
-  role: Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern
-    (AML-Ark-US) - 2027 Summer
+  role: Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern (AML-Ark-US) - 2027 Summer
   location: Seattle, WA
   link: https://jobs.bytedance.com/en/position/7672392998231050549/detail
   date_posted: '2026-08-11'
@@ -3378,7 +3343,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-08-12'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: booz-allen-ai-ran-telecommunications-engineer-intern-e63658
   company: Booz Allen
@@ -3396,12 +3361,11 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-recommendation-foundation-89e960
   company: TikTok
-  role: Machine Learning Engineer Intern (E-Commerce Recommendation Foundation) -
-    2027 Start
+  role: Machine Learning Engineer Intern (E-Commerce Recommendation Foundation) - 2027 Start
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7672883129493948677
   date_posted: '2026-08-12'
@@ -3415,7 +3379,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-recommendation-mall-53d08b
   company: TikTok
@@ -3433,12 +3397,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-recommendation-foundation-372771
   company: TikTok
-  role: Machine Learning Engineer Intern (E-Commerce Recommendation Foundation) -
-    2027 Start
+  role: Machine Learning Engineer Intern (E-Commerce Recommendation Foundation) - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7672881840860940597
   date_posted: '2026-08-12'
@@ -3451,7 +3414,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-12'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tmeic-corporation-americas-applications-intern-ai-and-machine-learning-2950f7
   company: TMEIC Corporation Americas
@@ -3469,7 +3432,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:chieler
   date_added: '2026-08-12'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: institute-for-foundation-models-ai-research-internship-llm-5825ef
   company: Institute for Foundation Models
@@ -3519,7 +3482,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-08-15'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: mercedes-benz-r-d-north-america-ai-program-manager-intern-4d7648
   company: Mercedes-Benz R&D North America
@@ -3552,7 +3515,7 @@
   - company:advanced-space
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: aerovironment-summer-2027-machine-learning-intern-a9a6eb
   company: AeroVironment
@@ -3572,7 +3535,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bluecross-blueshield-of-nebraska-is-intern-ai-automation-managed-services-summer-2027-5fbee2
   company: BlueCross BlueShield of Nebraska
@@ -3589,7 +3552,7 @@
   - company:bluecross-blueshield-of-nebraska
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: booz-allen-university-applied-ai-intern-e44de5
   company: Booz Allen
@@ -3608,7 +3571,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: dev-technology-group-ai-agentic-solution-engineer-intern-summer-2027-5624c7
   company: Dev Technology Group
@@ -3629,7 +3592,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: dev-technology-group-ai-ml-intern-summer-2027-6501d1
   company: Dev Technology Group
@@ -3650,7 +3613,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: dev-technology-group-microsoft-power-platform-ai-intern-summer-2027-da386f
   company: Dev Technology Group
@@ -3671,7 +3634,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: first-national-bank-summer-2027-systems-analyst-intern-5bd54f
   company: First National Bank
@@ -3690,7 +3653,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: first-national-bank-summer-2027-ai-ml-modeler-intern-a39bdc
   company: First National Bank
@@ -3710,7 +3673,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: ge-aerospace-applied-ai-engineer-intern-summer-2027-may-june-start-ba10c8
   company: GE Aerospace
@@ -3730,7 +3693,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: persona-ai-machine-learning-internship-manipulation-e68cc6
   company: Persona AI
@@ -3771,7 +3734,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tarrant-regional-water-district-summer-2027-energy-intern-t047-011775
   company: Tarrant Regional Water District
@@ -3790,14 +3753,12 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: td-bank-2027-summer-internship-graduate-leadership-program-retail-banking-strategy-ai-bd1599
   company: TD Bank
-  role: 2027 Summer Internship Graduate Leadership Program- Retail Banking Strategy
-    & AI
-  location: New York, NY / 5201 North Lois Avenue, FL / Charlotte, NC / Mt Laurel
-    - 6000 Atrium Way, NJ
+  role: 2027 Summer Internship Graduate Leadership Program- Retail Banking Strategy & AI
+  location: New York, NY / 5201 North Lois Avenue, FL / Charlotte, NC / Mt Laurel - 6000 Atrium Way, NJ
   link: https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/XMLNAME-2027-Summer-Graduate-Leadership-Internship-Program---Retail-Distribution_R_1508518-1
   date_posted: '2026-09-01'
   date_estimated: false
@@ -3828,7 +3789,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-7ee728
   company: American Express
@@ -3848,7 +3809,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-e86ee5
   company: American Express
@@ -3867,7 +3828,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-28f75a
   company: American Express
@@ -3887,7 +3848,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-991ef2
   company: American Express
@@ -3906,7 +3867,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-717447
   company: American Express
@@ -3925,7 +3886,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-machine-learning-engineer-intern-e-commerce-risk-control-phd-1f4b70
   company: ByteDance
@@ -3943,7 +3904,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-machine-learning-engineer-intern-e-commerce-risk-control-phd-2863bc
   company: ByteDance
@@ -3961,7 +3922,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-ph-d-research-autonomous-vehicles-intern-1b26b6
   company: NVIDIA
@@ -3979,7 +3940,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-generative-ai-ph-d-research-intern-c23ddc
   company: NVIDIA
@@ -3997,7 +3958,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-large-language-models-intern-research-9bd7b3
   company: NVIDIA
@@ -4015,7 +3976,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-ph-d-research-graphics-and-simulation-intern-graphics-and-simulation-39f29e
   company: NVIDIA
@@ -4033,7 +3994,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-deep-learning-computer-architecture-intern-df45c2
   company: NVIDIA
@@ -4053,7 +4014,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-computer-vision-and-deep-learning-intern-778318
   company: NVIDIA
@@ -4071,7 +4032,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-mlops-intern-global-site-reliability-engineering-341fc3
   company: TikTok
@@ -4089,12 +4050,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e911cd
   company: TikTok
-  role: Machine Learning Engineer Intern (E-Commerce Supply Chain & Logistics-LLM/Agent)
-    - 2027 Start
+  role: Machine Learning Engineer Intern (E-Commerce Supply Chain & Logistics-LLM/Agent) - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7675847556668295429
   date_posted: '2026-08-20'
@@ -4107,12 +4067,11 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-supply-chain-logistics-llm-agent-phd-af24f2
   company: TikTok
-  role: Machine Learning Engineer Intern (E-Commerce Supply Chain & Logistics-LLM/Agent)
-    - 2027 Start
+  role: Machine Learning Engineer Intern (E-Commerce Supply Chain & Logistics-LLM/Agent) - 2027 Start
   location: Seattle, WA
   link: https://lifeattiktok.com/search/7675845333947812149
   date_posted: '2026-08-20'
@@ -4126,7 +4085,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-machine-learning-intern-co-op-multiple-teams-c4434b
   company: AMD
@@ -4144,7 +4103,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-machine-learning-intern-co-op-machine-learning-artificial-intelligence-8ecdb5
   company: AMD
@@ -4162,7 +4121,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-machine-learning-intern-co-op-machine-learning-artificial-intelligence-1bf304
   company: AMD
@@ -4178,7 +4137,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-machine-learning-intern-co-op-artificial-intelligence-a80c34
   company: AMD
@@ -4196,7 +4155,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: springs-window-fashions-ai-analyst-intern-consumer-business-unit-1eb5e7
   company: Springs Window Fashions
@@ -4214,7 +4173,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: google-research-intern-phd-fbf609
   company: Google
@@ -4233,7 +4192,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: procter-gamble-data-ai-engineering-intern-bd9ee7
   company: Procter & Gamble
@@ -4251,7 +4210,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: dtcc-data-solutions-intern-internship-program-8ffdce
   company: DTCC
@@ -4269,7 +4228,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-ai-infrastructure-engineer-intern-recommendation-llm-097b1b
   company: TikTok
@@ -4288,7 +4247,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: verisk-ai-intern-summer-internship-program-7f09e3
   company: Verisk
@@ -4308,7 +4267,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: manulife-financial-ai-intern-ai-322150
   company: Manulife Financial
@@ -4327,7 +4286,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: grant-thornton-ai-data-technology-intern-summer-2027-0665f8
   company: Grant Thornton
@@ -4346,7 +4305,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: finastra-ai-engineer-intern-summer-2027-98ff95
   company: Finastra
@@ -4365,7 +4324,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-knowledge-graph-f6016b
   company: TikTok
@@ -4383,7 +4342,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-knowledge-graph-b5e259
   company: TikTok
@@ -4400,7 +4359,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: grant-thornton-ai-data-technology-intern-summer-2027-5e1e4a
   company: Grant Thornton
@@ -4419,7 +4378,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: grant-thornton-ai-data-technology-intern-summer-2027-52e52b
   company: Grant Thornton
@@ -4437,7 +4396,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: grant-thornton-ai-data-technology-intern-summer-2027-9ba22f
   company: Grant Thornton
@@ -4456,7 +4415,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bosch-home-comfort-ai-application-intern-93c6e1
   company: Bosch Home Comfort
@@ -4469,13 +4428,13 @@
   degree:
   - BS
   - MS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-research-intern-ai-compute-a6ba66
   company: ByteDance
@@ -4494,7 +4453,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-research-intern-ai-compute-860466
   company: ByteDance
@@ -4512,7 +4471,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: adobe-machine-learning-engineer-intern-a813a3
   company: Adobe
@@ -4533,7 +4492,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: first-national-bank-ai-and-innovation-intern-4a2262
   company: First National Bank
@@ -4552,7 +4511,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: clarios-it-digital-ai-intern-summer-2027-589953
   company: Clarios
@@ -4572,7 +4531,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: johns-hopkins-applied-physics-laboratory-2027-internship-weapon-control-bf6bcc
   company: Johns Hopkins Applied Physics Laboratory
@@ -4591,7 +4550,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: johns-hopkins-applied-physics-laboratory-modeling-simulation-analysis-intern-engagement-optimization-group-9731eb
   company: Johns Hopkins Applied Physics Laboratory
@@ -4610,7 +4569,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: aig-summer-intern-data-office-b0b536
   company: AIG
@@ -4629,12 +4588,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: rtx-technical-publications-technical-developer-intern-artificial-intelligence-machine-learning-dc6209
   company: RTX
-  role: Technical Publications Technical Developer Intern - Artificial Intelligence/Machine
-    Learning
+  role: Technical Publications Technical Developer Intern - Artificial Intelligence/Machine Learning
   location: East Hartford, CT
   link: https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Technical-Publications-AI-ML-Technical-Developer-Intern--Summer-2027---Onsite-_01866027
   date_posted: '2026-09-01'
@@ -4649,7 +4607,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: geico-artificial-intelligence-applied-research-machine-learning-intern-phd-3e822c
   company: Geico
@@ -4666,7 +4624,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: corning-digital-it-intern-analyst-machine-learning-596547
   company: Corning
@@ -4685,7 +4643,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: corning-vision-system-intern-summer-2027-320832
   company: Corning
@@ -4705,7 +4663,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: southern-star-central-gas-pipeline-gis-analyst-intern-de3f0d
   company: Southern Star Central Gas Pipeline
@@ -4724,7 +4682,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: corning-artificial-intelligence-and-machine-learning-intern-592ebf
   company: Corning
@@ -4743,7 +4701,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: twg-global-ai-engineer-intern-summer-2027-c01ac8
   company: TWG Global
@@ -4764,7 +4722,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: compeer-financial-new-markets-intern-8343a6
   company: Compeer Financial
@@ -4782,7 +4740,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: textron-aftermarket-analyst-intern-42c29f
   company: Textron
@@ -4800,7 +4758,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: medline-rpa-agentic-ai-software-technologies-intern-summer-2027-f8a209
   company: Medline
@@ -4819,7 +4777,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: booz-allen-ai-software-developer-intern-fd6905
   company: Booz Allen
@@ -4838,7 +4796,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: simis-aerospace-aviation-artificial-intelligence-developer-intern-39ad68
   company: SimIS
@@ -4906,7 +4864,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: american-express-ai-engineer-intern-enterprise-technology-services-b4356a
   company: American Express
@@ -4926,7 +4884,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: millennium-applied-ai-engineer-intern-ef89eb
   company: Millennium
@@ -4977,12 +4935,11 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nike-nike-inc-artificial-intelligence-d-55e88b
   company: Nike
-  role: NIKE, Inc. Artificial Intelligence, Data, & Machine Learning Engineering Undergraduate
-    Internship
+  role: NIKE, Inc. Artificial Intelligence, Data, & Machine Learning Engineering Undergraduate Internship
   location: Beaverton, OR
   link: https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Artificial-Intelligence--Data----Machine-Learning-Engineering-Undergraduate-Internship_R-91110
   date_posted: '2026-09-01'
@@ -4995,7 +4952,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: workiva-summer-2027-intern-machine-learning-b5ac7b
   company: Workiva
@@ -5014,7 +4971,7 @@
   - company:workiva
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: audax-group-ai-engineer-co-op-284b98
   company: Audax Group
@@ -5097,7 +5054,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: iterative-health-research-intern-cedar-park-tx-dfb999
   company: Iterative Health
@@ -5105,22 +5062,6 @@
   location: Cedar Park, TX
   link: https://job-boards.greenhouse.io/iterativehealth/jobs/4705744006
   date_posted: '2026-08-17'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-09-02'
-  last_verified: '2026-09-07'
-  possible_duplicate_of: null
-- id: bytedance-ai-creator-operations-intern-capcut-df9009
-  company: ByteDance
-  role: AI Creator Operations Intern (CapCut) - 2027 Start
-  location: Los Angeles, CA
-  link: https://joinbytedance.com/search/7673715653065525509
-  date_posted: '2026-09-02'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -5166,10 +5107,9 @@
 - id: aerovironment-summer-2027-gnc-autonomy-intern-964339
   company: AeroVironment
   role: Summer 2027 GNC / Autonomy Intern
-  location: Simi Valley, CA / Huntsville, AL / Pottstown, PA / Herndon, VA / Moorpark,
-    CA / San Luis Obispo, CA / Annapolis Junction, MD / Germantown, MD / Albuquerque,
-    NM / Minneapolis, MN / Arlington, VA / Melbourne, FL / Petaluma, CA / San Diego,
-    CA
+  location: Simi Valley, CA / Huntsville, AL / Pottstown, PA / Herndon, VA / Moorpark, CA / San Luis Obispo, CA / Annapolis
+    Junction, MD / Germantown, MD / Albuquerque, NM / Minneapolis, MN / Arlington, VA / Melbourne, FL / Petaluma, CA / San
+    Diego, CA
   link: https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-GNC---Autonomy-Intern_8610
   date_posted: '2026-09-01'
   date_estimated: false
@@ -5202,8 +5142,7 @@
   possible_duplicate_of: null
 - id: tiktok-software-engineer-intern-2d5519
   company: TikTok
-  role: Software Engineer Intern (TikTok AI Search & Visual Search Infra Team) - 2027
-    Summer
+  role: Software Engineer Intern (TikTok AI Search & Visual Search Infra Team) - 2027 Summer
   location: San Jose, CA
   link: https://lifeattiktok.com/search/7676276048527214901
   date_posted: '2026-08-22'
@@ -5217,7 +5156,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: ecolab-digital-ai-technology-intern-c48375
   company: Ecolab
@@ -5235,7 +5174,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-intern-ai-and-ml-projects-0b6f9f
   company: Microsoft
@@ -5256,7 +5195,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: microsoft-software-engineer-intern-ai-and-ml-cda265
   company: Microsoft
@@ -5277,7 +5216,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-research-intern-ai-native-databases-af2f77
   company: ByteDance
@@ -5295,7 +5234,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-research-intern-ai-native-databases-18ded0
   company: ByteDance
@@ -5312,7 +5251,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: meta-research-scientist-intern-nmr-analysis-automation-7506d4
   company: Meta
@@ -5345,7 +5284,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-cloud-acceleration-research-intern-dpu-ai-infra-6ea179
   company: ByteDance
@@ -5362,7 +5301,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: universal-health-services-revenue-cycle-analyst-intern-69d33d
   company: Universal Health Services
@@ -5380,7 +5319,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: western-southern-financial-group-artificial-intelligence-developer-intern-full-year-2027-c3ef6e
   company: Western & Southern Financial Group
@@ -5397,7 +5336,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: allied-solutions-ai-solutions-intern-0c0c87
   company: Allied Solutions
@@ -5416,7 +5355,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: shure-artificial-intelligence-engineer-intern-a42983
   company: Shure
@@ -5435,7 +5374,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: rsm-enterprise-data-integration-and-migration-intern-af7a22
   company: RSM
@@ -5453,7 +5392,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: cigna-group-artificial-intelligence-innovation-development-intern-d995ab
   company: Cigna Group
@@ -5473,7 +5412,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: shure-applied-research-science-intern-484db2
   company: Shure
@@ -5492,7 +5431,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: shure-data-driven-sustainability-intern-92b8c0
   company: Shure
@@ -5510,7 +5449,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: shure-artificial-intelligence-specialist-intern-operations-cd19bc
   company: Shure
@@ -5529,7 +5468,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: shure-audio-applied-research-science-intern-936db2
   company: Shure
@@ -5548,7 +5487,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: xcel-energy-damage-prevention-intern-52dd57
   company: Xcel Energy
@@ -5565,7 +5504,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: xcel-energy-geospatial-data-validation-intern-65f177
   company: Xcel Energy
@@ -5583,7 +5522,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: first-national-bank-enterprise-data-governance-intern-data-quality-and-governance-1993c4
   company: First National Bank
@@ -5601,7 +5540,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: allied-solutions-data-governance-intern-d36b2e
   company: Allied Solutions
@@ -5619,7 +5558,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: allied-solutions-it-performance-analyst-intern-b70644
   company: Allied Solutions
@@ -5637,7 +5576,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: johns-hopkins-applied-physics-laboratory-acoustic-algorithm-development-engineer-intern-c924f1
   company: Johns Hopkins Applied Physics Laboratory
@@ -5656,7 +5595,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: rsm-enterprise-data-integration-and-migration-intern-9a70a6
   company: RSM
@@ -5673,7 +5612,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-autonomous-vehicles-and-robotics-intern-a471ae
   company: NVIDIA
@@ -5693,7 +5632,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: globalfoundries-robotics-and-automation-engineering-intern-junior-177d23
   company: GlobalFoundries
@@ -5710,7 +5649,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-robotics-intern-ph-d-research-6823e4
   company: NVIDIA
@@ -5728,7 +5667,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: transcard-payments-artificial-intelligence-intern-39a7ff
   company: Transcard Payments
@@ -5746,7 +5685,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: pennsylvania-state-university-guidance-and-control-research-development-intern-ab0091
   company: Pennsylvania State University
@@ -5763,7 +5702,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-research-intern-ai-compute-efficiency-scheduling-5f3992
   company: ByteDance
@@ -5781,7 +5720,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-infrastructure-engineer-intern-ads-infrastructure-b3304a
   company: TikTok
@@ -5800,7 +5739,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: micron-technology-intern-ai-agentic-systems-engineer-1851d2
   company: Micron Technology
@@ -5852,7 +5791,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: caterpillar-corporate-intern-autonomy-intelligent-systems-engineering-d8c0d2
   company: Caterpillar
@@ -5871,7 +5810,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: skydio-autonomy-engineer-intern-computer-vision-deep-learning-summer-2027-0b7af2
   company: Skydio
@@ -5890,7 +5829,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: corning-digital-it-intern-analyst-data-ai-platform-engineering-249239
   company: Corning
@@ -5909,7 +5848,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: corning-digital-it-intern-manufacturing-ai-ml-26f78c
   company: Corning
@@ -5928,7 +5867,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: united-airlines-pricing-revenue-management-intern-fa921d
   company: United Airlines
@@ -5946,7 +5885,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: deloitte-data-ai-solutions-engineering-summer-scholar-intern-d8bceb
   company: Deloitte
@@ -5964,7 +5903,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: ge-vernova-ai-digitization-co-op-hdnu-global-operations-50400d
   company: GE Vernova
@@ -5982,7 +5921,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-04'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nationwide-generative-ai-intern-5cc516
   company: Nationwide
@@ -6000,7 +5939,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: ernst-young-artificial-intelligence-intern-tax-tax-technology-and-transformation-d3d581
   company: Ernst & Young
@@ -6019,7 +5958,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: hy-vee-data-integration-intern-2f2a70
   company: Hy-Vee
@@ -6037,7 +5976,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: schonfeld-systematic-coo-intern-a8aabf
   company: Schonfeld
@@ -6057,7 +5996,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: alcon-2027-summer-software-data-ai-engineering-interns-8fb16e
   company: Alcon
@@ -6073,7 +6012,7 @@
   sources:
   - github_tracker:speedyapply
   date_added: '2026-09-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nokia-ai-agent-development-co-op-17fa50
   company: Nokia
@@ -6091,7 +6030,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-research-intern-frontier-ai-systems-2027-start-phd-8885de
   company: ByteDance
@@ -6108,7 +6047,7 @@
   - github_tracker:zapplyjobs
   - github_tracker:chieler
   date_added: '2026-09-06'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-ai-llm-network-research-intern-high-speed-network-2027-start-phd-a3419e
   company: ByteDance
@@ -6143,7 +6082,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-07'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: xcel-energy-resource-planning-intern-304ac1
   company: Xcel Energy
@@ -6161,7 +6100,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-07'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: xcel-energy-renewable-and-demand-response-intern-b738af
   company: Xcel Energy
@@ -6179,7 +6118,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-07'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: xcel-energy-gis-intern-457486
   company: Xcel Energy
@@ -6197,7 +6136,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-07'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: xcel-energy-wildfire-analyst-intern-82d5cc
   company: Xcel Energy
@@ -6215,7 +6154,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-07'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: xcel-energy-ai-automation-intern-regulatory-35c354
   company: Xcel Energy
@@ -6234,7 +6173,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-07'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: xcel-energy-ai-solutions-development-intern-82a1ff
   company: Xcel Energy
@@ -6252,7 +6191,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-07'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: merck-co-op-651c36
   company: Merck
@@ -6269,7 +6208,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: merck-computational-toxicology-intern-ai-ml-computational-toxicology-2363fd
   company: Merck
@@ -6290,7 +6229,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: capital-one-applied-research-intern-6d6e5b
   company: Capital One
@@ -6308,7 +6247,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: allen-control-systems-computer-vision-intern-machine-learning-084723
   company: Allen Control Systems
@@ -6327,7 +6266,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: boeing-applied-mathematician-intern-engineering-technology-innovation-7b9f3b
   company: Boeing
@@ -6346,7 +6285,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: ercot-it-intern-enterprise-data-ai-administration-99ca36
   company: Ercot
@@ -6365,7 +6304,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: medpace-feasibility-informatics-intern-co-op-b00c69
   company: Medpace
@@ -6384,7 +6323,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: gallup-artificial-intelligence-machine-learning-research-intern-f4f2a0
   company: Gallup
@@ -6403,7 +6342,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tokyo-electron-software-engineer-intern-ai-research-a6f7d6
   company: Tokyo Electron
@@ -6424,7 +6363,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: s-p-global-machine-learning-engineer-intern-de7471
   company: S&P Global
@@ -6442,7 +6381,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: cigna-group-ai-engineer-intern-6d119c
   company: Cigna Group
@@ -6461,7 +6400,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: barnes-thornburg-information-technology-ai-intern-72c2be
   company: Barnes & Thornburg
@@ -6479,7 +6418,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: the-aerospace-corporation-machine-learning-engineering-intern-652a67
   company: The Aerospace Corporation
@@ -6498,7 +6437,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: national-information-solutions-cooperative-database-conversion-programming-intern-97bf8e
   company: National Information Solutions Cooperative
@@ -6514,7 +6453,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-vehicle-intent-and-prediction-intern-411279
   company: Waymo
@@ -6532,7 +6471,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bedrock-robotics-onboard-infrastructure-engineer-intern-ml-inference-dfd0c6
   company: Bedrock Robotics
@@ -6553,7 +6492,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bedrock-robotics-behavior-machine-learning-engineer-intern-world-models-7dd1b4
   company: Bedrock Robotics
@@ -6574,7 +6513,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: johns-hopkins-applied-physics-laboratory-engineering-science-intern-tailored-autonomous-systems-80fc9f
   company: Johns Hopkins Applied Physics Laboratory
@@ -6594,7 +6533,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: national-information-solutions-cooperative-database-conversion-programming-intern-d0e479
   company: National Information Solutions Cooperative
@@ -6612,7 +6551,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: the-toro-company-robotics-engineer-intern-d6e0d4
   company: The Toro Company
@@ -6630,7 +6569,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: oshkosh-autonomy-active-safety-engineer-intern-756e27
   company: Oshkosh
@@ -6649,7 +6588,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: oshkosh-ai-engineer-intern-77ccec
   company: Oshkosh
@@ -6669,7 +6608,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: veeam-software-machine-learning-intern-ai-1460ff
   company: Veeam Software
@@ -6688,7 +6627,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: veeam-software-customer-care-ai-analyst-intern-summer-2027-76b673
   company: Veeam Software
@@ -6706,7 +6645,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amgen-machine-learning-engineer-intern-c7ac53
   company: Amgen
@@ -6726,7 +6665,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amgen-machine-learning-engineer-intern-technology-medical-organizations-61f5c5
   company: Amgen
@@ -6746,7 +6685,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-machine-learning-system-engineering-intern-co-op-680cb2
   company: AMD
@@ -6764,7 +6703,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-ai-systems-gpu-performance-engineer-intern-63fa80
   company: AMD
@@ -6782,7 +6721,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: oshkosh-autonomy-engineering-intern-summer-2027-929df6
   company: Oshkosh
@@ -6802,7 +6741,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: intuit-ai-scientist-intern-8793d3
   company: Intuit
@@ -6822,7 +6761,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: intuit-ai-research-intern-acfdf0
   company: Intuit
@@ -6840,7 +6779,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: sun-life-medical-intelligence-co-op-e37442
   company: Sun Life
@@ -6857,7 +6796,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: johnson-johnson-robotics-controls-autonomy-intern-robotics-r-d-1af16e
   company: Johnson & Johnson
@@ -6877,7 +6816,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: wex-ai-data-platform-engineering-intern-undergraduate-6785aa
   company: Wex
@@ -6895,7 +6834,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: lunar-outpost-robotics-engineer-intern-6c9431
   company: Lunar Outpost
@@ -6914,7 +6853,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: national-information-solutions-cooperative-software-development-intern-ai-development-e54c7d
   company: National Information Solutions Cooperative
@@ -6931,7 +6870,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:speedyapply
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: q2-machine-learning-intern-a682da
   company: Q2
@@ -6951,7 +6890,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: gecko-robotics-ai-machine-learning-engineer-intern-2492f0
   company: Gecko Robotics
@@ -6973,7 +6912,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: v2x-artificial-intelligence-intern-e2a88d
   company: V2X
@@ -6991,7 +6930,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: relay-software-engineer-intern-ai-ml-eda270
   company: Relay
@@ -7011,7 +6950,7 @@
   - github_tracker:chieler
   - github_tracker:speedyapply
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-machine-learning-intern-computer-vision-d604ce
   company: Waymo
@@ -7029,7 +6968,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-ai-model-optimization-software-engineer-intern-co-op-4e62fd
   company: AMD
@@ -7047,7 +6986,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-ai-model-optimization-software-engineer-intern-co-op-3bb429
   company: AMD
@@ -7064,7 +7003,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: covar-machine-learning-intern-a2f2f8
   company: CoVar
@@ -7085,7 +7024,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-conflict-behavior-intern-ms-phd-f11ad3
   company: Waymo
@@ -7104,7 +7043,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-scenes-intern-fb9658
   company: Waymo
@@ -7122,7 +7061,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: lennox-international-ai-engineering-intern-summer-2027-e6dfce
   company: Lennox International
@@ -7140,7 +7079,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: jp-morgan-chase-machine-learning-engineer-summer-associate-intern-asset-and-wealth-management-405984
   company: JP Morgan Chase
@@ -7159,7 +7098,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tiktok-machine-learning-engineer-intern-e-commerce-recommendation-mall-dc4496
   company: TikTok
@@ -7176,7 +7115,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: together-ai-research-intern-frontier-agents-1d9b77
   company: Together AI
@@ -7194,7 +7133,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: together-ai-research-intern-model-shaping-803c6d
   company: Together AI
@@ -7212,7 +7151,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: together-ai-research-intern-inference-7c1314
   company: Together AI
@@ -7230,7 +7169,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-learning-based-behavior-intern-0b528d
   company: Waymo
@@ -7248,7 +7187,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: johns-hopkins-applied-physics-laboratory-engineer-scientist-intern-health-systems-and-human-machine-systems-2d3053
   company: Johns Hopkins Applied Physics Laboratory
@@ -7268,7 +7207,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: atlassian-machine-learning-intern-ad3ef5
   company: Atlassian
@@ -7286,7 +7225,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-hpc-and-sovereign-ai-center-of-excellence-intern-co-op-034cf4
   company: AMD
@@ -7304,7 +7243,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-ai-research-intern-reinforcement-learning-and-llm-post-training-eb9e8f
   company: AMD
@@ -7322,7 +7261,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: aerovironment-autonomy-robotics-engineer-intern-a36ca5
   company: AeroVironment
@@ -7342,7 +7281,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-research-intern-robotics-cec1e1
   company: NVIDIA
@@ -7360,7 +7299,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-ai-research-infrastructure-reinforcement-learning-post-training-intern-abd9a4
   company: AMD
@@ -7378,7 +7317,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: procter-gamble-research-and-development-phd-intern-d49520
   company: Procter & Gamble
@@ -7396,7 +7335,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-phd-research-intern-05f764
   company: NVIDIA
@@ -7414,7 +7353,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-generative-ai-and-reinforcement-learning-research-intern-9a79f9
   company: AMD
@@ -7432,7 +7371,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: verizon-communications-ai-science-intern-network-and-technology-e9a554
   company: Verizon Communications
@@ -7451,7 +7390,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: verizon-communications-ai-science-intern-multiple-teams-18c32c
   company: Verizon Communications
@@ -7470,7 +7409,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-machine-learning-engineer-intern-ms-phd-7494e4
   company: Waymo
@@ -7489,7 +7428,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: rippling-machine-learning-software-engineer-intern-summer-2027-49747c
   company: Rippling
@@ -7508,7 +7447,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: usaa-ai-ml-engineer-intern-8f3a0d
   company: USAA
@@ -7527,7 +7466,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: cox-technical-intern-e6e213
   company: Cox
@@ -7545,7 +7484,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: gordon-food-service-category-support-intern-46ac01
   company: Gordon Food Service
@@ -7563,7 +7502,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: capital-group-data-technology-summer-associate-ff5500
   company: Capital Group
@@ -7580,7 +7519,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: capital-group-data-technology-summer-associate-4cca7c
   company: Capital Group
@@ -7597,7 +7536,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: capital-group-data-technology-summer-associate-502879
   company: Capital Group
@@ -7614,7 +7553,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-machine-learning-engineer-intern-ms-phd-simulator-realism-evaluation-f33bcd
   company: Waymo
@@ -7633,7 +7572,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: church-dwight-ai-developer-co-op-graduate-program-9-months-c31020
   company: Church & Dwight
@@ -7652,7 +7591,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: lennox-ai-enabled-full-stack-software-engineering-intern-c654fe
   company: Lennox
@@ -7669,7 +7608,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: national-information-solutions-cooperative-intern-software-development-ai-development-795538
   company: National Information Solutions Cooperative
@@ -7688,7 +7627,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: national-information-solutions-cooperative-intern-software-development-ai-development-e47da2
   company: National Information Solutions Cooperative
@@ -7705,7 +7644,7 @@
   - github_tracker:speedyapply
   - github_tracker:simplifyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: cyvl-software-engineering-intern-swe-ml-summer-2027-0857b9
   company: Cyvl
@@ -7723,7 +7662,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: wex-software-engineer-intern-ai-cloud-graduate-master-s-2417a3
   company: WEX
@@ -7742,7 +7681,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: wex-backend-software-engineer-intern-c-cloud-security-ai-undergraduate-6d2eb5
   company: WEX
@@ -7761,7 +7700,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: wex-backend-software-engineer-intern-java-ai-master-s-873c8d
   company: WEX
@@ -7780,7 +7719,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: wex-devops-ai-engineering-intern-undergraduate-ee4d8f
   company: WEX
@@ -7797,12 +7736,12 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: boeing-boeing-engineering-technology-innovation-graduate-researcher-program-software-engineering-artificial-intelligence-intern-d8ac9d
   company: Boeing
-  role: Boeing Engineering & Technology Innovation Graduate Researcher Program - Software
-    Engineering Artificial Intelligence Intern
+  role: Boeing Engineering & Technology Innovation Graduate Researcher Program - Software Engineering Artificial Intelligence
+    Intern
   location: Tukwila, WA
   link: https://boeing.wd1.myworkdayjobs.com/en-US/external_careers/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687
   date_posted: '2026-09-08'
@@ -7818,7 +7757,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: aerospace-corporation-2027-machine-learning-engineer-undergrad-intern-508e8d
   company: Aerospace Corporation
@@ -7914,7 +7853,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: veolia-environnement-sa-sap-servicenow-ai-automation-intern-ddc4f0
   company: Veolia Environnement SA
@@ -8042,12 +7981,11 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: verizon-verizon-network-and-technology-ai-science-2027-internship-rutgers-njit-nyu-ut-dallas-ut-7476cc
   company: Verizon
-  role: 'Verizon Network and Technology: AI Science 2027 Internship: Rutgers, NJIT,
-    NYU, UT Dallas, UT...'
+  role: 'Verizon Network and Technology: AI Science 2027 Internship: Rutgers, NJIT, NYU, UT Dallas, UT...'
   location: Basking Ridge, NJ
   link: https://zapply.jobs/l/d/workday-verizon-verizon-careers-R-1101169?s=gh-internships-2027
   date_posted: '2026-09-22'
@@ -8110,7 +8048,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: collier-aerospace-ncsg-ai-feature-development-internship-summer-2027-c016c4
   company: Collier Aerospace
@@ -8129,7 +8067,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amgen-grad-intern-digital-product-technology-ai-data-summer-2027-aeda05
   company: Amgen
@@ -8148,7 +8086,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amgen-grad-intern-software-engineer-technology-ai-data-summer-2027-f8951d
   company: Amgen
@@ -8168,7 +8106,7 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amgen-undergrad-intern-digital-product-technology-ai-data-summer-2027-03bf82
   company: Amgen
@@ -8187,7 +8125,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amgen-undergrad-intern-software-engineer-technology-ai-data-summer-2027-a3028b
   company: Amgen
@@ -8207,7 +8145,7 @@
   - github_tracker:speedyapply
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: leidos-ai-ml-intern-d042f7
   company: Leidos
@@ -8226,7 +8164,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: live-oak-bank-summer-2027-intern-ai-enablement-forward-deployed-engineering-3b90d4
   company: Live Oak Bank
@@ -8245,7 +8183,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: verizon-communications-verizon-consumer-group-ai-ml-engineering-summer-2027-internship-7ed4d8
   company: Verizon Communications
@@ -8264,7 +8202,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: capital-one-ai-engineering-intern-985280
   company: Capital One
@@ -8282,7 +8220,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: capital-one-ai-engineer-intern-592d0a
   company: Capital One
@@ -8300,7 +8238,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: navy-federal-payments-ai-engineer-intern-72aaab
   company: Navy Federal
@@ -8318,7 +8256,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: navy-federal-ai-engineer-intern-8698f6
   company: Navy Federal
@@ -8336,7 +8274,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: dv-trading-ai-engineer-intern-a14376
   company: DV Trading
@@ -8355,7 +8293,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: cox-ai-automation-intern-5076f4
   company: Cox
@@ -8375,7 +8313,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: corteva-ai-engineer-intern-dc31fd
   company: Corteva
@@ -8395,7 +8333,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: veeam-software-security-ai-engineer-intern-56bd88
   company: Veeam Software
@@ -8413,7 +8351,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: guardian-life-summer-intern-digital-technology-ai-machine-learning-233aa3
   company: Guardian Life
@@ -8431,7 +8369,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: western-digital-systems-architecture-co-op-ai-systems-strategy-604d2d
   company: Western Digital
@@ -8448,7 +8386,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: baird-it-ai-automation-intern-2ff416
   company: Baird
@@ -8466,7 +8404,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: elire-ai-software-developer-intern-multiple-teams-cceba7
   company: Elire
@@ -8486,7 +8424,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tokyo-electron-decision-analysis-ai-intern-46649f
   company: Tokyo Electron
@@ -8504,7 +8442,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: geneva-trading-ai-engineer-intern-b48f36
   company: Geneva Trading
@@ -8524,7 +8462,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: occ-ai-research-engineering-intern-40b46f
   company: OCC
@@ -8542,7 +8480,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: lazard-software-engineer-intern-ai-data-team-f18e97
   company: Lazard
@@ -8561,7 +8499,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-phd-hpc-sovereign-ai-intern-co-op-64ed28
   company: AMD
@@ -8579,7 +8517,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: lazard-ai-engineer-intern-9d5a19
   company: Lazard
@@ -8598,7 +8536,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nebraska-medicine-forward-deployed-ai-engineer-intern-3eeba4
   company: Nebraska Medicine
@@ -8616,7 +8554,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: philips-ai-engineer-intern-enterprise-ai-workflow-automation-454643
   company: Philips
@@ -8635,7 +8573,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-software-engineer-intern-simulation-evaluation-ml-model-77491d
   company: Waymo
@@ -8655,7 +8593,7 @@
   - github_tracker:chieler
   - github_tracker:speedyapply
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: procter-gamble-r-d-intern-ai-research-engineer-1075ee
   company: Procter & Gamble
@@ -8675,7 +8613,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: aqr-capital-management-machine-learning-research-associate-intern-927a7d
   company: AQR Capital Management
@@ -8693,7 +8631,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-phd-research-intern-generative-ai-for-physical-ai-8afeeb
   company: NVIDIA
@@ -8711,7 +8649,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: caci-ai-systems-engineer-intern-summer-2027-aa22c7
   company: CACI
@@ -8729,7 +8667,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: excellus-bcbs-college-intern-data-governance-ai-governance-5ac58d
   company: Excellus BCBS
@@ -8747,7 +8685,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bedrock-robotics-evaluation-engineer-intern-metric-prototyping-f5e416
   company: Bedrock Robotics
@@ -8767,7 +8705,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-machine-learning-engineer-intern-road-understanding-c5de42
   company: Waymo
@@ -8787,7 +8725,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-phd-research-intern-quantum-simulation-and-ai-debf5e
   company: NVIDIA
@@ -8805,7 +8743,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-ml-systems-research-engineering-intern-637d39
   company: AMD
@@ -8817,13 +8755,13 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: klaviyo-machine-learning-engineer-intern-7534bb
   company: Klaviyo
@@ -8842,7 +8780,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: kla-algorithm-engineering-intern-ai-computer-vision-software-engineering-331845
   company: KLA
@@ -8860,7 +8798,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tencent-site-reliability-engineer-sre-intern-ai-infrastructure-309d3c
   company: Tencent
@@ -8877,12 +8815,12 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: td-synnex-summer-2027-internship-program-technical-applied-innovation-track-information-technology-supply-chain-systems-and-cloud-artificial-intelligence-fde3ed
   company: TD SYNNEX
-  role: 'Summer 2027 Internship Program - Technical - Applied Innovation Track: •
-    Information Technology • Supply Chain • Systems and Cloud • Artificial Intelligence'
+  role: 'Summer 2027 Internship Program - Technical - Applied Innovation Track: • Information Technology • Supply Chain •
+    Systems and Cloud • Artificial Intelligence'
   location: Greenville, SC
   link: https://synnex.wd5.myworkdayjobs.com/en-US/tdsynnexcareers/job/Greenville-SC/Summer-2027-Internship-Program---Technical--Applied-Innovation-Track----Information-Technology---Supply-Chain---Systems-and-Cloud---Artificial-Intelligence_R56571
   date_posted: '2026-09-21'
@@ -8895,7 +8833,7 @@
   - github_tracker:speedyapply
   - github_tracker:zapplyjobs
   date_added: '2026-09-22'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-ai-engineering-intern-c3e834
   company: AMD
@@ -8907,13 +8845,13 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: general-dynamics-information-technology-ai-network-engineering-intern-d5f4e9
   company: General Dynamics Information Technology
@@ -8933,7 +8871,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: general-dynamics-information-technology-generative-ai-software-development-intern-a1d374
   company: General Dynamics Information Technology
@@ -8954,7 +8892,7 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-09-23'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: howmet-aerospace-artificial-intelligence-intern-ai-234b90
   company: Howmet Aerospace
@@ -8972,7 +8910,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-24'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-intern-multiple-teams-b64b23
   company: Waymo
@@ -8990,7 +8928,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:speedyapply
   date_added: '2026-09-24'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: genesis-molecular-ai-machine-learning-research-intern-029a4f
   company: Genesis Molecular AI
@@ -9009,7 +8947,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-24'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: box-cloud-ai-finance-intern-a5329b
   company: Box
@@ -9042,7 +8980,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-09-24'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: intuitive-ai-research-intern-3511e6
   company: Intuitive
@@ -9125,7 +9063,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-24'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: doordash-machine-learning-engineer-intern-masters-468729
   company: DoorDash
@@ -9145,7 +9083,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bedrock-robotics-state-estimation-intern-learned-mapping-semantic-slam-17b664
   company: Bedrock Robotics
@@ -9165,7 +9103,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-software-engineer-intern-ms-phd-systems-intelligence-machine-learning-625f0c
   company: Waymo
@@ -9185,7 +9123,7 @@
   - github_tracker:chieler
   - github_tracker:speedyapply
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: johns-hopkins-applied-physics-laboratory-artificial-intelligence-and-machine-learning-intern-research-assistant-68cc01
   company: Johns Hopkins Applied Physics Laboratory
@@ -9205,7 +9143,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: doordash-machine-learning-intern-phd-e3904a
   company: DoorDash
@@ -9224,7 +9162,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-perception-intern-multiple-teams-04408e
   company: Waymo
@@ -9243,7 +9181,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: atlassian-research-intern-594f48
   company: Atlassian
@@ -9261,7 +9199,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: ameren-intern-robotics-ai-ot-software-development-26f69b
   company: Ameren
@@ -9314,7 +9252,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: tencent-game-research-development-intern-engine-research-59c1db
   company: Tencent
@@ -9363,7 +9301,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-26'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: crowe-msft-ai-business-solutions-implementation-intern-a4c8bb
   company: Crowe
@@ -9379,12 +9317,11 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-27'
-  last_verified: '2026-09-27'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: gdit-gdit-summer-internship-program-summer-2027-ai-ml-software-development-and-engineering-internship-9bc7a2
   company: GDIT
-  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and
-    Engineering Internship
+  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship
   location: Bossier City, LA
   link: https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939
   date_posted: '2026-09-26'
@@ -9398,12 +9335,11 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-28'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: gdit-gdit-summer-internship-program-summer-2027-ai-ml-software-development-and-engineering-internship-39dd7c
   company: GDIT
-  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and
-    Engineering Internship
+  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship
   location: Bossier City, LA
   link: https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ229142
   date_posted: '2026-09-26'
@@ -9416,12 +9352,11 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-09-28'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: gdit-gdit-summer-internship-program-summer-2027-ai-ml-software-development-and-engineering-internship-029e02
   company: GDIT
-  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and
-    Engineering Internship
+  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship
   location: Bossier City, LA
   link: https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ229141
   date_posted: '2026-09-26'
@@ -9434,12 +9369,11 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-09-28'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: gdit-gdit-summer-internship-program-summer-2027-ai-ml-software-development-and-engineering-internship-9d4aa4
   company: GDIT
-  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and
-    Engineering Internship
+  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship
   location: Bossier City, LA
   link: https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228941
   date_posted: '2026-09-26'
@@ -9452,12 +9386,11 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-09-28'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: gdit-gdit-summer-internship-program-summer-2027-ai-ml-software-development-and-engineering-internship-f7ff18
   company: GDIT
-  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and
-    Engineering Internship
+  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship
   location: Bossier City, LA
   link: https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228940
   date_posted: '2026-09-26'
@@ -9470,12 +9403,11 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-09-28'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-2027-summer-intern-phd-perception-systems-engineering-pedestrian-detection-precision-029573
   company: Waymo
-  role: '2027 Summer Intern, PhD, Perception Systems Engineering: Pedestrian Detection
-    Precision'
+  role: '2027 Summer Intern, PhD, Perception Systems Engineering: Pedestrian Detection Precision'
   location: San Francisco, CA
   link: https://zapply.jobs/l/d/greenhouse-waymo-8234670?s=gh-internships-2027
   date_posted: '2026-09-28'
@@ -9535,7 +9467,7 @@
   sources:
   - github_tracker:zshah101
   date_added: '2026-09-28'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: h-r-block-machine-learning-intern-4d3599
   company: H&R Block
@@ -9553,7 +9485,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-machine-learning-research-intern-planning-prediction-f723a4
   company: Waymo
@@ -9571,7 +9503,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: lyft-applied-scientist-intern-47ae7e
   company: Lyft
@@ -9583,7 +9515,7 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
@@ -9591,7 +9523,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-28'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: q2-machine-learning-engineer-intern-e38670
   company: Q2
@@ -9611,7 +9543,7 @@
   - github_tracker:chieler
   - github_tracker:zapplyjobs
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: cigna-group-ai-ml-engineer-intern-f069a6
   company: Cigna Group
@@ -9630,7 +9562,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: moderna-biometrics-intern-60fd92
   company: Moderna
@@ -9650,7 +9582,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: icf-international-ai-engineer-intern-69d48d
   company: ICF International
@@ -9669,7 +9601,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-planner-machine-learning-intern-f75d2c
   company: Waymo
@@ -9687,7 +9619,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: marvell-machine-learning-engineer-intern-bs-ms-summer-2027-7ec107
   company: Marvell
@@ -9705,7 +9637,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nike-nike-inc-ai-machine-learning-innovation-graduate-internship-cbccec
   company: Nike
@@ -9754,7 +9686,7 @@
   sources:
   - github_tracker:zshah101
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: marvell-ai-native-development-platform-engineer-intern-ms-summer-2027-f3b512
   company: Marvell
@@ -9773,7 +9705,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: acuity-finance-ai-engineering-intern-f95766
   company: Acuity
@@ -9792,7 +9724,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-29'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amazon-applied-science-intern-information-knowledge-management-998793
   company: Amazon
@@ -9810,7 +9742,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-30'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: dandy-phd-research-intern-de50c7
   company: Dandy
@@ -9828,12 +9760,11 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-30'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: gdit-gdit-summer-internship-program-summer-2027-ai-ml-software-development-and-engineering-internship-b457f6
   company: GDIT
-  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and
-    Engineering Internship
+  role: GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship
   location: Bossier City, LA
   link: https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ229143
   date_posted: '2026-09-26'
@@ -9846,7 +9777,7 @@
   - github_tracker:speedyapply
   - github_tracker:zshah101
   date_added: '2026-09-30'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: icf-2027-summer-intern-ai-engineer-reston-va-2328da
   company: ICF
@@ -9862,7 +9793,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-09-30'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amgen-grad-co-op-computational-safety-modeling-for-small-molecules-9b645e
   company: Amgen
@@ -9895,7 +9826,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-10-01'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: pinterest-machine-learning-intern-9eae87
   company: Pinterest
@@ -9914,7 +9845,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-10-01'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: pinterest-machine-learning-intern-2e2073
   company: Pinterest
@@ -9930,7 +9861,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-10-01'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: american-family-insurance-group-genai-intern-d9a636
   company: American Family Insurance Group
@@ -9944,13 +9875,13 @@
   - BS
   - MS
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-10-01'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: google-research-intern-phd-summer-2027-e46706
   company: Google
@@ -9966,7 +9897,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-10-01'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: hmh-ai-automation-development-intern-dea1eb
   company: HMH
@@ -9985,7 +9916,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-10-01'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: general-motors-ai-ml-engineer-intern-autonomous-vehicle-simulation-60041f
   company: General Motors
@@ -10005,7 +9936,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: general-motors-ai-ml-engineer-intern-autonomous-vehicles-simulation-408cd4
   company: General Motors
@@ -10023,7 +9954,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: general-motors-machine-learning-engineer-intern-av-ai-platform-0eedf4
   company: General Motors
@@ -10043,7 +9974,7 @@
   - github_tracker:chieler
   - github_tracker:zshah101
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: american-family-insurance-group-genai-ml-intern-16965d
   company: American Family Insurance Group
@@ -10063,7 +9994,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-intern-multiple-teams-f2837a
   company: Waymo
@@ -10079,7 +10010,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-perception-intern-evaluation-b2be5a
   company: Waymo
@@ -10098,7 +10029,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: palomar-holdings-technical-intern-2e1242
   company: Palomar Holdings
@@ -10116,7 +10047,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: intel-ai-software-technical-intern-8730c8
   company: Intel
@@ -10133,7 +10064,7 @@
   - github_tracker:speedyapply
   - github_tracker:chieler
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: leidos-business-systems-ai-intern-61766f
   company: Leidos
@@ -10182,7 +10113,7 @@
   - github_tracker:zshah101
   - github_tracker:chieler
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-ai-driven-ml-performance-engineering-intern-ms-phd-a74e91
   company: Waymo
@@ -10201,7 +10132,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: datarobot-mcp-memory-intern-59a78d
   company: DataRobot
@@ -10217,7 +10148,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-10-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: persona-ai-autonomy-software-engineering-internship-world-modeling-363d58
   company: Persona AI
@@ -10238,7 +10169,7 @@
   - github_tracker:chieler
   - github_tracker:speedyapply
   date_added: '2026-09-02'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: ge-vernova-engineering-intern-818986
   company: GE Vernova
@@ -10256,7 +10187,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-08-15'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: magna-humanoid-robotics-intern-5af039
   company: Magna
@@ -10272,7 +10203,7 @@
   sources:
   - github_tracker:chieler
   date_added: '2026-10-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: wells-fargo-applied-computational-intelligence-intern-aci-masters-early-careers-0f2968
   company: Wells Fargo
@@ -10289,7 +10220,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-10-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: coinbase-machine-learning-engineer-intern-8cc0a4
   company: Coinbase
@@ -10307,7 +10238,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-10-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: nvidia-research-intern-bd24ba
   company: NVIDIA
@@ -10325,7 +10256,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-10-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: hntb-intern-ai-business-process-developer-summer-2027-3a002e
   company: HNTB
@@ -10345,7 +10276,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
   date_added: '2026-10-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: q2-2027-summer-internship-machine-learning-engineer-e694f8
   company: Q2
@@ -10361,7 +10292,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-10-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: doordash-machine-learning-intern-phd-summer-2027-ef66fc
   company: DoorDash
@@ -10377,7 +10308,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-10-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: doordash-machine-learning-intern-masters-summer-2027-7c5b85
   company: DoorDash
@@ -10409,12 +10340,12 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-10-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: boeing-boeing-engineering-technology-innovation-graduate-researcher-program-software-engineering-cbb9cc
   company: Boeing
-  role: Boeing Engineering & Technology Innovation Graduate Researcher Program, Software
-    Engineering Artificial Intelligence Intern
+  role: Boeing Engineering & Technology Innovation Graduate Researcher Program, Software Engineering Artificial Intelligence
+    Intern
   location: USA - Tukwila, WA
   link: https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026523687?s=gh-internships-2027
   date_posted: '2026-10-01'
@@ -10426,7 +10357,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-10-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: pangram-labs-ai-research-intern-f811e5
   company: Pangram Labs
@@ -10443,8 +10374,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: primient-ai-analyst-intern-1f3dd5
   company: Primient
@@ -10461,8 +10393,9 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:zshah101
+  - github_tracker:chieler
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: autodesk-research-intern-multimodal-ai-for-human-experience-dd4387
   company: Autodesk
@@ -10474,12 +10407,13 @@
   term: Summer 2027
   degree:
   - PhD
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: vertiv-technical-innovation-intern-f09c41
   company: Vertiv
@@ -10496,8 +10430,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: vertiv-technical-innovation-intern-89a5ff
   company: Vertiv
@@ -10515,7 +10450,7 @@
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: expedia-group-applied-science-intern-e2f88b
   company: Expedia Group
@@ -10531,8 +10466,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: expedia-group-applied-science-intern-0c2677
   company: Expedia Group
@@ -10548,7 +10484,7 @@
   sources:
   - github_tracker:simplifyjobs
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: waymo-ms-phd-ml-systems-behavior-discovery-intern-9b2fc2
   company: Waymo
@@ -10565,8 +10501,9 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: figma-ai-applied-scientist-intern-742727
   company: Figma
@@ -10581,8 +10518,10 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-ai-training-systems-and-performance-engineer-intern-co-op-6c27cc
   company: AMD
@@ -10597,8 +10536,10 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: amd-phd-large-language-model-engineer-co-op-47f9b9
   company: AMD
@@ -10613,8 +10554,9 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: general-motors-ai-ml-engineer-intern-mapping-79d2bf
   company: General Motors
@@ -10629,8 +10571,11 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
+  - github_tracker:zshah101
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: general-motors-machine-learning-intern-autonomous-vehicles-software-validation-998020
   company: General Motors
@@ -10645,8 +10590,11 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:speedyapply
+  - github_tracker:suryaharikrishnan
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: atoms-machine-learning-engineer-intern-241edb
   company: Atoms
@@ -10663,8 +10611,10 @@
   status: open
   sources:
   - github_tracker:simplifyjobs
+  - github_tracker:chieler
+  - github_tracker:suryaharikrishnan
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: thea-energy-integrated-modeling-intern-4c939e
   company: Thea Energy
@@ -10676,11 +10626,12 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:suryaharikrishnan
+  - github_tracker:simplifyjobs
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: bytedance-research-intern-inference-infrastructure-2027-start-phd-222842
   company: ByteDance
@@ -10696,7 +10647,7 @@
   sources:
   - github_tracker:zapplyjobs
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: midland-states-bank-ai-solutions-engineer-intern-4010f1
   company: Midland States Bank
@@ -10712,6 +10663,342 @@
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
+  - github_tracker:chieler
   date_added: '2026-10-05'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: fhlbank-chicago-ai-intern-a676f5
+  company: FHLBank Chicago
+  role: AI Intern
+  location: Chicago, IL
+  link: https://fhlbc.wd1.myworkdayjobs.com/search/job/Chicago/Summer-Internship---AI-Intern_R2600477
+  date_posted: '2026-10-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: amd-phd-agentic-ml-system-co-op-aa70e4
+  company: AMD
+  role: PhD Agentic/ML System Co-op
+  location: San Jose, CA
+  link: https://careers.amd.com/jobs/91767?icims=1
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - MS
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: boston-scientific-equipment-engineering-ai-vision-engineer-intern-8b2b09
+  company: Boston Scientific
+  role: Equipment Engineering AI Vision Engineer Intern
+  location: Maple Grove, MN
+  link: https://bostonscientific.eightfold.ai/careers/job/563602813584308
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: space-dynamics-laboratory-computer-vision-engineer-intern-722775
+  company: Space Dynamics Laboratory
+  role: Computer Vision Engineer Intern
+  location: North Logan, UT
+  link: https://spacedynamicslaboratory.applytojob.com/apply/x1yVybua0f/Computer-Vision-Engineer-Intern
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: lyft-phd-machine-learning-software-engineer-intern-fb13ef
+  company: Lyft
+  role: PhD Machine Learning Software Engineer Intern
+  location: San Francisco, CA
+  link: https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: procter-gamble-r-d-phd-summer-intern-grooming-m-s-6656f5
+  company: Procter & Gamble
+  role: 'R&D PhD Summer Intern: Grooming M&S'
+  location: Boston, MA
+  link: https://pg.wd5.myworkdayjobs.com/1000/job/BOSTON-GO--TECH-CENTER/R-D-PhD-Summer-Intern--Grooming-M-S_R000159786
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - PhD
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: general-motors-2027-summer-intern-machine-learning-intern-autonomous-vehicles-software-validation-master-s-1cd582
+  company: General Motors
+  role: '2027 Summer Intern - Machine Learning Intern - Autonomous Vehicles: Software Validation - Master''s'
+  location: Sunnyvale, CA
+  link: https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--Master-s-_JR-202621655
+  date_posted: '2026-10-05'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: leidos-business-systems-ai-intern-1b75e1
+  company: Leidos
+  role: Business Systems AI Intern
+  location: Remote (US)
+  link: https://zapply.jobs/l/d/workday-leidos-external-R-00193327?s=gh-internships-2027
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: leidos-business-systems-ai-intern-5eb9c3
+  company: Leidos
+  role: Business Systems AI Intern
+  location: Remote (US)
+  link: https://zapply.jobs/l/d/workday-leidos-external-R-00193767?s=gh-internships-2027
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: bytedance-visual-generation-multimodal-evaluation-machine-learning-engineer-intern-aml-ark-us-2027-83d421
+  company: ByteDance
+  role: Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern (AML-Ark-US) - 2027...
+  location: Seattle, WA
+  link: https://zapply.jobs/l/d/bytedance-7672392998231050549?s=gh-internships-2027
+  date_posted: '2026-10-06'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: bytedance-machine-learning-engineer-intern-e-commerce-risk-control-2027-start-phd-827605
+  company: ByteDance
+  role: Machine Learning Engineer Intern (E-Commerce Risk Control)- 2027 Start (PhD)
+  location: San Jose, CA
+  link: https://zapply.jobs/l/d/bytedance-7675478684795881781?s=gh-internships-2027
+  date_posted: '2026-10-06'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: sigma-computing-ai-ml-phd-intern-summer-2027-484db5
+  company: Sigma Computing
+  role: AI/ML PhD Intern (Summer 2027)
+  location: San Francisco, CA
+  link: https://zapply.jobs/l/d/greenhouse-sigmacomputing-7861424003?s=gh-internships-2027
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: bytedance-research-intern-ai-native-databases-2027-start-phd-63d5b6
+  company: ByteDance
+  role: Research Intern (AI-Native Databases) - 2027 Start (PhD)
+  location: Seattle, WA
+  link: https://zapply.jobs/l/d/bytedance-7678451067500529925?s=gh-internships-2027
+  date_posted: '2026-10-06'
+  date_estimated: true
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: marvell-machine-learning-engineer-intern-bs-ms-summer-2027-a6f7fb
+  company: Marvell
+  role: Machine Learning Engineer Intern, BS/MS - Summer 2027
+  location: Santa Clara, CA
+  link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2604989-1
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zshah101
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: ge-vernova-ge-vernova-systems-architecture-intern-2027-14f583
+  company: GE Vernova
+  role: GE Vernova Systems Architecture Intern – 2027
+  location: Greenville, SC
+  link: https://zapply.jobs/l/d/workday-gevernova-vernova-externalsite-R5054433?s=gh-internships-2027
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: space-dynamics-laboratory-software-engineer-intern-software-ai-machine-learning-6f179a
+  company: Space Dynamics Laboratory
+  role: Software Engineer Intern - Software, AI, & Machine Learning
+  location: North Logan, UT
+  link: https://spacedynamicslaboratory.applytojob.com/apply/3M8cZAl86l/Software-Engineer-Intern-Software-AI-Machine-Learning
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: space-dynamics-laboratory-software-engineer-intern-ai-enabled-software-development-2919c0
+  company: Space Dynamics Laboratory
+  role: Software Engineer Intern - AI Enabled Software Development
+  location: North Logan, UT
+  link: https://spacedynamicslaboratory.applytojob.com/apply/82GBzTsnBq/Software-Engineering-Intern-AI-Enabled-Software-Development
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: waymo-ml-ops-automation-intern-002125
+  company: Waymo
+  role: ML Ops & Automation Intern
+  location: Mountain View, CA
+  link: https://careers.withwaymo.com/jobs?gh_jid=8257237
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: abb-ai-engineering-erp-intern-4fe7c2
+  company: ABB
+  role: AI Engineering ERP Intern
+  location: Cary, NC
+  link: https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/AI-Engineering--ERP-Intern--Summer-2027_JR00048711
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
+  possible_duplicate_of: null
+- id: abb-ai-engineering-intern-business-systems-35f4b9
+  company: ABB
+  role: AI Engineering Intern - Business Systems
+  location: Cary, NC
+  link: https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/AI-Engineering--Business-Systems-Intern--Summer-2027_JR00048714
+  date_posted: '2026-10-06'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
+  status: open
+  sources:
+  - github_tracker:simplifyjobs
+  - github_tracker:suryaharikrishnan
+  date_added: '2026-10-06'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null

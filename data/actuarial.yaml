@@ -14,7 +14,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-25'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: marsh-mclennan-oliver-wyman-actuarial-internship-summer-2027-81466e
   company: Oliver Wyman
@@ -211,13 +211,13 @@
   term: Summer 2027
   degree:
   - BS
-  status: open
+  status: closed
   sources:
   - github_tracker:simplifyjobs
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: manulife-summer-intern-2027-actuarial-us-04b366
   company: Manulife
@@ -251,7 +251,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
-  last_verified: '2026-10-05'
+  last_verified: '2026-10-06'
   possible_duplicate_of: null
 - id: ameriprise-financial-actuarial-intern-1d05e3
   company: Ameriprise Financial
