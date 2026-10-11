@@ -35911,7 +35911,7 @@
   possible_duplicate_of: null
 - id: rtx-software-engineer-intern-c9ba3e
   company: RTX
-  role: Software Engineer Intern
+  role: Software Engineering Intern (Summer 2027)
   location: Melbourne, FL
   link: https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-312--795-W-Nasa-Blvd--BLDG-312/Software-Engineering-Intern--Summer-2027-_01876918
   date_posted: '2026-10-09'
@@ -35946,9 +35946,9 @@
 - id: sagesure-software-engineer-intern-13499c
   company: SageSure
   role: Software Engineer Intern
-  location: Chicago, IL
+  location: Chicago, IL / Jersey City, NJ / Mountain View, CA
   link: https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719536006
-  date_posted: '2026-10-10'
+  date_posted: '2026-10-09'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -35961,14 +35961,14 @@
   possible_duplicate_of: null
 - id: applied-materials-software-engineering-summer-intern-masters-santa-clara-ca-1e0940
   company: Applied Materials
-  role: Software Engineering Summer Intern - Masters - Santa Clara - CA
+  role: Software Engineering Summer Intern (Masters - Santa Clara, CA)
   location: Santa Clara, CA
   link: https://amat.wd1.myworkdayjobs.com/en-US/external/job/Santa-ClaraCA/Software-Engineering-Summer-Intern--Masters---Santa-Clara--CA-_R2630705
   date_posted: '2026-10-09'
   date_estimated: false
   term: Summer 2027
   degree:
-  - BS
+  - MS
   status: open
   sources:
   - github_tracker:speedyapply
@@ -36057,7 +36057,7 @@
   possible_duplicate_of: null
 - id: enterprise-intern-software-analyst-efm-it-summer-2027-7becd2
   company: Enterprise
-  role: Intern - Software Analyst - EFM IT - Summer 2027
+  role: Intern - Software Analyst (EFM IT), Summer 2027
   location: St. Louis, MO
   link: https://us-erac.icims.com/jobs/569085/intern---software-analyst-%28efm-it%29%2c-summer-2027/job
   date_posted: '2026-10-09'
@@ -36104,8 +36104,8 @@
   last_verified: '2026-10-10'
   possible_duplicate_of: null
 - id: raytheon-software-engineering-intern-summer-2027-85e1ff
-  company: Raytheon
-  role: Software Engineering Intern - Summer 2027
+  company: RTX
+  role: Software Engineering Intern (Summer 2027)
   location: Melbourne, FL
   link: https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-312--795-W-Nasa-Blvd--BLDG-312/Software-Engineering-Intern--Summer-2027-_01876467
   date_posted: '2026-10-09'
@@ -36113,6 +36113,23 @@
   term: Summer 2027
   degree:
   - BS
+  status: open
+  sources:
+  - github_tracker:speedyapply
+  date_added: '2026-10-10'
+  last_verified: '2026-10-10'
+  possible_duplicate_of: null
+- id: micron-technology-intern-ssd-firmware-cicd-fdc94e
+  company: Micron Technology
+  role: Intern - SSD Firmware - CICD
+  location: Longmont, CO
+  link: https://micron.wd1.myworkdayjobs.com/en-US/external/job/Longmont-MAX--Office-CO/Intern---SSD-Firmware---CICD_JR114542
+  date_posted: '2026-10-09'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  - MS
   status: open
   sources:
   - github_tracker:speedyapply

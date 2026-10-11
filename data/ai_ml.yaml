@@ -11760,14 +11760,15 @@
 - id: microsoft-ai-software-engineering-intern-416734
   company: Microsoft
   role: AI Software Engineering Intern
-  location: Washington, DC
+  location: Redmond, WA / Mountain View, CA
   link: https://apply.careers.microsoft.com/careers/job/1970393556962891
   date_posted: '2026-10-09'
   date_estimated: false
   term: Summer 2027
   degree:
   - BS
-  status: open
+  - MS
+  status: closed
   sources:
   - github_tracker:speedyapply
   date_added: '2026-10-10'

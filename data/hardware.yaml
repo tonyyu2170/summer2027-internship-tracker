@@ -12389,10 +12389,10 @@
   possible_duplicate_of: null
 - id: marvell-test-solutions-engineering-intern-bs-post-silicon-hardware-validation-59cab9
   company: Marvell
-  role: Test Solutions Engineering Intern - BS - Post-Silicon Hardware Validation
+  role: Test Solutions Engineering Intern, BS - Summer 2027
   location: Burlington, VT
   link: https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Burlington-VT/Test-Solutions-Engineering-Intern--BS---Summer-2027_2603835-1
-  date_posted: '2026-09-09'
+  date_posted: '2026-10-10'
   date_estimated: false
   term: Summer 2027
   degree:
@@ -12420,38 +12420,6 @@
   date_added: '2026-10-10'
   last_verified: '2026-10-10'
   possible_duplicate_of: null
-- id: micron-technology-intern-ssd-firmware-cicd-fdc94e
-  company: Micron Technology
-  role: Intern - SSD Firmware - CICD
-  location: Longmont-MAX, CO
-  link: https://micron.wd1.myworkdayjobs.com/en-US/external/job/Longmont-MAX--Office-CO/Intern---SSD-Firmware---CICD_JR114542
-  date_posted: '2026-10-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:speedyapply
-  date_added: '2026-10-10'
-  last_verified: '2026-10-10'
-  possible_duplicate_of: null
-- id: applied-materials-2027-summer-intern-electrical-engineer-bs-ms-degree-santa-clara-df736f
-  company: Applied Materials
-  role: 2027 Summer Intern - Electrical Engineer - BS/MS Degree, (Santa Clara)
-  location: Santa Clara, CA
-  link: https://zapply.jobs/l/d/workday-amat-external-R2629428?s=gh-internships-2027
-  date_posted: '2026-10-09'
-  date_estimated: false
-  term: Summer 2027
-  degree:
-  - BS
-  status: open
-  sources:
-  - github_tracker:zapplyjobs
-  date_added: '2026-10-10'
-  last_verified: '2026-10-10'
-  possible_duplicate_of: null
 - id: applied-materials-2027-summer-intern-mechanical-engineer-bs-ms-degree-santa-clara-3c0991
   company: Applied Materials
   role: 2027 Summer Intern - Mechanical Engineer - BS/MS Degree, (Santa Clara)
@@ -12462,6 +12430,7 @@
   term: Summer 2027
   degree:
   - BS
+  - MS
   status: open
   sources:
   - github_tracker:zapplyjobs
@@ -12477,7 +12446,7 @@
   date_estimated: false
   term: Summer 2027
   degree:
-  - BS
+  - PhD
   status: open
   sources:
   - github_tracker:zapplyjobs
