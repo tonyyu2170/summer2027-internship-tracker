@@ -14,7 +14,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-25'
-  last_verified: '2026-10-11'
+  last_verified: '2026-10-12'
   possible_duplicate_of: null
 - id: marsh-mclennan-oliver-wyman-actuarial-internship-summer-2027-81466e
   company: Oliver Wyman
@@ -217,7 +217,7 @@
   - github_tracker:suryaharikrishnan
   - github_tracker:chieler
   date_added: '2026-09-03'
-  last_verified: '2026-10-11'
+  last_verified: '2026-10-12'
   possible_duplicate_of: null
 - id: manulife-summer-intern-2027-actuarial-us-04b366
   company: Manulife
@@ -251,7 +251,7 @@
   - github_tracker:chieler
   - github_tracker:suryaharikrishnan
   date_added: '2026-09-03'
-  last_verified: '2026-10-11'
+  last_verified: '2026-10-12'
   possible_duplicate_of: null
 - id: ameriprise-financial-actuarial-intern-1d05e3
   company: Ameriprise Financial
@@ -300,4 +300,20 @@
   - github_tracker:zapplyjobs
   date_added: '2026-10-08'
   last_verified: '2026-10-08'
+  possible_duplicate_of: null
+- id: fidelity-investments-summer-2027-undergraduate-internship-actuary-fdcaa6
+  company: Fidelity Investments
+  role: Summer 2027 Undergraduate Internship - Actuary
+  location: Westlake, TX
+  link: https://zapply.jobs/l/d/workday-fmr-fidelitycareers-2134100?s=gh-internships-2027
+  date_posted: '2026-10-12'
+  date_estimated: false
+  term: Summer 2027
+  degree:
+  - BS
+  status: open
+  sources:
+  - github_tracker:zapplyjobs
+  date_added: '2026-10-12'
+  last_verified: '2026-10-12'
   possible_duplicate_of: null
