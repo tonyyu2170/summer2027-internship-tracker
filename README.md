@@ -1,12 +1,12 @@
 # Summer 2027 Internship Tracker
 
-_Last updated: 2026-10-14 20:08 EST — 3266 open roles. Last scrape: +79 new, 29 closed._
+_Last updated: 2026-10-14 20:11 EST — 3265 open roles. Last scrape: +79 new, 30 closed._
 
 US-based Summer 2027 internships across six role categories. Every listing is US-only; individual locations are not tracked.
 
 ## Contents
 
-- [Software Engineering](#software-engineering) (1490 open)
+- [Software Engineering](#software-engineering) (1489 open)
 - [Quantitative Finance](#quantitative-finance) (198 open)
 - [Data Science](#data-science) (473 open)
 - [AI/ML](#aiml) (492 open)
@@ -37,7 +37,6 @@ US-based Summer 2027 internships across six role categories. Every listing is US
 | Microsoft | Cloud Network Engineering Internship Opportunities | [Apply](<https://apply.careers.microsoft.com/careers/job/1970393557037856>) | 2026-10-13 | Summer 2027 | BS |
 | Watts Water | End User & Infrastructure Support Intern, Summer 2027 | [Apply](<https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/Andover-MA-Federal-Street/IT-Network-Intern--Summer-2027_10017567>) | 2026-10-13 | Summer 2027 | BS |
 | Draper | Classified Cybersecurity/IT Internship (Summer 2027) | [Apply](<https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Classified-Cybersecurity-IT-Internship--Summer-2027-_JR003021>) | 2026-10-13 | Summer 2027 | BS |
-| Motorola Solutions | Software Engineer Co-op Intern - 2026/2027 | [Apply](<https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69641?s=gh-internships-2027>) | 2026-10-13 | Summer 2027 | BS |
 | GEI Consultants | Web Developer Intern | [Apply](<https://jobs.jobvite.com/gei-consultants/job/ogR5zfwv>) | 2026-10-13 | Summer 2027 | BS |
 | Armadin | Frontend Engineer Intern - Member of Technical Staff | [Apply](<https://jobs.ashbyhq.com/armadin/571d7673-ce4b-414c-b736-38297d1d2b8b/application?embed=true>) | 2026-10-13 | Summer 2027 | BS |
 | ServiceNow | AI Engineering Associate Software Engineer Intern | [Apply](<https://jobs.smartrecruiters.com/ServiceNow/744000155345889>) | 2026-10-13 | Summer 2027 | BS |
